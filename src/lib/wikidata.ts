@@ -48,7 +48,7 @@ async function fetchEntity(qid: string): Promise<Record<string, unknown>> {
   const json = await fetchJsonWithRetry(url);
   if (!json) throw new Error(`Wikidata fetch failed for ${qid}`);
   const data = json as { entities?: Record<string, unknown> };
-  return (data.entities[qid] ?? {}) as Record<string, unknown>;
+  return (data.entities?.[qid] ?? {}) as Record<string, unknown>;
 }
 
 /** Extract the English Wikipedia sitelink title from an entity. */
