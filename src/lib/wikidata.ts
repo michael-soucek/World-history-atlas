@@ -209,7 +209,7 @@ function enrichShortSummary(summary: string, sections: WikiSection[], fallback: 
  */
 export async function buildPlaceContent(qid: string, fallbackName: string, entityType: EntityType = "place"): Promise<PlaceContent> {
   const prebuilt = await getPrebuiltContentByQid(qid, entityType, fallbackName);
-  if (prebuilt?.summary) return prebuilt;
+  if (prebuilt?.summary && (prebuilt.sections?.length ?? 0) > 0) return prebuilt;
 
   const [entity, imageData] = await Promise.all([
     fetchEntity(qid).catch(() => ({} as Record<string, unknown>)),
@@ -239,9 +239,9 @@ export async function buildPlaceContent(qid: string, fallbackName: string, entit
     ? `https://en.wikipedia.org/wiki/${encodeURIComponent(wikipediaTitle).replace(/%20/g, "_")}`
     : undefined;
 
-  let summary = "";
+  let summary = prebuilt?.summary ?? "";
   let wikipediaUrl: string | undefined = sitelinkUrl;
-  let sections: WikiSection[] = [];
+  let sections: WikiSection[] = prebuilt?.sections ?? [];
 
   if (wikipediaTitle) {
     const { fetchWikipediaSummary, fetchWikipediaSections } = await import("./wikipedia");
@@ -256,7 +256,7 @@ export async function buildPlaceContent(qid: string, fallbackName: string, entit
     } else {
       // Wikipedia fetch failed — fall back to Wikidata description
       const descriptions = (entity.descriptions as Record<string, { value: string }>) ?? {};
-      summary = descriptions["en"]?.value ?? "";
+      summary = prebuilt?.summary || descriptions["en"]?.value || "";
     }
     if (sectionsResult.status === "fulfilled") {
       sections = sectionsResult.value;

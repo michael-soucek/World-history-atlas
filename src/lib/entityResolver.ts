@@ -73,6 +73,7 @@ interface RankedCandidate {
   label: string;
   sitelinksCount: number;
   statementsCount: number;
+  score: number;
 }
 
 const RESOLUTION_CACHE = new Map<string, EntityResolutionResult>();
@@ -121,7 +122,7 @@ function normaliseExact(s: string): string {
     .trim();
 }
 
-function humaniseSlug(slug: string): string {
+export function readableNameFromSlug(slug: string): string {
   const spaced = slug
     .replace(/^\/+|\/+$/g, "")
     .replace(/[-_]+/g, " ")
@@ -137,6 +138,27 @@ function humaniseSlug(slug: string): string {
       return w.charAt(0).toUpperCase() + w.slice(1);
     })
     .join(" ");
+}
+
+function scoreNameMatch(name: string, details: EntityDetails): number {
+  const target = normaliseExact(name);
+  const label = normaliseExact(details.label);
+  const aliases = details.aliases.map((a) => normaliseExact(a));
+
+  const exact = label === target || aliases.includes(target);
+  if (exact) return 1000;
+
+  const labelPrefix = label.startsWith(target) || target.startsWith(label);
+  const aliasPrefix = aliases.some((a) => a.startsWith(target) || target.startsWith(a));
+
+  const targetTokens = new Set(target.split(" ").filter(Boolean));
+  const labelTokens = new Set(label.split(" ").filter(Boolean));
+  const overlap = [...targetTokens].filter((t) => labelTokens.has(t)).length;
+  const tokenScore = targetTokens.size > 0 ? overlap / targetTokens.size : 0;
+
+  let score = Math.round(tokenScore * 100);
+  if (labelPrefix || aliasPrefix) score += 80;
+  return score;
 }
 
 function crosswalkForSlug(slug: string, entityType: EntityType): CrosswalkEntry | undefined {
@@ -322,7 +344,6 @@ async function resolveExactByName(
   name: string,
   entityType: EntityType,
 ): Promise<{ candidate: RankedCandidate | null; ambiguous: boolean; failReason?: string }> {
-  const target = normaliseExact(name);
   const candidateIds = await searchWikidataCandidates(name);
   if (candidateIds.length === 0) return { candidate: null, ambiguous: false, failReason: "no-exact-label" };
 
@@ -344,11 +365,8 @@ async function resolveExactByName(
     const details = await fetchEntityDetails(qid);
     if (!details) { bump("query-failed"); continue; }
 
-    // Check exact label/alias first so we can attribute failures correctly.
-    const exact =
-      normaliseExact(details.label) === target ||
-      details.aliases.some((a) => normaliseExact(a) === target);
-    if (!exact) { bump("no-exact-label"); continue; }
+    const nameScore = scoreNameMatch(name, details);
+    if (nameScore < 40) { bump("no-exact-label"); continue; }
 
     if (!details.hasEnwiki) { bump("no-enwiki"); continue; }
 
@@ -360,12 +378,16 @@ async function resolveExactByName(
       label: details.label || name,
       sitelinksCount: details.sitelinksCount,
       statementsCount: details.statementsCount,
+      score: nameScore,
     });
   }
 
   if (matches.length === 0) return { candidate: null, ambiguous: false, failReason: bestFailReason };
 
   const ranked = matches.sort((a, b) => {
+    if (b.score !== a.score) {
+      return b.score - a.score;
+    }
     if (b.sitelinksCount !== a.sitelinksCount) {
       return b.sitelinksCount - a.sitelinksCount;
     }
@@ -376,6 +398,7 @@ async function resolveExactByName(
     const top = ranked[0];
     const second = ranked[1];
     const ambiguous =
+      top.score === second.score &&
       top.sitelinksCount === second.sitelinksCount &&
       top.statementsCount === second.statementsCount;
     if (ambiguous) {
@@ -469,7 +492,7 @@ async function _resolveInner(
         const canonicalName =
           entityType === "place"
             ? getCanonicalNameByQid(crosswalkEntry.wikidataId) ?? details.label
-            : details.label || humaniseSlug(slug);
+            : details.label || readableNameFromSlug(slug);
 
         const resolved: EntityResolution = {
           wikidataId: crosswalkEntry.wikidataId,
@@ -489,7 +512,7 @@ async function _resolveInner(
   }
 
   // 3) Exact label/alias match + type guard + enwiki requirement.
-  const expectedName = humaniseSlug(slug);
+  const expectedName = readableNameFromSlug(slug);
   try {
     const exact = await resolveExactByName(expectedName, entityType);
     if (exact.ambiguous) {

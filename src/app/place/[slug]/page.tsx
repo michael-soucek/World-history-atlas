@@ -6,10 +6,11 @@ import HandwrittenTitle from "@/components/HandwrittenTitle";
 import type { CrosswalkEntry } from "@/types";
 import { CROSSWALK } from "@/data/crosswalk";
 import { buildPlaceContent } from "@/lib/wikidata";
-import { resolveEntityBySlugOrQid } from "@/lib/entityResolver";
+import { readableNameFromSlug, resolveEntityBySlugOrQid } from "@/lib/entityResolver";
 import { fetchWikipediaSearchSummary } from "@/lib/wikipedia";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
+import { DEFAULT_SOCIAL_IMAGE } from "@/lib/seo";
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -19,14 +20,6 @@ export const revalidate = 31536000;
 
 export async function generateStaticParams() {
   return Object.values(CROSSWALK).map((e) => ({ slug: e.slug }));
-}
-
-function humaniseSlug(slug: string): string {
-  return slug
-    .replace(/[-_]+/g, " ")
-    .split(" ")
-    .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
-    .join(" ");
 }
 
 // Always returns an object — never throws, never returns null.
@@ -40,7 +33,7 @@ const resolvePage = cache(async (slug: string): Promise<{
     const resolution = await resolveEntityBySlugOrQid(slug, "place");
     const resolved = resolution.resolved;
     if (!resolved) {
-      const canonicalName = humaniseSlug(slug);
+      const canonicalName = readableNameFromSlug(slug);
       const fallbackSummary = await fetchWikipediaSearchSummary(canonicalName).catch(() => null);
       return { entry: null, content: null, canonicalName, fallbackSummary };
     }
@@ -57,7 +50,7 @@ const resolvePage = cache(async (slug: string): Promise<{
       : null;
     return { entry, content, canonicalName, fallbackSummary };
   } catch {
-    const canonicalName = humaniseSlug(slug);
+    const canonicalName = readableNameFromSlug(slug);
     const fallbackSummary = await fetchWikipediaSearchSummary(canonicalName).catch(() => null);
     return { entry: null, content: null, canonicalName, fallbackSummary };
   }
@@ -78,13 +71,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     openGraph: {
       title: content.name,
       description: content.summary?.slice(0, 200),
-      images: content.imageUrl ? [{ url: content.imageUrl }] : [],
+      images: [{ url: content.imageUrl || DEFAULT_SOCIAL_IMAGE }],
       type: "article",
     },
     twitter: {
       card: "summary_large_image",
       title: content.name,
       description: content.summary?.slice(0, 200),
+      images: [content.imageUrl || DEFAULT_SOCIAL_IMAGE],
     },
   };
 }
@@ -96,7 +90,10 @@ export default async function PlacePage({ params }: Props) {
   const { entry, content } = result;
 
   // Graceful fallback: no content loaded, or label guard fired
-  const displayName = content?.labelMismatch ? (result.canonicalName ?? slug) : (content?.name ?? slug);
+  const readableSlugName = readableNameFromSlug(slug);
+  const displayName = content?.labelMismatch
+    ? (result.canonicalName || readableSlugName)
+    : (content?.name || result.canonicalName || readableSlugName);
   const searchName = encodeURIComponent(displayName);
 
   if (!content || content.labelMismatch || !entry) {

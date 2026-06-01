@@ -9,11 +9,12 @@ import {
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
 import { ERA_LIST, eraSlug } from "@/data/eras";
+import { buildPageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildPageMetadata({
   title: "Browse History — World History Atlas",
   description: "Browse empires, people, events, and cultures by era, region, or theme.",
-};
+});
 
 const REGIONS: { slug: string; label: string; Icon: LucideIcon }[] = [
   { slug: "europe",         label: "Europe",         Icon: Castle    },

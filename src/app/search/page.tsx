@@ -5,11 +5,12 @@ import SearchClient from "@/components/SearchClient";
 import { CROSSWALK } from "@/data/crosswalk";
 import { PEOPLE_CROSSWALK, EVENTS_CROSSWALK, CULTURES_CROSSWALK } from "@/data/entityCrosswalk";
 import type { SearchItem } from "@/lib/searchIndex";
+import { buildPageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildPageMetadata({
   title: "Search — World History Atlas",
   description: "Search across empires, people, events, and cultures in the World History Atlas.",
-};
+});
 
 export default function SearchPage() {
   // Build the static index at render time (server component — fast)

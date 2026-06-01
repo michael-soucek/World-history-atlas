@@ -7,6 +7,8 @@ import HandwrittenTitle from "@/components/HandwrittenTitle";
 import { ERA_LIST, eraFromSlug, eraSlug } from "@/data/eras";
 import { SNAPSHOT_YEARS, formatYear } from "@/data/snapshotYears";
 import { CROSSWALK } from "@/data/crosswalk";
+import { getEntityLifespan, overlapsEra } from "@/lib/entityTimeline";
+import { buildPageMetadata } from "@/lib/seo";
 
 interface Props { params: Promise<{ slug: string }> }
 
@@ -18,10 +20,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const era = eraFromSlug(slug);
   if (!era) return { title: "Era — World History Atlas" };
-  return {
+  return buildPageMetadata({
     title: `${era.label} Era — World History Atlas`,
     description: `Explore empires, events, and people from the ${era.label} era.`,
-  };
+  });
 }
 
 export default async function EraPage({ params }: Props) {
@@ -31,17 +33,27 @@ export default async function EraPage({ params }: Props) {
 
   const eraYears = SNAPSHOT_YEARS.filter(y => y >= era.start && y < era.end);
 
-  // Places that have entries in this era range (heuristic: include all places for now)
   // Deduplicate by slug so alias entries (e.g. "Eastern Roman Empire" / "Byzantine Empire")
   // don't produce duplicate React keys.
   const placesRaw = Object.entries(CROSSWALK)
     .map(([name, entry]) => ({ name, ...entry }));
   const seenSlugs = new Set<string>();
-  const places = placesRaw.filter(p => {
+  const uniquePlaces = placesRaw.filter(p => {
     if (seenSlugs.has(p.slug)) return false;
     seenSlugs.add(p.slug);
     return true;
-  }).slice(0, 20);
+  });
+
+  const placesWithLifespan = await Promise.all(
+    uniquePlaces.map(async (place) => {
+      const lifespan = await getEntityLifespan(place.wikidataId);
+      return { ...place, lifespan };
+    }),
+  );
+
+  const places = placesWithLifespan
+    .filter((place) => place.lifespan && overlapsEra(place.lifespan, era.start, era.end))
+    .slice(0, 20);
 
   const ERA_ACCENT: Record<string, { accent: string; dot: string; cardBorder: string; cardHover: string; hex: string }> = {
     Prehistoric:   { accent: "text-prehistoric",  dot: "bg-prehistoric",   cardBorder: "border-prehistoric/25",  cardHover: "hover:border-prehistoric/50", hex: "#6b5c50" },
