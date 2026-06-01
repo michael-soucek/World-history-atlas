@@ -1,0 +1,816 @@
+{
+  "generatedAt": "2026-06-01T01:44:39.440Z",
+  "entries": {
+    "Q11765": {
+      "qid": "Q11765",
+      "entityType": "place",
+      "name": "fee",
+      "summary": "price one pays as remuneration for services",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Fee"
+    },
+    "Q12280": {
+      "qid": "Q12280",
+      "entityType": "place",
+      "name": "bridge",
+      "summary": "structure that spans and provides a passage over a road, railway, river, or some other obstacle",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Bridge"
+    },
+    "Q2277": {
+      "qid": "Q2277",
+      "entityType": "place",
+      "name": "Roman Empire",
+      "summary": "period of ancient Rome following the Republic",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Roman_Empire"
+    },
+    "Q186077": {
+      "qid": "Q186077",
+      "entityType": "place",
+      "name": "Mädelegabel",
+      "summary": "subpeak of Hochfrottspitze in the Allgäu Alps at the border Tyrol, Austria, and Bavaria, Germany",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/M%C3%A4delegabel"
+    },
+    "Q41088": {
+      "qid": "Q41088",
+      "entityType": "place",
+      "name": "Cino",
+      "summary": "Italian comune",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Cino"
+    },
+    "Q9232": {
+      "qid": "Q9232",
+      "entityType": "place",
+      "name": "Jainism",
+      "summary": "Indian religion",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Jainism"
+    },
+    "Q188889": {
+      "qid": "Q188889",
+      "entityType": "place",
+      "name": "code",
+      "summary": "method to represent information for various purposes (storage, transmission, protection against unauthorized access etc.)",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Code"
+    },
+    "Q7209": {
+      "qid": "Q7209",
+      "entityType": "place",
+      "name": "Han dynasty",
+      "summary": "imperial dynasty in China from 202 BC to 220 AD",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Han_dynasty"
+    },
+    "Q135364": {
+      "qid": "Q135364",
+      "entityType": "place",
+      "name": "Olmecas",
+      "summary": "Mesoamerican civilization",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Olmecs"
+    },
+    "Q6343": {
+      "qid": "Q6343",
+      "entityType": "place",
+      "name": "Carthage",
+      "summary": "historical city in Tunisia",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Carthage"
+    },
+    "Q12557": {
+      "qid": "Q12557",
+      "entityType": "place",
+      "name": "Mongol Empire",
+      "summary": "13th- and 14th-century empire originating in Mongolia",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Mongol_Empire"
+    },
+    "Q9587": {
+      "qid": "Q9587",
+      "entityType": "place",
+      "name": "Final Cut Pro",
+      "summary": "Non-linear video editing software developed by Apple, Inc.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Final_Cut_Pro"
+    },
+    "Q8806": {
+      "qid": "Q8806",
+      "entityType": "place",
+      "name": "Getafe CF",
+      "summary": "Getafe Club de Fútbol S.A.D. (Spanish pronunciation: [xeˈtafe ˈkluβ ðe ˈfuðβol]) is a Spanish professional football club based in Getafe, a city in the Community of Madrid. They compete in La Liga, the top tier of the Spanish football. The team has played its home matches in the 16,500-capacity Estadio Coliseum since 1998.\nFounded in 1983, the club was promoted to La Liga for the first time in 2004, and participated in the top level of Spanish football for twelve years between 2004 and 2016, and again since 2017. The club maintain rivalries with neighbours Leganés, who are based near the town of Getafe, Atlético Madrid and Real Madrid.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Getafe_CF"
+    },
+    "Q9589": {
+      "qid": "Q9589",
+      "entityType": "place",
+      "name": "iTunes",
+      "summary": "iTunes is a media player, media library, and mobile device management (MDM) utility developed by Apple. It is used to purchase, play, download and organize digital multimedia on personal computers running the Windows (and formerly  macOS) operating systems, and can be used to rip songs from CDs as well as to play content from dynamic playlists. It includes options for sound optimization and wireless sharing.\niTunes was announced by Apple CEO Steve Jobs on January 9, 2001. Its original and main focus was music, with a library offering organization and storage of Mac users' music collections. With the addition in 2003 of the iTunes Store for purchasing and downloading digital music and a Windows version of the program, it became an ubiquitous tool for managing music and configuring other features on Apple's line of iPod media players, which extended to the iPhone and iPad upon their introduction. From 2005 on, Apple expanded its core music features with support for digital video, podcasts, e-books, and mobile apps purchased from the iOS App Store. The release of iOS 5 in 2011 made these devices less dependent on iTunes, though it could still be used to back up their contents.\nThough well received in its early years, iTunes received increasing criticism for a bloated user experience with the incorporation of non-music features. In October 2019, beginning with Macs running macOS Catalina, iTunes was replaced by separate apps, namely Music, Podcasts, and TV, with Finder taking over device management capabilities. In February 2024, most features of iTunes for Windows were split into the Apple TV, Music, and Apple Devices apps, while iTunes is still used for podcasts and audiobooks as there is currently no Windows version of Apple Podcasts. These changes did not affect older macOS versions (macOS Mojave and earlier), or users who prefer not to switch to the UWP-based apps on Windows; the iTunes program remains accessible for Music, Movies, TV Shows, Podcasts, Audiobooks on these platforms.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/ITunes"
+    },
+    "Q12131": {
+      "qid": "Q12131",
+      "entityType": "place",
+      "name": "disability",
+      "summary": "Disability is the experience of any condition that makes it more difficult for a person to do certain activities or have equitable access within a given society. Disabilities may be cognitive, developmental, intellectual, mental, physical, sensory, or a combination of multiple factors. Disabilities can be present from birth or can be acquired during a person's lifetime. Historically, disabilities have only been recognized based on a narrow set of criteria—however, disabilities are not binary and can present uniquely depending on the individual. A disability may be easily visible, or invisible in nature. The United Nations Convention on the Rights of Persons with Disabilities defines disability as including:\n\nlong-term physical, mental, intellectual or sensory impairments which in interaction with various barriers may hinder [a person's] full and effective participation in society on an equal basis with others.Disabilities have been perceived differently throughout history, through a variety of different theoretical lenses. There are two main models that attempt to explain disability in our society: the medical model and the social model. The medical model serves as a theoretical framework that considers disability as an undesirable medical condition that requires specialized treatment. Those who ascribe to the medical model tend to focus on finding the root causes of disabilities, as well as any cures—such as assistive technology. The social model centers disability as a societally-created limitation on individuals who do not have the same ability as the majority of the population. Those who ascribe to the social model tend to focus on accessibility and social/cultural attitudes toward disability. Although the medical model and social model are the most common frames for disability, there are a multitude of other models that theorize disability.\nLike many social categories, the concept of \"disability\" is under heavy discussion amongst academia, the medical and legal worlds, and the disability community. There are many terms that explain aspects of disability. While some terms solely exist to describe phenomena pertaining to disability, others have been centered around stigmatizing and ostracizing those with disabilities. Some terms have such a negative connotation that they are considered to be slurs. A point of contention is whether it is appropriate to use person-first language (i.e. a person who is disabled) or identity-first language (i.e. a disabled person) when referring to disability and an individual.\nDue to the marginalization of disabled people, there have been several activist causes that push for equitable treatment and access in society. Disability activists have fought to receive equal and equitable rights under the law—though there are still political issues that enable or advance the oppression of disabled people. Although disability activism serves to dismantle ableist systems, social norms relating to the perception of disabilities are often reinforced by tropes used by the media. Since negative perceptions of disability are pervasive in modern society, disabled people have turned to self-advocacy in an attempt to push back against their marginalization. The recognition of disability as an identity that is experienced differently based on the other multi-faceted identities of the individual is one often pointed out by disabled self-advocates. The ostracization of disability from mainstream society has created the opportunity for a disability culture to emerge. While disabled activists still promote the integration of disabled people into mainstream society, several disabled-only spaces have been created to foster a disability community—such as with art, social media, and sports.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Disability"
+    },
+    "Q150804": {
+      "qid": "Q150804",
+      "entityType": "place",
+      "name": "The Pianist",
+      "summary": "The Pianist is a 2002 epic biographical historical drama film co-produced and directed by Roman Polanski, with a script by Ronald Harwood, and starring Adrien Brody. It is based on the autobiographical book The Pianist (1946), a memoir by the Polish-Jewish pianist, composer and Holocaust survivor Władysław Szpilman. The film was a co-production by France, the United Kingdom, Germany and Poland.\nThe Pianist premiered at the 2002 Cannes Film Festival on 24 May 2002, where it won the Palme d'Or, and went into wide release that September; the film received widespread critical acclaim, with critics lauding Polanski's direction, Brody's performance and Harwood's screenplay.\nAt the 75th Academy Awards, the film won for Best Director (Polanski), Best Adapted Screenplay (Harwood), and Best Actor (Brody), and was nominated for four others, including Best Picture (it lost to Chicago). It also won the BAFTA Award for Best Film and BAFTA Award for Best Direction in 2003, and seven French Césars, including Best Picture, Best Director, and Best Actor for Brody. Since its release, the film has been widely acclaimed as one of the greatest films of the 21st century. In 2016, it appeared in BBC's 100 Greatest Films of the 21st Century.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/The_Pianist_(2002_film)"
+    },
+    "Q83381": {
+      "qid": "Q83381",
+      "entityType": "place",
+      "name": "1140s",
+      "summary": "The 1140s was a decade of the Julian Calendar which began on January 1, 1140, and ended on December 31, 1149.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/1140s"
+    },
+    "Q152526": {
+      "qid": "Q152526",
+      "entityType": "place",
+      "name": "Berliner",
+      "summary": "A Berliner or Krapfen is a German jam doughnut with no central hole, made from sweet yeast dough fried in lard or cooking oil, with a jam filling, and usually covered in powdered sugar or glazed.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Berliner_(doughnut)"
+    },
+    "Q12548": {
+      "qid": "Q12548",
+      "entityType": "place",
+      "name": "Holy Roman Empire",
+      "summary": "The Holy Roman Empire, also known as the Holy Roman Empire of the German Nation after 1512, was a polity comprising and controlling much of Central Europe and Western Europe, headed by the Holy Roman Emperor and characterized by a decentralized political structure. It developed in the Early Middle Ages (beginning in either 800 or 962), and lasted for a millennium until its dissolution in 1806 during the Napoleonic Wars. Initially, it consisted of three parts—Germany, Italy, and (from 1032) Burgundy—held together by the emperor's overlordship. By the 15th century, imperial governance had become concentrated in and upon the Kingdom of Germany, as the empire's effective control over Italy and Burgundy had largely disappeared.\nOn 25 December 800, Pope Leo III crowned Charlemagne (the Frankish king) as Roman Emperor, reviving the title more than three centuries after the fall of the Western Roman Empire in 476. The title had again lapsed by 924 but was revived again in 962 with the crowning of Otto of Saxony as emperor by Pope John XII.  Otto the Great (as he became known), was King of the Germans but as emperor he became Charlemagne's successor, ruling in lands that had been first brought together as the Carolingian Empire. From 962 until the 13th century, the empire was one of the most powerful monarchies in Europe. It depended on continuing cooperation between emperors and still relatively powerful and independent vassals. The empire reached its apex in terms of territorial expansion and power in the mid-13th century, under the House of Hohenstaufen, but this was an overextension and led to a partial collapse. \nThe imperial office was traditionally elected: mostly by a handful of (predominantly German) prince-electors and electors-spiritual (archbishops). In theory and diplomacy, the emperors were considered first amongst equals of Europe's (at least its Catholic) monarchies.\nA process of Imperial Reform in the late 15th and early 16th centuries transformed the empire, creating a set of institutions which endured until its final demise in the 19th century. On 6 August 1806, Emperor Francis II abdicated and formally dissolved the empire following the creation by French emperor Napoleon of the Confederation of the Rhine from German client states loyal to France. For most of its history, the Empire primarily consisted of the entirety of the modern countries of the Czech Republic, Belgium, the Netherlands, Luxembourg, Liechtenstein, Monaco, Switzerland, Slovenia, Germany, Austria, and large swathes of what is now eastern France, northern and central Italy, and western Poland.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Holy_Roman_Empire"
+    },
+    "Q12544": {
+      "qid": "Q12544",
+      "entityType": "place",
+      "name": "Byzantine Empire",
+      "summary": "The Byzantine Empire, also known as the Eastern Roman Empire, was the continuation of the Roman Empire centred on Constantinople during late antiquity and the Middle Ages. Having survived the events that caused the fall of the Western Roman Empire in the 5th century AD, it endured until the fall of Constantinople to the Ottoman Empire in 1453. The term 'Byzantine Empire' was coined only after its demise; its citizens used the term 'Roman Empire' and called themselves 'Romans'.\nDuring the early centuries of the Roman Empire, the western provinces were Latinised, but the eastern parts kept their Hellenistic culture. Constantine I (r. 324–337) legalised Christianity and moved the capital to Constantinople. Theodosius I (r. 379–395) made Christianity the state religion and Greek gradually replaced Latin for official use. The empire adopted a defensive strategy and, throughout its remaining history, experienced recurring cycles of decline and recovery.\nThe Byzantine Empire reached its greatest extent under the reign of Justinian I (r. 527–565), who briefly reconquered much of Italy and the western Mediterranean coast. A plague began around 541, and a prolonged warfare with Persia placed fiscal and military strain on the empire, contributing to political and strategic challenges in the decades that followed. In the 630s and 640s the Arab conquests defeated Byzantine field armies in Syria and Egypt, resulting in the permanent loss of those provinces to the Rashidun Caliphate. In 698, Africa was lost to the Umayyad Caliphate, but the empire stabilised under the Isaurian dynasty. It expanded once more under the Macedonian dynasty, experiencing a two-century-long renaissance. Thereafter, periods of civil war and Seljuk incursion resulted in the loss of most of Asia Minor. The empire recovered during the Komnenian restoration, and Constantinople remained the largest and wealthiest city in Europe until the 13th century, when it was overtaken by Paris.\nThe empire was severely fragmented in 1204, following the sack of Constantinople during the Fourth Crusade; its former territories were then divided into competing Greek rump states and Latin realms. Despite the eventual recovery of Constantinople in 1261, the reconstituted empire wielded only regional power during its final two centuries. Its remaining territories were progressively annexed by the Ottomans in a series of wars fought in the 14th and 15th centuries. The fall of Constantinople to the Ottomans in 1453 brought the empire to an end.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Byzantine_Empire"
+    },
+    "Q19609": {
+      "qid": "Q19609",
+      "entityType": "place",
+      "name": "noble gases",
+      "summary": "The noble gases (historically the inert gases, sometimes referred to as aerogens) are the members of group 18 of the periodic table: helium (He), neon (Ne), argon (Ar), krypton (Kr), xenon (Xe), radon (Rn) and, in some cases, oganesson (Og). Under standard conditions, the first six of these elements are odorless, colorless, monatomic gases with very low chemical reactivity and cryogenic boiling points. The properties of oganesson are uncertain.\nThe intermolecular force between noble gas atoms is the very weak London dispersion force, so their boiling points are all cryogenic, below 165 K (−108 °C; −163 °F).\nThe noble gases' inertness, or tendency not to react with other chemical substances, results from their electron configuration: their outer shell of valence electrons is \"full\", giving them little tendency to participate in chemical reactions. Only a few hundred noble gas compounds are known to exist. The inertness of noble gases makes them useful whenever chemical reactions are unwanted. For example, argon is used as a shielding gas in welding and as a filler gas in incandescent light bulbs. Helium is used to provide buoyancy in blimps and balloons. Helium and neon are also used as refrigerants due to their low boiling points. Industrial quantities of the noble gases, except for radon, are obtained by separating them from air using the methods of liquefaction of gases and fractional distillation. Helium is also a byproduct of the mining of natural gas. Radon is usually isolated from the radioactive decay of dissolved radium, thorium, or uranium compounds.\nThe seventh member of group 18 is oganesson, an unstable synthetic element whose chemistry is still uncertain because only five very short-lived atoms (t1/2 = 0.69 ms) have ever been synthesized (as of 2020). IUPAC uses the term \"noble gas\" interchangeably with \"group 18\" and thus includes oganesson; however, due to relativistic effects, oganesson is predicted to be a solid under standard conditions and reactive enough not to qualify functionally as \"noble\".",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Noble_gas"
+    },
+    "Q165092": {
+      "qid": "Q165092",
+      "entityType": "place",
+      "name": "Festuca heterophylla",
+      "summary": "Festuca heterophylla, the various-leaved fescue, is a species of perennial plant from family Poaceae that is native to southern Europe. It is also grows in Asia and in the US states of New York and Virginia.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Festuca_heterophylla"
+    },
+    "Q170384": {
+      "qid": "Q170384",
+      "entityType": "place",
+      "name": "operetta",
+      "summary": "type of dramatico-musical work",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Operetta"
+    },
+    "Q9903": {
+      "qid": "Q9903",
+      "entityType": "place",
+      "name": "Ming dynasty",
+      "summary": "imperial dynasty of China from 1368 to 1644",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Ming_dynasty"
+    },
+    "Q174193": {
+      "qid": "Q174193",
+      "entityType": "place",
+      "name": "United Kingdom of Great Britain and Ireland",
+      "summary": "historical sovereign state (1801–1922)",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/United_Kingdom_of_Great_Britain_and_Ireland"
+    },
+    "Q181686": {
+      "qid": "Q181686",
+      "entityType": "place",
+      "name": "André Mazon",
+      "summary": "French educationist, writer and professor"
+    },
+    "Q174295": {
+      "qid": "Q174295",
+      "entityType": "place",
+      "name": "penknife",
+      "summary": "small folding knife",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Penknife"
+    },
+    "Q12827": {
+      "qid": "Q12827",
+      "entityType": "place",
+      "name": "Beth Ditto",
+      "summary": "American singer",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Beth_Ditto"
+    },
+    "Q170037": {
+      "qid": "Q170037",
+      "entityType": "place",
+      "name": "balsamic vinegar",
+      "summary": "type of vinegar",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Balsamic_vinegar"
+    },
+    "Q205909": {
+      "qid": "Q205909",
+      "entityType": "place",
+      "name": "Circumpolar",
+      "summary": "Wikimedia disambiguation page",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Circumpolar"
+    },
+    "Q9471": {
+      "qid": "Q9471",
+      "entityType": "place",
+      "name": "epistemology",
+      "summary": "branch of philosophy studying the nature and scope of knowledge",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Epistemology"
+    },
+    "Q12542": {
+      "qid": "Q12542",
+      "entityType": "place",
+      "name": "Aztec",
+      "summary": "ethnic groups of central Mexico and their civilization",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Aztecs"
+    },
+    "Q35409": {
+      "qid": "Q35409",
+      "entityType": "place",
+      "name": "family",
+      "summary": "taxonomic rank (or a taxon at that rank) between order and genus",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Family_(taxonomy)"
+    },
+    "Q4948": {
+      "qid": "Q4948",
+      "entityType": "place",
+      "name": "Republic of Venice",
+      "summary": "former state (697–1797) controlling, at various times, parts of northeastern Italy, the Balkans, and Mediterranean islands",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Republic_of_Venice"
+    },
+    "Q170174": {
+      "qid": "Q170174",
+      "entityType": "place",
+      "name": "Papal States",
+      "summary": "territories mostly in the Appenine Peninsula under the sovereign direct rule of the pope between 756–1870",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Papal_States"
+    },
+    "Q70972": {
+      "qid": "Q70972",
+      "entityType": "place",
+      "name": "Kingdom of France",
+      "summary": "monarchical state that ruled France from 987 to 1792, and again from 1814 to 1848 (except during the Hundred Days in 1815)",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Kingdom_of_France"
+    },
+    "Q179876": {
+      "qid": "Q179876",
+      "entityType": "place",
+      "name": "Kingdom of England",
+      "summary": "historic kingdom on the British Isles (927–1649; 1660–1707)",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Kingdom_of_England"
+    },
+    "Q219567": {
+      "qid": "Q219567",
+      "entityType": "place",
+      "name": "hydrophobe",
+      "summary": "molecule that is seemingly repelled from a mass of water",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Hydrophobe"
+    },
+    "Q36": {
+      "qid": "Q36",
+      "entityType": "place",
+      "name": "Poland",
+      "summary": "country in Central Europe",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Poland"
+    },
+    "Q172107": {
+      "qid": "Q172107",
+      "entityType": "place",
+      "name": "Polish–Lithuanian Commonwealth",
+      "summary": "historical multinational monarchist state in Eastern Europe (Crown of the Kingdom of Poland and the Grand Duchy of Lithuania)",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Polish%E2%80%93Lithuanian_Commonwealth"
+    },
+    "Q12560": {
+      "qid": "Q12560",
+      "entityType": "place",
+      "name": "Ottoman Empire",
+      "summary": "multiethnic empire with the monarchs from the Ottoman dynasty (1299–1922)",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Ottoman_Empire"
+    },
+    "Q130969": {
+      "qid": "Q130969",
+      "entityType": "place",
+      "name": "Philip IV of France",
+      "summary": "King of France from 1285 to 1314 (1268–1314)",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Philip_IV_of_France"
+    },
+    "Q18234383": {
+      "qid": "Q18234383",
+      "entityType": "place",
+      "name": "Safavid Iran",
+      "summary": "historical empire that existed between 1501 and 1736",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Safavid_Iran"
+    },
+    "Q33296": {
+      "qid": "Q33296",
+      "entityType": "place",
+      "name": "Mughal Empire",
+      "summary": "great Turkic descent empire ruling India (1526–1857)",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Mughal_Empire"
+    },
+    "Q75197": {
+      "qid": "Q75197",
+      "entityType": "place",
+      "name": "Alexander Famulla",
+      "summary": "German footballer",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Alexander_Famulla"
+    },
+    "Q9396": {
+      "qid": "Q9396",
+      "entityType": "place",
+      "name": "Deutsche Telekom",
+      "summary": "partially privatized German telecommunications company",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Deutsche_Telekom"
+    },
+    "Q8733": {
+      "qid": "Q8733",
+      "entityType": "place",
+      "name": "Qing dynasty",
+      "summary": "Manchu-led dynasty of China (1644–1912)",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Qing_dynasty"
+    },
+    "Q28179": {
+      "qid": "Q28179",
+      "entityType": "place",
+      "name": "Joseon",
+      "summary": "Korean dynasty / kingdom (1392–1897)",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Joseon"
+    },
+    "Q170603": {
+      "qid": "Q170603",
+      "entityType": "place",
+      "name": "New Spain",
+      "summary": "viceroyalty of the Spanish Empire (1535-1821)",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/New_Spain"
+    },
+    "Q26241": {
+      "qid": "Q26241",
+      "entityType": "place",
+      "name": "Sabine Bau",
+      "summary": "German fencer",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Sabine_Bau"
+    },
+    "Q8680": {
+      "qid": "Q8680",
+      "entityType": "place",
+      "name": "British Empire",
+      "summary": "overseas possessions of England and later the United Kingdom (1607–1997)",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/British_Empire"
+    },
+    "Q170072": {
+      "qid": "Q170072",
+      "entityType": "place",
+      "name": "Dutch Republic",
+      "summary": "predecessor state of the Netherlands (1581–1795)",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Dutch_Republic"
+    },
+    "Q4765854": {
+      "qid": "Q4765854",
+      "entityType": "place",
+      "name": "Shan States",
+      "summary": "historic (1885-1948) name for Minor Kingdoms (analogous to Princely state of British India) ruled by Saopha (similar to Thai royal title Chao Fa Prince/Princess) in areas of today's Burma, China, Laos and Northern Thailand from c.1215 to c.1959",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Shan_States"
+    },
+    "Q27306": {
+      "qid": "Q27306",
+      "entityType": "place",
+      "name": "Kingdom of Prussia",
+      "summary": "The Kingdom of Prussia (German: Königreich Preußen, pronounced [ˈkøːnɪkʁaɪç ˈpʁɔʏsn̩] ) was a German state that existed from 1701 to 1918. It played a significant role in the unification of Germany in 1871 and was a major constituent of the German Empire until its dissolution in 1918. Although it took its name from the region called Prussia, it was based in the Margraviate of Brandenburg. Its capital was Berlin.\nThe kings of Prussia were from the House of Hohenzollern. The polity of Brandenburg-Prussia, predecessor of the kingdom, became a military power under Frederick William, Elector of Brandenburg, known as \"The Great Elector\". As a kingdom, Prussia continued its rise to power, especially during the reign of Frederick II \"the Great\". Frederick the Great was instrumental in starting the Seven Years' War (1756–1763), holding his own against Austria, Russia, France and Sweden and establishing Prussia's dominant role among the German states, as well as establishing the country as a European great power through the victories of the powerful Prussian Army. Prussia made attempts to unify all the German states (excluding the German cantons in Switzerland) under its rule, and whether Austria would be included in such a unified German domain became an ongoing question. After the Napoleonic Wars led to the creation of the German Confederation, the issue of unifying the German states caused the German revolutions of 1848–1849, with representatives from all states attempting to unify under their own constitution. Attempts to create a federation remained unsuccessful and the German Confederation collapsed in 1866 when the Austro-Prussian War ensued between its two most powerful member states.\nPrussia was subsequently the driving force behind establishing in 1866 the North German Confederation, transformed in 1871 into the unified German Empire and considered the earliest continual legal predecessor of today's Federal Republic of Germany. The North German Confederation was seen as more of an alliance of military strength in the aftermath of the Austro-Prussian War but many of its laws were later used in the German Empire. The German Empire successfully unified all of the German states aside from Austria and Switzerland under Prussian hegemony due to the defeat of Napoleon III in the Franco-Prussian War of 1870–1871. The war united all the German states against a common enemy, and with the victory came an overwhelming wave of nationalism, which changed the opinions of some of those who had been against unification.\nWith the German Revolution of 1918–1919, the Kingdom of Prussia was transformed into the Free State of Prussia. Prussia as a whole was abolished in 1947.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Kingdom_of_Prussia"
+    },
+    "Q34": {
+      "qid": "Q34",
+      "entityType": "place",
+      "name": "Sweden",
+      "summary": "Sweden, formally the Kingdom of Sweden, is a Nordic country located on the Scandinavian Peninsula in Northern Europe. It borders Norway to the west and north, and Finland to the east, and shares a maritime border with Denmark to the south. At 450,295 square kilometres (173,860 sq mi) and with a population of 10.6 million, Sweden is the largest and most populous Nordic country, and is the fifth-largest country in Europe. Its capital and largest city is Stockholm. The population density is 25.5 inhabitants per square kilometre (66/sq mi), and 88% of Swedes reside in urban areas, mostly in the southern and central portions of the country. Sweden's urban areas together cover 1.5% of its land area. Sweden has a diverse climate owing to the length of the country, which ranges from 55°N to 69°N.\nSweden has been inhabited since prehistoric times around 12,000 BC. The inhabitants emerged as the Geats (Swedish: Götar) and Swedes (Svear), who formed part of the sea-faring peoples known as the Norsemen. A unified Swedish state was established during the late 10th century. In 1397, Sweden joined Norway and Denmark to form the Scandinavian Kalmar Union, which Sweden left in 1523. When Sweden became involved in the Thirty Years' War on the Protestant side, an expansion of its territories began, forming the Swedish Empire, which remained one of the great powers of Europe until the early 18th century. During this era Sweden controlled much of the Baltic Sea. Most of the conquered territories outside the Scandinavian Peninsula were lost during the 18th and 19th centuries. The eastern half of Sweden, present-day Finland, was lost to Imperial Russia in 1809. The last war in which Sweden was directly involved was in 1814, when Sweden by military means forced Norway into a personal union, a union which lasted until 1905.\nSweden is a highly developed country ranked fifth in the Human Development Index. It is a constitutional monarchy and a parliamentary democracy, with legislative power vested in the 349-member unicameral Riksdag. It is a unitary state, divided into 21 counties and 290 municipalities. Sweden maintains a Nordic social welfare system that provides universal health care and tertiary education for its citizens. It has the world's 14th highest GDP per capita and ranks very highly in quality of life, health, education, protection of civil liberties, economic competitiveness, income equality, gender equality and prosperity. Sweden joined the European Union in 1995, and in response to the 2022 Russian invasion of Ukraine, NATO in 2024. It is also a member of the United Nations, the Schengen Area, the Council of Europe, the Nordic Council, the World Trade Organization and the Organisation for Economic Co-operation and Development (OECD).",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Sweden"
+    },
+    "Q35": {
+      "qid": "Q35",
+      "entityType": "place",
+      "name": "Denmark",
+      "summary": "Denmark is a Nordic country in Northern Europe. It is the metropole and most populous constituent of the Kingdom of Denmark, also known as the Danish Realm, a constitutionally unitary state that includes the autonomous territories of the Faroe Islands and Greenland in the north Atlantic Ocean. Metropolitan Denmark, also called \"continental Denmark\" or \"Denmark proper\", consists of the northern Jutland peninsula and an archipelago of 406 islands. It is the southernmost of the Scandinavian countries, lying southwest of Sweden, south of Norway, and north of Germany, with which it shares a short border. Denmark proper is situated between the North Sea to the west and the Baltic Sea to the east.\nThe Kingdom of Denmark, including the Faroe Islands and Greenland, has roughly 1,400 islands greater than 100 square metres (1,100 sq ft) in area; 443 have been named and 78 are inhabited. Denmark's population is over 6 million (1 May 2025), of which roughly 40% live in Zealand, (Sjælland) the largest and most populated island in Denmark proper; Copenhagen, (København) the capital and largest city of the Danish Realm, is situated on Zealand and Amager and Slotsholmen. Composed mostly of flat, arable land, Denmark is characterised by sandy coasts, low elevation, and a temperate climate. Denmark exercises hegemonic influence in the Danish Realm, devolving powers to the other constituent entities to handle their internal affairs. Home rule was established in the Faroe Islands in 1948; Greenland achieved home rule in 1979 and further autonomy in 2009. \nThe unified Kingdom of Denmark emerged in the eighth century AD as a maritime power amid the struggle for control of the Baltic Sea. In 1397, it formed the Kalmar Union with Norway and Sweden. This union persisted until Sweden's secession in 1523. The remaining Kingdom of Denmark–Norway endured a series of wars in the 17th century that resulted in territorial cessions to Sweden. A surge of nationalist movements in the 19th century were defeated by the Danes in the First Schleswig War of 1848. The adoption of the Constitution of Denmark on 5 June 1849 ended the absolute monarchy. In the Second Schleswig War Denmark lost Schleswig-Holstein, which led to changes in Danish politics henceforth emphasising social cohesion in the diminished realm, as well as the clearing of the vast moors of Jutland for agriculture, new Christian movements split between Indre Mission and Grundtvig, but generally a stronger self-perception among the people of belonging to a unified country and state. In 1920, North Schleswig became Danish again.\nDenmark began industrialising in the mid 19th century, becoming a major agricultural exporter. It introduced social and labour market reforms in the early 20th century, forming the basis for the present welfare state model and advanced mixed economy. Denmark remained neutral during World War I; Danish neutrality was violated in World War II by a rapid German invasion in April 1940. During occupation, a resistance movement emerged in 1943, while Iceland declared independence in 1944; Denmark was liberated after the end of the war in May 1945. In 1973, Denmark, together with Greenland but not the Faroe Islands, became a member of what is now the European Union; however, it negotiated certain opt-outs, such as retaining its own currency, the krone.\nDenmark is a developed country with an advanced high-income economy, high standard of living, and robust social welfare policies. Danish culture and society are broadly progressive egalitarian, and socially liberal; Denmark was the first country to legally recognise same-sex partnerships. It is a founding member of NATO, the Nordic Council, the OECD, the OSCE, the Council of Europe and the United Nations, and is part of the Schengen Area. Denmark maintains close political, cultural, and linguistic ties with its Scandinavian neighbours.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Denmark"
+    },
+    "Q159": {
+      "qid": "Q159",
+      "entityType": "place",
+      "name": "Russia",
+      "summary": "Russia, officially the Russian Federation, is a country in Eastern Europe and North Asia. It is the largest country in the world, spanning eleven time zones and sharing land borders with fourteen countries. With a population of over 140 million, Russia is the most populous country in Europe and the ninth-most populous in the world. It is a highly urbanised country, with sixteen of its urban areas having more than 1 million inhabitants. Moscow, the most populous metropolitan area in Europe, is the capital and largest city of Russia, while Saint Petersburg is its second-largest city and a major cultural centre.\nHuman settlement on modern Russian territory dates back to the Lower Paleolithic. The emergence of the East Slavs as a prominent group in Europe between the 3rd and 8th centuries AD led to the establishment of Kievan Rus' in the 9th century, which adopted Orthodox Christianity from the Byzantine Empire in 988. Following its disintegration, the late medieval Grand Principality of Moscow led the unification of Russian lands, culminating in the formation of the Tsardom of Russia in 1547. By the early 18th century, Russia had expanded vastly through conquest, annexation, and the efforts of Russian explorers. It was proclaimed as the Russian Empire in 1721, which became the third-largest empire in history. The Russian Revolution of 1917 led to the abolition of the Russian monarchy and the creation of the Russian SFSR, the first socialist state. Following the Russian Civil War, Russia became the largest and principal constituent of the newly established Soviet Union in 1922. Amidst rapid industrialisation in the 1930s, millions died under Joseph Stalin. The Soviet Union played a decisive role for the Allies in World War II by leading large-scale efforts on the Eastern Front. During the Cold War, it emerged as a superpower and competed with the United States for ideological dominance. The Soviet era saw some of the most significant Russian technological achievements, including the first human-made satellite and the first human expedition into outer space. \nIn 1991, the Russian SFSR emerged from the dissolution of the Soviet Union as the Russian Federation. Following a constitutional crisis in 1993, a new constitution was adopted, establishing a semi-presidential republic. Since the turn of the century, Russia's political system has been dominated by Vladimir Putin, under whose leadership it has experienced democratic backsliding, transforming into an authoritarian regime. Russia has been militarily involved in numerous conflicts, including its war with Georgia in 2008 and its war with Ukraine since 2014, which in the latter has involved the internationally unrecognised annexation of Crimea in 2014 and four additional regions following the 2022 Russian invasion of Ukraine, resulting in a full-scale war.\nRussia is generally considered a great power and wields significant regional influence in Europe, possessing the largest stockpile of nuclear weapons and having the third-highest military expenditure in the world. Its economy ranks among the largest in the world, relying on its vast mineral and energy resources, mainly oil and natural gas. Russia continues to rank very low in measurements of democracy, human rights and media freedom, while having high levels of corruption. As the successor state of the Soviet Union, it retains its seat as a permanent member of the United Nations Security Council and is a member state of several international organisations. Russia is also home to 32 UNESCO World Heritage Sites.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Russia"
+    },
+    "Q34266": {
+      "qid": "Q34266",
+      "entityType": "place",
+      "name": "Russian Empire",
+      "summary": "The Russian Empire was the final period of the Russian monarchy, spanning most of northern Eurasia from its establishment in November 1721 until the proclamation of the Russian Republic in September 1917. At its height in the late 19th century, it covered about 22,800,000 km2 (8,800,000 sq mi), roughly one-sixth of the world's landmass, making it the third-largest empire in history, behind only the British and Mongol empires. It also colonized Alaska between 1799 and 1867. The empire's 1897 census, the only one it conducted, found a population of 125.6 million with considerable ethnic, linguistic, religious, and socioeconomic diversity.\nFrom the 10th to 17th century, the Russian lands were dominated by a noble class known as the boyars, above whom stood the grand prince and later the tsar, an absolute monarch. The groundwork of the Russian Empire was laid by Ivan III (r. 1462–1505), who greatly expanded his domain, established a centralized Russian national state, and secured independence from the Tatars. His grandson, Ivan IV (r. 1533–1584), became in 1547 the first Russian monarch to be crowned tsar of all Russia. Between 1550 and 1700, the Russian state grew by an average of 35,000 km2 (14,000 sq mi) per year. Peter I transformed the tsardom into an empire, and fought numerous wars that turned a vast realm into a major European power. He moved the Russian capital from Moscow to the new model city of Saint Petersburg, and led a cultural revolution that introduced a modern, scientific, rationalist, and Western-oriented system. Catherine the Great (r. 1762–1796) presided over further expansion of the Russian state by conquest, colonization, and diplomacy, while continuing Peter's policy of modernization. Alexander I (r. 1801–1825) helped defeat the militaristic ambitions of Napoleon and subsequently constituted the Holy Alliance, which aimed to restrain the rise of secularism and liberalism across Europe. Russia further expanded to the west, south, and east, strengthening its position as a European power. Its victories in the Russo-Turkish Wars were later checked by defeat in the Crimean War (1853–1856), leading to a period of reform and conquests in Central Asia. Alexander II (r. 1855–1881) initiated numerous reforms, most notably the 1861 emancipation of all 23 million serfs.\nBy the start of the 19th century, Russian territory extended from the Arctic Ocean in the north to the Black Sea in the south, and from the Baltic Sea in the west to Alaska, Hawaii, and California in the east. By the end of the 19th century, Russia had expanded its control over the Caucasus, most of Central Asia and parts of Northeast Asia. Notwithstanding its extensive territorial gains and great power status, the empire entered the 20th century in a perilous state. The devastating Russian famine of 1891–1892 killed hundreds of thousands and led to popular discontent. As the last remaining absolute monarchy in Europe, the empire saw rapid political radicalization and the growing popularity of revolutionary ideas such as communism. After the Russian Revolution of 1905, the last emperor, Nicholas II (r. 1894–1917), authorized the creation of a national parliament, the State Duma, though ultimate political authority remained with him.\nWhen Russia entered the First World War on the side of the Allies, it suffered a series of defeats that further galvanized the population against the emperor. In 1917, mass unrest among the population and mutinies in the army culminated in the February Revolution, which led to the abdication of Nicholas II, the formation of the Russian Provisional Government, and the proclamation of the first Russian Republic. Political dysfunction, continued involvement in the widely unpopular war, and widespread food shortages resulted in mass demonstrations against the government in July. The republic was overthrown in the October Revolution by the Bolsheviks, who proclaimed the Russian Socialist Federative Soviet Republic and whose Treaty of Brest-Litovsk ended Russia's involvement in the war, but who nevertheless were opposed by various factions known collectively as the Whites. After emerging victorious in the Russian Civil War, the Bolsheviks established the Soviet Union across most of the Russian territory; Russia was one of four continental European empires to collapse as a result of World War I, along with Germany, Austria–Hungary, and the Ottoman Empire.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Russian_Empire"
+    },
+    "Q40694": {
+      "qid": "Q40694",
+      "entityType": "place",
+      "name": "ha",
+      "summary": "Ha (hiragana: は, katakana: ハ) is one of the Japanese kana, each of which represent one mora. Both represent [ha]. They are also used as a grammatical particle (in such cases, they denote [wa], including in the greeting \"konnichi wa\") and serve as the topic marker of the sentence. は originates from 波 and ハ from 八.\nIn the Sakhalin dialect of the Ainu language, the katakana ハ can be written as small ㇵ to represent a final h sound after an a sound (アㇵ ah). This, along with other extended katakana, was developed by Japanese linguists to represent sounds in Ainu not present in standard Japanese katakana.\nWhen used as a particle, は is pronounced as わ [wa]. は is also pronounced as わ in some words (e.g. もののあはれ pronounced as mono no aware).",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Ha_(kana)"
+    },
+    "Q142": {
+      "qid": "Q142",
+      "entityType": "place",
+      "name": "France",
+      "summary": "France, officially the French Republic, is a country primarily located in Western Europe. Its overseas regions and territories include French Guiana in South America, Saint Pierre and Miquelon in the North Atlantic, the French West Indies, and many islands in Oceania and the Indian Ocean. Metropolitan France shares borders with Belgium and Luxembourg to the north; Germany to the northeast; Switzerland to the east; Italy and Monaco to the southeast; Andorra and Spain to the south; and a maritime border with the United Kingdom to the northwest. Its metropolitan area extends from the Rhine to the Atlantic Ocean and from the Mediterranean Sea to the English Channel and the North Sea. Its 18 integral regions—five of which are overseas—span a combined area of 632,702 km2 (244,288 sq mi), with a total population estimated at over 69.1 million in 2026. Its capital, largest city and main cultural and economic centre is Paris.\nMetropolitan France was settled during the Iron Age by Celtic tribes known as Gauls before Rome annexed the area in 51 BC, leading to a distinct Gallo-Roman culture. In the Early Middle Ages, the Franks formed the kingdom of Francia, which became the heartland of the Carolingian Empire. The Treaty of Verdun of 843 partitioned the empire, with West Francia evolving into the Kingdom of France. In the High Middle Ages, France was a powerful but decentralised feudal kingdom, but from the mid-14th to the mid-15th centuries, France was plunged into a dynastic conflict with England known as the Hundred Years' War. In the 16th century, French culture flourished during the French Renaissance, and a French colonial empire emerged. Internally, France was dominated by the conflict with the House of Habsburg and the French Wars of Religion between Catholics and Huguenots. France was successful in the Thirty Years' War and further increased its influence during the reign of Louis XIV.\nThe French Revolution of 1789 overthrew the Ancien Régime and produced the Declaration of the Rights of Man, which expresses the nation's ideals to this day. France reached its political and military zenith in the early 19th century under Napoleon Bonaparte, subjugating much of continental Europe and establishing the First French Empire. Its collapse initiated a period of relative decline during which France endured the Bourbon Restoration until the founding of the French Second Republic, which was succeeded by the Second French Empire upon Napoleon III's takeover. His empire collapsed during the Franco-Prussian War in 1870. This led to the establishment of the French Third Republic, and a period of economic prosperity and cultural and scientific flourishing known as the Belle Époque. France was one of the major participants of World War I, from which it emerged victorious at great human and economic cost. It was among the Allies of World War II, but it surrendered and was occupied by Germany in 1940. Following its liberation in 1944, the short-lived Fourth Republic was established and later dissolved over the course of the Algerian War. The current Fifth Republic, a semi-presidential system, was formed in 1958 by Charles de Gaulle. Algeria and most French colonies became independent in the 1960s, with the majority retaining close economic and military ties with France.\nFrance retains its centuries-long status as a global centre of art, science, cuisine and philosophy. It hosts the fourth-largest number of UNESCO World Heritage Sites, with 54 in total, and is the world's leading tourist destination, having received 102 million foreign visitors in 2025. A developed country, France has a high nominal per capita income globally, and its economy ranks among the largest in the world by both nominal GDP and PPP-adjusted GDP. It is a great power, being one of the five permanent members of the United Nations Security Council and an official nuclear-weapon state. The country is part of multiple international organisations and forums.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/France"
+    },
+    "Q43287": {
+      "qid": "Q43287",
+      "entityType": "place",
+      "name": "German Empire",
+      "summary": "The German Empire (German: Deutsches Reich), also referred to as Imperial Germany, the Second Reich, or simply Germany, was the period of the German Reich from the unification of Germany in 1871 until the November Revolution in 1918, when Germany changed its form of government to a republic. The German Empire consisted of 25 states, each with its own nobility: four constituent kingdoms, six grand duchies, five duchies (six before 1876), seven principalities, three free Hanseatic cities, and one imperial territory. While Prussia was only one of the four kingdoms in the realm, it contained about two-thirds of the Empire's population and territory, and Prussian dominance was also constitutionally established, since the King of Prussia was also the German Emperor (Deutscher Kaiser).\nThe empire was founded on 18 January 1871, when the south German states, except for Austria, Switzerland and Liechtenstein, joined the North German Confederation. The new constitution came into force on 16 April, changing the name of the federal state to the German Empire and introducing the title of German Emperor for Wilhelm I, King of Prussia from the House of Hohenzollern. Berlin remained its capital, and Otto von Bismarck, Minister President of Prussia, became chancellor, the head of government. During its 47 years of existence, the German Empire became an industrial, technological, and scientific power in Europe, and by 1913, Germany was the largest economy in continental Europe and the third largest in the world. The success of the German Empire in the natural sciences was such that one-third of all Nobel Prizes went to German inventors and researchers. Germany also became a great power, building Europe's most extensive rail network, the world's strongest army, and a fast-growing industrial base. Starting very small in 1871, in a decade, the navy became second only to Britain's Royal Navy.\nOtto von Bismarck served as the first and longest-tenured chancellor of the German Empire from 1871 to 1890. His tenure began with relatively liberal measures and broad reforms but gradually shifted toward conservatism, marked by the Kulturkampf against the Catholic Church. In foreign affairs, Bismarck concluded the Dual Alliance with Austria-Hungary in 1879, expanded into the Triple Alliance with Italy in 1882, while also fostering close ties to the Ottoman Empire. Despite denouncing liberals and socialists as \"enemies of the Reich\", he introduced pioneering social programs that laid the foundation for the modern European welfare state. In the 1880s, Germany entered the colonial race despite Bismarck's earlier reluctance, acquiring territories in Africa, the Pacific, and China and building the world's third-largest colonial empire after the British and French. Following his dismissal in 1890, Wilhelm II pursued Weltpolitik (\"world politics\"), a more aggressive and expansionist course that abandoned Bismarck's complex alliance system, leaving Germany increasingly isolated. When the July Crisis of 1914 escalated into the First World War, Italy distanced itself from the Triple Alliance while the Ottoman Empire aligned with Germany. The emperor's inconsistent and often unpredictable decisions contributed to the tensions that culminated in the outbreak of the war.\nIn the First World War, German plans to capture Paris quickly failed, and the war on the Western Front became a stalemate. The Allied naval blockade caused severe shortages of food and supplements. However, Imperial Germany had success on the Eastern Front; it occupied a large amount of territory to its east following the Treaty of Brest-Litovsk. The German declaration of unrestricted submarine warfare in early 1917 contributed to bringing the United States into the war. In October 1918, after the failed Spring Offensive, the German armies were in retreat, allies Austria-Hungary and the Ottoman Empire had collapsed, and Bulgaria had surrendered. The empire collapsed in the November 1918 Revolution with the abdication of Wilhelm II, which left the postwar federal republic to govern a devastated populace. The Treaty of Versailles imposed postwar reparation costs of 132 billion gold marks (around US$269 billion or €240 billion in 2019, or roughly US$32 billion in 1921), as well as limiting the army to 100,000 men and disallowing conscription, armored vehicles, submarines, aircraft, and more than six battleships. The consequential economic devastation, later exacerbated by the Great Depression, as well as humiliation and outrage experienced by the German population are considered leading factors in the rise of Adolf Hitler and Nazism.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/German_Empire"
+    },
+    "Q28513": {
+      "qid": "Q28513",
+      "entityType": "place",
+      "name": "Austria–Hungary",
+      "summary": "Austria-Hungary, also referred to as the Austro-Hungarian Empire and officially as the Austro-Hungarian Monarchy, was a multi-national constitutional dual empire in Central Europe between 1867 and 1918. A military and diplomatic alliance, it consisted of two sovereign states with a single monarch who was titled both the Emperor of Austria and the Apostolic King of Hungary. Austria-Hungary constituted the last phase in the constitutional evolution of the Habsburg monarchy: it was formed with the Austro-Hungarian Compromise of 1867 in the aftermath of the Austro-Prussian War, following wars of independence by Hungary (primarily Rákóczi's War of Independence of 1703–1711 and the Hungarian Revolution of 1848–1849) in opposition to Habsburg rule. It was dissolved shortly after Hungary terminated the union with Austria in 1918 at the end of World War I.\nAustria-Hungary was one of Europe's major powers, and was the second-largest country in Europe in area (after Russia) and the third-most populous (after Russia and the German Empire), while being among the 10 most populous countries worldwide. The Empire built up the fourth-largest machine-building industry in the world. With the exception of the territory of the Bosnian Condominium, the Empire of Austria and the Kingdom of Hungary were separate sovereign countries in international law.\nAt its core was the dual monarchy, which was a real union between Cisleithania, the northern and western parts of the former Austrian Empire, and Transleithania, which corresponded to the medieval territories of the Kingdom of Hungary. Following the 1867 reforms, the Austrian and Hungarian states were co-equal in power. The two countries conducted unified diplomatic and defence policies. For these purposes, \"common\" ministries of foreign affairs and defence were maintained under the monarch's direct authority, as was a third finance ministry responsible only for financing the two \"common\" portfolios. A third component of the union was the Kingdom of Croatia-Slavonia, an autonomous region under the Hungarian crown, which negotiated the Croatian–Hungarian Settlement in 1868. After 1878, Bosnia and Herzegovina came under Austro-Hungarian joint military and civilian rule until it was fully annexed in 1908, provoking the Bosnian crisis.\nAustria-Hungary was one of the Central Powers in World War I, which began with an Austro-Hungarian war declaration on the Kingdom of Serbia on 28 July 1914. It was already effectively dissolved by the time the military authorities signed the armistice of Villa Giusti on 3 November 1918. The Kingdom of Hungary and the First Austrian Republic were treated as its successors de jure, whereas the independence of the First Czechoslovak Republic, the Second Polish Republic, and the Kingdom of Yugoslavia, respectively, and most of the territorial demands of the Kingdom of Romania and the Kingdom of Italy were also recognized by the victorious powers in 1920.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Austria-Hungary"
+    },
+    "Q7318": {
+      "qid": "Q7318",
+      "entityType": "place",
+      "name": "Nazi Germany",
+      "summary": "Nazi Germany, officially the German Reich and later the Greater German Reich, was the German state between 1933 and 1945, when Adolf Hitler and the Nazi Party controlled the country, transforming it into a totalitarian dictatorship. The Third Reich, meaning \"Third Realm\" or \"Third Empire\", referred to the Nazi claim that Nazi Germany was the successor to the Holy Roman Empire (800–1806) and the German Empire (1871–1918). The Third Reich, which the Nazis referred to as the Thousand-Year Reich, ended in May 1945, after 12 years, when the Allies defeated Germany and entered the capital, Berlin, ending World War II in Europe.\nAfter Hitler was appointed Chancellor of Germany in 1933, the Nazi Party began to eliminate political opposition and consolidate power. A 1934 referendum confirmed Hitler as sole Führer (leader). Power was centralised in Hitler's person, and his word became the highest law. The government was not a coordinated, cooperating body, but rather a collection of factions struggling to amass power. To address the Great Depression, the Nazis used heavy military spending, extensive public works projects, including the Autobahnen (motorways), and a massive secret rearmament programme, forming the Wehrmacht (armed forces), all financed by deficit spending. The return to economic stability and end of mass unemployment boosted the regime's popularity. Hitler made increasingly aggressive territorial demands, seizing Austria in the Anschluss of 1938 and the Sudetenland region of Czechoslovakia. Germany signed a non-aggression pact with the Soviet Union and invaded Poland in 1939, launching World War II in Europe. In alliance with Fascist Italy and other Axis powers, Germany conquered most of Europe by 1940, but failed to subdue Britain.\nRacism, Nazi eugenics, anti-Slavism, and especially antisemitism were central ideological features of the regime. The Nazis considered Germanic peoples to be the \"master race\", the purest branch of the Aryan race. Jews, Romani people, Slavs, homosexuals, liberals, socialists, communists, other political opponents, Jehovah's Witnesses, Freemasons, those who refused to work and other \"undesirables\" were imprisoned, deported or murdered. Christian churches and citizens that opposed Hitler's rule were oppressed and opposition leaders were imprisoned. Education focused on racial biology, population policy and fitness for military service. Career and educational opportunities for women were curtailed. The Nazi Propaganda Ministry disseminated films and antisemitic canards, and organised mass rallies, fostering a pervasive cult of personality around Hitler to influence public opinion. The government controlled artistic expression, promoting specific art forms and banning or discouraging others. Genocide, mass murder and large-scale forced labour became hallmarks of the regime; the implementation of its racial policies culminated in the Holocaust.\nAfter invading the Soviet Union in 1941, Nazi Germany implemented the Generalplan Ost and Hunger Plan, as part of its war of extermination in Eastern Europe. The Soviet resurgence and entry of the United States into the war meant Germany lost the initiative in 1943, and by late 1944, had been pushed back to the 1939 border. Large-scale aerial bombing of Germany escalated, and the Axis powers were driven back in Eastern and Southern Europe. Germany was conquered by the Soviet Union from the east and the other allies from the west, and capitulated in 1945. Hitler's refusal to admit defeat led to massive destruction of German infrastructure and additional war-related deaths in the closing months of the war. The Allies subsequently initiated a policy of denazification and put many of the surviving Nazi leadership on trial for war crimes at the Nuremberg trials.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Nazi_Germany"
+    },
+    "Q145": {
+      "qid": "Q145",
+      "entityType": "place",
+      "name": "United Kingdom",
+      "summary": "island country in north-west Europe",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/United_Kingdom"
+    },
+    "Q30": {
+      "qid": "Q30",
+      "entityType": "place",
+      "name": "United States",
+      "summary": "country located primarily in North America",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/United_States"
+    },
+    "Q18171": {
+      "qid": "Q18171",
+      "entityType": "place",
+      "name": "school discipline",
+      "summary": "types of disciplinary actions used by schools against students",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/School_discipline"
+    },
+    "Q96": {
+      "qid": "Q96",
+      "entityType": "place",
+      "name": "Mexico",
+      "summary": "country in North America",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Mexico"
+    },
+    "Q155": {
+      "qid": "Q155",
+      "entityType": "place",
+      "name": "Brazil",
+      "summary": "country in South America",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Brazil"
+    },
+    "Q414": {
+      "qid": "Q414",
+      "entityType": "place",
+      "name": "Argentina",
+      "summary": "country in South America",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Argentina"
+    },
+    "Q79": {
+      "qid": "Q79",
+      "entityType": "place",
+      "name": "Egypt",
+      "summary": "country in Northeast Africa and Southwest Asia",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Egypt"
+    },
+    "Q115": {
+      "qid": "Q115",
+      "entityType": "place",
+      "name": "Ethiopia",
+      "summary": "country in the Horn of Africa",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Ethiopia"
+    },
+    "Q180003": {
+      "qid": "Q180003",
+      "entityType": "place",
+      "name": "American National Standards Institute",
+      "summary": "American standards development organization",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/American_National_Standards_Institute"
+    },
+    "Q33747": {
+      "qid": "Q33747",
+      "entityType": "place",
+      "name": "Babe Island",
+      "summary": "island in South Georgia and the South Sandwich Islands",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Babe_Island"
+    },
+    "Q17": {
+      "qid": "Q17",
+      "entityType": "place",
+      "name": "Japan",
+      "summary": "island country in East Asia",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Japan"
+    },
+    "Q668": {
+      "qid": "Q668",
+      "entityType": "place",
+      "name": "India",
+      "summary": "country in South Asia",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/India"
+    },
+    "Q794": {
+      "qid": "Q794",
+      "entityType": "place",
+      "name": "Iran",
+      "summary": "country in Western Asia",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Iran"
+    },
+    "Q43": {
+      "qid": "Q43",
+      "entityType": "place",
+      "name": "Turkey",
+      "summary": "country in West Asia and Southeast Europe",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Turkey"
+    },
+    "Q851": {
+      "qid": "Q851",
+      "entityType": "place",
+      "name": "Saudi Arabia",
+      "summary": "country in West Asia",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Saudi_Arabia"
+    },
+    "Q881": {
+      "qid": "Q881",
+      "entityType": "place",
+      "name": "Vietnam",
+      "summary": "country in Southeast Asia",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Vietnam"
+    },
+    "Q20": {
+      "qid": "Q20",
+      "entityType": "place",
+      "name": "Norway",
+      "summary": "country in Northern Europe",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Norway"
+    },
+    "Q39": {
+      "qid": "Q39",
+      "entityType": "place",
+      "name": "Switzerland",
+      "summary": "country in Central Europe",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Switzerland"
+    },
+    "Q31": {
+      "qid": "Q31",
+      "entityType": "place",
+      "name": "Belgium",
+      "summary": "country in western Europe",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Belgium"
+    },
+    "Q28": {
+      "qid": "Q28",
+      "entityType": "place",
+      "name": "Hungary",
+      "summary": "country in Central Europe",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Hungary"
+    },
+    "Q720": {
+      "qid": "Q720",
+      "entityType": "person",
+      "name": "Genghis Khan",
+      "summary": "founder and first khan of the Mongol Empire (1162–1227)",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Genghis_Khan"
+    },
+    "Q8409": {
+      "qid": "Q8409",
+      "entityType": "person",
+      "name": "Alexander the Great",
+      "summary": "king of Macedonia and conqueror of Achaemenid Persia (356–323 BC)",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Alexander_the_Great"
+    },
+    "Q1048": {
+      "qid": "Q1048",
+      "entityType": "person",
+      "name": "Julius Caesar",
+      "summary": "Roman general and dictator",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Julius_Caesar"
+    },
+    "Q1413": {
+      "qid": "Q1413",
+      "entityType": "person",
+      "name": "Nero",
+      "summary": "fifth and last Roman Emperor of Julio-Claudian dynasty (54–68)",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Nero"
+    },
+    "Q3044": {
+      "qid": "Q3044",
+      "entityType": "person",
+      "name": "Charlemagne",
+      "summary": "king of Franks, regarded as the first Holy Roman Emperor (747–814) (742-814)",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Charlemagne"
+    },
+    "Q9431": {
+      "qid": "Q9431",
+      "entityType": "person",
+      "name": "Lombardore",
+      "summary": "Italian comune",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Lombardore"
+    },
+    "Q44077": {
+      "qid": "Q44077",
+      "entityType": "person",
+      "name": "Jessica Alba",
+      "summary": "American actress (born 1981)",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Jessica_Alba"
+    },
+    "Q517": {
+      "qid": "Q517",
+      "entityType": "person",
+      "name": "Napoleon",
+      "summary": "French military leader, French Emperor 1804–1814 and again in 1815 (1769–1821)",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Napoleon"
+    },
+    "Q8413": {
+      "qid": "Q8413",
+      "entityType": "person",
+      "name": "Constantine the Great",
+      "summary": "Roman emperor from 306 to 337 and first to convert to Christianity (272–337)",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Constantine_the_Great"
+    },
+    "Q1405": {
+      "qid": "Q1405",
+      "entityType": "person",
+      "name": "Augustus",
+      "summary": "Augustus (born Gaius Octavius; 23 September 63 BC – 19 August AD 14), also known as Octavian (Latin: Octavianus), was the founder of the Roman Empire and the first Roman emperor from 27 BC until his death in AD 14. The reign of Augustus initiated an imperial cult and an era of imperial peace (the Pax Romana or Pax Augusta) in which the Roman world was largely free of armed conflict. The principate, a style of government where the emperor showed nominal deference to the Senate, was established during his reign and lasted until the Crisis of the Third Century.\nOctavian was born into an equestrian branch of the gens Octavia. Octavian's great-uncle, the dictator Julius Caesar, named him as his primary heir in his will, and after Caesar's assassination in 44 BC Octavian inherited his estate and assumed his name. He fought for the loyalty of Caesar's legions. He was made a senator during a state emergency and seized power by marching on Rome in 43 BC, becoming its youngest elected consul. He, Mark Antony, and Marcus Lepidus formed a triumvirate regime with legally sanctioned powers to outlaw and oppose Caesar's assassins and their allies. Following their victory at the Battle of Philippi in 42 BC, the triumvirate divided the Roman Republic among themselves and ruled as de facto oligarchs. Competing ambitions eventually tore their alliance apart; Octavian had Lepidus exiled in 36 BC for opposing him in Sicily, while Marcus Agrippa, Octavian's naval commander, defeated Antony in Greece at the Battle of Actium in 31 BC. Antony and his wife Cleopatra, the Ptolemaic queen of Egypt, killed themselves during Octavian's invasion of Egypt, which then became Octavian's personal property.\nAfter the demise of the triumvirate, Augustus reached an accord with the remaining Roman elite: he would restore the facade of a free republic, centered around the Senate, the executive magistrates and the legislative assemblies. But his control of the military and half of Rome's provinces meant he maintained autocratic power legitimized by his appointment as commander-in-chief of most Roman armies. To avoid the appearance of monarchy or dictatorship, he eventually refused to stand for reelection to the consulship, but the Senate granted him the powers of the tribunate and censorship and the titles princeps ('first citizen'), augustus ('the revered'), and pater patriae (lit. 'father of the country'), and named the month of August after him. After the death of Lepidus, Augustus also assumed the title of pontifex maximus ('supreme pontiff').\nAugustus dramatically enlarged the Empire, annexing Egypt, Dalmatia, Pannonia, Noricum, and Raetia, expanding possessions in Africa, and completing the conquest of Hispania. His expansionism, however, suffered a major setback in Germania. Beyond the frontiers, he secured the empire with a buffer region of client states and negotiated peace treaties with the Parthian Empire and Kingdom of Kush. He reformed the Roman system of taxation and currency, developed networks of roads with an official courier system, established a standing professional army, established the Praetorian Guard as well as official police and fire-fighting services for Rome, and renovated much of the city during his reign. Augustus was a writer and patron of poets such as Virgil, and has been featured in various works of art from ancient to modern times. He died in AD 14 at age 75 from natural causes, and the Senate posthumously deified him. Persistent rumors have claimed his wife Livia poisoned him. He was succeeded as emperor by his stepson and adoptive son Tiberius.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Augustus"
+    },
+    "Q36724": {
+      "qid": "Q36724",
+      "entityType": "person",
+      "name": "Attila",
+      "summary": "Attila (  ə-TIL-ə or  AT-il-ə; c. 406 – 453), frequently called Attila the Hun, was the ruler of the Huns from 434 until his death in early 453. He was also the leader of an empire consisting of Huns, Ostrogoths, Alans, and Gepids, among others, in Central and Eastern Europe.\nAs nephews to Rugila, Attila and his elder brother Bleda succeeded him to the throne in 435, ruling jointly until the death of Bleda in 445. During his reign, Attila was one of the most feared enemies of the Western and Eastern Roman Empires. He crossed the Danube twice and plundered the Balkans but was unable to take Constantinople. In 441, he led an invasion of the Eastern Roman (Byzantine) Empire, the success of which emboldened him to invade the West. He also attempted to conquer Roman Gaul (modern France), crossing the Rhine in 451 and marching as far as Aurelianum (Orléans), before being stopped in the Battle of the Catalaunian Plains.\nHe subsequently invaded Italy, devastating the northern provinces, but was unable to take Rome. He planned for further campaigns against the Romans but died in 453. After Attila's death, his close adviser, Ardaric of the Gepids, led a Germanic revolt against Hunnic rule, after which the Hunnic Empire quickly collapsed. Attila lived on as a character in Germanic heroic legend.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Attila"
+    },
+    "Q7523": {
+      "qid": "Q7523",
+      "entityType": "person",
+      "name": "Kublai Khan",
+      "summary": "Kublai Khan (23 September 1215 – 18 February 1294), also known by his temple name as the Emperor Shizu of Yuan and his regnal name Setsen Khan, was the founder and first emperor of the Mongol-led Yuan dynasty of China. He proclaimed the dynastic name \"Great Yuan\" in 1271, and ruled Yuan China until his death in 1294.\nKublai was the second son of Tolui by his chief wife Sorghaghtani Beki, and a grandson of Genghis Khan. He was almost 12 when Genghis Khan died in 1227. He had succeeded his older brother Möngke as Khagan in 1260, but had to defeat his younger brother Ariq Böke in the Toluid Civil War lasting until 1264. This episode marked the beginning of the division of the Mongol Empire. Kublai's real power was limited to the Yuan Empire, even though as Khagan he still influenced the Ilkhanate and, to a significantly lesser degree, the Golden Horde.\nIn 1271, Kublai established the Yuan dynasty and formally claimed orthodox succession from prior Chinese dynasties. The Yuan dynasty came to rule over most of present-day China, Mongolia, Korea, southern Siberia, and other adjacent areas. He also amassed influence in the Middle East and Europe as Khagan. By 1279, the Yuan conquest of the Song dynasty was completed and Kublai became the first non-Han emperor to rule all of China proper. As emperor, he ordered invasions of Japan, Vietnam, Burma, and Java.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Kublai_Khan"
+    },
+    "Q43610": {
+      "qid": "Q43610",
+      "entityType": "person",
+      "name": "Odin",
+      "summary": "Odin (; from Old Norse: Óðinn) is a widely revered god in Norse mythology and Germanic paganism. Most surviving information on Odin comes from Norse mythology, but he figures prominently in the recorded history of Northern Europe. This includes the Roman Empire's partial occupation of Germania (c. 2 BCE), the Migration Period (4th–6th centuries CE) and the Viking Age (8th–11th centuries CE). Consequently, Odin has hundreds of names and titles. Several of these stem from the reconstructed Proto-Germanic theonym Wōðanaz, meaning \"lord of frenzy\" or \"leader of the possessed\", which may relate to the god's strong association with poetry. \nMost mythological stories about Odin survive from the 13th-century Prose Edda and an earlier collection of Old Norse poems, the Poetic Edda, along with other Old Norse items like Ynglinga saga. The Prose Edda and other sources depict Odin as the head of the pantheon, sometimes called the Æsir, and bearing a spear and a ring. Wider sources depict Odin as the son of Bestla and Borr; brother to Vili and Vé; and husband to the goddess Frigg, with whom he fathered Baldr. Odin has many other sons, including Thor, whom he sired with the earth-goddess Jörð. He is sometimes accompanied by animal familiars, such as the ravens Huginn and Muninn and the wolves Geri and Freki. The Prose Edda describes Odin and his brothers' creation of the world through slaying the primordial being Ymir, and his giving of life to the first humans Ask and Embla. Odin is often referred to as long-bearded, sometimes as an old man, and also as possessing only one eye, having sacrificed the other for wisdom. \nOdin is widely regarded as a god of the dead and warfare. In this role, he receives slain warriors—the einherjar—at Valhöll (\"Carrion-hall\" or \"Hall of the Slain\") in the realm of Asgard. The Poetic Edda associates him with Valkyries, perhaps as their leader. In the mythic future, Odin leads the einherjar at Ragnarök, where he is killed by the monstrous wolf Fenrir. Accounts by early travellers to Northern Europe describe human sacrifices being made to Odin. In Old English texts, Odin is euhemerized as an ancestral figure for royalty and is frequently depicted as a founding figure for various Germanic peoples, such as the Langobards. In some later folklore, he is a leader of the Wild Hunt, a ghostly procession of the dead. \nOdin has an attested history spanning over a thousand years. He is an important subject of interest to Germanic scholars. Some scholars consider the god's relations to other figures—as reflected, for example in the etymological similarity of his name to the name of Freyja's husband Óðr. Others discuss his historical lineage, exploring whether he derives from Proto-Indo-European mythology or developed later in Germanic society. In modern times, most forms of the new religious movement Heathenry venerate him; in some, he is the central deity. The god regularly features across all forms of modern media, especially genre fiction, and—alongside others in the Germanic pantheon—has lent his name to a day of the week, Wednesday, in many languages.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Odin"
+    },
+    "Q133680": {
+      "qid": "Q133680",
+      "entityType": "person",
+      "name": "Chondrilla",
+      "summary": "Chondrilla is a genus of sea sponges belonging to the family Chondrillidae.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Chondrilla_(sponge)"
+    },
+    "Q23967": {
+      "qid": "Q23967",
+      "entityType": "person",
+      "name": "Guildo hat euch lieb!",
+      "summary": "\"Guildo hat euch lieb!\" (German pronunciation: [ˈɡɪldoː hat ʔɔʏç ˈliːp]; \"Guildo loves you!\") was the German entry in the Eurovision Song Contest 1998, performed in German by Guildo Horn & Die Orthopädischen Strümpfe. The song was performed ninth on the night, following Israel's Dana International with \"Diva\" and preceding Malta's Chiara with \"The One That I Love\". At the close of voting, it had received 86 points, placing 7th in a field of 25.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Guildo_hat_euch_lieb!"
+    },
+    "Q38375": {
+      "qid": "Q38375",
+      "entityType": "person",
+      "name": "Curly Coated Retriever",
+      "summary": "The Curly-coated Retriever (sometimes stylized as Curly Coated Retriever, and often called the Curly for short) is a breed of dog originally bred in England for upland bird and waterfowl hunting.  It is the tallest of the retrievers and is easily distinguishable by the mass of tight curls covering its body. Curly Coated and Wavy Coated (now known as the Flat-Coated Retriever) were the first two recognised retriever breeds, established as early as 1860.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Curly-coated_Retriever"
+    },
+    "Q157459": {
+      "qid": "Q157459",
+      "entityType": "person",
+      "name": "ramesses-ii",
+      "summary": "The following is a partial list of minor planets, running from minor-planet number 8001 through 9000, inclusive. The primary data for this and other partial lists is based on JPL's \"Small-Body Orbital Elements\" and data available from the Minor Planet Center. Critical list information is also provided by the MPC, unless otherwise specified from Lowell Observatory. A detailed description of the table's columns and additional sources are given on the main page including a complete list of every page in this series, and a statistical break-up on the dynamical classification of minor planets.\nAlso see the summary list of all named bodies in numerical and alphabetical order, and the corresponding naming citations for the number range of this particular list. New namings may only be added to this list after official publication, as the preannouncement of names is condemned by the Working Group for Small Bodies Nomenclature of the International Astronomical Union.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/8556_Jana"
+    },
+    "Q47092": {
+      "qid": "Q47092",
+      "entityType": "event",
+      "name": "rape",
+      "summary": "Rape is a type of sexual assault involving sexual intercourse, or other forms of sexual penetration, carried out against a person without their  consent. The act may be carried out by physical force, coercion, abuse of authority, or against a person who is incapable of giving valid consent, such as one who is unconscious, incapacitated, has an intellectual disability, or is below the legal age of consent (statutory rape). The wrongness of rape is not merely, or on many occasions even primarily, the violence against the body of the victim but the violence against the very person of the victim. The term rape is sometimes used interchangeably with the term sexual assault.\nThe rate of reporting, prosecuting and convicting for rape varies between jurisdictions. Internationally, the incidence of rapes recorded by the police during 2008 ranged, per 100,000 people, from 0.2 in Azerbaijan to 92.9 in Botswana with 6.3 in Lithuania as the median. Worldwide, reported instances of sexual violence, including rape, are primarily committed by males against females. Rape by strangers is usually less common than rape by people the victim knows, and male-on-male prison rapes are common and may be the least reported forms of rape.\nWidespread and systematic rape (e.g., war rape) and sexual slavery can occur during international conflict. These practices are crimes against humanity and war crimes. Rape is also recognized as an element of the crime of genocide when committed with the intent to destroy, in whole or in part, a targeted ethnic group.\nPeople who have been raped can be traumatized and develop post-traumatic stress disorder. Serious injuries can result along with the risk of sexually transmitted infections. Female victims face the additional risk of pregnancy. A victim may face violence or threats from the rapist, and, sometimes, from the victim's family and relatives.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Rape"
+    },
+    "Q42196": {
+      "qid": "Q42196",
+      "entityType": "event",
+      "name": "Balaenoptera musculus",
+      "summary": "The blue whale (Balaenoptera musculus) is a species of baleen whale and the largest marine mammal in the rorqual family Balaenopteridae. Reaching a maximum confirmed length of 29.9–30.5 m (98–100 ft) and weighing up to 190–200 t (190–200 long tons; 210–220 short tons), it is the largest animal known to have ever existed. The blue whale's long and slender body can be of various shades of greyish-blue on its upper surface and somewhat lighter underneath. Four subspecies are recognized: B. m. musculus in the North Atlantic and North Pacific, B. m. intermedia in the Southern Ocean, B. m. brevicauda (the pygmy blue whale) in the Indian Ocean and South Pacific Ocean, and B. m. indica in the Northern Indian Ocean. There is a population in the waters off Chile that may constitute a fifth subspecies.\nIn general, blue whale populations migrate between their summer feeding areas near the poles and their winter breeding grounds near the tropics. There is also evidence of year-round residencies, and partial or age- and sex-based migration. Blue whales are filter feeders; their diet consists almost exclusively of krill. They are generally solitary or gather in small groups, and have no well-defined social structure other than mother–calf bonds. Blue whales vocalize, with a fundamental frequency ranging from 8 to 25 Hz; their vocalizations may vary by region, season, behavior, and time of day. \nThe blue whale was abundant in nearly all the Earth's oceans until the end of the 19th century. It was hunted almost to the point of extinction by whalers until the International Whaling Commission banned all blue whale hunting in 1966. The International Union for Conservation of Nature has listed blue whales as endangered as of 2018. Blue whales continue to face numerous man-made threats such as ship strikes, pollution, ocean noise, and climate change.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Blue_whale"
+    },
+    "Q180614": {
+      "qid": "Q180614",
+      "entityType": "event",
+      "name": "melanoma",
+      "summary": "malignant neoplasm originating from melanocytes",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Melanoma"
+    },
+    "Q8065": {
+      "qid": "Q8065",
+      "entityType": "event",
+      "name": "natural disaster",
+      "summary": "major adverse event resulting from natural processes of the Earth, which may cause loss of life or property",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Natural_disaster"
+    },
+    "Q133641": {
+      "qid": "Q133641",
+      "entityType": "event",
+      "name": "Age of Discovery",
+      "summary": "period of European global exploration from early 15th century to 17th century",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Age_of_Discovery"
+    },
+    "Q46383": {
+      "qid": "Q46383",
+      "entityType": "event",
+      "name": "sushi",
+      "summary": "portioned prepared vinegared rice topped or rolled with other ingredients",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Sushi"
+    },
+    "Q6534": {
+      "qid": "Q6534",
+      "entityType": "event",
+      "name": "French Revolution",
+      "summary": "revolution in France from 1789 to 1799",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/French_Revolution"
+    },
+    "Q155231": {
+      "qid": "Q155231",
+      "entityType": "event",
+      "name": "demesne",
+      "summary": "type of property (real estate) and a term in the law",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Demesne"
+    },
+    "Q152490": {
+      "qid": "Q152490",
+      "entityType": "culture",
+      "name": "Helvetic Airways",
+      "summary": "Swiss regional airline headquartered in Kloten with its fleet stationed at Zurich Airport",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Helvetic_Airways"
+    },
+    "Q4692": {
+      "qid": "Q4692",
+      "entityType": "culture",
+      "name": "Renaissance",
+      "summary": "cultural movement that spanned the period roughly from the 14th to the 17th century",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Renaissance"
+    },
+    "Q7178": {
+      "qid": "Q7178",
+      "entityType": "culture",
+      "name": "International Red Cross and Red Crescent Movement",
+      "summary": "international humanitarian movement",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/International_Red_Cross_and_Red_Crescent_Movement"
+    },
+    "Q11772": {
+      "qid": "Q11772",
+      "entityType": "culture",
+      "name": "Ancient Greece",
+      "summary": "Greek civilization from 1200 BC to 600 AD",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Ancient_Greece"
+    },
+    "Q11768": {
+      "qid": "Q11768",
+      "entityType": "culture",
+      "name": "Ancient Egypt",
+      "summary": "Egyptian civilization from the 4th millennium BC",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Ancient_Egypt"
+    },
+    "Q128207": {
+      "qid": "Q128207",
+      "entityType": "culture",
+      "name": "terrestrial planet",
+      "summary": "planet that is composed primarily of silicate rocks or metals. Within the Solar System, the terrestrial planets are the inner planets closest to the Sun, i.e. Mercury, Venus, Earth, and Mars",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Terrestrial_planet"
+    },
+    "Q228668": {
+      "qid": "Q228668",
+      "entityType": "culture",
+      "name": "Bellona",
+      "summary": "Wikimedia disambiguation page",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Bellona"
+    },
+    "Q11817": {
+      "qid": "Q11817",
+      "entityType": "culture",
+      "name": "Andrew Jackson",
+      "summary": "president of the United States from 1829 to 1837",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Andrew_Jackson"
+    }
+  }
+}
