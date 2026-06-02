@@ -53,7 +53,7 @@ const BASE_STYLE: StyleSpecification = {
 const FILL_OPACITY = 0.55;
 const LINE_OPACITY = 0.8;
 const LABEL_OPACITY = 1.0;
-const TRANSITION_MS = 300;
+const TRANSITION_MS = 1000;
 const EMPTY_FC = { type: "FeatureCollection" as const, features: [] as [] };
 
 type Slot = "a" | "b";
@@ -75,10 +75,11 @@ export default function AtlasMap() {
   const mapRef = useRef<MapLibreMap | null>(null);
   const activeSlotRef = useRef<Slot>("a");
   const transitionTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
-  const currentSnapshotRef = useRef<number | null>(null);
+  const currentStateRef = useRef<number | null>(null);
   const isLoadingRef = useRef(false);
+  const stateDataCacheRef = useRef<Map<number, { borders: any; labels: any }>>(new Map());
 
-  const { snapshotYear, setView, selectRegion } = useAtlasStore();
+  const { stateYear, setView, selectRegion } = useAtlasStore();
 
   // ── Slot opacity helper ────────────────────────────────────────────────
 
@@ -296,10 +297,10 @@ export default function AtlasMap() {
         });
 
         // ── Initial snapshot load ──────────────────────────────────────
-        // The "snapshotYear changed" useEffect fires before mapRef is set
+        // The "stateYear changed" useEffect fires before mapRef is set
         // (MapLibre loads async), so we must trigger the first load here,
         // after all sources and layers are ready.
-        loadSnapshot(useAtlasStore.getState().snapshotYear);
+        loadSnapshot(useAtlasStore.getState().stateYear);
       });
     });
 
@@ -318,12 +319,20 @@ export default function AtlasMap() {
     async (year: number) => {
       const map = mapRef.current;
       if (!map) return;
-      if (currentSnapshotRef.current === year) return;
+      if (currentStateRef.current === year) return;
       if (isLoadingRef.current) return;
 
       isLoadingRef.current = true;
       try {
-        const { borders, labels } = await fetchSnapshotData(year);
+        let cached = stateDataCacheRef.current.get(year);
+        if (!cached) {
+          const fetched = await fetchSnapshotData(year);
+          if (!fetched.borders) return;
+          cached = fetched;
+          stateDataCacheRef.current.set(year, fetched);
+        }
+
+        const { borders, labels } = cached;
         if (!borders) return;
 
         const oldSlot: Slot = activeSlotRef.current;
@@ -337,7 +346,7 @@ export default function AtlasMap() {
           labels ?? EMPTY_FC
         );
 
-        // Trigger MapLibre paint transitions (300 ms fade)
+        // Trigger MapLibre paint transitions (1 s crossfade)
         setSlotOpacity(map, newSlot, true);
         setSlotOpacity(map, oldSlot, false);
 
@@ -353,7 +362,7 @@ export default function AtlasMap() {
           activeSlotRef.current = newSlot;
         }, TRANSITION_MS + 60);
 
-        currentSnapshotRef.current = year;
+        currentStateRef.current = year;
       } catch (err) {
         console.error("[loadSnapshot] ERROR", err);
       } finally {
@@ -368,11 +377,11 @@ export default function AtlasMap() {
     if (!map) return;
 
     if (map.isStyleLoaded()) {
-      loadSnapshot(snapshotYear);
+      loadSnapshot(stateYear);
     } else {
-      map.once("load", () => loadSnapshot(snapshotYear));
+      map.once("load", () => loadSnapshot(stateYear));
     }
-  }, [snapshotYear, loadSnapshot]);
+  }, [stateYear, loadSnapshot]);
 
   return (
     <div

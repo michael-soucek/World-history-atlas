@@ -107,7 +107,7 @@ export default function HomePage() {
                 <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
                   <Link
                     href="/map?year=1700&lat=20&lng=10&z=2"
-                    className="rounded-sm px-7 py-3.5 text-base font-semibold bg-ancient text-white hover:bg-ancient/90 transition-colors shadow-md shadow-ancient/25 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ancient"
+                    className="rounded-sm px-7 py-3.5 text-base font-semibold bg-ancient text-white hover:bg-ancient/90 transition-colors shadow-md shadow-ancient/25 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ancient"
                   >
                     Open the map
                   </Link>
@@ -272,7 +272,7 @@ export default function HomePage() {
                   <Link
                     key={era.label}
                     href={`/era/${eraSlug(era.label)}`}
-                    className={`group rounded-xl border bg-gradient-to-br ${colors} px-5 py-5 transition-all duration-200 hover:shadow-sm`}
+                    className={`group rounded-xl border bg-linear-to-br ${colors} px-5 py-5 transition-all duration-200 hover:shadow-sm`}
                   >
                     <p className={`text-sm font-semibold transition-colors ${eraTextColor[era.label] ?? "text-ink"}`}>{era.label}</p>
                     <p className="text-ink/35 text-xs mt-1.5">
@@ -290,7 +290,7 @@ export default function HomePage() {
         {/* ── Surprise me / CTA ── */}
         <section className="border-t border-paper bg-ocean py-16">
           <div className="max-w-5xl mx-auto px-6">
-            <div className="relative rounded-2xl border border-ancient/25 bg-gradient-to-br from-ancient-wash to-parchment overflow-hidden p-10 flex flex-col sm:flex-row items-start sm:items-center gap-8">
+            <div className="relative rounded-2xl border border-ancient/25 bg-linear-to-br from-ancient-wash to-parchment overflow-hidden p-10 flex flex-col sm:flex-row items-start sm:items-center gap-8">
               <div className="absolute inset-0 pointer-events-none topo-bg opacity-60" />
               <div className="relative flex-1 min-w-0">
                 <p className="text-ancient/70 text-xs font-semibold uppercase tracking-widest mb-3">Surprise me</p>

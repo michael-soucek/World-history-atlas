@@ -1,10 +1,10 @@
 import { NextRequest, NextResponse } from "next/server";
-import { buildManifest, snapshotIndexForYear } from "@/app/api/manifest/route";
+import { buildManifest, stateIndexForYear } from "@/app/api/manifest/route";
 import { geometryArea, normaliseSovereign, type RawProperties } from "@/lib/geoEnrich";
 import polylabel from "polylabel";
 
-// Server-side in-memory cache: snapshotYear → enriched labels JSON string
-const labelCache = new Map<number, string>();
+// Server-side in-memory cache: stateTileKey → enriched labels JSON string
+const labelCache = new Map<string, string>();
 
 // ── Geometry helpers ───────────────────────────────────────────────────────
 
@@ -77,14 +77,15 @@ export async function GET(
 
   try {
     const manifest = await buildManifest();
-    const idx = snapshotIndexForYear(manifest.snapshots, year);
-    const snapshot = manifest.snapshots[idx];
+    const stateIdx = stateIndexForYear(manifest.states, year);
+    const state = manifest.states[stateIdx];
+    const snapshot = manifest.snapshots[state.snapshotIndex];
 
-    if (!snapshot) {
-      return NextResponse.json({ error: "No snapshot found" }, { status: 404 });
+    if (!snapshot || !state) {
+      return NextResponse.json({ error: "No state found" }, { status: 404 });
     }
 
-    const cacheKey = snapshot.snapshotYear;
+    const cacheKey = `${state.validFrom}:${state.validTo}:${snapshot.snapshotYear}`;
     if (labelCache.has(cacheKey)) {
       return new NextResponse(labelCache.get(cacheKey)!, {
         headers: {
@@ -137,7 +138,16 @@ export async function GET(
       });
     }
 
-    const geojson = { type: "FeatureCollection", features: labelFeatures };
+    const geojson = {
+      type: "FeatureCollection",
+      requestedYear: year,
+      snapshotYear: snapshot.snapshotYear,
+      stateYear: state.stateYear,
+      validFrom: state.validFrom,
+      validTo: state.validTo,
+      sources: state.sources,
+      features: labelFeatures,
+    };
     const json = JSON.stringify(geojson);
     labelCache.set(cacheKey, json);
 

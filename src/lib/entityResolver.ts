@@ -3,10 +3,12 @@ import { join } from "node:path";
 import type { CrosswalkEntry, EntityType } from "@/types";
 import {
   getCanonicalNameByQid,
+  lookupByName,
   lookupByQid,
   lookupBySlug,
   registerResolvedPlace,
 } from "@/data/crosswalk";
+import { isAggregateLabel } from "@/data/aggregateLabels";
 import {
   lookupCulture,
   lookupCultureByQid,
@@ -30,7 +32,7 @@ export interface EntityResolution {
 
 export interface EntityResolutionResult {
   resolved: EntityResolution | null;
-  reason?: "invalid-type" | "no-article" | "ambiguous" | "not-found" | "query-failed" | "no-exact-label" | "wrong-type" | "no-enwiki";
+  reason?: "invalid-type" | "no-article" | "ambiguous" | "not-found" | "query-failed" | "no-exact-label" | "wrong-type" | "no-enwiki" | "aggregate";
 }
 
 function logResolutionFailure(slug: string, entityType: EntityType, reason: string): void {
@@ -159,6 +161,10 @@ function scoreNameMatch(name: string, details: EntityDetails): number {
   let score = Math.round(tokenScore * 100);
   if (labelPrefix || aliasPrefix) score += 80;
   return score;
+}
+
+function looksLikePolityLabel(label: string): boolean {
+  return /(empire|caliphate|kingdom|republic|state|dynasty|sultanate|khanate|horde|principality|duchy|commonwealth|confederation)/i.test(label);
 }
 
 function crosswalkForSlug(slug: string, entityType: EntityType): CrosswalkEntry | undefined {
@@ -340,11 +346,64 @@ async function searchWikidataCandidates(name: string): Promise<string[]> {
     .filter((id): id is string => typeof id === "string" && /^Q\d+$/.test(id));
 }
 
+function buildSearchQueries(name: string): string[] {
+  const out = new Set<string>();
+  const base = name.trim();
+  if (base) out.add(base);
+
+  const noParen = base.replace(/\([^)]*\)/g, " ").replace(/\s+/g, " ").trim();
+  if (noParen) out.add(noParen);
+
+  const noStop = base
+    .replace(/\b(of|and|the)\b/gi, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+  if (noStop) out.add(noStop);
+
+  const swapped = base.match(/^(.+)\s+of\s+(.+)$/i);
+  if (swapped) {
+    const phrase = `${swapped[2]} ${swapped[1]}`.replace(/\s+/g, " ").trim();
+    if (phrase) out.add(phrase);
+  }
+
+  const suffixes = ["Empire", "dynasty", "state", "Sultanate", "Caliphate", "Kingdom", "Republic"];
+  const suffixMatch = base.match(/^(.*)\s+(Empire|dynasty|state|Sultanate|Caliphate|Kingdom|Republic)$/i);
+  if (suffixMatch) {
+    const stem = suffixMatch[1].trim();
+    for (const suffix of suffixes) {
+      const v = `${stem} ${suffix}`.replace(/\s+/g, " ").trim();
+      if (v) out.add(v);
+    }
+  }
+
+  const leadPrefixes = ["Kingdom of", "Republic of", "Sultanate of", "Caliphate of", "Empire of", "State of"];
+  const leadMatch = base.match(/^(Kingdom of|Republic of|Sultanate of|Caliphate of|Empire of|State of)\s+(.+)$/i);
+  if (leadMatch) {
+    const core = leadMatch[2].trim();
+    if (core) out.add(core);
+    for (const p of leadPrefixes) {
+      out.add(`${p} ${core}`.replace(/\s+/g, " ").trim());
+    }
+  } else {
+    for (const p of leadPrefixes) {
+      out.add(`${p} ${base}`.replace(/\s+/g, " ").trim());
+    }
+  }
+
+  return [...out];
+}
+
 async function resolveExactByName(
   name: string,
   entityType: EntityType,
 ): Promise<{ candidate: RankedCandidate | null; ambiguous: boolean; failReason?: string }> {
-  const candidateIds = await searchWikidataCandidates(name);
+  const queries = buildSearchQueries(name);
+  const candidateIdSet = new Set<string>();
+  for (const q of queries) {
+    const ids = await searchWikidataCandidates(q);
+    for (const id of ids) candidateIdSet.add(id);
+  }
+  const candidateIds = [...candidateIdSet];
   if (candidateIds.length === 0) return { candidate: null, ambiguous: false, failReason: "no-exact-label" };
 
   const matches: RankedCandidate[] = [];
@@ -366,12 +425,16 @@ async function resolveExactByName(
     if (!details) { bump("query-failed"); continue; }
 
     const nameScore = scoreNameMatch(name, details);
-    if (nameScore < 40) { bump("no-exact-label"); continue; }
+    if (nameScore < 24) { bump("no-exact-label"); continue; }
 
     if (!details.hasEnwiki) { bump("no-enwiki"); continue; }
 
     const typeOk = await passesTypeGuard(qid, entityType);
-    if (!typeOk) { bump("wrong-type"); continue; }
+    const placeHeuristicOk =
+      entityType === "place" &&
+      nameScore >= 72 &&
+      looksLikePolityLabel(details.label || "");
+    if (!typeOk && !placeHeuristicOk) { bump("wrong-type"); continue; }
 
     matches.push({
       qid,
@@ -432,15 +495,19 @@ export function clearResolutionCache(): void {
 export async function resolveEntityBySlugOrQid(
   rawSlugOrQid: string,
   entityType: EntityType,
+  options?: { sourceName?: string },
 ): Promise<EntityResolutionResult> {
   const raw = decodeURIComponent(rawSlugOrQid).trim();
-  const cacheKey = `${entityType}:${raw.toLowerCase()}`;
+  const sourceName = options?.sourceName?.trim();
+  const cacheKey = sourceName
+    ? `${entityType}:${raw.toLowerCase()}::${sourceName.toLowerCase()}`
+    : `${entityType}:${raw.toLowerCase()}`;
   const cached = RESOLUTION_CACHE.get(cacheKey);
   if (cached) return cached;
 
   // Outer safety net: any uncaught error degrades to not-found, never throws.
   try {
-    return await _resolveInner(raw, cacheKey, entityType);
+    return await _resolveInner(raw, cacheKey, entityType, sourceName);
   } catch (err) {
     const slug = raw.toLowerCase();
     logResolutionFailure(slug, entityType, `uncaught: ${err instanceof Error ? err.message : String(err)}`);
@@ -452,6 +519,7 @@ async function _resolveInner(
   raw: string,
   cacheKey: string,
   entityType: EntityType,
+  sourceName?: string,
 ): Promise<EntityResolutionResult> {
   // 1) Direct QID from map tag / deep link.
   if (/^Q\d+$/i.test(raw)) {
@@ -482,37 +550,34 @@ async function _resolveInner(
   }
 
   const slug = raw.toLowerCase();
+  const expectedName = sourceName?.trim() || readableNameFromSlug(slug);
+
+  if (entityType === "place" && isAggregateLabel(expectedName)) {
+    logResolutionFailure(slug, entityType, "aggregate");
+    return cacheResult(cacheKey, { resolved: null, reason: "aggregate" });
+  }
 
   // 2) Curated crosswalk override.
-  const crosswalkEntry = crosswalkForSlug(slug, entityType);
+  const crosswalkEntry = crosswalkForSlug(slug, entityType)
+    ?? (entityType === "place" ? lookupByName(expectedName) : undefined);
   if (crosswalkEntry) {
-    try {
-      const details = await fetchEntityDetails(crosswalkEntry.wikidataId);
-      if (details?.hasEnwiki) {
-        const canonicalName =
-          entityType === "place"
-            ? getCanonicalNameByQid(crosswalkEntry.wikidataId) ?? details.label
-            : details.label || readableNameFromSlug(slug);
+    const canonicalName =
+      entityType === "place"
+        ? getCanonicalNameByQid(crosswalkEntry.wikidataId) ?? expectedName
+        : expectedName;
 
-        const resolved: EntityResolution = {
-          wikidataId: crosswalkEntry.wikidataId,
-          slug: crosswalkEntry.slug,
-          canonicalName,
-          entityType,
-          method: "crosswalk",
-        };
+    const resolved: EntityResolution = {
+      wikidataId: crosswalkEntry.wikidataId,
+      slug: crosswalkEntry.slug,
+      canonicalName,
+      entityType,
+      method: "crosswalk",
+    };
 
-        return cacheResult(cacheKey, { resolved });
-      }
-      logResolutionFailure(slug, entityType, details ? "no-enwiki" : "query-failed");
-      // Validation failed for crosswalk entry — fall through to exact search.
-    } catch {
-      // Error validating crosswalk entry — fall through to exact search.
-    }
+    return cacheResult(cacheKey, { resolved });
   }
 
   // 3) Exact label/alias match + type guard + enwiki requirement.
-  const expectedName = readableNameFromSlug(slug);
   try {
     const exact = await resolveExactByName(expectedName, entityType);
     if (exact.ambiguous) {

@@ -4,7 +4,10 @@ import { useEffect } from "react";
 import { useAtlasStore } from "@/store/atlasStore";
 
 interface ManifestData {
+  snapshots?: Array<{ snapshotYear: number }>;
   snapshotYears?: number[];
+  stateYears?: number[];
+  states?: Array<{ stateYear: number }>;
 }
 
 /**
@@ -22,8 +25,17 @@ export function useManifest(): void {
     fetch("/api/manifest")
       .then((r) => r.json())
       .then((data: ManifestData) => {
-        if (data.snapshotYears && data.snapshotYears.length > 0) {
-          setSnapshotYears(data.snapshotYears);
+        const snapshotYears =
+          data.snapshotYears && data.snapshotYears.length > 0
+            ? data.snapshotYears
+            : (data.snapshots ?? []).map((s) => s.snapshotYear);
+
+        if (snapshotYears.length > 0) {
+          const stateYears =
+            data.stateYears && data.stateYears.length > 0
+              ? data.stateYears
+              : (data.states ?? []).map((s) => s.stateYear);
+          setSnapshotYears(snapshotYears, stateYears);
         }
       })
       .catch((err) =>

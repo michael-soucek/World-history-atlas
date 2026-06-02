@@ -2,7 +2,7 @@
 
 import { useCallback, useMemo } from "react";
 import { useAtlasStore } from "@/store/atlasStore";
-import { formatYear, getEraForYear, ERAS } from "@/data/snapshotYears";
+import { clampYear, formatYear, getEraForYear, ERAS, MAX_YEAR, MIN_YEAR } from "@/data/snapshotYears";
 
 // ── Helpers ────────────────────────────────────────────────────────────────
 
@@ -11,34 +11,31 @@ function idxPct(idx: number, total: number): number {
   return total <= 1 ? 0 : (idx / (total - 1)) * 100;
 }
 
-/** Find the index of the snapshot year closest to (but not past) the target. */
-function yearToIdx(year: number, years: number[]): number {
-  let best = 0;
-  for (let i = 0; i < years.length; i++) {
-    if (years[i] <= year) best = i;
-    else break;
-  }
-  return best;
+function yearPct(year: number, minYear: number, maxYear: number): number {
+  if (maxYear <= minYear) return 0;
+  const pct = ((year - minYear) / (maxYear - minYear)) * 100;
+  return Math.max(0, Math.min(100, pct));
 }
 
 // ── Component ─────────────────────────────────────────────────────────────
 
 export default function TimeSlider() {
-  const { snapshotYear, snapshotYears, setYear } = useAtlasStore();
+  const { year, snapshotYear, snapshotYears, setYear } = useAtlasStore();
 
-  const n = snapshotYears.length;
-  const currentIdx = useMemo(
-    () => yearToIdx(snapshotYear, snapshotYears),
-    [snapshotYear, snapshotYears]
+  const visibleSnapshotYears = useMemo(
+    () => snapshotYears.filter((y) => y >= MIN_YEAR && y <= MAX_YEAR),
+    [snapshotYears]
   );
 
+  const n = visibleSnapshotYears.length;
+  const minYear = MIN_YEAR;
+  const maxYear = MAX_YEAR;
   const handleChange = useCallback(
     (e: React.ChangeEvent<HTMLInputElement>) => {
-      const idx = parseInt(e.target.value, 10);
-      const y = snapshotYears[idx];
-      if (y !== undefined) setYear(y);
+      const next = clampYear(parseInt(e.target.value, 10));
+      setYear(next);
     },
-    [setYear, snapshotYears]
+    [setYear]
   );
 
   // Arrow keys step through snapshots; Home/End jump to first/last
@@ -46,41 +43,42 @@ export default function TimeSlider() {
     (e: React.KeyboardEvent<HTMLInputElement>) => {
       if (e.key === "Home") {
         e.preventDefault();
-        setYear(snapshotYears[0]);
+        if (minYear !== undefined) setYear(minYear);
       } else if (e.key === "End") {
         e.preventDefault();
-        setYear(snapshotYears[n - 1]);
+        if (maxYear !== undefined) setYear(maxYear);
       }
-      // ArrowLeft/Right are handled natively by the range input (step=1 on index)
+      // ArrowLeft/Right are handled natively by the range input (step=1 year)
     },
-    [setYear, snapshotYears, n]
+    [setYear, minYear, maxYear]
   );
 
-  // Map each ERA to a pixel range based on the index distribution
+  // Map each ERA to a calendar-year percentage range
   const eraBands = useMemo(
     () =>
       ERAS.map((era) => {
-        const startIdx = snapshotYears.findIndex((y) => y >= era.start);
-        const endIdx = snapshotYears.findIndex((y) => y >= era.end);
-        const s = startIdx < 0 ? n - 1 : startIdx;
-        const e = endIdx < 0 ? n : endIdx;
+        const start = Math.max(minYear, era.start);
+        const end = Math.min(maxYear + 1, era.end);
+        const left = yearPct(start, minYear, maxYear);
+        const right = yearPct(end, minYear, maxYear);
         return {
           label: era.label,
-          left: idxPct(s, n),
-          width: idxPct(Math.max(0, e - s), n),
+          left,
+          width: Math.max(0, right - left),
         };
       }),
-    [snapshotYears, n]
+    [minYear, maxYear]
   );
 
-  const displayYear = formatYear(snapshotYear);
-  const era = getEraForYear(snapshotYear);
-  const thumbPct = idxPct(currentIdx, n);
+  const displayYear = formatYear(year);
+  const resolvedState = formatYear(snapshotYear);
+  const era = getEraForYear(year);
+  const thumbPct = yearPct(year, minYear, maxYear);
 
   return (
     <div className="absolute bottom-0 left-0 right-0 z-10 pointer-events-none">
       {/* Gradient fade */}
-      <div className="h-40 bg-gradient-to-t from-black/70 via-black/30 to-transparent" />
+      <div className="h-40 bg-linear-to-t from-black/70 via-black/30 to-transparent" />
 
       <div className="bg-black/70 backdrop-blur-sm px-4 pt-3 pb-4 pointer-events-auto">
         {/* Year readout */}
@@ -90,13 +88,13 @@ export default function TimeSlider() {
           </span>
           <span className="text-white/60 text-sm font-medium">{era}</span>
           <span className="ml-auto text-white/35 text-[10px] tabular-nums">
-            {currentIdx + 1} / {n} snapshots
+            source state: {resolvedState}
           </span>
         </div>
 
         {/* Slider track + ticks */}
         <div className="relative mt-2 mb-1">
-          {/* Era background bands — positioned by index, not calendar year */}
+          {/* Era background bands — positioned by calendar year */}
           <div className="absolute inset-0 h-1 top-3 overflow-hidden rounded pointer-events-none">
             {eraBands.map((b) =>
               b.width > 0 ? (
@@ -116,7 +114,7 @@ export default function TimeSlider() {
 
           {/* Snapshot tick marks — one per actual data year */}
           <div className="absolute w-full top-0 pointer-events-none" style={{ height: 7 }}>
-            {snapshotYears.map((sy, i) => (
+            {visibleSnapshotYears.map((sy, i) => (
               <div
                 key={sy}
                 className="absolute w-px h-full rounded-full"
@@ -132,13 +130,13 @@ export default function TimeSlider() {
             ))}
           </div>
 
-          {/* Index-based range input — each step = one real snapshot year */}
+          {/* Year-based range input — each step = one calendar year */}
           <input
             type="range"
-            min={0}
-            max={Math.max(0, n - 1)}
+            min={minYear}
+            max={maxYear}
             step={1}
-            value={currentIdx}
+            value={year}
             onChange={handleChange}
             onKeyDown={handleKeyDown}
             aria-label="Select historical year"
@@ -185,7 +183,7 @@ export default function TimeSlider() {
             className="absolute right-0 top-0 text-white/25 text-[10px] hover:text-white/50 transition-colors leading-none"
             title="Data from aourednik/historical-basemaps. Some regions show placeholder names where historical records are incomplete."
           >
-            53 snapshots · data notes ↗
+            {n} source snapshots · yearly slider · data notes ↗
           </a>
         </div>
       </div>

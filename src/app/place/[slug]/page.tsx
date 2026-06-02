@@ -4,7 +4,7 @@ import Link from "next/link";
 import { cache } from "react";
 import HandwrittenTitle from "@/components/HandwrittenTitle";
 import type { CrosswalkEntry } from "@/types";
-import { CROSSWALK } from "@/data/crosswalk";
+import { CROSSWALK, getCanonicalNameByQid, lookupBySlug } from "@/data/crosswalk";
 import { buildPlaceContent } from "@/lib/wikidata";
 import { readableNameFromSlug, resolveEntityBySlugOrQid } from "@/lib/entityResolver";
 import { fetchWikipediaSearchSummary } from "@/lib/wikipedia";
@@ -30,7 +30,14 @@ const resolvePage = cache(async (slug: string): Promise<{
   fallbackSummary: Awaited<ReturnType<typeof fetchWikipediaSearchSummary>>;
 }> => {
   try {
-    const resolution = await resolveEntityBySlugOrQid(slug, "place");
+    const slugHint = lookupBySlug(slug.toLowerCase());
+    const sourceNameHint = slugHint?.wikidataId
+      ? getCanonicalNameByQid(slugHint.wikidataId)
+      : undefined;
+
+    const resolution = await resolveEntityBySlugOrQid(slug, "place", {
+      sourceName: sourceNameHint,
+    });
     const resolved = resolution.resolved;
     if (!resolved) {
       const canonicalName = readableNameFromSlug(slug);

@@ -1,9 +1,9 @@
 import { NextRequest, NextResponse } from "next/server";
-import { buildManifest, snapshotIndexForYear } from "@/app/api/manifest/route";
+import { buildManifest, stateIndexForYear } from "@/app/api/manifest/route";
 import { enrichBorderProps, type RawProperties } from "@/lib/geoEnrich";
 
-// Server-side in-memory cache: snapshotYear → enriched JSON string
-const borderCache = new Map<number, string>();
+// Server-side in-memory cache: stateTileKey → enriched JSON string
+const borderCache = new Map<string, string>();
 
 export async function GET(
   _req: NextRequest,
@@ -18,14 +18,15 @@ export async function GET(
 
   try {
     const manifest = await buildManifest();
-    const idx = snapshotIndexForYear(manifest.snapshots, year);
-    const snapshot = manifest.snapshots[idx];
+    const stateIdx = stateIndexForYear(manifest.states, year);
+    const state = manifest.states[stateIdx];
+    const snapshot = manifest.snapshots[state.snapshotIndex];
 
-    if (!snapshot) {
-      return NextResponse.json({ error: "No snapshot found" }, { status: 404 });
+    if (!snapshot || !state) {
+      return NextResponse.json({ error: "No state found" }, { status: 404 });
     }
 
-    const cacheKey = snapshot.snapshotYear;
+    const cacheKey = `${state.validFrom}:${state.validTo}:${snapshot.snapshotYear}`;
     if (borderCache.has(cacheKey)) {
       return new NextResponse(borderCache.get(cacheKey)!, {
         headers: {
@@ -57,14 +58,19 @@ export async function GET(
 
     const enriched = {
       type: "FeatureCollection",
+      requestedYear: year,
       snapshotYear: snapshot.snapshotYear,
+      stateYear: state.stateYear,
+      validFrom: state.validFrom,
+      validTo: state.validTo,
+      sources: state.sources,
       features: raw.features.map((f) => ({
         type: "Feature",
         properties: enrichBorderProps(
           f.properties,
           f.geometry,
-          snapshot.snapshotYear,
-          snapshot.validTo
+          state.validFrom,
+          state.validTo
         ),
         geometry: f.geometry,
       })),

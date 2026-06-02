@@ -1,4 +1,5 @@
 import { NextResponse } from "next/server";
+import { DATED_CHANGE_POINTS } from "@/data/datedChangePoints";
 
 const REPO_CONTENTS_URL =
   "https://api.github.com/repos/aourednik/historical-basemaps/contents/geojson";
@@ -25,11 +26,30 @@ export interface YearManifestEntry {
   validTo: number; // exclusive
 }
 
+export interface YearStateEntry {
+  stateYear: number;
+  validFrom: number;
+  validTo: number; // exclusive
+  snapshotIndex: number;
+  snapshotYear: number;
+  sources: string[];
+}
+
 export interface YearManifest {
   /** Snapshot entries, sorted ascending by year. */
   snapshots: YearManifestEntry[];
+  /** Convenience flat list of snapshot years (same order as snapshots). */
+  snapshotYears: number[];
+  /** Densified change-point states, sorted ascending by year. */
+  states: YearStateEntry[];
+  /** Convenience flat list of state change-point years (same order as states). */
+  stateYears: number[];
   /** Every integer year → index into `snapshots`. */
   yearToSnapshot: Record<number, number>;
+  /** Number of snapshot-derived change points (baseline). */
+  baseChangePointCount: number;
+  /** Number of densified change points after adding dated events. */
+  densifiedChangePointCount: number;
   /** Full range covered. */
   minYear: number;
   maxYear: number;
@@ -85,6 +105,34 @@ export async function buildManifest(): Promise<YearManifest> {
   const minYear = snapshotYears[0];
   const maxYear = snapshotYears[snapshotYears.length - 1];
 
+  // Build a union of snapshot years and external dated change points.
+  const sourcesByYear = new Map<number, string[]>();
+  for (const y of snapshotYears) {
+    sourcesByYear.set(y, ["historical-basemaps-snapshot"]);
+  }
+  for (const cp of DATED_CHANGE_POINTS) {
+    if (cp.year < minYear || cp.year > maxYear) continue;
+    const existing = sourcesByYear.get(cp.year) ?? [];
+    existing.push(`${cp.sourceType}:${cp.label}`);
+    sourcesByYear.set(cp.year, existing);
+  }
+
+  const changeYears = [...sourcesByYear.keys()].sort((a, b) => a - b);
+  const states: YearStateEntry[] = changeYears.map((year, i) => {
+    const next = changeYears[i + 1] ?? maxYear + 1;
+    const snapshotIndex = snapshotIndexForYear(snapshots, year);
+    const snapshotYear = snapshots[snapshotIndex].snapshotYear;
+
+    return {
+      stateYear: year,
+      validFrom: year,
+      validTo: next,
+      snapshotIndex,
+      snapshotYear,
+      sources: sourcesByYear.get(year) ?? ["historical-basemaps-snapshot"],
+    };
+  });
+
   // Build year→snapshot index for every year in range
   // (avoid materializing millions of entries; just store the actual snapshot years)
   // The yearToSnapshot map is sparse: only keys that are snapshot years map to indices.
@@ -96,7 +144,12 @@ export async function buildManifest(): Promise<YearManifest> {
 
   const manifest: YearManifest = {
     snapshots,
+    snapshotYears,
+    states,
+    stateYears: states.map((s) => s.stateYear),
     yearToSnapshot,
+    baseChangePointCount: snapshots.length,
+    densifiedChangePointCount: states.length,
     minYear,
     maxYear,
     generatedAt: new Date().toISOString(),
@@ -117,6 +170,22 @@ export function snapshotIndexForYear(snapshots: YearManifestEntry[], year: numbe
   while (lo <= hi) {
     const mid = (lo + hi) >> 1;
     if (snapshots[mid].validFrom <= year) {
+      best = mid;
+      lo = mid + 1;
+    } else {
+      hi = mid - 1;
+    }
+  }
+  return best;
+}
+
+export function stateIndexForYear(states: YearStateEntry[], year: number): number {
+  let lo = 0;
+  let hi = states.length - 1;
+  let best = 0;
+  while (lo <= hi) {
+    const mid = (lo + hi) >> 1;
+    if (states[mid].validFrom <= year) {
       best = mid;
       lo = mid + 1;
     } else {

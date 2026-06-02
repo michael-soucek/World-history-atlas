@@ -4,8 +4,15 @@ import fs from "node:fs";
 import path from "node:path";
 
 const ROOT = process.cwd();
-const SNAPSHOT_PATH = path.join(ROOT, "public/data/snapshot-1700-borders.geojson");
 const CROSSWALK_PATH = path.join(ROOT, "src/data/crosswalk.ts");
+const REPORTS_DIR = path.join(ROOT, "reports");
+
+const REPO_CONTENTS_URL =
+  "https://api.github.com/repos/aourednik/historical-basemaps/contents/geojson";
+const RAW_BASE =
+  "https://raw.githubusercontent.com/aourednik/historical-basemaps/master/geojson";
+
+const WD_USER_AGENT = "WorldHistoryAtlas/1.0 (resolution-audit-full)";
 
 const PLACE_TYPE_IDS = new Set([
   "Q6256", // country
@@ -19,35 +26,70 @@ const PLACE_TYPE_IDS = new Set([
   "Q515", // city
 ]);
 
-const ENTITY_RAW_CACHE = new Map();
-const ENTITY_DETAILS_CACHE = new Map();
-const SUBCLASS_CHAIN_CACHE = new Map();
-const WD_USER_AGENT = "WorldHistoryAtlas/1.0 (resolution-audit)";
+const POLITY_NAME_PATTERN = /(empire|caliphate|kingdom|dynasty|sultanate|republic|state|khanate|commonwealth|duchy|horde|khaganate|shogunate|principality|monarchy|tsardom|electorate|protectorate|confederation|realm)/i;
+
+const SEARCH_PROMISE_CACHE = new Map();
+const ENTITY_PROMISE_CACHE = new Map();
 
 function slugify(name) {
-  return name
+  return String(name || "")
     .toLowerCase()
     .replace(/[^\w\s-]/g, "")
     .replace(/[\s_]+/g, "-")
     .replace(/^-+|-+$/g, "");
 }
 
-function humaniseSlug(slug) {
-  const spaced = slug.replace(/[-_]+/g, " ").replace(/\s+/g, " ").trim();
-  if (!spaced) return slug;
+function readableNameFromSlug(slug) {
+  const spaced = String(slug || "")
+    .replace(/^\/+|\/+$/g, "")
+    .replace(/[-_]+/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+
+  if (!spaced) return String(slug || "");
+
   return spaced
     .split(" ")
-    .map((w) => (w ? w[0].toUpperCase() + w.slice(1) : w))
+    .map((w) => {
+      if (/^(ii|iii|iv|v|vi|vii|viii|ix|x)$/i.test(w)) return w.toUpperCase();
+      return w.charAt(0).toUpperCase() + w.slice(1);
+    })
     .join(" ");
 }
 
 function normaliseExact(s) {
-  return s
+  return String(s || "")
     .toLowerCase()
     .replace(/[–—-]/g, " ")
     .replace(/[^\w\s]/g, "")
     .replace(/\s+/g, " ")
     .trim();
+}
+
+function scoreNameMatch(name, details) {
+  const target = normaliseExact(name);
+  const label = normaliseExact(details.label);
+  const aliases = details.aliases.map((a) => normaliseExact(a));
+
+  if (label === target || aliases.includes(target)) return 1000;
+
+  const targetTokens = new Set(target.split(" ").filter(Boolean));
+  const labelTokens = new Set(label.split(" ").filter(Boolean));
+  const overlap = [...targetTokens].filter((t) => labelTokens.has(t)).length;
+  const tokenScore = targetTokens.size > 0 ? overlap / targetTokens.size : 0;
+
+  let score = Math.round(tokenScore * 100);
+  if (label.startsWith(target) || target.startsWith(label)) score += 60;
+  if (aliases.some((a) => a.startsWith(target) || target.startsWith(a))) score += 40;
+  return score;
+}
+
+function parseFilename(name) {
+  const ce = String(name).match(/^world_(\d+)\.geojson$/);
+  if (ce) return Number.parseInt(ce[1], 10);
+  const bce = String(name).match(/^world_bc(\d+)\.geojson$/);
+  if (bce) return -Number.parseInt(bce[1], 10);
+  return null;
 }
 
 function parseCrosswalkMap(fileText) {
@@ -60,6 +102,99 @@ function parseCrosswalkMap(fileText) {
   return out;
 }
 
+async function sleep(ms) {
+  await new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+async function fetchJsonWithRetry(url, timeoutMs = 7000) {
+  const delays = [0, 120, 320];
+
+  for (const delayMs of delays) {
+    if (delayMs > 0) await sleep(delayMs);
+
+    try {
+      const res = await fetch(url, {
+        signal: AbortSignal.timeout(timeoutMs),
+        headers: {
+          Accept: "application/json",
+          "User-Agent": WD_USER_AGENT,
+        },
+      });
+
+      if (res.ok) {
+        try {
+          return await res.json();
+        } catch {
+          return null;
+        }
+      }
+
+      if (res.status === 429 || res.status >= 500) continue;
+      return null;
+    } catch {
+      // transient
+    }
+  }
+
+  return null;
+}
+
+async function listSnapshotUrls() {
+  const json = await fetchJsonWithRetry(REPO_CONTENTS_URL);
+  if (!json || !Array.isArray(json)) return [];
+
+  const years = [];
+  for (const file of json) {
+    const year = parseFilename(file?.name);
+    if (year !== null) years.push(year);
+  }
+
+  years.sort((a, b) => a - b);
+
+  return years.map((year) => {
+    const filename = year < 0
+      ? `world_bc${Math.abs(year)}.geojson`
+      : `world_${year}.geojson`;
+
+    return {
+      filename,
+      rawUrl: `${RAW_BASE}/${filename}`,
+    };
+  });
+}
+
+async function collectAllPlaceSlugs() {
+  const snapshots = await listSnapshotUrls();
+  const slugToName = new Map();
+
+  for (let i = 0; i < snapshots.length; i += 1) {
+    const snap = snapshots[i];
+    console.log(`Snapshot ${i + 1}/${snapshots.length}: ${snap.filename}`);
+
+    const data = await fetchJsonWithRetry(snap.rawUrl, 45000);
+    const features = data?.features;
+    if (!Array.isArray(features)) continue;
+
+    for (const feature of features) {
+      const props = feature?.properties ?? {};
+      const name = String(props.NAME ?? "").trim();
+      const sovereign = String(props.SUBJECTO ?? "").trim();
+
+      if (name) {
+        const slug = slugify(name);
+        if (slug && !slugToName.has(slug)) slugToName.set(slug, name);
+      }
+
+      if (sovereign) {
+        const slug = slugify(sovereign);
+        if (slug && !slugToName.has(slug)) slugToName.set(slug, sovereign);
+      }
+    }
+  }
+
+  return slugToName;
+}
+
 function getEntityIdClaims(entity, prop) {
   const claims = entity?.claims?.[prop] ?? [];
   return claims
@@ -67,305 +202,297 @@ function getEntityIdClaims(entity, prop) {
     .filter((v) => typeof v === "string" && /^Q\d+$/.test(v));
 }
 
-async function sleep(ms) {
-  await new Promise((resolve) => setTimeout(resolve, ms));
-}
-
-async function fetchWikidataJson(url) {
-  const delays = [0, 300, 900];
-
-  for (let i = 0; i < delays.length; i += 1) {
-    if (delays[i] > 0) await sleep(delays[i]);
-
-    const res = await fetch(url, {
-      signal: AbortSignal.timeout(15000),
-      headers: {
-        Accept: "application/json",
-        "User-Agent": WD_USER_AGENT,
-      },
-    });
-
-    if (res.ok) {
-      try {
-        return await res.json();
-      } catch {
-        return null;
-      }
-    }
-
-    if (res.status === 429 || res.status >= 500) continue;
-    return null;
-  }
-
-  return null;
-}
-
-async function fetchEntityRaw(qid) {
-  if (ENTITY_RAW_CACHE.has(qid)) return ENTITY_RAW_CACHE.get(qid);
-
-  const url = `https://www.wikidata.org/wiki/Special:EntityData/${qid}.json`;
-  const json = await fetchWikidataJson(url);
-  if (!json || typeof json !== "object") {
-    ENTITY_RAW_CACHE.set(qid, null);
-    return null;
-  }
-
-  const entity = json.entities?.[qid] ?? null;
-  ENTITY_RAW_CACHE.set(qid, entity);
-  return entity;
-}
-
 async function fetchEntityDetails(qid) {
-  if (ENTITY_DETAILS_CACHE.has(qid)) return ENTITY_DETAILS_CACHE.get(qid);
+  if (ENTITY_PROMISE_CACHE.has(qid)) return ENTITY_PROMISE_CACHE.get(qid);
 
-  const entity = await fetchEntityRaw(qid);
-  if (!entity) {
-    ENTITY_DETAILS_CACHE.set(qid, null);
-    return null;
-  }
+  const promise = (async () => {
+    const data = await fetchJsonWithRetry(`https://www.wikidata.org/wiki/Special:EntityData/${qid}.json`);
+    if (!data || typeof data !== "object") return null;
 
-  const label = entity.labels?.en?.value ?? "";
-  const aliases = (entity.aliases?.en ?? []).map((a) => a.value ?? "").filter(Boolean);
-  const sitelinks = entity.sitelinks ?? {};
-  const claims = entity.claims ?? {};
+    const entity = data?.entities?.[qid];
+    if (!entity) return null;
 
-  const details = {
-    qid,
-    label,
-    aliases,
-    hasEnwiki: Boolean(sitelinks.enwiki?.title),
-    sitelinksCount: Object.keys(sitelinks).length,
-    statementsCount: Object.values(claims).reduce((n, arr) => n + arr.length, 0),
-    p31: getEntityIdClaims(entity, "P31"),
-  };
+    const label = entity?.labels?.en?.value ?? "";
+    const aliases = (entity?.aliases?.en ?? []).map((a) => a.value ?? "").filter(Boolean);
+    const sitelinks = entity?.sitelinks ?? {};
+    const claims = entity?.claims ?? {};
 
-  ENTITY_DETAILS_CACHE.set(qid, details);
-  return details;
-}
+    return {
+      qid,
+      label,
+      aliases,
+      hasEnwiki: Boolean(sitelinks.enwiki?.title),
+      sitelinksCount: Object.keys(sitelinks).length,
+      statementsCount: Object.values(claims).reduce((n, arr) => n + arr.length, 0),
+      p31: getEntityIdClaims(entity, "P31"),
+    };
+  })();
 
-async function getSubclassChain(qid, depth = 0, seen = new Set()) {
-  if (SUBCLASS_CHAIN_CACHE.has(qid)) return SUBCLASS_CHAIN_CACHE.get(qid);
-  if (depth > 6 || seen.has(qid)) return [];
-  seen.add(qid);
-
-  const entity = await fetchEntityRaw(qid);
-  if (!entity) {
-    SUBCLASS_CHAIN_CACHE.set(qid, []);
-    return [];
-  }
-
-  const direct = getEntityIdClaims(entity, "P279");
-  const out = new Set(direct);
-
-  for (const parent of direct) {
-    const chain = await getSubclassChain(parent, depth + 1, seen);
-    for (const c of chain) out.add(c);
-  }
-
-  const result = [...out];
-  SUBCLASS_CHAIN_CACHE.set(qid, result);
-  return result;
-}
-
-async function passesPlaceTypeGuard(qid) {
-  const details = await fetchEntityDetails(qid);
-  if (!details) return false;
-
-  for (const cls of details.p31) {
-    if (PLACE_TYPE_IDS.has(cls)) return true;
-    const parents = await getSubclassChain(cls);
-    if (parents.some((p) => PLACE_TYPE_IDS.has(p))) return true;
-  }
-
-  return false;
-}
-
-async function validatePlaceQid(qid) {
-  const details = await fetchEntityDetails(qid);
-  if (!details) return { ok: false, details: null, reason: "missing-entity" };
-  if (!details.hasEnwiki) return { ok: false, details, reason: "no-article" };
-
-  const typeOk = await passesPlaceTypeGuard(qid);
-  if (!typeOk) return { ok: false, details, reason: "invalid-type" };
-
-  return { ok: true, details, reason: "" };
+  ENTITY_PROMISE_CACHE.set(qid, promise);
+  return promise;
 }
 
 async function searchWikidataCandidates(name) {
-  const encoded = encodeURIComponent(name);
-  const url =
-    `https://www.wikidata.org/w/api.php` +
-    `?action=wbsearchentities&search=${encoded}` +
-    `&language=en&type=item&limit=25&format=json&origin=*`;
+  const key = normaliseExact(name);
+  if (SEARCH_PROMISE_CACHE.has(key)) return SEARCH_PROMISE_CACHE.get(key);
 
-  const json = await fetchWikidataJson(url);
-  if (!json || typeof json !== "object") return [];
-  return (json.search ?? [])
-    .map((r) => r.id)
-    .filter((id) => typeof id === "string" && /^Q\d+$/.test(id));
+  const promise = (async () => {
+    const encoded = encodeURIComponent(name);
+    const url =
+      `https://www.wikidata.org/w/api.php` +
+      `?action=wbsearchentities&search=${encoded}` +
+      `&language=en&type=item&limit=6&format=json&origin=*`;
+
+    const json = await fetchJsonWithRetry(url);
+    if (!json || typeof json !== "object") return [];
+
+    return (json.search ?? [])
+      .map((r) => r.id)
+      .filter((id) => typeof id === "string" && /^Q\d+$/.test(id));
+  })();
+
+  SEARCH_PROMISE_CACHE.set(key, promise);
+  return promise;
 }
 
-async function resolveExactPlace(name) {
-  const target = normaliseExact(name);
-  const ids = await searchWikidataCandidates(name);
-  const matches = [];
+function isEntityCandidateName(name) {
+  return POLITY_NAME_PATTERN.test(String(name || ""));
+}
 
-  for (const qid of ids) {
-    const details = await fetchEntityDetails(qid);
-    if (!details || !details.hasEnwiki) continue;
+function passesTypeGuard(details) {
+  return details.p31.some((cls) => PLACE_TYPE_IDS.has(cls));
+}
 
-    const exact =
-      normaliseExact(details.label) === target ||
-      details.aliases.some((a) => normaliseExact(a) === target);
-    if (!exact) continue;
-
-    const typeOk = await passesPlaceTypeGuard(qid);
-    if (!typeOk) continue;
-
-    matches.push({
-      qid,
-      label: details.label || name,
-      sitelinks: details.sitelinksCount,
-      statements: details.statementsCount,
-    });
+async function resolveBaseline(slug, readableName, crosswalkBySlug) {
+  const cw = crosswalkBySlug.get(slug);
+  if (!cw) {
+    return {
+      resolved: false,
+      qid: "",
+      hasEnwiki: false,
+      status: "FALLBACK",
+    };
   }
 
-  if (matches.length === 0) return { candidate: null, ambiguous: false };
+  const details = await fetchEntityDetails(cw.qid);
+  const ok = Boolean(details?.hasEnwiki);
 
-  matches.sort((a, b) => {
-    if (b.sitelinks !== a.sitelinks) return b.sitelinks - a.sitelinks;
-    return b.statements - a.statements;
-  });
+  return {
+    resolved: ok,
+    qid: cw.qid,
+    hasEnwiki: ok,
+    status: ok ? "OK" : "FALLBACK",
+    label: details?.label || readableName,
+  };
+}
 
-  if (matches.length > 1) {
-    const a = matches[0];
-    const b = matches[1];
-    if (a.sitelinks === b.sitelinks && a.statements === b.statements) {
-      return { candidate: null, ambiguous: true };
+async function resolveImproved(slug, readableName, crosswalkBySlug) {
+  const cw = crosswalkBySlug.get(slug);
+  if (cw) {
+    const details = await fetchEntityDetails(cw.qid);
+    if (details?.hasEnwiki && passesTypeGuard(details)) {
+      return {
+        resolved: true,
+        qid: cw.qid,
+        hasEnwiki: true,
+        status: "OK",
+      };
     }
   }
 
-  return { candidate: matches[0], ambiguous: false };
+  const ids = await searchWikidataCandidates(readableName);
+  if (ids.length === 0) {
+    return {
+      resolved: false,
+      qid: "",
+      hasEnwiki: false,
+      status: "FALLBACK",
+    };
+  }
+
+  const detailList = await Promise.all(ids.map((qid) => fetchEntityDetails(qid)));
+  const candidates = detailList
+    .filter((d) => d && d.hasEnwiki && passesTypeGuard(d))
+    .map((d) => ({
+      qid: d.qid,
+      score: scoreNameMatch(readableName, d),
+      sitelinksCount: d.sitelinksCount,
+      statementsCount: d.statementsCount,
+      hasEnwiki: true,
+    }))
+    .filter((c) => c.score >= 40)
+    .sort((a, b) => {
+      if (b.score !== a.score) return b.score - a.score;
+      if (b.sitelinksCount !== a.sitelinksCount) return b.sitelinksCount - a.sitelinksCount;
+      return b.statementsCount - a.statementsCount;
+    });
+
+  if (candidates.length === 0) {
+    return {
+      resolved: false,
+      qid: "",
+      hasEnwiki: false,
+      status: "FALLBACK",
+    };
+  }
+
+  return {
+    resolved: true,
+    qid: candidates[0].qid,
+    hasEnwiki: true,
+    status: "OK",
+  };
 }
 
-function majorPolitySignal(name) {
-  return /(empire|caliphate|kingdom|dynasty|sultanate|republic|state|khanate|commonwealth)/i.test(name);
+async function runWithConcurrency(items, limit, worker) {
+  const out = new Array(items.length);
+  let index = 0;
+
+  async function loop() {
+    while (true) {
+      const i = index;
+      index += 1;
+      if (i >= items.length) return;
+      out[i] = await worker(items[i], i);
+    }
+  }
+
+  await Promise.all(Array.from({ length: Math.min(limit, items.length) }, () => loop()));
+  return out;
 }
 
-function shouldAttemptExactResolution(name) {
-  return majorPolitySignal(name);
+function toCsv(rows) {
+  const header = [
+    "slug",
+    "readableName",
+    "baselineResolved",
+    "baselineQid",
+    "baselineHasEnwiki",
+    "baselineStatus",
+    "improvedResolved",
+    "improvedQid",
+    "improvedHasEnwiki",
+    "improvedStatus",
+  ];
+
+  const lines = [header.join(",")];
+
+  for (const row of rows) {
+    const values = [
+      row.slug,
+      row.readableName,
+      row.baselineResolved,
+      row.baselineQid,
+      row.baselineHasEnwiki,
+      row.baselineStatus,
+      row.improvedResolved,
+      row.improvedQid,
+      row.improvedHasEnwiki,
+      row.improvedStatus,
+    ].map((v) => {
+      const s = String(v ?? "");
+      if (/[",\n]/.test(s)) return `"${s.replace(/"/g, '""')}"`;
+      return s;
+    });
+
+    lines.push(values.join(","));
+  }
+
+  return lines.join("\n");
 }
 
 async function main() {
-  const snapshot = JSON.parse(fs.readFileSync(SNAPSHOT_PATH, "utf8"));
   const crosswalkText = fs.readFileSync(CROSSWALK_PATH, "utf8");
-  const crosswalk = parseCrosswalkMap(crosswalkText);
+  const crosswalkBySlug = parseCrosswalkMap(crosswalkText);
 
-  const slugToName = new Map();
-  for (const f of snapshot.features ?? []) {
-    const name = String(f.properties?.name ?? "").trim();
-    const sovereign = String(f.properties?.sovereign ?? "").trim();
-    if (name) slugToName.set(slugify(name), name);
-    if (sovereign) slugToName.set(slugify(sovereign), sovereign);
-  }
+  console.log("Collecting full place slug universe from all historical snapshots...");
+  const slugToName = await collectAllPlaceSlugs();
 
-  const slugs = [...slugToName.keys()].filter(Boolean).sort();
-  const slugArg = process.argv.find((a) => a.startsWith("--slugs="));
-  const explicitSlugs = slugArg
-    ? slugArg
-      .slice("--slugs=".length)
-      .split(",")
-      .map((s) => slugify(s.trim()))
-      .filter(Boolean)
-    : null;
-  const limitArg = process.argv.find((a) => a.startsWith("--limit="));
-  const limit = limitArg ? Number(limitArg.split("=")[1]) : null;
-  const auditSlugs = explicitSlugs
-    ? explicitSlugs
-    : limit
-      ? slugs.slice(0, limit)
-      : slugs;
+  const allSlugs = [...slugToName.keys()].sort();
+  const slugs = allSlugs.filter((slug) => isEntityCandidateName(slugToName.get(slug) || slug));
 
-  console.log(`Auditing ${auditSlugs.length} place slugs...\n`);
-  console.log("slug\tmethod\tqid\tlabel\thas-article\treason");
+  console.log(`Collected ${allSlugs.length} unique place slugs.`);
+  console.log(`Auditing full entity-candidate slug list: ${slugs.length} slugs.\n`);
 
-  let resolvedCount = 0;
-  let crosswalkCount = 0;
-  let exactCount = 0;
-  let fallbackCount = 0;
-  const flagged = [];
-
-  for (const slug of auditSlugs) {
-    const sourceName = slugToName.get(slug) ?? humaniseSlug(slug);
-    let method = "fallback";
-    let qid = "";
-    let label = "";
-    let hasArticle = "no";
-    let reason = "not-found";
-
-    const cw = crosswalk.get(slug);
-    if (cw) {
-      const valid = await validatePlaceQid(cw.qid);
-      if (valid.ok) {
-        method = "crosswalk";
-        qid = cw.qid;
-        label = valid.details.label;
-        hasArticle = "yes";
-        reason = "";
-      } else {
-        reason = valid.reason;
-      }
+  const rows = await runWithConcurrency(slugs, 10, async (slug, i) => {
+    if (i === 0 || (i + 1) % 25 === 0) {
+      console.log(`Resolving ${i + 1}/${slugs.length} ...`);
     }
 
-    if (method === "fallback" && shouldAttemptExactResolution(sourceName)) {
-      try {
-        const exact = await resolveExactPlace(sourceName);
-        if (exact.ambiguous) {
-          reason = "ambiguous";
-        } else if (exact.candidate) {
-          const valid = await validatePlaceQid(exact.candidate.qid);
-          if (valid.ok) {
-            method = "wikidata-exact";
-            qid = exact.candidate.qid;
-            label = valid.details.label;
-            hasArticle = "yes";
-            reason = "";
-          } else {
-            reason = valid.reason;
-          }
-        }
-      } catch {
-        reason = "lookup-error";
-      }
-    }
+    const readableName = readableNameFromSlug(slugToName.get(slug) || slug);
+    const before = await resolveBaseline(slug, readableName, crosswalkBySlug);
+    const after = await resolveImproved(slug, readableName, crosswalkBySlug);
 
-    if (method !== "fallback") {
-      resolvedCount += 1;
-      if (method === "crosswalk") crosswalkCount += 1;
-      if (method === "wikidata-exact") exactCount += 1;
-    } else {
-      fallbackCount += 1;
-      if (majorPolitySignal(sourceName)) {
-        flagged.push({ slug, name: sourceName, reason });
-      }
-    }
+    return {
+      slug,
+      readableName,
+      baselineResolved: before.resolved,
+      baselineQid: before.qid,
+      baselineHasEnwiki: before.hasEnwiki,
+      baselineStatus: before.status,
+      improvedResolved: after.resolved,
+      improvedQid: after.qid,
+      improvedHasEnwiki: after.hasEnwiki,
+      improvedStatus: after.status,
+    };
+  });
 
-    console.log(`${slug}\t${method}\t${qid}\t${label}\t${hasArticle}\t${reason}`);
-  }
+  const baselineFallback = rows
+    .filter((r) => !r.baselineResolved)
+    .map((r) => r.slug)
+    .sort();
 
-  console.log("\n---");
-  console.log(`Total: ${auditSlugs.length}`);
-  console.log(`Resolved: ${resolvedCount}`);
-  console.log(`Crosswalk: ${crosswalkCount}`);
-  console.log(`Wikidata exact: ${exactCount}`);
-  console.log(`Fallback: ${fallbackCount}`);
+  const improvedFallback = rows
+    .filter((r) => !r.improvedResolved)
+    .map((r) => r.slug)
+    .sort();
 
-  if (flagged.length > 0) {
-    console.log("\nMajor-polity fallbacks to inspect:");
-    for (const f of flagged) {
-      console.log(`- ${f.slug} (${f.name}) reason=${f.reason}`);
-    }
-  }
+  const baselineOk = rows.filter((r) => r.baselineResolved).length;
+  const improvedOk = rows.filter((r) => r.improvedResolved).length;
+
+  fs.mkdirSync(REPORTS_DIR, { recursive: true });
+
+  const timestamp = new Date().toISOString().replace(/[:.]/g, "-");
+  const csvPath = path.join(REPORTS_DIR, `resolution-audit-full-${timestamp}.csv`);
+  const jsonPath = path.join(REPORTS_DIR, `resolution-audit-summary-${timestamp}.json`);
+
+  fs.writeFileSync(csvPath, toCsv(rows), "utf8");
+  fs.writeFileSync(
+    jsonPath,
+    JSON.stringify(
+      {
+        generatedAt: new Date().toISOString(),
+        totalSlugsSeen: allSlugs.length,
+        totalEntities: rows.length,
+        okBefore: baselineOk,
+        okAfter: improvedOk,
+        fallbackBeforeCount: baselineFallback.length,
+        fallbackAfterCount: improvedFallback.length,
+        fallbackBefore: baselineFallback,
+        fallbackAfter: improvedFallback,
+      },
+      null,
+      2,
+    ),
+    "utf8",
+  );
+
+  console.log("\n=== BEFORE / AFTER SUMMARY ===");
+  console.log(`Total entities: ${rows.length}`);
+  console.log(`# OK before: ${baselineOk}`);
+  console.log(`# OK after: ${improvedOk}`);
+  console.log(`# FALLBACK before: ${baselineFallback.length}`);
+  console.log(`# FALLBACK after: ${improvedFallback.length}`);
+
+  console.log("\n=== FALLBACK LIST (BEFORE) ===");
+  for (const slug of baselineFallback) console.log(slug);
+
+  console.log("\n=== FALLBACK LIST (AFTER) ===");
+  for (const slug of improvedFallback) console.log(slug);
+
+  console.log("\nAudit artifacts:");
+  console.log(`- ${csvPath}`);
+  console.log(`- ${jsonPath}`);
 }
 
 main().catch((err) => {

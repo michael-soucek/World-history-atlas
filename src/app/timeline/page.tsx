@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
+import HistoricalMap from "@/components/HistoricalMap";
 import TimelineClient from "@/components/TimelineClient";
 
 export const metadata: Metadata = {
@@ -13,6 +14,11 @@ export default function TimelinePage() {
     <>
       <SiteHeader />
       <main className="min-h-screen">
+        <section className="bg-parchment py-10 border-b border-paper">
+          <div className="max-w-6xl mx-auto px-6">
+            <HistoricalMap />
+          </div>
+        </section>
         <TimelineClient />
       </main>
       <SiteFooter />

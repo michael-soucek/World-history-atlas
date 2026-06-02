@@ -16,8 +16,10 @@ export const SNAPSHOT_YEARS: number[] = [
   1900, 1914, 1920, 1930, 1938, 1945, 1960, 1994, 2000, 2010,
 ];
 
-export const MIN_YEAR = -10000; // practical UI minimum
-export const MAX_YEAR = 2010;
+// Practical map floor: allow scrubbing back to 12,000 BCE.
+// The first available snapshot within this range is 10,000 BCE.
+export const MIN_YEAR = -12000;
+export const MAX_YEAR = SNAPSHOT_YEARS[SNAPSHOT_YEARS.length - 1];
 export const DEFAULT_YEAR = 1700;
 
 /**
@@ -33,8 +35,10 @@ export function yearToFilename(year: number): string {
  * Return the most recent snapshot year <= the requested year.
  */
 export function getSnapshotYearFor(year: number): number {
-  let result = SNAPSHOT_YEARS[0];
+  const firstUsable = SNAPSHOT_YEARS.find((y) => y >= MIN_YEAR) ?? SNAPSHOT_YEARS[0];
+  let result = firstUsable;
   for (const sy of SNAPSHOT_YEARS) {
+    if (sy < firstUsable) continue;
     if (sy <= year) result = sy;
     else break;
   }
@@ -65,5 +69,9 @@ export function getEraForYear(year: number): string {
 }
 
 export function yearToSliderValue(year: number): number {
+  return Math.max(MIN_YEAR, Math.min(MAX_YEAR, year));
+}
+
+export function clampYear(year: number): number {
   return Math.max(MIN_YEAR, Math.min(MAX_YEAR, year));
 }
