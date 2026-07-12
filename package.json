@@ -17,8 +17,8 @@
     "build:entity-cache": "node scripts/build-entity-cache.mjs"
   },
   "dependencies": {
-    "@maplibre/maplibre-gl-geocoder": "^1.9.4",
-    "@turf/area": "^7.3.5",
+    "zustand": "^5.0.14",
+    "react-leaflet": "^5.0.0",
     "@types/leaflet": "^1.9.21",
     "cheerio": "^1.2.0",
     "leaflet": "^1.9.4",
@@ -27,10 +27,7 @@
     "next": "16.2.6",
     "polylabel": "^2.0.1",
     "react": "19.2.4",
-    "react-dom": "19.2.4",
-    "react-leaflet": "^5.0.0",
-    "vara": "^1.4.1",
-    "zustand": "^5.0.14"
+    "react-dom": "19.2.4"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",

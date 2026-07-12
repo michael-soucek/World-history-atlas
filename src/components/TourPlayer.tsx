@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
+import { ReadAloudButton } from "@/components/ReadAloudButton";
 import type { Tour } from "@/data/tours";
 
 interface TourPlayerProps {
@@ -82,7 +83,10 @@ export default function TourPlayer({ tour }: TourPlayerProps) {
             <p className="text-ancient/60 text-xs font-mono mb-3">
               {current.mapState.year < 0 ? `${Math.abs(current.mapState.year)} BCE` : `${current.mapState.year} CE`}
             </p>
-            <h2 className="font-display text-2xl font-bold text-ink mb-4">{current.title}</h2>
+            <div className="flex justify-between items-start mb-4">
+              <h2 className="font-display text-2xl font-bold text-ink">{current.title}</h2>
+              <ReadAloudButton text={current.text} className="mt-1" />
+            </div>
             <p className="text-ink/65 leading-relaxed text-base">{current.text}</p>
           </div>
 

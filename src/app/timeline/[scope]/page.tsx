@@ -78,7 +78,7 @@ export default async function ScopedTimelinePage({ params }: Props) {
               {eraYears.map(year => (
                 <Link
                   key={year}
-                  href={`/map?year=${year}&lat=20&lng=10&z=2`}
+                  href={`/map?year=${year}`}
                   className={`rounded-xl border ${accentMeta.border} bg-white/60 hover:bg-surface px-4 py-3 text-sm font-mono text-ink/55 hover:text-ink transition-all duration-200 hover:translate-x-0.5`}
                 >
                   {formatYear(year)}

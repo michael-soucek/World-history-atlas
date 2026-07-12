@@ -29,135 +29,146 @@ function parseEntityCrosswalk(fileText) {
   return out;
 }
 
+async function fetchJson(url) {
+  for (const delay of [0, 500, 1500, 4000, 9000]) {
+    if (delay) await sleep(delay);
+    try {
+      const res = await fetch(url, {
+        signal: AbortSignal.timeout(20000),
+        headers: { Accept: "application/json", "User-Agent": USER_AGENT },
+      });
+      if (res.ok) return await res.json();
+      if (res.status === 429 || res.status >= 500) continue;
+      return null;
+    } catch {
+      // transient network issue — retry
+    }
+  }
+  return null;
+}
+
 async function sleep(ms) {
   await new Promise((resolve) => setTimeout(resolve, ms));
 }
 
-async function fetchJson(url) {
-  const delays = [0, 150, 450];
-  for (const delayMs of delays) {
-    if (delayMs > 0) await sleep(delayMs);
+function chunk(arr, size) {
+  const out = [];
+  for (let i = 0; i < arr.length; i += size) out.push(arr.slice(i, i + size));
+  return out;
+}
 
-    try {
-      const res = await fetch(url, {
-        signal: AbortSignal.timeout(10000),
-        headers: {
-          Accept: "application/json",
-          "User-Agent": USER_AGENT,
-        },
-      });
-
-      if (res.ok) {
-        try {
-          return await res.json();
-        } catch {
-          return null;
-        }
-      }
-
-      if (res.status === 429 || res.status >= 500) continue;
-      return null;
-    } catch {
-      // transient network issue
+/** Batch-fetch Wikidata entities: qid -> { label, description, enwikiTitle, wikipediaUrl }. */
+async function fetchEntitiesBatch(qids) {
+  const map = new Map();
+  for (const ids of chunk([...new Set(qids)], 50)) {
+    const url =
+      `https://www.wikidata.org/w/api.php?action=wbgetentities&ids=${ids.join("|")}` +
+      `&props=labels|descriptions|sitelinks&languages=en&sitefilter=enwiki&format=json&origin=*`;
+    const data = await fetchJson(url);
+    const entities = data?.entities ?? {};
+    for (const [qid, entity] of Object.entries(entities)) {
+      if (entity.missing !== undefined) continue;
+      const label = entity.labels?.en?.value ?? "";
+      const description = entity.descriptions?.en?.value ?? "";
+      const enwikiTitle = entity.sitelinks?.enwiki?.title;
+      const wikipediaUrl = enwikiTitle
+        ? `https://en.wikipedia.org/wiki/${encodeURIComponent(enwikiTitle).replace(/%20/g, "_")}`
+        : undefined;
+      map.set(qid, { label, description, enwikiTitle, wikipediaUrl });
     }
+    await sleep(300);
   }
-
-  return null;
+  return map;
 }
 
-async function fetchEntityData(qid) {
-  const data = await fetchJson(`https://www.wikidata.org/wiki/Special:EntityData/${qid}.json`);
-  if (!data || typeof data !== "object") return null;
-  const entity = data.entities?.[qid];
-  if (!entity) return null;
-
-  const label = entity.labels?.en?.value ?? "";
-  const description = entity.descriptions?.en?.value ?? "";
-  const enwikiTitle = entity.sitelinks?.enwiki?.title;
-  const wikipediaUrl = enwikiTitle
-    ? `https://en.wikipedia.org/wiki/${encodeURIComponent(enwikiTitle).replace(/%20/g, "_")}`
-    : undefined;
-
-  return { label, description, enwikiTitle, wikipediaUrl };
+function normKey(s) {
+  return s.replace(/_/g, " ").trim().toLowerCase();
 }
 
-async function fetchWikipediaSummary(title) {
-  const encoded = encodeURIComponent(title);
-  const url =
-    `https://en.wikipedia.org/w/api.php` +
-    `?action=query&titles=${encoded}` +
-    `&prop=extracts|info&exintro=1&explaintext=1&inprop=url&redirects=1` +
-    `&format=json&origin=*`;
-
-  const data = await fetchJson(url);
-  if (!data || typeof data !== "object") return "";
-
-  const pages = data.query?.pages ?? {};
-  const page = Object.values(pages)[0];
-  if (!page || page.missing) return "";
-
-  return String(page.extract ?? "").trim();
+/** Batch-fetch Wikipedia lead extracts: normalised title -> extract string. */
+async function fetchExtractsBatch(titles) {
+  const map = new Map();
+  for (const chunkTitles of chunk([...new Set(titles)], 20)) {
+    const url =
+      `https://en.wikipedia.org/w/api.php?action=query&titles=${chunkTitles.map(encodeURIComponent).join("|")}` +
+      `&prop=extracts&exintro=1&explaintext=1&exlimit=20&redirects=1&format=json&origin=*`;
+    const data = await fetchJson(url);
+    const query = data?.query ?? {};
+    const forward = new Map();
+    for (const n of query.normalized ?? []) forward.set(normKey(n.from), n.to);
+    for (const r of query.redirects ?? []) {
+      for (const [k, v] of forward) if (v === r.from) forward.set(k, r.to);
+      forward.set(normKey(r.from), r.to);
+    }
+    const pagesByTitle = new Map();
+    for (const p of Object.values(query.pages ?? {})) {
+      if (p && p.title) pagesByTitle.set(normKey(p.title), p);
+    }
+    for (const input of chunkTitles) {
+      const resolvedTitle = forward.get(normKey(input)) ?? input;
+      const page = pagesByTitle.get(normKey(resolvedTitle)) ?? pagesByTitle.get(normKey(input));
+      const extract = String(page?.extract ?? "").trim();
+      if (extract) map.set(normKey(input), extract);
+    }
+    await sleep(300);
+  }
+  return map;
 }
 
 async function main() {
-  const placeText = fs.readFileSync(CROSSWALK_PATH, "utf8");
-  const entityText = fs.readFileSync(ENTITY_CROSSWALK_PATH, "utf8");
+  const placeEntries = parsePlaceCrosswalk(fs.readFileSync(CROSSWALK_PATH, "utf8"));
+  const otherEntries = parseEntityCrosswalk(fs.readFileSync(ENTITY_CROSSWALK_PATH, "utf8"));
 
-  const placeEntries = parsePlaceCrosswalk(placeText);
-  const otherEntries = parseEntityCrosswalk(entityText);
-  const entries = [...placeEntries, ...otherEntries];
-  const limitArg = process.argv.find((a) => a.startsWith("--limit="));
-  const limit = limitArg ? Number(limitArg.split("=")[1]) : entries.length;
-  const selectedEntries = entries.slice(0, Math.max(0, limit));
+  // One entry per QID (first occurrence wins — keeps canonical name).
+  const byQid = new Map();
+  for (const e of [...placeEntries, ...otherEntries]) {
+    if (!byQid.has(e.qid)) byQid.set(e.qid, e);
+  }
+  const entries = [...byQid.values()];
 
-  const out = {
-    generatedAt: new Date().toISOString(),
-    entries: {},
-  };
+  console.log(`Resolving ${entries.length} unique entities…`);
+  const entityData = await fetchEntitiesBatch(entries.map((e) => e.qid));
 
+  const titlesToFetch = [];
+  for (const e of entries) {
+    const d = entityData.get(e.qid);
+    if (d?.enwikiTitle) titlesToFetch.push(d.enwikiTitle);
+  }
+  console.log(`Fetching ${titlesToFetch.length} Wikipedia lead extracts…`);
+  const extracts = await fetchExtractsBatch(titlesToFetch);
+
+  const out = { generatedAt: new Date().toISOString(), entries: {} };
   let ok = 0;
+  let shortOnly = 0;
   let failed = 0;
 
-  for (let i = 0; i < selectedEntries.length; i += 1) {
-    const entry = selectedEntries[i];
-
-    if (i % 20 === 0) {
-      console.log(`Progress: ${i}/${selectedEntries.length}`);
-    }
-
-    // Preserve first success per QID to avoid duplicate fetch work.
-    if (out.entries[entry.qid]) continue;
-
-    const entity = await fetchEntityData(entry.qid);
-    if (!entity) {
+  for (const e of entries) {
+    const d = entityData.get(e.qid);
+    if (!d) {
       failed += 1;
       continue;
     }
+    const extract = d.enwikiTitle ? extracts.get(normKey(d.enwikiTitle)) : "";
+    const summary = extract || d.description || "";
+    if (!extract && summary) shortOnly += 1;
 
-    let summary = entity.description || "";
-    if (entity.enwikiTitle) {
-      const wikiSummary = await fetchWikipediaSummary(entity.enwikiTitle);
-      if (wikiSummary) summary = wikiSummary;
-    }
-
-    out.entries[entry.qid] = {
-      qid: entry.qid,
-      entityType: entry.entityType,
-      name: entity.label || entry.name || entry.slug,
+    out.entries[e.qid] = {
+      qid: e.qid,
+      entityType: e.entityType,
+      name: d.label || e.name || e.slug,
       summary,
-      wikipediaUrl: entity.wikipediaUrl,
+      wikipediaUrl: d.wikipediaUrl,
     };
-
     ok += 1;
-    await sleep(40);
   }
 
   fs.mkdirSync(path.dirname(OUT_PATH), { recursive: true });
   fs.writeFileSync(OUT_PATH, JSON.stringify(out, null, 2), "utf8");
 
   console.log(`Built ${OUT_PATH}`);
-  console.log(`Input entries: ${selectedEntries.length}`);
   console.log(`Cached entries: ${ok}`);
+  console.log(`  with Wikipedia extract: ${ok - shortOnly}`);
+  console.log(`  description-only (no extract): ${shortOnly}`);
   console.log(`Failed entries: ${failed}`);
 }
 

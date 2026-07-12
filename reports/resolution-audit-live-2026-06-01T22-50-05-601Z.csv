@@ -1,0 +1,233 @@
+slug,sourceName,readableName,aggregate,beforeResolved,beforeQid,beforeHasEnwiki,beforeStatus,afterResolved,afterQid,afterHasEnwiki,afterStatus
+abbasid-caliphate,Abbasid Caliphate,Abbasid Caliphate,false,true,Q9589,false,OK,true,Q9589,false,OK
+achaemenid-empire,Achaemenid Empire,Achaemenid Empire,false,true,Q11765,false,OK,true,Q11765,false,OK
+almohad-caliphate,Almohad Caliphate,Almohad Caliphate,false,false,,false,FALLBACK,false,,false,FALLBACK
+almoravid-dynasty,Almoravid dynasty,Almoravid dynasty,false,false,,false,FALLBACK,false,,false,FALLBACK
+andean-states-and-chiefdoms,Andean states and chiefdoms,Andean states and chiefdoms,true,false,,false,FALLBACK,false,,false,FALLBACK
+angevin-empire,Angevin Empire,Angevin Empire,false,false,,false,FALLBACK,false,,false,FALLBACK
+arakan-indian-princely-state,Arakan (Indian princely state),Arakan (Indian princely state),false,false,,false,FALLBACK,false,,false,FALLBACK
+astrakhan-khanate,Astrakhan Khanate,Astrakhan Khanate,false,false,,false,FALLBACK,false,,false,FALLBACK
+austrian-empire,Austrian Empire,Austrian Empire,false,false,,false,FALLBACK,false,,false,FALLBACK
+austro-hungarian-empire,Austro-Hungarian Empire,Austro-Hungarian Empire,false,false,,false,FALLBACK,false,,false,FALLBACK
+aymara-kingdoms,Aymara kingdoms,Aymara kingdoms,true,false,,false,FALLBACK,false,,false,FALLBACK
+aztec-empire,Aztec Empire,Aztec Empire,false,true,Q12542,false,OK,true,Q12542,false,OK
+bahmani-kingdom,Bahmani Kingdom,Bahmani Kingdom,false,false,,false,FALLBACK,false,,false,FALLBACK
+batavian-republic,Batavian Republic,Batavian Republic,false,false,,false,FALLBACK,false,,false,FALLBACK
+blue-horde,Blue Horde,Blue Horde,false,false,,false,FALLBACK,false,,false,FALLBACK
+bokhara-khanate,Bokhara Khanate,Bokhara Khanate,false,false,,false,FALLBACK,false,,false,FALLBACK
+borgu-states,Borgu States,Borgu States,false,false,,false,FALLBACK,false,,false,FALLBACK
+bosporan-kingdom,Bosporan Kingdom,Bosporan Kingdom,false,false,,false,FALLBACK,false,,false,FALLBACK
+bosporian-kingdom,Bosporian Kingdom,Bosporian Kingdom,false,false,,false,FALLBACK,false,,false,FALLBACK
+british-protectorate,British Protectorate,British Protectorate,false,false,,false,FALLBACK,false,,false,FALLBACK
+bukara-khanate,Bukara Khanate,Bukara Khanate,false,false,,false,FALLBACK,false,,false,FALLBACK
+bulgar-khanate,Bulgar Khanate,Bulgar Khanate,false,false,,false,FALLBACK,false,,false,FALLBACK
+burmese-kingdoms,Burmese kingdoms,Burmese kingdoms,true,false,,false,FALLBACK,false,,false,FALLBACK
+byzantine-empire,Byzantine Empire,Byzantine Empire,false,true,Q41088,false,OK,true,Q41088,false,OK
+caliphate-of-crdoba,Caliphate of Córdoba,Caliphate of Córdoba,false,false,,false,FALLBACK,false,,false,FALLBACK
+carolingian-empire,Carolingian Empire,Carolingian Empire,false,true,Q150804,true,OK,true,Q150804,true,OK
+carthaginian-empire,Carthaginian Empire,Carthaginian Empire,false,false,,false,FALLBACK,false,,false,FALLBACK
+celtic-kingdoms,Celtic kingdoms,Celtic kingdoms,true,false,,false,FALLBACK,false,,false,FALLBACK
+central-african-republic,Central African Republic,Central African Republic,false,false,,false,FALLBACK,false,,false,FALLBACK
+central-asian-khanates,central Asian khanates,central Asian khanates,false,false,,false,FALLBACK,false,,false,FALLBACK
+chagatai-khanate,Chagatai Khanate,Chagatai Khanate,false,false,,false,FALLBACK,false,,false,FALLBACK
+chalukya-empire,Chalukya Empire,Chalukya Empire,false,false,,false,FALLBACK,false,,false,FALLBACK
+champa-city-states,Champa City States,Champa City States,true,false,,false,FALLBACK,false,,false,FALLBACK
+chim-empire,Chimú Empire,Chimú Empire,false,false,,false,FALLBACK,false,,false,FALLBACK
+chola-state,Chola state,Chola state,false,false,,false,FALLBACK,false,,false,FALLBACK
+city-states,city-states,city-states,true,false,,false,FALLBACK,false,,false,FALLBACK
+crimean-khanate,Crimean Khanate,Crimean Khanate,false,false,,false,FALLBACK,false,,false,FALLBACK
+croatian-kingdom,Croatian kingdom,Croatian kingdom,false,false,,false,FALLBACK,false,,false,FALLBACK
+cuman-khanates,Cuman Khanates,Cuman Khanates,false,false,,false,FALLBACK,false,,false,FALLBACK
+cuman-kipchak-confederation,Cuman-Kipchak confederation,Cuman-Kipchak confederation,false,false,,false,FALLBACK,false,,false,FALLBACK
+czech-republic,Czech Republic,Czech Republic,false,false,,false,FALLBACK,false,,false,FALLBACK
+dendi-kingdom,Dendi Kingdom,Dendi Kingdom,false,false,,false,FALLBACK,false,,false,FALLBACK
+dominican-republic,Dominican Republic,Dominican Republic,false,false,,false,FALLBACK,false,,false,FALLBACK
+duchy-of-swabia,Duchy of Swabia,Duchy of Swabia,false,false,,false,FALLBACK,false,,false,FALLBACK
+dutch-republic,Dutch Republic,Dutch Republic,false,true,Q170072,true,OK,true,Q170072,true,OK
+eastern-roman-empire,Eastern Roman Empire,Eastern Roman Empire,false,false,,false,FALLBACK,true,Q41088,false,OK
+empire-of-alexander,Empire of Alexander,Empire of Alexander,false,false,,false,FALLBACK,true,Q8168,false,OK
+empire-of-ghana,Empire of Ghana,Empire of Ghana,false,false,,false,FALLBACK,false,,false,FALLBACK
+empire-of-japan,Empire of Japan,Empire of Japan,false,false,,false,FALLBACK,false,,false,FALLBACK
+expansionist-kingdom-of-merina,Expansionist Kingdom of Merina,Expansionist Kingdom of Merina,false,false,,false,FALLBACK,false,,false,FALLBACK
+fatimid-caliphate,Fatimid Caliphate,Fatimid Caliphate,false,false,,false,FALLBACK,false,,false,FALLBACK
+first-samori-empire,First Samori Empire,First Samori Empire,false,false,,false,FALLBACK,false,,false,FALLBACK
+frankish-kingdom,Frankish Kingdom,Frankish Kingdom,false,true,Q12131,true,OK,true,Q12131,true,OK
+fulani-empire,Fulani Empire,Fulani Empire,false,false,,false,FALLBACK,false,,false,FALLBACK
+georgian-kingdom,Georgian Kingdom,Georgian Kingdom,false,false,,false,FALLBACK,false,,false,FALLBACK
+german-empire,German Empire,German Empire,false,true,Q43287,false,OK,true,Q43287,false,OK
+golden-horde,Golden Horde,Golden Horde,false,true,Q131054,false,OK,true,Q131054,false,OK
+grand-duchy-of-hesse,Grand Duchy of Hesse,Grand Duchy of Hesse,false,false,,false,FALLBACK,true,Q20135,true,OK
+grand-duchy-of-moscow,Grand Duchy of Moscow,Grand Duchy of Moscow,false,false,,false,FALLBACK,false,,false,FALLBACK
+great-khanate,Great Khanate,Great Khanate,false,false,,false,FALLBACK,false,,false,FALLBACK
+greek-city-states,Greek city-states,Greek city-states,true,false,,false,FALLBACK,false,,false,FALLBACK
+gupta-empire,Gupta Empire,Gupta Empire,false,true,Q188889,false,OK,true,Q188889,false,OK
+hafsid-caliphate,Hafsid Caliphate,Hafsid Caliphate,false,false,,false,FALLBACK,false,,false,FALLBACK
+han-empire,Han Empire,Han Empire,false,false,,false,FALLBACK,false,,false,FALLBACK
+hausa-states,Hausa States,Hausa States,true,false,,false,FALLBACK,false,,false,FALLBACK
+helvetic-republic,Helvetic Republic,Helvetic Republic,false,false,,false,FALLBACK,false,,false,FALLBACK
+himyarite-kingdom,Himyarite Kingdom,Himyarite Kingdom,false,false,,false,FALLBACK,false,,false,FALLBACK
+hindu-kingdoms,Hindu kingdoms,Hindu kingdoms,true,false,,false,FALLBACK,false,,false,FALLBACK
+hindu-kingdoms-and-republics,Hindu kingdoms and republics,Hindu kingdoms and republics,true,false,,false,FALLBACK,false,,false,FALLBACK
+hindu-states,Hindu states,Hindu states,false,false,,false,FALLBACK,false,,false,FALLBACK
+holy-roman-empire,Holy Roman Empire,Holy Roman Empire,false,true,Q12548,true,OK,true,Q12548,true,OK
+huari-empire,Huari Empire,Huari Empire,false,false,,false,FALLBACK,false,,false,FALLBACK
+hunnic-empire,Hunnic Empire,Hunnic Empire,false,false,,false,FALLBACK,false,,false,FALLBACK
+hurrian-kingdoms,Hurrian Kingdoms,Hurrian Kingdoms,true,false,,false,FALLBACK,false,,false,FALLBACK
+icelandic-commonwealth,Icelandic Commonwealth,Icelandic Commonwealth,false,false,,false,FALLBACK,false,,false,FALLBACK
+idrisid-caliphate,Idrisid Caliphate,Idrisid Caliphate,false,false,,false,FALLBACK,false,,false,FALLBACK
+ilkhanate,Ilkhanate,Ilkhanate,false,true,Q19609,true,OK,true,Q19609,true,OK
+inca-empire,Inca Empire,Inca Empire,false,true,Q35409,false,OK,true,Q35409,false,OK
+islamic-and-hindu-states,Islamic and Hindu states,Islamic and Hindu states,true,false,,false,FALLBACK,false,,false,FALLBACK
+islamic-city-states,Islamic city-states,Islamic city-states,true,false,,false,FALLBACK,false,,false,FALLBACK
+islamic-states,Islamic states,Islamic states,true,false,,false,FALLBACK,false,,false,FALLBACK
+japan-warring-states,Japan (Warring States),Japan (Warring States),false,false,,false,FALLBACK,false,,false,FALLBACK
+jin-empire,Jin Empire,Jin Empire,false,false,,false,FALLBACK,false,,false,FALLBACK
+k-hawaii-paeina-hawaiian-kingdom,Kō Hawaiʻi Paeʻāina (Hawaiian Kingdom),Kō Hawaiʻi Paeʻāina (Hawaiian Kingdom),false,false,,false,FALLBACK,false,,false,FALLBACK
+kara-khitai-khaganate,Kara Khitai Khaganate,Kara Khitai Khaganate,false,false,,false,FALLBACK,false,,false,FALLBACK
+kazan-khanate,Kazan Khanate,Kazan Khanate,false,false,,false,FALLBACK,false,,false,FALLBACK
+khanate-of-sibir,Khanate of Sibir,Khanate of Sibir,false,false,,false,FALLBACK,false,,false,FALLBACK
+khanate-of-the-golden-horde,Khanate of the Golden Horde,Khanate of the Golden Horde,false,false,,false,FALLBACK,false,,false,FALLBACK
+khiva-khanate,Khiva Khanate,Khiva Khanate,false,false,,false,FALLBACK,false,,false,FALLBACK
+khmer-empire,Khmer Empire,Khmer Empire,false,true,Q12827,false,OK,true,Q12827,false,OK
+kimek-kipchak-khaganate,Kimek-Kipchak khaganate,Kimek-Kipchak khaganate,false,false,,false,FALLBACK,false,,false,FALLBACK
+kingdom-of-antigonus,Kingdom of Antigonus,Kingdom of Antigonus,false,false,,false,FALLBACK,false,,false,FALLBACK
+kingdom-of-brazil,Kingdom of Brazil,Kingdom of Brazil,false,false,,false,FALLBACK,false,,false,FALLBACK
+kingdom-of-david-and-solomon,Kingdom of David and Solomon,Kingdom of David and Solomon,false,false,,false,FALLBACK,false,,false,FALLBACK
+kingdom-of-france,Kingdom of France,Kingdom of France,false,true,Q70972,true,OK,true,Q70972,true,OK
+kingdom-of-gala,Kingdom of Gala,Kingdom of Gala,false,false,,false,FALLBACK,false,,false,FALLBACK
+kingdom-of-georgia,Kingdom of Georgia,Kingdom of Georgia,false,false,,false,FALLBACK,false,,false,FALLBACK
+kingdom-of-hawaii,Kingdom of Hawaii,Kingdom of Hawaii,false,false,,false,FALLBACK,false,,false,FALLBACK
+kingdom-of-hungary,Kingdom of Hungary,Kingdom of Hungary,false,false,,false,FALLBACK,false,,false,FALLBACK
+kingdom-of-ireland,Kingdom of Ireland,Kingdom of Ireland,false,false,,false,FALLBACK,false,,false,FALLBACK
+kingdom-of-kapisa,Kingdom of Kapisa,Kingdom of Kapisa,false,false,,false,FALLBACK,false,,false,FALLBACK
+kingdom-of-kashmir,Kingdom of Kashmir,Kingdom of Kashmir,false,false,,false,FALLBACK,false,,false,FALLBACK
+kingdom-of-kassander,Kingdom of Kassander,Kingdom of Kassander,false,false,,false,FALLBACK,false,,false,FALLBACK
+kingdom-of-lysimachus,Kingdom of Lysimachus,Kingdom of Lysimachus,false,false,,false,FALLBACK,false,,false,FALLBACK
+kingdom-of-norway,Kingdom of Norway,Kingdom of Norway,false,false,,false,FALLBACK,false,,false,FALLBACK
+kingdom-of-pagan,Kingdom of Pagan,Kingdom of Pagan,false,false,,false,FALLBACK,false,,false,FALLBACK
+kingdom-of-sardinia,Kingdom of Sardinia,Kingdom of Sardinia,false,false,,false,FALLBACK,false,,false,FALLBACK
+kingdom-of-sind,Kingdom of Sind,Kingdom of Sind,false,false,,false,FALLBACK,false,,false,FALLBACK
+kingdom-of-sukhotai,Kingdom of Sukhotai,Kingdom of Sukhotai,false,false,,false,FALLBACK,false,,false,FALLBACK
+kingdom-of-syphax,Kingdom of Syphax,Kingdom of Syphax,false,false,,false,FALLBACK,false,,false,FALLBACK
+kingdom-of-the-two-sicilies,Kingdom of the Two Sicilies,Kingdom of the Two Sicilies,false,false,,false,FALLBACK,false,,false,FALLBACK
+kingdom-of-zunbil,Kingdom of Zunbil,Kingdom of Zunbil,false,false,,false,FALLBACK,false,,false,FALLBACK
+kong-empire,Kong Empire,Kong Empire,false,false,,false,FALLBACK,false,,false,FALLBACK
+korea-democratic-peoples-republic-of,"Korea, Democratic People's Republic of","Korea, Democratic People's Republic of",false,false,,false,FALLBACK,false,,false,FALLBACK
+korea-republic-of,"Korea, Republic of","Korea, Republic of",false,false,,false,FALLBACK,false,,false,FALLBACK
+kushan-empire,Kushan Empire,Kushan Empire,false,false,,false,FALLBACK,false,,false,FALLBACK
+laotian-states,Laotian states,Laotian states,true,false,,false,FALLBACK,false,,false,FALLBACK
+lopburi-kingdom,Lopburi Kingdom,Lopburi Kingdom,false,false,,false,FALLBACK,false,,false,FALLBACK
+mahratta-states,Mahratta states,Mahratta states,false,false,,false,FALLBACK,false,,false,FALLBACK
+maitraka-kingdom,Maitraka Kingdom,Maitraka Kingdom,false,false,,false,FALLBACK,false,,false,FALLBACK
+malaysian-islamic-states,Malaysian Islamic states,Malaysian Islamic states,false,false,,false,FALLBACK,false,,false,FALLBACK
+mamluke-sultanate,Mamluke Sultanate,Mamluke Sultanate,false,false,,false,FALLBACK,false,,false,FALLBACK
+manchu-empire,Manchu Empire,Manchu Empire,false,true,Q8733,true,OK,true,Q8733,true,OK
+mauryan-empire,Mauryan Empire,Mauryan Empire,false,false,,false,FALLBACK,false,,false,FALLBACK
+maya-chiefdoms-and-states,Maya chiefdoms and states,Maya chiefdoms and states,true,false,,false,FALLBACK,false,,false,FALLBACK
+maya-city-states,Maya city-states,Maya city-states,true,false,,false,FALLBACK,false,,false,FALLBACK
+maya-states,Maya states,Maya states,true,false,,false,FALLBACK,false,,false,FALLBACK
+mesoamerican-city-states-and-chiefdoms,Mesoamerican city-states and chiefdoms,Mesoamerican city-states and chiefdoms,true,false,,false,FALLBACK,false,,false,FALLBACK
+middag-kingdom,Middag Kingdom,Middag Kingdom,false,false,,false,FALLBACK,false,,false,FALLBACK
+ming-chinese-empire,Ming Chinese Empire,Ming Chinese Empire,false,false,,false,FALLBACK,false,,false,FALLBACK
+ming-empire,Ming Empire,Ming Empire,false,false,,false,FALLBACK,false,,false,FALLBACK
+minor-hindu-and-buddhist-kingdoms,minor Hindu and Buddhist kingdoms,minor Hindu and Buddhist kingdoms,true,false,,false,FALLBACK,false,,false,FALLBACK
+minor-hindu-and-buddhist-states,minor Hindu and Buddhist states,minor Hindu and Buddhist states,true,false,,false,FALLBACK,false,,false,FALLBACK
+minor-hindu-buddhist-states,minor Hindu & Buddhist states,minor Hindu & Buddhist states,true,false,,false,FALLBACK,false,,false,FALLBACK
+minor-hindu-kingdoms,minor Hindu kingdoms,minor Hindu kingdoms,true,false,,false,FALLBACK,false,,false,FALLBACK
+minor-states,minor states,minor states,true,false,,false,FALLBACK,false,,false,FALLBACK
+minor-states-under-indian-influence,minor states under Indian influence,minor states under Indian influence,true,false,,false,FALLBACK,false,,false,FALLBACK
+mixtec-empire,Mixtec Empire,Mixtec Empire,false,false,,false,FALLBACK,false,,false,FALLBACK
+mon-state,Mon state,Mon state,false,false,,false,FALLBACK,false,,false,FALLBACK
+mon-states,Mon States,Mon States,true,false,,false,FALLBACK,false,,false,FALLBACK
+mongol-empire,Mongol Empire,Mongol Empire,false,true,Q12544,false,OK,true,Q12544,false,OK
+mossi-states,Mossi States,Mossi States,true,false,,false,FALLBACK,false,,false,FALLBACK
+mughal-empire,Mughal Empire,Mughal Empire,false,true,Q33296,false,OK,true,Q33296,false,OK
+mysore-indian-princely-state,Mysore (Indian princely state),Mysore (Indian princely state),false,false,,false,FALLBACK,false,,false,FALLBACK
+nabatean-kingdom,Nabatean Kingdom,Nabatean Kingdom,false,false,,false,FALLBACK,false,,false,FALLBACK
+nogai-horde,Nogai Horde,Nogai Horde,false,false,,false,FALLBACK,false,,false,FALLBACK
+odrysian-kingdom,Odrysian Kingdom,Odrysian Kingdom,false,false,,false,FALLBACK,false,,false,FALLBACK
+oirat-confederation,Oirat Confederation,Oirat Confederation,false,false,,false,FALLBACK,false,,false,FALLBACK
+orange-free-state,Orange Free State,Orange Free State,false,false,,false,FALLBACK,false,,false,FALLBACK
+ottoman-empire,Ottoman Empire,Ottoman Empire,false,true,Q12560,false,OK,true,Q12560,false,OK
+ottoman-sultanate,Ottoman Sultanate,Ottoman Sultanate,false,false,,false,FALLBACK,false,,false,FALLBACK
+pallava-state,Pallava state,Pallava state,false,false,,false,FALLBACK,false,,false,FALLBACK
+pandya-state,Pandya state,Pandya state,false,false,,false,FALLBACK,false,,false,FALLBACK
+papal-states,Papal States,Papal States,false,true,Q170174,false,OK,true,Q170174,false,OK
+parthian-empire,Parthian Empire,Parthian Empire,false,false,,false,FALLBACK,false,,false,FALLBACK
+polishlithuanian-commonwealth,Polish–Lithuanian Commonwealth,Polish–Lithuanian Commonwealth,false,true,Q172107,true,OK,true,Q172107,true,OK
+principality-of-galicia-volhynia,Principality of Galicia-Volhynia,Principality of Galicia-Volhynia,false,false,,false,FALLBACK,false,,false,FALLBACK
+principality-of-kyiv,Principality of Kyiv,Principality of Kyiv,false,false,,false,FALLBACK,false,,false,FALLBACK
+principality-of-novgorod,Principality of Novgorod,Principality of Novgorod,false,false,,false,FALLBACK,false,,false,FALLBACK
+principality-of-polotsk,Principality of Polotsk,Principality of Polotsk,false,false,,false,FALLBACK,false,,false,FALLBACK
+principality-of-vladimir-suzdal,Principality of Vladimir-Suzdal,Principality of Vladimir-Suzdal,false,false,,false,FALLBACK,false,,false,FALLBACK
+principality-of-wallachia,Principality of Wallachia,Principality of Wallachia,false,false,,false,FALLBACK,false,,false,FALLBACK
+ptolemaic-kingdom,Ptolemaic Kingdom,Ptolemaic Kingdom,false,true,Q11776,false,OK,true,Q11776,false,OK
+pyu-state,Pyu state,Pyu state,false,false,,false,FALLBACK,false,,false,FALLBACK
+qing-empire,Qing Empire,Qing Empire,false,false,,false,FALLBACK,false,,false,FALLBACK
+quazaq-khanate,Quazaq Khanate,Quazaq Khanate,false,false,,false,FALLBACK,false,,false,FALLBACK
+rajput-clans-and-small-states,Rajput Clans and Small States,Rajput Clans and Small States,true,false,,false,FALLBACK,false,,false,FALLBACK
+rajput-kingdoms,Rajput kingdoms,Rajput kingdoms,true,false,,false,FALLBACK,false,,false,FALLBACK
+rashtrakuta-state,Rashtrakuta state,Rashtrakuta state,false,false,,false,FALLBACK,false,,false,FALLBACK
+rattanakosin-kingdom,Rattanakosin Kingdom,Rattanakosin Kingdom,false,false,,false,FALLBACK,false,,false,FALLBACK
+republic-of-krakw,Republic of Kraków,Republic of Kraków,false,false,,false,FALLBACK,false,,false,FALLBACK
+republic-of-the-seven-zenden,Republic of the Seven Zenden,Republic of the Seven Zenden,false,false,,false,FALLBACK,false,,false,FALLBACK
+rift-valley-states,Rift Valley States,Rift Valley States,false,false,,false,FALLBACK,false,,false,FALLBACK
+roman-empire,Roman Empire,Roman Empire,false,true,Q2277,false,OK,true,Q2277,false,OK
+roman-republic,Roman Republic,Roman Republic,false,true,Q6134,false,OK,true,Q6134,false,OK
+rus-khaganate,Rus' Khaganate,Rus' Khaganate,false,false,,false,FALLBACK,false,,false,FALLBACK
+russian-empire,Russian Empire,Russian Empire,false,true,Q34266,false,OK,true,Q34266,false,OK
+saar-protectorate,Saar Protectorate,Saar Protectorate,false,false,,false,FALLBACK,false,,false,FALLBACK
+safavid-empire,Safavid Empire,Safavid Empire,false,true,Q18234383,true,OK,true,Q18234383,true,OK
+saka-kingdom,Saka Kingdom,Saka Kingdom,false,false,,false,FALLBACK,false,,false,FALLBACK
+samanid-empire,Samanid Empire,Samanid Empire,false,false,,false,FALLBACK,false,,false,FALLBACK
+sasanian-empire,Sasanian Empire,Sasanian Empire,false,true,Q12557,false,OK,true,Q12557,false,OK
+second-samori-empire,Second Samori Empire,Second Samori Empire,false,false,,false,FALLBACK,false,,false,FALLBACK
+seleucid-kingdom,Seleucid Kingdom,Seleucid Kingdom,false,false,,false,FALLBACK,false,,false,FALLBACK
+seljuk-caliphate,Seljuk Caliphate,Seljuk Caliphate,false,false,,false,FALLBACK,false,,false,FALLBACK
+seljuk-empire,Seljuk Empire,Seljuk Empire,false,false,,false,FALLBACK,false,,false,FALLBACK
+shan-states,Shan states,Shan states,false,true,Q4765854,false,OK,true,Q4765854,false,OK
+sikkim-indian-princely-state,Sikkim (Indian princely state),Sikkim (Indian princely state),false,false,,false,FALLBACK,false,,false,FALLBACK
+sinhalese-kingdom,Sinhalese kingdom,Sinhalese kingdom,false,false,,false,FALLBACK,false,,false,FALLBACK
+sinhalese-kingdoms,Sinhalese kingdoms,Sinhalese kingdoms,true,false,,false,FALLBACK,false,,false,FALLBACK
+sixteen-kingdoms,Sixteen Kingdoms,Sixteen Kingdoms,true,false,,false,FALLBACK,false,,false,FALLBACK
+sokoto-caliphate,Sokoto Caliphate,Sokoto Caliphate,false,false,,false,FALLBACK,false,,false,FALLBACK
+song-empire,Song Empire,Song Empire,false,false,,false,FALLBACK,false,,false,FALLBACK
+srivijaya-empire,Srivijaya Empire,Srivijaya Empire,false,false,,false,FALLBACK,false,,false,FALLBACK
+state-societies-and-aramaean-kingdoms,state societies and Aramaean kingdoms,state societies and Aramaean kingdoms,true,false,,false,FALLBACK,false,,false,FALLBACK
+sui-empire,Sui Empire,Sui Empire,false,false,,false,FALLBACK,false,,false,FALLBACK
+sultanate-of-damagaram,Sultanate of Damagaram,Sultanate of Damagaram,false,false,,false,FALLBACK,false,,false,FALLBACK
+sultanate-of-delhi,Sultanate of Delhi,Sultanate of Delhi,false,false,,false,FALLBACK,false,,false,FALLBACK
+sultanate-of-utetera,Sultanate of Utetera,Sultanate of Utetera,false,false,,false,FALLBACK,false,,false,FALLBACK
+suren-kingdom,Suren Kingdom,Suren Kingdom,false,false,,false,FALLBACK,false,,false,FALLBACK
+swiss-confederation,Swiss Confederation,Swiss Confederation,false,false,,false,FALLBACK,true,Q39,true,OK
+tang-empire,Tang Empire,Tang Empire,false,false,,false,FALLBACK,false,,false,FALLBACK
+tanzania-united-republic-of,"Tanzania, United Republic of","Tanzania, United Republic of",false,false,,false,FALLBACK,false,,false,FALLBACK
+thai-kingdoms,Thai Kingdoms,Thai Kingdoms,true,false,,false,FALLBACK,false,,false,FALLBACK
+tiahuanaco-empire,Tiahuanaco Empire,Tiahuanaco Empire,false,false,,false,FALLBACK,false,,false,FALLBACK
+tibetan-empire,Tibetan Empire,Tibetan Empire,false,true,Q152526,false,OK,true,Q152526,false,OK
+timurid-empire,Timurid Empire,Timurid Empire,false,true,Q165092,false,OK,true,Q165092,false,OK
+tokugawa-shogunate,Tokugawa Shogunate,Tokugawa Shogunate,false,false,,false,FALLBACK,false,,false,FALLBACK
+toltec-empire,Toltec Empire,Toltec Empire,false,false,,false,FALLBACK,false,,false,FALLBACK
+tsardom-of-muscovy,Tsardom of Muscovy,Tsardom of Muscovy,false,false,,false,FALLBACK,false,,false,FALLBACK
+tufan-empire,Tufan Empire,Tufan Empire,false,false,,false,FALLBACK,false,,false,FALLBACK
+tui-tonga-empire,Tuʻi Tonga Empire,Tuʻi Tonga Empire,false,false,,false,FALLBACK,false,,false,FALLBACK
+tukular-caliphate,Tukular Caliphate,Tukular Caliphate,false,false,,false,FALLBACK,false,,false,FALLBACK
+umayyad-caliphate,Umayyad Caliphate,Umayyad Caliphate,false,true,Q8806,false,OK,true,Q8806,false,OK
+united-kingdom,United Kingdom,United Kingdom,false,true,Q145,true,OK,true,Q145,true,OK
+united-kingdom-of-great-britain-and-ireland,United Kingdom of Great Britain and Ireland,United Kingdom of Great Britain and Ireland,false,false,,false,FALLBACK,false,,false,FALLBACK
+united-kingdom-of-netherlands,United Kingdom of Netherlands,United Kingdom of Netherlands,false,false,,false,FALLBACK,false,,false,FALLBACK
+united-states,United States,United States,false,true,Q30,true,OK,true,Q30,true,OK
+united-states-of-america,United States of America,United States of America,false,false,,false,FALLBACK,false,,false,FALLBACK
+united-states-virgin-islands,United States Virgin Islands,United States Virgin Islands,false,false,,false,FALLBACK,false,,false,FALLBACK
+visigothic-kingdom,Visigothic Kingdom,Visigothic Kingdom,false,false,,false,FALLBACK,false,,false,FALLBACK
+wadai-empire,Wadai Empire,Wadai Empire,false,false,,false,FALLBACK,false,,false,FALLBACK
+wassoulou-empire,Wassoulou Empire,Wassoulou Empire,false,false,,false,FALLBACK,false,,false,FALLBACK
+wattasid-caliphate,Wattasid Caliphate,Wattasid Caliphate,false,false,,false,FALLBACK,false,,false,FALLBACK
+western-gokturk-khaganate,Western Gokturk Khaganate,Western Gokturk Khaganate,false,false,,false,FALLBACK,false,,false,FALLBACK
+western-roman-empire,Western Roman Empire,Western Roman Empire,false,true,Q186077,true,OK,true,Q186077,true,OK
+white-horde,White Horde,White Horde,false,false,,false,FALLBACK,false,,false,FALLBACK
+zapotec-empire,Zapotec Empire,Zapotec Empire,false,false,,false,FALLBACK,false,,false,FALLBACK
+zayyanid-caliphate,Zayyanid Caliphate,Zayyanid Caliphate,false,false,,false,FALLBACK,false,,false,FALLBACK
+zhangzhung-kingdom,Zhangzhung Kingdom,Zhangzhung Kingdom,false,false,,false,FALLBACK,false,,false,FALLBACK
+zhou-states,Zhou states,Zhou states,true,false,,false,FALLBACK,false,,false,FALLBACK
+zhow-states,Zhow states,Zhow states,true,false,,false,FALLBACK,false,,false,FALLBACK

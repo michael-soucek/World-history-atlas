@@ -5,6 +5,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import HandwrittenTitle from "@/components/HandwrittenTitle";
+import { ReadAloudButton } from "@/components/ReadAloudButton";
 import type { PlaceContent, EntityType } from "@/types";
 import type { CrosswalkEntry } from "@/types";
 
@@ -98,7 +99,7 @@ export default function EntityPage({ content, entry, entityType, baseRoute }: En
                   src={content.imageUrl}
                   alt={`Image related to ${content.name}`}
                   fill
-                  className="object-cover"
+                  className="object-contain bg-surface"
                   unoptimized
                   priority
                 />
@@ -114,8 +115,26 @@ export default function EntityPage({ content, entry, entityType, baseRoute }: En
             </figure>
           )}
 
+          {content.summary && (
+            <div className="flex items-center gap-3 mb-6">
+              <ReadAloudButton text={[content.summary, ...(content.sections?.map(s => s.content) || [])].join(" ")} />
+              <span className="text-ink/25 text-[10px] uppercase tracking-widest font-semibold">Read Full Article</span>
+            </div>
+          )}
+
           {content.summary ? (
-            <p className="text-ink/75 text-base leading-[1.85] mb-4">{content.summary}</p>
+            <div className="mb-4 space-y-6">
+              {content.summary.split(/\n+/).filter(Boolean).map((para, i) => (
+                <div key={i} className="group relative flex gap-4">
+                  <ReadAloudButton 
+                    text={para} 
+                    variant="minimal" 
+                    className="shrink-0 mt-1 opacity-20 group-hover:opacity-100 transition-opacity" 
+                  />
+                  <p className="text-ink/75 text-base leading-[1.85]">{para}</p>
+                </div>
+              ))}
+            </div>
           ) : (
             <p className="text-ink/40 text-base italic mb-4">
               No summary available.{" "}
@@ -147,16 +166,25 @@ export default function EntityPage({ content, entry, entityType, baseRoute }: En
                     <h2 className="font-display text-xl font-semibold text-ink/80 italic group-open:text-ink transition-colors">
                       {sec.heading}
                     </h2>
+                    <ReadAloudButton 
+                      text={sec.content} 
+                      variant="minimal" 
+                      className="ml-2 opacity-0 group-hover:opacity-100 transition-opacity" 
+                    />
                     <svg className="ml-auto w-4 h-4 text-ink/25 transition-transform group-open:rotate-180" viewBox="0 0 16 16" fill="none" aria-hidden="true">
                       <path d="M4 6l4 4 4-4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
                     </svg>
                   </summary>
-                  <p className="text-ink/70 text-[15px] leading-[1.9] pl-4 border-l border-paper">
-                    {sec.content}
+                  <div className="pl-4 border-l border-paper">
+                    <p className="text-ink/70 text-[15px] leading-[1.9]">
+                      {sec.content}
+                    </p>
                     {sec.content.length >= 1190 && content.wikipediaUrl && (
-                      <>{" "}<a href={content.wikipediaUrl} target="_blank" rel="noopener noreferrer" className="text-ancient/60 hover:text-ancient underline underline-offset-2 transition-colors text-xs">Read more on Wikipedia →</a></>
+                      <p className="mt-4">
+                        <a href={content.wikipediaUrl} target="_blank" rel="noopener noreferrer" className="text-ancient/60 hover:text-ancient underline underline-offset-2 transition-colors text-xs">Read more on Wikipedia →</a>
+                      </p>
                     )}
-                  </p>
+                  </div>
                 </details>
               ))}
               {content.wikipediaUrl && (

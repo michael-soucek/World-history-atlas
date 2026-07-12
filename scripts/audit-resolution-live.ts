@@ -1,3 +1,4 @@
+// fallow-ignore-file unused-file
 import fs from "node:fs";
 import path from "node:path";
 import { clearResolutionCache, readableNameFromSlug, resolveEntityBySlugOrQid } from "@/lib/entityResolver";

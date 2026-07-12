@@ -49,7 +49,7 @@ export const ERA_LIST: Era[] = [
   },
 ];
 
-export function getEraForYear(year: number): Era {
+function getEraForYear(year: number): Era {
   return ERA_LIST.find(e => year >= e.start && year < e.end) ?? ERA_LIST[ERA_LIST.length - 1];
 }
 

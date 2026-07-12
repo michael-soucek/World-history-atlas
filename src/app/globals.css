@@ -117,3 +117,37 @@ body {
   to   { clip-path: inset(0 0%   0 0); }
 }
 
+/* Voyage map (VoyageMap component) waypoint popups */
+.vm-popup {
+  font-family: var(--font-sans), system-ui, sans-serif;
+  max-width: 15rem;
+  padding: 2px;
+}
+.vm-popup .vm-date {
+  font-size: 10px;
+  font-family: var(--font-mono), ui-monospace, monospace;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #b87008;
+}
+.vm-popup .vm-name {
+  font-weight: 600;
+  color: #1a120a;
+  font-size: 13px;
+  line-height: 1.3;
+  margin-top: 1px;
+}
+.vm-popup .vm-note {
+  color: #5a3e2a;
+  font-size: 11px;
+  line-height: 1.35;
+  margin-top: 3px;
+}
+.maplibregl-popup-content {
+  border-radius: 10px;
+  border: 1px solid #d9cfc2;
+  padding: 8px 11px;
+  box-shadow: 0 4px 16px rgba(26, 18, 10, 0.12);
+}
+
+

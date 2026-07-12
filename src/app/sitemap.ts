@@ -3,6 +3,7 @@ import { CROSSWALK } from "@/data/crosswalk";
 import { PEOPLE_CROSSWALK, EVENTS_CROSSWALK, CULTURES_CROSSWALK } from "@/data/entityCrosswalk";
 import { ERA_LIST, eraSlug } from "@/data/eras";
 import { TOURS } from "@/data/tours";
+import { EXPLORERS } from "@/data/voyages";
 
 const BASE = "https://worldhistoryatlas.com";
 
@@ -11,7 +12,8 @@ const REGION_SLUGS = [
   "africa", "americas", "central-asia", "southeast-asia",
 ];
 const THEME_SLUGS = [
-  "empires", "trade-routes", "religion", "conquest", "ancient-civilizations", "maritime",
+  "empires", "religions", "trade-routes", "conflicts",
+  "science", "art-culture", "age-of-exploration",
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -83,6 +85,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
+  const explorerRoutes: MetadataRoute.Sitemap = EXPLORERS.map(e => ({
+    url: `${BASE}/explorer/${e.slug}`,
+    lastModified: now,
+    changeFrequency: "monthly",
+    priority: 0.7,
+  }));
+
   const timelineRoutes: MetadataRoute.Sitemap = ERA_LIST.map(era => ({
     url: `${BASE}/timeline/${eraSlug(era.label)}`,
     lastModified: now,
@@ -100,6 +109,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...regionRoutes,
     ...themeRoutes,
     ...tourRoutes,
+    ...explorerRoutes,
     ...timelineRoutes,
   ];
 }

@@ -10,6 +10,7 @@ import { readableNameFromSlug, resolveEntityBySlugOrQid } from "@/lib/entityReso
 import { fetchWikipediaSearchSummary } from "@/lib/wikipedia";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
+import { ReadAloudButton } from "@/components/ReadAloudButton";
 import { DEFAULT_SOCIAL_IMAGE } from "@/lib/seo";
 
 interface Props {
@@ -52,7 +53,7 @@ const resolvePage = cache(async (slug: string): Promise<{
 
     const canonicalName = resolved.canonicalName;
     const content = await buildPlaceContent(resolved.wikidataId, canonicalName).catch(() => null);
-    const fallbackSummary = !content || content.labelMismatch
+    const fallbackSummary = !content || content.labelMismatch || !content.summary?.trim()
       ? await fetchWikipediaSearchSummary(canonicalName).catch(() => null)
       : null;
     return { entry, content, canonicalName, fallbackSummary };
@@ -103,7 +104,7 @@ export default async function PlacePage({ params }: Props) {
     : (content?.name || result.canonicalName || readableSlugName);
   const searchName = encodeURIComponent(displayName);
 
-  if (!content || content.labelMismatch || !entry) {
+  if (!content || content.labelMismatch || !entry || !content.summary?.trim()) {
     const summaryText = result.fallbackSummary?.summary?.trim();
     return (
       <>
@@ -209,7 +210,7 @@ export default async function PlacePage({ params }: Props) {
                     src={content.imageUrl}
                     alt={`Image related to ${content.name}`}
                     fill
-                    className="object-cover"
+                    className="object-contain bg-surface"
                     unoptimized
                     priority
                   />
@@ -227,9 +228,24 @@ export default async function PlacePage({ params }: Props) {
 
             {/* Lead summary */}
             {content.summary && (
-              <p className="text-ink/75 text-base leading-[1.85] mb-4">
-                {content.summary}
-              </p>
+              <div className="flex items-center gap-3 mb-6">
+                <ReadAloudButton text={[content.summary, ...(content.sections?.map(s => s.content) || [])].join(" ")} />
+                <span className="text-ink/25 text-[10px] uppercase tracking-widest font-semibold">Read Article</span>
+              </div>
+            )}
+            {content.summary && (
+              <div className="space-y-4 mb-4">
+                {content.summary.split(/\n+/).filter(Boolean).map((para, i) => (
+                  <div key={i} className="group relative flex gap-4">
+                    <ReadAloudButton 
+                      text={para} 
+                      variant="minimal" 
+                      className="shrink-0 mt-1 opacity-20 group-hover:opacity-100 transition-opacity" 
+                    />
+                    <p className="text-ink/75 text-base leading-[1.85]">{para}</p>
+                  </div>
+                ))}
+              </div>
             )}
             {content.wikipediaUrl && (
               <p className="text-xs text-ink/25 mb-10">

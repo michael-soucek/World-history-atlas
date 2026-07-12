@@ -1,0 +1,1113 @@
+{
+  "generatedAt": "2026-07-09T20:37:42.642Z",
+  "corrections": [
+    {
+      "entityType": "place",
+      "name": "Achaemenid Empire",
+      "slug": "achaemenid-empire",
+      "oldQid": "Q11765",
+      "newQid": "Q389688",
+      "article": "Achaemenid Empire",
+      "changed": true
+    },
+    {
+      "entityType": "place",
+      "name": "Macedonian Empire",
+      "slug": "macedonian-empire",
+      "oldQid": "Q8168",
+      "newQid": "Q83958",
+      "article": "Macedonia (ancient kingdom)",
+      "changed": true
+    },
+    {
+      "entityType": "place",
+      "name": "Seleucid Empire",
+      "slug": "seleucid-empire",
+      "oldQid": "Q12280",
+      "newQid": "Q93180",
+      "article": "Seleucid Empire",
+      "changed": true
+    },
+    {
+      "entityType": "place",
+      "name": "Ptolemaic Kingdom",
+      "slug": "ptolemaic-kingdom",
+      "oldQid": "Q11776",
+      "newQid": "Q2320005",
+      "article": "Ptolemaic Kingdom",
+      "changed": true
+    },
+    {
+      "entityType": "place",
+      "name": "Roman Republic",
+      "slug": "roman-republic",
+      "oldQid": "Q6134",
+      "newQid": "Q17167",
+      "article": "Roman Republic",
+      "changed": true
+    },
+    {
+      "entityType": "place",
+      "name": "Roman Empire",
+      "slug": "roman-empire",
+      "oldQid": "Q2277",
+      "newQid": "Q2277",
+      "article": "Roman Empire",
+      "changed": false
+    },
+    {
+      "entityType": "place",
+      "name": "Western Roman Empire",
+      "slug": "western-roman-empire",
+      "oldQid": "Q186077",
+      "newQid": "Q42834",
+      "article": "Western Roman Empire",
+      "changed": true
+    },
+    {
+      "entityType": "place",
+      "name": "Byzantine Empire",
+      "slug": "byzantine-empire",
+      "oldQid": "Q41088",
+      "newQid": "Q12544",
+      "article": "Byzantine Empire",
+      "changed": true
+    },
+    {
+      "entityType": "place",
+      "name": "Maurya Empire",
+      "slug": "maurya-empire",
+      "oldQid": "Q9232",
+      "newQid": "Q62943",
+      "article": "Maurya Empire",
+      "changed": true
+    },
+    {
+      "entityType": "place",
+      "name": "Gupta Empire",
+      "slug": "gupta-empire",
+      "oldQid": "Q188889",
+      "newQid": "Q11774",
+      "article": "Gupta Empire",
+      "changed": true
+    },
+    {
+      "entityType": "place",
+      "name": "Han dynasty",
+      "slug": "han-dynasty",
+      "oldQid": "Q7209",
+      "newQid": "Q7209",
+      "article": "Han dynasty",
+      "changed": false
+    },
+    {
+      "entityType": "place",
+      "name": "Kingdom of Aksum",
+      "slug": "kingdom-of-aksum",
+      "oldQid": "Q135364",
+      "newQid": "Q139377",
+      "article": "Kingdom of Aksum",
+      "changed": true
+    },
+    {
+      "entityType": "place",
+      "name": "Carthage",
+      "slug": "carthage",
+      "oldQid": "Q6343",
+      "newQid": "Q6343",
+      "article": "Carthage",
+      "changed": false
+    },
+    {
+      "entityType": "place",
+      "name": "Sasanian Empire",
+      "slug": "sasanian-empire",
+      "oldQid": "Q12557",
+      "newQid": "Q83891",
+      "article": "Sasanian Empire",
+      "changed": true
+    },
+    {
+      "entityType": "place",
+      "name": "Rashidun Caliphate",
+      "slug": "rashidun-caliphate",
+      "oldQid": "Q9587",
+      "newQid": "Q12490507",
+      "article": "Rashidun Caliphate",
+      "changed": true
+    },
+    {
+      "entityType": "place",
+      "name": "Umayyad Caliphate",
+      "slug": "umayyad-caliphate",
+      "oldQid": "Q8806",
+      "newQid": "Q8575586",
+      "article": "Umayyad Caliphate",
+      "changed": true
+    },
+    {
+      "entityType": "place",
+      "name": "Abbasid Caliphate",
+      "slug": "abbasid-caliphate",
+      "oldQid": "Q9589",
+      "newQid": "Q12536",
+      "article": "Abbasid Caliphate",
+      "changed": true
+    },
+    {
+      "entityType": "place",
+      "name": "Frankish Kingdom",
+      "slug": "frankish-kingdom",
+      "oldQid": "Q12131",
+      "newQid": "Q146246",
+      "article": "Francia",
+      "changed": true
+    },
+    {
+      "entityType": "place",
+      "name": "Carolingian Empire",
+      "slug": "carolingian-empire",
+      "oldQid": "Q150804",
+      "newQid": "Q31929",
+      "article": "Carolingian Empire",
+      "changed": true
+    },
+    {
+      "entityType": "place",
+      "name": "Tang dynasty",
+      "slug": "tang-dynasty",
+      "oldQid": "Q83381",
+      "newQid": "Q9683",
+      "article": "Tang dynasty",
+      "changed": true
+    },
+    {
+      "entityType": "place",
+      "name": "Tibetan Empire",
+      "slug": "tibetan-empire",
+      "oldQid": "Q152526",
+      "newQid": "Q2431480",
+      "article": "Tibetan Empire",
+      "changed": true
+    },
+    {
+      "entityType": "place",
+      "name": "Holy Roman Empire",
+      "slug": "holy-roman-empire",
+      "oldQid": "Q12548",
+      "newQid": "Q12548",
+      "article": "Holy Roman Empire",
+      "changed": false
+    },
+    {
+      "entityType": "place",
+      "name": "Mongol Empire",
+      "slug": "mongol-empire",
+      "oldQid": "Q12544",
+      "newQid": "Q12557",
+      "article": "Mongol Empire",
+      "changed": true
+    },
+    {
+      "entityType": "place",
+      "name": "Golden Horde",
+      "slug": "golden-horde",
+      "oldQid": "Q131054",
+      "newQid": "Q79965",
+      "article": "Golden Horde",
+      "changed": true
+    },
+    {
+      "entityType": "place",
+      "name": "Ilkhanate",
+      "slug": "ilkhanate",
+      "oldQid": "Q19609",
+      "newQid": "Q178084",
+      "article": "Ilkhanate",
+      "changed": true
+    },
+    {
+      "entityType": "place",
+      "name": "Timurid Empire",
+      "slug": "timurid-empire",
+      "oldQid": "Q165092",
+      "newQid": "Q484195",
+      "article": "Timurid Empire",
+      "changed": true
+    },
+    {
+      "entityType": "place",
+      "name": "Song dynasty",
+      "slug": "song-dynasty",
+      "oldQid": "Q170384",
+      "newQid": "Q7462",
+      "article": "Song dynasty",
+      "changed": true
+    },
+    {
+      "entityType": "place",
+      "name": "Ming dynasty",
+      "slug": "ming-dynasty",
+      "oldQid": "Q9903",
+      "newQid": "Q9903",
+      "article": "Ming dynasty",
+      "changed": false
+    },
+    {
+      "entityType": "place",
+      "name": "Ghana Empire",
+      "slug": "ghana-empire",
+      "oldQid": "Q174193",
+      "newQid": "Q206789",
+      "article": "Ghana Empire",
+      "changed": true
+    },
+    {
+      "entityType": "place",
+      "name": "Mali Empire",
+      "slug": "mali-empire",
+      "oldQid": "Q181686",
+      "newQid": "Q184536",
+      "article": "Mali Empire",
+      "changed": true
+    },
+    {
+      "entityType": "place",
+      "name": "Songhai Empire",
+      "slug": "songhai-empire",
+      "oldQid": "Q174295",
+      "newQid": "Q202687",
+      "article": "Songhai Empire",
+      "changed": true
+    },
+    {
+      "entityType": "place",
+      "name": "Khmer Empire",
+      "slug": "khmer-empire",
+      "oldQid": "Q12827",
+      "newQid": "Q201705",
+      "article": "Khmer Empire",
+      "changed": true
+    },
+    {
+      "entityType": "place",
+      "name": "Srivijaya",
+      "slug": "srivijaya",
+      "oldQid": "Q170037",
+      "newQid": "Q234197",
+      "article": "Srivijaya",
+      "changed": true
+    },
+    {
+      "entityType": "place",
+      "name": "Majapahit",
+      "slug": "majapahit",
+      "oldQid": "Q205909",
+      "newQid": "Q49326",
+      "article": "Majapahit",
+      "changed": true
+    },
+    {
+      "entityType": "place",
+      "name": "Delhi Sultanate",
+      "slug": "delhi-sultanate",
+      "oldQid": "Q9471",
+      "newQid": "Q229411",
+      "article": "Delhi Sultanate",
+      "changed": true
+    },
+    {
+      "entityType": "place",
+      "name": "Aztec Empire",
+      "slug": "aztec-empire",
+      "oldQid": "Q12542",
+      "newQid": "Q2608489",
+      "article": "Aztec Empire",
+      "changed": true
+    },
+    {
+      "entityType": "place",
+      "name": "Inca Empire",
+      "slug": "inca-empire",
+      "oldQid": "Q35409",
+      "newQid": "Q28573",
+      "article": "Inca Empire",
+      "changed": true
+    },
+    {
+      "entityType": "place",
+      "name": "Republic of Venice",
+      "slug": "republic-of-venice",
+      "oldQid": "Q4948",
+      "newQid": "Q4948",
+      "article": "Republic of Venice",
+      "changed": false
+    },
+    {
+      "entityType": "place",
+      "name": "Papal States",
+      "slug": "papal-states",
+      "oldQid": "Q170174",
+      "newQid": "Q170174",
+      "article": "Papal States",
+      "changed": false
+    },
+    {
+      "entityType": "place",
+      "name": "Kingdom of France",
+      "slug": "kingdom-of-france",
+      "oldQid": "Q70972",
+      "newQid": "Q70972",
+      "article": "Kingdom of France",
+      "changed": false
+    },
+    {
+      "entityType": "place",
+      "name": "Kingdom of England",
+      "slug": "kingdom-of-england",
+      "oldQid": "Q179876",
+      "newQid": "Q179876",
+      "article": "Kingdom of England",
+      "changed": false
+    },
+    {
+      "entityType": "place",
+      "name": "Kingdom of Scotland",
+      "slug": "kingdom-of-scotland",
+      "oldQid": "Q219567",
+      "newQid": "Q230791",
+      "article": "Kingdom of Scotland",
+      "changed": true
+    },
+    {
+      "entityType": "place",
+      "name": "Poland",
+      "slug": "poland",
+      "oldQid": "Q36",
+      "newQid": "Q36",
+      "article": "Poland",
+      "changed": false
+    },
+    {
+      "entityType": "place",
+      "name": "Polish-Lithuanian Commonwealth",
+      "slug": "polish-lithuanian-commonwealth",
+      "oldQid": "Q172107",
+      "newQid": "Q172107",
+      "article": "Polish–Lithuanian Commonwealth",
+      "changed": false
+    },
+    {
+      "entityType": "place",
+      "name": "PolishLithuanian Commonwealth",
+      "slug": "polishlithuanian-commonwealth",
+      "oldQid": "Q172107",
+      "newQid": "Q172107",
+      "article": "Polish–Lithuanian Commonwealth",
+      "changed": false
+    },
+    {
+      "entityType": "place",
+      "name": "Ottoman Empire",
+      "slug": "ottoman-empire",
+      "oldQid": "Q12560",
+      "newQid": "Q12560",
+      "article": "Ottoman Empire",
+      "changed": false
+    },
+    {
+      "entityType": "place",
+      "name": "Safavid dynasty",
+      "slug": "safavid-dynasty",
+      "oldQid": "Q130969",
+      "newQid": "Q161205",
+      "article": "Safavid dynasty",
+      "changed": true
+    },
+    {
+      "entityType": "place",
+      "name": "Safavid Empire",
+      "slug": "safavid-empire",
+      "oldQid": "Q18234383",
+      "newQid": "Q18234383",
+      "article": "Safavid Iran",
+      "changed": false
+    },
+    {
+      "entityType": "place",
+      "name": "Mughal Empire",
+      "slug": "mughal-empire",
+      "oldQid": "Q33296",
+      "newQid": "Q33296",
+      "article": "Mughal Empire",
+      "changed": false
+    },
+    {
+      "entityType": "place",
+      "name": "Vijayanagara Empire",
+      "slug": "vijayanagara-empire",
+      "oldQid": "Q75197",
+      "newQid": "Q167639",
+      "article": "Vijayanagara Empire",
+      "changed": true
+    },
+    {
+      "entityType": "place",
+      "name": "Maratha Empire",
+      "slug": "maratha-empire",
+      "oldQid": "Q9396",
+      "newQid": "Q83618",
+      "article": "Maratha Empire",
+      "changed": true
+    },
+    {
+      "entityType": "place",
+      "name": "Qing dynasty",
+      "slug": "qing-dynasty",
+      "oldQid": "Q8733",
+      "newQid": "Q8733",
+      "article": "Qing dynasty",
+      "changed": false
+    },
+    {
+      "entityType": "place",
+      "name": "Joseon dynasty",
+      "slug": "joseon-dynasty",
+      "oldQid": "Q28179",
+      "newQid": "Q28179",
+      "article": "Joseon",
+      "changed": false
+    },
+    {
+      "entityType": "place",
+      "name": "Spanish Empire",
+      "slug": "spanish-empire",
+      "oldQid": "Q170603",
+      "newQid": "Q80702",
+      "article": "Spanish Empire",
+      "changed": true
+    },
+    {
+      "entityType": "place",
+      "name": "Portuguese Empire",
+      "slug": "portuguese-empire",
+      "oldQid": "Q26241",
+      "newQid": "Q200464",
+      "article": "Portuguese Empire",
+      "changed": true
+    },
+    {
+      "entityType": "place",
+      "name": "British Empire",
+      "slug": "british-empire",
+      "oldQid": "Q8680",
+      "newQid": "Q8680",
+      "article": "British Empire",
+      "changed": false
+    },
+    {
+      "entityType": "place",
+      "name": "Dutch Republic",
+      "slug": "dutch-republic",
+      "oldQid": "Q170072",
+      "newQid": "Q170072",
+      "article": "Dutch Republic",
+      "changed": false
+    },
+    {
+      "entityType": "place",
+      "name": "Shan States",
+      "slug": "shan-states",
+      "oldQid": "Q4765854",
+      "newQid": "Q4765854",
+      "article": "Shan States",
+      "changed": false
+    },
+    {
+      "entityType": "place",
+      "name": "Manchu Empire",
+      "slug": "manchu-empire",
+      "oldQid": "Q8733",
+      "newQid": "Q8733",
+      "article": "Qing dynasty",
+      "changed": false
+    },
+    {
+      "entityType": "place",
+      "name": "Kingdom of Prussia",
+      "slug": "kingdom-of-prussia",
+      "oldQid": "Q27306",
+      "newQid": "Q27306",
+      "article": "Kingdom of Prussia",
+      "changed": false
+    },
+    {
+      "entityType": "place",
+      "name": "Habsburg Monarchy",
+      "slug": "habsburg-monarchy",
+      "oldQid": "Q48056",
+      "newQid": "Q153136",
+      "article": "Habsburg monarchy",
+      "changed": true
+    },
+    {
+      "entityType": "place",
+      "name": "Sweden",
+      "slug": "sweden",
+      "oldQid": "Q34",
+      "newQid": "Q34",
+      "article": "Sweden",
+      "changed": false
+    },
+    {
+      "entityType": "place",
+      "name": "Denmark",
+      "slug": "denmark",
+      "oldQid": "Q35",
+      "newQid": "Q35",
+      "article": "Denmark",
+      "changed": false
+    },
+    {
+      "entityType": "place",
+      "name": "Russia",
+      "slug": "russia",
+      "oldQid": "Q159",
+      "newQid": "Q159",
+      "article": "Russia",
+      "changed": false
+    },
+    {
+      "entityType": "place",
+      "name": "Russian Empire",
+      "slug": "russian-empire",
+      "oldQid": "Q34266",
+      "newQid": "Q34266",
+      "article": "Russian Empire",
+      "changed": false
+    },
+    {
+      "entityType": "place",
+      "name": "First French Empire",
+      "slug": "first-french-empire",
+      "oldQid": "Q40694",
+      "newQid": "Q71084",
+      "article": "First French Empire",
+      "changed": true
+    },
+    {
+      "entityType": "place",
+      "name": "France",
+      "slug": "france",
+      "oldQid": "Q142",
+      "newQid": "Q142",
+      "article": "France",
+      "changed": false
+    },
+    {
+      "entityType": "place",
+      "name": "German Empire",
+      "slug": "german-empire",
+      "oldQid": "Q43287",
+      "newQid": "Q43287",
+      "article": "German Empire",
+      "changed": false
+    },
+    {
+      "entityType": "place",
+      "name": "Austria-Hungary",
+      "slug": "austria-hungary",
+      "oldQid": "Q28513",
+      "newQid": "Q28513",
+      "article": "Austria-Hungary",
+      "changed": false
+    },
+    {
+      "entityType": "place",
+      "name": "Nazi Germany",
+      "slug": "nazi-germany",
+      "oldQid": "Q7318",
+      "newQid": "Q7318",
+      "article": "Nazi Germany",
+      "changed": false
+    },
+    {
+      "entityType": "place",
+      "name": "United Kingdom",
+      "slug": "united-kingdom",
+      "oldQid": "Q145",
+      "newQid": "Q145",
+      "article": "United Kingdom",
+      "changed": false
+    },
+    {
+      "entityType": "place",
+      "name": "United States",
+      "slug": "united-states",
+      "oldQid": "Q30",
+      "newQid": "Q30",
+      "article": "United States",
+      "changed": false
+    },
+    {
+      "entityType": "place",
+      "name": "Confederate States",
+      "slug": "confederate-states-of-america",
+      "oldQid": "Q18171",
+      "newQid": "Q81931",
+      "article": "Confederate States of America",
+      "changed": true
+    },
+    {
+      "entityType": "place",
+      "name": "Mexico",
+      "slug": "mexico",
+      "oldQid": "Q96",
+      "newQid": "Q96",
+      "article": "Mexico",
+      "changed": false
+    },
+    {
+      "entityType": "place",
+      "name": "Brazil",
+      "slug": "brazil",
+      "oldQid": "Q155",
+      "newQid": "Q155",
+      "article": "Brazil",
+      "changed": false
+    },
+    {
+      "entityType": "place",
+      "name": "Argentina",
+      "slug": "argentina",
+      "oldQid": "Q414",
+      "newQid": "Q414",
+      "article": "Argentina",
+      "changed": false
+    },
+    {
+      "entityType": "place",
+      "name": "Egypt",
+      "slug": "egypt",
+      "oldQid": "Q79",
+      "newQid": "Q79",
+      "article": "Egypt",
+      "changed": false
+    },
+    {
+      "entityType": "place",
+      "name": "Ethiopia",
+      "slug": "ethiopia",
+      "oldQid": "Q115",
+      "newQid": "Q115",
+      "article": "Ethiopia",
+      "changed": false
+    },
+    {
+      "entityType": "place",
+      "name": "Zulu Kingdom",
+      "slug": "zulu-kingdom",
+      "oldQid": "Q180003",
+      "newQid": "Q729768",
+      "article": "Zulu Kingdom",
+      "changed": true
+    },
+    {
+      "entityType": "place",
+      "name": "Kingdom of Kongo",
+      "slug": "kingdom-of-kongo",
+      "oldQid": "Q33747",
+      "newQid": "Q796583",
+      "article": "Kingdom of Kongo",
+      "changed": true
+    },
+    {
+      "entityType": "place",
+      "name": "Japan",
+      "slug": "japan",
+      "oldQid": "Q17",
+      "newQid": "Q17",
+      "article": "Japan",
+      "changed": false
+    },
+    {
+      "entityType": "place",
+      "name": "India",
+      "slug": "india",
+      "oldQid": "Q668",
+      "newQid": "Q668",
+      "article": "India",
+      "changed": false
+    },
+    {
+      "entityType": "place",
+      "name": "Iran",
+      "slug": "iran",
+      "oldQid": "Q794",
+      "newQid": "Q794",
+      "article": "Iran",
+      "changed": false
+    },
+    {
+      "entityType": "place",
+      "name": "Turkey",
+      "slug": "turkey",
+      "oldQid": "Q43",
+      "newQid": "Q43",
+      "article": "Turkey",
+      "changed": false
+    },
+    {
+      "entityType": "place",
+      "name": "Saudi Arabia",
+      "slug": "saudi-arabia",
+      "oldQid": "Q851",
+      "newQid": "Q851",
+      "article": "Saudi Arabia",
+      "changed": false
+    },
+    {
+      "entityType": "place",
+      "name": "Vietnam",
+      "slug": "vietnam",
+      "oldQid": "Q881",
+      "newQid": "Q881",
+      "article": "Vietnam",
+      "changed": false
+    },
+    {
+      "entityType": "place",
+      "name": "Norway",
+      "slug": "norway",
+      "oldQid": "Q20",
+      "newQid": "Q20",
+      "article": "Norway",
+      "changed": false
+    },
+    {
+      "entityType": "place",
+      "name": "Switzerland",
+      "slug": "switzerland",
+      "oldQid": "Q39",
+      "newQid": "Q39",
+      "article": "Switzerland",
+      "changed": false
+    },
+    {
+      "entityType": "place",
+      "name": "Belgium",
+      "slug": "belgium",
+      "oldQid": "Q31",
+      "newQid": "Q31",
+      "article": "Belgium",
+      "changed": false
+    },
+    {
+      "entityType": "place",
+      "name": "Hungary",
+      "slug": "hungary",
+      "oldQid": "Q28",
+      "newQid": "Q28",
+      "article": "Hungary",
+      "changed": false
+    },
+    {
+      "entityType": "person",
+      "name": "genghis-khan",
+      "slug": "genghis-khan",
+      "oldQid": "Q720",
+      "newQid": "Q720",
+      "article": "Genghis Khan",
+      "changed": false
+    },
+    {
+      "entityType": "person",
+      "name": "alexander-the-great",
+      "slug": "alexander-the-great",
+      "oldQid": "Q8409",
+      "newQid": "Q8409",
+      "article": "Alexander the Great",
+      "changed": false
+    },
+    {
+      "entityType": "person",
+      "name": "julius-caesar",
+      "slug": "julius-caesar",
+      "oldQid": "Q1048",
+      "newQid": "Q1048",
+      "article": "Julius Caesar",
+      "changed": false
+    },
+    {
+      "entityType": "person",
+      "name": "cleopatra",
+      "slug": "cleopatra",
+      "oldQid": "Q1413",
+      "newQid": "Q635",
+      "article": "Cleopatra",
+      "changed": true
+    },
+    {
+      "entityType": "person",
+      "name": "charlemagne",
+      "slug": "charlemagne",
+      "oldQid": "Q3044",
+      "newQid": "Q3044",
+      "article": "Charlemagne",
+      "changed": false
+    },
+    {
+      "entityType": "person",
+      "name": "saladin",
+      "slug": "saladin",
+      "oldQid": "Q9431",
+      "newQid": "Q8581",
+      "article": "Saladin",
+      "changed": true
+    },
+    {
+      "entityType": "person",
+      "name": "tamerlane",
+      "slug": "tamerlane",
+      "oldQid": "Q44077",
+      "newQid": "Q8462",
+      "article": "Timur",
+      "changed": true
+    },
+    {
+      "entityType": "person",
+      "name": "napoleon",
+      "slug": "napoleon",
+      "oldQid": "Q517",
+      "newQid": "Q517",
+      "article": "Napoleon",
+      "changed": false
+    },
+    {
+      "entityType": "person",
+      "name": "constantine-i",
+      "slug": "constantine-i",
+      "oldQid": "Q8413",
+      "newQid": "Q8413",
+      "article": "Constantine the Great",
+      "changed": false
+    },
+    {
+      "entityType": "person",
+      "name": "augustus",
+      "slug": "augustus",
+      "oldQid": "Q1405",
+      "newQid": "Q1405",
+      "article": "Augustus",
+      "changed": false
+    },
+    {
+      "entityType": "person",
+      "name": "attila-the-hun",
+      "slug": "attila-the-hun",
+      "oldQid": "Q36724",
+      "newQid": "Q36724",
+      "article": "Attila",
+      "changed": false
+    },
+    {
+      "entityType": "person",
+      "name": "kublai-khan",
+      "slug": "kublai-khan",
+      "oldQid": "Q7523",
+      "newQid": "Q7523",
+      "article": "Kublai Khan",
+      "changed": false
+    },
+    {
+      "entityType": "person",
+      "name": "suleiman-the-magnificent",
+      "slug": "suleiman-the-magnificent",
+      "oldQid": "Q43610",
+      "newQid": "Q8474",
+      "article": "Suleiman the Magnificent",
+      "changed": true
+    },
+    {
+      "entityType": "person",
+      "name": "akbar",
+      "slug": "akbar",
+      "oldQid": "Q133680",
+      "newQid": "Q8597",
+      "article": "Akbar",
+      "changed": true
+    },
+    {
+      "entityType": "person",
+      "name": "cyrus-the-great",
+      "slug": "cyrus-the-great",
+      "oldQid": "Q23967",
+      "newQid": "Q8423",
+      "article": "Cyrus the Great",
+      "changed": true
+    },
+    {
+      "entityType": "person",
+      "name": "hannibal",
+      "slug": "hannibal",
+      "oldQid": "Q38375",
+      "newQid": "Q36456",
+      "article": "Hannibal",
+      "changed": true
+    },
+    {
+      "entityType": "person",
+      "name": "ramesses-ii",
+      "slug": "ramesses-ii",
+      "oldQid": "Q157459",
+      "newQid": "Q1523",
+      "article": "Ramesses II",
+      "changed": true
+    },
+    {
+      "entityType": "event",
+      "name": "fall-of-rome",
+      "slug": "fall-of-rome",
+      "oldQid": "Q47092",
+      "newQid": "Q608613",
+      "article": "Fall of the Western Roman Empire",
+      "changed": true
+    },
+    {
+      "entityType": "event",
+      "name": "black-death",
+      "slug": "black-death",
+      "oldQid": "Q42196",
+      "newQid": "Q42005",
+      "article": "Black Death",
+      "changed": true
+    },
+    {
+      "entityType": "event",
+      "name": "mongol-invasion-of-europe",
+      "slug": "mongol-invasion-of-europe",
+      "oldQid": "Q180614",
+      "newQid": "Q852171",
+      "article": "Mongol invasion of Europe",
+      "changed": true
+    },
+    {
+      "entityType": "event",
+      "name": "crusades",
+      "slug": "crusades",
+      "oldQid": "Q8065",
+      "newQid": "Q12546",
+      "article": "Crusades",
+      "changed": true
+    },
+    {
+      "entityType": "event",
+      "name": "age-of-discovery",
+      "slug": "age-of-discovery",
+      "oldQid": "Q133641",
+      "newQid": "Q133641",
+      "article": "Age of Discovery",
+      "changed": false
+    },
+    {
+      "entityType": "event",
+      "name": "battle-of-marathon",
+      "slug": "battle-of-marathon",
+      "oldQid": "Q46383",
+      "newQid": "Q31900",
+      "article": "Battle of Marathon",
+      "changed": true
+    },
+    {
+      "entityType": "event",
+      "name": "french-revolution",
+      "slug": "french-revolution",
+      "oldQid": "Q6534",
+      "newQid": "Q6534",
+      "article": "French Revolution",
+      "changed": false
+    },
+    {
+      "entityType": "event",
+      "name": "fall-of-constantinople",
+      "slug": "fall-of-constantinople",
+      "oldQid": "Q155231",
+      "newQid": "Q160077",
+      "article": "Fall of Constantinople",
+      "changed": true
+    },
+    {
+      "entityType": "culture",
+      "name": "silk-road",
+      "slug": "silk-road",
+      "oldQid": "Q152490",
+      "newQid": "Q36288",
+      "article": "Silk Road",
+      "changed": true
+    },
+    {
+      "entityType": "culture",
+      "name": "renaissance",
+      "slug": "renaissance",
+      "oldQid": "Q4692",
+      "newQid": "Q4692",
+      "article": "Renaissance",
+      "changed": false
+    },
+    {
+      "entityType": "culture",
+      "name": "islamic-golden-age",
+      "slug": "islamic-golden-age",
+      "oldQid": "Q7178",
+      "newQid": "Q745799",
+      "article": "Islamic Golden Age",
+      "changed": true
+    },
+    {
+      "entityType": "culture",
+      "name": "ancient-greece",
+      "slug": "ancient-greece",
+      "oldQid": "Q11772",
+      "newQid": "Q11772",
+      "article": "Ancient Greece",
+      "changed": false
+    },
+    {
+      "entityType": "culture",
+      "name": "ancient-egypt",
+      "slug": "ancient-egypt",
+      "oldQid": "Q11768",
+      "newQid": "Q11768",
+      "article": "Ancient Egypt",
+      "changed": false
+    },
+    {
+      "entityType": "culture",
+      "name": "viking-age",
+      "slug": "viking-age",
+      "oldQid": "Q128207",
+      "newQid": "Q213649",
+      "article": "Viking Age",
+      "changed": true
+    },
+    {
+      "entityType": "culture",
+      "name": "feudal-japan",
+      "slug": "feudal-japan",
+      "oldQid": "Q228668",
+      "newQid": "Q130436",
+      "article": "History of Japan",
+      "changed": true
+    },
+    {
+      "entityType": "culture",
+      "name": "ancient-rome",
+      "slug": "ancient-rome",
+      "oldQid": "Q11817",
+      "newQid": "Q1747689",
+      "article": "Ancient Rome",
+      "changed": true
+    }
+  ],
+  "problems": []
+}

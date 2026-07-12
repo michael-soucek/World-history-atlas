@@ -91,7 +91,7 @@ export default async function PlaceYearPage({ params }: Props) {
                 src={content.imageUrl}
                 alt={`Image related to ${content.name}`}
                 fill
-                className="object-cover"
+                className="object-contain bg-surface"
                 unoptimized
                 priority
               />

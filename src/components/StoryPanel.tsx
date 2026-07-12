@@ -2,6 +2,7 @@
 
 import { useEffect, useState, useCallback } from "react";
 import Image from "next/image";
+import { ReadAloudButton } from "./ReadAloudButton";
 import { useAtlasStore } from "@/store/atlasStore";
 import { formatYear } from "@/data/snapshotYears";
 import type { PlaceContent } from "@/types";
@@ -9,7 +10,7 @@ import type { PlaceContent } from "@/types";
 // ── Story panel component ──────────────────────────────────────────────────
 
 export default function StoryPanel() {
-  const { selectedWikidataId, selectedName, selectedSovereign, year, clearSelection } =
+  const { selectedWikidataId, selectedName, selectedSovereign, year, clearSelection, stateYear } =
     useAtlasStore();
 
   const [content, setContent] = useState<PlaceContent | null>(null);
@@ -122,6 +123,21 @@ export default function StoryPanel() {
 
         {!loading && !error && (
           <>
+            {/* Year discrepancy warning */}
+            {content?.representativeYear && Math.abs(content.representativeYear - year) > 50 && (
+              <div className="mx-5 mt-4 p-3 bg-ancient-wash border border-ancient/20 rounded-lg">
+                <p className="text-ink-2 text-xs leading-relaxed">
+                  This entity is best viewed around <span className="font-bold">{formatYear(content.representativeYear)}</span>.
+                </p>
+                <button
+                  onClick={() => useAtlasStore.getState().setYear(content.representativeYear!)}
+                  className="mt-2 text-ancient font-semibold text-xs hover:underline decoration-ancient/30"
+                >
+                  Jump to {formatYear(content.representativeYear)} →
+                </button>
+              </div>
+            )}
+
             {/* Image */}
             {content?.imageUrl && (
               <div className="relative">
@@ -130,7 +146,7 @@ export default function StoryPanel() {
                     src={content.imageUrl}
                     alt={`Image related to ${displayName}`}
                     fill
-                    className="object-cover"
+                    className="object-contain bg-surface"
                     unoptimized // Wikimedia images vary wildly; skip Next.js optimisation
                   />
                 </div>
@@ -159,9 +175,15 @@ export default function StoryPanel() {
             {/* Summary */}
             <div className="p-5">
               {content?.summary ? (
-                <p className="text-white/80 text-sm leading-relaxed">
-                  {content.summary}
-                </p>
+                <>
+                  <div className="flex items-center gap-3 mb-3">
+                    <ReadAloudButton text={content.summary} />
+                    <span className="text-white/20 text-[10px] uppercase tracking-widest font-bold">Listen</span>
+                  </div>
+                  <p className="text-white/80 text-sm leading-relaxed">
+                    {content.summary}
+                  </p>
+                </>
               ) : (
                 <p className="text-white/40 text-sm italic">
                   No summary available.

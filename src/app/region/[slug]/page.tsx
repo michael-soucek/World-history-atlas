@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
 import HandwrittenTitle from "@/components/HandwrittenTitle";
+import { ReadAloudButton } from "@/components/ReadAloudButton";
 import { CROSSWALK } from "@/data/crosswalk";
 
 interface Props { params: Promise<{ slug: string }> }
@@ -135,7 +136,10 @@ export default async function RegionPage({ params }: Props) {
             <div>
               <p className="text-ancient/70 text-xs font-semibold uppercase tracking-widest mb-3">Region</p>
               <HandwrittenTitle className="font-display text-5xl font-bold text-ink italic leading-tight mb-3">{region.label}</HandwrittenTitle>
-              <p className="text-ink/45 text-base max-w-xl leading-relaxed">{region.description}</p>
+              <div className="flex flex-col gap-4">
+                <ReadAloudButton text={region.description} />
+                <p className="text-ink/45 text-base max-w-xl leading-relaxed">{region.description}</p>
+              </div>
             </div>
             <Link
               href={mapHref}
@@ -166,6 +170,19 @@ export default async function RegionPage({ params }: Props) {
 
           {/* Other regions */}
           <div className="border-t border-paper pt-8 mt-14">
+            {slug === "europe" && (
+              <>
+                <p className="text-ink/25 text-xs uppercase tracking-widest mb-4">Related themes</p>
+                <div className="mb-6 flex flex-wrap gap-2.5">
+                  <Link
+                    href="/theme/age-of-exploration"
+                    className="rounded-xl border border-paper bg-white/60 hover:bg-early-modern-wash hover:border-early-modern/30 px-4 py-2.5 text-sm text-ink/50 hover:text-ink transition-all duration-200"
+                  >
+                    Age of Exploration
+                  </Link>
+                </div>
+              </>
+            )}
             <p className="text-ink/25 text-xs uppercase tracking-widest mb-4">Other regions</p>
             <div className="flex flex-wrap gap-2.5">
               {Object.entries(REGIONS).filter(([s]) => s !== slug).map(([s, r]) => (

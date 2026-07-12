@@ -10,11 +10,69 @@ import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
 import { ERA_LIST, eraSlug } from "@/data/eras";
 import { buildPageMetadata } from "@/lib/seo";
+import type { EntityType } from "@/types";
+import { CROSSWALK } from "@/data/crosswalk";
+import { PEOPLE_CROSSWALK, EVENTS_CROSSWALK, CULTURES_CROSSWALK } from "@/data/entityCrosswalk";
+import { readableNameFromSlug } from "@/lib/entityResolver";
 
-export const metadata: Metadata = buildPageMetadata({
-  title: "Browse History — World History Atlas",
-  description: "Browse empires, people, events, and cultures by era, region, or theme.",
-});
+interface Props {
+  searchParams: Promise<{ type?: string }>;
+}
+
+const TYPE_META: Record<EntityType, { label: string; singular: string; route: string; Icon: LucideIcon; desc: string }> = {
+  place:   { label: "Places & Empires", singular: "Place",   route: "place",   Icon: Landmark,   desc: "Kingdoms, nations, and empires across history." },
+  person:  { label: "People",           singular: "Person",  route: "person",  Icon: Users,      desc: "Rulers, thinkers, conquerors, and explorers." },
+  event:   { label: "Events",           singular: "Event",   route: "event",   Icon: Zap,        desc: "Battles, treaties, revolutions, and turning points." },
+  culture: { label: "Cultures",         singular: "Culture", route: "culture", Icon: ScrollText, desc: "Civilizations, movements, and traditions." },
+};
+
+function isEntityType(v: string | undefined): v is EntityType {
+  return v === "place" || v === "person" || v === "event" || v === "culture";
+}
+
+/** Build a de-duplicated, alphabetically sorted list of entities for a type. */
+function listForType(type: EntityType): { slug: string; name: string }[] {
+  const seenQid = new Set<string>();
+  const seenSlug = new Set<string>();
+  const out: { slug: string; name: string }[] = [];
+
+  const push = (slug: string, name: string, qid: string) => {
+    if (seenSlug.has(slug) || seenQid.has(qid)) return;
+    seenSlug.add(slug);
+    seenQid.add(qid);
+    out.push({ slug, name });
+  };
+
+  if (type === "place") {
+    for (const [name, entry] of Object.entries(CROSSWALK)) {
+      push(entry.slug, name, entry.wikidataId);
+    }
+  } else {
+    const source =
+      type === "person" ? PEOPLE_CROSSWALK :
+      type === "event"  ? EVENTS_CROSSWALK :
+      CULTURES_CROSSWALK;
+    for (const entry of Object.values(source)) {
+      push(entry.slug, readableNameFromSlug(entry.slug), entry.wikidataId);
+    }
+  }
+
+  return out.sort((a, b) => a.name.localeCompare(b.name));
+}
+
+export async function generateMetadata({ searchParams }: Props): Promise<Metadata> {
+  const { type } = await searchParams;
+  if (isEntityType(type)) {
+    return buildPageMetadata({
+      title: `${TYPE_META[type].label} — World History Atlas`,
+      description: TYPE_META[type].desc,
+    });
+  }
+  return buildPageMetadata({
+    title: "Browse History — World History Atlas",
+    description: "Browse empires, people, events, and cultures by era, region, or theme.",
+  });
+}
 
 const REGIONS: { slug: string; label: string; Icon: LucideIcon }[] = [
   { slug: "europe",         label: "Europe",         Icon: Castle    },
@@ -34,6 +92,7 @@ const THEMES: { slug: string; label: string; Icon: LucideIcon }[] = [
   { slug: "conflicts",    label: "Wars & Conflicts",     Icon: Shield        },
   { slug: "science",      label: "Science & Invention",  Icon: FlaskConical  },
   { slug: "art-culture",  label: "Art & Culture",        Icon: Palette       },
+  { slug: "age-of-exploration", label: "Age of Exploration", Icon: Compass    },
 ];
 
 const ERA_COLORS: Record<string, string> = {
@@ -53,7 +112,85 @@ function SectionHeader({ children }: { children: React.ReactNode }) {
   );
 }
 
-export default function BrowsePage() {
+export default async function BrowsePage({ searchParams }: Props) {
+  const { type } = await searchParams;
+  if (isEntityType(type)) {
+    return <BrowseByType type={type} />;
+  }
+  return <BrowseHub />;
+}
+
+function BrowseByType({ type }: { type: EntityType }) {
+  const meta = TYPE_META[type];
+  const items = listForType(type);
+  return (
+    <>
+      <SiteHeader />
+      <main className="min-h-screen page-bg">
+        <div className="max-w-5xl mx-auto px-6 py-14">
+          {/* Breadcrumb */}
+          <nav className="flex items-center gap-2 text-xs text-ink/35 mb-10" aria-label="Breadcrumb">
+            <Link href="/browse" className="hover:text-ancient/80 transition-colors">Browse</Link>
+            <span className="text-ink/20">/</span>
+            <span className="text-ink/55">{meta.label}</span>
+          </nav>
+
+          {/* Header */}
+          <div className="flex items-start gap-5 mb-4">
+            <meta.Icon size={40} className="text-ink/30 mt-2 shrink-0" aria-hidden="true" />
+            <div>
+              <p className="text-ancient/70 text-xs font-semibold uppercase tracking-widest mb-3">By type</p>
+              <h1 className="font-display text-5xl font-bold text-ink mb-2 italic">{meta.label}</h1>
+              <p className="text-ink/45 text-base max-w-xl leading-relaxed">{meta.desc}</p>
+            </div>
+          </div>
+
+          {/* Type switcher */}
+          <div className="flex flex-wrap gap-2.5 mt-8 mb-12">
+            {(Object.keys(TYPE_META) as EntityType[]).map((t) => (
+              <Link
+                key={t}
+                href={`/browse?type=${t}`}
+                aria-current={t === type ? "page" : undefined}
+                className={`rounded-xl border px-4 py-2 text-sm font-medium transition-all duration-150 ${
+                  t === type
+                    ? "border-ancient/40 bg-ancient-wash text-ancient"
+                    : "border-paper bg-white/60 text-ink/55 hover:text-ink hover:border-ancient/30 hover:bg-surface"
+                }`}
+              >
+                {TYPE_META[t].label}
+              </Link>
+            ))}
+          </div>
+
+          {/* Entity grid */}
+          <section>
+            <div className="flex items-center gap-3 mb-5">
+              <h2 className="font-display text-xl font-semibold text-ink/70 italic">
+                {items.length} {items.length === 1 ? meta.singular.toLowerCase() : meta.label.toLowerCase()}
+              </h2>
+              <div className="flex-1 h-px bg-paper" />
+            </div>
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2.5">
+              {items.map((item) => (
+                <Link
+                  key={item.slug}
+                  href={`/${meta.route}/${item.slug}`}
+                  className="rounded-xl border border-paper bg-white/60 hover:bg-surface hover:border-ancient/30 px-4 py-3 text-sm text-ink/60 hover:text-ink transition-all duration-200"
+                >
+                  {item.name}
+                </Link>
+              ))}
+            </div>
+          </section>
+        </div>
+      </main>
+      <SiteFooter />
+    </>
+  );
+}
+
+function BrowseHub() {
   return (
     <>
       <SiteHeader />

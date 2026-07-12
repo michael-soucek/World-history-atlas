@@ -75,7 +75,7 @@ export function geometryArea(geom: unknown): number {
  * Stable 8-hex-digit ID derived from snapshot year + feature name.
  * Same inputs always produce the same ID (FNV-1a).
  */
-export function stableId(year: number, name: string): string {
+function stableId(year: number, name: string): string {
   const str = `${year}::${name}`;
   let hash = 0x811c9dc5;
   for (let i = 0; i < str.length; i++) {

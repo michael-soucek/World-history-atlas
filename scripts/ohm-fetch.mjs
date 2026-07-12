@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+// fallow-ignore-file unused-file
 /**
  * OpenHistoricalMap (OHM) data fetcher
  *

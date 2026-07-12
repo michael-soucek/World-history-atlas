@@ -4,6 +4,7 @@ import SiteFooter from "@/components/SiteFooter";
 import SearchClient from "@/components/SearchClient";
 import { CROSSWALK } from "@/data/crosswalk";
 import { PEOPLE_CROSSWALK, EVENTS_CROSSWALK, CULTURES_CROSSWALK } from "@/data/entityCrosswalk";
+import { EXPLORERS } from "@/data/voyages";
 import type { SearchItem } from "@/lib/searchIndex";
 import { buildPageMetadata } from "@/lib/seo";
 

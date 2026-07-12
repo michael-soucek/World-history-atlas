@@ -187,7 +187,7 @@ export default function TimelineClient() {
                             </div>
 
                             <Link
-                              href={`/map?year=${year}&lat=20&lng=10&z=2`}
+                              href={`/map?year=${year}`}
                               className={`
                                 group flex items-center gap-3 rounded-xl border
                                 bg-parchment

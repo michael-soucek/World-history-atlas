@@ -3,7 +3,7 @@
 // ---------------------------------------------------------------------------
 
 /** A territory/polity as it existed during a specific period. */
-export interface HistoricalFeature {
+interface HistoricalFeature {
   type: "Feature";
   /** Stable unique id: "{NAME}__{validFrom}" */
   id: string;
@@ -11,7 +11,7 @@ export interface HistoricalFeature {
   geometry: GeoJSON.Geometry;
 }
 
-export interface HistoricalFeatureProperties {
+interface HistoricalFeatureProperties {
   /** Feature id */
   id: string;
   /** Territory name (from historical-basemaps NAME field) */
@@ -36,7 +36,7 @@ export interface HistoricalFeatureProperties {
   lineColor?: string;
 }
 
-export interface HistoricalFeatureCollection {
+interface HistoricalFeatureCollection {
   type: "FeatureCollection";
   snapshotYear: number;
   features: HistoricalFeature[];

@@ -113,9 +113,19 @@ async function fetchCommonsImageInfo(filename: string): Promise<CommonsImageInfo
     const info = page.imageinfo?.[0];
     if (!info?.url) return undefined;
 
-    // Strip HTML tags from author/credit fields
-    const stripHtml = (s?: string) =>
-      s ? s.replace(/<[^>]+>/g, "").trim() : undefined;
+    // Strip HTML tags from author/credit fields and handle double-string artifacts
+    const stripHtml = (s?: string) => {
+      if (!s) return undefined;
+      const clean = s.replace(/<[^>]+>/g, "").trim();
+      // Handle cases like "Unknown artistUnknown artist" where the string concatenated itself
+      const half = clean.length / 2;
+      if (clean.length > 0 && clean.length % 2 === 0) {
+        const firstHalf = clean.substring(0, half);
+        const secondHalf = clean.substring(half);
+        if (firstHalf === secondHalf) return firstHalf;
+      }
+      return clean;
+    };
 
     return {
       url: info.url,
@@ -132,7 +142,7 @@ async function fetchCommonsImageInfo(filename: string): Promise<CommonsImageInfo
  * Resolve the image for a Wikidata entity (P18 → Wikimedia Commons).
  * Always returns license + author so attribution can be displayed.
  */
-export async function resolveWikidataImage(qid: string): Promise<{
+async function resolveWikidataImage(qid: string): Promise<{
   imageUrl?: string;
   imageLicense?: string;
   imageAuthor?: string;
@@ -158,7 +168,7 @@ export async function resolveWikidataImage(qid: string): Promise<{
 /**
  * Fetch Wikipedia title for a Q-ID via Wikidata.
  */
-export async function getWikipediaTitleForQid(qid: string): Promise<string | undefined> {
+async function getWikipediaTitleForQid(qid: string): Promise<string | undefined> {
   try {
     const entity = await fetchEntity(qid);
     return getWikipediaTitle(entity);
@@ -269,6 +279,14 @@ export async function buildPlaceContent(qid: string, fallbackName: string, entit
     // No enwiki sitelink — use Wikidata description
     const descriptions = (entity.descriptions as Record<string, { value: string }>) ?? {};
     summary = descriptions["en"]?.value ?? "";
+  }
+
+  // Safety net: if the live fetch produced no summary (e.g. transient network
+  // failure at build time), fall back to the pre-built cache so the page is
+  // never rendered blank.
+  if (!summary?.trim() && prebuilt?.summary?.trim()) {
+    summary = prebuilt.summary;
+    wikipediaUrl = wikipediaUrl ?? prebuilt.wikipediaUrl;
   }
 
   // Derive a display name from entity labels

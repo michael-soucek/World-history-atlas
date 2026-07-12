@@ -1,60 +1,16 @@
 "use client";
 
-import { useEffect, useRef, useCallback } from "react";
-import type { Map as MapLibreMap, GeoJSONSource, StyleSpecification } from "maplibre-gl";
+import { useEffect, useRef, useCallback, useState } from "react";
+import type { Map as MapLibreMap, GeoJSONSource } from "maplibre-gl";
 import { useAtlasStore } from "@/store/atlasStore";
-
-// ── Base map style ─────────────────────────────────────────────────────────
-// Minimal style: ocean background + neutral land fill only.
-// All modern country fills, borders, and labels are intentionally omitted so
-// they cannot bleed through gaps in the historical layer.
-const BASE_STYLE: StyleSpecification = {
-  version: 8,
-  glyphs: "https://demotiles.maplibre.org/font/{fontstack}/{range}.pbf",
-  sources: {
-    maplibre: {
-      type: "vector",
-      url: "https://demotiles.maplibre.org/tiles/tiles.json",
-      attribution: '© <a href="https://www.maplibre.org">MapLibre</a>',
-    },
-  },
-  layers: [
-    {
-      id: "ocean",
-      type: "background",
-      paint: { "background-color": "#D8F2FF" },
-    },
-    {
-      // Land — source-layer "countries" contains all land polygons.
-      // Single flat colour; our historical fills go on top.
-      id: "land",
-      type: "fill",
-      source: "maplibre",
-      "source-layer": "countries",
-      paint: { "fill-color": "#EAB38F" },
-    },
-    {
-      // Coastline matches demotiles ocean blue
-      id: "coastline",
-      type: "line",
-      source: "maplibre",
-      "source-layer": "countries",
-      paint: {
-        "line-color": "#198EC8",
-        "line-width": 0.8,
-        "line-blur": 0.5,
-      },
-    },
-  ],
-};
-
-// ── Constants ──────────────────────────────────────────────────────────────
-
-const FILL_OPACITY = 0.55;
-const LINE_OPACITY = 0.8;
-const LABEL_OPACITY = 1.0;
-const TRANSITION_MS = 1000;
-const EMPTY_FC = { type: "FeatureCollection" as const, features: [] as [] };
+import {
+  BASE_STYLE,
+  FILL_OPACITY,
+  LINE_OPACITY,
+  LABEL_OPACITY,
+  TRANSITION_MS,
+  EMPTY_FC,
+} from "@/lib/mapBaseStyle";
 
 type Slot = "a" | "b";
 
@@ -76,10 +32,82 @@ export default function AtlasMap() {
   const activeSlotRef = useRef<Slot>("a");
   const transitionTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const currentStateRef = useRef<number | null>(null);
+  const nextYearRef = useRef<number | null>(null);
   const isLoadingRef = useRef(false);
   const stateDataCacheRef = useRef<Map<number, { borders: any; labels: any }>>(new Map());
 
-  const { stateYear, setView, selectRegion } = useAtlasStore();
+  const [mapLoaded, setMapLoaded] = useState(false);
+  const { stateYear, setView, selectRegion, selectedWikidataId } = useAtlasStore();
+  const lastFlownIdRef = useRef<string | null>(null);
+
+  // ── Selection sync logic ───────────────────────────────────────────────
+
+  const syncSelectionHighlight = useCallback((year: number) => {
+    const map = mapRef.current;
+    const wikidataId = useAtlasStore.getState().selectedWikidataId;
+    if (!map) return;
+
+    if (!wikidataId) {
+      if (map.getSource("territory-selected")) {
+        (map.getSource("territory-selected") as GeoJSONSource).setData(EMPTY_FC);
+      }
+      lastFlownIdRef.current = null;
+      return;
+    }
+
+    // Find the feature in the current year's data
+    const cache = stateDataCacheRef.current.get(year);
+    if (!cache || !cache.borders) return;
+
+    const feature = cache.borders.features.find(
+      (f: any) => f.properties?.wikidataId === wikidataId
+    );
+
+    if (feature) {
+      // Update highlight territory
+      if (map.getSource("territory-selected")) {
+        (map.getSource("territory-selected") as GeoJSONSource).setData({
+          type: "FeatureCollection",
+          features: [JSON.parse(JSON.stringify(feature))],
+        });
+      }
+
+      // Fly to if this is a new selection (from search/link)
+      if (lastFlownIdRef.current !== wikidataId) {
+        if (feature.geometry) {
+          let minLng = Infinity, minLat = Infinity, maxLng = -Infinity, maxLat = -Infinity;
+          const processCoords = (coords: any) => {
+            if (Array.isArray(coords[0])) {
+              coords.forEach(processCoords);
+            } else {
+              const [lng, lat] = coords;
+              if (lng < minLng) minLng = lng;
+              if (lng > maxLng) maxLng = lng;
+              if (lat < minLat) minLat = lat;
+              if (lat > maxLat) maxLat = lat;
+            }
+          };
+          processCoords(feature.geometry.coordinates);
+          if (minLng !== Infinity) {
+            map.fitBounds(
+              [[minLng, minLat], [maxLng, maxLat]],
+              { padding: 80, maxZoom: 5, duration: 1200 }
+            );
+          }
+        }
+        lastFlownIdRef.current = wikidataId;
+      }
+    } else {
+      // Feature not found in this year's data
+      if (map.getSource("territory-selected")) {
+        (map.getSource("territory-selected") as GeoJSONSource).setData(EMPTY_FC);
+      }
+    }
+  }, []);
+
+  useEffect(() => {
+    syncSelectionHighlight(stateYear);
+  }, [selectedWikidataId, stateYear, syncSelectionHighlight]);
 
   // ── Slot opacity helper ────────────────────────────────────────────────
 
@@ -112,8 +140,8 @@ export default function AtlasMap() {
       const map = new Map({
         container: mapContainerRef.current!,
         style: BASE_STYLE,
-        center: [10, 20],
-        zoom: 2,
+        center: [0, 20],
+        zoom: 1.6,
         attributionControl: {},
       });
 
@@ -175,10 +203,10 @@ export default function AtlasMap() {
               "line-blur": [
                 "match",
                 ["get", "precision"],
-                1, 3.0,
-                2, 1.0,
-                3, 0.0,
-                1.5,
+                1, 0.0,
+                2, 1.2,
+                3, 3.0,
+                0.0,
               ],
               "line-opacity": 0,
               "line-opacity-transition": { duration: TRANSITION_MS, delay: 0 },
@@ -188,12 +216,23 @@ export default function AtlasMap() {
 
         // ── Selection highlight ────────────────────────────────────────
         map.addLayer({
-          id: "territory-highlight",
+          id: "territory-highlight-fill",
           type: "fill",
           source: "territory-selected",
           paint: {
             "fill-color": "#ffffff",
-            "fill-opacity": 0.22,
+            "fill-opacity": 0.25,
+          },
+        });
+        map.addLayer({
+          id: "territory-highlight-outline",
+          type: "line",
+          source: "territory-selected",
+          paint: {
+            "line-color": "#ffffff",
+            "line-width": 2.5,
+            "line-blur": 0.5,
+            "line-opacity": 0.8,
           },
         });
 
@@ -277,6 +316,11 @@ export default function AtlasMap() {
             sovereign?: string;
           };
 
+          // Mark as "already flown" so the effect doesn't jump the camera on click selection
+          if (props.wikidataId) {
+            lastFlownIdRef.current = props.wikidataId;
+          }
+
           // Highlight the clicked feature
           (map.getSource("territory-selected") as GeoJSONSource).setData({
             type: "FeatureCollection",
@@ -296,11 +340,7 @@ export default function AtlasMap() {
           setView(c.lat, c.lng, map.getZoom());
         });
 
-        // ── Initial snapshot load ──────────────────────────────────────
-        // The "stateYear changed" useEffect fires before mapRef is set
-        // (MapLibre loads async), so we must trigger the first load here,
-        // after all sources and layers are ready.
-        loadSnapshot(useAtlasStore.getState().stateYear);
+        setMapLoaded(true);
       });
     });
 
@@ -320,68 +360,66 @@ export default function AtlasMap() {
       const map = mapRef.current;
       if (!map) return;
       if (currentStateRef.current === year) return;
+
+      // Note the latest requested year
+      nextYearRef.current = year;
+
       if (isLoadingRef.current) return;
 
       isLoadingRef.current = true;
       try {
-        let cached = stateDataCacheRef.current.get(year);
+        // Always try to load the latest requested year
+        let targetYear = nextYearRef.current ?? year;
+
+        let cached = stateDataCacheRef.current.get(targetYear);
         if (!cached) {
-          const fetched = await fetchSnapshotData(year);
+          const fetched = await fetchSnapshotData(targetYear);
           if (!fetched.borders) return;
           cached = fetched;
-          stateDataCacheRef.current.set(year, fetched);
+          stateDataCacheRef.current.set(targetYear, fetched);
         }
 
         const { borders, labels } = cached;
-        if (!borders) return;
-
         const oldSlot: Slot = activeSlotRef.current;
         const newSlot: Slot = oldSlot === "a" ? "b" : "a";
 
         // Load data into the incoming slot
-        (map.getSource(`territories-${newSlot}`) as GeoJSONSource).setData(
-          borders
-        );
-        (map.getSource(`labels-${newSlot}`) as GeoJSONSource).setData(
-          labels ?? EMPTY_FC
-        );
+        (map.getSource(`territories-${newSlot}`) as GeoJSONSource).setData(borders);
+        (map.getSource(`labels-${newSlot}`) as GeoJSONSource).setData(labels ?? EMPTY_FC);
 
-        // Trigger MapLibre paint transitions (1 s crossfade)
+        // Trigger MapLibre paint transitions
         setSlotOpacity(map, newSlot, true);
         setSlotOpacity(map, oldSlot, false);
 
-        // Clear any selection since the data changed
-        (map.getSource("territory-selected") as GeoJSONSource).setData(
-          EMPTY_FC
-        );
-        useAtlasStore.getState().clearSelection();
-
-        // After the transition completes, mark the new slot as active
         if (transitionTimerRef.current) clearTimeout(transitionTimerRef.current);
         transitionTimerRef.current = setTimeout(() => {
           activeSlotRef.current = newSlot;
         }, TRANSITION_MS + 60);
 
-        currentStateRef.current = year;
+        currentStateRef.current = targetYear;
+        syncSelectionHighlight(targetYear);
       } catch (err) {
-        console.error("[loadSnapshot] ERROR", err);
+        console.error("[AtlasMap] loadSnapshot ERROR", err);
       } finally {
         isLoadingRef.current = false;
+        // Process queue
+        if (nextYearRef.current !== null && nextYearRef.current !== currentStateRef.current) {
+          loadSnapshot(nextYearRef.current);
+        }
       }
     },
-    [setSlotOpacity]
+    [setSlotOpacity, syncSelectionHighlight]
   );
 
   useEffect(() => {
-    const map = mapRef.current;
-    if (!map) return;
+    if (!mapLoaded) return;
 
-    if (map.isStyleLoaded()) {
+    // 150ms debounce to avoid spamming updates during scrubbing
+    const timer = setTimeout(() => {
       loadSnapshot(stateYear);
-    } else {
-      map.once("load", () => loadSnapshot(stateYear));
-    }
-  }, [stateYear, loadSnapshot]);
+    }, 150);
+    return () => clearTimeout(timer);
+  }, [stateYear, mapLoaded, loadSnapshot]);
 
   return (
     <div

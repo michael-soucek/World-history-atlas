@@ -163,7 +163,7 @@ export async function buildManifest(): Promise<YearManifest> {
 /**
  * Find the snapshot index that covers `year` (binary search on sorted snapshot years).
  */
-export function snapshotIndexForYear(snapshots: YearManifestEntry[], year: number): number {
+function snapshotIndexForYear(snapshots: YearManifestEntry[], year: number): number {
   let lo = 0;
   let hi = snapshots.length - 1;
   let best = 0;

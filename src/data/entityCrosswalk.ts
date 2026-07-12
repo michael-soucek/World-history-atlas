@@ -5,44 +5,44 @@ export const PEOPLE_CROSSWALK: Record<string, CrosswalkEntry & { entityType: Ent
   "genghis-khan":          { wikidataId: "Q720", slug: "genghis-khan",          entityType: "person" },
   "alexander-the-great":   { wikidataId: "Q8409", slug: "alexander-the-great",  entityType: "person" },
   "julius-caesar":         { wikidataId: "Q1048", slug: "julius-caesar",         entityType: "person" },
-  "cleopatra":             { wikidataId: "Q1413", slug: "cleopatra",             entityType: "person" },
+  "cleopatra":             { wikidataId: "Q635", slug: "cleopatra",             entityType: "person" },
   "charlemagne":           { wikidataId: "Q3044", slug: "charlemagne",           entityType: "person" },
-  "saladin":               { wikidataId: "Q9431", slug: "saladin",               entityType: "person" },
-  "tamerlane":             { wikidataId: "Q44077", slug: "tamerlane",            entityType: "person" },
+  "saladin":               { wikidataId: "Q8581", slug: "saladin",               entityType: "person" },
+  "tamerlane":             { wikidataId: "Q8462", slug: "tamerlane",            entityType: "person" },
   "napoleon":              { wikidataId: "Q517",  slug: "napoleon",              entityType: "person" },
   "constantine-i":         { wikidataId: "Q8413", slug: "constantine-i",         entityType: "person" },
   "augustus":              { wikidataId: "Q1405", slug: "augustus",              entityType: "person" },
   "attila-the-hun":        { wikidataId: "Q36724", slug: "attila-the-hun",       entityType: "person" },
   "kublai-khan":           { wikidataId: "Q7523",  slug: "kublai-khan",          entityType: "person" },
-  "suleiman-the-magnificent": { wikidataId: "Q43610", slug: "suleiman-the-magnificent", entityType: "person" },
-  "akbar":                 { wikidataId: "Q133680", slug: "akbar",               entityType: "person" },
-  "cyrus-the-great":       { wikidataId: "Q23967", slug: "cyrus-the-great",      entityType: "person" },
-  "hannibal":              { wikidataId: "Q38375",  slug: "hannibal",             entityType: "person" },
-  "ramesses-ii":           { wikidataId: "Q157459", slug: "ramesses-ii",          entityType: "person" },
+  "suleiman-the-magnificent": { wikidataId: "Q8474", slug: "suleiman-the-magnificent", entityType: "person" },
+  "akbar":                 { wikidataId: "Q8597", slug: "akbar",               entityType: "person" },
+  "cyrus-the-great":       { wikidataId: "Q8423", slug: "cyrus-the-great",      entityType: "person" },
+  "hannibal":              { wikidataId: "Q36456",  slug: "hannibal",             entityType: "person" },
+  "ramesses-ii":           { wikidataId: "Q1523", slug: "ramesses-ii",          entityType: "person" },
 };
 
 /** Crosswalk for historical events. */
 export const EVENTS_CROSSWALK: Record<string, CrosswalkEntry & { entityType: EntityType }> = {
-  "fall-of-rome":          { wikidataId: "Q47092",  slug: "fall-of-rome",        entityType: "event" },
-  "black-death":           { wikidataId: "Q42196",  slug: "black-death",         entityType: "event" },
-  "mongol-invasion-of-europe": { wikidataId: "Q180614", slug: "mongol-invasion-of-europe", entityType: "event" },
-  "crusades":              { wikidataId: "Q8065",   slug: "crusades",            entityType: "event" },
+  "fall-of-rome":          { wikidataId: "Q608613",  slug: "fall-of-rome",        entityType: "event" },
+  "black-death":           { wikidataId: "Q42005",  slug: "black-death",         entityType: "event" },
+  "mongol-invasion-of-europe": { wikidataId: "Q852171", slug: "mongol-invasion-of-europe", entityType: "event" },
+  "crusades":              { wikidataId: "Q12546",   slug: "crusades",            entityType: "event" },
   "age-of-discovery":      { wikidataId: "Q133641", slug: "age-of-discovery",    entityType: "event" },
-  "battle-of-marathon":    { wikidataId: "Q46383",  slug: "battle-of-marathon",  entityType: "event" },
+  "battle-of-marathon":    { wikidataId: "Q31900",  slug: "battle-of-marathon",  entityType: "event" },
   "french-revolution":     { wikidataId: "Q6534",   slug: "french-revolution",   entityType: "event" },
-  "fall-of-constantinople":{ wikidataId: "Q155231", slug: "fall-of-constantinople", entityType: "event" },
+  "fall-of-constantinople":{ wikidataId: "Q160077", slug: "fall-of-constantinople", entityType: "event" },
 };
 
 /** Crosswalk for cultures / topics. */
 export const CULTURES_CROSSWALK: Record<string, CrosswalkEntry & { entityType: EntityType }> = {
-  "silk-road":             { wikidataId: "Q152490",  slug: "silk-road",           entityType: "culture" },
+  "silk-road":             { wikidataId: "Q36288",  slug: "silk-road",           entityType: "culture" },
   "renaissance":           { wikidataId: "Q4692",    slug: "renaissance",         entityType: "culture" },
-  "islamic-golden-age":    { wikidataId: "Q7178",    slug: "islamic-golden-age",  entityType: "culture" },
+  "islamic-golden-age":    { wikidataId: "Q745799",    slug: "islamic-golden-age",  entityType: "culture" },
   "ancient-greece":        { wikidataId: "Q11772",   slug: "ancient-greece",      entityType: "culture" },
   "ancient-egypt":         { wikidataId: "Q11768",   slug: "ancient-egypt",       entityType: "culture" },
-  "viking-age":            { wikidataId: "Q128207",  slug: "viking-age",          entityType: "culture" },
-  "feudal-japan":          { wikidataId: "Q228668",  slug: "feudal-japan",        entityType: "culture" },
-  "ancient-rome":          { wikidataId: "Q11817",   slug: "ancient-rome",        entityType: "culture" },
+  "viking-age":            { wikidataId: "Q213649",  slug: "viking-age",          entityType: "culture" },
+  "feudal-japan":          { wikidataId: "Q130436",  slug: "feudal-japan",        entityType: "culture" },
+  "ancient-rome":          { wikidataId: "Q1747689",   slug: "ancient-rome",        entityType: "culture" },
 };
 
 // Build slug → entry maps
@@ -110,7 +110,7 @@ export function registerResolvedEntity(
 }
 
 /** All people, events, cultures — for browse/search. */
-export function allEntities() {
+function allEntities() {
   return [
     ...Object.values(PEOPLE_CROSSWALK),
     ...Object.values(EVENTS_CROSSWALK),

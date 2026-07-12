@@ -6,6 +6,7 @@ import HeroMapPreviewLoader from "@/components/HeroMapPreviewLoader";
 import { CROSSWALK } from "@/data/crosswalk";
 import { ERA_LIST, eraSlug } from "@/data/eras";
 import { SNAPSHOT_YEARS, formatYear } from "@/data/snapshotYears";
+import { EXPLORERS } from "@/data/voyages";
 
 export const metadata: Metadata = {
   title: "World History Atlas — Watch borders change through time",
@@ -106,7 +107,7 @@ export default function HomePage() {
                 {/* CTAs: one bold primary, one quiet text link */}
                 <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
                   <Link
-                    href="/map?year=1700&lat=20&lng=10&z=2"
+                    href="/map?year=1700"
                     className="rounded-sm px-7 py-3.5 text-base font-semibold bg-ancient text-white hover:bg-ancient/90 transition-colors shadow-md shadow-ancient/25 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ancient"
                   >
                     Open the map
@@ -138,9 +139,9 @@ export default function HomePage() {
               </div>
 
               {/* ── Right: antique map plate ── */}
-              <div className="relative" aria-hidden="true">
+              <Link href="/map?year=1700" className="relative block group transition-opacity duration-200 hover:opacity-90 cursor-pointer">
                 {/* Cartouche frame */}
-                <div className="relative rounded-sm border border-ancient/30 bg-ancient-wash/50 p-1 shadow-[inset_0_0_0_1px_rgba(184,112,8,0.12),0_8px_40px_rgba(184,112,8,0.10)]">
+                <div className="relative rounded-sm border border-ancient/30 bg-ancient-wash/50 p-1 shadow-[inset_0_0_0_1px_rgba(184,112,8,0.12),0_8px_40px_rgba(184,112,8,0.10)] group-hover:shadow-[inset_0_0_0_1px_rgba(184,112,8,0.20),0_12px_48px_rgba(184,112,8,0.18)] transition-shadow duration-200">
                   {/* Corner ornaments */}
                   {["top-0 left-0", "top-0 right-0 rotate-90", "bottom-0 right-0 rotate-180", "bottom-0 left-0 -rotate-90"].map((pos, i) => (
                     <svg key={i} className={`absolute ${pos} w-5 h-5 text-ancient/40`} viewBox="0 0 20 20" fill="none">
@@ -199,7 +200,7 @@ export default function HomePage() {
                     </span>
                   </div>
                 </div>
-              </div>
+              </Link>
 
             </div>
           </div>
@@ -215,7 +216,7 @@ export default function HomePage() {
                 <p className="text-ink text-lg font-medium">What did the world look like in {formatYear(onThisDayYear)}?</p>
               </div>
               <Link
-                href={`/map?year=${onThisDayYear}&lat=20&lng=10&z=2`}
+                href={`/map?year=${onThisDayYear}`}
                 className="shrink-0 rounded-lg px-5 py-2.5 text-sm font-medium border border-paper text-ink/70 hover:text-ink hover:border-ancient/40 hover:bg-ancient-wash transition-all duration-200"
               >
                 View {formatYear(onThisDayYear)} →
@@ -245,6 +246,33 @@ export default function HomePage() {
                   <div className="absolute top-0 inset-x-0 h-px rounded-t-xl bg-ancient/0 group-hover:bg-ancient/40 transition-all duration-200" />
                   <p className="text-ink/85 font-medium group-hover:text-ink transition-colors">{name}</p>
                   <p className="text-ink/35 text-xs mt-1">Empire · Place</p>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* ── Featured Explorers ── */}
+        <section className="bg-surface py-16">
+          <div className="max-w-5xl mx-auto px-6">
+            <div className="flex items-baseline justify-between mb-2">
+              <h2 className="font-display text-3xl font-bold text-ink">Age of Exploration</h2>
+              <Link href="/theme/age-of-exploration" className="text-sm text-ancient/70 hover:text-ancient transition-colors">
+                Explore all →
+              </Link>
+            </div>
+            <p className="text-ink/40 text-sm mb-8">Explorers whose voyages connected the world's oceans.</p>
+            <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
+              {EXPLORERS.slice(0, 3).map((explorer) => (
+                <Link
+                  key={explorer.slug}
+                  href={`/explorer/${explorer.slug}`}
+                  className="group relative rounded-xl border border-paper bg-white/60 hover:bg-early-modern-wash hover:border-early-modern/30 p-5 transition-all duration-200"
+                >
+                  {/* Accent on hover */}
+                  <div className="absolute top-0 inset-x-0 h-px rounded-t-xl bg-early-modern/0 group-hover:bg-early-modern/40 transition-all duration-200" />
+                  <p className="text-ink/85 font-medium group-hover:text-ink transition-colors">{explorer.name}</p>
+                  <p className="text-ink/35 text-xs mt-1">Explorer · {explorer.lifespan}</p>
                 </Link>
               ))}
             </div>
@@ -298,7 +326,7 @@ export default function HomePage() {
                 <p className="text-ink/50 text-sm leading-relaxed">History is full of surprises. Let the atlas take you somewhere unexpected.</p>
               </div>
               <Link
-                href={`/map?year=${SNAPSHOT_YEARS[Math.floor(SNAPSHOT_YEARS.length / 2)]}&lat=20&lng=10&z=2`}
+                href={`/map?year=${SNAPSHOT_YEARS[Math.floor(SNAPSHOT_YEARS.length / 2)]}`}
                 className="relative shrink-0 rounded-xl px-7 py-3.5 text-sm font-semibold bg-ancient text-white hover:bg-ancient/90 transition-colors shadow-lg shadow-ancient/20"
               >
                 Explore →

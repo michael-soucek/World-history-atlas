@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
+import { ReadAloudButton } from "@/components/ReadAloudButton";
 
 export const metadata: Metadata = {
   title: "About the Data — World History Atlas",
@@ -18,10 +19,13 @@ export default function AboutPage() {
         <header>
           <p className="text-ancient/70 text-xs font-semibold uppercase tracking-widest mb-3">About</p>
           <h1 className="font-display text-5xl font-bold text-ink italic mb-4">About the Data</h1>
-          <p className="text-ink/50 text-base leading-relaxed">
-            World History Atlas aims to show the world&rsquo;s borders honestly, clearly, and fairly.
-            Here&rsquo;s exactly where the data comes from and how it&rsquo;s used.
-          </p>
+          <div className="flex flex-col gap-4">
+            <p className="text-ink/50 text-base leading-relaxed">
+              World History Atlas aims to show the world&rsquo;s borders honestly, clearly, and fairly.
+              Here&rsquo;s exactly where the data comes from and how it&rsquo;s used.
+            </p>
+            <ReadAloudButton text="World History Atlas aims to show the world's borders honestly, clearly, and fairly. This project uses historical border data from several sources, primarily Ourednik's historical basemaps and OpenHistoricalMap." />
+          </div>
         </header>
 
         {/* Border data */}
@@ -29,6 +33,11 @@ export default function AboutPage() {
           <div className="flex items-center gap-3 mb-5">
             <h2 className="font-display text-xl font-semibold text-ink/70 italic">Historical Border Data</h2>
               <div className="flex-1 h-px bg-paper" />
+              <ReadAloudButton 
+                text="The primary source for historical borders is aourednik/historical-basemaps by André Ourednik. Supplementary coverage comes from OpenHistoricalMap. We use three precision levels: approximate, estimated, and defined. Note that the slider only snaps to years where sourced data actually exists; no borders are interpolated." 
+                variant="minimal" 
+                className="opacity-50 hover:opacity-100 transition-opacity"
+              />
           </div>
           <div className="space-y-4 text-ink/70 text-sm leading-relaxed">
             <p>

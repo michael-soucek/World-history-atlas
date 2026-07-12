@@ -132,7 +132,7 @@ export default function SearchClient({ items }: SearchClientProps) {
             Jump to <span className="font-mono text-ancient">{query} CE</span> on the map
           </p>
           <Link
-            href={`/map?year=${query}&lat=20&lng=10&z=2`}
+            href={`/map?year=${query}`}
             className="shrink-0 rounded-lg px-4 py-2 text-sm font-medium bg-ancient text-white hover:bg-ancient/90 transition-colors"
           >
             View map →

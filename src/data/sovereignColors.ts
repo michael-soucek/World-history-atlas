@@ -60,7 +60,7 @@ export function getSovereignColor(sovereign: string): string {
 /**
  * Return a slightly lighter/darker version of the fill for the border line.
  */
-export function getSovereignLineColor(sovereign: string): string {
+function getSovereignLineColor(sovereign: string): string {
   const fill = getSovereignColor(sovereign);
   // Lighten by mixing toward white slightly
   return fill; // border uses same hue; opacity/blur differentiates precision

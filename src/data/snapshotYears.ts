@@ -26,7 +26,7 @@ export const DEFAULT_YEAR = 1700;
  * Convert a year integer (negative = BCE) to the historical-basemaps filename.
  * e.g. -500 → "world_bc500.geojson", 1700 → "world_1700.geojson"
  */
-export function yearToFilename(year: number): string {
+function yearToFilename(year: number): string {
   if (year < 0) return `world_bc${Math.abs(year)}.geojson`;
   return `world_${year}.geojson`;
 }
@@ -68,7 +68,7 @@ export function getEraForYear(year: number): string {
   return "Modern";
 }
 
-export function yearToSliderValue(year: number): number {
+function yearToSliderValue(year: number): number {
   return Math.max(MIN_YEAR, Math.min(MAX_YEAR, year));
 }
 

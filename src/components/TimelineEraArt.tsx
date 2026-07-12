@@ -59,7 +59,7 @@ export default function TimelineEraArt({ image }: Props) {
               loading="lazy"
               decoding="async"
               fetchPriority="low"
-              className="h-full w-full object-cover transition-opacity duration-700"
+              className="h-full w-full object-contain bg-surface transition-opacity duration-700"
               style={{
                 objectPosition: image.objectPosition ?? "center center",
                 filter: "sepia(0.92) saturate(0.72) contrast(1.05) brightness(0.95)",

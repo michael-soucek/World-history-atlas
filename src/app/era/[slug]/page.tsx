@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
 import HandwrittenTitle from "@/components/HandwrittenTitle";
+import { ReadAloudButton } from "@/components/ReadAloudButton";
 import { ERA_LIST, eraFromSlug, eraSlug } from "@/data/eras";
 import { SNAPSHOT_YEARS, formatYear } from "@/data/snapshotYears";
 import { CROSSWALK } from "@/data/crosswalk";
@@ -92,9 +93,12 @@ export default async function EraPage({ params }: Props) {
 
           {/* Lead blurb for this era */}
           {"blurb" in era && era.blurb && (
-            <p className="text-ink/55 text-lg leading-relaxed max-w-3xl mb-10" style={{ maxWidth: '65ch' }}>
-              {era.blurb}
-            </p>
+            <div className="mb-10 space-y-4">
+              <ReadAloudButton text={era.blurb} />
+              <p className="text-ink/55 text-lg leading-relaxed max-w-3xl" style={{ maxWidth: '65ch' }}>
+                {era.blurb}
+              </p>
+            </div>
           )}
 
           {/* Snapshot years in this era */}
@@ -109,7 +113,7 @@ export default async function EraPage({ params }: Props) {
                 {eraYears.map(year => (
                   <Link
                     key={year}
-                    href={`/map?year=${year}&lat=20&lng=10&z=2`}
+                    href={`/map?year=${year}`}
                     className={`rounded-xl border ${meta.cardBorder} ${meta.cardHover} bg-white/60 hover:bg-surface px-4 py-3 text-sm font-mono text-ink/55 hover:text-ink transition-all duration-200`}
                   >
                     {formatYear(year)}
@@ -140,6 +144,19 @@ export default async function EraPage({ params }: Props) {
 
           {/* Browse other eras */}
           <div className="border-t border-paper pt-8">
+            {era.label === "Early Modern" && (
+              <>
+                <p className="text-ink/25 text-xs uppercase tracking-widest mb-4">Related themes</p>
+                <div className="mb-6 flex flex-wrap gap-2.5">
+                  <Link
+                    href="/theme/age-of-exploration"
+                    className="rounded-xl border border-paper bg-white/60 hover:bg-early-modern-wash hover:border-early-modern/30 px-4 py-2.5 text-sm text-ink/50 hover:text-ink transition-all duration-200"
+                  >
+                    Age of Exploration
+                  </Link>
+                </div>
+              </>
+            )}
             <p className="text-ink/25 text-xs uppercase tracking-widest mb-4">Other eras</p>
             <div className="flex flex-wrap gap-2.5">
               {ERA_LIST.filter(e => e.label !== era.label && isFinite(e.start)).map(e => (
