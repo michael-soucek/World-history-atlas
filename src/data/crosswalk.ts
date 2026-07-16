@@ -19,17 +19,17 @@ import type { CrosswalkEntry } from "@/types";
 // ---------------------------------------------------------------------------
 export const CROSSWALK: Record<string, CrosswalkEntry> = {
   // ── Ancient World ────────────────────────────────────────────────────────
-  "Achaemenid Empire": { wikidataId: "Q389688",  slug: "achaemenid-empire", aliases: ["Persian Empire", "Persia"] },   // Achaemenid Empire
-  "Macedonian Empire": { wikidataId: "Q83958",   slug: "macedonian-empire", aliases: ["Empire of Alexander", "Alexander's Empire"] }, // Empire of Alexander
+  "Achaemenid Empire": { wikidataId: "Q389688",  slug: "achaemenid-empire", aliases: ["Persian Empire", "Persia"], representativeYear: -500 },   // Achaemenid Empire
+  "Macedonian Empire": { wikidataId: "Q83958",   slug: "macedonian-empire", aliases: ["Empire of Alexander", "Alexander's Empire"], representativeYear: -323 }, // Empire of Alexander
   "Seleucid Empire":   { wikidataId: "Q93180",  slug: "seleucid-empire" },                          // Seleucid Empire
   "Ptolemaic Kingdom": { wikidataId: "Q2320005",  slug: "ptolemaic-kingdom", aliases: ["Ptolemaic Egypt"] }, // Ptolemaic Kingdom
   "Roman Republic":    { wikidataId: "Q17167",   slug: "roman-republic" },                            // Roman Republic
-  "Roman Empire":      { wikidataId: "Q2277",   slug: "roman-empire" },                              // ✓ Roman Empire
+  "Roman Empire":      { wikidataId: "Q2277",   slug: "roman-empire", representativeYear: 117 },                              // ✓ Roman Empire
   "Western Roman Empire": { wikidataId: "Q42834", slug: "western-roman-empire" },                  // Western Roman Empire
-  "Byzantine Empire":  { wikidataId: "Q12544",  slug: "byzantine-empire", aliases: ["Eastern Roman Empire", "Byzantium"] }, // Byzantine Empire
-  "Maurya Empire":     { wikidataId: "Q62943",   slug: "maurya-empire" },                             // Maurya Empire
-  "Gupta Empire":      { wikidataId: "Q11774", slug: "gupta-empire" },                              // Gupta Empire
-  "Han dynasty":       { wikidataId: "Q7209",   slug: "han-dynasty", aliases: ["Han Dynasty", "Han"] }, // ✓ Han dynasty
+  "Byzantine Empire":  { wikidataId: "Q31388",  slug: "byzantine-empire", aliases: ["Eastern Roman Empire", "Byzantium"], representativeYear: 550 }, // Byzantine Empire
+  "Maurya Empire":     { wikidataId: "Q62943",   slug: "maurya-empire", representativeYear: -250 },                             // Maurya Empire
+  "Gupta Empire":      { wikidataId: "Q11774", slug: "gupta-empire", representativeYear: 400 },                              // Gupta Empire
+  "Han dynasty":       { wikidataId: "Q7209",   slug: "han-dynasty", aliases: ["Han Dynasty", "Han"], representativeYear: 100 }, // ✓ Han dynasty
   "Kingdom of Aksum":  { wikidataId: "Q139377", slug: "kingdom-of-aksum", aliases: ["Axum", "Aksumite Empire"] }, // Kingdom of Aksum
   "Carthage":          { wikidataId: "Q6343",   slug: "carthage" },                                  // ✓ Carthage
 
@@ -45,7 +45,7 @@ export const CROSSWALK: Record<string, CrosswalkEntry> = {
 
   // ── Medieval ─────────────────────────────────────────────────────────────
   "Holy Roman Empire": { wikidataId: "Q12548",  slug: "holy-roman-empire" },                        // ✓ Holy Roman Empire
-  "Mongol Empire":     { wikidataId: "Q12557",  slug: "mongol-empire" },                             // ✓ Mongol Empire
+  "Mongol Empire":     { wikidataId: "Q12557",  slug: "mongol-empire", representativeYear: 1259 },                             // ✓ Mongol Empire
   "Golden Horde":      { wikidataId: "Q79965", slug: "golden-horde" },                              // Golden Horde
   "Ilkhanate":         { wikidataId: "Q178084",  slug: "ilkhanate" },                                 // Ilkhanate
   "Timurid Empire":    { wikidataId: "Q484195", slug: "timurid-empire", aliases: ["Timurids"] },    // Timurid Empire
@@ -70,17 +70,17 @@ export const CROSSWALK: Record<string, CrosswalkEntry> = {
   "PolishLithuanian Commonwealth": { wikidataId: "Q172107", slug: "polishlithuanian-commonwealth", aliases: ["Polish Lithuanian Commonwealth"] }, // Snapshot slug variant
 
   // ── Early Modern ─────────────────────────────────────────────────────────
-  "Ottoman Empire":    { wikidataId: "Q12560",  slug: "ottoman-empire", aliases: ["Ottoman", "Ottomans"] }, // ✓ Ottoman Empire
+  "Ottoman Empire":    { wikidataId: "Q12560",  slug: "ottoman-empire", aliases: ["Ottoman", "Ottomans"], representativeYear: 1700 }, // ✓ Ottoman Empire
   "Safavid dynasty":   { wikidataId: "Q161205", slug: "safavid-dynasty", aliases: ["Safavid Persia", "Safavid"] }, // Safavid dynasty
   "Safavid Empire":    { wikidataId: "Q18234383", slug: "safavid-empire", aliases: ["Safavid Iran"] }, // Safavid Empire (snapshot variant)
-  "Mughal Empire":     { wikidataId: "Q33296",  slug: "mughal-empire", aliases: ["Mughals"] },       // Mughal Empire
+  "Mughal Empire":     { wikidataId: "Q33296",  slug: "mughal-empire", aliases: ["Mughals"], representativeYear: 1700 },       // Mughal Empire
   "Vijayanagara Empire":{ wikidataId: "Q167639", slug: "vijayanagara-empire" },                       // Vijayanagara Empire
   "Maratha Empire":    { wikidataId: "Q83618",   slug: "maratha-empire", aliases: ["Marathas"] },     // Maratha Confederacy
-  "Qing dynasty":      { wikidataId: "Q8733",   slug: "qing-dynasty", aliases: ["Qing Dynasty", "Qing", "China"] }, // ✓ Qing dynasty
+  "Qing dynasty":      { wikidataId: "Q8733",   slug: "qing-dynasty", aliases: ["Qing Dynasty", "Qing", "China"], representativeYear: 1800 }, // ✓ Qing dynasty
   "Joseon dynasty":    { wikidataId: "Q28179",  slug: "joseon-dynasty", aliases: ["Joseon", "Korea"] }, // ✓ Joseon
-  "Spanish Empire":    { wikidataId: "Q80702", slug: "spanish-empire", aliases: ["Spain"] },        // Spanish Empire
-  "Portuguese Empire": { wikidataId: "Q200464",  slug: "portuguese-empire", aliases: ["Portugal"] },  // Portuguese Empire
-  "British Empire":    { wikidataId: "Q8680",   slug: "british-empire", aliases: ["Great Britain", "United Kingdom"] }, // ✓ British Empire
+  "Spanish Empire":    { wikidataId: "Q80702", slug: "spanish-empire", aliases: ["Spain"], representativeYear: 1700 },        // Spanish Empire
+  "Portuguese Empire": { wikidataId: "Q200464",  slug: "portuguese-empire", aliases: ["Portugal"], representativeYear: 1700 },  // Portuguese Empire
+  "British Empire":    { wikidataId: "Q8680",   slug: "british-empire", aliases: ["Great Britain", "United Kingdom"], representativeYear: 1920 }, // ✓ British Empire
   "Dutch Republic":    { wikidataId: "Q170072", slug: "dutch-republic", aliases: ["Netherlands", "United Provinces"] }, // Dutch Republic
   "Shan States":       { wikidataId: "Q4765854", slug: "shan-states" },                                // Shan States
   "Manchu Empire":     { wikidataId: "Q8733",   slug: "manchu-empire", aliases: ["Qing dynasty"] },  // Manchu Empire (Qing)

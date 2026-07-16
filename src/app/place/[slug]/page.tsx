@@ -49,6 +49,7 @@ const resolvePage = cache(async (slug: string): Promise<{
     const entry: CrosswalkEntry = {
       wikidataId: resolved.wikidataId,
       slug: resolved.slug,
+      representativeYear: slugHint?.representativeYear,
     };
 
     const canonicalName = resolved.canonicalName;
@@ -293,16 +294,21 @@ export default async function PlacePage({ params }: Props) {
             {/* CTA */}
             <div className="rounded-2xl border border-paper bg-white/60 p-5 space-y-3">
               <p className="text-ink/35 text-xs font-semibold uppercase tracking-wider">Explore on the map</p>
-              <Link
-                href={content.representativeYear
-                  ? `/map?year=${content.representativeYear}&region=${entry.wikidataId}`
-                  : `/map?region=${entry.wikidataId}`}
-                className="block w-full text-center rounded-xl px-4 py-3 text-sm font-semibold bg-ancient text-white hover:bg-ancient/90 transition-colors"
-              >
-                {content.representativeYear
-                  ? `View map at ${content.representativeYear > 0 ? content.representativeYear + " CE" : Math.abs(content.representativeYear) + " BCE"}`
-                  : "View on map"}
-              </Link>
+              {(() => {
+                const year = content.representativeYear ?? entry.representativeYear;
+                return (
+                  <Link
+                    href={year
+                      ? `/map?year=${year}&region=${entry.wikidataId}`
+                      : `/map?region=${entry.wikidataId}`}
+                    className="block w-full text-center rounded-xl px-4 py-3 text-sm font-semibold bg-ancient text-white hover:bg-ancient/90 transition-colors"
+                  >
+                    {year
+                      ? `View map at ${year > 0 ? year + " CE" : Math.abs(year) + " BCE"}`
+                      : "View on map"}
+                  </Link>
+                );
+              })()}
               {content.wikipediaUrl && (
                 <a
                   href={content.wikipediaUrl}

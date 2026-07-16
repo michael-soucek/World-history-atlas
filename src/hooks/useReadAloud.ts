@@ -57,6 +57,11 @@ export function useReadAloud(text: string) {
 
     window.speechSynthesis.cancel();
 
+    // Small hack for some browsers that require a resume() before speak() if it was in a weird state
+    if (window.speechSynthesis.paused) {
+      window.speechSynthesis.resume();
+    }
+
     // Clean text: strip HTML, citations [1], licenses, and URLs
     const cleanText = text
       .replace(/<[^>]*>/g, "")
@@ -68,7 +73,12 @@ export function useReadAloud(text: string) {
 
     if (!cleanText) return;
 
-    const utterance = new SpeechSynthesisUtterance(cleanText);
+    // Some browsers have issues with extremely long utterances (> 4000 characters).
+    // For now, we'll cap it at 4000 to ensure reliability for the "Read Article" button
+    // which joins the summary and all sections.
+    const textToSpeak = cleanText.length > 4000 ? cleanText.slice(0, 4000) + "..." : cleanText;
+
+    const utterance = new SpeechSynthesisUtterance(textToSpeak);
     const bestVoice = getBestVoice();
     if (bestVoice) {
       utterance.voice = bestVoice;
@@ -85,24 +95,40 @@ export function useReadAloud(text: string) {
       setIsPaused(false);
     };
     utterance.onerror = (e) => {
+      // "interrupted" is common when switching buttons or clicking pause
       if (e.error !== "interrupted") {
-        console.error("Speech error:", e);
+        console.error("SpeechSynthesis error:", e.error);
       }
       setIsSpeaking(false);
       setIsPaused(false);
     };
 
-    // Need to wait slightly for cancel to take effect in some browsers
+    // Small delay ensures cancel() has finished and prevents some browsers 
+    // from ignoring the speak() call if it's too rapid.
     setTimeout(() => {
       window.speechSynthesis.speak(utterance);
-    }, 10);
-  }, [text, isPaused]);
+    }, 50);
+  }, [text, isPaused, getBestVoice]);
 
   const pause = useCallback(() => {
     if (typeof window !== "undefined") {
       window.speechSynthesis.pause();
       setIsPaused(true);
       setIsSpeaking(false);
+    }
+  }, []);
+
+  // Warm up voices on mount
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      window.speechSynthesis.getVoices();
+      
+      const handleVoicesChanged = () => {
+        window.speechSynthesis.getVoices();
+      };
+      
+      window.speechSynthesis.addEventListener("voiceschanged", handleVoicesChanged);
+      return () => window.speechSynthesis.removeEventListener("voiceschanged", handleVoicesChanged);
     }
   }, []);
 

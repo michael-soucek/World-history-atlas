@@ -156,15 +156,31 @@ export default async function RegionPage({ params }: Props) {
               <div className="flex-1 h-px bg-paper" />
             </div>
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2.5">
-              {places.map(({ name, entry }) => (
-                <Link
-                  key={entry!.slug}
-                  href={`/place/${entry!.slug}`}
-                  className="rounded-xl border border-paper bg-white/60 hover:bg-surface hover:border-ancient/30 px-4 py-3 text-sm text-ink/60 hover:text-ink transition-all duration-200"
-                >
-                  {name}
-                </Link>
-              ))}
+              {region.placeNames.map(name => {
+                const entry = CROSSWALK[name];
+                if (entry) {
+                  return (
+                    <Link
+                      key={entry.slug}
+                      href={`/place/${entry.slug}`}
+                      className="rounded-xl border border-paper bg-white/60 hover:bg-surface hover:border-ancient/30 px-4 py-3 text-sm text-ink/60 hover:text-ink transition-all duration-200"
+                    >
+                      {name}
+                    </Link>
+                  );
+                }
+                return (
+                  <div
+                    key={name}
+                    className="group relative rounded-xl border border-dashed border-paper bg-white/40 px-4 py-3 text-sm text-ink/30 select-none cursor-default"
+                  >
+                    {name}
+                    <span className="absolute -top-2 -right-1 bg-paper text-ink/40 text-[9px] font-bold px-1.5 py-0.5 rounded-full uppercase tracking-tighter opacity-0 group-hover:opacity-100 transition-opacity">
+                      Soon
+                    </span>
+                  </div>
+                );
+              })}
             </div>
           </section>
 

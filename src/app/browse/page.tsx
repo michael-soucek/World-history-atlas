@@ -113,7 +113,8 @@ function SectionHeader({ children }: { children: React.ReactNode }) {
 }
 
 export default async function BrowsePage({ searchParams }: Props) {
-  const { type } = await searchParams;
+  const params = await searchParams;
+  const type = params.type;
   if (isEntityType(type)) {
     return <BrowseByType type={type} />;
   }

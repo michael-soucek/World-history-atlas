@@ -50,6 +50,8 @@ export interface CrosswalkEntry {
   slug: string;
   /** Alternative name spellings that should map to the same entry */
   aliases?: string[];
+  /** Representative year for "See on the map" link */
+  representativeYear?: number;
 }
 
 // ---------------------------------------------------------------------------

@@ -105,6 +105,40 @@ export const TOURS: Tour[] = [
     ],
   },
   {
+    slug: "silk-road",
+    title: "The Silk Road",
+    description: "The ancient network of trade routes that linked China with the Mediterranean for over 1,500 years.",
+    duration: 5,
+    difficulty: "intro",
+    steps: [
+      {
+        title: "The Opening of the Road",
+        text: "In 138 BCE, the Han Emperor Wu sent Zhang Qian to the West. Though he was trying to find allies against the Xiongnu, he discovered high-quality horses and established the first formal trade links into Central Asia.",
+        mapState: { year: -100, lat: 38, lng: 110, zoom: 4, regionId: "Q7209" },
+      },
+      {
+        title: "The Kushan Crossroads",
+        text: "By 100 CE, the Kushan Empire in central Asia sat at the pivot point of the world's trade. Silk moved west from China; gold, glass, and wine moved east from Rome; and Buddhism began its journey north into the heart of Asia.",
+        mapState: { year: 100, lat: 35, lng: 70, zoom: 4, regionId: "Q25785" },
+      },
+      {
+        title: "The Golden Age of Tang",
+        text: "During the Tang Dynasty (618–907 CE), the Silk Road reached its peak. Chang'an became the largest and most cosmopolitan city in the world, filled with merchants from Persia, Sogdia, and beyond.",
+        mapState: { year: 700, lat: 36, lng: 108, zoom: 4, regionId: "Q9683" },
+      },
+      {
+        title: "The Pax Mongolica",
+        text: "The Mongol conquests in the 13th century actually made the Silk Road safer than ever. Under a single political authority, travelers like Marco Polo could cross the entire continent with unprecedented ease.",
+        mapState: { year: 1300, lat: 45, lng: 80, zoom: 3, regionId: "Q12557" },
+      },
+      {
+        title: "Maritime Competition",
+        text: "By 1500, the land routes of the Silk Road began to decline. Ships were becoming larger and more efficient, and the Ottoman control of the eastern Mediterranean pushed Europeans to find new sea routes directly to the East.",
+        mapState: { year: 1500, lat: 35, lng: 45, zoom: 3, regionId: "Q12560" },
+      },
+    ],
+  },
+  {
     slug: "age-of-discovery",
     title: "The Age of Discovery",
     description: "How European sailors — motivated by spice, gold, and religion — connected the world's continents for the first time.",
