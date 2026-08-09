@@ -26,7 +26,7 @@ export const CROSSWALK: Record<string, CrosswalkEntry> = {
   "Roman Republic":    { wikidataId: "Q17167",   slug: "roman-republic" },                            // Roman Republic
   "Roman Empire":      { wikidataId: "Q2277",   slug: "roman-empire", representativeYear: 117 },                              // ✓ Roman Empire
   "Western Roman Empire": { wikidataId: "Q42834", slug: "western-roman-empire" },                  // Western Roman Empire
-  "Byzantine Empire":  { wikidataId: "Q31388",  slug: "byzantine-empire", aliases: ["Eastern Roman Empire", "Byzantium"], representativeYear: 550 }, // Byzantine Empire
+  "Byzantine Empire":  { wikidataId: "Q12544",  slug: "byzantine-empire", aliases: ["Eastern Roman Empire", "Byzantium"], representativeYear: 550 }, // Byzantine Empire
   "Maurya Empire":     { wikidataId: "Q62943",   slug: "maurya-empire", representativeYear: -250 },                             // Maurya Empire
   "Gupta Empire":      { wikidataId: "Q11774", slug: "gupta-empire", representativeYear: 400 },                              // Gupta Empire
   "Han dynasty":       { wikidataId: "Q7209",   slug: "han-dynasty", aliases: ["Han Dynasty", "Han"], representativeYear: 100 }, // ✓ Han dynasty

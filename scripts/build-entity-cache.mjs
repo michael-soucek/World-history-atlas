@@ -30,18 +30,20 @@ function parseEntityCrosswalk(fileText) {
 }
 
 async function fetchJson(url) {
-  for (const delay of [0, 500, 1500, 4000, 9000]) {
+  for (const delay of [0, 500, 1500, 4000, 9000, 15000]) {
     if (delay) await sleep(delay);
     try {
       const res = await fetch(url, {
-        signal: AbortSignal.timeout(20000),
+        signal: AbortSignal.timeout(30000),
         headers: { Accept: "application/json", "User-Agent": USER_AGENT },
       });
       if (res.ok) return await res.json();
+      console.warn(`Fetch error ${res.status} for ${url.slice(0, 100)}...`);
       if (res.status === 429 || res.status >= 500) continue;
       return null;
-    } catch {
-      // transient network issue — retry
+    } catch (err) {
+      console.warn(`Fetch timeout/network error for ${url.slice(0, 100)}...: ${err.message}`);
+      // transient issue — retry
     }
   }
   return null;
@@ -115,6 +117,70 @@ async function fetchExtractsBatch(titles) {
   return map;
 }
 
+/** Fetch curated sections for a Wikipedia title using MediaWiki Parse API. */
+async function fetchSections(title) {
+  const CLEAN_PIPELINE_VERSION = "2";
+  const SECTION_KEYWORDS = [
+    "origin", "history", "rise", "formation", "establishment", "foundation", "early",
+    "background", "expansion", "height", "golden age", "peak", "decline", "fall",
+    "collapse", "legacy", "culture", "government", "economy", "religion", "military",
+    "period", "century", "era", "empire", "dynasty",
+  ];
+  const MAX_SECTIONS = 5;
+
+  const encoded = encodeURIComponent(title);
+  const sectionsUrl =
+    `https://en.wikipedia.org/w/api.php` +
+    `?action=parse&page=${encoded}&prop=sections&redirects=1&format=json&origin=*` +
+    `&atlas_clean=${CLEAN_PIPELINE_VERSION}`;
+
+  const raw = await fetchJson(sectionsUrl);
+  if (!raw || !raw.parse?.sections) return [];
+
+  const allSections = raw.parse.sections || [];
+  const selected = allSections
+    .filter(s => s.toclevel === 1)
+    .filter(s => {
+      const lower = s.line.toLowerCase().replace(/<[^>]+>/g, "");
+      return SECTION_KEYWORDS.some(kw => lower.includes(kw));
+    })
+    .slice(0, MAX_SECTIONS);
+
+  if (selected.length === 0) return [];
+
+  const results = await Promise.all(
+    selected.map(async (sec) => {
+      const secUrl =
+        `https://en.wikipedia.org/w/api.php` +
+        `?action=parse&page=${encoded}&prop=text&section=${sec.index}` +
+        `&redirects=1&format=json&origin=*` +
+        `&atlas_clean=${CLEAN_PIPELINE_VERSION}`;
+      const rawSec = await fetchJson(secUrl);
+      if (!rawSec || !rawSec.parse?.text?.["*"]) return null;
+
+      const html = rawSec.parse.text["*"];
+      const heading = sec.line.replace(/<[^>]+>/g, "").trim();
+      
+      // Basic tag stripping for the build script
+      let content = html
+        .replace(/<style[^>]*>[\s\S]*?<\/style>/gi, "")
+        .replace(/<script[^>]*>[\s\S]*?<\/script>/gi, "")
+        .replace(/<table[^>]*>[\s\S]*?<\/table>/gi, "")
+        .replace(/<div[^>]*class="[^"]*thumb[^"]*"[^>]*>[\s\S]*?<\/div>/gi, "")
+        .replace(/<[^>]+>/g, " ")
+        .replace(/\s+/g, " ")
+        .trim();
+        
+      // Remove [edit] etc
+      content = content.replace(/\[\s*edit\s*\]/gi, "");
+      
+      return content.length > 100 ? { heading, content } : null;
+    })
+  );
+
+  return results.filter(Boolean);
+}
+
 async function main() {
   const placeEntries = parsePlaceCrosswalk(fs.readFileSync(CROSSWALK_PATH, "utf8"));
   const otherEntries = parseEntityCrosswalk(fs.readFileSync(ENTITY_CROSSWALK_PATH, "utf8"));
@@ -137,28 +203,58 @@ async function main() {
   console.log(`Fetching ${titlesToFetch.length} Wikipedia lead extracts…`);
   const extracts = await fetchExtractsBatch(titlesToFetch);
 
+  console.log(`Fetching extracts and sections for ${entries.length} entities…`);
   const out = { generatedAt: new Date().toISOString(), entries: {} };
   let ok = 0;
   let shortOnly = 0;
   let failed = 0;
 
-  for (const e of entries) {
-    const d = entityData.get(e.qid);
-    if (!d) {
+  // Fetch in smaller chunks to avoid rate limits
+  const CONCURRENCY = 1; // Sequential is safest for high-volume sections
+  const results = [];
+  for (let i = 0; i < entries.length; i += CONCURRENCY) {
+    const slice = entries.slice(i, i + CONCURRENCY);
+    const sliceResults = [];
+    
+    for (const e of slice) {
+      const d = entityData.get(e.qid);
+      if (!d) {
+        sliceResults.push({ qid: e.qid, failed: true });
+        continue;
+      }
+
+      const extract = d.enwikiTitle ? extracts.get(normKey(d.enwikiTitle)) : "";
+      const sections = d.enwikiTitle ? await fetchSections(d.enwikiTitle) : [];
+      
+      sliceResults.push({
+        qid: e.qid,
+        data: {
+          qid: e.qid,
+          entityType: e.entityType,
+          name: d.label || e.name || e.slug,
+          summary: extract || d.description || "",
+          sections,
+          wikipediaUrl: d.wikipediaUrl,
+        },
+        hasExtract: !!extract
+      });
+      await sleep(200); // Small pause between items in a slice
+    }
+    
+    results.push(...sliceResults);
+    process.stdout.write(".");
+    if (results.length % 20 === 0) console.log(` (${results.length}/${entries.length})`);
+    await sleep(1200); // Larger pause between slices
+  }
+  console.log("\n");
+
+  for (const r of results) {
+    if (r.failed) {
       failed += 1;
       continue;
     }
-    const extract = d.enwikiTitle ? extracts.get(normKey(d.enwikiTitle)) : "";
-    const summary = extract || d.description || "";
-    if (!extract && summary) shortOnly += 1;
-
-    out.entries[e.qid] = {
-      qid: e.qid,
-      entityType: e.entityType,
-      name: d.label || e.name || e.slug,
-      summary,
-      wikipediaUrl: d.wikipediaUrl,
-    };
+    out.entries[r.qid] = r.data;
+    if (!r.hasExtract && r.data.summary) shortOnly += 1;
     ok += 1;
   }
 

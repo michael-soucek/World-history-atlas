@@ -68,6 +68,7 @@ export interface Explorer {
   status: "full" | "stub";
   /** Era/region hints for the card. */
   period: string;
+  imageCaption?: string;
   voyages?: Voyage[];
 }
 
@@ -1008,6 +1009,7 @@ export const EXPLORERS: Explorer[] = [
     tagline: "Commanded seven Ming treasure-fleet voyages across the Indian Ocean, reaching Arabia and East Africa.",
     status: "full",
     period: "Medieval · Indian Ocean",
+    imageCaption: "Statue of Zheng He in Malacca. No contemporary portraits of the explorer exist; most modern depictions are based on statues or 17th-century woodcuts.",
     voyages: ZHENG_HE_VOYAGES,
   },
   {

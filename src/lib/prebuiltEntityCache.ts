@@ -8,6 +8,7 @@ interface PrebuiltEntityEntry {
   entityType: EntityType;
   name: string;
   summary: string;
+  sections?: Array<{ heading: string; content: string }>;
   wikipediaUrl?: string;
 }
 
@@ -45,6 +46,6 @@ export async function getPrebuiltContentByQid(
     summary: entry.summary || "",
     wikipediaUrl: entry.wikipediaUrl,
     keyFacts: [],
-    sections: [],
+    sections: entry.sections || [],
   };
 }

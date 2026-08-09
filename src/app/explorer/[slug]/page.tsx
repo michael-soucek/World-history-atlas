@@ -86,13 +86,18 @@ export default async function ExplorerPage({ params }: Props) {
               {content?.imageUrl && (
                 <figure className="mb-6">
                   <div className="relative w-full rounded-2xl overflow-hidden border border-paper" style={{ aspectRatio: "16/9" }}>
-                    <Image src={content.imageUrl} alt={`Portrait of ${explorer.name}`} fill className="object-contain bg-surface" unoptimized priority />
+                    <Image src={content.imageUrl} alt={`Depiction of ${explorer.name}`} fill className="object-contain bg-surface" unoptimized priority />
                   </div>
-                  {(content.imageAuthor || content.imageLicense) && (
-                    <figcaption className="mt-2.5 text-xs text-ink/40 leading-snug flex flex-wrap gap-x-1.5">
-                      {content.imageAuthor && <span>{content.imageAuthor}</span>}
-                      {content.imageAuthor && content.imageLicense && <span>·</span>}
-                      {content.imageLicense && <span>{content.imageLicense}</span>}
+                  {(explorer.imageCaption || content.imageAuthor || content.imageLicense) && (
+                    <figcaption className="mt-2.5 text-xs text-ink/40 leading-snug flex flex-col gap-y-1">
+                      {explorer.imageCaption && (
+                        <span className="text-ink/60 italic mb-1">{explorer.imageCaption}</span>
+                      )}
+                      <div className="flex flex-wrap gap-x-1.5 opacity-70">
+                        {content.imageAuthor && <span>{content.imageAuthor}</span>}
+                        {content.imageAuthor && content.imageLicense && <span>·</span>}
+                        {content.imageLicense && <span>{content.imageLicense}</span>}
+                      </div>
                     </figcaption>
                   )}
                 </figure>

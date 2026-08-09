@@ -211,6 +211,11 @@ const SECTION_KEYWORDS = [
   "economy",
   "religion",
   "military",
+  "period",
+  "century",
+  "era",
+  "empire",
+  "dynasty",
 ];
 
 const MAX_SECTION_CHARS = 1200;
