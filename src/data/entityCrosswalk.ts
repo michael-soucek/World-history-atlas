@@ -23,26 +23,49 @@ export const PEOPLE_CROSSWALK: Record<string, CrosswalkEntry & { entityType: Ent
 
 /** Crosswalk for historical events. */
 export const EVENTS_CROSSWALK: Record<string, CrosswalkEntry & { entityType: EntityType }> = {
-  "fall-of-rome":          { wikidataId: "Q608613",  slug: "fall-of-rome",        entityType: "event" },
-  "black-death":           { wikidataId: "Q42005",  slug: "black-death",         entityType: "event" },
-  "mongol-invasion-of-europe": { wikidataId: "Q852171", slug: "mongol-invasion-of-europe", entityType: "event" },
-  "crusades":              { wikidataId: "Q12546",   slug: "crusades",            entityType: "event" },
-  "age-of-discovery":      { wikidataId: "Q133641", slug: "age-of-discovery",    entityType: "event" },
-  "battle-of-marathon":    { wikidataId: "Q31900",  slug: "battle-of-marathon",  entityType: "event" },
-  "french-revolution":     { wikidataId: "Q6534",   slug: "french-revolution",   entityType: "event" },
-  "fall-of-constantinople":{ wikidataId: "Q160077", slug: "fall-of-constantinople", entityType: "event" },
+  // Original 8 — Europe/Mediterranean
+  "fall-of-rome":               { wikidataId: "Q608613",  slug: "fall-of-rome",               entityType: "event" },
+  "black-death":                { wikidataId: "Q42005",   slug: "black-death",                entityType: "event" },
+  "mongol-invasion-of-europe":  { wikidataId: "Q852171",  slug: "mongol-invasion-of-europe",  entityType: "event" },
+  "crusades":                   { wikidataId: "Q12546",   slug: "crusades",                   entityType: "event" },
+  "age-of-discovery":           { wikidataId: "Q133641",  slug: "age-of-discovery",           entityType: "event" },
+  "battle-of-marathon":         { wikidataId: "Q31900",   slug: "battle-of-marathon",         entityType: "event" },
+  "french-revolution":          { wikidataId: "Q6534",    slug: "french-revolution",          entityType: "event" },
+  "fall-of-constantinople":     { wikidataId: "Q160077",  slug: "fall-of-constantinople",     entityType: "event" },
+  // Americas
+  "fall-of-tenochtitlan":               { wikidataId: "Q593267",  slug: "fall-of-tenochtitlan",               entityType: "event" },
+  "spanish-conquest-of-the-inca-empire":{ wikidataId: "Q636771",  slug: "spanish-conquest-of-the-inca-empire",entityType: "event" },
+  "haitian-revolution":                 { wikidataId: "Q689128",  slug: "haitian-revolution",                 entityType: "event" },
+  // Asia & Africa
+  "an-lushan-rebellion":        { wikidataId: "Q253774",  slug: "an-lushan-rebellion",        entityType: "event" },
+  "house-of-wisdom":            { wikidataId: "Q33018",   slug: "house-of-wisdom",            entityType: "event" },
+  "bantu-expansion":            { wikidataId: "Q130251",  slug: "bantu-expansion",            entityType: "event" },
+  "meiji-restoration":          { wikidataId: "Q8707",    slug: "meiji-restoration",          entityType: "event" },
+  "siege-of-baghdad":           { wikidataId: "Q369560",  slug: "siege-of-baghdad",           entityType: "event" },
+  // Europe (additional)
+  "protestant-reformation":     { wikidataId: "Q12562",   slug: "protestant-reformation",     entityType: "event" },
+  "american-revolution":        { wikidataId: "Q192769",  slug: "american-revolution",        entityType: "event" },
+  "battle-of-hastings":         { wikidataId: "Q83224",   slug: "battle-of-hastings",         entityType: "event" },
 };
 
 /** Crosswalk for cultures / topics. */
 export const CULTURES_CROSSWALK: Record<string, CrosswalkEntry & { entityType: EntityType }> = {
-  "silk-road":             { wikidataId: "Q36288",  slug: "silk-road",           entityType: "culture" },
-  "renaissance":           { wikidataId: "Q4692",    slug: "renaissance",         entityType: "culture" },
-  "islamic-golden-age":    { wikidataId: "Q745799",    slug: "islamic-golden-age",  entityType: "culture" },
-  "ancient-greece":        { wikidataId: "Q11772",   slug: "ancient-greece",      entityType: "culture" },
-  "ancient-egypt":         { wikidataId: "Q11768",   slug: "ancient-egypt",       entityType: "culture" },
-  "viking-age":            { wikidataId: "Q213649",  slug: "viking-age",          entityType: "culture" },
-  "feudal-japan":          { wikidataId: "Q130436",  slug: "feudal-japan",        entityType: "culture" },
-  "ancient-rome":          { wikidataId: "Q1747689",   slug: "ancient-rome",        entityType: "culture" },
+  // Original 8
+  "silk-road":             { wikidataId: "Q36288",    slug: "silk-road",             entityType: "culture" },
+  "renaissance":           { wikidataId: "Q4692",     slug: "renaissance",           entityType: "culture" },
+  "islamic-golden-age":    { wikidataId: "Q745799",   slug: "islamic-golden-age",    entityType: "culture" },
+  "ancient-greece":        { wikidataId: "Q11772",    slug: "ancient-greece",        entityType: "culture" },
+  "ancient-egypt":         { wikidataId: "Q11768",    slug: "ancient-egypt",         entityType: "culture" },
+  "viking-age":            { wikidataId: "Q213649",   slug: "viking-age",            entityType: "culture" },
+  "feudal-japan":          { wikidataId: "Q130436",   slug: "feudal-japan",          entityType: "culture" },
+  "ancient-rome":          { wikidataId: "Q1747689",  slug: "ancient-rome",          entityType: "culture" },
+  // New — broader world coverage
+  "polynesian-navigation": { wikidataId: "Q826781",   slug: "polynesian-navigation", entityType: "culture" },
+  "maya-civilization":     { wikidataId: "Q28567",    slug: "maya-civilization",     entityType: "culture" },
+  "aztec-civilization":    { wikidataId: "Q12542",    slug: "aztec-civilization",    entityType: "culture" },
+  "inca-civilization":     { wikidataId: "Q3404008",  slug: "inca-civilization",     entityType: "culture" },
+  "confucianism":          { wikidataId: "Q9581",     slug: "confucianism",          entityType: "culture" },
+  "hellenistic-period":    { wikidataId: "Q428995",   slug: "hellenistic-period",    entityType: "culture" },
 };
 
 // Build slug → entry maps

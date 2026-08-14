@@ -332,7 +332,28 @@ export async function buildEntityContent(
   fallbackName?: string,
 ): Promise<PlaceContent> {
   const prebuilt = await getPrebuiltContentByQid(qid, entityType, fallbackName);
-  if (prebuilt?.summary) return prebuilt;
+
+  // If we have prebuilt content with a summary, still fetch Wikidata live for
+  // key facts, tagline, representative year, and image (lightweight single-entity
+  // fetch, cached by Next.js for one year). Summary + sections come from the cache.
+  if (prebuilt?.summary) {
+    const [entity, imageData] = await Promise.all([
+      fetchEntity(qid).catch(() => ({} as Record<string, unknown>)),
+      resolveWikidataImage(qid),
+    ]);
+    const labels = (entity.labels as Record<string, { value: string }>) ?? {};
+    const keyFacts = await extractKeyFacts(entity, entityType);
+    const tagline = buildTagline(entity, entityType, prebuilt.name);
+    const representativeYear = extractRepresentativeYear(entity, entityType);
+    return {
+      ...prebuilt,
+      name: labels["en"]?.value || prebuilt.name,
+      tagline,
+      keyFacts,
+      representativeYear,
+      ...imageData,
+    };
+  }
 
   const [entity, imageData] = await Promise.all([
     fetchEntity(qid).catch(() => ({} as Record<string, unknown>)),

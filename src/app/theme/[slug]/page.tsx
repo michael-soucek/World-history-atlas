@@ -39,7 +39,8 @@ const THEMES: Record<string, {
       "Qing dynasty", "Russian Empire", "First French Empire",
     ],
     peopleSlugs: ["alexander-the-great", "genghis-khan", "augustus", "napoleon", "cyrus-the-great", "suleiman-the-magnificent", "akbar"],
-    eventSlugs: ["fall-of-rome", "mongol-invasion-of-europe"],
+    eventSlugs: ["fall-of-rome", "mongol-invasion-of-europe", "fall-of-tenochtitlan", "spanish-conquest-of-the-inca-empire", "meiji-restoration"],
+    cultureSlugs: ["aztec-civilization", "inca-civilization", "hellenistic-period"],
   },
   "religions": {
     label: "Religion & Belief",
@@ -55,8 +56,8 @@ const THEMES: Record<string, {
       "Papal States", "Byzantine Empire",
     ],
     peopleSlugs: ["constantine-i", "saladin", "charlemagne"],
-    eventSlugs: ["crusades", "fall-of-constantinople"],
-    cultureSlugs: ["islamic-golden-age"],
+    eventSlugs: ["crusades", "fall-of-constantinople", "protestant-reformation"],
+    cultureSlugs: ["islamic-golden-age", "confucianism"],
   },
   "trade-routes": {
     label: "Trade Routes",
@@ -72,8 +73,8 @@ const THEMES: Record<string, {
       "Republic of Venice", "Portuguese Empire", "Dutch Republic",
     ],
     peopleSlugs: ["kublai-khan"],
-    eventSlugs: ["age-of-discovery"],
-    cultureSlugs: ["silk-road"],
+    eventSlugs: ["age-of-discovery", "bantu-expansion"],
+    cultureSlugs: ["silk-road", "polynesian-navigation"],
   },
   "conflicts": {
     label: "Wars & Conflicts",
@@ -89,7 +90,7 @@ const THEMES: Record<string, {
       "Nazi Germany", "Austria-Hungary", "German Empire",
     ],
     peopleSlugs: ["hannibal", "napoleon", "attila-the-hun"],
-    eventSlugs: ["battle-of-marathon", "fall-of-rome", "crusades", "mongol-invasion-of-europe", "french-revolution", "fall-of-constantinople"],
+    eventSlugs: ["battle-of-marathon", "fall-of-rome", "crusades", "mongol-invasion-of-europe", "french-revolution", "fall-of-constantinople", "battle-of-hastings", "an-lushan-rebellion", "siege-of-baghdad", "american-revolution", "haitian-revolution"],
   },
   "science": {
     label: "Science & Invention",
@@ -105,6 +106,7 @@ const THEMES: Record<string, {
       "United Kingdom",
     ],
     cultureSlugs: ["islamic-golden-age", "renaissance"],
+    eventSlugs: ["house-of-wisdom"],
   },
   "art-culture": {
     label: "Art & Culture",
@@ -119,7 +121,7 @@ const THEMES: Record<string, {
       "Roman Empire", "Han dynasty", "Mughal Empire",
       "Byzantine Empire", "Kingdom of France",
     ],
-    cultureSlugs: ["renaissance", "ancient-greece", "ancient-rome", "ancient-egypt", "feudal-japan"],
+    cultureSlugs: ["renaissance", "ancient-greece", "ancient-rome", "ancient-egypt", "feudal-japan", "maya-civilization", "aztec-civilization", "inca-civilization", "hellenistic-period"],
   },
   "age-of-exploration": {
     label: "Age of Exploration",
@@ -135,6 +137,7 @@ const THEMES: Record<string, {
       "British Empire", "Ming dynasty", "Republic of Venice",
     ],
     eventSlugs: ["age-of-discovery"],
+    cultureSlugs: ["polynesian-navigation"],
     explorerSlugs: ["james-cook", "ferdinand-magellan", "christopher-columbus", "vasco-da-gama", "zheng-he", "ibn-battuta"],
     tour: { slug: "age-of-discovery", label: "The Age of Discovery" },
   },
