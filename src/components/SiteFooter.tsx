@@ -63,7 +63,7 @@ export default function SiteFooter() {
 
       <div className="border-t border-ink/5 px-4 sm:px-6 py-4 max-w-6xl mx-auto text-xs text-ink/30 flex flex-wrap gap-4 justify-between">
         <span>No AI-generated history. Contested topics present perspectives, not verdicts.</span>
-        <a href="https://github.com/aourednik/historical-basemaps" target="_blank" rel="noopener noreferrer" className="hover:text-ink/50 underline underline-offset-2 transition-colors">
+        <a href="mailto:michaelsoucek73@gmail.com" className="hover:text-ink/50 underline underline-offset-2 transition-colors">
           Report an error / contribute
         </a>
       </div>
