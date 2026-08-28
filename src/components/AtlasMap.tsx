@@ -297,8 +297,11 @@ export default function AtlasMap() {
 
         // ── Click handler ─────────────────────────────────────────────
         map.on("click", (e) => {
+          // Query only the active slot — the inactive slot retains stale data
+          // from the previous year and queryRenderedFeatures returns it even at
+          // zero opacity, causing wrong-entity selection.
           const features = map.queryRenderedFeatures(e.point, {
-            layers: ["territory-fill-a", "territory-fill-b"],
+            layers: [`territory-fill-${activeSlotRef.current}`],
           });
 
           if (features.length === 0) {
