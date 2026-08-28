@@ -45,6 +45,7 @@ export default function EntityPage({ content, entry, entityType, baseRoute }: En
     name: content.name,
     description: content.summary ?? undefined,
     image: content.imageUrl ?? undefined,
+    url: `https://www.bordersoftime.com/${baseRoute}/${entry.slug}`,
     sameAs: [
       content.wikipediaUrl,
       `https://www.wikidata.org/wiki/${entry.wikidataId}`,

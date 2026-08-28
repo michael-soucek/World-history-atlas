@@ -77,6 +77,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: content.summary
       ? content.summary.slice(0, 160)
       : `Learn about ${content.name} on the Borders of Time.`,
+    alternates: { canonical: `/place/${slug}` },
     openGraph: {
       title: content.name,
       description: content.summary?.slice(0, 200),

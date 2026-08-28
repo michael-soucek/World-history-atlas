@@ -17,6 +17,17 @@ const nextConfig: NextConfig = {
         destination: "https://www.bordersoftime.com/:path*",
         permanent: true,
       },
+      // Deduplicate place slugs — typo variant and alias pointing to same QID
+      {
+        source: "/place/polishlithuanian-commonwealth",
+        destination: "/place/polish-lithuanian-commonwealth",
+        permanent: true,
+      },
+      {
+        source: "/place/manchu-empire",
+        destination: "/place/qing-dynasty",
+        permanent: true,
+      },
     ];
   },
   images: {

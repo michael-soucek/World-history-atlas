@@ -55,6 +55,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const r = await resolve(slug);
   if (!r.content) return { title: "Culture not found — Borders of Time" };
   return {
+    alternates: { canonical: `/culture/${slug}` },
     title: `${r.content.name} — Borders of Time`,
     description: r.content.summary?.slice(0, 160),
     openGraph: {
