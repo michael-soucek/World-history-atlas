@@ -143,15 +143,15 @@ export default function TimeSlider() {
             aria-valuetext={displayYear}
             className="relative w-full appearance-none h-1 rounded mt-1.5 cursor-pointer
               [&::-webkit-slider-thumb]:appearance-none
-              [&::-webkit-slider-thumb]:w-4
-              [&::-webkit-slider-thumb]:h-4
+              [&::-webkit-slider-thumb]:w-6
+              [&::-webkit-slider-thumb]:h-6
               [&::-webkit-slider-thumb]:rounded-full
               [&::-webkit-slider-thumb]:bg-amber-400
               [&::-webkit-slider-thumb]:shadow-lg
               [&::-webkit-slider-thumb]:cursor-grab
               [&::-webkit-slider-thumb:active]:cursor-grabbing
-              [&::-moz-range-thumb]:w-4
-              [&::-moz-range-thumb]:h-4
+              [&::-moz-range-thumb]:w-6
+              [&::-moz-range-thumb]:h-6
               [&::-moz-range-thumb]:rounded-full
               [&::-moz-range-thumb]:bg-amber-400
               [&::-moz-range-thumb]:border-0"

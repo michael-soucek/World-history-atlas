@@ -74,10 +74,14 @@ export default function StoryPanel() {
 
   return (
     <aside
-      className="absolute top-0 right-0 bottom-0 z-20 w-[360px] max-w-full
-        bg-neutral-950/95 backdrop-blur-md border-l border-white/10
+      className="
+        absolute bottom-0 left-0 right-0 z-20
+        max-h-[60vh] sm:max-h-full
+        sm:top-0 sm:right-0 sm:bottom-0 sm:left-auto sm:w-90
+        bg-neutral-950/95 backdrop-blur-md
+        border-t sm:border-t-0 sm:border-l border-white/10
         flex flex-col overflow-hidden
-        animate-in slide-in-from-right duration-300"
+        animate-in slide-in-from-bottom sm:slide-in-from-right duration-300"
       aria-label="Region information panel"
     >
       {/* Header */}
@@ -96,7 +100,7 @@ export default function StoryPanel() {
         <button
           onClick={close}
           aria-label="Close panel"
-          className="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center
+          className="shrink-0 w-8 h-8 rounded-full flex items-center justify-center
             text-white/50 hover:text-white hover:bg-white/10 transition-colors text-lg"
         >
           ×

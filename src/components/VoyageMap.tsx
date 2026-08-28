@@ -183,6 +183,7 @@ export default function VoyageMap({ voyages, initialVisibleIds, className }: Voy
   const readyRef = useRef(false);
 
   const [ready, setReady] = useState(false);
+  const [legendOpen, setLegendOpen] = useState(true);
   const [visible, setVisible] = useState<Record<string, boolean>>(() => {
     const defaults = initialVisibleIds ?? (voyages[0] ? [voyages[0].id] : []);
     return Object.fromEntries(voyages.map((v) => [v.id, defaults.includes(v.id)]));
@@ -331,11 +332,19 @@ export default function VoyageMap({ voyages, initialVisibleIds, className }: Voy
     <div className={`relative ${className ?? ""}`}>
       <div ref={containerRef} className="absolute inset-0 rounded-2xl overflow-hidden" />
 
-      {/* Legend / toggles */}
-      <div className="absolute top-3 left-3 z-10 max-w-[15rem] rounded-xl border border-paper bg-parchment/90 backdrop-blur-sm p-3 shadow-sm">
+      {/* Legend / toggles — collapsible on mobile */}
+      <div className="absolute top-3 left-3 z-10 w-44 sm:max-w-60 sm:w-auto rounded-xl border border-paper bg-parchment/90 backdrop-blur-sm p-3 shadow-sm">
         <div className="flex items-center justify-between gap-3 mb-2">
-          <p className="text-ink/50 text-[11px] font-semibold uppercase tracking-wider">Voyages</p>
-          {voyages.length > 1 && (
+          <button
+            type="button"
+            onClick={() => setLegendOpen(v => !v)}
+            className="flex items-center gap-1.5 text-ink/50 text-[11px] font-semibold uppercase tracking-wider hover:text-ink/70 transition-colors sm:cursor-default"
+            aria-expanded={legendOpen}
+          >
+            <span>Voyages</span>
+            <svg className={`sm:hidden w-3 h-3 transition-transform ${legendOpen ? "rotate-180" : ""}`} viewBox="0 0 12 12" fill="currentColor" aria-hidden="true"><path d="M2 4l4 4 4-4"/></svg>
+          </button>
+          {voyages.length > 1 && legendOpen && (
             <button
               type="button"
               onClick={toggleAll}
@@ -345,6 +354,7 @@ export default function VoyageMap({ voyages, initialVisibleIds, className }: Voy
             </button>
           )}
         </div>
+        {legendOpen && (
         <ul className="space-y-1.5">
           {voyages.map((v) => {
             const on = visible[v.id];
@@ -376,6 +386,7 @@ export default function VoyageMap({ voyages, initialVisibleIds, className }: Voy
             );
           })}
         </ul>
+        )}
       </div>
 
       {!ready && (
