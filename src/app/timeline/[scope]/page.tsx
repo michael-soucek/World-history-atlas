@@ -17,9 +17,9 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { scope } = await params;
   const era = eraFromSlug(scope);
-  if (!era) return { title: "Timeline — World History Atlas" };
+  if (!era) return { title: "Timeline — Borders of Time" };
   return {
-    title: `${era.label} Timeline — World History Atlas`,
+    title: `${era.label} Timeline — Borders of Time`,
     description: `Historical snapshots from the ${era.label} period. Explore empires and events on the interactive map.`,
   };
 }

@@ -69,14 +69,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const result = await resolvePage(slug);
   if (!result?.content) {
-    return { title: "Place not found — World History Atlas" };
+    return { title: "Place not found — Borders of Time" };
   }
   const { content } = result;
   return {
-    title: `${content.name} — World History Atlas`,
+    title: `${content.name} — Borders of Time`,
     description: content.summary
       ? content.summary.slice(0, 160)
-      : `Learn about ${content.name} on the World History Atlas.`,
+      : `Learn about ${content.name} on the Borders of Time.`,
     openGraph: {
       title: content.name,
       description: content.summary?.slice(0, 200),

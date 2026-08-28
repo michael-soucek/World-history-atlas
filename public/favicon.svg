@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <rect width="64" height="64" rx="12" fill="#f5ede0"/>
+  <!-- Compass circle -->
+  <circle cx="32" cy="32" r="22" stroke="#b87008" stroke-width="1.5" fill="none" opacity="0.35"/>
+  <circle cx="32" cy="32" r="3" fill="#b87008"/>
+  <!-- North point (tall, filled) -->
+  <polygon points="32,8 29,30 35,30" fill="#b87008"/>
+  <!-- South point -->
+  <polygon points="32,56 29,34 35,34" fill="#b87008" opacity="0.45"/>
+  <!-- East point -->
+  <polygon points="56,32 34,29 34,35" fill="#b87008" opacity="0.45"/>
+  <!-- West point -->
+  <polygon points="8,32 30,29 30,35" fill="#b87008" opacity="0.45"/>
+  <!-- Diagonal ticks -->
+  <line x1="47.6" y1="16.4" x2="37.2" y2="26.8" stroke="#b87008" stroke-width="1" opacity="0.3"/>
+  <line x1="16.4" y1="16.4" x2="26.8" y2="26.8" stroke="#b87008" stroke-width="1" opacity="0.3"/>
+  <line x1="47.6" y1="47.6" x2="37.2" y2="37.2" stroke="#b87008" stroke-width="1" opacity="0.3"/>
+  <line x1="16.4" y1="47.6" x2="26.8" y2="37.2" stroke="#b87008" stroke-width="1" opacity="0.3"/>
+</svg>

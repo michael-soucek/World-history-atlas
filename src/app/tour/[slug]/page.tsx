@@ -14,9 +14,9 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const tour = getTourBySlug(slug);
-  if (!tour) return { title: "Tour not found — World History Atlas" };
+  if (!tour) return { title: "Tour not found — Borders of Time" };
   return {
-    title: `${tour.title} — World History Atlas`,
+    title: `${tour.title} — Borders of Time`,
     description: tour.description,
   };
 }

@@ -9,13 +9,13 @@ import { SNAPSHOT_YEARS, formatYear } from "@/data/snapshotYears";
 import { EXPLORERS } from "@/data/voyages";
 
 export const metadata: Metadata = {
-  title: "World History Atlas — Watch borders change through time",
+  title: "Borders of Time — Watch borders change through time",
   description:
-    "An interactive atlas of world history. Watch empires rise and fall. Explore places, people, events, and cultures across 5,000 years of recorded history.",
+    "An interactive world history atlas. Watch empires rise and fall. Explore places, people, events, and cultures across 5,000 years of recorded history.",
   openGraph: {
-    title: "World History Atlas",
-    description: "Watch the world's empires rise and fall — year by year.",
-    siteName: "World History Atlas",
+    title: "Borders of Time",
+    description: "An interactive world history atlas. Watch the world's empires rise and fall — year by year.",
+    siteName: "Borders of Time",
     type: "website",
   },
 };
@@ -81,7 +81,7 @@ export default function HomePage() {
               <div>
                 {/* Cartouche label */}
                 <div className="inline-flex items-center gap-2 border border-ancient/30 rounded-sm px-3 py-1.5 mb-8 bg-ancient-wash/60">
-                  <span className="text-ancient/80 text-[10px] font-semibold tracking-[0.18em] uppercase">World History Atlas</span>
+                  <span className="text-ancient/80 text-[10px] font-semibold tracking-[0.18em] uppercase">Borders of Time</span>
                 </div>
 
                 <h1 className="font-display text-5xl sm:text-6xl lg:text-7xl font-bold text-ink leading-[1.04] tracking-tight mb-6">

@@ -30,11 +30,11 @@ const loadBio = cache(async (slug: string) => {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const data = await loadBio(slug);
-  if (!data) return { title: "Explorer not found — World History Atlas" };
+  if (!data) return { title: "Explorer not found — Borders of Time" };
   const { explorer, content } = data;
   const description = content?.summary?.slice(0, 160) ?? explorer.tagline;
   return {
-    title: `${explorer.name} — Age of Exploration — World History Atlas`,
+    title: `${explorer.name} — Age of Exploration — Borders of Time`,
     description,
     openGraph: {
       title: explorer.name,

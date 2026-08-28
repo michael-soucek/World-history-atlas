@@ -22,22 +22,30 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://world-history-atlas.vercel.app"),
-  title: "World History Atlas",
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://www.bordersoftime.com"),
+  title: "Borders of Time",
   description:
     "Explore how the world's empires and nations rose, shifted, and fell throughout history. Scrub through time and watch borders change.",
+  icons: {
+    icon: [
+      { url: "/favicon.svg", type: "image/svg+xml" },
+      { url: "/favicon-32.png", sizes: "32x32", type: "image/png" },
+    ],
+    apple: [{ url: "/apple-touch-icon.png", sizes: "180x180" }],
+    other: [{ rel: "manifest", url: "/site.webmanifest" }],
+  },
   openGraph: {
-    title: "World History Atlas",
+    title: "Borders of Time",
     description:
-      "A map-first website where anyone can scrub through time and watch the world's empires rise, shift, and fall.",
-    siteName: "World History Atlas",
+      "An interactive world history atlas. Watch the world's empires rise, shift, and fall — year by year.",
+    siteName: "Borders of Time",
     type: "website",
     images: [{ url: DEFAULT_SOCIAL_IMAGE }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "World History Atlas",
-    description: "Watch the world's empires rise and fall — year by year.",
+    title: "Borders of Time",
+    description: "An interactive world history atlas. Watch borders shift through time.",
     images: [DEFAULT_SOCIAL_IMAGE],
   },
 };

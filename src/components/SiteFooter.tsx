@@ -11,7 +11,7 @@ export default function SiteFooter() {
         {/* Brand */}
         <div>
           <Link href="/" className="font-display text-ink font-semibold text-base hover:text-ancient transition-colors italic">
-            World History Atlas
+            Borders of Time
           </Link>
           <p className="mt-3 text-ink/40 text-xs leading-relaxed max-w-xs">
             Explore how the world&rsquo;s empires and nations rose, shifted, and fell — year by year. Powered by open historical data.

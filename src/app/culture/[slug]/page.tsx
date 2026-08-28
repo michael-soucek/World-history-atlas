@@ -53,9 +53,9 @@ const resolve = cache(async (slug: string) => {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const r = await resolve(slug);
-  if (!r.content) return { title: "Culture not found — World History Atlas" };
+  if (!r.content) return { title: "Culture not found — Borders of Time" };
   return {
-    title: `${r.content.name} — World History Atlas`,
+    title: `${r.content.name} — Borders of Time`,
     description: r.content.summary?.slice(0, 160),
     openGraph: {
       title: r.content.name,

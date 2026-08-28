@@ -5,9 +5,9 @@ import SiteFooter from "@/components/SiteFooter";
 import { ReadAloudButton } from "@/components/ReadAloudButton";
 
 export const metadata: Metadata = {
-  title: "About the Data — World History Atlas",
+  title: "About the Data — Borders of Time",
   description:
-    "Sources, methodology, and attribution for the World History Atlas. Historical border data, Wikipedia content, and image licensing.",
+    "Sources, methodology, and attribution for Borders of Time — an interactive world history atlas. Historical border data, Wikipedia content, and image licensing.",
 };
 
 export default function AboutPage() {
@@ -21,10 +21,10 @@ export default function AboutPage() {
           <h1 className="font-display text-5xl font-bold text-ink italic mb-4">About the Data</h1>
           <div className="flex flex-col gap-4">
             <p className="text-ink/50 text-base leading-relaxed">
-              World History Atlas aims to show the world&rsquo;s borders honestly, clearly, and fairly.
+              Borders of Time aims to show the world&rsquo;s borders honestly, clearly, and fairly.
               Here&rsquo;s exactly where the data comes from and how it&rsquo;s used.
             </p>
-            <ReadAloudButton text="World History Atlas aims to show the world's borders honestly, clearly, and fairly. This project uses historical border data from several sources, primarily Ourednik's historical basemaps and OpenHistoricalMap." />
+            <ReadAloudButton text="Borders of Time aims to show the world's borders honestly, clearly, and fairly. This project uses historical border data from several sources, primarily Ourednik's historical basemaps and OpenHistoricalMap." />
           </div>
         </header>
 
@@ -263,7 +263,7 @@ export default function AboutPage() {
 
         <footer className="pt-4 border-t border-paper">
           <p className="text-ink/30 text-xs">
-            World History Atlas v1 · Built with{" "}
+            Borders of Time v1 · Built with{" "}
             <a href="https://nextjs.org" target="_blank" rel="noopener noreferrer" className="underline hover:text-ink/50">Next.js</a>
             {" "}and{" "}
             <a href="https://maplibre.org" target="_blank" rel="noopener noreferrer" className="underline hover:text-ink/50">MapLibre GL JS</a>.

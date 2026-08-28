@@ -19,16 +19,16 @@ export async function generateMetadata({ searchParams }: Props): Promise<Metadat
   const yearLabel = formatYear(year);
 
   return {
-    title: `${yearLabel} — World History Atlas`,
+    title: `${yearLabel} — Borders of Time`,
     description: `Explore the historical world map in ${yearLabel}. Watch empires rise and fall across time.`,
     openGraph: {
-      title: `World History Atlas — ${yearLabel}`,
+      title: `Borders of Time — ${yearLabel}`,
       description: `Explore the world map as it looked in ${yearLabel}.`,
       type: "website",
     },
     twitter: {
       card: "summary_large_image",
-      title: `World History Atlas — ${yearLabel}`,
+      title: `Borders of Time — ${yearLabel}`,
     },
   };
 }

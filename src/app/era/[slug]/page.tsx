@@ -20,9 +20,9 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const era = eraFromSlug(slug);
-  if (!era) return { title: "Era — World History Atlas" };
+  if (!era) return { title: "Era — Borders of Time" };
   return buildPageMetadata({
-    title: `${era.label} Era — World History Atlas`,
+    title: `${era.label} Era — Borders of Time`,
     description: `Explore empires, events, and people from the ${era.label} era.`,
   });
 }

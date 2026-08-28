@@ -64,12 +64,12 @@ export async function generateMetadata({ searchParams }: Props): Promise<Metadat
   const { type } = await searchParams;
   if (isEntityType(type)) {
     return buildPageMetadata({
-      title: `${TYPE_META[type].label} — World History Atlas`,
+      title: `${TYPE_META[type].label} — Borders of Time`,
       description: TYPE_META[type].desc,
     });
   }
   return buildPageMetadata({
-    title: "Browse History — World History Atlas",
+    title: "Browse History — Borders of Time",
     description: "Browse empires, people, events, and cultures by era, region, or theme.",
   });
 }

@@ -16,7 +16,7 @@ export default function SiteHeader() {
           href="/"
           className="font-display text-ink font-semibold text-base tracking-tight hover:text-ancient transition-colors shrink-0 italic"
         >
-          World History Atlas
+          Borders of Time
         </Link>
 
         {/* Divider */}

@@ -1,5 +1,5 @@
 // ---------------------------------------------------------------------------
-// Core data model for World History Atlas
+// Core data model for Borders of Time
 // ---------------------------------------------------------------------------
 
 /** A territory/polity as it existed during a specific period. */

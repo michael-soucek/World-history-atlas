@@ -28,11 +28,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug, year: yearStr } = await params;
   const year = parseInt(yearStr, 10);
   const result = await resolvePage(slug, year);
-  if (!result?.content) return { title: "Place not found — World History Atlas" };
+  if (!result?.content) return { title: "Place not found — Borders of Time" };
   const { content } = result;
   const yearLabel = formatYear(year);
   return {
-    title: `${content.name} in ${yearLabel} — World History Atlas`,
+    title: `${content.name} in ${yearLabel} — Borders of Time`,
     description: `${content.name} in ${yearLabel}. ${content.summary?.slice(0, 120) ?? ""}`,
     openGraph: {
       title: `${content.name} — ${yearLabel}`,

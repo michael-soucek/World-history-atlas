@@ -5,7 +5,7 @@ import HistoricalMap from "@/components/HistoricalMap";
 import TimelineClient from "@/components/TimelineClient";
 
 export const metadata: Metadata = {
-  title: "Timeline — World History Atlas",
+  title: "Timeline — Borders of Time",
   description: "Browse 53 historical snapshots from 123,000 BCE to 2010 CE. Click any year to open the map.",
 };
 

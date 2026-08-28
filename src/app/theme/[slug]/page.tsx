@@ -150,9 +150,9 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const theme = THEMES[slug];
-  if (!theme) return { title: "Theme — World History Atlas" };
+  if (!theme) return { title: "Theme — Borders of Time" };
   return {
-    title: `${theme.label} — World History Atlas`,
+    title: `${theme.label} — Borders of Time`,
     description: theme.description,
   };
 }

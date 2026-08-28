@@ -99,9 +99,9 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const region = REGIONS[slug];
-  if (!region) return { title: "Region — World History Atlas" };
+  if (!region) return { title: "Region — Borders of Time" };
   return {
-    title: `${region.label} — World History Atlas`,
+    title: `${region.label} — Borders of Time`,
     description: region.description,
   };
 }

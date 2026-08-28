@@ -5,7 +5,7 @@ import SiteFooter from "@/components/SiteFooter";
 import { TOURS } from "@/data/tours";
 
 export const metadata: Metadata = {
-  title: "Guided Tours — World History Atlas",
+  title: "Guided Tours — Borders of Time",
   description: "Authored journeys through history that drive the map. Watch empires rise and fall with narration and context.",
 };
 

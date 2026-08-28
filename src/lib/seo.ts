@@ -17,7 +17,7 @@ export function buildPageMetadata(args: PageSeoArgs): Metadata {
     openGraph: {
       title: args.title,
       description: args.description,
-      siteName: "World History Atlas",
+      siteName: "Borders of Time",
       type: args.type ?? "website",
       images: [{ url: imageUrl }],
     },

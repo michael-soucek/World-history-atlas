@@ -1,0 +1,13 @@
+{
+  "name": "Borders of Time",
+  "short_name": "Borders of Time",
+  "description": "An interactive world history atlas. Watch borders shift through time.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f5ede0",
+  "theme_color": "#b87008",
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}

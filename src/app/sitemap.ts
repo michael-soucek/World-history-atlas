@@ -5,7 +5,7 @@ import { ERA_LIST, eraSlug } from "@/data/eras";
 import { TOURS } from "@/data/tours";
 import { EXPLORERS } from "@/data/voyages";
 
-const BASE = "https://worldhistoryatlas.com";
+const BASE = "https://www.bordersoftime.com";
 
 const REGION_SLUGS = [
   "europe", "east-asia", "south-asia", "middle-east",

@@ -112,7 +112,7 @@ export default function AtlasPageClient({
             bg-black/50 backdrop-blur-sm rounded-lg px-3 py-1.5
             hover:bg-black/70 transition-colors"
         >
-          World History Atlas
+          Borders of Time
         </a>
         <a
           href="/about"
