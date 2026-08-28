@@ -28,6 +28,19 @@ async function loadCacheFile(): Promise<PrebuiltEntityCacheFile | null> {
   }
 }
 
+/** Decode HTML entities and strip citation/reference artifacts from cached text. */
+function cleanCachedText(text: string): string {
+  return text
+    .replace(/&#(\d+);/g, (_, n) => String.fromCharCode(Number(n)))
+    .replace(/&amp;/g, "&").replace(/&lt;/g, "<").replace(/&gt;/g, ">")
+    .replace(/&quot;/g, '"').replace(/&nbsp;/g, " ")
+    .replace(/\[(?:\s*\d+\s*)+\]/g, "")
+    .replace(/\[\s*edit\s*\]/gi, "")
+    .replace(/(^|\s)\^[^\n]*/g, "")
+    .replace(/\s{2,}/g, " ")
+    .trim();
+}
+
 export async function getPrebuiltContentByQid(
   qid: string,
   entityType: EntityType,
@@ -43,9 +56,12 @@ export async function getPrebuiltContentByQid(
     wikidataId: qid,
     entityType,
     name: entry.name || fallbackName || qid,
-    summary: entry.summary || "",
+    summary: cleanCachedText(entry.summary || ""),
     wikipediaUrl: entry.wikipediaUrl,
     keyFacts: [],
-    sections: entry.sections || [],
+    sections: (entry.sections || []).map(s => ({
+      heading: s.heading,
+      content: cleanCachedText(s.content),
+    })),
   };
 }

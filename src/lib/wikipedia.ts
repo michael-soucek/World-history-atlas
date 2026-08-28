@@ -220,13 +220,26 @@ const SECTION_KEYWORDS = [
 
 const MAX_SECTION_CHARS = 1200;
 const MAX_SECTIONS = 5;
-const CLEAN_PIPELINE_VERSION = "2";
+const CLEAN_PIPELINE_VERSION = "3";
+
+function decodeHtmlEntities(text: string): string {
+  return text
+    .replace(/&#(\d+);/g, (_, n) => String.fromCharCode(Number(n)))
+    .replace(/&amp;/g, "&")
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">")
+    .replace(/&quot;/g, '"')
+    .replace(/&apos;/g, "'")
+    .replace(/&nbsp;/g, " ");
+}
 
 function normalizeWikipediaText(text: string): string {
-  return text
+  return decodeHtmlEntities(text)
     // Remove citation markers and edit links that can survive text extraction.
     .replace(/\[(?:\s*\d+\s*)+\]/g, "")
     .replace(/\[\s*edit\s*\]/gi, "")
+    // Strip any surviving reference-list lines (^ a b Author Year, p. N.)
+    .replace(/(^|\n)\s*\^[^\n]*/g, "")
     // Drop hatnote-style text if it still appears in plain text.
     .replace(/(^|\n)\s*Main article:\s*[^\n]*/gi, "")
     .replace(/(^|\n)\s*See also:\s*[^\n]*/gi, "")
@@ -288,6 +301,8 @@ function extractCleanSectionText(html: string, heading: string): string {
       "sup.reference",
       ".reference",
       ".reflist",
+      "ol.references",
+      "li[id^='cite_note']",
       ".mw-editsection",
       ".hatnote",
       ".shortdescription",
@@ -307,6 +322,8 @@ function extractCleanSectionText(html: string, heading: string): string {
 
   const blocks = $("p, li")
     .toArray()
+    // Skip any li that escaped the reference list removal (has cite_note id or ^ prefix)
+    .filter(el => !$(el).attr("id")?.startsWith("cite_note"))
     .map(el => $(el).text())
     .map(t => normalizeWikipediaText(t))
     .filter(Boolean)

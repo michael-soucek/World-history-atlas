@@ -119,7 +119,7 @@ async function fetchExtractsBatch(titles) {
 
 /** Fetch curated sections for a Wikipedia title using MediaWiki Parse API. */
 async function fetchSections(title) {
-  const CLEAN_PIPELINE_VERSION = "2";
+  const CLEAN_PIPELINE_VERSION = "3";
   const SECTION_KEYWORDS = [
     "origin", "history", "rise", "formation", "establishment", "foundation", "early",
     "background", "expansion", "height", "golden age", "peak", "decline", "fall",
@@ -161,8 +161,11 @@ async function fetchSections(title) {
       const html = rawSec.parse.text["*"];
       const heading = sec.line.replace(/<[^>]+>/g, "").trim();
       
-      // Basic tag stripping for the build script
       let content = html
+        // Remove reference lists and citation footnotes before stripping tags
+        .replace(/<ol[^>]*class="[^"]*references[^"]*"[^>]*>[\s\S]*?<\/ol>/gi, "")
+        .replace(/<li[^>]*id="cite_note[^"]*"[^>]*>[\s\S]*?<\/li>/gi, "")
+        .replace(/<sup[^>]*class="[^"]*reference[^"]*"[^>]*>[\s\S]*?<\/sup>/gi, "")
         .replace(/<style[^>]*>[\s\S]*?<\/style>/gi, "")
         .replace(/<script[^>]*>[\s\S]*?<\/script>/gi, "")
         .replace(/<table[^>]*>[\s\S]*?<\/table>/gi, "")
@@ -170,9 +173,20 @@ async function fetchSections(title) {
         .replace(/<[^>]+>/g, " ")
         .replace(/\s+/g, " ")
         .trim();
-        
-      // Remove [edit] etc
-      content = content.replace(/\[\s*edit\s*\]/gi, "");
+
+      // Decode HTML entities
+      content = content
+        .replace(/&#(\d+);/g, (_, n) => String.fromCharCode(Number(n)))
+        .replace(/&amp;/g, "&").replace(/&lt;/g, "<").replace(/&gt;/g, ">")
+        .replace(/&quot;/g, '"').replace(/&nbsp;/g, " ");
+
+      // Strip citation markers ([1], [ 2 ], etc.), edit links, and ^ reference lines
+      content = content
+        .replace(/\[(?:\s*\d+\s*)+\]/g, "")
+        .replace(/\[\s*edit\s*\]/gi, "")
+        .replace(/(^|\s)\^[^\n]*/g, "")
+        .replace(/\s{2,}/g, " ")
+        .trim();
       
       return content.length > 100 ? { heading, content } : null;
     })
