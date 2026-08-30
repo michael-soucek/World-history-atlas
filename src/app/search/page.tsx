@@ -8,10 +8,14 @@ import { EXPLORERS } from "@/data/voyages";
 import type { SearchItem } from "@/lib/searchIndex";
 import { buildPageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = buildPageMetadata({
-  title: "Search — Borders of Time",
-  description: "Search across empires, people, events, and cultures in the Borders of Time.",
-});
+export const metadata: Metadata = {
+  ...buildPageMetadata({
+    title: "Search — Borders of Time",
+    description: "Search across empires, people, events, and cultures in the Borders of Time.",
+  }),
+  // Keep the query string (?q=…) out of the index.
+  alternates: { canonical: "/search" },
+};
 
 export default function SearchPage() {
   // Build the static index at render time (server component — fast)

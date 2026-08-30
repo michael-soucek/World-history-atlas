@@ -63,15 +63,21 @@ function listForType(type: EntityType): { slug: string; name: string }[] {
 export async function generateMetadata({ searchParams }: Props): Promise<Metadata> {
   const { type } = await searchParams;
   if (isEntityType(type)) {
-    return buildPageMetadata({
-      title: `${TYPE_META[type].label} — Borders of Time`,
-      description: TYPE_META[type].desc,
-    });
+    return {
+      ...buildPageMetadata({
+        title: `${TYPE_META[type].label} — Borders of Time`,
+        description: TYPE_META[type].desc,
+      }),
+      alternates: { canonical: `/browse?type=${type}` },
+    };
   }
-  return buildPageMetadata({
-    title: "Browse History — Borders of Time",
-    description: "Browse empires, people, events, and cultures by era, region, or theme.",
-  });
+  return {
+    ...buildPageMetadata({
+      title: "Browse History — Borders of Time",
+      description: "Browse empires, people, events, and cultures by era, region, or theme.",
+    }),
+    alternates: { canonical: "/browse" },
+  };
 }
 
 const REGIONS: { slug: string; label: string; Icon: LucideIcon }[] = [

@@ -21,6 +21,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `${era.label} Timeline — Borders of Time`,
     description: `Historical snapshots from the ${era.label} period. Explore empires and events on the interactive map.`,
+    alternates: { canonical: `/timeline/${scope}` },
   };
 }
 

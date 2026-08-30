@@ -21,6 +21,9 @@ export async function generateMetadata({ searchParams }: Props): Promise<Metadat
   return {
     title: `${yearLabel} — Borders of Time`,
     description: `Explore the historical world map in ${yearLabel}. Watch empires rise and fall across time.`,
+    // Year/region/viewport live in the query string as app state, not as distinct
+    // pages — collapse every variant to the clean URL.
+    alternates: { canonical: "/map" },
     openGraph: {
       title: `Borders of Time — ${yearLabel}`,
       description: `Explore the world map as it looked in ${yearLabel}.`,

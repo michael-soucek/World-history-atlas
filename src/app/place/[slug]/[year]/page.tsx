@@ -28,12 +28,18 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug, year: yearStr } = await params;
   const year = parseInt(yearStr, 10);
   const result = await resolvePage(slug, year);
-  if (!result?.content) return { title: "Place not found — Borders of Time" };
+  if (!result?.content) {
+    return { title: "Place not found — Borders of Time", robots: { index: false, follow: false } };
+  }
   const { content } = result;
   const yearLabel = formatYear(year);
   return {
     title: `${content.name} in ${yearLabel} — Borders of Time`,
     description: `${content.name} in ${yearLabel}. ${content.summary?.slice(0, 120) ?? ""}`,
+    // Near-duplicate of /place/[slug] (same source content, only the year label
+    // differs). Keep it out of the index and point ranking signals at the parent.
+    robots: { index: false, follow: true },
+    alternates: { canonical: `/place/${slug}` },
     openGraph: {
       title: `${content.name} — ${yearLabel}`,
       description: content.summary?.slice(0, 200),
