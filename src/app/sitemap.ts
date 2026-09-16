@@ -27,6 +27,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE}/tour`,     lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE}/search`,   lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE}/about`,    lastModified: now, changeFrequency: "yearly",  priority: 0.4 },
+    { url: `${BASE}/support`,  lastModified: now, changeFrequency: "yearly",  priority: 0.3 },
+    { url: `${BASE}/pro`,      lastModified: now, changeFrequency: "monthly", priority: 0.3 },
+    { url: `${BASE}/contact`,  lastModified: now, changeFrequency: "yearly",  priority: 0.2 },
+    { url: `${BASE}/privacy`,  lastModified: now, changeFrequency: "yearly",  priority: 0.2 },
+    { url: `${BASE}/terms`,    lastModified: now, changeFrequency: "yearly",  priority: 0.2 },
   ];
 
   const placeRoutes: MetadataRoute.Sitemap = Object.values(CROSSWALK).map(e => ({

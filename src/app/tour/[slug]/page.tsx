@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
 import TourPlayer from "@/components/TourPlayer";
+import RelatedResources from "@/components/RelatedResources";
 import { TOURS, getTourBySlug } from "@/data/tours";
 
 interface Props { params: Promise<{ slug: string }> }
@@ -31,6 +32,9 @@ export default async function TourPage({ params }: Props) {
       <SiteHeader />
       <main className="min-h-screen page-bg">
         <TourPlayer tour={tour} />
+        <div className="max-w-5xl mx-auto px-6 pb-14">
+          <RelatedResources resourceKey={`tour:${tour.slug}`} />
+        </div>
       </main>
       <SiteFooter />
     </>

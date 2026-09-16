@@ -1,4 +1,5 @@
 import Link from "next/link";
+import SupportButton from "@/components/SupportButton";
 
 /** Site-wide footer: attribution, nav, data sources. */
 export default function SiteFooter() {
@@ -7,7 +8,7 @@ export default function SiteFooter() {
       {/* Top amber rule */}
       <div className="h-px bg-gradient-to-r from-transparent via-ancient/35 to-transparent" />
 
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 py-12 grid grid-cols-1 sm:grid-cols-3 gap-10 text-sm">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 py-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 text-sm">
         {/* Brand */}
         <div>
           <Link href="/" className="font-display text-ink font-semibold text-base hover:text-ancient transition-colors italic">
@@ -59,6 +60,17 @@ export default function SiteFooter() {
             </li>
           </ul>
         </div>
+
+        {/* Support & Legal */}
+        <nav aria-label="Support and legal">
+          <p className="font-semibold text-ink/35 text-xs uppercase tracking-widest mb-4">Support &amp; Legal</p>
+          <ul className="space-y-2.5 text-ink/50">
+            <li><SupportButton variant="link" /></li>
+            <li><Link href="/contact" className="hover:text-ancient transition-colors">Contact</Link></li>
+            <li><Link href="/privacy" className="hover:text-ancient transition-colors">Privacy Policy</Link></li>
+            <li><Link href="/terms" className="hover:text-ancient transition-colors">Terms of Use</Link></li>
+          </ul>
+        </nav>
       </div>
 
       <div className="border-t border-ink/5 px-4 sm:px-6 py-4 max-w-6xl mx-auto text-xs text-ink/30 flex flex-wrap gap-4 justify-between">

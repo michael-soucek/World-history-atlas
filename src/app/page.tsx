@@ -3,6 +3,8 @@ import Link from "next/link";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
 import HeroMapPreviewLoader from "@/components/HeroMapPreviewLoader";
+import AdSlot from "@/components/AdSlot";
+import { ADS_ENABLED } from "@/lib/monetization";
 import { CROSSWALK } from "@/data/crosswalk";
 import { ERA_LIST, eraSlug } from "@/data/eras";
 import { SNAPSHOT_YEARS, formatYear } from "@/data/snapshotYears";
@@ -79,11 +81,6 @@ export default function HomePage() {
 
               {/* ── Left: editorial text ── */}
               <div>
-                {/* Cartouche label */}
-                <div className="inline-flex items-center gap-2 border border-ancient/30 rounded-sm px-3 py-1.5 mb-8 bg-ancient-wash/60">
-                  <span className="text-ancient/80 text-[10px] font-semibold tracking-[0.18em] uppercase">Borders of Time</span>
-                </div>
-
                 <h1 className="font-display text-5xl sm:text-6xl lg:text-7xl font-bold text-ink leading-[1.04] tracking-tight mb-6">
                   Watch borders<br />
                   {/* Single amber brushstroke underline — no gradient */}
@@ -314,6 +311,16 @@ export default function HomePage() {
             </div>
           </div>
         </section>
+
+        {/* ── Ad slot: no wrapper markup at all unless NEXT_PUBLIC_ADS_ENABLED=true,
+               so this adds zero DOM and zero spacing on the live site by default. ── */}
+        {ADS_ENABLED && (
+          <section className="border-t border-paper bg-surface py-8">
+            <div className="max-w-5xl mx-auto px-6">
+              <AdSlot id="home-mid-content" format="in-content" />
+            </div>
+          </section>
+        )}
 
         {/* ── Surprise me / CTA ── */}
         <section className="border-t border-paper bg-ocean py-16">

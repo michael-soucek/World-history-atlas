@@ -8,6 +8,7 @@ import SiteFooter from "@/components/SiteFooter";
 import { ReadAloudButton } from "@/components/ReadAloudButton";
 import HandwrittenTitle from "@/components/HandwrittenTitle";
 import VoyageMap from "@/components/VoyageMap";
+import RelatedResources from "@/components/RelatedResources";
 import { EXPLORERS, getExplorerBySlug } from "@/data/voyages";
 import { buildEntityContent } from "@/lib/wikidata";
 import { DEFAULT_SOCIAL_IMAGE } from "@/lib/seo";
@@ -206,6 +207,10 @@ export default async function ExplorerPage({ params }: Props) {
               </p>
             </section>
           )}
+
+          <div className="mt-10 max-w-md">
+            <RelatedResources resourceKey={`explorer:${explorer.slug}`} />
+          </div>
         </div>
       </main>
       <SiteFooter />

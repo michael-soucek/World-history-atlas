@@ -6,6 +6,8 @@ import Image from "next/image";
 import Link from "next/link";
 import HandwrittenTitle from "@/components/HandwrittenTitle";
 import { ReadAloudButton } from "@/components/ReadAloudButton";
+import RelatedResources from "@/components/RelatedResources";
+import AdSlot from "@/components/AdSlot";
 import type { PlaceContent, EntityType } from "@/types";
 import type { CrosswalkEntry } from "@/types";
 
@@ -236,6 +238,11 @@ export default function EntityPage({ content, entry, entityType, baseRoute }: En
               </dl>
             </div>
           )}
+
+          {/* Further reading / viewing — hidden entirely when none are curated yet */}
+          <RelatedResources resourceKey={`${entityType}:${entry.slug}`} />
+
+          <AdSlot id="entity-sidebar" format="rectangle" />
 
           {/* Attribution */}
           <p className="text-xs text-ink/25 leading-relaxed px-1">

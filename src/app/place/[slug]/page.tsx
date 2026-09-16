@@ -11,6 +11,8 @@ import { fetchWikipediaSearchSummary } from "@/lib/wikipedia";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
 import { ReadAloudButton } from "@/components/ReadAloudButton";
+import RelatedResources from "@/components/RelatedResources";
+import AdSlot from "@/components/AdSlot";
 import { DEFAULT_SOCIAL_IMAGE } from "@/lib/seo";
 
 interface Props {
@@ -340,6 +342,11 @@ export default async function PlacePage({ params }: Props) {
                 </dl>
               </div>
             )}
+
+            {/* Further reading / viewing — hidden entirely when none are curated yet */}
+            <RelatedResources resourceKey={`place:${entry.slug}`} />
+
+            <AdSlot id="entity-sidebar" format="rectangle" />
 
             {/* Attribution */}
             <p className="text-xs text-ink/25 leading-relaxed px-1">

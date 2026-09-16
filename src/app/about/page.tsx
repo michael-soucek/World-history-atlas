@@ -3,6 +3,7 @@ import Link from "next/link";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
 import { ReadAloudButton } from "@/components/ReadAloudButton";
+import SupportButton from "@/components/SupportButton";
 
 export const metadata: Metadata = {
   title: "About the Data — Borders of Time",
@@ -259,6 +260,30 @@ export default function AboutPage() {
             </a>{" "}
             per the project&rsquo;s contributing guidelines.
           </p>
+        </section>
+
+        {/* Support & Funding */}
+        <section>
+          <div className="flex items-center gap-3 mb-5">
+            <h2 className="font-display text-xl font-semibold text-ink/70 italic">Support &amp; Funding</h2>
+            <div className="flex-1 h-px bg-paper" />
+          </div>
+          <p className="text-ink/70 text-sm leading-relaxed">
+            Borders of Time is a free, independent project — map hosting and the data
+            pipeline behind it aren&rsquo;t free to run. If you find it useful, you can{" "}
+            <Link href="/support" className="text-ancient hover:text-ancient/80 underline">
+              support the project
+            </Link>
+            . Some &ldquo;further reading&rdquo; links on people, places, and tours may in the
+            future be affiliate links — see the{" "}
+            <Link href="/terms" className="text-ancient hover:text-ancient/80 underline">
+              disclosure in the Terms of Use
+            </Link>
+            . Support never affects what borders, dates, or facts the site shows.
+          </p>
+          <div className="mt-4">
+            <SupportButton variant="button" />
+          </div>
         </section>
 
         <footer className="pt-4 border-t border-paper">
