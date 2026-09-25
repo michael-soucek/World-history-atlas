@@ -42,6 +42,7 @@ export const CROSSWALK: Record<string, CrosswalkEntry> = {
   "Carolingian Empire":{ wikidataId: "Q31929", slug: "carolingian-empire" },                        // Carolingian Empire
   "Tang dynasty":      { wikidataId: "Q9683",  slug: "tang-dynasty", aliases: ["Tang Dynasty", "Tang"] }, // Tang dynasty
   "Tibetan Empire":    { wikidataId: "Q2431480", slug: "tibetan-empire" },                            // Tibetan Empire
+  "Hunnic Empire":     { wikidataId: "Q10295972", slug: "hunnic-empire", representativeYear: 434 },   // Hunnic Empire
 
   // ── Medieval ─────────────────────────────────────────────────────────────
   "Holy Roman Empire": { wikidataId: "Q12548",  slug: "holy-roman-empire" },                        // ✓ Holy Roman Empire
@@ -106,6 +107,7 @@ export const CROSSWALK: Record<string, CrosswalkEntry> = {
   "Egypt":             { wikidataId: "Q79",     slug: "egypt" },                                      // ✓ Egypt
   "Ethiopia":          { wikidataId: "Q115",    slug: "ethiopia", aliases: ["Abyssinia"] },           // ✓ Ethiopia
   "Zulu Kingdom":      { wikidataId: "Q729768", slug: "zulu-kingdom", aliases: ["Zululand"] },        // Zulu Kingdom
+  "Haiti":             { wikidataId: "Q790",    slug: "haiti", representativeYear: 1820 },             // Haiti
   "Kingdom of Kongo":  { wikidataId: "Q796583",  slug: "kingdom-of-kongo", aliases: ["Kongo"] },      // Kingdom of Kongo
   "Japan":             { wikidataId: "Q17",     slug: "japan" },                                      // ✓ Japan
   "India":             { wikidataId: "Q668",    slug: "india" },                                      // ✓ India

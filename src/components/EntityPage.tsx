@@ -10,6 +10,7 @@ import RelatedResources from "@/components/RelatedResources";
 import AdSlot from "@/components/AdSlot";
 import type { PlaceContent, EntityType } from "@/types";
 import type { CrosswalkEntry } from "@/types";
+import { ENTITY_PLACE_OVERRIDE, ENTITY_YEAR_OVERRIDE } from "@/data/entityPlaceLinks";
 
 interface EntityPageProps {
   content: PlaceContent;
@@ -26,14 +27,27 @@ const TYPE_LABELS: Record<EntityType, string> = {
 };
 
 export default function EntityPage({ content, entry, entityType, baseRoute }: EntityPageProps) {
-  const mapHref = content.representativeYear
-    ? `/map?year=${content.representativeYear}&region=${entry.wikidataId}`
-    : `/map?region=${entry.wikidataId}`;
+  // A place *is* a territory, so its own QID resolves on the map directly.
+  // A person/event/culture's own QID never will — use its curated place
+  // override if one exists, otherwise link by year alone rather than send
+  // visitors to a map that can't load anything for the region. See
+  // src/data/entityPlaceLinks.ts.
+  const mapRegionId = entityType === "place" ? entry.wikidataId : ENTITY_PLACE_OVERRIDE[entry.slug];
+  // A few entries need a different year than their own computed
+  // representativeYear for the map link specifically — see
+  // ENTITY_YEAR_OVERRIDE's doc comment. The page's own key-facts year is
+  // untouched; only the "See on map" year/label are affected.
+  const mapYear = ENTITY_YEAR_OVERRIDE[entry.slug] ?? content.representativeYear;
 
-  const mapLabel = content.representativeYear
-    ? `See on map at ${content.representativeYear > 0
-        ? content.representativeYear + " CE"
-        : Math.abs(content.representativeYear) + " BCE"}`
+  const mapParams = new URLSearchParams();
+  if (mapYear) mapParams.set("year", String(mapYear));
+  if (mapRegionId) mapParams.set("region", mapRegionId);
+  const mapHref = mapParams.size ? `/map?${mapParams.toString()}` : "/map";
+
+  const mapLabel = mapYear
+    ? `See on map at ${mapYear > 0
+        ? mapYear + " CE"
+        : Math.abs(mapYear) + " BCE"}`
     : "See on map";
 
   const schemaType =

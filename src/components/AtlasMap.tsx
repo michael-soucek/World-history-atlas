@@ -14,6 +14,18 @@ import {
 
 type Slot = "a" | "b";
 
+// Minimal shape for the enriched border/label GeoJSON this component reads —
+// only the fields actually accessed below (properties.wikidataId,
+// geometry.coordinates), not the full GeoJSON spec.
+interface SnapshotFeature {
+  properties?: { wikidataId?: string; [key: string]: unknown } | null;
+  geometry?: { type: string; coordinates: unknown } | null;
+}
+interface SnapshotFeatureCollection {
+  type: "FeatureCollection";
+  features: SnapshotFeature[];
+}
+
 // ── Data fetching ──────────────────────────────────────────────────────────
 
 async function fetchSnapshotData(year: number) {
@@ -34,7 +46,13 @@ export default function AtlasMap() {
   const currentStateRef = useRef<number | null>(null);
   const nextYearRef = useRef<number | null>(null);
   const isLoadingRef = useRef(false);
-  const stateDataCacheRef = useRef<Map<number, { borders: any; labels: any }>>(new Map());
+  const stateDataCacheRef = useRef<
+    Map<number, { borders: SnapshotFeatureCollection | null; labels: SnapshotFeatureCollection | null }>
+  >(new Map());
+  // Holds the latest `loadSnapshot` so the queue-drain call below can reach it
+  // without closing over its own `const` binding (which React Compiler can't
+  // safely memoize — see the matching comment in HistoricalMapClient.tsx).
+  const loadSnapshotRef = useRef<(year: number) => Promise<void>>(async () => {});
 
   const [mapLoaded, setMapLoaded] = useState(false);
   const { stateYear, setView, selectRegion, selectedWikidataId } = useAtlasStore();
@@ -60,7 +78,7 @@ export default function AtlasMap() {
     if (!cache || !cache.borders) return;
 
     const feature = cache.borders.features.find(
-      (f: any) => f.properties?.wikidataId === wikidataId
+      (f) => f.properties?.wikidataId === wikidataId
     );
 
     if (feature) {
@@ -76,11 +94,12 @@ export default function AtlasMap() {
       if (lastFlownIdRef.current !== wikidataId) {
         if (feature.geometry) {
           let minLng = Infinity, minLat = Infinity, maxLng = -Infinity, maxLat = -Infinity;
-          const processCoords = (coords: any) => {
+          const processCoords = (coords: unknown) => {
+            if (!Array.isArray(coords)) return;
             if (Array.isArray(coords[0])) {
               coords.forEach(processCoords);
             } else {
-              const [lng, lat] = coords;
+              const [lng, lat] = coords as [number, number];
               if (lng < minLng) minLng = lng;
               if (lng > maxLng) maxLng = lng;
               if (lat < minLat) minLat = lat;
@@ -215,13 +234,18 @@ export default function AtlasMap() {
         }
 
         // ── Selection highlight ────────────────────────────────────────
+        // The site's amber accent (--color-ancient, #b87008) reads clearly
+        // against the pale terrain fills, unlike the white this used to be —
+        // white blended into both the pale palette and the white territory
+        // borders already drawn everywhere, so a "selected" territory looked
+        // no different from any other.
         map.addLayer({
           id: "territory-highlight-fill",
           type: "fill",
           source: "territory-selected",
           paint: {
-            "fill-color": "#ffffff",
-            "fill-opacity": 0.25,
+            "fill-color": "#b87008",
+            "fill-opacity": 0.35,
           },
         });
         map.addLayer({
@@ -229,10 +253,10 @@ export default function AtlasMap() {
           type: "line",
           source: "territory-selected",
           paint: {
-            "line-color": "#ffffff",
-            "line-width": 2.5,
-            "line-blur": 0.5,
-            "line-opacity": 0.8,
+            "line-color": "#b87008",
+            "line-width": 3.5,
+            "line-blur": 0.3,
+            "line-opacity": 1,
           },
         });
 
@@ -372,7 +396,7 @@ export default function AtlasMap() {
       isLoadingRef.current = true;
       try {
         // Always try to load the latest requested year
-        let targetYear = nextYearRef.current ?? year;
+        const targetYear = nextYearRef.current ?? year;
 
         let cached = stateDataCacheRef.current.get(targetYear);
         if (!cached) {
@@ -387,8 +411,12 @@ export default function AtlasMap() {
         const newSlot: Slot = oldSlot === "a" ? "b" : "a";
 
         // Load data into the incoming slot
-        (map.getSource(`territories-${newSlot}`) as GeoJSONSource).setData(borders);
-        (map.getSource(`labels-${newSlot}`) as GeoJSONSource).setData(labels ?? EMPTY_FC);
+        (map.getSource(`territories-${newSlot}`) as GeoJSONSource).setData(
+          borders as Parameters<GeoJSONSource["setData"]>[0],
+        );
+        (map.getSource(`labels-${newSlot}`) as GeoJSONSource).setData(
+          (labels ?? EMPTY_FC) as Parameters<GeoJSONSource["setData"]>[0],
+        );
 
         // Trigger MapLibre paint transitions
         setSlotOpacity(map, newSlot, true);
@@ -407,12 +435,16 @@ export default function AtlasMap() {
         isLoadingRef.current = false;
         // Process queue
         if (nextYearRef.current !== null && nextYearRef.current !== currentStateRef.current) {
-          loadSnapshot(nextYearRef.current);
+          loadSnapshotRef.current(nextYearRef.current);
         }
       }
     },
     [setSlotOpacity, syncSelectionHighlight]
   );
+
+  useEffect(() => {
+    loadSnapshotRef.current = loadSnapshot;
+  }, [loadSnapshot]);
 
   useEffect(() => {
     if (!mapLoaded) return;

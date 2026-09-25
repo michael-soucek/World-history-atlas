@@ -559,10 +559,18 @@ function buildTagline(entity: Record<string, unknown>, entityType: EntityType, _
 }
 
 /** Extract a representative "see on the map" year from an entity. */
-function extractRepresentativeYear(entity: Record<string, unknown>, _entityType: EntityType): number | undefined {
+function extractRepresentativeYear(entity: Record<string, unknown>, entityType: EntityType): number | undefined {
   const claims = (entity.claims as EntityClaims) ?? {};
-  // Try inception, then start, then date of birth
-  for (const prop of ["P571", "P580", "P569", "P585"]) {
+  // For a person, P571/P580 (inception/start time) essentially never apply,
+  // so this always fell through to P569 (date of birth) — showing their
+  // empire/kingdom before it typically existed. Prefer date of death (P570)
+  // instead: closer to the height of their historical impact, since for most
+  // rulers and conquerors their territory was largest near the end of their
+  // reign, not at birth.
+  const props = entityType === "person"
+    ? ["P570", "P585", "P569"]
+    : ["P571", "P580", "P569", "P585"];
+  for (const prop of props) {
     const val = getClaimValue(claims, prop);
     if (!val || typeof val !== "object") continue;
     const tv = val as { time?: string };
