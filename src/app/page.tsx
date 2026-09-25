@@ -9,16 +9,27 @@ import { CROSSWALK } from "@/data/crosswalk";
 import { ERA_LIST, eraSlug } from "@/data/eras";
 import { SNAPSHOT_YEARS, formatYear } from "@/data/snapshotYears";
 import { EXPLORERS } from "@/data/voyages";
+import { DEFAULT_SOCIAL_IMAGE } from "@/lib/seo";
+
+const HOME_OG_DESCRIPTION = "An interactive world history atlas. Watch the world's empires rise and fall — year by year.";
 
 export const metadata: Metadata = {
   title: "Borders of Time — Watch borders change through time",
   description:
     "An interactive world history atlas. Watch empires rise and fall. Explore places, people, events, and cultures across 5,000 years of recorded history.",
+  alternates: { canonical: "/" },
   openGraph: {
     title: "Borders of Time",
-    description: "An interactive world history atlas. Watch the world's empires rise and fall — year by year.",
+    description: HOME_OG_DESCRIPTION,
     siteName: "Borders of Time",
     type: "website",
+    images: [{ url: DEFAULT_SOCIAL_IMAGE }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Borders of Time",
+    description: HOME_OG_DESCRIPTION,
+    images: [DEFAULT_SOCIAL_IMAGE],
   },
 };
 
@@ -258,7 +269,7 @@ export default function HomePage() {
                 Explore all →
               </Link>
             </div>
-            <p className="text-ink/40 text-sm mb-8">Explorers whose voyages connected the world's oceans.</p>
+            <p className="text-ink/40 text-sm mb-8">Explorers whose voyages connected the world&apos;s oceans.</p>
             <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
               {EXPLORERS.slice(0, 3).map((explorer) => (
                 <Link

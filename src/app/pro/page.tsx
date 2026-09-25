@@ -2,11 +2,13 @@ import type { Metadata } from "next";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
 import { Bookmark, Palette, Download, GraduationCap, ShieldOff } from "lucide-react";
+import { buildPageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildPageMetadata({
   title: "Borders of Time Pro (coming soon)",
   description: "A look at what a future Borders of Time Pro tier could include — nothing here is built or for sale yet.",
-};
+  path: "/pro",
+});
 
 const FEATURES = [
   {

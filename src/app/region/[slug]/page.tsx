@@ -6,6 +6,7 @@ import SiteFooter from "@/components/SiteFooter";
 import HandwrittenTitle from "@/components/HandwrittenTitle";
 import { ReadAloudButton } from "@/components/ReadAloudButton";
 import { CROSSWALK } from "@/data/crosswalk";
+import { buildPageMetadata } from "@/lib/seo";
 
 interface Props { params: Promise<{ slug: string }> }
 
@@ -100,10 +101,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const region = REGIONS[slug];
   if (!region) return { title: "Region — Borders of Time" };
-  return {
+  return buildPageMetadata({
     title: `${region.label} — Borders of Time`,
     description: region.description,
-  };
+    path: `/region/${slug}`,
+  });
 }
 
 export default async function RegionPage({ params }: Props) {

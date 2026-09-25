@@ -7,6 +7,7 @@ import { buildPlaceContent } from "@/lib/wikidata";
 import { formatYear, getSnapshotYearFor } from "@/data/snapshotYears";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
+import { DEFAULT_SOCIAL_IMAGE } from "@/lib/seo";
 
 interface Props {
   params: Promise<{ slug: string; year: string }>;
@@ -43,11 +44,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     openGraph: {
       title: `${content.name} — ${yearLabel}`,
       description: content.summary?.slice(0, 200),
-      images: content.imageUrl ? [{ url: content.imageUrl }] : [],
+      images: [{ url: content.imageUrl || DEFAULT_SOCIAL_IMAGE }],
     },
     twitter: {
       card: "summary_large_image",
       title: `${content.name} — ${yearLabel}`,
+      description: content.summary?.slice(0, 200),
+      images: [content.imageUrl || DEFAULT_SOCIAL_IMAGE],
     },
   };
 }

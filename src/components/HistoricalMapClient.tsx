@@ -54,6 +54,10 @@ export default function HistoricalMapClient() {
   const nextYearRef = useRef<number | null>(null);
   const isLoadingRef = useRef(false);
   const cacheRef = useRef(new Map<number, { borders: unknown; labels: unknown }>());
+  // Holds the latest `loadSnapshot` so the queue-drain call below can reach it
+  // without closing over its own `const` binding (which React Compiler can't
+  // safely memoize — see the matching comment in AtlasMap.tsx).
+  const loadSnapshotRef = useRef<(targetYear: number) => Promise<void>>(async () => {});
 
   // ── Slot opacity helper (identical to AtlasMap) ──────────────────────
   const setSlotOpacity = useCallback(
@@ -118,7 +122,7 @@ export default function HistoricalMapClient() {
 
         if (nextYearRef.current !== null && nextYearRef.current !== actualTarget) {
           isLoadingRef.current = false;
-          loadSnapshot(nextYearRef.current);
+          loadSnapshotRef.current(nextYearRef.current);
         }
       } catch (err) {
         console.error("[HistoricalMapClient] loadSnapshot error", err);
@@ -129,6 +133,10 @@ export default function HistoricalMapClient() {
     },
     [setSlotOpacity],
   );
+
+  useEffect(() => {
+    loadSnapshotRef.current = loadSnapshot;
+  }, [loadSnapshot]);
 
   // ── Map initialisation (same layer structure as AtlasMap) ───────────
   useEffect(() => {
@@ -232,7 +240,6 @@ export default function HistoricalMapClient() {
       mapRef.current?.remove();
       mapRef.current = null;
     };
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   // ── Load snapshot when slider year resolves to a new snapshot ───────

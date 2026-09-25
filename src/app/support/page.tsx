@@ -4,12 +4,14 @@ import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
 import SupportButton from "@/components/SupportButton";
 import { SUPPORT_URL } from "@/lib/monetization";
+import { buildPageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildPageMetadata({
   title: "Support Borders of Time",
   description:
     "Borders of Time is free and independently run. Here's what your support pays for and how to help keep it going.",
-};
+  path: "/support",
+});
 
 export default function SupportPage() {
   return (

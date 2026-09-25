@@ -9,6 +9,7 @@ import { ReadAloudButton } from "@/components/ReadAloudButton";
 import { CROSSWALK } from "@/data/crosswalk";
 import { readableNameFromSlug } from "@/lib/entityResolver";
 import { getExplorerBySlug } from "@/data/voyages";
+import { buildPageMetadata } from "@/lib/seo";
 
 interface Props { params: Promise<{ slug: string }> }
 
@@ -151,10 +152,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const theme = THEMES[slug];
   if (!theme) return { title: "Theme — Borders of Time" };
-  return {
+  return buildPageMetadata({
     title: `${theme.label} — Borders of Time`,
     description: theme.description,
-  };
+    path: `/theme/${slug}`,
+  });
 }
 
 export default async function ThemePage({ params }: Props) {

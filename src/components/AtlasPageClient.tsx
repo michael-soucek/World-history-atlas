@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import dynamic from "next/dynamic";
+import Link from "next/link";
 import { useAtlasStore } from "@/store/atlasStore";
 import TimeSlider from "./TimeSlider";
 import StoryPanel from "./StoryPanel";
@@ -106,21 +107,21 @@ export default function AtlasPageClient({
 
       {/* Top-left nav */}
       <nav className="absolute top-4 left-4 z-10 flex items-center gap-2">
-        <a
+        <Link
           href="/"
           className="text-white font-semibold text-sm tracking-wide
             bg-black/50 backdrop-blur-sm rounded-lg px-3 py-1.5
             hover:bg-black/70 transition-colors"
         >
           Borders of Time
-        </a>
-        <a
+        </Link>
+        <Link
           href="/about"
           className="text-white/60 text-sm bg-black/40 backdrop-blur-sm rounded-lg
             px-3 py-1.5 hover:text-white hover:bg-black/60 transition-colors"
         >
           About
-        </a>
+        </Link>
       </nav>
     </div>
   );

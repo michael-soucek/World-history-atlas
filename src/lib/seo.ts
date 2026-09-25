@@ -7,6 +7,8 @@ interface PageSeoArgs {
   description: string;
   type?: "website" | "article";
   imageUrl?: string;
+  /** This page's own path, e.g. "/era/medieval" — sets the canonical tag. Omit only for pages that intentionally have none (e.g. a 404 fallback). */
+  path?: string;
 }
 
 export function buildPageMetadata(args: PageSeoArgs): Metadata {
@@ -14,6 +16,7 @@ export function buildPageMetadata(args: PageSeoArgs): Metadata {
   return {
     title: args.title,
     description: args.description,
+    ...(args.path ? { alternates: { canonical: args.path } } : {}),
     openGraph: {
       title: args.title,
       description: args.description,

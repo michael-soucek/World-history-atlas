@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import type { TimelineIllustration } from "@/data/timelineIllustrations";
+import { usePrefersReducedMotion } from "@/hooks/usePrefersReducedMotion";
 
 interface Props {
   image: TimelineIllustration;
@@ -9,22 +10,21 @@ interface Props {
 
 function useNearViewport(rootMargin = "280px") {
   const ref = useRef<HTMLDivElement>(null);
-  const [near, setNear] = useState(false);
+  const reducedMotion = usePrefersReducedMotion();
+  const [observedNear, setObservedNear] = useState(false);
 
   useEffect(() => {
+    // Reduced motion doesn't need observing — it's folded into `near` below.
+    if (reducedMotion) return;
+
     const node = ref.current;
     if (!node) return;
-
-    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
-      setNear(true);
-      return;
-    }
 
     const observer = new IntersectionObserver(
       entries => {
         const entry = entries[0];
         if (entry?.isIntersecting) {
-          setNear(true);
+          setObservedNear(true);
           observer.disconnect();
         }
       },
@@ -33,18 +33,15 @@ function useNearViewport(rootMargin = "280px") {
 
     observer.observe(node);
     return () => observer.disconnect();
-  }, [rootMargin]);
+  }, [rootMargin, reducedMotion]);
 
-  return { ref, near };
+  return { ref, near: reducedMotion || observedNear };
 }
 
 export default function TimelineEraArt({ image }: Props) {
-  const { ref, near } = useNearViewport();
-  const [loaded, setLoaded] = useState(false);
-
-  useEffect(() => {
-    if (near) setLoaded(true);
-  }, [near]);
+  // `loaded` was pure derived state — it only ever mirrored `near` one tick
+  // later, so `near` is used directly instead of duplicating it.
+  const { ref, near: loaded } = useNearViewport();
 
   return (
     <figure ref={ref} className="relative lg:sticky lg:top-28 lg:ml-auto lg:w-full max-w-85">

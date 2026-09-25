@@ -2,11 +2,13 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
+import { buildPageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildPageMetadata({
   title: "Contact — Borders of Time",
   description: "How to report a border or data error, get in touch about a partnership, or reach the person behind Borders of Time.",
-};
+  path: "/contact",
+});
 
 const CONTACT_EMAIL = "michaelsoucek73@gmail.com";
 

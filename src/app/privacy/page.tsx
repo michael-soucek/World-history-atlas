@@ -2,11 +2,13 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
+import { buildPageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildPageMetadata({
   title: "Privacy Policy — Borders of Time",
   description: "What Borders of Time collects, why, and how to reach us with a privacy question.",
-};
+  path: "/privacy",
+});
 
 const LAST_UPDATED = "September 2026";
 const CONTACT_EMAIL = "michaelsoucek73@gmail.com";

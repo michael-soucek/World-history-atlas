@@ -3,11 +3,13 @@ import Link from "next/link";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
 import { TOURS } from "@/data/tours";
+import { buildPageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildPageMetadata({
   title: "Guided Tours — Borders of Time",
   description: "Authored journeys through history that drive the map. Watch empires rise and fall with narration and context.",
-};
+  path: "/tour",
+});
 
 const DIFFICULTY_STYLE = {
   "intro":      "text-medieval     bg-medieval-wash     border-medieval/30",

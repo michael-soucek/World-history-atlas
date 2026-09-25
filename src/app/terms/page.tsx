@@ -2,11 +2,13 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
+import { buildPageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildPageMetadata({
   title: "Terms of Use — Borders of Time",
   description: "The terms that govern your use of Borders of Time, including our affiliate-link disclosure.",
-};
+  path: "/terms",
+});
 
 const LAST_UPDATED = "September 2026";
 const CONTACT_EMAIL = "michaelsoucek73@gmail.com";

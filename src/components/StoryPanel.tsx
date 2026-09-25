@@ -10,7 +10,7 @@ import type { PlaceContent } from "@/types";
 // ── Story panel component ──────────────────────────────────────────────────
 
 export default function StoryPanel() {
-  const { selectedWikidataId, selectedName, selectedSovereign, year, clearSelection, stateYear } =
+  const { selectedWikidataId, selectedName, selectedSovereign, year, clearSelection } =
     useAtlasStore();
 
   const [content, setContent] = useState<PlaceContent | null>(null);
@@ -24,22 +24,28 @@ export default function StoryPanel() {
     setContent(null);
   }, [clearSelection]);
 
-  // Fetch content whenever selection changes
+  // Fetch content whenever selection changes. While closed the component
+  // returns null below, so there's nothing to reset here — the next real
+  // selection's branch below replaces `content`/`error` itself.
   useEffect(() => {
-    if (!isOpen) {
-      setContent(null);
-      setError(false);
-      return;
-    }
+    if (!isOpen) return;
 
     if (!selectedWikidataId) {
-      // No crosswalk entry — show name-only fallback
-      setContent(null);
-      setLoading(false);
-      return;
+      // No crosswalk entry — name-only fallback. `content` doesn't need
+      // resetting: `effectiveContent` below already nulls it out whenever
+      // there's no wikidataId, so a stale previous selection's content never
+      // renders. `loading` does need correcting if a previous selection's
+      // fetch was still in flight — deferred one tick (a real callback, not
+      // a synchronous effect-body setState) rather than left stuck on.
+      const timer = setTimeout(() => setLoading(false), 0);
+      return () => clearTimeout(timer);
     }
 
     let cancelled = false;
+    // Kicking off a fetch's loading state is the canonical case this effect
+    // exists for — there's no callback to defer into before the fetch itself
+    // starts, and delaying it would just show stale content a tick longer.
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setLoading(true);
     setError(false);
 
@@ -68,7 +74,11 @@ export default function StoryPanel() {
 
   if (!isOpen) return null;
 
-  const displayName = content?.name ?? selectedName ?? "Unknown Territory";
+  // Null out a stale previous selection's content once there's no crosswalk
+  // entry for the current one, instead of resetting `content` state itself.
+  const effectiveContent = selectedWikidataId ? content : null;
+
+  const displayName = effectiveContent?.name ?? selectedName ?? "Unknown Territory";
   const searchQuery = encodeURIComponent(displayName);
   const wikiSearchUrl = `https://en.wikipedia.org/w/index.php?search=${searchQuery}`;
 
@@ -128,26 +138,26 @@ export default function StoryPanel() {
         {!loading && !error && (
           <>
             {/* Year discrepancy warning */}
-            {content?.representativeYear && Math.abs(content.representativeYear - year) > 50 && (
+            {effectiveContent?.representativeYear && Math.abs(effectiveContent.representativeYear - year) > 50 && (
               <div className="mx-5 mt-4 p-3 bg-ancient-wash border border-ancient/20 rounded-lg">
                 <p className="text-ink-2 text-xs leading-relaxed">
-                  This entity is best viewed around <span className="font-bold">{formatYear(content.representativeYear)}</span>.
+                  This entity is best viewed around <span className="font-bold">{formatYear(effectiveContent.representativeYear)}</span>.
                 </p>
                 <button
-                  onClick={() => useAtlasStore.getState().setYear(content.representativeYear!)}
+                  onClick={() => useAtlasStore.getState().setYear(effectiveContent.representativeYear!)}
                   className="mt-2 text-ancient font-semibold text-xs hover:underline decoration-ancient/30"
                 >
-                  Jump to {formatYear(content.representativeYear)} →
+                  Jump to {formatYear(effectiveContent.representativeYear)} →
                 </button>
               </div>
             )}
 
             {/* Image */}
-            {content?.imageUrl && (
+            {effectiveContent?.imageUrl && (
               <div className="relative">
                 <div className="relative w-full" style={{ aspectRatio: "16/9" }}>
                   <Image
-                    src={content.imageUrl}
+                    src={effectiveContent.imageUrl}
                     alt={`Image related to ${displayName}`}
                     fill
                     className="object-contain bg-surface"
@@ -156,15 +166,15 @@ export default function StoryPanel() {
                 </div>
                 {/* Attribution — required */}
                 <div className="px-3 py-1.5 bg-black/60 text-[10px] text-white/50 leading-snug">
-                  {content.imageAuthor && (
-                    <span>{content.imageAuthor} · </span>
+                  {effectiveContent.imageAuthor && (
+                    <span>{effectiveContent.imageAuthor} · </span>
                   )}
-                  {content.imageLicense && (
-                    <span>{content.imageLicense} · </span>
+                  {effectiveContent.imageLicense && (
+                    <span>{effectiveContent.imageLicense} · </span>
                   )}
-                  {content.imageSourceUrl && (
+                  {effectiveContent.imageSourceUrl && (
                     <a
-                      href={content.imageSourceUrl}
+                      href={effectiveContent.imageSourceUrl}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="underline hover:text-white/80"
@@ -178,14 +188,14 @@ export default function StoryPanel() {
 
             {/* Summary */}
             <div className="p-5">
-              {content?.summary ? (
+              {effectiveContent?.summary ? (
                 <>
                   <div className="flex items-center gap-3 mb-3">
-                    <ReadAloudButton text={content.summary} />
+                    <ReadAloudButton text={effectiveContent.summary} />
                     <span className="text-white/20 text-[10px] uppercase tracking-widest font-bold">Listen</span>
                   </div>
                   <p className="text-white/80 text-sm leading-relaxed">
-                    {content.summary}
+                    {effectiveContent.summary}
                   </p>
                 </>
               ) : (
@@ -212,18 +222,18 @@ export default function StoryPanel() {
 
       {/* Footer links */}
       <div className="border-t border-white/10 p-4 flex flex-wrap gap-2">
-        {content?.wikidataId && (
+        {effectiveContent?.wikidataId && (
           <a
-            href={`/place/${content.wikidataId}`}
+            href={`/place/${effectiveContent.wikidataId}`}
             className="flex-1 text-center rounded-lg px-3 py-2 text-sm font-medium
               bg-white/10 text-white/80 hover:bg-white/20 hover:text-white transition-colors"
           >
             Full place page
           </a>
         )}
-        {content?.wikipediaUrl && (
+        {effectiveContent?.wikipediaUrl && (
           <a
-            href={content.wikipediaUrl}
+            href={effectiveContent.wikipediaUrl}
             target="_blank"
             rel="noopener noreferrer"
             className="flex-1 text-center rounded-lg px-3 py-2 text-sm font-medium

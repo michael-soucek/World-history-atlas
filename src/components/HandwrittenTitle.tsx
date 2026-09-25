@@ -9,7 +9,7 @@
  *    reveal animation using clip-path.
  */
 
-import { useEffect, useState } from "react";
+import { usePrefersReducedMotion } from "@/hooks/usePrefersReducedMotion";
 
 interface Props {
   children: string;
@@ -22,15 +22,8 @@ export default function HandwrittenTitle({
   className = "",
   inkColor = "#1a120a",
 }: Props) {
-  const [phase, setPhase] = useState<"idle" | "animating" | "reduced">("idle");
-
-  useEffect(() => {
-    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
-      setPhase("reduced");
-      return;
-    }
-    setPhase("animating");
-  }, []);
+  const reducedMotion = usePrefersReducedMotion();
+  const phase = reducedMotion ? "reduced" : "animating";
 
   return (
     <div

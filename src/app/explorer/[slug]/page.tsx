@@ -34,14 +34,22 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!data) return { title: "Explorer not found — Borders of Time" };
   const { explorer, content } = data;
   const description = content?.summary?.slice(0, 160) ?? explorer.tagline;
+  const imageUrl = content?.imageUrl || DEFAULT_SOCIAL_IMAGE;
   return {
     title: `${explorer.name} — Age of Exploration — Borders of Time`,
     description,
+    alternates: { canonical: `/explorer/${slug}` },
     openGraph: {
       title: explorer.name,
       description,
-      images: [{ url: content?.imageUrl || DEFAULT_SOCIAL_IMAGE }],
+      images: [{ url: imageUrl }],
       type: "profile",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: explorer.name,
+      description,
+      images: [imageUrl],
     },
   };
 }

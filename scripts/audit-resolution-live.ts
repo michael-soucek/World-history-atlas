@@ -98,6 +98,11 @@ async function sleep(ms: number): Promise<void> {
   await new Promise((resolve) => setTimeout(resolve, ms));
 }
 
+// Callers deliberately destructure this with optional chaining against three
+// different external API shapes (GitHub, GeoJSON, Wikidata) without a shared
+// contract, so `any` here is honest rather than a gap — narrowing it would
+// just push the same `any` onto every call site.
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 async function fetchJsonWithRetry(url: string, timeoutMs = 10000): Promise<any> {
   const delays = [0, 150, 450];
 

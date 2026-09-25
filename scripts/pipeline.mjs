@@ -363,6 +363,7 @@ async function main() {
 
     if (doTiles) generateTiles(bordersOut, labelsOut, year);
     processed.push(year);
+  }
 
   writeManifest(allYears);
   console.log("\nDone -- " + processed.length + " snapshot(s) processed.\n");

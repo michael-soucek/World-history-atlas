@@ -2,7 +2,6 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
 import { ReadAloudButton } from "@/components/ReadAloudButton";
 import type { Tour } from "@/data/tours";
 
@@ -11,32 +10,19 @@ interface TourPlayerProps {
 }
 
 export default function TourPlayer({ tour }: TourPlayerProps) {
-  const router = useRouter();
   const [step, setStep] = useState(0);
   const [playing, setPlaying] = useState(false);
 
   const current = tour.steps[step];
 
-  // Sync the map URL whenever the step changes
-  useEffect(() => {
-    const ms = current.mapState;
-    const params = new URLSearchParams({
-      year: String(ms.year),
-      lat: String(ms.lat),
-      lng: String(ms.lng),
-      z: String(ms.zoom),
-      ...(ms.regionId ? { region: ms.regionId } : {}),
-    });
-    // Open map in a new window / tab if this is just the tour page (no iframe)
-    // We'll store the map state so the "View on map" link stays in sync
-  }, [current]);
-
-  // Auto-advance when playing
+  // Auto-advance when playing. The last-step case still stops "immediately"
+  // to the user (a 0ms timer, not a synchronous setState in the effect body —
+  // see react-hooks/set-state-in-effect) rather than waiting another 8s.
   useEffect(() => {
     if (!playing) return;
     if (step >= tour.steps.length - 1) {
-      setPlaying(false);
-      return;
+      const timer = setTimeout(() => setPlaying(false), 0);
+      return () => clearTimeout(timer);
     }
     const timer = setTimeout(() => setStep(s => s + 1), 8000);
     return () => clearTimeout(timer);

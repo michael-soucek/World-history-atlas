@@ -4,12 +4,14 @@ import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
 import { ReadAloudButton } from "@/components/ReadAloudButton";
 import SupportButton from "@/components/SupportButton";
+import { buildPageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildPageMetadata({
   title: "About the Data — Borders of Time",
   description:
     "Sources, methodology, and attribution for Borders of Time — an interactive world history atlas. Historical border data, Wikipedia content, and image licensing.",
-};
+  path: "/about",
+});
 
 export default function AboutPage() {
   return (

@@ -2,6 +2,7 @@ import { Suspense } from "react";
 import type { Metadata } from "next";
 import AtlasPageClient from "@/components/AtlasPageClient";
 import { formatYear } from "@/data/snapshotYears";
+import { DEFAULT_SOCIAL_IMAGE } from "@/lib/seo";
 
 interface Props {
   searchParams: Promise<{
@@ -28,10 +29,13 @@ export async function generateMetadata({ searchParams }: Props): Promise<Metadat
       title: `Borders of Time — ${yearLabel}`,
       description: `Explore the world map as it looked in ${yearLabel}.`,
       type: "website",
+      images: [{ url: DEFAULT_SOCIAL_IMAGE }],
     },
     twitter: {
       card: "summary_large_image",
       title: `Borders of Time — ${yearLabel}`,
+      description: `Explore the world map as it looked in ${yearLabel}.`,
+      images: [DEFAULT_SOCIAL_IMAGE],
     },
   };
 }

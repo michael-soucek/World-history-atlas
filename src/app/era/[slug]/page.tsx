@@ -24,6 +24,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return buildPageMetadata({
     title: `${era.label} Era — Borders of Time`,
     description: `Explore empires, events, and people from the ${era.label} era.`,
+    path: `/era/${slug}`,
   });
 }
 
