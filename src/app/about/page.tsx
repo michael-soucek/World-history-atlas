@@ -39,7 +39,7 @@ export default function AboutPage() {
               <ReadAloudButton 
                 text="The primary source for historical borders is aourednik/historical-basemaps by André Ourednik. Supplementary coverage comes from OpenHistoricalMap. We use three precision levels: approximate, estimated, and defined. Note that the slider only snaps to years where sourced data actually exists; no borders are interpolated." 
                 variant="minimal" 
-                className="opacity-50 hover:opacity-100 transition-opacity"
+                className="opacity-50 hover:opacity-100 pointer-coarse:opacity-100 transition-opacity"
               />
           </div>
           <div className="space-y-4 text-ink/70 text-sm leading-relaxed">

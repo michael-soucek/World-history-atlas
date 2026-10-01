@@ -70,7 +70,10 @@ export async function GET(
           f.properties,
           f.geometry,
           state.validFrom,
-          state.validTo
+          state.validTo,
+          undefined,
+          undefined,
+          snapshot.snapshotYear
         ),
         geometry: f.geometry,
       })),

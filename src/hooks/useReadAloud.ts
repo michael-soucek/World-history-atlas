@@ -2,6 +2,55 @@
 
 import { useState, useCallback, useEffect, useRef } from "react";
 
+const MAX_CHUNK = 200;
+
+// Shared across every read-aloud button (speechSynthesis is one global queue).
+// Incremented on every play/stop so a superseded chunk queue stops advancing.
+let activeRunId = 0;
+
+/**
+ * Split text into chunks of at most ~MAX_CHUNK characters, breaking at
+ * sentence ends where possible, then at commas/semicolons, then at spaces.
+ */
+function splitIntoChunks(text: string): string[] {
+  const sentences = text.match(/[^.!?]+(?:[.!?]+["'\u201d\u2019)]*|$)\s*/g) ?? [text];
+  const chunks: string[] = [];
+  let current = "";
+  const flush = () => {
+    if (current.trim()) chunks.push(current.trim());
+    current = "";
+  };
+  for (const sentence of sentences) {
+    if ((current + sentence).length <= MAX_CHUNK) {
+      current += sentence;
+      continue;
+    }
+    flush();
+    if (sentence.length <= MAX_CHUNK) {
+      current = sentence;
+      continue;
+    }
+    // Over-long sentence: break at clause punctuation, then at word boundaries.
+    for (const part of sentence.split(/(?<=[,;:\u2014])\s+/)) {
+      if ((current + " " + part).length <= MAX_CHUNK) {
+        current = current ? current + " " + part : part;
+        continue;
+      }
+      flush();
+      let rest = part;
+      while (rest.length > MAX_CHUNK) {
+        const cut = rest.lastIndexOf(" ", MAX_CHUNK);
+        const at = cut > 0 ? cut : MAX_CHUNK;
+        chunks.push(rest.slice(0, at).trim());
+        rest = rest.slice(at);
+      }
+      current = rest;
+    }
+  }
+  flush();
+  return chunks;
+}
+
 export function useReadAloud(text: string) {
   const [isSpeaking, setIsSpeaking] = useState(false);
   const [isPaused, setIsPaused] = useState(false);
@@ -39,6 +88,7 @@ export function useReadAloud(text: string) {
 
   const stop = useCallback(() => {
     if (typeof window !== "undefined") {
+      activeRunId++;
       window.speechSynthesis.cancel();
       setIsSpeaking(false);
       setIsPaused(false);
@@ -73,41 +123,52 @@ export function useReadAloud(text: string) {
 
     if (!cleanText) return;
 
-    // Some browsers have issues with extremely long utterances (> 4000 characters).
-    // For now, we'll cap it at 4000 to ensure reliability for the "Read Article" button
-    // which joins the summary and all sections.
-    const textToSpeak = cleanText.length > 4000 ? cleanText.slice(0, 4000) + "..." : cleanText;
-
-    const utterance = new SpeechSynthesisUtterance(textToSpeak);
+    // Speak in sentence-sized chunks, one after another. A single long
+    // utterance gets cut off: Chrome silently stops after ~15 seconds of
+    // speech (notably with Google voices), so whole articles never finished.
+    const chunks = splitIntoChunks(cleanText);
     const bestVoice = getBestVoice();
-    if (bestVoice) {
-      utterance.voice = bestVoice;
-    }
-    
-    utteranceRef.current = utterance;
+    const runId = ++activeRunId;
 
-    utterance.onstart = () => {
-      setIsSpeaking(true);
-      setIsPaused(false);
-    };
-    utterance.onend = () => {
-      setIsSpeaking(false);
-      setIsPaused(false);
-    };
-    utterance.onerror = (e) => {
-      // "interrupted" is common when switching buttons or clicking pause
-      if (e.error !== "interrupted") {
-        console.error("SpeechSynthesis error:", e.error);
+    const speakChunk = (i: number) => {
+      // Superseded by stop() or another button's play() — end this queue.
+      if (runId !== activeRunId) {
+        setIsSpeaking(false);
+        setIsPaused(false);
+        return;
       }
-      setIsSpeaking(false);
-      setIsPaused(false);
+      if (i >= chunks.length) {
+        setIsSpeaking(false);
+        setIsPaused(false);
+        return;
+      }
+      const utterance = new SpeechSynthesisUtterance(chunks[i]);
+      if (bestVoice) {
+        utterance.voice = bestVoice;
+      }
+      utteranceRef.current = utterance;
+
+      utterance.onstart = () => {
+        if (runId !== activeRunId) return;
+        setIsSpeaking(true);
+        setIsPaused(false);
+      };
+      utterance.onend = () => speakChunk(i + 1);
+      utterance.onerror = (e) => {
+        // "interrupted"/"canceled" are expected when switching buttons or stopping
+        if (e.error !== "interrupted" && e.error !== "canceled") {
+          console.error("SpeechSynthesis error:", e.error);
+        }
+        if (runId === activeRunId) activeRunId++;
+        setIsSpeaking(false);
+        setIsPaused(false);
+      };
+      window.speechSynthesis.speak(utterance);
     };
 
     // Small delay ensures cancel() has finished and prevents some browsers 
     // from ignoring the speak() call if it's too rapid.
-    setTimeout(() => {
-      window.speechSynthesis.speak(utterance);
-    }, 50);
+    setTimeout(() => speakChunk(0), 50);
   }, [text, isPaused, getBestVoice]);
 
   const pause = useCallback(() => {
@@ -139,6 +200,7 @@ export function useReadAloud(text: string) {
     }
     return () => {
       if (typeof window !== "undefined") {
+        activeRunId++;
         window.speechSynthesis.cancel();
       }
     };

@@ -77,16 +77,25 @@ export default function AtlasMap() {
     const cache = stateDataCacheRef.current.get(year);
     if (!cache || !cache.borders) return;
 
-    const feature = cache.borders.features.find(
+    const matches = cache.borders.features.filter(
       (f) => f.properties?.wikidataId === wikidataId
     );
+    // An empire can span many features (colonies, vassals). Fly to its core
+    // territory: prefer features named after the polity itself over ones
+    // matched only via their sovereign, then the largest.
+    const feature = matches.reduce<(typeof matches)[number] | undefined>((best, f) => {
+      if (!best) return f;
+      const own = (x: typeof f) => x.properties?.core === true;
+      if (own(f) !== own(best)) return own(f) ? f : best;
+      return Number(f.properties?.area ?? 0) > Number(best.properties?.area ?? 0) ? f : best;
+    }, undefined);
 
     if (feature) {
       // Update highlight territory
       if (map.getSource("territory-selected")) {
         (map.getSource("territory-selected") as GeoJSONSource).setData({
           type: "FeatureCollection",
-          features: [JSON.parse(JSON.stringify(feature))],
+          features: JSON.parse(JSON.stringify(matches)),
         });
       }
 

@@ -210,7 +210,7 @@ export default async function ThemePage({ params }: Props) {
                 <ReadAloudButton 
                   text={para} 
                   variant="minimal" 
-                  className="shrink-0 mt-1 opacity-20 group-hover:opacity-100 transition-opacity" 
+                  className="shrink-0 mt-1 opacity-20 group-hover:opacity-100 pointer-coarse:opacity-100 transition-opacity" 
                 />
                 <p className="text-ink/75 text-[15px] leading-[1.85]">{para}</p>
               </div>

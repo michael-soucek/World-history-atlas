@@ -126,14 +126,17 @@ export default async function ExplorerPage({ params }: Props) {
                       <ReadAloudButton 
                         text={para} 
                         variant="minimal" 
-                        className="shrink-0 mt-1 opacity-20 group-hover:opacity-100 transition-opacity" 
+                        className="shrink-0 mt-1 opacity-20 group-hover:opacity-100 pointer-coarse:opacity-100 transition-opacity" 
                       />
                       <p className="text-ink/75 text-base leading-[1.85]">{para}</p>
                     </div>
                   ))}
                 </div>
               ) : (
-                <p className="text-ink/50 text-base leading-relaxed">{explorer.tagline}</p>
+                <div className="flex items-start gap-4">
+                  <ReadAloudButton text={explorer.tagline} variant="minimal" className="shrink-0" />
+                  <p className="text-ink/50 text-base leading-relaxed">{explorer.tagline}</p>
+                </div>
               )}
 
               {content?.wikipediaUrl && (
@@ -193,6 +196,11 @@ export default async function ExplorerPage({ params }: Props) {
                       <h3 className="font-display text-lg font-semibold text-ink">{v.label}</h3>
                       <span className="text-ink/40 text-xs font-mono">{v.years}</span>
                       <span className="text-ink/40 text-xs">· {v.ship}</span>
+                      <ReadAloudButton
+                        text={`${v.label}. ${v.purpose} ${v.summary}`}
+                        variant="minimal"
+                        className="ml-auto self-center"
+                      />
                     </div>
                     <p className="text-ancient/70 text-sm mb-2 italic">{v.purpose}</p>
                     <p className="text-ink/70 text-[15px] leading-[1.8]">{v.summary}</p>

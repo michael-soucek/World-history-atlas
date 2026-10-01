@@ -55,7 +55,7 @@ export function ReadAloudButton({
       {(isSpeaking || isPaused) && (
         <button
           onClick={stop}
-          className={`${isMinimal ? "p-2 min-w-11 min-h-11" : "p-1.5"} rounded-full bg-ink/4 hover:bg-ink/8 text-ink/30 hover:text-ink/60 
+          className={`${isMinimal ? "p-2 min-w-11 min-h-11" : "p-1.5"} flex items-center justify-center shrink-0 rounded-full bg-ink/4 hover:bg-ink/8 text-ink/30 hover:text-ink/60 
                      border border-transparent hover:border-ink/10 transition-colors cursor-pointer`}
           aria-label="Stop reading"
         >

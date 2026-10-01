@@ -52,6 +52,22 @@ export interface CrosswalkEntry {
   aliases?: string[];
   /** Representative year for "See on the map" link */
   representativeYear?: number;
+  /**
+   * Snapshot-year range [from, to] (inclusive) in which this entry's name and
+   * aliases apply to map features. Lets a generic alias like "France" or
+   * "Germany" resolve to the right polity for the era. Omit for no limit.
+   */
+  years?: [number, number];
+  /**
+   * Wikidata ID of the map feature to highlight, when it differs from this
+   * entry's own (e.g. two QIDs for the same Safavid state).
+   */
+  mapRegionId?: string;
+  /**
+   * Camera for the map link when no border feature exists for this polity in
+   * the source data — still lands on the right time and place.
+   */
+  mapView?: { lat: number; lng: number; zoom: number };
 }
 
 // ---------------------------------------------------------------------------

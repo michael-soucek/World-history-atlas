@@ -15,8 +15,8 @@
  * association are included, and every QID here was checked against the
  * actual historical-basemaps GeoJSON for the relevant year (not assumed) —
  * a name that sounds right isn't enough, since `geoEnrich.ts` matches a
- * border feature to a crosswalk entry by exact NAME string, with no
- * awareness of which era it's from. That's also why some plausible-looking
+ * border feature to a crosswalk entry by exact NAME string (optionally
+ * bounded to an era via CrosswalkEntry.years). That's also why some plausible-looking
  * additions are deliberately left out — see the "Not mapped" notes below.
  * Anything genuinely ambiguous (which side of a multi-party war, a movement
  * with no single associated state) is left out too. Those pages fall back
@@ -49,11 +49,8 @@ export const ENTITY_PLACE_OVERRIDE: Record<string, string> = {
   // snapshots do have a feature named "Egypt", but the crosswalk's existing
   // "Egypt" entry is the modern country's QID (Q79); pointing this era at it
   // would show present-day Egypt's Wikipedia content on a 1213 BCE page.
-  // Adding a second "ancient Egypt" entry wouldn't help either — the name
-  // matching in geoEnrich.ts has no year-awareness, so two entries sharing
-  // the name "Egypt" would just create an ambiguous lookup and risk breaking
-  // the modern Egypt place page instead. Fixing this properly means making
-  // that matching year-aware, which is a real but separate piece of work.
+  // Name matching is now year-aware (CrosswalkEntry.years), so this could be
+  // fixed by adding an "ancient Egypt" crosswalk entry bounded to BCE years.
 
   // Events
   "fall-of-rome": "Q42834", // Western Roman Empire
@@ -63,7 +60,7 @@ export const ENTITY_PLACE_OVERRIDE: Record<string, string> = {
   "spanish-conquest-of-the-inca-empire": "Q28573", // Inca Empire
   "an-lushan-rebellion": "Q9683", // Tang dynasty
   "house-of-wisdom": "Q12536", // Abbasid Caliphate
-  "siege-of-baghdad": "Q12536", // Abbasid Caliphate
+  "siege-of-baghdad": "Q178084", // Ilkhanate (the Mongol state Hulagu founded on the Abbasids' ruins; the Abbasids only appear in the 800–900 snapshots)
   "meiji-restoration": "Q17", // Japan
   "american-revolution": "Q30", // United States
   "battle-of-hastings": "Q179876", // Kingdom of England
@@ -100,4 +97,15 @@ export const ENTITY_PLACE_OVERRIDE: Record<string, string> = {
  */
 export const ENTITY_YEAR_OVERRIDE: Record<string, number> = {
   "haitian-revolution": 1815,
+  "napoleon": 1810, // died 1821; the First French Empire is only in the 1800 snapshot
+  "cyrus-the-great": -500, // died 530 BCE; Achaemenid Empire first appears at 500 BCE
+  "mongol-invasion-of-europe": 1279, // Golden Horde first appears in the 1279 snapshot
+  "an-lushan-rebellion": 800, // 755 → 700 snapshot predates the "Tang Empire" feature
+  "siege-of-baghdad": 1279,
+  "american-revolution": 1783, // 1775 → 1715 snapshot; the US first appears in 1783
+  "feudal-japan": 1500,
+  "ancient-rome": 117, // founding of Rome (753 BCE) predates any Roman feature
+  "aztec-civilization": 1500,
+  "inca-civilization": 1500,
+  "hellenistic-period": -300, // Seleucid Kingdom first appears in the 300 BCE snapshot
 };

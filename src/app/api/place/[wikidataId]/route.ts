@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { buildPlaceContent } from "@/lib/wikidata";
 import { resolveEntityBySlugOrQid } from "@/lib/entityResolver";
+import { lookupByQid } from "@/data/crosswalk";
 
 export async function GET(
   _req: NextRequest,
@@ -29,7 +30,14 @@ export async function GET(
     const content = await buildPlaceContent(resolved.wikidataId, resolved.canonicalName);
 
     return NextResponse.json(
-      { ...content, slug: resolved.slug, resolutionMethod: resolved.method },
+      {
+        ...content,
+        // Prefer the curated year (one where this polity is on the map) over
+        // Wikidata's inception date.
+        representativeYear: lookupByQid(resolved.wikidataId)?.representativeYear ?? content.representativeYear,
+        slug: resolved.slug,
+        resolutionMethod: resolved.method,
+      },
       {
         headers: {
           "Cache-Control": "public, max-age=3600, s-maxage=86400",

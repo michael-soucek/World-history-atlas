@@ -146,7 +146,7 @@ export default function EntityPage({ content, entry, entityType, baseRoute }: En
                   <ReadAloudButton 
                     text={para} 
                     variant="minimal" 
-                    className="shrink-0 mt-1 opacity-20 group-hover:opacity-100 transition-opacity" 
+                    className="shrink-0 mt-1 opacity-20 group-hover:opacity-100 pointer-coarse:opacity-100 transition-opacity" 
                   />
                   <p className="text-ink/75 text-base leading-[1.85]">{para}</p>
                 </div>
@@ -186,7 +186,7 @@ export default function EntityPage({ content, entry, entityType, baseRoute }: En
                     <ReadAloudButton 
                       text={sec.content} 
                       variant="minimal" 
-                      className="ml-2 opacity-0 group-hover:opacity-100 transition-opacity" 
+                      className="ml-2 opacity-0 group-hover:opacity-100 pointer-coarse:opacity-100 transition-opacity" 
                     />
                     <svg className="ml-auto w-4 h-4 text-ink/25 transition-transform group-open:rotate-180" viewBox="0 0 16 16" fill="none" aria-hidden="true">
                       <path d="M4 6l4 4 4-4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>

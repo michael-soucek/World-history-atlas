@@ -4,7 +4,7 @@
  */
 
 import { getSovereignColor } from "@/data/sovereignColors";
-import { resolveFeature } from "@/data/crosswalk";
+import { lookupByName, resolveFeature } from "@/data/crosswalk";
 
 // ── Raw upstream property shape ────────────────────────────────────────────
 
@@ -38,6 +38,8 @@ export interface EnrichedBorderProperties {
   confidence: ConfidenceLevel;
   wikidataId?: string;
   slug?: string;
+  /** True when the feature's own name (not just its sovereign) maps to wikidataId */
+  core?: boolean;
 }
 
 // ── Internal helpers ───────────────────────────────────────────────────────
@@ -111,6 +113,8 @@ function precisionToConfidence(p: 1 | 2 | 3): ConfidenceLevel {
  *
  * @param sourceOverride  Override the default "historical-basemaps" source tag.
  * @param confidenceOverride  Override the precision-derived confidence level.
+ * @param dataYear  Year of the source snapshot, used to pick era-appropriate
+ *                  crosswalk entries (defaults to `snapshotYear`).
  */
 export function enrichBorderProps(
   rawProps: RawProperties,
@@ -118,7 +122,8 @@ export function enrichBorderProps(
   snapshotYear: number,
   validTo: number,
   sourceOverride?: string,
-  confidenceOverride?: ConfidenceLevel
+  confidenceOverride?: ConfidenceLevel,
+  dataYear: number = snapshotYear
 ): EnrichedBorderProperties {
   const name = rawProps.NAME ?? "Unknown";
   const sovereign = rawProps.SUBJECTO || name;
@@ -126,7 +131,7 @@ export function enrichBorderProps(
   const precision = clampPrecision(rawProps.BORDERPRECISION);
   const area = geometryArea(geometry);
   const rank = area > 0 ? Math.min(8, Math.floor(Math.log10(area * 1000))) : 0;
-  const crosswalkEntry = resolveFeature(name, sovereign);
+  const crosswalkEntry = resolveFeature(name, sovereign, dataYear);
   const source = sourceOverride ?? "historical-basemaps";
   const confidence = confidenceOverride ?? precisionToConfidence(precision);
 
@@ -145,5 +150,6 @@ export function enrichBorderProps(
     confidence,
     wikidataId: crosswalkEntry?.wikidataId,
     slug: crosswalkEntry?.slug,
+    core: crosswalkEntry ? lookupByName(name, dataYear) === crosswalkEntry : undefined,
   };
 }

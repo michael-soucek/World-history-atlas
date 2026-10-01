@@ -4,7 +4,7 @@ import Link from "next/link";
 import { cache } from "react";
 import HandwrittenTitle from "@/components/HandwrittenTitle";
 import type { CrosswalkEntry } from "@/types";
-import { CROSSWALK, getCanonicalNameByQid, lookupBySlug } from "@/data/crosswalk";
+import { CROSSWALK, getCanonicalNameByQid, lookupByQid, lookupBySlug, mapLinkFor } from "@/data/crosswalk";
 import { buildPlaceContent } from "@/lib/wikidata";
 import { readableNameFromSlug, resolveEntityBySlugOrQid } from "@/lib/entityResolver";
 import { fetchWikipediaSearchSummary } from "@/lib/wikipedia";
@@ -48,10 +48,11 @@ const resolvePage = cache(async (slug: string): Promise<{
       return { entry: null, content: null, canonicalName, fallbackSummary };
     }
 
+    const curated = lookupByQid(resolved.wikidataId) ?? slugHint;
     const entry: CrosswalkEntry = {
+      ...curated,
       wikidataId: resolved.wikidataId,
       slug: resolved.slug,
-      representativeYear: slugHint?.representativeYear,
     };
 
     const canonicalName = resolved.canonicalName;
@@ -244,7 +245,7 @@ export default async function PlacePage({ params }: Props) {
                     <ReadAloudButton 
                       text={para} 
                       variant="minimal" 
-                      className="shrink-0 mt-1 opacity-20 group-hover:opacity-100 transition-opacity" 
+                      className="shrink-0 mt-1 opacity-20 group-hover:opacity-100 pointer-coarse:opacity-100 transition-opacity" 
                     />
                     <p className="text-ink/75 text-base leading-[1.85]">{para}</p>
                   </div>
@@ -269,6 +270,11 @@ export default async function PlacePage({ params }: Props) {
                       <h2 className="font-display text-xl font-semibold text-ink/80 italic group-open:text-ink transition-colors">
                         {sec.heading}
                       </h2>
+                      <ReadAloudButton
+                        text={sec.content}
+                        variant="minimal"
+                        className="ml-2 opacity-0 group-hover:opacity-100 pointer-coarse:opacity-100 transition-opacity"
+                      />
                       <svg className="ml-auto w-4 h-4 text-ink/25 transition-transform group-open:rotate-180" viewBox="0 0 16 16" fill="none" aria-hidden="true">
                         <path d="M4 6l4 4 4-4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
                       </svg>
@@ -298,15 +304,25 @@ export default async function PlacePage({ params }: Props) {
             <div className="rounded-2xl border border-paper bg-white/60 p-5 space-y-3">
               <p className="text-ink/35 text-xs font-semibold uppercase tracking-wider">Explore on the map</p>
               {(() => {
-                const year = content.representativeYear ?? entry.representativeYear;
+                // Curated crosswalk data wins: Wikidata's inception date is
+                // usually the founding moment, before the polity shows up on
+                // any border snapshot.
+                const link = mapLinkFor(entry);
+                const year = link.year ?? content.representativeYear;
+                const params = new URLSearchParams();
+                if (year !== undefined) params.set("year", String(year));
+                if (link.view) {
+                  params.set("lat", String(link.view.lat));
+                  params.set("lng", String(link.view.lng));
+                  params.set("z", String(link.view.zoom));
+                }
+                if (link.regionId) params.set("region", link.regionId);
                 return (
                   <Link
-                    href={year
-                      ? `/map?year=${year}&region=${entry.wikidataId}`
-                      : `/map?region=${entry.wikidataId}`}
+                    href={`/map?${params.toString()}`}
                     className="block w-full text-center rounded-xl px-4 py-3 text-sm font-semibold bg-ancient text-white hover:bg-ancient/90 transition-colors"
                   >
-                    {year
+                    {year !== undefined
                       ? `View map at ${year > 0 ? year + " CE" : Math.abs(year) + " BCE"}`
                       : "View on map"}
                   </Link>
