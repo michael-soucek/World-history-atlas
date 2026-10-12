@@ -9,11 +9,11 @@ const BASE = "https://www.bordersoftime.com";
 
 const REGION_SLUGS = [
   "europe", "east-asia", "south-asia", "middle-east",
-  "africa", "americas", "central-asia", "southeast-asia",
+  "africa", "americas", "central-asia", "southeast-asia", "oceania",
 ];
 const THEME_SLUGS = [
   "empires", "religions", "trade-routes", "conflicts",
-  "science", "art-culture", "age-of-exploration",
+  "science", "art-culture", "revolutions", "age-of-exploration",
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {

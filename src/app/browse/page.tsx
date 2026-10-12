@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import {
   Castle, Landmark, Mountain, Globe, Globe2, Leaf, Sun, Compass,
-  Sword, Star, Ship, Shield, FlaskConical, Palette,
+  Sword, Star, Ship, Shield, FlaskConical, Palette, Flag,
   Users, Zap, ScrollText,
   type LucideIcon,
 } from "lucide-react";
@@ -53,7 +53,7 @@ function listForType(type: EntityType): { slug: string; name: string }[] {
       type === "event"  ? EVENTS_CROSSWALK :
       CULTURES_CROSSWALK;
     for (const entry of Object.values(source)) {
-      push(entry.slug, readableNameFromSlug(entry.slug), entry.wikidataId);
+      push(entry.slug, entry.name ?? readableNameFromSlug(entry.slug), entry.wikidataId);
     }
   }
 
@@ -89,6 +89,7 @@ const REGIONS: { slug: string; label: string; Icon: LucideIcon }[] = [
   { slug: "americas",       label: "The Americas",    Icon: Globe2    },
   { slug: "central-asia",   label: "Central Asia",    Icon: Compass   },
   { slug: "southeast-asia", label: "Southeast Asia",  Icon: Leaf      },
+  { slug: "oceania",        label: "Oceania",         Icon: Ship      },
 ];
 
 const THEMES: { slug: string; label: string; Icon: LucideIcon }[] = [
@@ -98,6 +99,7 @@ const THEMES: { slug: string; label: string; Icon: LucideIcon }[] = [
   { slug: "conflicts",    label: "Wars & Conflicts",     Icon: Shield        },
   { slug: "science",      label: "Science & Invention",  Icon: FlaskConical  },
   { slug: "art-culture",  label: "Art & Culture",        Icon: Palette       },
+  { slug: "revolutions",  label: "Revolutions & Independence", Icon: Flag },
   { slug: "age-of-exploration", label: "Age of Exploration", Icon: Compass    },
 ];
 

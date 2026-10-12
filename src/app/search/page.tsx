@@ -36,7 +36,7 @@ export default function SearchPage() {
   for (const entry of Object.values(PEOPLE_CROSSWALK)) {
     items.push({
       slug: entry.slug,
-      name: entry.slug.split("-").map(w => w[0].toUpperCase() + w.slice(1)).join(" "),
+      name: entry.name ?? entry.slug.split("-").map(w => w[0].toUpperCase() + w.slice(1)).join(" "),
       entityType: "person",
       wikidataId: entry.wikidataId,
       route: "person",
@@ -47,7 +47,7 @@ export default function SearchPage() {
   for (const entry of Object.values(EVENTS_CROSSWALK)) {
     items.push({
       slug: entry.slug,
-      name: entry.slug.split("-").map(w => w[0].toUpperCase() + w.slice(1)).join(" "),
+      name: entry.name ?? entry.slug.split("-").map(w => w[0].toUpperCase() + w.slice(1)).join(" "),
       entityType: "event",
       wikidataId: entry.wikidataId,
       route: "event",
@@ -58,7 +58,7 @@ export default function SearchPage() {
   for (const entry of Object.values(CULTURES_CROSSWALK)) {
     items.push({
       slug: entry.slug,
-      name: entry.slug.split("-").map(w => w[0].toUpperCase() + w.slice(1)).join(" "),
+      name: entry.name ?? entry.slug.split("-").map(w => w[0].toUpperCase() + w.slice(1)).join(" "),
       entityType: "culture",
       wikidataId: entry.wikidataId,
       route: "culture",

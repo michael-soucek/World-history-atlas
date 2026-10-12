@@ -135,8 +135,9 @@ export function readableNameFromSlug(slug: string): string {
 
   return spaced
     .split(" ")
-    .map((w) => {
+    .map((w, i) => {
       if (/^(ii|iii|iv|v|vi|vii|viii|ix|x)$/i.test(w)) return w.toUpperCase();
+      if (i > 0 && /^(of|and|the|in|on|at|to)$/i.test(w)) return w.toLowerCase();
       return w.charAt(0).toUpperCase() + w.slice(1);
     })
     .join(" ");

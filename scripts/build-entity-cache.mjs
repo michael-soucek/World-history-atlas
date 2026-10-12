@@ -7,7 +7,12 @@ const ROOT = process.cwd();
 const CROSSWALK_PATH = path.join(ROOT, "src/data/crosswalk.ts");
 const ENTITY_CROSSWALK_PATH = path.join(ROOT, "src/data/entityCrosswalk.ts");
 const OUT_PATH = path.join(ROOT, "public/data/entity-cache.json");
-const USER_AGENT = "WorldHistoryAtlas/1.0 (entity-cache-build)";
+const USER_AGENT = "BordersOfTime/1.0 (https://www.bordersoftime.com; entity-cache-build)";
+/** Long "History" sections can run to 50k+ characters; keep pages readable. */
+const MAX_SECTION_CHARS = 12000;
+/** Cached entries with at least this many sections are reused unless --full. */
+const MIN_GOOD_SECTIONS = 3;
+const FULL_REBUILD = process.argv.includes("--full");
 
 function parsePlaceCrosswalk(fileText) {
   const out = [];
@@ -19,12 +24,25 @@ function parsePlaceCrosswalk(fileText) {
   return out;
 }
 
+/** Mirrors readableNameFromSlug in src/lib/entityResolver.ts. */
+function readableSlug(slug) {
+  return slug
+    .split("-")
+    .map((w, i) => {
+      if (/^(ii|iii|iv|v|vi|vii|viii|ix|x)$/i.test(w)) return w.toUpperCase();
+      if (i > 0 && /^(of|and|the|in|on|at|to)$/i.test(w)) return w;
+      return w.charAt(0).toUpperCase() + w.slice(1);
+    })
+    .join(" ");
+}
+
 function parseEntityCrosswalk(fileText) {
   const out = [];
-  const re = /"([^"]+)"\s*:\s*\{\s*wikidataId:\s*"(Q\d+)"\s*,\s*slug:\s*"([^"]+)"\s*,\s*entityType:\s*"(person|event|culture)"\s*\}/g;
+  const re = /"([^"]+)"\s*:\s*\{\s*wikidataId:\s*"(Q\d+)"\s*,\s*slug:\s*"([^"]+)"\s*,\s*entityType:\s*"(person|event|culture)"([^{}]*)\}/g;
   let m;
   while ((m = re.exec(fileText)) !== null) {
-    out.push({ name: m[1], qid: m[2], slug: m[3], entityType: m[4] });
+    const explicit = m[5].match(/name:\s*"([^"]+)"/);
+    out.push({ name: explicit ? explicit[1] : readableSlug(m[3]), qid: m[2], slug: m[3], entityType: m[4] });
   }
   return out;
 }
@@ -117,82 +135,44 @@ async function fetchExtractsBatch(titles) {
   return map;
 }
 
-/** Fetch curated sections for a Wikipedia title using MediaWiki Parse API. */
+/**
+ * Fetch an article's main sections as plain text in ONE request (the TextExtracts
+ * API with section headings kept as "== Heading =="), then split locally. The
+ * older approach called the Parse API once per section, six at a time, and got
+ * rate-limited (HTTP 429) on a full run.
+ */
 async function fetchSections(title) {
-  const CLEAN_PIPELINE_VERSION = "3";
-  const SECTION_KEYWORDS = [
-    "origin", "history", "rise", "formation", "establishment", "foundation", "early",
-    "background", "expansion", "height", "golden age", "peak", "decline", "fall",
-    "collapse", "legacy", "culture", "government", "economy", "religion", "military",
-    "period", "century", "era", "empire", "dynasty",
-  ];
-  const MAX_SECTIONS = 5;
+  // Skip apparatus; keep the article's own top-level sections in order. (An
+  // earlier keyword allow-list — "history", "rise", … — dropped every section
+  // of articles like the French Revolution, headed "Causes", "The Directory".)
+  const SKIP_HEADINGS = /^(see also|notes?|references?|citations?|footnotes|sources|bibliography|further reading|external links|gallery|works cited|general and cited (references|sources)|explanatory notes|in popular culture|popular culture|filmography|discography|selected works|list of)/i;
+  const MAX_SECTIONS = 6;
+  const url =
+    `https://en.wikipedia.org/w/api.php?action=query&prop=extracts&explaintext=1` +
+    `&exsectionformat=wiki&redirects=1&format=json&origin=*&titles=${encodeURIComponent(title)}`;
+  const data = await fetchJson(url);
+  const page = Object.values(data?.query?.pages ?? {})[0];
+  const text = String(page?.extract ?? "");
+  if (!text) return [];
 
-  const encoded = encodeURIComponent(title);
-  const sectionsUrl =
-    `https://en.wikipedia.org/w/api.php` +
-    `?action=parse&page=${encoded}&prop=sections&redirects=1&format=json&origin=*` +
-    `&atlas_clean=${CLEAN_PIPELINE_VERSION}`;
-
-  const raw = await fetchJson(sectionsUrl);
-  if (!raw || !raw.parse?.sections) return [];
-
-  const allSections = raw.parse.sections || [];
-  const selected = allSections
-    .filter(s => s.toclevel === 1)
-    .filter(s => {
-      const lower = s.line.toLowerCase().replace(/<[^>]+>/g, "");
-      return SECTION_KEYWORDS.some(kw => lower.includes(kw));
-    })
-    .slice(0, MAX_SECTIONS);
-
-  if (selected.length === 0) return [];
-
-  const results = await Promise.all(
-    selected.map(async (sec) => {
-      const secUrl =
-        `https://en.wikipedia.org/w/api.php` +
-        `?action=parse&page=${encoded}&prop=text&section=${sec.index}` +
-        `&redirects=1&format=json&origin=*` +
-        `&atlas_clean=${CLEAN_PIPELINE_VERSION}`;
-      const rawSec = await fetchJson(secUrl);
-      if (!rawSec || !rawSec.parse?.text?.["*"]) return null;
-
-      const html = rawSec.parse.text["*"];
-      const heading = sec.line.replace(/<[^>]+>/g, "").trim();
-      
-      let content = html
-        // Remove reference lists and citation footnotes before stripping tags
-        .replace(/<ol[^>]*class="[^"]*references[^"]*"[^>]*>[\s\S]*?<\/ol>/gi, "")
-        .replace(/<li[^>]*id="cite_note[^"]*"[^>]*>[\s\S]*?<\/li>/gi, "")
-        .replace(/<sup[^>]*class="[^"]*reference[^"]*"[^>]*>[\s\S]*?<\/sup>/gi, "")
-        .replace(/<style[^>]*>[\s\S]*?<\/style>/gi, "")
-        .replace(/<script[^>]*>[\s\S]*?<\/script>/gi, "")
-        .replace(/<table[^>]*>[\s\S]*?<\/table>/gi, "")
-        .replace(/<div[^>]*class="[^"]*thumb[^"]*"[^>]*>[\s\S]*?<\/div>/gi, "")
-        .replace(/<[^>]+>/g, " ")
-        .replace(/\s+/g, " ")
-        .trim();
-
-      // Decode HTML entities
-      content = content
-        .replace(/&#(\d+);/g, (_, n) => String.fromCharCode(Number(n)))
-        .replace(/&amp;/g, "&").replace(/&lt;/g, "<").replace(/&gt;/g, ">")
-        .replace(/&quot;/g, '"').replace(/&nbsp;/g, " ");
-
-      // Strip citation markers ([1], [ 2 ], etc.), edit links, and ^ reference lines
-      content = content
-        .replace(/\[(?:\s*\d+\s*)+\]/g, "")
-        .replace(/\[\s*edit\s*\]/gi, "")
-        .replace(/(^|\s)\^[^\n]*/g, "")
-        .replace(/\s{2,}/g, " ")
-        .trim();
-      
-      return content.length > 100 ? { heading, content } : null;
-    })
-  );
-
-  return results.filter(Boolean);
+  // Split on top-level "== Heading ==" lines; the lead (before the first) is the summary.
+  const parts = text.split(/^==[ \t]*([^=\n][^\n]*?)[ \t]*==[ \t]*$/m);
+  const sections = [];
+  for (let i = 1; i < parts.length && sections.length < MAX_SECTIONS; i += 2) {
+    const heading = parts[i].trim();
+    if (SKIP_HEADINGS.test(heading)) continue;
+    let content = parts[i + 1]
+      .replace(/^=+[ \t]*[^\n]*?[ \t]*=+[ \t]*$/gm, "") // subsection headings
+      .replace(/\[(?:\s*\d+\s*)+\]/g, "")
+      .replace(/\s+/g, " ")
+      .trim();
+    if (content.length > MAX_SECTION_CHARS) {
+      const cut = content.lastIndexOf(". ", MAX_SECTION_CHARS);
+      content = content.slice(0, cut > MAX_SECTION_CHARS / 2 ? cut + 1 : MAX_SECTION_CHARS).trim();
+    }
+    if (content.length > 100) sections.push({ heading, content });
+  }
+  return sections;
 }
 
 async function main() {
@@ -205,6 +185,13 @@ async function main() {
     if (!byQid.has(e.qid)) byQid.set(e.qid, e);
   }
   const entries = [...byQid.values()];
+
+  let previous = {};
+  try {
+    previous = JSON.parse(fs.readFileSync(OUT_PATH, "utf8")).entries ?? {};
+  } catch {
+    // no existing cache — build from scratch
+  }
 
   console.log(`Resolving ${entries.length} unique entities…`);
   const entityData = await fetchEntitiesBatch(entries.map((e) => e.qid));
@@ -237,15 +224,25 @@ async function main() {
         continue;
       }
 
+      const prev = previous[e.qid];
+      if (!FULL_REBUILD && prev && prev.entityType === e.entityType && (prev.sections?.length ?? 0) >= MIN_GOOD_SECTIONS) {
+        sliceResults.push({ qid: e.qid, data: prev, hasExtract: true, reused: true });
+        continue;
+      }
       const extract = d.enwikiTitle ? extracts.get(normKey(d.enwikiTitle)) : "";
+      const t0 = Date.now();
       const sections = d.enwikiTitle ? await fetchSections(d.enwikiTitle) : [];
+      console.log(`  ${e.entityType}:${d.label || e.slug} — ${sections.length} sections (${((Date.now() - t0) / 1000).toFixed(1)}s)`);
       
       sliceResults.push({
         qid: e.qid,
         data: {
           qid: e.qid,
           entityType: e.entityType,
-          name: d.label || e.name || e.slug,
+          // The site's own display name (crosswalk key, explicit name, or
+          // slug) — Wikidata labels can be vandalised and article titles carry
+          // disambiguators like "Macedonia (ancient kingdom)".
+          name: e.name || d.label || e.slug,
           summary: extract || d.description || "",
           sections,
           wikipediaUrl: d.wikipediaUrl,
@@ -256,9 +253,14 @@ async function main() {
     }
     
     results.push(...sliceResults);
-    process.stdout.write(".");
-    if (results.length % 20 === 0) console.log(` (${results.length}/${entries.length})`);
-    await sleep(1200); // Larger pause between slices
+    // Save progress periodically so an interrupted run keeps what it fetched.
+    if (results.filter((r) => !r.reused && !r.failed).length % 10 === 0 && !sliceResults.every((r) => r.reused)) {
+      const partial = { generatedAt: new Date().toISOString(), entries: { ...previous } };
+      for (const r of results) if (!r.failed) partial.entries[r.qid] = r.data;
+      fs.writeFileSync(OUT_PATH, JSON.stringify(partial, null, 2), "utf8");
+    }
+    if (results.length % 20 === 0) console.log(`(${results.length}/${entries.length})`);
+    if (!sliceResults.every((r) => r.reused)) await sleep(1200); // Larger pause between slices
   }
   console.log("\n");
 

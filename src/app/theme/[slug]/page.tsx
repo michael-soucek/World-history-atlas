@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { Sword, Star, Ship, Shield, FlaskConical, Palette, Compass, type LucideIcon } from "lucide-react";
+import { Sword, Star, Ship, Shield, FlaskConical, Palette, Compass, Flag, type LucideIcon } from "lucide-react";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
 import HandwrittenTitle from "@/components/HandwrittenTitle";
@@ -37,10 +37,9 @@ const THEMES: Record<string, {
     placeNames: [
       "Roman Empire", "Mongol Empire", "British Empire", "Spanish Empire",
       "Ottoman Empire", "Mughal Empire", "Achaemenid Empire", "Macedonian Empire",
-      "Qing dynasty", "Russian Empire", "First French Empire",
-    ],
-    peopleSlugs: ["alexander-the-great", "genghis-khan", "augustus", "napoleon", "cyrus-the-great", "suleiman-the-magnificent", "akbar"],
-    eventSlugs: ["fall-of-rome", "mongol-invasion-of-europe", "fall-of-tenochtitlan", "spanish-conquest-of-the-inca-empire", "meiji-restoration"],
+      "Qing dynasty", "Russian Empire", "First French Empire", "Assyria", "Yuan dynasty", "British Raj", "Soviet Union"],
+    peopleSlugs: ["alexander-the-great", "genghis-khan", "augustus", "napoleon", "cyrus-the-great", "suleiman-the-magnificent", "akbar", "sargon-of-akkad", "darius-the-great", "qin-shi-huang", "ashoka", "justinian-i", "mansa-musa", "pachacuti", "moctezuma-ii", "charles-v-holy-roman-emperor", "peter-the-great", "catherine-the-great", "louis-xiv", "queen-victoria"],
+    eventSlugs: ["fall-of-rome", "mongol-invasion-of-europe", "fall-of-tenochtitlan", "spanish-conquest-of-the-inca-empire", "meiji-restoration", "qins-wars-of-unification", "scramble-for-africa", "unification-of-germany", "decolonisation-of-africa", "dissolution-of-the-soviet-union"],
     cultureSlugs: ["aztec-civilization", "inca-civilization", "hellenistic-period"],
   },
   "religions": {
@@ -56,9 +55,9 @@ const THEMES: Record<string, {
       "Rashidun Caliphate", "Umayyad Caliphate", "Abbasid Caliphate",
       "Papal States", "Byzantine Empire",
     ],
-    peopleSlugs: ["constantine-i", "saladin", "charlemagne"],
-    eventSlugs: ["crusades", "fall-of-constantinople", "protestant-reformation"],
-    cultureSlugs: ["islamic-golden-age", "confucianism"],
+    peopleSlugs: ["constantine-i", "saladin", "charlemagne", "buddha", "confucius", "jesus", "muhammad", "ashoka", "martin-luther"],
+    eventSlugs: ["crusades", "fall-of-constantinople", "protestant-reformation", "reconquista", "thirty-years-war"],
+    cultureSlugs: ["islamic-golden-age", "confucianism", "judaism", "hinduism", "buddhism", "zoroastrianism", "christianity", "islam"],
   },
   "trade-routes": {
     label: "Trade Routes",
@@ -73,9 +72,9 @@ const THEMES: Record<string, {
       "Srivijaya", "Majapahit", "Mali Empire", "Ghana Empire",
       "Republic of Venice", "Portuguese Empire", "Dutch Republic",
     ],
-    peopleSlugs: ["kublai-khan"],
-    eventSlugs: ["age-of-discovery", "bantu-expansion"],
-    cultureSlugs: ["silk-road", "polynesian-navigation"],
+    peopleSlugs: ["kublai-khan", "mansa-musa"],
+    eventSlugs: ["age-of-discovery", "bantu-expansion", "columbian-exchange", "atlantic-slave-trade", "first-opium-war"],
+    cultureSlugs: ["silk-road", "polynesian-navigation", "phoenicia", "swahili-culture"],
   },
   "conflicts": {
     label: "Wars & Conflicts",
@@ -90,8 +89,8 @@ const THEMES: Record<string, {
       "Holy Roman Empire", "Mongol Empire", "First French Empire",
       "Nazi Germany", "Austria-Hungary", "German Empire",
     ],
-    peopleSlugs: ["hannibal", "napoleon", "attila-the-hun"],
-    eventSlugs: ["battle-of-marathon", "fall-of-rome", "crusades", "mongol-invasion-of-europe", "french-revolution", "fall-of-constantinople", "battle-of-hastings", "an-lushan-rebellion", "siege-of-baghdad", "american-revolution", "haitian-revolution"],
+    peopleSlugs: ["hannibal", "napoleon", "attila-the-hun", "joan-of-arc", "shaka", "winston-churchill", "franklin-d-roosevelt", "joseph-stalin", "adolf-hitler"],
+    eventSlugs: ["battle-of-marathon", "fall-of-rome", "crusades", "mongol-invasion-of-europe", "french-revolution", "fall-of-constantinople", "battle-of-hastings", "an-lushan-rebellion", "siege-of-baghdad", "american-revolution", "haitian-revolution", "greco-persian-wars", "peloponnesian-war", "punic-wars", "battle-of-tours", "battle-of-ain-jalut", "hundred-years-war", "sengoku-period", "thirty-years-war", "napoleonic-wars", "taiping-rebellion", "american-civil-war", "world-war-i", "world-war-ii", "holocaust", "chinese-civil-war", "korean-war", "vietnam-war", "cold-war", "cuban-missile-crisis"],
   },
   "science": {
     label: "Science & Invention",
@@ -106,8 +105,9 @@ const THEMES: Record<string, {
       "Abbasid Caliphate", "Kingdom of France", "British Empire",
       "United Kingdom",
     ],
-    cultureSlugs: ["islamic-golden-age", "renaissance"],
-    eventSlugs: ["house-of-wisdom"],
+    cultureSlugs: ["islamic-golden-age", "renaissance", "sumer", "scientific-revolution", "age-of-enlightenment"],
+    eventSlugs: ["house-of-wisdom", "neolithic-revolution", "industrial-revolution", "apollo-11"],
+    peopleSlugs: ["aristotle", "leonardo-da-vinci", "galileo-galilei", "isaac-newton", "charles-darwin", "marie-curie", "albert-einstein"],
   },
   "art-culture": {
     label: "Art & Culture",
@@ -122,7 +122,21 @@ const THEMES: Record<string, {
       "Roman Empire", "Han dynasty", "Mughal Empire",
       "Byzantine Empire", "Kingdom of France",
     ],
-    cultureSlugs: ["renaissance", "ancient-greece", "ancient-rome", "ancient-egypt", "feudal-japan", "maya-civilization", "aztec-civilization", "inca-civilization", "hellenistic-period"],
+    cultureSlugs: ["renaissance", "ancient-greece", "ancient-rome", "ancient-egypt", "feudal-japan", "maya-civilization", "aztec-civilization", "inca-civilization", "hellenistic-period", "sumer", "mycenaean-greece", "nok-culture", "mississippian-culture", "ancestral-puebloans", "aboriginal-australians"],
+    peopleSlugs: ["pericles", "socrates", "plato", "leonardo-da-vinci", "shah-jahan"],
+  },
+  "revolutions": {
+    label: "Revolutions & Independence",
+    Icon: Flag,
+    description: "Uprisings, independence movements and the end of empires — how ordinary people overturned old orders.",
+    body: [
+      "From the late 1600s onward, a wave of revolutions challenged kings, colonial rulers and empires. England's Glorious Revolution limited royal power; the American, French and Haitian revolutions spread ideas of popular sovereignty and, in Haiti's case, ended slavery by force.",
+      "In the 1800s Latin America broke from Spain and Portugal, Japan remade itself in the Meiji Restoration, and Italy and Germany unified into nation-states. The 20th century brought revolution in Russia and China, and a great wave of decolonization as India, Africa and Southeast Asia won independence.",
+      "The cycle continued to the end of the century: the revolutions of 1989 brought down communist governments across Eastern Europe, and the Soviet Union itself dissolved in 1991 — redrawing the map of Europe and Asia once again.",
+    ],
+    placeNames: ["Haiti", "United States", "Soviet Union", "British Raj", "South Africa"],
+    peopleSlugs: ["george-washington", "toussaint-louverture", "simon-bolivar", "sun-yat-sen", "vladimir-lenin", "mahatma-gandhi", "mao-zedong", "ho-chi-minh", "nelson-mandela"],
+    eventSlugs: ["glorious-revolution", "american-revolution", "french-revolution", "haitian-revolution", "spanish-american-wars-of-independence", "meiji-restoration", "unification-of-italy", "unification-of-germany", "russian-revolution", "partition-of-india", "decolonisation-of-africa", "revolutions-of-1989", "dissolution-of-the-soviet-union"],
   },
   "age-of-exploration": {
     label: "Age of Exploration",

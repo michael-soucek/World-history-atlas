@@ -35,7 +35,6 @@ export const ENTITY_PLACE_OVERRIDE: Record<string, string> = {
   "napoleon": "Q71084", // First French Empire
   "constantine-i": "Q2277", // Roman Empire
   "augustus": "Q2277", // Roman Empire
-  "kublai-khan": "Q12557", // Mongol Empire (also founded the Yuan dynasty, not separately in the crosswalk)
   "suleiman-the-magnificent": "Q12560", // Ottoman Empire
   "akbar": "Q33296", // Mughal Empire
   "cyrus-the-great": "Q389688", // Achaemenid Empire
@@ -51,6 +50,52 @@ export const ENTITY_PLACE_OVERRIDE: Record<string, string> = {
   // would show present-day Egypt's Wikipedia content on a 1213 BCE page.
   // Name matching is now year-aware (CrosswalkEntry.years), so this could be
   // fixed by adding an "ancient Egypt" crosswalk entry bounded to BCE years.
+
+  // Added 2026-10 — each checked against the snapshot named in
+  // ENTITY_YEAR_OVERRIDE, resolving names the same way lookupByName does.
+  "mansa-musa": "Q184536", // Mali Empire
+  "sundiata-keita": "Q184536", // Mali Empire
+  "shaka": "Q729768", // Zulu Kingdom
+  "moctezuma-ii": "Q2608489", // Aztec Empire
+  "pachacuti": "Q28573", // Inca Empire
+  "qin-shi-huang": "Q7183", // Qin dynasty
+  "kangxi-emperor": "Q8733", // Qing dynasty
+  "empress-dowager-cixi": "Q8733", // Qing dynasty
+  "tokugawa-ieyasu": "Q205662", // Tokugawa shogunate
+  "emperor-meiji": "Q188712", // Empire of Japan
+  "peter-the-great": "Q186096", // Tsardom of Russia
+  "catherine-the-great": "Q34266", // Russian Empire
+  "ivan-the-terrible": "Q186096", // Tsardom of Russia
+  "ashoka": "Q62943", // Maurya Empire
+  "chandragupta-maurya": "Q62943", // Maurya Empire
+  "shah-jahan": "Q33296", // Mughal Empire
+  "hammurabi": "Q47690", // Babylonia
+  "nebuchadnezzar-ii": "Q47690", // Babylonia
+  "darius-the-great": "Q389688", // Achaemenid Empire
+  "justinian-i": "Q12544", // Byzantine Empire
+  "harun-al-rashid": "Q12536", // Abbasid Caliphate
+  "mehmed-ii": "Q12560", // Ottoman Empire
+  "william-the-conqueror": "Q179876", // Kingdom of England
+  "joan-of-arc": "Q70972", // Kingdom of France
+  "isabella-i-of-castile": "Q217196", // Crown of Castile
+  "charles-v-holy-roman-emperor": "Q12548", // Holy Roman Empire
+  "elizabeth-i": "Q179876", // Kingdom of England
+  "louis-xiv": "Q70972", // Kingdom of France
+  "queen-victoria": "Q8680", // British Empire
+  "otto-von-bismarck": "Q43287", // German Empire
+  "martin-luther": "Q12548", // Holy Roman Empire
+  "george-washington": "Q30", // United States
+  "abraham-lincoln": "Q30", // United States
+  "vladimir-lenin": "Q15180", // Soviet Union
+  "joseph-stalin": "Q15180", // Soviet Union
+  "adolf-hitler": "Q7318", // Nazi Germany
+  "winston-churchill": "Q8680", // British Empire
+  "franklin-d-roosevelt": "Q30", // United States
+  "mao-zedong": "Q148", // China
+  "mahatma-gandhi": "Q129286", // British Raj
+  "ho-chi-minh": "Q881", // Vietnam
+  "nelson-mandela": "Q258", // South Africa
+  "kublai-khan": "Q7313", // Yuan dynasty
 
   // Events
   "fall-of-rome": "Q42834", // Western Roman Empire
@@ -70,6 +115,30 @@ export const ENTITY_PLACE_OVERRIDE: Record<string, string> = {
   "haitian-revolution": "Q790", // Haiti — see ENTITY_YEAR_OVERRIDE below; the event's own start year predates Haiti existing as a feature
   // Not mapped: black-death, crusades, age-of-discovery, bantu-expansion —
   // no single associated place, or the natural one isn't in the crosswalk.
+
+  // Added 2026-10 (verified the same way as the people above)
+  "greco-persian-wars": "Q389688", // Achaemenid Empire
+  "punic-wars": "Q6343", // Carthage
+  "qins-wars-of-unification": "Q7183", // Qin dynasty
+  "battle-of-tours": "Q8575586", // Umayyad Caliphate
+  "battle-of-ain-jalut": "Q282428", // Mamluk Sultanate
+  "reconquista": "Q238445", // Emirate of Granada
+  "thirty-years-war": "Q12548", // Holy Roman Empire
+  "glorious-revolution": "Q179876", // Kingdom of England
+  "industrial-revolution": "Q8680", // British Empire
+  "napoleonic-wars": "Q71084", // First French Empire
+  "first-opium-war": "Q8733", // Qing dynasty
+  "taiping-rebellion": "Q8733", // Qing dynasty
+  "american-civil-war": "Q30", // United States
+  "unification-of-germany": "Q43287", // German Empire
+  "unification-of-italy": "Q38", // Italy
+  "russian-revolution": "Q15180", // Soviet Union
+  "holocaust": "Q7318", // Nazi Germany
+  "partition-of-india": "Q668", // India
+  "chinese-civil-war": "Q148", // China
+  "vietnam-war": "Q881", // Vietnam
+  "apollo-11": "Q30", // United States
+  "dissolution-of-the-soviet-union": "Q15180", // Soviet Union
 
   // Cultures
   "islamic-golden-age": "Q12536", // Abbasid Caliphate
@@ -108,4 +177,70 @@ export const ENTITY_YEAR_OVERRIDE: Record<string, number> = {
   "aztec-civilization": 1500,
   "inca-civilization": 1500,
   "hellenistic-period": -300, // Seleucid Kingdom first appears in the 300 BCE snapshot
+  // Added 2026-10: the snapshot each new link above was verified against.
+  "mansa-musa": 1300,
+  "sundiata-keita": 1279,
+  "shaka": 1815,
+  "moctezuma-ii": 1500,
+  "pachacuti": 1500,
+  "qin-shi-huang": -300,
+  "kangxi-emperor": 1700,
+  "empress-dowager-cixi": 1880,
+  "tokugawa-ieyasu": 1650,
+  "emperor-meiji": 1900,
+  "peter-the-great": 1700,
+  "catherine-the-great": 1783,
+  "ivan-the-terrible": 1530,
+  "ashoka": -300,
+  "chandragupta-maurya": -300,
+  "shah-jahan": 1650,
+  "hammurabi": -1500,
+  "nebuchadnezzar-ii": -700,
+  "darius-the-great": -500,
+  "justinian-i": 500,
+  "harun-al-rashid": 800,
+  "mehmed-ii": 1492,
+  "william-the-conqueror": 1100,
+  "joan-of-arc": 1400,
+  "isabella-i-of-castile": 1492,
+  "charles-v-holy-roman-emperor": 1530,
+  "elizabeth-i": 1600,
+  "louis-xiv": 1700,
+  "queen-victoria": 1880,
+  "otto-von-bismarck": 1880,
+  "martin-luther": 1530,
+  "george-washington": 1783,
+  "abraham-lincoln": 1815,
+  "vladimir-lenin": 1920,
+  "joseph-stalin": 1938,
+  "adolf-hitler": 1938,
+  "winston-churchill": 1938,
+  "franklin-d-roosevelt": 1938,
+  "mao-zedong": 1960,
+  "mahatma-gandhi": 1930,
+  "ho-chi-minh": 1960,
+  "nelson-mandela": 1994,
+  "kublai-khan": 1279,
+  "greco-persian-wars": -500,
+  "punic-wars": -300,
+  "qins-wars-of-unification": -300,
+  "battle-of-tours": 700,
+  "battle-of-ain-jalut": 1279,
+  "reconquista": 1400,
+  "thirty-years-war": 1600,
+  "glorious-revolution": 1650,
+  "industrial-revolution": 1815,
+  "napoleonic-wars": 1800,
+  "first-opium-war": 1815,
+  "taiping-rebellion": 1880,
+  "american-civil-war": 1880,
+  "unification-of-germany": 1880,
+  "unification-of-italy": 1880,
+  "russian-revolution": 1920,
+  "holocaust": 1938,
+  "partition-of-india": 1960,
+  "chinese-civil-war": 1960,
+  "vietnam-war": 1960,
+  "apollo-11": 1960,
+  "dissolution-of-the-soviet-union": 1960,
 };

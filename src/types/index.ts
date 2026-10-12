@@ -68,6 +68,8 @@ export interface CrosswalkEntry {
    * the source data — still lands on the right time and place.
    */
   mapView?: { lat: number; lng: number; zoom: number };
+  /** Display name for lists, when the slug doesn't read well ("Qin's wars of unification"). */
+  name?: string;
 }
 
 // ---------------------------------------------------------------------------

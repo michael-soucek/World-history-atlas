@@ -119,6 +119,84 @@ export const CROSSWALK: Record<string, CrosswalkEntry> = {
   "Switzerland": { wikidataId: "Q39", slug: "switzerland", aliases: ["Swiss Confederation"], representativeYear: 2000 }, // ✓ Switzerland
   "Belgium": { wikidataId: "Q31", slug: "belgium", representativeYear: 2000 }, // ✓ Belgium
   "Hungary": { wikidataId: "Q28", slug: "hungary", representativeYear: 2000 }, // ✓ Hungary
+
+  // ── Added 2026-10: coverage expansion ─────────────────────────────────────
+  // Keys are display names; aliases include the exact NAME string used in the
+  // historical-basemaps snapshots (checked against every snapshot file). QIDs
+  // resolved from the English Wikipedia article.
+  "Elam": { wikidataId: "Q128904", slug: "elam", representativeYear: -2000 }, // Elam
+  "Assyria": { wikidataId: "Q41137", slug: "assyria", representativeYear: -1000 }, // Assyria
+  "Babylonia": { wikidataId: "Q47690", slug: "babylonia", representativeYear: -1000 }, // Babylonia
+  "Hittites": { wikidataId: "Q5406", slug: "hittites", representativeYear: -1500 }, // Hittites
+  "Minoan civilization": { wikidataId: "Q134178", slug: "minoan-civilization", aliases: ["Minoan"], representativeYear: -3000 }, // Minoan civilization
+  "Indus Valley Civilisation": { wikidataId: "Q42534", slug: "indus-valley-civilisation", aliases: ["Indus valley civilization"], representativeYear: -3000 }, // Indus Valley Civilisation
+  "Olmecs": { wikidataId: "Q135364", slug: "olmecs", aliases: ["Olmec"], representativeYear: -700 }, // Olmecs
+  "Kingdom of Kush": { wikidataId: "Q241790", slug: "kingdom-of-kush", aliases: ["Kush", "Meroe", "Kushites"], representativeYear: -1000 }, // Kingdom of Kush
+  "Urartu": { wikidataId: "Q185068", slug: "urartu", representativeYear: -1000 }, // Urartu
+  "Scythians": { wikidataId: "Q131802", slug: "scythians", representativeYear: -200 }, // Scythians
+  "Celts": { wikidataId: "Q35966", slug: "celts", aliases: ["Celtic kingdoms"], representativeYear: -300 }, // Celts
+  "Zhou dynasty": { wikidataId: "Q35216", slug: "zhou-dynasty", aliases: ["Zhou states"], representativeYear: -400 }, // Zhou dynasty
+  "Qin dynasty": { wikidataId: "Q7183", slug: "qin-dynasty", aliases: ["Qin"], representativeYear: -323 }, // Qin dynasty
+  "Xiongnu": { wikidataId: "Q188836", slug: "xiongnu", representativeYear: -200 }, // Xiongnu
+  "Parthian Empire": { wikidataId: "Q1986139", slug: "parthian-empire", representativeYear: 100 }, // Parthian Empire
+  "Kushan Empire": { wikidataId: "Q25979", slug: "kushan-empire", representativeYear: -100 }, // Kushan Empire
+  "Teotihuacan": { wikidataId: "Q172613", slug: "teotihuacan", representativeYear: 100 }, // Teotihuacan
+  "Moche culture": { wikidataId: "Q208188", slug: "moche-culture", aliases: ["Moche"], representativeYear: 300 }, // Moche culture
+  "Silla": { wikidataId: "Q28456", slug: "silla", representativeYear: 400 }, // Silla
+  "Sui dynasty": { wikidataId: "Q7405", slug: "sui-dynasty", aliases: ["Sui Empire"], representativeYear: 600 }, // Sui dynasty
+  "Göktürks": { wikidataId: "Q205466", slug: "gokturks", representativeYear: 600 }, // Göktürks
+  "Khazars": { wikidataId: "Q173282", slug: "khazars", representativeYear: 800 }, // Khazars
+  "Kievan Rus'": { wikidataId: "Q1108445", slug: "kievan-rus", aliases: ["Kievan Rus", "Kyivan Rus", "Rus' Khaganate"], representativeYear: 1100 }, // Kievan Rus'
+  "Pala Empire": { wikidataId: "Q668412", slug: "pala-empire", aliases: ["Palas"], representativeYear: 900 }, // Pala Empire
+  "Fatimid Caliphate": { wikidataId: "Q160307", slug: "fatimid-caliphate", representativeYear: 1100 }, // Fatimid Caliphate
+  "Samanid Empire": { wikidataId: "Q12150341", slug: "samanid-empire", representativeYear: 900 }, // Samanid Empire
+  "Ghaznavid Empire": { wikidataId: "Q249578", slug: "ghaznavid-empire", aliases: ["Ghaznavid Emirate"], representativeYear: 1100 }, // Ghaznavid Empire
+  "Seljuk Empire": { wikidataId: "Q3708094", slug: "seljuk-empire", aliases: ["Seljuk Caliphate"], representativeYear: 1100 }, // Seljuk Empire
+  "Liao dynasty": { wikidataId: "Q4958", slug: "liao-dynasty", aliases: ["Liao"], representativeYear: 1100 }, // Liao dynasty
+  "Chola dynasty": { wikidataId: "Q151148", slug: "chola-dynasty", aliases: ["Chola Empire", "Cholas", "Chola"], representativeYear: 1279 }, // Chola dynasty
+  "Kingdom of Great Zimbabwe": { wikidataId: "Q596092", slug: "kingdom-of-great-zimbabwe", aliases: ["Great Zimbabwe"], representativeYear: 1200 }, // Kingdom of Great Zimbabwe
+  "Toltec": { wikidataId: "Q187897", slug: "toltec", aliases: ["Toltec Empire"], representativeYear: 1000 }, // Toltec
+  "Tiwanaku": { wikidataId: "Q61750", slug: "tiwanaku", aliases: ["Tiahuanaco Empire"], representativeYear: 900 }, // Tiwanaku
+  "Wari culture": { wikidataId: "Q605340", slug: "wari-culture", aliases: ["Huari Empire"], representativeYear: 900 }, // Wari culture
+  "Chimor": { wikidataId: "Q581741", slug: "chimor", aliases: ["Chimú Empire"], representativeYear: 1200 }, // Chimor
+  "Almoravid dynasty": { wikidataId: "Q75613", slug: "almoravid-dynasty", representativeYear: 1100 }, // Almoravid dynasty
+  "Almohad Caliphate": { wikidataId: "Q199688", slug: "almohad-caliphate", representativeYear: 1200 }, // Almohad Caliphate
+  "Goryeo": { wikidataId: "Q28208", slug: "goryeo", aliases: ["Korea"], years: [918, 1391], representativeYear: 1200 }, // Goryeo
+  "Kanem–Bornu Empire": { wikidataId: "Q1139762", slug: "kanem-bornu-empire", aliases: ["Kanem-Bornu", "Kanem"], representativeYear: 1650 }, // Kanem–Bornu Empire
+  "Champa": { wikidataId: "Q216786", slug: "champa", representativeYear: 1000 }, // Champa
+  "Mamluk Sultanate": { wikidataId: "Q282428", slug: "mamluk-sultanate", aliases: ["Mamluke Sultanate"], representativeYear: 1400 }, // Mamluk Sultanate
+  "Yuan dynasty": { wikidataId: "Q7313", slug: "yuan-dynasty", aliases: ["Great Khanate"], representativeYear: 1300 }, // Yuan dynasty
+  "Chagatai Khanate": { wikidataId: "Q487829", slug: "chagatai-khanate", representativeYear: 1400 }, // Chagatai Khanate
+  "Kamakura shogunate": { wikidataId: "Q736839", slug: "kamakura-shogunate", aliases: ["Shogun Japan (Kamakura)"], representativeYear: 1300 }, // Kamakura shogunate
+  "State of the Teutonic Order": { wikidataId: "Q156020", slug: "state-of-the-teutonic-order", aliases: ["Teutonic Knights", "Teutonic Order"], representativeYear: 1400 }, // State of the Teutonic Order
+  "Grand Principality of Moscow": { wikidataId: "Q170770", slug: "grand-principality-of-moscow", aliases: ["Grand Duchy of Moscow"], representativeYear: 1492 }, // Grand Principality of Moscow
+  "Ayutthaya Kingdom": { wikidataId: "Q841364", slug: "ayutthaya-kingdom", aliases: ["Ayutthaya"], representativeYear: 1530 }, // Ayutthaya Kingdom
+  "Emirate of Granada": { wikidataId: "Q238445", slug: "emirate-of-granada", aliases: ["Granada"], representativeYear: 1300 }, // Emirate of Granada
+  "Crown of Castile": { wikidataId: "Q217196", slug: "crown-of-castile", aliases: ["Castile", "Castilla", "Castille"], representativeYear: 1300 }, // Crown of Castile
+  "Crimean Khanate": { wikidataId: "Q160440", slug: "crimean-khanate", representativeYear: 1500 }, // Crimean Khanate
+  "Tsardom of Russia": { wikidataId: "Q186096", slug: "tsardom-of-russia", aliases: ["Tsardom of Muscovy"], representativeYear: 1650 }, // Tsardom of Russia
+  "Oyo Empire": { wikidataId: "Q849623", slug: "oyo-empire", aliases: ["Oyo"], representativeYear: 1700 }, // Oyo Empire
+  "Asante Empire": { wikidataId: "Q722071", slug: "asante-empire", aliases: ["Asante"], representativeYear: 1800 }, // Asante Empire
+  "Kingdom of Benin": { wikidataId: "Q171203", slug: "kingdom-of-benin", aliases: ["Benin"], years: [1200, 1900], representativeYear: 1530 }, // Kingdom of Benin
+  "Tokugawa shogunate": { wikidataId: "Q205662", slug: "tokugawa-shogunate", representativeYear: 1700 }, // Tokugawa shogunate
+  "Haudenosaunee": { wikidataId: "Q68518", slug: "haudenosaunee", aliases: ["Iroquois"], representativeYear: 1600 }, // Haudenosaunee
+  "Comanche": { wikidataId: "Q117133", slug: "comanche", representativeYear: 1600 }, // Comanche
+  "New Spain": { wikidataId: "Q170603", slug: "new-spain", aliases: ["Viceroyalty of New Spain"], representativeYear: 1700 }, // New Spain
+  "Sikh Empire": { wikidataId: "Q83572", slug: "sikh-empire", aliases: ["Sikhs"], representativeYear: 1800 }, // Sikh Empire
+  "Hawaiian Kingdom": { wikidataId: "Q156418", slug: "hawaiian-kingdom", aliases: ["Kingdom of Hawaii"], representativeYear: 1880 }, // Hawaiian Kingdom
+  "Sokoto Caliphate": { wikidataId: "Q600524", slug: "sokoto-caliphate", representativeYear: 1880 }, // Sokoto Caliphate
+  "British Raj": { wikidataId: "Q129286", slug: "british-raj", representativeYear: 1914 }, // British Raj
+  "Empire of Japan": { wikidataId: "Q188712", slug: "empire-of-japan", aliases: ["Imperial Japan"], years: [1868, 1945], representativeYear: 1920 }, // Empire of Japan
+  "Soviet Union": { wikidataId: "Q15180", slug: "soviet-union", aliases: ["USSR", "White Russia", "Far Eastern SSR"], representativeYear: 1938 }, // Soviet Union
+  "China": { wikidataId: "Q148", slug: "china", years: [1949, 2010], representativeYear: 1994 }, // China
+  "Italy": { wikidataId: "Q38", slug: "italy", aliases: ["Kingdom of Italy"], representativeYear: 1938 }, // Italy
+  "Spain": { wikidataId: "Q29", slug: "spain", years: [1900, 2010], representativeYear: 1938 }, // Spain
+  "Canada": { wikidataId: "Q16", slug: "canada", representativeYear: 1930 }, // Canada
+  "Australia": { wikidataId: "Q408", slug: "australia", representativeYear: 1945 }, // Australia
+  "South Africa": { wikidataId: "Q258", slug: "south-africa", aliases: ["Union of South Africa"], representativeYear: 1960 }, // South Africa
+  "Morocco": { wikidataId: "Q1028", slug: "morocco", representativeYear: 1880 }, // Morocco
+  "Afghanistan": { wikidataId: "Q889", slug: "afghanistan", representativeYear: 1920 }, // Afghanistan
+  "Tibet": { wikidataId: "Q17252", slug: "tibet", years: [950, 1950], representativeYear: 1530 }, // Tibet
 };
 
 // ---------------------------------------------------------------------------
