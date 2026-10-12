@@ -6,6 +6,7 @@ import path from "node:path";
 const ROOT = process.cwd();
 const CROSSWALK_PATH = path.join(ROOT, "src/data/crosswalk.ts");
 const ENTITY_CROSSWALK_PATH = path.join(ROOT, "src/data/entityCrosswalk.ts");
+const VOYAGES_PATH = path.join(ROOT, "src/data/voyages.ts");
 const OUT_PATH = path.join(ROOT, "public/data/entity-cache.json");
 const USER_AGENT = "BordersOfTime/1.0 (https://www.bordersoftime.com; entity-cache-build)";
 /** Long "History" sections can run to 50k+ characters; keep pages readable. */
@@ -20,6 +21,17 @@ function parsePlaceCrosswalk(fileText) {
   let m;
   while ((m = re.exec(fileText)) !== null) {
     out.push({ name: m[1], qid: m[2], slug: m[3], entityType: "place" });
+  }
+  return out;
+}
+
+/** Explorers (voyages.ts) are cached as people so their pages get full sections too. */
+function parseExplorers(fileText) {
+  const out = [];
+  const re = /slug:\s*"([^"]+)",\s*name:\s*"([^"]+)",\s*wikidataId:\s*"(Q\d+)"/g;
+  let m;
+  while ((m = re.exec(fileText)) !== null) {
+    out.push({ name: m[2], qid: m[3], slug: m[1], entityType: "person" });
   }
   return out;
 }
@@ -181,7 +193,8 @@ async function main() {
 
   // One entry per QID (first occurrence wins — keeps canonical name).
   const byQid = new Map();
-  for (const e of [...placeEntries, ...otherEntries]) {
+  const explorerEntries = parseExplorers(fs.readFileSync(VOYAGES_PATH, "utf8"));
+  for (const e of [...placeEntries, ...otherEntries, ...explorerEntries]) {
     if (!byQid.has(e.qid)) byQid.set(e.qid, e);
   }
   const entries = [...byQid.values()];

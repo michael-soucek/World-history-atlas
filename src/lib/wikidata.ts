@@ -347,7 +347,9 @@ export async function buildEntityContent(
     const representativeYear = extractRepresentativeYear(entity, entityType);
     return {
       ...prebuilt,
-      name: labels["en"]?.value || prebuilt.name,
+      // Prefer the site's own name — Wikidata labels are editable by anyone
+      // and have been seen vandalised ("Franciaf" for Francia).
+      name: prebuilt.name || labels["en"]?.value,
       tagline,
       keyFacts,
       representativeYear,

@@ -958,6 +958,234 @@ const IBN_BATTUTA_VOYAGES: Voyage[] = [
   },
 ];
 
+// ── Marco Polo ──────────────────────────────────────────────────────────────
+// Stops follow the order of Polo's Travels (as dictated to Rustichello da Pisa)
+// and the standard modern reconstructions summarised in Wikipedia's "Marco Polo"
+// article. Several identifications (especially in Central Asia) are scholarly
+// best guesses, and some historians doubt parts of his account altogether.
+
+const MARCO_POLO_VOYAGES: Voyage[] = [
+  {
+    id: "polo-1",
+    label: "Outbound — overland to China",
+    ship: "Overland caravans along the Silk Road",
+    years: "1271–1275",
+    color: "#b45309",
+    purpose: "Accompany his father and uncle back to the court of Kublai Khan, carrying letters from the new Pope.",
+    summary: "Seventeen-year-old Marco left Venice with his father Niccolò and uncle Maffeo, who had already met Kublai Khan. After reaching Hormuz, they decided against the sea route and turned inland across Persia, over the Pamirs and along the southern edge of the Taklamakan Desert, reaching the Khan's summer capital at Shangdu (Xanadu) after about three and a half years.",
+    accuracyNote: "Route reconstructed from the Travels; the exact path across Persia and Central Asia is debated. No independent Chinese record mentions Marco Polo.",
+    path: [
+      [12.33, 45.44], [35.08, 32.92], [35.79, 36.77], [46.29, 38.08],
+      [57.08, 30.28], [56.47, 27.1], [57.08, 30.28], [66.9, 36.76],
+      [70.58, 37.12], [73.5, 37.0], [75.99, 39.47], [79.93, 37.11],
+      [88.2, 39.0], [94.66, 40.14], [100.45, 38.93], [116.18, 42.36],
+    ],
+    waypoints: [
+      { name: "Venice", date: "1271", lat: 45.44, lng: 12.33, note: "Departed with his father Niccolò and uncle Maffeo" },
+      { name: "Acre", date: "1271", lat: 32.92, lng: 35.08, note: "Crusader port; obtained holy oil from Jerusalem and letters from the newly elected Pope Gregory X" },
+      { name: "Tabriz", date: "1272", lat: 38.08, lng: 46.29, note: "Great trading city of the Mongol Ilkhanate" },
+      { name: "Hormuz", date: "c. 1272", lat: 27.1, lng: 56.47, note: "Judged the local ships unseaworthy and turned back inland instead of sailing to China", pivotal: true },
+      { name: "Balkh", date: "c. 1272", lat: 36.76, lng: 66.9, note: "Ancient city still ruined from the Mongol conquest" },
+      { name: "Pamir Mountains", date: "c. 1273", lat: 37.0, lng: 73.5, note: "Described the high plateau as 'the roof of the world'" },
+      { name: "Kashgar", date: "c. 1273", lat: 39.47, lng: 75.99, note: "Oasis city at the western edge of the Taklamakan" },
+      { name: "Khotan", date: "c. 1274", lat: 37.11, lng: 79.93, note: "Jade-producing oasis on the southern Silk Road" },
+      { name: "Dunhuang (Shazhou)", date: "c. 1274", lat: 40.14, lng: 94.66, note: "Gateway to China after crossing the desert of Lop" },
+      { name: "Shangdu (Xanadu)", date: "1275", lat: 42.36, lng: 116.18, note: "Kublai Khan's summer capital; Marco entered the Khan's service and stayed about 17 years", pivotal: true },
+    ],
+  },
+  {
+    id: "polo-2",
+    label: "Return — by sea",
+    ship: "Fleet of 14 Chinese junks",
+    years: "1291–1295",
+    color: "#0e7490",
+    purpose: "Escort the Mongol princess Kököchin to marry the Ilkhan of Persia, and finally return home.",
+    summary: "Kublai let the Polos leave only as escorts for Kököchin, bride-to-be of Arghun, ruler of the Ilkhanate. The fleet sailed from Quanzhou through Southeast Asia, waited out the monsoon for five months on Sumatra, and crossed the Indian Ocean to Hormuz. Many of the party died on the way, Arghun had died too, and Kököchin married his son Ghazan instead. The Polos reached Venice in 1295, and Marco's account of his travels, written in a Genoese prison, made him famous.",
+    accuracyNote: "Sea route follows the standard monsoon track between the ports named in the Travels; positions are approximate.",
+    path: [
+      [118.75, 24.75], [117.6, 23.3], [116.5, 22.3], [111.5, 18.5],
+      [109.5, 15.0], [109.7, 12.8], [109.3, 11.2], [107.5, 10.0],
+      [104.8, 6.0], [104.3, 1.25], [103.75, 1.15], [103.3, 1.2],
+      [102.6, 1.85], [101.5, 2.6], [98.5, 4.8], [97.2, 5.6],
+      [94.5, 6.2], [81.5, 5.8], [80.6, 5.75], [79.8, 6.3],
+      [79.7, 7.2], [79.6, 7.0], [78.2, 7.6], [77.5, 7.7],
+      [76.6, 8.6], [76.2, 9.2], [76.15, 9.9], [75.6, 11.3], [72.8, 16.0],
+      [66.5, 22.5], [58.5, 25.0], [57.0, 25.8], [56.6, 26.55],
+      [56.47, 27.05], [57.08, 30.28], [46.29, 38.08], [39.72, 41.0],
+      [28.97, 41.01], [25.0, 39.5], [22.5, 36.5], [19.0, 39.5],
+      [12.33, 45.44],
+    ],
+    waypoints: [
+      { name: "Quanzhou (Zayton)", date: "early 1291", lat: 24.9, lng: 118.6, note: "Departed from China's great port with a fleet of fourteen ships" },
+      { name: "Champa", date: "1291", lat: 15.0, lng: 109.0, note: "Kingdom on the coast of today's Vietnam" },
+      { name: "Sumatra", date: "1291–92", lat: 5.2, lng: 97.1, note: "Waited five months for the monsoon to change" },
+      { name: "Sri Lanka", date: "1292", lat: 7.2, lng: 79.8, note: "Described its rubies and the pilgrimage peak later called Adam's Peak" },
+      { name: "Malabar Coast", date: "1292", lat: 11.3, lng: 75.6, note: "Pepper-trading coast of south-west India" },
+      { name: "Hormuz", date: "1293", lat: 27.1, lng: 56.47, note: "Landed in Persia; the princess married Ghazan, son of the late Ilkhan Arghun", pivotal: true },
+      { name: "Trebizond", date: "1295", lat: 41.0, lng: 39.72, note: "Black Sea port; robbed of some of their goods" },
+      { name: "Constantinople", date: "1295", lat: 41.01, lng: 28.97, note: "Last great stop before home" },
+      { name: "Venice", date: "1295", lat: 45.44, lng: 12.33, note: "Home after 24 years; his book, written in prison in Genoa around 1298, became a bestseller", pivotal: true },
+    ],
+  },
+];
+
+// ── Leif Erikson ────────────────────────────────────────────────────────────
+// Based on the two Vinland sagas (Grænlendinga saga and Eiríks saga rauða) and
+// the excavated Norse site at L'Anse aux Meadows, Newfoundland — the only
+// confirmed Norse site in the Americas. Helluland and Markland are usually
+// identified with Baffin Island and Labrador; Vinland's full extent is unknown.
+
+const LEIF_ERIKSON_VOYAGES: Voyage[] = [
+  {
+    id: "vinland",
+    label: "Voyage to Vinland",
+    ship: "Norse knarr (ocean-going cargo ship)",
+    years: "c. 1000",
+    color: "#1d4ed8",
+    purpose: "Follow up reports of unknown land seen west of Greenland and bring back timber, which Greenland lacked.",
+    summary: "Leif, son of Erik the Red, sailed west from the Norse settlements in Greenland with about 35 men. He named three lands: Helluland ('flat-stone land'), Markland ('forest land') and Vinland, where the crew wintered before returning with timber. It was the first known European landing in the Americas — nearly 500 years before Columbus. A Norse camp excavated at L'Anse aux Meadows dates to this period; wood there was cut with metal tools in 1021.",
+    accuracyNote: "The sagas were written down two centuries after the events. Only the Newfoundland site is archaeologically confirmed; the route between named lands is a reconstruction.",
+    path: [
+      [-47.2, 60.4], [-48.5, 60.4], [-52.0, 63.2], [-57.0, 64.0],
+      [-64.0, 62.8], [-62.0, 59.5], [-59.5, 56.5], [-56.8, 54.0],
+      [-55.3, 53.5], [-55.0, 52.3], [-55.4, 51.8],
+    ],
+    waypoints: [
+      { name: "Brattahlíð, Greenland", date: "c. 1000", lat: 61.15, lng: -45.5, note: "Erik the Red's farm in the Eastern Settlement; Leif set out from here" },
+      { name: "Helluland (Baffin Island?)", date: "c. 1000", lat: 62.8, lng: -64.5, note: "'Flat-stone land' — barren, rocky coast" },
+      { name: "Markland (Labrador?)", date: "c. 1000", lat: 54.0, lng: -57.5, note: "'Forest land' — wooded coast, a source of timber for Greenland" },
+      { name: "Vinland — L'Anse aux Meadows, Newfoundland", date: "c. 1000–1001", lat: 51.6, lng: -55.53, note: "Wintered here; the excavated Norse site at L'Anse aux Meadows is a UNESCO World Heritage Site", pivotal: true },
+    ],
+  },
+];
+
+// ── Lewis and Clark ─────────────────────────────────────────────────────────
+// From the expedition journals as summarised in Wikipedia's "Lewis and Clark
+// Expedition" article and the National Park Service's Lewis and Clark National
+// Historic Trail. River routes are simplified to straight segments between
+// camps; coordinates are approximate.
+
+const LEWIS_CLARK_VOYAGES: Voyage[] = [
+  {
+    id: "lewis-clark-west",
+    label: "Westward — up the Missouri to the Pacific",
+    ship: "Keelboat, pirogues and dugout canoes; on foot and horseback over the Rockies",
+    years: "1804–1805",
+    color: "#15803d",
+    purpose: "Commissioned by President Jefferson after the Louisiana Purchase to map the new territory and find a practical route to the Pacific.",
+    summary: "The Corps of Discovery, about 45 men led by Meriwether Lewis and William Clark, set out up the Missouri River in May 1804. They wintered with the Mandan, where the Shoshone woman Sacagawea joined as an interpreter, then crossed the Rocky Mountains with Shoshone horses and descended the Clearwater, Snake and Columbia rivers to reach the Pacific in November 1805.",
+    path: [
+      [-90.12, 38.8], [-90.48, 38.78], [-94.6, 39.1], [-96.38, 42.45],
+      [-100.35, 44.37], [-101.03, 47.29], [-104.0, 48.0], [-111.2, 47.53],
+      [-111.5, 45.93], [-113.44, 44.97], [-114.1, 46.75], [-115.94, 46.38],
+      [-117.04, 46.42], [-119.1, 46.23], [-121.2, 45.6], [-123.88, 46.13],
+    ],
+    waypoints: [
+      { name: "Camp Dubois, Illinois", date: "May 1804", lat: 38.8, lng: -90.12, note: "Departure up the Missouri River" },
+      { name: "Floyd's Bluff (near Sioux City)", date: "Aug 1804", lat: 42.45, lng: -96.38, note: "Sergeant Charles Floyd died, probably of appendicitis — the expedition's only death" },
+      { name: "Fort Mandan, North Dakota", date: "Winter 1804–05", lat: 47.29, lng: -101.03, note: "Wintered among the Mandan and Hidatsa; Sacagawea and her husband joined", pivotal: true },
+      { name: "Great Falls of the Missouri", date: "June 1805", lat: 47.53, lng: -111.2, note: "A month-long portage around five waterfalls" },
+      { name: "Lemhi Pass (Continental Divide)", date: "Aug 1805", lat: 44.97, lng: -113.44, note: "Met the Shoshone, whose chief turned out to be Sacagawea's brother; traded for horses", pivotal: true },
+      { name: "Weippe Prairie, Idaho", date: "Sept 1805", lat: 46.38, lng: -115.94, note: "Starving after crossing the Bitterroots, the party was fed by the Nez Perce" },
+      { name: "Fort Clatsop, Oregon", date: "Winter 1805–06", lat: 46.13, lng: -123.88, note: "Reached the Pacific in November 1805 and wintered near the mouth of the Columbia", pivotal: true },
+    ],
+  },
+  {
+    id: "lewis-clark-return",
+    label: "Return to St. Louis",
+    ship: "Horses, canoes and pirogues",
+    years: "1806",
+    color: "#ca8a04",
+    purpose: "Return east, exploring more of the territory by splitting into two parties.",
+    summary: "The Corps left Fort Clatsop in March 1806 and recrossed the mountains. At Travelers' Rest they split: Lewis explored the Marias River, where a clash with Blackfeet warriors left two Blackfeet dead, while Clark descended the Yellowstone, carving his name on Pompeys Pillar. They reunited on the Missouri and reached St. Louis on 23 September 1806, having travelled some 13,000 km.",
+    path: [
+      [-123.88, 46.13], [-121.2, 45.6], [-119.1, 46.23], [-117.04, 46.42],
+      [-115.94, 46.38], [-114.1, 46.75], [-110.8, 45.7], [-108.0, 45.99],
+      [-104.0, 48.0], [-101.03, 47.29], [-100.35, 44.37], [-96.38, 42.45],
+      [-94.6, 39.1], [-90.2, 38.63],
+    ],
+    waypoints: [
+      { name: "Travelers' Rest, Montana", date: "July 1806", lat: 46.75, lng: -114.1, note: "The captains split up to explore more country on the way home" },
+      { name: "Pompeys Pillar, Yellowstone River", date: "July 1806", lat: 45.99, lng: -108.0, note: "Clark carved his name and the date — the only physical trace of the expedition still visible on the trail" },
+      { name: "Missouri–Yellowstone confluence", date: "Aug 1806", lat: 48.0, lng: -104.0, note: "The two parties reunited" },
+      { name: "St. Louis", date: "23 Sept 1806", lat: 38.63, lng: -90.2, note: "Return after two years, four months; long given up for dead", pivotal: true },
+    ],
+  },
+];
+
+// ── Charles Darwin (HMS Beagle) ─────────────────────────────────────────────
+// Stops and dates from Wikipedia's "Second voyage of HMS Beagle" article and
+// Darwin's own Journal of Researches (1839). The Beagle spent most of the
+// voyage surveying South American coasts, so the path is a simplified track
+// between the principal stops, not a log of every survey run.
+
+const BEAGLE_VOYAGES: Voyage[] = [
+  {
+    id: "beagle",
+    label: "Voyage of the Beagle",
+    ship: "HMS Beagle (Captain Robert FitzRoy)",
+    years: "1831–1836",
+    color: "#7c3aed",
+    purpose: "A Royal Navy survey of the coasts of South America and a chain of longitude measurements around the world; Darwin sailed as a gentleman naturalist.",
+    summary: "Twenty-two-year-old Charles Darwin spent almost five years on the Beagle — over three of them ashore in South America, collecting fossils, rocks, plants and animals. He saw an earthquake raise the Chilean coast, found fossil giants in Argentina, and noted how the mockingbirds differed from island to island in the Galápagos. Back in England, his collections and notes led him to the theory of evolution by natural selection, published in On the Origin of Species (1859).",
+    accuracyNote: "Simplified track between principal stops; the Beagle's many survey cruises along the South American coast are omitted.",
+    path: [
+      [-4.14, 50.3], [-6.5, 47.5], [-13.0, 38.0], [-17.0, 28.0],
+      [-22.0, 20.0], [-23.9, 16.0], [-24.0, 15.2], [-23.55, 14.8],
+      [-29.35, 0.92], [-32.4, -3.85], [-34.2, -7.5], [-34.9, -9.4],
+      [-36.5, -11.0], [-38.2, -13.2], [-38.45, -13.05], [-37.8, -16.5],
+      [-38.7, -17.96], [-40.5, -21.5], [-41.3, -22.5], [-42.0, -23.1],
+      [-43.15, -23.0], [-46.0, -25.5], [-50.5, -31.0], [-54.0, -35.2],
+      [-56.2, -34.95], [-55.5, -36.5], [-57.3, -38.6], [-61.6, -39.2],
+      [-62.2, -38.95], [-61.0, -41.0], [-63.0, -46.5], [-65.0, -50.0],
+      [-65.0, -54.0], [-65.0, -54.85], [-62.0, -53.0], [-58.5, -52.6],
+      [-57.5, -51.9], [-57.65, -51.68], [-57.5, -51.2], [-58.9, -50.9],
+      [-62.0, -50.5], [-65.9, -47.75], [-66.0, -50.5], [-68.3, -52.35],
+      [-69.6, -52.55], [-70.45, -52.75], [-70.9, -53.2], [-70.85, -53.6], [-71.1, -53.98], [-71.25, -53.97], [-72.0, -53.75], [-72.5, -53.6], [-73.0, -53.4],
+      [-73.4, -53.0], [-74.3, -52.75], [-74.7, -52.7], [-76.0, -52.0],
+      [-76.3, -50.0], [-76.0, -45.0], [-74.2, -41.9], [-74.0, -38.0],
+      [-71.7, -33.0], [-72.6, -35.0], [-73.9, -37.4], [-73.6, -38.0],
+      [-73.45, -39.85], [-73.9, -38.0], [-73.7, -37.2], [-73.1, -36.6],
+      [-72.5, -30.0], [-71.5, -20.0], [-76.8, -14.5], [-77.15, -12.05],
+      [-85.0, -5.0], [-89.6, -0.9], [-90.4, -0.25], [-90.6, 0.35],
+      [-91.8, 0.4], [-92.5, -1.0], [-110.0, -10.0], [-149.55, -17.5],
+      [-165.0, -25.0], [175.5, -34.0], [174.2, -35.15], [174.3, -34.8],
+      [173.2, -34.0], [172.0, -34.0], [160.0, -34.0], [151.3, -33.85],
+      [151.0, -37.0], [149.2, -39.5], [148.6, -42.0], [148.2, -43.3],
+      [147.6, -43.3], [147.4, -43.05], [147.35, -42.92], [147.6, -43.3],
+      [146.8, -43.8], [146.0, -44.0], [135.0, -38.0], [118.5, -35.6],
+      [117.9, -35.15], [116.0, -35.3], [114.8, -34.6], [113.5, -32.0],
+      [110.0, -28.0], [96.85, -12.15], [75.0, -17.0], [57.7, -19.85], [57.4, -19.95], [57.45, -20.15],
+      [52.0, -26.0], [40.0, -32.0], [25.0, -35.5], [20.0, -35.1],
+      [18.5, -34.6], [18.45, -34.45], [-5.72, -15.93], [-14.4, -7.93],
+      [-38.2, -13.2], [-36.5, -11.0], [-34.9, -9.4], [-34.8, -8.05],
+      [-24.0, 15.2], [-25.5, 16.0], [-27.2, 38.6], [-10.0, 47.0], [-5.07, 50.1],
+    ],
+    waypoints: [
+      { name: "Plymouth, England", date: "27 Dec 1831", lat: 50.36, lng: -4.14, note: "Departure after weeks of delay by storms" },
+      { name: "Cape Verde Islands (St Jago)", date: "Jan 1832", lat: 14.9, lng: -23.5, note: "Darwin's first geology fieldwork: a band of seashells high in a volcanic cliff" },
+      { name: "Bahia (Salvador), Brazil", date: "Feb 1832", lat: -13.0, lng: -38.5, note: "First sight of tropical rainforest; Darwin was appalled by the slavery he saw in Brazil" },
+      { name: "Bahía Blanca & Punta Alta, Argentina", date: "1832–33", lat: -38.95, lng: -62.2, note: "Dug up fossils of giant extinct mammals such as Megatherium", pivotal: true },
+      { name: "Tierra del Fuego", date: "Dec 1832", lat: -54.8, lng: -65.4, note: "Returned three Fuegians FitzRoy had taken to England on his previous voyage" },
+      { name: "Falkland Islands", date: "1833 & 1834", lat: -51.7, lng: -57.85 },
+      { name: "Strait of Magellan", date: "June 1834", lat: -53.2, lng: -70.9, note: "Passage from the Atlantic to the Pacific" },
+      { name: "Valparaíso, Chile", date: "July 1834", lat: -33.03, lng: -71.63, note: "Base for Darwin's long expeditions into the Andes" },
+      { name: "Valdivia & Concepción, Chile", date: "Feb–Mar 1835", lat: -36.7, lng: -73.2, note: "Experienced a great earthquake and saw that it had raised the coast by several feet", pivotal: true },
+      { name: "Galápagos Islands", date: "Sept–Oct 1835", lat: -0.9, lng: -89.6, note: "Five weeks among the islands; noticed that mockingbirds and tortoises differed from island to island", pivotal: true },
+      { name: "Tahiti", date: "Nov 1835", lat: -17.5, lng: -149.55 },
+      { name: "Bay of Islands, New Zealand", date: "Dec 1835", lat: -35.2, lng: 174.1 },
+      { name: "Sydney, Australia", date: "Jan 1836", lat: -33.85, lng: 151.3 },
+      { name: "Hobart, Tasmania", date: "Feb 1836", lat: -42.9, lng: 147.35 },
+      { name: "King George Sound, Australia", date: "Mar 1836", lat: -35.05, lng: 117.9 },
+      { name: "Cocos (Keeling) Islands", date: "Apr 1836", lat: -12.15, lng: 96.85, note: "Tested his new theory of how coral atolls form" },
+      { name: "Mauritius", date: "May 1836", lat: -20.16, lng: 57.5 },
+      { name: "Cape Town", date: "June 1836", lat: -33.92, lng: 18.42, note: "Met the astronomer John Herschel" },
+      { name: "St Helena & Ascension", date: "July 1836", lat: -15.93, lng: -5.72 },
+      { name: "Falmouth, England", date: "2 Oct 1836", lat: 50.15, lng: -5.07, note: "Home after nearly five years; Darwin never left Britain again", pivotal: true },
+    ],
+  },
+];
+
 // ── Explorer roster ─────────────────────────────────────────────────────────
 
 export const EXPLORERS: Explorer[] = [
@@ -1021,6 +1249,46 @@ export const EXPLORERS: Explorer[] = [
     status: "full",
     period: "Medieval · Global",
     voyages: IBN_BATTUTA_VOYAGES,
+  },
+  {
+    slug: "marco-polo",
+    name: "Marco Polo",
+    wikidataId: "Q6101",
+    lifespan: "1254–1324",
+    tagline: "Venetian merchant who spent 17 years in Kublai Khan's China and introduced Asia to European readers.",
+    status: "full",
+    period: "Medieval · Silk Road & Indian Ocean",
+    voyages: MARCO_POLO_VOYAGES,
+  },
+  {
+    slug: "leif-erikson",
+    name: "Leif Erikson",
+    wikidataId: "Q42838",
+    lifespan: "c. 970–c. 1020",
+    tagline: "Norse explorer who reached North America around the year 1000 — five centuries before Columbus.",
+    status: "full",
+    period: "Medieval · North Atlantic",
+    voyages: LEIF_ERIKSON_VOYAGES,
+  },
+  {
+    slug: "lewis-and-clark",
+    name: "Lewis and Clark",
+    wikidataId: "Q505802",
+    lifespan: "Expedition 1804–1806",
+    tagline: "The Corps of Discovery crossed the American West to the Pacific and back, guided in part by Sacagawea.",
+    status: "full",
+    period: "Modern · North America",
+    voyages: LEWIS_CLARK_VOYAGES,
+  },
+  {
+    slug: "charles-darwin",
+    name: "Charles Darwin",
+    wikidataId: "Q1035",
+    lifespan: "1809–1882",
+    tagline: "Five years around the world on HMS Beagle gathered the evidence behind the theory of evolution.",
+    status: "full",
+    period: "Modern · Global",
+    voyages: BEAGLE_VOYAGES,
   },
 ];
 

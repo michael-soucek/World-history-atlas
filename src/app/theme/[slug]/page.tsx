@@ -153,7 +153,7 @@ const THEMES: Record<string, {
     ],
     eventSlugs: ["age-of-discovery"],
     cultureSlugs: ["polynesian-navigation"],
-    explorerSlugs: ["james-cook", "ferdinand-magellan", "christopher-columbus", "vasco-da-gama", "zheng-he", "ibn-battuta"],
+    explorerSlugs: ["leif-erikson", "marco-polo", "ibn-battuta", "zheng-he", "christopher-columbus", "vasco-da-gama", "ferdinand-magellan", "james-cook", "lewis-and-clark", "charles-darwin"],
     tour: { slug: "age-of-discovery", label: "The Age of Discovery" },
   },
 };
