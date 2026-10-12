@@ -9,6 +9,8 @@ import { ReadAloudButton } from "@/components/ReadAloudButton";
 import HandwrittenTitle from "@/components/HandwrittenTitle";
 import VoyageMap from "@/components/VoyageMap";
 import RelatedResources from "@/components/RelatedResources";
+import ImageGallery from "@/components/ImageGallery";
+import { getEntityImages } from "@/lib/entityImages";
 import { EXPLORERS, getExplorerBySlug } from "@/data/voyages";
 import { buildEntityContent } from "@/lib/wikidata";
 import { DEFAULT_SOCIAL_IMAGE } from "@/lib/seo";
@@ -61,6 +63,7 @@ export default async function ExplorerPage({ params }: Props) {
   const { explorer, content } = data;
 
   const summaryParas = (content?.summary ?? "").split(/\n+/).filter(Boolean);
+  const images = await getEntityImages(explorer.wikidataId, content?.imageUrl);
   const voyages = explorer.voyages ?? [];
   const hasVoyages = explorer.status === "full" && voyages.length > 0;
 
@@ -146,6 +149,10 @@ export default async function ExplorerPage({ params }: Props) {
                   {" "}(CC BY-SA 4.0)
                 </p>
               )}
+
+              <div className="mt-10">
+                <ImageGallery images={images} name={explorer.name} />
+              </div>
             </div>
 
             {/* Sidebar */}

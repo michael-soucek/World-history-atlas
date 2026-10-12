@@ -83,7 +83,7 @@ async function fetchCommonsImageInfo(filename: string): Promise<CommonsImageInfo
     `https://commons.wikimedia.org/w/api.php` +
     `?action=query&titles=${encodedTitle}` +
     `&prop=imageinfo` +
-    `&iiprop=url|extmetadata` +
+    `&iiprop=url|extmetadata&iiurlwidth=1280` +
     `&iiextmetadatafilter=LicenseShortName|Artist|Credit` +
     `&format=json&origin=*`;
 
@@ -97,6 +97,8 @@ async function fetchCommonsImageInfo(filename: string): Promise<CommonsImageInfo
           {
             imageinfo?: Array<{
               url?: string;
+              thumburl?: string;
+              descriptionurl?: string;
               extmetadata?: {
                 LicenseShortName?: { value: string };
                 Artist?: { value: string };
@@ -127,11 +129,14 @@ async function fetchCommonsImageInfo(filename: string): Promise<CommonsImageInfo
       return clean;
     };
 
+    const dropTracking = (u: string) => u.replace(/\?utm_[^#]*$/, "");
     return {
-      url: info.url,
+      // A 1280px rendition rather than the original, which can be tens of MB.
+      url: dropTracking(info.thumburl || info.url),
       license: info.extmetadata?.LicenseShortName?.value,
       author: stripHtml(info.extmetadata?.Artist?.value),
-      sourceUrl: info.url,
+      // The Commons file page (license and author details), not the raw file.
+      sourceUrl: info.descriptionurl || info.url,
     };
   } catch {
     return undefined;

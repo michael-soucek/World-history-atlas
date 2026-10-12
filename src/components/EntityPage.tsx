@@ -9,6 +9,8 @@ import { ReadAloudButton } from "@/components/ReadAloudButton";
 import RelatedResources from "@/components/RelatedResources";
 import AdSlot from "@/components/AdSlot";
 import SupportNudge from "@/components/SupportNudge";
+import ImageGallery from "@/components/ImageGallery";
+import { getEntityImages } from "@/lib/entityImages";
 import type { PlaceContent, EntityType } from "@/types";
 import type { CrosswalkEntry } from "@/types";
 import { ENTITY_PLACE_OVERRIDE, ENTITY_YEAR_OVERRIDE } from "@/data/entityPlaceLinks";
@@ -27,7 +29,8 @@ const TYPE_LABELS: Record<EntityType, string> = {
   culture: "Culture",
 };
 
-export default function EntityPage({ content, entry, entityType, baseRoute }: EntityPageProps) {
+export default async function EntityPage({ content, entry, entityType, baseRoute }: EntityPageProps) {
+  const images = await getEntityImages(entry.wikidataId, content.imageUrl);
   // A place *is* a territory, so its own QID resolves on the map directly.
   // A person/event/culture's own QID never will — use its curated place
   // override if one exists, otherwise link by year alone rather than send
@@ -173,6 +176,8 @@ export default function EntityPage({ content, entry, entityType, baseRoute }: En
               {" "}(CC BY-SA 4.0)
             </p>
           )}
+
+          <ImageGallery images={images} name={content.name} />
 
           {/* Article sections (History, Origins, Legacy…) */}
           {content.sections && content.sections.length > 0 && (

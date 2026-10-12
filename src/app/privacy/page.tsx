@@ -90,6 +90,15 @@ export default function PrivacyPage() {
               booksellers, documentary platforms, and museums. Those sites have their own privacy
               policies, which we don&rsquo;t control.
             </p>
+            <p className="text-ink/70 text-sm leading-relaxed mt-3">
+              Images on topic pages are loaded directly from Wikimedia Commons servers, so your
+              browser requests them from Wikimedia, which receives your IP address and browser
+              details under the{" "}
+              <a href="https://foundation.wikimedia.org/wiki/Policy:Privacy_policy" target="_blank" rel="noopener noreferrer" className="underline underline-offset-2">
+                Wikimedia Foundation privacy policy
+              </a>
+              . Each image is shown with its author, license and a link to its Commons page.
+            </p>
           </section>
 
           <section>

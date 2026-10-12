@@ -13,6 +13,8 @@ import SiteFooter from "@/components/SiteFooter";
 import { ReadAloudButton } from "@/components/ReadAloudButton";
 import RelatedResources from "@/components/RelatedResources";
 import AdSlot from "@/components/AdSlot";
+import ImageGallery from "@/components/ImageGallery";
+import { getEntityImages } from "@/lib/entityImages";
 import { DEFAULT_SOCIAL_IMAGE } from "@/lib/seo";
 
 interface Props {
@@ -259,6 +261,8 @@ export default async function PlacePage({ params }: Props) {
                 {" "}(CC BY-SA 4.0)
               </p>
             )}
+
+            <ImageGallery images={await getEntityImages(entry.wikidataId, content.imageUrl)} name={displayName} />
 
             {/* Article sections (Origins, History, Legacy…) */}
             {content.sections && content.sections.length > 0 && (

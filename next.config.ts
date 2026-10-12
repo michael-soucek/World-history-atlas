@@ -42,6 +42,11 @@ const nextConfig: NextConfig = {
         hostname: "commons.wikimedia.org",
         pathname: "/**",
       },
+      {
+        protocol: "https",
+        hostname: "thumb.wikimedia.org",
+        pathname: "/**",
+      },
     ],
   },
 };
