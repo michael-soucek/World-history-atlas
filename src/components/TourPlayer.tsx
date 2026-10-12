@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { ReadAloudButton } from "@/components/ReadAloudButton";
+import SupportNudge from "@/components/SupportNudge";
 import type { Tour } from "@/data/tours";
 
 interface TourPlayerProps {
@@ -106,6 +107,8 @@ export default function TourPlayer({ tour }: TourPlayerProps) {
               Open map ↗
             </Link>
           </div>
+
+          {step === tour.steps.length - 1 && <SupportNudge where={`tour:${tour.slug}`} trigger="tour" />}
         </div>
 
         {/* Sidebar: step list */}

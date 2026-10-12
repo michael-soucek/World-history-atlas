@@ -8,6 +8,7 @@ import HandwrittenTitle from "@/components/HandwrittenTitle";
 import { ReadAloudButton } from "@/components/ReadAloudButton";
 import RelatedResources from "@/components/RelatedResources";
 import AdSlot from "@/components/AdSlot";
+import SupportNudge from "@/components/SupportNudge";
 import type { PlaceContent, EntityType } from "@/types";
 import type { CrosswalkEntry } from "@/types";
 import { ENTITY_PLACE_OVERRIDE, ENTITY_YEAR_OVERRIDE } from "@/data/entityPlaceLinks";
@@ -255,6 +256,8 @@ export default function EntityPage({ content, entry, entityType, baseRoute }: En
 
           {/* Further reading / viewing — hidden entirely when none are curated yet */}
           <RelatedResources resourceKey={`${entityType}:${entry.slug}`} />
+
+          <SupportNudge where={`${entityType}:${entry.slug}`} trigger="page" />
 
           <AdSlot id="entity-sidebar" format="rectangle" />
 
