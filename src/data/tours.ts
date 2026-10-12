@@ -396,6 +396,172 @@ export const TOURS: Tour[] = [
       },
     ],
   },
+  {
+    slug: "kingdoms-of-africa",
+    title: "Great Kingdoms of Africa",
+    description: "Pharaohs of Kush, the trading empire of Aksum, the gold of Ghana and Mali, the stone city of Great Zimbabwe — three thousand years of African states.",
+    duration: 6,
+    difficulty: "intro",
+    steps: [
+      {
+        title: "The Kingdom of Kush",
+        text: "South of Egypt, along the Nile in what is now Sudan, the Kingdom of Kush grew rich on gold, ivory and trade. Around 744 BCE its kings turned the tables on their old overlord and conquered Egypt itself, ruling it for nearly a century as the 25th Dynasty. Later, from their capital at Meroë, Kushite rulers built hundreds of pyramids — more than Egypt ever did.",
+        mapState: { year: -700, lat: 18, lng: 32, zoom: 4.5, regionId: "Q241790" },
+      },
+      {
+        title: "Aksum, Empire of the Red Sea",
+        text: "By the 3rd century CE, Aksum in the Ethiopian highlands controlled trade between the Roman world, Arabia and India. It minted its own gold coins and raised towering carved stone stelae. Around 330 CE King Ezana adopted Christianity, making Aksum one of the first states anywhere to do so — the root of the Ethiopian Orthodox Church.",
+        mapState: { year: 300, lat: 14, lng: 39, zoom: 4.5, regionId: "Q139377" },
+      },
+      {
+        title: "Ghana: The Land of Gold",
+        text: "In the western Sahel, the Ghana Empire (not the modern country, which took its name) controlled the trans-Saharan trade: gold from the south exchanged for salt from the desert. Arab writers called it the land of gold; the geographer al-Bakri described its king's court and capital, Koumbi Saleh, in 1068.",
+        mapState: { year: 1000, lat: 16, lng: -8, zoom: 4.5, regionId: "Q206789" },
+      },
+      {
+        title: "Mali and Mansa Musa",
+        text: "Around 1235, Sundiata Keita founded the Mali Empire, which came to stretch from the Atlantic coast deep into the Sahel. Its most famous ruler, Mansa Musa, made the pilgrimage to Mecca in 1324 with so much gold that he depressed its price in Cairo for years. Timbuktu became a renowned center of Islamic scholarship.",
+        mapState: { year: 1300, lat: 15, lng: -6, zoom: 4, regionId: "Q184536" },
+      },
+      {
+        title: "Great Zimbabwe",
+        text: "On the plateau between the Zambezi and Limpopo rivers, the Shona built Great Zimbabwe, a city of massive dry-stone walls raised without mortar between the 11th and 15th centuries. Its rulers grew wealthy exporting gold and ivory through the Swahili ports of the Indian Ocean coast — Chinese porcelain and Persian glass have been found in its ruins.",
+        mapState: { year: 1300, lat: -20, lng: 30.9, zoom: 5, regionId: "Q596092" },
+      },
+      {
+        title: "Songhai, the Largest Empire",
+        text: "In the 1400s Songhai, centered on Gao on the Niger, overtook Mali and became one of the largest states in African history. Under Askia Muhammad it was run by a professional administration and army. It fell in 1591, when a Moroccan army armed with firearms defeated it at the Battle of Tondibi.",
+        mapState: { year: 1500, lat: 16, lng: 0, zoom: 4, regionId: "Q202687" },
+      },
+      {
+        title: "Benin, Oyo and Asante",
+        text: "In the forest belt nearer the coast, powerful kingdoms flourished: Benin, famous for its bronze and ivory court art; Oyo, a Yoruba cavalry empire; and Asante, whose wealth came from gold. They traded — including, tragically, in enslaved people — with Europeans on the coast, until the 'Scramble for Africa' after 1880 brought nearly the whole continent under colonial rule.",
+        mapState: { year: 1800, lat: 7, lng: 2, zoom: 5, regionId: "Q722071" },
+      },
+    ],
+  },
+  {
+    slug: "empires-of-india",
+    title: "Empires of India",
+    description: "From the planned cities of the Indus to the Mughals and the British Raj — how South Asia was united, divided and united again.",
+    duration: 6,
+    difficulty: "intro",
+    steps: [
+      {
+        title: "The Indus Valley Cities",
+        text: "Between about 2600 and 1900 BCE, cities like Harappa and Mohenjo-daro flourished along the Indus River. They had grid-planned streets, standardized bricks and weights, and drainage systems unmatched elsewhere for centuries. Their script has never been deciphered, and why the cities declined is still debated.",
+        mapState: { year: -2000, lat: 27, lng: 69, zoom: 5, regionId: "Q42534" },
+      },
+      {
+        title: "The Maurya Empire and Ashoka",
+        text: "Around 321 BCE Chandragupta Maurya founded the first empire to unite most of the subcontinent. His grandson Ashoka, horrified by the bloodshed of his conquest of Kalinga, embraced Buddhism and had edicts on ethics and tolerance carved on rocks and pillars across his realm. Ashoka's lion capital is India's national emblem today.",
+        mapState: { year: -300, lat: 23, lng: 80, zoom: 4, regionId: "Q62943" },
+      },
+      {
+        title: "The Gupta Classical Age",
+        text: "From the 4th to 6th centuries CE, the Gupta Empire presided over a golden age of Sanskrit literature, art and science. The poet Kalidasa wrote his plays, and the mathematician Aryabhata calculated the value of pi and explained eclipses. The decimal place-value system with a zero, later carried west by Arab scholars, took shape in India in this era.",
+        mapState: { year: 400, lat: 25, lng: 82, zoom: 4.5, regionId: "Q11774" },
+      },
+      {
+        title: "The Cholas Rule the Seas",
+        text: "In the far south, the Chola dynasty built a maritime power. Rajaraja I raised the great Brihadisvara temple at Thanjavur (completed 1010), and his son Rajendra I sent a naval expedition across the Bay of Bengal against Srivijaya around 1025 — one of the few overseas military campaigns by any Indian state.",
+        mapState: { year: 1000, lat: 11, lng: 79, zoom: 5, regionId: "Q151148" },
+      },
+      {
+        title: "The Delhi Sultanate",
+        text: "In 1206 a dynasty of Turkic former slave-soldiers founded the Delhi Sultanate, bringing Islamic rule to northern India. Its armies repeatedly turned back Mongol invasions that devastated much of Asia, and under Alauddin Khalji it pushed deep into the south. Indo-Islamic architecture such as the Qutb Minar dates from this period.",
+        mapState: { year: 1300, lat: 27, lng: 78, zoom: 4.5, regionId: "Q229411" },
+      },
+      {
+        title: "The Mughals",
+        text: "In 1526 Babur, a descendant of both Timur and Genghis Khan, won the Battle of Panipat and founded the Mughal Empire. His grandson Akbar governed through religious tolerance and an efficient administration; Shah Jahan built the Taj Mahal (completed around 1653). At its height the empire ruled some 150 million people and was among the world's richest states.",
+        mapState: { year: 1650, lat: 25, lng: 78, zoom: 4, regionId: "Q33296" },
+      },
+      {
+        title: "The Raj and Independence",
+        text: "The British East India Company expanded from trading posts to territorial rule; after the uprising of 1857 the British Crown governed India directly as the Raj. A mass independence movement led by Gandhi and the Indian National Congress won freedom in 1947 — but the subcontinent was partitioned into India and Pakistan, uprooting some 15 million people.",
+        mapState: { year: 1930, lat: 23, lng: 80, zoom: 4, regionId: "Q129286" },
+      },
+    ],
+  },
+  {
+    slug: "cradle-of-civilization",
+    title: "Mesopotamia: Cradle of Civilization",
+    description: "The first cities, the first writing, the first empires and the first written laws — all between the Tigris and Euphrates.",
+    duration: 5,
+    difficulty: "intro",
+    steps: [
+      {
+        title: "The First Cities",
+        text: "In southern Mesopotamia — today's Iraq — the Sumerians built the world's first cities. Uruk may have had 40,000 people by 3000 BCE. To keep track of grain, livestock and labor, its temple administrators developed cuneiform, the earliest known writing system, around 3200 BCE.",
+        mapState: { year: -3000, lat: 31.5, lng: 46, zoom: 5.5 },
+      },
+      {
+        title: "Sargon's Empire",
+        text: "Around 2334 BCE Sargon of Akkad conquered the Sumerian city-states and created what is often called the world's first empire, stretching from the Persian Gulf toward the Mediterranean. It lasted about two centuries; the Sumerian city of Ur then revived to rule the region until around 2004 BCE, when the neighbouring Elamites sacked it.",
+        mapState: { year: -2000, lat: 33, lng: 45, zoom: 5, regionId: "Q128904" },
+      },
+      {
+        title: "Hammurabi's Babylon",
+        text: "Hammurabi of Babylon (reigned c. 1792–1750 BCE) united Mesopotamia and issued one of the earliest written law codes, carved on a basalt stele now in the Louvre. Its 282 laws covered trade, property, family and crime — with punishments that depended on the social rank of victim and offender.",
+        mapState: { year: -1500, lat: 32.5, lng: 44.4, zoom: 5, regionId: "Q47690" },
+      },
+      {
+        title: "Hittites and the Bronze Age World",
+        text: "In the Late Bronze Age, great powers — Egypt, the Hittites of Anatolia, Babylon, Assyria and Mitanni — exchanged letters, princesses and gifts as an early 'international system'. The Hittites fought Egypt at Kadesh in 1274 BCE and later made one of history's earliest surviving peace treaties. Around 1200 BCE this world collapsed in the Late Bronze Age collapse.",
+        mapState: { year: -1500, lat: 39, lng: 35, zoom: 4.5, regionId: "Q5406" },
+      },
+      {
+        title: "The Assyrian Empire",
+        text: "From its heartland on the upper Tigris, Assyria built the largest empire the world had yet seen, reaching from Egypt to Iran by the 7th century BCE. Its kings deported conquered peoples and built grand palaces at Nineveh; Ashurbanipal assembled a vast library of clay tablets. In 612 BCE an alliance of Babylonians and Medes destroyed Nineveh.",
+        mapState: { year: -700, lat: 35, lng: 42, zoom: 4.5, regionId: "Q41137" },
+      },
+      {
+        title: "Babylon's Last Glory",
+        text: "Under Nebuchadnezzar II (reigned 605–562 BCE) Babylon became the largest city in the world, with the Ishtar Gate and a great ziggurat. But in 539 BCE Cyrus the Great of Persia took the city, and Mesopotamia became part of the Achaemenid Empire — the end of three thousand years of native Mesopotamian kingdoms.",
+        mapState: { year: -500, lat: 32.5, lng: 50, zoom: 4, regionId: "Q389688" },
+      },
+    ],
+  },
+  {
+    slug: "cold-war",
+    title: "The Cold War",
+    description: "Two superpowers, a divided Europe, proxy wars, a nuclear standoff and a race to the Moon — until the Soviet Union dissolved in 1991.",
+    duration: 6,
+    difficulty: "standard",
+    steps: [
+      {
+        title: "An Iron Curtain Descends",
+        text: "After 1945 the wartime allies split. The Soviet Union installed communist governments across Eastern Europe, while the United States backed Western Europe with the Marshall Plan. Germany itself was divided into occupation zones. In 1946 Winston Churchill warned that an 'iron curtain' had descended across the continent.",
+        mapState: { year: 1945, lat: 52, lng: 25, zoom: 3.5, regionId: "Q15180" },
+      },
+      {
+        title: "Blocs and Bombs",
+        text: "In 1949 the Western allies formed NATO, the Soviet Union tested its first atomic bomb, and Mao Zedong's Communists won the Chinese Civil War. The next year North Korea invaded the South; the Korean War (1950–1953) pulled in the United States and China and ended in a stalemate along roughly the old border.",
+        mapState: { year: 1960, lat: 38, lng: 120, zoom: 3.5, regionId: "Q148" },
+      },
+      {
+        title: "The End of Empires",
+        text: "Europe's colonial empires dissolved in the same years. In 1960 alone, seventeen African countries became independent. Both superpowers competed for influence in the new states, while leaders such as India's Nehru and Egypt's Nasser founded the Non-Aligned Movement to stay out of either bloc.",
+        mapState: { year: 1960, lat: 5, lng: 20, zoom: 3 },
+      },
+      {
+        title: "Thirteen Days",
+        text: "In October 1962 American spy planes found Soviet nuclear missiles being installed in Cuba, 150 km from Florida. For thirteen days the world stood closer to nuclear war than ever before or since, until Khrushchev agreed to remove the missiles in exchange for a US pledge not to invade Cuba — and the quiet removal of US missiles from Turkey.",
+        mapState: { year: 1960, lat: 23, lng: -80, zoom: 5 },
+      },
+      {
+        title: "Proxy Wars and the Space Race",
+        text: "The superpowers avoided fighting each other directly, but backed opposing sides in wars around the world — most devastatingly in Vietnam, where the United States fought from 1965 until its withdrawal in 1973; the North took Saigon in 1975. The rivalry also drove the Space Race, from Sputnik in 1957 to the Apollo 11 Moon landing in 1969.",
+        mapState: { year: 1960, lat: 16, lng: 106, zoom: 4.5, regionId: "Q881" },
+      },
+      {
+        title: "1989–1991: The Wall Comes Down",
+        text: "In 1989 peaceful revolutions swept Eastern Europe, and on 9 November crowds breached the Berlin Wall. Germany reunified in 1990. On 26 December 1991 the Soviet Union formally dissolved into fifteen independent countries, ending the Cold War and redrawing the map of Europe and Asia.",
+        mapState: { year: 1994, lat: 55, lng: 45, zoom: 3, regionId: "Q159" },
+      },
+    ],
+  },
 ];
 
 /** Look up a tour by slug. */
