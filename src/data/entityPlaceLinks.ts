@@ -242,5 +242,5 @@ export const ENTITY_YEAR_OVERRIDE: Record<string, number> = {
   "chinese-civil-war": 1960,
   "vietnam-war": 1960,
   "apollo-11": 1960,
-  "dissolution-of-the-soviet-union": 1960,
+  "dissolution-of-the-soviet-union": 1985,
 };

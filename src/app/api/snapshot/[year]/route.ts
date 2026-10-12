@@ -6,7 +6,7 @@ import { enrichBorderProps, type RawProperties } from "@/lib/geoEnrich";
 const borderCache = new Map<string, string>();
 
 export async function GET(
-  _req: NextRequest,
+  req: NextRequest,
   { params }: { params: Promise<{ year: string }> }
 ): Promise<NextResponse> {
   const { year: yearParam } = await params;
@@ -36,7 +36,7 @@ export async function GET(
       });
     }
 
-    const upstream = await fetch(snapshot.rawUrl, {
+    const upstream = await fetch(new URL(snapshot.rawUrl, req.url), {
       headers: { "User-Agent": "WorldHistoryAtlas/1.0" },
     });
 

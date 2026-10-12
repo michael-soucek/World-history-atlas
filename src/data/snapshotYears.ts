@@ -1,7 +1,8 @@
 /**
  * The years for which historical-basemaps snapshots exist.
  * Negative values = BCE (e.g. -500 = 500 BCE).
- * Source: https://github.com/aourednik/historical-basemaps
+ * Source: https://github.com/aourednik/historical-basemaps (1985 is derived and
+ * hosted by this site — see LOCAL_SNAPSHOTS in src/app/api/manifest/route.ts)
  *
  * Files:  BCE → world_bc{N}.geojson   |   CE → world_{N}.geojson
  */
@@ -13,7 +14,7 @@ export const SNAPSHOT_YEARS: number[] = [
   100, 200, 300, 400, 500, 600, 700, 800, 900,
   1000, 1100, 1200, 1279, 1300, 1400, 1492, 1500, 1530,
   1600, 1650, 1700, 1715, 1783, 1800, 1815, 1880,
-  1900, 1914, 1920, 1930, 1938, 1945, 1960, 1994, 2000, 2010,
+  1900, 1914, 1920, 1930, 1938, 1945, 1960, 1985, 1994, 2000, 2010,
 ];
 
 // Practical map floor: allow scrubbing back to 12,000 BCE.

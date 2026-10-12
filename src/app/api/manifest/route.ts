@@ -7,6 +7,21 @@ const REPO_CONTENTS_URL =
 const RAW_BASE =
   "https://raw.githubusercontent.com/aourednik/historical-basemaps/master/geojson";
 
+/**
+ * Snapshots the site hosts itself (public/data), for years the upstream
+ * dataset doesn't cover. rawUrl is site-relative; the snapshot routes resolve
+ * it against the request URL.
+ *
+ * 1985 — built by scripts/build-snapshot-1985.mjs from the upstream 1994 and
+ * 1960 files: the USSR, Yugoslavia, Czechoslovakia and the two Germanys (whose
+ * outer borders didn't change 1960–1990) replace their 1994 successor states;
+ * Eritrea is merged into Ethiopia; Namibia is South West Africa under South
+ * Africa. Yemen stays unified, as the upstream data draws it for 1960 too.
+ */
+const LOCAL_SNAPSHOTS: Array<{ year: number; filename: string }> = [
+  { year: 1985, filename: "world_1985.geojson" },
+];
+
 // ── Parse a filename like "world_1700.geojson" or "world_bc500.geojson" ──
 function parseFilename(name: string): number | null {
   // CE years
@@ -86,17 +101,21 @@ export async function buildManifest(): Promise<YearManifest> {
     const year = parseFilename(name);
     if (year !== null) snapshotYears.push(year);
   }
+  for (const local of LOCAL_SNAPSHOTS) {
+    if (!snapshotYears.includes(local.year)) snapshotYears.push(local.year);
+  }
   snapshotYears.sort((a, b) => a - b);
 
   const snapshots: YearManifestEntry[] = snapshotYears.map((year, i) => {
     const nextYear = snapshotYears[i + 1] ?? year + 1;
-    const filename = year < 0
+    const local = LOCAL_SNAPSHOTS.find((l) => l.year === year);
+    const filename = local?.filename ?? (year < 0
       ? `world_bc${Math.abs(year)}.geojson`
-      : `world_${year}.geojson`;
+      : `world_${year}.geojson`);
     return {
       snapshotYear: year,
       filename,
-      rawUrl: `${RAW_BASE}/${filename}`,
+      rawUrl: local ? `/data/${filename}` : `${RAW_BASE}/${filename}`,
       validFrom: year,
       validTo: nextYear,
     };
@@ -108,7 +127,9 @@ export async function buildManifest(): Promise<YearManifest> {
   // Build a union of snapshot years and external dated change points.
   const sourcesByYear = new Map<number, string[]>();
   for (const y of snapshotYears) {
-    sourcesByYear.set(y, ["historical-basemaps-snapshot"]);
+    sourcesByYear.set(y, [
+      LOCAL_SNAPSHOTS.some((l) => l.year === y) ? "derived-snapshot" : "historical-basemaps-snapshot",
+    ]);
   }
   for (const cp of DATED_CHANGE_POINTS) {
     if (cp.year < minYear || cp.year > maxYear) continue;
