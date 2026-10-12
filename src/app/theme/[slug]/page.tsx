@@ -58,6 +58,7 @@ const THEMES: Record<string, {
     peopleSlugs: ["constantine-i", "saladin", "charlemagne", "buddha", "confucius", "jesus", "muhammad", "ashoka", "martin-luther"],
     eventSlugs: ["crusades", "fall-of-constantinople", "protestant-reformation", "reconquista", "thirty-years-war"],
     cultureSlugs: ["islamic-golden-age", "confucianism", "judaism", "hinduism", "buddhism", "zoroastrianism", "christianity", "islam"],
+    tour: { slug: "world-religions", label: "How the World's Religions Began" },
   },
   "trade-routes": {
     label: "Trade Routes",
@@ -136,6 +137,7 @@ const THEMES: Record<string, {
     ],
     placeNames: ["Haiti", "United States", "Soviet Union", "British Raj", "South Africa"],
     peopleSlugs: ["george-washington", "toussaint-louverture", "simon-bolivar", "sun-yat-sen", "vladimir-lenin", "mahatma-gandhi", "mao-zedong", "ho-chi-minh", "nelson-mandela"],
+    tour: { slug: "age-of-revolutions", label: "The Age of Revolutions" },
     eventSlugs: ["glorious-revolution", "american-revolution", "french-revolution", "haitian-revolution", "spanish-american-wars-of-independence", "meiji-restoration", "unification-of-italy", "unification-of-germany", "russian-revolution", "partition-of-india", "decolonisation-of-africa", "revolutions-of-1989", "dissolution-of-the-soviet-union"],
   },
   "age-of-exploration": {

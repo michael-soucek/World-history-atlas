@@ -562,6 +562,89 @@ export const TOURS: Tour[] = [
       },
     ],
   },
+  {
+    slug: "world-religions",
+    title: "How the World's Religions Began",
+    description: "Where Hinduism, Judaism, Zoroastrianism, Buddhism, Confucianism, Christianity and Islam took shape — and how they spread across the map.",
+    duration: 6,
+    difficulty: "intro",
+    steps: [
+      {
+        title: "The Vedas of Ancient India",
+        text: "The oldest Hindu scriptures, the Vedas, were composed in Sanskrit in northern India from roughly 1500 BCE and passed down orally for centuries before being written. Hinduism has no single founder; it grew from Vedic ritual into a family of traditions centred on ideas such as dharma, karma and rebirth.",
+        mapState: { year: -1000, lat: 28, lng: 77, zoom: 4.5 },
+      },
+      {
+        title: "Israel and the Hebrew Bible",
+        text: "In the hill country of Canaan, the Israelites came to worship a single god, Yahweh. After the Babylonians destroyed Jerusalem's temple in 587 BCE and deported much of its elite, exiled scribes gathered and edited the texts that became the Hebrew Bible — the foundation of Judaism, and later of Christianity and Islam.",
+        mapState: { year: -700, lat: 31.8, lng: 35.2, zoom: 5.5 },
+      },
+      {
+        title: "Zoroaster and Persia",
+        text: "The Persian prophet Zoroaster (dates uncertain, perhaps before 1000 BCE) taught of a cosmic struggle between truth and falsehood, judgement after death, and a single wise god, Ahura Mazda. Zoroastrianism became the religion of the Achaemenid kings and later of the Sasanian Empire, and its ideas may have influenced Judaism and Christianity.",
+        mapState: { year: -500, lat: 31, lng: 53, zoom: 4, regionId: "Q389688" },
+      },
+      {
+        title: "The Buddha and Confucius",
+        text: "Around 500 BCE, two teachers transformed Asian thought. In the Ganges valley, Siddhartha Gautama — the Buddha — taught a path out of suffering through ethics, meditation and insight. In the Chinese state of Lu, Confucius taught that good government and a good life rested on virtue, ritual and respect within the family. Neither saw his ideas written down in his lifetime.",
+        mapState: { year: -500, lat: 30, lng: 105, zoom: 3.5, regionId: "Q35216" },
+      },
+      {
+        title: "Christianity Conquers Rome",
+        text: "Jesus of Nazareth was crucified in Roman Judaea around 30 CE; his followers spread the faith through the cities of the empire despite periodic persecution. The emperor Constantine legalised Christianity in 313, and by 380 it was the Roman Empire's official religion.",
+        mapState: { year: 300, lat: 40, lng: 22, zoom: 3.5, regionId: "Q2277" },
+      },
+      {
+        title: "Islam Across Three Continents",
+        text: "In 610 CE, Muhammad began preaching in Mecca the revelations collected as the Qur'an. Within a century of his death in 632, the Umayyad Caliphate ruled from Spain to the Indus, and Islam spread with Arabic language, law and learning across the Middle East and North Africa.",
+        mapState: { year: 700, lat: 30, lng: 30, zoom: 2.5, regionId: "Q8575586" },
+      },
+      {
+        title: "Faiths on the Move",
+        text: "Traders, monks and missionaries carried religions far from home. Buddhism travelled the Silk Road to China, Korea and Japan; Islam crossed the Sahara with caravans to kingdoms like Mali and sailed with merchants to Southeast Asia; Christianity spread north through Europe. By 1300 the world's religious map looked broadly as it would for centuries.",
+        mapState: { year: 1300, lat: 25, lng: 40, zoom: 2 },
+      },
+    ],
+  },
+  {
+    slug: "age-of-revolutions",
+    title: "The Age of Revolutions",
+    description: "From England's Glorious Revolution to the unification of Germany — two centuries in which kings lost power and nations were born.",
+    duration: 6,
+    difficulty: "standard",
+    steps: [
+      {
+        title: "The Glorious Revolution",
+        text: "In 1688 English Parliament leaders invited the Dutch prince William of Orange to replace the Catholic King James II, who fled. The Bill of Rights of 1689 limited the monarch's power and guaranteed regular parliaments — a model of constitutional government that inspired later revolutionaries.",
+        mapState: { year: 1650, lat: 53, lng: -2, zoom: 5, regionId: "Q179876" },
+      },
+      {
+        title: "American Independence",
+        text: "Thirteen British colonies, objecting to taxation without representation, declared independence in 1776. With French help they won the war in 1783, and in 1787 wrote a constitution founded on popular sovereignty and the separation of powers — though it left slavery in place.",
+        mapState: { year: 1783, lat: 39, lng: -78, zoom: 4, regionId: "Q30" },
+      },
+      {
+        title: "Revolution in France",
+        text: "Bankrupt and paralysed, the French monarchy summoned the Estates-General in 1789. Within weeks the Bastille fell and the Declaration of the Rights of Man was proclaimed. The revolution abolished feudal privileges, executed King Louis XVI in 1793, passed through the Terror, and ended with Napoleon's seizure of power in 1799.",
+        mapState: { year: 1783, lat: 47, lng: 2.5, zoom: 5, regionId: "Q70972" },
+      },
+      {
+        title: "Haiti: Freedom by Force",
+        text: "In 1791 enslaved people in Saint-Domingue, France's richest colony, rose in revolt. Led by Toussaint Louverture and then Jean-Jacques Dessalines, they defeated French, Spanish and British armies, and in 1804 founded Haiti — the first independent Black republic and the first nation to permanently abolish slavery.",
+        mapState: { year: 1815, lat: 19, lng: -72.5, zoom: 6, regionId: "Q790" },
+      },
+      {
+        title: "Latin America Breaks Free",
+        text: "When Napoleon occupied Spain in 1808, its American colonies began to govern themselves. Over the next two decades leaders such as Simón Bolívar and José de San Martín won independence for most of Spanish America, and Brazil declared independence from Portugal in 1822 as an empire under its own emperor, Pedro I.",
+        mapState: { year: 1815, lat: -10, lng: -65, zoom: 2.5 },
+      },
+      {
+        title: "Nations United: Italy and Germany",
+        text: "After the failed revolutions of 1848, nationalism succeeded through war and diplomacy. Piedmont, led by Cavour and with Garibaldi's volunteers, united most of Italy by 1861. Prussia's chancellor Otto von Bismarck won three short wars and proclaimed the German Empire at Versailles in 1871.",
+        mapState: { year: 1880, lat: 47, lng: 11, zoom: 4.5, regionId: "Q43287" },
+      },
+    ],
+  },
 ];
 
 /** Look up a tour by slug. */
