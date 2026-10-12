@@ -34,8 +34,8 @@ function save(state: State) {
 interface SupportNudgeProps {
   /** Analytics label for where the card was shown. */
   where: string;
-  /** "tour" shows immediately (the visitor just finished one); "page" waits
-   *  until the visitor has read a few entity pages. */
+  /** "tour" shows once the visitor finishes a tour; "page" shows from their
+   *  MIN_PAGES-th entity page. */
   trigger: "tour" | "page";
 }
 
