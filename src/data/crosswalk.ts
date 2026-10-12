@@ -29,7 +29,7 @@ export const CROSSWALK: Record<string, CrosswalkEntry> = {
   "Byzantine Empire":  { wikidataId: "Q12544",  slug: "byzantine-empire", aliases: ["Eastern Roman Empire", "Byzantium"], representativeYear: 550 }, // Byzantine Empire
   "Maurya Empire": { wikidataId: "Q62943", slug: "maurya-empire", aliases: ["Mauryan Empire"], representativeYear: -250 }, // Maurya Empire
   "Gupta Empire":      { wikidataId: "Q11774", slug: "gupta-empire", representativeYear: 400 },                              // Gupta Empire
-  "Han dynasty":       { wikidataId: "Q7209",   slug: "han-dynasty", aliases: ["Han Dynasty", "Han"], representativeYear: 100 }, // ✓ Han dynasty
+  "Han dynasty":       { wikidataId: "Q7209",   slug: "han-dynasty", aliases: ["Han Dynasty", "Han", "Han Empire"], representativeYear: 100 }, // ✓ Han dynasty
   "Kingdom of Aksum": { wikidataId: "Q139377", slug: "kingdom-of-aksum", aliases: ["Axum", "Aksumite Empire"], representativeYear: 300 }, // Kingdom of Aksum
   "Carthage": { wikidataId: "Q6343", slug: "carthage", aliases: ["Carthaginian Empire"], representativeYear: -300 }, // ✓ Carthage
 
@@ -120,6 +120,14 @@ export const CROSSWALK: Record<string, CrosswalkEntry> = {
   "Belgium": { wikidataId: "Q31", slug: "belgium", representativeYear: 2000 }, // ✓ Belgium
   "Hungary": { wikidataId: "Q28", slug: "hungary", representativeYear: 2000 }, // ✓ Hungary
 
+  // Ancient Egypt by period. The ancient snapshots label Egypt plainly "Egypt";
+  // these year-bounded entries keep it from resolving to the modern country.
+  "Prehistoric Egypt": { wikidataId: "Q208520", slug: "prehistoric-egypt", aliases: ["Egypt"], years: [-6000, -3151], representativeYear: -4000 }, // Prehistoric Egypt
+  "Early Dynastic Egypt": { wikidataId: "Q187979", slug: "early-dynastic-egypt", aliases: ["Egypt"], years: [-3150, -2686], representativeYear: -3000 }, // Early Dynastic Period of Egypt
+  "Middle Kingdom of Egypt": { wikidataId: "Q191324", slug: "middle-kingdom-of-egypt", aliases: ["Egypt"], years: [-2055, -1650], representativeYear: -2000 }, // Middle Kingdom of Egypt
+  "New Kingdom of Egypt": { wikidataId: "Q180568", slug: "new-kingdom-of-egypt", aliases: ["Egypt"], years: [-1550, -1070], representativeYear: -1500 }, // New Kingdom of Egypt
+  "Third Intermediate Period of Egypt": { wikidataId: "Q212728", slug: "third-intermediate-period-of-egypt", aliases: ["Egypt"], years: [-1069, -664], representativeYear: -1000 }, // Third Intermediate Period of Egypt
+
   // ── Added 2026-10: coverage expansion ─────────────────────────────────────
   // Keys are display names; aliases include the exact NAME string used in the
   // historical-basemaps snapshots (checked against every snapshot file). QIDs
@@ -165,7 +173,7 @@ export const CROSSWALK: Record<string, CrosswalkEntry> = {
   "Kanem–Bornu Empire": { wikidataId: "Q1139762", slug: "kanem-bornu-empire", aliases: ["Kanem-Bornu", "Kanem"], representativeYear: 1650 }, // Kanem–Bornu Empire
   "Champa": { wikidataId: "Q216786", slug: "champa", representativeYear: 1000 }, // Champa
   "Mamluk Sultanate": { wikidataId: "Q282428", slug: "mamluk-sultanate", aliases: ["Mamluke Sultanate"], representativeYear: 1400 }, // Mamluk Sultanate
-  "Yuan dynasty": { wikidataId: "Q7313", slug: "yuan-dynasty", aliases: ["Great Khanate"], representativeYear: 1300 }, // Yuan dynasty
+  "Yuan dynasty": { wikidataId: "Q7313", slug: "yuan-dynasty", aliases: ["Great Khanate"], years: [1271, 1368], representativeYear: 1300 }, // Yuan dynasty
   "Chagatai Khanate": { wikidataId: "Q487829", slug: "chagatai-khanate", representativeYear: 1400 }, // Chagatai Khanate
   "Kamakura shogunate": { wikidataId: "Q736839", slug: "kamakura-shogunate", aliases: ["Shogun Japan (Kamakura)"], representativeYear: 1300 }, // Kamakura shogunate
   "State of the Teutonic Order": { wikidataId: "Q156020", slug: "state-of-the-teutonic-order", aliases: ["Teutonic Knights", "Teutonic Order"], representativeYear: 1400 }, // State of the Teutonic Order

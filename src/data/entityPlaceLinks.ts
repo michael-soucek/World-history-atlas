@@ -40,17 +40,14 @@ export const ENTITY_PLACE_OVERRIDE: Record<string, string> = {
   "cyrus-the-great": "Q389688", // Achaemenid Empire
   "hannibal": "Q6343", // Carthage
   "attila-the-hun": "Q10295972", // Hunnic Empire — confirmed present by name in the 400 CE snapshot (gone by 500, matching its real collapse after Attila's 453 death)
+  "ramesses-ii": "Q180568", // New Kingdom of Egypt
   // Not mapped: saladin — checked the 1200 CE snapshot directly; the
   // Egypt/Levant region is still labelled "Fatimid Caliphate" there (the
   // dynasty Saladin overthrew in 1171), so the source data doesn't
   // distinguish the Ayyubid period at all — there's no feature to link to,
-  // not just a missing crosswalk entry. ramesses-ii — the -1500/-1000 BCE
-  // snapshots do have a feature named "Egypt", but the crosswalk's existing
-  // "Egypt" entry is the modern country's QID (Q79); pointing this era at it
-  // would show present-day Egypt's Wikipedia content on a 1213 BCE page.
-  // Name matching is now year-aware (CrosswalkEntry.years), so this could be
-  // fixed by adding an "ancient Egypt" crosswalk entry bounded to BCE years.
+  // not just a missing crosswalk entry.
 
+  "hatshepsut": "Q180568", // New Kingdom of Egypt
   // Added 2026-10 — each checked against the snapshot named in
   // ENTITY_YEAR_OVERRIDE, resolving names the same way lookupByName does.
   "mansa-musa": "Q184536", // Mali Empire
@@ -146,9 +143,9 @@ export const ENTITY_PLACE_OVERRIDE: Record<string, string> = {
   "ancient-rome": "Q2277", // Roman Empire
   "aztec-civilization": "Q2608489", // Aztec Empire
   "inca-civilization": "Q28573", // Inca Empire
+  "ancient-egypt": "Q180568", // New Kingdom of Egypt (its height)
   "hellenistic-period": "Q93180", // Seleucid Empire (the largest, longest-lived Hellenistic successor state)
-  // Not mapped: silk-road, renaissance, ancient-greece, ancient-egypt (only
-  // the modern Egypt QID exists), viking-age, polynesian-navigation,
+  // Not mapped: silk-road, renaissance, ancient-greece, viking-age, polynesian-navigation,
   // maya-civilization, confucianism — no single associated place, or the
   // natural one isn't in the crosswalk.
 };
@@ -243,4 +240,7 @@ export const ENTITY_YEAR_OVERRIDE: Record<string, number> = {
   "vietnam-war": 1960,
   "apollo-11": 1960,
   "dissolution-of-the-soviet-union": 1985,
+  "ramesses-ii": -1500, // reigned 1279–1213 BCE; the -1500 snapshot is the New Kingdom
+  "hatshepsut": -1500,
+  "ancient-egypt": -1500,
 };

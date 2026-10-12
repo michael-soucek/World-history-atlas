@@ -115,6 +115,10 @@ const REGIONS: Record<string, {
       "Sokoto Caliphate",
       "Morocco",
       "South Africa",
+      "Early Dynastic Egypt",
+      "Middle Kingdom of Egypt",
+      "New Kingdom of Egypt",
+      "Third Intermediate Period of Egypt",
     ],
   },
   "americas": {

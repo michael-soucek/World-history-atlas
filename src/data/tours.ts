@@ -41,12 +41,12 @@ export const TOURS: Tour[] = [
       {
         title: "A City on the Tiber",
         text: "In 500 BCE, Rome was just one of many city-states on the Italian peninsula, dominated by the Etruscans to the north and the Greek colonies to the south. Its republican government — two consuls elected annually — was an experiment in shared power that would prove remarkably durable.",
-        mapState: { year: -500, lat: 42, lng: 12.5, zoom: 5, regionId: "Q2277" },
+        mapState: { year: -500, lat: 42, lng: 12.5, zoom: 5, regionId: "Q17167" },
       },
       {
         title: "The Republic Conquers Italy",
         text: "By 200 BCE, Rome had unified the Italian peninsula and decisively beaten Carthage in the First Punic War. The Macedonian Wars were next. Rome was no longer a city-state — it was becoming an empire while still calling itself a republic.",
-        mapState: { year: -200, lat: 40, lng: 18, zoom: 4, regionId: "Q2277" },
+        mapState: { year: -200, lat: 40, lng: 18, zoom: 4, regionId: "Q17167" },
       },
       {
         title: "The Height of Roman Power",
@@ -90,7 +90,7 @@ export const TOURS: Tour[] = [
       {
         title: "The Conquest of Northern China",
         text: "The Mongols shattered the Jin dynasty over a series of campaigns, sacking Zhongdu (modern Beijing) in 1215. Their siege technology — learned from Chinese engineers — let them crack fortified cities that nomads had always found impenetrable.",
-        mapState: { year: 1279, lat: 38, lng: 112, zoom: 4, regionId: "Q12557" },
+        mapState: { year: 1200, lat: 38, lng: 112, zoom: 4, regionId: "Q12557" },
       },
       {
         title: "The Destruction of the Abbasid Caliphate",
@@ -100,7 +100,7 @@ export const TOURS: Tour[] = [
       {
         title: "The Empire at Its Peak",
         text: "At its peak in 1279, the Mongol Empire spanned from Poland to Korea — some 24 million square kilometers. It was the largest contiguous land empire in history. But it had also begun to fragment into four khanates: the Yuan, the Ilkhanate, the Chagatai, and the Golden Horde.",
-        mapState: { year: 1279, lat: 45, lng: 70, zoom: 2.5, regionId: "Q12557" },
+        mapState: { year: 1279, lat: 45, lng: 70, zoom: 2.5, regionId: "Q7313" },
       },
     ],
   },
@@ -119,17 +119,17 @@ export const TOURS: Tour[] = [
       {
         title: "The Kushan Crossroads",
         text: "By 100 CE, the Kushan Empire in central Asia sat at the pivot point of the world's trade. Silk moved west from China; gold, glass, and wine moved east from Rome; and Buddhism began its journey north into the heart of Asia.",
-        mapState: { year: 100, lat: 35, lng: 70, zoom: 4, regionId: "Q25785" },
+        mapState: { year: 100, lat: 35, lng: 70, zoom: 4, regionId: "Q25979" },
       },
       {
         title: "The Golden Age of Tang",
         text: "During the Tang Dynasty (618–907 CE), the Silk Road reached its peak. Chang'an became the largest and most cosmopolitan city in the world, filled with merchants from Persia, Sogdia, and beyond.",
-        mapState: { year: 700, lat: 36, lng: 108, zoom: 4, regionId: "Q9683" },
+        mapState: { year: 800, lat: 36, lng: 108, zoom: 4, regionId: "Q9683" },
       },
       {
         title: "The Pax Mongolica",
         text: "The Mongol conquests in the 13th century actually made the Silk Road safer than ever. Under a single political authority, travelers like Marco Polo could cross the entire continent with unprecedented ease.",
-        mapState: { year: 1300, lat: 45, lng: 80, zoom: 3, regionId: "Q12557" },
+        mapState: { year: 1300, lat: 45, lng: 80, zoom: 3, regionId: "Q487829" },
       },
       {
         title: "Maritime Competition",
@@ -187,7 +187,7 @@ export const TOURS: Tour[] = [
       {
         title: "The Rashidun Conquests",
         text: "After Muhammad's death in 632, the first four 'Rightly Guided' caliphs led a stunning expansion. Within a decade the Rashidun Caliphate had taken Syria, Egypt, and Mesopotamia from the Byzantines and shattered the Sasanian Empire entirely — one of the most rapid conquests in history.",
-        mapState: { year: 700, lat: 30, lng: 44, zoom: 3, regionId: "Q12490507" },
+        mapState: { year: 700, lat: 30, lng: 44, zoom: 3 },
       },
       {
         title: "The Umayyads Reach Three Continents",
@@ -226,7 +226,7 @@ export const TOURS: Tour[] = [
       {
         title: "Tang China and the Cosmopolitan Route",
         text: "Under the Tang dynasty (618–907), the Silk Road reached a golden age. Chang'an, the Tang capital, was perhaps the world's largest city — home to Sogdian merchants, Nestorian Christians, Zoroastrians, and Muslims. Goods and faiths flowed both ways across Central Asia.",
-        mapState: { year: 700, lat: 38, lng: 95, zoom: 3, regionId: "Q9683" },
+        mapState: { year: 800, lat: 38, lng: 95, zoom: 3, regionId: "Q9683" },
       },
       {
         title: "The Indian Ocean Monsoon Trade",
@@ -246,7 +246,7 @@ export const TOURS: Tour[] = [
       {
         title: "Majapahit and the Spice Islands",
         text: "By the 14th century the Javanese empire of Majapahit dominated the archipelago's lucrative spice trade. Nutmeg, cloves, and mace — grown almost nowhere else on earth — drew merchants from China, India, and Arabia, and would soon lure Europeans halfway around the world.",
-        mapState: { year: 1400, lat: -7, lng: 112, zoom: 4, regionId: "Q49326" },
+        mapState: { year: 1400, lat: -7, lng: 112, zoom: 4 },
       },
     ],
   },
@@ -270,7 +270,7 @@ export const TOURS: Tour[] = [
       {
         title: "The Cosmopolitan Tang",
         text: "After centuries of division, the Tang dynasty (618–907) reunified China and presided over a cultural golden age. Poetry, Buddhism, and trade flourished; the capital Chang'an drew merchants and pilgrims from across Asia. Tang China was confident, open, and immensely influential on Korea and Japan.",
-        mapState: { year: 750, lat: 34, lng: 108, zoom: 3, regionId: "Q9683" },
+        mapState: { year: 800, lat: 34, lng: 108, zoom: 3, regionId: "Q9683" },
       },
       {
         title: "Song Innovation",
@@ -280,7 +280,7 @@ export const TOURS: Tour[] = [
       {
         title: "The Ming Restoration",
         text: "After a century of Mongol Yuan rule, the Ming dynasty (1368–1644) restored native Chinese government. It rebuilt the Great Wall in the form we know today, moved the capital to Beijing, and in the early 1400s sent Admiral Zheng He's vast treasure fleets across the Indian Ocean.",
-        mapState: { year: 1450, lat: 36, lng: 114, zoom: 3, regionId: "Q9903" },
+        mapState: { year: 1492, lat: 36, lng: 114, zoom: 3, regionId: "Q9903" },
       },
       {
         title: "The Qing and the Last Dynasty",
@@ -358,7 +358,7 @@ export const TOURS: Tour[] = [
       {
         title: "The Reckoning",
         text: "By 1945 Germany and Japan were defeated, the latter after atomic bombs fell on Hiroshima and Nagasaki. Some 70–85 million people had died. From the wreckage rose two superpowers, the United Nations, and a Cold War that would divide the world for decades.",
-        mapState: { year: 1945, lat: 40, lng: 30, zoom: 2, regionId: "Q7318" },
+        mapState: { year: 1945, lat: 40, lng: 30, zoom: 2 },
       },
     ],
   },
@@ -387,7 +387,7 @@ export const TOURS: Tour[] = [
       {
         title: "Wars of Independence",
         text: "Not all empires let go peacefully. France fought bitter wars in Indochina and Algeria; Vietnam's long struggle against colonial and then Cold War powers lasted decades. Independence was often won at enormous cost in lives and upheaval.",
-        mapState: { year: 1954, lat: 16, lng: 107, zoom: 4, regionId: "Q881" },
+        mapState: { year: 1960, lat: 16, lng: 107, zoom: 4, regionId: "Q881" },
       },
       {
         title: "A World of Nations",
