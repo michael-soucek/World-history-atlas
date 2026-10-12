@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import Link from "next/link";
 import { cache } from "react";
 import HandwrittenTitle from "@/components/HandwrittenTitle";
@@ -10,10 +9,9 @@ import { readableNameFromSlug, resolveEntityBySlugOrQid } from "@/lib/entityReso
 import { fetchWikipediaSearchSummary } from "@/lib/wikipedia";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
-import { ReadAloudButton } from "@/components/ReadAloudButton";
 import RelatedResources from "@/components/RelatedResources";
 import AdSlot from "@/components/AdSlot";
-import ImageGallery from "@/components/ImageGallery";
+import ArticleBody from "@/components/ArticleBody";
 import { getEntityImages } from "@/lib/entityImages";
 import { DEFAULT_SOCIAL_IMAGE } from "@/lib/seo";
 
@@ -209,97 +207,7 @@ export default async function PlacePage({ params }: Props) {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
           {/* Main column */}
           <div className="lg:col-span-2">
-            {/* Hero image */}
-            {content.imageUrl && (
-              <figure className="mb-8">
-                <div className="relative w-full rounded-2xl overflow-hidden border border-paper" style={{ aspectRatio: "16/9" }}>
-                  <Image
-                    src={content.imageUrl}
-                    alt={`Image related to ${content.name}`}
-                    fill
-                    className="object-contain bg-surface"
-                    unoptimized
-                    priority
-                  />
-                </div>
-                <figcaption className="mt-2.5 text-xs text-ink/40 leading-snug flex flex-wrap gap-x-1.5">
-                  {content.imageAuthor && <span>{content.imageAuthor}</span>}
-                  {content.imageAuthor && content.imageLicense && <span>·</span>}
-                  {content.imageLicense && <span>{content.imageLicense}</span>}
-                  {content.imageSourceUrl && (
-                    <><span>·</span><a href={content.imageSourceUrl} target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 hover:text-ink/70 transition-colors">Wikimedia Commons</a></>
-                  )}
-                </figcaption>
-              </figure>
-            )}
-
-            {/* Lead summary */}
-            {content.summary && (
-              <div className="flex items-center gap-3 mb-6">
-                <ReadAloudButton text={[content.summary, ...(content.sections?.map(s => s.content) || [])].join(" ")} />
-                <span className="text-ink/25 text-[10px] uppercase tracking-widest font-semibold">Read Article</span>
-              </div>
-            )}
-            {content.summary && (
-              <div className="space-y-4 mb-4">
-                {content.summary.split(/\n+/).filter(Boolean).map((para, i) => (
-                  <div key={i} className="group relative flex gap-4">
-                    <ReadAloudButton 
-                      text={para} 
-                      variant="minimal" 
-                      className="shrink-0 mt-1 opacity-20 group-hover:opacity-100 pointer-coarse:opacity-100 transition-opacity" 
-                    />
-                    <p className="text-ink/75 text-base leading-[1.85]">{para}</p>
-                  </div>
-                ))}
-              </div>
-            )}
-            {content.wikipediaUrl && (
-              <p className="text-xs text-ink/25 mb-10">
-                Summary from{" "}
-                <a href={content.wikipediaUrl} target="_blank" rel="noopener noreferrer" className="text-ancient/50 hover:text-ancient underline underline-offset-2 transition-colors">Wikipedia</a>
-                {" "}(CC BY-SA 4.0)
-              </p>
-            )}
-
-            <ImageGallery images={await getEntityImages(entry.wikidataId, content.imageUrl)} name={displayName} />
-
-            {/* Article sections (Origins, History, Legacy…) */}
-            {content.sections && content.sections.length > 0 && (
-              <div className="space-y-8 border-t border-paper pt-8">
-                {content.sections.map((sec, i) => (
-                  <details key={sec.heading || `sec-${i}`} className="group" open={i === 0}>
-                    <summary className="flex items-center gap-3 cursor-pointer list-none select-none mb-3">
-                      <div className="w-1 h-5 rounded-full bg-ancient/40 group-open:bg-ancient transition-colors" aria-hidden="true" />
-                      <h2 className="font-display text-xl font-semibold text-ink/80 italic group-open:text-ink transition-colors">
-                        {sec.heading}
-                      </h2>
-                      <ReadAloudButton
-                        text={sec.content}
-                        variant="minimal"
-                        className="ml-2 opacity-0 group-hover:opacity-100 pointer-coarse:opacity-100 transition-opacity"
-                      />
-                      <svg className="ml-auto w-4 h-4 text-ink/25 transition-transform group-open:rotate-180" viewBox="0 0 16 16" fill="none" aria-hidden="true">
-                        <path d="M4 6l4 4 4-4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-                      </svg>
-                    </summary>
-                    <p className="text-ink/70 text-[15px] leading-[1.9] pl-4 border-l border-paper">
-                      {sec.content}
-                      {sec.content.length >= 1190 && (
-                        <>{" "}<a href={content.wikipediaUrl ?? "#"} target="_blank" rel="noopener noreferrer" className="text-ancient/60 hover:text-ancient underline underline-offset-2 transition-colors text-xs">Read more on Wikipedia →</a></>
-                      )}
-                    </p>
-                  </details>
-                ))}
-                {content.wikipediaUrl && (
-                  <p className="text-xs text-ink/25 pt-2 border-t border-paper">
-                    Article sections from{" "}
-                    <a href={content.wikipediaUrl} target="_blank" rel="noopener noreferrer" className="text-ancient/50 hover:text-ancient underline underline-offset-2 transition-colors">Wikipedia</a>
-                    {" "}(CC BY-SA 4.0). Excerpted for readability.
-                  </p>
-                )}
-              </div>
-            )}
+            <ArticleBody content={content} images={await getEntityImages(entry.wikidataId, content.imageUrl)} readLabel="Read Article" />
           </div>
 
           {/* Sidebar */}

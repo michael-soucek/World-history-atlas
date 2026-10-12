@@ -37,7 +37,8 @@ function cleanCachedText(text: string): string {
     .replace(/\[(?:\s*\d+\s*)+\]/g, "")
     .replace(/\[\s*edit\s*\]/gi, "")
     .replace(/(^|\s)\^[^\n]*/g, "")
-    .replace(/\s{2,}/g, " ")
+    .replace(/[ \t]{2,}/g, " ")
+    .replace(/\n{3,}/g, "\n\n")
     .trim();
 }
 

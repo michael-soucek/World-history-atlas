@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import Image from "next/image";
 import { cache } from "react";
 import { notFound } from "next/navigation";
 import SiteHeader from "@/components/SiteHeader";
@@ -9,7 +8,8 @@ import { ReadAloudButton } from "@/components/ReadAloudButton";
 import HandwrittenTitle from "@/components/HandwrittenTitle";
 import VoyageMap from "@/components/VoyageMap";
 import RelatedResources from "@/components/RelatedResources";
-import ImageGallery from "@/components/ImageGallery";
+import ArticleImage, { type ArticleImageData } from "@/components/ArticleImage";
+import { ImageStrip, toArticleImage } from "@/components/ArticleBody";
 import { getEntityImages } from "@/lib/entityImages";
 import { EXPLORERS, getExplorerBySlug } from "@/data/voyages";
 import { buildEntityContent } from "@/lib/wikidata";
@@ -63,7 +63,13 @@ export default async function ExplorerPage({ params }: Props) {
   const { explorer, content } = data;
 
   const summaryParas = (content?.summary ?? "").split(/\n+/).filter(Boolean);
-  const images = await getEntityImages(explorer.wikidataId, content?.imageUrl);
+  const images = (await getEntityImages(explorer.wikidataId, content?.imageUrl)).map(toArticleImage);
+  // Hero: the explorer's own Wikidata image if any, else the article's first image.
+  const hero: ArticleImageData | undefined = content?.imageUrl
+    ? { thumb: content.imageUrl, caption: explorer.imageCaption, author: content.imageAuthor, license: content.imageLicense, sourceUrl: content.imageSourceUrl }
+    : images.shift();
+  const summaryImage = summaryParas.length > 0 ? images.shift() : undefined;
+  const stripImages = images;
   const voyages = explorer.voyages ?? [];
   const hasVoyages = explorer.status === "full" && voyages.length > 0;
 
@@ -95,25 +101,7 @@ export default async function ExplorerPage({ params }: Props) {
           {/* Bio */}
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 mb-14">
             <div className="lg:col-span-2">
-              {content?.imageUrl && (
-                <figure className="mb-6">
-                  <div className="relative w-full rounded-2xl overflow-hidden border border-paper" style={{ aspectRatio: "16/9" }}>
-                    <Image src={content.imageUrl} alt={`Depiction of ${explorer.name}`} fill className="object-contain bg-surface" unoptimized priority />
-                  </div>
-                  {(explorer.imageCaption || content.imageAuthor || content.imageLicense) && (
-                    <figcaption className="mt-2.5 text-xs text-ink/40 leading-snug flex flex-col gap-y-1">
-                      {explorer.imageCaption && (
-                        <span className="text-ink/60 italic mb-1">{explorer.imageCaption}</span>
-                      )}
-                      <div className="flex flex-wrap gap-x-1.5 opacity-70">
-                        {content.imageAuthor && <span>{content.imageAuthor}</span>}
-                        {content.imageAuthor && content.imageLicense && <span>·</span>}
-                        {content.imageLicense && <span>{content.imageLicense}</span>}
-                      </div>
-                    </figcaption>
-                  )}
-                </figure>
-              )}
+              {hero && <ArticleImage img={hero} alt={hero.caption || `Depiction of ${explorer.name}`} variant="hero" priority />}
 
               {content?.summary && (
                 <div className="flex items-center gap-3 mb-6">
@@ -123,7 +111,9 @@ export default async function ExplorerPage({ params }: Props) {
               )}
 
               {summaryParas.length > 0 ? (
-                <div className="space-y-6 mb-8">
+                <div className="mb-8 flow-root">
+                  {summaryImage && <ArticleImage img={summaryImage} alt={summaryImage.caption ?? explorer.name} variant="float" side="right" />}
+                  <div className="space-y-6">
                   {summaryParas.map((para, i) => (
                     <div key={i} className="group relative flex gap-4">
                       <ReadAloudButton 
@@ -134,6 +124,7 @@ export default async function ExplorerPage({ params }: Props) {
                       <p className="text-ink/75 text-base leading-[1.85]">{para}</p>
                     </div>
                   ))}
+                  </div>
                 </div>
               ) : (
                 <div className="flex items-start gap-4">
@@ -150,9 +141,7 @@ export default async function ExplorerPage({ params }: Props) {
                 </p>
               )}
 
-              <div className="mt-10">
-                <ImageGallery images={images} name={explorer.name} />
-              </div>
+              {stripImages.length > 0 && <ImageStrip images={stripImages} name={explorer.name} />}
             </div>
 
             {/* Sidebar */}

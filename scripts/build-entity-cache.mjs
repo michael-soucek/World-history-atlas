@@ -176,8 +176,12 @@ async function fetchSections(title) {
     let content = parts[i + 1]
       .replace(/^=+[ \t]*[^\n]*?[ \t]*=+[ \t]*$/gm, "") // subsection headings
       .replace(/\[(?:\s*\d+\s*)+\]/g, "")
-      .replace(/\s+/g, " ")
-      .trim();
+      // Keep paragraph breaks (one blank line between paragraphs) so pages
+      // don't render each section as a single wall of text.
+      .split(/\n+/)
+      .map((p) => p.replace(/\s+/g, " ").trim())
+      .filter(Boolean)
+      .join("\n\n");
     if (content.length > MAX_SECTION_CHARS) {
       const cut = content.lastIndexOf(". ", MAX_SECTION_CHARS);
       content = content.slice(0, cut > MAX_SECTION_CHARS / 2 ? cut + 1 : MAX_SECTION_CHARS).trim();

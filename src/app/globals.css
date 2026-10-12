@@ -157,3 +157,9 @@ body {
 }
 
 
+
+/* Full-screen image viewer (ArticleImage) */
+dialog.lightbox::backdrop {
+  background: rgb(10 8 6 / 0.82);
+  backdrop-filter: blur(3px);
+}
