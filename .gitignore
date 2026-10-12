@@ -40,3 +40,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# land polygons downloaded by scripts/validate-voyage-routes.mjs
+/.cache/
