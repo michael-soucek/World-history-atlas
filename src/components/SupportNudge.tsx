@@ -9,8 +9,8 @@ const KEY = "bot-support";
 const DAY = 24 * 60 * 60 * 1000;
 const SNOOZE_AFTER_DISMISS = 60 * DAY;
 const SNOOZE_AFTER_SUPPORT = 180 * DAY;
-/** Entity pages a visitor reads before the card appears on one. */
-const MIN_PAGES = 3;
+/** Entity pages a visitor reads before the card appears on one (1 = the first). */
+const MIN_PAGES = 1;
 
 type State = { pages: number; hideUntil: number };
 
@@ -41,8 +41,8 @@ interface SupportNudgeProps {
 
 /**
  * A quiet, inline support card — never a popup or overlay. Shown only to
- * engaged visitors: at the end of a finished tour, or on entity pages from the
- * visitor's third one onward. Dismissing hides it for 60 days, supporting
+ * visitors who are actually reading: at the end of a finished tour, or in the
+ * sidebar of every entity page. Dismissing hides it for 60 days, supporting
  * hides it for 180. Renders nothing until NEXT_PUBLIC_SUPPORT_URL is set.
  */
 export default function SupportNudge({ where, trigger }: SupportNudgeProps) {
