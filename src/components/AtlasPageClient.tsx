@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import dynamic from "next/dynamic";
 import Link from "next/link";
+import SupportButton from "./SupportButton";
 import { useAtlasStore } from "@/store/atlasStore";
 import TimeSlider from "./TimeSlider";
 import StoryPanel from "./StoryPanel";
@@ -122,6 +123,7 @@ export default function AtlasPageClient({
         >
           About
         </Link>
+        <SupportButton variant="overlay" />
       </nav>
     </div>
   );

@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import SupportButton from "@/components/SupportButton";
 
 const NAV_LINKS = [
   { href: "/map",      label: "Map"      },
@@ -18,7 +19,7 @@ export default function SiteHeader() {
     <header className="sticky top-0 z-50 border-b border-paper bg-parchment/95 backdrop-blur-md">
       {/* Thin amber top stripe */}
       <div className="h-px bg-linear-to-r from-transparent via-ancient/50 to-transparent" />
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 h-14 flex items-center gap-6">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 h-14 flex items-center gap-3 sm:gap-6">
         {/* Logo */}
         <Link
           href="/"
@@ -45,6 +46,8 @@ export default function SiteHeader() {
 
         {/* Right side */}
         <div className="ml-auto flex items-center gap-2">
+          <SupportButton variant="header" />
+
           {/* Search */}
           <Link
             href="/search"
@@ -99,6 +102,9 @@ export default function SiteHeader() {
               {label}
             </Link>
           ))}
+          <div className="px-3 pt-2 pb-1">
+            <SupportButton variant="button" className="w-full justify-center" />
+          </div>
         </nav>
       )}
     </header>
