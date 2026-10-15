@@ -1,10 +1,11 @@
 /**
  * Shared MapLibre base-map style used by every map on the site.
  *
- * Both AtlasMap (the full /map experience) and HistoricalMapClient
- * (the /timeline scrubber) import from here so they can never drift apart.
+ * AtlasMap (the full /map experience) and TourMap (guided tours) import
+ * from here so they can never drift apart.
  */
 import type { StyleSpecification } from "maplibre-gl";
+import { MAP } from "@/lib/palette";
 
 export const BASE_STYLE: StyleSpecification = {
   version: 8,
@@ -20,21 +21,21 @@ export const BASE_STYLE: StyleSpecification = {
     {
       id: "ocean",
       type: "background",
-      paint: { "background-color": "#D8F2FF" },
+      paint: { "background-color": MAP.sea }, // pale sea, like a printed atlas
     },
     {
       id: "land",
       type: "fill",
       source: "maplibre",
       "source-layer": "countries",
-      paint: { "fill-color": "#EAB38F" },
+      paint: { "fill-color": MAP.land }, // paper land
     },
     {
       id: "coastline",
       type: "line",
       source: "maplibre",
       "source-layer": "countries",
-      paint: { "line-color": "#198EC8", "line-width": 0.8, "line-blur": 0.5 },
+      paint: { "line-color": MAP.coast, "line-width": 0.7, "line-blur": 0.3 },
     },
   ],
 };

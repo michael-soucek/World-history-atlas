@@ -1,6 +1,6 @@
-import type { Metadata } from "next";
-import Script from "next/script";
-import { Geist, Geist_Mono, Playfair_Display } from "next/font/google";
+import type { Metadata, Viewport } from "next";
+import AdsenseLoader from "@/components/AdsenseLoader";
+import { Geist, Geist_Mono, Fraunces, Source_Serif_4 } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 import { DEFAULT_SOCIAL_IMAGE } from "@/lib/seo";
@@ -13,14 +13,29 @@ const geistSans = Geist({
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
+  preload: false, // small labels only; not worth competing with the first paint
 });
 
-const playfair = Playfair_Display({
-  variable: "--font-playfair",
+// Display face: an old-style serif with optical sizes, so the huge headings
+// stay sharp and the small ones stay sturdy.
+const fraunces = Fraunces({
+  variable: "--font-fraunces",
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700", "800", "900"],
   style: ["normal", "italic"],
+  axes: ["opsz"],
 });
+
+// Reading face for article text.
+const sourceSerif = Source_Serif_4({
+  variable: "--font-source-serif",
+  subsets: ["latin"],
+  style: ["normal", "italic"],
+  preload: false, // article text sits below the title and lead picture
+});
+
+export const viewport: Viewport = {
+  themeColor: "#0b1424", // browser chrome on mobile matches the night header
+};
 
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://www.bordersoftime.com"),
@@ -35,6 +50,7 @@ export const metadata: Metadata = {
     apple: [{ url: "/apple-touch-icon.png", sizes: "180x180" }],
     other: [{ rel: "manifest", url: "/site.webmanifest" }],
   },
+  other: { "google-adsense-account": "ca-pub-1772060773365341" },
   openGraph: {
     title: "Borders of Time",
     description:
@@ -59,15 +75,10 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} ${playfair.variable} antialiased`}
+      className={`${geistSans.variable} ${geistMono.variable} ${fraunces.variable} ${sourceSerif.variable} antialiased`}
     >
       <body className="min-h-screen flex flex-col bg-parchment text-ink">
-        <Script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1772060773365341"
-          crossOrigin="anonymous"
-          strategy="beforeInteractive"
-        />
+        <AdsenseLoader />
         {children}
         <Analytics />
       </body>

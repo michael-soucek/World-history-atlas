@@ -3,8 +3,10 @@ import { buildManifest, stateIndexForYear } from "@/app/api/manifest/route";
 import { geometryArea, normaliseSovereign, type RawProperties } from "@/lib/geoEnrich";
 import polylabel from "polylabel";
 
-// Server-side in-memory cache: stateTileKey → enriched labels JSON string
-const labelCache = new Map<string, string>();
+import { packJson, sendJson, type PackedJson } from "@/lib/geoResponse";
+
+// Server-side in-memory cache: stateTileKey → packed labels JSON
+const labelCache = new Map<string, PackedJson>();
 
 // ── Geometry helpers ───────────────────────────────────────────────────────
 
@@ -86,14 +88,8 @@ export async function GET(
     }
 
     const cacheKey = `${state.validFrom}:${state.validTo}:${snapshot.snapshotYear}`;
-    if (labelCache.has(cacheKey)) {
-      return new NextResponse(labelCache.get(cacheKey)!, {
-        headers: {
-          "Content-Type": "application/json",
-          "Cache-Control": "public, max-age=86400, s-maxage=86400",
-        },
-      });
-    }
+    const hit = labelCache.get(cacheKey);
+    if (hit) return sendJson(req, hit);
 
     const upstream = await fetch(new URL(snapshot.rawUrl, req.url), {
       headers: { "User-Agent": "WorldHistoryAtlas/1.0" },
@@ -133,8 +129,8 @@ export async function GET(
 
       labelFeatures.push({
         type: "Feature",
-        properties: { name, sovereign, sovereignColorKey, rank, area },
-        geometry: { type: "Point", coordinates: pt },
+        properties: { name, sovereign, sovereignColorKey, rank, area: Math.round(area * 1000) / 1000 },
+        geometry: { type: "Point", coordinates: [Math.round(pt[0] * 1000) / 1000, Math.round(pt[1] * 1000) / 1000] },
       });
     }
 
@@ -148,15 +144,9 @@ export async function GET(
       sources: state.sources,
       features: labelFeatures,
     };
-    const json = JSON.stringify(geojson);
-    labelCache.set(cacheKey, json);
-
-    return new NextResponse(json, {
-      headers: {
-        "Content-Type": "application/json",
-        "Cache-Control": "public, max-age=86400, s-maxage=86400",
-      },
-    });
+    const packed = packJson(geojson);
+    labelCache.set(cacheKey, packed);
+    return sendJson(req, packed);
   } catch (err) {
     console.error(`[labels] year=${year}`, err);
     return NextResponse.json(

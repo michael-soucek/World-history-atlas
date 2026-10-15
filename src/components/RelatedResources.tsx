@@ -10,8 +10,8 @@ export default function RelatedResources({ resourceKey }: { resourceKey: string 
   if (resources.length === 0) return null;
 
   return (
-    <div className="rounded-2xl border border-paper bg-white/60 p-5 space-y-3">
-      <p className="text-ink/35 text-xs font-semibold uppercase tracking-wider">
+    <div className="rounded-md border border-paper bg-card p-5 space-y-3">
+      <p className="label text-ink/45">
         Further reading &amp; viewing
       </p>
       <div className="space-y-3">

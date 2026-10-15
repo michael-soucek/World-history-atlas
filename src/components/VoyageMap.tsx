@@ -1,5 +1,6 @@
 "use client";
 
+import "maplibre-gl/dist/maplibre-gl.css";
 import { useEffect, useRef, useState } from "react";
 import type {
   Map as MapLibreMap,
@@ -9,6 +10,7 @@ import type {
   MapLayerMouseEvent,
 } from "maplibre-gl";
 import type { Voyage } from "@/data/voyages";
+import { MAP } from "@/lib/palette";
 
 // Same muted base plate used across the atlas (ocean + neutral land + coast).
 const BASE_STYLE: StyleSpecification = {
@@ -22,20 +24,20 @@ const BASE_STYLE: StyleSpecification = {
     },
   },
   layers: [
-    { id: "ocean", type: "background", paint: { "background-color": "#D8F2FF" } },
+    { id: "ocean", type: "background", paint: { "background-color": MAP.sea } },
     {
       id: "land",
       type: "fill",
       source: "maplibre",
       "source-layer": "countries",
-      paint: { "fill-color": "#EAB38F" },
+      paint: { "fill-color": MAP.land },
     },
     {
       id: "coastline",
       type: "line",
       source: "maplibre",
       "source-layer": "countries",
-      paint: { "line-color": "#198EC8", "line-width": 0.8, "line-blur": 0.5 },
+      paint: { "line-color": MAP.coast, "line-width": 0.7, "line-blur": 0.3 },
     },
   ],
 };
@@ -183,7 +185,8 @@ export default function VoyageMap({ voyages, initialVisibleIds, className }: Voy
   const readyRef = useRef(false);
 
   const [ready, setReady] = useState(false);
-  const [legendOpen, setLegendOpen] = useState(true);
+  // Phones: collapsed until tapped. From `sm` up the list always shows (CSS).
+  const [legendOpen, setLegendOpen] = useState(false);
   const [visible, setVisible] = useState<Record<string, boolean>>(() => {
     const defaults = initialVisibleIds ?? (voyages[0] ? [voyages[0].id] : []);
     return Object.fromEntries(voyages.map((v) => [v.id, defaults.includes(v.id)]));
@@ -330,11 +333,11 @@ export default function VoyageMap({ voyages, initialVisibleIds, className }: Voy
 
   return (
     <div className={`relative ${className ?? ""}`}>
-      <div ref={containerRef} className="absolute inset-0 rounded-2xl overflow-hidden" />
+      <div ref={containerRef} className="absolute inset-0 overflow-hidden" />
 
       {/* Legend / toggles — collapsible on mobile */}
-      <div className="absolute top-3 left-3 z-10 w-44 sm:max-w-60 sm:w-auto rounded-xl border border-paper bg-parchment/90 backdrop-blur-sm p-3 shadow-sm">
-        <div className="flex items-center justify-between gap-3 mb-2">
+      <div className="absolute top-3 left-3 z-10 max-sm:max-w-48 sm:max-w-60 rounded-md border border-ink/10 bg-parchment/92 backdrop-blur-md p-3 shadow-[0_8px_30px_rgba(11,20,36,0.12)]">
+        <div className={`flex items-center justify-between gap-3 sm:mb-2 ${legendOpen ? "mb-2" : ""}`}>
           <button
             type="button"
             onClick={() => setLegendOpen(v => !v)}
@@ -344,18 +347,19 @@ export default function VoyageMap({ voyages, initialVisibleIds, className }: Voy
             <span>Voyages</span>
             <svg className={`sm:hidden w-3 h-3 transition-transform ${legendOpen ? "rotate-180" : ""}`} viewBox="0 0 12 12" fill="currentColor" aria-hidden="true"><path d="M2 4l4 4 4-4"/></svg>
           </button>
-          {voyages.length > 1 && legendOpen && (
+          {voyages.length > 1 && (
+            <span className={legendOpen ? "" : "max-sm:hidden"}>
             <button
               type="button"
               onClick={toggleAll}
-              className="text-[11px] text-ancient/70 hover:text-ancient font-medium transition-colors"
+              className="text-[11px] text-accent/70 hover:text-accent font-medium transition-colors"
             >
               {allOn ? "Hide all" : "Show all"}
             </button>
+            </span>
           )}
         </div>
-        {legendOpen && (
-        <ul className="space-y-1.5">
+        <ul className={`space-y-1.5 ${legendOpen ? "" : "max-sm:hidden"}`}>
           {voyages.map((v) => {
             const on = visible[v.id];
             return (
@@ -364,7 +368,7 @@ export default function VoyageMap({ voyages, initialVisibleIds, className }: Voy
                   type="button"
                   onClick={() => toggle(v.id)}
                   aria-pressed={on}
-                  className={`flex items-start gap-2 w-full text-left rounded-lg px-2 py-1.5 transition-colors ${
+                  className={`flex items-start gap-2 w-full text-left rounded-md px-2 py-1.5 transition-colors ${
                     on ? "bg-white/70" : "hover:bg-white/40"
                   }`}
                 >
@@ -386,11 +390,10 @@ export default function VoyageMap({ voyages, initialVisibleIds, className }: Voy
             );
           })}
         </ul>
-        )}
       </div>
 
       {!ready && (
-        <div className="absolute inset-0 z-20 flex items-center justify-center bg-parchment/60 rounded-2xl pointer-events-none">
+        <div className="absolute inset-0 z-20 flex items-center justify-center bg-parchment/60 pointer-events-none">
           <span className="text-ink/40 text-sm animate-pulse">Loading map…</span>
         </div>
       )}

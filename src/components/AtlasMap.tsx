@@ -1,8 +1,10 @@
 "use client";
 
+import "maplibre-gl/dist/maplibre-gl.css";
 import { useEffect, useRef, useCallback, useState } from "react";
 import type { Map as MapLibreMap, GeoJSONSource } from "maplibre-gl";
 import { useAtlasStore } from "@/store/atlasStore";
+import { MAP } from "@/lib/palette";
 import {
   BASE_STYLE,
   FILL_OPACITY,
@@ -243,7 +245,7 @@ export default function AtlasMap() {
         }
 
         // ── Selection highlight ────────────────────────────────────────
-        // The site's amber accent (--color-ancient, #b87008) reads clearly
+        // The site's vermilion highlight (--color-vermilion) reads clearly
         // against the pale terrain fills, unlike the white this used to be —
         // white blended into both the pale palette and the white territory
         // borders already drawn everywhere, so a "selected" territory looked
@@ -253,8 +255,8 @@ export default function AtlasMap() {
           type: "fill",
           source: "territory-selected",
           paint: {
-            "fill-color": "#b87008",
-            "fill-opacity": 0.35,
+            "fill-color": MAP.highlight,
+            "fill-opacity": 0.3,
           },
         });
         map.addLayer({
@@ -262,8 +264,8 @@ export default function AtlasMap() {
           type: "line",
           source: "territory-selected",
           paint: {
-            "line-color": "#b87008",
-            "line-width": 3.5,
+            "line-color": MAP.highlight,
+            "line-width": 3,
             "line-blur": 0.3,
             "line-opacity": 1,
           },
@@ -276,20 +278,22 @@ export default function AtlasMap() {
             type: "symbol",
             source: `labels-${slot}`,
             // Show rank ≥5 at world zoom, rank ≥3 at mid zoom, all at close zoom
+            // "Unknown" marks gaps in the source data; labelling every one
+            // just adds noise, so those areas stay unlabelled.
             filter: [
-              ">=",
-              ["get", "rank"],
+              "all",
+              ["!=", ["get", "name"], "Unknown"],
               [
-                "interpolate",
-                ["linear"],
-                ["zoom"],
-                1, 5,
-                4, 3,
-                7, 1,
+                ">=",
+                ["get", "rank"],
+                ["interpolate", ["linear"], ["zoom"], 1, 5, 4, 3, 7, 1],
               ],
             ],
             layout: {
-              "text-field": ["get", "name"],
+              // Large polities in spaced capitals, smaller ones in plain
+              // case — the convention of printed historical atlases.
+              "text-field": ["case", [">=", ["get", "rank"], 5], ["upcase", ["get", "name"]], ["get", "name"]],
+              "text-letter-spacing": ["case", [">=", ["get", "rank"], 5], 0.12, 0.02],
               "text-font": ["Open Sans Regular", "Arial Unicode MS Regular"],
               // Scale text size with both zoom and feature rank
               "text-size": [
@@ -309,9 +313,9 @@ export default function AtlasMap() {
               "text-padding": 4,
             },
             paint: {
-              "text-color": "#ffffff",
-              "text-halo-color": "rgba(0,0,0,0.75)",
-              "text-halo-width": 1.2,
+              "text-color": MAP.label,
+              "text-halo-color": MAP.labelHalo,
+              "text-halo-width": 1.4,
               "text-opacity": 0,
               "text-opacity-transition": { duration: TRANSITION_MS, delay: 0 },
             },

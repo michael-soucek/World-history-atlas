@@ -20,7 +20,7 @@ interface Props {
 export default function HandwrittenTitle({
   children,
   className = "",
-  inkColor = "#1a120a",
+  inkColor = "#0f1726",
 }: Props) {
   const reducedMotion = usePrefersReducedMotion();
   const phase = reducedMotion ? "reduced" : "animating";
@@ -38,9 +38,8 @@ export default function HandwrittenTitle({
         className={className}
         style={{
           color: inkColor,
-          clipPath: phase === "reduced" ? "none" : "inset(0 100% 0 0)",
           animation: phase === "animating"
-            ? "calligraphy-reveal 1.4s cubic-bezier(0.4, 0, 0.2, 1) forwards"
+            ? "year-in 0.8s cubic-bezier(.2,.7,.2,1) both"
             : "none",
         }}
       >

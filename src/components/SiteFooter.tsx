@@ -1,83 +1,92 @@
 import Link from "next/link";
 import SupportButton from "@/components/SupportButton";
+import BrandMark from "@/components/BrandMark";
 
-/** Site-wide footer: attribution, nav, data sources. */
+const COLUMNS: { title: string; links: { href: string; label: string; external?: boolean }[] }[] = [
+  {
+    title: "Explore",
+    links: [
+      { href: "/map", label: "The map" },
+      { href: "/timeline", label: "Timeline" },
+      { href: "/tour", label: "Guided tours" },
+      { href: "/browse", label: "Browse" },
+      { href: "/theme/age-of-exploration", label: "Voyages" },
+    ],
+  },
+  {
+    title: "Sources",
+    links: [
+      { href: "https://github.com/aourednik/historical-basemaps", label: "historical-basemaps", external: true },
+      { href: "https://www.openhistoricalmap.org", label: "OpenHistoricalMap", external: true },
+      { href: "https://www.wikipedia.org", label: "Wikipedia", external: true },
+      { href: "https://www.wikidata.org", label: "Wikidata", external: true },
+    ],
+  },
+  {
+    title: "About",
+    links: [
+      { href: "/about", label: "Methodology" },
+      { href: "/contact", label: "Contact" },
+      { href: "mailto:michaelsoucek73@gmail.com", label: "Report an error", external: true },
+      { href: "/privacy", label: "Privacy" },
+      { href: "/terms", label: "Terms" },
+    ],
+  },
+];
+
+/** Site-wide footer. */
 export default function SiteFooter() {
   return (
-    <footer className="mt-auto bg-surface border-t border-paper">
-      {/* Top amber rule */}
-      <div className="h-px bg-gradient-to-r from-transparent via-ancient/35 to-transparent" />
+    <footer className="mt-auto bg-night text-parchment">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14 sm:py-16">
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-12 gap-x-8 gap-y-12">
+          <div className="col-span-2 sm:col-span-3 lg:col-span-5">
+            <Link href="/" className="inline-flex items-center gap-3 group" aria-label="Borders of Time — home">
+              <BrandMark className="w-8 h-8 text-glow transition-transform duration-700 group-hover:rotate-[30deg]" />
+              <span className="font-display text-2xl tracking-tight">
+                Borders <span className="italic">of</span> Time
+              </span>
+            </Link>
+            <p className="mt-5 text-[15px] text-parchment/60 leading-relaxed max-w-sm">
+              An independent atlas of five thousand years of history, built on open data and kept free for everyone.
+            </p>
+            <div className="mt-6">
+              <SupportButton variant="button" tone="night" />
+            </div>
+          </div>
 
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 py-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 text-sm">
-        {/* Brand */}
-        <div>
-          <Link href="/" className="font-display text-ink font-semibold text-base hover:text-ancient transition-colors italic">
-            Borders of Time
-          </Link>
-          <p className="mt-3 text-ink/40 text-xs leading-relaxed max-w-xs">
-            Explore how the world&rsquo;s empires and nations rose, shifted, and fell — year by year. Powered by open historical data.
-          </p>
+          {COLUMNS.map((col, i) => (
+            <nav key={col.title} aria-label={col.title} className={`lg:col-span-2 ${i === 0 ? "lg:col-start-7" : ""}`}>
+              <p className="label text-parchment/40 mb-4">{col.title}</p>
+              <ul className="space-y-2.5 text-[15px]">
+                {col.links.map((l) => (
+                  <li key={l.href}>
+                    {l.external ? (
+                      <a
+                        href={l.href}
+                        {...(l.href.startsWith("http") ? { target: "_blank", rel: "noopener noreferrer" } : {})}
+                        className="text-parchment/75 hover:text-glow transition-colors"
+                      >
+                        {l.label}
+                      </a>
+                    ) : (
+                      <Link href={l.href} className="text-parchment/75 hover:text-glow transition-colors">
+                        {l.label}
+                      </Link>
+                    )}
+                  </li>
+                ))}
+              </ul>
+            </nav>
+          ))}
         </div>
-
-        {/* Explore */}
-        <nav aria-label="Footer navigation">
-          <p className="font-semibold text-ink/35 text-xs uppercase tracking-widest mb-4">Explore</p>
-          <ul className="space-y-2.5 text-ink/50">
-            <li><Link href="/map" className="hover:text-ancient transition-colors">Map</Link></li>
-            <li><Link href="/timeline" className="hover:text-ancient transition-colors">Timeline</Link></li>
-            <li><Link href="/browse" className="hover:text-ancient transition-colors">Browse by era / region</Link></li>
-            <li><Link href="/tour" className="hover:text-ancient transition-colors">Guided tours</Link></li>
-            <li><Link href="/search" className="hover:text-ancient transition-colors">Search</Link></li>
-          </ul>
-        </nav>
-
-        {/* Data & Attribution */}
-        <div>
-          <p className="font-semibold text-ink/35 text-xs uppercase tracking-widest mb-4">Data &amp; Attribution</p>
-          <ul className="space-y-2.5 text-ink/40 text-xs leading-relaxed">
-            <li>
-              Border data:{" "}
-              <a href="https://github.com/aourednik/historical-basemaps" target="_blank" rel="noopener noreferrer" className="text-ancient/70 hover:text-ancient underline underline-offset-2 transition-colors">
-                aourednik/historical-basemaps
-              </a>{" "}(CC BY-SA 4.0)
-            </li>
-            <li>
-              Supplementary:{" "}
-              <a href="https://www.openhistoricalmap.org" target="_blank" rel="noopener noreferrer" className="text-ancient/70 hover:text-ancient underline underline-offset-2 transition-colors">
-                OpenHistoricalMap
-              </a>{" "}(ODbL)
-            </li>
-            <li>
-              Text: Wikipedia (CC BY-SA 4.0). Data:{" "}
-              <a href="https://www.wikidata.org" target="_blank" rel="noopener noreferrer" className="text-ancient/70 hover:text-ancient underline underline-offset-2 transition-colors">
-                Wikidata
-              </a>{" "}(CC0).
-            </li>
-            <li>
-              <Link href="/about" className="hover:text-ancient transition-colors underline underline-offset-2">
-                Full methodology &amp; attribution →
-              </Link>
-            </li>
-          </ul>
-        </div>
-
-        {/* Support & Legal */}
-        <nav aria-label="Support and legal">
-          <p className="font-semibold text-ink/35 text-xs uppercase tracking-widest mb-4">Support &amp; Legal</p>
-          <ul className="space-y-2.5 text-ink/50">
-            <li><SupportButton variant="link" /></li>
-            <li><Link href="/contact" className="hover:text-ancient transition-colors">Contact</Link></li>
-            <li><Link href="/privacy" className="hover:text-ancient transition-colors">Privacy Policy</Link></li>
-            <li><Link href="/terms" className="hover:text-ancient transition-colors">Terms of Use</Link></li>
-          </ul>
-        </nav>
       </div>
 
-      <div className="border-t border-ink/5 px-4 sm:px-6 py-4 max-w-6xl mx-auto text-xs text-ink/30 flex flex-wrap gap-4 justify-between">
-        <span>No AI-generated history. Contested topics present perspectives, not verdicts.</span>
-        <a href="mailto:michaelsoucek73@gmail.com" className="hover:text-ink/50 underline underline-offset-2 transition-colors">
-          Report an error / contribute
-        </a>
+      <div className="border-t border-white/10">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 flex flex-col sm:flex-row gap-2 sm:justify-between text-[12px] text-parchment/45 leading-relaxed">
+          <span>No AI-generated history. Contested topics present perspectives, not verdicts.</span>
+          <span>Borders CC BY-SA 4.0 · Text from Wikipedia, CC BY-SA 4.0</span>
+        </div>
       </div>
     </footer>
   );

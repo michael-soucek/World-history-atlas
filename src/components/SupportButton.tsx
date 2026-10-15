@@ -11,6 +11,8 @@ interface SupportButtonProps {
    *  "header" for the compact amber pill in the site header.
    *  "overlay" for the dark translucent pill over the full-screen map. */
   variant?: "link" | "button" | "header" | "overlay";
+  /** Header only: "night" on the dark homepage header. */
+  tone?: "paper" | "night";
   className?: string;
 }
 
@@ -19,7 +21,7 @@ interface SupportButtonProps {
  * set; until then it links to the on-site /support page, which explains the
  * project and that direct support links are coming soon. Never a popup.
  */
-export default function SupportButton({ variant = "link", className = "" }: SupportButtonProps) {
+export default function SupportButton({ variant = "link", tone = "paper", className = "" }: SupportButtonProps) {
   const external = Boolean(SUPPORT_URL);
   const href = SUPPORT_URL ?? "/support";
   const externalProps = external
@@ -34,13 +36,15 @@ export default function SupportButton({ variant = "link", className = "" }: Supp
         {...externalProps}
         onClick={onClick}
         aria-label="Support the project"
-        className={`inline-flex items-center gap-1.5 rounded-lg px-2.5 sm:px-3 py-1.5 text-sm font-semibold bg-ancient text-white hover:bg-ancient/90 shadow-sm shadow-ancient/20 transition-colors ${className}`}
+        className={`inline-flex items-center gap-2 h-9 rounded-md px-2.5 sm:px-3 text-[13px] font-medium transition-colors ${
+          tone === "night"
+            ? "text-glow hover:bg-glow/10"
+            : "text-accent hover:bg-accent/8"
+        } ${className}`}
       >
-        <Coffee size={14} aria-hidden="true" />
-        {/* Icon-only on the narrowest phones so the header never overflows. */}
-        <span className="max-[380px]:sr-only">
-          Support<span className="hidden md:inline"> the project</span>
-        </span>
+        <Coffee size={15} strokeWidth={2} aria-hidden="true" />
+        {/* Icon-only on phones so the header never overflows. */}
+        <span className="max-sm:sr-only">Support</span>
       </Link>
     );
   }
@@ -51,7 +55,7 @@ export default function SupportButton({ variant = "link", className = "" }: Supp
         href={href}
         {...externalProps}
         onClick={onClick}
-        className={`inline-flex items-center gap-1.5 text-sm font-semibold text-white bg-ancient/85 backdrop-blur-sm rounded-lg px-3 py-1.5 hover:bg-ancient transition-colors ${className}`}
+        className={`inline-flex items-center gap-1.5 text-sm font-semibold text-white bg-night/70 backdrop-blur-md border border-white/10 rounded-md px-3 py-1.5 hover:bg-night/90 transition-colors ${className}`}
       >
         <Coffee size={14} aria-hidden="true" />
         Support
@@ -65,7 +69,9 @@ export default function SupportButton({ variant = "link", className = "" }: Supp
         href={href}
         {...externalProps}
         onClick={onClick}
-        className={`inline-flex items-center gap-2 rounded-xl px-5 py-3 text-sm font-semibold bg-ancient text-white hover:bg-ancient/90 transition-colors ${className}`}
+        className={`inline-flex items-center gap-2 rounded-md px-5 py-3 text-sm font-semibold transition-colors ${
+          tone === "night" ? "border border-glow/40 text-glow hover:bg-glow/10 hover:border-glow/70" : "bg-ink text-parchment hover:bg-accent"
+        } ${className}`}
       >
         <Coffee size={16} aria-hidden="true" />
         Support this project
@@ -78,7 +84,7 @@ export default function SupportButton({ variant = "link", className = "" }: Supp
       href={href}
       {...externalProps}
       onClick={onClick}
-      className={`inline-flex items-center gap-1.5 hover:text-ancient transition-colors ${className}`}
+      className={`inline-flex items-center gap-1.5 hover:text-accent transition-colors ${className}`}
     >
       <Coffee size={13} aria-hidden="true" />
       Support this project

@@ -43,11 +43,11 @@ export default function ProPage() {
     <>
       <SiteHeader />
       <main className="page-bg min-h-screen">
-        <div className="max-w-2xl mx-auto px-6 py-14 space-y-14">
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 pt-12 sm:pt-20 pb-24 space-y-16">
           <header>
-            <p className="text-ancient/70 text-xs font-semibold uppercase tracking-widest mb-3">Coming eventually</p>
-            <h1 className="font-display text-5xl font-bold text-ink italic mb-4">Borders of Time Pro</h1>
-            <p className="text-ink/50 text-base leading-relaxed">
+            <p className="label text-accent mb-5">Coming eventually</p>
+            <h1 className="font-display font-light text-5xl sm:text-7xl tracking-[-0.035em] leading-[1] text-ink mb-6">Borders of Time Pro</h1>
+            <p className="text-ink/65 text-lg leading-relaxed">
               Nothing on this page exists yet — no sign-up, no payment, nothing to click. This is
               a preview of what a future paid tier might include, so we can gauge interest before
               building it. The core map, timeline, and tours will always stay free.
@@ -56,13 +56,13 @@ export default function ProPage() {
 
           <section>
             <div className="flex items-center gap-3 mb-5">
-              <h2 className="font-display text-xl font-semibold text-ink/70 italic">Ideas under consideration</h2>
+              <h2 className="font-display text-3xl tracking-tight text-ink">Ideas under consideration</h2>
               <div className="flex-1 h-px bg-paper" />
             </div>
             <ul className="space-y-4">
               {FEATURES.map(({ icon: Icon, title, body }) => (
-                <li key={title} className="flex gap-4 rounded-2xl bg-white/60 border border-paper p-5">
-                  <Icon size={20} className="text-ancient shrink-0 mt-0.5" aria-hidden="true" />
+                <li key={title} className="flex gap-4 rounded-md bg-card border border-paper p-5">
+                  <Icon size={20} className="text-accent shrink-0 mt-0.5" aria-hidden="true" />
                   <div>
                     <h3 className="text-ink font-medium mb-1">{title}</h3>
                     <p className="text-ink/55 text-sm leading-relaxed">{body}</p>
@@ -74,7 +74,7 @@ export default function ProPage() {
 
           <section>
             <div className="flex items-center gap-3 mb-5">
-              <h2 className="font-display text-xl font-semibold text-ink/70 italic">Tell us what you&rsquo;d want</h2>
+              <h2 className="font-display text-3xl tracking-tight text-ink">Tell us what you&rsquo;d want</h2>
               <div className="flex-1 h-px bg-paper" />
             </div>
             <p className="text-ink/70 text-sm leading-relaxed mb-4">
@@ -83,7 +83,7 @@ export default function ProPage() {
             </p>
             <a
               href="mailto:michaelsoucek73@gmail.com?subject=Borders%20of%20Time%20Pro"
-              className="inline-flex items-center gap-2 rounded-xl px-5 py-3 text-sm font-semibold border border-paper bg-white/60 text-ink/70 hover:bg-surface hover:text-ink transition-all duration-200"
+              className="inline-flex items-center gap-2 rounded-md px-5 py-3 text-sm font-semibold border border-paper bg-card text-ink/70 hover:bg-surface hover:text-ink transition-all duration-200"
             >
               Let us know you&rsquo;re interested
             </a>

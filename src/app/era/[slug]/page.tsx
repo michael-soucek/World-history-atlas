@@ -3,7 +3,9 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
-import HandwrittenTitle from "@/components/HandwrittenTitle";
+import PageIntro, { SectionRule } from "@/components/PageIntro";
+import Gazetteer, { LinkRow } from "@/components/Gazetteer";
+import { TIMELINE_ILLUSTRATIONS } from "@/data/timelineIllustrations";
 import { ReadAloudButton } from "@/components/ReadAloudButton";
 import { ERA_LIST, eraFromSlug, eraSlug } from "@/data/eras";
 import { SNAPSHOT_YEARS, formatYear } from "@/data/snapshotYears";
@@ -58,122 +60,104 @@ export default async function EraPage({ params }: Props) {
     .slice(0, 20);
 
   const ERA_ACCENT: Record<string, { accent: string; dot: string; cardBorder: string; cardHover: string; hex: string }> = {
-    Prehistoric:   { accent: "text-prehistoric",  dot: "bg-prehistoric",   cardBorder: "border-prehistoric/25",  cardHover: "hover:border-prehistoric/50", hex: "#6b5c50" },
-    Ancient:       { accent: "text-ancient",       dot: "bg-ancient",       cardBorder: "border-ancient/25",       cardHover: "hover:border-ancient/50",       hex: "#b87008" },
-    Classical:     { accent: "text-classical",     dot: "bg-classical",     cardBorder: "border-classical/25",     cardHover: "hover:border-classical/50",     hex: "#c05008" },
-    Medieval:      { accent: "text-medieval",      dot: "bg-medieval",      cardBorder: "border-medieval/25",      cardHover: "hover:border-medieval/50",      hex: "#2a6b3f" },
-    "Early Modern":{ accent: "text-early-modern",  dot: "bg-early-modern",  cardBorder: "border-early-modern/25",  cardHover: "hover:border-early-modern/50",  hex: "#1565a0" },
-    Modern:        { accent: "text-modern",        dot: "bg-modern",        cardBorder: "border-modern/25",        cardHover: "hover:border-modern/50",        hex: "#6040a0" },
+    Prehistoric:   { accent: "text-prehistoric",  dot: "bg-prehistoric",   cardBorder: "border-prehistoric/25",  cardHover: "hover:border-prehistoric/50", hex: "#6d6457" },
+    Ancient:       { accent: "text-ancient",       dot: "bg-ancient",       cardBorder: "border-ancient/25",       cardHover: "hover:border-ancient/50",       hex: "#a66a12" },
+    Classical:     { accent: "text-classical",     dot: "bg-classical",     cardBorder: "border-classical/25",     cardHover: "hover:border-classical/50",     hex: "#b4492b" },
+    Medieval:      { accent: "text-medieval",      dot: "bg-medieval",      cardBorder: "border-medieval/25",      cardHover: "hover:border-medieval/50",      hex: "#2f6b4f" },
+    "Early Modern":{ accent: "text-early-modern",  dot: "bg-early-modern",  cardBorder: "border-early-modern/25",  cardHover: "hover:border-early-modern/50",  hex: "#1f7272" },
+    Modern:        { accent: "text-modern",        dot: "bg-modern",        cardBorder: "border-modern/25",        cardHover: "hover:border-modern/50",        hex: "#6a4aa0" },
   };
-  const meta = ERA_ACCENT[era.label] ?? { accent: "text-ancient", dot: "bg-ancient", cardBorder: "border-ancient/25", cardHover: "hover:border-ancient/50", hex: "#b87008" };
+  const meta = ERA_ACCENT[era.label] ?? { accent: "text-ancient", dot: "bg-ancient", cardBorder: "border-ancient/25", cardHover: "hover:border-ancient/50", hex: "#a66a12" };
+
+  const art = TIMELINE_ILLUSTRATIONS[era.label];
+  const range = `${era.start < 0 ? `${Math.abs(era.start)} BCE` : `${era.start} CE`} – ${isFinite(era.end) ? (era.end < 0 ? `${Math.abs(era.end)} BCE` : `${era.end} CE`) : "today"}`;
+  const eraIndex = ERA_LIST.findIndex(e => e.label === era.label);
 
   return (
     <>
       <SiteHeader />
       <main className="page-bg min-h-screen">
-        <div className="max-w-5xl mx-auto px-6 py-14">
-          {/* Breadcrumb */}
-          <nav className="flex items-center gap-2 text-xs text-ink/35 mb-10" aria-label="Breadcrumb">
-            <Link href="/browse" className="hover:text-ancient/80 transition-colors">Browse</Link>
-            <span className="text-ink/20">/</span>
-            <Link href="/browse#eras" className="hover:text-ancient/80 transition-colors">Eras</Link>
-            <span className="text-ink/20">/</span>
-            <span className={meta.accent}>{era.label}</span>
-          </nav>
+        <PageIntro
+          crumbs={[{ href: "/browse", label: "Browse" }, { href: "/browse#eras", label: "Ages" }]}
+          label={`Age ${["I", "II", "III", "IV", "V", "VI"][eraIndex] ?? ""} · ${range}`}
+          accent={meta.accent}
+          title={era.label}
+        />
 
-          {/* Title block */}
-          <div className={`h-0.5 w-12 rounded-full ${meta.dot} mb-4`} aria-hidden="true" />
-          <p className="text-ancient/70 text-xs font-semibold uppercase tracking-widest mb-3">Era</p>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14 sm:py-20">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-8">
+            {art && (
+              <figure className="lg:col-span-5">
+                <div className="relative aspect-[4/5] overflow-hidden bg-surface">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img src={art.src} alt={art.alt} className="absolute inset-0 h-full w-full object-cover" style={{ objectPosition: art.objectPosition }} />
+                </div>
+                <figcaption className="mt-3 font-text italic text-[14px] text-ink/60">
+                  {art.caption}
+                  <span className="block not-italic font-sans text-[11px] text-ink/35 mt-1">{art.credit}</span>
+                </figcaption>
+              </figure>
+            )}
+            <div className={art ? "lg:col-span-6 lg:col-start-7" : "lg:col-span-8"}>
+              {"blurb" in era && era.blurb && (
+                <>
+                  <p className="font-text text-[22px] sm:text-[26px] leading-[1.5] text-ink/85 dropcap">{era.blurb}</p>
+                  <div className="mt-6"><ReadAloudButton text={era.blurb} /></div>
+                </>
+              )}
 
-          <HandwrittenTitle className={`font-display text-5xl font-bold italic ${meta.accent} mb-2`} inkColor={meta.hex}>{era.label}</HandwrittenTitle>
-          <p className="text-ink/30 text-sm font-mono mb-3">
-            {era.start < 0 ? `${Math.abs(era.start)} BCE` : `${era.start} CE`}
-            {" – "}
-            {isFinite(era.end) ? (era.end < 0 ? `${Math.abs(era.end)} BCE` : `${era.end} CE`) : "present"}
-          </p>
-
-          {/* Lead blurb for this era */}
-          {"blurb" in era && era.blurb && (
-            <div className="mb-10 space-y-4">
-              <ReadAloudButton text={era.blurb} />
-              <p className="text-ink/55 text-lg leading-relaxed max-w-3xl" style={{ maxWidth: '65ch' }}>
-                {era.blurb}
-              </p>
+              {eraYears.length > 0 && (
+                <section className="mt-16">
+                  <SectionRule count={`${eraYears.length} maps`}>Maps of this age</SectionRule>
+                  <ul className="grid grid-cols-2 sm:grid-cols-3 border-l border-t border-ink/10">
+                    {eraYears.map(year => (
+                      <li key={year} className="border-r border-b border-ink/10">
+                        <Link href={`/map?year=${year}`} className="group block px-4 py-5 hover:bg-card transition-colors">
+                          <span className={`font-display font-light text-4xl tracking-tight tabular-nums text-ink group-hover:text-accent transition-colors`}>
+                            {Math.abs(year)}
+                          </span>
+                          <span className="ml-1 font-mono text-[10px] text-ink/45">{year < 0 ? "BCE" : "CE"}</span>
+                          <span className="block mt-1 text-[12px] text-ink/40 group-hover:text-accent transition-colors">Open map →</span>
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                </section>
+              )}
             </div>
-          )}
+          </div>
 
-          {/* Snapshot years in this era */}
-          {eraYears.length > 0 && (
-            <section className="mb-14">
-              <div className="flex items-center gap-3 mb-5">
-                <h2 className="font-display text-xl font-semibold text-ink/70 italic">Snapshot years</h2>
-                <div className="flex-1 h-px bg-paper" />
-                <span className="text-ink/25 text-xs font-mono">{eraYears.length}</span>
-              </div>
-              <div className="flex flex-wrap gap-2.5">
-                {eraYears.map(year => (
-                  <Link
-                    key={year}
-                    href={`/map?year=${year}`}
-                    className={`rounded-xl border ${meta.cardBorder} ${meta.cardHover} bg-white/60 hover:bg-surface px-4 py-3 text-sm font-mono text-ink/55 hover:text-ink transition-all duration-200`}
-                  >
-                    {formatYear(year)}
-                  </Link>
-                ))}
-              </div>
+          {places.length > 0 && (
+            <section className="mt-20 sm:mt-28">
+              <SectionRule count={`${places.length} places`}>Empires &amp; states of the {era.label.toLowerCase()} age</SectionRule>
+              <Gazetteer
+                items={places.map(place => ({
+                  href: `/place/${place.slug}`,
+                  name: place.name,
+                  meta: place.lifespan && isFinite(place.lifespan.validFrom) && isFinite(place.lifespan.validTo)
+                    ? `${fmtShort(place.lifespan.validFrom)}–${fmtShort(place.lifespan.validTo)}`
+                    : undefined,
+                }))}
+              />
             </section>
           )}
 
-          {/* Featured places */}
-          <section className="mb-14">
-            <div className="flex items-center gap-3 mb-5">
-              <h2 className="font-display text-xl font-semibold text-ink/70 italic">Featured places &amp; empires</h2>
-              <div className="flex-1 h-px bg-paper" />
-            </div>
-            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2.5">
-              {places.map(place => (
-                <Link
-                  key={place.slug}
-                  href={`/place/${place.slug}`}
-                  className="rounded-xl border border-paper bg-white/60 hover:bg-surface hover:border-ancient/30 px-4 py-3 text-sm text-ink/60 hover:text-ink transition-all duration-200 truncate"
-                >
-                  {place.name}
-                </Link>
-              ))}
-            </div>
-          </section>
-
-          {/* Browse other eras */}
-          <div className="border-t border-paper pt-8">
+          <div className="mt-20 sm:mt-28 space-y-12">
             {era.label === "Early Modern" && (
-              <>
-                <p className="text-ink/25 text-xs uppercase tracking-widest mb-4">Related themes</p>
-                <div className="mb-6 flex flex-wrap gap-2.5">
-                  <Link
-                    href="/theme/age-of-exploration"
-                    className="rounded-xl border border-paper bg-white/60 hover:bg-early-modern-wash hover:border-early-modern/30 px-4 py-2.5 text-sm text-ink/50 hover:text-ink transition-all duration-200"
-                  >
-                    Age of Exploration
-                  </Link>
-                </div>
-              </>
+              <LinkRow title="Related theme" links={[{ href: "/theme/age-of-exploration", label: "The Age of Exploration" }]} />
             )}
-            <p className="text-ink/25 text-xs uppercase tracking-widest mb-4">Other eras</p>
-            <div className="flex flex-wrap gap-2.5">
-              {ERA_LIST.filter(e => e.label !== era.label && isFinite(e.start)).map(e => (
-                <Link
-                  key={e.label}
-                  href={`/era/${eraSlug(e.label)}`}
-                  className="rounded-xl border border-paper bg-white/60 hover:bg-surface hover:border-ancient/30 px-4 py-2.5 text-sm text-ink/50 hover:text-ink transition-all duration-200"
-                >
-                  {e.label}
-                </Link>
-              ))}
-            </div>
+            <LinkRow
+              title="Other ages"
+              links={ERA_LIST.filter(e => e.label !== era.label && isFinite(e.start)).map(e => ({ href: `/era/${eraSlug(e.label)}`, label: e.label }))}
+            />
           </div>
         </div>
       </main>
       <SiteFooter />
     </>
   );
+}
+
+function fmtShort(y: number) {
+  return y < 0 ? `${Math.abs(y)} BCE` : `${y}`;
 }

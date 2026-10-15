@@ -95,7 +95,7 @@ export default async function PlaceYearPage({ params }: Props) {
 
         {content.imageUrl && (
           <figure className="mt-8 mb-8">
-            <div className="relative w-full rounded-xl overflow-hidden" style={{ aspectRatio: "16/9" }}>
+            <div className="relative w-full rounded-md overflow-hidden" style={{ aspectRatio: "16/9" }}>
               <Image
                 src={content.imageUrl}
                 alt={`Image related to ${content.name}`}
@@ -128,7 +128,7 @@ export default async function PlaceYearPage({ params }: Props) {
         <div className="flex flex-wrap gap-3">
           <Link
             href={`/map?year=${year}&region=${entry.wikidataId}`}
-            className="rounded-lg px-4 py-2 text-sm font-medium bg-ancient text-white hover:bg-ancient/90 transition-colors"
+            className="rounded-md px-4 py-2 text-sm font-medium bg-ink text-parchment hover:bg-accent transition-colors"
           >
             View on map in {yearLabel}
           </Link>
@@ -137,7 +137,7 @@ export default async function PlaceYearPage({ params }: Props) {
               href={content.wikipediaUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="rounded-lg px-4 py-2 text-sm font-medium bg-surface text-ink hover:bg-ink/[0.08] transition-colors"
+              className="rounded-md px-4 py-2 text-sm font-medium bg-surface text-ink hover:bg-ink/[0.08] transition-colors"
             >
               Read on Wikipedia →
             </a>

@@ -88,22 +88,23 @@ export default function StoryPanel() {
         absolute bottom-0 left-0 right-0 z-20
         max-h-[60vh] sm:max-h-full
         sm:top-0 sm:right-0 sm:bottom-0 sm:left-auto sm:w-90
-        bg-neutral-950/95 backdrop-blur-md
-        border-t sm:border-t-0 sm:border-l border-white/10
+        bg-parchment/97 backdrop-blur-md text-ink shadow-[-12px_0_40px_rgba(11,20,36,0.25)]
+        border-t sm:border-t-0 sm:border-l border-ink/10
         flex flex-col overflow-hidden
         animate-in slide-in-from-bottom sm:slide-in-from-right duration-300"
       aria-label="Region information panel"
     >
       {/* Header */}
-      <div className="flex items-start justify-between gap-3 p-5 border-b border-white/10">
+      <div className="flex items-start justify-between gap-3 p-5 sm:p-6 border-b border-ink/10">
         <div className="flex-1 min-w-0">
-          <h2 className="text-white text-xl font-bold leading-tight truncate">
+          <p className="label text-accent mb-2">On the map</p>
+          <h2 className="font-display text-[28px] leading-[1.05] tracking-tight text-ink">
             {displayName}
           </h2>
-          <p className="text-white/50 text-sm mt-0.5">
+          <p className="font-mono text-[11px] tracking-wide text-ink/50 mt-2">
             {formatYear(year)}
             {selectedSovereign && selectedSovereign !== displayName && (
-              <> · <span className="text-white/40">{selectedSovereign}</span></>
+              <> · <span className="text-ink/40">{selectedSovereign}</span></>
             )}
           </p>
         </div>
@@ -111,7 +112,7 @@ export default function StoryPanel() {
           onClick={close}
           aria-label="Close panel"
           className="shrink-0 w-8 h-8 rounded-full flex items-center justify-center
-            text-white/50 hover:text-white hover:bg-white/10 transition-colors text-lg"
+            text-ink/50 hover:text-ink hover:bg-ink/8 border border-ink/10 transition-colors text-lg"
         >
           ×
         </button>
@@ -122,13 +123,13 @@ export default function StoryPanel() {
         {loading && <PanelSkeleton />}
 
         {!loading && error && (
-          <div className="p-5 text-white/50 text-sm">
+          <div className="p-5 text-ink/55 text-sm">
             <p>Could not load content for this region.</p>
             <a
               href={wikiSearchUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-2 inline-block text-amber-400 hover:text-amber-300 underline"
+              className="mt-2 inline-block text-accent hover:text-ink underline"
             >
               Search Wikipedia for &ldquo;{displayName}&rdquo; →
             </a>
@@ -139,13 +140,13 @@ export default function StoryPanel() {
           <>
             {/* Year discrepancy warning */}
             {effectiveContent?.representativeYear && Math.abs(effectiveContent.representativeYear - year) > 50 && (
-              <div className="mx-5 mt-4 p-3 bg-ancient-wash border border-ancient/20 rounded-lg">
+              <div className="mx-5 mt-4 p-3 bg-accent-wash border border-accent/20 rounded-md">
                 <p className="text-ink-2 text-xs leading-relaxed">
                   This entity is best viewed around <span className="font-bold">{formatYear(effectiveContent.representativeYear)}</span>.
                 </p>
                 <button
                   onClick={() => useAtlasStore.getState().setYear(effectiveContent.representativeYear!)}
-                  className="mt-2 text-ancient font-semibold text-xs hover:underline decoration-ancient/30"
+                  className="mt-2 text-accent font-semibold text-xs hover:underline decoration-accent/30"
                 >
                   Jump to {formatYear(effectiveContent.representativeYear)} →
                 </button>
@@ -165,7 +166,7 @@ export default function StoryPanel() {
                   />
                 </div>
                 {/* Attribution — required */}
-                <div className="px-3 py-1.5 bg-black/60 text-[10px] text-white/50 leading-snug">
+                <div className="px-5 sm:px-6 py-2 text-[10px] text-ink/40 leading-snug">
                   {effectiveContent.imageAuthor && (
                     <span>{effectiveContent.imageAuthor} · </span>
                   )}
@@ -177,7 +178,7 @@ export default function StoryPanel() {
                       href={effectiveContent.imageSourceUrl}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="underline hover:text-white/80"
+                      className="underline hover:text-ink/70"
                     >
                       Wikimedia Commons
                     </a>
@@ -187,48 +188,51 @@ export default function StoryPanel() {
             )}
 
             {/* Summary */}
-            <div className="p-5">
+            <div className="p-5 sm:p-6">
               {effectiveContent?.summary ? (
                 <>
                   <div className="flex items-center gap-3 mb-3">
                     <ReadAloudButton text={effectiveContent.summary} />
-                    <span className="text-white/20 text-[10px] uppercase tracking-widest font-bold">Listen</span>
-                  </div>
-                  <p className="text-white/80 text-sm leading-relaxed">
+                                      </div>
+                  <p className="font-text text-ink/85 text-[16px] leading-[1.65]">
                     {effectiveContent.summary}
                   </p>
                 </>
+              ) : !selectedWikidataId ? (
+                <div className="space-y-4">
+                  <p className="font-text text-ink/80 text-[16px] leading-[1.65]">
+                    {displayName === "Unknown"
+                      ? "The source maps have no record of who held this land in this year, so it is left unnamed rather than guessed."
+                      : <>The source map names this territory <span className="italic">{displayName}</span> in {formatYear(year)}, but it doesn&rsquo;t have its own page in the atlas yet.</>}
+                  </p>
+                  {selectedSovereign && selectedSovereign !== displayName && selectedSovereign !== "Unknown" && (
+                    <p className="text-sm text-ink/60">Part of: <span className="text-ink">{selectedSovereign}</span></p>
+                  )}
+                  <p className="text-sm text-ink/55 leading-relaxed">
+                    Try another year with the slider, or browse the{" "}
+                    <a href="/browse?type=place" className="text-accent underline underline-offset-2 hover:text-ink">places that do have pages</a>.
+                  </p>
+                </div>
               ) : (
-                <p className="text-white/40 text-sm italic">
+                <p className="text-ink/45 text-sm italic">
                   No summary available.
                 </p>
               )}
 
-              {/* No crosswalk — show graceful fallback search link */}
-              {!selectedWikidataId && (
-                <a
-                  href={wikiSearchUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="mt-3 inline-flex items-center gap-1.5 text-sm text-amber-400 hover:text-amber-300"
-                >
-                  Search Wikipedia for &ldquo;{displayName}&rdquo; →
-                </a>
-              )}
             </div>
           </>
         )}
       </div>
 
       {/* Footer links */}
-      <div className="border-t border-white/10 p-4 flex flex-wrap gap-2">
+      <div className="border-t border-ink/10 p-4 sm:px-6 flex flex-wrap gap-2 empty:hidden">
         {effectiveContent?.wikidataId && (
           <a
             href={`/place/${effectiveContent.wikidataId}`}
-            className="flex-1 text-center rounded-lg px-3 py-2 text-sm font-medium
-              bg-white/10 text-white/80 hover:bg-white/20 hover:text-white transition-colors"
+            className="flex-1 text-center rounded-md px-3 py-2.5 text-sm font-semibold
+              bg-ink text-parchment hover:bg-accent transition-colors"
           >
-            Full place page
+            Read the full page
           </a>
         )}
         {effectiveContent?.wikipediaUrl && (
@@ -236,19 +240,19 @@ export default function StoryPanel() {
             href={effectiveContent.wikipediaUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex-1 text-center rounded-lg px-3 py-2 text-sm font-medium
-              bg-white/10 text-white/80 hover:bg-white/20 hover:text-white transition-colors"
+            className="flex-1 text-center rounded-md px-3 py-2.5 text-sm font-medium
+              border border-ink/15 text-ink/70 hover:border-ink/40 hover:text-ink transition-colors"
           >
             Wikipedia →
           </a>
         )}
-        {!selectedWikidataId && (
+        {!selectedWikidataId && displayName !== "Unknown" && (
           <a
             href={wikiSearchUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex-1 text-center rounded-lg px-3 py-2 text-sm font-medium
-              bg-amber-500/20 text-amber-400 hover:bg-amber-500/30 transition-colors"
+            className="flex-1 text-center rounded-md px-3 py-2 text-sm font-medium
+              bg-ink text-parchment hover:bg-accent transition-colors"
           >
             Search Wikipedia →
           </a>
@@ -263,11 +267,11 @@ export default function StoryPanel() {
 function PanelSkeleton() {
   return (
     <div className="animate-pulse">
-      <div className="w-full bg-white/10" style={{ aspectRatio: "16/9" }} />
+      <div className="w-full bg-ink/8" style={{ aspectRatio: "16/9" }} />
       <div className="p-5 space-y-3">
-        <div className="h-3 bg-white/10 rounded w-full" />
-        <div className="h-3 bg-white/10 rounded w-5/6" />
-        <div className="h-3 bg-white/10 rounded w-4/6" />
+        <div className="h-3 bg-ink/8 rounded w-full" />
+        <div className="h-3 bg-ink/8 rounded w-5/6" />
+        <div className="h-3 bg-ink/8 rounded w-4/6" />
       </div>
     </div>
   );

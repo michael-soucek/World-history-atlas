@@ -28,7 +28,7 @@ export default function ResourceCard({ resource }: { resource: Resource }) {
   const body = (
     <>
       <div className="flex items-center gap-2 mb-1.5">
-        <Icon size={14} className="text-ancient/60 shrink-0" aria-hidden="true" />
+        <Icon size={14} className="text-accent/60 shrink-0" aria-hidden="true" />
         <span className="text-ink/35 text-[10px] font-semibold uppercase tracking-widest">
           {TYPE_LABEL[resource.type]}
         </span>
@@ -48,12 +48,12 @@ export default function ResourceCard({ resource }: { resource: Resource }) {
         href={resource.affiliateUrl}
         target="_blank"
         rel="noopener noreferrer sponsored"
-        className="block rounded-xl border border-paper bg-white/60 hover:bg-ancient-wash hover:border-ancient/30 p-4 transition-colors"
+        className="block rounded-md border border-paper bg-card hover:bg-accent-wash hover:border-accent/30 p-4 transition-colors"
       >
         {body}
       </a>
     );
   }
 
-  return <div className="rounded-xl border border-paper bg-white/40 p-4 opacity-80">{body}</div>;
+  return <div className="rounded-md border border-paper bg-white/40 p-4 opacity-80">{body}</div>;
 }

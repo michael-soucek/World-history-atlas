@@ -8,12 +8,15 @@ import {
 } from "lucide-react";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
+import PageIntro, { SectionRule } from "@/components/PageIntro";
+import Gazetteer from "@/components/Gazetteer";
 import { ERA_LIST, eraSlug } from "@/data/eras";
 import { buildPageMetadata } from "@/lib/seo";
 import type { EntityType } from "@/types";
 import { CROSSWALK } from "@/data/crosswalk";
 import { PEOPLE_CROSSWALK, EVENTS_CROSSWALK, CULTURES_CROSSWALK } from "@/data/entityCrosswalk";
 import { readableNameFromSlug } from "@/lib/entityResolver";
+import { ERA_HEX } from "@/lib/palette";
 
 interface Props {
   searchParams: Promise<{ type?: string }>;
@@ -103,22 +106,8 @@ const THEMES: { slug: string; label: string; Icon: LucideIcon }[] = [
   { slug: "age-of-exploration", label: "Age of Exploration", Icon: Compass    },
 ];
 
-const ERA_COLORS: Record<string, string> = {
-  Ancient:       "from-ancient-wash to-parchment  border-ancient/25  hover:border-ancient/50",
-  Classical:     "from-classical-wash to-parchment border-classical/25 hover:border-classical/50",
-  Medieval:      "from-medieval-wash to-parchment  border-medieval/25  hover:border-medieval/50",
-  "Early Modern":"from-early-modern-wash to-parchment border-early-modern/25 hover:border-early-modern/50",
-  Modern:        "from-modern-wash to-parchment    border-modern/25    hover:border-modern/50",
-};
 
-function SectionHeader({ children }: { children: React.ReactNode }) {
-  return (
-    <div className="flex items-center gap-3 mb-6">
-      <h2 className="font-display text-xl font-semibold text-ink/70 italic">{children}</h2>
-      <div className="flex-1 h-px bg-paper" />
-    </div>
-  );
-}
+const fmtYear = (y: number) => (y < 0 ? `${Math.abs(y)} BCE` : `${y} CE`);
 
 export default async function BrowsePage({ searchParams }: Props) {
   const params = await searchParams;
@@ -136,62 +125,31 @@ function BrowseByType({ type }: { type: EntityType }) {
     <>
       <SiteHeader />
       <main className="min-h-screen page-bg">
-        <div className="max-w-5xl mx-auto px-6 py-14">
-          {/* Breadcrumb */}
-          <nav className="flex items-center gap-2 text-xs text-ink/35 mb-10" aria-label="Breadcrumb">
-            <Link href="/browse" className="hover:text-ancient/80 transition-colors">Browse</Link>
-            <span className="text-ink/20">/</span>
-            <span className="text-ink/55">{meta.label}</span>
-          </nav>
-
-          {/* Header */}
-          <div className="flex items-start gap-5 mb-4">
-            <meta.Icon size={40} className="text-ink/30 mt-2 shrink-0" aria-hidden="true" />
-            <div>
-              <p className="text-ancient/70 text-xs font-semibold uppercase tracking-widest mb-3">By type</p>
-              <h1 className="font-display text-5xl font-bold text-ink mb-2 italic">{meta.label}</h1>
-              <p className="text-ink/45 text-base max-w-xl leading-relaxed">{meta.desc}</p>
-            </div>
-          </div>
-
+        <PageIntro
+          crumbs={[{ href: "/browse", label: "Browse" }]}
+          label="Index"
+          title={meta.label}
+          lede={meta.desc}
+          aside={<p className="font-mono text-[12px] tracking-wide text-ink/50">{items.length} entries</p>}
+        />
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-14">
           {/* Type switcher */}
-          <div className="flex flex-wrap gap-2.5 mt-8 mb-12">
+          <nav className="flex gap-x-8 mb-12 border-b border-ink/10 overflow-x-auto -mx-4 px-4 sm:mx-0 sm:px-0 [scrollbar-width:none]" aria-label="Type">
             {(Object.keys(TYPE_META) as EntityType[]).map((t) => (
               <Link
                 key={t}
                 href={`/browse?type=${t}`}
                 aria-current={t === type ? "page" : undefined}
-                className={`rounded-xl border px-4 py-2 text-sm font-medium transition-all duration-150 ${
-                  t === type
-                    ? "border-ancient/40 bg-ancient-wash text-ancient"
-                    : "border-paper bg-white/60 text-ink/55 hover:text-ink hover:border-ancient/30 hover:bg-surface"
+                className={`relative shrink-0 whitespace-nowrap text-[15px] pb-4 border-b-2 -mb-px transition-colors ${
+                  t === type ? "text-ink font-medium border-accent" : "text-ink/50 hover:text-ink border-transparent"
                 }`}
               >
                 {TYPE_META[t].label}
               </Link>
             ))}
-          </div>
+          </nav>
 
-          {/* Entity grid */}
-          <section>
-            <div className="flex items-center gap-3 mb-5">
-              <h2 className="font-display text-xl font-semibold text-ink/70 italic">
-                {items.length} {items.length === 1 ? meta.singular.toLowerCase() : meta.label.toLowerCase()}
-              </h2>
-              <div className="flex-1 h-px bg-paper" />
-            </div>
-            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2.5">
-              {items.map((item) => (
-                <Link
-                  key={item.slug}
-                  href={`/${meta.route}/${item.slug}`}
-                  className="rounded-xl border border-paper bg-white/60 hover:bg-surface hover:border-ancient/30 px-4 py-3 text-sm text-ink/60 hover:text-ink transition-all duration-200"
-                >
-                  {item.name}
-                </Link>
-              ))}
-            </div>
-          </section>
+          <Gazetteer grouped items={items.map(item => ({ href: `/${meta.route}/${item.slug}`, name: item.name }))} />
         </div>
       </main>
       <SiteFooter />
@@ -200,101 +158,97 @@ function BrowseByType({ type }: { type: EntityType }) {
 }
 
 function BrowseHub() {
+  const counts: Record<EntityType, number> = {
+    place: listForType("place").length,
+    person: listForType("person").length,
+    event: listForType("event").length,
+    culture: listForType("culture").length,
+  };
   return (
     <>
       <SiteHeader />
       <main className="min-h-screen page-bg">
-        <div className="max-w-5xl mx-auto px-6 py-14">
-          {/* Page header */}
-          <p className="text-ancient/70 text-xs font-semibold uppercase tracking-widest mb-3">Explore</p>
-          <h1 className="font-display text-5xl font-bold text-ink mb-3 italic">Browse History</h1>
-          <p className="text-ink/40 text-base mb-14 max-w-lg">
-            Explore empires, people, events, and cultures — by era, by region, or by theme.
-          </p>
+        <PageIntro
+          label="Browse"
+          title={<>The index <span className="italic">of the atlas</span></>}
+          lede="Every empire, person, event and culture in Borders of Time — by kind, by age, by region or by theme."
+        />
 
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14 sm:py-20 space-y-20 sm:space-y-28">
           {/* By type */}
-          <section className="mb-14">
-            <SectionHeader>By type</SectionHeader>
-            <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
-              {([
-                { href: "/browse?type=place",   label: "Places & Empires", Icon: Landmark,   desc: "Kingdoms, nations, empires" },
-                { href: "/browse?type=person",  label: "People",           Icon: Users,      desc: "Rulers, thinkers, explorers" },
-                { href: "/browse?type=event",   label: "Events",           Icon: Zap,        desc: "Battles, treaties, revolutions" },
-                { href: "/browse?type=culture", label: "Cultures",         Icon: ScrollText, desc: "Civilizations & traditions" },
-              ] as { href: string; label: string; Icon: LucideIcon; desc: string }[]).map(item => (
-                <Link
-                  key={item.href}
-                  href={item.href}
-                  className="group flex flex-col items-center gap-3 rounded-xl border border-paper bg-white/60 hover:bg-ancient-wash hover:border-ancient/30 p-6 text-center transition-all duration-200"
-                >
-                  <item.Icon size={28} className="text-ink/40 group-hover:text-ancient group-hover:scale-110 transition-all duration-200" aria-hidden="true" />
-                  <span className="text-sm text-ink font-semibold">{item.label}</span>
-                  <span className="text-xs text-ink/40">{item.desc}</span>
-                </Link>
-              ))}
-            </div>
-          </section>
-
-          {/* By era */}
-          <section className="mb-14">
-            <SectionHeader>By era</SectionHeader>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
-              {ERA_LIST.filter(e => isFinite(e.start)).map(era => {
-                const colors = ERA_COLORS[era.label] ?? "from-surface to-parchment border-paper hover:border-paper/60";
-                const eraTextColor: Record<string, string> = {
-                  Ancient: "text-ancient", Classical: "text-classical",
-                  Medieval: "text-medieval", "Early Modern": "text-early-modern", Modern: "text-modern",
-                };
+          <section aria-labelledby="by-type">
+            <SectionRule count="4 kinds"><span id="by-type">By kind</span></SectionRule>
+            <div className="grid grid-cols-2 lg:grid-cols-4 gap-px bg-ink/10 border border-ink/10">
+              {(Object.keys(TYPE_META) as EntityType[]).map(t => {
+                const m = TYPE_META[t];
                 return (
-                  <Link
-                    key={era.label}
-                    href={`/era/${eraSlug(era.label)}`}
-                    className={`group rounded-xl border bg-gradient-to-br ${colors} px-6 py-5 transition-all duration-200`}
-                  >
-                    <p className={`font-display text-lg font-semibold transition-colors ${eraTextColor[era.label] ?? "text-ink"}`}>{era.label}</p>
-                    <p className="text-ink/40 text-xs mt-1.5 font-mono">
-                      {era.start < 0 ? `${Math.abs(era.start)} BCE` : `${era.start} CE`}
-                      {" – "}
-                      {isFinite(era.end) ? (era.end < 0 ? `${Math.abs(era.end)} BCE` : `${era.end} CE`) : "present"}
-                    </p>
+                  <Link key={t} href={`/browse?type=${t}`} className="group bg-parchment hover:bg-card p-6 sm:p-8 flex flex-col min-h-[220px] transition-colors">
+                    <m.Icon size={22} strokeWidth={1.5} className="text-accent" aria-hidden="true" />
+                    <span className="mt-auto pt-10 font-display font-light text-5xl sm:text-6xl tracking-tight tabular-nums text-ink">{counts[t]}</span>
+                    <span className="mt-2 font-display text-xl text-ink group-hover:text-accent transition-colors">{m.label}</span>
+                    <span className="mt-1 text-sm text-ink/50 leading-snug">{m.desc}</span>
                   </Link>
                 );
               })}
             </div>
           </section>
 
+          {/* By era */}
+          <section id="eras" aria-labelledby="by-era" className="scroll-mt-24">
+            <SectionRule count={`${ERA_LIST.length} ages`}><span id="by-era">By age</span></SectionRule>
+            <ol className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-8">
+              {ERA_LIST.map((era, i) => {
+                const finite = isFinite(era.start);
+                return (
+                  <li key={era.label} className="border-b border-ink/10">
+                    <Link href={finite ? `/era/${eraSlug(era.label)}` : "/timeline/prehistoric"} className="group flex items-start gap-5 py-6">
+                      <span className="w-1 self-stretch shrink-0" style={{ background: ERA_HEX[era.label] }} aria-hidden="true" />
+                      <span className="min-w-0">
+                        <span className="font-mono text-[11px] tracking-wider text-ink/45 tabular-nums">
+                          {["I", "II", "III", "IV", "V", "VI"][i]} · {finite ? `${fmtYear(era.start)} – ${isFinite(era.end) ? fmtYear(era.end) : "today"}` : "before 3000 BCE"}
+                        </span>
+                        <span className="block mt-1 font-display text-3xl tracking-tight text-ink group-hover:text-accent transition-colors">{era.label}</span>
+                        <span className="block mt-2 text-sm text-ink/55 leading-relaxed line-clamp-2">{era.blurb}</span>
+                      </span>
+                    </Link>
+                  </li>
+                );
+              })}
+            </ol>
+          </section>
+
           {/* By region */}
-          <section className="mb-14">
-            <SectionHeader>By region</SectionHeader>
-            <div className="grid grid-cols-2 sm:grid-cols-4 gap-2.5">
-              {REGIONS.map(r => (
-                <Link
-                  key={r.slug}
-                  href={`/region/${r.slug}`}
-                  className="group flex items-center gap-3 rounded-xl border border-paper bg-white/60 hover:bg-surface hover:border-ancient/30 px-4 py-3.5 text-sm transition-all duration-150"
-                >
-                  <r.Icon size={16} className="shrink-0 text-ink/45 group-hover:text-ancient transition-colors" aria-hidden="true" />
-                  <span className="text-ink/70 group-hover:text-ink transition-colors font-medium">{r.label}</span>
-                </Link>
+          <section id="regions" aria-labelledby="by-region" className="scroll-mt-24">
+            <SectionRule count={`${REGIONS.length} regions`}><span id="by-region">By region</span></SectionRule>
+            <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-8">
+              {REGIONS.map((r, i) => (
+                <li key={r.slug} className="border-b border-ink/10">
+                  <Link href={`/region/${r.slug}`} className="group flex items-center gap-4 py-5">
+                    <span className="font-mono text-[11px] text-ink/35 tabular-nums w-6">{String(i + 1).padStart(2, "0")}</span>
+                    <r.Icon size={18} strokeWidth={1.5} className="text-ink/40 group-hover:text-accent transition-colors" aria-hidden="true" />
+                    <span className="font-display text-2xl tracking-tight text-ink group-hover:text-accent transition-colors">{r.label}</span>
+                    <span className="ml-auto text-ink/20 group-hover:text-accent group-hover:translate-x-1 transition-all" aria-hidden="true">→</span>
+                  </Link>
+                </li>
               ))}
-            </div>
+            </ul>
           </section>
 
           {/* By theme */}
-          <section>
-            <SectionHeader>By theme</SectionHeader>
-            <div className="grid grid-cols-2 sm:grid-cols-3 gap-2.5">
-              {THEMES.map(t => (
-                <Link
-                  key={t.slug}
-                  href={`/theme/${t.slug}`}
-                  className="group flex items-center gap-3 rounded-xl border border-paper bg-white/60 hover:bg-surface hover:border-ancient/30 px-4 py-4 text-sm transition-all duration-150"
-                >
-                  <t.Icon size={16} className="shrink-0 text-ink/45 group-hover:text-ancient transition-colors" aria-hidden="true" />
-                  <span className="text-ink/70 group-hover:text-ink transition-colors font-medium">{t.label}</span>
-                </Link>
+          <section id="themes" aria-labelledby="by-theme" className="scroll-mt-24">
+            <SectionRule count={`${THEMES.length} themes`}><span id="by-theme">By theme</span></SectionRule>
+            <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-8">
+              {THEMES.map((t, i) => (
+                <li key={t.slug} className="border-b border-ink/10">
+                  <Link href={`/theme/${t.slug}`} className="group flex items-center gap-4 py-5">
+                    <span className="font-mono text-[11px] text-ink/35 tabular-nums w-6">{String(i + 1).padStart(2, "0")}</span>
+                    <t.Icon size={18} strokeWidth={1.5} className="text-ink/40 group-hover:text-accent transition-colors" aria-hidden="true" />
+                    <span className="font-display text-2xl tracking-tight text-ink group-hover:text-accent transition-colors">{t.label}</span>
+                    <span className="ml-auto text-ink/20 group-hover:text-accent group-hover:translate-x-1 transition-all" aria-hidden="true">→</span>
+                  </Link>
+                </li>
               ))}
-            </div>
+            </ul>
           </section>
         </div>
       </main>

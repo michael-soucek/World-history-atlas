@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import dynamic from "next/dynamic";
 import Link from "next/link";
 import SupportButton from "./SupportButton";
+import BrandMark from "./BrandMark";
 import { useAtlasStore } from "@/store/atlasStore";
 import TimeSlider from "./TimeSlider";
 import StoryPanel from "./StoryPanel";
@@ -15,8 +16,8 @@ import { useManifest } from "@/hooks/useManifest";
 const AtlasMap = dynamic(() => import("./AtlasMap"), {
   ssr: false,
   loading: () => (
-    <div className="absolute inset-0 bg-neutral-900 flex items-center justify-center">
-      <span className="text-white/40 text-sm animate-pulse">Loading map…</span>
+    <div className="absolute inset-0 bg-[#cdd9e5] flex items-center justify-center">
+      <span className="font-mono text-[11px] tracking-widest uppercase text-ink/40 animate-pulse">Unrolling the map…</span>
     </div>
   ),
 });
@@ -73,10 +74,12 @@ export default function AtlasPageClient({
 
   return (
     <div
-      className="relative w-full h-screen overflow-hidden bg-neutral-900"
+      className="relative w-full h-svh overflow-hidden bg-[#cdd9e5]"
       onPointerDown={dismissHint}
       onKeyDown={dismissHint}
     >
+      <h1 className="sr-only">Interactive historical world map</h1>
+
       {/* Full-screen map */}
       <AtlasMap />
 
@@ -96,34 +99,33 @@ export default function AtlasPageClient({
             animate-in fade-in duration-1000"
         >
           <div
-            className="bg-black/60 backdrop-blur-sm border border-white/15
-              rounded-2xl px-6 py-3 text-white/80 text-base font-medium
+            className="bg-night/80 backdrop-blur-md border border-white/10
+              rounded-md px-6 py-3 text-parchment/85 text-[15px]
               animate-out fade-out duration-700 fill-mode-forwards"
             style={{ animationDelay: "3.5s" }}
           >
-            Drag the slider to travel through time ↓
+            Drag the slider to travel through time
           </div>
         </div>
       )}
 
       {/* Top-left nav */}
-      <nav className="absolute top-4 left-4 z-10 flex items-center gap-2">
-        <Link
-          href="/"
-          className="text-white font-semibold text-sm tracking-wide
-            bg-black/50 backdrop-blur-sm rounded-lg px-3 py-1.5
-            hover:bg-black/70 transition-colors"
-        >
-          Borders of Time
+      <nav className="absolute top-3 left-3 sm:top-4 sm:left-4 z-10 flex items-center gap-1 rounded-md bg-night/85 backdrop-blur-md border border-white/10 p-1 text-parchment" aria-label="Site">
+        <Link href="/" className="flex items-center gap-2 h-9 pl-2 pr-3 rounded hover:bg-white/8 transition-colors">
+          <BrandMark className="w-5 h-5 text-glow" />
+          <span className="font-display text-[15px] max-sm:sr-only">Borders <span className="italic">of</span> Time</span>
         </Link>
-        <Link
-          href="/about"
-          className="text-white/60 text-sm bg-black/40 backdrop-blur-sm rounded-lg
-            px-3 py-1.5 hover:text-white hover:bg-black/60 transition-colors"
-        >
-          About
-        </Link>
-        <SupportButton variant="overlay" />
+        <span className="w-px h-5 bg-white/15" aria-hidden="true" />
+        {[
+          { href: "/tour", label: "Tours" },
+          { href: "/browse", label: "Browse" },
+          { href: "/search", label: "Search" },
+        ].map(l => (
+          <Link key={l.href} href={l.href} className="h-9 px-2.5 sm:px-3 grid place-items-center rounded text-[13px] text-parchment/65 hover:text-parchment hover:bg-white/8 transition-colors">
+            {l.label}
+          </Link>
+        ))}
+        <SupportButton variant="header" tone="night" />
       </nav>
     </div>
   );

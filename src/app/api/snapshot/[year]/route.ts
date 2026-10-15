@@ -2,8 +2,14 @@ import { NextRequest, NextResponse } from "next/server";
 import { buildManifest, stateIndexForYear } from "@/app/api/manifest/route";
 import { enrichBorderProps, type RawProperties } from "@/lib/geoEnrich";
 
-// Server-side in-memory cache: stateTileKey → enriched JSON string
-const borderCache = new Map<string, string>();
+import { packJson, roundGeometry, sendJson, type PackedJson } from "@/lib/geoResponse";
+
+// Server-side in-memory cache: stateTileKey (+ "lite") → packed JSON
+const borderCache = new Map<string, PackedJson>();
+
+/** Coordinate precision: ~100 m for the atlas, ~1 km for the homepage preview. */
+const DIGITS = 3;
+const LITE_DIGITS = 2;
 
 export async function GET(
   req: NextRequest,
@@ -26,15 +32,12 @@ export async function GET(
       return NextResponse.json({ error: "No state found" }, { status: 404 });
     }
 
-    const cacheKey = `${state.validFrom}:${state.validTo}:${snapshot.snapshotYear}`;
-    if (borderCache.has(cacheKey)) {
-      return new NextResponse(borderCache.get(cacheKey)!, {
-        headers: {
-          "Content-Type": "application/json",
-          "Cache-Control": "public, max-age=86400, s-maxage=86400",
-        },
-      });
-    }
+    // ?lite=1 — colours and outlines only, coarser coordinates: the
+    // homepage preview, which never zooms in or reads territory names.
+    const lite = req.nextUrl.searchParams.get("lite") === "1";
+    const cacheKey = `${state.validFrom}:${state.validTo}:${snapshot.snapshotYear}${lite ? ":lite" : ""}`;
+    const hit = borderCache.get(cacheKey);
+    if (hit) return sendJson(req, hit);
 
     const upstream = await fetch(new URL(snapshot.rawUrl, req.url), {
       headers: { "User-Agent": "WorldHistoryAtlas/1.0" },
@@ -64,9 +67,8 @@ export async function GET(
       validFrom: state.validFrom,
       validTo: state.validTo,
       sources: state.sources,
-      features: raw.features.map((f) => ({
-        type: "Feature",
-        properties: enrichBorderProps(
+      features: raw.features.map((f) => {
+        const properties = enrichBorderProps(
           f.properties,
           f.geometry,
           state.validFrom,
@@ -74,20 +76,19 @@ export async function GET(
           undefined,
           undefined,
           snapshot.snapshotYear
-        ),
-        geometry: f.geometry,
-      })),
+        );
+        return {
+          type: "Feature",
+          properties: lite ? { _color: properties._color } : properties,
+          // Area is computed above from the full-precision geometry.
+          geometry: roundGeometry(structuredClone(f.geometry), lite ? LITE_DIGITS : DIGITS),
+        };
+      }),
     };
 
-    const json = JSON.stringify(enriched);
-    borderCache.set(cacheKey, json);
-
-    return new NextResponse(json, {
-      headers: {
-        "Content-Type": "application/json",
-        "Cache-Control": "public, max-age=86400, s-maxage=86400",
-      },
-    });
+    const packed = packJson(enriched);
+    borderCache.set(cacheKey, packed);
+    return sendJson(req, packed);
   } catch (err) {
     console.error(`[snapshot] year=${year}`, err);
     return NextResponse.json({ error: "Failed to fetch snapshot" }, { status: 500 });

@@ -18,16 +18,16 @@ export default function PrivacyPage() {
     <>
       <SiteHeader />
       <main className="page-bg min-h-screen">
-        <div className="max-w-2xl mx-auto px-6 py-14 space-y-14">
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 pt-12 sm:pt-20 pb-24 space-y-16">
           <header>
-            <p className="text-ancient/70 text-xs font-semibold uppercase tracking-widest mb-3">Legal</p>
-            <h1 className="font-display text-5xl font-bold text-ink italic mb-4">Privacy Policy</h1>
+            <p className="label text-accent mb-5">Legal</p>
+            <h1 className="font-display font-light text-5xl sm:text-7xl tracking-[-0.035em] leading-[1] text-ink mb-6">Privacy Policy</h1>
             <p className="text-ink/40 text-sm">Last updated: {LAST_UPDATED}</p>
           </header>
 
           <section>
             <div className="flex items-center gap-3 mb-5">
-              <h2 className="font-display text-xl font-semibold text-ink/70 italic">The short version</h2>
+              <h2 className="font-display text-3xl tracking-tight text-ink">The short version</h2>
               <div className="flex-1 h-px bg-paper" />
             </div>
             <p className="text-ink/70 text-sm leading-relaxed">
@@ -39,7 +39,7 @@ export default function PrivacyPage() {
 
           <section>
             <div className="flex items-center gap-3 mb-5">
-              <h2 className="font-display text-xl font-semibold text-ink/70 italic">What we collect today</h2>
+              <h2 className="font-display text-3xl tracking-tight text-ink">What we collect today</h2>
               <div className="flex-1 h-px bg-paper" />
             </div>
             <ul className="space-y-3 text-ink/70 text-sm leading-relaxed">
@@ -63,7 +63,7 @@ export default function PrivacyPage() {
 
           <section>
             <div className="flex items-center gap-3 mb-5">
-              <h2 className="font-display text-xl font-semibold text-ink/70 italic">If this changes</h2>
+              <h2 className="font-display text-3xl tracking-tight text-ink">If this changes</h2>
               <div className="flex-1 h-px bg-paper" />
             </div>
             <p className="text-ink/70 text-sm leading-relaxed">
@@ -73,7 +73,7 @@ export default function PrivacyPage() {
               network, it may set its own cookies and this policy will be updated first, with the
               &ldquo;last updated&rdquo; date above changed, and a consent banner shown where the
               law requires one (GDPR/ePrivacy in the EU/UK and similar rules elsewhere). See our{" "}
-              <Link href="/terms" className="text-ancient hover:text-ancient/80 underline">
+              <Link href="/terms" className="text-accent hover:text-accent/80 underline">
                 Terms of Use
               </Link>{" "}
               for the current affiliate-link disclosure.
@@ -82,7 +82,7 @@ export default function PrivacyPage() {
 
           <section>
             <div className="flex items-center gap-3 mb-5">
-              <h2 className="font-display text-xl font-semibold text-ink/70 italic">External links</h2>
+              <h2 className="font-display text-3xl tracking-tight text-ink">External links</h2>
               <div className="flex-1 h-px bg-paper" />
             </div>
             <p className="text-ink/70 text-sm leading-relaxed">
@@ -103,7 +103,7 @@ export default function PrivacyPage() {
 
           <section>
             <div className="flex items-center gap-3 mb-5">
-              <h2 className="font-display text-xl font-semibold text-ink/70 italic">Children</h2>
+              <h2 className="font-display text-3xl tracking-tight text-ink">Children</h2>
               <div className="flex-1 h-px bg-paper" />
             </div>
             <p className="text-ink/70 text-sm leading-relaxed">
@@ -115,12 +115,12 @@ export default function PrivacyPage() {
 
           <section>
             <div className="flex items-center gap-3 mb-5">
-              <h2 className="font-display text-xl font-semibold text-ink/70 italic">Contact</h2>
+              <h2 className="font-display text-3xl tracking-tight text-ink">Contact</h2>
               <div className="flex-1 h-px bg-paper" />
             </div>
             <p className="text-ink/70 text-sm leading-relaxed">
               Questions about this policy:{" "}
-              <a href={`mailto:${CONTACT_EMAIL}`} className="text-ancient hover:text-ancient/80 underline">
+              <a href={`mailto:${CONTACT_EMAIL}`} className="text-accent hover:text-accent/80 underline">
                 {CONTACT_EMAIL}
               </a>
               .

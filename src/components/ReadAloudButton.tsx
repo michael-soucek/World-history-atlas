@@ -18,7 +18,7 @@ export function ReadAloudButton({
   text, 
   className = "", 
   variant = "full",
-  activeClassName = "bg-ancient/20 border-ancient/30 shadow-md ring-1 ring-ancient/10"
+  activeClassName = "bg-accent/10 border-accent/40 text-accent"
 }: ReadAloudButtonProps) {
   const { isSpeaking, isPaused, play, pause, stop } = useReadAloud(text);
 
@@ -32,8 +32,8 @@ export function ReadAloudButton({
         onClick={isSpeaking ? pause : play}
         className={`flex items-center justify-center transition-all duration-200 group active:scale-95 cursor-pointer
           ${isMinimal 
-            ? "p-2 min-w-11 min-h-11 rounded-lg bg-ancient/5 hover:bg-ancient/10 text-ancient/60 hover:text-ancient border border-ancient/5 hover:border-ancient/15" 
-            : "gap-2 px-3 py-1.5 rounded-full bg-ancient/5 hover:bg-ancient/15 text-ancient border border-ancient/10 hover:border-ancient/20 text-xs font-semibold shadow-sm"
+            ? "p-2 min-w-11 min-h-11 rounded-md text-ink/35 hover:text-accent hover:bg-accent/6"
+            : "gap-2 h-9 px-3.5 rounded-md text-ink/75 hover:text-accent border border-ink/15 hover:border-accent/40 text-[13px] font-medium"
           }
           ${(isSpeaking || isPaused) ? activeClassName : ""}
         `}
@@ -47,7 +47,7 @@ export function ReadAloudButton({
         ) : (
           <>
              <Volume2 className={`${isMinimal ? "w-4 h-4" : "w-3.5 h-3.5"} ${isPaused ? "animate-pulse" : ""}`} />
-             {!isMinimal && <span>{isPaused ? "Resume" : "Read Aloud"}</span>}
+             {!isMinimal && <span>{isPaused ? "Resume" : "Listen"}</span>}
           </>
         )}
       </button>
@@ -55,7 +55,7 @@ export function ReadAloudButton({
       {(isSpeaking || isPaused) && (
         <button
           onClick={stop}
-          className={`${isMinimal ? "p-2 min-w-11 min-h-11" : "p-1.5"} flex items-center justify-center shrink-0 rounded-full bg-ink/4 hover:bg-ink/8 text-ink/30 hover:text-ink/60 
+          className={`${isMinimal ? "p-2 min-w-11 min-h-11" : "p-1.5"} flex items-center justify-center shrink-0 rounded-md bg-ink/4 hover:bg-ink/8 text-ink/30 hover:text-ink/60 
                      border border-transparent hover:border-ink/10 transition-colors cursor-pointer`}
           aria-label="Stop reading"
         >

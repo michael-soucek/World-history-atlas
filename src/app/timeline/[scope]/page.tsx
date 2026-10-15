@@ -3,9 +3,10 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
-import HandwrittenTitle from "@/components/HandwrittenTitle";
+import PageIntro from "@/components/PageIntro";
+import { LinkRow } from "@/components/Gazetteer";
 import { ERA_LIST, eraFromSlug, eraSlug } from "@/data/eras";
-import { SNAPSHOT_YEARS, formatYear } from "@/data/snapshotYears";
+import { SNAPSHOT_YEARS } from "@/data/snapshotYears";
 import { CROSSWALK } from "@/data/crosswalk";
 
 interface Props { params: Promise<{ scope: string }> }
@@ -38,70 +39,53 @@ export default async function ScopedTimelinePage({ params }: Props) {
     .slice(0, 12); // just show first 12 for now
 
   const ERA_ACCENT: Record<string, { accent: string; border: string; dot: string; hex: string }> = {
-    Prehistoric:   { accent: "text-prehistoric",  border: "border-prehistoric/40",  dot: "bg-prehistoric", hex: "#6b5c50" },
-    Ancient:       { accent: "text-ancient",       border: "border-ancient/40",       dot: "bg-ancient",      hex: "#b87008" },
-    Classical:     { accent: "text-classical",     border: "border-classical/40",     dot: "bg-classical",    hex: "#c05008" },
-    Medieval:      { accent: "text-medieval",      border: "border-medieval/40",      dot: "bg-medieval",     hex: "#2a6b3f" },
-    "Early Modern":{ accent: "text-early-modern",  border: "border-early-modern/40",  dot: "bg-early-modern", hex: "#1565a0" },
-    Modern:        { accent: "text-modern",        border: "border-modern/40",        dot: "bg-modern",       hex: "#6040a0" },
+    Prehistoric:   { accent: "text-prehistoric",  border: "border-prehistoric/40",  dot: "bg-prehistoric", hex: "#6d6457" },
+    Ancient:       { accent: "text-ancient",       border: "border-ancient/40",       dot: "bg-ancient",      hex: "#a66a12" },
+    Classical:     { accent: "text-classical",     border: "border-classical/40",     dot: "bg-classical",    hex: "#b4492b" },
+    Medieval:      { accent: "text-medieval",      border: "border-medieval/40",      dot: "bg-medieval",     hex: "#2f6b4f" },
+    "Early Modern":{ accent: "text-early-modern",  border: "border-early-modern/40",  dot: "bg-early-modern", hex: "#1f7272" },
+    Modern:        { accent: "text-modern",        border: "border-modern/40",        dot: "bg-modern",       hex: "#6a4aa0" },
   };
-  const accentMeta = ERA_ACCENT[era.label] ?? { accent: "text-ancient", border: "border-ancient/40", dot: "bg-ancient", hex: "#b87008" };
+  const accentMeta = ERA_ACCENT[era.label] ?? { accent: "text-ancient", border: "border-ancient/40", dot: "bg-ancient", hex: "#a66a12" };
+
+  const range = `${era.start < 0 ? `${Math.abs(era.start)} BCE` : `${era.start} CE`} – ${isFinite(era.end) ? (era.end < 0 ? `${Math.abs(era.end)} BCE` : `${era.end} CE`) : "today"}`;
 
   return (
     <>
       <SiteHeader />
       <main className="page-bg min-h-screen">
-        <div className="max-w-2xl mx-auto px-6 py-14">
-          {/* Breadcrumb */}
-          <nav className="flex items-center gap-2 text-xs text-ink/40 mb-10" aria-label="Breadcrumb">
-            <Link href="/timeline" className="hover:text-ancient/80 transition-colors">Timeline</Link>
-            <span className="text-ink/20">/</span>
-            <span className={accentMeta.accent}>{era.label}</span>
-          </nav>
-
-          {/* Accent rule + heading */}
-          <div className={`h-0.5 w-12 rounded-full ${accentMeta.dot} mb-4`} aria-hidden="true" />
-          <p className="text-ancient/70 text-xs font-semibold uppercase tracking-widest mb-3">Era</p>
-          <HandwrittenTitle className={`font-display text-5xl font-bold italic ${accentMeta.accent} mb-2`} inkColor={accentMeta.hex}>{era.label}</HandwrittenTitle>
-          <p className="text-ink/30 text-sm font-mono mb-3">
-            {era.start < 0 ? `${Math.abs(era.start)} BCE` : `${era.start} CE`}
-            {" – "}
-            {isFinite(era.end) ? (era.end < 0 ? `${Math.abs(era.end)} BCE` : `${era.end} CE`) : "present"}
-          </p>
-          <p className="text-ink/40 text-base mb-12 max-w-lg">
-            {eraYears.length} snapshot{eraYears.length !== 1 ? "s" : ""} from the {era.label} period.
-          </p>
-
+        <PageIntro
+          crumbs={[{ href: "/timeline", label: "Timeline" }]}
+          label={isFinite(era.start) ? range : "Before 3000 BCE"}
+          accent={accentMeta.accent}
+          title={era.label}
+          lede={"blurb" in era ? era.blurb : undefined}
+          aside={<p className="font-mono text-[12px] tracking-wide text-ink/50">{eraYears.length} map{eraYears.length !== 1 ? "s" : ""}</p>}
+        />
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14 sm:py-20">
           {eraYears.length === 0 ? (
-            <p className="text-ink/40">No snapshots in this period.</p>
+            <p className="text-ink/50">No maps in this period.</p>
           ) : (
-            <div className="flex flex-wrap gap-2.5 mb-16">
+            <ul className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 border-l border-t border-ink/10">
               {eraYears.map(year => (
-                <Link
-                  key={year}
-                  href={`/map?year=${year}`}
-                  className={`rounded-xl border ${accentMeta.border} bg-white/60 hover:bg-surface px-4 py-3 text-sm font-mono text-ink/55 hover:text-ink transition-all duration-200 hover:translate-x-0.5`}
-                >
-                  {formatYear(year)}
-                </Link>
+                <li key={year} className="border-r border-b border-ink/10">
+                  <Link href={`/map?year=${year}`} className="group block px-5 py-6 hover:bg-card transition-colors">
+                    <span className="font-display font-light text-4xl sm:text-5xl tracking-[-0.03em] tabular-nums text-ink group-hover:text-accent transition-colors">
+                      {Math.abs(year).toLocaleString("en-US")}
+                    </span>
+                    <span className="ml-1.5 font-mono text-[10px] text-ink/45">{year < 0 ? "BCE" : "CE"}</span>
+                    <span className="block mt-1 text-[12px] text-ink/40 group-hover:text-accent transition-colors">Open map →</span>
+                  </Link>
+                </li>
               ))}
-            </div>
+            </ul>
           )}
 
-          {/* Era navigation */}
-          <div className="border-t border-paper pt-8">
-            <p className="text-ink/30 text-xs uppercase tracking-widest mb-4">Other eras</p>
-            <div className="flex flex-wrap gap-2.5">
-              {ERA_LIST.filter(e => e.label !== era.label).map(e => (
-                <Link
-                  key={e.label}
-                  href={`/timeline/${eraSlug(e.label)}`}
-                  className="rounded-xl border border-paper bg-white/60 hover:bg-surface hover:border-paper/60 px-4 py-2.5 text-sm text-ink/50 hover:text-ink transition-all duration-200"
-                >
-                  {e.label}
-                </Link>
-              ))}
-            </div>
+          <div className="mt-20 sm:mt-28">
+            <LinkRow
+              title="Other ages"
+              links={ERA_LIST.filter(e => e.label !== era.label).map(e => ({ href: `/timeline/${eraSlug(e.label)}`, label: e.label }))}
+            />
           </div>
         </div>
       </main>

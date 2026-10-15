@@ -39,6 +39,7 @@
     "eslint": "^9",
     "eslint-config-next": "16.2.6",
     "polyclip-ts": "^0.16.8",
+    "puppeteer-core": "^24.43.1",
     "tailwindcss": "^4",
     "typescript": "^5"
   }

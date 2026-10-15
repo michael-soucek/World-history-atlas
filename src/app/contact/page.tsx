@@ -32,11 +32,11 @@ export default function ContactPage() {
     <>
       <SiteHeader />
       <main className="page-bg min-h-screen">
-        <div className="max-w-2xl mx-auto px-6 py-14 space-y-14">
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 pt-12 sm:pt-20 pb-24 space-y-16">
           <header>
-            <p className="text-ancient/70 text-xs font-semibold uppercase tracking-widest mb-3">Contact</p>
-            <h1 className="font-display text-5xl font-bold text-ink italic mb-4">Get in touch</h1>
-            <p className="text-ink/50 text-base leading-relaxed">
+            <p className="label text-accent mb-5">Contact</p>
+            <h1 className="font-display font-light text-5xl sm:text-7xl tracking-[-0.035em] leading-[1] text-ink mb-6">Get in touch</h1>
+            <p className="text-ink/65 text-lg leading-relaxed">
               Borders of Time is run by one person. Email is the fastest way to reach me, for
               anything below.
             </p>
@@ -44,7 +44,7 @@ export default function ContactPage() {
 
           <section className="space-y-4">
             {REASONS.map((r) => (
-              <div key={r.title} className="rounded-2xl bg-white/60 border border-paper p-5">
+              <div key={r.title} className="rounded-md bg-card border border-paper p-5">
                 <h2 className="text-ink font-medium mb-1.5">{r.title}</h2>
                 <p className="text-ink/55 text-sm leading-relaxed">{r.body}</p>
               </div>
@@ -54,14 +54,14 @@ export default function ContactPage() {
           <section>
             <a
               href={`mailto:${CONTACT_EMAIL}`}
-              className="inline-flex items-center gap-2 rounded-xl px-5 py-3 text-sm font-semibold bg-ancient text-white hover:bg-ancient/90 transition-colors"
+              className="inline-flex items-center gap-2 rounded-md px-5 py-3 text-sm font-semibold bg-ink text-parchment hover:bg-accent transition-colors"
             >
               {CONTACT_EMAIL}
             </a>
             <p className="mt-4 text-ink/40 text-xs leading-relaxed">
               I read every message but can&rsquo;t promise a fast reply. For data corrections,
               you can also contribute directly upstream — see the sources listed on{" "}
-              <Link href="/about" className="text-ancient hover:text-ancient/80 underline">
+              <Link href="/about" className="text-accent hover:text-accent/80 underline">
                 the About page
               </Link>
               .

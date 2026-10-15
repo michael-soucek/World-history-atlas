@@ -14,21 +14,21 @@ export default function ConfidenceLegend() {
   const [open, setOpen] = useState(false);
 
   return (
-    <div className="absolute left-3 bottom-28 z-10 pointer-events-auto select-none">
+    <div className="absolute left-3 sm:left-4 bottom-[150px] sm:bottom-[190px] z-10 pointer-events-auto select-none">
       <button
         onClick={() => setOpen((v) => !v)}
         aria-expanded={open}
         aria-label="Toggle data confidence legend"
-        className="text-xs text-white/50 bg-black/40 hover:bg-black/65 px-2.5 py-1
-          rounded backdrop-blur-sm transition-colors"
+        className="h-8 px-3 font-mono text-[10px] tracking-wider uppercase text-parchment/70 hover:text-parchment bg-night/80 border border-white/10
+          rounded-md backdrop-blur-md transition-colors"
       >
-        {open ? "× confidence" : "data confidence ↑"}
+        {open ? "Close legend" : "How sure are these borders?"}
       </button>
 
       {open && (
         <div
-          className="mt-1.5 bg-black/75 backdrop-blur-sm border border-white/10
-            rounded-lg p-3.5 text-xs text-white/80 w-60 space-y-2.5"
+          className="mb-1.5 absolute bottom-full left-0 bg-night/92 backdrop-blur-md border border-white/10
+            rounded-md p-4 text-xs text-parchment/80 w-64 space-y-2.5"
         >
           {/* High */}
           <Row
@@ -56,7 +56,7 @@ export default function ConfidenceLegend() {
             detail="No data — unknown areas stay empty"
           />
 
-          <p className="text-white/35 leading-snug pt-0.5">
+          <p className="text-parchment/40 leading-snug pt-0.5">
             Showing uncertainty builds trust.
             Blank is information.
           </p>
@@ -92,12 +92,12 @@ function Row({
         )}
       </div>
       <div>
-        <span className="font-semibold text-white/90">{label}</span>
+        <span className="font-semibold text-parchment">{label}</span>
         {extra && (
-          <span className="ml-1 text-white/40 font-mono text-[10px]">{extra}</span>
+          <span className="ml-1 text-parchment/40 font-mono text-[10px]">{extra}</span>
         )}
         <br />
-        <span className="text-white/50">{detail}</span>
+        <span className="text-parchment/55">{detail}</span>
       </div>
     </div>
   );

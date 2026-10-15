@@ -47,7 +47,7 @@ export default function AdSlot({ id, format = "rectangle", className = "" }: AdS
   return (
     <div
       data-ad-slot={id}
-      className={`mx-auto flex items-center justify-center rounded-xl border border-dashed border-paper bg-surface/50 text-[10px] uppercase tracking-widest text-ink/25 ${FORMAT_SIZE[format]} ${className}`}
+      className={`mx-auto flex items-center justify-center rounded-md border border-dashed border-paper bg-surface/50 text-[10px] uppercase tracking-widest text-ink/25 ${FORMAT_SIZE[format]} ${className}`}
     >
       Advertisement
     </div>

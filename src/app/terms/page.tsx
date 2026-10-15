@@ -19,10 +19,10 @@ export default function TermsPage() {
     <>
       <SiteHeader />
       <main className="page-bg min-h-screen">
-        <div className="max-w-2xl mx-auto px-6 py-14 space-y-14">
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 pt-12 sm:pt-20 pb-24 space-y-16">
           <header>
-            <p className="text-ancient/70 text-xs font-semibold uppercase tracking-widest mb-3">Legal</p>
-            <h1 className="font-display text-5xl font-bold text-ink italic mb-4">Terms of Use</h1>
+            <p className="label text-accent mb-5">Legal</p>
+            <h1 className="font-display font-light text-5xl sm:text-7xl tracking-[-0.035em] leading-[1] text-ink mb-6">Terms of Use</h1>
             <p className="text-ink/40 text-sm">Last updated: {LAST_UPDATED}</p>
           </header>
 
@@ -33,7 +33,7 @@ export default function TermsPage() {
 
           <section>
             <div className="flex items-center gap-3 mb-5">
-              <h2 className="font-display text-xl font-semibold text-ink/70 italic">1. What the Service is</h2>
+              <h2 className="font-display text-3xl tracking-tight text-ink">1. What the Service is</h2>
               <div className="flex-1 h-px bg-paper" />
             </div>
             <p className="text-ink/70 text-sm leading-relaxed">
@@ -46,13 +46,13 @@ export default function TermsPage() {
 
           <section>
             <div className="flex items-center gap-3 mb-5">
-              <h2 className="font-display text-xl font-semibold text-ink/70 italic">2. Historical accuracy</h2>
+              <h2 className="font-display text-3xl tracking-tight text-ink">2. Historical accuracy</h2>
               <div className="flex-1 h-px bg-paper" />
             </div>
             <p className="text-ink/70 text-sm leading-relaxed">
               Border data, dates, and facts come from third-party sources (Wikidata, Wikipedia,
               open historical basemaps) with documented limitations — see{" "}
-              <Link href="/about" className="text-ancient hover:text-ancient/80 underline">
+              <Link href="/about" className="text-accent hover:text-accent/80 underline">
                 About the Data
               </Link>
               . Contested historical topics are presented with multiple perspectives, not a single
@@ -62,10 +62,10 @@ export default function TermsPage() {
 
           <section>
             <div className="flex items-center gap-3 mb-5">
-              <h2 className="font-display text-xl font-semibold text-ink/70 italic">3. Affiliate disclosure</h2>
+              <h2 className="font-display text-3xl tracking-tight text-ink">3. Affiliate disclosure</h2>
               <div className="flex-1 h-px bg-paper" />
             </div>
-            <div className="rounded-2xl bg-ancient-wash border border-ancient/20 p-5">
+            <div className="rounded-md bg-accent-wash border border-accent/20 p-5">
               <p className="text-ink/70 text-sm leading-relaxed">
                 Some links on the Service — for example &ldquo;further reading &amp;
                 viewing&rdquo; suggestions for books, documentaries, courses, or museum tickets —
@@ -79,7 +79,7 @@ export default function TermsPage() {
 
           <section>
             <div className="flex items-center gap-3 mb-5">
-              <h2 className="font-display text-xl font-semibold text-ink/70 italic">4. Advertising</h2>
+              <h2 className="font-display text-3xl tracking-tight text-ink">4. Advertising</h2>
               <div className="flex-1 h-px bg-paper" />
             </div>
             <p className="text-ink/70 text-sm leading-relaxed">
@@ -92,12 +92,12 @@ export default function TermsPage() {
 
           <section>
             <div className="flex items-center gap-3 mb-5">
-              <h2 className="font-display text-xl font-semibold text-ink/70 italic">5. Intellectual property</h2>
+              <h2 className="font-display text-3xl tracking-tight text-ink">5. Intellectual property</h2>
               <div className="flex-1 h-px bg-paper" />
             </div>
             <p className="text-ink/70 text-sm leading-relaxed">
               Border data, text, and images are used under the open licenses described on{" "}
-              <Link href="/about" className="text-ancient hover:text-ancient/80 underline">
+              <Link href="/about" className="text-accent hover:text-accent/80 underline">
                 About the Data
               </Link>{" "}
               and remain the property of their respective sources. The site&rsquo;s design, code,
@@ -108,7 +108,7 @@ export default function TermsPage() {
 
           <section>
             <div className="flex items-center gap-3 mb-5">
-              <h2 className="font-display text-xl font-semibold text-ink/70 italic">
+              <h2 className="font-display text-3xl tracking-tight text-ink">
                 6. &ldquo;As is,&rdquo; no warranty
               </h2>
               <div className="flex-1 h-px bg-paper" />
@@ -123,7 +123,7 @@ export default function TermsPage() {
 
           <section>
             <div className="flex items-center gap-3 mb-5">
-              <h2 className="font-display text-xl font-semibold text-ink/70 italic">7. Changes</h2>
+              <h2 className="font-display text-3xl tracking-tight text-ink">7. Changes</h2>
               <div className="flex-1 h-px bg-paper" />
             </div>
             <p className="text-ink/70 text-sm leading-relaxed">
@@ -135,7 +135,7 @@ export default function TermsPage() {
 
           <section>
             <div className="flex items-center gap-3 mb-5">
-              <h2 className="font-display text-xl font-semibold text-ink/70 italic">8. Governing law</h2>
+              <h2 className="font-display text-3xl tracking-tight text-ink">8. Governing law</h2>
               <div className="flex-1 h-px bg-paper" />
             </div>
             <p className="text-ink/70 text-sm leading-relaxed">
@@ -147,12 +147,12 @@ export default function TermsPage() {
 
           <section>
             <div className="flex items-center gap-3 mb-5">
-              <h2 className="font-display text-xl font-semibold text-ink/70 italic">9. Contact</h2>
+              <h2 className="font-display text-3xl tracking-tight text-ink">9. Contact</h2>
               <div className="flex-1 h-px bg-paper" />
             </div>
             <p className="text-ink/70 text-sm leading-relaxed">
               Questions about these terms:{" "}
-              <a href={`mailto:${CONTACT_EMAIL}`} className="text-ancient hover:text-ancient/80 underline">
+              <a href={`mailto:${CONTACT_EMAIL}`} className="text-accent hover:text-accent/80 underline">
                 {CONTACT_EMAIL}
               </a>
               .

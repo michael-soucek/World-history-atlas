@@ -1,16 +1,14 @@
 @import "tailwindcss";
-@import "leaflet/dist/leaflet.css";
-@import "maplibre-gl/dist/maplibre-gl.css";
 
 /* Prevent horizontal overflow on all viewports */
 html, body {
-  overflow-x: hidden;
+  overflow-x: clip; /* clip, not hidden: hidden would break position: sticky */
   max-width: 100vw;
 }
 
 :root {
-  --background: #fdf9f3;   /* warm parchment */
-  --foreground: #1a120a;   /* warm ink */
+  --background: #eef0f2;   /* cool vellum */
+  --foreground: #0f1726;   /* midnight ink */
 }
 
 @theme inline {
@@ -18,31 +16,42 @@ html, body {
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-  --font-serif: var(--font-playfair);
+  --font-serif: var(--font-fraunces);
+  --font-text: var(--font-source-serif);
 
-  /* === Parchment surface system === */
-  --color-parchment:  #fdf9f3;   /* lightest page bg */
-  --color-surface:    #f5ede0;   /* card / elevated bg */
-  --color-ocean:      #dcedf8;   /* sky-blue secondary sections */
-  --color-ink:        #1a120a;   /* primary text — warm charcoal */
-  --color-ink-2:      #5a3e2a;   /* secondary text */
-  --color-paper:      #d9cfc2;   /* hairline borders */
+  /* === Paper surface system === */
+  --color-parchment:  #eef0f2;   /* page: cool vellum */
+  --color-surface:    #e2e6ec;   /* recessed panels */
+  --color-ocean:      #dde5ef;   /* cool secondary wash */
+  --color-ink:        #0f1726;   /* primary text: midnight ink */
+  --color-ink-2:      #3c4a63;   /* secondary text */
+  --color-paper:      #cdd4de;   /* hairline rules */
+  --color-card:       #f7f8fa;   /* raised card */
+
+  /* === Brand === */
+  --color-accent:     #2346a0;   /* lapis — the costliest blue on old maps */
+  --color-accent-wash:#e2e8f6;
+  --color-night:      #0b1424;   /* midnight navy */
+  --color-night-2:    #121d33;
+  --color-night-3:    #1c2944;
+  --color-glow:       #9fb7ff;   /* pale lapis, on night only */
+  --color-vermilion:  #d2462a;   /* sparing highlight */
 
   /* === Era accent colors (calibrated for light bg, AA contrast) === */
-  --color-prehistoric:   #6b5c50;   /* warm stone */
-  --color-ancient:       #b87008;   /* amber gold  */
-  --color-classical:     #c05008;   /* terracotta  */
-  --color-medieval:      #2a6b3f;   /* forest sage */
-  --color-early-modern:  #1565a0;   /* atlas blue  */
-  --color-modern:        #6040a0;   /* dusty violet */
+  --color-prehistoric:   #6d6457;   /* stone */
+  --color-ancient:       #a66a12;   /* ochre */
+  --color-classical:     #b4492b;   /* terracotta */
+  --color-medieval:      #2f6b4f;   /* forest */
+  --color-early-modern:  #1f7272;   /* sea teal */
+  --color-modern:        #6a4aa0;   /* violet */
 
   /* === Era wash backgrounds (soft tint fills) === */
-  --color-prehistoric-wash:  #f4ede6;
-  --color-ancient-wash:      #fef5e0;
-  --color-classical-wash:    #fef0e6;
-  --color-medieval-wash:     #edf6ef;
-  --color-early-modern-wash: #e6f2fb;
-  --color-modern-wash:       #f0ebfc;
+  --color-prehistoric-wash:  #ebe9e5;
+  --color-ancient-wash:      #f5ecdc;
+  --color-classical-wash:    #f5e6e0;
+  --color-medieval-wash:     #e2ede7;
+  --color-early-modern-wash: #ddeeee;
+  --color-modern-wash:       #ebe6f4;
 }
 
 html {
@@ -67,13 +76,82 @@ body {
   font-family: var(--font-geist-sans, Arial, Helvetica, sans-serif);
 }
 
-/* Display serif headings utility */
+/* Display serif headings utility. Fraunces' optical sizing keeps large
+   headings fine-grained; the slight negative tracking tightens them. */
 .font-display {
-  font-family: var(--font-playfair), Georgia, serif;
+  font-family: var(--font-fraunces), Georgia, serif;
+  font-optical-sizing: auto;
+  letter-spacing: -0.018em;
 }
 
+/* Long-form reading text */
+.font-text {
+  font-family: var(--font-source-serif), Georgia, serif;
+}
+
+/* Small mono label: dates, coordinates, section numbers. Never a pill. */
+.label {
+  font-family: var(--font-geist-mono), ui-monospace, monospace;
+  font-size: 11px;
+  line-height: 1.4;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+/* Paper grain over the whole page — a few percent of noise so flat fills
+   read as printed stock rather than screen colour. A small tiled PNG: an
+   SVG turbulence filter here would be re-rendered on every repaint. */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  pointer-events: none;
+  opacity: 0.05;
+  background-image: url("/grain.png");
+  mix-blend-mode: multiply;
+}
+
+/* First paragraph of an article: a three-line initial. */
+.dropcap::first-letter {
+  float: left;
+  font-family: var(--font-fraunces), Georgia, serif;
+  font-size: 4.1em;
+  line-height: 0.8;
+  padding: 0.07em 0.09em 0 0;
+  color: var(--color-vermilion);
+}
+
+/* Fade-up on scroll where the browser supports scroll-driven animation;
+   everywhere else the content is simply there. */
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .reveal {
+      animation: reveal-up linear both;
+      animation-timeline: view();
+      animation-range: entry 0% entry 40%;
+    }
+  }
+}
+@keyframes reveal-up {
+  from { opacity: 0; transform: translateY(28px); }
+  to   { opacity: 1; transform: none; }
+}
+
+/* Underline that draws in from the left on hover */
+.link-draw {
+  background-image: linear-gradient(currentColor, currentColor);
+  background-size: 0% 1px;
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+  transition: background-size 0.35s ease;
+}
+.link-draw:hover, .group:hover .link-draw { background-size: 100% 1px; }
+
+::selection { background: #c9d6f7; color: #0f1726; }
+
 /* MapLibre canvas should always fill its container */
-.maplibregl-map {
+div.maplibregl-map {
   position: absolute;
   inset: 0;
 }
@@ -92,20 +170,34 @@ body {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='60'%3E%3Cpath d='M0 30 Q15 15 30 30 Q45 45 60 30' fill='none' stroke='%23b87008' stroke-width='0.5' stroke-opacity='0.09'/%3E%3Cpath d='M0 15 Q15 0 30 15 Q45 30 60 15' fill='none' stroke='%23b87008' stroke-width='0.4' stroke-opacity='0.06'/%3E%3Cpath d='M0 45 Q15 30 30 45 Q45 60 60 45' fill='none' stroke='%23b87008' stroke-width='0.4' stroke-opacity='0.06'/%3E%3C/svg%3E");
 }
 
-/* Page-level background: parchment + radial amber warmth + faint topo */
+/* Page-level background: plain paper (the grain comes from body::before) */
 .page-bg {
-  background-color: #fdf9f3;
+  background-color: var(--background);
+}
+
+/* Faint graticule — the lat/long grid of a printed chart */
+.graticule {
   background-image:
-    radial-gradient(ellipse 80% 40% at 50% -10%, rgba(184,112,8,0.06) 0%, transparent 70%),
-    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='60'%3E%3Cpath d='M0 30 Q15 15 30 30 Q45 45 60 30' fill='none' stroke='%23b87008' stroke-width='0.4' stroke-opacity='0.04'/%3E%3C/svg%3E");
+    linear-gradient(to right, rgb(15 23 38 / 0.06) 1px, transparent 1px),
+    linear-gradient(to bottom, rgb(15 23 38 / 0.06) 1px, transparent 1px);
+  background-size: 96px 96px;
+}
+.graticule-night {
+  background-image:
+    linear-gradient(to right, rgb(159 183 255 / 0.07) 1px, transparent 1px),
+    linear-gradient(to bottom, rgb(159 183 255 / 0.07) 1px, transparent 1px);
+  background-size: 96px 96px;
 }
 
 /* Focus rings — amber glow, AA-visible */
 :focus-visible {
-  outline: 2px solid rgba(184, 112, 8, 0.7);
+  outline: 2px solid rgb(35 70 160 / 0.75);
   outline-offset: 2px;
   border-radius: 4px;
 }
+
+/* For fields that show focus another way (the search page's ruled input) */
+.no-focus-ring:focus-visible { outline: none; }
 
 /* Respect prefers-reduced-motion */
 @media (prefers-reduced-motion: reduce) {
@@ -134,11 +226,11 @@ body {
   font-family: var(--font-mono), ui-monospace, monospace;
   text-transform: uppercase;
   letter-spacing: 0.04em;
-  color: #b87008;
+  color: #2346a0;
 }
 .vm-popup .vm-name {
   font-weight: 600;
-  color: #1a120a;
+  color: #0f1726;
   font-size: 13px;
   line-height: 1.3;
   margin-top: 1px;
@@ -149,11 +241,11 @@ body {
   line-height: 1.35;
   margin-top: 3px;
 }
-.maplibregl-popup-content {
+div.maplibregl-popup-content {
   border-radius: 10px;
-  border: 1px solid #d9cfc2;
+  border: 1px solid #cdd4de;
   padding: 8px 11px;
-  box-shadow: 0 4px 16px rgba(26, 18, 10, 0.12);
+  box-shadow: 0 4px 16px rgba(15, 23, 38, 0.14);
 }
 
 
@@ -162,4 +254,14 @@ body {
 dialog.lightbox::backdrop {
   background: rgb(10 8 6 / 0.82);
   backdrop-filter: blur(3px);
+}
+
+/* Homepage hero: the big year sliding in, and the chronometer filling */
+@keyframes year-in {
+  from { opacity: 0; transform: translateY(0.18em); filter: blur(6px); }
+  to   { opacity: 1; transform: none; filter: none; }
+}
+@keyframes chrono-fill {
+  from { width: 0%; }
+  to   { width: 100%; }
 }

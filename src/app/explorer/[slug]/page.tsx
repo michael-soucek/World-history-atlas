@@ -5,7 +5,7 @@ import { notFound } from "next/navigation";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
 import { ReadAloudButton } from "@/components/ReadAloudButton";
-import HandwrittenTitle from "@/components/HandwrittenTitle";
+import PageIntro from "@/components/PageIntro";
 import VoyageMap from "@/components/VoyageMap";
 import RelatedResources from "@/components/RelatedResources";
 import ArticleImage, { type ArticleImageData } from "@/components/ArticleImage";
@@ -77,152 +77,133 @@ export default async function ExplorerPage({ params }: Props) {
     <>
       <SiteHeader />
       <main className="page-bg min-h-screen">
-        <div className="max-w-5xl mx-auto px-6 py-14">
-          {/* Breadcrumb */}
-          <nav className="flex items-center gap-2 text-xs text-ink/35 mb-10" aria-label="Breadcrumb">
-            <Link href="/browse" className="hover:text-ancient/80 transition-colors">Browse</Link>
-            <span className="text-ink/20">/</span>
-            <Link href="/theme/age-of-exploration" className="hover:text-ancient/80 transition-colors">Age of Exploration</Link>
-            <span className="text-ink/20">/</span>
-            <span className="text-ink/55">{explorer.name}</span>
-          </nav>
+        <PageIntro
+          crumbs={[{ href: "/browse", label: "Browse" }, { href: "/theme/age-of-exploration", label: "Age of Exploration" }]}
+          label={`Explorer · ${explorer.lifespan}`}
+          title={explorer.name}
+          lede={explorer.tagline}
+          aside={
+            hasVoyages ? (
+              <p className="font-mono text-[12px] tracking-wide text-ink/50 leading-relaxed">
+                {voyages.length} voyage{voyages.length !== 1 ? "s" : ""}<br />
+                {voyages.reduce((n, v) => n + v.waypoints.length, 0)} dated stops
+              </p>
+            ) : undefined
+          }
+        />
 
-          {/* Title block */}
-          <div className="mb-8">
-            <p className="text-ancient/70 text-xs font-semibold uppercase tracking-widest mb-3">
-              Explorer · {explorer.lifespan}
+        {/* ── The voyages, first: they are the point of the page ── */}
+        {hasVoyages ? (
+          <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-10 sm:pt-14">
+            <VoyageMap voyages={voyages} className="h-[30rem] sm:h-[40rem] w-full" />
+            <p className="mt-3 text-[11px] text-ink/40 leading-relaxed max-w-4xl">
+              Route data is compiled in chronological order from Wikipedia&apos;s voyage articles (CC BY-SA),
+              cross-checked against primary source narratives and historical records. Waypoints mark approximate
+              port, bay, and landfall locations — not survey-grade ship positions — and should be verified
+              against detailed historical charts and logs before being treated as authoritative. Coordinates
+              for remote stops and open-ocean legs are estimated and approximate.
             </p>
-            <HandwrittenTitle className="font-display text-5xl sm:text-6xl font-bold text-ink italic leading-tight mb-2">
-              {explorer.name}
-            </HandwrittenTitle>
-            <p className="text-ancient/60 text-base mt-3 leading-relaxed max-w-2xl">{explorer.tagline}</p>
-          </div>
 
-          {/* Bio */}
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 mb-14">
-            <div className="lg:col-span-2">
-              {hero && <ArticleImage img={hero} alt={hero.caption || `Depiction of ${explorer.name}`} variant="hero" priority />}
-
-              {content?.summary && (
-                <div className="flex items-center gap-3 mb-6">
-                  <ReadAloudButton text={[content.summary, ...(content.sections?.map(s => s.content) || [])].join(" ")} />
-                  <span className="text-ink/25 text-[10px] uppercase tracking-widest font-semibold">Read Biography</span>
-                </div>
-              )}
-
-              {summaryParas.length > 0 ? (
-                <div className="mb-8 flow-root">
-                  {summaryImage && <ArticleImage img={summaryImage} alt={summaryImage.caption ?? explorer.name} variant="float" side="right" />}
-                  <div className="space-y-6">
-                  {summaryParas.map((para, i) => (
-                    <div key={i} className="group relative flex gap-4">
-                      <ReadAloudButton 
-                        text={para} 
-                        variant="minimal" 
-                        className="shrink-0 mt-1 opacity-20 group-hover:opacity-100 pointer-coarse:opacity-100 transition-opacity" 
-                      />
-                      <p className="text-ink/75 text-base leading-[1.85]">{para}</p>
-                    </div>
-                  ))}
+            <ol className="mt-14 border-t border-ink/80">
+              {voyages.map((v, i) => (
+                <li key={v.id} className="grid grid-cols-1 lg:grid-cols-12 gap-4 lg:gap-8 py-8 sm:py-10 border-b border-ink/10">
+                  <div className="lg:col-span-4">
+                    <p className="flex items-center gap-3 font-mono text-[11px] tracking-wider text-ink/50">
+                      <span className="w-2.5 h-2.5 rounded-full shrink-0" style={{ backgroundColor: v.color }} aria-hidden="true" />
+                      {String(i + 1).padStart(2, "0")} · {v.years}
+                    </p>
+                    <h3 className="mt-2 font-display text-3xl tracking-tight text-ink">{v.label}</h3>
+                    <p className="mt-1 text-sm text-ink/50">{v.ship} · {v.waypoints.length} stops</p>
                   </div>
-                </div>
-              ) : (
-                <div className="flex items-start gap-4">
-                  <ReadAloudButton text={explorer.tagline} variant="minimal" className="shrink-0" />
-                  <p className="text-ink/50 text-base leading-relaxed">{explorer.tagline}</p>
-                </div>
-              )}
+                  <div className="lg:col-span-8">
+                    <p className="font-display italic text-xl text-accent leading-snug">{v.purpose}</p>
+                    <p className="mt-3 font-text text-[17px] sm:text-[18px] leading-[1.7] text-ink/85">{v.summary}</p>
+                    <div className="mt-3 flex items-start gap-4">
+                      <ReadAloudButton text={`${v.label}. ${v.purpose} ${v.summary}`} variant="minimal" className="-ml-3" />
+                      {v.accuracyNote && (
+                        <p className="text-xs text-ink/50 leading-relaxed border-l-2 border-accent/40 pl-3 py-1">
+                          <span className="font-semibold text-ink/70">On accuracy:</span> {v.accuracyNote}
+                        </p>
+                      )}
+                    </div>
+                  </div>
+                </li>
+              ))}
+            </ol>
+          </section>
+        ) : (
+          <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-10">
+            <p className="border-y border-ink/10 py-6 text-ink/60 text-[15px] leading-relaxed max-w-2xl">
+              A full mapped profile of {explorer.name}&apos;s journeys is coming soon. In the meantime, read the
+              Wikipedia-sourced summary below or explore the{" "}
+              <Link href="/theme/age-of-exploration" className="text-accent hover:text-ink underline underline-offset-2">Age of Exploration</Link> hub.
+            </p>
+          </section>
+        )}
 
-              {content?.wikipediaUrl && (
-                <p className="text-xs text-ink/25 mt-4">
-                  Summary from{" "}
-                  <a href={content.wikipediaUrl} target="_blank" rel="noopener noreferrer" className="text-ancient/50 hover:text-ancient underline underline-offset-2 transition-colors">Wikipedia</a>
-                  {" "}(CC BY-SA 4.0)
-                </p>
-              )}
-
-              {stripImages.length > 0 && <ImageStrip images={stripImages} name={explorer.name} />}
-            </div>
-
-            {/* Sidebar */}
-            <aside className="space-y-5">
-              <div className="rounded-2xl border border-paper bg-white/60 p-5 space-y-3">
-                <p className="text-ink/35 text-xs font-semibold uppercase tracking-wider">Explore further</p>
-                {content?.wikipediaUrl && (
-                  <a href={content.wikipediaUrl} target="_blank" rel="noopener noreferrer" className="block w-full text-center rounded-xl px-4 py-2.5 text-sm font-medium border border-paper bg-white/60 text-ink/70 hover:bg-surface hover:text-ink transition-all duration-200">
-                    Read on Wikipedia →
-                  </a>
-                )}
-                <Link href="/tour/age-of-discovery" className="block w-full text-center rounded-xl px-4 py-2.5 text-sm font-medium border border-paper bg-white/60 text-ink/70 hover:bg-surface hover:text-ink transition-all duration-200">
-                  Take the Age of Discovery tour →
-                </Link>
+        {/* ── Biography ── */}
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24 grid grid-cols-1 lg:grid-cols-12 gap-14 lg:gap-8">
+          <article className="lg:col-span-7 xl:col-start-2 min-w-0">
+            <h2 className="font-display font-light text-4xl sm:text-5xl tracking-[-0.03em] text-ink mb-10">The life</h2>
+            {hero && (
+              <div className="mb-10">
+                <ArticleImage img={hero} alt={hero.caption || `Depiction of ${explorer.name}`} variant="float" side="right" priority />
               </div>
-              <p className="text-xs text-ink/25 leading-relaxed px-1">
+            )}
+            {content?.summary && (
+              <div className="flex items-center gap-4 mb-8 pb-6 border-b border-ink/10">
+                <ReadAloudButton text={[content.summary, ...(content.sections?.map(s => s.content) || [])].join(" ")} />
+                <span className="text-xs text-ink/40">Hear the biography read aloud</span>
+              </div>
+            )}
+            {summaryParas.length > 0 ? (
+              <div className="flow-root">
+                {summaryImage && <ArticleImage img={summaryImage} alt={summaryImage.caption ?? explorer.name} variant="float" side="left" />}
+                <div className="space-y-5">
+                  {summaryParas.map((para, i) => (
+                    <p key={i} className={`font-text text-ink/85 text-[18px] sm:text-[19px] leading-[1.72] ${i === 0 ? "dropcap" : ""}`}>{para}</p>
+                  ))}
+                </div>
+              </div>
+            ) : (
+              <p className="font-text text-ink/70 text-lg leading-relaxed">{explorer.tagline}</p>
+            )}
+            {content?.wikipediaUrl && (
+              <p className="text-xs text-ink/35 mt-6">
+                Summary from{" "}
+                <a href={content.wikipediaUrl} target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 hover:text-accent transition-colors">Wikipedia</a>
+                {" "}(CC BY-SA 4.0)
+              </p>
+            )}
+            {stripImages.length > 0 && <ImageStrip images={stripImages} name={explorer.name} />}
+          </article>
+
+          <aside className="lg:col-span-4 lg:col-start-9 xl:col-start-10 xl:col-span-3">
+            <div className="lg:sticky lg:top-24 space-y-6">
+              <Link href="/tour/age-of-discovery" className="group block bg-night text-parchment p-6 relative overflow-hidden">
+                <div className="absolute inset-0 graticule-night opacity-80" aria-hidden="true" />
+                <div className="relative">
+                  <p className="label text-glow/80">Guided tour</p>
+                  <p className="mt-2 font-display text-[26px] leading-[1.1] tracking-tight">The Age of Discovery</p>
+                  <span className="mt-6 inline-flex items-center gap-2 text-sm text-parchment/70 group-hover:text-parchment transition-colors">
+                    Start the tour <span className="transition-transform group-hover:translate-x-1" aria-hidden="true">→</span>
+                  </span>
+                </div>
+              </Link>
+              {content?.wikipediaUrl && (
+                <a href={content.wikipediaUrl} target="_blank" rel="noopener noreferrer" className="flex items-center justify-between border-y border-ink/15 py-4 text-sm text-ink/70 hover:text-accent transition-colors">
+                  Full article on Wikipedia <span aria-hidden="true">↗</span>
+                </a>
+              )}
+              <RelatedResources resourceKey={`explorer:${explorer.slug}`} />
+              <p className="text-[11px] text-ink/35 leading-relaxed">
                 Structured data:{" "}
-                <a href={`https://www.wikidata.org/wiki/${explorer.wikidataId}`} target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 hover:text-ink/45 transition-colors">
+                <a href={`https://www.wikidata.org/wiki/${explorer.wikidataId}`} target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 hover:text-accent transition-colors">
                   Wikidata {explorer.wikidataId}
                 </a>{" "}(CC0)
               </p>
-            </aside>
-          </div>
-
-          {/* Voyages */}
-          {hasVoyages ? (
-            <section>
-              <div className="flex items-center gap-3 mb-5">
-                <h2 className="font-display text-2xl font-semibold text-ink/80 italic">The Voyages</h2>
-                <div className="flex-1 h-px bg-paper" />
-              </div>
-
-              <VoyageMap voyages={voyages} className="h-[26rem] sm:h-[34rem] w-full mb-3 rounded-2xl border border-paper" />
-
-              <p className="text-xs text-ink/30 mb-10">
-                Route data is compiled in chronological order from Wikipedia&apos;s voyage articles (CC BY-SA),
-                cross-checked against primary source narratives and historical records. Waypoints mark approximate
-                port, bay, and landfall locations — not survey-grade ship positions — and should be verified
-                against detailed historical charts and logs before being treated as authoritative. Coordinates
-                for remote stops and open-ocean legs are estimated and approximate.
-              </p>
-
-              <div className="space-y-6">
-                {voyages.map((v) => (
-                  <article key={v.id} className="rounded-2xl border border-paper bg-white/60 p-6">
-                    <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1 mb-3">
-                      <span className="w-3 h-3 rounded-full shrink-0" style={{ backgroundColor: v.color }} aria-hidden="true" />
-                      <h3 className="font-display text-lg font-semibold text-ink">{v.label}</h3>
-                      <span className="text-ink/40 text-xs font-mono">{v.years}</span>
-                      <span className="text-ink/40 text-xs">· {v.ship}</span>
-                      <ReadAloudButton
-                        text={`${v.label}. ${v.purpose} ${v.summary}`}
-                        variant="minimal"
-                        className="ml-auto self-center"
-                      />
-                    </div>
-                    <p className="text-ancient/70 text-sm mb-2 italic">{v.purpose}</p>
-                    <p className="text-ink/70 text-[15px] leading-[1.8]">{v.summary}</p>
-                    {v.accuracyNote && (
-                      <p className="mt-3 flex gap-2 text-xs text-ink/45 leading-relaxed rounded-lg border border-paper bg-parchment/60 px-3 py-2">
-                        <span aria-hidden="true">⚠</span>
-                        <span><span className="font-semibold text-ink/60">Accuracy:</span> {v.accuracyNote}</span>
-                      </p>
-                    )}
-                  </article>
-                ))}
-              </div>
-            </section>
-          ) : (
-            <section className="rounded-2xl border border-paper bg-white/60 p-8 text-center">
-              <p className="text-ink/50 text-sm max-w-md mx-auto leading-relaxed">
-                A full mapped profile of {explorer.name}&apos;s journeys is coming soon. In the meantime, read
-                the Wikipedia-sourced summary above or explore the{" "}
-                <Link href="/theme/age-of-exploration" className="text-ancient/70 hover:text-ancient underline underline-offset-2">Age of Exploration</Link> hub.
-              </p>
-            </section>
-          )}
-
-          <div className="mt-10 max-w-md">
-            <RelatedResources resourceKey={`explorer:${explorer.slug}`} />
-          </div>
+            </div>
+          </aside>
         </div>
       </main>
       <SiteFooter />

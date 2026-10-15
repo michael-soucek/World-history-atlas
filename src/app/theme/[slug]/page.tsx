@@ -4,7 +4,8 @@ import { notFound } from "next/navigation";
 import { Sword, Star, Ship, Shield, FlaskConical, Palette, Compass, Flag, type LucideIcon } from "lucide-react";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
-import HandwrittenTitle from "@/components/HandwrittenTitle";
+import PageIntro, { SectionRule } from "@/components/PageIntro";
+import Gazetteer, { LinkRow } from "@/components/Gazetteer";
 import { ReadAloudButton } from "@/components/ReadAloudButton";
 import { CROSSWALK } from "@/data/crosswalk";
 import { readableNameFromSlug } from "@/lib/entityResolver";
@@ -191,192 +192,87 @@ export default async function ThemePage({ params }: Props) {
     .map(s => getExplorerBySlug(s))
     .filter((e): e is NonNullable<typeof e> => e != null);
 
+  const index = [
+    { title: "Empires & places", items: places.map(({ name, entry }) => ({ href: `/place/${entry!.slug}`, name })) },
+    { title: "People", items: people.map(p => ({ href: `/person/${p.slug}`, name: p.name })) },
+    { title: "Events", items: events.map(e => ({ href: `/event/${e.slug}`, name: e.name })) },
+    { title: "Cultures & topics", items: cultures.map(c => ({ href: `/culture/${c.slug}`, name: c.name })) },
+  ].filter(g => g.items.length > 0);
+
   return (
     <>
       <SiteHeader />
       <main className="page-bg min-h-screen">
-        <div className="max-w-5xl mx-auto px-6 py-14">
-          {/* Breadcrumb */}
-          <nav className="flex items-center gap-2 text-xs text-ink/35 mb-10" aria-label="Breadcrumb">
-            <Link href="/browse" className="hover:text-ancient/80 transition-colors">Browse</Link>
-            <span className="text-ink/20">/</span>
-            <Link href="/browse#themes" className="hover:text-ancient/80 transition-colors">Themes</Link>
-            <span className="text-ink/20">/</span>
-            <span className="text-ink/55">{theme.label}</span>
-          </nav>
+        <PageIntro
+          crumbs={[{ href: "/browse", label: "Browse" }, { href: "/browse#themes", label: "Themes" }]}
+          label="Theme"
+          title={theme.label}
+          lede={theme.description}
+          aside={<theme.Icon size={40} strokeWidth={1.1} className="text-accent lg:ml-auto" aria-hidden="true" />}
+        />
 
-          {/* Title block */}
-          <div className="flex items-start gap-5 mb-4">
-            <theme.Icon size={44} className="text-ink/30 mt-2 shrink-0" aria-hidden="true" />
-            <div>
-              <p className="text-ancient/70 text-xs font-semibold uppercase tracking-widest mb-3">Theme</p>
-              <HandwrittenTitle className="font-display text-5xl font-bold text-ink italic leading-tight">{theme.label}</HandwrittenTitle>
-            </div>
-          </div>
-          
-          <div className="flex flex-col gap-4 mb-10 max-w-xl">
-            <ReadAloudButton text={[theme.description, ...theme.body].join(" ")} />
-            <p className="text-ink/45 text-base leading-relaxed">{theme.description}</p>
-          </div>
-
-          {/* Narrative body */}
-          <div className="max-w-2xl space-y-6 mb-14 border-l-2 border-ancient/20 pl-6">
-            {theme.body.map((para, i) => (
-              <div key={i} className="group relative flex gap-4">
-                <ReadAloudButton 
-                  text={para} 
-                  variant="minimal" 
-                  className="shrink-0 mt-1 opacity-20 group-hover:opacity-100 pointer-coarse:opacity-100 transition-opacity" 
-                />
-                <p className="text-ink/75 text-[15px] leading-[1.85]">{para}</p>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14 sm:py-20">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8">
+            <div className="lg:col-span-7 xl:col-start-2">
+              <div className="mb-8"><ReadAloudButton text={[theme.description, ...theme.body].join(" ")} /></div>
+              <div className="space-y-6">
+                {theme.body.map((para, i) => (
+                  <p key={i} className={`font-text text-ink/85 text-[18px] sm:text-[19px] leading-[1.72] ${i === 0 ? "dropcap" : ""}`}>{para}</p>
+                ))}
               </div>
-            ))}
+            </div>
+
+            <aside className="lg:col-span-4 lg:col-start-9 xl:col-start-10 xl:col-span-3 space-y-6">
+              {theme.tour && (
+                <Link href={`/tour/${theme.tour.slug}`} className="group block bg-night text-parchment p-6 relative overflow-hidden">
+                  <div className="absolute inset-0 graticule-night opacity-80" aria-hidden="true" />
+                  <div className="relative">
+                    <Ship size={18} className="text-glow" aria-hidden="true" />
+                    <p className="mt-6 label text-glow/80">Guided tour</p>
+                    <p className="mt-2 font-display text-[26px] leading-[1.1] tracking-tight">{theme.tour.label}</p>
+                    <span className="mt-6 inline-flex items-center gap-2 text-sm text-parchment/70 group-hover:text-parchment transition-colors">
+                      Start the tour <span className="transition-transform group-hover:translate-x-1" aria-hidden="true">→</span>
+                    </span>
+                  </div>
+                </Link>
+              )}
+            </aside>
           </div>
 
-          {/* Explorers & voyages */}
           {explorers.length > 0 && (
-            <section className="mb-12">
-              <div className="flex items-center gap-3 mb-5">
-                <h2 className="font-display text-xl font-semibold text-ink/70 italic">Explorers &amp; voyages</h2>
-                <div className="flex-1 h-px bg-paper" />
-              </div>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            <section className="mt-20 sm:mt-28">
+              <SectionRule count={`${explorers.length} explorers`}>Explorers &amp; voyages</SectionRule>
+              <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-10">
                 {explorers.map((ex) => (
-                  <Link
-                    key={ex.slug}
-                    href={`/explorer/${ex.slug}`}
-                    className="group flex items-start gap-4 rounded-xl border border-paper bg-white/60 hover:bg-surface hover:border-ancient/30 p-5 transition-all duration-200"
-                  >
-                    <Compass size={22} className="text-ink/30 group-hover:text-ancient shrink-0 mt-1 transition-colors" aria-hidden="true" />
-                    <div className="min-w-0">
-                      <div className="flex items-center gap-2 flex-wrap">
-                        <span className="font-display text-base font-semibold text-ink group-hover:text-ancient transition-colors">{ex.name}</span>
-                        <span className="text-ink/35 text-xs font-mono">{ex.lifespan}</span>
-                        {ex.status === "full" ? (
-                          <span className="text-[10px] font-semibold uppercase tracking-wide rounded-full border border-medieval/30 bg-medieval-wash text-medieval px-2 py-0.5">Mapped voyages</span>
-                        ) : (
-                          <span className="text-[10px] font-semibold uppercase tracking-wide rounded-full border border-paper bg-surface text-ink/40 px-2 py-0.5">Coming soon</span>
-                        )}
-                      </div>
-                      <p className="text-ink/50 text-xs mt-1.5 leading-snug">{ex.tagline}</p>
-                    </div>
-                  </Link>
+                  <li key={ex.slug} className="border-b border-ink/10">
+                    <Link href={`/explorer/${ex.slug}`} className="group flex items-start gap-5 py-6">
+                      <Compass size={20} strokeWidth={1.5} className="text-ink/35 group-hover:text-accent shrink-0 mt-1.5 transition-colors" aria-hidden="true" />
+                      <span className="min-w-0">
+                        <span className="font-mono text-[11px] tracking-wider text-ink/45">
+                          {ex.lifespan} · {ex.status === "full" ? "Route mapped" : "Route coming soon"}
+                        </span>
+                        <span className="block mt-1 font-display text-2xl tracking-tight text-ink group-hover:text-accent transition-colors">{ex.name}</span>
+                        <span className="block mt-1.5 text-sm text-ink/55 leading-snug">{ex.tagline}</span>
+                      </span>
+                    </Link>
+                  </li>
                 ))}
-              </div>
+              </ul>
             </section>
           )}
 
-          {/* Related tour */}
-          {theme.tour && (
-            <Link
-              href={`/tour/${theme.tour.slug}`}
-              className="group flex items-center gap-3 rounded-xl border border-ancient/20 bg-ancient-wash/60 hover:bg-ancient-wash px-5 py-4 mb-12 transition-all duration-200"
-            >
-              <Ship size={18} className="text-ancient/70 shrink-0" aria-hidden="true" />
-              <span className="text-sm text-ink/70">
-                Prefer a guided walkthrough? Take the{" "}
-                <span className="font-semibold text-ancient group-hover:underline">{theme.tour.label}</span> tour.
-              </span>
-            </Link>
-          )}
-
-          {/* Related places */}
-          <section>
-            <div className="flex items-center gap-3 mb-5">
-              <h2 className="font-display text-xl font-semibold text-ink/70 italic">Related empires &amp; places</h2>
-              <div className="flex-1 h-px bg-paper" />
-            </div>
-            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2.5">
-              {places.map(({ name, entry }) => (
-                <Link
-                  key={entry!.slug}
-                  href={`/place/${entry!.slug}`}
-                  className="rounded-xl border border-paper bg-white/60 hover:bg-surface hover:border-ancient/30 px-4 py-3 text-sm text-ink/60 hover:text-ink transition-all duration-200"
-                >
-                  {name}
-                </Link>
-              ))}
-            </div>
-          </section>
-
-          {/* Related people */}
-          {people.length > 0 && (
-            <section className="mt-12">
-              <div className="flex items-center gap-3 mb-5">
-                <h2 className="font-display text-xl font-semibold text-ink/70 italic">Related people</h2>
-                <div className="flex-1 h-px bg-paper" />
-              </div>
-              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2.5">
-                {people.map(p => (
-                  <Link
-                    key={p.slug}
-                    href={`/person/${p.slug}`}
-                    className="rounded-xl border border-paper bg-white/60 hover:bg-surface hover:border-ancient/30 px-4 py-3 text-sm text-ink/60 hover:text-ink transition-all duration-200"
-                  >
-                    {p.name}
-                  </Link>
-                ))}
-              </div>
+          {index.map(g => (
+            <section key={g.title} className="mt-20 sm:mt-24">
+              <SectionRule count={g.items.length}>{g.title}</SectionRule>
+              <Gazetteer items={g.items} />
             </section>
-          )}
+          ))}
 
-          {/* Related events */}
-          {events.length > 0 && (
-            <section className="mt-12">
-              <div className="flex items-center gap-3 mb-5">
-                <h2 className="font-display text-xl font-semibold text-ink/70 italic">Related events</h2>
-                <div className="flex-1 h-px bg-paper" />
-              </div>
-              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2.5">
-                {events.map(e => (
-                  <Link
-                    key={e.slug}
-                    href={`/event/${e.slug}`}
-                    className="rounded-xl border border-paper bg-white/60 hover:bg-surface hover:border-ancient/30 px-4 py-3 text-sm text-ink/60 hover:text-ink transition-all duration-200"
-                  >
-                    {e.name}
-                  </Link>
-                ))}
-              </div>
-            </section>
-          )}
-
-          {/* Related topics / cultures */}
-          {cultures.length > 0 && (
-            <section className="mt-12">
-              <div className="flex items-center gap-3 mb-5">
-                <h2 className="font-display text-xl font-semibold text-ink/70 italic">Related topics</h2>
-                <div className="flex-1 h-px bg-paper" />
-              </div>
-              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2.5">
-                {cultures.map(c => (
-                  <Link
-                    key={c.slug}
-                    href={`/culture/${c.slug}`}
-                    className="rounded-xl border border-paper bg-white/60 hover:bg-surface hover:border-ancient/30 px-4 py-3 text-sm text-ink/60 hover:text-ink transition-all duration-200"
-                  >
-                    {c.name}
-                  </Link>
-                ))}
-              </div>
-            </section>
-          )}
-
-          {/* Other themes */}
-          <div className="border-t border-paper pt-8 mt-14">
-            <p className="text-ink/25 text-xs uppercase tracking-widest mb-4">Other themes</p>
-            <div className="flex flex-wrap gap-2.5">
-              {Object.entries(THEMES).filter(([s]) => s !== slug).map(([s, t]) => (
-                <Link
-                  key={s}
-                  href={`/theme/${s}`}
-                  className="flex items-center gap-2 rounded-xl border border-paper bg-white/60 hover:bg-surface hover:border-ancient/30 px-4 py-2.5 text-sm text-ink/50 hover:text-ink transition-all duration-200"
-                >
-                  <t.Icon size={13} className="text-ink/40 shrink-0" aria-hidden="true" />
-                  <span>{t.label}</span>
-                </Link>
-              ))}
-            </div>
+          <div className="mt-20 sm:mt-28">
+            <LinkRow
+              title="Other themes"
+              links={Object.entries(THEMES).filter(([s]) => s !== slug).map(([s, t]) => ({ href: `/theme/${s}`, label: t.label }))}
+            />
           </div>
         </div>
       </main>

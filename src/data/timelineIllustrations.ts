@@ -15,7 +15,7 @@ export const TIMELINE_ILLUSTRATIONS: Record<string, TimelineIllustration> = {
   Prehistoric: {
     era: "Prehistoric",
     title: "Lascaux cave art",
-    src: "/timeline-art/prehistoric-lascaux.jpg",
+    src: "/timeline-art/prehistoric-lascaux.webp",
     alt: "Prehistoric cave painting from Lascaux, showing animals in ochre and black pigment",
     author: "Prof saxx",
     source: "Wikimedia Commons",
@@ -27,7 +27,7 @@ export const TIMELINE_ILLUSTRATIONS: Record<string, TimelineIllustration> = {
   Ancient: {
     era: "Ancient",
     title: "Narmer Palette",
-    src: "/timeline-art/ancient-narmer.jpg",
+    src: "/timeline-art/ancient-narmer.webp",
     alt: "The Narmer Palette, an ancient Egyptian ceremonial palette carved in greywacke",
     author: "Unknown ancient Egyptian maker",
     source: "Wikimedia Commons",
@@ -39,7 +39,7 @@ export const TIMELINE_ILLUSTRATIONS: Record<string, TimelineIllustration> = {
   Classical: {
     era: "Classical",
     title: "Greek vase drawing",
-    src: "/timeline-art/classical-rhodes-vase.jpg",
+    src: "/timeline-art/classical-rhodes-vase.webp",
     alt: "A geometric vase from ancient Rhodes, reproduced in an early encyclopaedia illustration",
     author: "Unknown maker from ancient Rhodes",
     source: "Encyclopaedia Britannica (1911), via Wikimedia Commons",
@@ -51,7 +51,7 @@ export const TIMELINE_ILLUSTRATIONS: Record<string, TimelineIllustration> = {
   Medieval: {
     era: "Medieval",
     title: "Book of Kells Chi Rho page",
-    src: "/timeline-art/medieval-book-of-kells.jpg",
+    src: "/timeline-art/medieval-book-of-kells.webp",
     alt: "The Chi Rho page of the Book of Kells, densely ornamented with medieval manuscript decoration",
     author: "Unknown Irish or Scottish monks",
     source: "Book of Kells CD-ROM / Wikimedia Commons",
@@ -63,7 +63,7 @@ export const TIMELINE_ILLUSTRATIONS: Record<string, TimelineIllustration> = {
   "Early Modern": {
     era: "Early Modern",
     title: "Ortelius world map",
-    src: "/timeline-art/early-modern-ortelius.jpg",
+    src: "/timeline-art/early-modern-ortelius.webp",
     alt: "Abraham Ortelius's 1572 world map, dense with coastlines, labels, and cartographic ornament",
     author: "Abraham Ortelius",
     source: "Wikimedia Commons",
@@ -75,7 +75,7 @@ export const TIMELINE_ILLUSTRATIONS: Record<string, TimelineIllustration> = {
   Modern: {
     era: "Modern",
     title: "Industrial worker",
-    src: "/timeline-art/modern-industrial-worker.jpg",
+    src: "/timeline-art/modern-industrial-worker.webp",
     alt: "A modern industrial worker photographed in a workshop, with tools and machinery around him",
     author: "Carol M. Highsmith",
     source: "Library of Congress / Wikimedia Commons",

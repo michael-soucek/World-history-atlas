@@ -87,12 +87,12 @@ export default async function CulturePage({ params }: Props) {
         <main className="page-bg min-h-screen">
           <div className="max-w-3xl mx-auto px-6 py-20">
             <nav className="flex items-center gap-2 text-xs text-ink/35 mb-10" aria-label="Breadcrumb">
-              <Link href="/browse" className="hover:text-ancient/80 transition-colors">Browse</Link>
+              <Link href="/browse" className="hover:text-accent/80 transition-colors">Browse</Link>
               <span className="text-ink/20">/</span>
               <span className="text-ink/55">{displayName}</span>
             </nav>
-            <p className="text-ancient/70 text-xs font-semibold uppercase tracking-widest mb-3">Culture / Topic</p>
-            <h1 className="font-display text-5xl font-bold text-ink italic leading-tight mb-6">{displayName}</h1>
+            <p className="label text-accent mb-5">Culture / Topic</p>
+            <h1 className="font-display text-5xl sm:text-6xl font-light tracking-tight text-ink leading-tight mb-6">{displayName}</h1>
             <p className="text-ink/50 text-base leading-relaxed mb-8 max-w-prose">
               {summaryText ? (
                 summaryText
@@ -116,7 +116,7 @@ export default async function CulturePage({ params }: Props) {
               href={`https://en.wikipedia.org/wiki/Special:Search?search=${encodeURIComponent(displayName)}`}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 rounded-sm px-6 py-3 text-sm font-semibold bg-ancient text-white hover:bg-ancient/90 transition-colors"
+              className="inline-flex items-center gap-2 rounded-sm px-6 py-3 text-sm font-semibold bg-ink text-parchment hover:bg-accent transition-colors"
             >
               Search Wikipedia for &ldquo;{displayName}&rdquo; →
             </a>

@@ -1,200 +1,164 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
-import type { Map as MapLibreMap, GeoJSONSource, StyleSpecification } from "maplibre-gl";
+import { useCallback, useEffect, useState } from "react";
+import Link from "next/link";
+import { Pause, Play } from "lucide-react";
+import { usePrefersReducedMotion } from "@/hooks/usePrefersReducedMotion";
+import { HERO_MOMENTS } from "@/data/heroMoments";
 
-// ── Antique-tinted map style ──────────────────────────────────────────────
-// Matches the parchment/ocean palette from globals.css but tuned for a
-// muted atlas plate. Territory fill colors come from the snapshot GeoJSON.
-const PREVIEW_STYLE: StyleSpecification = {
-  version: 8,
-  glyphs: "https://demotiles.maplibre.org/font/{fontstack}/{range}.pbf",
-  sources: {
-    maplibre: {
-      type: "vector",
-      url: "https://demotiles.maplibre.org/tiles/tiles.json",
-      attribution: "",
-    },
-  },
-  layers: [
-    {
-      id: "ocean",
-      type: "background",
-      paint: { "background-color": "#c4d9ed" },
-    },
-    {
-      id: "land",
-      type: "fill",
-      source: "maplibre",
-      "source-layer": "countries",
-      paint: { "fill-color": "#d8c8a0" },
-    },
-    {
-      id: "coastline",
-      type: "line",
-      source: "maplibre",
-      "source-layer": "countries",
-      paint: {
-        "line-color": "#7a5520",
-        "line-width": 0.7,
-        "line-blur": 0.4,
-      },
-    },
-  ],
-};
+const INTERVAL_MS = 5200;
 
-// ── Config ────────────────────────────────────────────────────────────────
-
-const CYCLE_YEARS = [500, 1000, 1453, 1700, 1900] as const;
-const CYCLE_INTERVAL_MS = 4500;
-const FILL_OPACITY = 0.52;
-const LINE_OPACITY = 0.65;
-const TRANSITION_MS = 800;
-const EMPTY_FC = { type: "FeatureCollection" as const, features: [] as [] };
-
-type Slot = "a" | "b";
-
-function formatYear(y: number): string {
-  return y < 0 ? `${Math.abs(y)} BCE` : `${y} CE`;
+function yearParts(y: number): { num: string; era: string } {
+  return y < 0 ? { num: String(Math.abs(y)), era: "BCE" } : { num: String(y), era: "CE" };
 }
 
-// ── Component ─────────────────────────────────────────────────────────────
-
+/**
+ * The homepage hero: the world map stepping through eight moments in
+ * history. The maps are pre-rendered images, so the homepage never loads the
+ * map library; "Open this map" goes to the live atlas.
+ */
 export default function HeroMapPreview() {
-  const containerRef = useRef<HTMLDivElement>(null);
-  const mapRef = useRef<MapLibreMap | null>(null);
-  const activeSlotRef = useRef<Slot>("a");
-  const yearIndexRef = useRef(0);
-  const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
+  const [index, setIndex] = useState(0);
+  const [lastShown, setLastShown] = useState(0); // fallback while a new frame loads
+  const [seen, setSeen] = useState<Set<number>>(() => new Set([0]));
+  const [playing, setPlaying] = useState(true);
+  const reduced = usePrefersReducedMotion();
 
-  const [displayYear, setDisplayYear] = useState<number>(CYCLE_YEARS[0]);
-  const [yearFade, setYearFade] = useState(true);
+  // The frame on screen: the chosen one once its image has loaded,
+  // otherwise the previous one.
+  const shown = seen.has(index) ? index : lastShown;
 
+  // Autoplay: advance once the current frame is actually on screen.
   useEffect(() => {
-    if (!containerRef.current || mapRef.current) return;
+    if (!playing || reduced || shown !== index) return;
+    const t = setTimeout(() => {
+      setLastShown(index);
+      setIndex(i => (i + 1) % HERO_MOMENTS.length);
+    }, INTERVAL_MS);
+    return () => clearTimeout(t);
+  }, [index, shown, playing, reduced]);
 
-    let disposed = false;
-    const prefersReduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const pick = useCallback((i: number) => {
+    setPlaying(false);
+    setLastShown(shown);
+    setIndex(i);
+  }, [shown]);
 
-    import("maplibre-gl").then(({ Map }) => {
-      if (disposed || !containerRef.current) return;
-
-      const map = new Map({
-        container: containerRef.current!,
-        style: PREVIEW_STYLE,
-        center: [15, 15],
-        zoom: 1.35,
-        interactive: false,   // no pan, zoom, click, or keyboard
-        attributionControl: false,
-      });
-
-      mapRef.current = map;
-
-      map.on("load", () => {
-        if (disposed) return;
-
-        // Dual-slot GeoJSON sources (crossfade pattern)
-        for (const slot of ["a", "b"] as Slot[]) {
-          map.addSource(`hero-${slot}`, { type: "geojson", data: EMPTY_FC });
-        }
-
-        // Fill layers
-        for (const slot of ["a", "b"] as Slot[]) {
-          map.addLayer({
-            id: `hero-fill-${slot}`,
-            type: "fill",
-            source: `hero-${slot}`,
-            paint: {
-              "fill-color": ["get", "_color"],
-              "fill-opacity": 0,
-              "fill-opacity-transition": { duration: TRANSITION_MS, delay: 0 },
-            },
-          });
-        }
-
-        // Border lines
-        for (const slot of ["a", "b"] as Slot[]) {
-          map.addLayer({
-            id: `hero-line-${slot}`,
-            type: "line",
-            source: `hero-${slot}`,
-            paint: {
-              "line-color": ["get", "_color"],
-              "line-width": 0.8,
-              "line-opacity": 0,
-              "line-opacity-transition": { duration: TRANSITION_MS, delay: 0 },
-            },
-          });
-        }
-
-        const loadYear = async (year: number) => {
-          if (disposed) return;
-          const data = await fetch(`/api/snapshot/${year}`).then(r =>
-            r.ok ? r.json() : null
-          );
-          if (!data || disposed || !mapRef.current) return;
-          const m = mapRef.current;
-          const next: Slot = activeSlotRef.current === "a" ? "b" : "a";
-
-          (m.getSource(`hero-${next}`) as GeoJSONSource).setData(data);
-
-          m.setPaintProperty(`hero-fill-${next}`, "fill-opacity", FILL_OPACITY);
-          m.setPaintProperty(`hero-line-${next}`, "line-opacity", LINE_OPACITY);
-          m.setPaintProperty(`hero-fill-${activeSlotRef.current}`, "fill-opacity", 0);
-          m.setPaintProperty(`hero-line-${activeSlotRef.current}`, "line-opacity", 0);
-          activeSlotRef.current = next;
-
-          // Fade the year badge out → update → fade in
-          setYearFade(false);
-          setTimeout(() => {
-            setDisplayYear(year);
-            setYearFade(true);
-          }, 220);
-        };
-
-        // Load the first year immediately
-        loadYear(CYCLE_YEARS[0]);
-
-        if (!prefersReduced) {
-          timerRef.current = setInterval(() => {
-            yearIndexRef.current = (yearIndexRef.current + 1) % CYCLE_YEARS.length;
-            loadYear(CYCLE_YEARS[yearIndexRef.current]);
-          }, CYCLE_INTERVAL_MS);
-        }
-      });
-    });
-
-    return () => {
-      disposed = true;
-      if (timerRef.current) clearInterval(timerRef.current);
-      mapRef.current?.remove();
-      mapRef.current = null;
-    };
-  }, []);
+  const current = HERO_MOMENTS[shown];
+  const { num, era } = yearParts(current.year);
 
   return (
     <div className="absolute inset-0">
-      {/* MapLibre canvas */}
-      <div ref={containerRef} className="absolute inset-0" />
+      {/* Pre-rendered frames (scripts/build-hero-frames.mjs), crossfaded.
+          Only the current and next frames are requested. */}
+      <div className="absolute inset-0" aria-hidden="true">
+      {HERO_MOMENTS.map((m, i) => {
+        const wanted = i === shown || i === index || i === (index + 1) % HERO_MOMENTS.length || seen.has(i);
+        return (
+          <picture key={m.year} className={`absolute inset-0 transition-opacity duration-[900ms] ${i === shown ? "opacity-100" : "opacity-0"}`}>
+            {wanted && <source media="(max-width: 640px)" srcSet={`/hero/${m.year}-tall.webp`} />}
+            {wanted && (
+              // eslint-disable-next-line @next/next/no-img-element
+              <img
+                src={`/hero/${m.year}-wide.webp`}
+                alt=""
+                className="h-full w-full object-cover object-[60%_40%] sm:object-center"
+                fetchPriority={i === 0 ? "high" : "low"}
+                decoding="async"
+                onLoad={() => setSeen(prev => (prev.has(i) ? prev : new Set(prev).add(i)))}
+              />
+            )}
+          </picture>
+        );
+      })}
+      </div>
 
-      {/* Warm vignette to blend map edges into the plate border */}
+      {/* Shade the left side for the headline, and the bottom for the chronometer */}
       <div
         className="absolute inset-0 pointer-events-none"
         style={{
           background:
-            "radial-gradient(ellipse 130% 120% at 50% 50%, transparent 55%, rgba(216,200,160,0.30) 100%)",
+            "linear-gradient(90deg, rgba(11,20,36,0.94) 0%, rgba(11,20,36,0.72) 34%, rgba(11,20,36,0.08) 64%, rgba(11,20,36,0) 100%), linear-gradient(0deg, rgba(11,20,36,0.95) 0%, rgba(11,20,36,0) 34%)",
         }}
       />
+      <div className="absolute inset-0 graticule-night pointer-events-none opacity-70" aria-hidden="true" />
 
-      {/* Year badge — mirrors HeroYearTicker position but shows the actual map year */}
-      <div
-        className="absolute top-2.5 left-3 flex items-center gap-1.5 bg-parchment/85 rounded-sm px-2 py-1 border border-ancient/20 pointer-events-none z-10"
-        style={{ opacity: yearFade ? 1 : 0, transition: "opacity 0.22s ease" }}
-        aria-live="off"
-        aria-hidden="true"
-      >
-        <div className="w-1.5 h-1.5 rounded-full bg-ancient/60 animate-pulse" />
-        <span className="text-ancient/80 text-[11px] font-mono">{formatYear(displayYear)}</span>
+      {/* The year, very large */}
+      <div className="absolute right-4 sm:right-8 lg:right-12 bottom-[118px] sm:bottom-[132px] text-right pointer-events-none select-none">
+        <p className="label text-glow/80 mb-2 sm:mb-3">The world in</p>
+        <p
+          key={current.year}
+          className="font-display font-light text-parchment leading-[0.8] tracking-[-0.045em] tabular-nums animate-[year-in_0.7s_cubic-bezier(.2,.7,.2,1)_both]"
+          style={{ fontSize: "clamp(84px, 15vw, 232px)" }}
+          aria-live="polite"
+        >
+          {num}
+          <span className="text-[0.22em] tracking-normal italic text-glow ml-[0.12em] align-top">{era}</span>
+        </p>
+        <p
+          key={`c${current.year}`}
+          className="hidden sm:block mt-4 ml-auto max-w-sm text-sm text-parchment/60 leading-snug animate-[year-in_0.7s_0.08s_cubic-bezier(.2,.7,.2,1)_both]"
+        >
+          {current.caption}.{" "}
+          <Link href={`/map?year=${current.year}`} className="pointer-events-auto text-glow hover:text-parchment underline underline-offset-4 decoration-glow/40">
+            Open this map
+          </Link>
+        </p>
+      </div>
+
+      {/* Chronometer */}
+      <div className="absolute inset-x-0 bottom-0">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-6 sm:pb-8">
+          <div className="flex items-end gap-3 sm:gap-5">
+            <button
+              type="button"
+              onClick={() => setPlaying(p => !p)}
+              className="shrink-0 mb-[3px] w-8 h-8 grid place-items-center rounded-full border border-white/15 text-parchment/70 hover:text-parchment hover:border-glow/60 transition-colors"
+              aria-label={playing ? "Pause the map" : "Play the map"}
+            >
+              {playing && !reduced ? <Pause size={12} fill="currentColor" /> : <Play size={12} fill="currentColor" className="ml-px" />}
+            </button>
+            <ol className="flex-1 grid grid-cols-8 gap-1.5 sm:gap-3" aria-label="Moments in history">
+              {HERO_MOMENTS.map((m, i) => {
+                const p = yearParts(m.year);
+                const active = i === shown;
+                return (
+                  <li key={m.year}>
+                    <button
+                      type="button"
+                      onClick={() => pick(i)}
+                      aria-current={active ? "true" : undefined}
+                      className="group w-full text-left"
+                    >
+                      <span className="block h-px w-full bg-white/15 relative overflow-hidden">
+                        <span
+                          key={active && playing && !reduced ? `run-${shown}` : `still-${i}`}
+                          className={`absolute inset-y-0 left-0 bg-glow ${active ? "" : "w-0"}`}
+                          style={
+                            active
+                              ? playing && !reduced
+                                ? { animation: `chrono-fill ${INTERVAL_MS}ms linear both` }
+                                : { width: "100%" }
+                              : undefined
+                          }
+                        />
+                      </span>
+                      <span
+                        className={`block pt-2.5 font-mono text-[10px] sm:text-[11px] tracking-wider tabular-nums transition-colors ${
+                          active ? "text-parchment" : "text-parchment/40 group-hover:text-parchment/75"
+                        }`}
+                      >
+                        {p.era === "BCE" && <span className="sm:hidden">−</span>}
+                        {p.num}
+                        <span className="max-sm:hidden"> {p.era}</span>
+                      </span>
+                    </button>
+                  </li>
+                );
+              })}
+            </ol>
+          </div>
+        </div>
       </div>
     </div>
   );

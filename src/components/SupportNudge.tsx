@@ -67,7 +67,7 @@ export default function SupportNudge({ where, trigger }: SupportNudgeProps) {
   return (
     <aside
       aria-label="Support Borders of Time"
-      className="relative rounded-2xl border border-ancient/30 bg-ancient-wash p-5 pr-11"
+      className="relative rounded-md border border-accent/30 bg-accent-wash p-5 pr-11"
     >
       <button
         type="button"
@@ -81,7 +81,7 @@ export default function SupportNudge({ where, trigger }: SupportNudgeProps) {
       >
         <X size={16} aria-hidden="true" />
       </button>
-      <p className="font-display font-bold text-ink">
+      <p className="font-display font-medium text-ink">
         {trigger === "tour" ? "Enjoyed the tour?" : "Enjoying Borders of Time?"}
       </p>
       <p className="mt-1.5 text-sm text-ink/65 leading-relaxed">
@@ -96,7 +96,7 @@ export default function SupportNudge({ where, trigger }: SupportNudgeProps) {
           snooze(SNOOZE_AFTER_SUPPORT);
           track("support_click", { where });
         }}
-        className="mt-3 inline-flex items-center gap-2 rounded-xl px-4 py-2 text-sm font-semibold bg-ancient text-white hover:bg-ancient/90 transition-colors"
+        className="mt-3 inline-flex items-center gap-2 rounded-md px-4 py-2 text-sm font-semibold bg-ink text-parchment hover:bg-accent transition-colors"
       >
         <Coffee size={15} aria-hidden="true" />
         Support this project

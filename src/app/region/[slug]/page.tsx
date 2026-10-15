@@ -3,7 +3,8 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
-import HandwrittenTitle from "@/components/HandwrittenTitle";
+import PageIntro, { SectionRule } from "@/components/PageIntro";
+import Gazetteer, { LinkRow } from "@/components/Gazetteer";
 import { ReadAloudButton } from "@/components/ReadAloudButton";
 import { CROSSWALK } from "@/data/crosswalk";
 import { buildPageMetadata } from "@/lib/seo";
@@ -206,96 +207,42 @@ export default async function RegionPage({ params }: Props) {
     <>
       <SiteHeader />
       <main className="page-bg min-h-screen">
-        <div className="max-w-5xl mx-auto px-6 py-14">
-          {/* Breadcrumb */}
-          <nav className="flex items-center gap-2 text-xs text-ink/35 mb-10" aria-label="Breadcrumb">
-            <Link href="/browse" className="hover:text-ancient/80 transition-colors">Browse</Link>
-            <span className="text-ink/20">/</span>
-            <Link href="/browse#regions" className="hover:text-ancient/80 transition-colors">Regions</Link>
-            <span className="text-ink/20">/</span>
-            <span className="text-ink/55">{region.label}</span>
-          </nav>
-
-          {/* Title + CTA row */}
-          <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-6 mb-14">
-            <div>
-              <p className="text-ancient/70 text-xs font-semibold uppercase tracking-widest mb-3">Region</p>
-              <HandwrittenTitle className="font-display text-5xl font-bold text-ink italic leading-tight mb-3">{region.label}</HandwrittenTitle>
-              <div className="flex flex-col gap-4">
-                <ReadAloudButton text={region.description} />
-                <p className="text-ink/45 text-base max-w-xl leading-relaxed">{region.description}</p>
-              </div>
-            </div>
+        <PageIntro
+          crumbs={[{ href: "/browse", label: "Browse" }, { href: "/browse#regions", label: "Regions" }]}
+          label="Region"
+          title={region.label}
+          lede={region.description}
+          aside={
             <Link
               href={mapHref}
-              className="shrink-0 rounded-xl px-5 py-3 text-sm font-semibold bg-ancient text-white hover:bg-ancient/90 transition-colors"
+              className="group inline-flex items-center gap-3 h-12 pl-6 pr-5 rounded-md bg-ink text-parchment text-[15px] font-semibold hover:bg-accent transition-colors"
             >
-              View on map →
+              See it on the map
+              <span className="transition-transform group-hover:translate-x-0.5" aria-hidden="true">→</span>
             </Link>
-          </div>
+          }
+        />
 
-          {/* Place list */}
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14 sm:py-20">
+          <div className="mb-14"><ReadAloudButton text={region.description} /></div>
           <section>
-            <div className="flex items-center gap-3 mb-5">
-              <h2 className="font-display text-xl font-semibold text-ink/70 italic">Empires &amp; places</h2>
-              <div className="flex-1 h-px bg-paper" />
-            </div>
-            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2.5">
-              {region.placeNames.map(name => {
+            <SectionRule count={`${places.length} places`}>Empires &amp; states</SectionRule>
+            <Gazetteer
+              items={region.placeNames.map(name => {
                 const entry = CROSSWALK[name];
-                if (entry) {
-                  return (
-                    <Link
-                      key={entry.slug}
-                      href={`/place/${entry.slug}`}
-                      className="rounded-xl border border-paper bg-white/60 hover:bg-surface hover:border-ancient/30 px-4 py-3 text-sm text-ink/60 hover:text-ink transition-all duration-200"
-                    >
-                      {name}
-                    </Link>
-                  );
-                }
-                return (
-                  <div
-                    key={name}
-                    className="group relative rounded-xl border border-dashed border-paper bg-white/40 px-4 py-3 text-sm text-ink/30 select-none cursor-default"
-                  >
-                    {name}
-                    <span className="absolute -top-2 -right-1 bg-paper text-ink/40 text-[9px] font-bold px-1.5 py-0.5 rounded-full uppercase tracking-tighter opacity-0 group-hover:opacity-100 transition-opacity">
-                      Soon
-                    </span>
-                  </div>
-                );
+                return entry ? { href: `/place/${entry.slug}`, name } : { href: `#${name}`, name, pending: true };
               })}
-            </div>
+            />
           </section>
 
-          {/* Other regions */}
-          <div className="border-t border-paper pt-8 mt-14">
+          <div className="mt-20 sm:mt-28 space-y-12">
             {slug === "europe" && (
-              <>
-                <p className="text-ink/25 text-xs uppercase tracking-widest mb-4">Related themes</p>
-                <div className="mb-6 flex flex-wrap gap-2.5">
-                  <Link
-                    href="/theme/age-of-exploration"
-                    className="rounded-xl border border-paper bg-white/60 hover:bg-early-modern-wash hover:border-early-modern/30 px-4 py-2.5 text-sm text-ink/50 hover:text-ink transition-all duration-200"
-                  >
-                    Age of Exploration
-                  </Link>
-                </div>
-              </>
+              <LinkRow title="Related theme" links={[{ href: "/theme/age-of-exploration", label: "The Age of Exploration" }]} />
             )}
-            <p className="text-ink/25 text-xs uppercase tracking-widest mb-4">Other regions</p>
-            <div className="flex flex-wrap gap-2.5">
-              {Object.entries(REGIONS).filter(([s]) => s !== slug).map(([s, r]) => (
-                <Link
-                  key={s}
-                  href={`/region/${s}`}
-                  className="rounded-xl border border-paper bg-white/60 hover:bg-surface hover:border-ancient/30 px-4 py-2.5 text-sm text-ink/50 hover:text-ink transition-all duration-200"
-                >
-                  {r.label}
-                </Link>
-              ))}
-            </div>
+            <LinkRow
+              title="Other regions"
+              links={Object.entries(REGIONS).filter(([s]) => s !== slug).map(([s, r]) => ({ href: `/region/${s}`, label: r.label }))}
+            />
           </div>
         </div>
       </main>

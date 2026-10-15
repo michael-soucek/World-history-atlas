@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 
-export const DEFAULT_SOCIAL_IMAGE = "/timeline-art/modern-industrial-worker.jpg";
+export const DEFAULT_SOCIAL_IMAGE = "/og-image.jpg"; // 1200×630, built by scripts/build-brand-assets.mjs
 
 interface PageSeoArgs {
   title: string;
