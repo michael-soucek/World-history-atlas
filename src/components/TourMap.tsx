@@ -4,18 +4,58 @@ import "maplibre-gl/dist/maplibre-gl.css";
 import { useEffect, useRef, useState } from "react";
 import type { Map as MapLibreMap, GeoJSONSource } from "maplibre-gl";
 import { BASE_STYLE, FILL_OPACITY, TRANSITION_MS, EMPTY_FC } from "@/lib/mapBaseStyle";
-import type { TourMapState } from "@/data/tours";
+import type { TourMapState, TourMarker, TourRoute } from "@/data/tours";
 import { MAP } from "@/lib/palette";
+import { routeFeatures } from "@/lib/tourRoutes";
 
 type Slot = "a" | "b";
 type FC = { type: "FeatureCollection"; features: { properties?: Record<string, unknown> | null }[] };
 
+/** How long an arrow takes to draw itself across the map. */
+const DRAW_MS = 1800;
+
+/**
+ * An arrowhead pointing east, drawn once on a canvas. Added as an SDF image so
+ * each arrow can tint it with its own colour (icon-color).
+ */
+function arrowImage(size = 48) {
+  const canvas = document.createElement("canvas");
+  canvas.width = canvas.height = size;
+  const ctx = canvas.getContext("2d")!;
+  ctx.fillStyle = "#000";
+  ctx.beginPath();
+  ctx.moveTo(size * 0.92, size / 2);
+  ctx.lineTo(size * 0.12, size * 0.14);
+  ctx.lineTo(size * 0.32, size / 2);
+  ctx.lineTo(size * 0.12, size * 0.86);
+  ctx.closePath();
+  ctx.fill();
+  return ctx.getImageData(0, 0, size, size);
+}
+
 /**
  * The map inside a guided tour. Each step sets the year, camera and the
  * territory to highlight; the map crossfades borders and flies to the view.
- * Read-only apart from zooming, so the narration stays in charge.
+ * Steps can also draw arrows (migrations, raids, voyages…) that animate along
+ * their path, and labelled markers. With `trail`, earlier steps' arrows stay
+ * on the map, faded. Read-only apart from zooming, so the narration stays in charge.
  */
-export default function TourMap({ state }: { state: TourMapState }) {
+export default function TourMap({
+  state,
+  routes = [],
+  trail = [],
+  markers = [],
+  highlight = [],
+}: {
+  state: TourMapState;
+  /** Arrows for the current step; they draw themselves in. */
+  routes?: TourRoute[];
+  /** Arrows from earlier steps, shown faded. */
+  trail?: TourRoute[];
+  markers?: TourMarker[];
+  /** Territory names to highlight in this year's snapshot. */
+  highlight?: string[];
+}) {
   const containerRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<MapLibreMap | null>(null);
   const slotRef = useRef<Slot>("a");
@@ -24,6 +64,8 @@ export default function TourMap({ state }: { state: TourMapState }) {
   const [ready, setReady] = useState(false);
   // Tour cameras are set for a wide screen; pull back on narrow maps.
   const zoomShift = useRef(0);
+  // A stable string, so the effect below only reruns when the names change.
+  const highlightKey = highlight.join("|");
 
   useEffect(() => {
     if (!containerRef.current || mapRef.current) return;
@@ -60,6 +102,7 @@ export default function TourMap({ state }: { state: TourMapState }) {
         map.addSource("hl", { type: "geojson", data: EMPTY_FC });
         map.addLayer({ id: "hl-fill", type: "fill", source: "hl", paint: { "fill-color": MAP.highlight, "fill-opacity": 0.28 } });
         map.addLayer({ id: "hl-line", type: "line", source: "hl", paint: { "line-color": MAP.highlight, "line-width": 2.5 } });
+        // Arrow and marker layers are added after the territory labels (below), so they sit on top.
         for (const slot of ["a", "b"] as Slot[]) {
           map.addLayer({
             id: `l-${slot}`, type: "symbol", source: `l-${slot}`,
@@ -82,6 +125,7 @@ export default function TourMap({ state }: { state: TourMapState }) {
             },
           });
         }
+        addRouteLayers(map);
         setReady(true);
       });
     });
@@ -102,20 +146,21 @@ export default function TourMap({ state }: { state: TourMapState }) {
     map.flyTo({ center: [state.lng, state.lat], zoom: Math.max(state.zoom + zoomShift.current, 0.5), duration: 2200, essential: true, curve: 1.5 });
 
     (async () => {
-      let data = cacheRef.current.get(state.year);
+      const bordersYear = state.mapYear ?? state.year;
+      let data = cacheRef.current.get(bordersYear);
       if (!data) {
         const [borders, labels] = await Promise.all([
-          fetch(`/api/snapshot/${state.year}`).then(r => (r.ok ? r.json() : null)),
-          fetch(`/api/snapshot/${state.year}/labels`).then(r => (r.ok ? r.json() : null)),
+          fetch(`/api/snapshot/${bordersYear}`).then(r => (r.ok ? r.json() : null)),
+          fetch(`/api/snapshot/${bordersYear}/labels`).then(r => (r.ok ? r.json() : null)),
         ]);
         if (!borders) return;
         data = { borders, labels };
-        cacheRef.current.set(state.year, data);
+        cacheRef.current.set(bordersYear, data);
       }
       if (cancelled || !mapRef.current) return;
       const m = mapRef.current;
 
-      if (yearRef.current !== state.year) {
+      if (yearRef.current !== bordersYear) {
         const next: Slot = slotRef.current === "a" ? "b" : "a";
         (m.getSource(`t-${next}`) as GeoJSONSource).setData(data.borders as GeoJSON.FeatureCollection);
         (m.getSource(`l-${next}`) as GeoJSONSource).setData((data.labels ?? EMPTY_FC) as GeoJSON.FeatureCollection);
@@ -127,19 +172,146 @@ export default function TourMap({ state }: { state: TourMapState }) {
         m.setPaintProperty(`t-line-${prev}`, "line-opacity", 0);
         m.setPaintProperty(`l-${prev}`, "text-opacity", 0);
         slotRef.current = next;
-        yearRef.current = state.year;
+        yearRef.current = bordersYear;
       }
 
-      const hl = state.regionId
-        ? data.borders.features.filter(f => f.properties?.wikidataId === state.regionId)
-        : [];
+      const names = new Set(highlightKey ? highlightKey.split("|") : []);
+      const hl = data.borders.features.filter(
+        f =>
+          (state.regionId && f.properties?.wikidataId === state.regionId) ||
+          names.has(String(f.properties?.name ?? "")),
+      );
       (m.getSource("hl") as GeoJSONSource).setData({ type: "FeatureCollection", features: hl } as GeoJSON.FeatureCollection);
     })();
 
     return () => {
       cancelled = true;
     };
-  }, [ready, state.year, state.lat, state.lng, state.zoom, state.regionId]);
+  }, [ready, state.year, state.mapYear, state.lat, state.lng, state.zoom, state.regionId, highlightKey]);
+
+  // Arrows: earlier steps' arrows appear at once (faded); this step's arrows
+  // draw themselves from start to arrowhead. Visitors who ask for reduced
+  // motion get the finished arrows straight away.
+  const routesKey = JSON.stringify(routes);
+  const trailKey = JSON.stringify(trail);
+  const markersKey = JSON.stringify(markers);
+  useEffect(() => {
+    const map = mapRef.current;
+    if (!ready || !map) return;
+    const current: TourRoute[] = JSON.parse(routesKey);
+    const past: TourRoute[] = JSON.parse(trailKey);
+    const points: TourMarker[] = JSON.parse(markersKey);
+
+    (map.getSource("trail-lines") as GeoJSONSource).setData(routeFeatures(past).lines as GeoJSON.FeatureCollection);
+    (map.getSource("trail-heads") as GeoJSONSource).setData(routeFeatures(past).heads as GeoJSON.FeatureCollection);
+    (map.getSource("markers") as GeoJSONSource).setData({
+      type: "FeatureCollection",
+      features: points.map(m => ({ type: "Feature", properties: { label: m.label }, geometry: { type: "Point", coordinates: m.at } })),
+    });
+
+    const draw = (fraction: number) => {
+      const { lines, heads } = routeFeatures(current, fraction);
+      (map.getSource("route-lines") as GeoJSONSource).setData(lines as GeoJSON.FeatureCollection);
+      (map.getSource("route-heads") as GeoJSONSource).setData(heads as GeoJSON.FeatureCollection);
+    };
+    const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    if (reduceMotion || current.length === 0) {
+      draw(1);
+      return;
+    }
+    let frame = 0;
+    let start: number | null = null;
+    // Start drawing as the camera settles, so the arrow isn't half-drawn off screen.
+    const delay = setTimeout(() => {
+      const tick = (now: number) => {
+        start ??= now;
+        const t = Math.min((now - start) / DRAW_MS, 1);
+        draw(1 - Math.pow(1 - t, 3)); // ease out
+        if (t < 1) frame = requestAnimationFrame(tick);
+      };
+      frame = requestAnimationFrame(tick);
+    }, 900);
+    draw(0);
+    return () => {
+      clearTimeout(delay);
+      cancelAnimationFrame(frame);
+    };
+  }, [ready, routesKey, trailKey, markersKey]);
 
   return <div ref={containerRef} className="absolute inset-0" aria-label="Map for this step of the tour" />;
+}
+
+/** Sources and layers for arrows and markers, drawn above everything else. */
+function addRouteLayers(map: MapLibreMap) {
+  map.addImage("tour-arrow", arrowImage(), { sdf: true });
+  for (const id of ["trail-lines", "trail-heads", "route-lines", "route-heads", "markers"]) {
+    map.addSource(id, { type: "geojson", data: EMPTY_FC });
+  }
+
+  // Earlier steps: thin and faded.
+  map.addLayer({
+    id: "trail-line", type: "line", source: "trail-lines",
+    layout: { "line-cap": "round", "line-join": "round" },
+    paint: { "line-color": ["get", "color"], "line-width": 2, "line-opacity": 0.3 },
+  });
+  map.addLayer({
+    id: "trail-head", type: "symbol", source: "trail-heads",
+    layout: { "icon-image": "tour-arrow", "icon-size": 0.4, "icon-rotate": ["get", "angle"], "icon-rotation-alignment": "map", "icon-allow-overlap": true, "icon-ignore-placement": true },
+    paint: { "icon-color": ["get", "color"], "icon-opacity": 0.35 },
+  });
+
+  // This step: a pale halo so arrows read over any territory colour, then the line.
+  map.addLayer({
+    id: "route-halo", type: "line", source: "route-lines",
+    layout: { "line-cap": "round", "line-join": "round" },
+    paint: { "line-color": MAP.labelHalo, "line-width": 7 },
+  });
+  map.addLayer({
+    id: "route-line", type: "line", source: "route-lines", filter: ["!", ["get", "dashed"]],
+    layout: { "line-cap": "round", "line-join": "round" },
+    paint: { "line-color": ["get", "color"], "line-width": 3.4 },
+  });
+  map.addLayer({
+    id: "route-line-dashed", type: "line", source: "route-lines", filter: ["get", "dashed"],
+    layout: { "line-join": "round" },
+    paint: { "line-color": ["get", "color"], "line-width": 3.2, "line-dasharray": [2, 1.4] },
+  });
+  // Small chevrons along each line show the direction of travel.
+  map.addLayer({
+    id: "route-chevrons", type: "symbol", source: "route-lines",
+    layout: {
+      "symbol-placement": "line", "symbol-spacing": 110,
+      "icon-image": "tour-arrow", "icon-size": 0.32, "icon-rotation-alignment": "map",
+      "icon-allow-overlap": true, "icon-ignore-placement": true,
+    },
+    paint: { "icon-color": MAP.labelHalo },
+  });
+  map.addLayer({
+    id: "route-head", type: "symbol", source: "route-heads",
+    layout: { "icon-image": "tour-arrow", "icon-size": 0.75, "icon-rotate": ["get", "angle"], "icon-rotation-alignment": "map", "icon-allow-overlap": true, "icon-ignore-placement": true },
+    paint: { "icon-color": ["get", "color"], "icon-halo-color": MAP.labelHalo, "icon-halo-width": 1.5 },
+  });
+  map.addLayer({
+    id: "route-label", type: "symbol", source: "route-lines",
+    layout: {
+      "symbol-placement": "line-center", "text-field": ["get", "label"],
+      "text-font": ["Open Sans Regular", "Arial Unicode MS Regular"], "text-size": 12.5,
+      "text-offset": [0, -1.1], "text-keep-upright": true, "text-max-angle": 40,
+    },
+    paint: { "text-color": ["get", "color"], "text-halo-color": MAP.labelHalo, "text-halo-width": 1.6 },
+  });
+
+  // Markers: battles, cities, landings.
+  map.addLayer({
+    id: "marker-dot", type: "circle", source: "markers",
+    paint: { "circle-radius": 5, "circle-color": MAP.label, "circle-stroke-color": MAP.labelHalo, "circle-stroke-width": 2 },
+  });
+  map.addLayer({
+    id: "marker-label", type: "symbol", source: "markers",
+    layout: {
+      "text-field": ["get", "label"], "text-font": ["Open Sans Regular", "Arial Unicode MS Regular"],
+      "text-size": 12, "text-anchor": "top", "text-offset": [0, 0.7], "text-max-width": 10,
+    },
+    paint: { "text-color": MAP.label, "text-halo-color": MAP.labelHalo, "text-halo-width": 1.6 },
+  });
 }

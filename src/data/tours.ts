@@ -1,11 +1,49 @@
 import type { EntityType } from "@/types";
+import { MOVEMENT_TOURS } from "@/data/movementTours";
 
 export interface TourMapState {
+  /** The year shown on the map, and the borders drawn unless mapYear says otherwise. */
   year: number;
+  /**
+   * Draw this year's borders instead. For when the nearest earlier snapshot
+   * is misleading: e.g. the 900 data still places the Magyars in Ukraine, so
+   * stops from 900 to 955 draw the 1000 borders, which match the story.
+   */
+  mapYear?: number;
   lat: number;
   lng: number;
   zoom: number;
   regionId?: string; // Wikidata Q-ID to highlight
+}
+
+/**
+ * What an arrow on the tour map stands for. Each kind has its own colour and
+ * line style (see ROUTE_STYLE in src/lib/tourRoutes.ts), and the legend
+ * beside the narration explains them.
+ */
+export type RouteKind =
+  | "migration" // a people moving and resettling
+  | "raid" // armed expeditions that came back
+  | "conquest" // armies taking and holding land
+  | "voyage" // journeys by sea
+  | "spread" // ideas, inventions or movements spreading
+  | "plague" // the spread of a disease
+  | "retreat"; // an army or people pulling back
+
+/** An arrow drawn on the map for one tour stop. */
+export interface TourRoute {
+  /** Shown in the legend and along the line, e.g. "Pecheneg attack, 895". */
+  label: string;
+  kind: RouteKind;
+  /** Waypoints as [longitude, latitude], from start to arrowhead. Drawn as a smooth curve. */
+  path: [number, number][];
+}
+
+/** A labelled point on the map: a battle, city or settlement. */
+export interface TourMarker {
+  label: string;
+  /** [longitude, latitude] */
+  at: [number, number];
 }
 
 export interface TourStep {
@@ -15,6 +53,16 @@ export interface TourStep {
   imageUrl?: string;
   imageCaption?: string;
   mapState: TourMapState;
+  /** Arrows for this stop: migrations, raids, voyages, spreading ideas. */
+  routes?: TourRoute[];
+  /** Labelled points for this stop. */
+  markers?: TourMarker[];
+  /**
+   * Territories to highlight, by their exact name in the map snapshot for
+   * this year (e.g. "Magyars", "Khanate of the Golden Horde"). Safer than
+   * regionId, which some snapshot shapes lack or have wrong.
+   */
+  highlight?: string[];
 }
 
 export interface Tour {
@@ -27,6 +75,8 @@ export interface Tour {
   entityType?: EntityType;
   /** Cover image (Wikimedia Commons) */
   coverImageUrl?: string;
+  /** Keep earlier stops' arrows on the map, faded, so a long journey builds up. */
+  trail?: boolean;
   steps: TourStep[];
 }
 
@@ -67,40 +117,6 @@ export const TOURS: Tour[] = [
         title: "Byzantium Endures",
         text: "What we call the Byzantine Empire was simply the Eastern Roman Empire — it never called itself anything else. Under Justinian (527–565 CE), it briefly reconquered North Africa and Italy. But the pressures of the Arab conquests and the Seljuks slowly reduced it to a rump state around Constantinople.",
         mapState: { year: 600, lat: 40, lng: 35, zoom: 4, regionId: "Q12544" },
-      },
-    ],
-  },
-  {
-    slug: "mongol-world-conquest",
-    title: "The Mongol World Conquest",
-    description: "How a nomadic confederation from the Mongolian steppe built the largest contiguous land empire in history in under 80 years.",
-    duration: 6,
-    difficulty: "standard",
-    steps: [
-      {
-        title: "Before Genghis Khan",
-        text: "In 1100 CE, the Mongolian steppe was divided among dozens of warring tribes — Mongols, Tatars, Merkits, Naimans. No single power united them. To the south, the Jin dynasty controlled northern China. Central Asia was divided among the Khwarazmian Empire and other powers.",
-        mapState: { year: 1100, lat: 48, lng: 105, zoom: 3 },
-      },
-      {
-        title: "Unification Under Temüjin",
-        text: "By 1206, Temüjin — born into a minor clan, enslaved as a child — had unified all the Mongolian tribes and been proclaimed Genghis Khan ('Universal Ruler'). His innovations: meritocracy over tribal hierarchy, and a cavalry doctrine of terrifying speed and precision.",
-        mapState: { year: 1200, lat: 48, lng: 105, zoom: 3, regionId: "Q12557" },
-      },
-      {
-        title: "The Conquest of Northern China",
-        text: "The Mongols shattered the Jin dynasty over a series of campaigns, sacking Zhongdu (modern Beijing) in 1215. Their siege technology — learned from Chinese engineers — let them crack fortified cities that nomads had always found impenetrable.",
-        mapState: { year: 1200, lat: 38, lng: 112, zoom: 4, regionId: "Q12557" },
-      },
-      {
-        title: "The Destruction of the Abbasid Caliphate",
-        text: "In 1258, Hulagu Khan's army sacked Baghdad — then the largest city in the world. The Abbasid Caliph was executed. The 'Abbasid Caliphate's 500-year reign ended in a week. It was one of the great cultural catastrophes of the medieval world.",
-        mapState: { year: 1279, lat: 33, lng: 45, zoom: 5 },
-      },
-      {
-        title: "The Empire at Its Peak",
-        text: "At its peak in 1279, the Mongol Empire spanned from Poland to Korea — some 24 million square kilometers. It was the largest contiguous land empire in history. But it had also begun to fragment into four khanates: the Yuan, the Ilkhanate, the Chagatai, and the Golden Horde.",
-        mapState: { year: 1279, lat: 45, lng: 70, zoom: 2.5, regionId: "Q7313" },
       },
     ],
   },
@@ -648,6 +664,9 @@ export const TOURS: Tour[] = [
 ];
 
 /** Look up a tour by slug. */
+// Tours with migration and campaign arrows live in movementTours.ts.
+TOURS.push(...MOVEMENT_TOURS);
+
 export function getTourBySlug(slug: string): Tour | undefined {
   return TOURS.find(t => t.slug === slug);
 }

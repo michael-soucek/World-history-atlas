@@ -6,7 +6,8 @@ import dynamic from "next/dynamic";
 import { ArrowLeft, ArrowRight, Pause, Play, Maximize2 } from "lucide-react";
 import { ReadAloudButton } from "@/components/ReadAloudButton";
 import SupportNudge from "@/components/SupportNudge";
-import type { Tour } from "@/data/tours";
+import type { Tour, TourRoute } from "@/data/tours";
+import { ROUTE_STYLE } from "@/lib/tourRoutes";
 
 // MapLibre must never be imported on the server.
 const TourMap = dynamic(() => import("./TourMap"), {
@@ -61,6 +62,8 @@ export default function TourPlayer({ tour }: TourPlayerProps) {
   };
 
   const ms = current.mapState;
+  // Earlier stops' arrows stay on the map (faded) for tours that trace a long journey.
+  const trail = tour.trail ? tour.steps.slice(0, step).flatMap(s => s.routes ?? []) : [];
   const mapHref = `/map?year=${ms.year}&lat=${ms.lat}&lng=${ms.lng}&z=${ms.zoom}${ms.regionId ? `&region=${ms.regionId}` : ""}`;
   const y = fmt(ms.year);
 
@@ -68,7 +71,7 @@ export default function TourPlayer({ tour }: TourPlayerProps) {
     <div className="lg:grid lg:grid-cols-[minmax(0,1fr)_440px] xl:grid-cols-[minmax(0,1fr)_500px]">
       {/* ── The map ── */}
       <div className="relative h-[46svh] min-h-[300px] lg:h-[calc(100svh-4rem)] lg:sticky lg:top-16 bg-[#cdd9e5] overflow-hidden">
-        <TourMap state={ms} />
+        <TourMap state={ms} routes={current.routes} trail={trail} markers={current.markers} highlight={current.highlight} />
         <div className="absolute left-4 sm:left-6 bottom-4 sm:bottom-6 pointer-events-none select-none">
           <p
             key={ms.year}
@@ -128,6 +131,7 @@ export default function TourPlayer({ tour }: TourPlayerProps) {
             </p>
             <h2 className="mt-2 font-display text-3xl leading-tight tracking-tight text-ink">{current.title}</h2>
             <p className="mt-4 font-text text-[18px] leading-[1.7] text-ink/85">{current.text}</p>
+            {current.routes?.length ? <RouteLegend routes={current.routes} /> : null}
           </article>
 
           {/* Controls */}
@@ -190,6 +194,32 @@ export default function TourPlayer({ tour }: TourPlayerProps) {
           </ol>
         </div>
       </div>
+    </div>
+  );
+}
+
+/** What each arrow on the map means, for the current stop. */
+function RouteLegend({ routes }: { routes: TourRoute[] }) {
+  return (
+    <div className="mt-6 border-t border-ink/10 pt-4">
+      <p className="label text-ink/40">On the map</p>
+      <ul className="mt-2.5 space-y-2">
+        {routes.map(route => {
+          const style = ROUTE_STYLE[route.kind];
+          return (
+            <li key={route.label} className="flex items-center gap-3 text-[14px] leading-snug text-ink/75">
+              <svg width="34" height="10" viewBox="0 0 34 10" aria-hidden="true" className="shrink-0">
+                <line x1="1" y1="5" x2="25" y2="5" stroke={style.color} strokeWidth="2.6" strokeDasharray={style.dashed ? "5 3.5" : undefined} />
+                <path d="M33 5 L24 0.8 L26.5 5 L24 9.2 Z" fill={style.color} />
+              </svg>
+              <span>
+                {route.label}
+                <span className="text-ink/40"> · {style.name}</span>
+              </span>
+            </li>
+          );
+        })}
+      </ul>
     </div>
   );
 }
