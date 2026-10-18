@@ -21,23 +21,23 @@ export const MOVEMENT_TOURS: Tour[] = [
     steps: [
       {
         title: "Cousins in the Forest",
-        text: "Hungarian is not related to the languages around it. Its closest relatives are Khanty and Mansi, spoken today by a few thousand people along the Ob River in western Siberia. Linguists think the ancestors of all three lived around the Ural Mountains in the first millennium BCE. The forebears of the Hungarians moved south, out of the forest and onto the open steppe, and became horse-riding herders.",
-        mapState: { year: -1000, lat: 56, lng: 64, zoom: 3.6 },
+        text: "Hungarian is not related to the languages around it. Its closest relatives are Khanty and Mansi, spoken today by a few thousand people along the Ob River in western Siberia. There are no written records from this time, so dates are rough, based on language and archaeology. Sometime in the first millennium BCE, often put at about 1000–500 BCE, the ancestors of the Hungarians separated from their Ob-Ugric relatives. They moved south from the forest into the forest-steppe east of the Ural Mountains, and took up horse-breeding. The open steppe further west came much later.",
+        mapState: { year: -500, lat: 56, lng: 64, zoom: 3.6 },
         highlight: ["Finno-Ugric taiga hunter-gatherers"],
         markers: [
           { label: "Ob River: Khanty and Mansi, Hungarian's closest relatives", at: [68.5, 61.5] },
           { label: "Ural Mountains", at: [59.5, 57] },
         ],
         routes: [
-          { label: "Ugric peoples move south onto the steppe", kind: "migration", path: [[66, 58.5], [63, 56], [59, 54]] },
+          { label: "South into the forest-steppe, c. 1000–500 BCE", kind: "migration", path: [[67, 59], [66, 56.5], [63.5, 54.8]] },
         ],
       },
       {
         title: "Life on the Steppe",
-        text: "Many historians place the early Magyars, by the middle of the first millennium CE, on the steppe west of the southern Urals, in what is now Bashkortostan. Medieval writers later called this area Magna Hungaria, 'Greater Hungary'. In 1235 a Hungarian friar, Julian, travelled east looking for it, and found people near the Volga who still spoke Hungarian. The Mongols destroyed them a few years later.",
+        text: "Over the following centuries the early Magyars crossed the Urals westward. Many historians place them, by the middle of the first millennium CE, on the steppe west of the southern Urals, in what is now Bashkortostan. Medieval writers later called this area Magna Hungaria, 'Greater Hungary'. In 1235 a Hungarian friar, Julian, travelled east looking for it, and found people near the Volga who still spoke Hungarian. The Mongols destroyed them a few years later.",
         mapState: { year: 600, lat: 53, lng: 54, zoom: 4 },
         markers: [{ label: "Magna Hungaria: Friar Julian found Hungarian speakers here in 1235", at: [55.5, 54] }],
-        routes: [{ label: "Into the steppe west of the Urals", kind: "migration", path: [[60, 55], [57.5, 54.5], [55.5, 54]] }],
+        routes: [{ label: "West across the Urals onto the steppe", kind: "migration", path: [[63.5, 54.8], [60, 55], [57.5, 54.5], [55.5, 54]] }],
       },
       {
         title: "Turks, Bulgars and Khazars",
