@@ -79,7 +79,7 @@ export const MOVEMENT_TOURS: Tour[] = [
         text: "Hungarians call it the honfoglalás, the 'taking of the homeland'. Over the next few years the Magyars took the Carpathian Basin from the remnants of the Avars, Slavs, the Bulgarians and Great Moravia, which collapsed around 906. They mixed with the people already living there, and the plain became the centre of Hungary, as it still is.",
         mapState: { year: 900, mapYear: 1000, lat: 47, lng: 20, zoom: 5.2 },
         highlight: ["Magyars"],
-        markers: [{ label: "Pressburg (Bratislava): Bavarian army destroyed, 907", at: [17.1, 48.15] }],
+        markers: [{ label: "Pressburg (Bratislava): Bavarian army destroyed, 907", at: [17.1, 48.15], kind: "battle" }],
         routes: [
           { label: "Spreading across the Carpathian Basin, 895–902", kind: "migration", path: [[21.5, 47.9], [20, 47.4], [18.7, 47.2], [17.5, 47.6]] },
           { label: "South into the Banat", kind: "migration", path: [[21.2, 47.6], [21, 46.6], [20.9, 45.8]] },
@@ -91,8 +91,8 @@ export const MOVEMENT_TOURS: Tour[] = [
         mapState: { year: 910, mapYear: 1000, lat: 47, lng: 13, zoom: 4.4 },
         highlight: ["Magyars"],
         markers: [
-          { label: "Brenta, 899", at: [12, 45.4] },
-          { label: "Augsburg, 910", at: [10.9, 48.37] },
+          { label: "Brenta, 899", at: [12, 45.4], kind: "battle" },
+          { label: "Augsburg, 910", at: [10.9, 48.37], kind: "battle" },
         ],
         routes: [
           { label: "Into Italy, 899", kind: "raid", path: [[18, 46.8], [15, 46], [12.2, 45.4], [9.2, 45.2]] },
@@ -123,8 +123,8 @@ export const MOVEMENT_TOURS: Tour[] = [
         mapState: { year: 955, mapYear: 1000, lat: 47.6, lng: 13, zoom: 5 },
         highlight: ["Magyars"],
         markers: [
-          { label: "Riade, 933", at: [11.9, 51.3] },
-          { label: "Lechfeld, 955", at: [10.92, 48.3] },
+          { label: "Riade, 933", at: [11.9, 51.3], kind: "battle" },
+          { label: "Lechfeld, 955", at: [10.92, 48.3], kind: "battle" },
         ],
         routes: [
           { label: "The last great raid, 955", kind: "raid", path: [[17.5, 47.8], [14, 48.1], [11, 48.3]] },
@@ -185,7 +185,7 @@ export const MOVEMENT_TOURS: Tour[] = [
         title: "A Reconnaissance Around the Caspian",
         text: "Chasing the fleeing shah, the generals Jebe and Subutai rode on in one of history's great cavalry raids. They went round the south of the Caspian Sea, through Georgia and over the Caucasus, onto the steppe north of the Black Sea. In 1223, at the Kalka River, they destroyed an army of Rus' princes and Cumans. Then they rode home. They had seen what lay to the west.",
         mapState: { year: 1223, lat: 44, lng: 48, zoom: 3.8 },
-        markers: [{ label: "Kalka River, 1223", at: [37.6, 47.4] }],
+        markers: [{ label: "Kalka River, 1223", at: [37.6, 47.4], kind: "battle" }],
         routes: [
           { label: "Jebe and Subutai's ride, 1220–1223", kind: "raid", path: [[61, 37], [54, 36.5], [48, 38.5], [44.8, 41.7], [45, 44.5], [40, 46.5], [37.6, 47.4]] },
           { label: "Return east along the Volga", kind: "raid", path: [[38, 47.8], [45, 49], [50, 52], [56, 52], [64, 49]] },
@@ -209,8 +209,8 @@ export const MOVEMENT_TOURS: Tour[] = [
         text: "In spring 1241 the Mongols struck Central Europe in two prongs. The northern army swept through Poland and on 9 April destroyed a Polish and German army at Legnica. Two days later the main army annihilated the Hungarian army of King Béla IV at Mohi, on the Sajó River. Much of Hungary was devastated; historians estimate it lost a sixth or more of its people.",
         mapState: { year: 1241, lat: 49.5, lng: 20, zoom: 4.6 },
         markers: [
-          { label: "Legnica, 9 April 1241", at: [16.16, 51.21] },
-          { label: "Mohi, 11 April 1241", at: [20.95, 47.98] },
+          { label: "Legnica, 9 April 1241", at: [16.16, 51.21], kind: "battle" },
+          { label: "Mohi, 11 April 1241", at: [20.95, 47.98], kind: "battle" },
         ],
         routes: [
           { label: "Northern army through Poland", kind: "conquest", path: [[27, 51.5], [22.6, 51.2], [19.9, 50.06], [16.2, 51.2]] },
@@ -246,7 +246,7 @@ export const MOVEMENT_TOURS: Tour[] = [
         mapState: { year: 1260, lat: 34, lng: 41, zoom: 4.2 },
         markers: [
           { label: "Baghdad, 1258", at: [44.36, 33.31] },
-          { label: "Ain Jalut, 1260: the Mongols stopped", at: [35.35, 32.55] },
+          { label: "Ain Jalut, 1260: the Mongols stopped", at: [35.35, 32.55], kind: "battle" },
         ],
         routes: [
           { label: "Hulagu's campaign, 1256–1260", kind: "conquest", path: [[53, 36], [48, 34.5], [44.4, 33.3], [40, 36], [37.2, 36.2], [36.3, 33.5], [35.4, 32.6]] },
@@ -259,7 +259,7 @@ export const MOVEMENT_TOURS: Tour[] = [
         highlight: ["Khanate of the Golden Horde", "Ilkhanate", "Chagatai Khanate"],
         markers: [
           { label: "Hangzhou, 1276", at: [120.15, 30.27] },
-          { label: "Hakata Bay: invasions of Japan fail, 1274 and 1281", at: [130.4, 33.6] },
+          { label: "Hakata Bay: invasions of Japan fail, 1274 and 1281", at: [130.4, 33.6], kind: "battle" },
         ],
         routes: [
           { label: "Conquest of Song China, 1268–1279", kind: "conquest", path: [[112, 36], [114, 32], [118, 30.5], [120.1, 30.3]] },
@@ -366,7 +366,7 @@ export const MOVEMENT_TOURS: Tour[] = [
         mapState: { year: 1066, lat: 47, lng: 2, zoom: 3.9 },
         markers: [
           { label: "Rouen: Rollo's Normandy, 911", at: [1.1, 49.44] },
-          { label: "Hastings, 1066", at: [0.49, 50.91] },
+          { label: "Hastings, 1066", at: [0.49, 50.91], kind: "battle" },
           { label: "Sicily: Norman conquest from 1061", at: [14, 37.6] },
         ],
         routes: [
@@ -405,7 +405,7 @@ export const MOVEMENT_TOURS: Tour[] = [
         text: "By the 1000s, the Scandinavian kingdoms were becoming Christian monarchies like the rest of Europe. Harald Hardrada, King of Norway and a former commander of the Byzantine emperor's Varangian Guard, died invading England at Stamford Bridge in 1066. That battle is often taken as the end of the Viking Age. The Greenland settlements survived until the 1400s, then vanished.",
         mapState: { year: 1100, lat: 60, lng: 5, zoom: 3.4 },
         highlight: ["Norway", "Denmark", "Sweden"],
-        markers: [{ label: "Stamford Bridge, 1066", at: [-0.91, 53.99] }],
+        markers: [{ label: "Stamford Bridge, 1066", at: [-0.91, 53.99], kind: "battle" }],
         routes: [{ label: "Harald Hardrada's invasion, 1066", kind: "conquest", path: [[5.3, 60.4], [0, 58], [-0.5, 54.5], [-0.9, 54]] }],
       },
     ],
@@ -428,7 +428,7 @@ export const MOVEMENT_TOURS: Tour[] = [
         highlight: ["Umayyad Caliphate"],
         markers: [
           { label: "Gibraltar, 711", at: [-5.35, 36.14] },
-          { label: "Guadalete: Roderic killed", at: [-5.8, 36.6] },
+          { label: "Guadalete: Roderic killed", at: [-5.8, 36.6], kind: "battle" },
           { label: "Toledo, the Visigothic capital", at: [-4.02, 39.86] },
         ],
         routes: [
@@ -441,8 +441,8 @@ export const MOVEMENT_TOURS: Tour[] = [
         text: "One corner held out. In the mountains of Asturias, a Visigothic noble named Pelayo beat a small Muslim force at Covadonga around 722. Later Christian chroniclers made it the start of the Reconquista, the 'reconquest'. Meanwhile, Muslim armies crossed the Pyrenees into France, until Charles Martel's Franks stopped them between Tours and Poitiers in 732.",
         mapState: { year: 732, lat: 42.5, lng: -2, zoom: 4.6 },
         markers: [
-          { label: "Covadonga, c. 722", at: [-5.06, 43.31] },
-          { label: "Tours–Poitiers, 732", at: [0.4, 46.75] },
+          { label: "Covadonga, c. 722", at: [-5.06, 43.31], kind: "battle" },
+          { label: "Tours–Poitiers, 732", at: [0.4, 46.75], kind: "battle" },
         ],
         routes: [
           { label: "Raid into France, stopped in 732", kind: "raid", path: [[-1.6, 42.8], [-1.4, 43.6], [-0.5, 44.8], [0.4, 46.6]] },
@@ -476,7 +476,7 @@ export const MOVEMENT_TOURS: Tour[] = [
         mapState: { year: 1147, lat: 38.5, lng: -5, zoom: 4.6 },
         highlight: ["Almoravid dynasty"],
         markers: [
-          { label: "Sagrajas, 1086", at: [-6.9, 38.9] },
+          { label: "Sagrajas, 1086", at: [-6.9, 38.9], kind: "battle" },
           { label: "Zaragoza, taken 1118", at: [-0.88, 41.65] },
           { label: "Lisbon, taken 1147", at: [-9.14, 38.72] },
         ],
@@ -491,7 +491,7 @@ export const MOVEMENT_TOURS: Tour[] = [
         mapState: { year: 1248, lat: 38.7, lng: -4, zoom: 5 },
         highlight: ["Castilla", "Portugal", "Aragón"],
         markers: [
-          { label: "Las Navas de Tolosa, 1212", at: [-3.58, 38.28] },
+          { label: "Las Navas de Tolosa, 1212", at: [-3.58, 38.28], kind: "battle" },
           { label: "Córdoba, 1236", at: [-4.78, 37.88] },
           { label: "Valencia, 1238", at: [-0.38, 39.47] },
           { label: "Seville, 1248", at: [-5.98, 37.39] },

@@ -24,7 +24,11 @@ const AXIS_START = -3000;
 const AXIS_END = 2025;
 const TICKS = [-3000, -2000, -1000, 1, 1000, 2000];
 const pct = (y: number) => ((Math.min(Math.max(y, AXIS_START), AXIS_END) - AXIS_START) / (AXIS_END - AXIS_START)) * 100;
-const fmt = (y: number) => (y < 0 ? `${Math.abs(y)} BCE` : `${y} CE`);
+const fmt = (y: number) => (y < 0 ? `${Math.abs(y).toLocaleString("en-US")} BCE` : `${y} CE`);
+const startYear = (tour: (typeof TOURS)[number]) => Math.min(...tour.steps.map(s => s.mapState.year));
+
+// Listed in the order history happened, earliest start first.
+const TOURS_BY_DATE = [...TOURS].sort((a, b) => startYear(a) - startYear(b));
 
 export default function TourListPage() {
   const totalMinutes = TOURS.reduce((n, t) => n + t.duration, 0);
@@ -58,7 +62,7 @@ export default function TourListPage() {
           </div>
 
           <ol className="border-t border-ink/80">
-            {TOURS.map((tour, i) => {
+            {TOURS_BY_DATE.map((tour, i) => {
               const years = tour.steps.map(s => s.mapState.year);
               const from = Math.min(...years);
               const to = Math.max(...years);

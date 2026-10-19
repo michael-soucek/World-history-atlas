@@ -131,7 +131,9 @@ export default function TourPlayer({ tour }: TourPlayerProps) {
             </p>
             <h2 className="mt-2 font-display text-3xl leading-tight tracking-tight text-ink">{current.title}</h2>
             <p className="mt-4 font-text text-[18px] leading-[1.7] text-ink/85">{current.text}</p>
-            {current.routes?.length ? <RouteLegend routes={current.routes} /> : null}
+            {current.routes?.length || current.markers?.some(m => m.kind === "battle") ? (
+              <RouteLegend routes={current.routes ?? []} battles={current.markers?.some(m => m.kind === "battle") ?? false} />
+            ) : null}
           </article>
 
           {/* Controls */}
@@ -199,7 +201,7 @@ export default function TourPlayer({ tour }: TourPlayerProps) {
 }
 
 /** What each arrow on the map means, for the current stop. */
-function RouteLegend({ routes }: { routes: TourRoute[] }) {
+function RouteLegend({ routes, battles }: { routes: TourRoute[]; battles: boolean }) {
   return (
     <div className="mt-6 border-t border-ink/10 pt-4">
       <p className="label text-ink/40">On the map</p>
@@ -219,6 +221,17 @@ function RouteLegend({ routes }: { routes: TourRoute[] }) {
             </li>
           );
         })}
+        {battles ? (
+          <li className="flex items-center gap-3 text-[14px] leading-snug text-ink/75">
+            <svg width="34" height="14" viewBox="0 0 34 14" aria-hidden="true" className="shrink-0">
+              <g transform="translate(17 7)" strokeLinecap="round">
+                <line x1="-5" y1="-5" x2="5" y2="5" stroke="#d2462a" strokeWidth="2.2" />
+                <line x1="5" y1="-5" x2="-5" y2="5" stroke="#d2462a" strokeWidth="2.2" />
+              </g>
+            </svg>
+            <span>Battle</span>
+          </li>
+        ) : null}
       </ul>
     </div>
   );

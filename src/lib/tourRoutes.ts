@@ -10,6 +10,7 @@ type Point = [number, number]; // [longitude, latitude]
 /** How each kind of arrow looks. Colours sit beside the site's lapis palette. */
 export const ROUTE_STYLE: Record<RouteKind, { color: string; dashed: boolean; name: string }> = {
   migration: { color: "#2346a0", dashed: false, name: "Migration" },
+  forced: { color: "#5b2a1a", dashed: false, name: "Forced migration" },
   raid: { color: "#d2462a", dashed: true, name: "Raid" },
   conquest: { color: "#8b1e2d", dashed: false, name: "Conquest" },
   voyage: { color: "#1f7272", dashed: false, name: "Voyage" },

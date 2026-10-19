@@ -1,4 +1,5 @@
 import type { EntityType } from "@/types";
+import { EVENT_TOURS } from "@/data/eventTours";
 import { MOVEMENT_TOURS } from "@/data/movementTours";
 
 export interface TourMapState {
@@ -23,6 +24,7 @@ export interface TourMapState {
  */
 export type RouteKind =
   | "migration" // a people moving and resettling
+  | "forced" // people moved against their will (the slave trade, deportations)
   | "raid" // armed expeditions that came back
   | "conquest" // armies taking and holding land
   | "voyage" // journeys by sea
@@ -44,6 +46,8 @@ export interface TourMarker {
   label: string;
   /** [longitude, latitude] */
   at: [number, number];
+  /** Battles get a crossed-swords symbol; everything else a dot. */
+  kind?: "battle" | "place";
 }
 
 export interface TourStep {
@@ -169,17 +173,29 @@ export const TOURS: Tour[] = [
       {
         title: "Portugal Rounds Africa",
         text: "Portuguese sailors crept down the African coast throughout the 1400s. In 1488, Bartolomeu Dias rounded the Cape of Good Hope. In 1498, Vasco da Gama reached India. Portugal now controlled the sea route to Asian spice markets — bypassing the Ottomans entirely.",
-        mapState: { year: 1492, lat: 5, lng: 20, zoom: 2.5, regionId: "Q200464" },
+        mapState: { year: 1492, lat: 2, lng: 30, zoom: 2.4, regionId: "Q200464" },
+        routes: [
+          { label: "Dias rounds the Cape, 1487–1488", kind: "voyage", path: [[-9.8, 38.7], [-14, 30], [-19, 22], [-20, 12], [-14, 4], [-2, 1], [8, -5], [11, -15], [12.5, -25], [16, -33], [18.4, -35.3], [22, -34.8]] },
+          { label: "Da Gama to India, 1497–1498", kind: "voyage", path: [[-9.14, 38.7], [-20, 20], [-25, 0], [-20, -20], [5, -36], [18.4, -35], [32, -28], [40.5, -15], [39.7, -4], [50, 5], [65, 10], [75.78, 11.25]] },
+        ],
+        markers: [
+          { label: "Cape of Good Hope", at: [18.47, -34.36] },
+          { label: "Calicut, 1498", at: [75.78, 11.25] },
+        ],
       },
       {
         title: "Columbus Reaches the Americas",
         text: "In 1492, Christopher Columbus — sailing for Spain — reached the Caribbean, believing he had found Asia. He had found a continent unknown to Europeans. Within decades, the Aztec and Inca empires would be conquered and their silver would flow to Spain.",
         mapState: { year: 1492, lat: 20, lng: -70, zoom: 3 },
+        routes: [{ label: "Columbus's first voyage, 1492", kind: "voyage", path: [[-6.95, 37.2], [-12, 32], [-17.3, 28.1], [-30, 27], [-50, 26], [-65, 25], [-74.5, 24.1], [-75.5, 21.5]] }],
+        markers: [{ label: "Landfall in the Bahamas, 12 October 1492", at: [-74.5, 24.1] }],
       },
       {
         title: "The World Divided",
         text: "The Treaty of Tordesillas (1494) divided the world between Spain and Portugal along a meridian. Brazil went to Portugal; the rest of the Americas to Spain. No one asked the indigenous peoples of the Americas, Africa, or Asia.",
         mapState: { year: 1530, lat: 10, lng: -30, zoom: 2.5 },
+        routes: [{ label: "Magellan across the Pacific, 1519–1521 (Elcano completes the circuit, 1522)", kind: "voyage", path: [[-6.35, 36.8], [-16, 28], [-28, 5], [-43.2, -22.9], [-58, -38], [-68.5, -52.5], [-75, -50], [-100, -30], [-140, -10], [-180, 10], [-215, 13.4], [-236, 10.3]] }],
+        markers: [{ label: "Strait of Magellan, 1520", at: [-70, -53] }],
       },
       {
         title: "A Connected World",
@@ -204,11 +220,30 @@ export const TOURS: Tour[] = [
         title: "The Rashidun Conquests",
         text: "After Muhammad's death in 632, the first four 'Rightly Guided' caliphs led a stunning expansion. Within a decade the Rashidun Caliphate had taken Syria, Egypt, and Mesopotamia from the Byzantines and shattered the Sasanian Empire entirely — one of the most rapid conquests in history.",
         mapState: { year: 700, lat: 30, lng: 44, zoom: 3 },
+        routes: [
+          { label: "Into Syria and Egypt, 634–642", kind: "conquest", path: [[39.6, 24.5], [37.5, 28.5], [35.5, 31.5], [36.3, 33.5], [36.2, 34.5]] },
+          { label: "To Egypt", kind: "conquest", path: [[35, 31.3], [33, 31], [31.2, 30.1], [29.9, 31.2]] },
+          { label: "Against the Sasanians, 636–651", kind: "conquest", path: [[41, 27], [44, 30.5], [44.4, 32.1], [44.6, 33.1], [48.5, 34.5], [53, 35.5], [59.6, 36.3], [61.8, 37.6]] },
+        ],
+        markers: [
+          { label: "Yarmouk, 636", at: [35.95, 32.8], kind: "battle" },
+          { label: "Qadisiyyah, 636", at: [44.4, 31.7], kind: "battle" },
+          { label: "Nahavand, 642", at: [48.37, 34.19], kind: "battle" },
+        ],
       },
       {
         title: "The Umayyads Reach Three Continents",
         text: "The Umayyad Caliphate, ruling from Damascus, pushed the frontier from the Atlantic coast of Morocco to the edge of India. In 711 an Umayyad army crossed into Iberia; by 732 raiders had reached central France. It was, at its height, among the largest empires that had ever existed.",
         mapState: { year: 750, lat: 33, lng: 20, zoom: 2.5, regionId: "Q8575586" },
+        routes: [
+          { label: "Across North Africa", kind: "conquest", path: [[29.9, 31.2], [20, 32], [13, 32.9], [10.1, 35.7], [3, 36.7], [-5.8, 35.8]] },
+          { label: "Into Iberia, 711, and France, 732", kind: "conquest", path: [[-5.6, 36], [-5.9, 37.4], [-3.7, 40.4], [-1.2, 42.3], [0, 44.8], [0.35, 46.6]] },
+          { label: "To the Indus, 711–712", kind: "conquest", path: [[61.8, 37.6], [62, 32], [63, 27], [66, 25.5], [68.4, 25.4]] },
+        ],
+        markers: [
+          { label: "Tours (Poitiers), 732", at: [0.4, 46.6], kind: "battle" },
+          { label: "Damascus, Umayyad capital", at: [36.3, 33.51] },
+        ],
       },
       {
         title: "The Abbasid Golden Age",
@@ -224,6 +259,8 @@ export const TOURS: Tour[] = [
         title: "The Sack of Baghdad",
         text: "The Abbasid caliphate endured in name until 1258, when the Mongols under Hulagu Khan stormed Baghdad and executed the last caliph. The political caliphate was over — but the religion, law, science, and art it had nurtured would shape civilizations from West Africa to Southeast Asia.",
         mapState: { year: 1279, lat: 33, lng: 44, zoom: 4 },
+        routes: [{ label: "Hulagu's Mongols, 1256–1258", kind: "conquest", path: [[59.6, 36.3], [54, 36], [50, 36.3], [47, 34.3], [45.5, 33.9], [44.4, 33.3]] }],
+        markers: [{ label: "Baghdad sacked, 1258", at: [44.37, 33.31], kind: "battle" }],
       },
     ],
   },
@@ -665,7 +702,7 @@ export const TOURS: Tour[] = [
 
 /** Look up a tour by slug. */
 // Tours with migration and campaign arrows live in movementTours.ts.
-TOURS.push(...MOVEMENT_TOURS);
+TOURS.push(...MOVEMENT_TOURS, ...EVENT_TOURS);
 
 export function getTourBySlug(slug: string): Tour | undefined {
   return TOURS.find(t => t.slug === slug);

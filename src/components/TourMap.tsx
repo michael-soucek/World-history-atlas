@@ -33,6 +33,34 @@ function arrowImage(size = 48) {
   return ctx.getImageData(0, 0, size, size);
 }
 
+/** Two crossed swords, for battle markers (drawn in the highlight colour). */
+function battleImage(size = 40) {
+  const canvas = document.createElement("canvas");
+  canvas.width = canvas.height = size;
+  const ctx = canvas.getContext("2d")!;
+  ctx.lineCap = "round";
+  const sword = (flip: number) => {
+    ctx.save();
+    ctx.translate(size / 2, size / 2);
+    ctx.rotate((flip * Math.PI) / 4);
+    // Blade
+    ctx.strokeStyle = "#ffffff";
+    ctx.lineWidth = 6;
+    ctx.beginPath(); ctx.moveTo(0, -size * 0.42); ctx.lineTo(0, size * 0.3); ctx.stroke();
+    ctx.strokeStyle = MAP.highlight;
+    ctx.lineWidth = 3;
+    ctx.beginPath(); ctx.moveTo(0, -size * 0.42); ctx.lineTo(0, size * 0.3); ctx.stroke();
+    // Cross-guard
+    ctx.strokeStyle = MAP.label;
+    ctx.lineWidth = 3.5;
+    ctx.beginPath(); ctx.moveTo(-size * 0.13, size * 0.2); ctx.lineTo(size * 0.13, size * 0.2); ctx.stroke();
+    ctx.restore();
+  };
+  sword(1);
+  sword(-1);
+  return ctx.getImageData(0, 0, size, size);
+}
+
 /**
  * The map inside a guided tour. Each step sets the year, camera and the
  * territory to highlight; the map crossfades borders and flies to the view.
@@ -206,7 +234,7 @@ export default function TourMap({
     (map.getSource("trail-heads") as GeoJSONSource).setData(routeFeatures(past).heads as GeoJSON.FeatureCollection);
     (map.getSource("markers") as GeoJSONSource).setData({
       type: "FeatureCollection",
-      features: points.map(m => ({ type: "Feature", properties: { label: m.label }, geometry: { type: "Point", coordinates: m.at } })),
+      features: points.map(m => ({ type: "Feature", properties: { label: m.label, battle: m.kind === "battle" }, geometry: { type: "Point", coordinates: m.at } })),
     });
 
     const draw = (fraction: number) => {
@@ -244,6 +272,7 @@ export default function TourMap({
 /** Sources and layers for arrows and markers, drawn above everything else. */
 function addRouteLayers(map: MapLibreMap) {
   map.addImage("tour-arrow", arrowImage(), { sdf: true });
+  map.addImage("tour-battle", battleImage(), { pixelRatio: 2 });
   for (const id of ["trail-lines", "trail-heads", "route-lines", "route-heads", "markers"]) {
     map.addSource(id, { type: "geojson", data: EMPTY_FC });
   }
@@ -303,8 +332,12 @@ function addRouteLayers(map: MapLibreMap) {
 
   // Markers: battles, cities, landings.
   map.addLayer({
-    id: "marker-dot", type: "circle", source: "markers",
+    id: "marker-dot", type: "circle", source: "markers", filter: ["!", ["get", "battle"]],
     paint: { "circle-radius": 5, "circle-color": MAP.label, "circle-stroke-color": MAP.labelHalo, "circle-stroke-width": 2 },
+  });
+  map.addLayer({
+    id: "marker-battle", type: "symbol", source: "markers", filter: ["get", "battle"],
+    layout: { "icon-image": "tour-battle", "icon-allow-overlap": true, "icon-ignore-placement": true },
   });
   map.addLayer({
     id: "marker-label", type: "symbol", source: "markers",
