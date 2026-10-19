@@ -7,7 +7,9 @@ import PageIntro from "@/components/PageIntro";
 import { LinkRow } from "@/components/Gazetteer";
 import { ERA_LIST, eraFromSlug, eraSlug } from "@/data/eras";
 import { SNAPSHOT_YEARS } from "@/data/snapshotYears";
-import { CROSSWALK } from "@/data/crosswalk";
+import { buildPageMetadata, metaDescription } from "@/lib/seo";
+
+const fmt = (y: number) => (y < 0 ? `${Math.abs(y).toLocaleString("en-US")} BCE` : `${y} CE`);
 
 interface Props { params: Promise<{ scope: string }> }
 
@@ -19,11 +21,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { scope } = await params;
   const era = eraFromSlug(scope);
   if (!era) return { title: "Timeline — Borders of Time" };
-  return {
-    title: `${era.label} Timeline — Borders of Time`,
-    description: `Historical snapshots from the ${era.label} period. Explore empires and events on the interactive map.`,
-    alternates: { canonical: `/timeline/${scope}` },
-  };
+  const years = SNAPSHOT_YEARS.filter(y => y >= era.start && y < era.end);
+  const span = isFinite(era.start) ? `${fmt(era.start)} to ${isFinite(era.end) ? fmt(era.end) : "today"}` : `before ${fmt(era.end)}`;
+  return buildPageMetadata({
+    title: `${era.label} World Maps: ${years.length} Historical Maps, ${span} — Borders of Time`,
+    description: metaDescription(`The world's borders in the ${era.label} era, ${span}, map by map: ${years.map(fmt).join(", ")}. Open any year on the interactive map.`)!,
+    path: `/timeline/${scope}`,
+  });
 }
 
 export default async function ScopedTimelinePage({ params }: Props) {
@@ -32,11 +36,6 @@ export default async function ScopedTimelinePage({ params }: Props) {
   if (!era) notFound();
 
   const eraYears = SNAPSHOT_YEARS.filter(y => y >= era.start && y < era.end);
-
-  // Find place entries relevant to this era (those with representative years in range)
-  const relatedPlaces = Object.entries(CROSSWALK)
-    .map(([name, entry]) => ({ name, ...entry }))
-    .slice(0, 12); // just show first 12 for now
 
   const ERA_ACCENT: Record<string, { accent: string; border: string; dot: string; hex: string }> = {
     Prehistoric:   { accent: "text-prehistoric",  border: "border-prehistoric/40",  dot: "bg-prehistoric", hex: "#6d6457" },

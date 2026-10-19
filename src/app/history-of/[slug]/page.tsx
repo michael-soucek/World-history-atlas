@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { getCanonicalNameByQid, lookupBySlug } from "@/data/crosswalk";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import SiteHeader from "@/components/SiteHeader";
@@ -6,7 +7,8 @@ import SiteFooter from "@/components/SiteFooter";
 import PageIntro, { SectionRule } from "@/components/PageIntro";
 import { LinkRow } from "@/components/Gazetteer";
 import { CITY_LIST, distinctRulers, getCity, nearbyCities, rulersOf, type City, type RulerSpan } from "@/lib/cityHistory";
-import { buildPageMetadata } from "@/lib/seo";
+import { buildPageMetadata, metaDescription } from "@/lib/seo";
+import { JsonLd, SITE_URL, breadcrumbLd } from "@/lib/jsonLd";
 
 interface Props { params: Promise<{ slug: string }> }
 
@@ -18,12 +20,34 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const city = getCity(slug);
   if (!city) return { title: "City — Borders of Time" };
-  const rulers = distinctRulers(rulersOf(slug));
+  const spans = rulersOf(slug);
   return buildPageMetadata({
-    title: `Who Ruled ${city.name}? Every State in Its History — Borders of Time`,
-    description: `${city.name} through history: ${rulers.slice(-5).reverse().join(", ")} and more. Every state and people that held the city, on one timeline of historical maps.`,
+    title: `Who Ruled ${city.name}? History of ${city.name} on the Map — Borders of Time`,
+    description: cityDescription(city, spans),
     path: `/history-of/${slug}`,
   });
+}
+
+/**
+ * "Who ruled Budapest? The Avars, Great Moravia, Hungary, the Ottoman Empire
+ * and Austria-Hungary: every state that has held the city, on historical maps."
+ * Names are the distinct states with atlas pages, most recent kept when there
+ * are too many; padded with plain map names for cities with few linked rulers.
+ */
+const atlasName = (href: string) => {
+  const entry = lookupBySlug(href.replace("/place/", ""));
+  return entry ? getCanonicalNameByQid(entry.wikidataId) : undefined;
+};
+
+function cityDescription(city: City, spans: RulerSpan[]): string {
+  // Linked rulers by their atlas name ("Roman Empire", not the map's "Rome (Galerius)").
+  const linked = [...new Map(spans.filter((s) => s.href && s.name).map((s) => [s.href, atlasName(s.href!) ?? s.name!])).values()];
+  const names = (linked.length >= 3 ? linked : distinctRulers(spans)).slice(-5);
+  const list = names.length > 1 ? `${names.slice(0, -1).join(", ")} and ${names.at(-1)}` : names[0] ?? "";
+  const formerly = city.formerly ? ` (${city.formerly})` : "";
+  return metaDescription(
+    `Who ruled ${city.name}${formerly}? ${list}: every state that has held the city, traced through historical maps from ${formatYear(spans[0]?.from ?? 0)} to today.`,
+  )!;
 }
 
 /** "-123000" → "123,000 BCE": snapshot years reach far into prehistory. */
@@ -45,6 +69,19 @@ export default async function CityHistoryPage({ params }: Props) {
     <>
       <SiteHeader />
       <main className="page-bg min-h-screen">
+        <JsonLd
+          data={[
+            {
+              "@type": "City",
+              name: city.name,
+              alternateName: city.formerly?.split(", "),
+              containedInPlace: { "@type": "Country", name: city.country },
+              geo: { "@type": "GeoCoordinates", latitude: city.lat, longitude: city.lng },
+              url: `${SITE_URL}/history-of/${city.slug}`,
+            },
+            breadcrumbLd([["Who ruled it?", "/history-of"], [city.name, `/history-of/${city.slug}`]]),
+          ]}
+        />
         <PageIntro
           crumbs={[{ href: "/history-of", label: "Who ruled it?" }]}
           label={`${city.country}`}

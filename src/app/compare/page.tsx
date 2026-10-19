@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { JsonLd, breadcrumbLd, webAppLd } from "@/lib/jsonLd";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
 import PageIntro from "@/components/PageIntro";
@@ -8,7 +9,7 @@ import { SNAPSHOT_YEARS } from "@/data/snapshotYears";
 import { buildPageMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = buildPageMetadata({
-  title: "Then vs. Then: Compare Two Years of History — Borders of Time",
+  title: "Compare Historical Maps: Then vs. Then, Any Two Years — Borders of Time",
   description: "Drag a divider across the world map to compare borders in any two years: Rome against today, Europe before and after World War I, the fall of the USSR and more.",
   path: "/compare",
 });
@@ -33,6 +34,12 @@ export default async function ComparePage({ searchParams }: Props) {
     <>
       <SiteHeader />
       <main className="page-bg min-h-screen">
+        <JsonLd
+          data={[
+            webAppLd("Then vs. then: compare historical maps", "Two years of world history on one map, with a divider to wipe between them.", "/compare"),
+            breadcrumbLd([["Compare two years", "/compare"]]),
+          ]}
+        />
         <PageIntro
           label="Compare"
           title={<>Then <span className="italic">vs.</span> then</>}

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { JsonLd, breadcrumbLd, collectionLd } from "@/lib/jsonLd";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Sword, Star, Ship, Shield, FlaskConical, Palette, Compass, Flag, type LucideIcon } from "lucide-react";
@@ -10,7 +11,7 @@ import { ReadAloudButton } from "@/components/ReadAloudButton";
 import { CROSSWALK } from "@/data/crosswalk";
 import { readableNameFromSlug } from "@/lib/entityResolver";
 import { getExplorerBySlug } from "@/data/voyages";
-import { buildPageMetadata } from "@/lib/seo";
+import { buildPageMetadata, metaDescription } from "@/lib/seo";
 
 interface Props { params: Promise<{ slug: string }> }
 
@@ -170,8 +171,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const theme = THEMES[slug];
   if (!theme) return { title: "Theme — Borders of Time" };
   return buildPageMetadata({
-    title: `${theme.label} — Borders of Time`,
-    description: theme.description,
+    title: `${theme.label} in World History: Maps, Places & People — Borders of Time`,
+    description: metaDescription(`${theme.description} Explore the empires, people and events behind it on the interactive history map.`)!,
     path: `/theme/${slug}`,
   });
 }
@@ -203,6 +204,12 @@ export default async function ThemePage({ params }: Props) {
     <>
       <SiteHeader />
       <main className="page-bg min-h-screen">
+        <JsonLd
+          data={[
+            collectionLd(theme.label, theme.description, `/theme/${slug}`, places.map((p) => ({ name: p.name, path: `/place/${p.entry.slug}` }))),
+            breadcrumbLd([["Browse", "/browse"], [theme.label, `/theme/${slug}`]]),
+          ]}
+        />
         <PageIntro
           crumbs={[{ href: "/browse", label: "Browse" }, { href: "/browse#themes", label: "Themes" }]}
           label="Theme"

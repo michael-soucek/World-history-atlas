@@ -4,6 +4,8 @@
  * map sidebar.
  */
 import Link from "next/link";
+import { JsonLd, breadcrumbLd } from "@/lib/jsonLd";
+import { citiesHeldBy, toursFeaturing } from "@/lib/relatedLinks";
 import { ArrowRight, ArrowUpRight, MapPin } from "lucide-react";
 import RelatedResources from "@/components/RelatedResources";
 import AdSlot from "@/components/AdSlot";
@@ -69,7 +71,6 @@ export default async function EntityPage({ content, entry, entityType, baseRoute
     entityType === "culture"? "Thing"  : "Place";
 
   const jsonLd = {
-    "@context": "https://schema.org",
     "@type": schemaType,
     name: content.name,
     description: content.summary ?? undefined,
@@ -87,9 +88,11 @@ export default async function EntityPage({ content, entry, entityType, baseRoute
 
   return (
     <>
-    <script
-      type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+    <JsonLd
+      data={[
+        jsonLd,
+        breadcrumbLd([["Browse", "/browse"], [TYPE_PLURAL[entityType], browsePath], [content.name, `/${baseRoute}/${entry.slug}`]]),
+      ]}
     />
     <div className="page-bg min-h-full">
       {/* ── Title ── */}
@@ -192,6 +195,8 @@ export default async function EntityPage({ content, entry, entityType, baseRoute
               </dl>
             )}
 
+            {entityType === "place" && <PlaceCrossLinks entry={entry} name={content.name} />}
+
             {/* Further reading / viewing — hidden entirely when none are curated yet */}
             <RelatedResources resourceKey={`${entityType}:${entry.slug}`} />
 
@@ -210,5 +215,41 @@ export default async function EntityPage({ content, entry, entityType, baseRoute
       </div>
     </div>
     </>
+  );
+}
+
+/** "Cities it held" and "Guided tours" links for an empire's sidebar; hidden when empty. */
+function PlaceCrossLinks({ entry, name }: { entry: CrosswalkEntry; name: string }) {
+  const cities = citiesHeldBy(entry.slug);
+  const tours = toursFeaturing(entry);
+  if (!cities.length && !tours.length) return null;
+  return (
+    <div className="space-y-6">
+      {tours.length > 0 && (
+        <div>
+          <p className="label text-ink/40 !text-[10px] mb-2">Guided tours</p>
+          <ul className="space-y-1.5">
+            {tours.map((t) => (
+              <li key={t.slug}>
+                <Link href={`/tour/${t.slug}`} className="text-sm text-ink/80 hover:text-accent transition-colors">{t.title}</Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
+      {cities.length > 0 && (
+        <div>
+          <p className="label text-ink/40 !text-[10px] mb-2">Cities {name} held</p>
+          <p className="text-sm leading-relaxed">
+            {cities.map((c, i) => (
+              <span key={c.slug}>
+                <Link href={`/history-of/${c.slug}`} className="text-ink/80 hover:text-accent transition-colors">{c.name}</Link>
+                {i < cities.length - 1 && <span className="text-ink/25"> · </span>}
+              </span>
+            ))}
+          </p>
+        </div>
+      )}
+    </div>
   );
 }

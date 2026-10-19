@@ -18,13 +18,19 @@ const THEME_SLUGS = [
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const now = new Date();
+  // When the site's content last changed. A build-time "now" told Google every
+  // page changed on every deploy, which teaches it to ignore lastmod; bump this
+  // when pages are actually updated.
+  const now = new Date("2026-10-19");
 
   const staticRoutes: MetadataRoute.Sitemap = [
     { url: `${BASE}/`,         lastModified: now, changeFrequency: "weekly",  priority: 1.0 },
     { url: `${BASE}/map`,      lastModified: now, changeFrequency: "monthly", priority: 0.9 },
     { url: `${BASE}/timeline`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${BASE}/browse`,   lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    ...(["place", "person", "event", "culture"] as const).map((t) => ({
+      url: `${BASE}/browse?type=${t}`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.6,
+    })),
     { url: `${BASE}/tour`,     lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE}/history-of`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE}/play`, lastModified: now, changeFrequency: "daily", priority: 0.7 },
@@ -38,7 +44,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE}/terms`,    lastModified: now, changeFrequency: "yearly",  priority: 0.2 },
   ];
 
-  const placeRoutes: MetadataRoute.Sitemap = Object.values(CROSSWALK).map(e => ({
+  // One URL per Wikidata entity: alias slugs (manchu-empire → qing-dynasty)
+  // redirect, and a sitemap should only list final URLs.
+  const seenQids = new Set<string>();
+  const uniquePlaces = Object.values(CROSSWALK).filter(e => !seenQids.has(e.wikidataId) && seenQids.add(e.wikidataId));
+  const placeRoutes: MetadataRoute.Sitemap = uniquePlaces.map(e => ({
     url: `${BASE}/place/${e.slug}`,
     lastModified: now,
     changeFrequency: "monthly",

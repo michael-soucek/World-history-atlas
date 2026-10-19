@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { JsonLd, breadcrumbLd, collectionLd } from "@/lib/jsonLd";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import SiteHeader from "@/components/SiteHeader";
@@ -7,7 +8,7 @@ import PageIntro, { SectionRule } from "@/components/PageIntro";
 import Gazetteer, { LinkRow } from "@/components/Gazetteer";
 import { ReadAloudButton } from "@/components/ReadAloudButton";
 import { CROSSWALK } from "@/data/crosswalk";
-import { buildPageMetadata } from "@/lib/seo";
+import { buildPageMetadata, metaDescription } from "@/lib/seo";
 
 interface Props { params: Promise<{ slug: string }> }
 
@@ -186,8 +187,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const region = REGIONS[slug];
   if (!region) return { title: "Region — Borders of Time" };
   return buildPageMetadata({
-    title: `${region.label} — Borders of Time`,
-    description: region.description,
+    title: `History of ${region.label}: Empires & Borders on the Map — Borders of Time`,
+    description: metaDescription(`${region.description} See its empires era by era on the map.`)!,
     path: `/region/${slug}`,
   });
 }
@@ -207,6 +208,12 @@ export default async function RegionPage({ params }: Props) {
     <>
       <SiteHeader />
       <main className="page-bg min-h-screen">
+        <JsonLd
+          data={[
+            collectionLd(`History of ${region.label}`, region.description, `/region/${slug}`, places.map((p) => ({ name: p.name, path: `/place/${p.entry.slug}` }))),
+            breadcrumbLd([["Browse", "/browse"], [region.label, `/region/${slug}`]]),
+          ]}
+        />
         <PageIntro
           crumbs={[{ href: "/browse", label: "Browse" }, { href: "/browse#regions", label: "Regions" }]}
           label="Region"

@@ -63,21 +63,39 @@ function listForType(type: EntityType): { slug: string; name: string }[] {
   return out.sort((a, b) => a.name.localeCompare(b.name));
 }
 
+/** Search-friendly titles for each filtered list ("Historical Figures: 70 People in World History"). */
+const TYPE_SEO: Record<EntityType, (n: number) => { title: string; description: string }> = {
+  place: (n) => ({
+    title: `${n} Empires, Kingdoms & States in History — Borders of Time`,
+    description: `An A–Z of ${n} empires, kingdoms and states from world history, from the Achaemenids to the Zulu Kingdom, each with its story and its borders on the map.`,
+  }),
+  person: (n) => ({
+    title: `${n} Historical Figures: Rulers, Conquerors & Thinkers — Borders of Time`,
+    description: `An A–Z of ${n} people who shaped world history: rulers, conquerors, explorers and thinkers, each linked to the map of their world.`,
+  }),
+  event: (n) => ({
+    title: `${n} Key Events in World History: Battles, Treaties & Revolutions — Borders of Time`,
+    description: `An A–Z of ${n} turning points in world history, from battles and treaties to revolutions and the fall of empires, each placed on the map.`,
+  }),
+  culture: (n) => ({
+    title: `${n} Civilizations & Cultures in World History — Borders of Time`,
+    description: `An A–Z of ${n} civilizations, movements and traditions from world history, each with its story and where it flourished on the map.`,
+  }),
+};
+
 export async function generateMetadata({ searchParams }: Props): Promise<Metadata> {
   const { type } = await searchParams;
   if (isEntityType(type)) {
     return {
-      ...buildPageMetadata({
-        title: `${TYPE_META[type].label} — Borders of Time`,
-        description: TYPE_META[type].desc,
-      }),
+      ...buildPageMetadata(TYPE_SEO[type](listForType(type).length)),
       alternates: { canonical: `/browse?type=${type}` },
     };
   }
+  const total = (["place", "person", "event", "culture"] as const).reduce((n, t) => n + listForType(t).length, 0);
   return {
     ...buildPageMetadata({
-      title: "Browse History — Borders of Time",
-      description: "Browse empires, people, events, and cultures by era, region, or theme.",
+      title: "Browse World History: Empires, People, Events & Cultures — Borders of Time",
+      description: `Browse ${total} empires, people, events and cultures from world history, by era, region or theme, each linked to the interactive map.`,
     }),
     alternates: { canonical: "/browse" },
   };

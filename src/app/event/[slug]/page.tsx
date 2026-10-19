@@ -9,7 +9,7 @@ import { EVENTS_CROSSWALK } from "@/data/entityCrosswalk";
 import { buildEntityContent } from "@/lib/wikidata";
 import { resolveEntityBySlugOrQid } from "@/lib/entityResolver";
 import { fetchWikipediaSearchSummary } from "@/lib/wikipedia";
-import { DEFAULT_SOCIAL_IMAGE } from "@/lib/seo";
+import { entityMetadata } from "@/lib/seo";
 
 interface Props { params: Promise<{ slug: string }> }
 
@@ -55,24 +55,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const r = await resolve(slug);
   if (!r.content) return { title: "Event not found — Borders of Time" };
-  const imageUrl = r.content.imageUrl || DEFAULT_SOCIAL_IMAGE;
-  const ogDescription = r.content.summary?.slice(0, 200);
-  return {
-    alternates: { canonical: `/event/${slug}` },
-    title: `${r.content.name} — Borders of Time`,
-    description: r.content.summary?.slice(0, 160),
-    openGraph: {
-      title: r.content.name,
-      description: ogDescription,
-      images: [{ url: imageUrl }],
-    },
-    twitter: {
-      card: "summary_large_image",
-      title: r.content.name,
-      description: ogDescription,
-      images: [imageUrl],
-    },
-  };
+  return entityMetadata("event", slug, r.content);
 }
 
 export default async function EventPage({ params }: Props) {

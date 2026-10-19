@@ -10,7 +10,7 @@ import { fetchWikipediaSearchSummary } from "@/lib/wikipedia";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
 import EntityPage from "@/components/EntityPage";
-import { DEFAULT_SOCIAL_IMAGE } from "@/lib/seo";
+import { entityMetadata } from "@/lib/seo";
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -71,26 +71,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!result?.content) {
     return { title: "Place not found — Borders of Time" };
   }
-  const { content } = result;
-  return {
-    title: `${content.name} — Borders of Time`,
-    description: content.summary
-      ? content.summary.slice(0, 160)
-      : `Learn about ${content.name} on the Borders of Time.`,
-    alternates: { canonical: `/place/${slug}` },
-    openGraph: {
-      title: content.name,
-      description: content.summary?.slice(0, 200),
-      images: [{ url: content.imageUrl || DEFAULT_SOCIAL_IMAGE }],
-      type: "article",
-    },
-    twitter: {
-      card: "summary_large_image",
-      title: content.name,
-      description: content.summary?.slice(0, 200),
-      images: [content.imageUrl || DEFAULT_SOCIAL_IMAGE],
-    },
-  };
+  return entityMetadata("place", slug, result.content);
 }
 
 export default async function PlacePage({ params }: Props) {

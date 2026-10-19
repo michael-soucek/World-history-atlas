@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { JsonLd, breadcrumbLd, collectionLd } from "@/lib/jsonLd";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
 import PageIntro from "@/components/PageIntro";
@@ -7,8 +8,8 @@ import { CITY_LIST, distinctRulers, rulersOf } from "@/lib/cityHistory";
 import { buildPageMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = buildPageMetadata({
-  title: "Who Ruled It? The History of the World's Great Cities — Borders of Time",
-  description: "Pick a city and see every empire, kingdom and people that held it, from the ancient world to today, on one timeline of historical maps.",
+  title: `Who Ruled It? The History of ${CITY_LIST.length} World Cities on the Map — Borders of Time`,
+  description: "Who ruled Istanbul, Jerusalem or Budapest? Pick a city to see every empire, kingdom and people that held it, from the ancient world to today, on historical maps.",
   path: "/history-of",
 });
 
@@ -19,6 +20,12 @@ export default function CityIndexPage() {
     <>
       <SiteHeader />
       <main className="page-bg min-h-screen">
+        <JsonLd
+          data={[
+            collectionLd("Who ruled it? City histories", "Every state that has held each city, on historical maps.", "/history-of", CITY_LIST.map((c) => ({ name: c.name, path: `/history-of/${c.slug}` }))),
+            breadcrumbLd([["Who ruled it?", "/history-of"]]),
+          ]}
+        />
         <PageIntro
           label="Who ruled it?"
           title={<>Every city has <span className="italic">many masters</span></>}

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { JsonLd, breadcrumbLd, collectionLd } from "@/lib/jsonLd";
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 import SiteHeader from "@/components/SiteHeader";
@@ -8,8 +9,8 @@ import { TOURS } from "@/data/tours";
 import { buildPageMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = buildPageMetadata({
-  title: "Guided Tours — Borders of Time",
-  description: "Authored journeys through history that drive the map. Watch empires rise and fall with narration and context.",
+  title: `${TOURS.length} Guided History Tours on an Animated Map — Borders of Time`,
+  description: `Narrated map tours of history's biggest events, with animated arrows and battles: the Mongols, the Crusades, Alexander, Napoleon, World War II and ${TOURS.length - 5} more.`,
   path: "/tour",
 });
 
@@ -36,6 +37,12 @@ export default function TourListPage() {
     <>
       <SiteHeader />
       <main className="min-h-screen page-bg">
+        <JsonLd
+          data={[
+            collectionLd("Guided history tours", "Narrated map tours of history's biggest events.", "/tour", TOURS_BY_DATE.map((t) => ({ name: t.title, path: `/tour/${t.slug}` }))),
+            breadcrumbLd([["Guided tours", "/tour"]]),
+          ]}
+        />
         <PageIntro
           label="Guided tours"
           title={<>Let the map <span className="italic">tell the story</span></>}

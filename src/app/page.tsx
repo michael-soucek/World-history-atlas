@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { JsonLd, organizationLd, websiteLd } from "@/lib/jsonLd";
 import Link from "next/link";
 import { ArrowRight, ArrowUpRight } from "lucide-react";
 import SiteHeader from "@/components/SiteHeader";
@@ -21,9 +22,9 @@ import { commonsSrcSet } from "@/lib/commonsImage";
 const HOME_OG_DESCRIPTION = "An interactive world history atlas. Watch the world's empires rise and fall — year by year.";
 
 export const metadata: Metadata = {
-  title: "Borders of Time — Watch borders change through time",
+  title: "Borders of Time: Interactive World History Map & Atlas",
   description:
-    "An interactive world history atlas. Watch empires rise and fall. Explore places, people, events, and cultures across 5,000 years of recorded history.",
+    "An interactive world history map: watch empires rise and fall across 5,000 years, take guided tours of history's biggest events, and explore every era.",
   alternates: { canonical: "/" },
   openGraph: {
     title: "Borders of Time",
@@ -126,6 +127,7 @@ export default async function HomePage() {
     <>
       <SiteHeader tone="night" />
       <main className="bg-parchment">
+        <JsonLd data={[websiteLd, organizationLd]} />
 
         {/* ── I. Hero: the live atlas ───────────────────────────────────── */}
         <section data-hero className="relative bg-night text-parchment overflow-hidden h-[min(92svh,900px)] min-h-[640px] -mt-16 pt-16">

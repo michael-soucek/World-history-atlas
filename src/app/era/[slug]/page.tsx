@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { JsonLd, breadcrumbLd, collectionLd } from "@/lib/jsonLd";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import SiteHeader from "@/components/SiteHeader";
@@ -11,7 +12,7 @@ import { ERA_LIST, eraFromSlug, eraSlug } from "@/data/eras";
 import { SNAPSHOT_YEARS, formatYear } from "@/data/snapshotYears";
 import { CROSSWALK } from "@/data/crosswalk";
 import { getEntityLifespan, overlapsEra } from "@/lib/entityTimeline";
-import { buildPageMetadata } from "@/lib/seo";
+import { buildPageMetadata, metaDescription } from "@/lib/seo";
 
 interface Props { params: Promise<{ slug: string }> }
 
@@ -19,13 +20,22 @@ export async function generateStaticParams() {
   return ERA_LIST.filter(e => isFinite(e.start)).map(era => ({ slug: eraSlug(era.label) }));
 }
 
+const fmtEraYear = (y: number) => (y < 0 ? `${Math.abs(y)} BCE` : `${y} CE`);
+/** "500–1400 CE", "3000–500 BCE", "1800 CE–today". */
+function eraSpan(era: { start: number; end: number }): string {
+  if (!isFinite(era.end)) return `${fmtEraYear(era.start)}–today`;
+  if (era.start < 0 && era.end <= 0) return `${Math.abs(era.start)}–${Math.abs(era.end)} BCE`;
+  if (era.start >= 0) return `${era.start}–${era.end} CE`;
+  return `${fmtEraYear(era.start)}–${fmtEraYear(era.end)}`;
+}
+
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const era = eraFromSlug(slug);
   if (!era) return { title: "Era — Borders of Time" };
   return buildPageMetadata({
-    title: `${era.label} Era — Borders of Time`,
-    description: `Explore empires, events, and people from the ${era.label} era.`,
+    title: `The ${era.label} Era${isFinite(era.start) ? ` (${eraSpan(era)})` : ""}: Empires, Maps & People — Borders of Time`,
+    description: metaDescription(era.blurb)!,
     path: `/era/${slug}`,
   });
 }
@@ -77,6 +87,12 @@ export default async function EraPage({ params }: Props) {
     <>
       <SiteHeader />
       <main className="page-bg min-h-screen">
+        <JsonLd
+          data={[
+            collectionLd(`The ${era.label} era`, era.blurb ?? "", `/era/${slug}`, places.map((p) => ({ name: p.name, path: `/place/${p.slug}` }))),
+            breadcrumbLd([["Browse", "/browse"], [`${era.label} era`, `/era/${slug}`]]),
+          ]}
+        />
         <PageIntro
           crumbs={[{ href: "/browse", label: "Browse" }, { href: "/browse#eras", label: "Ages" }]}
           label={`Age ${["I", "II", "III", "IV", "V", "VI"][eraIndex] ?? ""} · ${range}`}

@@ -13,7 +13,8 @@ import { ImageStrip, toArticleImage } from "@/components/ArticleBody";
 import { getEntityImages } from "@/lib/entityImages";
 import { EXPLORERS, getExplorerBySlug } from "@/data/voyages";
 import { buildEntityContent } from "@/lib/wikidata";
-import { DEFAULT_SOCIAL_IMAGE } from "@/lib/seo";
+import { buildPageMetadata, metaDescription } from "@/lib/seo";
+import { JsonLd, SITE_URL, breadcrumbLd } from "@/lib/jsonLd";
 
 interface Props { params: Promise<{ slug: string }> }
 
@@ -35,25 +36,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const data = await loadBio(slug);
   if (!data) return { title: "Explorer not found — Borders of Time" };
   const { explorer, content } = data;
-  const description = content?.summary?.slice(0, 160) ?? explorer.tagline;
-  const imageUrl = content?.imageUrl || DEFAULT_SOCIAL_IMAGE;
-  return {
-    title: `${explorer.name} — Age of Exploration — Borders of Time`,
-    description,
-    alternates: { canonical: `/explorer/${slug}` },
-    openGraph: {
-      title: explorer.name,
-      description,
-      images: [{ url: imageUrl }],
-      type: "profile",
-    },
-    twitter: {
-      card: "summary_large_image",
-      title: explorer.name,
-      description,
-      images: [imageUrl],
-    },
-  };
+  const isExpedition = explorer.lifespan.startsWith("Expedition");
+  const title = `${explorer.name}${isExpedition ? "" : ` (${explorer.lifespan})`}: ${isExpedition ? "Expedition" : "Voyages"}, Route Map & Timeline — Borders of Time`;
+  const description = metaDescription(`${explorer.tagline} Every stop dated and mapped.`)!;
+  return buildPageMetadata({ title, description, path: `/explorer/${slug}`, type: "article", imageUrl: content?.imageUrl });
 }
 
 export default async function ExplorerPage({ params }: Props) {
@@ -77,6 +63,19 @@ export default async function ExplorerPage({ params }: Props) {
     <>
       <SiteHeader />
       <main className="page-bg min-h-screen">
+        <JsonLd
+          data={[
+            {
+              "@type": explorer.lifespan.startsWith("Expedition") ? "Event" : "Person",
+              name: explorer.name,
+              description: explorer.tagline,
+              url: `${SITE_URL}/explorer/${explorer.slug}`,
+              image: content?.imageUrl,
+              sameAs: [content?.wikipediaUrl, `https://www.wikidata.org/wiki/${explorer.wikidataId}`].filter(Boolean),
+            },
+            breadcrumbLd([["Age of Exploration", "/theme/age-of-exploration"], [explorer.name, `/explorer/${explorer.slug}`]]),
+          ]}
+        />
         <PageIntro
           crumbs={[{ href: "/browse", label: "Browse" }, { href: "/theme/age-of-exploration", label: "Age of Exploration" }]}
           label={`Explorer · ${explorer.lifespan}`}
