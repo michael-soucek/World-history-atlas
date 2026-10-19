@@ -111,6 +111,41 @@ const ALSO_KNOWN_AS: Record<string, string[]> = {
 
 const escapeRe = (s: string) => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 
+/** A few Wikidata facts for the quick answers, by English name. */
+export interface StoredFacts {
+  start?: number;
+  end?: number;
+  capitals: string[];
+  birthPlace?: string;
+  deathPlace?: string;
+  locations: string[];
+  before: string[];
+  after: string[];
+  description?: string;
+}
+
+export async function storedFacts(qid: string, kind: TimedKind | "place"): Promise<StoredFacts> {
+  const { entities } = await loadIndex();
+  const e = entities[qid];
+  const names = (prop: string, max = 6) =>
+    [...new Set((e?.claims[prop] ?? []).map((c) => {
+      const id = (c.mainsnak.datavalue.value as { id?: string } | undefined)?.id;
+      return id ? entities[id]?.labels?.en?.value : undefined;
+    }).filter((n): n is string => !!n))].slice(0, max);
+  const span = kind === "place" ? SPAN_PROPS.culture : SPAN_PROPS[kind];
+  return {
+    start: yearOf(e, span[0]),
+    end: yearOf(e, span[1]),
+    capitals: names("P36"),
+    birthPlace: names("P19", 1)[0],
+    deathPlace: names("P20", 1)[0],
+    locations: [...new Set([...names("P276", 4), ...names("P17", 4)])].slice(0, 5),
+    before: names("P155", 3),
+    after: names("P156", 3),
+    description: e?.descriptions?.en?.value,
+  };
+}
+
 export async function entityContext(kind: TimedKind, slug: string): Promise<EntityContext | null> {
   const { entries, entities, qids } = await loadIndex();
   const self = entries.find((e) => e.kind === kind && e.slug === slug);

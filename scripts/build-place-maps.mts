@@ -14,6 +14,7 @@
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { fileURLToPath } from "node:url";
+import * as pc from "polyclip-ts";
 import { resolveFeature } from "../src/data/crosswalk";
 
 const ROOT = fileURLToPath(new URL("..", import.meta.url));
@@ -174,6 +175,42 @@ for (const { year, path } of snapshots) {
 const years = snapshots.map((s) => s.year);
 const nameOfKey = (key: string) => (key.startsWith("name:") ? { name: key.slice(5) } : { name: labelsBySlug.get(key) ?? key, slug: key });
 
+// ── Where each place lies today: its largest extent laid over the 2010 map ──
+const MODERN_YEAR = 2010;
+const modern = featuresByYear.get(MODERN_YEAR)!
+  .filter((f) => f.geometry && f.properties.NAME?.trim())
+  .map((f) => {
+    const geom = polygons(f.geometry);
+    const xs = geom.flatMap((p) => p[0].map((c) => c[0]));
+    const ys = geom.flatMap((p) => p[0].map((c) => c[1]));
+    return { name: f.properties.NAME!.trim(), geom, box: [Math.min(...xs), Math.min(...ys), Math.max(...xs), Math.max(...ys)] };
+  });
+
+/** Modern countries covering at least 2% of a place's largest extent, largest share first. */
+function todayFor(slug: string, year: number): { name: string; share: number }[] {
+  const own = featuresByYear.get(year)!.filter((f) => labelOf(f, year)?.slug === slug).flatMap((f) => polygons(f.geometry));
+  const total = own.reduce((s, p) => s + polygonArea(p), 0);
+  if (!total) return [];
+  const xs = own.flatMap((p) => p[0].map((c) => c[0]));
+  const ys = own.flatMap((p) => p[0].map((c) => c[1]));
+  const box = [Math.min(...xs), Math.min(...ys), Math.max(...xs), Math.max(...ys)];
+  const shares = new Map<string, number>();
+  for (const c of modern) {
+    if (c.box[0] > box[2] || box[0] > c.box[2] || c.box[1] > box[3] || box[1] > c.box[3]) continue;
+    try {
+      const overlap = pc.intersection(own as pc.Geom, c.geom as pc.Geom);
+      const km2 = overlap.reduce((s, p) => s + polygonArea(p as Ring[]), 0);
+      if (km2) shares.set(c.name, (shares.get(c.name) ?? 0) + km2 / total);
+    } catch {
+      // A malformed snapshot shape: skip this pair rather than the whole place.
+    }
+  }
+  return [...shares]
+    .filter(([, share]) => share >= 0.02)
+    .sort((a, b) => b[1] - a[1])
+    .map(([name, share]) => ({ name, share: Math.round(share * 100) / 100 }));
+}
+
 const out: Record<string, unknown> = {};
 for (const [slug, byYear] of shapes) {
   const drawn = [...byYear.keys()].sort((a, b) => a - b);
@@ -213,6 +250,8 @@ for (const [slug, byYear] of shapes) {
     years: drawn,
     area,
     peak: { year: peakYear, km2: peakKm2, parts: [...byYear.get(peakYear)!.parts].sort() },
+    // Places on the modern map itself would just list themselves.
+    today: peakYear >= MODERN_YEAR ? [] : todayFor(slug, peakYear),
     neighbours,
     before: at(prevYear, interiorPoint(byYear.get(first)!.main)),
     after: at(nextYear, interiorPoint(byYear.get(last)!.main)),

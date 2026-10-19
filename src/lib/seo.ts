@@ -90,12 +90,19 @@ export async function entityMetadata(
   slug: string,
   content: { name: string; summary?: string; tagline?: string; imageUrl?: string },
 ): Promise<Metadata> {
-  const dates = titleDates(content.tagline, kind === "event");
-  const title = `${content.name}${dates ? ` (${dates})` : ""}: ${ENTITY_TITLE_SUFFIX[kind]} — Borders of Time`;
   const { placeDescription } = await import("@/lib/placeMaps");
-  const { contextDescription, entityContext } = await import("@/lib/entityContext");
+  const { contextDescription, entityContext, fmtSpan, storedFacts } = await import("@/lib/entityContext");
+  const { lookupBySlug } = await import("@/data/crosswalk");
+  let dates = titleDates(content.tagline, kind === "event");
+  // A place's tagline often lacks its dates; the stored Wikidata facts usually have them.
+  const qid = kind === "place" ? lookupBySlug(slug)?.wikidataId : undefined;
+  if (!dates && qid) {
+    const { start, end } = await storedFacts(qid, "place");
+    if (start !== undefined && end !== undefined && end >= start) dates = fmtSpan(start, end);
+  }
+  const title = `${content.name}${dates ? ` (${dates})` : ""}: ${ENTITY_TITLE_SUFFIX[kind]} — Borders of Time`;
   const ctx = kind === "place" ? null : await entityContext(kind, slug);
-  const own = kind === "place" ? placeDescription(slug, content.name) : ctx ? contextDescription(ctx) : undefined;
+  const own = kind === "place" ? placeDescription(slug, content.name, dates) : ctx ? contextDescription(ctx) : undefined;
   const description =
     metaDescription(own) ??
     metaDescription(content.summary) ??

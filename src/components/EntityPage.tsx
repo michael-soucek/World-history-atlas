@@ -14,8 +14,10 @@ import ArticleBody, { splitHero } from "@/components/ArticleBody";
 import ArticleImage from "@/components/ArticleImage";
 import PlaceOnOurMaps from "@/components/PlaceOnOurMaps";
 import EntityInTime from "@/components/EntityInTime";
-import { contextDescription, entityContext } from "@/lib/entityContext";
-import { placeDescription } from "@/lib/placeMaps";
+import { contextDescription, entityContext, fmtSpan, storedFacts } from "@/lib/entityContext";
+import QuickAnswers from "@/components/QuickAnswers";
+import { placeDescription, placeMaps } from "@/lib/placeMaps";
+import { titleDates } from "@/lib/seo";
 import { getEntityImages } from "@/lib/entityImages";
 import type { PlaceContent, EntityType } from "@/types";
 import type { CrosswalkEntry } from "@/types";
@@ -71,6 +73,7 @@ function isoYear(y: string | number | undefined): string | undefined {
 export default async function EntityPage({ content, entry, entityType, baseRoute, map }: EntityPageProps) {
   const images = await getEntityImages(entry.wikidataId, content.imageUrl);
   const ctx = entityType === "place" ? null : await entityContext(entityType, entry.slug);
+  const stored = await storedFacts(entry.wikidataId, entityType);
   const { hero, rest } = splitHero(content, images);
 
   // A place *is* a territory, so its own QID resolves on the map directly.
@@ -120,7 +123,7 @@ export default async function EntityPage({ content, entry, entityType, baseRoute
     ...(eventFields ?? {}),
     name: content.name,
     // The site's own description where it has one, not the encyclopedia's opening line.
-    description: (ctx ? contextDescription(ctx) : placeDescription(entry.slug, content.name)) ?? content.summary ?? undefined,
+    description: (ctx ? contextDescription(ctx) : placeDescription(entry.slug, content.name, titleDates(content.tagline) ?? (stored.start !== undefined && stored.end !== undefined && stored.end >= stored.start ? fmtSpan(stored.start, stored.end) : undefined))) ?? content.summary ?? undefined,
     ...(entityType === "person" && ctx?.start !== undefined ? { birthDate: isoYear(ctx.start) } : {}),
     ...(entityType === "person" && ctx?.end !== undefined ? { deathDate: isoYear(ctx.end) } : {}),
     image: content.imageUrl ?? undefined,
@@ -199,7 +202,9 @@ export default async function EntityPage({ content, entry, entityType, baseRoute
           {entityType === "place" && (
             <PlaceOnOurMaps slug={entry.slug} name={content.name} regionId={mapRegionId} />
           )}
+          {entityType === "place" && <QuickAnswers kind="place" name={content.name} facts={stored} maps={placeMaps(entry.slug)} />}
           {ctx && <EntityInTime ctx={ctx} />}
+          {ctx && entityType !== "place" && <QuickAnswers kind={entityType} ctx={ctx} facts={stored} />}
           <ArticleBody content={content} images={rest} />
         </article>
 

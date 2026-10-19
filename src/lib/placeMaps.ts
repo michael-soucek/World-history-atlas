@@ -29,7 +29,27 @@ export interface PlaceMaps {
   before: (MapLabel & { year: number }) | null;
   /** What the snapshot after the last appearance shows in the same spot. */
   after: (MapLabel & { year: number }) | null;
+  /** Modern countries covering its largest extent, with their share of it (0–1). */
+  today?: { name: string; share: number }[];
 }
+
+/** The 2010 snapshot's older country names, as people search for them now. */
+const MODERN_NAMES: Record<string, string> = {
+  Burma: "Myanmar",
+  Byelarus: "Belarus",
+  Zaire: "the Democratic Republic of the Congo",
+  Congo: "the Republic of the Congo",
+  Swaziland: "Eswatini",
+  "Korea, Democratic People's Republic of": "North Korea",
+  "Korea, Republic of": "South Korea",
+  "Tanzania, United Republic of": "Tanzania",
+  "United Kingdom": "the United Kingdom",
+  "United States": "the United States",
+  "Czech Republic": "the Czech Republic",
+  "Central African Republic": "the Central African Republic",
+  Netherlands: "the Netherlands",
+};
+export const modernName = (name: string) => MODERN_NAMES[name] ?? name;
 
 export function placeMaps(slug: string): PlaceMaps | undefined {
   return (PLACE_MAPS as unknown as Record<string, PlaceMaps>)[slug];
@@ -107,20 +127,31 @@ export function withArticle(name: string): string {
 
 /**
  * A place page's search-result description from the atlas's own measurements,
- * e.g. "See the Pala Empire on 3 of our 53 world maps, from 800 to 1000 CE. At
- * its largest, in 900 CE, it covers about 1,000,000 km², roughly the size of
- * Egypt." Undefined when the snapshots never draw it.
+ * e.g. "Map of the Pala Empire, 700–1100 CE: at its largest, in 900 CE, about
+ * 447,000 km² in today's India and Bangladesh, roughly the size of Spain.
+ * Borders, neighbours and history." `dates` are its own (from Wikidata) when
+ * known; otherwise the span of the maps is used. Undefined when the snapshots
+ * never draw it.
  */
-export function placeDescription(slug: string, name: string): string | undefined {
+export function placeDescription(slug: string, name: string, dates?: string): string | undefined {
   const data = placeMaps(slug);
   if (!data?.years.length) return undefined;
   const fmt = (y: number) => (y < 0 ? `${-y} BCE` : `${y} CE`);
   const { years, peak } = data;
-  const subject = withArticle(name);
-  const first = years.length === 1
-    ? `See ${subject} on our world map for ${fmt(years[0])}.`
-    : `See ${subject} on ${years.length} of our ${MAP_COUNT} world maps, ${fmt(years[0])} to ${fmt(years[years.length - 1])}.`;
+  const [first, last] = [years[0], years[years.length - 1]];
+  // Its own dates when known ("1526–1857"); otherwise the span of the maps that draw it.
+  const span = dates ? dates : first === last ? fmt(first) : first < 0 && last < 0 ? `${-first}–${-last} BCE` : first < 0 ? `${fmt(first)}–${fmt(last)}` : `${first}–${last} CE`;
+  const area = formatArea(peak.km2).split(" (")[0];
   const like = sizeComparison(peak.km2);
-  const size = `${years.length === 1 ? "It covers" : `At its largest, in ${fmt(peak.year)}, it covers`} about ${formatArea(peak.km2).split(" (")[0]}${like ? `, roughly the size of ${like}` : ""}.`;
-  return `${first} ${size} Borders, neighbours and history.`;
+  const today = (data.today ?? []).filter((t, i) => i < 2 || t.share >= 0.1).slice(0, 3).map((t) => modernName(t.name));
+  const where = today.length ? ` in today's ${today.length > 1 ? `${today.slice(0, -1).join(", ")} and ${today[today.length - 1]}` : today[0]}` : "";
+  const when = years.length > 1 ? `at its largest, in ${fmt(peak.year)}, ` : "";
+  // Longest version that fits what Google shows (about 158 characters).
+  const versions = [
+    `Map of ${withArticle(name)}, ${span}: ${when}about ${area}${where}${like ? `, roughly the size of ${like}` : ""}. Borders, neighbours and history.`,
+    `Map of ${withArticle(name)}, ${span}: ${when}about ${area}${where}. Borders, neighbours and history.`,
+    `Map of ${withArticle(name)}, ${span}: ${when}about ${area}${where}.`,
+    `Map of ${withArticle(name)}, ${span}: about ${area}${where}.`,
+  ];
+  return versions.find((v) => v.length <= 158) ?? versions[versions.length - 1];
 }
