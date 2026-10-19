@@ -12,6 +12,7 @@ const NAV_LINKS = [
   { href: "/timeline", label: "Timeline" },
   { href: "/browse",   label: "Browse"   },
   { href: "/tour",     label: "Tours"    },
+  { href: "/history-of", label: "Cities" },
   { href: "/about",    label: "About"    },
 ];
 

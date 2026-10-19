@@ -9,6 +9,7 @@ const COLUMNS: { title: string; links: { href: string; label: string; external?:
       { href: "/map", label: "The map" },
       { href: "/timeline", label: "Timeline" },
       { href: "/tour", label: "Guided tours" },
+      { href: "/history-of", label: "Who ruled my city?" },
       { href: "/browse", label: "Browse" },
       { href: "/theme/age-of-exploration", label: "Voyages" },
     ],

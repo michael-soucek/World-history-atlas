@@ -3,6 +3,7 @@ import { CROSSWALK } from "@/data/crosswalk";
 import { PEOPLE_CROSSWALK, EVENTS_CROSSWALK, CULTURES_CROSSWALK } from "@/data/entityCrosswalk";
 import { ERA_LIST, eraSlug } from "@/data/eras";
 import { TOURS } from "@/data/tours";
+import { CITY_LIST } from "@/lib/cityHistory";
 import { EXPLORERS } from "@/data/voyages";
 
 const BASE = "https://www.bordersoftime.com";
@@ -25,6 +26,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE}/timeline`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${BASE}/browse`,   lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${BASE}/tour`,     lastModified: now, changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE}/history-of`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE}/search`,   lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE}/about`,    lastModified: now, changeFrequency: "yearly",  priority: 0.4 },
     { url: `${BASE}/support`,  lastModified: now, changeFrequency: "yearly",  priority: 0.3 },
@@ -90,6 +92,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
+  const cityRoutes: MetadataRoute.Sitemap = CITY_LIST.map(c => ({
+    url: `${BASE}/history-of/${c.slug}`,
+    lastModified: now,
+    changeFrequency: "yearly",
+    priority: 0.6,
+  }));
+
   const explorerRoutes: MetadataRoute.Sitemap = EXPLORERS.map(e => ({
     url: `${BASE}/explorer/${e.slug}`,
     lastModified: now,
@@ -114,6 +123,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...regionRoutes,
     ...themeRoutes,
     ...tourRoutes,
+    ...cityRoutes,
     ...explorerRoutes,
     ...timelineRoutes,
   ];
