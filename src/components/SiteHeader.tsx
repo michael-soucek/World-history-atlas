@@ -13,6 +13,7 @@ const NAV_LINKS = [
   { href: "/browse",   label: "Browse"   },
   { href: "/tour",     label: "Tours"    },
   { href: "/history-of", label: "Cities" },
+  { href: "/play",     label: "Play"     },
   { href: "/about",    label: "About"    },
 ];
 
@@ -60,7 +61,7 @@ export default function SiteHeader({ tone = "paper" }: { tone?: "paper" | "night
           </span>
         </Link>
 
-        <nav className="hidden md:flex items-center gap-7 ml-6 text-[13px] tracking-wide" aria-label="Main">
+        <nav className="hidden md:flex items-center gap-4 lg:gap-5 xl:gap-7 ml-1 xl:ml-6 text-[13px] tracking-wide" aria-label="Main">
           {NAV_LINKS.map(({ href, label }) => {
             const active = pathname === href || pathname.startsWith(href + "/");
             return (
@@ -95,7 +96,7 @@ export default function SiteHeader({ tone = "paper" }: { tone?: "paper" | "night
             aria-label="Search history"
           >
             <Search size={14} strokeWidth={2.25} aria-hidden="true" />
-            <span className="hidden lg:inline pr-6">Search 5,000 years</span>
+            <span className="hidden xl:inline pr-6 whitespace-nowrap">Search 5,000 years</span>
           </Link>
 
           <button

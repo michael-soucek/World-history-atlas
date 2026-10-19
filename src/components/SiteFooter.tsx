@@ -11,6 +11,7 @@ const COLUMNS: { title: string; links: { href: string; label: string; external?:
       { href: "/tour", label: "Guided tours" },
       { href: "/history-of", label: "Who ruled my city?" },
       { href: "/compare", label: "Compare two years" },
+      { href: "/play", label: "Guess the Year" },
       { href: "/browse", label: "Browse" },
       { href: "/theme/age-of-exploration", label: "Voyages" },
     ],

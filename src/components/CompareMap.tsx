@@ -13,18 +13,19 @@ export interface CompareView {
 }
 
 /** Load one year's borders and labels into a map's "t" and "l" sources. */
-async function showYear(map: MapLibreMap, year: number, isCurrent: () => boolean) {
+export async function showYear(map: MapLibreMap, year: number, isCurrent: () => boolean): Promise<boolean> {
   const [borders, labels] = await Promise.all([
     fetch(`/api/snapshot/${year}`).then((r) => (r.ok ? r.json() : null)),
     fetch(`/api/snapshot/${year}/labels`).then((r) => (r.ok ? r.json() : null)),
   ]);
-  if (!borders || !isCurrent()) return;
+  if (!borders || !isCurrent()) return false;
   (map.getSource("t") as GeoJSONSource).setData(borders);
   (map.getSource("l") as GeoJSONSource).setData(labels ?? EMPTY_FC);
+  return true;
 }
 
 /** The border, fill and label layers both halves draw (same look as the tours). */
-function addTerritoryLayers(map: MapLibreMap) {
+export function addTerritoryLayers(map: MapLibreMap) {
   map.addSource("t", { type: "geojson", data: EMPTY_FC });
   map.addSource("l", { type: "geojson", data: EMPTY_FC });
   map.addLayer({ id: "t-fill", type: "fill", source: "t", paint: { "fill-color": ["get", "_color"], "fill-opacity": FILL_OPACITY } });
