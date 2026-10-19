@@ -104,3 +104,23 @@ export function withArticle(name: string): string {
     ? `the ${name}`
     : name;
 }
+
+/**
+ * A place page's search-result description from the atlas's own measurements,
+ * e.g. "See the Pala Empire on 3 of our 53 world maps, from 800 to 1000 CE. At
+ * its largest, in 900 CE, it covers about 1,000,000 km², roughly the size of
+ * Egypt." Undefined when the snapshots never draw it.
+ */
+export function placeDescription(slug: string, name: string): string | undefined {
+  const data = placeMaps(slug);
+  if (!data?.years.length) return undefined;
+  const fmt = (y: number) => (y < 0 ? `${-y} BCE` : `${y} CE`);
+  const { years, peak } = data;
+  const subject = withArticle(name);
+  const first = years.length === 1
+    ? `See ${subject} on our world map for ${fmt(years[0])}.`
+    : `See ${subject} on ${years.length} of our ${MAP_COUNT} world maps, ${fmt(years[0])} to ${fmt(years[years.length - 1])}.`;
+  const like = sizeComparison(peak.km2);
+  const size = `${years.length === 1 ? "It covers" : `At its largest, in ${fmt(peak.year)}, it covers`} about ${formatArea(peak.km2).split(" (")[0]}${like ? `, roughly the size of ${like}` : ""}.`;
+  return `${first} ${size} Borders, neighbours and history.`;
+}

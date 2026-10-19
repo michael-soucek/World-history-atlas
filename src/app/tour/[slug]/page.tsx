@@ -29,14 +29,14 @@ const WAR_SEO: Record<string, { title: string; description: string; about: { nam
   "first-world-war": {
     title: "World War I Map: Every Stage of WW1, 1914–1918",
     description:
-      "An interactive WW1 map, stage by stage: the Western and Eastern Fronts, Gallipoli, Verdun, the Somme, the Middle East and the Armistice, with territory and battles.",
+      "An interactive WW1 map, stage by stage: the Western and Eastern Fronts, Gallipoli, Verdun, the Somme, the Middle East and the Armistice, with every battle.",
     about: { name: "World War I", wiki: "https://en.wikipedia.org/wiki/World_War_I" },
     image: "/og/first-world-war.jpg",
   },
   "second-world-war-europe": {
     title: "World War II Map of Europe: Every Front Line, 1939–1945",
     description:
-      "An interactive WW2 map of Europe and North Africa: Poland, the fall of France, Barbarossa, Stalingrad, El Alamein, Kursk, D-Day and Berlin, with fronts and battles.",
+      "An interactive WW2 map of Europe and North Africa: Poland, the fall of France, Barbarossa, Stalingrad, El Alamein, Kursk, D-Day and Berlin.",
     about: { name: "World War II", wiki: "https://en.wikipedia.org/wiki/World_War_II" },
     image: "/og/second-world-war-europe.jpg",
   },

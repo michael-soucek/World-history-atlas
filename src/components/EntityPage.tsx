@@ -13,6 +13,9 @@ import SupportNudge from "@/components/SupportNudge";
 import ArticleBody, { splitHero } from "@/components/ArticleBody";
 import ArticleImage from "@/components/ArticleImage";
 import PlaceOnOurMaps from "@/components/PlaceOnOurMaps";
+import EntityInTime from "@/components/EntityInTime";
+import { contextDescription, entityContext } from "@/lib/entityContext";
+import { placeDescription } from "@/lib/placeMaps";
 import { getEntityImages } from "@/lib/entityImages";
 import type { PlaceContent, EntityType } from "@/types";
 import type { CrosswalkEntry } from "@/types";
@@ -67,6 +70,7 @@ function isoYear(y: string | number | undefined): string | undefined {
 
 export default async function EntityPage({ content, entry, entityType, baseRoute, map }: EntityPageProps) {
   const images = await getEntityImages(entry.wikidataId, content.imageUrl);
+  const ctx = entityType === "place" ? null : await entityContext(entityType, entry.slug);
   const { hero, rest } = splitHero(content, images);
 
   // A place *is* a territory, so its own QID resolves on the map directly.
@@ -115,7 +119,10 @@ export default async function EntityPage({ content, entry, entityType, baseRoute
     "@type": schemaType,
     ...(eventFields ?? {}),
     name: content.name,
-    description: content.summary ?? undefined,
+    // The site's own description where it has one, not the encyclopedia's opening line.
+    description: (ctx ? contextDescription(ctx) : placeDescription(entry.slug, content.name)) ?? content.summary ?? undefined,
+    ...(entityType === "person" && ctx?.start !== undefined ? { birthDate: isoYear(ctx.start) } : {}),
+    ...(entityType === "person" && ctx?.end !== undefined ? { deathDate: isoYear(ctx.end) } : {}),
     image: content.imageUrl ?? undefined,
     url: `https://www.bordersoftime.com/${baseRoute}/${entry.slug}`,
     sameAs: [
@@ -192,6 +199,7 @@ export default async function EntityPage({ content, entry, entityType, baseRoute
           {entityType === "place" && (
             <PlaceOnOurMaps slug={entry.slug} name={content.name} regionId={mapRegionId} />
           )}
+          {ctx && <EntityInTime ctx={ctx} />}
           <ArticleBody content={content} images={rest} />
         </article>
 

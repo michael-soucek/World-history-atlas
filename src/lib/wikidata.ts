@@ -1,4 +1,6 @@
 import type { PlaceContent, KeyFact, EntityType, WikiSection } from "@/types";
+import { readFile } from "node:fs/promises";
+import { join } from "node:path";
 import { getPrebuiltContentByQid } from "@/lib/prebuiltEntityCache";
 
 const WD_USER_AGENT = "WorldHistoryAtlas/1.0 (content)";
@@ -42,8 +44,27 @@ async function fetchJsonWithRetry(url: string): Promise<Record<string, unknown> 
   return null;
 }
 
-/** Fetch the Wikidata entity JSON for a Q-ID. Cached for 24 h server-side. */
+/**
+ * The local copy of the Wikidata facts pages use (scripts/build-wikidata-store.mjs).
+ * Live requests during a build were rate-limited at random, so a page could
+ * lose its dates, facts and image from one deploy to the next.
+ */
+interface WikidataStore {
+  entities: Record<string, Record<string, unknown>>;
+  images: Record<string, CommonsImageInfo>;
+}
+let storePromise: Promise<WikidataStore> | null = null;
+function loadStore(): Promise<WikidataStore> {
+  storePromise ??= readFile(join(process.cwd(), "public/data/wikidata-store.json"), "utf8")
+    .then((text) => JSON.parse(text) as WikidataStore)
+    .catch(() => ({ entities: {}, images: {} }));
+  return storePromise;
+}
+
+/** The Wikidata entity JSON for a Q-ID: from the local store, else fetched (cached a year). */
 async function fetchEntity(qid: string): Promise<Record<string, unknown>> {
+  const stored = (await loadStore()).entities[qid];
+  if (stored) return stored;
   const url = `https://www.wikidata.org/wiki/Special:EntityData/${qid}.json`;
   const json = await fetchJsonWithRetry(url);
   if (!json) throw new Error(`Wikidata fetch failed for ${qid}`);
@@ -77,6 +98,8 @@ interface CommonsImageInfo {
 
 /** Fetch image info (URL, license, author) for a Wikimedia Commons filename. */
 async function fetchCommonsImageInfo(filename: string): Promise<CommonsImageInfo | undefined> {
+  const stored = (await loadStore()).images[filename];
+  if (stored) return stored;
   // Encode the filename — Commons uses "File:" prefix
   const encodedTitle = encodeURIComponent(`File:${filename}`);
   const apiUrl =

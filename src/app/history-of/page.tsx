@@ -9,7 +9,7 @@ import { buildPageMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = buildPageMetadata({
   title: `Who Ruled It? The History of ${CITY_LIST.length} World Cities on the Map — Borders of Time`,
-  description: "Who ruled Istanbul, Jerusalem or Budapest? Pick a city to see every empire, kingdom and people that held it, from the ancient world to today, on historical maps.",
+  description: "Who ruled Istanbul, Jerusalem or Budapest? Pick a city to see every empire, kingdom and people that held it, from the ancient world to today, on old maps.",
   path: "/history-of",
 });
 

@@ -49,7 +49,7 @@ export function metaDescription(text: string | undefined | null, max = 158): str
 
 /**
  * The date part of an entity tagline ("Historical figure · 1769 CE – 1821 CE")
- * in compact title form: "1769–1821", "500 BCE–330 BCE". Single dates and
+ * in compact title form: "1769–1821", "500–330 BCE". Single dates and
  * "from/until" forms are returned only when `allowSingle` (events).
  */
 export function titleDates(tagline: string | undefined, allowSingle = false): string | undefined {
@@ -58,8 +58,10 @@ export function titleDates(tagline: string | undefined, allowSingle = false): st
   const range = part.match(/^(.+?) – (.+)$/);
   if (range) {
     const [a, b] = [range[1], range[2]];
-    // Drop "CE" when both ends are CE: "1769–1821".
-    return a.endsWith(" CE") && b.endsWith(" CE") ? `${a.slice(0, -3)}–${b.slice(0, -3)}` : `${a}–${b}`;
+    // Drop "CE" when both ends are CE ("1769–1821"); say "BCE" once when both are ("356–323 BCE").
+    if (a.endsWith(" CE") && b.endsWith(" CE")) return `${a.slice(0, -3)}–${b.slice(0, -3)}`;
+    if (a.endsWith(" BCE") && b.endsWith(" BCE")) return `${a.slice(0, -4)}–${b}`;
+    return `${a}–${b}`;
   }
   if (!allowSingle) return undefined;
   return part.replace(/^(from|until) /, "").replace(/ CE$/, "");
@@ -69,24 +71,33 @@ type EntityKind = "place" | "person" | "event" | "culture";
 
 /** What a search for this kind of page is usually after. */
 const ENTITY_TITLE_SUFFIX: Record<EntityKind, string> = {
-  place: "History & Map",
+  place: "Map, Borders & History",
   person: "Biography & Map",
-  event: "History & Map",
+  event: "Map, Timeline & History",
   culture: "History & Map",
 };
 
 /**
  * Metadata for a place / person / event / culture page, e.g.
- * "Napoleon (1769–1821): Biography & Map — Borders of Time".
+ * "Napoleon (1769–1821): Biography & Map — Borders of Time". The description
+ * comes from the site's own data (the map measurements for a place, the
+ * "in time and on the map" section for the rest) rather than the
+ * encyclopedia's first sentence, which made every result look like a copy of
+ * Wikipedia's.
  */
-export function entityMetadata(
+export async function entityMetadata(
   kind: EntityKind,
   slug: string,
   content: { name: string; summary?: string; tagline?: string; imageUrl?: string },
-): Metadata {
+): Promise<Metadata> {
   const dates = titleDates(content.tagline, kind === "event");
   const title = `${content.name}${dates ? ` (${dates})` : ""}: ${ENTITY_TITLE_SUFFIX[kind]} — Borders of Time`;
+  const { placeDescription } = await import("@/lib/placeMaps");
+  const { contextDescription, entityContext } = await import("@/lib/entityContext");
+  const ctx = kind === "place" ? null : await entityContext(kind, slug);
+  const own = kind === "place" ? placeDescription(slug, content.name) : ctx ? contextDescription(ctx) : undefined;
   const description =
+    metaDescription(own) ??
     metaDescription(content.summary) ??
     `${content.name} on the interactive history map: when and where it happened, with key facts and pictures.`;
   return {
