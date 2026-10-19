@@ -21,6 +21,34 @@ const META_DESCRIPTION_OVERRIDES: Record<string, string> = {
     "For over two thousand years, Chinese history moved through unification, flourishing, decline, and renewal — a succession of dynasties that shaped East Asia.",
 };
 
+/**
+ * Search titles and social images for the war tours, written for what people
+ * search ("WW1 map", "World War 2 front lines") rather than the on-page title.
+ */
+const WAR_SEO: Record<string, { title: string; description: string; about: { name: string; wiki: string }; image: string }> = {
+  "first-world-war": {
+    title: "World War I Map: Every Stage of WW1, 1914–1918",
+    description:
+      "An interactive WW1 map, stage by stage: the Western and Eastern Fronts, Gallipoli, Verdun, the Somme, the Middle East and the Armistice, with territory and battles.",
+    about: { name: "World War I", wiki: "https://en.wikipedia.org/wiki/World_War_I" },
+    image: "/og/first-world-war.jpg",
+  },
+  "second-world-war-europe": {
+    title: "World War II Map of Europe: Every Front Line, 1939–1945",
+    description:
+      "An interactive WW2 map of Europe and North Africa: Poland, the fall of France, Barbarossa, Stalingrad, El Alamein, Kursk, D-Day and Berlin, with fronts and battles.",
+    about: { name: "World War II", wiki: "https://en.wikipedia.org/wiki/World_War_II" },
+    image: "/og/second-world-war-europe.jpg",
+  },
+  "second-world-war-pacific": {
+    title: "WW2 Pacific War Map: Japan and the War in Asia, 1937–1945",
+    description:
+      "An interactive map of WW2 in Asia and the Pacific: China, Pearl Harbor, Midway, Burma, island hopping, Okinawa and Hiroshima, with the territory each side held.",
+    about: { name: "Pacific War", wiki: "https://en.wikipedia.org/wiki/Pacific_War" },
+    image: "/og/second-world-war-pacific.jpg",
+  },
+};
+
 const fmtYear = (y: number) => (y < 0 ? `${Math.abs(y).toLocaleString("en-US")} BCE` : `${y}`);
 
 /** "1095–1291", "336–323 BCE", "300,000 BCE–20,000 BCE": the span a tour covers. */
@@ -39,6 +67,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const tour = getTourBySlug(slug);
   if (!tour) return { title: "Tour not found — Borders of Time" };
+  const war = WAR_SEO[slug];
+  if (war) return buildPageMetadata({ title: war.title, description: war.description, path: `/tour/${slug}`, type: "article", imageUrl: war.image });
   return buildPageMetadata({
     // Titles that already have a subtitle ("Out of Africa: How Humans…") skip the extra one.
     title: tour.title.includes(":")
@@ -57,6 +87,7 @@ export default async function TourPage({ params }: Props) {
   const { slug } = await params;
   const tour = getTourBySlug(slug);
   if (!tour) notFound();
+  const war = WAR_SEO[tour.slug];
 
   return (
     <>
@@ -70,11 +101,22 @@ export default async function TourPage({ params }: Props) {
               description: tour.description,
               url: `${SITE_URL}/tour/${tour.slug}`,
               timeRequired: `PT${tour.duration}M`,
+              ...(war
+                ? {
+                    about: { "@type": "Thing", name: war.about.name, sameAs: war.about.wiki },
+                    image: `${SITE_URL}${war.image}`,
+                    isPartOf: { "@type": "CollectionPage", name: "The world wars on the map", url: `${SITE_URL}/world-wars` },
+                  }
+                : {}),
               learningResourceType: "Guided tour",
               isAccessibleForFree: true,
               publisher: { "@type": "Organization", name: "Borders of Time", url: SITE_URL },
             },
-            breadcrumbLd([["Guided tours", "/tour"], [tour.title, `/tour/${tour.slug}`]]),
+            breadcrumbLd(
+              war
+                ? [["Guided tours", "/tour"], ["The world wars", "/world-wars"], [tour.title, `/tour/${tour.slug}`]]
+                : [["Guided tours", "/tour"], [tour.title, `/tour/${tour.slug}`]],
+            ),
           ]}
         />
         <TourPlayer tour={tour} />
@@ -110,6 +152,12 @@ function TourTranscript({ tour }: { tour: Tour }) {
               </p>
               <h2 className="mt-1 font-display text-xl sm:text-2xl tracking-tight text-ink">{step.title}</h2>
               <p className="mt-2 max-w-3xl text-[16px] leading-relaxed text-ink/75">{step.text}</p>
+              {step.markers?.some((m) => m.kind === "battle") ? (
+                <p className="mt-2 max-w-3xl text-[14px] leading-relaxed text-ink/55">
+                  <span className="label text-ink/40 !text-[10px] mr-2">Battles</span>
+                  {step.markers.filter((m) => m.kind === "battle").map((m) => m.label).join(" · ")}
+                </p>
+              ) : null}
             </li>
           ))}
         </ol>

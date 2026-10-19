@@ -113,6 +113,12 @@ export default function TourPlayer({ tour }: TourPlayerProps) {
           <nav className="label flex items-center gap-2.5 text-ink/40 mb-8" aria-label="Breadcrumb">
             <Link href="/tour" className="hover:text-accent transition-colors">Guided tours</Link>
             <span aria-hidden="true">/</span>
+            {tour.sides ? (
+              <>
+                <Link href="/world-wars" className="hover:text-accent transition-colors">The world wars</Link>
+                <span aria-hidden="true">/</span>
+              </>
+            ) : null}
             <span className="text-ink/60">{tour.steps.length} stops</span>
           </nav>
 

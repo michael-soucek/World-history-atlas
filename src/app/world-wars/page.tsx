@@ -10,10 +10,11 @@ import { buildPageMetadata } from "@/lib/seo";
 import { JsonLd, breadcrumbLd, collectionLd } from "@/lib/jsonLd";
 
 export const metadata: Metadata = buildPageMetadata({
-  title: "The World Wars on the Map: Every Stage of WWI and WWII — Borders of Time",
+  title: "WW1 and WW2 Maps: Every Front Line and Battle — Borders of Time",
   description:
-    "Follow the First and Second World Wars stage by stage on an animated map: front lines, occupied territory, offensives and the battles that decided them.",
+    "Interactive maps of World War I and World War II: watch the front lines move stage by stage, with occupied territory, offensives and 120 battles marked.",
   path: "/world-wars",
+  imageUrl: "/og/second-world-war-europe.jpg",
 });
 
 /** What each war's section says above its tours: the shape of the war in brief, and pointers onward. */
@@ -152,7 +153,7 @@ function TourStages({ tour }: { tour: Tour }) {
       <div className="mt-6 grid lg:grid-cols-12 gap-8 lg:gap-12">
         <ol className="lg:col-span-7">
           {tour.steps.map((step, i) => (
-            <li key={i} className="border-b border-ink/10">
+            <li key={i} id={`${tour.slug}-${i + 1}`} className="border-b border-ink/10">
               <Link href={stopHref(tour, i)} className="group grid grid-cols-[2rem_1fr] sm:grid-cols-[2rem_1fr_auto] items-baseline gap-x-3 py-3">
                 <span className="font-mono text-[11px] text-ink/35 tabular-nums">{String(i + 1).padStart(2, "0")}</span>
                 <span className="text-[15px] leading-snug text-ink/75 group-hover:text-accent transition-colors">{step.title}</span>

@@ -5,7 +5,7 @@
  */
 import Link from "next/link";
 import { JsonLd, breadcrumbLd } from "@/lib/jsonLd";
-import { citiesHeldBy, toursFeaturing } from "@/lib/relatedLinks";
+import { citiesHeldBy, toursFeaturing, toursOfEvent } from "@/lib/relatedLinks";
 import { ArrowRight, ArrowUpRight, MapPin } from "lucide-react";
 import RelatedResources from "@/components/RelatedResources";
 import AdSlot from "@/components/AdSlot";
@@ -239,6 +239,7 @@ export default async function EntityPage({ content, entry, entityType, baseRoute
             )}
 
             {entityType === "place" && <PlaceCrossLinks entry={entry} name={content.name} />}
+            {entityType === "event" && <EventTourLinks slug={entry.slug} />}
 
             {/* Further reading / viewing — hidden entirely when none are curated yet */}
             <RelatedResources resourceKey={`${entityType}:${entry.slug}`} />
@@ -258,6 +259,27 @@ export default async function EntityPage({ content, entry, entityType, baseRoute
       </div>
     </div>
     </>
+  );
+}
+
+/** Map tours of this event, with the world-wars hub; hidden for events without one. */
+function EventTourLinks({ slug }: { slug: string }) {
+  const tours = toursOfEvent(slug);
+  if (!tours.length) return null;
+  return (
+    <div>
+      <p className="label text-ink/40 !text-[10px] mb-2">On the map, stage by stage</p>
+      <ul className="space-y-1.5">
+        {tours.map((t) => (
+          <li key={t.slug}>
+            <Link href={`/tour/${t.slug}`} className="text-sm text-ink/80 hover:text-accent transition-colors">{t.title}</Link>
+          </li>
+        ))}
+        <li>
+          <Link href="/world-wars" className="text-sm text-accent hover:underline underline-offset-4">The world wars: every stage and battle →</Link>
+        </li>
+      </ul>
+    </div>
   );
 }
 

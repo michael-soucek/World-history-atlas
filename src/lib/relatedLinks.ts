@@ -25,13 +25,30 @@ export function citiesHeldBy(slug: string): City[] {
   return cityIndex.get(slug) ?? [];
 }
 
-/** Tours with a stop that highlights this state (by territory name or map region id). */
+/**
+ * Tours with a stop that highlights this state (by territory name or map
+ * region id), or, in the war tours, shades it as one side's own territory.
+ */
 export function toursFeaturing(entry: CrosswalkEntry): Tour[] {
   return TOURS.filter((tour) =>
     tour.steps.some((step) => {
       const year = step.mapState.mapYear ?? step.mapState.year;
       if (step.mapState.regionId && [entry.wikidataId, entry.mapRegionId].includes(step.mapState.regionId)) return true;
-      return (step.highlight ?? []).some((name) => resolveFeature(name, name, year)?.slug === entry.slug);
+      if ((step.highlight ?? []).some((name) => resolveFeature(name, name, year)?.slug === entry.slug)) return true;
+      const zoneNames = (step.zones ?? []).filter((z) => !z.occupied).flatMap((z) => z.countries ?? []);
+      return !!tour.zoneYear && zoneNames.some((name) => resolveFeature(name, name, tour.zoneYear!)?.slug === entry.slug);
     }),
   );
+}
+
+/** Map tours of an event, for the event's page (the world wars and their parts). */
+const EVENT_TOURS: Record<string, string[]> = {
+  "world-war-i": ["first-world-war"],
+  "russian-revolution": ["first-world-war"],
+  "world-war-ii": ["second-world-war-europe", "second-world-war-pacific"],
+  holocaust: ["second-world-war-europe"],
+};
+
+export function toursOfEvent(slug: string): Tour[] {
+  return (EVENT_TOURS[slug] ?? []).flatMap((s) => TOURS.filter((t) => t.slug === s));
 }

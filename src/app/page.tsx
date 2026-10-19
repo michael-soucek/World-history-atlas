@@ -318,6 +318,10 @@ export default async function HomePage() {
                 );
               })}
             </ol>
+            <Link href="/world-wars" className="group mt-8 inline-flex items-center gap-2 text-[15px] text-parchment/75 hover:text-glow transition-colors">
+              New: World War I and World War II, stage by stage, with every front line and battle
+              <ArrowUpRight size={16} className="group-hover:-translate-y-0.5 group-hover:translate-x-0.5 transition-transform" aria-hidden="true" />
+            </Link>
           </div>
         </section>
 
