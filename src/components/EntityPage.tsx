@@ -12,6 +12,7 @@ import AdSlot from "@/components/AdSlot";
 import SupportNudge from "@/components/SupportNudge";
 import ArticleBody, { splitHero } from "@/components/ArticleBody";
 import ArticleImage from "@/components/ArticleImage";
+import PlaceOnOurMaps from "@/components/PlaceOnOurMaps";
 import { getEntityImages } from "@/lib/entityImages";
 import type { PlaceContent, EntityType } from "@/types";
 import type { CrosswalkEntry } from "@/types";
@@ -149,6 +150,9 @@ export default async function EntityPage({ content, entry, entityType, baseRoute
       {/* ── Article + sidebar ── */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14 sm:py-20 grid grid-cols-1 lg:grid-cols-12 gap-14 lg:gap-8">
         <article className="lg:col-span-7 xl:col-start-2 xl:col-span-7 min-w-0">
+          {entityType === "place" && (
+            <PlaceOnOurMaps slug={entry.slug} name={content.name} regionId={mapRegionId} />
+          )}
           <ArticleBody content={content} images={rest} />
         </article>
 
