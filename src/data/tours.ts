@@ -1,6 +1,7 @@
 import type { EntityType } from "@/types";
 import { EVENT_TOURS } from "@/data/eventTours";
 import { MOVEMENT_TOURS } from "@/data/movementTours";
+import { WAR_TOURS } from "@/data/warTours";
 
 export interface TourMapState {
   /** The year shown on the map, and the borders drawn unless mapYear says otherwise. */
@@ -50,8 +51,39 @@ export interface TourMarker {
   kind?: "battle" | "place";
 }
 
+/** One side in a war, for tours that shade who holds what (see TourZone). */
+export interface TourSide {
+  key: string;
+  /** Shown in the legend, e.g. "Axis and allies". */
+  name: string;
+  color: string;
+}
+
+/**
+ * Territory one side holds at a stop. The shapes are worked out ahead of time
+ * by scripts/build-war-zones.mts from the tour's `zoneYear` snapshot, so
+ * coastlines and borders match the map: `countries` take whole snapshot
+ * shapes, `area` is a rough hand-drawn outline (a front line, usually)
+ * trimmed to land, or to `within` when given. Zones are claimed in order:
+ * a zone never covers ground an earlier zone at the same stop already took.
+ */
+export interface TourZone {
+  side: string;
+  /** Held by force outside the side's own pre-war borders: drawn hatched. */
+  occupied?: boolean;
+  /** A name drawn on the map, e.g. "Vichy France". */
+  label?: string;
+  countries?: string[];
+  area?: [number, number][];
+  within?: string[];
+  /** Holes cut out of the zone, e.g. a besieged city still holding out. */
+  minus?: [number, number][][];
+}
+
 export interface TourStep {
   title: string;
+  /** A finer date than the year, e.g. "June 1941", shown with the stop. */
+  date?: string;
   text: string;
   /** Optional Wikimedia Commons image URL */
   imageUrl?: string;
@@ -67,6 +99,8 @@ export interface TourStep {
    * regionId, which some snapshot shapes lack or have wrong.
    */
   highlight?: string[];
+  /** Who holds what at this stop, for war tours (needs the tour's `sides`). */
+  zones?: TourZone[];
 }
 
 export interface Tour {
@@ -81,6 +115,10 @@ export interface Tour {
   coverImageUrl?: string;
   /** Keep earlier stops' arrows on the map, faded, so a long journey builds up. */
   trail?: boolean;
+  /** The sides in a war tour, for the territory shading and its legend. */
+  sides?: TourSide[];
+  /** The snapshot whose country names and coastlines the zones are cut from. */
+  zoneYear?: number;
   steps: TourStep[];
 }
 
@@ -702,7 +740,7 @@ export const TOURS: Tour[] = [
 
 /** Look up a tour by slug. */
 // Tours with migration and campaign arrows live in movementTours.ts.
-TOURS.push(...MOVEMENT_TOURS, ...EVENT_TOURS);
+TOURS.push(...MOVEMENT_TOURS, ...EVENT_TOURS, ...WAR_TOURS);
 
 export function getTourBySlug(slug: string): Tour | undefined {
   return TOURS.find(t => t.slug === slug);

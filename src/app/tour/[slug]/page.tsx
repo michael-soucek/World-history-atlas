@@ -106,7 +106,7 @@ function TourTranscript({ tour }: { tour: Tour }) {
           {tour.steps.map((step, i) => (
             <li key={i} className="py-6 border-t border-ink/10">
               <p className="font-mono text-[11px] tracking-wide text-accent">
-                Stop {String(i + 1).padStart(2, "0")} · {fmtYear(step.mapState.year)}{step.mapState.year > 0 ? " CE" : ""}
+                Stop {String(i + 1).padStart(2, "0")} · {step.date ?? `${fmtYear(step.mapState.year)}${step.mapState.year > 0 ? " CE" : ""}`}
               </p>
               <h2 className="mt-1 font-display text-xl sm:text-2xl tracking-tight text-ink">{step.title}</h2>
               <p className="mt-2 max-w-3xl text-[16px] leading-relaxed text-ink/75">{step.text}</p>

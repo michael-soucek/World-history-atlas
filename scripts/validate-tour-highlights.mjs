@@ -11,7 +11,7 @@ import { readFileSync } from "node:fs";
 const SITE = process.env.SITE ?? "http://localhost:3000";
 
 // Read the tour data as text: pull out each stop's year and highlight list.
-const TOUR_FILES = ["tours.ts", "movementTours.ts", "eventTours.ts"];
+const TOUR_FILES = ["tours.ts", "movementTours.ts", "eventTours.ts", "warTours.ts"];
 const source = TOUR_FILES.map((f) => readFileSync(new URL(`../src/data/${f}`, import.meta.url), "utf8")).join("\n");
 // A stop draws mapYear's borders when it has one, otherwise year's.
 const stops = [...source.matchAll(/mapState: \{ year: (-?\d+)(?:, mapYear: (-?\d+))?[^}]*\},\s*\n\s*highlight: (\[[^\]]*\])/g)].map((m) => ({

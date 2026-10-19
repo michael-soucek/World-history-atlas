@@ -68,6 +68,17 @@ export default function TourListPage() {
             </div>
           </div>
 
+          <Link
+            href="/world-wars"
+            className="group mb-10 flex items-center justify-between gap-4 border border-ink/15 rounded-md px-5 py-4 hover:border-accent transition-colors"
+          >
+            <span>
+              <span className="block font-display text-xl tracking-tight text-ink group-hover:text-accent transition-colors">The world wars, stage by stage</span>
+              <span className="block mt-1 text-[14px] text-ink/55">Front lines, occupied territory and every major battle of World War I and World War II.</span>
+            </span>
+            <ArrowUpRight size={20} className="shrink-0 text-ink/30 group-hover:text-accent transition-colors" aria-hidden="true" />
+          </Link>
+
           <ol className="border-t border-ink/80">
             {TOURS_BY_DATE.map((tour, i) => {
               const years = tour.steps.map(s => s.mapState.year);

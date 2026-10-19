@@ -32,6 +32,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: `${BASE}/browse?type=${t}`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.6,
     })),
     { url: `${BASE}/tour`,     lastModified: now, changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE}/world-wars`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${BASE}/history-of`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE}/play`, lastModified: now, changeFrequency: "daily", priority: 0.7 },
     { url: `${BASE}/compare`, lastModified: now, changeFrequency: "monthly", priority: 0.6 },

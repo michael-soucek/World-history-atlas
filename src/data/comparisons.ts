@@ -18,6 +18,7 @@ export const COMPARISONS: Comparison[] = [
   { slug: "napoleon", label: "Europe before and after Napoleon", left: 1783, right: 1815, view: { lat: 50, lng: 12, zoom: 3.6 } },
   { slug: "scramble-for-africa", label: "The Scramble for Africa", left: 1880, right: 1914, view: { lat: 3, lng: 18, zoom: 2.8 } },
   { slug: "world-war-one", label: "Europe before and after World War I", left: 1914, right: 1920, view: { lat: 50, lng: 18, zoom: 3.6 } },
+  { slug: "world-war-two", label: "Europe before and after World War II", left: 1938, right: 1945, view: { lat: 50, lng: 18, zoom: 3.6 } },
   { slug: "decolonisation", label: "Decolonisation, 1938 to 1994", left: 1938, right: 1994, view: { lat: 10, lng: 40, zoom: 1.8 } },
   { slug: "ussr", label: "The fall of the Soviet Union", left: 1985, right: 1994, view: { lat: 52, lng: 50, zoom: 2.6 } },
 ];

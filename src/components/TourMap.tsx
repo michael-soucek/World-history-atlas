@@ -62,11 +62,35 @@ function battleImage(size = 40) {
 }
 
 /**
+ * Diagonal stripes in one colour on a clear background, for territory held
+ * by occupation. Fill patterns can't be tinted per feature, so each side's
+ * colour gets its own image (named in the zone data, e.g. "hatch-2f2b28").
+ */
+function hatchImage(color: string, size = 16) {
+  const canvas = document.createElement("canvas");
+  canvas.width = canvas.height = size;
+  const ctx = canvas.getContext("2d")!;
+  ctx.strokeStyle = color;
+  ctx.globalAlpha = 0.75;
+  ctx.lineWidth = 2.2;
+  ctx.lineCap = "square";
+  for (const offset of [-size, 0, size]) {
+    ctx.beginPath();
+    ctx.moveTo(offset, size);
+    ctx.lineTo(offset + size, 0);
+    ctx.stroke();
+  }
+  return ctx.getImageData(0, 0, size, size);
+}
+
+/**
  * The map inside a guided tour. Each step sets the year, camera and the
  * territory to highlight; the map crossfades borders and flies to the view.
  * Steps can also draw arrows (migrations, raids, voyages…) that animate along
  * their path, and labelled markers. With `trail`, earlier steps' arrows stay
- * on the map, faded. Read-only apart from zooming, so the narration stays in charge.
+ * on the map, faded. War tours add `zones`: who holds what at each stop,
+ * shaded by side (hatched where occupied), over muted base borders.
+ * Read-only apart from zooming, so the narration stays in charge.
  */
 export default function TourMap({
   state,
@@ -74,6 +98,8 @@ export default function TourMap({
   trail = [],
   markers = [],
   highlight = [],
+  zonesUrl = null,
+  muted = false,
 }: {
   state: TourMapState;
   /** Arrows for the current step; they draw themselves in. */
@@ -83,12 +109,18 @@ export default function TourMap({
   markers?: TourMarker[];
   /** Territory names to highlight in this year's snapshot. */
   highlight?: string[];
+  /** Who holds what at this stop (from scripts/build-war-zones.mts), or null for none. */
+  zonesUrl?: string | null;
+  /** Fade the base map's colours so war zones read clearly over it. */
+  muted?: boolean;
 }) {
   const containerRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<MapLibreMap | null>(null);
   const slotRef = useRef<Slot>("a");
   const yearRef = useRef<number | null>(null);
   const cacheRef = useRef(new Map<number, { borders: FC; labels: FC | null }>());
+  const zoneCacheRef = useRef(new Map<string, FC>());
+  const baseOpacity = muted ? FILL_OPACITY * 0.04 : FILL_OPACITY;
   const [ready, setReady] = useState(false);
   // Tour cameras are set for a wide screen; pull back on narrow maps.
   const zoomShift = useRef(0);
@@ -130,6 +162,21 @@ export default function TourMap({
         map.addSource("hl", { type: "geojson", data: EMPTY_FC });
         map.addLayer({ id: "hl-fill", type: "fill", source: "hl", paint: { "fill-color": MAP.highlight, "fill-opacity": 0.28 } });
         map.addLayer({ id: "hl-line", type: "line", source: "hl", paint: { "line-color": MAP.highlight, "line-width": 2.5 } });
+        // War zones: a wash of each side's colour, stripes where occupied, a firm edge (the front).
+        map.addSource("zones", { type: "geojson", data: EMPTY_FC });
+        map.addLayer({
+          id: "zone-fill", type: "fill", source: "zones", filter: ["!=", ["geometry-type"], "Point"],
+          paint: { "fill-color": ["get", "color"], "fill-opacity": ["case", ["get", "occupied"], 0.2, 0.42] },
+        });
+        map.addLayer({
+          id: "zone-hatch", type: "fill", source: "zones", filter: ["all", ["!=", ["geometry-type"], "Point"], ["get", "occupied"]],
+          paint: { "fill-pattern": ["get", "pattern"] },
+        });
+        map.addLayer({
+          id: "zone-line", type: "line", source: "zones", filter: ["!=", ["geometry-type"], "Point"],
+          layout: { "line-join": "round" },
+          paint: { "line-color": ["get", "color"], "line-width": ["interpolate", ["linear"], ["zoom"], 2, 0.8, 6, 1.8], "line-opacity": 0.85 },
+        });
         // Arrow and marker layers are added after the territory labels (below), so they sit on top.
         for (const slot of ["a", "b"] as Slot[]) {
           map.addLayer({
@@ -153,6 +200,17 @@ export default function TourMap({
             },
           });
         }
+        map.addLayer({
+          id: "zone-label", type: "symbol", source: "zones", filter: ["==", ["geometry-type"], "Point"],
+          layout: {
+            "text-field": ["upcase", ["get", "label"]],
+            "text-font": ["Open Sans Regular", "Arial Unicode MS Regular"],
+            "text-size": ["interpolate", ["linear"], ["zoom"], 2, 10, 6, 13],
+            "text-letter-spacing": 0.12,
+            "text-max-width": 9,
+          },
+          paint: { "text-color": ["get", "color"], "text-halo-color": MAP.labelHalo, "text-halo-width": 1.6 },
+        });
         addRouteLayers(map);
         setReady(true);
       });
@@ -192,7 +250,7 @@ export default function TourMap({
         const next: Slot = slotRef.current === "a" ? "b" : "a";
         (m.getSource(`t-${next}`) as GeoJSONSource).setData(data.borders as GeoJSON.FeatureCollection);
         (m.getSource(`l-${next}`) as GeoJSONSource).setData((data.labels ?? EMPTY_FC) as GeoJSON.FeatureCollection);
-        m.setPaintProperty(`t-fill-${next}`, "fill-opacity", FILL_OPACITY);
+        m.setPaintProperty(`t-fill-${next}`, "fill-opacity", baseOpacity);
         m.setPaintProperty(`t-line-${next}`, "line-opacity", 0.35);
         m.setPaintProperty(`l-${next}`, "text-opacity", 1);
         const prev = slotRef.current;
@@ -215,7 +273,32 @@ export default function TourMap({
     return () => {
       cancelled = true;
     };
-  }, [ready, state.year, state.mapYear, state.lat, state.lng, state.zoom, state.regionId, highlightKey]);
+  }, [ready, state.year, state.mapYear, state.lat, state.lng, state.zoom, state.regionId, highlightKey, baseOpacity]);
+
+  // War zones: fetched per stop and cached, with a striped pattern made for
+  // each occupying side's colour the first time it appears.
+  useEffect(() => {
+    const map = mapRef.current;
+    if (!ready || !map) return;
+    let cancelled = false;
+    (async () => {
+      let data: FC | undefined = zonesUrl ? zoneCacheRef.current.get(zonesUrl) : { type: "FeatureCollection", features: [] };
+      if (!data && zonesUrl) {
+        data = await fetch(zonesUrl).then(r => (r.ok ? r.json() : null)) ?? undefined;
+        if (data) zoneCacheRef.current.set(zonesUrl, data);
+      }
+      if (cancelled || !data || !mapRef.current) return;
+      const m = mapRef.current;
+      for (const f of data.features) {
+        const pattern = f.properties?.pattern;
+        if (typeof pattern === "string" && !m.hasImage(pattern)) m.addImage(pattern, hatchImage(String(f.properties?.color)), { pixelRatio: 2 });
+      }
+      (m.getSource("zones") as GeoJSONSource).setData(data as GeoJSON.FeatureCollection);
+    })();
+    return () => {
+      cancelled = true;
+    };
+  }, [ready, zonesUrl]);
 
   // Arrows: earlier steps' arrows appear at once (faded); this step's arrows
   // draw themselves from start to arrowhead. Visitors who ask for reduced

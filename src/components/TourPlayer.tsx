@@ -6,7 +6,7 @@ import dynamic from "next/dynamic";
 import { ArrowLeft, ArrowRight, Pause, Play, Maximize2 } from "lucide-react";
 import { ReadAloudButton } from "@/components/ReadAloudButton";
 import SupportNudge from "@/components/SupportNudge";
-import type { Tour, TourRoute } from "@/data/tours";
+import type { Tour, TourRoute, TourSide, TourStep } from "@/data/tours";
 import { ROUTE_STYLE } from "@/lib/tourRoutes";
 
 // MapLibre must never be imported on the server.
@@ -31,6 +31,15 @@ export default function TourPlayer({ tour }: TourPlayerProps) {
 
   const current = tour.steps[step];
   const last = tour.steps.length - 1;
+
+  // Deep links from the world-wars hub open at a given stop: /tour/x?stop=5.
+  // (A 0ms timer rather than setState in the effect body, as below.)
+  useEffect(() => {
+    const n = Number(new URLSearchParams(window.location.search).get("stop"));
+    if (!Number.isInteger(n) || n < 2 || n > tour.steps.length) return;
+    const timer = setTimeout(() => setStep(n - 1), 0);
+    return () => clearTimeout(timer);
+  }, [tour.steps.length]);
 
   // Auto-advance when playing. The last-step case still stops "immediately"
   // to the user (a 0ms timer, not a synchronous setState in the effect body —
@@ -71,7 +80,15 @@ export default function TourPlayer({ tour }: TourPlayerProps) {
     <div className="lg:grid lg:grid-cols-[minmax(0,1fr)_440px] xl:grid-cols-[minmax(0,1fr)_500px]">
       {/* ── The map ── */}
       <div className="relative h-[46svh] min-h-[300px] lg:h-[calc(100svh-4rem)] lg:sticky lg:top-16 bg-[#cdd9e5] overflow-hidden">
-        <TourMap state={ms} routes={current.routes} trail={trail} markers={current.markers} highlight={current.highlight} />
+        <TourMap
+          state={ms}
+          routes={current.routes}
+          trail={trail}
+          markers={current.markers}
+          highlight={current.highlight}
+          zonesUrl={current.zones?.length ? `/data/war-zones/${tour.slug}/${step}.json` : null}
+          muted={!!tour.sides}
+        />
         <div className="absolute left-4 sm:left-6 bottom-4 sm:bottom-6 pointer-events-none select-none">
           <p
             key={ms.year}
@@ -127,10 +144,11 @@ export default function TourPlayer({ tour }: TourPlayerProps) {
           {/* Current stop */}
           <article key={step} className="mt-8 animate-[year-in_0.6s_cubic-bezier(.2,.7,.2,1)_both]" aria-live="polite">
             <p className="font-mono text-[11px] tracking-wider text-accent tabular-nums">
-              Stop {String(step + 1).padStart(2, "0")} · {y.n} {y.e}
+              Stop {String(step + 1).padStart(2, "0")} · {current.date ?? `${y.n} ${y.e}`}
             </p>
             <h2 className="mt-2 font-display text-3xl leading-tight tracking-tight text-ink">{current.title}</h2>
             <p className="mt-4 font-text text-[18px] leading-[1.7] text-ink/85">{current.text}</p>
+            {current.zones?.length && tour.sides ? <ZoneLegend sides={tour.sides} step={current} /> : null}
             {current.routes?.length || current.markers?.some(m => m.kind === "battle") ? (
               <RouteLegend routes={current.routes ?? []} battles={current.markers?.some(m => m.kind === "battle") ?? false} />
             ) : null}
@@ -188,7 +206,7 @@ export default function TourPlayer({ tour }: TourPlayerProps) {
                     <span className={`text-[15px] leading-snug transition-colors ${i === step ? "text-ink font-medium" : "text-ink/55 group-hover:text-ink"}`}>
                       {s.title}
                     </span>
-                    <span className="font-mono text-[11px] text-ink/40 tabular-nums">{sy.n} {sy.e}</span>
+                    <span className="font-mono text-[11px] text-ink/40 tabular-nums text-right">{s.date ?? `${sy.n} ${sy.e}`}</span>
                   </button>
                 </li>
               );
@@ -196,6 +214,45 @@ export default function TourPlayer({ tour }: TourPlayerProps) {
           </ol>
         </div>
       </div>
+    </div>
+  );
+}
+
+/** Who holds what: one swatch per side at this stop, striped where it occupies land. */
+function ZoneLegend({ sides, step }: { sides: TourSide[]; step: TourStep }) {
+  const present = sides.filter(side => step.zones?.some(z => z.side === side.key));
+  return (
+    <div className="mt-6 border-t border-ink/10 pt-4">
+      <p className="label text-ink/40">Who holds what</p>
+      <ul className="mt-2.5 space-y-2">
+        {present.map(side => {
+          const occupies = step.zones?.some(z => z.side === side.key && z.occupied);
+          return (
+            <li key={side.key} className="flex items-center gap-3 text-[14px] leading-snug text-ink/75">
+              <span className="flex shrink-0 gap-1" aria-hidden="true">
+                <svg width="15" height="12" viewBox="0 0 15 12">
+                  <rect x="0.5" y="0.5" width="14" height="11" fill={side.color} fillOpacity="0.4" stroke={side.color} />
+                </svg>
+                <svg width="15" height="12" viewBox="0 0 15 12" className={occupies ? "" : "invisible"}>
+                  <defs>
+                    <pattern id={`hatch-legend-${side.key}`} width="4" height="4" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+                      <line x1="0" y1="0" x2="0" y2="4" stroke={side.color} strokeWidth="1.6" />
+                    </pattern>
+                  </defs>
+                  <rect x="0.5" y="0.5" width="14" height="11" fill={`url(#hatch-legend-${side.key})`} stroke={side.color} />
+                </svg>
+              </span>
+              <span>
+                {side.name}
+                {occupies ? <span className="text-ink/40"> · striped where occupied</span> : null}
+              </span>
+            </li>
+          );
+        })}
+      </ul>
+      <p className="mt-2.5 text-[12px] leading-relaxed text-ink/45">
+        Unshaded: neutral or out of the war. Front lines are simplified.
+      </p>
     </div>
   );
 }
