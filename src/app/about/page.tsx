@@ -5,6 +5,7 @@ import SiteFooter from "@/components/SiteFooter";
 import { ReadAloudButton } from "@/components/ReadAloudButton";
 import SupportButton from "@/components/SupportButton";
 import { buildPageMetadata } from "@/lib/seo";
+import { BORDER_FIXES } from "@/data/borderFixes";
 
 export const metadata: Metadata = buildPageMetadata({
   title: "About the Data — Borders of Time",
@@ -244,6 +245,9 @@ export default function AboutPage() {
           </ul>
         </section>
 
+        {/* Corrections */}
+        <BorderCorrections />
+
         {/* Contributing */}
         <section>
           <div className="flex items-center gap-3 mb-5">
@@ -260,7 +264,9 @@ export default function AboutPage() {
             >
               aourednik/historical-basemaps
             </a>{" "}
-            per the project&rsquo;s contributing guidelines.
+            per the project&rsquo;s contributing guidelines, or{" "}
+            <Link href="/contact" className="text-accent hover:text-accent/80 underline">tell us</Link>{" "}
+            and we&rsquo;ll correct it here.
           </p>
         </section>
 
@@ -300,5 +306,47 @@ export default function AboutPage() {
     </main>
     <SiteFooter />
     </>
+  );
+}
+
+const fmtYear = (y: number) => (y < 0 ? `${-y} BCE` : `${y}`);
+
+/**
+ * Every correction the site applies to the source borders
+ * (src/data/borderFixes.ts), grouped by map year, each with its reason.
+ */
+function BorderCorrections() {
+  const byYear = new Map<number, string[]>();
+  for (const fix of BORDER_FIXES) {
+    for (const year of fix.years) byYear.set(year, [...(byYear.get(year) ?? []), fix.why]);
+  }
+  const years = [...byYear.keys()].sort((a, b) => a - b);
+  return (
+    <section id="corrections">
+      <div className="flex items-center gap-3 mb-5">
+        <h2 className="font-display text-3xl tracking-tight text-ink">Our Corrections to the Borders</h2>
+        <div className="flex-1 h-px bg-paper" />
+      </div>
+      <p className="text-ink/70 text-sm leading-relaxed">
+        The source maps are an extraordinary open resource, but some snapshots carry over names and borders
+        from an earlier year, or leave states unnamed. We check every map against the historical record, in
+        particular which state held each of the 163 cities on our &ldquo;Who ruled it?&rdquo; pages in every year,
+        and correct what we find before anything on the site uses it. {BORDER_FIXES.length} corrections
+        currently apply across {years.length} maps:
+      </p>
+      <div className="mt-5 border-t border-ink/10">
+        {years.map((year) => (
+          <details key={year} className="group border-b border-ink/10">
+            <summary className="cursor-pointer list-none flex items-baseline justify-between gap-4 py-3 [&::-webkit-details-marker]:hidden">
+              <span className="font-display text-lg text-ink">{fmtYear(year)}</span>
+              <span className="font-mono text-[11px] text-ink/45">{byYear.get(year)!.length} ▾</span>
+            </summary>
+            <ul className="pb-4 space-y-2 text-ink/70 text-sm leading-relaxed list-disc pl-5">
+              {[...new Set(byYear.get(year))].map((why) => <li key={why}>{why}</li>)}
+            </ul>
+          </details>
+        ))}
+      </div>
+    </section>
   );
 }

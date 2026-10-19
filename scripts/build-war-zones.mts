@@ -3,7 +3,8 @@
  * `zones` (src/data/warTours.ts), works out the land each side holds and
  * writes it to public/data/war-zones/{tour}/{stop}.json, which TourMap loads.
  *
- * Countries come whole from the tour's `zoneYear` snapshot; hand-drawn areas
+ * Countries come whole from the tour's `zoneYear` snapshot (with the border
+ * fixes of src/data/borderFixes.ts applied); hand-drawn areas
  * (front lines, mostly) are trimmed to land, or to the `within` countries, so
  * coastlines and borders match the map underneath. Zones are claimed in
  * order: each one loses whatever an earlier zone at the same stop took.
@@ -12,34 +13,21 @@
  *
  *   npx tsx scripts/build-war-zones.mts [cache-dir]
  */
-import { existsSync, mkdirSync, readFileSync, rmSync, writeFileSync } from "node:fs";
+import { mkdirSync, rmSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { fileURLToPath } from "node:url";
 import * as pc from "polyclip-ts";
 import polylabel from "polylabel";
 import { TOURS, type TourZone } from "../src/data/tours";
+import { loadSnapshot } from "./lib/snapshots";
 
 const ROOT = fileURLToPath(new URL("..", import.meta.url));
-const CACHE = process.argv[2] ?? join(ROOT, ".cache/basemaps");
 const OUT = join(ROOT, "public/data/war-zones");
-const RAW_BASE = "https://raw.githubusercontent.com/aourednik/historical-basemaps/master/geojson";
 
 type Ring = [number, number][];
 type MultiPoly = Ring[][];
 type Box = [number, number, number, number];
 interface Shape { geom: MultiPoly; box: Box }
-
-async function loadSnapshot(year: number) {
-  mkdirSync(CACHE, { recursive: true });
-  const path = join(CACHE, `world_${year}.geojson`);
-  if (!existsSync(path)) {
-    console.log(`Downloading world_${year}.geojson…`);
-    writeFileSync(path, Buffer.from(await (await fetch(`${RAW_BASE}/world_${year}.geojson`)).arrayBuffer()));
-  }
-  return JSON.parse(readFileSync(path, "utf8")) as {
-    features: { properties: { NAME?: string | null }; geometry: { type: string; coordinates: unknown } | null }[];
-  };
-}
 
 function boxOf(geom: MultiPoly): Box {
   let [w, s, e, n] = [Infinity, Infinity, -Infinity, -Infinity];

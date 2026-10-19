@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
+import { applyBorderFixes, type FeatureCollection } from "@/lib/borderFixes";
 import { buildManifest, stateIndexForYear } from "@/app/api/manifest/route";
 import { geometryArea, normaliseSovereign, type RawProperties } from "@/lib/geoEnrich";
 import polylabel from "polylabel";
@@ -101,7 +102,11 @@ export async function GET(
       );
     }
 
-    const raw = (await upstream.json()) as {
+    // The site's corrections to the upstream borders (src/data/borderFixes.ts).
+    const raw = applyBorderFixes(
+      snapshot.snapshotYear,
+      (await upstream.json()) as FeatureCollection,
+    ) as unknown as {
       features: Array<{ properties: RawProperties; geometry: unknown }>;
     };
 

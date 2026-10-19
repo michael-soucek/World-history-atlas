@@ -5,22 +5,20 @@
  * after — and writes src/data/placeMaps.json for the "On our maps" section of
  * the /place pages.
  *
- * Like build-city-rulers.mjs this reads all the snapshots (76 MB), far too
+ * Like build-city-rulers.mts this reads all the snapshots (76 MB), far too
  * much per request, so it runs ahead of time. Re-run it when the crosswalk or
  * the upstream snapshots change:
  *
  *   npx tsx scripts/build-place-maps.mts [cache-dir]
  */
-import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
+import { writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { fileURLToPath } from "node:url";
 import * as pc from "polyclip-ts";
 import { resolveFeature } from "../src/data/crosswalk";
+import { loadSnapshot, snapshotYears } from "./lib/snapshots";
 
 const ROOT = fileURLToPath(new URL("..", import.meta.url));
-const CACHE = process.argv[2] ?? join(ROOT, ".cache/basemaps");
-const RAW_BASE = "https://raw.githubusercontent.com/aourednik/historical-basemaps/master/geojson";
-const LIST_URL = "https://api.github.com/repos/aourednik/historical-basemaps/contents/geojson";
 
 type Ring = [number, number][];
 type Geometry = { type: "Polygon"; coordinates: Ring[] } | { type: "MultiPolygon"; coordinates: Ring[][] };
@@ -29,27 +27,9 @@ interface Feature {
   geometry: Geometry | null;
 }
 
-function yearOf(filename: string): number | null {
-  const m = filename.match(/^world_(bc)?(\d+)\.geojson$/);
-  return m ? (m[1] ? -1 : 1) * Number(m[2]) : null;
-}
-
+/** Every snapshot, corrected by src/data/borderFixes.ts (see scripts/lib/snapshots.ts). */
 async function loadSnapshots() {
-  mkdirSync(CACHE, { recursive: true });
-  const files = ((await (await fetch(LIST_URL)).json()) as { name: string }[])
-    .map((f) => f.name)
-    .filter((n) => yearOf(n) !== null);
-  const snapshots: { year: number; path: string }[] = [];
-  for (const name of files) {
-    const path = join(CACHE, name);
-    if (!existsSync(path)) {
-      console.log(`Downloading ${name}…`);
-      writeFileSync(path, Buffer.from(await (await fetch(`${RAW_BASE}/${name}`)).arrayBuffer()));
-    }
-    snapshots.push({ year: yearOf(name)!, path });
-  }
-  snapshots.push({ year: 1985, path: join(ROOT, "public/data/world_1985.geojson") });
-  return snapshots.sort((a, b) => a.year - b.year);
+  return (await snapshotYears()).map((year) => ({ year }));
 }
 
 const polygons = (g: Geometry | null): Ring[][] =>
@@ -138,8 +118,8 @@ const labelsBySlug = new Map<string, string>();
 const featuresByYear = new Map<number, Feature[]>();
 const ownerCells = new Map<number, Map<string, Set<string>>>(); // year → cell → labels there
 
-for (const { year, path } of snapshots) {
-  const { features } = JSON.parse(readFileSync(path, "utf8")) as { features: Feature[] };
+for (const { year } of snapshots) {
+  const { features } = (await loadSnapshot(year)) as unknown as { features: Feature[] };
   featuresByYear.set(year, features);
   const cells = new Map<string, Set<string>>();
   ownerCells.set(year, cells);

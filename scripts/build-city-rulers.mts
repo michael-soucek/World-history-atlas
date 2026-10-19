@@ -6,44 +6,22 @@
  * opens a page, so this runs ahead of time. Re-run it when cities.json or
  * the upstream snapshots change:
  *
- *   node scripts/build-city-rulers.mjs [cache-dir]
+ *   npx tsx scripts/build-city-rulers.mts
  *
- * Snapshots are downloaded into cache-dir (default: .cache/basemaps) once and
- * reused. The local 1985 snapshot is read from public/data.
+ * Reads the snapshots through scripts/lib/snapshots.ts, so the border fixes
+ * in src/data/borderFixes.ts apply.
  */
-import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
+import { readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { fileURLToPath } from "node:url";
+import { loadSnapshot, snapshotYears, type Feature } from "./lib/snapshots";
 
 const ROOT = fileURLToPath(new URL("..", import.meta.url));
-const CACHE = process.argv[2] ?? join(ROOT, ".cache/basemaps");
-const RAW_BASE = "https://raw.githubusercontent.com/aourednik/historical-basemaps/master/geojson";
-const LIST_URL = "https://api.github.com/repos/aourednik/historical-basemaps/contents/geojson";
-
-/** "world_bc500.geojson" → -500, "world_1500.geojson" → 1500. */
-function yearOf(filename) {
-  const m = filename.match(/^world_(bc)?(\d+)\.geojson$/);
-  return m ? (m[1] ? -1 : 1) * Number(m[2]) : null;
-}
-
-async function loadSnapshots() {
-  mkdirSync(CACHE, { recursive: true });
-  const files = (await (await fetch(LIST_URL)).json()).map((f) => f.name).filter((n) => yearOf(n) !== null);
-  const snapshots = [];
-  for (const name of files) {
-    const path = join(CACHE, name);
-    if (!existsSync(path)) {
-      console.log(`Downloading ${name}…`);
-      writeFileSync(path, Buffer.from(await (await fetch(`${RAW_BASE}/${name}`)).arrayBuffer()));
-    }
-    snapshots.push({ year: yearOf(name), path });
-  }
-  snapshots.push({ year: 1985, path: join(ROOT, "public/data/world_1985.geojson") });
-  return snapshots.sort((a, b) => a.year - b.year);
-}
+type Ring = [number, number][];
+type Geometry = Feature["geometry"];
 
 // ── Point in polygon (ray casting; holes count as outside) ──
-function inRing([x, y], ring) {
+function inRing([x, y]: [number, number], ring: Ring) {
   let inside = false;
   for (let i = 0, j = ring.length - 1; i < ring.length; j = i++) {
     const [xi, yi] = ring[i];
@@ -52,11 +30,11 @@ function inRing([x, y], ring) {
   }
   return inside;
 }
-const inPolygon = (pt, rings) => inRing(pt, rings[0]) && !rings.slice(1).some((hole) => inRing(pt, hole));
-function inGeometry(pt, geom) {
+const inPolygon = (pt: [number, number], rings: Ring[]) => inRing(pt, rings[0]) && !rings.slice(1).some((hole) => inRing(pt, hole));
+function inGeometry(pt: [number, number], geom: Geometry) {
   if (!geom) return false;
-  if (geom.type === "Polygon") return inPolygon(pt, geom.coordinates);
-  if (geom.type === "MultiPolygon") return geom.coordinates.some((p) => inPolygon(pt, p));
+  if (geom.type === "Polygon") return inPolygon(pt, geom.coordinates as Ring[]);
+  if (geom.type === "MultiPolygon") return (geom.coordinates as Ring[][]).some((p) => inPolygon(pt, p));
   return false;
 }
 
@@ -65,12 +43,12 @@ function inGeometry(pt, geom) {
  * outside its own country. If the exact point misses, try rings of nearby
  * points out to ~35 km before giving up.
  */
-const OFFSETS = [[0, 0]];
+const OFFSETS: [number, number][] = [[0, 0]];
 for (const r of [0.1, 0.2, 0.3]) {
   for (let k = 0; k < 8; k++) OFFSETS.push([r * Math.cos((k * Math.PI) / 4), r * Math.sin((k * Math.PI) / 4)]);
 }
 
-function featureAt(features, lng, lat) {
+function featureAt(features: Feature[], lng: number, lat: number) {
   for (const [dx, dy] of OFFSETS) {
     const hit = features.find((f) => inGeometry([lng + dx, lat + dy], f.geometry));
     if (hit) return hit;
@@ -78,12 +56,13 @@ function featureAt(features, lng, lat) {
   return null;
 }
 
-const cities = JSON.parse(readFileSync(join(ROOT, "src/data/cities.json"), "utf8"));
-const snapshots = await loadSnapshots();
-const rows = Object.fromEntries(cities.map((c) => [c.slug, []]));
+interface Row { year: number; name: string | null; sovereign: string | null }
+interface Span { from: number; to: number | null; name: string | null; sovereign: string | null }
+const cities = JSON.parse(readFileSync(join(ROOT, "src/data/cities.json"), "utf8")) as { slug: string; lng: number; lat: number }[];
+const rows: Record<string, Row[]> = Object.fromEntries(cities.map((c) => [c.slug, []]));
 
-for (const { year, path } of snapshots) {
-  const { features } = JSON.parse(readFileSync(path, "utf8"));
+for (const year of await snapshotYears()) {
+  const { features } = await loadSnapshot(year);
   for (const c of cities) {
     const f = featureAt(features, c.lng, c.lat);
     // "?" marks an unnamed territory in the source data.
@@ -99,9 +78,9 @@ for (const { year, path } of snapshots) {
 
 // Merge consecutive snapshots with the same ruler into one span.
 // `to` is the next snapshot year in which something else is drawn (null: still).
-const out = {};
+const out: Record<string, Span[]> = {};
 for (const [slug, list] of Object.entries(rows)) {
-  const spans = [];
+  const spans: Span[] = [];
   for (const r of list) {
     const last = spans.at(-1);
     if (last && last.name === r.name && last.sovereign === r.sovereign) continue;

@@ -550,7 +550,7 @@ const OCCUPIED_FRANCE = held("axis", [
 const VICHY = [zone("vichy", ["France"], { label: "Vichy France" }), zone("vichy", ["Algeria (France)", "Morocco (France)", "Tunisia", "Syria (France)"])];
 const WEST_OCCUPIED_1940 = zone("axis", ["Denmark", "Norway", "Netherlands", "Belgium", "Luxembourg"], { occupied: true });
 const ITALIAN_EAST_AFRICA = ["Eritrea (Italy)", "Ethiopia (Italy)", "Italian Somaliland"];
-const BRITISH_MIDEAST = ["Egypt", "Israel", "Jordan"];
+const BRITISH_MIDEAST = ["Egypt", "Mandatory Palestine (GB)", "Jordan"];
 /** Iran, occupied by Britain and the Soviet Union in August 1941. */
 const IRAN_1941 = [
   held("soviet", box(44.0, 35.6, 62.0, 40.0), ["Iran"], { occupied: true }),
@@ -1141,10 +1141,10 @@ const PACIFIC_SIDES: TourSide[] = [
 const JAPAN = ["Empire of Japan", "Saipan"];
 const INDOCHINA = ["French Indo-China", "Cambodia", "Cochin China", "Laos"];
 const ALLIED_PACIFIC = [
-  "British Raj", "Malaysia", "Brunei", "Hong Kong", "Dutch East Indies", "Philippines", "Guam", "Australia", "New Zealand",
+  "British Raj", "British Malaya", "Brunei", "Hong Kong", "Dutch East Indies", "Philippines", "Guam", "Australia", "New Zealand",
   "United States", "Gilbert and Ellice Islands", "Ceylon", "Fiji", "New Caledonia", "New Hebrides",
 ];
-const CHINA = zone("allies", ["Chinese warlords"], { label: "China" });
+const CHINA = zone("allies", ["Republic of China"], { label: "China" });
 
 /** The Japanese-held east of China: end of 1938, 1941, and after the Ichi-Go offensive of 1944. */
 const CHINA_1938: Pt[] = [
@@ -1159,9 +1159,9 @@ const CHINA_1944: Pt[] = [
   [111.5, 41.6], [112.5, 38.0], [111.0, 35.0], [111.2, 34.4], [112.3, 32.8], [111.3, 30.7], [112.0, 29.2], [111.8, 27.5],
   [110.8, 25.8], [109.3, 24.5], [107.8, 23.2], [106.7, 22.5],
 ];
-const CANTON = held("japan", box(112.4, 21.5, 114.8, 23.8), ["Chinese warlords"], { occupied: true });
-const HAINAN = held("japan", box(108.5, 18.0, 111.2, 20.2), ["Chinese warlords"], { occupied: true });
-const occupiedChina = (line: Pt[]): TourZone => held("japan", eastOf(line), ["Chinese warlords"], { occupied: true, label: "Occupied China" });
+const CANTON = held("japan", box(112.4, 21.5, 114.8, 23.8), ["Republic of China"], { occupied: true });
+const HAINAN = held("japan", box(108.5, 18.0, 111.2, 20.2), ["Republic of China"], { occupied: true });
+const occupiedChina = (line: Pt[]): TourZone => held("japan", eastOf(line), ["Republic of China"], { occupied: true, label: "Occupied China" });
 /** Burma, conquered in 1942; the line follows its border with India. */
 const BURMA = held("japan", eastOf([[98.0, 28.5], [96.5, 26.8], [95.2, 26.4], [94.6, 25.5], [93.6, 24.0], [93.0, 22.5], [92.6, 21.0], [92.3, 20.5]]), ["British Raj"], { occupied: true, label: "Burma" });
 /** The north coast of New Guinea, New Britain and Bougainville, taken in 1942. */
@@ -1170,7 +1170,7 @@ const OKINAWA = held("allies", box(126.6, 25.9, 128.5, 27.0), ["Empire of Japan"
 const MANCHURIA_1945 = held("soviet", [[115, 54], [135.5, 54], [135.5, 42.5], [130.7, 42.3], [129.5, 38.0], [124.5, 38.0], [121.0, 38.7], [119.5, 39.8], [115, 41]], ["Empire of Japan"], { occupied: true, label: "Manchuria" });
 const SAKHALIN_1945 = held("soviet", box(141.5, 45.9, 144.8, 50.2), ["Empire of Japan"], { occupied: true });
 
-const SOUTHEAST_ASIA_1942 = zone("japan", ["Philippines", "Malaysia", "Brunei", "Hong Kong", "Dutch East Indies", "Guam", "Gilbert and Ellice Islands", ...INDOCHINA], { occupied: true });
+const SOUTHEAST_ASIA_1942 = zone("japan", ["Philippines", "British Malaya", "Brunei", "Hong Kong", "Dutch East Indies", "Guam", "Gilbert and Ellice Islands", ...INDOCHINA], { occupied: true });
 const PEAK_1942: TourZone[] = [
   BURMA, NEW_GUINEA_1942, occupiedChina(CHINA_1941), CANTON, HAINAN, SOUTHEAST_ASIA_1942,
   zone("japan", [...JAPAN, "Siam"]), CHINA, zone("allies", ALLIED_PACIFIC),
@@ -1179,7 +1179,7 @@ const LATE_1944: TourZone[] = [
   zone("allies", ["Saipan", "Guam", "Gilbert and Ellice Islands"], { occupied: true }),
   BURMA, occupiedChina(CHINA_1944),
   held("allies", box(134.0, -10.0, 141.1, 0.0), ["Dutch East Indies"], { occupied: true }),
-  zone("japan", ["Philippines", "Malaysia", "Brunei", "Hong Kong", "Dutch East Indies", ...INDOCHINA], { occupied: true }),
+  zone("japan", ["Philippines", "British Malaya", "Brunei", "Hong Kong", "Dutch East Indies", ...INDOCHINA], { occupied: true }),
   zone("japan", [...JAPAN, "Siam"]), CHINA, zone("allies", ALLIED_PACIFIC),
 ];
 const MID_1945: TourZone[] = [
@@ -1187,7 +1187,7 @@ const MID_1945: TourZone[] = [
   zone("allies", ["Saipan", "Guam", "Gilbert and Ellice Islands", "Philippines"], { occupied: true }),
   occupiedChina(CHINA_1944),
   held("allies", box(134.0, -10.0, 141.1, 0.0), ["Dutch East Indies"], { occupied: true }),
-  zone("japan", ["Malaysia", "Brunei", "Hong Kong", "Dutch East Indies", ...INDOCHINA], { occupied: true }),
+  zone("japan", ["British Malaya", "Brunei", "Hong Kong", "Dutch East Indies", ...INDOCHINA], { occupied: true }),
   zone("japan", [...JAPAN, "Siam"]), CHINA, zone("allies", ALLIED_PACIFIC),
 ];
 

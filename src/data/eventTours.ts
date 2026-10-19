@@ -669,7 +669,7 @@ export const EVENT_TOURS: Tour[] = [
         title: "Vienna Again: 1683",
         text: "In 1683 Grand Vizier Kara Mustafa besieged Vienna with a huge army. On 12 September, a relief army of Austrian, German and Polish troops, led by King Jan III Sobieski of Poland, attacked from the Kahlenberg hills. Polish winged hussars led one of the largest cavalry charges in history, and the Ottomans broke and fled.",
         mapState: { year: 1683, mapYear: 1650, lat: 47.5, lng: 18, zoom: 5 },
-        highlight: ["Ottoman Empire", "Austrian Empire"],
+        highlight: ["Ottoman Empire", "Habsburg Monarchy"],
         markers: [{ label: "Vienna, 12 September 1683", at: [16.37, 48.21], kind: "battle" }],
         routes: [
           { label: "Kara Mustafa's army, 1683", kind: "conquest", path: [[20.46, 44.8], [19.05, 47.5], [17.7, 47.7], [16.5, 48.15]] },
@@ -680,7 +680,7 @@ export const EVENT_TOURS: Tour[] = [
         title: "The Long Retreat",
         text: "The defeat at Vienna began a long war in which the Habsburgs drove the Ottomans out of Hungary; Buda fell in 1686. At the Treaty of Karlowitz in 1699, the Ottomans gave up Hungary and Transylvania. It was the first major loss of territory in the empire's history. Over the next two centuries, the 'sick man of Europe' slowly retreated from the Balkans.",
         mapState: { year: 1699, mapYear: 1700, lat: 45, lng: 22, zoom: 4.2 },
-        highlight: ["Ottoman Empire", "Austrian Empire"],
+        highlight: ["Ottoman Empire", "Habsburg Monarchy"],
         markers: [
           { label: "Buda retaken, 1686", at: [19.04, 47.5], kind: "battle" },
           { label: "Karlowitz, 1699", at: [19.93, 45.2] },
