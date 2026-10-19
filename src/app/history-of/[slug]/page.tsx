@@ -11,6 +11,7 @@ import { buildPageMetadata, metaDescription } from "@/lib/seo";
 import { JsonLd, SITE_URL, breadcrumbLd } from "@/lib/jsonLd";
 import { connectedTo, fmtSpan, type TimedEntry } from "@/lib/entityContext";
 import { TOURS } from "@/data/tours";
+import { withArticle } from "@/lib/placeMaps";
 
 interface Props { params: Promise<{ slug: string }> }
 
@@ -206,7 +207,7 @@ function CityAnswers({ city, spans }: { city: City; spans: RulerSpan[] }) {
     const years = end(longest) - longest.from;
     items.push({
       q: `Who ruled ${city.name} the longest?`,
-      a: <>On our maps, <Name s={longest} />, for about {years.toLocaleString("en-US")} years ({formatYear(longest.from)} to {longest.to === null ? "today" : formatYear(longest.to)}).</>,
+      a: <>On our maps, {longest.name ? withArticle(longest.name).slice(0, -longest.name.length) : ""}<Name s={longest} />, for about {years.toLocaleString("en-US")} years ({formatYear(longest.from)} to {longest.to === null ? "today" : formatYear(longest.to)}).</>,
     });
   }
   items.push({ q: `How many times has ${city.name} changed hands?`, a: <>Our maps show it passing to a new ruler {changes} {changes === 1 ? "time" : "times"} since {since.from <= 1 ? "1 CE" : formatYear(since.from)}.</> });
