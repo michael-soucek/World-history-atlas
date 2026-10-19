@@ -9,6 +9,7 @@
 import CITIES from "@/data/cities.json";
 import RULERS from "@/data/cityRulers.json";
 import { resolveFeature } from "@/data/crosswalk";
+import { SNAPSHOT_YEARS } from "@/data/snapshotYears";
 
 export interface City {
   slug: string;
@@ -46,12 +47,31 @@ export function getCity(slug: string): City | undefined {
  * is itself part of the story.
  */
 export function rulersOf(slug: string): RulerSpan[] {
-  const spans = ((RULERS as Record<string, RulerSpan[]>)[slug] ?? []).map((s) => {
-    const entry = s.name ? resolveFeature(s.name, s.sovereign ?? s.name, s.from) : undefined;
-    return { ...s, href: entry ? `/place/${entry.slug}` : undefined };
-  });
+  const spans = ((RULERS as Record<string, RulerSpan[]>)[slug] ?? []).flatMap(withLinks);
   const first = spans.findIndex((s) => s.name);
   return first === -1 ? [] : spans.slice(first);
+}
+
+/**
+ * Link a span to the ruler's atlas page. The same map name can mean different
+ * states over a long span ("France" is a kingdom in 1783, a republic in 1800
+ * and the modern state after 1815), so the span is split wherever the
+ * year-aware crosswalk points somewhere else.
+ */
+function withLinks(span: RulerSpan): RulerSpan[] {
+  if (!span.name) return [span];
+  const years = SNAPSHOT_YEARS.filter((y) => y >= span.from && (span.to === null || y < span.to));
+  const out: RulerSpan[] = [];
+  for (const year of years.length ? years : [span.from]) {
+    const entry = resolveFeature(span.name, span.sovereign ?? span.name, year);
+    const href = entry ? `/place/${entry.slug}` : undefined;
+    const last = out.at(-1);
+    if (last && last.href === href) continue;
+    if (last) last.to = year;
+    out.push({ ...span, from: year, href });
+  }
+  out[out.length - 1].to = span.to;
+  return out;
 }
 
 /** Distinct ruler names, in order of first appearance. */

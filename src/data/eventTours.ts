@@ -33,10 +33,10 @@ export const EVENT_TOURS: Tour[] = [
       },
       {
         title: "Early Forays and the Great Dispersal",
-        text: "Small groups of Homo sapiens reached the Levant more than 100,000 years ago, at caves such as Skhul and Qafzeh, but these early forays left few or no descendants. Nearly everyone living outside Africa today descends from a later dispersal, roughly 50,000 to 70,000 years ago, probably across the Sinai or the narrow Bab-el-Mandeb strait at the mouth of the Red Sea.",
+        text: "Small groups of Homo sapiens reached the Levant around 90,000–120,000 years ago, at caves such as Skhul and Qafzeh, but these early forays left few or no descendants. Nearly everyone living outside Africa today descends from a later dispersal, roughly 50,000 to 70,000 years ago, probably across the Sinai or the narrow Bab-el-Mandeb strait at the mouth of the Red Sea.",
         mapState: { year: -60000, lat: 22, lng: 42, zoom: 3 },
         markers: [
-          { label: "Skhul and Qafzeh, over 100,000 years ago", at: [34.97, 32.67] },
+          { label: "Skhul and Qafzeh, c. 90,000–120,000 years ago", at: [34.97, 32.67] },
           { label: "Bab-el-Mandeb", at: [43.4, 12.6] },
         ],
         routes: [
@@ -164,7 +164,7 @@ export const EVENT_TOURS: Tour[] = [
       },
       {
         title: "Hawai'i, Rapa Nui and Aotearoa",
-        text: "From central East Polynesia, voyagers reached the corners of the 'Polynesian triangle': Hawai'i in the north, around 1000–1200; Rapa Nui (Easter Island) in the east, around 1200; and Aotearoa New Zealand in the southwest, around 1250–1300, the last major land mass on Earth to be settled. Its settlers became the Māori.",
+        text: "From central East Polynesia, voyagers reached the corners of the 'Polynesian triangle': Hawai'i in the north, by around 1200; Rapa Nui (Easter Island) in the east, around 1200; and Aotearoa New Zealand in the southwest, around 1250–1300, the last major land mass on Earth to be settled. Its settlers became the Māori.",
         mapState: { year: 1300, lat: -12, lng: 205, zoom: 2.4 },
         highlight: ["Polynesians", "Maori"],
         markers: [
@@ -365,7 +365,7 @@ export const EVENT_TOURS: Tour[] = [
       },
       {
         title: "Over the Alps: 218 BCE",
-        text: "In 218 BCE Hannibal, Carthage's general in Spain, did what no one expected. He led an army of perhaps 40,000 men, cavalry and 37 war elephants from Spain over the Pyrenees, across the Rhône, and over the Alps in autumn snow. Which pass he used is still debated. He reached northern Italy having lost a large part of his army, but with Gaulish allies ready to join him.",
+        text: "In 218 BCE Hannibal, Carthage's general in Spain, did what no one expected. He led an army of perhaps 50,000 men, with cavalry and 37 war elephants, from Spain over the Pyrenees, across the Rhône, and over the Alps in autumn snow. Which pass he used is still debated. He reached northern Italy with only about 26,000 men left, but with Gaulish allies ready to join him.",
         mapState: { year: -218, lat: 43, lng: 4, zoom: 4.6 },
         markers: [{ label: "Saguntum: the siege that started the war, 219 BCE", at: [-0.27, 39.68], kind: "battle" }],
         routes: [{ label: "Hannibal's march, 218 BCE", kind: "conquest", path: [[-0.99, 37.6], [-0.3, 39.7], [0.8, 41.1], [2.5, 42.4], [3.3, 43.3], [4.6, 43.9], [5.5, 45], [6.8, 45.2], [7.7, 45.1], [9.6, 45]] }],
@@ -734,7 +734,7 @@ export const EVENT_TOURS: Tour[] = [
       },
       {
         title: "Pizarro and the Inca: 1532",
-        text: "In the Andes, smallpox arrived ahead of the Spanish, killing the Inca emperor Huayna Capac and setting off a civil war between his sons Huáscar and Atahualpa. Atahualpa had just won when Francisco Pizarro landed in 1532 with fewer than 200 men. At Cajamarca, on 16 November 1532, the Spanish ambushed and captured Atahualpa in the middle of his army.",
+        text: "In the Andes, smallpox arrived ahead of the Spanish, probably killing the Inca emperor Huayna Capac and setting off a civil war between his sons Huáscar and Atahualpa. Atahualpa had just won when Francisco Pizarro landed in 1532 with fewer than 200 men. At Cajamarca, on 16 November 1532, the Spanish ambushed and captured Atahualpa in the middle of his army.",
         mapState: { year: 1532, mapYear: 1530, lat: -6, lng: -79, zoom: 4.6 },
         highlight: ["Inca Empire"],
         markers: [
@@ -1111,7 +1111,7 @@ export const EVENT_TOURS: Tour[] = [
     steps: [
       {
         title: "Japan's War in China",
-        text: "Japan, an industrial and imperial power, seized Manchuria in 1931. In 1937 it launched a full-scale war on China, taking Shanghai and the capital, Nanjing, where Japanese troops massacred tens of thousands of civilians and prisoners. China fought on from the interior, and the war bogged down.",
+        text: "Japan, an industrial and imperial power, seized Manchuria in 1931. In 1937 it launched a full-scale war on China, taking Shanghai and the capital, Nanjing, where Japanese troops massacred civilians and prisoners: tens of thousands at the very least, and by many estimates hundreds of thousands. China fought on from the interior, and the war bogged down.",
         mapState: { year: 1937, mapYear: 1938, lat: 35, lng: 118, zoom: 3.4 },
         highlight: ["Empire of Japan"],
         markers: [
@@ -1171,7 +1171,7 @@ export const EVENT_TOURS: Tour[] = [
       },
       {
         title: "Iwo Jima and Okinawa: 1945",
-        text: "In 1945 the Americans fought their way to Japan's doorstep. Iwo Jima cost nearly 7,000 American lives; Okinawa, from April to June, killed over 100,000 Japanese soldiers and a huge number of Okinawan civilians, along with more than 12,000 Americans. Japanese kamikaze pilots crashed their planes into Allied ships. American bombers burned Japan's cities; a single raid on Tokyo in March killed around 100,000 people.",
+        text: "In 1945 the Americans fought their way to Japan's doorstep. Iwo Jima cost nearly 7,000 American lives; Okinawa, from April to June, killed some 100,000 Japanese soldiers and a huge number of Okinawan civilians, along with more than 12,000 Americans. Japanese kamikaze pilots crashed their planes into Allied ships. American bombers burned Japan's cities; a single raid on Tokyo in March killed around 100,000 people.",
         mapState: { year: 1945, lat: 30, lng: 135, zoom: 3.8 },
         markers: [
           { label: "Iwo Jima, February–March 1945", at: [141.32, 24.78], kind: "battle" },

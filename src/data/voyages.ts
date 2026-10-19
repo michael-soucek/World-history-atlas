@@ -305,8 +305,8 @@ const MAGELLAN_VOYAGES: Voyage[] = [
     ship: "Trinidad, Victoria (San Antonio, Concepción, Santiago lost/deserted)",
     years: "1519–1522",
     color: "#1F2937",
-    purpose: "Discover a westward sea route to the Spice Islands (Moluccas) and complete the first circumnavigation of Earth.",
-    summary: "Magellan's expedition left Spain in September 1519 with five ships and ~270 men. They crossed the Atlantic, navigated the Strait of Magellan into the Pacific (which Magellan named for its calm waters), and crossed the Pacific in 99 days to Guam. Magellan died in battle at Mactan (27 Apr 1521); Juan Sebastián Elcano assumed command. Under Elcano the expedition reached the Moluccas, loaded spice cargo, returned via the Indian Ocean and Cape of Good Hope, and arrived back in Spain in September 1522. Of ~270 who departed, only 18 returned aboard the sole surviving ship Victoria.",
+    purpose: "Find a westward sea route to the Spice Islands (Moluccas) for Spain; the voyage became the first circumnavigation of Earth.",
+    summary: "Magellan's expedition left Spain in September 1519 with five ships and ~270 men. They crossed the Atlantic, navigated the Strait of Magellan into the Pacific (which Magellan named for its calm waters), and crossed the Pacific in 99 days to Guam. Magellan died in battle at Mactan (27 Apr 1521); command passed through several officers, and Juan Sebastián Elcano finally took charge of the Victoria. The expedition reached the Moluccas, loaded spice cargo, returned via the Indian Ocean and Cape of Good Hope, and arrived back in Spain in September 1522. Of ~270 who departed, only 18 returned aboard the sole surviving ship Victoria.",
     accuracyNote: "Pacific crossing route estimated — no daily positions survive for the open-ocean leg. Patagonian coast and Pacific island coordinates approximate. Pigafetta's journal cross-checked against Wikipedia timelines and modern scholarship.",
     path: [
       // Spain → Canary Islands
@@ -353,9 +353,9 @@ const MAGELLAN_VOYAGES: Voyage[] = [
       { name: "Tiburones Island (Caroline Island area)", date: "21 Feb 1521", lat: -9.77, lng: -150.2, note: "Uninhabited; crew starving and scurvy-ridden; first landfall since Strait" },
       { name: "Guam, Mariana Islands", date: "6 Mar 1521", lat: 13.6, lng: 144.8, note: "First land in 99 days at sea; Chamorro seized a boat; Magellan retaliated by burning 40 houses" },
       { name: "Homonhon, Philippines", date: "16 Mar 1521", lat: 9.71, lng: 125.89, note: "Rested 10 days; gathered fresh water and food" },
-      { name: "Limasawa, Philippines", date: "28 Mar 1521", lat: 9.69, lng: 126.16, note: "First contact with Rajahs Kolambu and Siawi; blood compact; Enrique spoke their language — proof of circumnavigation" },
+      { name: "Limasawa, Philippines", date: "28 Mar 1521", lat: 9.69, lng: 126.16, note: "First contact with Rajahs Kolambu and Siawi; blood compact; Magellan's Malay servant Enrique could make himself understood" },
       { name: "Cebu, Philippines", date: "7 Apr 1521", lat: 10.3, lng: 123.9, note: "Rajah Humabon baptised; ~2,200 converts; Magellan intervenes in dispute on Mactan" },
-      { name: "Battle of Mactan — Magellan killed", date: "27 Apr 1521", lat: 10.32, lng: 124.0, note: "Magellan killed by Lapu-Lapu's forces; ~60 Spaniards vs. 1,500 warriors; Elcano assumes command", pivotal: true },
+      { name: "Battle of Mactan — Magellan killed", date: "27 Apr 1521", lat: 10.32, lng: 124.0, note: "Magellan killed by Lapu-Lapu's forces; ~60 Spaniards vs. 1,500 warriors; command passes to Duarte Barbosa and João Serrão", pivotal: true },
       { name: "Palawan, Philippines", date: "May 1521", lat: 9.25, lng: 118.75, note: "Continued to Moluccas; fleet reduced to 2 ships after Concepción burned" },
       { name: "Brunei", date: "Sep 1521", lat: 4.9, lng: 114.9, note: "Spectacular sultan's court; briefly attacked by Bruneian fleet" },
       { name: "Tidore, Moluccas", date: "8 Nov 1521", lat: -0.3, lng: 127.4, note: "Goal reached — the Spice Islands! Loaded 26 tons of cloves; Trinidad stayed for repairs (later captured by Portuguese)", pivotal: true },
@@ -404,7 +404,7 @@ const COLUMBUS_VOYAGES: Voyage[] = [
     years: "1493–1496",
     color: "#1d4ed8",
     purpose: "Establish a permanent Spanish colony in Hispaniola and continue exploring the Caribbean.",
-    summary: "The largest Columbus fleet departed Cádiz in September 1493 taking a more southerly route, discovering Dominica, Guadaloupe, Antigua, Puerto Rico, and Jamaica. Columbus established La Isabela — the first permanent European town in the Americas — on Hispaniola. He surveyed Cuba's south coast and charted Jamaica before returning to Cádiz in June 1496.",
+    summary: "The largest Columbus fleet departed Cádiz in September 1493 taking a more southerly route, reaching Dominica, Guadeloupe, Antigua, Puerto Rico, and Jamaica. Columbus founded La Isabela on Hispaniola — the first planned European town in the Americas, abandoned within a few years. He surveyed Cuba's south coast and charted Jamaica before returning to Cádiz in June 1496.",
     accuracyNote: "Route sources are Ferdinand Columbus's biography and Peter Martyr's letters. Lesser Antilles landfalls well-documented.",
     path: [
       [-6.3, 36.53], [-14, 30], [-18.0, 27.7], // Cádiz → Canary Islands
@@ -418,7 +418,7 @@ const COLUMBUS_VOYAGES: Voyage[] = [
       { name: "Dominica", date: "3 Nov 1493", lat: 15.3, lng: -61.4, note: "First island sighted on the southerly crossing" },
       { name: "Guadaloupe", date: "4 Nov 1493", lat: 16.2, lng: -61.6, note: "Evidence of Carib practices; found captured Taíno women" },
       { name: "Puerto Rico (San Juan Bautista)", date: "19 Nov 1493", lat: 18.25, lng: -66.5, note: "First European sighting of Puerto Rico" },
-      { name: "La Isabela, Hispaniola", date: "2 Jan 1494", lat: 19.88, lng: -71.07, note: "Founded first permanent European town in the Americas", pivotal: true },
+      { name: "La Isabela, Hispaniola", date: "2 Jan 1494", lat: 19.88, lng: -71.07, note: "Founded the first planned European town in the Americas (abandoned by 1498)", pivotal: true },
       { name: "Cuba south coast survey", date: "Apr–May 1494", lat: 19.9, lng: -77.9, note: "Columbus forced crew to swear Cuba was the Asian mainland, not an island" },
       { name: "Jamaica", date: "May 1494", lat: 18.1, lng: -77.3, note: "First European visit; friendly contact with Taíno" },
       { name: "Cádiz — return", date: "11 Jun 1496", lat: 36.53, lng: -6.3, note: "Columbus returned ill; colony troubled", pivotal: true },
@@ -491,7 +491,7 @@ const DA_GAMA_VOYAGES: Voyage[] = [
     years: "1497–1499",
     color: "#14532d",
     purpose: "Find a direct sea route from Portugal to India by sailing around Africa.",
-    summary: "Da Gama departed Lisbon on 8 July 1497. He executed a bold 'volta do mar' — a sweeping westward arc far into the South Atlantic to catch the trade winds — before rounding the Cape of Good Hope. Up the East African coast he secured the Arab navigator Aḥmad ibn Mājid at Malindi, who guided him across the Indian Ocean. Calicut (Kozhikode) was reached on 20 May 1498 — opening the permanent sea route between Europe and Asia. The Zamorin was unimpressed by da Gama's trade goods. On the return, scurvy killed a third of the crew and the São Rafael was burned for lack of men. Da Gama arrived back at Lisbon in September 1499.",
+    summary: "Da Gama departed Lisbon on 8 July 1497. He executed a bold 'volta do mar' — a sweeping westward arc far into the South Atlantic to catch the trade winds — before rounding the Cape of Good Hope. At Malindi on the East African coast he hired an experienced local pilot to guide him across the Indian Ocean (a later legend, now doubted, names him as the famous navigator Aḥmad ibn Mājid). Calicut (Kozhikode) was reached on 20 May 1498 — opening the permanent sea route between Europe and Asia. The Zamorin was unimpressed by da Gama's trade goods. On the return, scurvy and disease killed more than half the men, and the São Rafael was burned for lack of crew. Da Gama arrived back at Lisbon in September 1499.",
     accuracyNote: "Outbound route via Atlantic loop from the anonymous Roteiro. East Africa and India waypoints well-confirmed. Return dates approximate.",
     path: [
       [-9.14, 38.7], [-15, 30], [-23.51, 14.93], // Lisbon → Cape Verde
@@ -505,14 +505,14 @@ const DA_GAMA_VOYAGES: Voyage[] = [
       [0, -30], [-27.2, 38.5], [-9.14, 38.7], // Azores, Lisbon
     ],
     waypoints: [
-      { name: "Lisbon (Restelo), Portugal", date: "8 Jul 1497", lat: 38.7, lng: -9.14, note: "Departure; celebrated mass at the Jerónimos; the crew were not expected to return", pivotal: true },
+      { name: "Lisbon (Restelo), Portugal", date: "8 Jul 1497", lat: 38.7, lng: -9.14, note: "Departure from Restelo, after a night of prayer at the chapel where the Jerónimos Monastery now stands", pivotal: true },
       { name: "São Tiago, Cape Verde Islands", date: "26 Jul 1497", lat: 14.93, lng: -23.51, note: "Resupply; Berrio fitted with a new mast" },
       { name: "South Atlantic volta do mar", date: "Aug–Oct 1497", lat: -25.0, lng: -32.0, note: "Bold westward loop far into the South Atlantic to catch the trade winds — no land for ~3 months" },
-      { name: "St. Helena Bay, South Africa", date: "4 Nov 1497", lat: -32.7, lng: 18.0, note: "First Africa landfall after 3 months at sea; clashed with local San people" },
-      { name: "Cape of Good Hope", date: "22 Nov 1497", lat: -34.36, lng: 18.47, note: "Rounded the Cape; Dias had turned back here 10 years earlier", pivotal: true },
+      { name: "St. Helena Bay, South Africa", date: "4 Nov 1497", lat: -32.7, lng: 18.0, note: "First Africa landfall after 3 months at sea; clashed with local Khoikhoi people" },
+      { name: "Cape of Good Hope", date: "22 Nov 1497", lat: -34.36, lng: 18.47, note: "Rounded the Cape, which Dias had first passed 10 years earlier", pivotal: true },
       { name: "Mozambique Island", date: "Mar 1498", lat: -15.04, lng: 40.73, note: "Arab trading city; bombarded on departure after hostilities" },
       { name: "Mombasa, Kenya", date: "7 Apr 1498", lat: -4.05, lng: 39.67, note: "Hostile reception; foiled a plot to sabotage their rudders" },
-      { name: "Malindi, Kenya", date: "14 Apr 1498", lat: -3.22, lng: 40.13, note: "Friendly Sultan; secured Arab navigator Aḥmad ibn Mājid to guide them to India" },
+      { name: "Malindi, Kenya", date: "14 Apr 1498", lat: -3.22, lng: 40.13, note: "Friendly Sultan; hired a local pilot to guide them to India" },
       { name: "Calicut (Kozhikode), India", date: "20 May 1498", lat: 11.25, lng: 75.78, note: "First direct sea link between Europe and India; Zamorin unimpressed by trade goods; hostile Portuguese–Muslim merchant rivalry", pivotal: true },
       { name: "Malindi (return)", date: "7 Jan 1499", lat: -3.22, lng: 40.13, note: "Scurvy killed 30 men on return crossing; São Rafael burned — too few crew to sail 3 ships" },
       { name: "Lisbon — return", date: "9 Sep 1499", lat: 38.7, lng: -9.14, note: "Da Gama returned via Azores (brother Paulo died there); only 55 of ~170 men survived", pivotal: true },
@@ -525,7 +525,7 @@ const DA_GAMA_VOYAGES: Voyage[] = [
     years: "1502–1503",
     color: "#15803d",
     purpose: "Establish Portuguese dominance over the Indian Ocean trade and punish Calicut.",
-    summary: "A heavily armed military expedition. Da Gama set up the first permanent Portuguese trading posts on the East African coast. At sea he intercepted the pilgrim ship Miri (~400 passengers) and burned it with all aboard. At Calicut he bombarded the city and mutilated captured fishermen. He supported the friendly ruler of Cochin against Calicut. The voyage returned a profit of 800%, cementing Portugal's Indian Ocean dominance.",
+    summary: "A heavily armed military expedition. On the East African coast, da Gama forced the ruler of Kilwa to pay tribute. At sea he intercepted the pilgrim ship Miri (~400 passengers) and burned it with all aboard. At Calicut he bombarded the city and mutilated captured fishermen. He supported the friendly ruler of Cochin against Calicut, and returned with a rich spice cargo, strengthening Portugal's hold on the Indian Ocean trade.",
     accuracyNote: "Massacre of the Miri attested in multiple Portuguese chronicles. East Africa and India waypoints from Gaspar Corrêa and João de Barros.",
     path: [
       [-9.14, 38.7], [-23.51, 14.93], // Lisbon → Cape Verde
@@ -537,12 +537,12 @@ const DA_GAMA_VOYAGES: Voyage[] = [
     ],
     waypoints: [
       { name: "Lisbon, Portugal", date: "12 Feb 1502", lat: 38.7, lng: -9.14, note: "20 ships — the largest Portuguese fleet yet sent to India" },
-      { name: "Sofala, Mozambique", date: "May 1502", lat: -20.17, lng: 35.1, note: "Established the first permanent Portuguese factory on the East African coast" },
+      { name: "Sofala, Mozambique", date: "May 1502", lat: -20.17, lng: 35.1, note: "Called at the gold-trading port of Sofala" },
       { name: "Kilwa, Tanzania", date: "Jul 1502", lat: -8.9, lng: 39.5, note: "Forced the Sultan to pay tribute to Portugal on pain of bombardment" },
       { name: "Miri massacre (Arabian Sea)", date: "Oct 1502", lat: 12.0, lng: 60.0, note: "Intercepted the pilgrim ship Miri (~400 passengers) and burned it with all aboard — condemned even by some contemporaries", pivotal: true },
       { name: "Calicut, India", date: "Oct 1502", lat: 11.25, lng: 75.78, note: "Bombarded the city; hanged captured fishermen; sent severed hands and heads ashore to the Zamorin" },
       { name: "Cochin (Kochi), India", date: "Nov 1502–Feb 1503", lat: 9.93, lng: 76.26, note: "Loaded massive spice cargo; defended the pro-Portuguese ruler against the Zamorin's fleet" },
-      { name: "Lisbon — return", date: "Oct 1503", lat: 38.7, lng: -9.14, note: "Voyage profit ~800%; da Gama's reputation at its height", pivotal: true },
+      { name: "Lisbon — return", date: "Oct 1503", lat: 38.7, lng: -9.14, note: "Returned with a rich spice cargo; da Gama's reputation at its height", pivotal: true },
     ],
   },
   {
@@ -551,8 +551,8 @@ const DA_GAMA_VOYAGES: Voyage[] = [
     ship: "15 ships",
     years: "1524",
     color: "#166534",
-    purpose: "Serve as first Viceroy of India and reform the corruption-riddled Portuguese colonial administration.",
-    summary: "After a 21-year absence, da Gama was appointed Viceroy and departed in April 1524. He arrived in Goa in September, dismissing corrupt officials, then proceeded to Cochin. His health collapsed; he died at Cochin on Christmas Eve, 1524. His body was returned to Portugal in 1539 and interred at the Jerónimos Monastery — where his fleet had received its blessing 27 years before.",
+    purpose: "Serve as Viceroy of Portuguese India and reform its corruption-riddled administration.",
+    summary: "After a 21-year absence, da Gama was appointed Viceroy and departed in April 1524. He arrived in Goa in September, dismissing corrupt officials, then proceeded to Cochin. His health collapsed; he died at Cochin on Christmas Eve, 1524. His body was returned to Portugal in 1539, and since 1880 has lain in the Jerónimos Monastery in Lisbon, close to the spot where he set sail in 1497.",
     accuracyNote: "Waypoints confirmed from Gaspar Corrêa's Lendas da India. Da Gama's death at Cochin on 24 December 1524 confirmed by multiple contemporaries.",
     path: [
       [-9.14, 38.7], [-23.51, 14.93],
@@ -561,10 +561,10 @@ const DA_GAMA_VOYAGES: Voyage[] = [
       [55, 8], [73.83, 15.5], [76.26, 9.93],
     ],
     waypoints: [
-      { name: "Lisbon, Portugal", date: "9 Apr 1524", lat: 38.7, lng: -9.14, note: "Appointed Viceroy of India; aged ~60 and in poor health" },
+      { name: "Lisbon, Portugal", date: "9 Apr 1524", lat: 38.7, lng: -9.14, note: "Appointed Viceroy of Portuguese India; aged about 55" },
       { name: "Cape of Good Hope", date: "Jun 1524", lat: -34.36, lng: 18.47, note: "Rounded the Cape for the third and final time" },
       { name: "Goa, India", date: "Sep 1524", lat: 15.5, lng: 73.83, note: "Arrived as Viceroy; immediately dismissed officials accused of corruption" },
-      { name: "Cochin (Kochi), India — death", date: "24 Dec 1524", lat: 9.93, lng: 76.26, note: "Da Gama died on Christmas Eve, 1524; body returned to Portugal in 1539; interred at the Jerónimos Monastery", pivotal: true },
+      { name: "Cochin (Kochi), India — death", date: "24 Dec 1524", lat: 9.93, lng: 76.26, note: "Da Gama died on Christmas Eve, 1524; body returned to Portugal in 1539; moved to the Jerónimos Monastery in 1880", pivotal: true },
     ],
   },
 ];
@@ -581,7 +581,7 @@ const ZHENG_HE_VOYAGES: Voyage[] = [
     years: "1405–1407",
     color: "#92400e",
     purpose: "Demonstrate Ming imperial prestige, extract tribute from Southeast Asian kingdoms, and open trade relations to India.",
-    summary: "Zheng He's first voyage was the largest fleet the world had ever seen. Departing from Liujiagang near Suzhou in summer 1405, it called at Champa (Vietnam), Java, Palembang (defeating pirate Chen Zuyi), Malacca, Ceylon, and Calicut. At Calicut the admiral presented gifts and received tribute. On Ceylon, the king Alagonakkara attacked the Chinese and was captured — the first time a distant monarch had been deposed by a Chinese expedition.",
+    summary: "Zheng He's first voyage was one of the largest fleets of its age. Departing from Liujiagang near Suzhou in summer 1405, it called at Champa (Vietnam), Java, Palembang (defeating pirate Chen Zuyi), Malacca, Ceylon, and Calicut. At Calicut the admiral presented gifts and received tribute.",
     accuracyNote: "Ports of call from Ma Huan's Yingya Shenglan and the Yongle Emperor's edicts. Exact routes between ports estimated; open-ocean paths approximate.",
     path: [
       [120.1, 31.9], [118.6, 24.9], // Liujiagang → Quanzhou
@@ -593,14 +593,14 @@ const ZHENG_HE_VOYAGES: Voyage[] = [
       [118.6, 24.9], [120.1, 31.9],
     ],
     waypoints: [
-      { name: "Liujiagang (near Suzhou), China", date: "Summer 1405", lat: 31.9, lng: 120.1, note: "Departure of the largest fleet the pre-industrial world had seen; 62 'treasure ships' each reportedly up to 120m long", pivotal: true },
+      { name: "Liujiagang (near Suzhou), China", date: "Summer 1405", lat: 31.9, lng: 120.1, note: "Departure of a vast fleet led by 62 'treasure ships', whose size is debated: old accounts claim over 120 m long, many historians think 60–75 m", pivotal: true },
       { name: "Champa (Da Nang area), Vietnam", date: "1405", lat: 16.1, lng: 108.2, note: "First tributary call; Cham ruler submitted gifts to the Yongle Emperor" },
       { name: "Java", date: "1405–06", lat: -7.2, lng: 112.7, note: "Intervened in civil war; Ming authority asserted" },
       { name: "Palembang, Sumatra", date: "1406", lat: -2.9, lng: 104.7, note: "Defeated and captured Chinese pirate Chen Zuyi; executed in Nanjing" },
       { name: "Malacca", date: "1406", lat: 2.2, lng: 102.2, note: "Established Malacca as key entrepôt under Chinese protection" },
       { name: "Calicut (Kozhikode), India", date: "1406–07", lat: 11.25, lng: 75.78, note: "Furthest point of Voyage 1; gifts of silk and porcelain; received spices", pivotal: true },
-      { name: "Ceylon (Sri Lanka)", date: "1407", lat: 6.0, lng: 80.2, note: "King Alagonakkara attacked the Chinese; Zheng He defeated his army and captured him; brought to Nanjing" },
-      { name: "Nanjing, China — return", date: "Oct 1407", lat: 32.06, lng: 118.78, note: "Triumphant return; captive Ceylonese king released after symbolic tribute", pivotal: true },
+      { name: "Ceylon (Sri Lanka)", date: "1407", lat: 6.0, lng: 80.2, note: "Called on the way to Calicut" },
+      { name: "Nanjing, China — return", date: "Oct 1407", lat: 32.06, lng: 118.78, note: "Triumphant return with foreign envoys; pirate Chen Zuyi executed", pivotal: true },
     ],
   },
   {
@@ -632,19 +632,17 @@ const ZHENG_HE_VOYAGES: Voyage[] = [
     years: "1409–1411",
     color: "#b45309",
     purpose: "Assert Ming authority in Ceylon; extend Indian contacts.",
-    summary: "The third voyage extended the Indian Ocean network. A secondary squadron under Yin Qing visited Hormuz for the first time, marking the first Chinese contact with the Persian Gulf. Zheng He defeated King Alagonakkara of Ceylon again, bringing him and his court to Nanjing as tribute payers.",
-    accuracyNote: "Hormuz contact via secondary squadron only. Ceylon campaign details from Ma Huan.",
+    summary: "The third voyage revisited the ports of Southeast Asia and India. On the way home, King Alagakkonara of Ceylon attacked the fleet; Zheng He defeated him and took him and his court captive to Nanjing, where the emperor released them and recognised a new king.",
+    accuracyNote: "Ceylon campaign details from Ma Huan and the Ming Shilu.",
     path: [
       [120.1, 31.9], [118.6, 24.9], [108.2, 16.1],
       [102.2, 2.2], [80.2, 6.0], [75.78, 11.25],
-      [56.5, 27.1], // Hormuz (secondary squadron)
-      [75.78, 11.25], [80.2, 6.0], [102.2, 2.2], [118.6, 24.9], [120.1, 31.9],
+      [80.2, 6.0], [102.2, 2.2], [118.6, 24.9], [120.1, 31.9],
     ],
     waypoints: [
       { name: "Liujiagang, China", date: "1409", lat: 31.9, lng: 120.1, note: "Third departure" },
       { name: "Malacca", date: "1409–10", lat: 2.2, lng: 102.2, note: "Protectorate formalised; sultan officially invested" },
-      { name: "Ceylon (Sri Lanka)", date: "1410–11", lat: 6.0, lng: 80.2, note: "Second battle; Alagonakkara captured with his family and brought to Nanjing", pivotal: true },
-      { name: "Hormuz (secondary squadron)", date: "1410–11", lat: 27.1, lng: 56.5, note: "First Chinese contact with the Persian Gulf" },
+      { name: "Ceylon (Sri Lanka)", date: "1410–11", lat: 6.0, lng: 80.2, note: "Attacked by King Alagakkonara; Zheng He defeated him and took him captive to Nanjing", pivotal: true },
       { name: "Nanjing, China — return", date: "Jul 1411", lat: 32.06, lng: 118.78, note: "Ceylonese king released; later installed as tributary ruler by China" },
     ],
   },
@@ -667,7 +665,7 @@ const ZHENG_HE_VOYAGES: Voyage[] = [
     ],
     waypoints: [
       { name: "Liujiagang, China", date: "Dec 1413", lat: 31.9, lng: 120.1, note: "Fourth departure; Ma Huan joined as Arabic interpreter" },
-      { name: "Hormuz", date: "1414", lat: 27.1, lng: 56.5, note: "Main fleet's first visit to the Persian Gulf" },
+      { name: "Hormuz", date: "1414", lat: 27.1, lng: 56.5, note: "First visit to the Persian Gulf" },
       { name: "Aden, Yemen", date: "1414", lat: 12.8, lng: 45.0, note: "First Chinese fleet to reach Arabia" },
       { name: "Mogadishu, Somalia", date: "1414–15", lat: 2.05, lng: 45.34, note: "First Chinese contact with East Africa south of the Horn; giraffes and zebras obtained", pivotal: true },
       { name: "Malindi, Kenya", date: "1415", lat: -3.22, lng: 40.13, note: "Sultan sent a giraffe to the Yongle Emperor, celebrated as the mythological qilin" },
@@ -686,15 +684,15 @@ const ZHENG_HE_VOYAGES: Voyage[] = [
     path: [
       [120.1, 31.9], [118.6, 24.9], [108.2, 16.1],
       [102.2, 2.2], [75.78, 11.25], [56.5, 27.1], [45.0, 12.8],
-      [45.34, 2.05], [40.13, -3.22], [39.5, -8.9],
-      [40.13, -3.22], [45.0, 12.8], [56.5, 27.1],
+      [45.34, 2.05], [40.13, -3.22],
+      [45.0, 12.8], [56.5, 27.1],
       [75.78, 11.25], [102.2, 2.2], [118.6, 24.9], [120.1, 31.9],
     ],
     waypoints: [
       { name: "Liujiagang, China", date: "1417", lat: 31.9, lng: 120.1, note: "Fifth departure; escorting 18 foreign rulers and envoys home" },
       { name: "Hormuz", date: "1417–18", lat: 27.1, lng: 56.5, note: "Tribute exchange with Persian Gulf rulers" },
       { name: "Aden, Yemen", date: "1418", lat: 12.8, lng: 45.0, note: "Arab envoys escorted home" },
-      { name: "Kilwa, Tanzania", date: "1418–19", lat: -8.9, lng: 39.5, note: "Southernmost East African reach; tributary relationship formalised" },
+      { name: "Malindi, Kenya", date: "1418–19", lat: -3.22, lng: 40.13, note: "Southernmost East African reach; envoys from Mogadishu, Brava and Malindi escorted home" },
       { name: "Nanjing, China — return", date: "Aug 1419", lat: 32.06, lng: 118.78, note: "Chinese sphere of influence covered most of the Indian Ocean" },
     ],
   },
@@ -705,7 +703,7 @@ const ZHENG_HE_VOYAGES: Voyage[] = [
     years: "1421–1422",
     color: "#f59e0b",
     purpose: "Escort remaining foreign envoys home; reinforce the tributary network.",
-    summary: "The sixth voyage escorted back envoys collected on the fifth voyage. The Yongle Emperor — Zheng He's greatest patron — died in 1424 while the fleet was at sea. His successor Hongxi immediately suspended the voyages and ordered Zheng He to remain in Nanjing as garrison commander. The great voyages were over — for now.",
+    summary: "The sixth voyage escorted back envoys collected on the fifth voyage. The fleet was home by 1422. When the Yongle Emperor — Zheng He's greatest patron — died in 1424, his successor Hongxi immediately suspended the voyages and ordered Zheng He to remain in Nanjing as garrison commander. The great voyages were over — for now.",
     accuracyNote: "Sixth voyage poorly documented in the Ming Shilu; exact ports uncertain. Yongle's death and suspension of voyages historically confirmed.",
     path: [
       [120.1, 31.9], [118.6, 24.9], [108.2, 16.1],
@@ -727,15 +725,15 @@ const ZHENG_HE_VOYAGES: Voyage[] = [
     years: "1431–1433",
     color: "#b45309",
     purpose: "Restore the tributary network after a 10-year hiatus; reach Hormuz and East Africa for the final time.",
-    summary: "The seventh and final voyage was launched after a decade-long ban. It visited all established ports and pushed further — a sub-squadron reached Jeddah, 90 km from Mecca. Zheng He died during the return, probably at Calicut, in 1433. After his death, conservative Confucian officials dismantled the treasure fleet programme and destroyed the logbooks; China turned decisively inward.",
+    summary: "The seventh and final voyage was launched after a decade-long ban. It visited all established ports and pushed further — a sub-squadron reached Jeddah, 90 km from Mecca. Zheng He died during the return, probably at Calicut, in 1433. After his death the court ended the treasure fleets; according to a later story, officials even destroyed their records. China never sent such fleets again.",
     accuracyNote: "Best-documented voyage due to the Liujiagong stele (1431) and Changle stele (1432) left by Zheng He himself. His death during the return is widely accepted; exact location uncertain.",
     path: [
       [120.1, 31.9], [121.5, 28.0], [118.6, 24.9],
       [108.2, 16.1], [112.7, -7.2], [102.2, 2.2],
       [95.3, 5.5], [80.2, 6.0], [75.78, 11.25],
       [56.5, 27.1], [45.0, 12.8], [43.6, 21.6], // Hormuz, Aden, Jeddah sub-fleet
-      [45.34, 2.05], [40.13, -3.22], [39.5, -8.9],
-      [40.13, -3.22], [45.0, 12.8], [56.5, 27.1],
+      [45.34, 2.05], [40.13, -3.22],
+      [45.0, 12.8], [56.5, 27.1],
       [75.78, 11.25], [102.2, 2.2], [118.6, 24.9], [120.1, 31.9],
     ],
     waypoints: [
@@ -747,7 +745,7 @@ const ZHENG_HE_VOYAGES: Voyage[] = [
       { name: "Aden / Jeddah sub-squadron", date: "1432", lat: 12.8, lng: 45.0, note: "Sub-fleet continued to Jeddah — 90 km from Mecca, closest any Chinese fleet approached Islam's holiest city" },
       { name: "Mogadishu, Somalia", date: "1432–33", lat: 2.05, lng: 45.34, note: "Last East Africa visit; giraffes, elephants, and leopards loaded for the Emperor" },
       { name: "Malindi, Kenya", date: "1433", lat: -3.22, lng: 40.13, note: "Southernmost point of the final voyage" },
-      { name: "Nanjing, China — fleet returns without Zheng He", date: "Jul 1433", lat: 32.06, lng: 118.78, note: "Zheng He died en route (1433); the Confucian court dismantled the fleet programme and burned the logbooks — China never launched another deep-water treasure fleet", pivotal: true },
+      { name: "Nanjing, China — fleet returns without Zheng He", date: "Jul 1433", lat: 32.06, lng: 118.78, note: "Zheng He died en route (1433); the court ended the programme, and China never launched another deep-water treasure fleet", pivotal: true },
     ],
   },
 ];
@@ -781,10 +779,10 @@ const IBN_BATTUTA_VOYAGES: Voyage[] = [
       { name: "Tunis, Tunisia", date: "Oct 1325", lat: 36.82, lng: 10.18, note: "Impressed by the city's learning; stayed several weeks" },
       { name: "Alexandria, Egypt", date: "Apr 1326", lat: 31.2, lng: 29.92, note: "Visited the Pharos lighthouse; met holy men who prophesied his future travels" },
       { name: "Cairo, Egypt", date: "Apr 1326", lat: 30.05, lng: 31.25, note: "Described Cairo as 'the mother of all cities and mistress of broad provinces'" },
-      { name: "Jerusalem", date: "Oct 1326", lat: 31.77, lng: 35.22, note: "Visited the Dome of the Rock and Al-Aqsa Mosque" },
-      { name: "Damascus, Syria", date: "Nov 1326", lat: 33.51, lng: 36.29, note: "Spent Ramadan; joined the Syria Hajj caravan south" },
-      { name: "Medina, Arabia", date: "Apr 1326", lat: 24.47, lng: 39.61, note: "Tomb of the Prophet; 'an indescribable sweetness seized my heart'" },
-      { name: "Mecca, Arabia", date: "Jun 1326", lat: 21.43, lng: 39.83, note: "First Hajj; resolved never to travel the same road twice — beginning 29 years of continuous travel", pivotal: true },
+      { name: "Jerusalem", date: "Jul 1326", lat: 31.77, lng: 35.22, note: "Visited the Dome of the Rock and Al-Aqsa Mosque" },
+      { name: "Damascus, Syria", date: "Aug 1326", lat: 33.51, lng: 36.29, note: "Spent Ramadan; joined the Syria Hajj caravan south" },
+      { name: "Medina, Arabia", date: "Oct 1326", lat: 24.47, lng: 39.61, note: "Tomb of the Prophet; 'an indescribable sweetness seized my heart'" },
+      { name: "Mecca, Arabia", date: "Nov 1326", lat: 21.43, lng: 39.83, note: "First Hajj; resolved never to travel the same road twice — beginning 29 years of continuous travel", pivotal: true },
     ],
   },
   {
@@ -794,7 +792,7 @@ const IBN_BATTUTA_VOYAGES: Voyage[] = [
     years: "1326–1330",
     color: "#9a3412",
     purpose: "Explore Iraq, Persia, and East Africa; return for multiple subsequent Hajj pilgrimages.",
-    summary: "After his first Hajj, Ibn Battuta turned north to Iraq and Persia — visiting Basra, Baghdad (still recovering from the Mongol sack of 1258), Tabriz, and Shiraz — before returning to Mecca. He then sailed down the Red Sea and East African coast as far as Kilwa (Tanzania), the southernmost Swahili port, before returning for a second Hajj. He spent three years in Mecca studying Islamic law.",
+    summary: "After his first Hajj, Ibn Battuta turned north to Iraq and Persia — visiting Basra, Baghdad (still recovering from the Mongol sack of 1258), Tabriz, and Shiraz — before returning to Mecca. He then spent several years in Mecca studying Islamic law, and sailed down the Red Sea and East African coast as far as Kilwa (Tanzania), the southernmost Swahili port. The exact order and dates of these years are uncertain.",
     accuracyNote: "Iraq and Persia well-documented. East African Kilwa identification confirmed archaeologically.",
     path: [
       [39.83, 21.43], [47.78, 30.51], [44.4, 33.34],
@@ -822,7 +820,7 @@ const IBN_BATTUTA_VOYAGES: Voyage[] = [
     years: "1330–1341",
     color: "#b45309",
     purpose: "Travel through Anatolia, the Byzantine Empire, Mongol steppes, Central Asia, and reach India.",
-    summary: "Leaving Mecca in 1330, Ibn Battuta crossed Anatolia, visited Constantinople, sailed across the Black Sea into the Mongol Golden Horde steppes, traversed Central Asia through Bukhara and Samarkand, crossed the Hindu Kush, and arrived in Delhi in 1334. Sultan Muhammad ibn Tughluq appointed him as a judge and ambassador. He served in Delhi for nine years under an erratic but brilliant sultan.",
+    summary: "Leaving Mecca in 1330, Ibn Battuta crossed Anatolia, visited Constantinople, sailed across the Black Sea into the Mongol Golden Horde steppes, traversed Central Asia through Bukhara and Samarkand, crossed the Hindu Kush, and arrived in Delhi in 1334. Sultan Muhammad ibn Tughluq appointed him as a judge and ambassador. He served in Delhi for about seven years under an erratic but brilliant sultan.",
     accuracyNote: "Anatolia and Constantinople visit well-documented. Central Asia relies on dictated memory; some scholars question Constantinople timeline. Delhi service confirmed by independent historical sources.",
     path: [
       [39.83, 21.43], [36.29, 33.51], [32.49, 37.87], // Mecca → Damascus → Anatolia
@@ -837,7 +835,7 @@ const IBN_BATTUTA_VOYAGES: Voyage[] = [
       { name: "Bukhara, Uzbekistan", date: "1333", lat: 39.77, lng: 64.42, note: "Great Islamic centre of learning; 'still bearing traces of the Mongol devastation'" },
       { name: "Samarkand, Uzbekistan", date: "1333", lat: 39.65, lng: 66.98, note: "Visited the tomb of Qutham ibn Abbas" },
       { name: "Hindu Kush / Kabul area", date: "1333", lat: 34.53, lng: 69.17, note: "Crossed through the mountains; described the intense cold" },
-      { name: "Delhi, India", date: "1334–1341", lat: 28.61, lng: 77.21, note: "Appointed qadi (judge) and ambassador by Sultan Muhammad ibn Tughluq; served 8 years — the sultan was brilliant but cruel", pivotal: true },
+      { name: "Delhi, India", date: "1334–1341", lat: 28.61, lng: 77.21, note: "Appointed qadi (judge) and ambassador by Sultan Muhammad ibn Tughluq; served about seven years — the sultan was brilliant but cruel", pivotal: true },
     ],
   },
   {
@@ -847,7 +845,7 @@ const IBN_BATTUTA_VOYAGES: Voyage[] = [
     years: "1341–1345",
     color: "#c2410c",
     purpose: "Diplomatic mission to China; detoured through Maldives, Sri Lanka, Bengal, and Sumatra after shipwreck.",
-    summary: "Dispatched by the Sultan of Delhi to China, Ibn Battuta's fleet was wrecked off Calicut — he barely escaped with his life. Stranded, he detoured through the Maldives (serving as a judge for 18 months), Sri Lanka, Bengal, and Sumatra before finally departing for China in 1345.",
+    summary: "Dispatched by the Sultan of Delhi to China, Ibn Battuta's fleet was wrecked off Calicut — he barely escaped with his life. Stranded, he detoured through the Maldives (where he served as a judge), Sri Lanka, Bengal, and Sumatra before finally departing for China in 1345.",
     accuracyNote: "Maldives stay detailed in the Rihla. Bengal and Sumatra material thinner. Sri Lanka pilgrimage to Adam's Peak confirmed.",
     path: [
       [77.21, 28.61], [75.78, 11.25], // Delhi → Calicut (shipwreck)
@@ -857,9 +855,9 @@ const IBN_BATTUTA_VOYAGES: Voyage[] = [
     ],
     waypoints: [
       { name: "Malabar Coast / Calicut — shipwreck", date: "1341", lat: 11.25, lng: 75.78, note: "Ibn Battuta's fleet destroyed in a storm; diplomatic gifts lost; companions drowned; mission failed before it began", pivotal: true },
-      { name: "Maldive Islands", date: "1343–44", lat: 4.17, lng: 73.51, note: "Became a judge for 18 months; reformed local laws; asked to leave after controversies" },
+      { name: "Maldive Islands", date: "1343–44", lat: 4.17, lng: 73.51, note: "Served as a judge; tried to enforce strict Islamic law; left after disputes" },
       { name: "Sri Lanka — Adam's Peak", date: "1344", lat: 6.91, lng: 80.68, note: "Climbed Adam's Peak (Sri Pada), sacred to Buddhists, Hindus, and Muslims" },
-      { name: "Sylhet, Bengal", date: "1345", lat: 24.9, lng: 91.87, note: "Visited the Sufi saint Shah Jalal; population converting to Islam from Buddhism" },
+      { name: "Sylhet, Bengal", date: "1345", lat: 24.9, lng: 91.87, note: "Visited the Sufi saint Shah Jalal" },
       { name: "Sumatra (Samudera-Pasai)", date: "1345", lat: 5.19, lng: 97.15, note: "First Muslim kingdom in Southeast Asia; en route to China" },
       { name: "Champa (Vietnam coast)", date: "1345", lat: 16.1, lng: 108.2, note: "En route to China; noted the Buddhist population" },
     ],
@@ -871,7 +869,7 @@ const IBN_BATTUTA_VOYAGES: Voyage[] = [
     years: "1345–1346",
     color: "#d97706",
     purpose: "Reach the court of the Emperor of China.",
-    summary: "Ibn Battuta arrived in China via Quanzhou (Zayton) — the world's greatest port. He travelled north through Guangzhou, Hangzhou ('the city of Heaven'), and reached Beijing (Khanbaliq), capital of the Yuan dynasty. He was impressed by Chinese craftsmanship but disturbed by the widespread consumption of pork and wine. Historians debate how much of the China narrative is accurate vs. compiled from other travellers' accounts.",
+    summary: "Ibn Battuta arrived in China via Quanzhou (Zayton), which he called one of the greatest ports in the world. He travelled north through Guangzhou, Hangzhou ('the city of Heaven'), and reached Beijing (Khanbaliq), capital of the Yuan dynasty. He was impressed by Chinese craftsmanship but disturbed by the widespread consumption of pork and wine. Historians debate how much of the China narrative is accurate vs. compiled from other travellers' accounts.",
     accuracyNote: "China section most disputed by modern scholars; some passages appear derived from other travellers. The broad outline (Quanzhou → Hangzhou → Beijing) is accepted but Ibn Battuta's presence is not independently confirmed.",
     path: [
       [108.2, 16.1], [113.27, 23.13], // Champa → Guangzhou
@@ -905,7 +903,7 @@ const IBN_BATTUTA_VOYAGES: Voyage[] = [
       { name: "Calicut, India (return)", date: "1347", lat: 11.25, lng: 75.78, note: "Rejoined the familiar Malabar trade route" },
       { name: "Hormuz (return)", date: "1347", lat: 27.1, lng: 56.47, note: "Heard reports of the plague spreading in the west" },
       { name: "Mecca — third Hajj", date: "1348", lat: 21.43, lng: 39.83, note: "Third pilgrimage to Mecca" },
-      { name: "Damascus & Syria — Black Death", date: "1348", lat: 33.51, lng: 36.29, note: "Witnessed the Black Death in full force; 'described 2,000 deaths per day in Damascus' — one of the most vivid eyewitness accounts of the pandemic", pivotal: true },
+      { name: "Damascus & Syria — Black Death", date: "1348", lat: 33.51, lng: 36.29, note: "Witnessed the Black Death in full force; he reported that deaths in Damascus reached 2,400 in a single day — one of the most vivid eyewitness accounts of the pandemic", pivotal: true },
       { name: "Tangier, Morocco — first return home", date: "1349", lat: 35.78, lng: -5.8, note: "Home after 24 years; his mother had died shortly before his arrival", pivotal: true },
     ],
   },
@@ -950,7 +948,7 @@ const IBN_BATTUTA_VOYAGES: Voyage[] = [
       { name: "Sijilmasa, Morocco", date: "Feb 1352", lat: 31.7, lng: -4.2, note: "Departure into the Sahara; joined a large salt-trading caravan" },
       { name: "Taghaza salt mines", date: "Mar 1352", lat: 23.5, lng: -5.5, note: "Mines built entirely of rock salt (even the houses); described as 'a village with no attractions'" },
       { name: "Walata (Oualata), Mauritania", date: "1352", lat: 15.18, lng: -7.27, note: "First major sub-Saharan city; frontier of the Mali Empire" },
-      { name: "Mali capital (Niani area)", date: "1352–53", lat: 11.4, lng: -8.7, note: "Met Sultan Mansa Suleyman; offended by the simple court gifts — considered them unworthy of Mali's wealth", pivotal: true },
+      { name: "Mali capital (Niani area)", date: "1352–53", lat: 11.4, lng: -8.7, note: "Met Sultan Mansa Suleyman; disappointed by the meagre welcome gift the Mansa sent him", pivotal: true },
       { name: "Timbuktu", date: "1353", lat: 16.77, lng: -3.0, note: "A prosperous trading town on the Niger; not yet the great intellectual centre it would become" },
       { name: "Gao (on the Niger River)", date: "1353", lat: 16.27, lng: 0.04, note: "Major trading city; sailed the Niger by canoe — 'a river as big as the Nile'" },
       { name: "Morocco — final return; Rihla dictated", date: "Jan 1354", lat: 34.0, lng: -5.0, note: "Returned to Fez; dictated his entire 29 years of travels to Ibn Juzayy; the Rihla completed 1355. He never travelled again.", pivotal: true },
@@ -1245,7 +1243,7 @@ export const EXPLORERS: Explorer[] = [
     name: "Ibn Battuta",
     wikidataId: "Q7331",
     lifespan: "1304–1368/69",
-    tagline: "Travelled ~75,000 km across the Islamic world, East Africa, Central Asia, India, Southeast Asia, and China over 29 years.",
+    tagline: "Travelled some 117,000 km across the Islamic world, East Africa, Central Asia, India, Southeast Asia, and China over 29 years.",
     status: "full",
     period: "Medieval · Global",
     voyages: IBN_BATTUTA_VOYAGES,

@@ -80,9 +80,11 @@ export const CROSSWALK: Record<string, CrosswalkEntry> = {
   "Qing dynasty": { wikidataId: "Q8733", slug: "qing-dynasty", aliases: ["Qing Dynasty", "Qing", "China", "Qing Empire", "Manchu Empire"], years: [1644, 1912], representativeYear: 1800 }, // ✓ Qing dynasty
   "Joseon dynasty": { wikidataId: "Q28179", slug: "joseon-dynasty", aliases: ["Joseon", "Korea"], years: [1392, 1897], representativeYear: 1700 }, // ✓ Joseon
   "Spanish Empire": { wikidataId: "Q80702", slug: "spanish-empire", aliases: ["Spain", "Spanish Habsburg"], representativeYear: 1700 }, // Spanish Empire
-  "Portuguese Empire": { wikidataId: "Q200464",  slug: "portuguese-empire", aliases: ["Portugal"], representativeYear: 1700 },  // Portuguese Empire
+  "Portuguese Empire": { wikidataId: "Q200464",  slug: "portuguese-empire", aliases: ["Portugal"], years: [1415, 1999], representativeYear: 1700 },  // Portuguese Empire (Ceuta 1415 to Macau 1999)
+  "Portugal": { wikidataId: "Q45", slug: "portugal", representativeYear: 2000 }, // Portugal: medieval kingdom and modern state
   "British Empire": { wikidataId: "Q8680", slug: "british-empire", aliases: ["Great Britain", "United Kingdom", "United Kingdom of Great Britain and Ireland", "UK"], years: [1707, 1938], representativeYear: 1920 }, // ✓ British Empire
-  "Dutch Republic": { wikidataId: "Q170072", slug: "dutch-republic", aliases: ["Netherlands", "United Provinces"], representativeYear: 1650 }, // Dutch Republic
+  "Dutch Republic": { wikidataId: "Q170072", slug: "dutch-republic", aliases: ["Netherlands", "United Provinces"], years: [1581, 1795], representativeYear: 1650 }, // Dutch Republic
+  "Netherlands": { wikidataId: "Q55", slug: "netherlands", years: [1815, 2010], representativeYear: 2000 }, // Kingdom of the Netherlands, after Napoleon
   "Shan States": { wikidataId: "Q4765854", slug: "shan-states", representativeYear: 1600 }, // Shan States
   "Manchu Empire": { wikidataId: "Q8733", slug: "manchu-empire", aliases: ["Qing dynasty"], years: [1644, 1912], representativeYear: 1800 }, // Manchu Empire (Qing)
   "Kingdom of Prussia": { wikidataId: "Q27306", slug: "kingdom-of-prussia", aliases: ["Prussia"], representativeYear: 1783 }, // ✓ Kingdom of Prussia
@@ -93,7 +95,8 @@ export const CROSSWALK: Record<string, CrosswalkEntry> = {
   "Russian Empire": { wikidataId: "Q34266", slug: "russian-empire", representativeYear: 1900 }, // ✓ Russian Empire
 
   // ── Modern ───────────────────────────────────────────────────────────────
-  "First French Empire": { wikidataId: "Q71084", slug: "first-french-empire", aliases: ["French Empire", "France"], years: [1800, 1800], representativeYear: 1810 }, // First French Empire
+  "First French Empire": { wikidataId: "Q71084", slug: "first-french-empire", aliases: ["French Empire", "France"], years: [1804, 1814], representativeYear: 1810 }, // First French Empire
+  "French First Republic": { wikidataId: "Q58296", slug: "french-first-republic", aliases: ["France"], years: [1792, 1803], representativeYear: 1800 }, // France in the 1800 snapshot (the Consulate)
   "France": { wikidataId: "Q142", slug: "france", representativeYear: 2000 }, // ✓ France
   "German Empire": { wikidataId: "Q43287", slug: "german-empire", aliases: ["Germany", "Reich"], years: [1871, 1918], representativeYear: 1914 }, // ✓ German Empire
   "Austria-Hungary": { wikidataId: "Q28513", slug: "austria-hungary", aliases: ["Austria Hungary", "Austro-Hungarian Empire"], representativeYear: 1900 }, // ✓ Austria–Hungary

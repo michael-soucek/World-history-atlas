@@ -99,17 +99,17 @@ export const TOURS: Tour[] = [
       },
       {
         title: "The Republic Conquers Italy",
-        text: "By 200 BCE, Rome had unified the Italian peninsula and decisively beaten Carthage in the First Punic War. The Macedonian Wars were next. Rome was no longer a city-state — it was becoming an empire while still calling itself a republic.",
+        text: "By 200 BCE, Rome had unified the Italian peninsula, beaten Carthage in the First Punic War, and just survived Hannibal to win the Second (218–201 BCE). Wars against the Greek kingdoms of the east came next. Rome was no longer a city-state — it was becoming an empire while still calling itself a republic.",
         mapState: { year: -200, lat: 40, lng: 18, zoom: 4, regionId: "Q17167" },
       },
       {
         title: "The Height of Roman Power",
-        text: "Under Trajan (98–117 CE), the Roman Empire reached its greatest territorial extent — from Scotland to Mesopotamia. Some 70 million people lived within its borders, connected by 80,000 km of roads and a common legal system. It was the largest empire the Western world had ever seen.",
+        text: "Under Trajan (98–117 CE), the Roman Empire reached its greatest territorial extent — from Britain to Mesopotamia. Perhaps 60 to 70 million people lived within its borders, connected by 80,000 km of roads and a common legal system. It was the largest empire the Western world had ever seen.",
         mapState: { year: 100, lat: 38, lng: 20, zoom: 3, regionId: "Q2277" },
       },
       {
         title: "The Divided Empire",
-        text: "By 300 CE, the empire had grown too large to govern from one center. Diocletian formally split it in two. The Eastern half — wealthier, more urbanized, better positioned on trade routes — would outlast the Western by a thousand years.",
+        text: "By 300 CE, the empire had grown too large to govern from one center. Diocletian (284–305) divided its rule among four emperors, and after 395 it was permanently split into Western and Eastern halves. The Eastern half — wealthier, more urbanized, better positioned on trade routes — would outlast the Western by a thousand years.",
         mapState: { year: 300, lat: 42, lng: 25, zoom: 4 },
       },
       {
@@ -119,7 +119,7 @@ export const TOURS: Tour[] = [
       },
       {
         title: "Byzantium Endures",
-        text: "What we call the Byzantine Empire was simply the Eastern Roman Empire — it never called itself anything else. Under Justinian (527–565 CE), it briefly reconquered North Africa and Italy. But the pressures of the Arab conquests and the Seljuks slowly reduced it to a rump state around Constantinople.",
+        text: "What we call the Byzantine Empire was simply the Eastern Roman Empire — its people called themselves Romans. Under Justinian (527–565 CE), it briefly reconquered North Africa and Italy. But the Arab conquests, the Seljuks, the crusaders' sack of 1204 and finally the Ottomans reduced it to a rump state around Constantinople, which fell in 1453.",
         mapState: { year: 600, lat: 40, lng: 35, zoom: 4, regionId: "Q12544" },
       },
     ],
@@ -143,7 +143,7 @@ export const TOURS: Tour[] = [
       },
       {
         title: "The Golden Age of Tang",
-        text: "During the Tang Dynasty (618–907 CE), the Silk Road reached its peak. Chang'an became the largest and most cosmopolitan city in the world, filled with merchants from Persia, Sogdia, and beyond.",
+        text: "During the Tang Dynasty (618–907 CE), the Silk Road reached its peak. Chang'an became one of the largest and most cosmopolitan cities in the world, filled with merchants from Persia, Sogdia, and beyond.",
         mapState: { year: 800, lat: 36, lng: 108, zoom: 4, regionId: "Q9683" },
       },
       {
@@ -153,7 +153,7 @@ export const TOURS: Tour[] = [
       },
       {
         title: "Maritime Competition",
-        text: "By 1500, the land routes of the Silk Road began to decline. Ships were becoming larger and more efficient, and the Ottoman control of the eastern Mediterranean pushed Europeans to find new sea routes directly to the East.",
+        text: "By 1500, the land routes of the Silk Road began to decline. Ships were becoming larger and more efficient, and Europeans, tired of paying Middle Eastern and Venetian middlemen for spices, went looking for sea routes directly to the East.",
         mapState: { year: 1500, lat: 35, lng: 45, zoom: 3, regionId: "Q12560" },
       },
     ],
@@ -167,12 +167,12 @@ export const TOURS: Tour[] = [
     steps: [
       {
         title: "A World Still Unconnected",
-        text: "In 1400, the Americas, sub-Saharan Africa, and Australasia were effectively unknown to European cartographers. The Ottoman Empire's control of overland routes to Asia made spices expensive. European powers needed a sea route.",
+        text: "In 1400, the Americas and Australia were unknown to Europeans, and most of Africa's coast south of the Sahara was uncharted. Asian spices reached Europe through a long chain of middlemen, from Indian and Arab merchants to Egypt's Mamluks and finally Venice, and every link raised the price. Europeans wanted a sea route of their own.",
         mapState: { year: 1400, lat: 20, lng: 20, zoom: 2 },
       },
       {
         title: "Portugal Rounds Africa",
-        text: "Portuguese sailors crept down the African coast throughout the 1400s. In 1488, Bartolomeu Dias rounded the Cape of Good Hope. In 1498, Vasco da Gama reached India. Portugal now controlled the sea route to Asian spice markets — bypassing the Ottomans entirely.",
+        text: "Portuguese sailors crept down the African coast throughout the 1400s. In 1488, Bartolomeu Dias rounded the Cape of Good Hope. In 1498, Vasco da Gama reached India. Portugal now had its own sea route to the Asian spice markets, bypassing the Middle Eastern and Venetian middlemen.",
         mapState: { year: 1492, lat: 2, lng: 30, zoom: 2.4, regionId: "Q200464" },
         routes: [
           { label: "Dias rounds the Cape, 1487–1488", kind: "voyage", path: [[-9.8, 38.7], [-14, 30], [-19, 22], [-20, 12], [-14, 4], [-2, 1], [8, -5], [11, -15], [12.5, -25], [16, -33], [18.4, -35.3], [22, -34.8]] },
@@ -185,14 +185,14 @@ export const TOURS: Tour[] = [
       },
       {
         title: "Columbus Reaches the Americas",
-        text: "In 1492, Christopher Columbus — sailing for Spain — reached the Caribbean, believing he had found Asia. He had found a continent unknown to Europeans. Within decades, the Aztec and Inca empires would be conquered and their silver would flow to Spain.",
+        text: "In 1492, Christopher Columbus — sailing for Spain — reached the Caribbean, believing he had found Asia. He had found lands unknown to Europeans, apart from a short-lived Norse camp in Newfoundland 500 years earlier. Within decades, the Aztec and Inca empires would be conquered and their silver would flow to Spain.",
         mapState: { year: 1492, lat: 20, lng: -70, zoom: 3 },
         routes: [{ label: "Columbus's first voyage, 1492", kind: "voyage", path: [[-6.95, 37.2], [-12, 32], [-17.3, 28.1], [-30, 27], [-50, 26], [-65, 25], [-74.5, 24.1], [-75.5, 21.5]] }],
         markers: [{ label: "Landfall in the Bahamas, 12 October 1492", at: [-74.5, 24.1] }],
       },
       {
         title: "The World Divided",
-        text: "The Treaty of Tordesillas (1494) divided the world between Spain and Portugal along a meridian. Brazil went to Portugal; the rest of the Americas to Spain. No one asked the indigenous peoples of the Americas, Africa, or Asia.",
+        text: "The Treaty of Tordesillas (1494) divided the world between Spain and Portugal along a meridian. The eastern bulge of South America, later Brazil, fell on Portugal's side; the rest of the Americas on Spain's. No one asked the indigenous peoples of the Americas, Africa, or Asia.",
         mapState: { year: 1530, lat: 10, lng: -30, zoom: 2.5 },
         routes: [{ label: "Magellan across the Pacific, 1519–1521 (Elcano completes the circuit, 1522)", kind: "voyage", path: [[-6.35, 36.8], [-16, 28], [-28, 5], [-43.2, -22.9], [-58, -38], [-68.5, -52.5], [-75, -50], [-100, -30], [-140, -10], [-180, 10], [-215, 13.4], [-236, 10.3]] }],
         markers: [{ label: "Strait of Magellan, 1520", at: [-70, -53] }],
@@ -213,12 +213,12 @@ export const TOURS: Tour[] = [
     steps: [
       {
         title: "Arabia on the Eve of Islam",
-        text: "In 600 CE, the Arabian Peninsula sat between two exhausted superpowers — the Byzantine and Sasanian empires — locked in decades of ruinous war. Arabia itself was a patchwork of tribes, trading towns, and faiths. Into this world, in the city of Mecca, the Prophet Muhammad began preaching around 610 CE.",
+        text: "In 600 CE, the Arabian Peninsula sat between two superpowers — the Byzantine and Sasanian empires — which would soon exhaust each other in a ruinous war (602–628). Arabia itself was a patchwork of tribes, trading towns, and faiths. Into this world, in the city of Mecca, the Prophet Muhammad began preaching around 610 CE.",
         mapState: { year: 600, lat: 24, lng: 42, zoom: 4 },
       },
       {
         title: "The Rashidun Conquests",
-        text: "After Muhammad's death in 632, the first four 'Rightly Guided' caliphs led a stunning expansion. Within a decade the Rashidun Caliphate had taken Syria, Egypt, and Mesopotamia from the Byzantines and shattered the Sasanian Empire entirely — one of the most rapid conquests in history.",
+        text: "After Muhammad's death in 632, the first four 'Rightly Guided' caliphs led a stunning expansion. Within a decade the Rashidun Caliphate had taken Syria and Egypt from the Byzantines and Iraq from the Sasanians, and by 651 it had destroyed the Sasanian Empire entirely — one of the most rapid conquests in history.",
         mapState: { year: 700, lat: 30, lng: 44, zoom: 3 },
         routes: [
           { label: "Into Syria and Egypt, 634–642", kind: "conquest", path: [[39.6, 24.5], [37.5, 28.5], [35.5, 31.5], [36.3, 33.5], [36.2, 34.5]] },
@@ -233,7 +233,7 @@ export const TOURS: Tour[] = [
       },
       {
         title: "The Umayyads Reach Three Continents",
-        text: "The Umayyad Caliphate, ruling from Damascus, pushed the frontier from the Atlantic coast of Morocco to the edge of India. In 711 an Umayyad army crossed into Iberia; by 732 raiders had reached central France. It was, at its height, among the largest empires that had ever existed.",
+        text: "The Umayyad Caliphate, ruling from Damascus, pushed the frontier from the Atlantic coast of Morocco to the Indus valley. In 711 an Umayyad army crossed into Iberia; by 732 raiders had reached central France. It was, at its height, among the largest empires that had ever existed.",
         mapState: { year: 750, lat: 33, lng: 20, zoom: 2.5, regionId: "Q8575586" },
         routes: [
           { label: "Across North Africa", kind: "conquest", path: [[29.9, 31.2], [20, 32], [13, 32.9], [10.1, 35.7], [3, 36.7], [-5.8, 35.8]] },
@@ -247,17 +247,17 @@ export const TOURS: Tour[] = [
       },
       {
         title: "The Abbasid Golden Age",
-        text: "In 750 the Abbasid Caliphate seized power and founded a new capital at Baghdad. There the House of Wisdom gathered Greek, Persian, and Indian learning; scholars advanced algebra, medicine, and astronomy. For centuries Baghdad was among the richest and most learned cities on earth.",
+        text: "In 750 the Abbasids overthrew the Umayyads, and in 762 they founded a new capital at Baghdad. There the House of Wisdom gathered Greek, Persian, and Indian learning; scholars advanced algebra, medicine, and astronomy. For centuries Baghdad was among the richest and most learned cities on earth.",
         mapState: { year: 800, lat: 33, lng: 44, zoom: 4, regionId: "Q12536" },
       },
       {
         title: "Fragmentation and Rival Caliphates",
-        text: "No empire so vast could stay united. By the 10th century rival caliphates had emerged — the Fatimids in Egypt and a revived Umayyad line in Córdoba — while local dynasties ruled in the caliph's name. The unity of the early conquests gave way to a rich, plural Islamic world.",
+        text: "No empire so vast could stay united. By the 10th century rival caliphates had emerged — the Fatimids in North Africa and later Egypt, and a revived Umayyad line in Córdoba — while local dynasties ruled in the caliph's name. The unity of the early conquests gave way to a rich, plural Islamic world.",
         mapState: { year: 1000, lat: 30, lng: 35, zoom: 3 },
       },
       {
         title: "The Sack of Baghdad",
-        text: "The Abbasid caliphate endured in name until 1258, when the Mongols under Hulagu Khan stormed Baghdad and executed the last caliph. The political caliphate was over — but the religion, law, science, and art it had nurtured would shape civilizations from West Africa to Southeast Asia.",
+        text: "The Abbasid caliphate endured in name until 1258, when the Mongols under Hulagu Khan stormed Baghdad and executed the last caliph. A line of figurehead Abbasid caliphs lived on in Mamluk Cairo, but the caliphate's political power was over — but the religion, law, science, and art it had nurtured would shape civilizations from West Africa to Southeast Asia.",
         mapState: { year: 1279, lat: 33, lng: 44, zoom: 4 },
         routes: [{ label: "Hulagu's Mongols, 1256–1258", kind: "conquest", path: [[59.6, 36.3], [54, 36], [50, 36.3], [47, 34.3], [45.5, 33.9], [44.4, 33.3]] }],
         markers: [{ label: "Baghdad sacked, 1258", at: [44.37, 33.31], kind: "battle" }],
@@ -273,7 +273,7 @@ export const TOURS: Tour[] = [
     steps: [
       {
         title: "The Road Opens",
-        text: "Around 130 BCE, the Han dynasty's envoy Zhang Qian returned from Central Asia, and China began trading silk westward in earnest. The network of routes later called the Silk Road carried silk, spices, and — just as importantly — Buddhism, papermaking, and disease across Eurasia.",
+        text: "In 126 BCE, the Han dynasty's envoy Zhang Qian returned from Central Asia, and China began trading silk westward in earnest. The network of routes later called the Silk Road carried silk, spices, and — just as importantly — Buddhism, papermaking, and disease across Eurasia.",
         mapState: { year: -100, lat: 40, lng: 90, zoom: 3, regionId: "Q7209" },
       },
       {
@@ -298,7 +298,7 @@ export const TOURS: Tour[] = [
       },
       {
         title: "Majapahit and the Spice Islands",
-        text: "By the 14th century the Javanese empire of Majapahit dominated the archipelago's lucrative spice trade. Nutmeg, cloves, and mace — grown almost nowhere else on earth — drew merchants from China, India, and Arabia, and would soon lure Europeans halfway around the world.",
+        text: "By the 14th century the Javanese empire of Majapahit claimed overlordship across much of the archipelago and grew rich on its spice trade. Nutmeg, cloves, and mace — grown almost nowhere else on earth — drew merchants from China, India, and Arabia, and would soon lure Europeans halfway around the world.",
         mapState: { year: 1400, lat: -7, lng: 112, zoom: 4 },
       },
     ],
@@ -312,7 +312,7 @@ export const TOURS: Tour[] = [
     steps: [
       {
         title: "The First Emperor",
-        text: "In 221 BCE, the state of Qin conquered its rivals and its king declared himself Qin Shi Huang, First Emperor of a unified China. He standardized writing, weights, and roads, and began the Great Wall. The dynasty was brutal and brief, but the idea of a single unified China endured.",
+        text: "In 221 BCE, the state of Qin conquered its rivals and its king declared himself Qin Shi Huang, First Emperor of a unified China. He standardized writing, weights, and roads, and joined earlier walls into the first Great Wall. The dynasty was brutal and brief, but the idea of a single unified China endured.",
         mapState: { year: -200, lat: 34, lng: 109, zoom: 4 },
       },
       {
@@ -322,12 +322,12 @@ export const TOURS: Tour[] = [
       },
       {
         title: "The Cosmopolitan Tang",
-        text: "After centuries of division, the Tang dynasty (618–907) reunified China and presided over a cultural golden age. Poetry, Buddhism, and trade flourished; the capital Chang'an drew merchants and pilgrims from across Asia. Tang China was confident, open, and immensely influential on Korea and Japan.",
+        text: "After centuries of division, the short-lived Sui dynasty reunified China in 589; its successor, the Tang dynasty (618–907), presided over a cultural golden age. Poetry, Buddhism, and trade flourished; the capital Chang'an drew merchants and pilgrims from across Asia. Tang China was confident, open, and immensely influential on Korea and Japan.",
         mapState: { year: 800, lat: 34, lng: 108, zoom: 3, regionId: "Q9683" },
       },
       {
         title: "Song Innovation",
-        text: "The Song dynasty (960–1279) was an age of invention: gunpowder weapons, the magnetic compass, printing, and paper money. Its cities were the largest and most sophisticated on earth. Yet militarily it was pressed hard by northern nomads — and finally overwhelmed by the Mongols.",
+        text: "The Song dynasty (960–1279) was an age of invention: gunpowder weapons, the magnetic compass for navigation, movable-type printing, and paper money. Its cities were the largest and most sophisticated on earth. Yet militarily it was pressed hard by northern nomads — and finally overwhelmed by the Mongols.",
         mapState: { year: 1100, lat: 32, lng: 115, zoom: 3, regionId: "Q7462" },
       },
       {
@@ -351,7 +351,7 @@ export const TOURS: Tour[] = [
     steps: [
       {
         title: "Mesoamerica's Deep Roots",
-        text: "By 1300 CE, central Mexico had already seen millennia of civilization — the Olmec, Teotihuacan, and the Maya, whose cities, writing, and astronomy flourished across the Yucatán. These cultures built the foundations on which later empires would rise.",
+        text: "By 1300 CE, Mesoamerica had already seen millennia of civilization — the Olmec of the Gulf Coast, the great city of Teotihuacan in central Mexico, and the Maya, whose cities, writing, and astronomy flourished across the Yucatán and Guatemala. These cultures built the foundations on which later empires would rise.",
         mapState: { year: 1300, lat: 18, lng: -90, zoom: 4 },
       },
       {
@@ -390,7 +390,7 @@ export const TOURS: Tour[] = [
       },
       {
         title: "The Great War",
-        text: "The First World War (1914–1918) bogged down into industrialized slaughter — trenches, machine guns, poison gas. Some 17 million died. When it ended, four empires had fallen: the German, Austro-Hungarian, Russian, and Ottoman. New nations were drawn across their ruins.",
+        text: "The First World War (1914–1918) bogged down into industrialized slaughter — trenches, machine guns, poison gas. Some 15 to 20 million died. When it ended, four empires had fallen: the German, Austro-Hungarian, Russian, and Ottoman. New nations were drawn across their ruins.",
         mapState: { year: 1916, lat: 49, lng: 5, zoom: 4, regionId: "Q43287" },
       },
       {
@@ -424,7 +424,7 @@ export const TOURS: Tour[] = [
     steps: [
       {
         title: "Empires at Their Zenith",
-        text: "In 1900 a handful of European powers ruled much of the globe. The British Empire alone governed a quarter of the world's land and people. Colonized societies had long resisted, but two world wars would fatally weaken the imperial powers and embolden movements for independence.",
+        text: "In 1900 a handful of European powers ruled much of the globe. The British Empire alone governed about a fifth of the world's land and a quarter of its people. Colonized societies had long resisted, but two world wars would fatally weaken the imperial powers and embolden movements for independence.",
         mapState: { year: 1914, lat: 20, lng: 20, zoom: 1.8, regionId: "Q8680" },
       },
       {
@@ -458,7 +458,7 @@ export const TOURS: Tour[] = [
     steps: [
       {
         title: "The Kingdom of Kush",
-        text: "South of Egypt, along the Nile in what is now Sudan, the Kingdom of Kush grew rich on gold, ivory and trade. Around 744 BCE its kings turned the tables on their old overlord and conquered Egypt itself, ruling it for nearly a century as the 25th Dynasty. Later, from their capital at Meroë, Kushite rulers built hundreds of pyramids — more than Egypt ever did.",
+        text: "South of Egypt, along the Nile in what is now Sudan, the Kingdom of Kush grew rich on gold, ivory and trade. In the 8th century BCE its kings turned the tables on their old overlord and conquered Egypt itself, ruling it for nearly a century as the 25th Dynasty. Later, from their capital at Meroë, Kushite rulers built hundreds of pyramids — more than Egypt ever did.",
         mapState: { year: -700, lat: 18, lng: 32, zoom: 4.5, regionId: "Q241790" },
       },
       {
@@ -468,7 +468,7 @@ export const TOURS: Tour[] = [
       },
       {
         title: "Ghana: The Land of Gold",
-        text: "In the western Sahel, the Ghana Empire (not the modern country, which took its name) controlled the trans-Saharan trade: gold from the south exchanged for salt from the desert. Arab writers called it the land of gold; the geographer al-Bakri described its king's court and capital, Koumbi Saleh, in 1068.",
+        text: "In the western Sahel, the Ghana Empire (not the modern country, which took its name) controlled the trans-Saharan trade: gold from the south exchanged for salt from the desert. Arab writers called it the land of gold; the geographer al-Bakri described its king's court and capital, probably the ruins at Koumbi Saleh, in 1068.",
         mapState: { year: 1000, lat: 16, lng: -8, zoom: 4.5, regionId: "Q206789" },
       },
       {
@@ -571,7 +571,7 @@ export const TOURS: Tour[] = [
       },
       {
         title: "Babylon's Last Glory",
-        text: "Under Nebuchadnezzar II (reigned 605–562 BCE) Babylon became the largest city in the world, with the Ishtar Gate and a great ziggurat. But in 539 BCE Cyrus the Great of Persia took the city, and Mesopotamia became part of the Achaemenid Empire — the end of three thousand years of native Mesopotamian kingdoms.",
+        text: "Under Nebuchadnezzar II (reigned 605–562 BCE) Babylon became one of the largest cities in the world, with the Ishtar Gate and a great ziggurat. But in 539 BCE Cyrus the Great of Persia took the city, and Mesopotamia became part of the Achaemenid Empire — the end of three thousand years of native Mesopotamian kingdoms.",
         mapState: { year: -500, lat: 32.5, lng: 50, zoom: 4, regionId: "Q389688" },
       },
     ],

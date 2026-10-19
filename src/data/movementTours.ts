@@ -21,7 +21,7 @@ export const MOVEMENT_TOURS: Tour[] = [
     steps: [
       {
         title: "Cousins in the Forest",
-        text: "Hungarian is not related to the languages around it. Its closest relatives are Khanty and Mansi, spoken today by a few thousand people along the Ob River in western Siberia. There are no written records from this time, so dates are rough, based on language and archaeology. Sometime in the first millennium BCE, often put at about 1000–500 BCE, the ancestors of the Hungarians separated from their Ob-Ugric relatives. They moved south from the forest into the forest-steppe east of the Ural Mountains, and took up horse-breeding. The open steppe further west came much later.",
+        text: "Hungarian is not related to the languages around it. Its closest relatives are Khanty and Mansi, spoken today by small communities along the Ob River in western Siberia. There are no written records from this time, so dates are rough, based on language and archaeology. Sometime in the first millennium BCE, often put at about 1000–500 BCE, the ancestors of the Hungarians separated from their Ob-Ugric relatives. They moved south from the forest into the forest-steppe east of the Ural Mountains, and took up horse-breeding. The open steppe further west came much later.",
         mapState: { year: -500, lat: 56, lng: 64, zoom: 3.6 },
         highlight: ["Finno-Ugric taiga hunter-gatherers"],
         markers: [
@@ -34,9 +34,9 @@ export const MOVEMENT_TOURS: Tour[] = [
       },
       {
         title: "Life on the Steppe",
-        text: "Over the following centuries the early Magyars crossed the Urals westward. Many historians place them, by the middle of the first millennium CE, on the steppe west of the southern Urals, in what is now Bashkortostan. Medieval writers later called this area Magna Hungaria, 'Greater Hungary'. In 1235 a Hungarian friar, Julian, travelled east looking for it, and found people near the Volga who still spoke Hungarian. The Mongols destroyed them a few years later.",
+        text: "Over the following centuries the early Magyars crossed the Urals westward. Many historians place them, by the middle of the first millennium CE, on the steppe west of the southern Urals, in what is now Bashkortostan. Medieval writers later called this area Magna Hungaria, 'Greater Hungary'. In 1235 a Hungarian friar, Julian, set out east looking for it, and in 1236 he found people near the Volga who still spoke Hungarian. The Mongols destroyed them a few years later.",
         mapState: { year: 600, lat: 53, lng: 54, zoom: 4 },
-        markers: [{ label: "Magna Hungaria: Friar Julian found Hungarian speakers here in 1235", at: [55.5, 54] }],
+        markers: [{ label: "Magna Hungaria: Friar Julian found Hungarian speakers here in 1236", at: [55.5, 54] }],
         routes: [{ label: "West across the Urals onto the steppe", kind: "migration", path: [[63.5, 54.8], [60, 55], [57.5, 54.5], [55.5, 54]] }],
       },
       {
@@ -133,7 +133,7 @@ export const MOVEMENT_TOURS: Tour[] = [
       },
       {
         title: "The Kingdom of Hungary",
-        text: "The Magyars settled down. Árpád's descendant Géza invited Christian missionaries, and his son Stephen was crowned the first King of Hungary on Christmas Day 1000, with a crown sent with the Pope's blessing. Hungary became a Christian kingdom, a bulwark of Latin Europe on the steppe frontier. Its borders in the Carpathian Basin lasted, with changes, for more than 900 years.",
+        text: "The Magyars settled down. Árpád's descendant Géza invited Christian missionaries, and his son Stephen was crowned the first King of Hungary on Christmas Day 1000 (some sources say New Year's Day 1001), with a crown sent with the Pope's blessing. Hungary became a Christian kingdom, a bulwark of Latin Europe on the steppe frontier. Its borders in the Carpathian Basin lasted, with changes, for more than 900 years.",
         mapState: { year: 1100, lat: 47, lng: 20, zoom: 5 },
         highlight: ["Hungary"],
         markers: [{ label: "Esztergom: Stephen crowned, 1000", at: [18.74, 47.79] }],
@@ -242,7 +242,7 @@ export const MOVEMENT_TOURS: Tour[] = [
       },
       {
         title: "Baghdad Falls, Egypt Holds",
-        text: "In the Middle East, Hulagu, a grandson of Genghis Khan, took Baghdad in 1258, ending the Abbasid Caliphate after 500 years; the caliph was killed and much of the city destroyed. He moved into Syria and took Aleppo and Damascus. But in 1260, at Ain Jalut in Palestine, the Mamluks of Egypt beat a Mongol army. It was the first major defeat of the Mongol advance. Egypt was never conquered.",
+        text: "In the Middle East, Hulagu, a grandson of Genghis Khan, took Baghdad in 1258, ending the Abbasid Caliphate after 500 years; the caliph was killed and much of the city destroyed. He moved into Syria and took Aleppo and Damascus. But in 1260, at Ain Jalut in Palestine, the Mamluks of Egypt beat a Mongol army. It was one of the first decisive Mongol defeats, and it ended their advance to the southwest. Egypt was never conquered.",
         mapState: { year: 1260, lat: 34, lng: 41, zoom: 4.2 },
         markers: [
           { label: "Baghdad, 1258", at: [44.36, 33.31] },
@@ -553,7 +553,7 @@ export const MOVEMENT_TOURS: Tour[] = [
       },
       {
         title: "The Mediterranean: 1347",
-        text: "In 1347 plague reached Constantinople, then Alexandria. In October, Genoese galleys brought it to Messina in Sicily. By the end of the year it was in Genoa, Venice, Marseille and the ports of North Africa. Ships were the fastest way for the disease to travel, and every port city on the Mediterranean was within reach.",
+        text: "In 1347 plague reached Constantinople, then Alexandria. In October, Genoese galleys brought it to Messina in Sicily. By November it was in Marseille, and by early 1348 in Genoa, Venice and the ports of North Africa. Ships were the fastest way for the disease to travel, and every port city on the Mediterranean was within reach.",
         mapState: { year: 1347, lat: 39, lng: 20, zoom: 3.8 },
         markers: [
           { label: "Constantinople", at: [28.97, 41.01] },
