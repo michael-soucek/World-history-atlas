@@ -9,6 +9,8 @@ import { LinkRow } from "@/components/Gazetteer";
 import { CITY_LIST, distinctRulers, getCity, nearbyCities, rulersOf, type City, type RulerSpan } from "@/lib/cityHistory";
 import { buildPageMetadata, metaDescription } from "@/lib/seo";
 import { JsonLd, SITE_URL, breadcrumbLd } from "@/lib/jsonLd";
+import { connectedTo, fmtSpan, type TimedEntry } from "@/lib/entityContext";
+import { TOURS } from "@/data/tours";
 
 interface Props { params: Promise<{ slug: string }> }
 
@@ -51,7 +53,7 @@ function cityDescription(city: City, spans: RulerSpan[]): string {
 }
 
 /** "-123000" → "123,000 BCE": snapshot years reach far into prehistory. */
-const formatYear = (y: number) => (y < 0 ? `${Math.abs(y).toLocaleString("en-US")} BCE` : `${y} CE`);
+const formatYear = (y: number) => (y < 0 ? `${Math.abs(y) >= 10000 ? Math.abs(y).toLocaleString("en-US") : -y} BCE` : `${y} CE`);
 
 /** Link to the atlas at this snapshot year, centred on the city. */
 const mapHref = (city: City, year: number) => `/map?year=${year}&lat=${city.lat}&lng=${city.lng}&z=5`;
@@ -64,6 +66,9 @@ export default async function CityHistoryPage({ params }: Props) {
   const spans = rulersOf(slug);
   const rulers = distinctRulers(spans);
   const current = spans.at(-1);
+  const names = [city.name, ...(city.formerly?.split(", ") ?? [])];
+  const connected = await connectedTo(names);
+  const tours = toursThrough(names);
 
   return (
     <>
@@ -110,6 +115,7 @@ export default async function CityHistoryPage({ params }: Props) {
             <ol className="max-w-3xl">
               {spans.map((s) => <SpanRow key={s.from} city={city} span={s} />)}
             </ol>
+            <CityAnswers city={city} spans={spans} />
             <p className="mt-10 max-w-3xl text-sm text-ink/50 leading-relaxed">
               Dates are the years of our map snapshots, which are decades or centuries apart, so a change
               shown between two years happened at some point in that gap. The borders come from the
@@ -117,6 +123,8 @@ export default async function CityHistoryPage({ params }: Props) {
               peoples without fixed frontiers.
             </p>
           </section>
+
+          <Connections city={city} connected={connected} tours={tours} />
 
           <div className="mt-20 sm:mt-28 space-y-12">
             <LinkRow title="Nearby cities" links={nearbyCities(city).map((c) => ({ href: `/history-of/${c.slug}`, label: c.name }))} />
@@ -154,5 +162,128 @@ function SpanRow({ city, span }: { city: City; span: RulerSpan }) {
         Map of {formatYear(span.from)} →
       </Link>
     </li>
+  );
+}
+
+/** Tours whose narration names the city, under any of its names (case-sensitive: "Nice", not "nice"). */
+function toursThrough(names: string[]) {
+  const re = new RegExp(`\\b(${names.map((n) => n.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")).join("|")})\\b`);
+  return TOURS.flatMap((t) => {
+    const stop = t.steps.findIndex((s) => re.test(`${s.title} ${s.text}`) || (s.markers ?? []).some((m) => re.test(m.label)));
+    return stop === -1 ? [] : [{ slug: t.slug, title: t.title, stop: stop + 1 }];
+  });
+}
+
+const textLink = "underline underline-offset-4 decoration-ink/25 hover:text-accent transition-colors";
+
+/** A ruler's name, linked to its atlas page when it has one. */
+function Name({ s }: { s: RulerSpan }) {
+  return s.href ? <Link href={s.href} className={textLink}>{s.name}</Link> : <>{s.name ?? "no state on the map"}</>;
+}
+
+/** Who ruled the city at a few landmark dates, the longest rule, and how often it changed hands. */
+function CityAnswers({ city, spans }: { city: City; spans: RulerSpan[] }) {
+  const named = spans.filter((s) => s.name);
+  if (named.length < 2) return null;
+  const end = (s: RulerSpan) => s.to ?? 2010;
+  // The early maps are centuries apart, so a span there looks far longer than
+  // it was: measure "longest" from 500 BCE and count changes from 1 CE.
+  const FROM = -500;
+  const historic = named.filter((s) => s.from >= FROM);
+  const longest = historic.length ? historic.reduce((a, b) => (end(b) - b.from > end(a) - a.from ? b : a)) : undefined;
+  const since = [...named].reverse().find((s) => s.from <= 1) ?? named[0];
+  const recent = named.slice(named.indexOf(since));
+  const changes = recent.slice(1).filter((s, i) => (s.href ?? s.name) !== (recent[i].href ?? recent[i].name)).length;
+  const current = spans.at(-1)!;
+  const at = (year: number) => [...spans].reverse().find((s) => s.from <= year);
+  const checkpoints = [1, 1000, 1500, 1900]
+    .filter((y) => y >= named[0].from)
+    .map((y) => ({ y, s: at(y) }))
+    .filter((c): c is { y: number; s: RulerSpan } => !!c.s);
+  const items: { q: string; a: React.ReactNode }[] = [];
+  if (current.name) items.push({ q: `Who rules ${city.name} today?`, a: <>On the latest map, {city.name} is in <Name s={current} />.</> });
+  if (longest) {
+    const years = end(longest) - longest.from;
+    items.push({
+      q: `Who ruled ${city.name} the longest?`,
+      a: <>On our maps, <Name s={longest} />, for about {years.toLocaleString("en-US")} years ({formatYear(longest.from)} to {longest.to === null ? "today" : formatYear(longest.to)}).</>,
+    });
+  }
+  items.push({ q: `How many times has ${city.name} changed hands?`, a: <>Our maps show it passing to a new ruler {changes} {changes === 1 ? "time" : "times"} since {since.from <= 1 ? "1 CE" : formatYear(since.from)}.</> });
+  if (checkpoints.length >= 2) {
+    items.push({
+      q: `Who ruled ${city.name} in ${checkpoints.map((c) => (c.y === 1 ? "1 CE" : c.y)).join(", ").replace(/, ([^,]*)$/, " and $1")}?`,
+      a: (
+        <>
+          {checkpoints.map(({ y, s }, i) => (
+            <span key={y}>{i > 0 && " "}In {y === 1 ? "1 CE" : y}: <Name s={s} />.</span>
+          ))}
+        </>
+      ),
+    });
+  }
+  return (
+    <section className="mt-14 max-w-3xl" aria-labelledby="city-answers">
+      <h2 id="city-answers" className="label text-ink/45 mb-4">Quick answers</h2>
+      <dl className="divide-y divide-ink/10 border-y border-ink/10">
+        {items.map(({ q, a }) => (
+          <div key={q} className="py-4">
+            <dt className="font-display text-[19px] leading-snug tracking-tight text-ink">{q}</dt>
+            <dd className="mt-1.5 text-[16px] leading-relaxed text-ink/75">{a}</dd>
+          </div>
+        ))}
+      </dl>
+    </section>
+  );
+}
+
+/** People born or died in the city, events there, and tours that pass through. */
+function Connections({
+  city,
+  connected,
+  tours,
+}: {
+  city: City;
+  connected: { born: TimedEntry[]; died: TimedEntry[]; events: TimedEntry[] };
+  tours: { slug: string; title: string; stop: number }[];
+}) {
+  const groups: [string, React.ReactNode[]][] = [
+    [`Born in ${city.name}`, connected.born.map((e) => <EntryLink key={e.slug} e={e} />)],
+    [`Died in ${city.name}`, connected.died.map((e) => <EntryLink key={e.slug} e={e} />)],
+    [`Events in ${city.name}`, connected.events.map((e) => <EntryLink key={e.slug} e={e} />)],
+    [
+      `${city.name} in the guided tours`,
+      tours.map((t) => (
+        <Link key={t.slug} href={`/tour/${t.slug}${t.stop > 1 ? `?stop=${t.stop}` : ""}`} className={textLink}>{t.title}</Link>
+      )),
+    ],
+  ];
+  const shown = groups.filter(([, items]) => items.length);
+  if (!shown.length) return null;
+  return (
+    <section className="mt-20 sm:mt-28 max-w-3xl">
+      <SectionRule>{city.name} on this site</SectionRule>
+      <dl className="space-y-5">
+        {shown.map(([title, items]) => (
+          <div key={title}>
+            <dt className="label text-ink/40">{title}</dt>
+            <dd className="mt-1.5 text-[16px] leading-relaxed text-ink/75">
+              {items.map((item, i) => (
+                <span key={i}>{i > 0 && (i === items.length - 1 ? " and " : ", ")}{item}</span>
+              ))}
+            </dd>
+          </div>
+        ))}
+      </dl>
+    </section>
+  );
+}
+
+function EntryLink({ e }: { e: TimedEntry }) {
+  return (
+    <>
+      <Link href={`/${e.kind}/${e.slug}`} className={textLink}>{e.name}</Link>
+      {e.start !== undefined && e.end !== undefined ? <span className="text-ink/45"> ({fmtSpan(e.start, e.end)})</span> : null}
+    </>
   );
 }

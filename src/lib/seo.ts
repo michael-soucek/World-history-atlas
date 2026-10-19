@@ -100,7 +100,10 @@ export async function entityMetadata(
     const { start, end } = await storedFacts(qid, "place");
     if (start !== undefined && end !== undefined && end >= start) dates = fmtSpan(start, end);
   }
-  const title = `${content.name}${dates ? ` (${dates})` : ""}: ${ENTITY_TITLE_SUFFIX[kind]} — Borders of Time`;
+  // Google shows the site name above each result anyway; keep it in the title
+  // only when there's room, so the subject and dates aren't what gets cut off.
+  const core = `${content.name}${dates ? ` (${dates})` : ""}: ${ENTITY_TITLE_SUFFIX[kind]}`;
+  const title = core.length <= 52 ? `${core} — Borders of Time` : core;
   const ctx = kind === "place" ? null : await entityContext(kind, slug);
   const own = kind === "place" ? placeDescription(slug, content.name, dates) : ctx ? contextDescription(ctx) : undefined;
   const description =

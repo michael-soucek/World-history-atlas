@@ -8,6 +8,9 @@ import { TOURS, getTourBySlug } from "@/data/tours";
 import { buildPageMetadata, metaDescription } from "@/lib/seo";
 import { JsonLd, SITE_URL, breadcrumbLd } from "@/lib/jsonLd";
 import type { Tour } from "@/data/tours";
+import Link from "next/link";
+import { mentionedIn, fmtSpan, type TimedEntry } from "@/lib/entityContext";
+import { getCanonicalNameByQid, lookupByQid, resolveFeature } from "@/data/crosswalk";
 
 interface Props { params: Promise<{ slug: string }> }
 
@@ -121,6 +124,7 @@ export default async function TourPage({ params }: Props) {
         />
         <TourPlayer tour={tour} />
         <TourTranscript tour={tour} />
+        <InThisTour tour={tour} />
         <div className="max-w-5xl mx-auto px-6 pb-14">
           <RelatedResources resourceKey={`tour:${tour.slug}`} />
         </div>
@@ -163,5 +167,64 @@ function TourTranscript({ tour }: { tour: Tour }) {
         </ol>
       </details>
     </div>
+  );
+}
+
+/**
+ * Every person, event and culture the narration names, and every state the
+ * map highlights, linked to its page: a way into the rest of the atlas, and
+ * for search engines, what the tour is about.
+ */
+async function InThisTour({ tour }: { tour: Tour }) {
+  const text = tour.steps.map((s) => `${s.title} ${s.text}`).join(" ");
+  const mentioned = await mentionedIn(text);
+  const places = new Map<string, string>();
+  for (const step of tour.steps) {
+    const year = step.mapState.mapYear ?? step.mapState.year;
+    const byRegion = step.mapState.regionId ? lookupByQid(step.mapState.regionId) : undefined;
+    // War tours: the states each side holds in its own right at this stop.
+    const zoneNames = tour.zoneYear ? (step.zones ?? []).filter((z) => !z.occupied).flatMap((z) => z.countries ?? []) : [];
+    const zoned = zoneNames.map((n) => resolveFeature(n, n, tour.zoneYear!));
+    for (const entry of [byRegion, ...(step.highlight ?? []).map((n) => resolveFeature(n, n, year)), ...zoned]) {
+      if (entry) places.set(entry.slug, getCanonicalNameByQid(entry.wikidataId) ?? entry.slug);
+    }
+  }
+  const groups: [string, React.ReactNode[]][] = [
+    ["People", mentioned.filter((e) => e.kind === "person").map((e) => <EntryLink key={e.slug} e={e} />)],
+    ["Events", mentioned.filter((e) => e.kind === "event").map((e) => <EntryLink key={e.slug} e={e} />)],
+    ["Cultures and religions", mentioned.filter((e) => e.kind === "culture").map((e) => <EntryLink key={e.slug} e={e} />)],
+    ["States on the map", [...places].sort((a, b) => a[1].localeCompare(b[1])).map(([slug, name]) => (
+      <Link key={slug} href={`/place/${slug}`} className={linkClass}>{name}</Link>
+    ))],
+  ];
+  const shown = groups.filter(([, items]) => items.length);
+  if (!shown.length) return null;
+  return (
+    <div className="max-w-5xl mx-auto px-6 pb-10">
+      <div className="border-t border-ink/80 pt-5">
+        <h2 className="font-display text-2xl tracking-tight text-ink">People and places in this tour</h2>
+        <dl className="mt-5 space-y-5">
+          {shown.map(([title, items]) => (
+            <div key={title}>
+              <dt className="label text-ink/40">{title}</dt>
+              <dd className="mt-1.5 text-[15px] leading-relaxed text-ink/75">
+                {items.map((item, i) => <span key={i}>{i > 0 && " · "}{item}</span>)}
+              </dd>
+            </div>
+          ))}
+        </dl>
+      </div>
+    </div>
+  );
+}
+
+const linkClass = "underline underline-offset-4 decoration-ink/25 hover:text-accent transition-colors";
+
+function EntryLink({ e }: { e: TimedEntry }) {
+  return (
+    <>
+      <Link href={`/${e.kind}/${e.slug}`} className={linkClass}>{e.name}</Link>
+      {e.start !== undefined && e.end !== undefined ? <span className="text-ink/45"> ({fmtSpan(e.start, e.end)})</span> : null}
+    </>
   );
 }

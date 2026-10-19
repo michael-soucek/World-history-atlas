@@ -649,7 +649,7 @@ export const TOURS: Tour[] = [
       {
         title: "1989–1991: The Wall Comes Down",
         text: "In 1989 peaceful revolutions swept Eastern Europe, and on 9 November crowds breached the Berlin Wall. Germany reunified in 1990. On 26 December 1991 the Soviet Union formally dissolved into fifteen independent countries, ending the Cold War and redrawing the map of Europe and Asia.",
-        mapState: { year: 1994, lat: 55, lng: 45, zoom: 3, regionId: "Q159" },
+        mapState: { year: 1991, mapYear: 1994, lat: 55, lng: 45, zoom: 3, regionId: "Q159" },
       },
     ],
   },

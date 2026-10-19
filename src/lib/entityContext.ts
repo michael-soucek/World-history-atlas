@@ -106,7 +106,31 @@ const ALSO_KNOWN_AS: Record<string, string[]> = {
   "world-war-ii": ["Second World War"],
   holocaust: ["Holocaust"],
   "cold-war": ["Cold War"],
-  "napoleon": ["Napoleon Bonaparte"],
+  napoleon: ["Napoleon Bonaparte"],
+  // Surnames and short names the narration uses on second mention. Only
+  // unambiguous ones: no "Washington" (a city), "Victoria" or "Elizabeth".
+  "vladimir-lenin": ["Lenin"],
+  "joseph-stalin": ["Stalin"],
+  "adolf-hitler": ["Hitler"],
+  "winston-churchill": ["Churchill"],
+  "franklin-d-roosevelt": ["Roosevelt"],
+  "mao-zedong": ["Mao"],
+  "mahatma-gandhi": ["Gandhi"],
+  "otto-von-bismarck": ["Bismarck"],
+  "abraham-lincoln": ["Lincoln"],
+  "simon-bolivar": ["Bolívar"],
+  "julius-caesar": ["Caesar"],
+  "attila-the-hun": ["Attila"],
+  "tamerlane": ["Timur"],
+  "suleiman-the-magnificent": ["Suleiman"],
+  "martin-luther": ["Luther"],
+  "galileo-galilei": ["Galileo"],
+  "isaac-newton": ["Newton"],
+  "leonardo-da-vinci": ["Leonardo"],
+  "charles-darwin": ["Darwin"],
+  "albert-einstein": ["Einstein"],
+  "mehmed-ii": ["Mehmed"],
+  "hannibal": ["Hannibal Barca"],
 };
 
 const escapeRe = (s: string) => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
@@ -204,6 +228,36 @@ export async function entityContext(kind: TimedKind, slug: string): Promise<Enti
   })).filter((t) => t.stops.length);
 
   return { ...self, description, maps, before, after, place, people, events, tours };
+}
+
+/**
+ * People on the site born or died in a place, and events that took place
+ * there, matched on the place's names (Wikidata's birth/death place and
+ * location labels). For the city pages.
+ */
+export async function connectedTo(names: string[]): Promise<{ born: TimedEntry[]; died: TimedEntry[]; events: TimedEntry[] }> {
+  const { entries, entities, qids } = await loadIndex();
+  const wanted = new Set(names.map((n) => n.toLowerCase()));
+  const labelsOf = (qid: string, prop: string) =>
+    (entities[qid]?.claims[prop] ?? []).map((c) => {
+      const id = (c.mainsnak.datavalue.value as { id?: string } | undefined)?.id;
+      return id ? entities[id]?.labels?.en?.value?.toLowerCase() : undefined;
+    });
+  const match = (e: TimedEntry, prop: string) => labelsOf(qids.get(`${e.kind}:${e.slug}`)!, prop).some((l) => l && wanted.has(l));
+  const byDate = (a: TimedEntry, b: TimedEntry) => (a.start ?? 0) - (b.start ?? 0);
+  return {
+    born: entries.filter((e) => e.kind === "person" && match(e, "P19")).sort(byDate),
+    died: entries.filter((e) => e.kind === "person" && match(e, "P20")).sort(byDate),
+    events: entries.filter((e) => e.kind === "event" && match(e, "P276")).sort(byDate),
+  };
+}
+
+/** People, events and cultures on the site named in a text (whole names, case-sensitive). */
+export async function mentionedIn(text: string): Promise<TimedEntry[]> {
+  const { entries } = await loadIndex();
+  return entries.filter((e) =>
+    [e.name, ...(ALSO_KNOWN_AS[e.slug] ?? [])].some((n) => n.length >= 3 && new RegExp(`(?<![\\p{L}])${escapeRe(n)}(?![\\p{L}])`, "u").test(text)),
+  );
 }
 
 // ── Wording shared by the page section and the search description ──
