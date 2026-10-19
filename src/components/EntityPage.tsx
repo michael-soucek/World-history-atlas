@@ -45,6 +45,26 @@ function fmtYear(y: number) {
   return y > 0 ? `${y} CE` : `${Math.abs(y)} BCE`;
 }
 
+/**
+ * A year as an ISO 8601 date for structured data: "1066", or for BCE the
+ * astronomical year ("500 BCE" → "-0499"). Accepts a key-fact string like
+ * "1066 CE" / "500 BCE" or a signed number (negative = BCE).
+ */
+function isoYear(y: string | number | undefined): string | undefined {
+  if (y === undefined) return undefined;
+  let year: number;
+  if (typeof y === "number") year = y;
+  else {
+    const m = y.match(/^(\d+)\s*(BCE|CE)?$/);
+    if (!m) return undefined;
+    year = m[2] === "BCE" ? -Number(m[1]) : Number(m[1]);
+  }
+  if (!Number.isFinite(year) || year === 0) return undefined;
+  const astronomical = year < 0 ? year + 1 : year;
+  const digits = String(Math.abs(astronomical)).padStart(4, "0");
+  return astronomical < 0 ? `-${digits}` : digits;
+}
+
 export default async function EntityPage({ content, entry, entityType, baseRoute, map }: EntityPageProps) {
   const images = await getEntityImages(entry.wikidataId, content.imageUrl);
   const { hero, rest } = splitHero(content, images);
@@ -66,13 +86,34 @@ export default async function EntityPage({ content, entry, entityType, baseRoute
   if (mapRegionId) mapParams.set("region", mapRegionId);
   const mapHref = map?.href ?? (mapParams.size ? `/map?${mapParams.toString()}` : "/map");
 
+  // Wikidata sometimes hands back category pages ("Category:Ancient Egypt").
+  const facts = (content.keyFacts ?? []).map(f => ({ ...f, value: f.value.replace(/^Category:/, "") }));
+
+  // Google validates every schema.org Event like a concert listing: it needs
+  // a start date and a location. Mark a historical event as an Event only
+  // when we have both; otherwise it's a plain Thing.
+  const fact = (label: string) => facts.find((f) => f.label === label)?.value;
+  const eventStart = isoYear(fact("Start") ?? fact("Date")) ?? isoYear(content.representativeYear);
+  const eventEnd = isoYear(fact("End"));
+  const eventPlace = fact("Location") ?? fact("Country");
+  const eventFields =
+    entityType === "event" && eventStart && eventPlace
+      ? {
+          startDate: eventStart,
+          ...(eventEnd ? { endDate: eventEnd } : {}),
+          eventStatus: "https://schema.org/EventScheduled",
+          location: { "@type": "Place", name: eventPlace, address: fact("Country") ?? eventPlace },
+        }
+      : null;
+
   const schemaType =
     entityType === "person" ? "Person" :
-    entityType === "event"  ? "Event"  :
+    entityType === "event"  ? (eventFields ? "Event" : "Thing") :
     entityType === "culture"? "Thing"  : "Place";
 
   const jsonLd = {
     "@type": schemaType,
+    ...(eventFields ?? {}),
     name: content.name,
     description: content.summary ?? undefined,
     image: content.imageUrl ?? undefined,
@@ -84,8 +125,6 @@ export default async function EntityPage({ content, entry, entityType, baseRoute
   };
 
   const browsePath = entityType === "place" ? "/browse?type=place" : `/browse?type=${entityType}`;
-  // Wikidata sometimes hands back category pages ("Category:Ancient Egypt").
-  const facts = (content.keyFacts ?? []).map(f => ({ ...f, value: f.value.replace(/^Category:/, "") }));
 
   return (
     <>
