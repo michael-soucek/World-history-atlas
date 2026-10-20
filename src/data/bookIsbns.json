@@ -1,0 +1,873 @@
+{
+ "1453": {
+  "isbn": "9781401308506",
+  "openLibrary": "https://openlibrary.org/works/OL8387090W",
+  "firstPublished": 2005
+ },
+ "1491": {
+  "isbn": "9781400032051",
+  "openLibrary": "https://openlibrary.org/works/OL3494320W",
+  "firstPublished": 2005
+ },
+ "1493": {
+  "isbn": "9781847084040",
+  "openLibrary": "https://openlibrary.org/works/OL16084255W",
+  "firstPublished": 2011
+ },
+ "spqr": {
+  "isbn": "9781631492228",
+  "openLibrary": "https://openlibrary.org/works/OL17340134W",
+  "firstPublished": 2015
+ },
+ "rubicon": {
+  "isbn": "9781400078974",
+  "openLibrary": "https://openlibrary.org/works/OL5188679W",
+  "firstPublished": 2003
+ },
+ "pax": {
+  "isbn": "9780465093533",
+  "openLibrary": "https://openlibrary.org/works/OL34954520W",
+  "firstPublished": 2023
+ },
+ "fall-of-roman-empire": {
+  "isbn": "9780195325416",
+  "openLibrary": "https://openlibrary.org/works/OL8005835W",
+  "firstPublished": 2005
+ },
+ "fall-of-rome-ward-perkins": {
+  "isbn": "9780192807281",
+  "openLibrary": "https://openlibrary.org/works/OL19807864W"
+ },
+ "caesar": {
+  "isbn": "9780300126891",
+  "openLibrary": "https://openlibrary.org/works/OL8264212W",
+  "firstPublished": 2006
+ },
+ "augustus": {
+  "isbn": "9780300216660",
+  "openLibrary": "https://openlibrary.org/works/OL21569423W",
+  "firstPublished": 2014
+ },
+ "cleopatra": {
+  "isbn": "9780753539569",
+  "openLibrary": "https://openlibrary.org/works/OL15413532W",
+  "firstPublished": 2010
+ },
+ "constantine": {
+  "isbn": "9780190231620",
+  "openLibrary": "https://openlibrary.org/works/OL16564812W",
+  "firstPublished": 2012
+ },
+ "fall-of-carthage": {
+  "isbn": "9780304366422",
+  "openLibrary": "https://openlibrary.org/works/OL8264208W",
+  "firstPublished": 2007
+ },
+ "carthage-must-be-destroyed": {
+  "isbn": "9780141018096",
+  "openLibrary": "https://openlibrary.org/works/OL16012569W",
+  "firstPublished": 2010
+ },
+ "persian-fire": {
+  "isbn": "9780307279484",
+  "openLibrary": "https://openlibrary.org/works/OL17743875W",
+  "firstPublished": 2005
+ },
+ "herodotus": {
+  "isbn": "9780140449082",
+  "openLibrary": "https://openlibrary.org/works/OL15678068W"
+ },
+ "peloponnesian-war": {
+  "isbn": "9780007115068",
+  "openLibrary": "https://openlibrary.org/works/OL1939115W",
+  "firstPublished": 2003
+ },
+ "alexander-lane-fox": {
+  "isbn": "9780140088786",
+  "openLibrary": "https://openlibrary.org/works/OL3673838W",
+  "firstPublished": 1973
+ },
+ "arrian": {
+  "isbn": "9780140442533",
+  "openLibrary": "https://openlibrary.org/works/OL2372254W"
+ },
+ "hellenistic-age": {
+  "isbn": "9780679642794",
+  "openLibrary": "https://openlibrary.org/works/OL1409111W",
+  "firstPublished": 2007
+ },
+ "rise-and-fall-of-ancient-egypt": {
+  "isbn": "9780553384901",
+  "openLibrary": "https://openlibrary.org/works/OL21457531W",
+  "firstPublished": 2010
+ },
+ "woman-who-would-be-king": {
+  "isbn": "9780307956774",
+  "openLibrary": "https://openlibrary.org/works/OL17072388W",
+  "firstPublished": 2014
+ },
+ "assyria-frahm": {
+  "isbn": "9781541674400",
+  "openLibrary": "https://openlibrary.org/works/OL28852130W",
+  "firstPublished": 2023
+ },
+ "babylon-kriwaczek": {
+  "isbn": "9781848871571",
+  "openLibrary": "https://openlibrary.org/works/OL16509817W",
+  "firstPublished": 2010
+ },
+ "kingdom-of-the-hittites": {
+  "isbn": "9780199279081",
+  "openLibrary": "https://openlibrary.org/works/OL2659484W",
+  "firstPublished": 1998
+ },
+ "1177-bc": {
+  "isbn": "9780691208015",
+  "openLibrary": "https://openlibrary.org/works/OL17323768W",
+  "firstPublished": 2014
+ },
+ "in-search-of-the-phoenicians": {
+  "isbn": "9780691195964",
+  "openLibrary": "https://openlibrary.org/works/OL21215716W",
+  "firstPublished": 2017
+ },
+ "scythians-cunliffe": {
+  "isbn": "9780198820123",
+  "openLibrary": "https://openlibrary.org/works/OL20698103W",
+  "firstPublished": 2019
+ },
+ "ancient-celts": {
+  "isbn": "9780198752936",
+  "openLibrary": "https://openlibrary.org/works/OL7975729W",
+  "firstPublished": 2000
+ },
+ "sasanian-persia": {
+  "isbn": "9781850438984",
+  "openLibrary": "https://openlibrary.org/works/OL8896257W",
+  "firstPublished": 2008
+ },
+ "early-chinese-empires": {
+  "isbn": "9780674024779",
+  "openLibrary": "https://openlibrary.org/works/OL1977201W",
+  "firstPublished": 2007
+ },
+ "indus-wright": {
+  "isbn": "9780521572194",
+  "openLibrary": "https://openlibrary.org/works/OL9609317W",
+  "firstPublished": 2009
+ },
+ "early-india": {
+  "isbn": "9780520242258",
+  "openLibrary": "https://openlibrary.org/works/OL360026W",
+  "firstPublished": 2002
+ },
+ "ashoka-allen": {
+  "isbn": "9780349122380",
+  "openLibrary": "https://openlibrary.org/works/OL25111020W",
+  "firstPublished": 2012
+ },
+ "mexico-coe": {
+  "isbn": "9780500283462",
+  "openLibrary": "https://openlibrary.org/works/OL526754W",
+  "firstPublished": 1962
+ },
+ "the-maya": {
+  "isbn": "9780500289020",
+  "openLibrary": "https://openlibrary.org/works/OL526755W",
+  "firstPublished": 1966
+ },
+ "byzantium-herrin": {
+  "isbn": "9780691131511",
+  "openLibrary": "https://openlibrary.org/works/OL4370046W",
+  "firstPublished": 2006
+ },
+ "short-history-of-byzantium": {
+  "isbn": "9780241953051",
+  "openLibrary": "https://openlibrary.org/works/OL764345W",
+  "firstPublished": 1997
+ },
+ "great-arab-conquests": {
+  "isbn": "9780306817403",
+  "openLibrary": "https://openlibrary.org/works/OL21451948W",
+  "firstPublished": 2007
+ },
+ "when-baghdad-ruled": {
+  "isbn": "9780306814808",
+  "openLibrary": "https://openlibrary.org/works/OL3275649W",
+  "firstPublished": 2005
+ },
+ "house-of-wisdom": {
+  "isbn": "9781608190584",
+  "openLibrary": "https://openlibrary.org/works/OL8445483W",
+  "firstPublished": 2009
+ },
+ "pathfinders": {
+  "isbn": "9781846141614",
+  "openLibrary": "https://openlibrary.org/works/OL15920038W",
+  "firstPublished": 2010
+ },
+ "lost-enlightenment": {
+  "isbn": "9780691165851",
+  "openLibrary": "https://openlibrary.org/works/OL21534742W",
+  "firstPublished": 2013
+ },
+ "great-seljuk-empire": {
+  "isbn": "9780748698073",
+  "openLibrary": "https://openlibrary.org/works/OL21009226W",
+  "firstPublished": 2015
+ },
+ "fatimid-empire": {
+  "isbn": "9780748640768",
+  "openLibrary": "https://openlibrary.org/works/OL20872911W",
+  "firstPublished": 2017
+ },
+ "gods-war": {
+  "isbn": "9780674023871",
+  "openLibrary": "https://openlibrary.org/works/OL619226W",
+  "firstPublished": 2006
+ },
+ "crusades-asbridge": {
+  "isbn": "9781849836883",
+  "openLibrary": "https://openlibrary.org/works/OL14936405W",
+  "firstPublished": 2010
+ },
+ "saladin-phillips": {
+  "isbn": "9780099572749",
+  "openLibrary": "https://openlibrary.org/works/OL20745299W",
+  "firstPublished": 2019
+ },
+ "mongols-and-mamluks": {
+  "isbn": "9780521462266",
+  "openLibrary": "https://openlibrary.org/works/OL13398527W",
+  "firstPublished": 1995
+ },
+ "genghis-weatherford": {
+  "isbn": "9780609610626",
+  "openLibrary": "https://openlibrary.org/works/OL8162628W",
+  "firstPublished": 2004
+ },
+ "genghis-ratchnevsky": {
+  "isbn": "9780631189497",
+  "openLibrary": "https://openlibrary.org/works/OL4614047W",
+  "firstPublished": 1991
+ },
+ "the-mongols-morgan": {
+  "isbn": "9781405135399",
+  "openLibrary": "https://openlibrary.org/works/OL4958536W",
+  "firstPublished": 1986
+ },
+ "mongol-conquests-may": {
+  "isbn": "9781861898678",
+  "openLibrary": "https://openlibrary.org/works/OL17570026W",
+  "firstPublished": 2012
+ },
+ "khubilai-khan": {
+  "isbn": "9780520067400",
+  "openLibrary": "https://openlibrary.org/works/OL4123810W",
+  "firstPublished": 1987
+ },
+ "tamerlane-marozzi": {
+  "isbn": "9780306815430",
+  "openLibrary": "https://openlibrary.org/works/OL5934301W",
+  "firstPublished": 2004
+ },
+ "osmans-dream": {
+  "isbn": "9780719561122",
+  "openLibrary": "https://openlibrary.org/works/OL8203300W",
+  "firstPublished": 2005
+ },
+ "ottoman-classical-age": {
+  "isbn": "9781842124420",
+  "openLibrary": "https://openlibrary.org/works/OL8321338W"
+ },
+ "empires-of-the-sea": {
+  "isbn": "9781400066247",
+  "openLibrary": "https://openlibrary.org/works/OL8387089W",
+  "firstPublished": 2008
+ },
+ "city-of-fortune": {
+  "isbn": "9780812980226",
+  "openLibrary": "https://openlibrary.org/works/OL20395908W",
+  "firstPublished": 2011
+ },
+ "moorish-spain": {
+  "isbn": "9780520084964",
+  "openLibrary": "https://openlibrary.org/works/OL106467W",
+  "firstPublished": 1992
+ },
+ "ornament-of-the-world": {
+  "isbn": "9780316168717",
+  "openLibrary": "https://openlibrary.org/works/OL3934620W",
+  "firstPublished": 2002
+ },
+ "norman-conquest-morris": {
+  "isbn": "9781605986517",
+  "openLibrary": "https://openlibrary.org/works/OL18821939W",
+  "firstPublished": 2012
+ },
+ "joan-of-arc-castor": {
+  "isbn": "9780062384409",
+  "openLibrary": "https://openlibrary.org/works/OL17181871W",
+  "firstPublished": 2014
+ },
+ "great-mortality": {
+  "isbn": "9780060006938",
+  "openLibrary": "https://openlibrary.org/works/OL4170661W",
+  "firstPublished": 2005
+ },
+ "heart-of-europe": {
+  "isbn": "9780674058095",
+  "openLibrary": "https://openlibrary.org/works/OL17595795W",
+  "firstPublished": 2016
+ },
+ "king-and-emperor": {
+  "isbn": "9780520383210",
+  "openLibrary": "https://openlibrary.org/works/OL21647684W",
+  "firstPublished": 2019
+ },
+ "children-of-ash-and-elm": {
+  "isbn": "9780241283981",
+  "openLibrary": "https://openlibrary.org/works/OL21664163W",
+  "firstPublished": 2020
+ },
+ "gates-of-europe": {
+  "isbn": "9780465094868",
+  "openLibrary": "https://openlibrary.org/works/OL20220008W",
+  "firstPublished": 2015
+ },
+ "chinas-cosmopolitan-empire": {
+  "isbn": "9780674033061",
+  "openLibrary": "https://openlibrary.org/works/OL1977200W",
+  "firstPublished": 2009
+ },
+ "daily-life-in-china": {
+  "isbn": "9780804707206",
+  "openLibrary": "https://openlibrary.org/works/OL3519126W"
+ },
+ "troubled-empire": {
+  "isbn": "9780674072534",
+  "openLibrary": "https://openlibrary.org/works/OL20375683W",
+  "firstPublished": 2010
+ },
+ "angkor-coe": {
+  "isbn": "9780500052105",
+  "openLibrary": "https://openlibrary.org/works/OL526725W",
+  "firstPublished": 2003
+ },
+ "history-of-ayutthaya": {
+  "isbn": "9781316641132",
+  "openLibrary": "https://openlibrary.org/works/OL19722835W",
+  "firstPublished": 2017
+ },
+ "african-dominion": {
+  "isbn": "9780691196824",
+  "openLibrary": "https://openlibrary.org/works/OL20186528W",
+  "firstPublished": 2018
+ },
+ "sundiata": {
+  "isbn": "9781405849425",
+  "openLibrary": "https://openlibrary.org/works/OL4523903W",
+  "firstPublished": 1960
+ },
+ "mughal-throne": {
+  "isbn": "9780753817582",
+  "openLibrary": "https://openlibrary.org/works/OL1766505W",
+  "firstPublished": 2003
+ },
+ "mughal-empire-richards": {
+  "isbn": "9780521566032",
+  "openLibrary": "https://openlibrary.org/works/OL3913654W",
+  "firstPublished": 1996
+ },
+ "india-keay": {
+  "isbn": "9780802137975",
+  "openLibrary": "https://openlibrary.org/works/OL114575W",
+  "firstPublished": 2000
+ },
+ "last-days-of-the-incas": {
+  "isbn": "9780749929930",
+  "openLibrary": "https://openlibrary.org/works/OL8453721W",
+  "firstPublished": 2007
+ },
+ "fifth-sun": {
+  "isbn": "9780197577660",
+  "openLibrary": "https://openlibrary.org/works/OL20872735W",
+  "firstPublished": 2019
+ },
+ "aztecs-clendinnen": {
+  "isbn": "9780521485852",
+  "openLibrary": "https://openlibrary.org/works/OL4480440W",
+  "firstPublished": 1991
+ },
+ "rivers-of-gold": {
+  "isbn": "9780141034485",
+  "openLibrary": "https://openlibrary.org/works/OL273102W",
+  "firstPublished": 2003
+ },
+ "conquerors-crowley": {
+  "isbn": "9780571290901",
+  "openLibrary": "https://openlibrary.org/works/OL21127593W",
+  "firstPublished": 2015
+ },
+ "dutch-republic-israel": {
+  "isbn": "9780198207344",
+  "openLibrary": "https://openlibrary.org/works/OL1737419W",
+  "firstPublished": 1995
+ },
+ "reformation-macculloch": {
+  "isbn": "9780670032969",
+  "openLibrary": "https://openlibrary.org/works/OL2282735W",
+  "firstPublished": 2003
+ },
+ "martin-luther-roper": {
+  "isbn": "9780812986051",
+  "openLibrary": "https://openlibrary.org/works/OL17635697W",
+  "firstPublished": 2012
+ },
+ "thirty-years-war-wilson": {
+  "isbn": "9780713995923",
+  "openLibrary": "https://openlibrary.org/works/OL134554W",
+  "firstPublished": 2009
+ },
+ "leonardo-isaacson": {
+  "isbn": "9781501139161",
+  "openLibrary": "https://openlibrary.org/works/OL17802920W",
+  "firstPublished": 2017
+ },
+ "galileos-daughter": {
+  "isbn": "9780754014133",
+  "openLibrary": "https://openlibrary.org/works/OL1883959W",
+  "firstPublished": 1999
+ },
+ "never-at-rest": {
+  "isbn": "9780521274357",
+  "openLibrary": "https://openlibrary.org/works/OL2940690W",
+  "firstPublished": 1980
+ },
+ "invention-of-science": {
+  "isbn": "9781846142109",
+  "openLibrary": "https://openlibrary.org/works/OL19666035W",
+  "firstPublished": 2015
+ },
+ "enlightenment-robertson": {
+  "isbn": "9780062410665",
+  "openLibrary": "https://openlibrary.org/works/OL21662836W",
+  "firstPublished": 2020
+ },
+ "elizabeth-somerset": {
+  "isbn": "9780385721578",
+  "openLibrary": "https://openlibrary.org/works/OL2875088W",
+  "firstPublished": 1991
+ },
+ "king-of-the-world": {
+  "isbn": "9780241960585",
+  "openLibrary": "https://openlibrary.org/works/OL20758501W",
+  "firstPublished": 2019
+ },
+ "romanovs": {
+  "isbn": "9780307280510",
+  "openLibrary": "https://openlibrary.org/works/OL17363624W",
+  "firstPublished": 2012
+ },
+ "peter-the-great-massie": {
+  "isbn": "9780679645603",
+  "openLibrary": "https://openlibrary.org/works/OL84465W",
+  "firstPublished": 1980
+ },
+ "catherine-the-great-massie": {
+  "isbn": "9781789544534",
+  "openLibrary": "https://openlibrary.org/works/OL21043319W",
+  "firstPublished": 2011
+ },
+ "ivan-the-terrible": {
+  "isbn": "9780300143768",
+  "openLibrary": "https://openlibrary.org/works/OL1880046W",
+  "firstPublished": 2005
+ },
+ "gods-playground": {
+  "isbn": "9780231053501",
+  "openLibrary": "https://openlibrary.org/works/OL12378250W",
+  "firstPublished": 1981
+ },
+ "habsburgs-rady": {
+  "isbn": "9781541644519",
+  "openLibrary": "https://openlibrary.org/works/OL20758556W",
+  "firstPublished": 2020
+ },
+ "iron-kingdom": {
+  "isbn": "9780140293340",
+  "openLibrary": "https://openlibrary.org/works/OL224696W",
+  "firstPublished": 2006
+ },
+ "njinga-of-angola": {
+  "isbn": "9780674237445",
+  "openLibrary": "https://openlibrary.org/works/OL20055240W",
+  "firstPublished": 2017
+ },
+ "sea-people": {
+  "isbn": "9780062060884",
+  "openLibrary": "https://openlibrary.org/works/OL20780301W",
+  "firstPublished": 2019
+ },
+ "making-of-modern-japan": {
+  "isbn": "9780674009912",
+  "openLibrary": "https://openlibrary.org/works/OL3513934W",
+  "firstPublished": 2000
+ },
+ "modern-history-of-japan": {
+  "isbn": "9780199930159",
+  "openLibrary": "https://openlibrary.org/works/OL6098631W",
+  "firstPublished": 2002
+ },
+ "citizens": {
+  "isbn": "9780679726104",
+  "openLibrary": "https://openlibrary.org/works/OL14866001W",
+  "firstPublished": 1989
+ },
+ "liberty-or-death": {
+  "isbn": "9780300228694",
+  "openLibrary": "https://openlibrary.org/works/OL21606858W",
+  "firstPublished": 2016
+ },
+ "glorious-cause": {
+  "isbn": "9780195315882",
+  "openLibrary": "https://openlibrary.org/works/OL2000822W",
+  "firstPublished": 1982
+ },
+ "washington-chernow": {
+  "isbn": "9781846144028",
+  "openLibrary": "https://openlibrary.org/works/OL15392376W",
+  "firstPublished": 2010
+ },
+ "black-spartacus": {
+  "isbn": "9781250800053",
+  "openLibrary": "https://openlibrary.org/works/OL20811130W",
+  "firstPublished": 2020
+ },
+ "black-jacobins": {
+  "isbn": "9780679724674",
+  "openLibrary": "https://openlibrary.org/works/OL1155988W",
+  "firstPublished": 1935
+ },
+ "bolivar-arana": {
+  "isbn": "9781780226170",
+  "openLibrary": "https://openlibrary.org/works/OL17138169W",
+  "firstPublished": 2013
+ },
+ "napoleon-roberts": {
+  "isbn": "9780670025329",
+  "openLibrary": "https://openlibrary.org/works/OL17322244W",
+  "firstPublished": 2014
+ },
+ "napoleonic-wars-mikaberidze": {
+  "isbn": "9780199951062",
+  "openLibrary": "https://openlibrary.org/works/OL21100158W",
+  "firstPublished": 2020
+ },
+ "most-powerful-idea": {
+  "isbn": "9781845951351",
+  "openLibrary": "https://openlibrary.org/works/OL20442956W",
+  "firstPublished": 2010
+ },
+ "darwin-desmond": {
+  "isbn": "9780393311501",
+  "openLibrary": "https://openlibrary.org/works/OL2682087W",
+  "firstPublished": 1991
+ },
+ "victoria-baird": {
+  "isbn": "9780812982282",
+  "openLibrary": "https://openlibrary.org/works/OL20038698W",
+  "firstPublished": 1916
+ },
+ "bismarck-steinberg": {
+  "isbn": "9780199782529",
+  "openLibrary": "https://openlibrary.org/works/OL15976495W",
+  "firstPublished": 2011
+ },
+ "team-of-rivals": {
+  "isbn": "9780241966082",
+  "openLibrary": "https://openlibrary.org/works/OL1856010W",
+  "firstPublished": 2003
+ },
+ "battle-cry-of-freedom": {
+  "isbn": "9780195168952",
+  "openLibrary": "https://openlibrary.org/works/OL51158W"
+ },
+ "imperial-twilight": {
+  "isbn": "9781786494870",
+  "openLibrary": "https://openlibrary.org/works/OL19741467W",
+  "firstPublished": 2018
+ },
+ "opium-war-lovell": {
+  "isbn": "9781468308952",
+  "openLibrary": "https://openlibrary.org/works/OL19984279W",
+  "firstPublished": 2011
+ },
+ "autumn-heavenly-kingdom": {
+  "isbn": "9780857897695",
+  "openLibrary": "https://openlibrary.org/works/OL16142499W",
+  "firstPublished": 2011
+ },
+ "empress-dowager-cixi": {
+  "isbn": "9780307357557",
+  "openLibrary": "https://openlibrary.org/works/OL19868664W",
+  "firstPublished": 2013
+ },
+ "chinas-last-empire": {
+  "isbn": "9780674735415",
+  "openLibrary": "https://openlibrary.org/works/OL4794573W",
+  "firstPublished": 2009
+ },
+ "search-for-modern-china": {
+  "isbn": "9780393934519",
+  "openLibrary": "https://openlibrary.org/works/OL1842805W",
+  "firstPublished": 1990
+ },
+ "scramble-for-africa": {
+  "isbn": "9780947464646",
+  "openLibrary": "https://openlibrary.org/works/OL1940566W",
+  "firstPublished": 1990
+ },
+ "slave-ship": {
+  "isbn": "9780143114253",
+  "openLibrary": "https://openlibrary.org/works/OL4961015W",
+  "firstPublished": 2007
+ },
+ "washing-of-the-spears": {
+  "isbn": "9780712661058",
+  "openLibrary": "https://openlibrary.org/works/OL1884689W",
+  "firstPublished": 1965
+ },
+ "empire-ferguson": {
+  "isbn": "9780713996159",
+  "openLibrary": "https://openlibrary.org/works/OL792938W",
+  "firstPublished": 2003
+ },
+ "inglorious-empire": {
+  "isbn": "9781849048088",
+  "openLibrary": "https://openlibrary.org/works/OL20215345W",
+  "firstPublished": 2017
+ },
+ "guns-of-august": {
+  "isbn": "9781579125394",
+  "openLibrary": "https://openlibrary.org/works/OL3378527W",
+  "firstPublished": 1962
+ },
+ "sleepwalkers": {
+  "isbn": "9780061146657",
+  "openLibrary": "https://openlibrary.org/works/OL17366836W",
+  "firstPublished": 2013
+ },
+ "world-undone": {
+  "isbn": "9780553382402",
+  "openLibrary": "https://openlibrary.org/works/OL8125628W",
+  "firstPublished": 2006
+ },
+ "peoples-tragedy": {
+  "isbn": "9781847924513",
+  "openLibrary": "https://openlibrary.org/works/OL72141W",
+  "firstPublished": 1996
+ },
+ "lenin-sebestyen": {
+  "isbn": "9781101974308",
+  "openLibrary": "https://openlibrary.org/works/OL20820471W"
+ },
+ "lords-of-finance": {
+  "isbn": "9780143116806",
+  "openLibrary": "https://openlibrary.org/works/OL13650534W",
+  "firstPublished": 2009
+ },
+ "rise-and-fall-third-reich": {
+  "isbn": "9780862881177",
+  "openLibrary": "https://openlibrary.org/works/OL47181W",
+  "firstPublished": 1734
+ },
+ "hitler-kershaw": {
+  "isbn": "9781317874560",
+  "openLibrary": "https://openlibrary.org/works/OL28356594W",
+  "firstPublished": 1999
+ },
+ "second-world-war-beevor": {
+  "isbn": "9780297844976",
+  "openLibrary": "https://openlibrary.org/works/OL16521912W",
+  "firstPublished": 2012
+ },
+ "inferno-hastings": {
+  "isbn": "9780307475534",
+  "openLibrary": "https://openlibrary.org/works/OL16282814W",
+  "firstPublished": 2011
+ },
+ "pacific-crucible": {
+  "isbn": "9780393343410",
+  "openLibrary": "https://openlibrary.org/works/OL16229569W",
+  "firstPublished": 2011
+ },
+ "retribution-hastings": {
+  "isbn": "9780307275363",
+  "openLibrary": "https://openlibrary.org/works/OL2439620W",
+  "firstPublished": 2008
+ },
+ "holocaust-rees": {
+  "isbn": "9781541730076",
+  "openLibrary": "https://openlibrary.org/works/OL19664270W",
+  "firstPublished": 2017
+ },
+ "churchill-roberts": {
+  "isbn": "9781101981009",
+  "openLibrary": "https://openlibrary.org/works/OL20745546W",
+  "firstPublished": 2018
+ },
+ "court-of-the-red-tsar": {
+  "isbn": "9781780228358",
+  "openLibrary": "https://openlibrary.org/works/OL6032311W",
+  "firstPublished": 2003
+ },
+ "no-ordinary-time": {
+  "isbn": "9781476750576",
+  "openLibrary": "https://openlibrary.org/works/OL1856005W",
+  "firstPublished": 1994
+ },
+ "gandhi-guha": {
+  "isbn": "9780307474797",
+  "openLibrary": "https://openlibrary.org/works/OL19763413W",
+  "firstPublished": 2018
+ },
+ "great-partition": {
+  "isbn": "9780300143331",
+  "openLibrary": "https://openlibrary.org/works/OL8939709W",
+  "firstPublished": 2007
+ },
+ "mao-short": {
+  "isbn": "9780719566769",
+  "openLibrary": "https://openlibrary.org/works/OL4933429W",
+  "firstPublished": 1999
+ },
+ "ho-chi-minh-duiker": {
+  "isbn": "9780786887019",
+  "openLibrary": "https://openlibrary.org/works/OL1960734W",
+  "firstPublished": 2000
+ },
+ "embers-of-war": {
+  "isbn": "9780375756474",
+  "openLibrary": "https://openlibrary.org/works/OL20798709W",
+  "firstPublished": 2012
+ },
+ "vietnam-hastings": {
+  "isbn": "9780062405678",
+  "openLibrary": "https://openlibrary.org/works/OL17981689W",
+  "firstPublished": 2014
+ },
+ "coldest-winter": {
+  "isbn": "9781401300524",
+  "openLibrary": "https://openlibrary.org/works/OL109600W",
+  "firstPublished": 2007
+ },
+ "cold-war-gaddis": {
+  "isbn": "9780141025322",
+  "openLibrary": "https://openlibrary.org/works/OL2865967W",
+  "firstPublished": 2005
+ },
+ "cold-war-westad": {
+  "isbn": "9781541674097",
+  "openLibrary": "https://openlibrary.org/works/OL19715211W",
+  "firstPublished": 2017
+ },
+ "one-minute-to-midnight": {
+  "isbn": "9781400078912",
+  "openLibrary": "https://openlibrary.org/works/OL2006844W",
+  "firstPublished": 1998
+ },
+ "carrying-the-fire": {
+  "isbn": "9781509896578",
+  "openLibrary": "https://openlibrary.org/works/OL5332088W",
+  "firstPublished": 1975
+ },
+ "revolution-1989": {
+  "isbn": "9780753827093",
+  "openLibrary": "https://openlibrary.org/works/OL25727813W",
+  "firstPublished": 2009
+ },
+ "last-empire": {
+  "isbn": "9780465046713",
+  "openLibrary": "https://openlibrary.org/works/OL20312782W",
+  "firstPublished": 2015
+ },
+ "fate-of-africa": {
+  "isbn": "9781586483982",
+  "openLibrary": "https://openlibrary.org/works/OL85670W",
+  "firstPublished": 2004
+ },
+ "long-walk-to-freedom": {
+  "isbn": "9781447275541",
+  "openLibrary": "https://openlibrary.org/works/OL1783377W",
+  "firstPublished": 1994
+ },
+ "einstein-isaacson": {
+  "isbn": "9780233005478",
+  "openLibrary": "https://openlibrary.org/works/OL4288870W",
+  "firstPublished": 2007
+ },
+ "obsessive-genius": {
+  "isbn": "9780753818992",
+  "openLibrary": "https://openlibrary.org/works/OL1935731W",
+  "firstPublished": 2004
+ },
+ "what-the-buddha-taught": {
+  "isbn": "9781851681426",
+  "openLibrary": "https://openlibrary.org/works/OL2314435W",
+  "firstPublished": 1959
+ },
+ "analects": {
+  "isbn": "9780140443486",
+  "openLibrary": "https://openlibrary.org/works/OL9056207W"
+ },
+ "christianity-macculloch": {
+  "isbn": "9780143118695",
+  "openLibrary": "https://openlibrary.org/works/OL15441006W",
+  "firstPublished": 2010
+ },
+ "story-of-the-jews": {
+  "isbn": "9780062339577",
+  "openLibrary": "https://openlibrary.org/works/OL19722169W",
+  "firstPublished": 2017
+ },
+ "the-hindus": {
+  "isbn": "9780199593347",
+  "openLibrary": "https://openlibrary.org/works/OL15178611W",
+  "firstPublished": 2009
+ },
+ "zoroastrians-boyce": {
+  "isbn": "9780415239035",
+  "openLibrary": "https://openlibrary.org/works/OL2976954W",
+  "firstPublished": 1984
+ },
+ "muhammad-lings": {
+  "isbn": "9781594771538",
+  "openLibrary": "https://openlibrary.org/works/OL977930W",
+  "firstPublished": 1983
+ },
+ "last-days-of-socrates": {
+  "isbn": "9780140449280",
+  "openLibrary": "https://openlibrary.org/works/OL51784W"
+ },
+ "against-the-grain": {
+  "isbn": "9780300240214",
+  "openLibrary": "https://openlibrary.org/works/OL19721496W",
+  "firstPublished": 2017
+ },
+ "silk-roads-frankopan": {
+  "isbn": "9781547600212",
+  "openLibrary": "https://openlibrary.org/works/OL19666939W",
+  "firstPublished": 2015
+ },
+ "blue-latitudes": {
+  "isbn": "9780312422608",
+  "openLibrary": "https://openlibrary.org/works/OL2692555W",
+  "firstPublished": 2002
+ },
+ "silk-road-hansen": {
+  "isbn": "9780190208929",
+  "openLibrary": "https://openlibrary.org/works/OL18941543W",
+  "firstPublished": 2016
+ }
+}

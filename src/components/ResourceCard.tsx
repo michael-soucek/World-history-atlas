@@ -16,14 +16,13 @@ const TYPE_LABEL: Record<Resource["type"], string> = {
 };
 
 /**
- * One "further reading / viewing" suggestion. Becomes a real, disclosed
- * outbound link the moment `resource.affiliateUrl` is set; until then it
- * renders inert (no href, muted, clearly marked) rather than a dead or
- * misleading link. See src/data/resources.ts for how to activate one.
+ * One "further reading" suggestion: an outbound link to where it can be
+ * bought (rel="sponsored" when it's an affiliate link), or a plain card when
+ * there's no link. See src/data/resources.ts.
  */
 export default function ResourceCard({ resource }: { resource: Resource }) {
   const Icon = TYPE_ICON[resource.type];
-  const isLive = Boolean(resource.affiliateUrl);
+  const isLive = Boolean(resource.url);
 
   const body = (
     <>
@@ -32,9 +31,6 @@ export default function ResourceCard({ resource }: { resource: Resource }) {
         <span className="text-ink/35 text-[10px] font-semibold uppercase tracking-widest">
           {TYPE_LABEL[resource.type]}
         </span>
-        {!isLive && (
-          <span className="ml-auto text-[10px] text-ink/25 italic">Suggested — link coming soon</span>
-        )}
       </div>
       <p className="text-ink/85 text-sm font-medium leading-snug">{resource.title}</p>
       {resource.creator && <p className="text-ink/40 text-xs mt-0.5">{resource.creator}</p>}
@@ -45,9 +41,9 @@ export default function ResourceCard({ resource }: { resource: Resource }) {
   if (isLive) {
     return (
       <a
-        href={resource.affiliateUrl}
+        href={resource.url}
         target="_blank"
-        rel="noopener noreferrer sponsored"
+        rel={resource.affiliate ? "noopener noreferrer sponsored" : "noopener noreferrer"}
         className="block rounded-md border border-paper bg-card hover:bg-accent-wash hover:border-accent/30 p-4 transition-colors"
       >
         {body}

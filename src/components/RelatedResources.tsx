@@ -2,8 +2,8 @@ import ResourceCard from "@/components/ResourceCard";
 import { getResources } from "@/data/resources";
 
 /**
- * "Further reading & viewing" — renders nothing when there are no curated
- * suggestions for this key yet, so it's safe to drop onto any page.
+ * "Further reading" — renders nothing when there are no suggestions for this
+ * key, so it's safe to drop onto any page.
  */
 export default function RelatedResources({ resourceKey }: { resourceKey: string }) {
   const resources = getResources(resourceKey);
@@ -12,7 +12,7 @@ export default function RelatedResources({ resourceKey }: { resourceKey: string 
   return (
     <div className="rounded-md border border-paper bg-card p-5 space-y-3">
       <p className="label text-ink/45">
-        Further reading &amp; viewing
+        Further reading
       </p>
       <div className="space-y-3">
         {resources.map((r) => (

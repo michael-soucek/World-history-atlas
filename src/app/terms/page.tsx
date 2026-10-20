@@ -10,7 +10,7 @@ export const metadata: Metadata = buildPageMetadata({
   path: "/terms",
 });
 
-const LAST_UPDATED = "September 2026";
+const LAST_UPDATED = "October 2026";
 const CONTACT_EMAIL = "michaelsoucek73@gmail.com";
 const SITE_URL = "https://www.bordersoftime.com";
 
@@ -67,10 +67,11 @@ export default function TermsPage() {
             </div>
             <div className="rounded-md bg-accent-wash border border-accent/20 p-5">
               <p className="text-ink/70 text-sm leading-relaxed">
-                Some links on the Service — for example &ldquo;further reading &amp;
-                viewing&rdquo; suggestions for books, documentaries, courses, or museum tickets —
-                may be <strong>affiliate links</strong>. If you click one and make a purchase, we
-                may earn a commission at no extra cost to you. We only link to things we think are
+                The book suggestions in the “Further reading” boxes link to{" "}
+                <strong>Bookshop.org</strong>, and we are a Bookshop.org affiliate: if you click
+                one and buy, we earn a commission at no extra cost to you, and Bookshop.org
+                shares its profits with independent bookshops. Other links may become affiliate
+                links in future and will be disclosed the same way. We only link to things we think are
                 genuinely good further reading, and a link being an affiliate link never changes
                 the map, timeline, or factual content the Service shows.
               </p>
