@@ -10,7 +10,7 @@ import { ArrowRight, ArrowUpRight, MapPin } from "lucide-react";
 import RelatedResources from "@/components/RelatedResources";
 import AdSlot from "@/components/AdSlot";
 import SupportNudge from "@/components/SupportNudge";
-import { ImageStrip, WikipediaExcerpt, splitHero } from "@/components/ArticleBody";
+import ArticleBody, { splitHero } from "@/components/ArticleBody";
 import ArticleImage from "@/components/ArticleImage";
 import PlaceOnOurMaps from "@/components/PlaceOnOurMaps";
 import EntityInTime from "@/components/EntityInTime";
@@ -74,10 +74,6 @@ export default async function EntityPage({ content, entry, entityType, baseRoute
   const images = await getEntityImages(entry.wikidataId, content.imageUrl);
   const ctx = entityType === "place" ? null : await entityContext(entityType, entry.slug);
   const stored = await storedFacts(entry.wikidataId, entityType);
-  const hasOwnContent =
-    entityType === "place"
-      ? !!placeMaps(entry.slug)?.years.length
-      : !!ctx && ((ctx.start !== undefined && ctx.end !== undefined) || !!ctx.place || ctx.tours.length > 0);
   const { hero, rest } = splitHero(content, images);
 
   // A place *is* a territory, so its own QID resolves on the map directly.
@@ -203,17 +199,13 @@ export default async function EntityPage({ content, entry, entityType, baseRoute
       {/* ── Article + sidebar ── */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14 sm:py-20 grid grid-cols-1 lg:grid-cols-12 gap-14 lg:gap-8">
         <article className="lg:col-span-7 xl:col-start-2 xl:col-span-7 min-w-0">
-          {/* Pages without the site's own sections are mostly the excerpt: no ads there (AdsenseLoader). */}
-          {!hasOwnContent && <div data-no-ads hidden />}
-          {/* A short credited excerpt to introduce the subject; the rest is the site's own. */}
-          <WikipediaExcerpt name={content.name} summary={content.summary} wikipediaUrl={content.wikipediaUrl} image={rest[0]} />
           {entityType === "place" && (
             <PlaceOnOurMaps slug={entry.slug} name={content.name} regionId={mapRegionId} />
           )}
           {entityType === "place" && <QuickAnswers kind="place" name={content.name} facts={stored} maps={placeMaps(entry.slug)} />}
           {ctx && <EntityInTime ctx={ctx} />}
           {ctx && entityType !== "place" && <QuickAnswers kind={entityType} ctx={ctx} facts={stored} />}
-          {rest.length > 1 && <ImageStrip images={rest.slice(1)} name={content.name} />}
+          <ArticleBody content={content} images={rest} />
         </article>
 
         <aside className="lg:col-span-4 lg:col-start-9 xl:col-start-10 xl:col-span-3">

@@ -136,14 +136,8 @@ export default function AboutPage() {
             <h2 className="font-display text-3xl tracking-tight text-ink">Text Content</h2>
             <div className="flex-1 h-px bg-paper" />
           </div>
-          <p className="text-ink/70 text-sm leading-relaxed mb-3">
-            Pages about empires, people, events and cultures are built from the atlas itself: where and
-            when each one appears on our maps, how large it was, which modern countries its land lies in,
-            who lived at the same time, and the tours that pass through it. Each opens with a short
-            quotation from the Wikipedia article, credited and linked so you can read the rest there.
-          </p>
           <p className="text-ink/70 text-sm leading-relaxed">
-            Those quotations come from the{" "}
+            Summaries are fetched from the{" "}
             <a
               href="https://en.wikipedia.org/api/rest_v1/"
               target="_blank"

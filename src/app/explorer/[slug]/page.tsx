@@ -9,7 +9,7 @@ import PageIntro from "@/components/PageIntro";
 import VoyageMap from "@/components/VoyageMap";
 import RelatedResources from "@/components/RelatedResources";
 import ArticleImage, { type ArticleImageData } from "@/components/ArticleImage";
-import { ImageStrip, WikipediaExcerpt, toArticleImage } from "@/components/ArticleBody";
+import { ImageStrip, toArticleImage } from "@/components/ArticleBody";
 import { getEntityImages } from "@/lib/entityImages";
 import { EXPLORERS, getExplorerBySlug } from "@/data/voyages";
 import { buildEntityContent } from "@/lib/wikidata";
@@ -149,10 +149,30 @@ export default async function ExplorerPage({ params }: Props) {
                 <ArticleImage img={hero} alt={hero.caption || `Depiction of ${explorer.name}`} variant="float" side="right" priority />
               </div>
             )}
-            {content?.summary ? (
-              <WikipediaExcerpt name={explorer.name} summary={content.summary} wikipediaUrl={content.wikipediaUrl} image={summaryImage} />
+            {content?.summary && (
+              <div className="flex items-center gap-4 mb-8 pb-6 border-b border-ink/10">
+                <ReadAloudButton text={[content.summary, ...(content.sections?.map(s => s.content) || [])].join(" ")} />
+                <span className="text-xs text-ink/40">Hear the biography read aloud</span>
+              </div>
+            )}
+            {summaryParas.length > 0 ? (
+              <div className="flow-root">
+                {summaryImage && <ArticleImage img={summaryImage} alt={summaryImage.caption ?? explorer.name} variant="float" side="left" />}
+                <div className="space-y-5">
+                  {summaryParas.map((para, i) => (
+                    <p key={i} className={`font-text text-ink/85 text-[18px] sm:text-[19px] leading-[1.72] ${i === 0 ? "dropcap" : ""}`}>{para}</p>
+                  ))}
+                </div>
+              </div>
             ) : (
               <p className="font-text text-ink/70 text-lg leading-relaxed">{explorer.tagline}</p>
+            )}
+            {content?.wikipediaUrl && (
+              <p className="text-xs text-ink/35 mt-6">
+                Summary from{" "}
+                <a href={content.wikipediaUrl} target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 hover:text-accent transition-colors">Wikipedia</a>
+                {" "}(CC BY-SA 4.0)
+              </p>
             )}
             {stripImages.length > 0 && <ImageStrip images={stripImages} name={explorer.name} />}
           </article>

@@ -69,12 +69,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const result = await resolvePage(slug);
   if (!result?.content) {
-    return { title: "Place not found — Borders of Time", robots: { index: false, follow: true } };
-  }
-  // The thin fallback page (below) is for visitors arriving from the map, not for search engines.
-  const { content, entry } = result;
-  if (content.labelMismatch || !entry || !content.summary?.trim()) {
-    return { title: `${content.name} — Borders of Time`, robots: { index: false, follow: true } };
+    return { title: "Place not found — Borders of Time" };
   }
   return entityMetadata("place", slug, result.content);
 }

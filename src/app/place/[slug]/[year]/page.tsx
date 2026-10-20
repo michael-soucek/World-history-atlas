@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { WikipediaExcerpt } from "@/components/ArticleBody";
 import { CROSSWALK, lookupBySlug, lookupByQid } from "@/data/crosswalk";
 import { buildPlaceContent } from "@/lib/wikidata";
 import { formatYear, getSnapshotYearFor } from "@/data/snapshotYears";
@@ -123,9 +122,7 @@ export default async function PlaceYearPage({ params }: Props) {
         )}
 
         {content.summary && (
-          <div className="mb-8">
-            <WikipediaExcerpt name={content.name} summary={content.summary} wikipediaUrl={content.wikipediaUrl} />
-          </div>
+          <p className="text-ink/80 text-lg leading-relaxed mb-8">{content.summary}</p>
         )}
 
         <div className="flex flex-wrap gap-3">
