@@ -29,144 +29,56 @@ export function splitHero(content: PlaceContent, images: EntityImage[]): { hero?
   return { hero, rest: pool };
 }
 
-/** Sections shorter than this don't get an image — it would dwarf the text. */
-const MIN_SECTION_CHARS_FOR_IMAGE = 700;
-
 /**
- * The reading column of a topic page: the summary with an image set into it,
- * each article section opening with its own image (alternating sides, text
- * wrapping round it), and any remaining images in a strip at the end.
- * Collapsed sections preview their image beside the heading. The lead image
- * is rendered by the page itself (see splitHero).
+ * The opening of the encyclopedia article, cut to about `maxWords` at a
+ * sentence boundary. Pages quote only this much: the rest of each page is the
+ * site's own material, and the full article is a link away. (Republishing
+ * whole Wikipedia articles is copied content under Google's publisher
+ * policies, whatever the licence allows.)
  */
-export default function ArticleBody({
-  content,
-  images,
+export function wikiExcerpt(summary: string | undefined, maxWords = 110): string {
+  const text = clean(summary?.split(/\n+/).filter(Boolean).join(" ")) ?? "";
+  const sentences = text.match(/[^.!?]+[.!?]+(?:["”’)\]]+)?(?=\s|$)/g) ?? (text ? [text] : []);
+  let out = "";
+  for (const sentence of sentences) {
+    const next = `${out} ${sentence.trim()}`.trim();
+    if (out && next.split(/\s+/).length > maxWords) break;
+    out = next;
+  }
+  return out;
+}
+
+/** A short, credited quotation from the Wikipedia article, with a link to the rest. */
+export function WikipediaExcerpt({
+  name,
+  summary,
+  wikipediaUrl,
+  image,
 }: {
-  content: PlaceContent;
-  /** Body images, after the hero has been taken out. */
-  images: ArticleImageData[];
+  name: string;
+  summary?: string;
+  wikipediaUrl?: string;
+  image?: ArticleImageData;
 }) {
-  const pool = [...images];
-  const summaryParas = (content.summary ?? "").split(/\n+/).filter(Boolean);
-  const summaryImage = summaryParas.length > 0 ? pool.shift() : undefined;
-  const sections = content.sections ?? [];
-  const sectionImages = sections.map((sec) =>
-    sec.content.length >= MIN_SECTION_CHARS_FOR_IMAGE ? pool.shift() : undefined,
-  );
-  const remaining = pool;
-
+  const excerpt = wikiExcerpt(summary);
+  if (!excerpt) return null;
   return (
-    <>
-      {summaryParas.length > 0 && (
-        <div className="flex items-center gap-4 mb-8 pb-6 border-b border-ink/10">
-          <ReadAloudButton text={[content.summary, ...sections.map((s) => s.content)].join(" ")} />
-          <span className="text-xs text-ink/40">Hear the whole article read aloud</span>
-        </div>
-      )}
-
-      {summaryParas.length > 0 ? (
-        <div className="mb-6 flow-root">
-          {summaryImage && <ArticleImage img={summaryImage} alt={summaryImage.caption ?? content.name} variant="float" side="right" />}
-          <div className="space-y-5">
-            {summaryParas.map((para, i) => (
-              <div key={i} className="group relative">
-                <ReadAloudButton
-                  text={para}
-                  variant="minimal"
-                  className="absolute -left-14 top-0 max-xl:hidden opacity-0 group-hover:opacity-100 transition-opacity"
-                />
-                <p className={`font-text text-ink/85 text-[18px] sm:text-[19px] leading-[1.72] ${i === 0 ? "dropcap" : ""}`}>{para}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      ) : (
-        <p className="font-text text-ink/50 text-lg italic mb-4">
-          No summary available.{" "}
-          {content.wikipediaUrl && (
-            <a href={content.wikipediaUrl} target="_blank" rel="noopener noreferrer" className="text-accent hover:text-ink underline underline-offset-2 transition-colors not-italic">
-              Read the full article on Wikipedia →
-            </a>
-          )}
-        </p>
-      )}
-
-      {content.wikipediaUrl && summaryParas.length > 0 && (
-        <p className="text-xs text-ink/35 mb-14">
-          Summary from{" "}
-          <a href={content.wikipediaUrl} target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 hover:text-accent transition-colors">
-            Wikipedia
-          </a>{" "}
-          (CC BY-SA 4.0)
-        </p>
-      )}
-
-      {sections.length > 0 && (
-        <div className="border-t border-ink/15">
-          {sections.map((sec, i) => {
-            const img = sectionImages[i];
-            const paras = sec.content.split(/\n+/).filter(Boolean);
-            return (
-              <details key={sec.heading || `sec-${i}`} className="group border-b border-ink/10" open={i === 0}>
-                <summary className="flex items-center gap-4 cursor-pointer list-none select-none py-5 [&::-webkit-details-marker]:hidden">
-                  <span className="font-mono text-[11px] text-accent/80 tabular-nums w-6 shrink-0">{String(i + 1).padStart(2, "0")}</span>
-                  <h2 className="font-display text-2xl sm:text-[28px] leading-tight tracking-tight text-ink/80 group-open:text-ink group-hover:text-ink transition-colors">
-                    {sec.heading}
-                  </h2>
-                  {img && (
-                    // Preview of the section's picture while it's collapsed.
-                    // eslint-disable-next-line @next/next/no-img-element
-                    <img
-                      src={img.thumb.replace(/\/\d+px-([^/]+)$/, "/120px-$1")}
-                      alt=""
-                      aria-hidden="true"
-                      loading="lazy"
-                      className="ml-auto h-10 w-14 object-cover grayscale-[0.4] group-open:hidden max-sm:hidden"
-                    />
-                  )}
-                  <span
-                    className={`${img ? "sm:ml-3 max-sm:ml-auto" : "ml-auto"} group-open:ml-auto shrink-0 w-7 h-7 grid place-items-center rounded-full border border-ink/15 text-ink/45 transition-transform group-open:rotate-45`}
-                    aria-hidden="true"
-                  >
-                    <svg className="w-3 h-3" viewBox="0 0 12 12" fill="none"><path d="M6 1v10M1 6h10" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" /></svg>
-                  </span>
-                </summary>
-                <div className="pb-10 sm:pl-10 flow-root">
-                  {img && <ArticleImage img={img} alt={img.caption ?? sec.heading} variant="float" side={i % 2 === 0 ? "right" : "left"} />}
-                  <div className="space-y-5">
-                    {paras.map((p, k) => (
-                      <p key={k} className="font-text text-ink/80 text-[17px] sm:text-[18px] leading-[1.75]">
-                        {p}
-                      </p>
-                    ))}
-                  </div>
-                  <div className="mt-5 flex items-center gap-4 text-sm">
-                    <ReadAloudButton text={sec.content} variant="minimal" className="-ml-3" />
-                    {sec.content.length >= 1190 && content.wikipediaUrl && (
-                      <a href={content.wikipediaUrl} target="_blank" rel="noopener noreferrer" className="text-accent hover:text-ink underline underline-offset-4 decoration-accent/30 transition-colors">
-                        Continue on Wikipedia →
-                      </a>
-                    )}
-                  </div>
-                </div>
-              </details>
-            );
-          })}
-          {content.wikipediaUrl && (
-            <p className="text-xs text-ink/35 pt-4">
-              Article sections from{" "}
-              <a href={content.wikipediaUrl} target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 hover:text-accent transition-colors">
-                Wikipedia
-              </a>{" "}
-              (CC BY-SA 4.0). Excerpted for readability.
-            </p>
-          )}
-        </div>
-      )}
-
-      {remaining.length > 0 && <ImageStrip images={remaining} name={content.name} />}
-    </>
+    <section className="mb-14 flow-root" aria-label={`From Wikipedia: ${name}`}>
+      {image && <ArticleImage img={image} alt={image.caption ?? name} variant="float" side="right" />}
+      <p className="label text-ink/45 mb-3">In brief, from Wikipedia</p>
+      <blockquote className="border-l-2 border-ink/15 pl-5">
+        <p className="font-text text-ink/80 text-[18px] leading-[1.7]">{excerpt}</p>
+      </blockquote>
+      <div className="mt-4 flex flex-wrap items-center gap-x-5 gap-y-2 text-sm">
+        <ReadAloudButton text={excerpt} variant="minimal" className="-ml-3" />
+        {wikipediaUrl && (
+          <a href={wikipediaUrl} target="_blank" rel="noopener noreferrer" className="text-accent hover:text-ink underline underline-offset-4 decoration-accent/30 transition-colors">
+            Read the full article on Wikipedia →
+          </a>
+        )}
+        <span className="text-xs text-ink/35">Wikipedia, CC BY-SA 4.0</span>
+      </div>
+    </section>
   );
 }
 

@@ -23,6 +23,8 @@ const nextConfig: NextConfig = {
         destination: "/place/polish-lithuanian-commonwealth",
         permanent: true,
       },
+      // The "Pro (coming soon)" page was removed: nothing there was built.
+      { source: "/pro", destination: "/support", permanent: true },
       {
         source: "/place/manchu-empire",
         destination: "/place/qing-dynasty",

@@ -68,11 +68,7 @@ export default function SupportPage() {
                   <Link href="/contact" className="text-accent hover:text-accent/80 underline">
                     telling us
                   </Link>{" "}
-                  what you&rsquo;d find useful in a future{" "}
-                  <Link href="/pro" className="text-accent hover:text-accent/80 underline">
-                    Borders of Time Pro
-                  </Link>
-                  .
+                  what you&rsquo;d like to see on the site next.
                 </p>
               </div>
             )}
