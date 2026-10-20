@@ -34,7 +34,7 @@ export default function ConfidenceLegend() {
           <Row
             swatch="rgba(120,180,110,0.55)"
             label="High"
-            detail="Historical documents / OpenHistoricalMap"
+            detail="Historical documents"
           />
           {/* Medium */}
           <Row

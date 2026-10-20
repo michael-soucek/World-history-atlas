@@ -28,7 +28,7 @@ export default function AboutPage() {
               Borders of Time aims to show the world&rsquo;s borders honestly, clearly, and fairly.
               Here&rsquo;s exactly where the data comes from and how it&rsquo;s used.
             </p>
-            <ReadAloudButton text="Borders of Time aims to show the world's borders honestly, clearly, and fairly. This project uses historical border data from several sources, primarily Ourednik's historical basemaps and OpenHistoricalMap." />
+            <ReadAloudButton text="Borders of Time aims to show the world's borders honestly, clearly, and fairly. This project's historical border data comes André Ourednik's historical basemaps, with our own corrections." />
           </div>
         </header>
 
@@ -38,7 +38,7 @@ export default function AboutPage() {
             <h2 className="font-display text-3xl tracking-tight text-ink">Historical Border Data</h2>
               <div className="flex-1 h-px bg-paper" />
               <ReadAloudButton 
-                text="The primary source for historical borders is aourednik/historical-basemaps by André Ourednik. Supplementary coverage comes from OpenHistoricalMap. We use three precision levels: approximate, estimated, and defined. Note that the slider only snaps to years where sourced data actually exists; no borders are interpolated." 
+                text="The primary source for historical borders is aourednik/historical-basemaps by André Ourednik, with our own corrections. We use three precision levels: approximate, estimated, and defined. Note that the slider only snaps to years where sourced data actually exists; no borders are interpolated." 
                 variant="minimal" 
                 className="opacity-50 hover:opacity-100 pointer-coarse:opacity-100 transition-opacity"
               />
@@ -55,19 +55,7 @@ export default function AboutPage() {
                 aourednik/historical-basemaps
               </a>{" "}
               by André Ourednik, an open-licensed collection of GeoJSON snapshots covering world
-              history from 3000 BCE to the present.
-            </p>
-            <p>
-              Supplementary coverage comes from{" "}
-              <a
-                href="https://www.openhistoricalmap.org"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-accent hover:text-accent/80 underline"
-              >
-                OpenHistoricalMap
-              </a>
-              , a collaborative project that attaches date ranges to geographic features.
+              history from 123,000 BCE to 2010.
             </p>
             <div className="rounded-md bg-card border border-paper p-5 space-y-2">
               <h3 className="text-ink font-medium">Precision levels</h3>
@@ -95,9 +83,12 @@ export default function AboutPage() {
               <h3 className="text-accent font-medium text-sm">Known data limitations</h3>
               <ul className="space-y-2 text-ink/55 text-xs leading-relaxed">
                 <li>
-                  <span className="text-ink/70 font-medium">54 snapshots total</span> — coverage
-                  jumps by centuries in ancient history (e.g. nothing between 1000–1100 CE).
-                  Each arrow key press jumps to the next real data year.
+                  <span className="text-ink/70 font-medium">55 border maps</span> — 54 from
+                  historical-basemaps plus a 1985 map we built from its 1960 and 1994 files. The
+                  timeline has 23 more stops for dated events (the Peace of Westphalia, the Congress
+                  of Vienna and others), which show the borders of the nearest earlier map. The maps
+                  are a century apart through most of the Middle Ages and up to a thousand years
+                  apart before 2000 BCE. Each arrow key press jumps to the next stop.
                 </li>
                 <li>
                   <span className="text-ink/70 font-medium">Placeholder names</span> — sparsely

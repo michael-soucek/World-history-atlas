@@ -21,7 +21,6 @@ const COLUMNS: { title: string; links: { href: string; label: string; external?:
     title: "Sources",
     links: [
       { href: "https://github.com/aourednik/historical-basemaps", label: "historical-basemaps", external: true },
-      { href: "https://www.openhistoricalmap.org", label: "OpenHistoricalMap", external: true },
       { href: "https://www.wikipedia.org", label: "Wikipedia", external: true },
       { href: "https://www.wikidata.org", label: "Wikidata", external: true },
     ],
