@@ -331,8 +331,9 @@ function BorderCorrections() {
         The source maps are an extraordinary open resource, but some snapshots carry over names and borders
         from an earlier year, or leave states unnamed. We check every map against the historical record, in
         particular which state held each of the 163 cities on our &ldquo;Who ruled it?&rdquo; pages in every year,
-        and correct what we find before anything on the site uses it. {BORDER_FIXES.length} corrections
-        currently apply across {years.length} maps:
+        and correct what we find before anything on the site uses it. The corrected borders are a modified
+        version of historical-basemaps and, like the original, are released under the GNU General Public
+        License v3.0. {BORDER_FIXES.length} corrections currently apply across {years.length} maps:
       </p>
       <div className="mt-5 border-t border-ink/10">
         {years.map((year) => (

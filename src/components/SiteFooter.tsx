@@ -89,7 +89,7 @@ export default function SiteFooter() {
       <div className="border-t border-white/10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 flex flex-col sm:flex-row gap-2 sm:justify-between text-[12px] text-parchment/45 leading-relaxed">
           <span>No AI-generated history. Contested topics present perspectives, not verdicts.</span>
-          <span>Borders CC BY-SA 4.0 · Text from Wikipedia, CC BY-SA 4.0</span>
+          <span>Borders from historical-basemaps, GPL-3.0, with our corrections · Text from Wikipedia, CC BY-SA 4.0</span>
         </div>
       </div>
     </footer>
