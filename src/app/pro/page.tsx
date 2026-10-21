@@ -82,7 +82,7 @@ export default function ProPage() {
               tools, if you teach — say so. It directly shapes what gets built first.
             </p>
             <a
-              href="mailto:michaelsoucek73@gmail.com?subject=Borders%20of%20Time%20Pro"
+              href="mailto:hello@bordersoftime.com?subject=Borders%20of%20Time%20Pro"
               className="inline-flex items-center gap-2 rounded-md px-5 py-3 text-sm font-semibold border border-paper bg-card text-ink/70 hover:bg-surface hover:text-ink transition-all duration-200"
             >
               Let us know you&rsquo;re interested

@@ -10,7 +10,7 @@ export const metadata: Metadata = buildPageMetadata({
   path: "/contact",
 });
 
-const CONTACT_EMAIL = "michaelsoucek73@gmail.com";
+const CONTACT_EMAIL = "hello@bordersoftime.com";
 
 const REASONS = [
   {

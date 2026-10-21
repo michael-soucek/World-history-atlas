@@ -11,7 +11,7 @@ export const metadata: Metadata = buildPageMetadata({
 });
 
 const LAST_UPDATED = "October 2026";
-const CONTACT_EMAIL = "michaelsoucek73@gmail.com";
+const CONTACT_EMAIL = "hello@bordersoftime.com";
 const SITE_URL = "https://www.bordersoftime.com";
 
 export default function TermsPage() {

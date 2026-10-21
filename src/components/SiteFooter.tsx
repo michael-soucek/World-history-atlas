@@ -30,7 +30,7 @@ const COLUMNS: { title: string; links: { href: string; label: string; external?:
     links: [
       { href: "/about", label: "Methodology" },
       { href: "/contact", label: "Contact" },
-      { href: "mailto:michaelsoucek73@gmail.com", label: "Report an error", external: true },
+      { href: "mailto:hello@bordersoftime.com", label: "Report an error", external: true },
       { href: "/privacy", label: "Privacy" },
       { href: "/terms", label: "Terms" },
     ],
