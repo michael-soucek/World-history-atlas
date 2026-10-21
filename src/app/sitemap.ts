@@ -5,6 +5,7 @@ import { ERA_LIST, eraSlug } from "@/data/eras";
 import { TOURS } from "@/data/tours";
 import { CITY_LIST } from "@/lib/cityHistory";
 import { EXPLORERS } from "@/data/voyages";
+import { TIMELAPSES } from "@/data/timelapses";
 
 const BASE = "https://www.bordersoftime.com";
 
@@ -33,6 +34,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })),
     { url: `${BASE}/tour`,     lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE}/world-wars`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${BASE}/borders-over-time`, lastModified: new Date("2026-10-21"), changeFrequency: "monthly", priority: 0.8 },
+    ...TIMELAPSES.map((t) => ({
+      url: `${BASE}/borders-over-time/${t.slug}`, lastModified: new Date("2026-10-21"), changeFrequency: "monthly" as const, priority: 0.8,
+    })),
     { url: `${BASE}/history-of`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE}/play`, lastModified: now, changeFrequency: "daily", priority: 0.7 },
     { url: `${BASE}/compare`, lastModified: now, changeFrequency: "monthly", priority: 0.6 },

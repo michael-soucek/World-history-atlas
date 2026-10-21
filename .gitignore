@@ -43,3 +43,6 @@ next-env.d.ts
 
 # land polygons downloaded by scripts/validate-voyage-routes.mjs
 /.cache/
+
+# time-lapse videos for social media (scripts/build-timelapse-frames.mts)
+/videos/

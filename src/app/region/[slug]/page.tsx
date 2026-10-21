@@ -9,6 +9,7 @@ import Gazetteer, { LinkRow } from "@/components/Gazetteer";
 import { ReadAloudButton } from "@/components/ReadAloudButton";
 import { CROSSWALK } from "@/data/crosswalk";
 import { buildPageMetadata, metaDescription } from "@/lib/seo";
+import { TIMELAPSES } from "@/data/timelapses";
 
 interface Props { params: Promise<{ slug: string }> }
 
@@ -203,6 +204,7 @@ export default async function RegionPage({ params }: Props) {
     .filter(p => p.entry != null);
 
   const mapHref = `/map?lat=${region.mapCenter.lat}&lng=${region.mapCenter.lng}&z=${region.mapCenter.zoom}`;
+  const timelapse = TIMELAPSES.find((t) => t.region === slug);
 
   return (
     <>
@@ -220,6 +222,7 @@ export default async function RegionPage({ params }: Props) {
           title={region.label}
           lede={region.description}
           aside={
+            <>
             <Link
               href={mapHref}
               className="group inline-flex items-center gap-3 h-12 pl-6 pr-5 rounded-md bg-ink text-parchment text-[15px] font-semibold hover:bg-accent transition-colors"
@@ -227,6 +230,12 @@ export default async function RegionPage({ params }: Props) {
               See it on the map
               <span className="transition-transform group-hover:translate-x-0.5" aria-hidden="true">→</span>
             </Link>
+            {timelapse && (
+              <Link href={`/borders-over-time/${timelapse.slug}`} className="mt-4 block text-[15px] text-accent hover:underline underline-offset-4">
+                Watch its borders change over time →
+              </Link>
+            )}
+            </>
           }
         />
 

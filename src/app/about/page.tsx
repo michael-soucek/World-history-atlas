@@ -57,6 +57,30 @@ export default function AboutPage() {
               by André Ourednik, an open-licensed collection of GeoJSON snapshots covering world
               history from 123,000 BCE to 2010.
             </p>
+            <p>
+              The year-by-year animations on{" "}
+              <Link href="/borders-over-time" className="text-accent hover:text-accent/80 underline">Borders over time</Link>{" "}
+              use a second source,{" "}
+              <a
+                href="https://github.com/Seshat-Global-History-Databank/cliopatria"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-accent hover:text-accent/80 underline"
+              >
+                Cliopatria
+              </a>{" "}
+              by the Seshat Global History Databank (licensed{" "}
+              <a
+                href="https://creativecommons.org/licenses/by/4.0/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-accent hover:text-accent/80 underline"
+              >
+                CC BY 4.0
+              </a>
+              ), which records the years each border applies to, from 3400 BCE to 2024. We simplify its
+              shapes, clip them to each region and colour them by empire.
+            </p>
             <div className="rounded-md bg-card border border-paper p-5 space-y-2">
               <h3 className="text-ink font-medium">Precision levels</h3>
               <ul className="space-y-1.5 text-ink/60">
