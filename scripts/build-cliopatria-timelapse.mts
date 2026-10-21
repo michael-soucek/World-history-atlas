@@ -160,10 +160,57 @@ const named = (name: string, year: number) => {
 mkdirSync(join(ROOT, "public/timelapse-data"), { recursive: true });
 const factsPath = join(ROOT, "src/data/timelapseFacts.json");
 const out: Record<string, TimelapseFacts> = existsSync(factsPath) && only.length ? JSON.parse(readFileSync(factsPath, "utf8")) : {};
+/** Captions for the videos where the portrait frame differs from the page's (git-ignored; read by build-timelapse-video.mts). */
+const videoFactsPath = join(CACHE, "video-facts.json");
+const videoOut: Record<string, TimelapseFacts> = existsSync(videoFactsPath) && only.length ? JSON.parse(readFileSync(videoFactsPath, "utf8")) : {};
+
+interface InView { n: string; g: string; f: number; t: number; km2: number; tallKm2: number }
+
+/** Walk every year: when the map changes, what appears or vanishes, and who holds the most land in the frame. */
+function factsFor(from: number, inView: InView[], area: "km2" | "tallKm2") {
+  const years: number[] = [];
+  for (let y = from; y <= TIMELAPSE_END; y++) if (y !== 0) years.push(y); // no year 0
+  const changes: number[] = []; // years the map differs from the year before
+  const events: TimelapseEvent[] = [];
+  const leaders: TimelapseLeaders[] = [];
+  let prevShapes = "";
+  let prevAll = new Set<string>();
+  let prevBig = new Set<string>();
+  let prevTop = "";
+  for (const y of years) {
+    const alive = inView.filter((s) => s[area] > 0 && s.f <= y && s.t >= y);
+    const key = alive.map((s) => `${s.n}:${s.f}`).sort().join("|");
+    if (key !== prevShapes && y !== from) changes.push(y);
+    prevShapes = key;
+    const byName = new Map<string, number>();
+    const byGroup = new Map<string, number>();
+    for (const s of alive) {
+      byName.set(s.n, (byName.get(s.n) ?? 0) + s[area]);
+      byGroup.set(s.g, (byGroup.get(s.g) ?? 0) + s[area]);
+    }
+    const all = new Set(byName.keys());
+    const big = new Set([...byName].filter(([, a]) => a >= BIG_KM2).map(([n]) => n));
+    if (y !== from) {
+      // "Appeared" = large now and not on the map at all last year; "gone" the reverse.
+      const appeared = [...big].filter((n) => !prevAll.has(n));
+      const gone = [...prevBig].filter((n) => !all.has(n));
+      if (appeared.length || gone.length) events.push({ year: y, appeared: appeared.map((n) => named(n, y)), gone: gone.map((n) => named(n, y - 1)) });
+    }
+    prevAll = all;
+    prevBig = big;
+    const top = [...byGroup].sort((a, b) => b[1] - a[1]).slice(0, TOP);
+    const topKey = top.map(([g]) => g).join("|");
+    if (topKey !== prevTop) leaders.push({ year: y, largest: top.map(([g, a]) => ({ ...named(g, y), km2: Math.round(a / 1000) * 1000 })) });
+    prevTop = topKey;
+  }
+  return { years, changes, events, leaders };
+}
 
 for (const t of TIMELAPSES.filter((t) => !only.length || only.includes(t.slug))) {
   const view = t.bbox;
-  const drawn = pad(t.tallBbox ? [Math.min(view[0], t.tallBbox[0]), Math.min(view[1], t.tallBbox[1]), Math.max(view[2], t.tallBbox[2]), Math.max(view[3], t.tallBbox[3])] : view, 0.7);
+  const videoBox = t.videoBbox ?? t.tallBbox;
+  const union = [t.tallBbox, t.videoBbox].reduce<Bbox>((u, b) => (b ? [Math.min(u[0], b[0]), Math.min(u[1], b[1]), Math.max(u[2], b[2]), Math.max(u[3], b[3])] : u), view);
+  const drawn = pad(union, 0.7);
   const picked = rows
     .map((r, i) => ({ r, b: boxes[i] }))
     .filter(({ r, b }) => b && overlaps(b, drawn) && r.properties.ToYear >= t.from && r.properties.FromYear <= TIMELAPSE_END)
@@ -193,7 +240,7 @@ for (const t of TIMELAPSES.filter((t) => !only.length || only.includes(t.slug)))
   const geomIndex = new Map<string, number>();
   const shapes: [number, number, number, number][] = []; // from, to, colour, geometry
   const labels: [number, number, number, number, number, number][] = []; // lon, lat, from, to, name, rank
-  const inView: { n: string; g: string; f: number; t: number; km2: number }[] = [];
+  const inView: InView[] = [];
   let points = 0;
 
   for (const r of picked) {
@@ -235,7 +282,9 @@ for (const t of TIMELAPSES.filter((t) => !only.length || only.includes(t.slug)))
         if (a > bestKm2) { bestKm2 = a; best = q; }
       }
     }
-    inView.push({ n: r.properties.Name, g: groupOf(r), f, t: to, km2 });
+    // The videos use the portrait frame, so their captions are measured on it.
+    const tallKm2 = !videoBox ? km2 : polygons(r.geometry).reduce((sum, p) => sum + clipTo(p, videoBox).reduce((s2, q) => s2 + polygonArea(q), 0), 0);
+    inView.push({ n: r.properties.Name, g: groupOf(r), f, t: to, km2, tallKm2 });
     if (best && bestKm2 > 2000) {
       const [x, y] = polylabel(best, degPerPx * 2);
       const rank = km2 >= 1_500_000 ? 7 : km2 >= 500_000 ? 6 : km2 >= 150_000 ? 5 : km2 >= 40_000 ? 4 : km2 >= 12_000 ? 3 : 2;
@@ -246,48 +295,14 @@ for (const t of TIMELAPSES.filter((t) => !only.length || only.includes(t.slug)))
   const dataPath = join(ROOT, "public/timelapse-data", `${t.slug}.json`);
   writeFileSync(dataPath, JSON.stringify(data));
 
-  // Facts: walk every year.
-  const years: number[] = [];
-  for (let y = t.from; y <= TIMELAPSE_END; y++) if (y !== 0) years.push(y); // no year 0
-  const changes: number[] = []; // years the map differs from the year before
-  const events: TimelapseEvent[] = [];
-  const leaders: TimelapseLeaders[] = [];
-  let prevShapes = "";
-  let prevAll = new Set<string>();
-  let prevBig = new Set<string>();
-  let prevTop = "";
-  // Sort shapes by first year to sweep quickly.
-  for (const y of years) {
-    const alive = inView.filter((s) => s.km2 > 0 && s.f <= y && s.t >= y);
-    const key = alive.map((s) => `${s.n}:${s.f}`).sort().join("|");
-    if (key !== prevShapes && y !== t.from) changes.push(y);
-    prevShapes = key;
-    const byName = new Map<string, number>();
-    const byGroup = new Map<string, number>();
-    for (const s of alive) {
-      if (!s.km2) continue;
-      byName.set(s.n, (byName.get(s.n) ?? 0) + s.km2);
-      byGroup.set(s.g, (byGroup.get(s.g) ?? 0) + s.km2);
-    }
-    const all = new Set(byName.keys());
-    const big = new Set([...byName].filter(([, a]) => a >= BIG_KM2).map(([n]) => n));
-    if (y !== t.from) {
-      // "Appeared" = large now and not on the map at all last year; "gone" the reverse.
-      const appeared = [...big].filter((n) => !prevAll.has(n));
-      const gone = [...prevBig].filter((n) => !all.has(n));
-      if (appeared.length || gone.length) events.push({ year: y, appeared: appeared.map((n) => named(n, y)), gone: gone.map((n) => named(n, y - 1)) });
-    }
-    prevAll = all;
-    prevBig = big;
-    const top = [...byGroup].sort((a, b) => b[1] - a[1]).slice(0, TOP);
-    const topKey = top.map(([g]) => g).join("|");
-    if (topKey !== prevTop) leaders.push({ year: y, largest: top.map(([g, a]) => ({ ...named(g, y), km2: Math.round(a / 1000) * 1000 })) });
-    prevTop = topKey;
-  }
+  const { years, changes, events, leaders } = factsFor(t.from, inView, "km2");
+  if (videoBox) videoOut[t.slug] = { slug: t.slug, from: t.from, to: TIMELAPSE_END, ...factsFor(t.from, inView, "tallKm2") };
+  else delete videoOut[t.slug];
   out[t.slug] = { slug: t.slug, from: t.from, to: TIMELAPSE_END, changes, events, leaders };
   const kb = Math.round(readFileSync(dataPath).length / 1024);
   console.log(`${t.slug}: ${shapes.length} shapes (${geoms.length} distinct, ${points} points), ${labels.length} labels, ${kb} KB; map changes in ${changes.length} of ${years.length} years; ${events.length} events`);
 }
 
 writeFileSync(factsPath, JSON.stringify(out));
+writeFileSync(videoFactsPath, JSON.stringify(videoOut));
 console.log("wrote src/data/timelapseFacts.json");

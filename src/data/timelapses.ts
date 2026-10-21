@@ -24,6 +24,8 @@ export interface Timelapse {
   bbox: Bbox;
   /** Optional tighter frame for the portrait (phone / video) crop. */
   tallBbox?: Bbox;
+  /** Optional frame for the video only, where it differs from the portrait crop. */
+  videoBbox?: Bbox;
   /** The year shown on the hub card and share image. */
   cover: number;
   /** Matching /region page, if there is one. */
@@ -52,6 +54,7 @@ export const TIMELAPSES: Timelapse[] = [
     from: -2000,
     bbox: [-170, -50, 180, 75],
     tallBbox: [-20, -26, 150, 74],
+    videoBbox: [-180, -56, 180, 76],
     intro:
       "Four thousand years of states and empires across the whole planet, from Egypt’s Middle Kingdom and the cities of Mesopotamia to a world divided almost entirely into nation-states.",
   },

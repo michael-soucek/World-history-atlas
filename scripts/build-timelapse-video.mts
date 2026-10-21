@@ -13,7 +13,7 @@
  * (base map tiles and fonts). Encodes with ffmpeg-static.
  */
 import { spawn } from "node:child_process";
-import { mkdirSync, readFileSync } from "node:fs";
+import { existsSync, mkdirSync, readFileSync } from "node:fs";
 import { join } from "node:path";
 import { fileURLToPath } from "node:url";
 import puppeteer, { type Browser, type Page } from "puppeteer-core";
@@ -30,8 +30,13 @@ const args = process.argv.slice(2);
 const only = args.filter((a) => !a.startsWith("--"));
 const makeVideo = !args.includes("--no-video");
 const makeCover = !args.includes("--no-cover");
+// PREVIEW=1821 saves just that year's video frame to .cache/timelapse-preview/{slug}.png, to check framing.
+const PREVIEW = process.env.PREVIEW ? Number(process.env.PREVIEW) : null;
 
 const FACTS = JSON.parse(readFileSync(join(ROOT, "src/data/timelapseFacts.json"), "utf8")) as Record<string, TimelapseFacts>;
+// Captions measured on the portrait frame, where it differs from the page's (scripts/build-cliopatria-timelapse.mts).
+const videoFactsPath = join(ROOT, ".cache/cliopatria/video-facts.json");
+const VIDEO_FACTS = (existsSync(videoFactsPath) ? JSON.parse(readFileSync(videoFactsPath, "utf8")) : {}) as Record<string, TimelapseFacts>;
 
 /** The slice of the MapLibre API the page scripts use (the library is injected into the page, not imported). */
 interface PageMap {
@@ -51,6 +56,13 @@ const END_CARD = 75;
 /** Keep videos under three minutes (the YouTube Shorts limit). */
 const MAX_SECONDS = 172;
 
+/**
+ * Videos whose map is a wide band across the middle of the portrait frame (in
+ * CSS px from the top), for regions too wide to fill it: a map can't show more
+ * than one world's width, so a full-height world map would cut off Asia.
+ */
+const BANDS: Record<string, { top: number; height: number }> = { world: { top: 292, height: 400 } };
+
 const CROPS = {
   wide: { width: 1280, height: 720, scale: 1.25 },
   tall: { width: 540, height: 960, scale: 2 },
@@ -60,7 +72,7 @@ type CropName = keyof typeof CROPS;
 const lib = readFileSync(join(ROOT, "node_modules/maplibre-gl/dist/maplibre-gl.js"), "utf8");
 
 /** A page holding one map, framed on the bbox, ready for draw(). */
-async function openMap(browser: Browser, crop: CropName, bbox: Bbox): Promise<Page> {
+async function openMap(browser: Browser, crop: CropName, bbox: Bbox, band?: { top: number; height: number }): Promise<Page> {
   const c = CROPS[crop];
   const page = await browser.newPage();
   if (process.env.DEBUG) {
@@ -73,7 +85,7 @@ async function openMap(browser: Browser, crop: CropName, bbox: Bbox): Promise<Pa
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,500&family=Geist+Mono:wght@500&display=block" rel="stylesheet">
 <style>
   html,body{margin:0;background:${MAP.sea};}
-  #m{position:absolute;inset:0}
+  #m{position:absolute;${band ? `left:0;right:0;top:${band.top}px;height:${band.height}px` : "inset:0"}}
   #o{position:absolute;inset:0;pointer-events:none;display:none;font-family:Fraunces,Georgia,serif;color:#0f1726}
   .top{position:absolute;left:0;right:0;top:0;padding:46px 30px 70px;background:linear-gradient(#eef0f2 0%,#eef0f2 62%,rgba(238,240,242,0) 100%)}
   .kicker{font:500 11px/1 "Geist Mono",monospace;letter-spacing:.18em;text-transform:uppercase;color:#2346a0}
@@ -251,11 +263,23 @@ function encoder(out: string, width: number, height: number) {
 const browser = await puppeteer.launch({ executablePath: CHROME, headless: true, args: ["--use-angle=swiftshader", "--enable-unsafe-swiftshader"], protocolTimeout: 120_000 });
 
 for (const t of TIMELAPSES.filter((t) => !only.length || only.includes(t.slug))) {
-  const facts = FACTS[t.slug];
+  if ((t.videoBbox ?? t.tallBbox) && !VIDEO_FACTS[t.slug]) throw new Error(`No video captions for ${t.slug}: run scripts/build-cliopatria-timelapse.mts`);
+  const facts = VIDEO_FACTS[t.slug] ?? FACTS[t.slug];
   if (!facts) throw new Error(`No facts for ${t.slug}: run scripts/build-cliopatria-timelapse.mts`);
   const data = JSON.parse(readFileSync(join(ROOT, "public/timelapse-data", `${t.slug}.json`), "utf8")) as TimelapseData;
   const tl = createTimelapse(data);
 
+  if (PREVIEW !== null) {
+    const tall = await openMap(browser, "tall", t.videoBbox ?? t.tallBbox ?? t.bbox, BANDS[t.slug]);
+    await draw(tall, tl.at(PREVIEW));
+    const map = await shot(tall);
+    const overlay = await overlayPng(tall, overlayHtml(t, facts, PREVIEW));
+    mkdirSync(join(ROOT, ".cache/timelapse-preview"), { recursive: true });
+    await sharp(map).composite([{ input: overlay }]).toFile(join(ROOT, ".cache/timelapse-preview", `${t.slug}.png`));
+    console.log(`${t.slug}: preview ${formatYear(PREVIEW)}`);
+    await tall.close();
+    continue;
+  }
   if (makeCover) {
     const wide = await openMap(browser, "wide", t.bbox);
     await draw(wide, tl.at(t.cover));
@@ -266,7 +290,7 @@ for (const t of TIMELAPSES.filter((t) => !only.length || only.includes(t.slug)))
   }
   if (!makeVideo) continue;
 
-  const tall = await openMap(browser, "tall", t.tallBbox ?? t.bbox);
+  const tall = await openMap(browser, "tall", t.videoBbox ?? t.tallBbox ?? t.bbox, BANDS[t.slug]);
   const W = CROPS.tall.width * CROPS.tall.scale;
   const H = CROPS.tall.height * CROPS.tall.scale;
   mkdirSync(join(ROOT, "videos"), { recursive: true });
