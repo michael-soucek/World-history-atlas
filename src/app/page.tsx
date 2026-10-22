@@ -143,8 +143,11 @@ export default async function HomePage() {
                 Watch the world <span className="italic text-glow">redraw</span> itself.
               </h1>
               <p className="mt-6 text-base sm:text-lg text-parchment/65 leading-relaxed max-w-md">
-                Scrub through {SNAPSHOT_YEARS.length} maps, from the first cities to today, and see every empire,
-                kingdom and nation rise, spread and break apart.
+                Scrub through {SNAPSHOT_YEARS.length} maps from the first cities to today, or{" "}
+                <Link href="/borders-over-time" className="text-parchment underline decoration-glow/50 underline-offset-4 hover:decoration-glow">
+                  watch every year since 2000 BCE
+                </Link>{" "}
+                play out on an animated map. See every empire, kingdom and nation rise, spread and break apart.
               </p>
               <div className="mt-9 flex flex-wrap items-center gap-x-6 gap-y-4">
                 <Link
@@ -166,7 +169,7 @@ export default async function HomePage() {
         <section className="border-b border-ink/10">
           <dl className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-2 lg:grid-cols-4">
             {[
-              { n: String(SNAPSHOT_YEARS.length), l: "Historical maps", s: "123,000 BCE to 2010" },
+              { n: String(SNAPSHOT_YEARS.length), l: "Historical maps", s: "123,000 BCE to 2010, plus every year since 2000 BCE animated" },
               { n: `${topicCount}+`, l: "Places, people & events", s: "Each with its own page" },
               { n: String(TOURS.length), l: "Guided tours", s: "Narrated, step by step" },
               { n: String(EXPLORERS.length), l: "Voyages traced", s: "Charted stop by stop" },
