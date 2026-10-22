@@ -8,6 +8,8 @@ import { EXPLORERS } from "@/data/voyages";
 import { TIMELAPSES } from "@/data/timelapses";
 
 const BASE = "https://www.bordersoftime.com";
+// Every entity page got its own article (content/articles) on this date.
+const ARTICLES_WRITTEN = new Date("2026-10-22");
 
 const REGION_SLUGS = [
   "europe", "east-asia", "south-asia", "middle-east",
@@ -56,28 +58,29 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const uniquePlaces = Object.values(CROSSWALK).filter(e => !seenQids.has(e.wikidataId) && seenQids.add(e.wikidataId));
   const placeRoutes: MetadataRoute.Sitemap = uniquePlaces.map(e => ({
     url: `${BASE}/place/${e.slug}`,
-    lastModified: now,
+    // Place pages: new search titles (2026-10-21), 57 new places and our own articles (2026-10-22).
+    lastModified: new Date("2026-10-22"),
     changeFrequency: "monthly",
     priority: 0.8,
   }));
 
   const personRoutes: MetadataRoute.Sitemap = Object.values(PEOPLE_CROSSWALK).map(e => ({
     url: `${BASE}/person/${e.slug}`,
-    lastModified: now,
+    lastModified: ARTICLES_WRITTEN,
     changeFrequency: "monthly",
     priority: 0.7,
   }));
 
   const eventRoutes: MetadataRoute.Sitemap = Object.values(EVENTS_CROSSWALK).map(e => ({
     url: `${BASE}/event/${e.slug}`,
-    lastModified: now,
+    lastModified: ARTICLES_WRITTEN,
     changeFrequency: "monthly",
     priority: 0.7,
   }));
 
   const cultureRoutes: MetadataRoute.Sitemap = Object.values(CULTURES_CROSSWALK).map(e => ({
     url: `${BASE}/culture/${e.slug}`,
-    lastModified: now,
+    lastModified: ARTICLES_WRITTEN,
     changeFrequency: "monthly",
     priority: 0.7,
   }));
@@ -119,7 +122,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const explorerRoutes: MetadataRoute.Sitemap = EXPLORERS.map(e => ({
     url: `${BASE}/explorer/${e.slug}`,
-    lastModified: now,
+    lastModified: ARTICLES_WRITTEN,
     changeFrequency: "monthly",
     priority: 0.7,
   }));

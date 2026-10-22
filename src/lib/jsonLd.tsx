@@ -36,6 +36,32 @@ export function breadcrumbLd(trail: [string, string][]): Ld {
   };
 }
 
+/**
+ * One of the site's own articles (content/articles): who wrote it, when, and
+ * what it cites. `about` is the page's main entity (a Place, Person, Event…).
+ */
+export function articleLd(a: {
+  headline: string; path: string; description?: string; image?: string;
+  written?: string; wordCount: number; citations: string[]; about: Ld;
+}): Ld {
+  const site = { "@type": "Organization", name: SITE_NAME, url: SITE_URL };
+  return {
+    "@type": "Article",
+    headline: a.headline,
+    url: SITE_URL + a.path,
+    mainEntityOfPage: SITE_URL + a.path,
+    ...(a.description ? { description: a.description } : {}),
+    ...(a.image ? { image: a.image } : {}),
+    ...(a.written ? { datePublished: a.written, dateModified: a.written } : {}),
+    author: site,
+    publisher: site,
+    inLanguage: "en",
+    wordCount: a.wordCount,
+    citation: a.citations,
+    about: a.about,
+  };
+}
+
 /** An index page and the pages it lists, e.g. all tours or every city. */
 export function collectionLd(name: string, description: string, path: string, items: { name: string; path: string }[]): Ld {
   return {

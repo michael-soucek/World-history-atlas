@@ -132,7 +132,7 @@ export default function TourListPage() {
           </ol>
 
           <p className="mt-10 text-xs text-ink/40 leading-relaxed">
-            Tours are data-authored. No AI-generated historical content.
+            Tours are built from the atlas&apos;s map data and cited sources.
           </p>
         </div>
       </main>

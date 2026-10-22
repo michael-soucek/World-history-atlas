@@ -4,7 +4,7 @@
  * map sidebar.
  */
 import Link from "next/link";
-import { JsonLd, breadcrumbLd } from "@/lib/jsonLd";
+import { JsonLd, articleLd, breadcrumbLd } from "@/lib/jsonLd";
 import { citiesHeldBy, toursFeaturing, toursOfEvent } from "@/lib/relatedLinks";
 import { ArrowRight, ArrowUpRight, MapPin } from "lucide-react";
 import RelatedResources from "@/components/RelatedResources";
@@ -16,6 +16,8 @@ import PlaceOnOurMaps from "@/components/PlaceOnOurMaps";
 import EntityInTime from "@/components/EntityInTime";
 import { contextDescription, entityContext, fmtSpan, storedFacts } from "@/lib/entityContext";
 import QuickAnswers from "@/components/QuickAnswers";
+import OurArticle from "@/components/OurArticle";
+import { articleIntro, articleWordCount, getOurArticle } from "@/lib/ourArticles";
 import { placeDescription, placeMaps } from "@/lib/placeMaps";
 import { titleDates } from "@/lib/seo";
 import { getEntityImages } from "@/lib/entityImages";
@@ -75,6 +77,7 @@ export default async function EntityPage({ content, entry, entityType, baseRoute
   const ctx = entityType === "place" ? null : await entityContext(entityType, entry.slug);
   const stored = await storedFacts(entry.wikidataId, entityType);
   const { hero, rest } = splitHero(content, images);
+  const ownArticle = getOurArticle(entityType, entry.slug);
 
   // A place *is* a territory, so its own QID resolves on the map directly.
   // A person/event/culture's own QID never will — use its curated place
@@ -123,7 +126,7 @@ export default async function EntityPage({ content, entry, entityType, baseRoute
     ...(eventFields ?? {}),
     name: content.name,
     // The site's own description where it has one, not the encyclopedia's opening line.
-    description: (ctx ? contextDescription(ctx) : placeDescription(entry.slug, content.name, titleDates(content.tagline) ?? (stored.start !== undefined && stored.end !== undefined && stored.end >= stored.start ? fmtSpan(stored.start, stored.end) : undefined))) ?? content.summary ?? undefined,
+    description: (ctx ? contextDescription(ctx) : placeDescription(entry.slug, content.name, titleDates(content.tagline) ?? (stored.start !== undefined && stored.end !== undefined && stored.end >= stored.start ? fmtSpan(stored.start, stored.end) : undefined))) ?? articleIntro(ownArticle) ?? content.summary ?? undefined,
     ...(entityType === "person" && ctx?.start !== undefined ? { birthDate: isoYear(ctx.start) } : {}),
     ...(entityType === "person" && ctx?.end !== undefined ? { deathDate: isoYear(ctx.end) } : {}),
     image: content.imageUrl ?? undefined,
@@ -141,6 +144,18 @@ export default async function EntityPage({ content, entry, entityType, baseRoute
     <JsonLd
       data={[
         jsonLd,
+        ...(ownArticle
+          ? [articleLd({
+              headline: content.name,
+              path: `/${baseRoute}/${entry.slug}`,
+              description: articleIntro(ownArticle),
+              image: content.imageUrl ?? undefined,
+              written: ownArticle.written,
+              wordCount: articleWordCount(ownArticle),
+              citations: ownArticle.sources.map((s) => s.href),
+              about: { "@type": schemaType, name: content.name, url: `https://www.bordersoftime.com/${baseRoute}/${entry.slug}` },
+            })]
+          : []),
         breadcrumbLd([["Browse", "/browse"], [TYPE_PLURAL[entityType], browsePath], [content.name, `/${baseRoute}/${entry.slug}`]]),
       ]}
     />
@@ -199,13 +214,15 @@ export default async function EntityPage({ content, entry, entityType, baseRoute
       {/* ── Article + sidebar ── */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14 sm:py-20 grid grid-cols-1 lg:grid-cols-12 gap-14 lg:gap-8">
         <article className="lg:col-span-7 xl:col-start-2 xl:col-span-7 min-w-0">
+          {ownArticle && <OurArticle article={ownArticle} images={rest} name={content.name} />}
           {entityType === "place" && (
             <PlaceOnOurMaps slug={entry.slug} name={content.name} regionId={mapRegionId} />
           )}
           {entityType === "place" && <QuickAnswers kind="place" name={content.name} facts={stored} maps={placeMaps(entry.slug)} />}
           {ctx && <EntityInTime ctx={ctx} />}
           {ctx && entityType !== "place" && <QuickAnswers kind={entityType} ctx={ctx} facts={stored} />}
-          <ArticleBody content={content} images={rest} />
+          {/* Pages without an article of our own still show the Wikipedia summary. */}
+          {!ownArticle && <ArticleBody content={content} images={rest} />}
         </article>
 
         <aside className="lg:col-span-4 lg:col-start-9 xl:col-start-10 xl:col-span-3">

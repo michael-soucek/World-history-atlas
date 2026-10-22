@@ -102,12 +102,17 @@ export async function entityMetadata(
   }
   // Google shows the site name above each result anyway; keep it in the title
   // only when there's room, so the subject and dates aren't what gets cut off.
-  const core = `${content.name}${dates ? ` (${dates})` : ""}: ${ENTITY_TITLE_SUFFIX[kind]}`;
+  // Some article titles already carry their dates, e.g. "Jin dynasty (266–420)".
+  const namedWithDates = /\([^)]*\d[^)]*\)\s*$/.test(content.name);
+  const core = `${content.name}${dates && !namedWithDates ? ` (${dates})` : ""}: ${ENTITY_TITLE_SUFFIX[kind]}`;
   const title = core.length <= 52 ? `${core} — Borders of Time` : core;
   const ctx = kind === "place" ? null : await entityContext(kind, slug);
   const own = kind === "place" ? placeDescription(slug, content.name, dates) : ctx ? contextDescription(ctx) : undefined;
+  // Next best: the opening of the page's own article, before the encyclopedia's summary.
+  const { articleIntro, getOurArticle } = await import("@/lib/ourArticles");
   const description =
     metaDescription(own) ??
+    metaDescription(articleIntro(getOurArticle(kind, slug))) ??
     metaDescription(content.summary) ??
     `${content.name} on the interactive history map: when and where it happened, with key facts and pictures.`;
   return {

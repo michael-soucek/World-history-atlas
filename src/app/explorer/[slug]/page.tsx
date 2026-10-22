@@ -11,10 +11,12 @@ import RelatedResources from "@/components/RelatedResources";
 import ArticleImage, { type ArticleImageData } from "@/components/ArticleImage";
 import { ImageStrip, toArticleImage } from "@/components/ArticleBody";
 import { getEntityImages } from "@/lib/entityImages";
+import OurArticle from "@/components/OurArticle";
+import { articleIntro, articleWordCount, getOurArticle } from "@/lib/ourArticles";
 import { EXPLORERS, getExplorerBySlug } from "@/data/voyages";
 import { buildEntityContent } from "@/lib/wikidata";
 import { buildPageMetadata, metaDescription } from "@/lib/seo";
-import { JsonLd, SITE_URL, breadcrumbLd } from "@/lib/jsonLd";
+import { JsonLd, SITE_URL, articleLd, breadcrumbLd } from "@/lib/jsonLd";
 
 interface Props { params: Promise<{ slug: string }> }
 
@@ -58,6 +60,7 @@ export default async function ExplorerPage({ params }: Props) {
   const stripImages = images;
   const voyages = explorer.voyages ?? [];
   const hasVoyages = explorer.status === "full" && voyages.length > 0;
+  const ownArticle = getOurArticle("explorer", explorer.slug);
 
   return (
     <>
@@ -73,6 +76,18 @@ export default async function ExplorerPage({ params }: Props) {
               image: content?.imageUrl,
               sameAs: [content?.wikipediaUrl, `https://www.wikidata.org/wiki/${explorer.wikidataId}`].filter(Boolean),
             },
+            ...(ownArticle
+              ? [articleLd({
+                  headline: explorer.name,
+                  path: `/explorer/${explorer.slug}`,
+                  description: articleIntro(ownArticle),
+                  image: content?.imageUrl,
+                  written: ownArticle.written,
+                  wordCount: articleWordCount(ownArticle),
+                  citations: ownArticle.sources.map((s) => s.href),
+                  about: { "@type": explorer.lifespan.startsWith("Expedition") ? "Event" : "Person", name: explorer.name, url: `${SITE_URL}/explorer/${explorer.slug}` },
+                })]
+              : []),
             breadcrumbLd([["Age of Exploration", "/theme/age-of-exploration"], [explorer.name, `/explorer/${explorer.slug}`]]),
           ]}
         />
@@ -134,7 +149,7 @@ export default async function ExplorerPage({ params }: Props) {
           <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-10">
             <p className="border-y border-ink/10 py-6 text-ink/60 text-[15px] leading-relaxed max-w-2xl">
               A full mapped profile of {explorer.name}&apos;s journeys is coming soon. In the meantime, read the
-              Wikipedia-sourced summary below or explore the{" "}
+              biography below or explore the{" "}
               <Link href="/theme/age-of-exploration" className="text-accent hover:text-ink underline underline-offset-2">Age of Exploration</Link> hub.
             </p>
           </section>
@@ -149,32 +164,42 @@ export default async function ExplorerPage({ params }: Props) {
                 <ArticleImage img={hero} alt={hero.caption || `Depiction of ${explorer.name}`} variant="float" side="right" priority />
               </div>
             )}
-            {content?.summary && (
-              <div className="flex items-center gap-4 mb-8 pb-6 border-b border-ink/10">
-                <ReadAloudButton text={[content.summary, ...(content.sections?.map(s => s.content) || [])].join(" ")} />
-                <span className="text-xs text-ink/40">Hear the biography read aloud</span>
-              </div>
-            )}
-            {summaryParas.length > 0 ? (
-              <div className="flow-root">
-                {summaryImage && <ArticleImage img={summaryImage} alt={summaryImage.caption ?? explorer.name} variant="float" side="left" />}
-                <div className="space-y-5">
-                  {summaryParas.map((para, i) => (
-                    <p key={i} className={`font-text text-ink/85 text-[18px] sm:text-[19px] leading-[1.72] ${i === 0 ? "dropcap" : ""}`}>{para}</p>
-                  ))}
-                </div>
-              </div>
+            {ownArticle ? (
+              <OurArticle
+                article={ownArticle}
+                images={[summaryImage, ...stripImages].filter((i): i is ArticleImageData => !!i)}
+                name={explorer.name}
+              />
             ) : (
-              <p className="font-text text-ink/70 text-lg leading-relaxed">{explorer.tagline}</p>
+              <>
+              {content?.summary && (
+                <div className="flex items-center gap-4 mb-8 pb-6 border-b border-ink/10">
+                  <ReadAloudButton text={[content.summary, ...(content.sections?.map(s => s.content) || [])].join(" ")} />
+                  <span className="text-xs text-ink/40">Hear the biography read aloud</span>
+                </div>
+              )}
+              {summaryParas.length > 0 ? (
+                <div className="flow-root">
+                  {summaryImage && <ArticleImage img={summaryImage} alt={summaryImage.caption ?? explorer.name} variant="float" side="left" />}
+                  <div className="space-y-5">
+                    {summaryParas.map((para, i) => (
+                      <p key={i} className={`font-text text-ink/85 text-[18px] sm:text-[19px] leading-[1.72] ${i === 0 ? "dropcap" : ""}`}>{para}</p>
+                    ))}
+                  </div>
+                </div>
+              ) : (
+                <p className="font-text text-ink/70 text-lg leading-relaxed">{explorer.tagline}</p>
+              )}
+              {content?.wikipediaUrl && (
+                <p className="text-xs text-ink/35 mt-6">
+                  Summary from{" "}
+                  <a href={content.wikipediaUrl} target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 hover:text-accent transition-colors">Wikipedia</a>
+                  {" "}(CC BY-SA 4.0)
+                </p>
+              )}
+              {stripImages.length > 0 && <ImageStrip images={stripImages} name={explorer.name} />}
+              </>
             )}
-            {content?.wikipediaUrl && (
-              <p className="text-xs text-ink/35 mt-6">
-                Summary from{" "}
-                <a href={content.wikipediaUrl} target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 hover:text-accent transition-colors">Wikipedia</a>
-                {" "}(CC BY-SA 4.0)
-              </p>
-            )}
-            {stripImages.length > 0 && <ImageStrip images={stripImages} name={explorer.name} />}
           </article>
 
           <aside className="lg:col-span-4 lg:col-start-9 xl:col-start-10 xl:col-span-3">

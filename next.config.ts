@@ -1,6 +1,16 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  // Our own articles are read from disk (src/lib/ourArticles.ts). Pages are
+  // prerendered, but ISR re-renders run in a function that only bundles traced
+  // files, so include the Markdown explicitly.
+  outputFileTracingIncludes: {
+    "/place/[slug]": ["./content/articles/place/**/*"],
+    "/person/[slug]": ["./content/articles/person/**/*"],
+    "/event/[slug]": ["./content/articles/event/**/*"],
+    "/culture/[slug]": ["./content/articles/culture/**/*"],
+    "/explorer/[slug]": ["./content/articles/explorer/**/*"],
+  },
   async redirects() {
     return [
       // Redirect old Vercel preview domain to canonical custom domain
