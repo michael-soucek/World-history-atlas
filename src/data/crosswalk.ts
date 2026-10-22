@@ -41,7 +41,7 @@ export const CROSSWALK: Record<string, CrosswalkEntry> = {
   "Frankish Kingdom": { wikidataId: "Q146246", slug: "frankish-kingdom", aliases: ["Franks", "Francia"], representativeYear: 600 }, // Francia
   "Carolingian Empire": { wikidataId: "Q31929", slug: "carolingian-empire", representativeYear: 800 }, // Carolingian Empire
   "Tang dynasty": { wikidataId: "Q9683", slug: "tang-dynasty", aliases: ["Tang Dynasty", "Tang", "Tang Empire"], representativeYear: 800 }, // Tang dynasty
-  "Tibetan Empire": { wikidataId: "Q2431480", slug: "tibetan-empire", representativeYear: 800 }, // Tibetan Empire
+  "Tibetan Empire": { wikidataId: "Q2431480", slug: "tibetan-empire", aliases: ["Tufan Empire"], representativeYear: 800 }, // Tibetan Empire
   "Hunnic Empire":     { wikidataId: "Q10295972", slug: "hunnic-empire", representativeYear: 434 },   // Hunnic Empire
 
   // ── Medieval ─────────────────────────────────────────────────────────────
@@ -208,6 +208,63 @@ export const CROSSWALK: Record<string, CrosswalkEntry> = {
   "Morocco": { wikidataId: "Q1028", slug: "morocco", representativeYear: 1880 }, // Morocco
   "Afghanistan": { wikidataId: "Q889", slug: "afghanistan", representativeYear: 1920 }, // Afghanistan
   "Tibet": { wikidataId: "Q17252", slug: "tibet", years: [950, 1950], representativeYear: 1530 }, // Tibet
+  "Magadha": { wikidataId: "Q234009", slug: "magadha", representativeYear: -323 }, // Magadha (ancient eastern India) (added 2026-10-22 from audit-missing-places)
+  "Zhangzhung": { wikidataId: "Q1358851", slug: "zhangzhung", aliases: ["Zhangzhung Kingdom"], representativeYear: -400 }, // Zhangzhung, western Tibet (added 2026-10-22 from audit-missing-places)
+  "Yuezhi": { wikidataId: "Q467985", slug: "yuezhi", representativeYear: -100 }, // Yuezhi (added 2026-10-22 from audit-missing-places)
+  "Shunga Empire": { wikidataId: "Q651377", slug: "shunga-empire", representativeYear: -100 }, // Shunga Empire (added 2026-10-22 from audit-missing-places)
+  "Satavahana dynasty": { wikidataId: "Q5257", slug: "satavahana-dynasty", aliases: ["Satavahanihara"], representativeYear: -1 }, // Satavahana dynasty (added 2026-10-22 from audit-missing-places)
+  "Himyarite Kingdom": { wikidataId: "Q289577", slug: "himyarite-kingdom", aliases: ["Himyar"], representativeYear: -1 }, // Himyar (added 2026-10-22 from audit-missing-places)
+  "Jin dynasty": { wikidataId: "Q7352", slug: "jin-dynasty-266-420", aliases: ["Jin", "Jin dynasty (266–420)"], years: [266, 420], representativeYear: 300 }, // Jin dynasty (266–420); 'Jin' only on the 300/400 maps (added 2026-10-22 from audit-missing-places)
+  "Rouran Khaganate": { wikidataId: "Q155361", slug: "rouran-khaganate", aliases: ["Ruanruan", "Rouran"], representativeYear: 400 }, // Rouran Khaganate (added 2026-10-22 from audit-missing-places)
+  "Makuria": { wikidataId: "Q829356", slug: "makuria", aliases: ["Makkura"], representativeYear: 800 }, // Makuria (added 2026-10-22 from audit-missing-places)
+  "Alodia": { wikidataId: "Q449639", slug: "alodia", aliases: ["Alwa"], representativeYear: 800 }, // Alodia (Alwa) (added 2026-10-22 from audit-missing-places)
+  "Uyghur Khaganate": { wikidataId: "Q831218", slug: "uyghur-khaganate", aliases: ["Uyghurs"], years: [700, 900], representativeYear: 800 }, // Uyghur Khaganate (added 2026-10-22 from audit-missing-places)
+  "Nanzhao": { wikidataId: "Q1045322", slug: "nanzhao", aliases: ["Nan Chao"], representativeYear: 1000 }, // Nanzhao (added 2026-10-22 from audit-missing-places)
+  "Volga Bulgaria": { wikidataId: "Q185488", slug: "volga-bulgaria", aliases: ["Volga Bulgars"], representativeYear: 1000 }, // Volga Bulgaria (added 2026-10-22 from audit-missing-places)
+  "Pagan Kingdom": { wikidataId: "Q888574", slug: "pagan-kingdom", aliases: ["Pagan"], years: [849, 1400], representativeYear: 1279 }, // Pagan Kingdom (added 2026-10-22 from audit-missing-places)
+  "Merina Kingdom": { wikidataId: "Q1071439", slug: "merina-kingdom", aliases: ["Imerina"], representativeYear: 1815 }, // Merina Kingdom (Imerina) (added 2026-10-22 from audit-missing-places)
+  "Western Xia": { wikidataId: "Q7427", slug: "western-xia", aliases: ["Xixia", "Xi Xia"], representativeYear: 1100 }, // Western Xia (added 2026-10-22 from audit-missing-places)
+  "Buyid dynasty": { wikidataId: "Q273874", slug: "buyid-dynasty", aliases: ["Buwayhid Emirates", "Buyids"], representativeYear: 1000 }, // Buyid dynasty (added 2026-10-22 from audit-missing-places)
+  "Kimek–Kipchak confederation": { wikidataId: "Q2477776", slug: "kimek-kipchak-confederation", aliases: ["Kimek-Kipchak khaganate"], representativeYear: 1000 }, // Kimek–Kipchak confederation (added 2026-10-22 from audit-missing-places)
+  "Denmark–Norway": { wikidataId: "Q62651", slug: "denmark-norway", aliases: ["Denmark-Norway"], years: [1537, 1814], representativeYear: 1783 }, // Denmark–Norway (1537–1814) (added 2026-10-22 from audit-missing-places)
+  "Đại Việt": { wikidataId: "Q430309", slug: "dai-viet", aliases: ["Dai Viet"], representativeYear: 1800 }, // Đại Việt (added 2026-10-22 from audit-missing-places)
+  "Kara-Khanid Khanate": { wikidataId: "Q494354", slug: "kara-khanid-khanate", aliases: ["Karkhanids", "Karakhanids"], representativeYear: 1100 }, // Kara-Khanid Khanate (added 2026-10-22 from audit-missing-places)
+  "Cumania": { wikidataId: "Q1122052", slug: "cumania", aliases: ["Cuman-Kipchak confederation"], representativeYear: 1100 }, // Cumania (Cuman–Kipchak confederation) (added 2026-10-22 from audit-missing-places)
+  "Qara Khitai": { wikidataId: "Q862304", slug: "qara-khitai", aliases: ["Kara Khitai Khaganate", "Kara Khitai"], representativeYear: 1200 }, // Qara Khitai (added 2026-10-22 from audit-missing-places)
+  "Novgorod Republic": { wikidataId: "Q151536", slug: "novgorod-republic", aliases: ["Novgorod"], years: [1136, 1478], representativeYear: 1279 }, // Novgorod Republic (added 2026-10-22 from audit-missing-places)
+  "Hafsid dynasty": { wikidataId: "Q752662", slug: "hafsid-dynasty", aliases: ["Hafsid Caliphate", "Hafsids"], representativeYear: 1300 }, // Hafsid dynasty (added 2026-10-22 from audit-missing-places)
+  "Northern Yuan": { wikidataId: "Q8959", slug: "northern-yuan", representativeYear: 1400 }, // Northern Yuan (added 2026-10-22 from audit-missing-places)
+  "Kalmar Union": { wikidataId: "Q62623", slug: "kalmar-union", representativeYear: 1500 }, // Kalmar Union (added 2026-10-22 from audit-missing-places)
+  "White Horde": { wikidataId: "Q2553863", slug: "white-horde", representativeYear: 1400 }, // White Horde (added 2026-10-22 from audit-missing-places)
+  "Aq Qoyunlu": { wikidataId: "Q555994", slug: "aq-qoyunlu", aliases: ["Emirate of the White Sheep Turks", "White Sheep Turkomans"], representativeYear: 1500 }, // Aq Qoyunlu (White Sheep Turkomans) (added 2026-10-22 from audit-missing-places)
+  "Khanate of Sibir": { wikidataId: "Q190513", slug: "khanate-of-sibir", representativeYear: 1530 }, // Khanate of Sibir (added 2026-10-22 from audit-missing-places)
+  "Oirat Confederation": { wikidataId: "Q4332415", slug: "oirat-confederation", representativeYear: 1492 }, // Oirat Confederation (added 2026-10-22 from audit-missing-places)
+  "Sultanate of Darfur": { wikidataId: "Q1474791", slug: "sultanate-of-darfur", aliases: ["Darfur"], years: [1600, 1916], representativeYear: 1530 }, // Sultanate of Darfur (added 2026-10-22 from audit-missing-places)
+  "Lunda Empire": { wikidataId: "Q1796223", slug: "lunda-empire", aliases: ["Lunda"], representativeYear: 1530 }, // Lunda Empire (added 2026-10-22 from audit-missing-places)
+  "Luba Empire": { wikidataId: "Q1768252", slug: "luba-empire", aliases: ["Luba"], representativeYear: 1600 }, // Luba Empire (added 2026-10-22 from audit-missing-places)
+  "Khanate of Khiva": { wikidataId: "Q491106", slug: "khanate-of-khiva", aliases: ["Khiva Khanate"], representativeYear: 1700 }, // Khanate of Khiva (added 2026-10-22 from audit-missing-places)
+  "Nogai Horde": { wikidataId: "Q631210", slug: "nogai-horde", representativeYear: 1530 }, // Nogai Horde (added 2026-10-22 from audit-missing-places)
+  "Kazakh Khanate": { wikidataId: "Q1433867", slug: "kazakh-khanate", aliases: ["Quazaq Khanate"], representativeYear: 1530 }, // Kazakh Khanate (added 2026-10-22 from audit-missing-places)
+  "Viceroyalty of Peru": { wikidataId: "Q211435", slug: "viceroyalty-of-peru", representativeYear: 1715 }, // Viceroyalty of Peru (added 2026-10-22 from audit-missing-places)
+  "Dutch East Indies": { wikidataId: "Q188161", slug: "dutch-east-indies", aliases: ["Netherlands Indies"], representativeYear: 1880 }, // Dutch East Indies (added 2026-10-22 from audit-missing-places)
+  "Regency of Algiers": { wikidataId: "Q3045696", slug: "regency-of-algiers", aliases: ["Algiers"], years: [1516, 1830], representativeYear: 1715 }, // Regency of Algiers (added 2026-10-22 from audit-missing-places)
+  "Dzungar Khanate": { wikidataId: "Q1923401", slug: "dzungar-khanate", representativeYear: 1650 }, // Dzungar Khanate (added 2026-10-22 from audit-missing-places)
+  "Cape Colony": { wikidataId: "Q370736", slug: "cape-colony", representativeYear: 1878 }, // Cape Colony (added 2026-10-22 from audit-missing-places)
+  "Colonial Brazil": { wikidataId: "Q2088324", slug: "colonial-brazil", aliases: ["Viceroyalty of Brazil"], representativeYear: 1783 }, // Colonial Brazil (Viceroyalty of Brazil on the maps) (added 2026-10-22 from audit-missing-places)
+  "Rupert's Land": { wikidataId: "Q738395", slug: "ruperts-land", representativeYear: 1783 }, // Rupert's Land (added 2026-10-22 from audit-missing-places)
+  "Viceroyalty of New Granada": { wikidataId: "Q8965", slug: "viceroyalty-of-new-granada", representativeYear: 1800 }, // Viceroyalty of New Granada (added 2026-10-22 from audit-missing-places)
+  "First Saudi State": { wikidataId: "Q146871", slug: "first-saudi-state", aliases: ["Nejd", "Emirate of Diriyah"], years: [1727, 1818], representativeYear: 1783 }, // First Saudi State (Emirate of Diriyah) (added 2026-10-22 from audit-missing-places)
+  "Viceroyalty of the Río de la Plata": { wikidataId: "Q210551", slug: "viceroyalty-of-the-rio-de-la-plata", representativeYear: 1800 }, // Viceroyalty of the Río de la Plata (added 2026-10-22 from audit-missing-places)
+  "Louisiana (New Spain)": { wikidataId: "Q748300", slug: "louisiana-new-spain", aliases: ["Luisiana", "Spanish Louisiana"], representativeYear: 1800 }, // Spanish Louisiana (added 2026-10-22 from audit-missing-places)
+  "Rattanakosin Kingdom": { wikidataId: "Q1155700", slug: "rattanakosin-kingdom", aliases: ["Siam"], years: [1782, 1932], representativeYear: 1783 }, // Rattanakosin Kingdom (Siam) (added 2026-10-22 from audit-missing-places)
+  "Union between Sweden and Norway": { wikidataId: "Q62589", slug: "sweden-norway", aliases: ["Sweden–Norway", "Sweden-Norway"], years: [1814, 1905], representativeYear: 1880 }, // Sweden–Norway (1814–1905) (added 2026-10-22 from audit-missing-places)
+  "Empire of Brazil": { wikidataId: "Q217230", slug: "empire-of-brazil", representativeYear: 1880 }, // Empire of Brazil (added 2026-10-22 from audit-missing-places)
+  "French Indochina": { wikidataId: "Q185682", slug: "french-indochina", representativeYear: 1900 }, // French Indochina (added 2026-10-22 from audit-missing-places)
+  "Belgian Congo": { wikidataId: "Q213510", slug: "belgian-congo", representativeYear: 1914 }, // Belgian Congo (added 2026-10-22 from audit-missing-places)
+  "Republic of China": { wikidataId: "Q13426199", slug: "republic-of-china-1912-1949", aliases: ["Republic of China (1912–1949)"], years: [1912, 1949], representativeYear: 1914 }, // Republic of China (mainland period) (added 2026-10-22 from audit-missing-places)
+  "French Equatorial Africa": { wikidataId: "Q271894", slug: "french-equatorial-africa", representativeYear: 1930 }, // French Equatorial Africa (added 2026-10-22 from audit-missing-places)
+  "French West Africa": { wikidataId: "Q210682", slug: "french-west-africa", representativeYear: 1914 }, // French West Africa (added 2026-10-22 from audit-missing-places)
+  "Warlord Era": { wikidataId: "Q1201263", slug: "warlord-era", aliases: ["Chinese Warlords"], years: [1916, 1930], representativeYear: 1920 }, // Warlord Era China (added 2026-10-22 from audit-missing-places)
 };
 
 // ---------------------------------------------------------------------------
