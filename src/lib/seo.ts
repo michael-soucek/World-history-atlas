@@ -71,7 +71,7 @@ type EntityKind = "place" | "person" | "event" | "culture";
 
 /** What a search for this kind of page is usually after. */
 const ENTITY_TITLE_SUFFIX: Record<EntityKind, string> = {
-  place: "Map, Borders & History",
+  place: "Interactive Map & History",
   person: "Biography & Map",
   event: "Map, Timeline & History",
   culture: "History & Map",

@@ -127,12 +127,14 @@ export function withArticle(name: string): string {
 
 /**
  * A place page's search-result description from the atlas's own measurements,
- * e.g. "Map of the Pala Empire, 700–1100 CE: at its largest, in 900 CE, about
- * 447,000 km² in today's India and Bangladesh, roughly the size of Spain.
- * Borders, neighbours and history." `dates` are its own (from Wikidata) when
+ * e.g. "Explore the Pala Empire on an interactive map. 750–1174: at its height in
+ * 900 CE it covered about 447,000 km² in today's India and Bangladesh, roughly
+ * the size of Spain." `dates` are its own (from Wikidata) when
  * known; otherwise the span of the maps is used. Undefined when the snapshots
  * never draw it.
  */
+const cap = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
+
 export function placeDescription(slug: string, name: string, dates?: string): string | undefined {
   const data = placeMaps(slug);
   if (!data?.years.length) return undefined;
@@ -145,13 +147,15 @@ export function placeDescription(slug: string, name: string, dates?: string): st
   const like = sizeComparison(peak.km2);
   const today = (data.today ?? []).filter((t, i) => i < 2 || t.share >= 0.1).slice(0, 3).map((t) => modernName(t.name));
   const where = today.length ? ` in today's ${today.length > 1 ? `${today.slice(0, -1).join(", ")} and ${today[today.length - 1]}` : today[0]}` : "";
-  const when = years.length > 1 ? `at its largest, in ${fmt(peak.year)}, ` : "";
-  // Longest version that fits what Google shows (about 158 characters).
+  const height = years.length > 1 ? `at its height in ${fmt(peak.year)} ` : "";
+  // Lead with what the page offers that an encyclopedia doesn't (the map), then
+  // the size in human terms. Longest version that fits what Google shows (about 158 characters).
   const versions = [
-    `Map of ${withArticle(name)}, ${span}: ${when}about ${area}${where}${like ? `, roughly the size of ${like}` : ""}. Borders, neighbours and history.`,
-    `Map of ${withArticle(name)}, ${span}: ${when}about ${area}${where}. Borders, neighbours and history.`,
-    `Map of ${withArticle(name)}, ${span}: ${when}about ${area}${where}.`,
-    `Map of ${withArticle(name)}, ${span}: about ${area}${where}.`,
+    `Explore ${withArticle(name)} on an interactive map. ${cap(span)}: ${height}it covered about ${area}${where}${like ? `, roughly the size of ${like}` : ""}.`,
+    `Explore ${withArticle(name)} on an interactive map. ${cap(span)}: ${height}it covered about ${area}${where}.`,
+    `Explore ${withArticle(name)} on an interactive map. ${cap(span)}: it covered about ${area}${where}.`,
+    `${cap(withArticle(name))} on an interactive map, ${span}: about ${area}${where}.`,
+    `${cap(withArticle(name))} on an interactive map, ${span}: about ${area}.`,
   ];
   return versions.find((v) => v.length <= 158) ?? versions[versions.length - 1];
 }
