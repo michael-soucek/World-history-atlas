@@ -189,6 +189,15 @@ export const PEOPLE_CROSSWALK: Record<string, CrosswalkEntry & { entityType: Ent
   "oliver-cromwell": { wikidataId: "Q44279", slug: "oliver-cromwell", entityType: "person", name: "Oliver Cromwell" },
   "richard-i-of-england": { wikidataId: "Q42305", slug: "richard-i-of-england", entityType: "person", name: "Richard I of England" },
   "sun-tzu": { wikidataId: "Q37151", slug: "sun-tzu", entityType: "person", name: "Sun Tzu" },
+  "alexander-hamilton": { wikidataId: "Q178903", slug: "alexander-hamilton", entityType: "person", name: "Alexander Hamilton" },
+  "benjamin-franklin": { wikidataId: "Q34969", slug: "benjamin-franklin", entityType: "person", name: "Benjamin Franklin" },
+  "frederick-the-great": { wikidataId: "Q33550", slug: "frederick-the-great", entityType: "person", name: "Frederick the Great" },
+  "gustavus-adolphus": { wikidataId: "Q52938", slug: "gustavus-adolphus", entityType: "person", name: "Gustavus Adolphus" },
+  "maria-theresa": { wikidataId: "Q131706", slug: "maria-theresa", entityType: "person", name: "Maria Theresa" },
+  "maximilien-robespierre": { wikidataId: "Q44197", slug: "maximilien-robespierre", entityType: "person", name: "Maximilien Robespierre" },
+  "philip-ii-of-spain": { wikidataId: "Q34417", slug: "philip-ii-of-spain", entityType: "person", name: "Philip II of Spain" },
+  "theodore-roosevelt": { wikidataId: "Q33866", slug: "theodore-roosevelt", entityType: "person", name: "Theodore Roosevelt" },
+  "thomas-jefferson": { wikidataId: "Q11812", slug: "thomas-jefferson", entityType: "person", name: "Thomas Jefferson" },
 };
 
 /** Crosswalk for historical events. */
