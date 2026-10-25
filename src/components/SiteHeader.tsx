@@ -11,8 +11,10 @@ const NAV_LINKS = [
   { href: "/map",      label: "Map"      },
   { href: "/timeline", label: "Timeline" },
   { href: "/browse",   label: "Browse"   },
+  { href: "/countries", label: "Countries" },
   { href: "/tour",     label: "Tours"    },
   { href: "/history-of", label: "Cities" },
+  { href: "/philosophy", label: "Philosophy" },
   { href: "/play",     label: "Play"     },
   { href: "/about",    label: "About"    },
 ];

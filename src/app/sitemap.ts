@@ -6,6 +6,15 @@ import { TOURS } from "@/data/tours";
 import { CITY_LIST } from "@/lib/cityHistory";
 import { EXPLORERS } from "@/data/voyages";
 import { TIMELAPSES } from "@/data/timelapses";
+import { PHILOSOPHY_ERAS } from "@/data/philosophy";
+import { COUNTRY_LIST } from "@/lib/countries";
+import { getOurArticle } from "@/lib/ourArticles";
+
+/** An article's "written" date, else the given fallback. */
+const writtenOn = (kind: "person" | "country" | "philosophy", slug: string, fallback: Date) => {
+  const w = getOurArticle(kind, slug)?.written;
+  return w ? new Date(w) : fallback;
+};
 
 const BASE = "https://www.bordersoftime.com";
 // Every entity page got its own article (content/articles) on this date.
@@ -41,6 +50,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: `${BASE}/borders-over-time/${t.slug}`, lastModified: new Date("2026-10-21"), changeFrequency: "monthly" as const, priority: 0.8,
     })),
     { url: `${BASE}/history-of`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE}/countries`, lastModified: new Date("2026-10-25"), changeFrequency: "monthly", priority: 0.8 },
+    { url: `${BASE}/philosophy`, lastModified: new Date("2026-10-25"), changeFrequency: "monthly", priority: 0.8 },
     { url: `${BASE}/play`, lastModified: now, changeFrequency: "daily", priority: 0.7 },
     { url: `${BASE}/compare`, lastModified: now, changeFrequency: "monthly", priority: 0.6 },
     { url: `${BASE}/search`,   lastModified: now, changeFrequency: "monthly", priority: 0.7 },
@@ -66,7 +77,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const personRoutes: MetadataRoute.Sitemap = Object.values(PEOPLE_CROSSWALK).map(e => ({
     url: `${BASE}/person/${e.slug}`,
-    lastModified: ARTICLES_WRITTEN,
+    lastModified: writtenOn("person", e.slug, ARTICLES_WRITTEN),
     changeFrequency: "monthly",
     priority: 0.7,
   }));
@@ -134,8 +145,24 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }));
 
+  // Country histories and philosophy eras, once their article is written.
+  const countryRoutes: MetadataRoute.Sitemap = COUNTRY_LIST.filter((c) => getOurArticle("country", c.slug)).map((c) => ({
+    url: `${BASE}/country/${c.slug}`,
+    lastModified: writtenOn("country", c.slug, ARTICLES_WRITTEN),
+    changeFrequency: "monthly" as const,
+    priority: 0.8,
+  }));
+  const philosophyRoutes: MetadataRoute.Sitemap = PHILOSOPHY_ERAS.filter((e) => getOurArticle("philosophy", e.slug)).map((e) => ({
+    url: `${BASE}/philosophy/${e.slug}`,
+    lastModified: writtenOn("philosophy", e.slug, ARTICLES_WRITTEN),
+    changeFrequency: "monthly" as const,
+    priority: 0.7,
+  }));
+
   return [
     ...staticRoutes,
+    ...countryRoutes,
+    ...philosophyRoutes,
     ...placeRoutes,
     ...personRoutes,
     ...eventRoutes,

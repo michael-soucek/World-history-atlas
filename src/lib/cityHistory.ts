@@ -58,7 +58,7 @@ export function rulersOf(slug: string): RulerSpan[] {
  * and the modern state after 1815), so the span is split wherever the
  * year-aware crosswalk points somewhere else.
  */
-function withLinks(span: RulerSpan): RulerSpan[] {
+export function withLinks(span: RulerSpan): RulerSpan[] {
   if (!span.name) return [span];
   const years = SNAPSHOT_YEARS.filter((y) => y >= span.from && (span.to === null || y < span.to));
   const out: RulerSpan[] = [];

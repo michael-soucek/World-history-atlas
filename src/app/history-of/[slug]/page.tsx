@@ -12,6 +12,8 @@ import { JsonLd, SITE_URL, breadcrumbLd } from "@/lib/jsonLd";
 import { connectedTo, fmtSpan, type TimedEntry } from "@/lib/entityContext";
 import { TOURS } from "@/data/tours";
 import { withArticle } from "@/lib/placeMaps";
+import { countryHref, countrySlugFor, getCountry } from "@/lib/countries";
+import { publishedCountries } from "@/lib/countryPages";
 
 interface Props { params: Promise<{ slug: string }> }
 
@@ -70,6 +72,8 @@ export default async function CityHistoryPage({ params }: Props) {
   const names = [city.name, ...(city.formerly?.split(", ") ?? [])];
   const connected = await connectedTo(names);
   const tours = toursThrough(names);
+  const countryLink = countryHref(city.country, publishedCountries());
+  const countryName = getCountry(countrySlugFor(city.country) ?? "")?.name ?? city.country;
 
   return (
     <>
@@ -97,6 +101,7 @@ export default async function CityHistoryPage({ params }: Props) {
               On our historical maps, {city.name} has been drawn inside {rulers.length} different states, empires and peoples
               {spans[0] ? <>, from {formatYear(spans[0].from)} to today</> : null}.
               {city.formerly ? <> It has also been known as {city.formerly}.</> : null}
+              {countryLink ? <> Read the <Link href={countryLink} className="underline underline-offset-4 decoration-ink/25 hover:text-accent transition-colors">history of {countryName}</Link>.</> : null}
             </>
           }
           aside={

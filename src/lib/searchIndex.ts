@@ -10,4 +10,6 @@ export interface SearchItem {
   tagline?: string;
   /** Route prefix: /place, /person, etc. */
   route: string;
+  /** Overrides the type label shown beside the result ("Country", "Philosophy"). */
+  label?: string;
 }

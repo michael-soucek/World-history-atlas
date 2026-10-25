@@ -6,6 +6,9 @@ import { CROSSWALK } from "@/data/crosswalk";
 import { PEOPLE_CROSSWALK, EVENTS_CROSSWALK, CULTURES_CROSSWALK } from "@/data/entityCrosswalk";
 import { EXPLORERS } from "@/data/voyages";
 import type { SearchItem } from "@/lib/searchIndex";
+import { COUNTRY_LIST } from "@/lib/countries";
+import { getOurArticle } from "@/lib/ourArticles";
+import { PHILOSOPHY_ERAS } from "@/data/philosophy";
 import { buildPageMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = {
@@ -63,6 +66,23 @@ export default function SearchPage() {
       wikidataId: entry.wikidataId,
       route: "culture",
     });
+  }
+
+  // Explorers (people, with their own voyage pages)
+  for (const e of EXPLORERS) {
+    if (items.some((i) => i.route === "person" && i.slug === e.slug)) continue;
+    items.push({ slug: e.slug, name: e.name, entityType: "person", wikidataId: e.wikidataId ?? e.slug, route: "explorer", label: "Explorer" });
+  }
+
+  // Country histories and philosophy eras with a written article
+  for (const c of COUNTRY_LIST) {
+    if (!getOurArticle("country", c.slug)) continue;
+    items.push({ slug: c.slug, name: `${c.name}: history`, entityType: "place", wikidataId: c.wikidataId, route: "country", label: "Country" });
+  }
+  items.push({ slug: "", name: "History of philosophy", entityType: "culture", wikidataId: "Q5891", route: "philosophy", label: "Philosophy" });
+  for (const e of PHILOSOPHY_ERAS) {
+    if (!getOurArticle("philosophy", e.slug)) continue;
+    items.push({ slug: e.slug, name: e.title, entityType: "culture", wikidataId: `philosophy-${e.slug}`, route: "philosophy", label: "Philosophy" });
   }
 
   // Sort alphabetically

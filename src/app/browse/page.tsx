@@ -17,6 +17,10 @@ import { CROSSWALK } from "@/data/crosswalk";
 import { PEOPLE_CROSSWALK, EVENTS_CROSSWALK, CULTURES_CROSSWALK } from "@/data/entityCrosswalk";
 import { readableNameFromSlug } from "@/lib/entityResolver";
 import { ERA_HEX } from "@/lib/palette";
+import { EXPLORERS } from "@/data/voyages";
+import { PHILOSOPHY_ERAS } from "@/data/philosophy";
+import { COUNTRY_LIST } from "@/lib/countries";
+import { publishedCountries } from "@/lib/countryPages";
 
 interface Props {
   searchParams: Promise<{ type?: string }>;
@@ -34,10 +38,10 @@ function isEntityType(v: string | undefined): v is EntityType {
 }
 
 /** Build a de-duplicated, alphabetically sorted list of entities for a type. */
-function listForType(type: EntityType): { slug: string; name: string }[] {
+function listForType(type: EntityType): { slug: string; name: string; href?: string }[] {
   const seenQid = new Set<string>();
   const seenSlug = new Set<string>();
-  const out: { slug: string; name: string }[] = [];
+  const out: { slug: string; name: string; href?: string }[] = [];
 
   const push = (slug: string, name: string, qid: string) => {
     if (seenSlug.has(slug) || seenQid.has(qid)) return;
@@ -57,6 +61,15 @@ function listForType(type: EntityType): { slug: string; name: string }[] {
       CULTURES_CROSSWALK;
     for (const entry of Object.values(source)) {
       push(entry.slug, entry.name ?? readableNameFromSlug(entry.slug), entry.wikidataId);
+    }
+  }
+
+  // Explorers are people too; their pages live under /explorer.
+  if (type === "person") {
+    for (const e of EXPLORERS) {
+      if (seenSlug.has(e.slug) || seenQid.has(e.wikidataId)) continue;
+      seenSlug.add(e.slug);
+      out.push({ slug: e.slug, name: e.name, href: `/explorer/${e.slug}` });
     }
   }
 
@@ -167,7 +180,7 @@ function BrowseByType({ type }: { type: EntityType }) {
             ))}
           </nav>
 
-          <Gazetteer grouped items={items.map(item => ({ href: `/${meta.route}/${item.slug}`, name: item.name }))} />
+          <Gazetteer grouped items={items.map(item => ({ href: item.href ?? `/${meta.route}/${item.slug}`, name: item.name }))} />
         </div>
       </main>
       <SiteFooter />
@@ -208,6 +221,23 @@ function BrowseHub() {
                   </Link>
                 );
               })}
+            </div>
+          </section>
+
+          {/* Histories */}
+          <section aria-labelledby="histories">
+            <SectionRule><span id="histories">Histories</span></SectionRule>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-px bg-ink/10 border border-ink/10">
+              <Link href="/countries" className="group bg-parchment hover:bg-card p-6 sm:p-8 flex flex-col min-h-[200px] transition-colors">
+                <span className="font-display font-light text-5xl sm:text-6xl tracking-tight tabular-nums text-ink">{publishedCountries().size}</span>
+                <span className="mt-2 font-display text-2xl text-ink group-hover:text-accent transition-colors">Country histories</span>
+                <span className="mt-1 text-sm text-ink/50 leading-snug">The whole history of every country, from its first peoples to today{publishedCountries().size < COUNTRY_LIST.length ? `; ${COUNTRY_LIST.length} in all as they are written` : ""}.</span>
+              </Link>
+              <Link href="/philosophy" className="group bg-parchment hover:bg-card p-6 sm:p-8 flex flex-col min-h-[200px] transition-colors">
+                <span className="font-display font-light text-5xl sm:text-6xl tracking-tight tabular-nums text-ink">{PHILOSOPHY_ERAS.length}</span>
+                <span className="mt-2 font-display text-2xl text-ink group-hover:text-accent transition-colors">History of philosophy</span>
+                <span className="mt-1 text-sm text-ink/50 leading-snug">Every era and tradition, from the first Greek, Indian and Chinese thinkers to the twentieth century.</span>
+              </Link>
             </div>
           </section>
 

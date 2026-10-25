@@ -1,6 +1,9 @@
 /**
  * Works out which state held each city in src/data/cities.json in every map
  * snapshot, and writes src/data/cityRulers.json for the /history-of pages.
+ * Does the same for each country's capital in src/data/countries.json
+ * (src/data/countryRulers.json, for the /country pages), plus a map view
+ * framing the modern country (src/data/countryViews.json).
  *
  * The snapshots are 76 MB together, far too much to search when someone
  * opens a page, so this runs ahead of time. Re-run it when cities.json or
@@ -58,12 +61,25 @@ function featureAt(features: Feature[], lng: number, lat: number) {
 
 interface Row { year: number; name: string | null; sovereign: string | null }
 interface Span { from: number; to: number | null; name: string | null; sovereign: string | null }
-const cities = JSON.parse(readFileSync(join(ROOT, "src/data/cities.json"), "utf8")) as { slug: string; lng: number; lat: number }[];
-const rows: Record<string, Row[]> = Object.fromEntries(cities.map((c) => [c.slug, []]));
+type Point = { slug: string; lng: number; lat: number };
+const cities = JSON.parse(readFileSync(join(ROOT, "src/data/cities.json"), "utf8")) as Point[];
+const countries = JSON.parse(readFileSync(join(ROOT, "src/data/countries.json"), "utf8")) as Point[];
+// Countries are keyed "country:{slug}" so they can't collide with a city.
+const points: Point[] = [...cities, ...countries.map((c) => ({ ...c, slug: `country:${c.slug}` }))];
+const rows: Record<string, Row[]> = Object.fromEntries(points.map((c) => [c.slug, []]));
 
-for (const year of await snapshotYears()) {
+/** Bounding box of a geometry's outer rings. */
+function bbox(geom: Geometry): [number, number, number, number] {
+  let [w, s, e, n] = [180, 90, -180, -90];
+  const polys = geom?.type === "Polygon" ? [geom.coordinates as Ring[]] : geom?.type === "MultiPolygon" ? (geom.coordinates as Ring[][]) : [];
+  for (const [outer] of polys) for (const [x, y] of outer) { w = Math.min(w, x); e = Math.max(e, x); s = Math.min(s, y); n = Math.max(n, y); }
+  return [w, s, e, n];
+}
+
+const years = await snapshotYears();
+for (const year of years) {
   const { features } = await loadSnapshot(year);
-  for (const c of cities) {
+  for (const c of points) {
     const f = featureAt(features, c.lng, c.lat);
     // "?" marks an unnamed territory in the source data.
     const raw = f?.properties.NAME?.trim();
@@ -90,5 +106,25 @@ for (const [slug, list] of Object.entries(rows)) {
   out[slug] = spans;
 }
 
-writeFileSync(join(ROOT, "src/data/cityRulers.json"), JSON.stringify(out) + "\n");
-console.log(`Wrote ${cities.length} cities.`);
+const cityOut = Object.fromEntries(Object.entries(out).filter(([k]) => !k.startsWith("country:")));
+const countryOut = Object.fromEntries(Object.entries(out).filter(([k]) => k.startsWith("country:")).map(([k, v]) => [k.slice(8), v]));
+writeFileSync(join(ROOT, "src/data/cityRulers.json"), JSON.stringify(cityOut) + "\n");
+writeFileSync(join(ROOT, "src/data/countryRulers.json"), JSON.stringify(countryOut) + "\n");
+
+// A map view for each country: the latest snapshot's shape at its capital,
+// framed by its bounding box. Small or far-flung states (island chains,
+// shapes crossing the antimeridian) fall back to the capital at a fixed zoom.
+const { features: modern } = await loadSnapshot(years.at(-1)!);
+const views: Record<string, { lat: number; lng: number; zoom: number }> = {};
+for (const c of countries) {
+  const f = featureAt(modern, c.lng, c.lat);
+  const [w, s, e, n] = f ? bbox(f.geometry) : [c.lng, c.lat, c.lng, c.lat];
+  const span = Math.max(e - w, (n - s) * 1.4);
+  const ok = f && span > 0 && span < 90;
+  const zoom = Math.max(2, Math.min(7, Math.log2(360 / span) - 0.6));
+  views[c.slug] = ok
+    ? { lat: +((s + n) / 2).toFixed(2), lng: +((w + e) / 2).toFixed(2), zoom: +zoom.toFixed(1) }
+    : { lat: c.lat, lng: c.lng, zoom: f && span >= 90 ? 3 : 5 };
+}
+writeFileSync(join(ROOT, "src/data/countryViews.json"), JSON.stringify(views) + "\n");
+console.log(`Wrote ${cities.length} cities and ${countries.length} countries.`);

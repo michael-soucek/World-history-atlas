@@ -1,6 +1,8 @@
 import Link from "next/link";
 import { fmtYear, listOf, type EntityContext, type StoredFacts } from "@/lib/entityContext";
 import { formatArea, modernName, withArticle, type PlaceMaps } from "@/lib/placeMaps";
+import { countryHref } from "@/lib/countries";
+import { publishedCountries } from "@/lib/countryPages";
 
 /** Capitalise the first letter: Wikidata writes "worldwide", answers start with a capital. */
 const cap = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
@@ -18,12 +20,31 @@ function duration(start: number, end: number): string | null {
   return `${years >= 200 ? "about " : ""}${rounded.toLocaleString("en-US")} years`;
 }
 
-/** "India (69%) and Pakistan (16%), with smaller parts in Afghanistan and Nepal". */
-function whereToday(today: { name: string; share: number }[]): string {
+/** A list of nodes joined like listOf: "A, B and C". */
+function joinNodes(nodes: React.ReactNode[]): React.ReactNode {
+  return nodes.map((n, i) => (
+    <span key={i}>{i > 0 && (i === nodes.length - 1 ? " and " : ", ")}{n}</span>
+  ));
+}
+
+/** A modern country's name, linked to its history page when there is one. */
+function Country({ name }: { name: string }) {
+  const href = countryHref(name, publishedCountries());
+  const label = modernName(name);
+  if (!href) return <>{label}</>;
+  // Keep "the" outside the link: "the [United States]".
+  const the = label.startsWith("the ") ? "the " : "";
+  return <>{the}<Link href={href} className={link}>{label.slice(the.length)}</Link></>;
+}
+
+/** "India (69%) and Pakistan (16%), with smaller parts in Afghanistan and Nepal", each linked to its history page. */
+function whereToday(today: { name: string; share: number }[]): React.ReactNode {
   const main = today.filter((t) => t.share >= 0.1).slice(0, 4);
   const rest = today.filter((t) => !main.includes(t)).slice(0, 6);
-  const head = main.length ? listOf(main.map((t) => `${modernName(t.name)} (${Math.round(t.share * 100)}%)`)) : listOf(rest.splice(0, 3).map((t) => modernName(t.name)));
-  return rest.length ? `${head}, with smaller parts in ${listOf(rest.map((t) => modernName(t.name)))}` : head;
+  const head = main.length
+    ? joinNodes(main.map((t) => <span key={t.name}><Country name={t.name} /> ({Math.round(t.share * 100)}%)</span>))
+    : joinNodes(rest.splice(0, 3).map((t) => <Country key={t.name} name={t.name} />));
+  return rest.length ? <>{head}, with smaller parts in {joinNodes(rest.map((t) => <Country key={t.name} name={t.name} />))}</> : head;
 }
 
 type QA = { q: string; a: React.ReactNode };

@@ -135,14 +135,14 @@ export default function SearchClient({ items }: SearchClientProps) {
                   className="group grid grid-cols-[1fr_auto] sm:grid-cols-[9rem_1fr_auto] items-baseline gap-x-4 py-4"
                 >
                   <span className={`label !text-[10px] max-sm:hidden ${TYPE_COLORS[item.entityType] ?? "text-ink/45"}`}>
-                    {TYPE_LABELS[item.entityType]}
+                    {item.label ?? TYPE_LABELS[item.entityType]}
                   </span>
                   <span className="min-w-0">
                     <span className="block font-display text-2xl tracking-tight text-ink group-hover:text-accent transition-colors truncate">
                       {item.name}
                     </span>
                     {item.tagline && <span className="block text-ink/45 text-sm mt-0.5 truncate">{item.tagline}</span>}
-                    <span className={`sm:hidden label !text-[10px] ${TYPE_COLORS[item.entityType] ?? "text-ink/45"}`}>{TYPE_LABELS[item.entityType]}</span>
+                    <span className={`sm:hidden label !text-[10px] ${TYPE_COLORS[item.entityType] ?? "text-ink/45"}`}>{item.label ?? TYPE_LABELS[item.entityType]}</span>
                   </span>
                   <span className="text-ink/25 group-hover:text-accent group-hover:translate-x-1 transition-all" aria-hidden="true">→</span>
                 </Link>
