@@ -1,0 +1,93 @@
+---
+name: Croatia
+wikidata: Q224
+timeline:
+  - ~-3000: The Vučedol culture flourishes on the Danube near Vukovar.
+  - 9: Rome crushes the Great Illyrian Revolt and organises the province of Dalmatia.
+  - 305: Diocletian retires to his newly built palace at Split.
+  - 925: Tomislav is recognised as the first king of Croatia.
+  - 1102: Croatia enters a union with Hungary under King Coloman.
+  - 1409: Venice buys the rights to Dalmatia, beginning nearly four centuries of Venetian rule on the coast.
+  - 1493: The Ottomans destroy the Croatian nobility's army at Krbava Field.
+  - 1527: The Croatian nobles meeting at Cetin elect Ferdinand of Habsburg as king.
+  - 1848: Ban Josip Jelačić abolishes serfdom and leads Croatian troops against the Hungarian revolution.
+  - 1918: The Croatian parliament breaks with Austria-Hungary, and Croatia enters the Kingdom of Serbs, Croats and Slovenes.
+  - 1941: The Axis installs the Ustaša regime of the Independent State of Croatia, which carries out genocide against Serbs, Jews and Roma.
+  - 1971: The Croatian Spring reform movement is suppressed.
+  - 1991: Croatia declares independence on 25 June, and war follows.
+  - 1995: Operation Storm retakes most of the Serb-held Krajina, and most of its Serb population flees.
+  - 2013: Croatia joins the European Union.
+  - 2023: Croatia adopts the euro and joins the Schengen area on 1 January.
+sources:
+  - Wikipedia: History of Croatia | https://en.wikipedia.org/wiki/History_of_Croatia
+  - Wikipedia: Croatia | https://en.wikipedia.org/wiki/Croatia
+  - BBC News: Croatia country profile | https://www.bbc.com/news/world-europe-17212572
+  - BBC News: Croatia profile, timeline | https://www.bbc.com/news/world-europe-17217954
+  - United States Holocaust Memorial Museum, Holocaust Encyclopedia: Jasenovac | https://encyclopedia.ushmm.org/content/en/article/jasenovac
+  - Wikipedia: 2025 in Croatia | https://en.wikipedia.org/wiki/2025_in_Croatia
+  - Wikipedia: 2026 in Croatia | https://en.wikipedia.org/wiki/2026_in_Croatia
+written: 2026-10-25
+---
+Croatia stretches in a crescent from the Pannonian plain along the Drava and Danube to the long Adriatic coast of Istria and Dalmatia, and its history has been shaped by the meeting of central Europe, the Mediterranean and the Balkans. Greek colonists and then Rome ruled the coast in antiquity, and Croats who settled the land in the early Middle Ages created a duchy and, from 925, a kingdom. From 1102 Croatia was joined to the Hungarian crown, while Venice held most of Dalmatia and Dubrovnik flourished as an independent republic; from 1527 the Habsburgs ruled inland Croatia, much of which became a military frontier against the Ottomans. In the twentieth century Croatia was part of both Yugoslav states, and during the Second World War the Ustaša regime committed genocide on its territory. Independence in 1991 was followed by four years of war, and Croatia has since joined NATO, the European Union and the eurozone.
+
+## Prehistory
+
+Croatia has one of Europe's most important Neanderthal sites at Krapina, north of Zagreb, where the remains of dozens of individuals about 130,000 years old were excavated from 1899. The cave of Vindija has yielded later Neanderthal bones whose DNA helped reconstruct the Neanderthal genome. Farming spread from the south-east with the Neolithic Revolution after 6000 BCE, and on the Adriatic islands and coast early farmers made Impressed Ware pottery. In the Copper Age, around 3000–2500 BCE, the Vučedol culture on the Danube near Vukovar produced fine decorated pottery, including the vessel known as the Vučedol Dove, and worked copper on a significant scale.
+
+In the Iron Age the coast and interior were held by peoples whom the Greeks and Romans called Illyrians, including the Histri of Istria, the seafaring Liburnians of the northern Adriatic and the Delmatae of the Dalmatian hinterland, while Celtic groups settled in the north, part of the expansion of the Celts. From the fourth century BCE Greek colonists founded Issa on Vis and Pharos on Hvar, linking the islands to the wider world of [ancient Greece](/culture/ancient-greece), and later Tragurion (Trogir) and Epetion (Stobreč) on the mainland.
+
+## Roman Dalmatia and Pannonia
+
+The Roman Republic first went to war with the Illyrian kingdom in 229 BCE, and over two centuries brought the coast under its control. In 6 CE the peoples of the interior rose in the Great Illyrian Revolt, and after Rome crushed it in 9 CE the region was divided into the provinces of Dalmatia, along the coast and mountains, and Pannonia, in the north. Under [the Roman Empire](/place/roman-empire) Salona, near modern Split, became the capital of Dalmatia and one of the great cities of the Adriatic, Pula in Istria gained its amphitheatre, and Siscia (Sisak) and Mursa (Osijek) grew in Pannonia. The emperor [Diocletian](/person/diocletian), born in Dalmatia, built a vast palace on the coast at Split and retired there in 305 after abdicating. Its walls still enclose the centre of the old town.
+
+Christianity spread through the towns, and Salona became an important bishopric. After the empire was divided, the region belonged to the Western Roman Empire. Julius Nepos, the last western emperor recognised in Constantinople, ruled from Dalmatia until he was murdered in 480. The Ostrogoths then held the area until Justinian I brought it under the [Byzantine Empire](/place/byzantine-empire) in the 530s.
+
+## The arrival of the Croats and the medieval kingdom
+
+From the late sixth century Avars and Slavs overran the western Balkans, and Salona was abandoned in the early seventh century, its refugees settling in Diocletian's palace and founding medieval Split. The Croats appear in the sources as a people who settled the land in the seventh century; their origins and the meaning of their name remain debated, with theories of Slavic, Iranian or mixed origin. Byzantine coastal towns such as Zadar, Split and Trogir kept their Latin-speaking populations for centuries.
+
+By the early ninth century two Croatian polities had formed: the Duchy of Croatia in Dalmatia and a principality in Pannonia between the Sava and the Drava. Both came under the overlordship of the Franks during the expansion of [Charlemagne](/person/charlemagne)'s Carolingian Empire, and Frankish missionaries helped convert the Croats to Christianity. Duke Trpimir, who issued a charter in 852 that is the first document to mention the Croats by name, founded the dynasty that would rule for more than two centuries, and in 879 Pope John VIII recognised Duke Branimir as an independent ruler. Tomislav, who united the two parts of Croatia and defended them against Magyars and Bulgarians, is mentioned as king in papal correspondence of 925 and is regarded as the first Croatian king. The kingdom reached its greatest extent under Petar Krešimir IV in the 1060s, and Demetrius Zvonimir was crowned by a papal legate in 1076. The Baška tablet from the island of Krk, carved around 1100 in the Glagolitic script, is among the oldest monuments of written Croatian.
+
+## Union with Hungary, Venice and Dubrovnik
+
+After the native dynasty died out in 1091, King Ladislaus I of Hungary, brother of Zvonimir's widow, claimed the throne. In 1102 his successor Coloman was crowned king of Croatia and Dalmatia at Biograd, beginning a union with [Hungary](/place/hungary) that would last, in changing forms, until 1918. Croatian tradition holds that the union rested on an agreement, the Pacta conventa, with twelve Croatian noble families, though the surviving text dates from later centuries and its authenticity is disputed. Croatia kept its own nobility, its sabor or assembly, and a ban, or viceroy, who governed in the king's name. During the Mongol invasion of Europe, King Béla IV took refuge in Trogir in 1242, and in the same year he granted [Zagreb](/history-of/zagreb)'s Gradec a royal charter as a free town.
+
+The Dalmatian coast was disputed between Hungary and the [Republic of Venice](/place/republic-of-venice). The armies of the Fourth Crusade sacked Zadar for Venice in 1202. In 1409 Ladislaus of Naples, a claimant to the Hungarian throne, sold his rights to Dalmatia to Venice, which ruled most of the coast and islands until 1797, leaving a deep imprint on its towns, churches and dialects. [Dubrovnik](/history-of/dubrovnik), known as Ragusa, threw off Venetian control in 1358 and became an independent merchant republic under Hungarian and later Ottoman protection, trading across the Mediterranean and the Balkans and producing a rich literature in Croatian and Latin. It survived a devastating earthquake in 1667 and lasted until Napoleon's forces abolished it in 1808.
+
+## The Ottoman wars and the Habsburgs
+
+The [Ottoman Empire](/place/ottoman-empire) conquered Bosnia in 1463 and then raided deep into Croatia. In 1493 it destroyed the Croatian nobility's army at Krbava Field, and after the Hungarian defeat at Mohács in 1526, the Croatian nobles meeting at Cetin on 1 January 1527 elected Ferdinand of Habsburg as their king, binding Croatia to the [Habsburg Monarchy](/place/habsburg-monarchy). By the late sixteenth century the Ottomans held Slavonia and much of the interior, and what remained was called the "remnants of the remnants" of the once great kingdom. In 1566 the Croatian ban Nikola Šubić Zrinski died defending the Hungarian fortress of Szigetvár against [Suleiman the Magnificent](/person/suleiman-the-magnificent), who died during the siege, and in 1593 a Habsburg and Croatian army defeated an Ottoman force at Sisak.
+
+To defend the border, the Habsburgs created the Military Frontier, a belt of land under direct military rule from Vienna, settled by soldier-farmers, many of them Orthodox Vlachs and Serbs fleeing the Ottomans, who received land and freedom from serfdom in return for service. This settlement created the large Serb community of the Krajina, the frontier region, that would matter greatly in later centuries. When the Croatian magnates Petar Zrinski and Fran Krsto Frankopan conspired against Habsburg absolutism, they were beheaded in 1671. In the Great Turkish War, the Treaty of Karlowitz in 1699 returned Slavonia to Croatia. In the eighteenth century Maria Theresa and Joseph II brought centralising reforms, and Croatia placed itself increasingly under the Hungarian government.
+
+## Napoleon, the national revival and 1848
+
+After [Napoleon](/person/napoleon) ended the Venetian republic in 1797, Dalmatia passed to Austria, but in 1809 it and parts of Croatia south of the Sava were joined to the First French Empire as the Illyrian Provinces, which introduced French law and schools in the local language until Austria regained them in 1813–1815. In the 1830s the Illyrian movement led by Ljudevit Gaj, resisting the spread of Hungarian, standardised the Croatian literary language and promoted the idea of South Slav unity. In 1847 the sabor made Croatian the official language.
+
+During the revolutions of 1848 the ban Josip Jelačić abolished serfdom in Croatia, broke with the Hungarian government and led Croatian troops against the Hungarian revolution on the Habsburg side. Absolutist rule after 1849 disappointed Croatian hopes. After the Austro-Hungarian Compromise of 1867 created [Austria-Hungary](/place/austria-hungary), the Croatian-Hungarian Settlement of 1868 gave Croatia-Slavonia autonomy in internal affairs, education and justice under the Hungarian crown, while Dalmatia and Istria remained under Austria. Bishop Josip Juraj Strossmayer founded the Yugoslav Academy of Sciences and Arts in 1866 and the modern University of Zagreb opened in 1874, while Ante Starčević's Party of Rights argued for full Croatian statehood. The Military Frontier was abolished and joined to Croatia in 1881. Among the Serbs of the old frontier was [Nikola Tesla](/person/nikola-tesla), born at Smiljan in Lika in 1856.
+
+## The first Yugoslavia and the Second World War
+
+Croatian soldiers fought for Austria-Hungary in the [First World War](/event/world-war-i), while Croatian and other South Slav exiles formed a Yugoslav Committee to campaign for a common state. On 29 October 1918 the sabor broke all ties with Austria-Hungary, and on 1 December Croatia entered the Kingdom of Serbs, Croats and Slovenes under the Serbian Karađorđević dynasty. Italy, however, took Istria, Zadar and several islands under the Treaty of Rapallo in 1920, and in 1924 it annexed Rijeka, then called Fiume.
+
+The centralised constitution of 1921 was resented in Croatia, where the Croatian Peasant Party of Stjepan Radić was by far the strongest force. In June 1928 a Montenegrin Serb deputy shot Radić and others in the parliament in Belgrade, and Radić died of his wounds that August. King Alexander suspended the constitution in 1929, renamed the country Yugoslavia and ruled as a dictator. Ante Pavelić then founded the Ustaša movement, a fascist and terrorist organisation sheltered in exile by Benito Mussolini's Italy, which helped organise the assassination of King Alexander in Marseille in 1934. In 1939 the Cvetković–Maček agreement created an autonomous Banovina of Croatia.
+
+After Germany and its allies invaded Yugoslavia in April 1941, the Ustaša proclaimed the Independent State of Croatia on 10 April, a puppet state of [Nazi Germany](/place/nazi-germany) and Italy that included all of Bosnia and Herzegovina but ceded much of Dalmatia to Italy. The regime of Pavelić set out to destroy the Serb population of its territory through mass murder, expulsion and forced conversion, and took part in the [Holocaust](/event/holocaust). It established a network of camps, the largest at Jasenovac, where according to the US Holocaust Memorial Museum the Ustaša murdered between 45,000 and 52,000 Serbs, between 12,000 and 20,000 Jews, between 15,000 and 20,000 Roma, and thousands of Croat and Muslim opponents. Across Croatia and Bosnia, the Ustaša authorities killed between 320,000 and 340,000 Serbs, and more than 30,000 Croatian Jews were murdered in Croatia or at Auschwitz. Serb nationalist Chetniks in turn massacred Croats and Muslims in many areas.
+
+Resistance began early. On 22 June 1941 communists formed a Partisan detachment near Sisak, and the Partisan movement of [Josip Broz Tito](/person/josip-broz-tito), who was born at Kumrovec in Croatia, drew in Serbs and Croats in large numbers, governed by the State Anti-Fascist Council for the National Liberation of Croatia from 1943. Partisan forces took Zagreb in May 1945 as the [Second World War](/event/world-war-ii) ended in Europe. Retreating Ustaša troops, other Axis soldiers and civilians fled towards Austria, but at Bleiburg the British refused their surrender and handed them back to the Partisans, who killed tens of thousands of them in mass executions and death marches.
+
+## Socialist Croatia
+
+Croatia became one of the six republics of communist Yugoslavia, with Istria and Rijeka added after the war, when most of their Italian population left. After Tito's break with Joseph Stalin in 1948, Yugoslavia developed its own system of workers' self-management, stayed outside both blocs in the Cold War, and allowed its citizens to travel and work abroad. Croatia industrialised quickly and the Adriatic coast became a major tourist destination, bringing in hard currency. In 1970–1971 the Croatian Spring, led by reformers in the Croatian communist party and supported by students and the cultural society Matica hrvatska, called for greater economic and national autonomy. Tito purged its leaders in December 1971 and many were imprisoned, but the 1974 constitution gave the republics wider powers.
+
+## Independence and the Homeland War
+
+After Tito's death in 1980, economic crisis and the rise of Slobodan Milošević in Serbia increased tensions. In the first multi-party elections in April and May 1990, Franjo Tuđman's Croatian Democratic Union won a large majority. Serbs in the Krajina and other areas, fearing the new government and encouraged by Belgrade, rejected its authority, blocked roads in the Log Revolution of August 1990 and proclaimed autonomous regions that became the Republic of Serbian Krajina. Croatia declared independence on 25 June 1991, the same day as [Slovenia](/country/slovenia).
+
+War followed. Rebel Serb forces and the Yugoslav People's Army seized almost a third of the country, expelling Croats and other non-Serbs. Vukovar was destroyed in a three-month siege and fell on 18 November 1991, after which about 200 prisoners from its hospital were murdered at Ovčara, and Dubrovnik was shelled from October 1991. A UN-brokered ceasefire in January 1992 froze the front, and the European Community recognised Croatia on 15 January 1992. Croatia also became involved in the war in neighbouring [Bosnia and Herzegovina](/country/bosnia-and-herzegovina), where it backed the Bosnian Croat forces that fought the Bosniak-led government in 1993–1994, before the Washington Agreement made them allies again.
+
+In May 1995 Operation Flash retook western Slavonia, and in August Operation Storm captured most of the Krajina in a few days. Between about 90,000 and 200,000 Serbs fled, and crimes were committed against those who stayed. The International Criminal Tribunal for the former Yugoslavia convicted the generals Ante Gotovina and Mladen Markač over Storm in 2011 but acquitted them on appeal in 2012. Croatian Serb leaders, including Milan Babić and Milan Martić, were convicted of crimes against Croats and other non-Serbs. Eastern Slavonia, the last Serb-held area, was peacefully returned to Croatian control under UN administration by 1998. The war killed around 20,000 people.
+
+## Croatia since 1995
+
+Tuđman's rule grew increasingly authoritarian until his death in 1999. A centre-left government after the 2000 elections reduced the powers of the presidency and began closer ties with the West, and Croatia joined NATO in 2009 and the European Union on 1 July 2013. In 2020 two earthquakes struck, one damaging central Zagreb in March and a stronger one destroying much of Petrinja in December. The Pelješac Bridge, opened in 2022, linked the Dubrovnik region by road to the rest of the country without crossing Bosnian territory. On 1 January 2023 Croatia adopted the euro and joined the Schengen area. Andrej Plenković of the Croatian Democratic Union, prime minister since 2016, won a third term after the April 2024 election and formed a coalition with the nationalist Homeland Movement, while his rival Zoran Milanović was re-elected president in January 2025 with about three-quarters of the vote. In 2025 Croatia marked the 1,100th anniversary of the kingdom of Tomislav.

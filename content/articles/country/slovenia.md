@@ -1,0 +1,90 @@
+---
+name: Slovenia
+wikidata: Q215
+timeline:
+  - ~-3150: A wooden wheel and axle, among the oldest known anywhere, are made in the pile-dwelling villages of the Ljubljana Marshes.
+  - ~15: The Romans found the colony of Emona on the site of today's Ljubljana.
+  - 394: Theodosius I defeats the usurper Eugenius at the Battle of the Frigidus in the Vipava valley.
+  - ~745: The Slavic principality of Carantania accepts Bavarian overlordship and begins to convert to Christianity.
+  - 976: Otto II makes Carinthia a duchy of the Holy Roman Empire.
+  - 1335: The Habsburgs acquire Carinthia and Carniola, beginning nearly six centuries of rule.
+  - 1550: Primož Trubar publishes the first printed books in Slovene.
+  - 1809: Napoleon makes Ljubljana the capital of the Illyrian Provinces.
+  - 1917: Austro-German forces break the Italian front at Kobarid (Caporetto) after two years of fighting on the Isonzo.
+  - 1918: The Slovene lands join the Kingdom of Serbs, Croats and Slovenes.
+  - 1941: Germany, Italy and Hungary partition Slovene territory, and the Liberation Front is founded.
+  - 1945: Slovenia becomes a republic of communist Yugoslavia.
+  - 1991: Slovenia declares independence on 25 June and wins the Ten-Day War.
+  - 2004: Slovenia joins NATO and the European Union.
+  - 2007: Slovenia becomes the first former communist state to adopt the euro.
+sources:
+  - Wikipedia: History of Slovenia | https://en.wikipedia.org/wiki/History_of_Slovenia
+  - Wikipedia: Slovenia | https://en.wikipedia.org/wiki/Slovenia
+  - BBC News: Slovenia country profile | https://www.bbc.com/news/world-europe-17846376
+  - Wikipedia: 2026 Slovenian parliamentary election | https://en.wikipedia.org/wiki/2026_Slovenian_parliamentary_election
+  - Wikipedia: 2026 in Slovenia | https://en.wikipedia.org/wiki/2026_in_Slovenia
+written: 2026-10-25
+---
+Slovenia is a small country where the Alps meet the Adriatic, the Pannonian plain and the Balkans, and its land has been crossed for millennia by the routes between Italy and the Danube. Prehistoric lake-dwellers, Celts and Romans lived there before Slavic settlers arrived in the sixth century and formed the principality of Carantania, one of the first Slavic states. For most of the next thousand years the Slovenes lived under German-speaking rulers, above all the Habsburgs, while preserving a language that became the basis of a national movement in the nineteenth century. After the First World War Slovenia joined Yugoslavia, suffered occupation and civil war in the Second, and in 1991 became the first Yugoslav republic to break away, joining the European Union and NATO in 2004.
+
+## Prehistory, Celts and Romans
+
+The country's caves hold evidence of Neanderthal life. At Divje Babe, near Cerkno, archaeologists found in 1995 a cave-bear bone with holes, more than 40,000 years old, that some interpret as the world's oldest musical instrument, though others think the holes were made by animals. In the Neolithic and Copper Age, communities built villages of houses on piles at the edge of the lake that once covered the Ljubljana Marshes. These sites, now part of a UNESCO World Heritage listing of prehistoric pile dwellings around the Alps, preserved a wooden wheel with an axle dated to around 3150 BCE, among the oldest wheels found anywhere.
+
+In the Iron Age the region belonged to the Hallstatt culture, and its people buried bronze buckets, or situlae, decorated with scenes of feasting, races and processions, such as the one found at Vače. From the fourth century BCE [the Celts](/place/celts) spread into the area, and the Celtic Taurisci and the kingdom of Noricum controlled the Alpine valleys and their iron, trading with the Romans across the Julian Alps.
+
+Rome founded Aquileia on the northern Adriatic in 181 BCE, and over the following two centuries it extended its control inland. Under Augustus, whose generals conquered the Alpine and Pannonian peoples, the land became part of [the Roman Empire](/place/roman-empire), divided between Italy, Noricum and Pannonia. The colony of Emona, the forerunner of [Ljubljana](/history-of/ljubljana), was founded around the year 15 with a grid of streets and walls, and Celeia (Celje) and Poetovio (Ptuj) grew into prosperous towns on the roads linking Italy with the Danube frontier. Poetovio was a major military and customs centre, with temples of the god Mithras.
+
+The roads that brought trade also brought armies. In 394 the eastern emperor Theodosius I defeated the western usurper Eugenius at the Battle of the Frigidus, probably on the Vipava river, a battle often seen as the last stand of the old pagan religion in Roman politics. In the fifth century the region was devastated by invasions: [the Huns](/place/hunnic-empire) under Attila passed through on the way to Italy in 452, and after the fall of the western empire the land was held by the Ostrogoths, Byzantium and then the Lombards, who left for Italy in 568.
+
+## Slavic settlement and Carantania
+
+As the Lombards departed, the Avars and with them Slavic groups moved into the eastern Alps and the land between the Drava and the Adriatic. The Slavs probably joined the realm of Samo, a Frankish merchant who led a revolt against the Avars in the 620s, and after his death around 658 they formed the principality of Carantania, centred on the Zollfeld near today's Klagenfurt in Austrian Carinthia. Carantania is remembered for its unusual installation ceremony, in which a peasant seated on a Roman stone handed authority to the new prince, who was questioned in the Slovene language; the ritual survived into the fifteenth century.
+
+Threatened by the Avars, Carantania accepted the overlordship of Bavaria in the 740s, and with Bavaria it was absorbed into [the Carolingian Empire](/place/carolingian-empire) of [Charlemagne](/person/charlemagne), who crushed the Avars at the end of the eighth century. Missionaries sent from Salzburg, among them the Irish-born bishop Modestus, converted the Carantanians to Christianity, while the patriarchate of Aquileia evangelised the south; in 811 the Drava river was fixed as the boundary between the two church provinces. After a Slavic revolt led by Ljudevit in 819 to 822 the Franks replaced the native princes with their own counts, and German-speaking nobles, clergy and settlers increasingly dominated the region. For a short time in the 860s and 870s the Slavic prince Kocelj ruled lower Pannonia, around Lake Balaton, and welcomed the missionaries Cyril and Methodius.
+
+## The Holy Roman Empire and the Habsburgs
+
+After the Magyars, who had settled in Hungary, were defeated at the Lech in 955 by Otto I, the German kings reorganised the south-eastern frontier of [the Holy Roman Empire](/place/holy-roman-empire). In 976 Carinthia became a separate duchy, and over the following centuries the Slovene lands were divided among the marches and duchies of Carniola, Styria, Carinthia, Gorizia and Istria, held by German noble families. The Freising Manuscripts, written in the late tenth or early eleventh century, contain prayers and confessions in an early form of Slovene and are the oldest surviving texts in a Slavic language written in the Latin alphabet. Prekmurje, in the far north-east, remained part of the Kingdom of Hungary, while [the Republic of Venice](/place/republic-of-venice) gradually took the coastal towns of Koper, Izola and Piran.
+
+The Habsburgs acquired Styria in 1282 and Carinthia and Carniola in 1335, and they gradually absorbed the other territories. Their main rivals were the counts of Celje, a local dynasty that rose to become princes of the empire in 1436 and married into the royal families of Hungary and Bosnia, but died out in 1456, leaving their lands to the Habsburgs. Under [the Habsburg Monarchy](/place/habsburg-monarchy), German was the language of the nobility and towns, while Slovene remained the language of the peasants. From 1408 [the Ottoman Empire](/place/ottoman-empire) raided the region repeatedly, and villagers fortified their churches against the attacks. Peasants rose against rising feudal dues in great revolts in 1515 and, together with Croatian peasants, in 1573, both suppressed with great bloodshed. The mercury mine at Idrija, discovered at the end of the fifteenth century, became one of the largest in the world.
+
+## Reformation, Counter-Reformation and Napoleon
+
+The [Protestant Reformation](/event/protestant-reformation) gave Slovene its written form. The preacher Primož Trubar, exiled to Germany, published the first books in Slovene in 1550, a catechism and a primer, and Jurij Dalmatin's translation of the whole Bible appeared in 1584, followed by Adam Bohorič's grammar. Protestantism was popular among the nobility and townspeople, but from the 1590s the Habsburg archduke Ferdinand and the bishop of Ljubljana, Tomaž Hren, drove it out, and the Slovene lands became firmly Catholic again. In the following centuries the Jesuits, baroque churches and, in the eighteenth century, the reforms of Maria Theresa and Joseph II, including compulsory schooling, shaped the region. The scholar Janez Vajkard Valvasor described the duchy of Carniola in a great illustrated work in 1689.
+
+In 1809 [Napoleon](/person/napoleon), having defeated Austria, created the Illyrian Provinces, part of the First French Empire, with Ljubljana as their capital. French rule lasted only until 1813, but it introduced Slovene into schools and was celebrated by the poet Valentin Vodnik. After Austrian rule was restored, Ljubljana hosted in 1821 a congress of the conservative powers organised by Metternich, which authorised Austria to crush revolution in Naples.
+
+## The Slovene national movement
+
+In the nineteenth century a Slovene national identity took modern form. The poet France Prešeren, who died in 1849, gave the language its literary standing; a stanza of his poem A Toast is today the national anthem. During the revolution of 1848 Slovene intellectuals in Vienna and Ljubljana issued the programme of a United Slovenia, demanding that all the Slovene lands be joined in a single unit of the Austrian Empire with Slovene as its official language. The demand was refused, but it became the core of Slovene politics for seventy years. Reading clubs, gymnastic societies and mass rallies spread national ideas, and Slovenes gradually won control of local governments in Carniola, while in Styria, Carinthia and the coast German and Italian nationalists competed with them for the towns.
+
+The Southern Railway from Vienna to Trieste, completed through Ljubljana in 1857, brought industry, and Trieste became home to one of the largest Slovene communities. Many Slovenes emigrated to the Americas. Politics divided into a Catholic camp, led by Janez Evangelist Krek, a liberal camp, and a growing social democratic movement, while writers such as Ivan Cankar gave Slovene literature a European voice. Before 1914 many politicians looked for a future in a South Slav unit within the Habsburg monarchy, an idea known as trialism.
+
+## The First World War and the first Yugoslavia
+
+When Italy entered [the First World War](/event/world-war-i) in 1915 against [Austria-Hungary](/place/austria-hungary), it did so under the secret Treaty of London, which promised it Slovene territory. The front ran along the Soča (Isonzo) river, where twelve battles between 1915 and 1917 killed hundreds of thousands of soldiers on both sides, until Austro-German forces broke through at Kobarid, known in Italian as Caporetto, in October 1917. More than 30,000 Slovene conscripts died in the Austro-Hungarian army.
+
+As the monarchy collapsed, on 29 October 1918 the Slovenes joined Croats and Serbs of the former Habsburg lands in the State of Slovenes, Croats and Serbs, which united with [Serbia](/country/serbia) on 1 December to form the Kingdom of Serbs, Croats and Slovenes, later Yugoslavia. The borders left many Slovenes outside. The Treaty of Rapallo of 1920 gave [Italy](/country/italy) the Littoral and part of Carniola, leaving about 327,000 Slovenes under Italian rule, where the fascist government of Benito Mussolini closed Slovene schools, banned the language in public and drove tens of thousands into exile; the underground TIGR organisation resisted with sabotage. In a plebiscite of October 1920 the majority in southern Carinthia, including many Slovene speakers, voted to remain in [Austria](/country/austria). Prekmurje, by contrast, was taken from Hungary. Within Yugoslavia, Slovenia became its most industrialised region and gained a university in Ljubljana in 1919, though Slovenes resented Belgrade's centralism.
+
+## Occupation, resistance and civil war
+
+In April 1941, during [the Second World War](/event/world-war-ii), the Axis invaded Yugoslavia and divided Slovenia among three occupiers. Nazi Germany annexed Upper Carniola and Lower Styria and set out to Germanise them, deporting tens of thousands of Slovenes to Serbia, Croatia and Germany and resettling Germans in their place; Italy annexed Ljubljana and the south as the Province of Ljubljana; Hungary took Prekmurje, whose Jews were later deported to Auschwitz in the Holocaust. On 26 April 1941 communists and other groups founded the Liberation Front, which organised the Slovene Partisans as part of [Josip Broz Tito](/person/josip-broz-tito)'s movement. Italy surrounded Ljubljana with barbed wire and sent tens of thousands of civilians to camps such as Rab and Gonars, where many died.
+
+The war became a civil war as well. The communists assassinated political opponents, and Catholic and conservative groups formed village guards under Italian sponsorship and, after Italy's surrender in 1943, the Slovene Home Guard, which fought the Partisans under German command. Partisan forces liberated the country in May 1945 and briefly occupied Trieste. In the weeks after the war Yugoslav forces summarily executed more than ten thousand Home Guard members returned by the British from Austria, along with tens of thousands of Croatian soldiers and civilians, at sites such as Kočevski Rog and Teharje, and the subject was suppressed for decades; since independence Slovenia has identified hundreds of concealed mass graves. In total about 8 per cent of Slovenia's population died during the war.
+
+## Socialist Slovenia
+
+Slovenia became one of the six republics of the Socialist Federal Republic of Yugoslavia. The dispute over Trieste was resolved in 1954, when the city went to Italy and the coast around Koper to Yugoslavia, a division confirmed by the Treaty of Osimo in 1975; many Italians left Istria. Under Tito's independent communism, which broke with Moscow in 1948 and followed a non-aligned course during the Cold War, Slovenia prospered as Yugoslavia's richest and most Western-oriented republic, with open borders to Austria and Italy and an industrial economy based on firms such as Gorenje.
+
+After Tito's death in 1980, Slovenes increasingly resented subsidising poorer regions and the policies of Belgrade. In 1987 the journal Nova revija published proposals for a Slovene national programme, and in 1988 the military trial of three journalists and a soldier, known as the JBTZ affair, for revealing army documents provoked mass protests and the formation of a Committee for the Defence of Human Rights. In this Slovene Spring the reform communists under Milan Kučan allowed opposition parties, and in September 1989 the republic's assembly asserted its sovereignty, weeks before communist rule began to collapse across eastern Europe.
+
+## Independence and the Ten-Day War
+
+In April 1990 the opposition coalition DEMOS won Slovenia's first multi-party elections, while Kučan was elected president. In a plebiscite on 23 December 1990, more than 88 per cent of the electorate voted for an independent Slovenia. Slovenia and [Croatia](/country/croatia) declared independence on 25 June 1991, and when the Yugoslav People's Army moved to seize border posts the next day, Slovene territorial defence forces and police surrounded barracks and blockaded columns. The Ten-Day War killed around 65 people before the European Community brokered the Brijuni Agreement on 7 July, and the Yugoslav army withdrew from Slovenia by October. The European Community states recognised Slovenia on 15 January 1992, and it joined the United Nations that May.
+
+Thanks to its ethnic homogeneity and distance from the fighting, Slovenia avoided the wars that devastated Croatia and Bosnia. Under the governments of Janez Drnovšek, prime minister for most of the 1990s, it followed a gradual economic transition. One injustice of the period, the erasure in 1992 of more than 25,000 residents from other Yugoslav republics from the population register, leaving them without legal status, was later condemned by the European Court of Human Rights. Slovenia joined NATO in March 2004 and the European Union on 1 May 2004, adopted the euro in 2007, the first former communist country to do so, and held the presidency of the EU Council in 2008.
+
+## Slovenia since 2008
+
+The financial crisis hit Slovenia hard, and a banking crisis and austerity provoked mass protests against corruption in 2012 and 2013. Politics have since alternated between the conservative Slovenian Democratic Party of Janez Janša, who was prime minister in 2004 to 2008, 2012 to 2013 and 2020 to 2022, and a series of new centre-left parties. A border dispute with Croatia over the Bay of Piran went to international arbitration, whose 2017 award Slovenia accepts and Croatia rejects. Robert Golob's liberal Freedom Movement won the 2022 election, and the lawyer Nataša Pirc Musar became the country's first woman president that year. In the parliamentary election of 22 March 2026, Golob's party narrowly finished first but lost its majority, and in May 2026 parliament confirmed Janša as prime minister for a fourth time at the head of a right-wing coalition. Slovenia has about 2.1 million people, with small Italian and Hungarian minorities whose rights are guaranteed in the constitution.
