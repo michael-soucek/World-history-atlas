@@ -91,17 +91,68 @@ export function scoreFor(guess: number, answer: number): number {
   return Math.round(1000 * Math.exp(-Math.abs(guess - answer) / 200));
 }
 
-export function tierOf(points: number): "great" | "close" | "far" {
-  return points >= 800 ? "great" : points >= 450 ? "close" : "far";
+export type Tier = "great" | "close" | "near" | "far";
+
+/** About 45, 160 and 380 years off are the tier edges. */
+export function tierOf(points: number): Tier {
+  return points >= 800 ? "great" : points >= 450 ? "close" : points >= 150 ? "near" : "far";
 }
 
-const EMOJI = { great: "🟩", close: "🟨", far: "🟥" } as const;
+/** A title for a day's total, with a line to go under it. */
+export function rankFor(total: number): { title: string; line: string } {
+  if (total >= 4500) return { title: "Master cartographer", line: "You read those borders like a calendar." };
+  if (total >= 3500) return { title: "Historian", line: "Most of those maps didn't fool you." };
+  if (total >= 2500) return { title: "Scholar", line: "A solid eye for the shape of history." };
+  if (total >= 1500) return { title: "Time traveller", line: "You landed in the right era more than once." };
+  if (total >= 750) return { title: "Apprentice", line: "Some eras clicked, others didn't." };
+  return { title: "Tourist", line: "The borders had other ideas today. Tomorrow brings new maps." };
+}
 
-/** The text copied by "Share": no spoilers, just the squares and the score. */
-export function shareText(day: number | null, points: number[]): string {
+const EMOJI: Record<Tier, string> = { great: "🟩", close: "🟨", near: "🟧", far: "🟥" };
+
+const yearsOff = (n: number) => `${n.toLocaleString("en-US")} ${n === 1 ? "year" : "years"} off`;
+
+/**
+ * The text for "Share": the score, a title, and one line per map with the
+ * region and how far off the guess was. No answers, so no spoilers.
+ */
+export function shareText(day: number | null, puzzles: Puzzle[], guesses: number[]): string {
+  const points = guesses.map((g, i) => scoreFor(g, puzzles[i].year));
   const total = points.reduce((a, b) => a + b, 0);
-  const title = day ? `Borders of Time: Guess the Year #${day}` : "Borders of Time: Guess the Year (practice)";
-  return `${title}\n${points.map((p) => EMOJI[tierOf(p)]).join("")} ${total.toLocaleString("en-US")}/${ROUNDS * 1000}\nbordersoftime.com/play`;
+  const name = day ? `Guess the Year #${day}` : "Guess the Year (practice)";
+  const lines = puzzles.map((p, i) => {
+    const off = Math.abs(guesses[i] - p.year);
+    return `${EMOJI[tierOf(points[i])]} ${p.region}: ${off === 0 ? "spot on" : yearsOff(off)}`;
+  });
+  return [
+    `Borders of Time · ${name}`,
+    `${total.toLocaleString("en-US")}/${(ROUNDS * 1000).toLocaleString("en-US")} · ${rankFor(total).title}`,
+    "",
+    ...lines,
+    "",
+    "Can you date the world from its borders?",
+    "https://bordersoftime.com/play",
+  ].join("\n");
+}
+
+export interface PlayerStats {
+  played: number;
+  /** Days in a row, ending today (or yesterday, if today isn't finished yet). */
+  streak: number;
+  best: number;
+}
+
+/** Stats from finished daily games, given as { day, total }. */
+export function statsFrom(results: { day: number; total: number }[], today: number): PlayerStats {
+  const days = new Set(results.map((r) => r.day));
+  let streak = 0;
+  for (let d = days.has(today) ? today : today - 1; days.has(d); d--) streak++;
+  return { played: results.length, streak, best: Math.max(0, ...results.map((r) => r.total)) };
+}
+
+/** Milliseconds until the next daily game (midnight UTC). */
+export function msUntilNextGame(now: Date): number {
+  return Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate() + 1) - now.getTime();
 }
 
 export const formatYear = (y: number) => (y < 0 ? `${Math.abs(y).toLocaleString("en-US")} BCE` : `${y} CE`);
