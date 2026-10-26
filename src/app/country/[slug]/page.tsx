@@ -7,7 +7,8 @@ import PageIntro, { SectionRule } from "@/components/PageIntro";
 import { LinkRow } from "@/components/Gazetteer";
 import OurArticle from "@/components/OurArticle";
 import { JsonLd, articleLd, breadcrumbLd } from "@/lib/jsonLd";
-import { buildPageMetadata, metaDescription } from "@/lib/seo";
+import { buildPageMetadata } from "@/lib/seo";
+import { commonsThumb } from "@/lib/commonsImage";
 import { articleIntro, articleWordCount, getOurArticle } from "@/lib/ourArticles";
 import { backlinksTo, type Backlink } from "@/lib/backlinks";
 import type { RulerSpan } from "@/lib/cityHistory";
@@ -31,9 +32,43 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!country || !article) return { title: "Country — Borders of Time" };
   return buildPageMetadata({
     title: `History of ${countryWithArticle(country)}: Timeline, Empires & Maps — Borders of Time`,
-    description: metaDescription(articleIntro(article)) ?? `The history of ${countryWithArticle(country)}, from its first peoples to today.`,
+    description: countryDescription(country, article),
     path: `/country/${slug}`,
+    type: "article",
+    imageUrl: country.image ? commonsThumb(country.image) : undefined,
   });
+}
+
+/**
+ * "History of Switzerland: Roman Helvetia, the Old Swiss Confederacy and the
+ * federal state. Key dates from 58 BCE to 2023, and every state that has held
+ * Bern on historical maps." Built from the article's own section headings,
+ * fewer of them until it fits a search snippet.
+ */
+function countryDescription(country: Country, article: NonNullable<ReturnType<typeof getOurArticle>>): string {
+  const name = countryWithArticle(country);
+  // Section headings name the story's chapters ("Roman Helvetia", "The Old Swiss
+  // Confederacy"). Skip the first (prehistory) and last (today).
+  const heads = article.blocks
+    .filter((b) => b.kind === "h2")
+    .map((b) => b.text.replace(/\.$/, ""))
+    .slice(1, -1);
+  const tl = article.timeline;
+  const tail = tl.length >= 2
+    ? ` Key dates ${fmtKeyYear(tl[0].year)}–${fmtKeyYear(tl[tl.length - 1].year)}, and who held ${country.capital} on every map.`
+    : ` Who held ${country.capital} on every map.`;
+  // Chapters can contain their own "and", so separate them with a dot.
+  const join = (xs: string[]) => xs.map((x) => x.charAt(0).toUpperCase() + x.slice(1)).join(" · ");
+  const build = (idx: number[]) => `History of ${name}: ${join([...idx].sort((x, y) => x - y).map((i) => heads[i]))}.${tail}`;
+  // Add chapters spread across the story (middle first, then the quarters…)
+  // for as long as the description still fits a search snippet.
+  const order = [...heads.keys()].sort((x, y) => Math.abs(x - (heads.length - 1) / 2) - Math.abs(y - (heads.length - 1) / 2));
+  const spread = [order[0], 0, heads.length - 1, ...order.slice(1)].filter((v, i, a) => v !== undefined && v >= 0 && a.indexOf(v) === i);
+  const chosen: number[] = [];
+  for (const i of spread) {
+    if (build([...chosen, i]).length <= 160) chosen.push(i);
+  }
+  return chosen.length ? build(chosen) : `History of ${name}, from its first peoples to today.${tail}`;
 }
 
 const fmtYear = (y: number) => (y < 0 ? `${Math.abs(y) >= 10000 ? Math.abs(y).toLocaleString("en-US") : -y} BCE` : `${y} CE`);
@@ -73,6 +108,7 @@ export default async function CountryPage({ params }: Props) {
               headline: `History of ${title}`,
               path: `/country/${slug}`,
               description: articleIntro(article),
+              image: country.image ? commonsThumb(country.image) : undefined,
               written: article.written,
               wordCount: articleWordCount(article),
               citations: article.sources.map((s) => s.href),

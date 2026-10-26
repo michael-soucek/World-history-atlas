@@ -104,13 +104,38 @@ export async function entityMetadata(
   // only when there's room, so the subject and dates aren't what gets cut off.
   // Some article titles already carry their dates, e.g. "Jin dynasty (266–420)".
   const namedWithDates = /\([^)]*\d[^)]*\)\s*$/.test(content.name);
-  const core = `${content.name}${dates && !namedWithDates ? ` (${dates})` : ""}: ${ENTITY_TITLE_SUFFIX[kind]}`;
+  // People with our own article: its born/died years are checked against the
+  // historians' consensus (Wikidata often has a single disputed year), and a
+  // "~" marks them as approximate.
+  if (kind === "person") {
+    const { getOurArticle: ourArticle } = await import("@/lib/ourArticles");
+    const meta = ourArticle("person", slug)?.meta;
+    const yr = (v?: string) => (v && /^~?-?\d+$/.test(v) ? Number(v.replace("~", "")) : undefined);
+    const born = yr(meta?.born);
+    const died = yr(meta?.died);
+    if (born !== undefined && died !== undefined && died >= born) {
+      const approx = meta!.born.startsWith("~") || meta!.died.startsWith("~");
+      dates = `${approx ? "c. " : ""}${fmtSpan(born, died)}`;
+    }
+  }
+  // Philosophers are searched for their ideas, not a map.
+  const { PHILOSOPHER_SLUGS } = await import("@/data/philosophy");
+  const suffix = kind === "person" && PHILOSOPHER_SLUGS.has(slug) ? "Life, Ideas & Works" : ENTITY_TITLE_SUFFIX[kind];
+  const core = `${content.name}${dates && !namedWithDates ? ` (${dates})` : ""}: ${suffix}`;
   const title = core.length <= 52 ? `${core} — Borders of Time` : core;
   const ctx = kind === "place" ? null : await entityContext(kind, slug);
   const own = kind === "place" ? placeDescription(slug, content.name, dates) : ctx ? contextDescription(ctx) : undefined;
   // Next best: the opening of the page's own article, before the encyclopedia's summary.
   const { articleIntro, getOurArticle } = await import("@/lib/ourArticles");
+  // People: our own article's opening says who they were far better than a
+  // list of contemporaries, with the dates worked in after the name.
+  const intro = kind === "person" ? articleIntro(getOurArticle(kind, slug)) : undefined;
+  const personIntro =
+    intro && dates && !namedWithDates && new RegExp(`^${content.name.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")} (was|is|had|became|ruled)\\b`).test(intro)
+      ? `${content.name} (${dates})${intro.slice(content.name.length)}`
+      : intro;
   const description =
+    metaDescription(personIntro) ??
     metaDescription(own) ??
     metaDescription(articleIntro(getOurArticle(kind, slug))) ??
     metaDescription(content.summary) ??

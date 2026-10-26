@@ -15,3 +15,17 @@ export function commonsSrcSet(url: string | undefined): string | undefined {
   const widths = BUCKETS.filter((b) => b < max);
   return [...widths.map((b) => `${base}${b}px-${rest} ${b}w`), `${url} ${max}w`].join(", ");
 }
+
+/**
+ * Direct thumbnail URL for a Commons file name, at a standard width.
+ * SVG and TIFF files are served as PNG/JPEG thumbnails, which link previews can show.
+ */
+export function commonsThumb(file: string, width = 1280): string {
+  // eslint-disable-next-line @typescript-eslint/no-require-imports
+  const { createHash } = require("node:crypto") as typeof import("node:crypto");
+  const name = file.replace(/ /g, "_");
+  const md5 = createHash("md5").update(name).digest("hex");
+  const enc = encodeURIComponent(name);
+  const ext = /\.svg$/i.test(name) ? ".png" : /\.tiff?$/i.test(name) ? ".jpg" : "";
+  return `https://upload.wikimedia.org/wikipedia/commons/thumb/${md5[0]}/${md5.slice(0, 2)}/${enc}/${width}px-${enc}${ext}`;
+}

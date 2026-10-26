@@ -22,6 +22,8 @@ export interface Country {
   capital: string;
   lat: number;
   lng: number;
+  /** Wikidata's image for the country (a Commons file name), for link previews. */
+  image?: string;
 }
 
 export type Continent = "europe" | "asia" | "africa" | "north-america" | "south-america" | "oceania";
