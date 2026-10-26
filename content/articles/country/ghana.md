@@ -1,0 +1,91 @@
+---
+name: Ghana
+wikidata: Q117
+timeline:
+  - ~-2000: Villages of the Kintampo culture in central Ghana combine farming, herding and pottery-making.
+  - ~1100: Bonoman, one of the first Akan states, grows rich on the gold trade with Mande merchants from the north.
+  - 1471: Portuguese sailors reach the coast that Europeans will call the Gold Coast.
+  - 1482: The Portuguese build São Jorge da Mina, later Elmina Castle.
+  - 1637: The Dutch capture Elmina from the Portuguese.
+  - 1701: Osei Tutu's Asante coalition defeats Denkyira at Feyiase, founding the Asante Empire.
+  - 1824: Asante forces defeat a British army and kill Governor Charles MacCarthy.
+  - 1874: British troops burn Kumasi and Britain proclaims the Gold Coast Colony.
+  - 1900: Yaa Asantewaa leads the War of the Golden Stool against British rule.
+  - 1948: Police fire on ex-servicemen in Accra, setting off riots across the colony.
+  - 1957: The Gold Coast becomes independent as Ghana on 6 March, led by Kwame Nkrumah.
+  - 1966: A military coup overthrows Nkrumah while he is abroad.
+  - 1981: Jerry Rawlings seizes power for the second time.
+  - 1993: The Fourth Republic begins under a new multiparty constitution.
+  - 2025: John Mahama returns to the presidency after winning the December 2024 election.
+sources:
+  - Wikipedia: History of Ghana | https://en.wikipedia.org/wiki/History_of_Ghana
+  - Wikipedia: Ghana | https://en.wikipedia.org/wiki/Ghana
+  - Wikipedia: Ashanti Empire | https://en.wikipedia.org/wiki/Ashanti_Empire
+  - Wikipedia: Bonoman | https://en.wikipedia.org/wiki/Bonoman
+  - Library of Congress Country Studies: Ghana, History (countrystudies.us mirror) | http://countrystudies.us/ghana/4.htm
+  - BBC News: Ghana country profile | https://www.bbc.com/news/world-africa-13433790
+written: 2026-10-25
+---
+Ghana takes its name from a medieval empire that lay far to the north-west, but its own history is just as deep. Within its borders arose the Mole-Dagbani kingdoms of the savannah, the gold-trading Akan states of the forest and, from 1701, the [Asante Empire](/place/asante-empire), one of the most powerful states in West African history. From the late 15th century European traders lined the coast with forts, first for gold and then for the [Atlantic slave trade](/event/atlantic-slave-trade), and in the 19th century Britain conquered the coast and the interior after a series of wars with Asante. In 1957, under [Kwame Nkrumah](/person/kwame-nkrumah), the Gold Coast became Ghana, one of the first sub-Saharan African colonies to win independence, and after decades of coups the country has been a stable multiparty democracy since 1993.
+
+## Early peoples and the Kintampo culture
+
+People have lived in what is now Ghana since the Stone Age, and the forest and savannah have yielded stone tools of great age. Around 4,000 years ago, communities archaeologists call the Kintampo complex settled in central Ghana, on the edge of the forest. They lived in villages, kept goats and cattle, made pottery and polished stone tools and processed oil palm and cowpeas, making them among the earliest farming societies in West Africa. Along the coast, fishing peoples left shell mounds and few other traces. Iron-working spread in the first millennium BCE and the first millennium CE, allowing farmers to clear the forest more effectively.
+
+Ghanaian traditions describe most of the present peoples as arriving or forming over the following centuries: the Akan in the centre and south, the Guan along the Volta, the Ga-Dangme around Accra, the Ewe, who trace their origins to the walled town of Notsie in present-day [Togo](/country/togo), in the east, and the Mole-Dagbani and other Gur-speaking peoples in the north. By the 16th century most had settled where they live today.
+
+## Ancient Ghana and the northern kingdoms
+
+The original [Ghana Empire](/place/ghana-empire), also called Wagadu, had nothing to do with this territory. It lay some 800 kilometres to the north-west, in what are now southern [Mauritania](/country/mauritania) and western [Mali](/country/mali), and flourished between roughly the 6th and 11th centuries by taxing the trans-Saharan trade in gold and salt. Its name, a royal title, was adopted by the Gold Coast's nationalists in 1957 as a symbol of African greatness before colonial rule.
+
+The trade routes of the Sahel did reach the region, however. Mande-speaking Muslim merchants, known as Wangara or Dyula, travelled south in search of gold and kola nuts, the stimulant prized across the Muslim Sahel, and founded trading towns such as Begho on the forest edge. In the north, the Mole-Dagbani kingdoms took shape: Dagbon, with its capital eventually at Yendi, Mamprugu and Nanumba, all tracing their origins to the hero Naa Gbewaa. Historians date their foundation variously between the 11th and 15th centuries. They welcomed Muslim scholars and traders, and [Islam](/culture/islam) gradually spread at court. In the 16th and 17th centuries Mande horsemen under Ndewura Jakpa founded the kingdom of Gonja, whose town of Salaga became one of the great kola markets of West Africa. Between and beyond these kingdoms lived peoples such as the Konkomba and Kassena, organised by lineage and clan rather than by kings.
+
+## The Akan states and the gold of the forest
+
+The Akan built their power on gold. Bonoman, centred on Bono Manso in the north of today's Bono region, emerged around the 11th or 12th century as a trading partner of the Mande merchants and is remembered as the source of many Akan institutions: the regalia of state umbrellas and swords, the stools that symbolise office, goldsmithing, the weights used to measure gold dust and kente weaving. Its gold travelled north to the markets of the [Mali Empire](/place/mali-empire) and across the Sahara.
+
+From the 15th century Akan-speaking peoples moved deeper into the forest, aided by new crops, and founded a cluster of states organised around matrilineal clans. Adansi, in the gold-rich valleys of the Pra and Ofin rivers, was the early heartland, and by the 17th century Denkyira, Akyem and Akwamu had become the dominant powers. Akwamu, which controlled the trade routes to the eastern coast, conquered the Ga kingdom around Accra in 1677. On the coast, the Fante states formed loose alliances and acted as middlemen between the forest and the European forts.
+
+## The Gold Coast forts and the slave trade
+
+Portuguese sailors reached the coast in 1471 and found gold so plentiful that they named it the Mina, the mine. In 1482 they built São Jorge da Mina, now Elmina Castle, the first European fortress in sub-Saharan Africa, and for over a century the [Portuguese Empire](/place/portuguese-empire) traded cloth, brass and other goods for Akan gold. The Portuguese also brought enslaved people from Benin and the Kongo coast to sell to Akan traders, who needed labour to clear forest and work the mines.
+
+Other Europeans soon followed. The Dutch of the [Dutch Republic](/place/dutch-republic) built forts from 1612, took Elmina in 1637 and expelled the Portuguese by 1642. English, Swedish, Danish and Brandenburg companies arrived in the mid-17th century. The Swedes built Carolusborg at Cape Coast, which the English took and made their headquarters as Cape Coast Castle; the Danes of [Denmark–Norway](/place/denmark-norway) built Christiansborg at Osu, in what became [Accra](/history-of/accra); and Brandenburg, later the [Kingdom of Prussia](/place/kingdom-of-prussia), held Gross Friedrichsburg from 1683 until 1717. More than thirty forts and castles were built along some 500 kilometres of shore, the densest concentration of European fortifications outside Europe. Europeans held them only by agreement with African rulers, who charged rent, and often by playing local politics.
+
+In the late 17th century the coast's economy turned around. Demand for labour on the plantations of the Americas soared, firearms flooded in, and the Gold Coast changed from a gold exporter and importer of slaves into one of the largest sources of captives for the Atlantic trade. Prisoners of war, people kidnapped in raids and tribute captives from the north were marched to the coast, sold by African rulers and merchants, and held in the dungeons of Elmina, Cape Coast and other castles before shipment. Hundreds of thousands left from this coast, many of them called Coromantee in the Caribbean, and many others died in wars, on the march or in captivity. Britain banned the trade for its subjects in 1807, and over the following decades the export trade dwindled, although slavery within the region persisted much longer.
+
+## The Asante Empire
+
+The Asante were an Akan people living around Kumasi under Denkyira overlordship. In the second half of the 17th century the chiefs Oti Akenten and Obiri Yeboa drew neighbouring Oyoko clan towns into an alliance. Their successor, Osei Tutu, who had spent time at the Akwamu court, worked with the priest Okomfo Anokye to forge a lasting union. Tradition holds that Anokye called down the Golden Stool from the sky, a sacred object believed to hold the soul of the Asante nation, so that loyalty to the Asantehene, the king at Kumasi, stood above loyalty to individual chiefs. In 1701 the coalition defeated Denkyira at the battle of Feyiase, and Asante became the leading power of the forest.
+
+Osei Tutu died fighting Akyem in 1717, but his successor Opoku Ware I, who reigned until 1750, brought Bono, Gonja and Dagbon under Asante control or tribute and extended Asante power over much of present-day Ghana and into [Ivory Coast](/country/ivory-coast). Kumasi became the centre of a network of great roads radiating to the coast and to the northern markets, through which flowed gold, kola, cloth, salt, guns and captives. The state developed a sophisticated bureaucracy, with treasury officials, messengers who carried the king's authority, Muslim scribes keeping records in Arabic and a council of chiefs. Conquered states kept their own rulers but paid tribute in gold, goods and people. Asante craftsmen produced cast-gold regalia, carved stools and kente cloth, and the court at Kumasi impressed European visitors with its ceremony and wealth.
+
+## Wars with Britain and colonial conquest
+
+Asante's push to control the coast brought it into conflict with the Fante and their British partners. Asante armies invaded the coast in 1807, 1811 and 1814, and in 1817 a treaty recognised Asante claims over much of the coast. When Britain took direct control of its forts in 1821, Governor Charles MacCarthy tried to rally the coastal peoples against Kumasi. In January 1824 an Asante army destroyed his force at Nsamankow and killed him. The British and their allies won a victory at Katamanso near Accra in 1826, and a treaty of 1831 set the Pra River as a border. Under the merchant George Maclean, who ran the British forts in the 1830s, British courts began hearing cases among coastal peoples, and in 1844 Fante chiefs signed the Bond of 1844, accepting British jurisdiction over serious crimes. Christian missions, notably the Basel Mission and the Methodists, built schools that created a literate coastal elite.
+
+Britain bought out the Danish forts in 1850 and the Dutch in 1872. The loss of Elmina, its trading partner, provoked Asante to invade the coast again in 1873. A British expedition under Garnet Wolseley marched on Kumasi in 1874, burned it and imposed a treaty, and on 24 July 1874 Britain proclaimed the Gold Coast Colony. Coastal leaders had already tried to organise their own government in the Fante Confederation of 1868 to 1873, which drew up a constitution in 1871 before Britain suppressed it. In 1896 a British force occupied Kumasi without a fight and exiled Asantehene Prempeh I, eventually to the Seychelles. When Governor Frederick Hodgson demanded in 1900 that the Golden Stool be handed over, Yaa Asantewaa, queen mother of Ejisu, led a rising that besieged the British fort in Kumasi for months. After its defeat Britain annexed Asante as a colony from 1902, and the Northern Territories, claimed against French and German rivals in the [Scramble for Africa](/event/scramble-for-africa), became a protectorate. The Golden Stool itself was hidden and never captured.
+
+## The colonial Gold Coast
+
+The colony was governed through chiefs under a system of indirect rule, with the governor holding real power and a Legislative Council dominated by officials. Its economy was transformed by cocoa. Tetteh Quarshie is credited with bringing cocoa seeds from Fernando Po in 1879, and African smallholders, not plantations, built an industry that made the Gold Coast the world's largest cocoa producer by the 1910s. Gold mines, timber and later manganese and bauxite added to exports. Governor Gordon Guggisberg, from 1919 to 1927, built the deep-water harbour at Takoradi, railways, hospitals and Achimota College. After the First World War the western part of German Togoland was placed under British administration and governed with the Gold Coast.
+
+Educated Africans challenged colonial rule early. The Aborigines' Rights Protection Society, formed in 1897, defeated a bill that threatened African land rights, and in 1920 J. E. Casely Hayford convened the National Congress of British West Africa. Cocoa farmers staged a hold-up of sales in 1937 and 1938 against the low prices paid by European firms. Tens of thousands of Gold Coast soldiers served in East Africa and Burma during the [Second World War](/event/world-war-ii) and returned to unemployment and rising prices.
+
+## Nkrumah, independence and the one-party state
+
+In 1947 lawyers and businessmen led by J. B. Danquah founded the United Gold Coast Convention and invited Kwame Nkrumah, back from studies in the United States and Britain and from the Pan-African Congress of 1945 in Manchester, to become its secretary. On 28 February 1948 police fired on a march of ex-servicemen in Accra, killing three, and riots spread to Kumasi and other towns. The British detained the convention's leaders, the "Big Six". Nkrumah broke away in 1949 to form the Convention People's Party, demanding "self-government now", and in 1950 launched a campaign of strikes and non-violent Positive Action, partly inspired by [Mahatma Gandhi](/person/mahatma-gandhi), which landed him in prison. His party won the 1951 election while he was still in jail, and he was released to lead the government, becoming prime minister in 1952.
+
+Elections in 1954 and 1956 confirmed the party's dominance, despite opposition from the Asante-based National Liberation Movement, which wanted a federal system, and in May 1956 the people of British Togoland voted 58 per cent to join the new state. On 6 March 1957 the Gold Coast became independent as Ghana, with [Elizabeth II](/person/elizabeth-ii) as head of state. [Martin Luther King Jr.](/person/martin-luther-king-jr) attended the ceremonies, and Ghana's independence became a landmark in the [decolonisation of Africa](/event/decolonisation-of-africa).
+
+Ghana became a republic in 1960 with Nkrumah as president. Flush with cocoa revenues, his government expanded schools and health care, built the port and new town of Tema, and completed the Akosombo Dam on the Volta in 1965, creating one of the world's largest artificial lakes. Abroad, Nkrumah championed Pan-Africanism, hosted the All-African People's Conference in 1958, formed a short-lived union with [Guinea](/country/guinea) and Mali and helped found the Organisation of African Unity in 1963. He set out his ideas in books such as Consciencism, part of the wider tradition of [African philosophy](/philosophy/african-philosophy), and in the [Cold War](/event/cold-war) leaned increasingly towards the [Soviet Union](/place/soviet-union) and China.
+
+At home his rule grew authoritarian. The Preventive Detention Act of 1958 allowed opponents to be jailed without trial, Danquah died in detention in 1965, and in 1964 Ghana became a one-party state. Falling cocoa prices, costly state enterprises and corruption left the country deeply in debt. On 24 February 1966, while Nkrumah was travelling to Hanoi via Beijing, army and police officers overthrew him. He lived in exile in Guinea, where Sékou Touré named him co-president, and died in Bucharest in 1972.
+
+## Coups and military rule, 1966 to 1992
+
+The National Liberation Council handed power to an elected government under Kofi Busia in 1969, but economic crisis and a currency devaluation brought another coup in January 1972 by Colonel Ignatius Acheampong. His regime was marked by corruption and inflation, and in 1978 fellow officers replaced him with Frederick Akuffo. In June 1979 junior officers led by Flight Lieutenant Jerry Rawlings seized power, executed eight senior officers including three former heads of state, Acheampong, Akuffo and Akwasi Afrifa, and then allowed elected President Hilla Limann to take office. On 31 December 1981 Rawlings took power again, ruling through the Provisional National Defence Council. Early years of revolutionary tribunals, abuses and economic collapse, worsened by drought, bush fires and the expulsion of about a million Ghanaians from [Nigeria](/country/nigeria) in 1983, gave way to an IMF-backed recovery programme that restored growth.
+
+## The Fourth Republic
+
+Under domestic and international pressure, Rawlings accepted a new constitution, approved by referendum in 1992. He won elections in 1992 and 1996 as leader of the National Democratic Congress, and in 2000 power passed peacefully to John Kufuor of the opposition New Patriotic Party. Since then the presidency has alternated between the two parties: John Atta Mills won in 2008 and died in office in 2012, when he was succeeded by John Mahama, and Nana Akufo-Addo, son of a leader of the independence era, served from 2017 to 2025. Offshore oil, discovered in 2007, began flowing in 2010, adding to gold and cocoa. In 2022 soaring debt and inflation plunged Ghana into its worst economic crisis in decades, and it turned to the International Monetary Fund for support. Mahama won the December 2024 election by a wide margin and returned to office in January 2025, while the Asantehene, Osei Tutu II, continues to reign in Kumasi as a traditional ruler within the republic.

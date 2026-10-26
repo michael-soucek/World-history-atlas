@@ -232,6 +232,21 @@ export const PEOPLE_CROSSWALK: Record<string, CrosswalkEntry & { entityType: Ent
   "tipu-sultan": { wikidataId: "Q10088", slug: "tipu-sultan", entityType: "person", name: "Tipu Sultan" },
   "ulysses-s-grant": { wikidataId: "Q34836", slug: "ulysses-s-grant", entityType: "person", name: "Ulysses S. Grant" },
   "woodrow-wilson": { wikidataId: "Q34296", slug: "woodrow-wilson", entityType: "person", name: "Woodrow Wilson" },
+  "chiang-kai-shek": { wikidataId: "Q16574", slug: "chiang-kai-shek", entityType: "person", name: "Chiang Kai-shek" },
+  "deng-xiaoping": { wikidataId: "Q16977", slug: "deng-xiaoping", entityType: "person", name: "Deng Xiaoping" },
+  "emperor-taizong-of-tang": { wikidataId: "Q9701", slug: "emperor-taizong-of-tang", entityType: "person", name: "Emperor Taizong of Tang" },
+  "emperor-wu-of-han": { wikidataId: "Q7225", slug: "emperor-wu-of-han", entityType: "person", name: "Emperor Wu of Han" },
+  "hirohito": { wikidataId: "Q34479", slug: "hirohito", entityType: "person", name: "Hirohito" },
+  "hongwu-emperor": { wikidataId: "Q9957", slug: "hongwu-emperor", entityType: "person", name: "Hongwu Emperor" },
+  "kim-il-sung": { wikidataId: "Q41117", slug: "kim-il-sung", entityType: "person", name: "Kim Il Sung" },
+  "oda-nobunaga": { wikidataId: "Q171411", slug: "oda-nobunaga", entityType: "person", name: "Oda Nobunaga" },
+  "pol-pot": { wikidataId: "Q39464", slug: "pol-pot", entityType: "person", name: "Pol Pot" },
+  "qianlong-emperor": { wikidataId: "Q19133", slug: "qianlong-emperor", entityType: "person", name: "Qianlong Emperor" },
+  "sejong-the-great": { wikidataId: "Q37682", slug: "sejong-the-great", entityType: "person", name: "Sejong the Great" },
+  "selim-i": { wikidataId: "Q494660", slug: "selim-i", entityType: "person", name: "Selim I" },
+  "toyotomi-hideyoshi": { wikidataId: "Q187550", slug: "toyotomi-hideyoshi", entityType: "person", name: "Toyotomi Hideyoshi" },
+  "yi-sun-sin": { wikidataId: "Q50184", slug: "yi-sun-sin", entityType: "person", name: "Yi Sun-sin" },
+  "yongle-emperor": { wikidataId: "Q9965", slug: "yongle-emperor", entityType: "person", name: "Yongle Emperor" },
 };
 
 /** Crosswalk for historical events. */
