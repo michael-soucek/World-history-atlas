@@ -6,6 +6,7 @@ import { CROSSWALK } from "@/data/crosswalk";
 import { PEOPLE_CROSSWALK, EVENTS_CROSSWALK, CULTURES_CROSSWALK } from "@/data/entityCrosswalk";
 import { readableNameFromSlug } from "@/lib/entityResolver";
 import type { ArticleKind } from "@/lib/ourArticles";
+import { PHILOSOPHER_SLUGS } from "@/data/philosophy";
 
 /**
  * Which of the site's own articles link to a page: "mentioned in" lists on
@@ -71,6 +72,6 @@ export function backlinksTo(path: string): Backlink[] {
 /** Philosophers whose own era (their first era link) is this page, oldest first. */
 export function philosophersOf(eraPath: string): Backlink[] {
   return backlinksTo(eraPath)
-    .filter((b) => b.kind === "person" && b.era === eraPath)
+    .filter((b) => b.kind === "person" && b.era === eraPath && PHILOSOPHER_SLUGS.has(b.slug))
     .sort((a, b) => (a.born ?? 9999) - (b.born ?? 9999));
 }

@@ -1,0 +1,86 @@
+---
+name: Fiji
+wikidata: Q712
+timeline:
+  - ~-1000: Lapita seafarers, ancestors of the Polynesians, settle the Fiji islands and make their distinctive stamped pottery.
+  - 1643: Abel Tasman sights Vanua Levu and the northern islands, the first recorded European visit.
+  - 1835: Methodist missionaries William Cross and David Cargill land at Lakeba in the Lau group.
+  - 1854: Cakobau, the most powerful chief in Fiji, converts to Christianity.
+  - 1871: Cakobau is proclaimed king of a settler-backed Kingdom of Fiji with its capital at Levuka.
+  - 1874: Cakobau and the leading chiefs sign the Deed of Cession, making Fiji a British colony on 10 October.
+  - 1875: Measles brought from Sydney kills about a third of the iTaukei population.
+  - 1879: The Leonidas brings the first indentured labourers from India to work on the sugar plantations.
+  - 1916: Recruitment of indentured Indian labour ends after some 60,000 people have arrived.
+  - 1970: Fiji becomes independent on 10 October, with Ratu Sir Kamisese Mara as prime minister.
+  - 1987: Lieutenant Colonel Sitiveni Rabuka overthrows the elected government in two coups and declares a republic.
+  - 2000: Gunmen led by George Speight hold Prime Minister Mahendra Chaudhry and his government hostage in parliament.
+  - 2006: Commodore Frank Bainimarama seizes power in a military coup.
+  - 2014: The first election under the 2013 constitution returns Bainimarama as prime minister.
+  - 2022: Rabuka becomes prime minister of a coalition government after FijiFirst loses its majority.
+  - 2023: The Great Council of Chiefs, suspended since 2007, is restored.
+sources:
+  - Wikipedia: History of Fiji | https://en.wikipedia.org/wiki/History_of_Fiji
+  - Wikipedia: Fiji | https://en.wikipedia.org/wiki/Fiji
+  - Wikipedia: Lapita culture | https://en.wikipedia.org/wiki/Lapita_culture
+  - Wikipedia: Great Council of Chiefs | https://en.wikipedia.org/wiki/Great_Council_of_Chiefs
+  - Wikipedia: Frank Bainimarama | https://en.wikipedia.org/wiki/Frank_Bainimarama
+  - Wikipedia: Sitiveni Rabuka | https://en.wikipedia.org/wiki/Sitiveni_Rabuka
+  - Wikipedia: 2022 Fijian general election | https://en.wikipedia.org/wiki/2022_Fijian_general_election
+  - Wikipedia: 2026 Fijian general election | https://en.wikipedia.org/wiki/2026_Fijian_general_election
+written: 2026-10-25
+---
+Fiji's islands were settled about three thousand years ago by Lapita voyagers, whose descendants, joined by later arrivals from Melanesia and shaped by contact with Tonga and Samoa, became the iTaukei, the indigenous Fijians. By the nineteenth century the islands were divided among rival chiefly confederacies, and the arrival of traders, muskets, missionaries and planters drew them into wars that ended with the chief Cakobau ceding Fiji to Britain in 1874. The colonial government protected iTaukei land but brought tens of thousands of indentured labourers from India to grow sugar, creating a society divided between two communities of similar size. Since independence in 1970 that division, and the question of who should govern, has driven four coups, and Fiji has alternated between military-led and elected governments up to the present.
+
+## Lapita settlers and the first Fijians
+
+The first people to reach Fiji belonged to the Lapita culture, Austronesian-speaking seafarers who had spread east from the Bismarck Archipelago off New Guinea through the Solomon Islands, Vanuatu and New Caledonia. Their finely stamped pottery appears in Fiji around 1000 BCE, at sites such as Bourewa on the south-west coast of Viti Levu, and a complete skeleton of a Lapita woman, the "Mana" burial, was found on the island of Moturiki and dates to about 800 BCE or earlier. From Fiji, Lapita people or their descendants moved on to [Tonga](/country/tonga) and [Samoa](/country/samoa), where Polynesian culture took shape, using the voyaging skills described in [Polynesian navigation](/culture/polynesian-navigation).
+
+Around the beginning of the Common Era, new influences from the west reached Fiji, bringing a large share of Melanesian ancestry and new styles of pottery and settlement. Over the following centuries a distinct Fijian culture developed: villages of thatched bure houses, many of them ringed by earthworks, moats and hilltop forts as warfare intensified; taro and yam gardens and pig husbandry; and great double-hulled sailing canoes, the drua, which were among the largest vessels in the Pacific. Whale teeth, tabua, carried great ceremonial value, and the drinking of yaqona, or kava, was central to ritual and chiefly life. Bark cloth, masi, was made for clothing, sails and ceremony.
+
+Fiji was never isolated. From around the tenth century the Tu'i Tonga, the paramount line of Tonga, drew parts of eastern Fiji into its orbit, and the Lau islands absorbed many Tongan words and customs. Fijian canoe-builders supplied Tongan chiefs with drua, and Fijian pottery has been found as far away as Samoa and the Marquesas. Society was organised into kin groups, the mataqali and yavusa, under hereditary chiefs, with priests who served the ancestral gods. By the early nineteenth century, power was concentrated in a few large confederacies, among them Bau and Rewa in south-east Viti Levu and Cakaudrove on Vanua Levu.
+
+European writers later made Fiji notorious as the "Cannibal Isles". Ritual eating of slain enemies did occur in some contexts, but missionaries and colonists exaggerated it into a general picture of savagery that served to justify conversion and colonial control, and historians now treat many of the more lurid nineteenth-century accounts with caution.
+
+## Traders, missionaries and the rise of Bau
+
+The Dutch navigator Abel Tasman sighted Vanua Levu and the northern islands in 1643, and [James Cook](/explorer/james-cook) touched at Vatoa in the southern Lau group in 1774. William Bligh, cast adrift after the mutiny on the Bounty, sailed through the islands in 1789, and the strait between the two main islands still bears his name. Sustained contact began after sandalwood was found on Vanua Levu in 1804, starting a short rush that exhausted the trees within a decade. From the 1820s traders came for bêche-de-mer, sea cucumbers dried for the Chinese market, and paid Fijian workers in muskets and powder. Beachcombers settled with chiefs who valued their firearms, and Levuka on Ovalau grew into the first European town.
+
+Firearms sharpened the wars between the confederacies. Bau, a tiny island off Viti Levu, rose under the warlord Ratu Tanoa Visawaqa and his son Seru Epenisa Cakobau, who by the 1840s was the most powerful chief in Fiji and claimed the title Tui Viti, king of Fiji, though other chiefs regarded him at most as first among equals. Wesleyan Methodist missionaries arrived from Tonga in 1835, landing at Lakeba, and Christianity spread slowly, first in the east. In 1848 the Tongan prince Enele Ma'afu settled in Lau and built a powerful Christian Tongan base there, backed by King George Tupou I of Tonga.
+
+Cakobau resisted the new faith for years, and his power began to slip as rival chiefs defected and American naval officers pressed him for compensation over damage to the property of the United States consul, John Brown Williams. In 1854 he accepted Christianity, and in 1855 Tongan forces helped him defeat his remaining enemies at the battle of Kaba. Conversion brought deep cultural change: temples were pulled down, and converts adopted new dress and customs under the guidance of the missionaries, a process Fijians called the lotu. Elsewhere, outsiders imposed themselves by force; in 1840 an American naval expedition under Charles Wilkes attacked Malolo island and burned a fortified village, killing between about 57 and 87 people in reprisal for the deaths of two officers.
+
+## Cotton, slavery and the Kingdom of Fiji
+
+Burdened by the American claims, Cakobau offered to cede Fiji to Britain in 1858, but London declined in 1862. The [American Civil War](/event/american-civil-war) then drove up the price of cotton, and hundreds of planters, most of them British subjects from [Australia](/country/australia), arrived in the 1860s to acquire land, often by dubious or violent means. They needed labour, and from 1865 ships began bringing Pacific Islanders, chiefly from what are now [Vanuatu](/country/vanuatu) and the [Solomon Islands](/country/solomon-islands), in the trade known as blackbirding. Many were recruited through deception or kidnapping; on the brig Carl in 1871 the crew shot dozens of captives. Around 45,000 Islanders were taken to Fiji before the trade ended in 1911, and perhaps a quarter of them died during their contracts. Fijians defeated in war were also sold to planters, among them some two thousand Lovoni people of Ovalau in 1871.
+
+In 1871 a group of settlers and chiefs set up the Kingdom of Fiji at Levuka, with Cakobau as king and a cabinet of Europeans. Many settlers refused to accept a government headed by a Fijian, and the kingdom was soon in debt. It also waged war on the Kai Colo, the unconverted hill peoples of interior Viti Levu who resisted the advance of plantations; in 1873 government troops and auxiliaries crushed them, killing many and selling hundreds of prisoners into plantation labour. Unable to govern or pay its way, Cakobau's government offered the islands to Britain again, and this time Benjamin Disraeli's government accepted.
+
+## The British colony
+
+On 10 October 1874 Cakobau, Ma'afu and the senior chiefs signed the Deed of Cession at Levuka, and Fiji became a crown colony of [Queen Victoria](/person/queen-victoria) within the [British Empire](/place/british-empire). Months later, Cakobau and his sons returned from a visit to Sydney carrying measles; the ship was not quarantined, and in 1875 the epidemic killed about 40,000 people, roughly a third of the iTaukei population. When the disease reached the interior, highland groups rose against colonial rule, and in 1876 the first governor, Sir Arthur Gordon, suppressed them in what he called the "Little War", burning villages and executing dozens of rebels.
+
+Gordon then built the system that shaped Fiji for a century. He governed iTaukei communities indirectly through their chiefs, created a Great Council of Chiefs in 1876, and made most land inalienable, held communally by the mataqali and closed to sale. Today more than 80 per cent of the land remains under customary ownership. To spare Fijians from plantation labour, and to supply the planters, he turned to [India](/country/india). On 14 May 1879 the Leonidas landed the first 463 indentured labourers, and by the time recruitment ended in 1916 about 60,500 people had arrived, mostly from northern India through [Kolkata](/history-of/kolkata) and later also from the south through [Chennai](/history-of/chennai). They worked five-year contracts, the girmit, in harsh conditions on cane fields owned largely by the Colonial Sugar Refining Company of Sydney, which dominated the sugar industry from 1880 to 1973. Campaigns in India, in which [Mahatma Gandhi](/person/mahatma-gandhi) and the missionary C. F. Andrews took part, helped bring the system to an end, and the last contracts were cancelled in 1920.
+
+Most of the girmitiyas stayed. Their descendants, the Indo-Fijians, Hindu, Muslim and Christian, became cane farmers on land leased from iTaukei owners, shopkeepers, clerks and professionals, and by the 1940s they outnumbered the iTaukei. The colonial government moved the capital from Levuka to Suva in 1882. Resistance to colonial authority continued in other forms, including the Tuka movements that called for a return to the old gods and the Viti Kabani cooperative founded in 1914 by Apolosi Nawai, whom the British jailed and exiled repeatedly until his death in 1946.
+
+## World wars and the road to independence
+
+Fijians were barred from enlisting in [World War I](/event/world-war-i), though a few served abroad; Ratu Lala Sukuna, a great-grandson of Cakobau, joined the French Foreign Legion and won the Croix de Guerre. Returning with an Oxford degree, Sukuna became the dominant iTaukei leader of the colonial era and the architect of the Native Land Trust Board created in 1940 to manage customary land. In [World War II](/event/world-war-ii) thousands of iTaukei volunteered, and the Fiji Infantry Regiment fought the forces of the [Empire of Japan](/place/empire-of-japan) in the Solomon Islands, where Corporal Sefanaia Sukanaivalu won a posthumous Victoria Cross on Bougainville. Allied forces built an airfield at Nadi, later the international airport. Most Indo-Fijians declined to enlist after their demand for pay equal to Europeans was refused, a decision later used by nationalists against them.
+
+After the war Britain moved Fiji towards self-government. The Legislative Council was expanded along communal lines, with separate seats for iTaukei, Indo-Fijians and Europeans, and in 1963 all adults gained the vote. Indo-Fijian leaders, led by A. D. Patel of the National Federation Party, demanded a common voters' roll; iTaukei chiefs, fearing the loss of their land and political control, insisted on communal representation. A compromise reached in London in 1970 produced a parliament with an appointed Senate dominated by chiefs and an elected House balanced between the communities, and Fiji became independent on 10 October 1970, the anniversary of cession, as a dominion with [Elizabeth II](/person/elizabeth-ii) as queen.
+
+## Independence and the coups of 1987
+
+For seventeen years Ratu Sir Kamisese Mara and his Alliance Party governed, supported by most iTaukei and by European and some Indian voters, and Fijian soldiers joined United Nations peacekeeping in [Lebanon](/country/lebanon). In April 1987 a coalition led by Timoci Bavadra, an iTaukei doctor whose government drew most of its support from Indo-Fijians, won the election. On 14 May 1987 Lieutenant Colonel Sitiveni Rabuka seized parliament and deposed it, the first coup in the South Pacific. When the governor-general sought a compromise, Rabuka staged a second coup on 25 September, abolished the monarchy and proclaimed a republic in October. Fiji's membership of the Commonwealth lapsed.
+
+A new constitution in 1990 reserved a majority of seats and the main offices of state for iTaukei, and Rabuka, now a civilian, became prime minister in 1992. The coups drove many Indo-Fijians to emigrate, and by 1989 iTaukei were again the majority. Under international and domestic pressure Rabuka agreed to a more inclusive constitution in 1997, Fiji rejoined the Commonwealth, and in 1999 the Labour Party leader Mahendra Chaudhry became the first Indo-Fijian prime minister.
+
+## Coups of 2000 and 2006
+
+On 19 May 2000 armed men led by the businessman George Speight stormed parliament and held Chaudhry and much of his government hostage for eight weeks in the name of iTaukei supremacy. The military commander, Commodore Frank Bainimarama, took control, negotiated an end to the siege and later had Speight arrested; he was convicted of treason. Laisenia Qarase led an interim government and then won the 2001 and 2006 elections. When Qarase's government proposed a reconciliation bill that could have granted amnesty to people involved in the 2000 coup, Bainimarama objected, and in December 2006 he seized power, saying he was ending corruption and racial politics.
+
+In 2009, after the Court of Appeal ruled the military government unlawful, President Josefa Iloilo abrogated the constitution, dismissed the judiciary and reappointed Bainimarama, who ruled by decree with censorship of the press. Fiji was suspended from the Commonwealth and the Pacific Islands Forum. The regime abolished the Great Council of Chiefs in 2012, adopted the name iTaukei for indigenous Fijians and made "Fijian" the common name for all citizens, and imposed a new constitution in 2013 that ended communal voting rolls but gave immunity to those involved in the coups. Bainimarama's FijiFirst party won the 2014 election, which international observers judged credible, and won again narrowly in 2018, and Fiji was restored to the Commonwealth in 2014.
+
+## Fiji since 2022
+
+The election of December 2022 left FijiFirst the largest party but without a majority, and Sitiveni Rabuka, the leader of the 1987 coups, became prime minister at the head of a coalition of his People's Alliance, the National Federation Party and SODELPA. The new government restored the Great Council of Chiefs in May 2023, and in 2024 Rabuka offered King Charles III a formal apology for the 1987 coup that had ended the monarchy. Bainimarama left parliament in 2023, was convicted in 2024 of attempting to pervert the course of justice and served part of a one-year prison sentence, and FijiFirst was deregistered in July 2024 after a split among its members of parliament. In February 2026 Bainimarama was charged with inciting mutiny. The government set up a constitutional review commission in March 2026 whose proposals, published later in the year, included removing the immunity granted to past coup leaders, and a general election is due by early 2027. Fiji, with a population of close to 900,000, remains one of the leading states of the Pacific Islands, its politics still shaped by the legacies of cession, indenture and the coups.
