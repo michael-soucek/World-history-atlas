@@ -24,4 +24,4 @@ Japan occupied Indochina during the Second World War. On 2 September 1945 [Ho Ch
 
 ## Capital of a united Vietnam
 
-After the war ended in 1975, Hanoi became the capital of the reunified Socialist Republic of [Vietnam](/country/vietnam) in 1976. The market reforms known as Đổi Mới, launched in 1986, opened the city to foreign investment and rapid building. In 2008 its boundaries were greatly enlarged, and Hanoi now has more than 8 million people and serves as the country's political capital.
+The war ended in 1975, and when the country was formally reunified the following year as the Socialist Republic of [Vietnam](/country/vietnam), Hanoi was its capital. The market reforms known as Đổi Mới, launched in 1986, opened the city to foreign investment and rapid building. In 2008 its boundaries were greatly enlarged, and Hanoi now has more than 8 million people and serves as the country's political capital.
