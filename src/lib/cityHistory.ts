@@ -8,6 +8,7 @@
  */
 import CITIES from "@/data/cities.json";
 import RULERS from "@/data/cityRulers.json";
+import { CITY_RULER_FIXES } from "@/data/cityRulerFixes";
 import { resolveFeature } from "@/data/crosswalk";
 import { SNAPSHOT_YEARS } from "@/data/snapshotYears";
 
@@ -47,9 +48,34 @@ export function getCity(slug: string): City | undefined {
  * is itself part of the story.
  */
 export function rulersOf(slug: string): RulerSpan[] {
-  const spans = ((RULERS as Record<string, RulerSpan[]>)[slug] ?? []).flatMap(withLinks);
+  const spans = applyFixes((RULERS as Record<string, RulerSpan[]>)[slug] ?? [], slug).flatMap(withLinks);
   const first = spans.findIndex((s) => s.name);
   return first === -1 ? [] : spans.slice(first);
+}
+
+/** The generated spans with src/data/cityRulerFixes.ts applied, neighbours with the same ruler merged. */
+function applyFixes(raw: RulerSpan[], slug: string): RulerSpan[] {
+  const fixes = CITY_RULER_FIXES[slug];
+  if (!fixes) return raw;
+  const end = (t: number | null) => t ?? Infinity;
+  let spans = raw.map((s) => ({ ...s }));
+  for (const f of fixes) {
+    const cut: RulerSpan[] = [];
+    for (const s of spans) {
+      if (end(s.to) <= f.from || s.from >= end(f.to)) { cut.push(s); continue; }
+      if (s.from < f.from) cut.push({ ...s, to: f.from });
+      if (end(s.to) > end(f.to)) cut.push({ ...s, from: f.to! });
+    }
+    cut.push({ from: f.from, to: f.to, name: f.name, sovereign: f.sovereign ?? null });
+    spans = cut.sort((a, b) => a.from - b.from);
+  }
+  const merged: RulerSpan[] = [];
+  for (const s of spans) {
+    const last = merged.at(-1);
+    if (last && last.name === s.name && last.sovereign === s.sovereign) last.to = s.to;
+    else merged.push(s);
+  }
+  return merged;
 }
 
 /**
