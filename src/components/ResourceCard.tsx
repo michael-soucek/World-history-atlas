@@ -45,25 +45,27 @@ export default function ResourceCard({ resource }: { resource: Resource }) {
       {resource.creator && <p className="text-ink/40 text-xs mt-0.5">{resource.creator}</p>}
       <p className="text-ink/50 text-xs leading-relaxed mt-2">{resource.blurb}</p>
       {main && (
-        <div className="mt-3 flex flex-wrap items-center gap-x-4 gap-y-2">
+        <div className="mt-3 flex flex-wrap items-center gap-x-3 gap-y-2">
           <a
             href={main.url}
             target="_blank"
             rel={rel}
             className="inline-flex items-center h-8 px-3 rounded-md bg-ink text-parchment text-xs font-semibold hover:bg-accent transition-colors"
           >
-            {main.label}
+            Buy on {main.label}
           </a>
           {others.map((l) => (
-            <a
-              key={l.label}
-              href={l.url}
-              target="_blank"
-              rel={rel}
-              className="text-xs text-ink/55 underline underline-offset-2 decoration-ink/20 hover:text-accent transition-colors"
-            >
-              {l.label}
-            </a>
+            <span key={l.label} className="text-xs text-ink/45">
+              or{" "}
+              <a
+                href={l.url}
+                target="_blank"
+                rel={rel}
+                className="text-ink/55 underline underline-offset-2 decoration-ink/20 hover:text-accent transition-colors"
+              >
+                {l.label}
+              </a>
+            </span>
           ))}
         </div>
       )}
