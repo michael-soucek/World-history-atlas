@@ -5,7 +5,7 @@ sources:
   - Wikipedia: Kyoto | https://en.wikipedia.org/wiki/Kyoto
   - Wikipedia: Heian-kyō | https://en.wikipedia.org/wiki/Heian-ky%C5%8D
 ---
-Kyoto lies in a basin in western Honshu, enclosed by wooded mountains on three sides and drained by the Kamo and Katsura rivers. It was laid out in 794 as a new capital for the emperors of Japan, and it remained the seat of the imperial court for more than a thousand years, until 1869. Even when real power lay with warrior governments elsewhere, Kyoto was the centre of court ritual, Buddhism, fine crafts and the arts, and it still holds a greater concentration of historic temples, shrines and gardens than any other Japanese city.
+Kyoto lies in a basin in western Honshu, enclosed by wooded mountains on three sides and drained by the Kamo and Katsura rivers. It was laid out in 794 as a new capital for the emperors of Japan, and the emperors kept their court there for over a thousand years, until 1869. Even when real power lay with warrior governments elsewhere, Kyoto was the centre of court ritual, Buddhism, fine crafts and the arts, and it still holds a greater concentration of historic temples, shrines and gardens than any other Japanese city.
 
 ## The Heian capital
 

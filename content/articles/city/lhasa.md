@@ -17,7 +17,7 @@ Lhasa's religious importance revived in the early 15th century with the reformer
 
 In 1642 the 5th Dalai Lama, backed by the army of the Mongol ruler Güshi Khan, became the political as well as spiritual leader of [Tibet](/place/tibet) and made Lhasa his capital. From 1645 he rebuilt the Potala as a vast palace and government centre, which was completed with the Red Palace in the 1690s. Lhasa became a meeting place for traders from Nepal, Kashmir, Mongolia, China and India. In 1720 the armies of the [Qing dynasty](/place/qing-dynasty) entered the city, and from then on the Qing stationed imperial representatives, the ambans, and a garrison there, though the extent of their real authority varied over time.
 
-In August 1904 a British expedition under Francis Younghusband fought its way to Lhasa and forced a treaty on Tibetan officials, after the 13th Dalai Lama had fled. Following the fall of the Qing in 1911 to 1912, Tibetans expelled the Chinese garrison, and the 13th Dalai Lama returned to rule Tibet as a state that operated independently until 1950. The Republic of China continued to claim Tibet as part of its territory, and Tibetan independence won little formal international recognition.
+In August 1904 a British expedition under Francis Younghusband fought its way to Lhasa and imposed a treaty on the officials left in charge, the 13th Dalai Lama having already escaped north. Following the fall of the Qing in 1911 to 1912, Tibetans expelled the Chinese garrison, and the 13th Dalai Lama returned to rule Tibet as a state that operated independently until 1950. The Republic of China continued to claim Tibet as part of its territory, and Tibetan independence won little formal international recognition.
 
 ## Since 1950
 

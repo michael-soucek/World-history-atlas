@@ -15,7 +15,7 @@ Farming villages existed in the Quito basin thousands of years ago, and tombs at
 
 After Francisco Pizarro captured Atahualpa at Cajamarca in 1532, the Inca general Rumiñahui fought on in the north and, according to Spanish accounts, burned Quito rather than let it fall intact. The conqueror Sebastián de Benalcázar founded the Spanish city of San Francisco de Quito on its present site on 6 December 1534, and Rumiñahui was captured and executed. The Spanish laid out a grid of streets on the ruins and over the following two centuries built some twenty churches and convents, among them San Francisco, begun in 1535, and the Jesuit church of La Compañía, covered inside with gilded carving. Indigenous and mestizo artists of the Quito School produced paintings and sculpture that were sent throughout the Spanish empire.
 
-In 1563 Quito became the seat of a royal audiencia, a high court and government for a territory roughly matching modern Ecuador. It belonged first to the [Viceroyalty of Peru](/place/viceroyalty-of-peru) and from the eighteenth century to the [Viceroyalty of New Granada](/place/viceroyalty-of-new-granada). Earthquakes struck the city repeatedly, and in 1765 its people rose against new royal taxes and briefly governed themselves.
+A royal audiencia was set up in Quito in 1563: a high court and government for a territory roughly matching modern Ecuador. It belonged first to the [Viceroyalty of Peru](/place/viceroyalty-of-peru) and from the eighteenth century to the [Viceroyalty of New Granada](/place/viceroyalty-of-new-granada). Earthquakes struck the city repeatedly, and in 1765 its people rose against new royal taxes and briefly governed themselves.
 
 ## Independence and the republic
 

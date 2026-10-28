@@ -6,7 +6,7 @@ sources:
   - Wikipedia: Stone Town | https://en.wikipedia.org/wiki/Stone_Town
   - Wikipedia: Zanzibar City | https://en.wikipedia.org/wiki/Zanzibar_City
 ---
-Zanzibar City stands on the west coast of Unguja, the main island of the Zanzibar archipelago, about 35 kilometres off the coast of mainland Tanzania. Its sheltered harbour lies in the path of the monsoon winds, which for centuries carried ships between East Africa, Arabia and India on a yearly cycle. That trade made the town a meeting place of African, Arab, Persian and Indian peoples, and in the 19th century the capital of a commercial empire built on cloves, ivory and enslaved people. Its old quarter, Stone Town, still shows that layered past.
+Zanzibar City faces west from Unguja, the largest island in its archipelago, across a 35-kilometre channel from mainland Tanzania. Its sheltered harbour lies in the path of the monsoon winds, which for centuries carried ships between East Africa, Arabia and India on a yearly cycle. That trade made the town a meeting place of African, Arab, Persian and Indian peoples, and in the 19th century the capital of a commercial empire built on cloves, ivory and enslaved people. Its old quarter, Stone Town, still shows that layered past.
 
 ## Swahili and Omani Zanzibar
 
