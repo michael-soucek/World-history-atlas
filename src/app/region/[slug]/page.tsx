@@ -4,6 +4,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
+import PageHistory from "@/components/PageHistory";
 import PageIntro, { SectionRule } from "@/components/PageIntro";
 import Gazetteer, { LinkRow } from "@/components/Gazetteer";
 import { ReadAloudButton } from "@/components/ReadAloudButton";
@@ -240,6 +241,7 @@ export default async function RegionPage({ params }: Props) {
         />
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14 sm:py-20">
+          <PageHistory kind="region" slug={slug} name={region.label} heading={`A short history of ${region.label === "Middle East" ? "the Middle East" : region.label.replace(/^The /, "the ")}`} />
           <div className="mb-14"><ReadAloudButton text={region.description} /></div>
           <section>
             <SectionRule count={`${places.length} places`}>Empires &amp; states</SectionRule>

@@ -1,0 +1,15 @@
+---
+name: Prehistoric
+written: 2026-10-28
+sources:
+  - Wikipedia: Mesolithic | https://en.wikipedia.org/wiki/Mesolithic
+  - Wikipedia: Neolithic Revolution | https://en.wikipedia.org/wiki/Neolithic_Revolution
+  - Wikipedia: Cradle of civilization | https://en.wikipedia.org/wiki/Cradle_of_civilization
+---
+At the start of this age there is no political map at all. Nobody ruled territory in the sense a modern border implies: the world's few million people lived in mobile bands whose ranges overlapped and shifted with the seasons, the herds and the ice. Maps of the deep past therefore show something different from later ones. Instead of states, they mark ways of life and broad cultural zones, such as foragers of the steppe, the coasts or the tropical forest, or archaeological cultures named after a site or a style of pottery. Their edges are guesses drawn around scattered finds, and an empty or loosely shaded area means not that it was uninhabited but that its people left no organised polity behind.
+
+As the snapshots move from the end of the Ice Age towards 5000 BCE, the change to watch is the appearance of farming zones, the mark of the [Neolithic Revolution](/event/neolithic-revolution) on the map. They begin as small patches in the Fertile Crescent, along the Yellow and Yangtze rivers and in the New Guinea highlands, then widen. The farming frontier creeps from Anatolia across the Balkans into central Europe, and the zones of farmers and herders in the Nile valley and the Indus borderlands grow larger. Hunting and gathering territories shrink correspondingly, although they still cover most of the globe, including almost all of the Americas, Australia, northern Eurasia and southern Africa.
+
+The labels themselves also change character. Early names refer to vast generic regions; later ones refer to particular cultures with villages, cemeteries and recognisable crafts, such as the Ubaid culture of southern Mesopotamia, the Funnel Beaker farmers of northern Europe or the early Jōmon potters of Japan, who made some of the oldest pottery in the world without farming at all. The Austronesian peoples around Taiwan and the Bantu-speaking peoples of west-central Africa appear early, long before the great migrations that would carry their languages across oceans and half a continent.
+
+By the final snapshot, around 3000 BCE, the first shapes that resemble states have emerged in a narrow belt of river valleys. [Egypt](/place/early-dynastic-egypt) appears as a single kingdom along the Nile, the Sumerian [city-states](/culture/sumer) cluster in southern Iraq, Elam lies in south-western Iran, and Crete already carries the label of the [Minoan civilisation](/place/minoan-civilization), although its palaces were still about a thousand years in the future. Even these are small: at the close of prehistory, organised states covered a tiny fraction of the land surface, and the boundaries between them were zones of influence rather than lines. Everything that follows on the atlas grows outward from those few river valleys.

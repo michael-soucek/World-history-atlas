@@ -5,7 +5,7 @@ import { PEOPLE_CROSSWALK } from "@/data/entityCrosswalk";
 
 /**
  * The site's own articles, one Markdown file per page in
- * content/articles/{place|person|event|culture|explorer|country|philosophy}/{slug}.md:
+ * content/articles/{place|person|event|culture|explorer|country|philosophy|city|region|era|theme|timeline}/{slug}.md:
  *
  *   ---
  *   sources:
@@ -28,7 +28,7 @@ export interface OurArticle {
   timeline: { year: string; text: string }[];
 }
 
-export type ArticleKind = "place" | "person" | "event" | "culture" | "explorer" | "country" | "philosophy";
+export type ArticleKind = "place" | "person" | "event" | "culture" | "explorer" | "country" | "philosophy" | "city" | "region" | "era" | "theme" | "timeline";
 
 const DIR = join(process.cwd(), "content/articles");
 

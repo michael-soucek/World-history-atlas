@@ -5,6 +5,7 @@ import { notFound } from "next/navigation";
 import { Sword, Star, Ship, Shield, FlaskConical, Palette, Compass, Flag, type LucideIcon } from "lucide-react";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
+import PageHistory from "@/components/PageHistory";
 import PageIntro, { SectionRule } from "@/components/PageIntro";
 import Gazetteer, { LinkRow } from "@/components/Gazetteer";
 import { ReadAloudButton } from "@/components/ReadAloudButton";
@@ -244,6 +245,10 @@ export default async function ThemePage({ params }: Props) {
                 </Link>
               )}
             </aside>
+          </div>
+
+          <div className="mt-20 sm:mt-28">
+            <PageHistory kind="theme" slug={slug} name={theme.label} heading="A closer look" />
           </div>
 
           {explorers.length > 0 && (

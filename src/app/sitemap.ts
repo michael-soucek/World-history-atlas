@@ -8,10 +8,10 @@ import { EXPLORERS } from "@/data/voyages";
 import { TIMELAPSES } from "@/data/timelapses";
 import { PHILOSOPHY_ERAS } from "@/data/philosophy";
 import { COUNTRY_LIST } from "@/lib/countries";
-import { getOurArticle } from "@/lib/ourArticles";
+import { getOurArticle, type ArticleKind } from "@/lib/ourArticles";
 
 /** An article's "written" date, else the given fallback. */
-const writtenOn = (kind: "person" | "country" | "philosophy", slug: string, fallback: Date) => {
+const writtenOn = (kind: ArticleKind, slug: string, fallback: Date) => {
   const w = getOurArticle(kind, slug)?.written;
   return w ? new Date(w) : fallback;
 };
@@ -97,21 +97,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const eraRoutes: MetadataRoute.Sitemap = ERA_LIST.map(era => ({
     url: `${BASE}/era/${eraSlug(era.label)}`,
-    lastModified: now,
+    lastModified: writtenOn("era", eraSlug(era.label), now),
     changeFrequency: "yearly",
     priority: 0.6,
   }));
 
   const regionRoutes: MetadataRoute.Sitemap = REGION_SLUGS.map(s => ({
     url: `${BASE}/region/${s}`,
-    lastModified: now,
+    lastModified: writtenOn("region", s, now),
     changeFrequency: "yearly",
     priority: 0.6,
   }));
 
   const themeRoutes: MetadataRoute.Sitemap = THEME_SLUGS.map(s => ({
     url: `${BASE}/theme/${s}`,
-    lastModified: now,
+    lastModified: writtenOn("theme", s, now),
     changeFrequency: "yearly",
     priority: 0.6,
   }));
@@ -125,7 +125,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const cityRoutes: MetadataRoute.Sitemap = CITY_LIST.map(c => ({
     url: `${BASE}/history-of/${c.slug}`,
-    lastModified: now,
+    lastModified: writtenOn("city", c.slug, now),
     changeFrequency: "yearly",
     priority: 0.6,
   }));
@@ -139,7 +139,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const timelineRoutes: MetadataRoute.Sitemap = ERA_LIST.map(era => ({
     url: `${BASE}/timeline/${eraSlug(era.label)}`,
-    lastModified: now,
+    lastModified: writtenOn("timeline", eraSlug(era.label), now),
     changeFrequency: "yearly",
     priority: 0.6,
   }));

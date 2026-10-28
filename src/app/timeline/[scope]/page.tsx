@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
+import PageHistory from "@/components/PageHistory";
 import PageIntro from "@/components/PageIntro";
 import { LinkRow } from "@/components/Gazetteer";
 import { ERA_LIST, eraFromSlug, eraSlug } from "@/data/eras";
@@ -62,6 +63,7 @@ export default async function ScopedTimelinePage({ params }: Props) {
           aside={<p className="font-mono text-[12px] tracking-wide text-ink/50">{eraYears.length} map{eraYears.length !== 1 ? "s" : ""}</p>}
         />
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14 sm:py-20">
+          <PageHistory kind="timeline" slug={scope} name={era.label} heading="How the map changed" />
           {eraYears.length === 0 ? (
             <p className="text-ink/50">No maps in this period.</p>
           ) : (

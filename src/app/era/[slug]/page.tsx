@@ -4,6 +4,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
+import PageHistory from "@/components/PageHistory";
 import PageIntro, { SectionRule } from "@/components/PageIntro";
 import Gazetteer, { LinkRow } from "@/components/Gazetteer";
 import { TIMELINE_ILLUSTRATIONS } from "@/data/timelineIllustrations";
@@ -101,6 +102,7 @@ export default async function EraPage({ params }: Props) {
         />
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14 sm:py-20">
+          <PageHistory kind="era" slug={slug} name={era.label} heading={`The ${era.label.toLowerCase()} world`} />
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-8">
             {art && (
               <figure className="lg:col-span-5">
