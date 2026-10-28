@@ -68,12 +68,15 @@ export default function TermsPage() {
             <div className="rounded-md bg-accent-wash border border-accent/20 p-5">
               <p className="text-ink/70 text-sm leading-relaxed">
                 The book suggestions in the “Further reading” boxes link to{" "}
-                <strong>Bookshop.org</strong>, and we are a Bookshop.org affiliate: if you click
-                one and buy, we earn a commission at no extra cost to you, and Bookshop.org
-                shares its profits with independent bookshops. Other links may become affiliate
-                links in future and will be disclosed the same way. We only link to things we think are
-                genuinely good further reading, and a link being an affiliate link never changes
-                the map, timeline, or factual content the Service shows.
+                <strong>Amazon</strong> and <strong>Bookshop.org</strong>. As an Amazon Associate we
+                earn from qualifying purchases, and we are also a Bookshop.org affiliate, which shares
+                its profits with independent bookshops. The “Visit today” boxes on city and country
+                pages link to <strong>GetYourGuide</strong>, and we are a GetYourGuide partner. If you
+                click one of these links and buy or book, we may earn a commission at no extra cost to
+                you. Other links may become affiliate links in future and will be disclosed the same
+                way. We only link to things we think are genuinely good further reading or worth
+                visiting, and a link being an affiliate link never changes the map, timeline, or
+                factual content the Service shows.
               </p>
             </div>
           </section>

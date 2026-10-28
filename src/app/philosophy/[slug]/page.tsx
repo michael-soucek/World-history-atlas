@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import RelatedResources from "@/components/RelatedResources";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import SiteHeader from "@/components/SiteHeader";
@@ -94,6 +95,7 @@ export default async function PhilosophyEraPage({ params }: Props) {
                 </ol>
               </section>
             )}
+            <RelatedResources resourceKey={`philosophy:${slug}`} />
             {article.timeline.length > 0 && (
               <section aria-labelledby="key-dates" className="lg:sticky lg:top-24">
                 <h2 id="key-dates" className="label text-ink/45 mb-4">Key dates</h2>

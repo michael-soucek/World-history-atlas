@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import VisitBox from "@/components/VisitBox";
+import { canVisitCity } from "@/data/visit";
 import { getCanonicalNameByQid, lookupBySlug } from "@/data/crosswalk";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -131,6 +133,16 @@ export default async function CityHistoryPage({ params }: Props) {
           </section>
 
           <Connections city={city} connected={connected} tours={tours} />
+
+          {canVisitCity(city) && (
+            <div className="mt-20 sm:mt-28">
+              <VisitBox
+                place={city.name}
+                query={`${city.name}, ${city.country.replace(/ \(.*\)$/, "")}`}
+                what={`Walking tours, museum and monument tickets, and guided visits to the places where ${city.name}'s history happened.`}
+              />
+            </div>
+          )}
 
           <div className="mt-20 sm:mt-28 space-y-12">
             <LinkRow title="Nearby cities" links={nearbyCities(city).map((c) => ({ href: `/history-of/${c.slug}`, label: c.name }))} />

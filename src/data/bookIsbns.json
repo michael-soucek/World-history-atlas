@@ -869,5 +869,350 @@
   "isbn": "9780190208929",
   "openLibrary": "https://openlibrary.org/works/OL18941543W",
   "firstPublished": 2016
+ },
+ "dream-of-reason": {
+  "isbn": "9780393323658",
+  "openLibrary": "https://openlibrary.org/works/OL61219W",
+  "firstPublished": 2000
+ },
+ "dream-of-enlightenment": {
+  "isbn": "9781631492969",
+  "openLibrary": "https://openlibrary.org/works/OL17831434W",
+  "firstPublished": 2016
+ },
+ "meditations-aurelius": {
+  "isbn": "9780812968255",
+  "openLibrary": "https://openlibrary.org/works/OL1317211W"
+ },
+ "hellenistic-philosophy-long": {
+  "isbn": "9780520058071",
+  "openLibrary": "https://openlibrary.org/works/OL2959444W",
+  "firstPublished": 1974
+ },
+ "confessions-augustine": {
+  "isbn": "9780140441147",
+  "openLibrary": "https://openlibrary.org/works/OL137872W"
+ },
+ "medieval-philosophy-kenny": {
+  "isbn": "9780198752745",
+  "openLibrary": "https://openlibrary.org/works/OL7999297W",
+  "firstPublished": 2005
+ },
+ "islamic-world-adamson": {
+  "isbn": "9780198818618",
+  "openLibrary": "https://openlibrary.org/works/OL20597637W",
+  "firstPublished": 2016
+ },
+ "muqaddimah": {
+  "isbn": "9780691166285",
+  "openLibrary": "https://openlibrary.org/works/OL1597257W"
+ },
+ "indian-philosophy-hamilton": {
+  "isbn": "9780192853745",
+  "openLibrary": "https://openlibrary.org/works/OL6221459W",
+  "firstPublished": 2001
+ },
+ "bhagavad-gita-easwaran": {
+  "isbn": "9781590301906",
+  "openLibrary": "https://openlibrary.org/works/OL518386W",
+  "firstPublished": 2004
+ },
+ "the-path-puett": {
+  "isbn": "9780241970423",
+  "openLibrary": "https://openlibrary.org/works/OL21125110W",
+  "firstPublished": 2016
+ },
+ "tao-te-ching": {
+  "isbn": "9780060955434",
+  "openLibrary": "https://openlibrary.org/works/OL4301674W",
+  "firstPublished": 1991
+ },
+ "the-prince": {
+  "isbn": "9780140449150",
+  "openLibrary": "https://openlibrary.org/works/OL1089297W"
+ },
+ "how-to-live-bakewell": {
+  "isbn": "9781590514832",
+  "openLibrary": "https://openlibrary.org/works/OL25463670W",
+  "firstPublished": 2011
+ },
+ "meditations-descartes": {
+  "isbn": "9781554811526",
+  "openLibrary": "https://openlibrary.org/works/OL27223666W",
+  "firstPublished": 2013
+ },
+ "communist-manifesto": {
+  "isbn": "9780140447576",
+  "openLibrary": "https://openlibrary.org/works/OL629052W"
+ },
+ "wittgenstein-monk": {
+  "isbn": "9780099883708",
+  "openLibrary": "https://openlibrary.org/works/OL61803W",
+  "firstPublished": 1990
+ },
+ "existentialist-cafe": {
+  "isbn": "9780345810939",
+  "openLibrary": "https://openlibrary.org/works/OL17323751W",
+  "firstPublished": 2012
+ },
+ "wretched-of-the-earth": {
+  "isbn": "9780802141323",
+  "openLibrary": "https://openlibrary.org/works/OL31677379W"
+ },
+ "philosophy-and-an-african-culture": {
+  "isbn": "9780521227940",
+  "openLibrary": "https://openlibrary.org/works/OL2552022W",
+  "firstPublished": 1980
+ },
+ "kant-kuehn": {
+  "isbn": "9780521524063",
+  "openLibrary": "https://openlibrary.org/works/OL5051457W",
+  "firstPublished": 2001
+ },
+ "karl-marx-stedman-jones": {
+  "isbn": "9780141024806",
+  "openLibrary": "https://openlibrary.org/works/OL20040277W",
+  "firstPublished": 2016
+ },
+ "aristotle-leroi": {
+  "isbn": "9781408836200",
+  "openLibrary": "https://openlibrary.org/works/OL19984294W",
+  "firstPublished": 2014
+ },
+ "hume-harris": {
+  "isbn": "9780198849780",
+  "openLibrary": "https://openlibrary.org/works/OL20032968W",
+  "firstPublished": 2015
+ },
+ "hegel-pinkard": {
+  "isbn": "9780521003872",
+  "openLibrary": "https://openlibrary.org/works/OL7955473W",
+  "firstPublished": 2000
+ },
+ "leviathan": {
+  "isbn": "9780141395098",
+  "openLibrary": "https://openlibrary.org/works/OL20895103W"
+ },
+ "wealth-of-nations": {
+  "isbn": "9780140432084",
+  "openLibrary": "https://openlibrary.org/works/OL76825W"
+ },
+ "origins-of-totalitarianism": {
+  "isbn": "9780353315532",
+  "openLibrary": "https://openlibrary.org/works/OL10460640W",
+  "firstPublished": 1951
+ },
+ "candide": {
+  "isbn": "9780140455106",
+  "openLibrary": "https://openlibrary.org/works/OL100672W"
+ },
+ "social-contract": {
+  "isbn": "9780140442014",
+  "openLibrary": "https://openlibrary.org/works/OL80609W"
+ },
+ "these-truths": {
+  "isbn": "9780393357424",
+  "openLibrary": "https://openlibrary.org/works/OL18201116W",
+  "firstPublished": 2018
+ },
+ "the-isles": {
+  "isbn": "9780195134421",
+  "openLibrary": "https://openlibrary.org/works/OL17035543W",
+  "firstPublished": 1999
+ },
+ "discovery-of-france": {
+  "isbn": "9780393059731",
+  "openLibrary": "https://openlibrary.org/works/OL2153944W",
+  "firstPublished": 2007
+ },
+ "concise-france": {
+  "isbn": "9781139084710",
+  "openLibrary": "https://openlibrary.org/works/OL24724789W",
+  "firstPublished": 2014
+ },
+ "germany-memories": {
+  "isbn": "9781101911525",
+  "openLibrary": "https://openlibrary.org/works/OL20201162W",
+  "firstPublished": 2014
+ },
+ "concise-germany": {
+  "isbn": "9781108418379",
+  "openLibrary": "https://openlibrary.org/works/OL13362191W",
+  "firstPublished": 1992
+ },
+ "pursuit-of-italy": {
+  "isbn": "9780374533601",
+  "openLibrary": "https://openlibrary.org/works/OL21036764W",
+  "firstPublished": 2011
+ },
+ "ghosts-of-spain": {
+  "isbn": "9780802716743",
+  "openLibrary": "https://openlibrary.org/works/OL8387088W",
+  "firstPublished": 2006
+ },
+ "concise-portugal": {
+  "isbn": "9781108439558",
+  "openLibrary": "https://openlibrary.org/works/OL14849265W",
+  "firstPublished": 1993
+ },
+ "concise-greece": {
+  "isbn": "9780521808729",
+  "openLibrary": "https://openlibrary.org/works/OL3359683W",
+  "firstPublished": 1992
+ },
+ "concise-hungary": {
+  "isbn": "9780521661423",
+  "openLibrary": "https://openlibrary.org/works/OL3834545W",
+  "firstPublished": 2001
+ },
+ "natashas-dance": {
+  "isbn": "9780312421953",
+  "openLibrary": "https://openlibrary.org/works/OL72140W",
+  "firstPublished": 2002
+ },
+ "concise-russia": {
+  "isbn": "9780521835626",
+  "openLibrary": "https://openlibrary.org/works/OL15981197W",
+  "firstPublished": 2011
+ },
+ "concise-mexico": {
+  "isbn": "9781107174580",
+  "openLibrary": "https://openlibrary.org/works/OL2011141W",
+  "firstPublished": 1999
+ },
+ "concise-brazil": {
+  "isbn": "9781107635241",
+  "openLibrary": "https://openlibrary.org/works/OL20324945W",
+  "firstPublished": 2014
+ },
+ "iran-amanat": {
+  "isbn": "9780300112542",
+  "openLibrary": "https://openlibrary.org/works/OL19725872W",
+  "firstPublished": 2017
+ },
+ "turkey-zurcher": {
+  "isbn": "9781850433996",
+  "openLibrary": "https://openlibrary.org/works/OL8865601W",
+  "firstPublished": 1993
+ },
+ "israel-shapira": {
+  "isbn": "9781611686180",
+  "openLibrary": "https://openlibrary.org/works/OL20711691W",
+  "firstPublished": 2012
+ },
+ "fatal-shore": {
+  "isbn": "9780394753669",
+  "openLibrary": "https://openlibrary.org/works/OL2908661W",
+  "firstPublished": 1986
+ },
+ "concise-australia": {
+  "isbn": "9781108728485",
+  "openLibrary": "https://openlibrary.org/works/OL488609W",
+  "firstPublished": 1999
+ },
+ "concise-canada": {
+  "isbn": "9780521761932",
+  "openLibrary": "https://openlibrary.org/works/OL16652179W",
+  "firstPublished": 2011
+ },
+ "koreas-place-in-the-sun": {
+  "isbn": "9780393327021",
+  "openLibrary": "https://openlibrary.org/works/OL1933907W",
+  "firstPublished": 1997
+ },
+ "vietnam-goscha": {
+  "isbn": "9780465094363",
+  "openLibrary": "https://openlibrary.org/works/OL19665878W",
+  "firstPublished": 2011
+ },
+ "concise-austria": {
+  "isbn": "9780521473057",
+  "openLibrary": "https://openlibrary.org/works/OL8322392W",
+  "firstPublished": 2007
+ },
+ "concise-switzerland": {
+  "isbn": "9781139013765",
+  "openLibrary": "https://openlibrary.org/works/OL17486706W",
+  "firstPublished": 2013
+ },
+ "concise-sweden": {
+  "isbn": "9781107280205",
+  "openLibrary": "https://openlibrary.org/works/OL4564050W",
+  "firstPublished": 2008
+ },
+ "concise-finland": {
+  "isbn": "9780521539890",
+  "openLibrary": "https://openlibrary.org/works/OL1853181W",
+  "firstPublished": 2006
+ },
+ "concise-bulgaria": {
+  "isbn": "9780521850858",
+  "openLibrary": "https://openlibrary.org/works/OL2618987W",
+  "firstPublished": 1997
+ },
+ "concise-romania": {
+  "isbn": "9780521694131",
+  "openLibrary": "https://openlibrary.org/works/OL19350155W",
+  "firstPublished": 2014
+ },
+ "history-of-nigeria": {
+  "isbn": "9780521862943",
+  "openLibrary": "https://openlibrary.org/works/OL19568637W",
+  "firstPublished": 2008
+ },
+ "dutch-amsterdam-shorto": {
+  "isbn": "9780385538183",
+  "openLibrary": "https://openlibrary.org/works/OL16818699W",
+  "firstPublished": 2013
+ },
+ "concise-india": {
+  "isbn": "9780521682251",
+  "openLibrary": "https://openlibrary.org/works/OL15100637W",
+  "firstPublished": 2006
+ },
+ "egypt-modern": {
+  "isbn": "9780521700764",
+  "openLibrary": "https://openlibrary.org/works/OL8326436W",
+  "firstPublished": 2003
+ },
+ "mussolini-bosworth": {
+  "isbn": "9780340981733",
+  "openLibrary": "https://openlibrary.org/works/OL19979337W",
+  "firstPublished": 2002
+ },
+ "franco-preston": {
+  "isbn": "9780006862109",
+  "openLibrary": "https://openlibrary.org/works/OL258229W",
+  "firstPublished": 1993
+ },
+ "henry-viii-starkey": {
+  "isbn": "9780099437246",
+  "openLibrary": "https://openlibrary.org/works/OL101060W",
+  "firstPublished": 2003
+ },
+ "i-am-dynamite": {
+  "isbn": "9780571336227",
+  "openLibrary": "https://openlibrary.org/works/OL21160260W",
+  "firstPublished": 2018
+ },
+ "second-sex": {
+  "isbn": "9780307277787",
+  "openLibrary": "https://openlibrary.org/works/OL767941W"
+ },
+ "concise-spain": {
+  "isbn": "9780521607216",
+  "openLibrary": "https://openlibrary.org/works/OL15507568W"
+ },
+ "modern-ireland-foster": {
+  "isbn": "9780140132502",
+  "openLibrary": "https://openlibrary.org/works/OL7970780W"
+ },
+ "concise-south-africa": {
+  "isbn": "9780521720267",
+  "openLibrary": "https://openlibrary.org/works/OL18565609W"
+ },
+ "concise-japan": {
+  "isbn": "9780521178723",
+  "openLibrary": "https://openlibrary.org/works/OL21091991W"
  }
 }

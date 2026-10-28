@@ -1,4 +1,7 @@
 import type { Metadata } from "next";
+import VisitBox from "@/components/VisitBox";
+import RelatedResources from "@/components/RelatedResources";
+import { canVisitCountry } from "@/data/visit";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import SiteHeader from "@/components/SiteHeader";
@@ -145,6 +148,9 @@ export default async function CountryPage({ params }: Props) {
               </details>
             )}
             <OurArticle article={article} name={country.name} />
+            <div className="mt-12 max-w-xl">
+              <RelatedResources resourceKey={`country:${slug}`} />
+            </div>
           </div>
           <aside className="hidden lg:block">
             {article.timeline.length > 0 && <KeyDates items={article.timeline} className="sticky top-24" />}
@@ -165,6 +171,10 @@ export default async function CountryPage({ params }: Props) {
           )}
 
           {states.length > 0 && <StatesOver country={country} states={states} />}
+
+          {canVisitCountry(slug) && (
+            <VisitBox place={country.name} what={`Guided tours, museum and monument tickets, and day trips across ${title}, from the capital to the historic sites.`} />
+          )}
 
           <MentionedIn country={country} backlinks={backlinks} />
 

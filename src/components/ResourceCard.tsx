@@ -16,40 +16,57 @@ const TYPE_LABEL: Record<Resource["type"], string> = {
 };
 
 /**
- * One "further reading" suggestion: an outbound link to where it can be
- * bought (rel="sponsored" when it's an affiliate link), or a plain card when
- * there's no link. See src/data/resources.ts.
+ * One "further reading" suggestion with links to where it can be bought,
+ * main shop first (rel="sponsored" when they're affiliate links). See
+ * src/data/resources.ts.
  */
 export default function ResourceCard({ resource }: { resource: Resource }) {
   const Icon = TYPE_ICON[resource.type];
-  const isLive = Boolean(resource.url);
+  const rel = resource.affiliate ? "noopener noreferrer sponsored" : "noopener noreferrer";
+  const [main, ...others] = resource.links;
 
-  const body = (
-    <>
+  return (
+    <div className="rounded-md border border-paper bg-card p-4">
       <div className="flex items-center gap-2 mb-1.5">
         <Icon size={14} className="text-accent/60 shrink-0" aria-hidden="true" />
         <span className="text-ink/35 text-[10px] font-semibold uppercase tracking-widest">
           {TYPE_LABEL[resource.type]}
         </span>
       </div>
-      <p className="text-ink/85 text-sm font-medium leading-snug">{resource.title}</p>
+      <p className="text-ink/85 text-sm font-medium leading-snug">
+        {main ? (
+          <a href={main.url} target="_blank" rel={rel} className="hover:text-accent transition-colors">
+            {resource.title}
+          </a>
+        ) : (
+          resource.title
+        )}
+      </p>
       {resource.creator && <p className="text-ink/40 text-xs mt-0.5">{resource.creator}</p>}
       <p className="text-ink/50 text-xs leading-relaxed mt-2">{resource.blurb}</p>
-    </>
+      {main && (
+        <div className="mt-3 flex flex-wrap items-center gap-x-4 gap-y-2">
+          <a
+            href={main.url}
+            target="_blank"
+            rel={rel}
+            className="inline-flex items-center h-8 px-3 rounded-md bg-ink text-parchment text-xs font-semibold hover:bg-accent transition-colors"
+          >
+            {main.label}
+          </a>
+          {others.map((l) => (
+            <a
+              key={l.label}
+              href={l.url}
+              target="_blank"
+              rel={rel}
+              className="text-xs text-ink/55 underline underline-offset-2 decoration-ink/20 hover:text-accent transition-colors"
+            >
+              {l.label}
+            </a>
+          ))}
+        </div>
+      )}
+    </div>
   );
-
-  if (isLive) {
-    return (
-      <a
-        href={resource.url}
-        target="_blank"
-        rel={resource.affiliate ? "noopener noreferrer sponsored" : "noopener noreferrer"}
-        className="block rounded-md border border-paper bg-card hover:bg-accent-wash hover:border-accent/30 p-4 transition-colors"
-      >
-        {body}
-      </a>
-    );
-  }
-
-  return <div className="rounded-md border border-paper bg-white/40 p-4 opacity-80">{body}</div>;
 }
