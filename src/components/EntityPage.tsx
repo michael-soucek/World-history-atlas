@@ -129,7 +129,7 @@ export default async function EntityPage({ content, entry, entityType, baseRoute
     description: (ctx ? contextDescription(ctx) : placeDescription(entry.slug, content.name, titleDates(content.tagline) ?? (stored.start !== undefined && stored.end !== undefined && stored.end >= stored.start ? fmtSpan(stored.start, stored.end) : undefined))) ?? articleIntro(ownArticle) ?? content.summary ?? undefined,
     ...(entityType === "person" && ctx?.start !== undefined ? { birthDate: isoYear(ctx.start) } : {}),
     ...(entityType === "person" && ctx?.end !== undefined ? { deathDate: isoYear(ctx.end) } : {}),
-    image: content.imageUrl ?? undefined,
+    image: hero?.thumb,
     url: `https://www.bordersoftime.com/${baseRoute}/${entry.slug}`,
     sameAs: [
       content.wikipediaUrl,
@@ -149,7 +149,7 @@ export default async function EntityPage({ content, entry, entityType, baseRoute
               headline: content.name,
               path: `/${baseRoute}/${entry.slug}`,
               description: articleIntro(ownArticle),
-              image: content.imageUrl ?? undefined,
+              image: hero?.thumb,
               written: ownArticle.written,
               wordCount: articleWordCount(ownArticle),
               citations: ownArticle.sources.map((s) => s.href),

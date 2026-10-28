@@ -3,7 +3,7 @@ import { JsonLd, webAppLd } from "@/lib/jsonLd";
 import type { Metadata } from "next";
 import AtlasPageClient from "@/components/AtlasPageClient";
 import { formatYear } from "@/data/snapshotYears";
-import { DEFAULT_SOCIAL_IMAGE } from "@/lib/seo";
+import { DEFAULT_SOCIAL_IMAGE, brandTitle } from "@/lib/seo";
 
 interface Props {
   searchParams: Promise<{
@@ -23,8 +23,8 @@ export async function generateMetadata({ searchParams }: Props): Promise<Metadat
   // Every variant shares the canonical /map, so the default (no ?year) is
   // what search engines index: describe the tool, not one year.
   const title = sp.year
-    ? `World Map in ${yearLabel}: Historical Borders — Borders of Time`
-    : "Interactive Historical World Map: Empires & Borders Through Time — Borders of Time";
+    ? brandTitle(`World Map in ${yearLabel}: Historical Borders`)
+    : brandTitle("Interactive Historical World Map: Empires & Borders Through Time");
   const description = sp.year
     ? `The world's empires, kingdoms and borders as they were in ${yearLabel}, on an interactive historical map you can scrub through time.`
     : "Drag through 5,000 years on an interactive world map: see the borders of every empire, kingdom and nation from ancient Egypt and Rome to today.";
@@ -34,7 +34,7 @@ export async function generateMetadata({ searchParams }: Props): Promise<Metadat
     // Year/region/viewport live in the query string as app state, not as distinct
     // pages — collapse every variant to the clean URL.
     alternates: { canonical: "/map" },
-    openGraph: { title, description, type: "website", images: [{ url: DEFAULT_SOCIAL_IMAGE }] },
+    openGraph: { title, description, type: "website", siteName: "Borders of Time", url: "/map", images: [{ url: DEFAULT_SOCIAL_IMAGE }] },
     twitter: { card: "summary_large_image", title, description, images: [DEFAULT_SOCIAL_IMAGE] },
   };
 }

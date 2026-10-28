@@ -7,7 +7,7 @@ import SiteFooter from "@/components/SiteFooter";
 import PageIntro, { SectionRule } from "@/components/PageIntro";
 import OurArticle from "@/components/OurArticle";
 import { JsonLd, articleLd, breadcrumbLd } from "@/lib/jsonLd";
-import { buildPageMetadata, metaDescription } from "@/lib/seo";
+import { buildPageMetadata, metaDescription, brandTitle } from "@/lib/seo";
 import { articleIntro, articleWordCount, getOurArticle } from "@/lib/ourArticles";
 import { philosophersOf } from "@/lib/backlinks";
 import { PHILOSOPHY_ERAS, getPhilosophyEra } from "@/data/philosophy";
@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const article = era && getOurArticle("philosophy", slug);
   if (!era || !article) return { title: "Philosophy — Borders of Time" };
   return buildPageMetadata({
-    title: `${era.title}: History, Thinkers & Key Ideas — Borders of Time`,
+    title: brandTitle(`${era.title}: History, Thinkers & Key Ideas`),
     description: metaDescription(articleIntro(article)) ?? era.blurb,
     path: `/philosophy/${slug}`,
   });

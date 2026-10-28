@@ -54,7 +54,8 @@ const resolve = cache(async (slug: string) => {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const r = await resolve(slug);
-  if (!r.content) return { title: "Event not found — Borders of Time" };
+  // The fallback page (a Wikipedia summary, if any) stays out of search.
+  if (!r.content || !r.entry) return { title: "Event not found — Borders of Time", robots: { index: false, follow: true } };
   return entityMetadata("event", slug, r.content);
 }
 

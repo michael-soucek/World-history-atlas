@@ -9,7 +9,7 @@ import SiteFooter from "@/components/SiteFooter";
 import PageIntro, { SectionRule } from "@/components/PageIntro";
 import { LinkRow } from "@/components/Gazetteer";
 import { CITY_LIST, distinctRulers, getCity, nearbyCities, rulersOf, type City, type RulerSpan } from "@/lib/cityHistory";
-import { buildPageMetadata, metaDescription } from "@/lib/seo";
+import { buildPageMetadata, metaDescription, brandTitle } from "@/lib/seo";
 import { JsonLd, SITE_URL, breadcrumbLd } from "@/lib/jsonLd";
 import { connectedTo, fmtSpan, type TimedEntry } from "@/lib/entityContext";
 import { TOURS } from "@/data/tours";
@@ -29,7 +29,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!city) return { title: "City — Borders of Time" };
   const spans = rulersOf(slug);
   return buildPageMetadata({
-    title: `Who Ruled ${city.name}? History of ${city.name} on the Map — Borders of Time`,
+    title: brandTitle(`Who Ruled ${city.name}? History of ${city.name} on the Map`),
     description: cityDescription(city, spans),
     path: `/history-of/${slug}`,
   });

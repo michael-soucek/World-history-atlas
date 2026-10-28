@@ -21,7 +21,8 @@ const NO_VISIT_COUNTRIES = new Set([
   "myanmar", "niger", "north-korea", "palestine", "russia", "somalia", "south-sudan", "sudan", "syria", "ukraine",
   "venezuela", "yemen", "democratic-republic-of-the-congo", "eritrea",
   // Next to no bookable tours
-  "comoros", "equatorial-guinea", "guinea-bissau", "kiribati", "marshall-islands", "micronesia", "nauru", "sao-tome-and-principe",
+  // (Bangladesh: GetYourGuide's search falls back to Bangkok, checked 2026-10-28.)
+  "bangladesh", "comoros", "equatorial-guinea", "guinea-bissau", "kiribati", "marshall-islands", "micronesia", "nauru", "sao-tome-and-principe",
   "solomon-islands", "tuvalu",
 ]);
 

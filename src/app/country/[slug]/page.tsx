@@ -10,7 +10,7 @@ import PageIntro, { SectionRule } from "@/components/PageIntro";
 import { LinkRow } from "@/components/Gazetteer";
 import OurArticle from "@/components/OurArticle";
 import { JsonLd, articleLd, breadcrumbLd } from "@/lib/jsonLd";
-import { buildPageMetadata } from "@/lib/seo";
+import { buildPageMetadata, brandTitle } from "@/lib/seo";
 import { commonsThumb } from "@/lib/commonsImage";
 import { articleIntro, articleWordCount, getOurArticle } from "@/lib/ourArticles";
 import { backlinksTo, type Backlink } from "@/lib/backlinks";
@@ -34,7 +34,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const article = country && getOurArticle("country", slug);
   if (!country || !article) return { title: "Country — Borders of Time" };
   return buildPageMetadata({
-    title: `History of ${countryWithArticle(country)}: Timeline, Empires & Maps — Borders of Time`,
+    title: brandTitle(`History of ${countryWithArticle(country)}: Timeline, Empires & Maps`),
     description: countryDescription(country, article),
     path: `/country/${slug}`,
     type: "article",

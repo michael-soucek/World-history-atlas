@@ -68,10 +68,12 @@ const resolvePage = cache(async (slug: string): Promise<{
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const result = await resolvePage(slug);
-  if (!result?.content) {
-    return { title: "Place not found — Borders of Time" };
+  const content = result?.content;
+  // Same test as the page's fallback (a Wikipedia summary, if any), which stays out of search.
+  if (!content || content.labelMismatch || !result.entry || !content.summary?.trim()) {
+    return { title: "Place not found — Borders of Time", robots: { index: false, follow: true } };
   }
-  return entityMetadata("place", slug, result.content);
+  return entityMetadata("place", slug, content);
 }
 
 export default async function PlacePage({ params }: Props) {

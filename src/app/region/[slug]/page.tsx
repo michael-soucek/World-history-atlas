@@ -8,7 +8,7 @@ import PageIntro, { SectionRule } from "@/components/PageIntro";
 import Gazetteer, { LinkRow } from "@/components/Gazetteer";
 import { ReadAloudButton } from "@/components/ReadAloudButton";
 import { CROSSWALK } from "@/data/crosswalk";
-import { buildPageMetadata, metaDescription } from "@/lib/seo";
+import { buildPageMetadata, metaDescription, brandTitle } from "@/lib/seo";
 import { TIMELAPSES } from "@/data/timelapses";
 
 interface Props { params: Promise<{ slug: string }> }
@@ -188,7 +188,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const region = REGIONS[slug];
   if (!region) return { title: "Region — Borders of Time" };
   return buildPageMetadata({
-    title: `History of ${region.label}: Empires & Borders on the Map — Borders of Time`,
+    title: brandTitle(`History of ${region.label === "Middle East" ? "the Middle East" : region.label.replace(/^The /, "the ")}: Empires & Borders on the Map`),
     description: metaDescription(`${region.description} See its empires era by era on the map.`)!,
     path: `/region/${slug}`,
   });

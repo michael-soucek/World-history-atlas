@@ -7,7 +7,7 @@ import PageIntro, { SectionRule } from "@/components/PageIntro";
 import TimelapsePlayer from "@/components/TimelapsePlayer";
 import { TIMELAPSES, TIMELAPSE_BY_SLUG, formatYear, type TimelapseFacts } from "@/data/timelapses";
 import FACTS from "@/data/timelapseFacts.json";
-import { buildPageMetadata } from "@/lib/seo";
+import { buildPageMetadata, metaDescription } from "@/lib/seo";
 import { JsonLd, breadcrumbLd } from "@/lib/jsonLd";
 
 interface Props { params: Promise<{ slug: string }> }
@@ -26,7 +26,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const span = `${formatYear(f.from)}–${f.to}`;
   return buildPageMetadata({
     title: `${titleCase(t.possessive)} Borders Over Time: Animated Map, Every Year ${span}`,
-    description: `Watch ${t.label}’s borders change year by year on an animated map, ${span}: every year drawn, the borders changing in ${f.changes.length} of them, with the largest states and what appeared or vanished.`,
+    description: metaDescription(`Watch ${t.label}’s borders change year by year on an animated map, ${span}: every year drawn, the borders changing in ${f.changes.length} of them, with the largest states and what appeared or vanished.`)!,
     path: `/borders-over-time/${slug}`,
     imageUrl: `/timelapse/${slug}-wide.webp`,
   });

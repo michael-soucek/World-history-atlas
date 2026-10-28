@@ -54,7 +54,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE}/philosophy`, lastModified: new Date("2026-10-25"), changeFrequency: "monthly", priority: 0.8 },
     { url: `${BASE}/play`, lastModified: now, changeFrequency: "daily", priority: 0.7 },
     { url: `${BASE}/compare`, lastModified: now, changeFrequency: "monthly", priority: 0.6 },
-    { url: `${BASE}/search`,   lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE}/about`,    lastModified: now, changeFrequency: "yearly",  priority: 0.4 },
     { url: `${BASE}/support`,  lastModified: now, changeFrequency: "yearly",  priority: 0.3 },
     { url: `${BASE}/pro`,      lastModified: now, changeFrequency: "monthly", priority: 0.3 },

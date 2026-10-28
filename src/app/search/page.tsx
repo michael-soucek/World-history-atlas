@@ -16,8 +16,9 @@ export const metadata: Metadata = {
     title: "Search — Borders of Time",
     description: "Search across empires, people, events, and cultures in the Borders of Time.",
   }),
-  // Keep the query string (?q=…) out of the index.
+  // A search box isn't a page worth ranking; results pages (?q=…) even less so.
   alternates: { canonical: "/search" },
+  robots: { index: false, follow: true },
 };
 
 export default function SearchPage() {

@@ -7,7 +7,7 @@ import PageIntro from "@/components/PageIntro";
 import { LinkRow } from "@/components/Gazetteer";
 import { ERA_LIST, eraFromSlug, eraSlug } from "@/data/eras";
 import { SNAPSHOT_YEARS } from "@/data/snapshotYears";
-import { buildPageMetadata, metaDescription } from "@/lib/seo";
+import { buildPageMetadata, metaDescription, brandTitle } from "@/lib/seo";
 
 const fmt = (y: number) => (y < 0 ? `${Math.abs(y).toLocaleString("en-US")} BCE` : `${y} CE`);
 
@@ -24,7 +24,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const years = SNAPSHOT_YEARS.filter(y => y >= era.start && y < era.end);
   const span = isFinite(era.start) ? `${fmt(era.start)} to ${isFinite(era.end) ? fmt(era.end) : "today"}` : `before ${fmt(era.end)}`;
   return buildPageMetadata({
-    title: `${era.label} World Maps: ${years.length} Historical Maps, ${span} — Borders of Time`,
+    title: brandTitle(`${era.label} World Maps: ${years.length} Historical Maps, ${span}`),
     description: metaDescription(`The world's borders in the ${era.label} era, ${span}, map by map: ${years.map(fmt).join(", ")}. Open any year on the interactive map.`)!,
     path: `/timeline/${scope}`,
   });

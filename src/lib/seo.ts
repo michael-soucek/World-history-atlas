@@ -11,6 +11,12 @@ interface PageSeoArgs {
   path?: string;
 }
 
+/**
+ * Adds " — Borders of Time" only when the title still fits in the ~60
+ * characters Google shows; it prints the site name above each result anyway.
+ */
+export const brandTitle = (core: string) => (core.length <= 52 ? `${core} — Borders of Time` : core);
+
 export function buildPageMetadata(args: PageSeoArgs): Metadata {
   const imageUrl = args.imageUrl || DEFAULT_SOCIAL_IMAGE;
   return {
@@ -77,6 +83,13 @@ const ENTITY_TITLE_SUFFIX: Record<EntityKind, string> = {
   culture: "History & Map",
 };
 
+/** A place with no Wikidata image of its own leads with the first vetted article image (see splitHero). */
+async function leadImage(qid?: string): Promise<string | undefined> {
+  if (!qid) return undefined;
+  const { getEntityImages } = await import("@/lib/entityImages");
+  return (await getEntityImages(qid))[0]?.thumb;
+}
+
 /**
  * Metadata for a place / person / event / culture page, e.g.
  * "Napoleon (1769–1821): Biography & Map — Borders of Time". The description
@@ -141,6 +154,6 @@ export async function entityMetadata(
     metaDescription(content.summary) ??
     `${content.name} on the interactive history map: when and where it happened, with key facts and pictures.`;
   return {
-    ...buildPageMetadata({ title, description, path: `/${kind}/${slug}`, type: "article", imageUrl: content.imageUrl }),
+    ...buildPageMetadata({ title, description, path: `/${kind}/${slug}`, type: "article", imageUrl: content.imageUrl ?? (await leadImage(qid)) }),
   };
 }
