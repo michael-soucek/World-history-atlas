@@ -2,7 +2,7 @@
 
 import { useState, useMemo, useRef } from "react";
 import Link from "next/link";
-import type { SearchItem } from "@/lib/searchIndex";
+import { itemHref, searchItems, type SearchItem } from "@/lib/searchIndex";
 
 interface SearchClientProps {
   items: SearchItem[];
@@ -28,16 +28,7 @@ export default function SearchClient({ items }: SearchClientProps) {
   const inputRef = useRef<HTMLInputElement>(null);
 
   const results = useMemo(() => {
-    const q = query.trim().toLowerCase();
-    return items
-      .filter(item => typeFilter === "all" || item.entityType === typeFilter)
-      .filter(item =>
-        q === "" ||
-        item.name.toLowerCase().includes(q) ||
-        item.tagline?.toLowerCase().includes(q) ||
-        item.slug.includes(q)
-      )
-      .slice(0, 50);
+    return searchItems(items.filter(item => typeFilter === "all" || item.entityType === typeFilter), query);
   }, [query, typeFilter, items]);
 
   // "1453", "500 BCE", "-500", "323 bc" → a year to open on the map.
@@ -129,9 +120,9 @@ export default function SearchClient({ items }: SearchClientProps) {
           </p>
           <ul className="border-t border-ink/80">
             {results.map(item => (
-              <li key={`${item.entityType}-${item.slug}`} className="border-b border-ink/10">
+              <li key={`${item.route}-${item.slug}`} className="border-b border-ink/10">
                 <Link
-                  href={`/${item.route}/${item.slug}`}
+                  href={itemHref(item)}
                   className="group grid grid-cols-[1fr_auto] sm:grid-cols-[9rem_1fr_auto] items-baseline gap-x-4 py-4"
                 >
                   <span className={`label !text-[10px] max-sm:hidden ${TYPE_COLORS[item.entityType] ?? "text-ink/45"}`}>

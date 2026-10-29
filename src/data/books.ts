@@ -631,6 +631,10 @@ export const BOOKS_FOR: Record<string, string[]> = {
  * against Bookshop.org's own catalogue, title and author, on 2026-10-19.
  */
 export const BOOKSHOP_EDITION: Record<string, string> = {
+  "concise-switzerland": "9780521143820",
+  "concise-france": "9781107603431",
+  "concise-sweden": "9780521012270",
+  "bhagavad-gita-easwaran": "9781586380199",
   "1493": "9780307278241",
   "cleopatra": "9780316001946",
   "peloponnesian-war": "9780142004371",
@@ -702,8 +706,23 @@ export const BOOKSHOP_EDITION: Record<string, string> = {
 export const NOT_STOCKED = new Set([
   "early-india", "pathfinders", "mongol-conquests-may", "tamerlane-marozzi", "ottoman-classical-age", "rivers-of-gold", "washing-of-the-spears", "great-partition",
   // Checked 2026-10-27
-  "dream-of-reason", "hellenistic-philosophy-long", "bhagavad-gita-easwaran", "the-path-puett", "tao-te-ching", "wittgenstein-monk", "existentialist-cafe", "philosophy-and-an-african-culture", "karl-marx-stedman-jones", "aristotle-leroi", "discovery-of-france", "concise-greece", "iran-amanat", "turkey-zurcher", "concise-canada", "concise-sweden", "dutch-amsterdam-shorto", "concise-india", "franco-preston", "henry-viii-starkey", "i-am-dynamite", "concise-spain",
+  "dream-of-reason", "hellenistic-philosophy-long", "the-path-puett", "tao-te-ching", "wittgenstein-monk", "existentialist-cafe", "philosophy-and-an-african-culture", "karl-marx-stedman-jones", "aristotle-leroi", "discovery-of-france", "concise-greece", "iran-amanat", "turkey-zurcher", "concise-canada", "dutch-amsterdam-shorto", "concise-india", "franco-preston", "henry-viii-starkey", "i-am-dynamite", "concise-spain",
 ]);
 
 /** Books whose ISBN has no Amazon page (checked 2026-10-27), so their Amazon link is a title search. */
 export const AMAZON_BY_SEARCH = new Set(["great-seljuk-empire", "ivan-the-terrible"]);
+
+/**
+ * Amazon product IDs for books whose ISBN on file is an ebook or UK edition
+ * with no Amazon.com page (all 246 checked 2026-10-29). These are the US print editions.
+ */
+export const AMAZON_ASIN: Record<string, string> = {
+  "concise-sweden": "0521012279",
+  "concise-switzerland": "0521143829",
+  "concise-france": "1107603439",
+  "hitler-kershaw": "0393337618",
+  "bhagavad-gita-easwaran": "1586380192",
+  "obsessive-genius": "0393327485",
+  "chinas-last-empire": "0674066243",
+  "autumn-heavenly-kingdom": "0307472213",
+};

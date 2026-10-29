@@ -10,6 +10,19 @@ import { COUNTRY_LIST } from "@/lib/countries";
 import { getOurArticle } from "@/lib/ourArticles";
 import { PHILOSOPHY_ERAS } from "@/data/philosophy";
 import { buildPageMetadata } from "@/lib/seo";
+import { TOURS } from "@/data/tours";
+import { CITY_LIST } from "@/lib/cityHistory";
+import { ERA_LIST, eraSlug } from "@/data/eras";
+
+/** Names people search by that aren't the page's own, keyed by slug. */
+const ALIASES: Record<string, string[]> = {
+  "james-cook": ["Captain Cook", "Endeavour"],
+  "leif-erikson": ["Leif Ericson", "Vikings in America"],
+  "lewis-and-clark": ["Corps of Discovery"],
+  "charles-darwin": ["HMS Beagle", "Beagle"],
+  "ferdinand-magellan": ["Magallanes", "first circumnavigation"],
+  "christopher-columbus": ["Cristoforo Colombo", "Cristobal Colon"],
+};
 
 export const metadata: Metadata = {
   ...buildPageMetadata({
@@ -72,7 +85,25 @@ export default function SearchPage() {
   // Explorers (people, with their own voyage pages)
   for (const e of EXPLORERS) {
     if (items.some((i) => i.route === "person" && i.slug === e.slug)) continue;
-    items.push({ slug: e.slug, name: e.name, entityType: "person", wikidataId: e.wikidataId ?? e.slug, route: "explorer", label: "Explorer" });
+    items.push({ slug: e.slug, name: e.name, entityType: "person", wikidataId: e.wikidataId ?? e.slug, route: "explorer", label: "Explorer", tagline: e.tagline });
+  }
+
+  // Guided tours, city histories, eras and the world wars page
+  for (const t of TOURS) {
+    items.push({ slug: t.slug, name: t.title, entityType: t.entityType ?? "event", wikidataId: `tour-${t.slug}`, route: "tour", label: "Tour" });
+  }
+  for (const c of CITY_LIST) {
+    items.push({ slug: c.slug, name: `${c.name}: history`, entityType: "place", wikidataId: `city-${c.slug}`, route: "history-of", label: "City", tagline: c.formerly ? `Formerly ${c.formerly}` : undefined });
+  }
+  for (const e of ERA_LIST) {
+    if (!isFinite(e.start)) continue;
+    items.push({ slug: eraSlug(e.label), name: `${e.label} era`, entityType: "event", wikidataId: `era-${e.label}`, route: "era", label: "Era" });
+  }
+  items.push({ slug: "", name: "The world wars", entityType: "event", wikidataId: "world-wars", route: "world-wars", label: "World wars", aliases: ["WW1", "WW2", "WWI", "WWII", "World War I", "World War II", "World War 1", "World War 2", "First World War", "Second World War"] });
+
+  for (const item of items) {
+    const extra = ALIASES[item.slug];
+    if (extra) item.aliases = [...(item.aliases ?? []), ...extra];
   }
 
   // Country histories and philosophy eras with a written article

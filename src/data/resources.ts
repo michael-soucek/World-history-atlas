@@ -17,7 +17,7 @@
  * `"philosophy:<slug>"`, or `"tour:<slug>"` / `"explorer:<slug>"`. A key with
  * no books simply shows nothing.
  */
-import { AMAZON_BY_SEARCH, BOOKS, BOOKS_FOR, BOOKSHOP_EDITION, NOT_STOCKED } from "@/data/books";
+import { AMAZON_ASIN, AMAZON_BY_SEARCH, BOOKS, BOOKS_FOR, BOOKSHOP_EDITION, NOT_STOCKED } from "@/data/books";
 import isbns from "@/data/bookIsbns.json";
 
 export type ResourceType = "book" | "documentary" | "museum" | "course";
@@ -55,8 +55,8 @@ function toIsbn10(isbn13: string): string | undefined {
 }
 
 /** The book's own product page, or a books search where Amazon has no page for our ISBN. */
-function amazonUrl(isbn: string, search?: string) {
-  const asin = search ? undefined : toIsbn10(isbn);
+function amazonUrl(isbn: string, search?: string, productId?: string) {
+  const asin = search ? undefined : productId ?? toIsbn10(isbn);
   const url = new URL(asin ? `https://www.amazon.com/dp/${asin}` : "https://www.amazon.com/s");
   if (!asin) {
     url.searchParams.set("k", search ?? isbn);
@@ -75,7 +75,7 @@ export function getResources(key: string): Resource[] {
     const book = BOOKS[id];
     // Only books confirmed against Open Library.
     if (!book || !ISBNS[id]) return [];
-    const links: ResourceLink[] = [{ label: "Amazon", url: amazonUrl(ISBNS[id].isbn, AMAZON_BY_SEARCH.has(id) ? `${book.title} ${book.author}` : undefined) }];
+    const links: ResourceLink[] = [{ label: "Amazon", url: amazonUrl(ISBNS[id].isbn, AMAZON_BY_SEARCH.has(id) ? `${book.title} ${book.author}` : undefined, AMAZON_ASIN[id]) }];
     if (!NOT_STOCKED.has(id)) links.push({ label: "Bookshop.org", url: bookshopUrl(BOOKSHOP_EDITION[id] ?? ISBNS[id].isbn) });
     return [{ type: "book" as const, title: book.title, creator: book.author, blurb: book.blurb, links, affiliate: Boolean(AMAZON_TAG || BOOKSHOP_ID) }];
   });
