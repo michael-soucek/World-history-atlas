@@ -15,7 +15,7 @@ const COLUMNS: { title: string; links: { href: string; label: string; external?:
       { href: "/philosophy", label: "History of philosophy" },
       { href: "/history-of", label: "Who ruled my city?" },
       { href: "/compare", label: "Compare two years" },
-      { href: "/play", label: "Guess the Year" },
+      { href: "/play", label: "History games" },
       { href: "/browse", label: "Browse" },
       { href: "/theme/age-of-exploration", label: "Voyages" },
     ],

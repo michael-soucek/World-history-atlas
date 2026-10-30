@@ -8,6 +8,8 @@ import {
   shareText, sliderPos, statsFrom, tierOf, type PlayerStats,
 } from "@/lib/guessGame";
 import type { ShownTerritory } from "@/components/GuessMap";
+import ResultCard from "@/components/ResultCard";
+import MoreGames from "@/components/MoreGames";
 
 // MapLibre needs the browser.
 const GuessMap = dynamic(() => import("@/components/GuessMap"), { ssr: false });
@@ -77,6 +79,20 @@ function countdown(ms: number): string {
 }
 
 const TIER_STYLE = { great: "bg-[#2f7d4f]", close: "bg-[#c9a227]", near: "bg-[#d9822b]", far: "bg-[#b4432f]" };
+const TIER_HEX = { great: "#2f7d4f", close: "#c9a227", near: "#d9822b", far: "#b4432f" };
+
+/** Your guess (hollow) and the answer (vermilion) on an EraBar, joined by a line. */
+function GuessMarkers({ guess, answer }: { guess: number; answer: number }) {
+  const g = sliderPos(guess) * 100;
+  const a = sliderPos(answer) * 100;
+  return (
+    <div className="absolute inset-x-0 -top-1 h-4" aria-hidden="true">
+      <span className="absolute top-1/2 h-0.5 -translate-y-1/2 bg-ink/50" style={{ left: `${Math.min(g, a)}%`, width: `${Math.abs(a - g)}%` }} />
+      <span className="absolute top-0 h-4 w-4 -translate-x-1/2 rounded-full border-2 border-ink bg-parchment" style={{ left: `${g}%` }} />
+      <span className="absolute top-0 h-4 w-4 -translate-x-1/2 rounded-full bg-[var(--color-vermilion)] ring-2 ring-parchment" style={{ left: `${a}%` }} />
+    </div>
+  );
+}
 
 /** The five eras as coloured bands, with a label under each (labels hide on narrow screens). */
 function EraBar({ children }: { children?: React.ReactNode }) {
@@ -126,7 +142,6 @@ export default function GuessGame() {
   const [shown, setShown] = useState<{ year: number; list: ShownTerritory[] } | null>(null);
   const [value, setValue] = useState(1000);
   const [revealed, setRevealed] = useState(false);
-  const [shared, setShared] = useState<"" | "copied" | "failed">("");
   const [stats, setStats] = useState<PlayerStats | null>(null);
   const [msLeft, setMsLeft] = useState<number | null>(null);
   // Which year's borders the map has finished drawing: no guessing a blank map.
@@ -186,7 +201,6 @@ export default function GuessGame() {
     setHintNow(false);
     setRevealed(false);
     setValue(1000);
-    setShared("");
   }
 
   function backToDaily() {
@@ -197,124 +211,86 @@ export default function GuessGame() {
     setHintNow(false);
     setRevealed(saved.length > 0 && saved.length < ROUNDS);
     setValue(1000);
-    setShared("");
   }
 
   const text = shareText(seed === null ? day : null, puzzles, guesses, hints);
-
-  /** Phones get the share sheet; everywhere else copies the text. */
-  async function share() {
-    const touch = typeof window !== "undefined" && window.matchMedia("(pointer: coarse)").matches;
-    if (touch && navigator.share) {
-      try {
-        await navigator.share({ text });
-        return;
-      } catch {
-        // Cancelled or unsupported: fall back to copying.
-      }
-    }
-    await copy();
-  }
-
-  async function copy() {
-    try {
-      await navigator.clipboard.writeText(text);
-      setShared("copied");
-    } catch {
-      setShared("failed");
-    }
-  }
 
   if (finished) {
     const rank = rankFor(total);
     const avgOff = Math.round(guesses.reduce((sum, g, i) => sum + Math.abs(g - puzzles[i].year), 0) / ROUNDS);
     return (
-      <div className="max-w-3xl">
-        <p className="label text-ink/45 mb-3">{seed === null ? `Daily game #${day}` : "Practice game"}</p>
-        <p className="font-display text-6xl sm:text-7xl tracking-tight text-ink tabular-nums">
-          {total.toLocaleString("en-US")}<span className="text-ink/30 text-3xl sm:text-4xl"> / {(ROUNDS * 1000).toLocaleString("en-US")}</span>
-        </p>
-        <p className="mt-4 font-display text-2xl sm:text-3xl text-ink"><span className="italic">{rank.title}.</span> <span className="text-ink/60">{rank.line}</span></p>
-        <p className="mt-2 text-[15px] text-ink/55">On average you were {avgOff.toLocaleString("en-US")} years off.</p>
+      <div className="max-w-4xl">
+        <ResultCard
+          game="Guess the Year"
+          edition={seed === null ? `Daily #${day}` : "Practice"}
+          score={total.toLocaleString("en-US")}
+          outOf={`/ ${(ROUNDS * 1000).toLocaleString("en-US")}`}
+          rank={rank.title}
+          line={`${rank.line} On average you were ${avgOff.toLocaleString("en-US")} years off.`}
+          tiles={puzzles.map((p, i) => ({
+            color: TIER_HEX[tierOf(points[i])],
+            top: p.region.replace(/^The (.)/, (_, c: string) => c.toUpperCase()),
+            bottom: guesses[i] === p.year ? "spot on" : `${Math.abs(guesses[i] - p.year).toLocaleString("en-US")} yrs off`,
+          }))}
+          stats={seed === null && stats ? [["Played", stats.played.toLocaleString("en-US")], ["Day streak", stats.streak.toLocaleString("en-US")], ["Best score", stats.best.toLocaleString("en-US")]] : undefined}
+          text={text}
+          url="bordersoftime.com/play"
+        >
+          <h2 className="font-display text-2xl text-ink">Map by map</h2>
+          <ol className="mt-5 grid gap-4 sm:grid-cols-2">
+            {puzzles.map((p, i) => {
+              const off = Math.abs(guesses[i] - p.year);
+              return (
+                <li key={i} className="rounded-lg border border-ink/10 bg-card overflow-hidden">
+                  <span className="block h-1.5" style={{ background: TIER_HEX[tierOf(points[i])] }} aria-hidden="true" />
+                  <div className="p-5">
+                    <div className="flex items-baseline justify-between gap-4">
+                      <p className="label text-ink/45">Map {i + 1} · {p.region}</p>
+                      <p className="font-mono text-[13px] text-ink tabular-nums">{points[i]} pts</p>
+                    </div>
+                    <p className="mt-2 font-display text-3xl text-ink tabular-nums">{formatYear(p.year)}</p>
+                    <p className="mt-1 text-[13.5px] text-ink/55">
+                      You said {formatYear(guesses[i])} · {off === 0 ? "spot on" : `${off.toLocaleString("en-US")} years off`}{hints[i] ? " · hint used" : ""}
+                    </p>
+                    <div className="mt-4 px-[7px]">
+                      <EraBar>
+                        <GuessMarkers guess={guesses[i]} answer={p.year} />
+                      </EraBar>
+                    </div>
+                    <Link href={`/map?year=${p.year}&lat=${p.view.lat}&lng=${p.view.lng}&z=${p.view.zoom}`} className="mt-1 inline-block font-mono text-[11px] text-ink/45 hover:text-accent">
+                      Explore this map →
+                    </Link>
+                  </div>
+                </li>
+              );
+            })}
+          </ol>
 
-        {seed === null && stats && (
-          <dl className="mt-8 grid grid-cols-3 max-w-md border-y border-ink/10 py-4">
-            {[
-              ["Played", stats.played.toLocaleString("en-US")],
-              ["Day streak", stats.streak.toLocaleString("en-US")],
-              ["Best score", stats.best.toLocaleString("en-US")],
-            ].map(([k, v]) => (
-              <div key={k}>
-                <dd className="font-display text-3xl text-ink tabular-nums">{v}</dd>
-                <dt className="label text-ink/45 mt-1">{k}</dt>
-              </div>
-            ))}
-          </dl>
-        )}
-
-        <ol className="mt-10 border-t border-ink/80">
-          {puzzles.map((p, i) => {
-            const off = Math.abs(guesses[i] - p.year);
-            return (
-              <li key={i} className="grid grid-cols-[1rem_1fr_auto] gap-x-4 items-baseline py-4 border-b border-ink/10">
-                <span className={`w-3 h-3 rounded-sm self-center ${TIER_STYLE[tierOf(points[i])]}`} aria-hidden="true" />
-                <span className="min-w-0">
-                  <span className="block font-display text-xl text-ink">{formatYear(p.year)} <span className="text-ink/40 text-base">· {p.region}</span></span>
-                  <span className="block text-[13px] text-ink/50">
-                    You guessed {formatYear(guesses[i])} · {off === 0 ? "spot on" : `${off.toLocaleString("en-US")} years off`}{hints[i] ? " · hint used" : ""}
-                  </span>
-                </span>
-                <span className="text-right">
-                  <span className="block font-mono text-[13px] text-ink tabular-nums">{points[i]} pts</span>
-                  <Link href={`/map?year=${p.year}&lat=${p.view.lat}&lng=${p.view.lng}&z=${p.view.zoom}`} className="font-mono text-[11px] text-ink/40 hover:text-accent">
-                    See this map →
-                  </Link>
-                </span>
-              </li>
-            );
-          })}
-        </ol>
-
-        <section className="mt-10" aria-labelledby="share-heading">
-          <h2 id="share-heading" className="font-display text-2xl text-ink">Share your result</h2>
-          <p className="mt-1 text-sm text-ink/55">No answers in it, so you won’t spoil anyone’s game.</p>
-          <pre className="mt-4 max-w-md whitespace-pre-wrap rounded-md border border-ink/15 bg-white/50 p-4 font-sans text-[14px] leading-relaxed text-ink/80">{text}</pre>
-          <div className="mt-4 flex flex-wrap items-center gap-3">
-            <button type="button" onClick={share} className="h-12 px-6 rounded-md bg-ink text-parchment text-[15px] font-semibold hover:bg-accent transition-colors">
-              Share
-            </button>
-            <button type="button" onClick={copy} className="h-12 px-6 rounded-md border border-ink/20 text-[15px] text-ink/80 hover:border-accent hover:text-accent transition-colors">
-              Copy text
-            </button>
-            <span className="text-sm text-ink/60" aria-live="polite">
-              {shared === "copied" ? "Copied. Paste it into a message or post." : shared === "failed" ? "Couldn’t copy. Select the text above instead." : ""}
-            </span>
-          </div>
-        </section>
-
-        <section className="mt-12 border-t border-ink/10 pt-8">
-          {seed === null ? (
-            <>
-              <h2 className="font-display text-2xl text-ink">Want to keep playing?</h2>
-              <p className="mt-1 text-[15px] text-ink/60 max-w-xl">
-                Today’s five maps are done{msLeft !== null && <>, and the next daily game starts in <span className="tabular-nums">{countdown(msLeft)}</span></>}.
-                Until then, play five random maps as often as you like. They don’t change your daily score.
-              </p>
-            </>
-          ) : (
-            <h2 className="font-display text-2xl text-ink">Another round?</h2>
-          )}
-          <div className="mt-5 flex flex-wrap gap-3">
-            <button type="button" onClick={practice} className="h-12 px-6 rounded-md border border-ink/20 text-[15px] text-ink/80 hover:border-accent hover:text-accent transition-colors">
-              {seed === null ? "Play five random maps" : "Play five more"}
-            </button>
-            {seed !== null && (
-              <button type="button" onClick={backToDaily} className="h-12 px-6 rounded-md border border-ink/20 text-[15px] text-ink/80 hover:border-accent hover:text-accent transition-colors">
-                Back to today’s game
-              </button>
+          <section className="mt-12 border-t border-ink/10 pt-8">
+            {seed === null ? (
+              <>
+                <h2 className="font-display text-2xl text-ink">Want to keep playing?</h2>
+                <p className="mt-1 text-[15px] text-ink/60 max-w-xl">
+                  Today’s five maps are done{msLeft !== null && <>, and the next daily game starts in <span className="tabular-nums">{countdown(msLeft)}</span></>}.
+                  Until then, play five random maps as often as you like. They don’t change your daily score.
+                </p>
+              </>
+            ) : (
+              <h2 className="font-display text-2xl text-ink">Another round?</h2>
             )}
-          </div>
-        </section>
+            <div className="mt-5 flex flex-wrap gap-3">
+              <button type="button" onClick={practice} className="h-12 px-6 rounded-md border border-ink/20 text-[15px] text-ink/80 hover:border-accent hover:text-accent transition-colors">
+                {seed === null ? "Play five random maps" : "Play five more"}
+              </button>
+              {seed !== null && (
+                <button type="button" onClick={backToDaily} className="h-12 px-6 rounded-md border border-ink/20 text-[15px] text-ink/80 hover:border-accent hover:text-accent transition-colors">
+                  Back to today’s game
+                </button>
+              )}
+            </div>
+          </section>
+          <MoreGames current="/play" />
+        </ResultCard>
       </div>
     );
   }
@@ -414,17 +390,7 @@ export default function GuessGame() {
             </p>
             <div className="mt-6 px-[7px]">
               <EraBar>
-                {(() => {
-                  const g = sliderPos(guesses[last]) * 100;
-                  const a = sliderPos(puzzles[last].year) * 100;
-                  return (
-                    <div className="absolute inset-x-0 -top-1 h-4" aria-hidden="true">
-                      <span className="absolute top-1/2 h-0.5 -translate-y-1/2 bg-ink/50" style={{ left: `${Math.min(g, a)}%`, width: `${Math.abs(a - g)}%` }} />
-                      <span className="absolute top-0 h-4 w-4 -translate-x-1/2 rounded-full border-2 border-ink bg-parchment" style={{ left: `${g}%` }} title="Your guess" />
-                      <span className="absolute top-0 h-4 w-4 -translate-x-1/2 rounded-full bg-[var(--color-vermilion)] ring-2 ring-parchment" style={{ left: `${a}%` }} title="The answer" />
-                    </div>
-                  );
-                })()}
+                <GuessMarkers guess={guesses[last]} answer={puzzles[last].year} />
               </EraBar>
               <p className="mt-1 flex gap-4 text-[12px] text-ink/50">
                 <span className="flex items-center gap-1.5"><span className="h-2.5 w-2.5 rounded-full border-2 border-ink" aria-hidden="true" />Your guess</span>

@@ -10,6 +10,11 @@ import {
 } from "@/lib/empireGame";
 import { msUntilNextGame, statsFrom, type PlayerStats } from "@/lib/guessGame";
 import { SNAPSHOT_YEARS } from "@/data/snapshotYears";
+import ResultCard from "@/components/ResultCard";
+import MoreGames from "@/components/MoreGames";
+
+const GREEN = "#2f7d4f";
+const RED = "#b4432f";
 
 // MapLibre needs the browser.
 const EmpireMap = dynamic(() => import("@/components/EmpireMap"), { ssr: false });
@@ -97,7 +102,6 @@ export default function EmpireGame() {
   const [revealed, setRevealed] = useState(false);
   const [loaded, setLoaded] = useState<Loaded | null>(null);
   const [failed, setFailed] = useState(false);
-  const [shared, setShared] = useState<"" | "copied" | "failed">("");
   const [stats, setStats] = useState<PlayerStats | null>(null);
   const [msLeft, setMsLeft] = useState<number | null>(null);
 
@@ -157,119 +161,76 @@ export default function EmpireGame() {
     setSeed(Math.floor(Math.random() * 1e9));
     setResults([]);
     setRevealed(false);
-    setShared("");
   }
 
   function backToDaily() {
     setSeed(null);
     setResults(loadResults(day));
     setRevealed(false);
-    setShared("");
   }
 
   const text = empireShareText(seed === null ? day : null, results);
-
-  async function share() {
-    const touch = typeof window !== "undefined" && window.matchMedia("(pointer: coarse)").matches;
-    if (touch && navigator.share) {
-      try {
-        await navigator.share({ text });
-        return;
-      } catch {
-        // Cancelled or unsupported: fall back to copying.
-      }
-    }
-    await copy();
-  }
-
-  async function copy() {
-    try {
-      await navigator.clipboard.writeText(text);
-      setShared("copied");
-    } catch {
-      setShared("failed");
-    }
-  }
 
   if (finished) {
     const correct = results.filter((r) => r.picked === r.answer).length;
     const rank = empireRank(correct);
     return (
-      <div className="max-w-3xl">
-        <p className="label text-ink/45 mb-3">{seed === null ? `Daily game #${day}` : "Practice game"}</p>
-        <p className="font-display text-6xl sm:text-7xl tracking-tight text-ink tabular-nums">
-          {correct}<span className="text-ink/30 text-3xl sm:text-4xl"> / {EMPIRE_ROUNDS}</span>
-        </p>
-        <p className="mt-4 font-display text-2xl sm:text-3xl text-ink"><span className="italic">{rank.title}.</span> <span className="text-ink/60">{rank.line}</span></p>
+      <div className="max-w-4xl">
+        <ResultCard
+          game="Name the Empire"
+          edition={seed === null ? `Daily #${day}` : "Practice"}
+          score={String(correct)}
+          outOf={`/ ${EMPIRE_ROUNDS}`}
+          rank={rank.title}
+          line={rank.line}
+          tiles={results.map((r) => ({ color: r.picked === r.answer ? GREEN : RED, top: formatYear(r.year), bottom: r.picked === r.answer ? "named it" : "missed" }))}
+          stats={seed === null && stats ? [["Played", stats.played.toLocaleString("en-US")], ["Day streak", stats.streak.toLocaleString("en-US")], ["Best", `${stats.best}/${EMPIRE_ROUNDS}`]] : undefined}
+          text={text}
+          url="bordersoftime.com/play/empire"
+        >
+          <h2 className="font-display text-2xl text-ink">Round by round</h2>
+          <ol className="mt-5 grid gap-4 sm:grid-cols-2">
+            {results.map((r, i) => {
+              const right = r.picked === r.answer;
+              return (
+                <li key={i} className="rounded-lg border border-ink/10 bg-card overflow-hidden">
+                  <span className="block h-1.5" style={{ background: right ? GREEN : RED }} aria-hidden="true" />
+                  <div className="p-5">
+                    <p className="label text-ink/45">Round {i + 1} · {formatYear(r.year)}</p>
+                    <p className="mt-2 font-display text-2xl text-ink">{r.answer}</p>
+                    <p className="mt-1 text-[13.5px] text-ink/55">{right ? "You named it." : `You said ${r.picked}.`}</p>
+                    <Link href={`/place/${r.slug}`} className="mt-3 inline-block font-mono text-[11px] text-ink/45 hover:text-accent">Read its history →</Link>
+                  </div>
+                </li>
+              );
+            })}
+          </ol>
 
-        {seed === null && stats && (
-          <dl className="mt-8 grid grid-cols-3 max-w-md border-y border-ink/10 py-4">
-            {[
-              ["Played", stats.played.toLocaleString("en-US")],
-              ["Day streak", stats.streak.toLocaleString("en-US")],
-              ["Best", `${stats.best}/${EMPIRE_ROUNDS}`],
-            ].map(([k, v]) => (
-              <div key={k}>
-                <dd className="font-display text-3xl text-ink tabular-nums">{v}</dd>
-                <dt className="label text-ink/45 mt-1">{k}</dt>
-              </div>
-            ))}
-          </dl>
-        )}
-
-        <ol className="mt-10 border-t border-ink/80">
-          {results.map((r, i) => {
-            const right = r.picked === r.answer;
-            return (
-              <li key={i} className="grid grid-cols-[1rem_1fr_auto] gap-x-4 items-baseline py-4 border-b border-ink/10">
-                <span className={`w-3 h-3 rounded-sm self-center ${right ? "bg-[#2f7d4f]" : "bg-[#b4432f]"}`} aria-hidden="true" />
-                <span className="min-w-0">
-                  <span className="block font-display text-xl text-ink">{r.answer} <span className="text-ink/40 text-base">· {formatYear(r.year)}</span></span>
-                  <span className="block text-[13px] text-ink/50">{right ? "You got it" : `You picked ${r.picked}`}</span>
-                </span>
-                <Link href={`/place/${r.slug}`} className="font-mono text-[11px] text-ink/40 hover:text-accent">Read about it →</Link>
-              </li>
-            );
-          })}
-        </ol>
-
-        <section className="mt-10" aria-labelledby="share-heading">
-          <h2 id="share-heading" className="font-display text-2xl text-ink">Share your result</h2>
-          <p className="mt-1 text-sm text-ink/55">No names in it, so you won’t spoil anyone’s game.</p>
-          <pre className="mt-4 max-w-md whitespace-pre-wrap rounded-md border border-ink/15 bg-white/50 p-4 font-sans text-[14px] leading-relaxed text-ink/80">{text}</pre>
-          <div className="mt-4 flex flex-wrap items-center gap-3">
-            <button type="button" onClick={share} className="h-12 px-6 rounded-md bg-ink text-parchment text-[15px] font-semibold hover:bg-accent transition-colors">Share</button>
-            <button type="button" onClick={copy} className="h-12 px-6 rounded-md border border-ink/20 text-[15px] text-ink/80 hover:border-accent hover:text-accent transition-colors">Copy text</button>
-            <span className="text-sm text-ink/60" aria-live="polite">
-              {shared === "copied" ? "Copied. Paste it into a message or post." : shared === "failed" ? "Couldn’t copy. Select the text above instead." : ""}
-            </span>
-          </div>
-        </section>
-
-        <section className="mt-12 border-t border-ink/10 pt-8">
-          {seed === null ? (
-            <>
-              <h2 className="font-display text-2xl text-ink">Want to keep playing?</h2>
-              <p className="mt-1 text-[15px] text-ink/60 max-w-xl">
-                Today’s five are done{msLeft !== null && <>, and the next daily game starts in <span className="tabular-nums">{countdown(msLeft)}</span></>}.
-                Until then, play five random rounds as often as you like, or try{" "}
-                <Link href="/play" className="underline underline-offset-4 decoration-ink/25 hover:text-accent">Guess the Year</Link>.
-              </p>
-            </>
-          ) : (
-            <h2 className="font-display text-2xl text-ink">Another round?</h2>
-          )}
-          <div className="mt-5 flex flex-wrap gap-3">
-            <button type="button" onClick={practice} className="h-12 px-6 rounded-md border border-ink/20 text-[15px] text-ink/80 hover:border-accent hover:text-accent transition-colors">
-              {seed === null ? "Play five random rounds" : "Play five more"}
-            </button>
-            {seed !== null && (
-              <button type="button" onClick={backToDaily} className="h-12 px-6 rounded-md border border-ink/20 text-[15px] text-ink/80 hover:border-accent hover:text-accent transition-colors">
-                Back to today’s game
-              </button>
+          <section className="mt-12 border-t border-ink/10 pt-8">
+            {seed === null ? (
+              <>
+                <h2 className="font-display text-2xl text-ink">Want to keep playing?</h2>
+                <p className="mt-1 text-[15px] text-ink/60 max-w-xl">
+                  Today’s five are done{msLeft !== null && <>, and the next daily game starts in <span className="tabular-nums">{countdown(msLeft)}</span></>}.
+                  Until then, play five random rounds as often as you like.
+                </p>
+              </>
+            ) : (
+              <h2 className="font-display text-2xl text-ink">Another round?</h2>
             )}
-          </div>
-        </section>
+            <div className="mt-5 flex flex-wrap gap-3">
+              <button type="button" onClick={practice} className="h-12 px-6 rounded-md border border-ink/20 text-[15px] text-ink/80 hover:border-accent hover:text-accent transition-colors">
+                {seed === null ? "Play five random rounds" : "Play five more"}
+              </button>
+              {seed !== null && (
+                <button type="button" onClick={backToDaily} className="h-12 px-6 rounded-md border border-ink/20 text-[15px] text-ink/80 hover:border-accent hover:text-accent transition-colors">
+                  Back to today’s game
+                </button>
+              )}
+            </div>
+          </section>
+          <MoreGames current="/play/empire" />
+        </ResultCard>
       </div>
     );
   }
