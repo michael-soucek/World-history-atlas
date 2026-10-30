@@ -104,7 +104,7 @@ export async function entityMetadata(
   content: { name: string; summary?: string; tagline?: string; imageUrl?: string },
 ): Promise<Metadata> {
   const { placeDescription } = await import("@/lib/placeMaps");
-  const { contextDescription, entityContext, fmtSpan, storedFacts } = await import("@/lib/entityContext");
+  const { contextDescription, entityContext, fmtSpan, fmtYear, storedFacts } = await import("@/lib/entityContext");
   const { lookupBySlug } = await import("@/data/crosswalk");
   let dates = titleDates(content.tagline, kind === "event");
   // A place's tagline often lacks its dates; the stored Wikidata facts usually have them.
@@ -129,6 +129,11 @@ export async function entityMetadata(
     if (born !== undefined && died !== undefined && died >= born) {
       const approx = meta!.born.startsWith("~") || meta!.died.startsWith("~");
       dates = `${approx ? "c. " : ""}${fmtSpan(born, died)}`;
+    } else if (meta?.wikidata && (born !== undefined || died !== undefined)) {
+      // Only one year is known (a pharaoh's birth, say): show that alone rather
+      // than pair it with a guessed year from Wikidata.
+      const one = (v: string, y: number, word: string) => `${word} ${v.startsWith("~") ? "c. " : ""}${fmtYear(y)}`;
+      dates = died !== undefined ? one(meta.died, died, "d.") : one(meta!.born, born!, "b.");
     }
   }
   // Philosophers are searched for their ideas, not a map.

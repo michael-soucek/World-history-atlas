@@ -10,6 +10,7 @@ import { buildEntityContent } from "@/lib/wikidata";
 import { resolveEntityBySlugOrQid } from "@/lib/entityResolver";
 import { fetchWikipediaSearchSummary } from "@/lib/wikipedia";
 import { entityMetadata } from "@/lib/seo";
+import { getOurArticle } from "@/lib/ourArticles";
 
 interface Props { params: Promise<{ slug: string }> }
 
@@ -56,7 +57,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const r = await resolve(slug);
   // The fallback page (a Wikipedia summary, if any) stays out of search.
   if (!r.content || !r.entry) return { title: "Person not found — Borders of Time", robots: { index: false, follow: true } };
-  return entityMetadata("person", slug, r.content);
+  const meta = entityMetadata("person", slug, r.content);
+  // A person without their own article would show only the cached Wikipedia text: keep them out of search.
+  return getOurArticle("person", slug) ? meta : { ...meta, robots: { index: false, follow: true } };
 }
 
 export default async function PersonPage({ params }: Props) {
