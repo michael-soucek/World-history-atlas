@@ -30,4 +30,4 @@ Zhao Gou escaped to the south and became Emperor Gaozong of what historians call
 
 ## On our maps
 
-Our 1100 map shows the Northern Song and the Liao in northern [China](/country/china) shortly before the Jurchen rise.
+Our 1100 map shows the Northern Song and the Liao in northern [China](/country/china) shortly before the Jurchen rise, and our 1200 map shows the result: the Jin ruling the north down to the Huai River, with the Southern Song beyond it.

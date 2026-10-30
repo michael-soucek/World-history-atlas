@@ -32,4 +32,4 @@ Colonial-era historians such as Robert Sewell, drawing on Firishta, and later In
 
 ## On our maps
 
-Our 1530 map shows Vijayanagara across the south of [India](/country/india), with the sultanates of Bijapur, Ahmadnagar and Golkonda to its north.
+Our 1530 map shows Vijayanagara across the south of [India](/country/india), with the sultanates of Bijapur, Ahmadnagar and Golkonda to its north. Our 1600 map shows the aftermath, with Hampi and the Raichur Doab in Bijapur's hands and a smaller Vijayanagara to the south.
