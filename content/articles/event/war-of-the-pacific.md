@@ -34,4 +34,4 @@ Nitrate taxes swelled Chile's treasury, and the country became the leading milit
 
 ## On our maps
 
-Our 1878 map shows the borders on the eve of the war, with Bolivia still holding a stretch of Pacific coast between Chile and Peru's province of Tarapacá.
+Our 1878 map shows the borders on the eve of the war, with Bolivia still holding a stretch of Pacific coast between Chile and Peru's province of Tarapacá. Our 1900 map shows the result: Chile reaching north to Tacna, and Bolivia cut off from the sea.

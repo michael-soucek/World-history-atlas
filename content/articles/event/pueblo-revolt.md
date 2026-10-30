@@ -34,4 +34,4 @@ After the reconquest, the Spanish granted land to each Pueblo, appointed an offi
 
 ## On our maps
 
-Our 1650 and 1700 maps show New Spain, part of the wider [Spanish Empire](/place/spanish-empire), with the upper Rio Grande left outside its marked borders; our 1715 map shows New Mexico inside New Spain after the reconquest.
+Our 1650 map shows Santa Fe de Nuevo México as a Spanish province beside New Spain, part of the wider [Spanish Empire](/place/spanish-empire), and our 1700 map shows it again after the reconquest of 1692.

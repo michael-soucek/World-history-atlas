@@ -426,4 +426,12 @@ export const BORDER_FIXES: BorderFix[] = [
     why: "Brazil was an independent empire from 1822 to 1889." },
   { years: [1900], op: "rename", match: { name: "Kingdom of Brazil" }, set: { NAME: "Brazil", SUBJECTO: "Brazil" },
     why: "Brazil became a republic in 1889; it had been independent of Portugal since 1822." },
+  // ═══════════════════════════════ Americas: reported by the event writers (2026-10-30)
+
+  { years: [1650, 1700], op: "rename", match: { at: [-106.1, 35.7] }, set: { NAME: "Santa Fe de Nuevo México", SUBJECTO: "Spanish Habsburg" },
+    why: "Spanish New Mexico (capital Santa Fe, founded c. 1610) was a province of New Spain; the map left it unnamed. Lost in the Pueblo Revolt of 1680 and retaken in 1692, so Spanish on both maps." },
+  { years: [1900], op: "assign",
+    area: [[-71.5, -17.7], [-69.8, -17.2], [-69.3, -17.6], [-68.9, -19.0], [-68.5, -19.9], [-68.6, -21.0], [-68.0, -21.5], [-67.6, -22.8], [-67.0, -23.0], [-67.3, -24.0], [-68.3, -25.5], [-68.6, -27.6], [-71.5, -27.6]],
+    from: [{ name: "Peru" }, { name: "Bolivia" }], to: { NAME: "Chile", SUBJECTO: "Chile" },
+    why: "After the War of the Pacific (1879–1884) Chile took Bolivia's coast (Antofagasta) and Peru's Tarapacá, and administered Tacna and Arica (Treaty of Ancón, 1883; truce with Bolivia, 1884). The map still drew the pre-war borders, leaving Bolivia with a coastline. Outline approximate." },
 ];
