@@ -37,7 +37,7 @@ export default function CountriesPage() {
           title={<>The history of <span className="italic">every country</span></>}
           lede="Each country's whole story, from its first peoples to today, with key dates, the empires that held its land, and links to its borders on our maps."
           aside={
-            <nav aria-label="Continents" className="flex flex-wrap lg:justify-end gap-x-5 gap-y-2 font-mono text-[12px] tracking-wide text-ink/50">
+            <nav aria-label="Continents" className="flex flex-wrap lg:justify-end gap-x-5 gap-y-2 font-mono text-[12px] tracking-wide text-ink/68">
               {CONTINENTS.map((c) => (
                 <a key={c.slug} href={`#${c.slug}`} className="hover:text-accent transition-colors">{c.label}</a>
               ))}

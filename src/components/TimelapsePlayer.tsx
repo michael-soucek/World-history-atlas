@@ -48,7 +48,7 @@ function Names({ items, max = SHOW_CHANGES }: { items: TimelapseName[]; max?: nu
           )}
         </span>
       ))}
-      {items.length > max && <span className="text-ink/45"> and {items.length - max} more</span>}
+      {items.length > max && <span className="text-ink/66"> and {items.length - max} more</span>}
     </>
   );
 }
@@ -199,7 +199,7 @@ export default function TimelapsePlayer({ slug, label, bbox, tallBbox, from, to,
       >
         <div ref={box} className="absolute inset-0" />
         {!ready && (
-          <p className="absolute inset-0 flex items-center justify-center font-mono text-[12px] tracking-wide text-ink/50">
+          <p className="absolute inset-0 flex items-center justify-center font-mono text-[12px] tracking-wide text-ink/68">
             {failed ? "The map couldn’t load. Try reloading the page." : `Loading ${(span).toLocaleString("en")} years of borders…`}
           </p>
         )}
@@ -212,10 +212,10 @@ export default function TimelapsePlayer({ slug, label, bbox, tallBbox, from, to,
       </div>
 
       <div className="mt-4 flex items-center gap-1 sm:gap-2">
-        <button type="button" onClick={() => prevEvent !== undefined && go(prevEvent)} disabled={prevEvent === undefined} className="p-2 text-ink/60 hover:text-accent disabled:opacity-30" aria-label="Previous big change">
+        <button type="button" onClick={() => prevEvent !== undefined && go(prevEvent)} disabled={prevEvent === undefined} className="p-2 text-ink/72 hover:text-accent disabled:opacity-30" aria-label="Previous big change">
           <SkipBack size={17} />
         </button>
-        <button type="button" onClick={() => go(step(year, -1))} disabled={year <= from} className="hidden sm:block p-1.5 text-ink/60 hover:text-accent disabled:opacity-30" aria-label="Previous year">
+        <button type="button" onClick={() => go(step(year, -1))} disabled={year <= from} className="hidden sm:block p-1.5 text-ink/72 hover:text-accent disabled:opacity-30" aria-label="Previous year">
           <ChevronLeft size={18} />
         </button>
         <button
@@ -227,10 +227,10 @@ export default function TimelapsePlayer({ slug, label, bbox, tallBbox, from, to,
         >
           {active ? <Pause size={18} /> : <Play size={18} className="ml-0.5" />}
         </button>
-        <button type="button" onClick={() => go(step(year, 1))} disabled={year >= to} className="hidden sm:block p-1.5 text-ink/60 hover:text-accent disabled:opacity-30" aria-label="Next year">
+        <button type="button" onClick={() => go(step(year, 1))} disabled={year >= to} className="hidden sm:block p-1.5 text-ink/72 hover:text-accent disabled:opacity-30" aria-label="Next year">
           <ChevronRight size={18} />
         </button>
-        <button type="button" onClick={() => nextEvent !== undefined && go(nextEvent)} disabled={nextEvent === undefined} className="p-2 text-ink/60 hover:text-accent disabled:opacity-30" aria-label="Next big change">
+        <button type="button" onClick={() => nextEvent !== undefined && go(nextEvent)} disabled={nextEvent === undefined} className="p-2 text-ink/72 hover:text-accent disabled:opacity-30" aria-label="Next big change">
           <SkipForward size={17} />
         </button>
         <div className="relative flex-1 min-w-0 mx-1">
@@ -254,13 +254,13 @@ export default function TimelapsePlayer({ slug, label, bbox, tallBbox, from, to,
         <button
           type="button"
           onClick={() => setSpeed((s) => (s + 1) % SPEEDS.length)}
-          className="font-mono text-[11px] w-14 text-ink/55 hover:text-accent"
+          className="font-mono text-[11px] w-14 text-ink/70 hover:text-accent"
           aria-label={`Speed: ${SPEEDS[speed].label}. Change speed`}
         >
           {SPEEDS[speed].label}
         </button>
       </div>
-      <div className="mt-2 flex justify-between font-mono text-[11px] text-ink/40 tabular-nums">
+      <div className="mt-2 flex justify-between font-mono text-[11px] text-ink/64 tabular-nums">
         <span>{yearParts(from).num} {yearParts(from).era}</span>
         <span className="hidden sm:inline">← → one year · shift for ten · marks show big changes</span>
         <span>{to}</span>
@@ -268,14 +268,14 @@ export default function TimelapsePlayer({ slug, label, bbox, tallBbox, from, to,
 
       <div className="mt-6 grid gap-5 sm:grid-cols-2 text-[15px] leading-relaxed text-ink/70 min-h-[7.5rem]">
         <div>
-          <p className="label text-ink/40 mb-1.5">Largest on the map</p>
+          <p className="label text-ink/64 mb-1.5">Largest on the map</p>
           <p>{leader ? <Names items={leader.largest} max={4} /> : "—"}</p>
         </div>
         {recent && (
           <div>
-            <p className="label text-ink/40 mb-1.5">In {yearParts(recent.year).num} {yearParts(recent.year).era}</p>
-            {recent.appeared.length > 0 && <p><span className="text-ink/45">New: </span><Names items={recent.appeared} /></p>}
-            {recent.gone.length > 0 && <p><span className="text-ink/45">Gone: </span><Names items={recent.gone} /></p>}
+            <p className="label text-ink/64 mb-1.5">In {yearParts(recent.year).num} {yearParts(recent.year).era}</p>
+            {recent.appeared.length > 0 && <p><span className="text-ink/66">New: </span><Names items={recent.appeared} /></p>}
+            {recent.gone.length > 0 && <p><span className="text-ink/66">Gone: </span><Names items={recent.gone} /></p>}
           </div>
         )}
       </div>

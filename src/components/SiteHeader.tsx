@@ -50,7 +50,7 @@ export default function SiteHeader({ tone = "paper" }: { tone?: "paper" | "night
       ? "bg-night text-parchment border-white/10"
       : "bg-gradient-to-b from-night/80 to-night/0 text-parchment border-transparent"
     : "bg-parchment/90 text-ink border-ink/10 backdrop-blur-md backdrop-saturate-150";
-  const navIdle = night ? "text-parchment/60 hover:text-parchment" : "text-ink/55 hover:text-ink";
+  const navIdle = night ? "text-parchment/70 hover:text-parchment" : "text-ink/70 hover:text-ink";
   const navActive = night ? "text-parchment" : "text-ink";
 
   return (
@@ -92,8 +92,8 @@ export default function SiteHeader({ tone = "paper" }: { tone?: "paper" | "night
             href="/search"
             className={`flex items-center gap-2.5 h-9 rounded-md px-2.5 sm:pl-3 sm:pr-2 text-[13px] border transition-colors ${
               night
-                ? "border-white/12 text-parchment/60 hover:text-parchment hover:border-white/25"
-                : "border-ink/12 text-ink/50 hover:text-ink hover:border-ink/25"
+                ? "border-white/12 text-parchment/70 hover:text-parchment hover:border-white/25"
+                : "border-ink/12 text-ink/68 hover:text-ink hover:border-ink/25"
             }`}
             aria-label="Search history"
           >
@@ -104,7 +104,7 @@ export default function SiteHeader({ tone = "paper" }: { tone?: "paper" | "night
           <button
             onClick={() => setOpen(v => !v)}
             className={`md:hidden flex items-center justify-center w-10 h-10 -mr-2 rounded-md transition-colors ${
-              night ? "text-parchment/70 hover:text-parchment" : "text-ink/60 hover:text-ink"
+              night ? "text-parchment/70 hover:text-parchment" : "text-ink/72 hover:text-ink"
             }`}
             aria-label={open ? "Close menu" : "Open menu"}
             aria-expanded={open}

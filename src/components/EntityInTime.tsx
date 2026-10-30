@@ -23,7 +23,7 @@ function Entry({ e }: { e: TimedEntry }) {
   return (
     <>
       <Link href={`/${e.kind}/${e.slug}`} className={link}>{e.name}</Link>
-      {e.start !== undefined && e.end !== undefined ? <span className="text-ink/45"> ({fmtSpan(e.start, e.end)})</span> : null}
+      {e.start !== undefined && e.end !== undefined ? <span className="text-ink/66"> ({fmtSpan(e.start, e.end)})</span> : null}
     </>
   );
 }

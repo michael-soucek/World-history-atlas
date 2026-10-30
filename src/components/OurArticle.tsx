@@ -56,7 +56,7 @@ export default function OurArticle({ article, images = [], name }: { article: Ar
     <section className="mb-14" aria-label="Article">
       <div className="flex items-center gap-4 mb-8 pb-6 border-b border-ink/10">
         <ReadAloudButton text={fullText} />
-        <span className="text-xs text-ink/40">Hear the whole article read aloud</span>
+        <span className="text-xs text-ink/64">Hear the whole article read aloud</span>
       </div>
       {groups.map((g, gi) => {
         if (!g.heading && g.paras.length === 0) return null;
@@ -77,8 +77,8 @@ export default function OurArticle({ article, images = [], name }: { article: Ar
         );
       })}
       {article.sources.length > 0 && (
-        <div className="mt-10 border-t border-ink/10 pt-4 text-xs leading-relaxed text-ink/45">
-          <p className="label !text-[10px] text-ink/40">Sources</p>
+        <div className="mt-10 border-t border-ink/10 pt-4 text-xs leading-relaxed text-ink/66">
+          <p className="label !text-[10px] text-ink/64">Sources</p>
           <ul className="mt-2 space-y-1">
             {article.sources.map((s) => (
               <li key={s.href}>

@@ -98,7 +98,7 @@ export default async function ExplorerPage({ params }: Props) {
           lede={explorer.tagline}
           aside={
             hasVoyages ? (
-              <p className="font-mono text-[12px] tracking-wide text-ink/50 leading-relaxed">
+              <p className="font-mono text-[12px] tracking-wide text-ink/68 leading-relaxed">
                 {voyages.length} voyage{voyages.length !== 1 ? "s" : ""}<br />
                 {voyages.reduce((n, v) => n + v.waypoints.length, 0)} dated stops
               </p>
@@ -110,7 +110,7 @@ export default async function ExplorerPage({ params }: Props) {
         {hasVoyages ? (
           <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-10 sm:pt-14">
             <VoyageMap voyages={voyages} className="h-[30rem] sm:h-[40rem] w-full" />
-            <p className="mt-3 text-[11px] text-ink/40 leading-relaxed max-w-4xl">
+            <p className="mt-3 text-[11px] text-ink/64 leading-relaxed max-w-4xl">
               Route data is compiled in chronological order from Wikipedia&apos;s voyage articles (CC BY-SA),
               cross-checked against primary source narratives and historical records. Waypoints mark approximate
               port, bay, and landfall locations — not survey-grade ship positions — and should be verified
@@ -122,12 +122,12 @@ export default async function ExplorerPage({ params }: Props) {
               {voyages.map((v, i) => (
                 <li key={v.id} className="grid grid-cols-1 lg:grid-cols-12 gap-4 lg:gap-8 py-8 sm:py-10 border-b border-ink/10">
                   <div className="lg:col-span-4">
-                    <p className="flex items-center gap-3 font-mono text-[11px] tracking-wider text-ink/50">
+                    <p className="flex items-center gap-3 font-mono text-[11px] tracking-wider text-ink/68">
                       <span className="w-2.5 h-2.5 rounded-full shrink-0" style={{ backgroundColor: v.color }} aria-hidden="true" />
                       {String(i + 1).padStart(2, "0")} · {v.years}
                     </p>
                     <h3 className="mt-2 font-display text-3xl tracking-tight text-ink">{v.label}</h3>
-                    <p className="mt-1 text-sm text-ink/50">{v.ship} · {v.waypoints.length} stops</p>
+                    <p className="mt-1 text-sm text-ink/68">{v.ship} · {v.waypoints.length} stops</p>
                   </div>
                   <div className="lg:col-span-8">
                     <p className="font-display italic text-xl text-accent leading-snug">{v.purpose}</p>
@@ -135,7 +135,7 @@ export default async function ExplorerPage({ params }: Props) {
                     <div className="mt-3 flex items-start gap-4">
                       <ReadAloudButton text={`${v.label}. ${v.purpose} ${v.summary}`} variant="minimal" className="-ml-3" />
                       {v.accuracyNote && (
-                        <p className="text-xs text-ink/50 leading-relaxed border-l-2 border-accent/40 pl-3 py-1">
+                        <p className="text-xs text-ink/68 leading-relaxed border-l-2 border-accent/40 pl-3 py-1">
                           <span className="font-semibold text-ink/70">On accuracy:</span> {v.accuracyNote}
                         </p>
                       )}
@@ -147,7 +147,7 @@ export default async function ExplorerPage({ params }: Props) {
           </section>
         ) : (
           <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-10">
-            <p className="border-y border-ink/10 py-6 text-ink/60 text-[15px] leading-relaxed max-w-2xl">
+            <p className="border-y border-ink/10 py-6 text-ink/72 text-[15px] leading-relaxed max-w-2xl">
               A full mapped profile of {explorer.name}&apos;s journeys is coming soon. In the meantime, read the
               biography below or explore the{" "}
               <Link href="/theme/age-of-exploration" className="text-accent hover:text-ink underline underline-offset-2">Age of Exploration</Link> hub.
@@ -175,7 +175,7 @@ export default async function ExplorerPage({ params }: Props) {
               {content?.summary && (
                 <div className="flex items-center gap-4 mb-8 pb-6 border-b border-ink/10">
                   <ReadAloudButton text={[content.summary, ...(content.sections?.map(s => s.content) || [])].join(" ")} />
-                  <span className="text-xs text-ink/40">Hear the biography read aloud</span>
+                  <span className="text-xs text-ink/64">Hear the biography read aloud</span>
                 </div>
               )}
               {summaryParas.length > 0 ? (
@@ -191,7 +191,7 @@ export default async function ExplorerPage({ params }: Props) {
                 <p className="font-text text-ink/70 text-lg leading-relaxed">{explorer.tagline}</p>
               )}
               {content?.wikipediaUrl && (
-                <p className="text-xs text-ink/35 mt-6">
+                <p className="text-xs text-ink/64 mt-6">
                   Summary from{" "}
                   <a href={content.wikipediaUrl} target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 hover:text-accent transition-colors">Wikipedia</a>
                   {" "}(CC BY-SA 4.0)
@@ -220,7 +220,7 @@ export default async function ExplorerPage({ params }: Props) {
                 </a>
               )}
               <RelatedResources resourceKey={`explorer:${explorer.slug}`} />
-              <p className="text-[11px] text-ink/35 leading-relaxed">
+              <p className="text-[11px] text-ink/64 leading-relaxed">
                 Structured data:{" "}
                 <a href={`https://www.wikidata.org/wiki/${explorer.wikidataId}`} target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 hover:text-accent transition-colors">
                   Wikidata {explorer.wikidataId}

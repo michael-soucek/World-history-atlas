@@ -61,7 +61,7 @@ export default function ArticleBody({
       {summaryParas.length > 0 && (
         <div className="flex items-center gap-4 mb-8 pb-6 border-b border-ink/10">
           <ReadAloudButton text={[content.summary, ...sections.map((s) => s.content)].join(" ")} />
-          <span className="text-xs text-ink/40">Hear the whole article read aloud</span>
+          <span className="text-xs text-ink/64">Hear the whole article read aloud</span>
         </div>
       )}
 
@@ -82,7 +82,7 @@ export default function ArticleBody({
           </div>
         </div>
       ) : (
-        <p className="font-text text-ink/50 text-lg italic mb-4">
+        <p className="font-text text-ink/68 text-lg italic mb-4">
           No summary available.{" "}
           {content.wikipediaUrl && (
             <a href={content.wikipediaUrl} target="_blank" rel="noopener noreferrer" className="text-accent hover:text-ink underline underline-offset-2 transition-colors not-italic">
@@ -93,7 +93,7 @@ export default function ArticleBody({
       )}
 
       {content.wikipediaUrl && summaryParas.length > 0 && (
-        <p className="text-xs text-ink/35 mb-14">
+        <p className="text-xs text-ink/64 mb-14">
           Summary from{" "}
           <a href={content.wikipediaUrl} target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 hover:text-accent transition-colors">
             Wikipedia
@@ -126,7 +126,7 @@ export default function ArticleBody({
                     />
                   )}
                   <span
-                    className={`${img ? "sm:ml-3 max-sm:ml-auto" : "ml-auto"} group-open:ml-auto shrink-0 w-7 h-7 grid place-items-center rounded-full border border-ink/15 text-ink/45 transition-transform group-open:rotate-45`}
+                    className={`${img ? "sm:ml-3 max-sm:ml-auto" : "ml-auto"} group-open:ml-auto shrink-0 w-7 h-7 grid place-items-center rounded-full border border-ink/15 text-ink/66 transition-transform group-open:rotate-45`}
                     aria-hidden="true"
                   >
                     <svg className="w-3 h-3" viewBox="0 0 12 12" fill="none"><path d="M6 1v10M1 6h10" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" /></svg>
@@ -154,7 +154,7 @@ export default function ArticleBody({
             );
           })}
           {content.wikipediaUrl && (
-            <p className="text-xs text-ink/35 pt-4">
+            <p className="text-xs text-ink/64 pt-4">
               Article sections from{" "}
               <a href={content.wikipediaUrl} target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 hover:text-accent transition-colors">
                 Wikipedia
@@ -176,7 +176,7 @@ export function ImageStrip({ images, name, title = "In pictures" }: { images: Ar
     <section className="mt-16" aria-label={title}>
       <div className="flex items-baseline justify-between mb-5 border-b border-ink/15 pb-3">
         <h2 className="font-display text-2xl tracking-tight text-ink">{title}</h2>
-        <span className="font-mono text-[11px] text-ink/40 tabular-nums">{images.length} images · scroll →</span>
+        <span className="font-mono text-[11px] text-ink/64 tabular-nums">{images.length} images · scroll →</span>
       </div>
       <div className="-mx-1 flex gap-5 overflow-x-auto px-1 pb-3 snap-x">
         {images.map((img) => (

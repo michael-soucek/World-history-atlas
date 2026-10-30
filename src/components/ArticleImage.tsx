@@ -33,11 +33,11 @@ function Credit({ img: raw, className = "" }: { img: ArticleImageData; className
   const img = { ...raw, author: cleanAuthor(raw.author) };
   if (!img.license && !img.author) return null;
   return (
-    <span className={`block text-[11px] leading-snug text-ink/35 ${className}`}>
+    <span className={`block text-[11px] leading-snug text-ink/64 ${className}`}>
       {img.author && <>{img.author} · </>}
       {img.license &&
         (img.licenseUrl ? (
-          <a href={img.licenseUrl} target="_blank" rel="noopener noreferrer license" className="underline underline-offset-2 hover:text-ink/60">
+          <a href={img.licenseUrl} target="_blank" rel="noopener noreferrer license" className="underline underline-offset-2 hover:text-ink/72">
             {img.license}
           </a>
         ) : (
@@ -46,7 +46,7 @@ function Credit({ img: raw, className = "" }: { img: ArticleImageData; className
       {img.sourceUrl && (
         <>
           {" · "}
-          <a href={img.sourceUrl} target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 hover:text-ink/60">
+          <a href={img.sourceUrl} target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 hover:text-ink/72">
             Wikimedia Commons
           </a>
         </>

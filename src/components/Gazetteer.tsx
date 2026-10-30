@@ -33,7 +33,7 @@ export default function Gazetteer({ items, grouped = false }: { items: Gazetteer
     <>
       <nav className="flex flex-wrap gap-x-1 gap-y-2 mb-10 font-mono text-[12px]" aria-label="Jump to letter">
         {[...groups.keys()].map(l => (
-          <a key={l} href={`#letter-${l}`} className="w-7 h-7 grid place-items-center text-ink/55 hover:text-parchment hover:bg-ink transition-colors">
+          <a key={l} href={`#letter-${l}`} className="w-7 h-7 grid place-items-center text-ink/70 hover:text-parchment hover:bg-ink transition-colors">
             {l}
           </a>
         ))}
@@ -55,7 +55,7 @@ export default function Gazetteer({ items, grouped = false }: { items: Gazetteer
 function Row({ item }: { item: GazetteerItem }) {
   if (item.pending) {
     return (
-      <li className="break-inside-avoid flex items-baseline justify-between gap-3 py-2.5 border-b border-ink/10 text-[15px] text-ink/30">
+      <li className="break-inside-avoid flex items-baseline justify-between gap-3 py-2.5 border-b border-ink/10 text-[15px] text-ink/62">
         <span>{item.name}</span>
         <span className="font-mono text-[10px] tracking-wider">SOON</span>
       </li>
@@ -68,7 +68,7 @@ function Row({ item }: { item: GazetteerItem }) {
           <span className="link-draw">{item.name}</span>
         </span>
         {item.meta ? (
-          <span className="shrink-0 font-mono text-[10px] tracking-wide text-ink/40 tabular-nums">{item.meta}</span>
+          <span className="shrink-0 font-mono text-[10px] tracking-wide text-ink/64 tabular-nums">{item.meta}</span>
         ) : (
           <span className="shrink-0 text-ink/20 group-hover:text-accent transition-colors" aria-hidden="true">→</span>
         )}
@@ -81,7 +81,7 @@ function Row({ item }: { item: GazetteerItem }) {
 export function LinkRow({ title, links }: { title: string; links: { href: string; label: string }[] }) {
   return (
     <div className="border-t border-ink/80 pt-5">
-      <p className="label text-ink/45 mb-4">{title}</p>
+      <p className="label text-ink/66 mb-4">{title}</p>
       <ul className="flex flex-wrap gap-x-2 gap-y-1 font-display text-2xl sm:text-3xl tracking-tight leading-snug">
         {links.map((l, i) => (
           <li key={l.href} className="flex items-baseline gap-2">

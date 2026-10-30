@@ -22,7 +22,7 @@ export default function PrivacyPage() {
           <header>
             <p className="label text-accent mb-5">Legal</p>
             <h1 className="font-display font-light text-5xl sm:text-7xl tracking-[-0.035em] leading-[1] text-ink mb-6">Privacy Policy</h1>
-            <p className="text-ink/40 text-sm">Last updated: {LAST_UPDATED}</p>
+            <p className="text-ink/64 text-sm">Last updated: {LAST_UPDATED}</p>
           </header>
 
           <section>

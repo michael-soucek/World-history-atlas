@@ -48,9 +48,9 @@ export default function PhilosophyHub() {
                   {e.live ? (
                     <Link href={`/philosophy/${e.slug}`} className="font-display text-2xl sm:text-3xl tracking-tight text-ink hover:text-accent transition-colors">{e.title}</Link>
                   ) : (
-                    <span className="font-display text-2xl sm:text-3xl tracking-tight text-ink/40">{e.title}</span>
+                    <span className="font-display text-2xl sm:text-3xl tracking-tight text-ink/64">{e.title}</span>
                   )}
-                  <p className="mt-1 font-mono text-[12px] tracking-wide text-ink/45">{e.period}</p>
+                  <p className="mt-1 font-mono text-[12px] tracking-wide text-ink/66">{e.period}</p>
                   <p className="mt-2 text-[15px] text-ink/65 leading-relaxed">{e.blurb}</p>
                 </div>
                 <p className="text-[15px] leading-relaxed text-ink/70 md:pt-1">

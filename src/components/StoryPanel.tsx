@@ -101,10 +101,10 @@ export default function StoryPanel() {
           <h2 className="font-display text-[28px] leading-[1.05] tracking-tight text-ink">
             {displayName}
           </h2>
-          <p className="font-mono text-[11px] tracking-wide text-ink/50 mt-2">
+          <p className="font-mono text-[11px] tracking-wide text-ink/68 mt-2">
             {formatYear(year)}
             {selectedSovereign && selectedSovereign !== displayName && (
-              <> · <span className="text-ink/40">{selectedSovereign}</span></>
+              <> · <span className="text-ink/64">{selectedSovereign}</span></>
             )}
           </p>
         </div>
@@ -112,7 +112,7 @@ export default function StoryPanel() {
           onClick={close}
           aria-label="Close panel"
           className="shrink-0 w-8 h-8 rounded-full flex items-center justify-center
-            text-ink/50 hover:text-ink hover:bg-ink/8 border border-ink/10 transition-colors text-lg"
+            text-ink/68 hover:text-ink hover:bg-ink/8 border border-ink/10 transition-colors text-lg"
         >
           ×
         </button>
@@ -123,7 +123,7 @@ export default function StoryPanel() {
         {loading && <PanelSkeleton />}
 
         {!loading && error && (
-          <div className="p-5 text-ink/55 text-sm">
+          <div className="p-5 text-ink/70 text-sm">
             <p>Could not load content for this region.</p>
             <a
               href={wikiSearchUrl}
@@ -166,7 +166,7 @@ export default function StoryPanel() {
                   />
                 </div>
                 {/* Attribution — required */}
-                <div className="px-5 sm:px-6 py-2 text-[10px] text-ink/40 leading-snug">
+                <div className="px-5 sm:px-6 py-2 text-[10px] text-ink/64 leading-snug">
                   {effectiveContent.imageAuthor && (
                     <span>{effectiveContent.imageAuthor} · </span>
                   )}
@@ -206,15 +206,15 @@ export default function StoryPanel() {
                       : <>The source map names this territory <span className="italic">{displayName}</span> in {formatYear(year)}, but it doesn&rsquo;t have its own page in the atlas yet.</>}
                   </p>
                   {selectedSovereign && selectedSovereign !== displayName && selectedSovereign !== "Unknown" && (
-                    <p className="text-sm text-ink/60">Part of: <span className="text-ink">{selectedSovereign}</span></p>
+                    <p className="text-sm text-ink/72">Part of: <span className="text-ink">{selectedSovereign}</span></p>
                   )}
-                  <p className="text-sm text-ink/55 leading-relaxed">
+                  <p className="text-sm text-ink/70 leading-relaxed">
                     Try another year with the slider, or browse the{" "}
                     <a href="/browse?type=place" className="text-accent underline underline-offset-2 hover:text-ink">places that do have pages</a>.
                   </p>
                 </div>
               ) : (
-                <p className="text-ink/45 text-sm italic">
+                <p className="text-ink/66 text-sm italic">
                   No summary available.
                 </p>
               )}

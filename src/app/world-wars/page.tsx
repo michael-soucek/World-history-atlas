@@ -76,7 +76,7 @@ export default function WorldWarsPage() {
           title={<>Two world wars, <span className="italic">stage by stage</span></>}
           lede="Watch the fronts move. Each stop shades the land each side held at that moment, striped where it was occupied, with arrows for the offensives and a mark for every major battle."
           aside={
-            <p className="font-mono text-[12px] tracking-wide text-ink/50 leading-relaxed">
+            <p className="font-mono text-[12px] tracking-wide text-ink/68 leading-relaxed">
               {tours.length} map tours · {stops} stops<br />{battles} battles marked
             </p>
           }
@@ -105,7 +105,7 @@ export default function WorldWarsPage() {
                   <dl className="lg:col-span-5 border-t border-ink/10 lg:border-t-0 lg:border-l lg:pl-8 pt-5 lg:pt-0 space-y-4">
                     {about.facts.map(([term, value]) => (
                       <div key={term}>
-                        <dt className="label text-ink/40">{term}</dt>
+                        <dt className="label text-ink/64">{term}</dt>
                         <dd className="mt-1 text-[15px] leading-relaxed text-ink/75">{value}</dd>
                       </div>
                     ))}
@@ -119,7 +119,7 @@ export default function WorldWarsPage() {
             );
           })}
 
-          <p className="text-xs text-ink/45 leading-relaxed max-w-3xl">
+          <p className="text-xs text-ink/66 leading-relaxed max-w-3xl">
             Front lines are drawn from standard histories of each campaign and simplified to the main line of
             the fighting on the date given; small pockets, islands and short-lived advances are left out. Borders
             underneath come from the historical-basemaps snapshots for 1914 and 1938.
@@ -143,7 +143,7 @@ function TourStages({ tour }: { tour: Tour }) {
           <span className="block font-display text-2xl sm:text-[32px] leading-tight tracking-tight text-ink group-hover:text-accent transition-colors">
             {tour.title}
           </span>
-          <span className="block mt-2 font-mono text-[11px] tracking-wide text-ink/40">
+          <span className="block mt-2 font-mono text-[11px] tracking-wide text-ink/64">
             {tour.steps.length} stops · about {tour.duration} min · start the tour
           </span>
         </span>
@@ -155,15 +155,15 @@ function TourStages({ tour }: { tour: Tour }) {
           {tour.steps.map((step, i) => (
             <li key={i} id={`${tour.slug}-${i + 1}`} className="border-b border-ink/10">
               <Link href={stopHref(tour, i)} className="group grid grid-cols-[2rem_1fr] sm:grid-cols-[2rem_1fr_auto] items-baseline gap-x-3 py-3">
-                <span className="font-mono text-[11px] text-ink/35 tabular-nums">{String(i + 1).padStart(2, "0")}</span>
+                <span className="font-mono text-[11px] text-ink/64 tabular-nums">{String(i + 1).padStart(2, "0")}</span>
                 <span className="text-[15px] leading-snug text-ink/75 group-hover:text-accent transition-colors">{step.title}</span>
-                <span className="col-start-2 sm:col-start-3 font-mono text-[11px] text-ink/40 tabular-nums">{step.date}</span>
+                <span className="col-start-2 sm:col-start-3 font-mono text-[11px] text-ink/64 tabular-nums">{step.date}</span>
               </Link>
             </li>
           ))}
         </ol>
         <div className="lg:col-span-5">
-          <p className="label text-ink/40">Battles on the map</p>
+          <p className="label text-ink/64">Battles on the map</p>
           <ul className="mt-3 space-y-1.5">
             {battles.map((b) => (
               <li key={b.label} className="text-[14px] leading-snug">

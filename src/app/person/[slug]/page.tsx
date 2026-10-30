@@ -70,14 +70,14 @@ export default async function PersonPage({ params }: Props) {
         <SiteHeader />
         <main className="page-bg min-h-screen">
           <div className="max-w-3xl mx-auto px-6 py-20">
-            <nav className="flex items-center gap-2 text-xs text-ink/35 mb-10" aria-label="Breadcrumb">
+            <nav className="flex items-center gap-2 text-xs text-ink/64 mb-10" aria-label="Breadcrumb">
               <Link href="/browse" className="hover:text-accent/80 transition-colors">Browse</Link>
               <span className="text-ink/20">/</span>
-              <span className="text-ink/55">{displayName}</span>
+              <span className="text-ink/70">{displayName}</span>
             </nav>
             <p className="label text-accent mb-5">Person</p>
             <h1 className="font-display text-5xl sm:text-6xl font-light tracking-tight text-ink leading-tight mb-6">{displayName}</h1>
-            <p className="text-ink/50 text-base leading-relaxed mb-8 max-w-prose">
+            <p className="text-ink/68 text-base leading-relaxed mb-8 max-w-prose">
               {summaryText ? (
                 summaryText
               ) : (

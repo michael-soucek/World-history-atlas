@@ -52,7 +52,7 @@ export default function TimelineClient() {
                 <div className="lg:sticky lg:top-24">
                   <p className="font-display italic text-2xl" style={{ color: hex }}>{ROMAN[index]}</p>
                   <h2 className="mt-2 font-display font-light text-5xl sm:text-6xl tracking-[-0.03em] text-ink">{era.label}</h2>
-                  <p className="mt-3 font-mono text-[12px] tracking-wide text-ink/50 tabular-nums">{fmtRange(era.start, era.end)}</p>
+                  <p className="mt-3 font-mono text-[12px] tracking-wide text-ink/68 tabular-nums">{fmtRange(era.start, era.end)}</p>
                   <p className="mt-5 text-[15px] text-ink/65 leading-relaxed max-w-md">{era.blurb}</p>
                   {art && (
                     <figure className="mt-8 max-w-md">
@@ -66,8 +66,8 @@ export default function TimelineClient() {
                           style={{ objectPosition: art.objectPosition }}
                         />
                       </div>
-                      <figcaption className="mt-2 text-[11px] text-ink/40">
-                        <span className="font-text italic text-[13px] text-ink/60">{art.caption}</span> · {art.credit}
+                      <figcaption className="mt-2 text-[11px] text-ink/64">
+                        <span className="font-text italic text-[13px] text-ink/72">{art.caption}</span> · {art.credit}
                       </figcaption>
                     </figure>
                   )}
@@ -87,8 +87,8 @@ export default function TimelineClient() {
                       <span className="font-display font-light text-4xl sm:text-5xl tracking-[-0.03em] tabular-nums text-ink group-hover:text-accent transition-colors">
                         {Math.abs(year).toLocaleString("en-US")}
                       </span>
-                      <span className="font-mono text-[11px] tracking-wider text-ink/45">{year < 0 ? "BCE" : "CE"}</span>
-                      <span className="ml-auto inline-flex items-center gap-2 text-[13px] text-ink/35 group-hover:text-accent transition-colors">
+                      <span className="font-mono text-[11px] tracking-wider text-ink/66">{year < 0 ? "BCE" : "CE"}</span>
+                      <span className="ml-auto inline-flex items-center gap-2 text-[13px] text-ink/64 group-hover:text-accent transition-colors">
                         <span className="max-sm:hidden">Open map</span>
                         <ArrowRight size={15} className="transition-transform group-hover:translate-x-1" aria-hidden="true" />
                       </span>

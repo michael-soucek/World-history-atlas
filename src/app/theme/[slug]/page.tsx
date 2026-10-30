@@ -258,13 +258,13 @@ export default async function ThemePage({ params }: Props) {
                 {explorers.map((ex) => (
                   <li key={ex.slug} className="border-b border-ink/10">
                     <Link href={`/explorer/${ex.slug}`} className="group flex items-start gap-5 py-6">
-                      <Compass size={20} strokeWidth={1.5} className="text-ink/35 group-hover:text-accent shrink-0 mt-1.5 transition-colors" aria-hidden="true" />
+                      <Compass size={20} strokeWidth={1.5} className="text-ink/64 group-hover:text-accent shrink-0 mt-1.5 transition-colors" aria-hidden="true" />
                       <span className="min-w-0">
-                        <span className="font-mono text-[11px] tracking-wider text-ink/45">
+                        <span className="font-mono text-[11px] tracking-wider text-ink/66">
                           {ex.lifespan} · {ex.status === "full" ? "Route mapped" : "Route coming soon"}
                         </span>
                         <span className="block mt-1 font-display text-2xl tracking-tight text-ink group-hover:text-accent transition-colors">{ex.name}</span>
-                        <span className="block mt-1.5 text-sm text-ink/55 leading-snug">{ex.tagline}</span>
+                        <span className="block mt-1.5 text-sm text-ink/70 leading-snug">{ex.tagline}</span>
                       </span>
                     </Link>
                   </li>

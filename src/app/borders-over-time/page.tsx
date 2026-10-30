@@ -60,7 +60,7 @@ export default function BordersOverTimeHub() {
                     <p className="mt-4 font-display text-2xl tracking-tight text-ink group-hover:text-accent transition-colors">
                       {cap(t.label)}
                     </p>
-                    <p className="mt-1 font-mono text-[11px] tracking-wide text-ink/45">
+                    <p className="mt-1 font-mono text-[11px] tracking-wide text-ink/66">
                       {formatYear(f.from)} to {f.to} · every year · borders change in {f.changes.length}
                     </p>
                     <p className="mt-2 text-[15px] leading-relaxed text-ink/65">{t.intro}</p>

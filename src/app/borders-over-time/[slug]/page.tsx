@@ -45,7 +45,7 @@ function NameList({ items, max }: { items: { name: string; slug?: string }[]; ma
           {it.slug ? <Link href={`/place/${it.slug}`} className="hover:text-accent underline decoration-ink/15 underline-offset-4">{it.name}</Link> : it.name}
         </span>
       ))}
-      {max && items.length > max && <span className="text-ink/40"> and {items.length - max} more</span>}
+      {max && items.length > max && <span className="text-ink/64"> and {items.length - max} more</span>}
     </>
   );
 }
@@ -69,7 +69,7 @@ export default async function TimelapsePage({ params }: Props) {
           title={<>{t.possessive} borders, <span className="italic">{formatYear(facts.from)} to {facts.to}</span></>}
           lede={t.intro}
           aside={
-            <p className="font-mono text-[12px] tracking-wide text-ink/50 leading-relaxed">
+            <p className="font-mono text-[12px] tracking-wide text-ink/68 leading-relaxed">
               every year drawn: {years.toLocaleString("en")} years<br />the borders change in {facts.changes.length} of them
             </p>
           }
@@ -105,8 +105,8 @@ export default async function TimelapsePage({ params }: Props) {
                     {formatYear(e.year)}
                   </Link>
                   <div className="text-[15px] leading-relaxed text-ink/70 space-y-1">
-                    {e.appeared.length > 0 && <p><span className="text-ink/40">New: </span><NameList items={e.appeared} max={8} /></p>}
-                    {e.gone.length > 0 && <p><span className="text-ink/40">Gone: </span><NameList items={e.gone} max={8} /></p>}
+                    {e.appeared.length > 0 && <p><span className="text-ink/64">New: </span><NameList items={e.appeared} max={8} /></p>}
+                    {e.gone.length > 0 && <p><span className="text-ink/64">Gone: </span><NameList items={e.gone} max={8} /></p>}
                   </div>
                 </li>
               ))}
@@ -132,7 +132,7 @@ export default async function TimelapsePage({ params }: Props) {
             </ul>
           </section>
 
-          <p className="text-xs text-ink/45 leading-relaxed max-w-3xl">
+          <p className="text-xs text-ink/66 leading-relaxed max-w-3xl">
             Borders from{" "}
             <a href="https://github.com/Seshat-Global-History-Databank/cliopatria" className="underline underline-offset-2" rel="noopener">Cliopatria</a>{" "}
             by the Seshat Global History Databank, licensed{" "}

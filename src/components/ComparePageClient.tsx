@@ -52,7 +52,7 @@ export default function ComparePageClient({ initial }: { initial: Comparison }) 
       </div>
 
       <section className="mt-12">
-        <p className="label text-ink/45 mb-4">Try a comparison</p>
+        <p className="label text-ink/66 mb-4">Try a comparison</p>
         <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-8">
           {COMPARISONS.map((c) => (
             <li key={c.slug} className="border-b border-ink/10">
@@ -63,7 +63,7 @@ export default function ComparePageClient({ initial }: { initial: Comparison }) 
                 className={`w-full flex items-baseline justify-between gap-3 py-3 text-left text-[15px] transition-colors hover:text-accent ${preset === c.slug ? "text-accent" : "text-ink/80"}`}
               >
                 <span>{c.label}</span>
-                <span className="shrink-0 font-mono text-[10px] tracking-wide text-ink/40 tabular-nums">{fmt(c.left)} / {fmt(c.right)}</span>
+                <span className="shrink-0 font-mono text-[10px] tracking-wide text-ink/64 tabular-nums">{fmt(c.left)} / {fmt(c.right)}</span>
               </button>
             </li>
           ))}
@@ -76,7 +76,7 @@ export default function ComparePageClient({ initial }: { initial: Comparison }) 
 function YearSelect({ label, value, onChange }: { label: string; value: number; onChange: (y: number) => void }) {
   return (
     <label className="block">
-      <span className="label text-ink/45 block mb-1.5">{label}</span>
+      <span className="label text-ink/66 block mb-1.5">{label}</span>
       <select
         value={value}
         onChange={(e) => onChange(Number(e.target.value))}

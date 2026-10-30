@@ -97,7 +97,7 @@ export default function HeroMapPreview() {
         </p>
         <p
           key={`c${current.year}`}
-          className="hidden sm:block mt-4 ml-auto max-w-sm text-sm text-parchment/60 leading-snug animate-[year-in_0.7s_0.08s_cubic-bezier(.2,.7,.2,1)_both]"
+          className="hidden sm:block mt-4 ml-auto max-w-sm text-sm text-parchment/70 leading-snug animate-[year-in_0.7s_0.08s_cubic-bezier(.2,.7,.2,1)_both]"
         >
           {current.caption}.{" "}
           <Link href={`/map?year=${current.year}`} className="pointer-events-auto text-glow hover:text-parchment underline underline-offset-4 decoration-glow/40">
@@ -145,7 +145,7 @@ export default function HeroMapPreview() {
                       </span>
                       <span
                         className={`block pt-2.5 font-mono text-[10px] sm:text-[11px] tracking-wider tabular-nums transition-colors ${
-                          active ? "text-parchment" : "text-parchment/40 group-hover:text-parchment/75"
+                          active ? "text-parchment" : "text-parchment/60 group-hover:text-parchment/75"
                         }`}
                       >
                         {p.era === "BCE" && <span className="sm:hidden">−</span>}

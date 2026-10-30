@@ -142,7 +142,7 @@ export default async function HomePage() {
               <h1 className="font-display font-light text-[44px] leading-[1.02] sm:text-6xl lg:text-[80px] lg:leading-[0.98] tracking-[-0.03em]">
                 Watch the world <span className="italic text-glow">redraw</span> itself.
               </h1>
-              <p className="mt-6 text-base sm:text-lg text-parchment/65 leading-relaxed max-w-md">
+              <p className="mt-6 text-base sm:text-lg text-parchment/72 leading-relaxed max-w-md">
                 Scrub through {SNAPSHOT_YEARS.length} maps from the first cities to today, or{" "}
                 <Link href="/borders-over-time" className="text-parchment underline decoration-glow/50 underline-offset-4 hover:decoration-glow">
                   watch every year since 2000 BCE
@@ -180,7 +180,7 @@ export default async function HomePage() {
               >
                 <dd className="font-display font-light text-5xl sm:text-6xl tracking-tight tabular-nums text-ink">{f.n}</dd>
                 <dt className="mt-3 text-sm font-medium text-ink">{f.l}</dt>
-                <p className="mt-0.5 text-xs text-ink/45">{f.s}</p>
+                <p className="mt-0.5 text-xs text-ink/66">{f.s}</p>
               </div>
             ))}
           </dl>
@@ -221,7 +221,7 @@ export default async function HomePage() {
                     </div>
                     <div className="mt-6 flex items-baseline justify-between gap-4">
                       <span className="label" style={{ color: ERA_HEX[era.label] }}>Age {n}</span>
-                      <span className="font-mono text-[11px] text-ink/45 tabular-nums">
+                      <span className="font-mono text-[11px] text-ink/66 tabular-nums">
                         {finite ? fmt(era.start) : "Before 3000 BCE"}
                         {finite && <> – {isFinite(era.end) ? fmt(era.end) : "today"}</>}
                       </span>
@@ -229,7 +229,7 @@ export default async function HomePage() {
                     <h3 className="mt-2 font-display text-3xl tracking-tight text-ink group-hover:text-accent transition-colors">
                       {era.label}
                     </h3>
-                    <p className="mt-3 text-sm text-ink/60 leading-relaxed line-clamp-3">{era.blurb}</p>
+                    <p className="mt-3 text-sm text-ink/72 leading-relaxed line-clamp-3">{era.blurb}</p>
                   </Link>
                 );
               })}
@@ -309,13 +309,13 @@ export default async function HomePage() {
                         <span className="block font-display text-2xl sm:text-[34px] leading-tight tracking-tight group-hover:text-glow transition-colors">
                           {t.title}
                         </span>
-                        <span className="block mt-1.5 text-sm text-parchment/50 max-w-2xl leading-relaxed">{t.description}</span>
+                        <span className="block mt-1.5 text-sm text-parchment/64 max-w-2xl leading-relaxed">{t.description}</span>
                       </span>
-                      <span className="hidden sm:block font-mono text-[11px] tracking-wider text-parchment/45 tabular-nums text-right">
+                      <span className="hidden sm:block font-mono text-[11px] tracking-wider text-parchment/62 tabular-nums text-right">
                         {fmt(Math.min(...years))} → {fmt(Math.max(...years))}
-                        <span className="block mt-1 text-parchment/30">{t.steps.length} stops · {t.duration} min</span>
+                        <span className="block mt-1 text-parchment/58">{t.steps.length} stops · {t.duration} min</span>
                       </span>
-                      <ArrowUpRight size={20} className="text-parchment/30 group-hover:text-glow group-hover:-translate-y-0.5 group-hover:translate-x-0.5 transition-all justify-self-end" aria-hidden="true" />
+                      <ArrowUpRight size={20} className="text-parchment/58 group-hover:text-glow group-hover:-translate-y-0.5 group-hover:translate-x-0.5 transition-all justify-self-end" aria-hidden="true" />
                     </Link>
                   </li>
                 );
@@ -354,9 +354,9 @@ export default async function HomePage() {
                       />
                     )}
                   </div>
-                  <p className="mt-4 font-mono text-[11px] tracking-wider text-ink/45 tabular-nums">{x.ex.lifespan}</p>
+                  <p className="mt-4 font-mono text-[11px] tracking-wider text-ink/66 tabular-nums">{x.ex.lifespan}</p>
                   <h3 className="mt-1 font-display text-2xl tracking-tight text-ink group-hover:text-accent transition-colors">{x.ex.name}</h3>
-                  <p className="mt-1.5 text-sm text-ink/55 leading-snug line-clamp-2">{x.ex.tagline}</p>
+                  <p className="mt-1.5 text-sm text-ink/70 leading-snug line-clamp-2">{x.ex.tagline}</p>
                 </Link>
               ))}
             </div>
@@ -386,16 +386,16 @@ export default async function HomePage() {
                   <Link href={`/map?year=${y.year}`} className="group flex flex-col h-full p-5 sm:p-7 hover:bg-card transition-colors">
                     <span className="font-display font-light text-5xl sm:text-7xl tracking-[-0.04em] tabular-nums text-ink group-hover:text-accent transition-colors">
                       {Math.abs(y.year)}
-                      <span className="text-[0.3em] italic tracking-normal text-ink/40 ml-1 align-top">{y.year < 0 ? "BCE" : "CE"}</span>
+                      <span className="text-[0.3em] italic tracking-normal text-ink/64 ml-1 align-top">{y.year < 0 ? "BCE" : "CE"}</span>
                     </span>
-                    <span className="mt-3 text-sm text-ink/55 leading-snug">{y.note}</span>
+                    <span className="mt-3 text-sm text-ink/70 leading-snug">{y.note}</span>
                   </Link>
                 </li>
               ))}
             </ul>
 
             {credits.length > 0 && (
-              <details className="group mt-10 text-[12px] text-ink/45">
+              <details className="group mt-10 text-[12px] text-ink/66">
                 <summary className="cursor-pointer list-none inline-flex items-center gap-2 hover:text-ink transition-colors [&::-webkit-details-marker]:hidden">
                   <span className="w-4 h-4 grid place-items-center rounded-full border border-ink/20 text-[10px] transition-transform group-open:rotate-45" aria-hidden="true">+</span>
                   Picture credits
@@ -444,7 +444,7 @@ function SectionHead({
         <h2 className="font-display font-light text-4xl sm:text-5xl lg:text-6xl leading-[1.02] tracking-[-0.03em]">{title}</h2>
       </div>
       <div className="lg:col-span-5 lg:pb-2">
-        <p className={`text-base leading-relaxed max-w-md ${dark ? "text-parchment/60" : "text-ink/60"}`}>{lede}</p>
+        <p className={`text-base leading-relaxed max-w-md ${dark ? "text-parchment/70" : "text-ink/72"}`}>{lede}</p>
         {link && (
           <Link
             href={link.href}

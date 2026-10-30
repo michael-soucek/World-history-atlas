@@ -16,7 +16,7 @@ export default function NotFound() {
           <h1 className="font-display font-light text-6xl sm:text-8xl lg:text-[120px] leading-[0.95] tracking-[-0.04em] text-ink max-w-4xl">
             Here be <span className="italic text-accent">dragons.</span>
           </h1>
-          <p className="mt-8 text-lg text-ink/60 max-w-lg leading-relaxed">
+          <p className="mt-8 text-lg text-ink/72 max-w-lg leading-relaxed">
             This page isn&rsquo;t on any of our maps. It may have moved, or the border it marked has shifted.
           </p>
           <div className="mt-10 flex flex-wrap items-center gap-x-6 gap-y-4">

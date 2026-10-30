@@ -161,7 +161,7 @@ function BrowseByType({ type }: { type: EntityType }) {
           label="Index"
           title={meta.label}
           lede={meta.desc}
-          aside={<p className="font-mono text-[12px] tracking-wide text-ink/50">{items.length} entries</p>}
+          aside={<p className="font-mono text-[12px] tracking-wide text-ink/68">{items.length} entries</p>}
         />
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-14">
           {/* Type switcher */}
@@ -172,7 +172,7 @@ function BrowseByType({ type }: { type: EntityType }) {
                 href={`/browse?type=${t}`}
                 aria-current={t === type ? "page" : undefined}
                 className={`relative shrink-0 whitespace-nowrap text-[15px] pb-4 border-b-2 -mb-px transition-colors ${
-                  t === type ? "text-ink font-medium border-accent" : "text-ink/50 hover:text-ink border-transparent"
+                  t === type ? "text-ink font-medium border-accent" : "text-ink/68 hover:text-ink border-transparent"
                 }`}
               >
                 {TYPE_META[t].label}
@@ -217,7 +217,7 @@ function BrowseHub() {
                     <m.Icon size={22} strokeWidth={1.5} className="text-accent" aria-hidden="true" />
                     <span className="mt-auto pt-10 font-display font-light text-5xl sm:text-6xl tracking-tight tabular-nums text-ink">{counts[t]}</span>
                     <span className="mt-2 font-display text-xl text-ink group-hover:text-accent transition-colors">{m.label}</span>
-                    <span className="mt-1 text-sm text-ink/50 leading-snug">{m.desc}</span>
+                    <span className="mt-1 text-sm text-ink/68 leading-snug">{m.desc}</span>
                   </Link>
                 );
               })}
@@ -231,12 +231,12 @@ function BrowseHub() {
               <Link href="/countries" className="group bg-parchment hover:bg-card p-6 sm:p-8 flex flex-col min-h-[200px] transition-colors">
                 <span className="font-display font-light text-5xl sm:text-6xl tracking-tight tabular-nums text-ink">{publishedCountries().size}</span>
                 <span className="mt-2 font-display text-2xl text-ink group-hover:text-accent transition-colors">Country histories</span>
-                <span className="mt-1 text-sm text-ink/50 leading-snug">The whole history of every country, from its first peoples to today{publishedCountries().size < COUNTRY_LIST.length ? `; ${COUNTRY_LIST.length} in all as they are written` : ""}.</span>
+                <span className="mt-1 text-sm text-ink/68 leading-snug">The whole history of every country, from its first peoples to today{publishedCountries().size < COUNTRY_LIST.length ? `; ${COUNTRY_LIST.length} in all as they are written` : ""}.</span>
               </Link>
               <Link href="/philosophy" className="group bg-parchment hover:bg-card p-6 sm:p-8 flex flex-col min-h-[200px] transition-colors">
                 <span className="font-display font-light text-5xl sm:text-6xl tracking-tight tabular-nums text-ink">{PHILOSOPHY_ERAS.length}</span>
                 <span className="mt-2 font-display text-2xl text-ink group-hover:text-accent transition-colors">History of philosophy</span>
-                <span className="mt-1 text-sm text-ink/50 leading-snug">Every era and tradition, from the first Greek, Indian and Chinese thinkers to the twentieth century.</span>
+                <span className="mt-1 text-sm text-ink/68 leading-snug">Every era and tradition, from the first Greek, Indian and Chinese thinkers to the twentieth century.</span>
               </Link>
             </div>
           </section>
@@ -252,11 +252,11 @@ function BrowseHub() {
                     <Link href={finite ? `/era/${eraSlug(era.label)}` : "/timeline/prehistoric"} className="group flex items-start gap-5 py-6">
                       <span className="w-1 self-stretch shrink-0" style={{ background: ERA_HEX[era.label] }} aria-hidden="true" />
                       <span className="min-w-0">
-                        <span className="font-mono text-[11px] tracking-wider text-ink/45 tabular-nums">
+                        <span className="font-mono text-[11px] tracking-wider text-ink/66 tabular-nums">
                           {["I", "II", "III", "IV", "V", "VI"][i]} · {finite ? `${fmtYear(era.start)} – ${isFinite(era.end) ? fmtYear(era.end) : "today"}` : "before 3000 BCE"}
                         </span>
                         <span className="block mt-1 font-display text-3xl tracking-tight text-ink group-hover:text-accent transition-colors">{era.label}</span>
-                        <span className="block mt-2 text-sm text-ink/55 leading-relaxed line-clamp-2">{era.blurb}</span>
+                        <span className="block mt-2 text-sm text-ink/70 leading-relaxed line-clamp-2">{era.blurb}</span>
                       </span>
                     </Link>
                   </li>
@@ -272,8 +272,8 @@ function BrowseHub() {
               {REGIONS.map((r, i) => (
                 <li key={r.slug} className="border-b border-ink/10">
                   <Link href={`/region/${r.slug}`} className="group flex items-center gap-4 py-5">
-                    <span className="font-mono text-[11px] text-ink/35 tabular-nums w-6">{String(i + 1).padStart(2, "0")}</span>
-                    <r.Icon size={18} strokeWidth={1.5} className="text-ink/40 group-hover:text-accent transition-colors" aria-hidden="true" />
+                    <span className="font-mono text-[11px] text-ink/64 tabular-nums w-6">{String(i + 1).padStart(2, "0")}</span>
+                    <r.Icon size={18} strokeWidth={1.5} className="text-ink/64 group-hover:text-accent transition-colors" aria-hidden="true" />
                     <span className="font-display text-2xl tracking-tight text-ink group-hover:text-accent transition-colors">{r.label}</span>
                     <span className="ml-auto text-ink/20 group-hover:text-accent group-hover:translate-x-1 transition-all" aria-hidden="true">→</span>
                   </Link>
@@ -289,8 +289,8 @@ function BrowseHub() {
               {THEMES.map((t, i) => (
                 <li key={t.slug} className="border-b border-ink/10">
                   <Link href={`/theme/${t.slug}`} className="group flex items-center gap-4 py-5">
-                    <span className="font-mono text-[11px] text-ink/35 tabular-nums w-6">{String(i + 1).padStart(2, "0")}</span>
-                    <t.Icon size={18} strokeWidth={1.5} className="text-ink/40 group-hover:text-accent transition-colors" aria-hidden="true" />
+                    <span className="font-mono text-[11px] text-ink/64 tabular-nums w-6">{String(i + 1).padStart(2, "0")}</span>
+                    <t.Icon size={18} strokeWidth={1.5} className="text-ink/64 group-hover:text-accent transition-colors" aria-hidden="true" />
                     <span className="font-display text-2xl tracking-tight text-ink group-hover:text-accent transition-colors">{t.label}</span>
                     <span className="ml-auto text-ink/20 group-hover:text-accent group-hover:translate-x-1 transition-all" aria-hidden="true">→</span>
                   </Link>

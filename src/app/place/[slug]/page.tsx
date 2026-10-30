@@ -96,15 +96,15 @@ export default async function PlacePage({ params }: Props) {
         <SiteHeader />
         <main className="page-bg min-h-screen">
           <div className="max-w-3xl mx-auto px-6 py-20">
-            <nav className="flex items-center gap-2 text-xs text-ink/35 mb-10" aria-label="Breadcrumb">
+            <nav className="flex items-center gap-2 text-xs text-ink/64 mb-10" aria-label="Breadcrumb">
               <Link href="/browse" className="hover:text-accent/80 transition-colors">Browse</Link>
               <span className="text-ink/20">/</span>
-              <span className="text-ink/55">{displayName}</span>
+              <span className="text-ink/70">{displayName}</span>
             </nav>
             <div className="h-0.5 w-12 rounded-full bg-accent mb-4" aria-hidden="true" />
             <p className="label text-accent mb-5">Place</p>
             <HandwrittenTitle className="font-display text-5xl sm:text-6xl font-light tracking-tight text-ink leading-tight mb-6">{displayName}</HandwrittenTitle>
-            <p className="text-ink/50 text-base leading-relaxed mb-8 max-w-prose">
+            <p className="text-ink/68 text-base leading-relaxed mb-8 max-w-prose">
               {summaryText ? (
                 summaryText
               ) : (
@@ -135,7 +135,7 @@ export default async function PlacePage({ params }: Props) {
               </a>
               <Link
                 href="/map"
-                className="inline-flex items-center gap-2 rounded-sm px-6 py-3 text-sm font-medium border border-paper text-ink/60 hover:text-ink hover:border-accent/40 hover:bg-accent-wash transition-all"
+                className="inline-flex items-center gap-2 rounded-sm px-6 py-3 text-sm font-medium border border-paper text-ink/72 hover:text-ink hover:border-accent/40 hover:bg-accent-wash transition-all"
               >
                 ← Back to the map
               </Link>

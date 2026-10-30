@@ -107,18 +107,18 @@ export default function PlaceOnOurMaps({ slug, name, regionId }: { slug: string;
 
       {area.length > 1 && (
         <figure className="mt-7">
-          <figcaption className="label text-ink/40 !text-[10px] mb-3">Area on each map</figcaption>
+          <figcaption className="label text-ink/64 !text-[10px] mb-3">Area on each map</figcaption>
           <ol className="space-y-1.5">
             {area.map(([year, km2]) => (
               <li key={year} className="grid grid-cols-[5.5rem_1fr] items-center gap-3 text-[13px]">
-                <span className="font-mono text-ink/55 tabular-nums">{fmtYear(year)}</span>
+                <span className="font-mono text-ink/70 tabular-nums">{fmtYear(year)}</span>
                 <span className="flex items-center gap-2 min-w-0">
                   <span
                     className={`h-2 rounded-full ${year === peak.year ? "bg-accent" : "bg-ink/25"}`}
                     style={{ width: `${Math.max(2, (km2 / max) * 100) * 0.7}%` }}
                     aria-hidden="true"
                   />
-                  <span className="text-ink/60 tabular-nums whitespace-nowrap">{formatArea(km2).split(" (")[0]}</span>
+                  <span className="text-ink/72 tabular-nums whitespace-nowrap">{formatArea(km2).split(" (")[0]}</span>
                 </span>
               </li>
             ))}
@@ -131,7 +131,7 @@ export default function PlaceOnOurMaps({ slug, name, regionId }: { slug: string;
           Open the {fmtYear(peak.year)} map →
         </Link>
       </p>
-      <p className="mt-3 text-xs text-ink/45 leading-relaxed">
+      <p className="mt-3 text-xs text-ink/66 leading-relaxed">
         Measured from the historical-basemaps snapshots this atlas uses. Borders in those maps are approximate,
         especially for early periods.
       </p>

@@ -53,7 +53,7 @@ export default function SiteFooter() {
                 Borders <span className="italic">of</span> Time
               </span>
             </Link>
-            <p className="mt-5 text-[15px] text-parchment/60 leading-relaxed max-w-sm">
+            <p className="mt-5 text-[15px] text-parchment/70 leading-relaxed max-w-sm">
               An independent atlas of five thousand years of history, built on open data and kept free for everyone.
             </p>
             <div className="mt-6">
@@ -63,7 +63,7 @@ export default function SiteFooter() {
 
           {COLUMNS.map((col, i) => (
             <nav key={col.title} aria-label={col.title} className={`lg:col-span-2 ${i === 0 ? "lg:col-start-7" : ""}`}>
-              <p className="label text-parchment/40 mb-4">{col.title}</p>
+              <p className="label text-parchment/60 mb-4">{col.title}</p>
               <ul className="space-y-2.5 text-[15px]">
                 {col.links.map((l) => (
                   <li key={l.href}>
@@ -89,7 +89,7 @@ export default function SiteFooter() {
       </div>
 
       <div className="border-t border-white/10">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 flex flex-col lg:flex-row gap-2 lg:justify-between lg:gap-6 text-[12px] text-parchment/45 leading-relaxed">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 flex flex-col lg:flex-row gap-2 lg:justify-between lg:gap-6 text-[12px] text-parchment/62 leading-relaxed">
           <span>Written from credible, cited sources. Contested topics present perspectives, not verdicts.</span>
           <span>Borders from historical-basemaps, GPL-3.0, with our corrections · Text from Wikipedia, CC BY-SA 4.0</span>
           <span>

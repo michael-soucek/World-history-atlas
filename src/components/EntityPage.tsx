@@ -162,7 +162,7 @@ export default async function EntityPage({ content, entry, entityType, baseRoute
     <div className="page-bg min-h-full">
       {/* ── Title ── */}
       <header className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-10 sm:pt-14 pb-10 sm:pb-12">
-        <nav className="label flex items-center gap-2.5 text-ink/40 mb-10 sm:mb-14" aria-label="Breadcrumb">
+        <nav className="label flex items-center gap-2.5 text-ink/64 mb-10 sm:mb-14" aria-label="Breadcrumb">
           <Link href="/browse" className="hover:text-accent transition-colors">Browse</Link>
           <span aria-hidden="true">/</span>
           <Link href={browsePath} className="hover:text-accent transition-colors">{TYPE_PLURAL[entityType]}</Link>
@@ -179,7 +179,7 @@ export default async function EntityPage({ content, entry, entityType, baseRoute
             </h1>
           </div>
           {content.tagline && content.tagline !== TYPE_LABELS[entityType] && (
-            <p className="lg:col-span-3 lg:text-right font-mono text-[12px] tracking-wide text-ink/55 leading-relaxed lg:pb-3">
+            <p className="lg:col-span-3 lg:text-right font-mono text-[12px] tracking-wide text-ink/70 leading-relaxed lg:pb-3">
               {content.tagline}
             </p>
           )}
@@ -199,7 +199,7 @@ export default async function EntityPage({ content, entry, entityType, baseRoute
           <dl className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 border-t border-ink/80">
             {facts.slice(0, 6).map((fact) => (
               <div key={fact.label} className="pt-4 pb-5 pr-4 border-b border-ink/10">
-                <dt className="label text-ink/40 !text-[10px]">{fact.label}</dt>
+                <dt className="label text-ink/64 !text-[10px]">{fact.label}</dt>
                 <dd className="mt-2 font-display text-lg leading-snug text-ink first-letter:uppercase">
                   {fact.url
                     ? <a href={fact.url} className="hover:text-accent underline underline-offset-4 decoration-ink/20 transition-colors">{fact.value}</a>
@@ -261,7 +261,7 @@ export default async function EntityPage({ content, entry, entityType, baseRoute
               <dl className="space-y-4">
                 {facts.slice(6).map((fact) => (
                   <div key={fact.label}>
-                    <dt className="label text-ink/40 !text-[10px]">{fact.label}</dt>
+                    <dt className="label text-ink/64 !text-[10px]">{fact.label}</dt>
                     <dd className="mt-1 text-sm text-ink/80 leading-snug">{fact.value}</dd>
                   </div>
                 ))}
@@ -278,7 +278,7 @@ export default async function EntityPage({ content, entry, entityType, baseRoute
 
             <AdSlot id="entity-sidebar" format="rectangle" />
 
-            <p className="text-[11px] text-ink/35 leading-relaxed">
+            <p className="text-[11px] text-ink/64 leading-relaxed">
               Structured data:{" "}
               <a href={`https://www.wikidata.org/wiki/${entry.wikidataId}`} target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 hover:text-accent transition-colors">
                 Wikidata {entry.wikidataId}
@@ -298,7 +298,7 @@ function EventTourLinks({ slug }: { slug: string }) {
   if (!tours.length) return null;
   return (
     <div>
-      <p className="label text-ink/40 !text-[10px] mb-2">On the map, stage by stage</p>
+      <p className="label text-ink/64 !text-[10px] mb-2">On the map, stage by stage</p>
       <ul className="space-y-1.5">
         {tours.map((t) => (
           <li key={t.slug}>
@@ -322,7 +322,7 @@ function PlaceCrossLinks({ entry, name }: { entry: CrosswalkEntry; name: string 
     <div className="space-y-6">
       {tours.length > 0 && (
         <div>
-          <p className="label text-ink/40 !text-[10px] mb-2">Guided tours</p>
+          <p className="label text-ink/64 !text-[10px] mb-2">Guided tours</p>
           <ul className="space-y-1.5">
             {tours.map((t) => (
               <li key={t.slug}>
@@ -334,7 +334,7 @@ function PlaceCrossLinks({ entry, name }: { entry: CrosswalkEntry; name: string 
       )}
       {cities.length > 0 && (
         <div>
-          <p className="label text-ink/40 !text-[10px] mb-2">Cities {name} held</p>
+          <p className="label text-ink/64 !text-[10px] mb-2">Cities {name} held</p>
           <p className="text-sm leading-relaxed">
             {cities.map((c, i) => (
               <span key={c.slug}>

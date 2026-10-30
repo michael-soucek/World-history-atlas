@@ -84,12 +84,12 @@ export default async function PhilosophyEraPage({ params }: Props) {
           <aside className="space-y-12">
             {thinkers.length > 0 && (
               <section aria-labelledby="thinkers">
-                <h2 id="thinkers" className="label text-ink/45 mb-4">Philosophers of this era</h2>
+                <h2 id="thinkers" className="label text-ink/66 mb-4">Philosophers of this era</h2>
                 <ol className="divide-y divide-ink/10 border-y border-ink/10">
                   {thinkers.map((t) => (
                     <li key={t.href} className="py-2.5 flex items-baseline justify-between gap-3">
                       <Link href={t.href} className="text-[16px] text-ink hover:text-accent transition-colors">{t.name}</Link>
-                      {t.born !== undefined && <span className="font-mono text-[11px] text-ink/40 tabular-nums whitespace-nowrap">b. {fmtYear(t.born)}</span>}
+                      {t.born !== undefined && <span className="font-mono text-[11px] text-ink/64 tabular-nums whitespace-nowrap">b. {fmtYear(t.born)}</span>}
                     </li>
                   ))}
                 </ol>
@@ -98,12 +98,12 @@ export default async function PhilosophyEraPage({ params }: Props) {
             <RelatedResources resourceKey={`philosophy:${slug}`} />
             {article.timeline.length > 0 && (
               <section aria-labelledby="key-dates" className="lg:sticky lg:top-24">
-                <h2 id="key-dates" className="label text-ink/45 mb-4">Key dates</h2>
+                <h2 id="key-dates" className="label text-ink/66 mb-4">Key dates</h2>
                 <ol className="border-l border-ink/15">
                   {article.timeline.map((d, k) => (
                     <li key={k} className="relative pl-5 pb-4 last:pb-0">
                       <span className="absolute -left-[4px] top-[7px] w-[7px] h-[7px] rounded-full bg-accent" aria-hidden="true" />
-                      <span className="block font-mono text-[12px] tracking-wide text-ink/55 tabular-nums">{fmtYear(d.year)}</span>
+                      <span className="block font-mono text-[12px] tracking-wide text-ink/70 tabular-nums">{fmtYear(d.year)}</span>
                       <span className="block text-[14px] leading-snug text-ink/80">{d.text}</span>
                     </li>
                   ))}
@@ -119,16 +119,16 @@ export default async function PhilosophyEraPage({ params }: Props) {
             <div className="grid sm:grid-cols-2 gap-6">
               {prev ? (
                 <Link href={`/philosophy/${prev.slug}`} className="group block border border-ink/15 rounded-md p-5 hover:border-accent transition-colors">
-                  <span className="label text-ink/40">← Before</span>
+                  <span className="label text-ink/64">← Before</span>
                   <span className="block mt-1 font-display text-2xl text-ink group-hover:text-accent">{prev.title}</span>
-                  <span className="block text-sm text-ink/50">{prev.period}</span>
+                  <span className="block text-sm text-ink/68">{prev.period}</span>
                 </Link>
               ) : <span />}
               {next && (
                 <Link href={`/philosophy/${next.slug}`} className="group block border border-ink/15 rounded-md p-5 hover:border-accent transition-colors sm:text-right">
-                  <span className="label text-ink/40">After →</span>
+                  <span className="label text-ink/64">After →</span>
                   <span className="block mt-1 font-display text-2xl text-ink group-hover:text-accent">{next.title}</span>
-                  <span className="block text-sm text-ink/50">{next.period}</span>
+                  <span className="block text-sm text-ink/68">{next.period}</span>
                 </Link>
               )}
             </div>

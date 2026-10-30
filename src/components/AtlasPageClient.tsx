@@ -16,7 +16,7 @@ const AtlasMap = dynamic(() => import("./AtlasMap"), {
   ssr: false,
   loading: () => (
     <div className="absolute inset-0 bg-[#cdd9e5] flex items-center justify-center">
-      <span className="font-mono text-[11px] tracking-widest uppercase text-ink/40 animate-pulse">Unrolling the map…</span>
+      <span className="font-mono text-[11px] tracking-widest uppercase text-ink/64 animate-pulse">Unrolling the map…</span>
     </div>
   ),
 });
@@ -117,7 +117,7 @@ export default function AtlasPageClient({
           { href: "/browse", label: "Browse" },
           { href: "/search", label: "Search" },
         ].map(l => (
-          <Link key={l.href} href={l.href} className="h-9 px-2.5 sm:px-3 grid place-items-center rounded text-[13px] text-parchment/65 hover:text-parchment hover:bg-white/8 transition-colors">
+          <Link key={l.href} href={l.href} className="h-9 px-2.5 sm:px-3 grid place-items-center rounded text-[13px] text-parchment/72 hover:text-parchment hover:bg-white/8 transition-colors">
             {l.label}
           </Link>
         ))}

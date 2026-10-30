@@ -54,7 +54,7 @@ export default async function MapPage({ searchParams }: Props) {
     <Suspense
       fallback={
         <div className="w-full h-svh bg-[#cdd9e5] flex items-center justify-center">
-          <span className="font-mono text-[11px] tracking-widest uppercase text-ink/40 animate-pulse">Unrolling the map…</span>
+          <span className="font-mono text-[11px] tracking-widest uppercase text-ink/64 animate-pulse">Unrolling the map…</span>
         </div>
       }
     >

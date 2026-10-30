@@ -32,7 +32,7 @@ export function ReadAloudButton({
         onClick={isSpeaking ? pause : play}
         className={`flex items-center justify-center transition-all duration-200 group active:scale-95 cursor-pointer
           ${isMinimal 
-            ? "p-2 min-w-11 min-h-11 rounded-md text-ink/35 hover:text-accent hover:bg-accent/6"
+            ? "p-2 min-w-11 min-h-11 rounded-md text-ink/64 hover:text-accent hover:bg-accent/6"
             : "gap-2 h-9 px-3.5 rounded-md text-ink/75 hover:text-accent border border-ink/15 hover:border-accent/40 text-[13px] font-medium"
           }
           ${(isSpeaking || isPaused) ? activeClassName : ""}
@@ -55,7 +55,7 @@ export function ReadAloudButton({
       {(isSpeaking || isPaused) && (
         <button
           onClick={stop}
-          className={`${isMinimal ? "p-2 min-w-11 min-h-11" : "p-1.5"} flex items-center justify-center shrink-0 rounded-md bg-ink/4 hover:bg-ink/8 text-ink/30 hover:text-ink/60 
+          className={`${isMinimal ? "p-2 min-w-11 min-h-11" : "p-1.5"} flex items-center justify-center shrink-0 rounded-md bg-ink/4 hover:bg-ink/8 text-ink/62 hover:text-ink/72 
                      border border-transparent hover:border-ink/10 transition-colors cursor-pointer`}
           aria-label="Stop reading"
         >

@@ -77,7 +77,7 @@ export default function SupportNudge({ where, trigger }: SupportNudgeProps) {
           setVisible(false);
         }}
         aria-label="Dismiss"
-        className="absolute top-2.5 right-2.5 rounded-full p-1.5 text-ink/35 hover:text-ink hover:bg-ink/5 transition-colors"
+        className="absolute top-2.5 right-2.5 rounded-full p-1.5 text-ink/64 hover:text-ink hover:bg-ink/5 transition-colors"
       >
         <X size={16} aria-hidden="true" />
       </button>

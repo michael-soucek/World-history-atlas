@@ -210,7 +210,7 @@ export default function QuickAnswers(
   if (items.length < 2) return null;
   return (
     <section className="mb-14" aria-labelledby="quick-answers">
-      <h2 id="quick-answers" className="label text-ink/45 mb-4">Quick answers</h2>
+      <h2 id="quick-answers" className="label text-ink/66 mb-4">Quick answers</h2>
       <dl className="divide-y divide-ink/10 border-y border-ink/10">
         {items.map(({ q, a }) => (
           <div key={q} className="py-4">

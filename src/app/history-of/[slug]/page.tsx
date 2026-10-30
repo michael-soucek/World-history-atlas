@@ -132,7 +132,7 @@ export default async function CityHistoryPage({ params }: Props) {
               {spans.map((s) => <SpanRow key={s.from} city={city} span={s} />)}
             </ol>
             <CityAnswers city={city} spans={spans} />
-            <p className="mt-10 max-w-3xl text-sm text-ink/50 leading-relaxed">
+            <p className="mt-10 max-w-3xl text-sm text-ink/68 leading-relaxed">
               Dates are the years of our map snapshots, which are decades or centuries apart, so a change
               shown between two years happened at some point in that gap. The borders come from the
               historical-basemaps project and are approximate, especially for the ancient world and for
@@ -166,7 +166,7 @@ function SpanRow({ city, span }: { city: City; span: RulerSpan }) {
   const years = `${formatYear(span.from)} – ${span.to === null ? "today" : formatYear(span.to)}`;
   return (
     <li className="grid grid-cols-[7.5rem_1fr] sm:grid-cols-[11rem_1fr_auto] gap-x-6 items-baseline py-4 border-b border-ink/10">
-      <span className="font-mono text-[12px] tracking-wide text-ink/50 tabular-nums">{years}</span>
+      <span className="font-mono text-[12px] tracking-wide text-ink/68 tabular-nums">{years}</span>
       <span className="min-w-0">
         {span.name ? (
           span.href ? (
@@ -177,13 +177,13 @@ function SpanRow({ city, span }: { city: City; span: RulerSpan }) {
             <span className="font-display text-xl sm:text-2xl tracking-tight text-ink">{span.name}</span>
           )
         ) : (
-          <span className="text-[15px] italic text-ink/40">No state drawn here on the map</span>
+          <span className="text-[15px] italic text-ink/64">No state drawn here on the map</span>
         )}
-        {span.sovereign && <span className="block text-[13px] text-ink/50 mt-0.5">under {span.sovereign}</span>}
+        {span.sovereign && <span className="block text-[13px] text-ink/68 mt-0.5">under {span.sovereign}</span>}
       </span>
       <Link
         href={mapHref(city, span.from)}
-        className="col-start-2 sm:col-start-auto mt-1 sm:mt-0 font-mono text-[11px] tracking-wide text-ink/40 hover:text-accent transition-colors"
+        className="col-start-2 sm:col-start-auto mt-1 sm:mt-0 font-mono text-[11px] tracking-wide text-ink/64 hover:text-accent transition-colors"
       >
         Map of {formatYear(span.from)} →
       </Link>
@@ -250,7 +250,7 @@ function CityAnswers({ city, spans }: { city: City; spans: RulerSpan[] }) {
   }
   return (
     <section className="mt-14 max-w-3xl" aria-labelledby="city-answers">
-      <h2 id="city-answers" className="label text-ink/45 mb-4">Quick answers</h2>
+      <h2 id="city-answers" className="label text-ink/66 mb-4">Quick answers</h2>
       <dl className="divide-y divide-ink/10 border-y border-ink/10">
         {items.map(({ q, a }) => (
           <div key={q} className="py-4">
@@ -292,7 +292,7 @@ function Connections({
       <dl className="space-y-5">
         {shown.map(([title, items]) => (
           <div key={title}>
-            <dt className="label text-ink/40">{title}</dt>
+            <dt className="label text-ink/64">{title}</dt>
             <dd className="mt-1.5 text-[16px] leading-relaxed text-ink/75">
               {items.map((item, i) => (
                 <span key={i}>{i > 0 && (i === items.length - 1 ? " and " : ", ")}{item}</span>
@@ -309,7 +309,7 @@ function EntryLink({ e }: { e: TimedEntry }) {
   return (
     <>
       <Link href={`/${e.kind}/${e.slug}`} className={textLink}>{e.name}</Link>
-      {e.start !== undefined && e.end !== undefined ? <span className="text-ink/45"> ({fmtSpan(e.start, e.end)})</span> : null}
+      {e.start !== undefined && e.end !== undefined ? <span className="text-ink/66"> ({fmtSpan(e.start, e.end)})</span> : null}
     </>
   );
 }

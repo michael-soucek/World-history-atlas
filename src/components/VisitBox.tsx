@@ -7,11 +7,11 @@ import { gygSearchUrl } from "@/data/visit";
 export default function VisitBox({ place, query = place, what }: { place: string; query?: string; what: string }) {
   return (
     <section className="max-w-3xl rounded-md border border-paper bg-card p-5 sm:p-6" aria-labelledby="visit-today">
-      <p className="label text-ink/45">Visit today</p>
+      <p className="label text-ink/66">Visit today</p>
       <h2 id="visit-today" className="mt-2 font-display text-2xl sm:text-[1.7rem] leading-tight text-ink">
         See {place} for yourself
       </h2>
-      <p className="mt-2 text-[15px] text-ink/60 leading-relaxed">{what}</p>
+      <p className="mt-2 text-[15px] text-ink/72 leading-relaxed">{what}</p>
       <a
         href={gygSearchUrl(query)}
         target="_blank"
@@ -21,9 +21,9 @@ export default function VisitBox({ place, query = place, what }: { place: string
         Tours and tickets in {place}
         <span className="transition-transform group-hover:translate-x-0.5" aria-hidden="true">→</span>
       </a>
-      <p className="mt-3 text-ink/30 text-[11px] leading-relaxed">
+      <p className="mt-3 text-ink/62 text-[11px] leading-relaxed">
         On GetYourGuide. We may earn a commission if you book. See our{" "}
-        <a href="/terms" className="underline underline-offset-2 hover:text-ink/50 transition-colors">disclosure</a>.
+        <a href="/terms" className="underline underline-offset-2 hover:text-ink/68 transition-colors">disclosure</a>.
       </p>
     </section>
   );

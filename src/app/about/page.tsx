@@ -83,7 +83,7 @@ export default function AboutPage() {
             </p>
             <div className="rounded-md bg-card border border-paper p-5 space-y-2">
               <h3 className="text-ink font-medium">Precision levels</h3>
-              <ul className="space-y-1.5 text-ink/60">
+              <ul className="space-y-1.5 text-ink/72">
                 <li>
                   <span className="text-accent/80 font-mono">1 — Approximate:</span>{" "}
                   border shown with a blurred/soft edge; location is uncertain.
@@ -98,14 +98,14 @@ export default function AboutPage() {
                 </li>
               </ul>
             </div>
-            <p className="text-ink/50 text-xs">
+            <p className="text-ink/68 text-xs">
               <strong className="text-ink/70">Important:</strong> the slider snaps to years
               where sourced data actually exists. No borders are interpolated between data points.
               A steady map between ticks reflects our data&rsquo;s resolution, not history standing still.
             </p>
             <div className="rounded-md bg-accent-wash border border-accent/20 p-5 space-y-2">
               <h3 className="text-accent font-medium text-sm">Known data limitations</h3>
-              <ul className="space-y-2 text-ink/55 text-xs leading-relaxed">
+              <ul className="space-y-2 text-ink/70 text-xs leading-relaxed">
                 <li>
                   <span className="text-ink/70 font-medium">55 border maps</span> — 54 from
                   historical-basemaps plus a 1985 map we built from its 1960 and 1994 files. The
@@ -310,11 +310,11 @@ export default function AboutPage() {
         </section>
 
         <footer className="pt-4 border-t border-paper">
-          <p className="text-ink/30 text-xs">
+          <p className="text-ink/62 text-xs">
             Borders of Time v1 · Built with{" "}
-            <a href="https://nextjs.org" target="_blank" rel="noopener noreferrer" className="underline hover:text-ink/50">Next.js</a>
+            <a href="https://nextjs.org" target="_blank" rel="noopener noreferrer" className="underline hover:text-ink/68">Next.js</a>
             {" "}and{" "}
-            <a href="https://maplibre.org" target="_blank" rel="noopener noreferrer" className="underline hover:text-ink/50">MapLibre GL JS</a>.
+            <a href="https://maplibre.org" target="_blank" rel="noopener noreferrer" className="underline hover:text-ink/68">MapLibre GL JS</a>.
           </p>
         </footer>
       </div>
@@ -355,7 +355,7 @@ function BorderCorrections() {
           <details key={year} className="group border-b border-ink/10">
             <summary className="cursor-pointer list-none flex items-baseline justify-between gap-4 py-3 [&::-webkit-details-marker]:hidden">
               <span className="font-display text-lg text-ink">{fmtYear(year)}</span>
-              <span className="font-mono text-[11px] text-ink/45">{byYear.get(year)!.length} ▾</span>
+              <span className="font-mono text-[11px] text-ink/66">{byYear.get(year)!.length} ▾</span>
             </summary>
             <ul className="pb-4 space-y-2 text-ink/70 text-sm leading-relaxed list-disc pl-5">
               {[...new Set(byYear.get(year))].map((why) => <li key={why}>{why}</li>)}

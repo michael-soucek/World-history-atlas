@@ -115,7 +115,7 @@ export default function TimeSlider() {
             </p>
             <div className="pb-1 min-w-0">
               <p className="font-display italic text-lg sm:text-xl text-parchment/80 leading-tight">{era}</p>
-              <p className="font-mono text-[10px] sm:text-[11px] tracking-wider text-parchment/40 mt-0.5 truncate">
+              <p className="font-mono text-[10px] sm:text-[11px] tracking-wider text-parchment/60 mt-0.5 truncate">
                 Borders from the {formatYear(snapshotYear)} map
               </p>
             </div>
@@ -211,7 +211,7 @@ export default function TimeSlider() {
                 type="button"
                 onClick={() => setYear(posToYear((b.left + b.width / 2) / 100))}
                 className={`absolute -translate-x-1/2 font-mono text-[10px] tracking-wider uppercase whitespace-nowrap transition-colors ${
-                  b.label === era ? "text-glow" : "text-parchment/40 hover:text-parchment/80"
+                  b.label === era ? "text-glow" : "text-parchment/60 hover:text-parchment/80"
                 }`}
                 style={{ left: `${b.left + b.width / 2}%` }}
               >

@@ -175,7 +175,7 @@ export default function WhichFirstGame() {
           return (
             <div key={e?.id ?? i} className="contents">
               {i === 1 && (
-                <div className="flex items-center justify-center font-display italic text-2xl text-ink/55" aria-hidden="true">or</div>
+                <div className="flex items-center justify-center font-display italic text-2xl text-ink/70" aria-hidden="true">or</div>
               )}
               <button
                 type="button"

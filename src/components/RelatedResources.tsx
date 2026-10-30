@@ -11,7 +11,7 @@ export default function RelatedResources({ resourceKey }: { resourceKey: string 
 
   return (
     <div className="rounded-md border border-paper bg-card p-5 space-y-3">
-      <p className="label text-ink/45">
+      <p className="label text-ink/66">
         Further reading
       </p>
       <div className="space-y-3">
@@ -19,9 +19,9 @@ export default function RelatedResources({ resourceKey }: { resourceKey: string 
           <ResourceCard key={r.title} resource={r} />
         ))}
       </div>
-      <p className="text-ink/25 text-[11px] leading-relaxed pt-1">
+      <p className="text-ink/62 text-[11px] leading-relaxed pt-1">
         Some links may be affiliate links. See our{" "}
-        <a href="/terms" className="underline underline-offset-2 hover:text-ink/45 transition-colors">
+        <a href="/terms" className="underline underline-offset-2 hover:text-ink/66 transition-colors">
           disclosure
         </a>
         .

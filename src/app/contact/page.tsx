@@ -46,7 +46,7 @@ export default function ContactPage() {
             {REASONS.map((r) => (
               <div key={r.title} className="rounded-md bg-card border border-paper p-5">
                 <h2 className="text-ink font-medium mb-1.5">{r.title}</h2>
-                <p className="text-ink/55 text-sm leading-relaxed">{r.body}</p>
+                <p className="text-ink/70 text-sm leading-relaxed">{r.body}</p>
               </div>
             ))}
           </section>
@@ -58,7 +58,7 @@ export default function ContactPage() {
             >
               {CONTACT_EMAIL}
             </a>
-            <p className="mt-4 text-ink/40 text-xs leading-relaxed">
+            <p className="mt-4 text-ink/64 text-xs leading-relaxed">
               I read every message but can&rsquo;t promise a fast reply. For data corrections,
               you can also contribute directly upstream — see the sources listed on{" "}
               <Link href="/about" className="text-accent hover:text-accent/80 underline">

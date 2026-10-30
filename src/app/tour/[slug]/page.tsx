@@ -145,8 +145,8 @@ function TourTranscript({ tour }: { tour: Tour }) {
       <details className="group border-t border-ink/80">
         <summary className="cursor-pointer list-none flex items-center justify-between gap-4 py-5 [&::-webkit-details-marker]:hidden">
           <span className="font-display text-2xl tracking-tight text-ink">Read the whole tour</span>
-          <span className="font-mono text-[11px] tracking-wide text-ink/45 group-open:hidden">{tour.steps.length} stops ▾</span>
-          <span className="font-mono text-[11px] tracking-wide text-ink/45 hidden group-open:inline">Close ▴</span>
+          <span className="font-mono text-[11px] tracking-wide text-ink/66 group-open:hidden">{tour.steps.length} stops ▾</span>
+          <span className="font-mono text-[11px] tracking-wide text-ink/66 hidden group-open:inline">Close ▴</span>
         </summary>
         <ol className="pb-4">
           {tour.steps.map((step, i) => (
@@ -157,8 +157,8 @@ function TourTranscript({ tour }: { tour: Tour }) {
               <h2 className="mt-1 font-display text-xl sm:text-2xl tracking-tight text-ink">{step.title}</h2>
               <p className="mt-2 max-w-3xl text-[16px] leading-relaxed text-ink/75">{step.text}</p>
               {step.markers?.some((m) => m.kind === "battle") ? (
-                <p className="mt-2 max-w-3xl text-[14px] leading-relaxed text-ink/55">
-                  <span className="label text-ink/40 !text-[10px] mr-2">Battles</span>
+                <p className="mt-2 max-w-3xl text-[14px] leading-relaxed text-ink/70">
+                  <span className="label text-ink/64 !text-[10px] mr-2">Battles</span>
                   {step.markers.filter((m) => m.kind === "battle").map((m) => m.label).join(" · ")}
                 </p>
               ) : null}
@@ -206,7 +206,7 @@ async function InThisTour({ tour }: { tour: Tour }) {
         <dl className="mt-5 space-y-5">
           {shown.map(([title, items]) => (
             <div key={title}>
-              <dt className="label text-ink/40">{title}</dt>
+              <dt className="label text-ink/64">{title}</dt>
               <dd className="mt-1.5 text-[15px] leading-relaxed text-ink/75">
                 {items.map((item, i) => <span key={i}>{i > 0 && " · "}{item}</span>)}
               </dd>
@@ -224,7 +224,7 @@ function EntryLink({ e }: { e: TimedEntry }) {
   return (
     <>
       <Link href={`/${e.kind}/${e.slug}`} className={linkClass}>{e.name}</Link>
-      {e.start !== undefined && e.end !== undefined ? <span className="text-ink/45"> ({fmtSpan(e.start, e.end)})</span> : null}
+      {e.start !== undefined && e.end !== undefined ? <span className="text-ink/66"> ({fmtSpan(e.start, e.end)})</span> : null}
     </>
   );
 }

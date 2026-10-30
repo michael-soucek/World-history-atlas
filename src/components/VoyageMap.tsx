@@ -341,7 +341,7 @@ export default function VoyageMap({ voyages, initialVisibleIds, className }: Voy
           <button
             type="button"
             onClick={() => setLegendOpen(v => !v)}
-            className="flex items-center gap-1.5 text-ink/50 text-[11px] font-semibold uppercase tracking-wider hover:text-ink/70 transition-colors sm:cursor-default"
+            className="flex items-center gap-1.5 text-ink/68 text-[11px] font-semibold uppercase tracking-wider hover:text-ink/70 transition-colors sm:cursor-default"
             aria-expanded={legendOpen}
           >
             <span>Voyages</span>
@@ -352,7 +352,7 @@ export default function VoyageMap({ voyages, initialVisibleIds, className }: Voy
             <button
               type="button"
               onClick={toggleAll}
-              className="text-[11px] text-accent/70 hover:text-accent font-medium transition-colors"
+              className="text-[11px] text-accent/85 hover:text-accent font-medium transition-colors"
             >
               {allOn ? "Hide all" : "Show all"}
             </button>
@@ -380,10 +380,10 @@ export default function VoyageMap({ voyages, initialVisibleIds, className }: Voy
                     }}
                     aria-hidden="true"
                   />
-                  <span className={`text-xs leading-tight ${on ? "text-ink/80" : "text-ink/40"}`}>
+                  <span className={`text-xs leading-tight ${on ? "text-ink/80" : "text-ink/64"}`}>
                     <span className="font-semibold">{v.label}</span>{" "}
-                    <span className="font-mono text-[10px] text-ink/40">{v.years}</span>
-                    <span className="block text-[10px] text-ink/40">{v.ship}</span>
+                    <span className="font-mono text-[10px] text-ink/64">{v.years}</span>
+                    <span className="block text-[10px] text-ink/64">{v.ship}</span>
                   </span>
                 </button>
               </li>
@@ -394,7 +394,7 @@ export default function VoyageMap({ voyages, initialVisibleIds, className }: Voy
 
       {!ready && (
         <div className="absolute inset-0 z-20 flex items-center justify-center bg-parchment/60 pointer-events-none">
-          <span className="text-ink/40 text-sm animate-pulse">Loading map…</span>
+          <span className="text-ink/64 text-sm animate-pulse">Loading map…</span>
         </div>
       )}
     </div>

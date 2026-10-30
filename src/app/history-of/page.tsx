@@ -31,7 +31,7 @@ export default function CityIndexPage() {
           title={<>Every city has <span className="italic">many masters</span></>}
           lede="Pick a city to see every state, empire and people that held it, traced through each of our historical maps."
           aside={
-            <p className="font-mono text-[12px] tracking-wide text-ink/50 leading-relaxed">
+            <p className="font-mono text-[12px] tracking-wide text-ink/68 leading-relaxed">
               {cities.length} cities
             </p>
           }

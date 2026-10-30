@@ -99,7 +99,7 @@ export default function EmpireMap({ borders, labels, target, reveal }: {
       <div ref={ref} className="absolute inset-0" />
       {(!ready || !borders) && (
         <div className="absolute inset-0 grid place-items-center bg-[#cdd9e5]">
-          <span className="font-mono text-[11px] tracking-widest uppercase text-ink/40 animate-pulse">Unrolling the map…</span>
+          <span className="font-mono text-[11px] tracking-widest uppercase text-ink/64 animate-pulse">Unrolling the map…</span>
         </div>
       )}
     </>

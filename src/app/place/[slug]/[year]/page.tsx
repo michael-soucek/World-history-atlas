@@ -105,14 +105,14 @@ export default async function PlaceYearPage({ params }: Props) {
                 priority
               />
             </div>
-            <figcaption className="mt-2 text-xs text-ink/40 leading-snug">
+            <figcaption className="mt-2 text-xs text-ink/64 leading-snug">
               {content.imageAuthor && <span>{content.imageAuthor}</span>}
               {content.imageAuthor && content.imageLicense && <span> · </span>}
               {content.imageLicense && <span>{content.imageLicense}</span>}
               {content.imageSourceUrl && (
                 <>
                   {" · "}
-                  <a href={content.imageSourceUrl} target="_blank" rel="noopener noreferrer" className="underline hover:text-ink/60">
+                  <a href={content.imageSourceUrl} target="_blank" rel="noopener noreferrer" className="underline hover:text-ink/72">
                     Wikimedia Commons
                   </a>
                 </>
@@ -144,9 +144,9 @@ export default async function PlaceYearPage({ params }: Props) {
           )}
         </div>
 
-        <p className="mt-12 text-xs text-ink/30">
+        <p className="mt-12 text-xs text-ink/62">
           Content from{" "}
-          <a href={`https://www.wikidata.org/wiki/${entry.wikidataId}`} target="_blank" rel="noopener noreferrer" className="underline hover:text-ink/50">
+          <a href={`https://www.wikidata.org/wiki/${entry.wikidataId}`} target="_blank" rel="noopener noreferrer" className="underline hover:text-ink/68">
             Wikidata ({entry.wikidataId})
           </a>{" "}
           and Wikipedia (CC BY-SA 4.0).

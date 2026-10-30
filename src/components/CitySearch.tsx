@@ -23,7 +23,7 @@ export default function CitySearch({ cities }: { cities: CityItem[] }) {
   return (
     <>
       <label className="block max-w-md mb-10">
-        <span className="label text-ink/45 block mb-2">Find a city</span>
+        <span className="label text-ink/66 block mb-2">Find a city</span>
         <input
           type="search"
           value={query}
@@ -38,7 +38,7 @@ export default function CitySearch({ cities }: { cities: CityItem[] }) {
           items={shown.map((c) => ({ href: `/history-of/${c.slug}`, name: c.name, meta: `${c.rulers} rulers` }))}
         />
       ) : (
-        <p className="text-ink/50">No city matches “{query}”.</p>
+        <p className="text-ink/68">No city matches “{query}”.</p>
       )}
     </>
   );

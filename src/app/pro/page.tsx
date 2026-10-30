@@ -65,7 +65,7 @@ export default function ProPage() {
                   <Icon size={20} className="text-accent shrink-0 mt-0.5" aria-hidden="true" />
                   <div>
                     <h3 className="text-ink font-medium mb-1">{title}</h3>
-                    <p className="text-ink/55 text-sm leading-relaxed">{body}</p>
+                    <p className="text-ink/70 text-sm leading-relaxed">{body}</p>
                   </div>
                 </li>
               ))}

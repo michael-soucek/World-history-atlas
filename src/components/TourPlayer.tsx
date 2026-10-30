@@ -110,7 +110,7 @@ export default function TourPlayer({ tour }: TourPlayerProps) {
       {/* ── The narration ── */}
       <div className="border-l border-ink/10 bg-parchment">
         <div className="px-5 sm:px-8 xl:px-10 pt-8 sm:pt-10 pb-12">
-          <nav className="label flex items-center gap-2.5 text-ink/40 mb-8" aria-label="Breadcrumb">
+          <nav className="label flex items-center gap-2.5 text-ink/64 mb-8" aria-label="Breadcrumb">
             <Link href="/tour" className="hover:text-accent transition-colors">Guided tours</Link>
             <span aria-hidden="true">/</span>
             {tour.sides ? (
@@ -119,11 +119,11 @@ export default function TourPlayer({ tour }: TourPlayerProps) {
                 <span aria-hidden="true">/</span>
               </>
             ) : null}
-            <span className="text-ink/60">{tour.steps.length} stops</span>
+            <span className="text-ink/72">{tour.steps.length} stops</span>
           </nav>
 
           <h1 className="font-display font-light text-4xl sm:text-[44px] leading-[1.02] tracking-[-0.03em] text-ink text-balance">{tour.title}</h1>
-          <p className="mt-3 text-[15px] text-ink/55 leading-relaxed">{tour.description}</p>
+          <p className="mt-3 text-[15px] text-ink/70 leading-relaxed">{tour.description}</p>
 
           {/* Progress */}
           <div className="mt-8 flex gap-1" role="tablist" aria-label="Tour stops">
@@ -187,7 +187,7 @@ export default function TourPlayer({ tour }: TourPlayerProps) {
             </button>
             <ReadAloudButton text={current.text} variant="minimal" className="ml-auto" />
           </div>
-          <p className="mt-3 text-[11px] text-ink/35 max-lg:hidden">Tip: use the ← → keys.</p>
+          <p className="mt-3 text-[11px] text-ink/64 max-lg:hidden">Tip: use the ← → keys.</p>
 
           {step === last && (
             <div className="mt-8">
@@ -206,13 +206,13 @@ export default function TourPlayer({ tour }: TourPlayerProps) {
                     aria-current={i === step ? "step" : undefined}
                     className="group w-full grid grid-cols-[2rem_1fr_auto] items-baseline gap-3 py-3.5 text-left"
                   >
-                    <span className={`font-mono text-[11px] tabular-nums ${i === step ? "text-accent" : "text-ink/35"}`}>
+                    <span className={`font-mono text-[11px] tabular-nums ${i === step ? "text-accent" : "text-ink/64"}`}>
                       {String(i + 1).padStart(2, "0")}
                     </span>
-                    <span className={`text-[15px] leading-snug transition-colors ${i === step ? "text-ink font-medium" : "text-ink/55 group-hover:text-ink"}`}>
+                    <span className={`text-[15px] leading-snug transition-colors ${i === step ? "text-ink font-medium" : "text-ink/70 group-hover:text-ink"}`}>
                       {s.title}
                     </span>
-                    <span className="font-mono text-[11px] text-ink/40 tabular-nums text-right">{s.date ?? `${sy.n} ${sy.e}`}</span>
+                    <span className="font-mono text-[11px] text-ink/64 tabular-nums text-right">{s.date ?? `${sy.n} ${sy.e}`}</span>
                   </button>
                 </li>
               );
@@ -229,7 +229,7 @@ function ZoneLegend({ sides, step }: { sides: TourSide[]; step: TourStep }) {
   const present = sides.filter(side => step.zones?.some(z => z.side === side.key));
   return (
     <div className="mt-6 border-t border-ink/10 pt-4">
-      <p className="label text-ink/40">Who holds what</p>
+      <p className="label text-ink/64">Who holds what</p>
       <ul className="mt-2.5 space-y-2">
         {present.map(side => {
           const occupies = step.zones?.some(z => z.side === side.key && z.occupied);
@@ -250,13 +250,13 @@ function ZoneLegend({ sides, step }: { sides: TourSide[]; step: TourStep }) {
               </span>
               <span>
                 {side.name}
-                {occupies ? <span className="text-ink/40"> · striped where occupied</span> : null}
+                {occupies ? <span className="text-ink/64"> · striped where occupied</span> : null}
               </span>
             </li>
           );
         })}
       </ul>
-      <p className="mt-2.5 text-[12px] leading-relaxed text-ink/45">
+      <p className="mt-2.5 text-[12px] leading-relaxed text-ink/66">
         Unshaded: neutral or out of the war. Front lines are simplified.
       </p>
     </div>
@@ -267,7 +267,7 @@ function ZoneLegend({ sides, step }: { sides: TourSide[]; step: TourStep }) {
 function RouteLegend({ routes, battles }: { routes: TourRoute[]; battles: boolean }) {
   return (
     <div className="mt-6 border-t border-ink/10 pt-4">
-      <p className="label text-ink/40">On the map</p>
+      <p className="label text-ink/64">On the map</p>
       <ul className="mt-2.5 space-y-2">
         {routes.map(route => {
           const style = ROUTE_STYLE[route.kind];
@@ -279,7 +279,7 @@ function RouteLegend({ routes, battles }: { routes: TourRoute[]; battles: boolea
               </svg>
               <span>
                 {route.label}
-                <span className="text-ink/40"> · {style.name}</span>
+                <span className="text-ink/64"> · {style.name}</span>
               </span>
             </li>
           );

@@ -60,12 +60,12 @@ export default async function ScopedTimelinePage({ params }: Props) {
           accent={accentMeta.accent}
           title={era.label}
           lede={"blurb" in era ? era.blurb : undefined}
-          aside={<p className="font-mono text-[12px] tracking-wide text-ink/50">{eraYears.length} map{eraYears.length !== 1 ? "s" : ""}</p>}
+          aside={<p className="font-mono text-[12px] tracking-wide text-ink/68">{eraYears.length} map{eraYears.length !== 1 ? "s" : ""}</p>}
         />
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14 sm:py-20">
           <PageHistory kind="timeline" slug={scope} name={era.label} heading="How the map changed" />
           {eraYears.length === 0 ? (
-            <p className="text-ink/50">No maps in this period.</p>
+            <p className="text-ink/68">No maps in this period.</p>
           ) : (
             <ul className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 border-l border-t border-ink/10">
               {eraYears.map(year => (
@@ -74,8 +74,8 @@ export default async function ScopedTimelinePage({ params }: Props) {
                     <span className="font-display font-light text-4xl sm:text-5xl tracking-[-0.03em] tabular-nums text-ink group-hover:text-accent transition-colors">
                       {Math.abs(year).toLocaleString("en-US")}
                     </span>
-                    <span className="ml-1.5 font-mono text-[10px] text-ink/45">{year < 0 ? "BCE" : "CE"}</span>
-                    <span className="block mt-1 text-[12px] text-ink/40 group-hover:text-accent transition-colors">Open map →</span>
+                    <span className="ml-1.5 font-mono text-[10px] text-ink/66">{year < 0 ? "BCE" : "CE"}</span>
+                    <span className="block mt-1 text-[12px] text-ink/64 group-hover:text-accent transition-colors">Open map →</span>
                   </Link>
                 </li>
               ))}

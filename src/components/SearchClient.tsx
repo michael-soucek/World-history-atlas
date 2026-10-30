@@ -54,14 +54,14 @@ export default function SearchClient({ items }: SearchClientProps) {
           value={query}
           onChange={e => setQuery(e.target.value)}
           placeholder="Search history…"
-          className="w-full bg-transparent pr-12 pb-3 font-display font-light text-[40px] sm:text-6xl tracking-[-0.03em] text-ink placeholder:text-ink/25 no-focus-ring focus:outline-none [&::-webkit-search-cancel-button]:appearance-none"
+          className="w-full bg-transparent pr-12 pb-3 font-display font-light text-[40px] sm:text-6xl tracking-[-0.03em] text-ink placeholder:text-ink/50 no-focus-ring focus:outline-none [&::-webkit-search-cancel-button]:appearance-none"
           autoFocus
           autoComplete="off"
         />
         {query && (
           <button
             onClick={() => { setQuery(""); inputRef.current?.focus(); }}
-            className="absolute right-0 top-1/2 -translate-y-1/2 w-10 h-10 grid place-items-center rounded-full text-ink/40 hover:text-ink hover:bg-ink/6"
+            className="absolute right-0 top-1/2 -translate-y-1/2 w-10 h-10 grid place-items-center rounded-full text-ink/64 hover:text-ink hover:bg-ink/6"
             aria-label="Clear search"
           >
             ✕
@@ -78,7 +78,7 @@ export default function SearchClient({ items }: SearchClientProps) {
             aria-selected={typeFilter === t}
             onClick={() => setTypeFilter(t)}
             className={`relative shrink-0 whitespace-nowrap pb-1 text-[14px] transition-colors ${
-              typeFilter === t ? "text-ink font-medium" : "text-ink/45 hover:text-ink"
+              typeFilter === t ? "text-ink font-medium" : "text-ink/66 hover:text-ink"
             }`}
           >
             {t === "all" ? "Everything" : TYPE_LABELS[t]}
@@ -105,17 +105,17 @@ export default function SearchClient({ items }: SearchClientProps) {
 
       {/* Results */}
       {query === "" && typeFilter === "all" ? (
-        <p className="text-ink/45 text-[15px]">
+        <p className="text-ink/66 text-[15px]">
           Try <button className="underline underline-offset-4 decoration-ink/25 hover:text-accent" onClick={() => setQuery("Rome")}>Rome</button>,{" "}
           <button className="underline underline-offset-4 decoration-ink/25 hover:text-accent" onClick={() => setQuery("Khan")}>Khan</button>,{" "}
           <button className="underline underline-offset-4 decoration-ink/25 hover:text-accent" onClick={() => setQuery("revolution")}>revolution</button> or{" "}
           <button className="underline underline-offset-4 decoration-ink/25 hover:text-accent" onClick={() => setQuery("1453")}>1453</button>.
         </p>
       ) : results.length === 0 ? (
-        jumpYear === null && <p className="text-ink/50 text-[15px]">Nothing in the atlas matches &ldquo;{query}&rdquo;.</p>
+        jumpYear === null && <p className="text-ink/68 text-[15px]">Nothing in the atlas matches &ldquo;{query}&rdquo;.</p>
       ) : (
         <>
-          <p className="font-mono text-[11px] tracking-wider text-ink/45 mb-3">
+          <p className="font-mono text-[11px] tracking-wider text-ink/66 mb-3">
             {results.length === 50 ? "First 50 results" : `${results.length} result${results.length !== 1 ? "s" : ""}`}
           </p>
           <ul className="border-t border-ink/80">
@@ -125,15 +125,15 @@ export default function SearchClient({ items }: SearchClientProps) {
                   href={itemHref(item)}
                   className="group grid grid-cols-[1fr_auto] sm:grid-cols-[9rem_1fr_auto] items-baseline gap-x-4 py-4"
                 >
-                  <span className={`label !text-[10px] max-sm:hidden ${TYPE_COLORS[item.entityType] ?? "text-ink/45"}`}>
+                  <span className={`label !text-[10px] max-sm:hidden ${TYPE_COLORS[item.entityType] ?? "text-ink/66"}`}>
                     {item.label ?? TYPE_LABELS[item.entityType]}
                   </span>
                   <span className="min-w-0">
                     <span className="block font-display text-2xl tracking-tight text-ink group-hover:text-accent transition-colors truncate">
                       {item.name}
                     </span>
-                    {item.tagline && <span className="block text-ink/45 text-sm mt-0.5 truncate">{item.tagline}</span>}
-                    <span className={`sm:hidden label !text-[10px] ${TYPE_COLORS[item.entityType] ?? "text-ink/45"}`}>{item.label ?? TYPE_LABELS[item.entityType]}</span>
+                    {item.tagline && <span className="block text-ink/66 text-sm mt-0.5 truncate">{item.tagline}</span>}
+                    <span className={`sm:hidden label !text-[10px] ${TYPE_COLORS[item.entityType] ?? "text-ink/66"}`}>{item.label ?? TYPE_LABELS[item.entityType]}</span>
                   </span>
                   <span className="text-ink/25 group-hover:text-accent group-hover:translate-x-1 transition-all" aria-hidden="true">→</span>
                 </Link>

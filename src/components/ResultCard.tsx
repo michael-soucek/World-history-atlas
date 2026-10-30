@@ -88,7 +88,7 @@ export default function ResultCard({ game, edition, score, outOf, rank, line, ti
           <p className="font-mono text-[11px] tracking-[0.2em] uppercase text-glow">{game} · {edition}</p>
           <p className="mt-4 font-display font-light tracking-tight tabular-nums leading-none text-[72px] sm:text-[104px]">
             {score}
-            {outOf && <span className="text-parchment/55 text-3xl sm:text-5xl"> {outOf}</span>}
+            {outOf && <span className="text-parchment/66 text-3xl sm:text-5xl"> {outOf}</span>}
           </p>
           <p className="mt-4 font-display text-2xl sm:text-3xl"><span className="italic">{rank}.</span> <span className="text-parchment/78">{line}</span></p>
 

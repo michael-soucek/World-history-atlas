@@ -110,9 +110,9 @@ export default async function EraPage({ params }: Props) {
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img src={art.src} alt={art.alt} className="absolute inset-0 h-full w-full object-cover" style={{ objectPosition: art.objectPosition }} />
                 </div>
-                <figcaption className="mt-3 font-text italic text-[14px] text-ink/60">
+                <figcaption className="mt-3 font-text italic text-[14px] text-ink/72">
                   {art.caption}
-                  <span className="block not-italic font-sans text-[11px] text-ink/35 mt-1">{art.credit}</span>
+                  <span className="block not-italic font-sans text-[11px] text-ink/64 mt-1">{art.credit}</span>
                 </figcaption>
               </figure>
             )}
@@ -134,8 +134,8 @@ export default async function EraPage({ params }: Props) {
                           <span className={`font-display font-light text-4xl tracking-tight tabular-nums text-ink group-hover:text-accent transition-colors`}>
                             {Math.abs(year)}
                           </span>
-                          <span className="ml-1 font-mono text-[10px] text-ink/45">{year < 0 ? "BCE" : "CE"}</span>
-                          <span className="block mt-1 text-[12px] text-ink/40 group-hover:text-accent transition-colors">Open map →</span>
+                          <span className="ml-1 font-mono text-[10px] text-ink/66">{year < 0 ? "BCE" : "CE"}</span>
+                          <span className="block mt-1 text-[12px] text-ink/64 group-hover:text-accent transition-colors">Open map →</span>
                         </Link>
                       </li>
                     ))}

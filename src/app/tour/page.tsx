@@ -48,7 +48,7 @@ export default function TourListPage() {
           title={<>Let the map <span className="italic">tell the story</span></>}
           lede="Each tour moves the atlas for you — the year, the place, the zoom — while a short narration explains what changed and why. Each step is data-authored, not generated."
           aside={
-            <p className="font-mono text-[12px] tracking-wide text-ink/50 leading-relaxed">
+            <p className="font-mono text-[12px] tracking-wide text-ink/68 leading-relaxed">
               {TOURS.length} tours<br />about {totalMinutes} minutes in all
             </p>
           }
@@ -58,10 +58,10 @@ export default function TourListPage() {
           {/* Axis legend */}
           <div className="hidden md:grid grid-cols-[4rem_1fr_minmax(0,22rem)_2rem] gap-x-6 mb-3">
             <span />
-            <span className="label text-ink/40">Tour</span>
+            <span className="label text-ink/64">Tour</span>
             <div className="relative h-4">
               {TICKS.map(t => (
-                <span key={t} className="absolute top-0 -translate-x-1/2 font-mono text-[10px] text-ink/40 tabular-nums" style={{ left: `${pct(t)}%` }}>
+                <span key={t} className="absolute top-0 -translate-x-1/2 font-mono text-[10px] text-ink/64 tabular-nums" style={{ left: `${pct(t)}%` }}>
                   {t === 1 ? "1 CE" : t < 0 ? `${-t / 1000}k BCE` : `${t}`}
                 </span>
               ))}
@@ -74,7 +74,7 @@ export default function TourListPage() {
           >
             <span>
               <span className="block font-display text-xl tracking-tight text-ink group-hover:text-accent transition-colors">The world wars, stage by stage</span>
-              <span className="block mt-1 text-[14px] text-ink/55">Front lines, occupied territory and every major battle of World War I and World War II.</span>
+              <span className="block mt-1 text-[14px] text-ink/70">Front lines, occupied territory and every major battle of World War I and World War II.</span>
             </span>
             <ArrowUpRight size={20} className="shrink-0 text-ink/30 group-hover:text-accent transition-colors" aria-hidden="true" />
           </Link>
@@ -95,8 +95,8 @@ export default function TourListPage() {
                       <span className="block font-display text-2xl sm:text-[32px] leading-tight tracking-tight text-ink group-hover:text-accent transition-colors">
                         {tour.title}
                       </span>
-                      <span className="block mt-2 text-[15px] text-ink/55 leading-relaxed max-w-2xl">{tour.description}</span>
-                      <span className="block mt-3 font-mono text-[11px] tracking-wide text-ink/40">
+                      <span className="block mt-2 text-[15px] text-ink/70 leading-relaxed max-w-2xl">{tour.description}</span>
+                      <span className="block mt-3 font-mono text-[11px] tracking-wide text-ink/64">
                         {DIFFICULTY_LABEL[tour.difficulty]} · {tour.steps.length} stops · {tour.duration} min
                         <span className="md:hidden"> · {fmt(from)} → {fmt(to)}</span>
                       </span>
@@ -119,7 +119,7 @@ export default function TourListPage() {
                           style={{ left: `${pct(y)}%` }}
                         />
                       ))}
-                      <span className="absolute left-0 right-0 bottom-0 font-mono text-[10px] text-ink/45 tabular-nums text-center translate-y-1">
+                      <span className="absolute left-0 right-0 bottom-0 font-mono text-[10px] text-ink/66 tabular-nums text-center translate-y-1">
                         {fmt(from)} → {fmt(to)}
                       </span>
                     </span>
@@ -131,7 +131,7 @@ export default function TourListPage() {
             })}
           </ol>
 
-          <p className="mt-10 text-xs text-ink/40 leading-relaxed">
+          <p className="mt-10 text-xs text-ink/64 leading-relaxed">
             Tours are built from the atlas&apos;s map data and cited sources.
           </p>
         </div>

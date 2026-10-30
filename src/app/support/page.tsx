@@ -62,7 +62,7 @@ export default function SupportPage() {
               </p>
             ) : (
               <div className="rounded-md bg-accent-wash border border-accent/20 p-5 mb-4">
-                <p className="text-ink/60 text-sm leading-relaxed">
+                <p className="text-ink/72 text-sm leading-relaxed">
                   Direct tipping (Ko-fi / Buy Me a Coffee) isn&rsquo;t connected yet — this page is
                   ready for it. In the meantime, the best way to help is sharing the site, or{" "}
                   <Link href="/contact" className="text-accent hover:text-accent/80 underline">
