@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import AdsenseLoader from "@/components/AdsenseLoader";
+import GoogleAnalytics from "@/components/GoogleAnalytics";
 import { Geist, Geist_Mono, Fraunces, Source_Serif_4 } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
@@ -81,6 +82,7 @@ export default function RootLayout({
         <AdsenseLoader />
         {children}
         <Analytics />
+        <GoogleAnalytics />
       </body>
     </html>
   );
