@@ -1,7 +1,7 @@
 import Script from "next/script";
 
-/** GA4 measurement ID ("G-…"). Without it nothing loads. */
-const GA_ID = process.env.NEXT_PUBLIC_GA_ID ?? "";
+/** GA4 measurement ID for the "Borders of Time" property (created 2026-10-30). */
+const GA_ID = process.env.NEXT_PUBLIC_GA_ID ?? "G-40LCZ826KW";
 
 /**
  * Countries where analytics cookies need consent first (EEA, UK, Switzerland).

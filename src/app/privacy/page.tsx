@@ -10,7 +10,7 @@ export const metadata: Metadata = buildPageMetadata({
   path: "/privacy",
 });
 
-const LAST_UPDATED = "September 2026";
+const LAST_UPDATED = "October 2026";
 const CONTACT_EMAIL = "hello@bordersoftime.com";
 
 export default function PrivacyPage() {
@@ -32,8 +32,8 @@ export default function PrivacyPage() {
             </div>
             <p className="text-ink/70 text-sm leading-relaxed">
               Borders of Time has no user accounts and does not ask you for personal information.
-              We use a single privacy-focused analytics tool to understand which pages get read,
-              and nothing more.
+              We use two analytics tools to understand which pages get read and where visitors
+              come from, and nothing more.
             </p>
           </section>
 
@@ -48,6 +48,19 @@ export default function PrivacyPage() {
                 which counts page views and general visitor trends (page, referrer, country,
                 device type) without cookies or cross-site tracking, and does not build a profile
                 of you individually.
+              </li>
+              <li>
+                <strong className="text-ink/90">Google Analytics.</strong> We also use Google
+                Analytics 4, which counts visits, pages viewed, approximate location and how
+                visitors found the site. Outside the EU, UK and Switzerland it sets first-party
+                cookies to tell new visits from returning ones. In the EU, UK and Switzerland it
+                runs without cookies (Google’s consent mode, with storage denied) and sends
+                only anonymous counts. IP addresses are not stored. You can opt out with
+                Google’s{" "}
+                <a href="https://tools.google.com/dlpage/gaoptout" className="text-accent hover:text-accent/80 underline" rel="noopener">
+                  browser add-on
+                </a>
+                .
               </li>
               <li>
                 <strong className="text-ink/90">Hosting logs.</strong> Our hosting provider, like
