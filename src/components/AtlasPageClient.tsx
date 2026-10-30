@@ -8,7 +8,6 @@ import BrandMark from "./BrandMark";
 import { useAtlasStore } from "@/store/atlasStore";
 import TimeSlider from "./TimeSlider";
 import StoryPanel from "./StoryPanel";
-import ConfidenceLegend from "./ConfidenceLegend";
 import { useUrlSync } from "@/hooks/useUrlSync";
 import { useManifest } from "@/hooks/useManifest";
 
@@ -85,9 +84,6 @@ export default function AtlasPageClient({
 
       {/* Time slider — bottom overlay */}
       <TimeSlider />
-
-      {/* Data confidence legend — bottom-left */}
-      <ConfidenceLegend />
 
       {/* Story panel — right overlay */}
       <StoryPanel />
