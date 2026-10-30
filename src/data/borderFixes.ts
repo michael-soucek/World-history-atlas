@@ -332,6 +332,8 @@ export const BORDER_FIXES: BorderFix[] = [
     why: "The same state as the 'Qing Empire' on the 1783 and 1800 maps; one name for it throughout." },
   { years: [1700, 1715, 1783, 1800, 1815], op: "merge", names: ["Qing Empire", "Hong Kong"], set: { NAME: "Qing Empire", SUBJECTO: "Qing Empire" },
     why: "Hong Kong became British only in 1842; before that it was part of Qing China." },
+  { years: [1700], op: "merge", names: ["Qing Empire", "Post-Ming Warlords"], set: { NAME: "Qing Empire", SUBJECTO: "Qing Empire" },
+    why: "The last Southern Ming claimant died in 1662, the Revolt of the Three Feudatories was crushed by 1681 and Taiwan fell in 1683; by 1700 the Qing ruled all of China." },
   { years: [1650], op: "merge", names: ["Post-Ming Warlords", "Hong Kong"], set: { NAME: "Post-Ming Warlords", SUBJECTO: "Post-Ming Warlords" },
     why: "Hong Kong was not a separate territory before 1842." },
   { years: [1900], op: "rename", match: { at: [121.56, 25.04] }, set: { NAME: "Taiwan", SUBJECTO: "Empire of Japan" },
