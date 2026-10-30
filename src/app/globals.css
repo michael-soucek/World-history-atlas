@@ -266,7 +266,10 @@ dialog.lightbox::backdrop {
   to   { width: 100%; }
 }
 
-/* Grow's floating widget covers the map controls on full-screen views (GrowVisibility). */
-html[data-no-grow] #grow-me-root {
+/*
+ * Grow runs only so Mediavine can measure traffic; none of its on-page UI
+ * (floating heart/share widget, pop-ups) is shown anywhere on the site.
+ */
+#grow-me-root {
   display: none !important;
 }
