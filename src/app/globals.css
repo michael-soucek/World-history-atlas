@@ -265,3 +265,8 @@ dialog.lightbox::backdrop {
   from { width: 0%; }
   to   { width: 100%; }
 }
+
+/* Grow's floating widget covers the map controls on full-screen views (GrowVisibility). */
+html[data-no-grow] #grow-me-root {
+  display: none !important;
+}
