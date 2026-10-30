@@ -11,8 +11,8 @@ export default function MoreGames({ current }: { current: string }) {
           <li key={g.href}>
             <Link href={g.href} className="group block h-full rounded-lg border border-ink/12 bg-card p-5 transition-colors hover:border-accent">
               <span className="block font-display text-xl text-ink group-hover:text-accent transition-colors">{g.name}</span>
-              <span className="mt-1 block text-[13.5px] text-ink/55">{g.line}</span>
-              <span className="mt-4 block font-mono text-[11px] text-ink/40 group-hover:text-accent">Play →</span>
+              <span className="mt-1 block text-[13.5px] text-ink/70">{g.line}</span>
+              <span className="mt-4 block font-mono text-[11px] text-ink/62 group-hover:text-accent">Play →</span>
             </Link>
           </li>
         ))}

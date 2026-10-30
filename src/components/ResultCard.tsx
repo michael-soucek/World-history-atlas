@@ -85,19 +85,19 @@ export default function ResultCard({ game, edition, score, outOf, rank, line, ti
           aria-hidden="true"
         />
         <div className="relative">
-          <p className="font-mono text-[11px] tracking-[0.2em] uppercase text-glow/80">{game} · {edition}</p>
+          <p className="font-mono text-[11px] tracking-[0.2em] uppercase text-glow">{game} · {edition}</p>
           <p className="mt-4 font-display font-light tracking-tight tabular-nums leading-none text-[72px] sm:text-[104px]">
             {score}
-            {outOf && <span className="text-parchment/35 text-3xl sm:text-5xl"> {outOf}</span>}
+            {outOf && <span className="text-parchment/55 text-3xl sm:text-5xl"> {outOf}</span>}
           </p>
-          <p className="mt-4 font-display text-2xl sm:text-3xl"><span className="italic">{rank}.</span> <span className="text-parchment/60">{line}</span></p>
+          <p className="mt-4 font-display text-2xl sm:text-3xl"><span className="italic">{rank}.</span> <span className="text-parchment/78">{line}</span></p>
 
           <ol className="mt-8 flex flex-wrap gap-3 sm:gap-4">
             {tiles.map((t, i) => (
               <li key={i} className="w-[calc(20%-10px)] min-w-[52px] sm:w-24">
                 <span className="block aspect-square rounded-md" style={{ background: t.color }} />
                 {t.top && <span className="mt-2 block text-[12px] leading-tight text-parchment/80 truncate">{t.top}</span>}
-                {t.bottom && <span className="block font-mono text-[10.5px] text-parchment/45 truncate">{t.bottom}</span>}
+                {t.bottom && <span className="block font-mono text-[10.5px] text-parchment/68 truncate">{t.bottom}</span>}
               </li>
             ))}
           </ol>
@@ -107,7 +107,7 @@ export default function ResultCard({ game, edition, score, outOf, rank, line, ti
               {stats.map(([k, v]) => (
                 <div key={k}>
                   <dd className="font-display text-3xl tabular-nums">{v}</dd>
-                  <dt className="font-mono text-[10.5px] tracking-widest uppercase text-parchment/50 mt-1">{k}</dt>
+                  <dt className="font-mono text-[10.5px] tracking-widest uppercase text-parchment/72 mt-1">{k}</dt>
                 </div>
               ))}
             </dl>
@@ -125,9 +125,9 @@ export default function ResultCard({ game, edition, score, outOf, rank, line, ti
         <button type="button" onClick={copyText} className="h-12 px-5 rounded-md border border-ink/20 text-[15px] text-ink/80 hover:border-accent hover:text-accent transition-colors">
           Copy text
         </button>
-        <span className="text-sm text-ink/60" aria-live="polite">{status}</span>
+        <span className="text-sm text-ink/72" aria-live="polite">{status}</span>
       </div>
-      <p className="mt-2 text-[13px] text-ink/45">No answers in what you share, so nobody’s game gets spoiled.</p>
+      <p className="mt-2 text-[13px] text-ink/65">No answers in what you share, so nobody’s game gets spoiled.</p>
 
       {children && <div className="mt-12">{children}</div>}
     </div>

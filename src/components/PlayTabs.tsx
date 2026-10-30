@@ -18,10 +18,10 @@ export default function PlayTabs({ current }: { current: (typeof GAMES)[number][
             key={g.href}
             href={g.href}
             aria-current={active ? "page" : undefined}
-            className={`relative py-4 transition-colors ${active ? "text-ink" : "text-ink/45 hover:text-ink"}`}
+            className={`relative py-4 transition-colors ${active ? "text-ink" : "text-ink/65 hover:text-ink"}`}
           >
             <span className="block font-display text-lg sm:text-xl tracking-tight">{g.name}</span>
-            <span className="block text-[12.5px] text-ink/50 mt-0.5">{g.line}</span>
+            <span className="block text-[12.5px] text-ink/68 mt-0.5">{g.line}</span>
             {active && <span className="absolute left-0 right-0 -bottom-px h-[2px] bg-accent" aria-hidden="true" />}
           </Link>
         );

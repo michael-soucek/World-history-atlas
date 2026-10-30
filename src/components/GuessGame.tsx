@@ -81,15 +81,15 @@ function countdown(ms: number): string {
 const TIER_STYLE = { great: "bg-[#2f7d4f]", close: "bg-[#c9a227]", near: "bg-[#d9822b]", far: "bg-[#b4432f]" };
 const TIER_HEX = { great: "#2f7d4f", close: "#c9a227", near: "#d9822b", far: "#b4432f" };
 
-/** Your guess (hollow) and the answer (vermilion) on an EraBar, joined by a line. */
+/** Your guess (white ring) and the answer (solid ink) on an EraBar, joined by a line. Both read on every era colour. */
 function GuessMarkers({ guess, answer }: { guess: number; answer: number }) {
   const g = sliderPos(guess) * 100;
   const a = sliderPos(answer) * 100;
   return (
     <div className="absolute inset-x-0 -top-1 h-4" aria-hidden="true">
-      <span className="absolute top-1/2 h-0.5 -translate-y-1/2 bg-ink/50" style={{ left: `${Math.min(g, a)}%`, width: `${Math.abs(a - g)}%` }} />
-      <span className="absolute top-0 h-4 w-4 -translate-x-1/2 rounded-full border-2 border-ink bg-parchment" style={{ left: `${g}%` }} />
-      <span className="absolute top-0 h-4 w-4 -translate-x-1/2 rounded-full bg-[var(--color-vermilion)] ring-2 ring-parchment" style={{ left: `${a}%` }} />
+      <span className="absolute top-1/2 h-[3px] -translate-y-1/2 bg-ink" style={{ left: `${Math.min(g, a)}%`, width: `${Math.abs(a - g)}%` }} />
+      <span className="absolute top-0 h-4 w-4 -translate-x-1/2 rounded-full border-[3px] border-ink bg-white shadow-sm" style={{ left: `${g}%` }} />
+      <span className="absolute -top-0.5 h-5 w-5 -translate-x-1/2 rounded-full bg-ink ring-[3px] ring-white shadow-sm" style={{ left: `${a}%` }} />
     </div>
   );
 }
@@ -101,12 +101,12 @@ function EraBar({ children }: { children?: React.ReactNode }) {
       <div className="flex h-2 rounded-full overflow-hidden" aria-hidden="true">
         {GUESS_ERAS.map((e, i) => {
           const to = GUESS_ERAS[i + 1]?.from ?? MAX_GUESS;
-          return <span key={e.label} style={{ width: `${(sliderPos(to) - sliderPos(e.from)) * 100}%`, background: e.color, opacity: 0.55 }} />;
+          return <span key={e.label} style={{ width: `${(sliderPos(to) - sliderPos(e.from)) * 100}%`, background: e.color, opacity: 0.85 }} />;
         })}
       </div>
       {children}
       {/* Two staggered rows, so the narrow modern bands' labels don't collide. */}
-      <div className="relative h-7 mt-1.5 font-mono text-[9.5px] uppercase tracking-wider text-ink/45" aria-hidden="true">
+      <div className="relative h-7 mt-1.5 font-mono text-[9.5px] uppercase tracking-wider text-ink/65" aria-hidden="true">
         {GUESS_ERAS.map((e, i) => {
           const to = GUESS_ERAS[i + 1]?.from ?? MAX_GUESS;
           const mid = ((sliderPos(e.from) + sliderPos(to)) / 2) * 100;
@@ -237,6 +237,10 @@ export default function GuessGame() {
           url="bordersoftime.com/play"
         >
           <h2 className="font-display text-2xl text-ink">Map by map</h2>
+          <p className="mt-2 flex gap-5 text-[13px] text-ink/72">
+            <span className="flex items-center gap-1.5"><span className="h-3 w-3 rounded-full bg-ink" aria-hidden="true" />The answer</span>
+            <span className="flex items-center gap-1.5"><span className="h-3 w-3 rounded-full border-2 border-ink bg-white" aria-hidden="true" />Your guess</span>
+          </p>
           <ol className="mt-5 grid gap-4 sm:grid-cols-2">
             {puzzles.map((p, i) => {
               const off = Math.abs(guesses[i] - p.year);
@@ -245,11 +249,11 @@ export default function GuessGame() {
                   <span className="block h-1.5" style={{ background: TIER_HEX[tierOf(points[i])] }} aria-hidden="true" />
                   <div className="p-5">
                     <div className="flex items-baseline justify-between gap-4">
-                      <p className="label text-ink/45">Map {i + 1} · {p.region}</p>
+                      <p className="label text-ink/65">Map {i + 1} · {p.region}</p>
                       <p className="font-mono text-[13px] text-ink tabular-nums">{points[i]} pts</p>
                     </div>
                     <p className="mt-2 font-display text-3xl text-ink tabular-nums">{formatYear(p.year)}</p>
-                    <p className="mt-1 text-[13.5px] text-ink/55">
+                    <p className="mt-1 text-[13.5px] text-ink/70">
                       You said {formatYear(guesses[i])} · {off === 0 ? "spot on" : `${off.toLocaleString("en-US")} years off`}{hints[i] ? " · hint used" : ""}
                     </p>
                     <div className="mt-4 px-[7px]">
@@ -257,7 +261,7 @@ export default function GuessGame() {
                         <GuessMarkers guess={guesses[i]} answer={p.year} />
                       </EraBar>
                     </div>
-                    <Link href={`/map?year=${p.year}&lat=${p.view.lat}&lng=${p.view.lng}&z=${p.view.zoom}`} className="mt-1 inline-block font-mono text-[11px] text-ink/45 hover:text-accent">
+                    <Link href={`/map?year=${p.year}&lat=${p.view.lat}&lng=${p.view.lng}&z=${p.view.zoom}`} className="mt-1 inline-block font-mono text-[11px] text-ink/65 hover:text-accent">
                       Explore this map →
                     </Link>
                   </div>
@@ -270,7 +274,7 @@ export default function GuessGame() {
             {seed === null ? (
               <>
                 <h2 className="font-display text-2xl text-ink">Want to keep playing?</h2>
-                <p className="mt-1 text-[15px] text-ink/60 max-w-xl">
+                <p className="mt-1 text-[15px] text-ink/72 max-w-xl">
                   Today’s five maps are done{msLeft !== null && <>, and the next daily game starts in <span className="tabular-nums">{countdown(msLeft)}</span></>}.
                   Until then, play five random maps as often as you like. They don’t change your daily score.
                 </p>
@@ -310,7 +314,7 @@ export default function GuessGame() {
       </div>
 
       <div>
-        <p className="label text-ink/45">
+        <p className="label text-ink/65">
           {seed === null ? `Daily #${day}` : "Random maps"} · Map {round + 1} of {ROUNDS}
         </p>
         <p className="mt-2 font-display text-2xl text-ink">{puzzle.region}</p>
@@ -322,7 +326,7 @@ export default function GuessGame() {
 
         {!revealed ? (
           <>
-            <p className="mt-8 text-[15px] text-ink/60 leading-relaxed">
+            <p className="mt-8 text-[15px] text-ink/72 leading-relaxed">
               When were these the borders? Drag to your guess. You can pan and zoom the map.
             </p>
             <p className="mt-6 font-display text-5xl tracking-tight text-ink tabular-nums" aria-live="polite">{formatYear(value)}</p>
@@ -340,7 +344,7 @@ export default function GuessGame() {
             <div className="mt-1 px-[7px]">
               <EraBar />
             </div>
-            <div className="flex justify-between font-mono text-[10px] text-ink/40">
+            <div className="flex justify-between font-mono text-[10px] text-ink/62">
               <span>{formatYear(MIN_GUESS)}</span><span>{formatYear(MAX_GUESS)}</span>
             </div>
             <div className="mt-3 flex gap-2">
@@ -349,13 +353,13 @@ export default function GuessGame() {
                   key={d}
                   type="button"
                   onClick={() => setValue((v) => Math.min(MAX_GUESS, Math.max(MIN_GUESS, v + d)))}
-                  className="flex-1 h-9 rounded-md border border-ink/15 font-mono text-[12px] text-ink/60 hover:border-accent hover:text-accent transition-colors"
+                  className="flex-1 h-9 rounded-md border border-ink/15 font-mono text-[12px] text-ink/72 hover:border-accent hover:text-accent transition-colors"
                 >
                   {d > 0 ? `+${d}` : d}
                 </button>
               ))}
             </div>
-            <div className="mt-4 text-[13px] text-ink/55">
+            <div className="mt-4 text-[13px] text-ink/70">
               {hintNow ? (
                 <p>
                   <span className="text-ink">Hint:</span> the territory outlined in red is{" "}
@@ -383,24 +387,24 @@ export default function GuessGame() {
           </>
         ) : (
           <div className="mt-8" aria-live="polite">
-            <p className="label text-ink/45">The answer</p>
+            <p className="label text-ink/65">The answer</p>
             <p className="mt-1 font-display text-5xl tracking-tight text-ink">{formatYear(puzzles[last].year)}</p>
-            <p className="mt-3 text-[15px] text-ink/60">
+            <p className="mt-3 text-[15px] text-ink/72">
               You guessed {formatYear(guesses[last])}, {Math.abs(guesses[last] - puzzles[last].year).toLocaleString("en-US")} years off.
             </p>
             <div className="mt-6 px-[7px]">
               <EraBar>
                 <GuessMarkers guess={guesses[last]} answer={puzzles[last].year} />
               </EraBar>
-              <p className="mt-1 flex gap-4 text-[12px] text-ink/50">
-                <span className="flex items-center gap-1.5"><span className="h-2.5 w-2.5 rounded-full border-2 border-ink" aria-hidden="true" />Your guess</span>
-                <span className="flex items-center gap-1.5"><span className="h-2.5 w-2.5 rounded-full bg-[var(--color-vermilion)]" aria-hidden="true" />The answer</span>
+              <p className="mt-1 flex gap-4 text-[12px] text-ink/68">
+                <span className="flex items-center gap-1.5"><span className="h-3 w-3 rounded-full border-2 border-ink bg-white" aria-hidden="true" />Your guess</span>
+                <span className="flex items-center gap-1.5"><span className="h-3 w-3 rounded-full bg-ink" aria-hidden="true" />The answer</span>
               </p>
             </div>
             <p className="mt-4 font-mono text-[13px] text-ink tabular-nums">+{points[last]} {points[last] === 1 ? "point" : "points"}{hints[last] ? " (half, hint used)" : ""}</p>
             {inView && inView.length > 0 && (
               <div className="mt-6">
-                <p className="label text-ink/45">On this map</p>
+                <p className="label text-ink/65">On this map</p>
                 <ul className="mt-2 text-[15px] leading-relaxed">
                   {inView.slice(0, 4).map((t) => (
                     <li key={t.name}>

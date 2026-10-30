@@ -127,10 +127,10 @@ export default function WhichFirstGame() {
               <ul className="mt-4 grid gap-3 sm:grid-cols-2">
                 {[...pair].sort((a, b) => a.year - b.year).map((e, i) => (
                   <li key={e.id} className="rounded-lg border border-ink/10 bg-card p-5">
-                    <p className="label text-ink/45">{i === 0 ? "Came first" : "Came second"}</p>
+                    <p className="label text-ink/65">{i === 0 ? "Came first" : "Came second"}</p>
                     <p className="mt-2 font-display text-3xl text-ink tabular-nums">{formatEventYear(e.year)}</p>
                     <p className="mt-1 text-[15px] text-ink/75">{e.text}</p>
-                    {e.href && <Link href={e.href} className="mt-3 inline-block font-mono text-[11px] text-ink/45 hover:text-accent">Read about it →</Link>}
+                    {e.href && <Link href={e.href} className="mt-3 inline-block font-mono text-[11px] text-ink/65 hover:text-accent">Read about it →</Link>}
                   </li>
                 ))}
               </ul>
@@ -151,15 +151,15 @@ export default function WhichFirstGame() {
     <div>
       <div className="flex items-end justify-between gap-6">
         <div>
-          <p className="label text-ink/45">Streak</p>
+          <p className="label text-ink/65">Streak</p>
           <p className="font-display text-5xl tracking-tight text-ink tabular-nums">{streak}</p>
         </div>
         <div className="text-right">
-          <p className="label text-ink/45">Best</p>
-          <p className="font-display text-3xl text-ink/60 tabular-nums">{best}</p>
+          <p className="label text-ink/65">Best</p>
+          <p className="font-display text-3xl text-ink/72 tabular-nums">{best}</p>
         </div>
       </div>
-      <p className="mt-6 text-[15px] text-ink/60">Which of these happened first? The pairs get closer in time as your streak grows.</p>
+      <p className="mt-6 text-[15px] text-ink/72">Which of these happened first? The pairs get closer in time as your streak grows.</p>
 
       <div className="mt-6 grid gap-4 sm:grid-cols-[1fr_auto_1fr] items-stretch">
         {(pair ?? [null, null]).map((e, i) => {
@@ -175,7 +175,7 @@ export default function WhichFirstGame() {
           return (
             <div key={e?.id ?? i} className="contents">
               {i === 1 && (
-                <div className="flex items-center justify-center font-display italic text-2xl text-ink/35" aria-hidden="true">or</div>
+                <div className="flex items-center justify-center font-display italic text-2xl text-ink/55" aria-hidden="true">or</div>
               )}
               <button
                 type="button"
@@ -184,7 +184,7 @@ export default function WhichFirstGame() {
                 className={`relative min-h-44 flex flex-col items-start justify-start rounded-xl border-2 p-6 text-left transition-all disabled:cursor-default ${tone}`}
               >
                 <span className="font-display text-2xl sm:text-[28px] leading-snug text-ink">{e?.text ?? " "}</span>
-                <span className={`mt-4 block font-display text-4xl tabular-nums transition-opacity ${picked ? "opacity-100" : "opacity-0"} ${isEarlier ? "text-[#2f7d4f]" : "text-ink/50"}`}>
+                <span className={`mt-4 block font-display text-4xl tabular-nums transition-opacity ${picked ? "opacity-100" : "opacity-0"} ${isEarlier ? "text-[#2f7d4f]" : "text-ink/68"}`}>
                   {e ? formatEventYear(e.year) : ""}
                 </span>
                 {picked && isEarlier && <span className="absolute top-4 right-4 label text-[#2f7d4f]">First</span>}
@@ -201,10 +201,10 @@ export default function WhichFirstGame() {
             <button type="button" onClick={next} className="h-12 px-6 rounded-md bg-ink text-parchment text-[15px] font-semibold hover:bg-accent transition-colors">
               {right ? "Next pair" : "See your result"}
             </button>
-            <span className="text-[13px] text-ink/45 max-sm:hidden">or press Enter</span>
+            <span className="text-[13px] text-ink/65 max-sm:hidden">or press Enter</span>
           </div>
         )}
-        {!picked && <p className="text-[13px] text-ink/40 max-sm:hidden">Tip: the left and right arrow keys pick a card.</p>}
+        {!picked && <p className="text-[13px] text-ink/62 max-sm:hidden">Tip: the left and right arrow keys pick a card.</p>}
       </div>
     </div>
   );

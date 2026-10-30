@@ -196,10 +196,10 @@ export default function EmpireGame() {
                 <li key={i} className="rounded-lg border border-ink/10 bg-card overflow-hidden">
                   <span className="block h-1.5" style={{ background: right ? GREEN : RED }} aria-hidden="true" />
                   <div className="p-5">
-                    <p className="label text-ink/45">Round {i + 1} · {formatYear(r.year)}</p>
+                    <p className="label text-ink/65">Round {i + 1} · {formatYear(r.year)}</p>
                     <p className="mt-2 font-display text-2xl text-ink">{r.answer}</p>
-                    <p className="mt-1 text-[13.5px] text-ink/55">{right ? "You named it." : `You said ${r.picked}.`}</p>
-                    <Link href={`/place/${r.slug}`} className="mt-3 inline-block font-mono text-[11px] text-ink/45 hover:text-accent">Read its history →</Link>
+                    <p className="mt-1 text-[13.5px] text-ink/70">{right ? "You named it." : `You said ${r.picked}.`}</p>
+                    <Link href={`/place/${r.slug}`} className="mt-3 inline-block font-mono text-[11px] text-ink/65 hover:text-accent">Read its history →</Link>
                   </div>
                 </li>
               );
@@ -210,7 +210,7 @@ export default function EmpireGame() {
             {seed === null ? (
               <>
                 <h2 className="font-display text-2xl text-ink">Want to keep playing?</h2>
-                <p className="mt-1 text-[15px] text-ink/60 max-w-xl">
+                <p className="mt-1 text-[15px] text-ink/72 max-w-xl">
                   Today’s five are done{msLeft !== null && <>, and the next daily game starts in <span className="tabular-nums">{countdown(msLeft)}</span></>}.
                   Until then, play five random rounds as often as you like.
                 </p>
@@ -242,14 +242,14 @@ export default function EmpireGame() {
       <div className="relative h-[52svh] lg:h-[68svh] min-h-[340px] rounded-md overflow-hidden border border-ink/15 bg-[#cdd9e5]">
         <EmpireMap borders={loaded?.borders ?? null} labels={loaded?.labels ?? null} target={r?.answer ?? null} reveal={revealed} />
         {failed && (
-          <div className="absolute inset-0 grid place-items-center bg-[#cdd9e5] p-6 text-center text-[15px] text-ink/60">
+          <div className="absolute inset-0 grid place-items-center bg-[#cdd9e5] p-6 text-center text-[15px] text-ink/72">
             This map didn’t load. Check your connection and reload the page.
           </div>
         )}
       </div>
 
       <div>
-        <p className="label text-ink/45">
+        <p className="label text-ink/65">
           {seed === null ? `Daily #${day}` : "Random rounds"} · Round {round + 1} of {EMPIRE_ROUNDS}
         </p>
         <p className="mt-2 font-display text-4xl tracking-tight text-ink tabular-nums">{r ? formatYear(r.year) : " "}</p>
@@ -264,7 +264,7 @@ export default function EmpireGame() {
           ))}
         </div>
 
-        <p className="mt-8 text-[15px] text-ink/60 leading-relaxed">
+        <p className="mt-8 text-[15px] text-ink/72 leading-relaxed">
           {revealed ? "Names are now showing on the map." : <>Which state is <span className="text-[#b4432f] font-semibold">lit up in red</span>?</>}
         </p>
 
@@ -284,7 +284,7 @@ export default function EmpireGame() {
                     : isWrongPick
                       ? "border-[#b4432f] bg-[#b4432f]/10 text-[#8f2a16] line-through"
                       : revealed
-                        ? "border-ink/10 text-ink/40"
+                        ? "border-ink/10 text-ink/62"
                         : "border-ink/20 text-ink hover:border-accent hover:text-accent disabled:opacity-40"
                 }`}
               >
@@ -297,7 +297,7 @@ export default function EmpireGame() {
         {revealed && last && (
           <div className="mt-6" aria-live="polite">
             <p className="font-display text-2xl text-ink">{last.picked === last.answer ? "Correct." : "Not this time."}</p>
-            <p className="mt-1 text-[15px] text-ink/60">
+            <p className="mt-1 text-[15px] text-ink/72">
               That was {last.answer}, as its borders stood in {formatYear(last.year)}.{" "}
               <Link href={`/place/${last.slug}`} target="_blank" className="underline underline-offset-4 decoration-ink/25 hover:text-accent">
                 Read its history

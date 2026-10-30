@@ -131,13 +131,13 @@ export default function OrderGame() {
               checked ? (ok ? "border-[#2f7d4f]/40" : "border-[#b4432f]/40") : "border-ink/12 cursor-grab active:cursor-grabbing hover:shadow-sm"
             } ${dragging === i ? "opacity-50" : ""}`}
           >
-            <span className={`grid h-8 w-8 place-items-center rounded-full font-mono text-[13px] ${checked ? (ok ? "bg-[#2f7d4f] text-white" : "bg-[#b4432f] text-white") : "bg-ink/8 text-ink/60"}`}>
+            <span className={`grid h-8 w-8 place-items-center rounded-full font-mono text-[13px] ${checked ? (ok ? "bg-[#2f7d4f] text-white" : "bg-[#b4432f] text-white") : "bg-ink/8 text-ink/72"}`}>
               {i + 1}
             </span>
             <span className="min-w-0">
               <span className="block text-[16px] sm:text-[17px] leading-snug text-ink">{e.text}</span>
               {checked && (
-                <span className="block mt-1 font-mono text-[12px] text-ink/55">
+                <span className="block mt-1 font-mono text-[12px] text-ink/70">
                   {formatEventYear(e.year)}
                   {!ok && <> · belongs at no. {sorted.findIndex((x) => x.id === e.id) + 1}</>}
                   {e.href && <> · <Link href={e.href} className="hover:text-accent">read about it</Link></>}
@@ -146,8 +146,8 @@ export default function OrderGame() {
             </span>
             {!checked && (
               <span className="flex flex-col gap-1">
-                <button type="button" onClick={() => move(i, i - 1)} disabled={i === 0} aria-label={`Move "${e.text}" earlier`} className="h-8 w-9 rounded-md border border-ink/15 text-ink/60 hover:border-accent hover:text-accent disabled:opacity-25">↑</button>
-                <button type="button" onClick={() => move(i, i + 1)} disabled={i === order.length - 1} aria-label={`Move "${e.text}" later`} className="h-8 w-9 rounded-md border border-ink/15 text-ink/60 hover:border-accent hover:text-accent disabled:opacity-25">↓</button>
+                <button type="button" onClick={() => move(i, i - 1)} disabled={i === 0} aria-label={`Move "${e.text}" earlier`} className="h-8 w-9 rounded-md border border-ink/15 text-ink/72 hover:border-accent hover:text-accent disabled:opacity-25">↑</button>
+                <button type="button" onClick={() => move(i, i + 1)} disabled={i === order.length - 1} aria-label={`Move "${e.text}" later`} className="h-8 w-9 rounded-md border border-ink/15 text-ink/72 hover:border-accent hover:text-accent disabled:opacity-25">↓</button>
               </span>
             )}
           </li>
@@ -187,7 +187,7 @@ export default function OrderGame() {
             {seed === null ? (
               <>
                 <h2 className="font-display text-2xl text-ink">Want to keep playing?</h2>
-                <p className="mt-1 text-[15px] text-ink/60 max-w-xl">
+                <p className="mt-1 text-[15px] text-ink/72 max-w-xl">
                   Today’s five are done{msLeft !== null && <>, and new ones arrive in <span className="tabular-nums">{countdown(msLeft)}</span></>}. Until then, practise with five random events.
                 </p>
               </>
@@ -213,13 +213,13 @@ export default function OrderGame() {
 
   return (
     <div className="max-w-3xl">
-      <p className="label text-ink/45">{seed === null ? `Daily #${day}` : "Practice"} · {ORDER_COUNT} events</p>
-      <p className="mt-3 text-[15px] text-ink/60">
+      <p className="label text-ink/65">{seed === null ? `Daily #${day}` : "Practice"} · {ORDER_COUNT} events</p>
+      <p className="mt-3 text-[15px] text-ink/72">
         Put these in the order they happened, <span className="text-ink">earliest at the top</span>. Use the arrows, or drag them on a computer.
       </p>
-      <p className="mt-6 label text-ink/40">Earliest</p>
+      <p className="mt-6 label text-ink/62">Earliest</p>
       <div className="mt-2">{list}</div>
-      <p className="mt-2 label text-ink/40">Latest</p>
+      <p className="mt-2 label text-ink/62">Latest</p>
       <button type="button" onClick={check} className="mt-8 w-full sm:w-auto h-12 px-8 rounded-md bg-ink text-parchment text-[15px] font-semibold hover:bg-accent transition-colors">
         Check my order
       </button>
