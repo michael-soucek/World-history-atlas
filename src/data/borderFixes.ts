@@ -434,4 +434,13 @@ export const BORDER_FIXES: BorderFix[] = [
     area: [[-71.5, -17.7], [-69.8, -17.2], [-69.3, -17.6], [-68.9, -19.0], [-68.5, -19.9], [-68.6, -21.0], [-68.0, -21.5], [-67.6, -22.8], [-67.0, -23.0], [-67.3, -24.0], [-68.3, -25.5], [-68.6, -27.6], [-71.5, -27.6]],
     from: [{ name: "Peru" }, { name: "Bolivia" }], to: { NAME: "Chile", SUBJECTO: "Chile" },
     why: "After the War of the Pacific (1879–1884) Chile took Bolivia's coast (Antofagasta) and Peru's Tarapacá, and administered Tacna and Arica (Treaty of Ancón, 1883; truce with Bolivia, 1884). The map still drew the pre-war borders, leaving Bolivia with a coastline. Outline approximate." },
+  // ═══════════════════════════════ Asia: reported by the event writers (2026-10-30)
+
+  { years: [1200], op: "assign",
+    area: [[103.5, 35.0], [104.5, 34.9], [106.0, 34.4], [107.2, 34.2], [109.5, 33.6], [111.0, 33.3], [112.5, 32.9], [114.0, 32.4], [115.5, 32.3], [117.0, 32.7], [118.5, 33.1], [119.5, 33.6], [120.5, 34.0], [123.0, 34.5], [123.0, 41.0], [103.5, 41.0]],
+    from: [{ name: "Song Empire" }], to: { NAME: "Jin Empire (Jurchen)", SUBJECTO: "Jin Empire (Jurchen)" },
+    why: "The Jurchen Jin took northern China in the Jingkang incident (1127); the Treaty of Shaoxing (1142) set the border along the Huai River and the Dasan Pass. The map still drew the Song up to the old Liao frontier. Outline approximate." },
+  { years: [1600], op: "assign", area: [[74.5, 15.0], [76.0, 14.9], [77.0, 15.2], [78.0, 15.5], [78.0, 16.4], [74.5, 16.4]],
+    from: [{ name: "Vijayanagara" }], to: { NAME: "Bijapur", SUBJECTO: "Bijapur" },
+    why: "After the Battle of Talikota (1565) Vijayanagara lost its capital, Hampi, and the Raichur Doab to the Deccan sultanates (Bijapur took Raichur and Adoni); the map still drew the empire's pre-1565 northern border. Outline approximate." },
 ];
