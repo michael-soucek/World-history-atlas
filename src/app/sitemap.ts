@@ -53,6 +53,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE}/countries`, lastModified: new Date("2026-10-25"), changeFrequency: "monthly", priority: 0.8 },
     { url: `${BASE}/philosophy`, lastModified: new Date("2026-10-25"), changeFrequency: "monthly", priority: 0.8 },
     { url: `${BASE}/play`, lastModified: now, changeFrequency: "daily", priority: 0.7 },
+    { url: `${BASE}/play/empire`, lastModified: now, changeFrequency: "daily", priority: 0.7 },
     { url: `${BASE}/compare`, lastModified: now, changeFrequency: "monthly", priority: 0.6 },
     { url: `${BASE}/about`,    lastModified: now, changeFrequency: "yearly",  priority: 0.4 },
     { url: `${BASE}/support`,  lastModified: now, changeFrequency: "yearly",  priority: 0.3 },

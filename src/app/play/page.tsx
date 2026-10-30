@@ -4,6 +4,7 @@ import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
 import PageIntro from "@/components/PageIntro";
 import GuessGame from "@/components/GuessGame";
+import PlayTabs from "@/components/PlayTabs";
 import { buildPageMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = buildPageMetadata({
@@ -29,6 +30,7 @@ export default function PlayPage() {
           lede="Five maps of the world's borders, names hidden. Guess when each was drawn; the closer you get, the more points you score."
         />
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-14">
+          <PlayTabs current="/play" />
           <GuessGame />
         </div>
       </main>

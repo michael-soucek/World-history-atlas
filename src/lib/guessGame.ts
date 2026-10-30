@@ -85,10 +85,11 @@ export function puzzlesFor(seed: number): Puzzle[] {
 
 /**
  * Points for one guess, out of 1000. Falls off smoothly with distance:
- * 25 years off ≈ 880, 100 ≈ 610, 300 ≈ 220.
+ * 25 years off ≈ 880, 100 ≈ 610, 300 ≈ 220. A hint (one name shown) halves it.
  */
-export function scoreFor(guess: number, answer: number): number {
-  return Math.round(1000 * Math.exp(-Math.abs(guess - answer) / 200));
+export function scoreFor(guess: number, answer: number, hinted = false): number {
+  const points = Math.round(1000 * Math.exp(-Math.abs(guess - answer) / 200));
+  return hinted ? Math.round(points / 2) : points;
 }
 
 export type Tier = "great" | "close" | "near" | "far";
@@ -114,15 +115,16 @@ const yearsOff = (n: number) => `${n.toLocaleString("en-US")} ${n === 1 ? "year"
 
 /**
  * The text for "Share": the score, a title, and one line per map with the
- * region and how far off the guess was. No answers, so no spoilers.
+ * region and how far off the guess was (💡 where a hint was used). No
+ * answers, so no spoilers.
  */
-export function shareText(day: number | null, puzzles: Puzzle[], guesses: number[]): string {
-  const points = guesses.map((g, i) => scoreFor(g, puzzles[i].year));
+export function shareText(day: number | null, puzzles: Puzzle[], guesses: number[], hints: boolean[] = []): string {
+  const points = guesses.map((g, i) => scoreFor(g, puzzles[i].year, hints[i]));
   const total = points.reduce((a, b) => a + b, 0);
   const name = day ? `Guess the Year #${day}` : "Guess the Year (practice)";
   const lines = puzzles.map((p, i) => {
     const off = Math.abs(guesses[i] - p.year);
-    return `${EMOJI[tierOf(points[i])]} ${p.region}: ${off === 0 ? "spot on" : yearsOff(off)}`;
+    return `${EMOJI[tierOf(points[i])]} ${p.region}: ${off === 0 ? "spot on" : yearsOff(off)}${hints[i] ? " 💡" : ""}`;
   });
   return [
     `Borders of Time · ${name}`,
@@ -154,5 +156,17 @@ export function statsFrom(results: { day: number; total: number }[], today: numb
 export function msUntilNextGame(now: Date): number {
   return Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate() + 1) - now.getTime();
 }
+
+/** The eras under the guess slider (the same edges and colours as the site's timeline). */
+export const GUESS_ERAS: { label: string; from: number; color: string }[] = [
+  { label: "Ancient", from: MIN_GUESS, color: "var(--color-ancient)" },
+  { label: "Classical", from: -500, color: "var(--color-classical)" },
+  { label: "Medieval", from: 500, color: "var(--color-medieval)" },
+  { label: "Early modern", from: 1400, color: "var(--color-early-modern)" },
+  { label: "Modern", from: 1800, color: "var(--color-modern)" },
+];
+
+/** A year's position along the slider, 0 to 1. */
+export const sliderPos = (year: number) => (Math.min(MAX_GUESS, Math.max(MIN_GUESS, year)) - MIN_GUESS) / (MAX_GUESS - MIN_GUESS);
 
 export const formatYear = (y: number) => (y < 0 ? `${Math.abs(y).toLocaleString("en-US")} BCE` : `${y} CE`);

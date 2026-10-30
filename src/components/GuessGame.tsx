@@ -4,15 +4,34 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import dynamic from "next/dynamic";
 import {
-  MAX_GUESS, MIN_GUESS, ROUNDS, dayNumber, formatYear, msUntilNextGame, puzzlesFor, rankFor, scoreFor,
-  shareText, statsFrom, tierOf, type PlayerStats,
+  GUESS_ERAS, MAX_GUESS, MIN_GUESS, ROUNDS, dayNumber, formatYear, msUntilNextGame, puzzlesFor, rankFor, scoreFor,
+  shareText, sliderPos, statsFrom, tierOf, type PlayerStats,
 } from "@/lib/guessGame";
+import type { ShownTerritory } from "@/components/GuessMap";
 
 // MapLibre needs the browser.
 const GuessMap = dynamic(() => import("@/components/GuessMap"), { ssr: false });
 
-/** Today's guesses are remembered in this browser, so a reload doesn't reset the day. */
+/** Today's guesses (and which rounds used a hint) are remembered in this browser, so a reload doesn't reset the day. */
 const storageKey = (day: number) => `guess-the-year:${day}`;
+const hintsKey = (day: number) => `guess-the-year-hints:${day}`;
+
+function loadHints(day: number): boolean[] {
+  try {
+    const saved = JSON.parse(localStorage.getItem(hintsKey(day)) ?? "[]");
+    return Array.isArray(saved) ? saved.map(Boolean).slice(0, ROUNDS) : [];
+  } catch {
+    return [];
+  }
+}
+
+function saveHints(day: number, hints: boolean[]) {
+  try {
+    localStorage.setItem(hintsKey(day), JSON.stringify(hints));
+  } catch {
+    // Storage blocked: hints just aren't remembered.
+  }
+}
 
 function loadGuesses(day: number): number[] {
   try {
@@ -42,7 +61,8 @@ function loadStats(today: number): PlayerStats {
       const saved = loadGuesses(day);
       if (saved.length < ROUNDS) continue;
       const puzzles = puzzlesFor(day);
-      results.push({ day, total: saved.reduce((sum, g, j) => sum + scoreFor(g, puzzles[j].year), 0) });
+      const hints = loadHints(day);
+      results.push({ day, total: saved.reduce((sum, g, j) => sum + scoreFor(g, puzzles[j].year, hints[j]), 0) });
     }
   } catch {
     // Storage blocked: no stats, the results still show.
@@ -58,6 +78,38 @@ function countdown(ms: number): string {
 
 const TIER_STYLE = { great: "bg-[#2f7d4f]", close: "bg-[#c9a227]", near: "bg-[#d9822b]", far: "bg-[#b4432f]" };
 
+/** The five eras as coloured bands, with a label under each (labels hide on narrow screens). */
+function EraBar({ children }: { children?: React.ReactNode }) {
+  return (
+    <div className="relative">
+      <div className="flex h-2 rounded-full overflow-hidden" aria-hidden="true">
+        {GUESS_ERAS.map((e, i) => {
+          const to = GUESS_ERAS[i + 1]?.from ?? MAX_GUESS;
+          return <span key={e.label} style={{ width: `${(sliderPos(to) - sliderPos(e.from)) * 100}%`, background: e.color, opacity: 0.55 }} />;
+        })}
+      </div>
+      {children}
+      {/* Two staggered rows, so the narrow modern bands' labels don't collide. */}
+      <div className="relative h-7 mt-1.5 font-mono text-[9.5px] uppercase tracking-wider text-ink/45" aria-hidden="true">
+        {GUESS_ERAS.map((e, i) => {
+          const to = GUESS_ERAS[i + 1]?.from ?? MAX_GUESS;
+          const mid = ((sliderPos(e.from) + sliderPos(to)) / 2) * 100;
+          const edge = i === 0 ? "translate-x-0" : i === GUESS_ERAS.length - 1 ? "-translate-x-full" : "-translate-x-1/2";
+          return (
+            <span
+              key={e.label}
+              className={`absolute whitespace-nowrap ${edge} ${i % 2 ? "top-3.5" : "top-0"}`}
+              style={{ left: i === 0 ? 0 : i === GUESS_ERAS.length - 1 ? "100%" : `${mid}%` }}
+            >
+              {e.label}
+            </span>
+          );
+        })}
+      </div>
+    </div>
+  );
+}
+
 /**
  * The game. "daily" plays today's five maps (the same for everyone); after
  * that, "practice" deals five random ones as often as you like.
@@ -67,6 +119,11 @@ export default function GuessGame() {
   const [seed, setSeed] = useState<number | null>(null); // null = today's daily game
   const puzzles = puzzlesFor(seed ?? day);
   const [guesses, setGuesses] = useState<number[]>([]);
+  const [hints, setHints] = useState<boolean[]>([]);
+  // Hint shown for the round in progress (not yet guessed).
+  const [hintNow, setHintNow] = useState(false);
+  // The biggest territories in view, for the hint and the reveal.
+  const [shown, setShown] = useState<{ year: number; list: ShownTerritory[] } | null>(null);
   const [value, setValue] = useState(1000);
   const [revealed, setRevealed] = useState(false);
   const [shared, setShared] = useState<"" | "copied" | "failed">("");
@@ -80,6 +137,7 @@ export default function GuessGame() {
     const saved = loadGuesses(day);
     // eslint-disable-next-line react-hooks/set-state-in-effect
     setGuesses(saved);
+    setHints(loadHints(day));
     setRevealed(saved.length > 0 && saved.length < ROUNDS);
   }, [day]);
 
@@ -99,24 +157,33 @@ export default function GuessGame() {
   const round = revealed ? guesses.length - 1 : guesses.length;
   const finished = guesses.length === ROUNDS && !revealed;
   const puzzle = puzzles[Math.min(round, ROUNDS - 1)];
-  const points = guesses.map((g, i) => scoreFor(g, puzzles[i].year));
+  const points = guesses.map((g, i) => scoreFor(g, puzzles[i].year, hints[i]));
+  const inView = shown && shown.year === puzzle.year ? shown.list : null;
   const total = points.reduce((a, b) => a + b, 0);
 
   function guess() {
     const next = [...guesses, value];
+    const nextHints = [...hints.slice(0, guesses.length), hintNow];
     setGuesses(next);
+    setHints(nextHints);
     setRevealed(true);
-    if (seed === null) saveGuesses(day, next);
+    if (seed === null) {
+      saveGuesses(day, next);
+      saveHints(day, nextHints);
+    }
   }
 
   function nextRound() {
     setRevealed(false);
+    setHintNow(false);
     setValue(1000);
   }
 
   function practice() {
     setSeed(Math.floor(Math.random() * 1e9));
     setGuesses([]);
+    setHints([]);
+    setHintNow(false);
     setRevealed(false);
     setValue(1000);
     setShared("");
@@ -126,12 +193,14 @@ export default function GuessGame() {
     const saved = loadGuesses(day);
     setSeed(null);
     setGuesses(saved);
+    setHints(loadHints(day));
+    setHintNow(false);
     setRevealed(saved.length > 0 && saved.length < ROUNDS);
     setValue(1000);
     setShared("");
   }
 
-  const text = shareText(seed === null ? day : null, puzzles, guesses);
+  const text = shareText(seed === null ? day : null, puzzles, guesses, hints);
 
   /** Phones get the share sheet; everywhere else copies the text. */
   async function share() {
@@ -192,7 +261,7 @@ export default function GuessGame() {
                 <span className="min-w-0">
                   <span className="block font-display text-xl text-ink">{formatYear(p.year)} <span className="text-ink/40 text-base">· {p.region}</span></span>
                   <span className="block text-[13px] text-ink/50">
-                    You guessed {formatYear(guesses[i])} · {off === 0 ? "spot on" : `${off.toLocaleString("en-US")} years off`}
+                    You guessed {formatYear(guesses[i])} · {off === 0 ? "spot on" : `${off.toLocaleString("en-US")} years off`}{hints[i] ? " · hint used" : ""}
                   </span>
                 </span>
                 <span className="text-right">
@@ -254,7 +323,14 @@ export default function GuessGame() {
   return (
     <div className="grid grid-cols-1 lg:grid-cols-[1fr_22rem] gap-6 lg:gap-10">
       <div className="relative h-[56svh] lg:h-[68svh] min-h-[360px] rounded-md overflow-hidden border border-ink/15 bg-[#cdd9e5]">
-        <GuessMap year={puzzle.year} view={puzzle.view} reveal={revealed} onLoaded={setLoadedYear} />
+        <GuessMap
+          year={puzzle.year}
+          view={puzzle.view}
+          reveal={revealed}
+          hint={!revealed && hintNow && inView?.[0] ? inView[0].name : null}
+          onLoaded={setLoadedYear}
+          onTerritories={(year, list) => setShown({ year, list })}
+        />
       </div>
 
       <div>
@@ -285,6 +361,9 @@ export default function GuessGame() {
               aria-valuetext={formatYear(value)}
               className="mt-4 w-full accent-[var(--color-accent,#2346a0)]"
             />
+            <div className="mt-1 px-[7px]">
+              <EraBar />
+            </div>
             <div className="flex justify-between font-mono text-[10px] text-ink/40">
               <span>{formatYear(MIN_GUESS)}</span><span>{formatYear(MAX_GUESS)}</span>
             </div>
@@ -299,6 +378,23 @@ export default function GuessGame() {
                   {d > 0 ? `+${d}` : d}
                 </button>
               ))}
+            </div>
+            <div className="mt-4 text-[13px] text-ink/55">
+              {hintNow ? (
+                <p>
+                  <span className="text-ink">Hint:</span> the territory outlined in red is{" "}
+                  <span className="font-semibold text-[var(--color-vermilion)]">{inView?.[0]?.name}</span>. This map now scores half points.
+                </p>
+              ) : (
+                <button
+                  type="button"
+                  onClick={() => setHintNow(true)}
+                  disabled={!inView?.length}
+                  className="underline underline-offset-4 decoration-ink/25 hover:text-accent disabled:opacity-40 disabled:no-underline"
+                >
+                  Stuck? Show one name (half points)
+                </button>
+              )}
             </div>
             <button
               type="button"
@@ -316,8 +412,42 @@ export default function GuessGame() {
             <p className="mt-3 text-[15px] text-ink/60">
               You guessed {formatYear(guesses[last])}, {Math.abs(guesses[last] - puzzles[last].year).toLocaleString("en-US")} years off.
             </p>
-            <p className="mt-4 font-mono text-[13px] text-ink tabular-nums">+{points[last]} points</p>
-            <p className="mt-6 text-sm text-ink/50">The names are now showing on the map.</p>
+            <div className="mt-6 px-[7px]">
+              <EraBar>
+                {(() => {
+                  const g = sliderPos(guesses[last]) * 100;
+                  const a = sliderPos(puzzles[last].year) * 100;
+                  return (
+                    <div className="absolute inset-x-0 -top-1 h-4" aria-hidden="true">
+                      <span className="absolute top-1/2 h-0.5 -translate-y-1/2 bg-ink/50" style={{ left: `${Math.min(g, a)}%`, width: `${Math.abs(a - g)}%` }} />
+                      <span className="absolute top-0 h-4 w-4 -translate-x-1/2 rounded-full border-2 border-ink bg-parchment" style={{ left: `${g}%` }} title="Your guess" />
+                      <span className="absolute top-0 h-4 w-4 -translate-x-1/2 rounded-full bg-[var(--color-vermilion)] ring-2 ring-parchment" style={{ left: `${a}%` }} title="The answer" />
+                    </div>
+                  );
+                })()}
+              </EraBar>
+              <p className="mt-1 flex gap-4 text-[12px] text-ink/50">
+                <span className="flex items-center gap-1.5"><span className="h-2.5 w-2.5 rounded-full border-2 border-ink" aria-hidden="true" />Your guess</span>
+                <span className="flex items-center gap-1.5"><span className="h-2.5 w-2.5 rounded-full bg-[var(--color-vermilion)]" aria-hidden="true" />The answer</span>
+              </p>
+            </div>
+            <p className="mt-4 font-mono text-[13px] text-ink tabular-nums">+{points[last]} {points[last] === 1 ? "point" : "points"}{hints[last] ? " (half, hint used)" : ""}</p>
+            {inView && inView.length > 0 && (
+              <div className="mt-6">
+                <p className="label text-ink/45">On this map</p>
+                <ul className="mt-2 text-[15px] leading-relaxed">
+                  {inView.slice(0, 4).map((t) => (
+                    <li key={t.name}>
+                      {t.slug ? (
+                        <Link href={`/place/${t.slug}`} target="_blank" className="text-ink hover:text-accent underline underline-offset-4 decoration-ink/20">{t.name}</Link>
+                      ) : (
+                        <span className="text-ink/70">{t.name}</span>
+                      )}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
             <button
               type="button"
               onClick={nextRound}
