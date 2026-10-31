@@ -430,6 +430,8 @@ export const BORDER_FIXES: BorderFix[] = [
 
   { years: [1650, 1700], op: "rename", match: { at: [-106.1, 35.7] }, set: { NAME: "Santa Fe de Nuevo México", SUBJECTO: "Spanish Habsburg" },
     why: "Spanish New Mexico (capital Santa Fe, founded c. 1610) was a province of New Spain; the map left it unnamed. Lost in the Pueblo Revolt of 1680 and retaken in 1692, so Spanish on both maps." },
+  { years: [1492], op: "rename", match: { name: "Santee" }, set: { NAME: "Santee (Carolina)", SUBJECTO: "Santee (Carolina)" },
+    why: "The 1492 'Santee' is the Siouan-speaking Santee people of South Carolina; later maps use 'Santee' for the Dakota (Isáŋyathi) of Minnesota, which link to the Sioux page." },
   { years: [1900], op: "assign",
     area: [[-71.5, -17.7], [-69.8, -17.2], [-69.3, -17.6], [-68.9, -19.0], [-68.5, -19.9], [-68.6, -21.0], [-68.0, -21.5], [-67.6, -22.8], [-67.0, -23.0], [-67.3, -24.0], [-68.3, -25.5], [-68.6, -27.6], [-71.5, -27.6]],
     from: [{ name: "Peru" }, { name: "Bolivia" }], to: { NAME: "Chile", SUBJECTO: "Chile" },
