@@ -68,7 +68,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // One URL per Wikidata entity: alias slugs (manchu-empire → qing-dynasty)
   // redirect, and a sitemap should only list final URLs.
   const seenQids = new Set<string>();
-  const uniquePlaces = Object.values(CROSSWALK).filter(e => !seenQids.has(e.wikidataId) && seenQids.add(e.wikidataId));
+  // Places that are really culture pages (e.g. the map's "Anasazi") redirect there.
+  const cultureQids = new Set(Object.values(CULTURES_CROSSWALK).map(c => c.wikidataId));
+  const uniquePlaces = Object.values(CROSSWALK).filter(e => !cultureQids.has(e.wikidataId) && !seenQids.has(e.wikidataId) && seenQids.add(e.wikidataId));
   const placeRoutes: MetadataRoute.Sitemap = uniquePlaces.map(e => ({
     url: `${BASE}/place/${e.slug}`,
     // Place pages: new search titles (2026-10-21), 57 new places and our own articles (2026-10-22).

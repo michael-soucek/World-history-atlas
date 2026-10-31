@@ -5,6 +5,8 @@ import HandwrittenTitle from "@/components/HandwrittenTitle";
 import type { CrosswalkEntry } from "@/types";
 import { CROSSWALK, getCanonicalNameByQid, lookupByQid, lookupBySlug, mapLinkFor } from "@/data/crosswalk";
 import { buildPlaceContent } from "@/lib/wikidata";
+import { lookupCultureByQid } from "@/data/entityCrosswalk";
+import { permanentRedirect } from "next/navigation";
 import { readableNameFromSlug, resolveEntityBySlugOrQid } from "@/lib/entityResolver";
 import { fetchWikipediaSearchSummary } from "@/lib/wikipedia";
 import SiteHeader from "@/components/SiteHeader";
@@ -19,7 +21,7 @@ interface Props {
 export const revalidate = 31536000;
 
 export async function generateStaticParams() {
-  return Object.values(CROSSWALK).map((e) => ({ slug: e.slug }));
+  return Object.values(CROSSWALK).filter((e) => !lookupCultureByQid(e.wikidataId)).map((e) => ({ slug: e.slug }));
 }
 
 // Always returns an object — never throws, never returns null.
@@ -69,6 +71,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const result = await resolvePage(slug);
   const content = result?.content;
+  const culture = result?.entry ? lookupCultureByQid(result.entry.wikidataId) : undefined;
+  if (culture) return { robots: { index: false, follow: true }, alternates: { canonical: `/culture/${culture.slug}` } };
   // Same test as the page's fallback (a Wikipedia summary, if any), which stays out of search.
   if (!content || content.labelMismatch || !result.entry || !content.summary?.trim()) {
     return { title: "Place not found — Borders of Time", robots: { index: false, follow: true } };
@@ -81,6 +85,11 @@ export default async function PlacePage({ params }: Props) {
   const result = await resolvePage(slug);
 
   const { entry, content } = result;
+
+  // A map polity that is really one of our culture pages (the map's "Anasazi"
+  // → Ancestral Puebloans) has its article there.
+  const culture = entry ? lookupCultureByQid(entry.wikidataId) : undefined;
+  if (culture) permanentRedirect(`/culture/${culture.slug}`);
 
   // Graceful fallback: no content loaded, or label guard fired
   const readableSlugName = readableNameFromSlug(slug);
