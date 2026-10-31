@@ -1,4 +1,9 @@
 ---
+name: Nelson Mandela
+wikidata: Q8023
+born: 1918
+died: 2013
+roles: president, activist, lawyer
 sources:
   - Wikipedia: Nelson Mandela | https://en.wikipedia.org/wiki/Nelson_Mandela
   - Wikidata: Nelson Mandela (Q8023) | https://www.wikidata.org/wiki/Q8023

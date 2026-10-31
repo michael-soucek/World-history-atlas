@@ -1,4 +1,9 @@
 ---
+name: Sun Yat-sen
+wikidata: Q8573
+born: 1866
+died: 1925
+roles: revolutionary, president, physician
 sources:
   - Wikipedia: Sun Yat-sen | https://en.wikipedia.org/wiki/Sun_Yat-sen
   - Wikidata: Sun Yat-sen (Q8573) | https://www.wikidata.org/wiki/Q8573

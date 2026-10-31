@@ -1,4 +1,9 @@
 ---
+name: Ashoka
+wikidata: Q8589
+born: ~-304
+died: ~-232
+roles: emperor, buddhist patron
 sources:
   - Wikipedia: Ashoka | https://en.wikipedia.org/wiki/Ashoka
   - Wikidata: Ashoka (Q8589) | https://www.wikidata.org/wiki/Q8589

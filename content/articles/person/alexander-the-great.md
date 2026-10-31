@@ -1,4 +1,9 @@
 ---
+name: Alexander the Great
+wikidata: Q8409
+born: -356
+died: -323
+roles: king, general, conqueror
 sources:
   - Wikipedia: Alexander the Great | https://en.wikipedia.org/wiki/Alexander_the_Great
   - Wikidata: Alexander the Great (Q8409) | https://www.wikidata.org/wiki/Q8409

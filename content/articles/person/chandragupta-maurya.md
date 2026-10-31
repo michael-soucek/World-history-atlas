@@ -1,4 +1,9 @@
 ---
+name: Chandragupta Maurya
+wikidata: Q188541
+born: ~-350
+died: ~-297
+roles: emperor, dynasty founder
 sources:
   - Wikipedia: Chandragupta Maurya | https://en.wikipedia.org/wiki/Chandragupta_Maurya
   - Wikidata: Chandragupta Maurya (Q188541) | https://www.wikidata.org/wiki/Q188541

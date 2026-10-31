@@ -1,4 +1,9 @@
 ---
+name: Genghis Khan
+wikidata: Q720
+born: ~1162
+died: 1227
+roles: khan, conqueror, military leader
 sources:
   - Wikipedia: Genghis Khan | https://en.wikipedia.org/wiki/Genghis_Khan
   - Wikidata: Genghis Khan (Q720) | https://www.wikidata.org/wiki/Q720

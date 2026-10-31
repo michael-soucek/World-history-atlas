@@ -1,4 +1,9 @@
 ---
+name: Napoleon
+wikidata: Q517
+born: 1769
+died: 1821
+roles: emperor, general
 sources:
   - Wikipedia: Napoleon | https://en.wikipedia.org/wiki/Napoleon
   - Wikidata: Napoleon (Q517) | https://www.wikidata.org/wiki/Q517

@@ -1,4 +1,9 @@
 ---
+name: Franklin D. Roosevelt
+wikidata: Q8007
+born: 1882
+died: 1945
+roles: president, politician, lawyer
 sources:
   - Wikipedia: Franklin D. Roosevelt | https://en.wikipedia.org/wiki/Franklin_D._Roosevelt
   - Wikidata: Franklin D. Roosevelt (Q8007) | https://www.wikidata.org/wiki/Q8007

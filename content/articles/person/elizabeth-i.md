@@ -1,4 +1,9 @@
 ---
+name: Elizabeth I
+wikidata: Q7207
+born: 1533
+died: 1603
+roles: queen, monarch
 sources:
   - Wikipedia: Elizabeth I | https://en.wikipedia.org/wiki/Elizabeth_I
   - Wikidata: Elizabeth I (Q7207) | https://www.wikidata.org/wiki/Q7207

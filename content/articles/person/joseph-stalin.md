@@ -1,4 +1,9 @@
 ---
+name: Joseph Stalin
+wikidata: Q855
+born: 1878
+died: 1953
+roles: dictator, revolutionary, politician
 sources:
   - Wikipedia: Joseph Stalin | https://en.wikipedia.org/wiki/Joseph_Stalin
   - Wikidata: Joseph Stalin (Q855) | https://www.wikidata.org/wiki/Q855

@@ -1,4 +1,8 @@
 ---
+name: Timur
+wikidata: Q8462
+died: 1405
+roles: conqueror, emir
 sources:
   - Wikipedia: Timur | https://en.wikipedia.org/wiki/Timur
   - Wikidata: Timur (Q8462) | https://www.wikidata.org/wiki/Q8462
@@ -8,7 +12,7 @@ Tamerlane, or Timur, was a Turco-Mongol conqueror who founded the Timurid Empire
 
 ## Early life
 
-Timur was born on 9 April 1336 near Kesh, today's Shahrisabz, in Uzbekistan, into the Barlas tribe, a Mongol tribe that had become Turkic-speaking and Muslim. The name Tamerlane comes from the Persian Timur-i Lang, "Timur the Lame", because of injuries to his right leg and arm from arrows, possibly received while stealing sheep as a young man. His skeleton, examined in 1941, confirmed the injuries.
+Timur was born in the 1320s near Kesh, today's Shahrisabz, in Uzbekistan (later Timurid histories give 8 April 1336, a date most scholars now think was invented), into the Barlas tribe, a Mongol tribe that had become Turkic-speaking and Muslim. The name Tamerlane comes from the Persian Timur-i Lang, "Timur the Lame", because of injuries to his right leg and arm from arrows, possibly received while stealing sheep as a young man. His skeleton, examined in 1941, confirmed the injuries.
 
 ## Rise to power
 

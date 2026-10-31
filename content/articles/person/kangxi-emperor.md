@@ -1,4 +1,9 @@
 ---
+name: Kangxi Emperor
+wikidata: Q17790
+born: 1654
+died: 1722
+roles: emperor, ruler
 sources:
   - Wikipedia: Kangxi Emperor | https://en.wikipedia.org/wiki/Kangxi_Emperor
   - Wikidata: Kangxi Emperor (Q17790) | https://www.wikidata.org/wiki/Q17790

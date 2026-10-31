@@ -1,4 +1,9 @@
 ---
+name: Joan of Arc
+wikidata: Q7226
+born: ~1412
+died: 1431
+roles: military leader, saint
 sources:
   - Wikipedia: Joan of Arc | https://en.wikipedia.org/wiki/Joan_of_Arc
   - Wikidata: Joan of Arc (Q7226) | https://www.wikidata.org/wiki/Q7226

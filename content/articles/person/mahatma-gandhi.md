@@ -1,4 +1,9 @@
 ---
+name: Mahatma Gandhi
+wikidata: Q1001
+born: 1869
+died: 1948
+roles: independence leader, lawyer, activist
 sources:
   - Wikipedia: Mahatma Gandhi | https://en.wikipedia.org/wiki/Mahatma_Gandhi
   - Wikidata: Mahatma Gandhi (Q1001) | https://www.wikidata.org/wiki/Q1001

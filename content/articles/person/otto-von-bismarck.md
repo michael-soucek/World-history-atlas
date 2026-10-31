@@ -1,4 +1,9 @@
 ---
+name: Otto von Bismarck
+wikidata: Q8442
+born: 1815
+died: 1898
+roles: chancellor, statesman, diplomat
 sources:
   - Wikipedia: Otto von Bismarck | https://en.wikipedia.org/wiki/Otto_von_Bismarck
   - Wikidata: Otto von Bismarck (Q8442) | https://www.wikidata.org/wiki/Q8442

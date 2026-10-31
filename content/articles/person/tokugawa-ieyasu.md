@@ -1,4 +1,9 @@
 ---
+name: Tokugawa Ieyasu
+wikidata: Q171977
+born: 1543
+died: 1616
+roles: shogun, warlord
 sources:
   - Wikipedia: Tokugawa Ieyasu | https://en.wikipedia.org/wiki/Tokugawa_Ieyasu
   - Wikidata: Tokugawa Ieyasu (Q171977) | https://www.wikidata.org/wiki/Q171977

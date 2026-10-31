@@ -1,4 +1,9 @@
 ---
+name: Augustus
+wikidata: Q1405
+born: -63
+died: 14
+roles: emperor, statesman
 sources:
   - Wikipedia: Augustus | https://en.wikipedia.org/wiki/Augustus
   - Wikidata: Augustus (Q1405) | https://www.wikidata.org/wiki/Q1405

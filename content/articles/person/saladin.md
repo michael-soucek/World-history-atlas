@@ -1,4 +1,9 @@
 ---
+name: Saladin
+wikidata: Q8581
+born: ~1137
+died: 1193
+roles: sultan, military commander
 sources:
   - Wikipedia: Saladin | https://en.wikipedia.org/wiki/Saladin
   - Wikidata: Saladin (Q8581) | https://www.wikidata.org/wiki/Q8581

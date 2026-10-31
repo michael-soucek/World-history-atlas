@@ -1,4 +1,9 @@
 ---
+name: Ivan the Terrible
+wikidata: Q7996
+born: 1530
+died: 1584
+roles: tsar, grand prince
 sources:
   - Wikipedia: Ivan the Terrible | https://en.wikipedia.org/wiki/Ivan_the_Terrible
   - Wikidata: Ivan the Terrible (Q7996) | https://www.wikidata.org/wiki/Q7996

@@ -1,4 +1,9 @@
 ---
+name: Empress Dowager Cixi
+wikidata: Q47842
+born: 1835
+died: 1908
+roles: empress dowager, regent
 sources:
   - Wikipedia: Empress Dowager Cixi | https://en.wikipedia.org/wiki/Empress_Dowager_Cixi
   - Wikidata: Empress Dowager Cixi (Q47842) | https://www.wikidata.org/wiki/Q47842

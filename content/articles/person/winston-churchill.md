@@ -1,4 +1,9 @@
 ---
+name: Winston Churchill
+wikidata: Q8016
+born: 1874
+died: 1965
+roles: prime minister, statesman, writer
 sources:
   - Wikipedia: Winston Churchill | https://en.wikipedia.org/wiki/Winston_Churchill
   - Wikidata: Winston Churchill (Q8016) | https://www.wikidata.org/wiki/Q8016

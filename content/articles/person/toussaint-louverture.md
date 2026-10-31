@@ -1,4 +1,9 @@
 ---
+name: Toussaint Louverture
+wikidata: Q205783
+born: 1743
+died: 1803
+roles: revolutionary, general, governor
 sources:
   - Wikipedia: Toussaint Louverture | https://en.wikipedia.org/wiki/Toussaint_Louverture
   - Wikidata: Toussaint Louverture (Q205783) | https://www.wikidata.org/wiki/Q205783

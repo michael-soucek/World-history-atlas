@@ -1,4 +1,9 @@
 ---
+name: Aristotle
+wikidata: Q868
+born: -384
+died: -322
+roles: philosopher, scientist, teacher
 sources:
   - Wikipedia: Aristotle | https://en.wikipedia.org/wiki/Aristotle
   - Wikidata: Aristotle (Q868) | https://www.wikidata.org/wiki/Q868

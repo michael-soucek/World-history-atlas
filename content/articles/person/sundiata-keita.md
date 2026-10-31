@@ -1,4 +1,9 @@
 ---
+name: Sundiata Keita
+wikidata: Q175772
+born: ~1217
+died: ~1255
+roles: king, founder
 sources:
   - Wikipedia: Sundiata Keita | https://en.wikipedia.org/wiki/Sundiata_Keita
   - Wikidata: Sundiata Keita (Q175772) | https://www.wikidata.org/wiki/Q175772

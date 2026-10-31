@@ -1,4 +1,9 @@
 ---
+name: Louis XIV
+wikidata: Q7742
+born: 1638
+died: 1715
+roles: king, ruler
 sources:
   - Wikipedia: Louis XIV | https://en.wikipedia.org/wiki/Louis_XIV
   - Wikidata: Louis XIV (Q7742) | https://www.wikidata.org/wiki/Q7742

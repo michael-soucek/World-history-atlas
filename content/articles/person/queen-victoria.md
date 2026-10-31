@@ -1,4 +1,9 @@
 ---
+name: Queen Victoria
+wikidata: Q9439
+born: 1819
+died: 1901
+roles: queen, empress
 sources:
   - Wikipedia: Queen Victoria | https://en.wikipedia.org/wiki/Queen_Victoria
   - Wikidata: Queen Victoria (Q9439) | https://www.wikidata.org/wiki/Q9439

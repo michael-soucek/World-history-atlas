@@ -1,4 +1,9 @@
 ---
+name: Suleiman the Magnificent
+wikidata: Q8474
+born: 1494
+died: 1566
+roles: sultan, lawgiver
 sources:
   - Wikipedia: Suleiman the Magnificent | https://en.wikipedia.org/wiki/Suleiman_the_Magnificent
   - Wikidata: Suleiman the Magnificent (Q8474) | https://www.wikidata.org/wiki/Q8474

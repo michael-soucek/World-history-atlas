@@ -1,4 +1,9 @@
 ---
+name: Mehmed II
+wikidata: Q34503
+born: 1432
+died: 1481
+roles: sultan, conqueror
 sources:
   - Wikipedia: Mehmed II | https://en.wikipedia.org/wiki/Mehmed_II
   - Wikidata: Mehmed II (Q34503) | https://www.wikidata.org/wiki/Q34503

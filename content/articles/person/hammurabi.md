@@ -1,4 +1,9 @@
 ---
+name: Hammurabi
+wikidata: Q36359
+born: ~-1810
+died: ~-1750
+roles: king, lawgiver
 sources:
   - Wikipedia: Hammurabi | https://en.wikipedia.org/wiki/Hammurabi
   - Wikidata: Hammurabi (Q36359) | https://www.wikidata.org/wiki/Q36359

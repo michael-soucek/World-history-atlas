@@ -1,4 +1,9 @@
 ---
+name: Muhammad
+wikidata: Q9458
+born: ~570
+died: 632
+roles: prophet, religious leader, political leader
 sources:
   - Wikipedia: Muhammad | https://en.wikipedia.org/wiki/Muhammad
   - Wikidata: Muhammad (Q9458) | https://www.wikidata.org/wiki/Q9458

@@ -1,4 +1,9 @@
 ---
+name: Galileo Galilei
+wikidata: Q307
+born: 1564
+died: 1642
+roles: astronomer, physicist, mathematician
 sources:
   - Wikipedia: Galileo Galilei | https://en.wikipedia.org/wiki/Galileo_Galilei
   - Wikidata: Galileo Galilei (Q307) | https://www.wikidata.org/wiki/Q307

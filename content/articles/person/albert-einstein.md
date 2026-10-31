@@ -1,4 +1,9 @@
 ---
+name: Albert Einstein
+wikidata: Q937
+born: 1879
+died: 1955
+roles: physicist, professor
 sources:
   - Wikipedia: Albert Einstein | https://en.wikipedia.org/wiki/Albert_Einstein
   - Wikidata: Albert Einstein (Q937) | https://www.wikidata.org/wiki/Q937

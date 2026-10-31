@@ -1,4 +1,9 @@
 ---
+name: Ho Chi Minh
+wikidata: Q36014
+born: 1890
+died: 1969
+roles: revolutionary, president, communist leader
 sources:
   - Wikipedia: Ho Chi Minh | https://en.wikipedia.org/wiki/Ho_Chi_Minh
   - Wikidata: Ho Chi Minh (Q36014) | https://www.wikidata.org/wiki/Q36014

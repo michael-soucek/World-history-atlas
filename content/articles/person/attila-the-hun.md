@@ -1,4 +1,9 @@
 ---
+name: Attila
+wikidata: Q36724
+born: ~406
+died: 453
+roles: king, warlord
 sources:
   - Wikipedia: Attila | https://en.wikipedia.org/wiki/Attila
   - Wikidata: Attila (Q36724) | https://www.wikidata.org/wiki/Q36724

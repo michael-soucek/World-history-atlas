@@ -1,4 +1,9 @@
 ---
+name: Nzinga of Ndongo and Matamba
+wikidata: Q467650
+born: ~1583
+died: 1663
+roles: queen, diplomat, military leader
 sources:
   - Wikipedia: Nzinga of Ndongo and Matamba | https://en.wikipedia.org/wiki/Nzinga_of_Ndongo_and_Matamba
   - Wikidata: Nzinga of Ndongo and Matamba (Q467650) | https://www.wikidata.org/wiki/Q467650

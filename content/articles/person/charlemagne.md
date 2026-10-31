@@ -1,4 +1,9 @@
 ---
+name: Charlemagne
+wikidata: Q3044
+born: ~748
+died: 814
+roles: king, emperor
 sources:
   - Wikipedia: Charlemagne | https://en.wikipedia.org/wiki/Charlemagne
   - Wikidata: Charlemagne (Q3044) | https://www.wikidata.org/wiki/Q3044
@@ -8,7 +13,7 @@ Charlemagne, or Charles the Great, was king of the Franks from 768, king of the 
 
 ## The Carolingians
 
-Charlemagne was born around 747, the son of Pepin the Short, who had overthrown the last Merovingian king in 751 with the pope's blessing, founding the Carolingian dynasty. His grandfather, Charles Martel, had defeated an Umayyad army near Tours in 732. When Pepin died in 768, the kingdom was divided between Charles and his brother Carloman, who died in 771, leaving Charles sole king.
+Charlemagne was born around 748 (some scholars say 742 or 747), the son of Pepin the Short, who had overthrown the last Merovingian king in 751 with the pope's blessing, founding the Carolingian dynasty. His grandfather, Charles Martel, had defeated an Umayyad army near Tours in 732. When Pepin died in 768, the kingdom was divided between Charles and his brother Carloman, who died in 771, leaving Charles sole king.
 
 ## Conquests
 

@@ -1,4 +1,9 @@
 ---
+name: Constantine the Great
+wikidata: Q8413
+born: ~272
+died: 337
+roles: emperor, general
 sources:
   - Wikipedia: Constantine the Great | https://en.wikipedia.org/wiki/Constantine_the_Great
   - Wikidata: Constantine the Great (Q8413) | https://www.wikidata.org/wiki/Q8413

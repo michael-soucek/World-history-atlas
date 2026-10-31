@@ -1,4 +1,9 @@
 ---
+name: Martin Luther
+wikidata: Q9554
+born: 1483
+died: 1546
+roles: theologian, reformer, priest
 sources:
   - Wikipedia: Martin Luther | https://en.wikipedia.org/wiki/Martin_Luther
   - Wikidata: Martin Luther (Q9554) | https://www.wikidata.org/wiki/Q9554

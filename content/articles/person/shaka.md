@@ -1,4 +1,9 @@
 ---
+name: Shaka
+wikidata: Q27695
+born: ~1787
+died: 1828
+roles: king, military commander
 sources:
   - Wikipedia: Shaka | https://en.wikipedia.org/wiki/Shaka
   - Wikidata: Shaka (Q27695) | https://www.wikidata.org/wiki/Q27695
@@ -32,7 +37,7 @@ In 1824 British traders from the Cape, such as Henry Francis Fynn, established a
 
 ## Death
 
-When his mother Nandi died in 1827, Shaka's grief led to mass killings and harsh decrees. On 22 September 1828, he was assassinated by his half-brothers, Dingane and Mhlangana, and his servant, Mbopha. Dingane became king. Shaka remains a powerful symbol of Zulu identity.
+When his mother Nandi died in 1827, Shaka's grief led to mass killings and harsh decrees. On 24 September 1828, he was assassinated by his half-brothers, Dingane and Mhlangana, and his servant, Mbopha. Dingane became king. Shaka remains a powerful symbol of Zulu identity.
 
 ## On our maps
 

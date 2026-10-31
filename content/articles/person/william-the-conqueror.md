@@ -1,4 +1,9 @@
 ---
+name: William the Conqueror
+wikidata: Q37594
+born: ~1028
+died: 1087
+roles: king, duke
 sources:
   - Wikipedia: William the Conqueror | https://en.wikipedia.org/wiki/William_the_Conqueror
   - Wikidata: William the Conqueror (Q37594) | https://www.wikidata.org/wiki/Q37594

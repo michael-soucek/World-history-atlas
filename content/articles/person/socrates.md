@@ -1,4 +1,9 @@
 ---
+name: Socrates
+wikidata: Q913
+born: ~-470
+died: -399
+roles: philosopher
 sources:
   - Wikipedia: Socrates | https://en.wikipedia.org/wiki/Socrates
   - Wikidata: Socrates (Q913) | https://www.wikidata.org/wiki/Q913

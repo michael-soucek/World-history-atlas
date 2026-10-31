@@ -1,4 +1,9 @@
 ---
+name: Akbar
+wikidata: Q8597
+born: 1542
+died: 1605
+roles: emperor, conqueror
 sources:
   - Wikipedia: Akbar | https://en.wikipedia.org/wiki/Akbar
   - Wikidata: Akbar (Q8597) | https://www.wikidata.org/wiki/Q8597

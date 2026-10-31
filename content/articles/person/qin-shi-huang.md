@@ -1,4 +1,9 @@
 ---
+name: Qin Shi Huang
+wikidata: Q7192
+born: -259
+died: -210
+roles: emperor, king
 sources:
   - Wikipedia: Qin Shi Huang | https://en.wikipedia.org/wiki/Qin_Shi_Huang
   - Wikidata: Qin Shi Huang (Q7192) | https://www.wikidata.org/wiki/Q7192

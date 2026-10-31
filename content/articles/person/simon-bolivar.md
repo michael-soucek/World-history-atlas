@@ -1,4 +1,9 @@
 ---
+name: Simón Bolívar
+wikidata: Q8605
+born: 1783
+died: 1830
+roles: revolutionary, military commander, president
 sources:
   - Wikipedia: Simón Bolívar | https://en.wikipedia.org/wiki/Sim%C3%B3n_Bol%C3%ADvar
   - Wikidata: Simón Bolívar (Q8605) | https://www.wikidata.org/wiki/Q8605

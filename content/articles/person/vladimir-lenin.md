@@ -1,4 +1,9 @@
 ---
+name: Vladimir Lenin
+wikidata: Q1394
+born: 1870
+died: 1924
+roles: revolutionary, politician, theorist
 sources:
   - Wikipedia: Vladimir Lenin | https://en.wikipedia.org/wiki/Vladimir_Lenin
   - Wikidata: Vladimir Lenin (Q1394) | https://www.wikidata.org/wiki/Q1394

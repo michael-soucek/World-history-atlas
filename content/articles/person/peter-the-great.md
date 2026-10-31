@@ -1,4 +1,9 @@
 ---
+name: Peter the Great
+wikidata: Q8479
+born: 1672
+died: 1725
+roles: tsar, emperor, reformer
 sources:
   - Wikipedia: Peter the Great | https://en.wikipedia.org/wiki/Peter_the_Great
   - Wikidata: Peter the Great (Q8479) | https://www.wikidata.org/wiki/Q8479

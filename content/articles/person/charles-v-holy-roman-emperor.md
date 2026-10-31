@@ -1,4 +1,9 @@
 ---
+name: Charles V
+wikidata: Q32500
+born: 1500
+died: 1558
+roles: emperor, king
 sources:
   - Wikipedia: Charles V, Holy Roman Emperor | https://en.wikipedia.org/wiki/Charles_V%2C_Holy_Roman_Emperor
   - Wikidata: Charles V, Holy Roman Emperor (Q32500) | https://www.wikidata.org/wiki/Q32500

@@ -1,4 +1,9 @@
 ---
+name: George Washington
+wikidata: Q23
+born: 1732
+died: 1799
+roles: president, general, planter
 sources:
   - Wikipedia: George Washington | https://en.wikipedia.org/wiki/George_Washington
   - Wikidata: George Washington (Q23) | https://www.wikidata.org/wiki/Q23

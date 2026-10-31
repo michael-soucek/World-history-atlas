@@ -1,4 +1,9 @@
 ---
+name: Abraham Lincoln
+wikidata: Q91
+born: 1809
+died: 1865
+roles: president, lawyer, politician
 sources:
   - Wikipedia: Abraham Lincoln | https://en.wikipedia.org/wiki/Abraham_Lincoln
   - Wikidata: Abraham Lincoln (Q91) | https://www.wikidata.org/wiki/Q91

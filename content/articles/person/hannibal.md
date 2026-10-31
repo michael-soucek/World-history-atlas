@@ -1,4 +1,9 @@
 ---
+name: Hannibal
+wikidata: Q36456
+born: -247
+died: ~-183
+roles: general, statesman
 sources:
   - Wikipedia: Hannibal | https://en.wikipedia.org/wiki/Hannibal
   - Wikidata: Hannibal (Q36456) | https://www.wikidata.org/wiki/Q36456

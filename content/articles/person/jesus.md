@@ -1,4 +1,9 @@
 ---
+name: Jesus
+wikidata: Q302
+born: ~-4
+died: ~30
+roles: preacher, religious leader
 sources:
   - Wikipedia: Jesus | https://en.wikipedia.org/wiki/Jesus
   - Wikidata: Jesus (Q302) | https://www.wikidata.org/wiki/Q302

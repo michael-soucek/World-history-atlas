@@ -1,4 +1,9 @@
 ---
+name: Adolf Hitler
+wikidata: Q352
+born: 1889
+died: 1945
+roles: dictator, politician
 sources:
   - Wikipedia: Adolf Hitler | https://en.wikipedia.org/wiki/Adolf_Hitler
   - Wikidata: Adolf Hitler (Q352) | https://www.wikidata.org/wiki/Q352

@@ -1,4 +1,9 @@
 ---
+name: Marie Curie
+wikidata: Q7186
+born: 1867
+died: 1934
+roles: physicist, chemist
 sources:
   - Wikipedia: Marie Curie | https://en.wikipedia.org/wiki/Marie_Curie
   - Wikidata: Marie Curie (Q7186) | https://www.wikidata.org/wiki/Q7186

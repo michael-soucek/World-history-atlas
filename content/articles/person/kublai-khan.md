@@ -1,4 +1,9 @@
 ---
+name: Kublai Khan
+wikidata: Q7523
+born: 1215
+died: 1294
+roles: khan, emperor, conqueror
 sources:
   - Wikipedia: Kublai Khan | https://en.wikipedia.org/wiki/Kublai_Khan
   - Wikidata: Kublai Khan (Q7523) | https://www.wikidata.org/wiki/Q7523

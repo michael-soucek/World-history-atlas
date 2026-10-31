@@ -1,4 +1,9 @@
 ---
+name: Catherine the Great
+wikidata: Q36450
+born: 1729
+died: 1796
+roles: empress, reformer
 sources:
   - Wikipedia: Catherine the Great | https://en.wikipedia.org/wiki/Catherine_the_Great
   - Wikidata: Catherine the Great (Q36450) | https://www.wikidata.org/wiki/Q36450

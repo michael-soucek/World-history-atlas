@@ -1,4 +1,9 @@
 ---
+name: Harun al-Rashid
+wikidata: Q131002
+born: ~763
+died: 809
+roles: caliph
 sources:
   - Wikipedia: Harun al-Rashid | https://en.wikipedia.org/wiki/Harun_al-Rashid
   - Wikidata: Harun al-Rashid (Q131002) | https://www.wikidata.org/wiki/Q131002

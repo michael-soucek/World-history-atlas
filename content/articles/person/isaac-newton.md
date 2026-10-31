@@ -1,4 +1,9 @@
 ---
+name: Isaac Newton
+wikidata: Q935
+born: 1642
+died: 1727
+roles: physicist, mathematician, astronomer
 sources:
   - Wikipedia: Isaac Newton | https://en.wikipedia.org/wiki/Isaac_Newton
   - Wikidata: Isaac Newton (Q935) | https://www.wikidata.org/wiki/Q935
@@ -32,7 +37,7 @@ Newton was elected to Parliament for Cambridge University. In 1696 he became war
 
 ## Death
 
-Newton died on 20 March 1727 and was buried in Westminster Abbey. The poet Alexander Pope wrote that God said "Let Newton be!" and all was light.
+Newton died on 20 March 1727 by the calendar then used in England (31 March by the modern calendar) and was buried in Westminster Abbey. The poet Alexander Pope wrote that God said "Let Newton be!" and all was light.
 
 ## On our maps
 

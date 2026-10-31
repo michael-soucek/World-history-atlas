@@ -1,4 +1,9 @@
 ---
+name: Pachacuti
+wikidata: Q213758
+born: ~1418
+died: ~1471
+roles: sapa inca, ruler, conqueror
 sources:
   - Wikipedia: Pachacuti | https://en.wikipedia.org/wiki/Pachacuti
   - Wikidata: Pachacuti (Q213758) | https://www.wikidata.org/wiki/Q213758

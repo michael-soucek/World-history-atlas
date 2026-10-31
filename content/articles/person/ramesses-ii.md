@@ -1,4 +1,9 @@
 ---
+name: Ramesses II
+wikidata: Q1523
+born: ~-1303
+died: ~-1213
+roles: pharaoh, military commander
 sources:
   - Wikipedia: Ramesses II | https://en.wikipedia.org/wiki/Ramesses_II
   - Wikidata: Ramesses II (Q1523) | https://www.wikidata.org/wiki/Q1523

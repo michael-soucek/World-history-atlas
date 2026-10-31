@@ -1,4 +1,9 @@
 ---
+name: Moctezuma II
+wikidata: Q141791
+born: ~1466
+died: 1520
+roles: emperor, ruler
 sources:
   - Wikipedia: Moctezuma II | https://en.wikipedia.org/wiki/Moctezuma_II
   - Wikidata: Moctezuma II (Q141791) | https://www.wikidata.org/wiki/Q141791

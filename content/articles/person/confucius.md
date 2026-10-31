@@ -1,4 +1,9 @@
 ---
+name: Confucius
+wikidata: Q4604
+born: ~-551
+died: ~-479
+roles: philosopher, teacher
 sources:
   - Wikipedia: Confucius | https://en.wikipedia.org/wiki/Confucius
   - Wikidata: Confucius (Q4604) | https://www.wikidata.org/wiki/Q4604

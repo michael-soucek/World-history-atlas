@@ -1,4 +1,9 @@
 ---
+name: Pericles
+wikidata: Q80398
+born: ~-495
+died: -429
+roles: statesman, general, orator
 sources:
   - Wikipedia: Pericles | https://en.wikipedia.org/wiki/Pericles
   - Wikidata: Pericles (Q80398) | https://www.wikidata.org/wiki/Q80398

@@ -1,4 +1,8 @@
 ---
+name: Sargon of Akkad
+wikidata: Q199461
+died: ~-2279
+roles: king, conqueror
 sources:
   - Wikipedia: Sargon of Akkad | https://en.wikipedia.org/wiki/Sargon_of_Akkad
   - Wikidata: Sargon of Akkad (Q199461) | https://www.wikidata.org/wiki/Q199461

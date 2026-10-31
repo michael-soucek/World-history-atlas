@@ -1,4 +1,9 @@
 ---
+name: Emperor Meiji
+wikidata: Q174231
+born: 1852
+died: 1912
+roles: emperor, monarch, modernizer
 sources:
   - Wikipedia: Emperor Meiji | https://en.wikipedia.org/wiki/Emperor_Meiji
   - Wikidata: Emperor Meiji (Q174231) | https://www.wikidata.org/wiki/Q174231
@@ -32,7 +37,7 @@ Japan defeated China in the First Sino-Japanese War of 1894–1895, gaining Taiw
 
 ## Death
 
-The emperor died on 30 July 1912. General Nogi Maresuke and his wife killed themselves on the day of his funeral to follow him in death. The Meiji Shrine in Tokyo was built in his and the empress's honour.
+The emperor died on 29 July 1912. General Nogi Maresuke and his wife killed themselves on the day of his funeral to follow him in death. The Meiji Shrine in Tokyo was built in his and the empress's honour.
 
 ## On our maps
 

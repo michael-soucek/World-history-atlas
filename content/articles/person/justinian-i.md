@@ -1,4 +1,9 @@
 ---
+name: Justinian I
+wikidata: Q41866
+born: ~482
+died: 565
+roles: emperor, lawgiver
 sources:
   - Wikipedia: Justinian I | https://en.wikipedia.org/wiki/Justinian_I
   - Wikidata: Justinian I (Q41866) | https://www.wikidata.org/wiki/Q41866

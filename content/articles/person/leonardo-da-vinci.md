@@ -1,4 +1,9 @@
 ---
+name: Leonardo da Vinci
+wikidata: Q762
+born: 1452
+died: 1519
+roles: painter, engineer, inventor, scientist
 sources:
   - Wikipedia: Leonardo da Vinci | https://en.wikipedia.org/wiki/Leonardo_da_Vinci
   - Wikidata: Leonardo da Vinci (Q762) | https://www.wikidata.org/wiki/Q762

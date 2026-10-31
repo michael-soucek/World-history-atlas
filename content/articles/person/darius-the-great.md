@@ -1,4 +1,9 @@
 ---
+name: Darius the Great
+wikidata: Q44387
+born: ~-550
+died: -486
+roles: king, administrator
 sources:
   - Wikipedia: Darius the Great | https://en.wikipedia.org/wiki/Darius_the_Great
   - Wikidata: Darius the Great (Q44387) | https://www.wikidata.org/wiki/Q44387

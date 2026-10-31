@@ -1,4 +1,9 @@
 ---
+name: Cleopatra
+wikidata: Q635
+born: ~-69
+died: -30
+roles: queen, pharaoh
 sources:
   - Wikipedia: Cleopatra | https://en.wikipedia.org/wiki/Cleopatra
   - Wikidata: Cleopatra (Q635) | https://www.wikidata.org/wiki/Q635

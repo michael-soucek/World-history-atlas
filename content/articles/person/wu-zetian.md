@@ -1,4 +1,9 @@
 ---
+name: Wu Zetian
+wikidata: Q9738
+born: 624
+died: 705
+roles: empress
 sources:
   - Wikipedia: Wu Zetian | https://en.wikipedia.org/wiki/Wu_Zetian
   - Wikidata: Wu Zetian (Q9738) | https://www.wikidata.org/wiki/Q9738

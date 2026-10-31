@@ -1,4 +1,9 @@
 ---
+name: Mao Zedong
+wikidata: Q5816
+born: 1893
+died: 1976
+roles: revolutionary, party chairman, head of state
 sources:
   - Wikipedia: Mao Zedong | https://en.wikipedia.org/wiki/Mao_Zedong
   - Wikidata: Mao Zedong (Q5816) | https://www.wikidata.org/wiki/Q5816

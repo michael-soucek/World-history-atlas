@@ -1,4 +1,9 @@
 ---
+name: Cyrus the Great
+wikidata: Q8423
+born: ~-600
+died: -530
+roles: king, conqueror
 sources:
   - Wikipedia: Cyrus the Great | https://en.wikipedia.org/wiki/Cyrus_the_Great
   - Wikidata: Cyrus the Great (Q8423) | https://www.wikidata.org/wiki/Q8423

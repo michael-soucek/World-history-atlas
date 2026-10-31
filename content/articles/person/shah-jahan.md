@@ -1,4 +1,9 @@
 ---
+name: Shah Jahan
+wikidata: Q83672
+born: 1592
+died: 1666
+roles: emperor
 sources:
   - Wikipedia: Shah Jahan | https://en.wikipedia.org/wiki/Shah_Jahan
   - Wikidata: Shah Jahan (Q83672) | https://www.wikidata.org/wiki/Q83672

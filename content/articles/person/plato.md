@@ -1,4 +1,9 @@
 ---
+name: Plato
+wikidata: Q859
+born: ~-428
+died: ~-348
+roles: philosopher, writer
 sources:
   - Wikipedia: Plato | https://en.wikipedia.org/wiki/Plato
   - Wikidata: Plato (Q859) | https://www.wikidata.org/wiki/Q859

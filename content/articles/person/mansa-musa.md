@@ -1,4 +1,9 @@
 ---
+name: Mansa Musa
+wikidata: Q309333
+born: ~1280
+died: ~1337
+roles: mansa, ruler
 sources:
   - Wikipedia: Mansa Musa | https://en.wikipedia.org/wiki/Mansa_Musa
   - Wikidata: Mansa Musa (Q309333) | https://www.wikidata.org/wiki/Q309333

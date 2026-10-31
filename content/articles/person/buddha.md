@@ -1,4 +1,9 @@
 ---
+name: The Buddha
+wikidata: Q9441
+born: ~-563
+died: ~-483
+roles: spiritual teacher, philosopher
 sources:
   - Wikipedia: The Buddha | https://en.wikipedia.org/wiki/The_Buddha
   - Wikidata: The Buddha (Q9441) | https://www.wikidata.org/wiki/Q9441

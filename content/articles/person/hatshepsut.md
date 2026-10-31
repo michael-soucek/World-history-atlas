@@ -1,4 +1,8 @@
 ---
+name: Hatshepsut
+wikidata: Q129234
+died: ~-1458
+roles: pharaoh, regent
 sources:
   - Wikipedia: Hatshepsut | https://en.wikipedia.org/wiki/Hatshepsut
   - Wikidata: Hatshepsut (Q129234) | https://www.wikidata.org/wiki/Q129234

@@ -1,4 +1,9 @@
 ---
+name: Isabella I of Castile
+wikidata: Q45859
+born: 1451
+died: 1504
+roles: queen, monarch
 sources:
   - Wikipedia: Isabella I of Castile | https://en.wikipedia.org/wiki/Isabella_I_of_Castile
   - Wikidata: Isabella I of Castile (Q45859) | https://www.wikidata.org/wiki/Q45859

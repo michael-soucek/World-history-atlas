@@ -1,4 +1,9 @@
 ---
+name: Nebuchadnezzar II
+wikidata: Q12591
+born: ~-642
+died: -562
+roles: king, conqueror, builder
 sources:
   - Wikipedia: Nebuchadnezzar II | https://en.wikipedia.org/wiki/Nebuchadnezzar_II
   - Wikidata: Nebuchadnezzar II (Q12591) | https://www.wikidata.org/wiki/Q12591

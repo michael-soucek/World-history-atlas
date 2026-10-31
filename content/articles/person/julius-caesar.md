@@ -1,4 +1,9 @@
 ---
+name: Julius Caesar
+wikidata: Q1048
+born: -100
+died: -44
+roles: general, statesman, dictator, writer
 sources:
   - Wikipedia: Julius Caesar | https://en.wikipedia.org/wiki/Julius_Caesar
   - Wikidata: Julius Caesar (Q1048) | https://www.wikidata.org/wiki/Q1048

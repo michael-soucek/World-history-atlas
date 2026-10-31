@@ -1,4 +1,9 @@
 ---
+name: Charles Darwin
+wikidata: Q1035
+born: 1809
+died: 1882
+roles: naturalist, biologist, geologist
 sources:
   - Wikipedia: Charles Darwin | https://en.wikipedia.org/wiki/Charles_Darwin
   - Wikidata: Charles Darwin (Q1035) | https://www.wikidata.org/wiki/Q1035
