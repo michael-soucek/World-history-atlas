@@ -553,7 +553,9 @@ async function _resolveInner(
   const slug = raw.toLowerCase();
   const expectedName = sourceName?.trim() || readableNameFromSlug(slug);
 
-  if (entityType === "place" && isAggregateLabel(expectedName)) {
+  // A hand-curated slug (e.g. "hausa-kingdoms", "sixteen-kingdoms") is a real
+  // subject even when its name looks like a cluster label.
+  if (entityType === "place" && !lookupBySlug(slug) && isAggregateLabel(expectedName)) {
     logResolutionFailure(slug, entityType, "aggregate");
     return cacheResult(cacheKey, { resolved: null, reason: "aggregate" });
   }
