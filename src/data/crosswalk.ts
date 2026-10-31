@@ -47,7 +47,7 @@ export const CROSSWALK: Record<string, CrosswalkEntry> = {
   // ── Medieval ─────────────────────────────────────────────────────────────
   "Holy Roman Empire": { wikidataId: "Q12548", slug: "holy-roman-empire", representativeYear: 1500 }, // ✓ Holy Roman Empire
   "Mongol Empire": { wikidataId: "Q12557", slug: "mongol-empire", representativeYear: 1279 }, // ✓ Mongol Empire
-  "Golden Horde": { wikidataId: "Q79965", slug: "golden-horde", aliases: ["Khanate of the Golden Horde"], representativeYear: 1300 }, // Golden Horde
+  "Golden Horde": { wikidataId: "Q79965", slug: "golden-horde", aliases: ["Blue Horde", "Khanate of the Golden Horde"], representativeYear: 1300 }, // Golden Horde
   "Ilkhanate": { wikidataId: "Q178084", slug: "ilkhanate", representativeYear: 1300 }, // Ilkhanate
   "Timurid Empire": { wikidataId: "Q484195", slug: "timurid-empire", aliases: ["Timurids", "Timurid Emirates"], representativeYear: 1400 }, // Timurid Empire
   "Song dynasty": { wikidataId: "Q7462", slug: "song-dynasty", aliases: ["Song Dynasty", "Song", "Song Empire"], representativeYear: 1100 }, // Song dynasty
@@ -76,7 +76,7 @@ export const CROSSWALK: Record<string, CrosswalkEntry> = {
   "Safavid Empire": { wikidataId: "Q18234383", slug: "safavid-empire", aliases: ["Safavid Iran"], representativeYear: 1600 }, // Safavid Empire (snapshot variant)
   "Mughal Empire":     { wikidataId: "Q33296",  slug: "mughal-empire", aliases: ["Mughals"], representativeYear: 1700 },       // Mughal Empire
   "Vijayanagara Empire": { wikidataId: "Q167639", slug: "vijayanagara-empire", aliases: ["Vijayanagara"], representativeYear: 1530 }, // Vijayanagara Empire
-  "Maratha Empire": { wikidataId: "Q83618", slug: "maratha-empire", aliases: ["Marathas", "Maratha", "Maratha Confederacy"], representativeYear: 1783 }, // Maratha Confederacy
+  "Maratha Empire": { wikidataId: "Q83618", slug: "maratha-empire", aliases: ["Mahratta states", "Marathas", "Maratha", "Maratha Confederacy"], representativeYear: 1783 }, // Maratha Confederacy
   "Qing dynasty": { wikidataId: "Q8733", slug: "qing-dynasty", aliases: ["Qing Dynasty", "Qing", "China", "Qing Empire", "Manchu Empire"], years: [1644, 1912], representativeYear: 1800 }, // ✓ Qing dynasty
   "Joseon dynasty": { wikidataId: "Q28179", slug: "joseon-dynasty", aliases: ["Joseon", "Korea"], years: [1392, 1897], representativeYear: 1700 }, // ✓ Joseon
   "Spanish Empire": { wikidataId: "Q80702", slug: "spanish-empire", aliases: ["Spain", "Spanish Habsburg"], representativeYear: 1700 }, // Spanish Empire
@@ -149,7 +149,7 @@ export const CROSSWALK: Record<string, CrosswalkEntry> = {
   "Zhou dynasty": { wikidataId: "Q35216", slug: "zhou-dynasty", aliases: ["Zhou states"], representativeYear: -400 }, // Zhou dynasty
   "Qin dynasty": { wikidataId: "Q7183", slug: "qin-dynasty", aliases: ["Qin"], representativeYear: -323 }, // Qin dynasty
   "Xiongnu": { wikidataId: "Q188836", slug: "xiongnu", representativeYear: -200 }, // Xiongnu
-  "Parthian Empire": { wikidataId: "Q1986139", slug: "parthian-empire", representativeYear: 100 }, // Parthian Empire
+  "Parthian Empire": { wikidataId: "Q1986139", slug: "parthian-empire", aliases: ["Parthia"], representativeYear: 100 }, // Parthian Empire
   "Kushan Empire": { wikidataId: "Q25979", slug: "kushan-empire", representativeYear: -100 }, // Kushan Empire
   "Teotihuacan": { wikidataId: "Q172613", slug: "teotihuacan", representativeYear: 100 }, // Teotihuacan
   "Moche culture": { wikidataId: "Q208188", slug: "moche-culture", aliases: ["Moche"], representativeYear: 300 }, // Moche culture
@@ -250,7 +250,7 @@ export const CROSSWALK: Record<string, CrosswalkEntry> = {
   "Regency of Algiers": { wikidataId: "Q3045696", slug: "regency-of-algiers", aliases: ["Algiers"], years: [1516, 1830], representativeYear: 1715 }, // Regency of Algiers (added 2026-10-22 from audit-missing-places)
   "Dzungar Khanate": { wikidataId: "Q1923401", slug: "dzungar-khanate", representativeYear: 1650 }, // Dzungar Khanate (added 2026-10-22 from audit-missing-places)
   "Cape Colony": { wikidataId: "Q370736", slug: "cape-colony", representativeYear: 1878 }, // Cape Colony (added 2026-10-22 from audit-missing-places)
-  "Colonial Brazil": { wikidataId: "Q2088324", slug: "colonial-brazil", aliases: ["Viceroyalty of Brazil"], representativeYear: 1783 }, // Colonial Brazil (Viceroyalty of Brazil on the maps) (added 2026-10-22 from audit-missing-places)
+  "Colonial Brazil": { wikidataId: "Q2088324", slug: "colonial-brazil", aliases: ["Portuguese Brazil", "Viceroyalty of Brazil"], representativeYear: 1783 }, // Colonial Brazil (Viceroyalty of Brazil on the maps) (added 2026-10-22 from audit-missing-places)
   "Rupert's Land": { wikidataId: "Q738395", slug: "ruperts-land", representativeYear: 1783 }, // Rupert's Land (added 2026-10-22 from audit-missing-places)
   "Viceroyalty of New Granada": { wikidataId: "Q8965", slug: "viceroyalty-of-new-granada", representativeYear: 1800 }, // Viceroyalty of New Granada (added 2026-10-22 from audit-missing-places)
   "First Saudi State": { wikidataId: "Q146871", slug: "first-saudi-state", aliases: ["Nejd", "Emirate of Diriyah"], years: [1727, 1818], representativeYear: 1783 }, // First Saudi State (Emirate of Diriyah) (added 2026-10-22 from audit-missing-places)
@@ -259,7 +259,7 @@ export const CROSSWALK: Record<string, CrosswalkEntry> = {
   "Rattanakosin Kingdom": { wikidataId: "Q1155700", slug: "rattanakosin-kingdom", aliases: ["Siam"], years: [1782, 1932], representativeYear: 1783 }, // Rattanakosin Kingdom (Siam) (added 2026-10-22 from audit-missing-places)
   "Union between Sweden and Norway": { wikidataId: "Q62589", slug: "sweden-norway", aliases: ["Sweden–Norway", "Sweden-Norway"], years: [1814, 1905], representativeYear: 1880 }, // Sweden–Norway (1814–1905) (added 2026-10-22 from audit-missing-places)
   "Empire of Brazil": { wikidataId: "Q217230", slug: "empire-of-brazil", representativeYear: 1880 }, // Empire of Brazil (added 2026-10-22 from audit-missing-places)
-  "French Indochina": { wikidataId: "Q185682", slug: "french-indochina", representativeYear: 1900 }, // French Indochina (added 2026-10-22 from audit-missing-places)
+  "French Indochina": { wikidataId: "Q185682", slug: "french-indochina", aliases: ["French Indo-China"], representativeYear: 1900 }, // French Indochina (added 2026-10-22 from audit-missing-places)
   "Belgian Congo": { wikidataId: "Q213510", slug: "belgian-congo", representativeYear: 1914 }, // Belgian Congo (added 2026-10-22 from audit-missing-places)
   "Republic of China": { wikidataId: "Q13426199", slug: "republic-of-china-1912-1949", aliases: ["Republic of China (1912–1949)"], years: [1912, 1949], representativeYear: 1914 }, // Republic of China (mainland period) (added 2026-10-22 from audit-missing-places)
   "French Equatorial Africa": { wikidataId: "Q271894", slug: "french-equatorial-africa", representativeYear: 1930 }, // French Equatorial Africa (added 2026-10-22 from audit-missing-places)
@@ -281,18 +281,18 @@ export const CROSSWALK: Record<string, CrosswalkEntry> = {
   "Umayyad state of Córdoba": { wikidataId: "Q1337854", slug: "umayyad-state-of-cordoba", aliases: ["Emirate of Córdoba", "Caliphate of Córdoba"], representativeYear: 900 }, // Umayyad state of Córdoba (added 2026-10-30, dynasty batch)
   "Khanate of Kazan": { wikidataId: "Q186537", slug: "khanate-of-kazan", aliases: ["Kazan Khanate"], representativeYear: 1500 }, // Khanate of Kazan (added 2026-10-30, dynasty batch)
   "Nabataean Kingdom": { wikidataId: "Q11029653", slug: "nabataean-kingdom", aliases: ["Nabatean Kingdom"], representativeYear: -100 }, // Nabataean Kingdom (added 2026-10-30, dynasty batch)
-  "Sukhothai Kingdom": { wikidataId: "Q863279", slug: "sukhothai-kingdom", aliases: ["Kingdom of Sukhotai"], representativeYear: 1100 }, // Sukhothai Kingdom (added 2026-10-30, dynasty batch)
-  "Antigonid dynasty": { wikidataId: "Q237325", slug: "antigonid-dynasty", aliases: ["Kingdom of Antigonus"], representativeYear: -300 }, // Antigonid dynasty (added 2026-10-30, dynasty batch)
+  "Sukhothai Kingdom": { wikidataId: "Q863279", slug: "sukhothai-kingdom", aliases: ["Sukhothai", "Kingdom of Sukhotai"], representativeYear: 1100 }, // Sukhothai Kingdom (added 2026-10-30, dynasty batch)
+  "Antigonid dynasty": { wikidataId: "Q237325", slug: "antigonid-dynasty", aliases: ["Macedon and Hellenic League", "Kingdom of Antigonus"], representativeYear: -300 }, // Antigonid dynasty (added 2026-10-30, dynasty batch)
   "Sultanate of Rum": { wikidataId: "Q975405", slug: "sultanate-of-rum", representativeYear: 1279 }, // Sultanate of Rum (added 2026-10-30, dynasty batch)
   "Kong Empire": { wikidataId: "Q1587244", slug: "kong-empire", representativeYear: 1878 }, // Kong Empire (added 2026-10-30, dynasty batch)
   "Kingdom of Tlemcen": { wikidataId: "Q17030701", slug: "kingdom-of-tlemcen", aliases: ["Zayyanid Caliphate"], representativeYear: 1500 }, // Kingdom of Tlemcen (added 2026-10-30, dynasty batch)
   "Sultanate of Zanzibar": { wikidataId: "Q157904", slug: "sultanate-of-zanzibar", representativeYear: 1900 }, // Sultanate of Zanzibar (added 2026-10-30, dynasty batch)
   "Bahmani Sultanate": { wikidataId: "Q374521", slug: "bahmani-kingdom", aliases: ["Bahmani Kingdom"], representativeYear: 1500 }, // Bahmani Kingdom (added 2026-10-30, dynasty batch)
-  "Western Chalukya Empire": { wikidataId: "Q14624218", slug: "western-chalukya-empire", aliases: ["Chalukya Empire"], representativeYear: 1000 }, // Western Chalukya Empire (added 2026-10-30, dynasty batch)
+  "Western Chalukya Empire": { wikidataId: "Q14624218", slug: "western-chalukya-empire", aliases: ["Western Chalukyas", "Chalukya Empire"], representativeYear: 1000 }, // Western Chalukya Empire (added 2026-10-30, dynasty batch)
   "Khanate of Bukhara": { wikidataId: "Q577668", slug: "khanate-of-bukhara", aliases: ["Bukara Khanate"], representativeYear: 1530 }, // Khanate of Bukhara (added 2026-10-30, dynasty batch)
   "Emirate of Bukhara": { wikidataId: "Q746558", slug: "emirate-of-bukhara", aliases: ["Bokhara Khanate"], representativeYear: 1880 }, // Emirate of Bukhara (added 2026-10-30, dynasty batch)
   "Visigothic Kingdom": { wikidataId: "Q126936", slug: "visigothic-kingdom", representativeYear: 700 }, // Visigothic Kingdom (added 2026-10-30, dynasty batch)
-  "Wadai Sultanate": { wikidataId: "Q1132786", slug: "wadai-sultanate", aliases: ["Wadai Empire"], representativeYear: 1880 }, // Wadai Sultanate (added 2026-10-30, dynasty batch)
+  "Wadai Sultanate": { wikidataId: "Q1132786", slug: "wadai-sultanate", aliases: ["Wadai", "Wadai Empire"], representativeYear: 1880 }, // Wadai Sultanate (added 2026-10-30, dynasty batch)
   "Zirid dynasty": { wikidataId: "Q205718", slug: "zirid-dynasty", aliases: ["Zirid and Hammadid emirates"], representativeYear: 1100 }, // Zirid dynasty (added 2026-10-30, dynasty batch)
   "Second Bulgarian Empire": { wikidataId: "Q420759", slug: "second-bulgarian-empire", representativeYear: 1279 }, // Second Bulgarian Empire (added 2026-10-30, dynasty batch)
   "Tuʻi Tonga Empire": { wikidataId: "Q842390", slug: "tui-tonga-empire", representativeYear: 1500 }, // Tuʻi Tonga Empire (added 2026-10-30, dynasty batch)
@@ -300,7 +300,7 @@ export const CROSSWALK: Record<string, CrosswalkEntry> = {
   "Bosporan Kingdom": { wikidataId: "Q321371", slug: "bosporan-kingdom", aliases: ["Bosporian Kingdom"], representativeYear: -100 }, // Bosporan Kingdom (added 2026-10-30, dynasty batch)
   "Maitraka dynasty": { wikidataId: "Q6737189", slug: "maitraka-dynasty", aliases: ["Maitraka Kingdom"], representativeYear: 700 }, // Maitraka dynasty (added 2026-10-30, dynasty batch)
   "Grand Principality of Vladimir": { wikidataId: "Q83546", slug: "vladimir-suzdal", aliases: ["Principality of Vladimir-Suzdal", "Vladimir-Suzdal"], representativeYear: 1200 }, // Vladimir-Suzdal (added 2026-10-30, dynasty batch)
-  "Wattasid dynasty": { wikidataId: "Q970799", slug: "wattasid-dynasty", aliases: ["Wattasid Caliphate"], representativeYear: 1500 }, // Wattasid dynasty (added 2026-10-30, dynasty batch)
+  "Wattasid dynasty": { wikidataId: "Q970799", slug: "wattasid-dynasty", aliases: ["Watassid Morocco", "Wattasid Caliphate"], representativeYear: 1500 }, // Wattasid dynasty (added 2026-10-30, dynasty batch)
   "Ashikaga shogunate": { wikidataId: "Q1154406", slug: "ashikaga-shogunate", representativeYear: 1400 }, // Ashikaga shogunate (added 2026-10-30, dynasty batch)
   "Kingdom of the Two Sicilies": { wikidataId: "Q180393", slug: "kingdom-of-the-two-sicilies", representativeYear: 1800 }, // Kingdom of the Two Sicilies (added 2026-10-30, dynasty batch)
   "Angevin Empire": { wikidataId: "Q538677", slug: "angevin-empire", representativeYear: 1200 }, // Angevin Empire (added 2026-10-30, dynasty batch)
@@ -336,7 +336,56 @@ export const CROSSWALK: Record<string, CrosswalkEntry> = {
   "Hausa Kingdoms": { wikidataId: "Q1591030", slug: "hausa-kingdoms", aliases: ["Hausa States"], representativeYear: 1650 }, // Hausa Kingdoms (added 2026-10-30, dynasty batch)
   "Sosso Empire": { wikidataId: "Q13099593", slug: "sosso-empire", aliases: ["Sosso Kingdom"], representativeYear: 1200 }, // Sosso Empire (added 2026-10-30, dynasty batch)
   "Zunbil dynasty": { wikidataId: "Q229780", slug: "zunbil-dynasty", aliases: ["Kingdom of Zunbil"], representativeYear: 700 }, // Zunbil dynasty (added 2026-10-30, dynasty batch)
-  "Third Saudi state": { wikidataId: "Q2011891", slug: "third-saudi-state", aliases: ["Kingdom of Hejaz and Nejd"], representativeYear: 1930 }, // Third Saudi state (added 2026-10-30, dynasty batch)
+  "Third Saudi state": { wikidataId: "Q2011891", slug: "third-saudi-state", aliases: ["Arabia (Nejd)", "Kingdom of Hejaz and Nejd"], representativeYear: 1930 }, // Third Saudi state (added 2026-10-30, dynasty batch)
+
+  // ── More states drawn on the maps (added 2026-10-30, batch 2) ──
+  "Goguryeo": { wikidataId: "Q28370", slug: "goguryeo", aliases: ["Koguryo"], representativeYear: 400 }, // Goguryeo (added 2026-10-30, states batch 2)
+  "Northern Wei": { wikidataId: "Q875305", slug: "northern-wei", aliases: ["Toba Wei"], representativeYear: 500 }, // Northern Wei (added 2026-10-30, states batch 2)
+  "Mutapa Empire": { wikidataId: "Q854468", slug: "mutapa-empire", aliases: ["Mwenemutapa"], representativeYear: 1530 }, // Mutapa Empire (added 2026-10-30, states batch 2)
+  "Funj Sultanate": { wikidataId: "Q1475713", slug: "funj-sultanate", aliases: ["Funj"], representativeYear: 1715 }, // Funj Sultanate (added 2026-10-30, states batch 2)
+  "Gurjara-Pratihara dynasty": { wikidataId: "Q5324", slug: "pratihara-dynasty", aliases: ["Gurjara Pratihara"], representativeYear: 900 }, // Pratihara dynasty (added 2026-10-30, states batch 2)
+  "Kaarta": { wikidataId: "Q924833", slug: "kaarta", representativeYear: 1800 }, // Kaarta (added 2026-10-30, states batch 2)
+  "Ahmadnagar Sultanate": { wikidataId: "Q400998", slug: "ahmadnagar-sultanate", aliases: ["Ahmadnagar"], representativeYear: 1530 }, // Ahmadnagar Sultanate (added 2026-10-30, states batch 2)
+  "Lozi Kingdom": { wikidataId: "Q808750", slug: "lozi-kingdom", aliases: ["Lozi"], representativeYear: 1878 }, // Lozi kingdom (added 2026-10-30, states batch 2)
+  "Qataban": { wikidataId: "Q748595", slug: "qataban", representativeYear: -200 }, // Qataban (added 2026-10-30, states batch 2)
+  "Ségou Empire": { wikidataId: "Q762084", slug: "segou-empire", aliases: ["Segu"], representativeYear: 1783 }, // Ségou Empire (added 2026-10-30, states batch 2)
+  "Kingdom of Aragon": { wikidataId: "Q199442", slug: "kingdom-of-aragon", aliases: ["Aragón"], representativeYear: 1300 }, // Kingdom of Aragon (added 2026-10-30, states batch 2)
+  "South African Republic": { wikidataId: "Q550374", slug: "south-african-republic", aliases: ["Transvaal"], representativeYear: 1880 }, // South African Republic (added 2026-10-30, states batch 2)
+  "Muscat and Oman": { wikidataId: "Q157734", slug: "muscat-and-oman", representativeYear: 1930 }, // Muscat and Oman (added 2026-10-30, states batch 2)
+  "Sultanate of Agadez": { wikidataId: "Q1502813", slug: "sultanate-of-agadez", aliases: ["Air"], representativeYear: 1783 }, // Sultanate of Agadez (added 2026-10-30, states batch 2)
+  "Sultanate of Ifat": { wikidataId: "Q157727", slug: "sultanate-of-ifat", aliases: ["Ifat"], representativeYear: 1200 }, // Sultanate of Ifat (added 2026-10-30, states batch 2)
+  "Rozvi Empire": { wikidataId: "Q986822", slug: "rozvi-empire", aliases: ["Rozwi"], representativeYear: 1715 }, // Rozvi Empire (added 2026-10-30, states batch 2)
+  "Adal Sultanate": { wikidataId: "Q2365048", slug: "adal-sultanate", aliases: ["Adal"], representativeYear: 1530 }, // Adal Sultanate (added 2026-10-30, states batch 2)
+  "Malacca Sultanate": { wikidataId: "Q46652", slug: "malacca-sultanate", aliases: ["Malacca"], representativeYear: 1530 }, // Malacca Sultanate (added 2026-10-30, states batch 2)
+  "Sultanate of Aussa": { wikidataId: "Q791787", slug: "sultanate-of-aussa", aliases: ["Awsa"], representativeYear: 1715 }, // Sultanate of Aussa (added 2026-10-30, states batch 2)
+  "Sultanate of Bagirmi": { wikidataId: "Q1472873", slug: "sultanate-of-bagirmi", aliases: ["Bagirmi"], representativeYear: 1650 }, // Sultanate of Bagirmi (added 2026-10-30, states batch 2)
+  "Rashtrakuta dynasty": { wikidataId: "Q856691", slug: "rashtrakuta-empire", aliases: ["Rashtrakuta"], representativeYear: 900 }, // Rashtrakuta Empire (added 2026-10-30, states batch 2)
+  "Anuradhapura Kingdom": { wikidataId: "Q1965597", slug: "anuradhapura-kingdom", aliases: ["Simhala"], representativeYear: 100 }, // Anuradhapura kingdom (added 2026-10-30, states batch 2)
+  "Greco-Bactrian Kingdom": { wikidataId: "Q488880", slug: "greco-bactrian-kingdom", aliases: ["Bactria"], representativeYear: -200 }, // Greco-Bactrian Kingdom (added 2026-10-30, states batch 2)
+  "United Provinces of the Río de la Plata": { wikidataId: "Q738144", slug: "united-provinces-of-the-rio-de-la-plata", representativeYear: 1815 }, // United Provinces of the Río de la Plata (added 2026-10-30, states batch 2)
+  "Anglo-Egyptian Sudan": { wikidataId: "Q541455", slug: "anglo-egyptian-sudan", representativeYear: 1914 }, // Anglo-Egyptian Sudan (added 2026-10-30, states batch 2)
+  "Italian Somaliland": { wikidataId: "Q319984", slug: "italian-somaliland", representativeYear: 1930 }, // Italian Somaliland (added 2026-10-30, states batch 2)
+  "Dominion of Newfoundland": { wikidataId: "Q38610", slug: "dominion-of-newfoundland", representativeYear: 1930 }, // Dominion of Newfoundland (added 2026-10-30, states batch 2)
+  "East Africa Protectorate": { wikidataId: "Q876185", slug: "east-africa-protectorate", aliases: ["British East Africa"], representativeYear: 1914 }, // East Africa Protectorate (added 2026-10-30, states batch 2)
+  "German East Africa": { wikidataId: "Q153963", slug: "german-east-africa", aliases: ["German E. Africa (Tanganyika)"], representativeYear: 1914 }, // German East Africa (added 2026-10-30, states batch 2)
+  "German South West Africa": { wikidataId: "Q153665", slug: "german-south-west-africa", aliases: ["German South-West Africa"], representativeYear: 1914 }, // German South West Africa (added 2026-10-30, states batch 2)
+  "Kamerun": { wikidataId: "Q668294", slug: "kamerun", representativeYear: 1914 }, // Kamerun (added 2026-10-30, states batch 2)
+  "Río de Oro": { wikidataId: "Q929147", slug: "rio-de-oro", aliases: ["Rio De Oro"], representativeYear: 1930 }, // Río de Oro (added 2026-10-30, states batch 2)
+  "Portuguese Mozambique": { wikidataId: "Q889394", slug: "portuguese-mozambique", aliases: ["Portuguese East Africa"], representativeYear: 1783 }, // Portuguese Mozambique (added 2026-10-30, states batch 2)
+  "New France": { wikidataId: "Q170604", slug: "new-france", representativeYear: 1700 }, // New France (added 2026-10-30, states batch 2)
+  "Dutch Brazil": { wikidataId: "Q221357", slug: "dutch-brazil", representativeYear: 1700 }, // Dutch Brazil (added 2026-10-30, states batch 2)
+  "Province of Quebec": { wikidataId: "Q251668", slug: "province-of-quebec-1763-1791", aliases: ["Quebec"], representativeYear: 1800 }, // Province of Quebec (1763–1791) (added 2026-10-30, states batch 2)
+  "Mandatory Iraq": { wikidataId: "Q146720", slug: "mandatory-iraq", aliases: ["Mesopotamia (GB)"], representativeYear: 1930 }, // Mandatory Iraq (added 2026-10-30, states batch 2)
+  "East India Company": { wikidataId: "Q83164", slug: "east-india-company", aliases: ["British East India Company"], representativeYear: 1815 }, // East India Company (added 2026-10-30, states batch 2)
+  "French Cameroon": { wikidataId: "Q1028848", slug: "french-cameroon", aliases: ["French Cameroons"], representativeYear: 1930 }, // French Cameroon (added 2026-10-30, states batch 2)
+  "Dendi Kingdom": { wikidataId: "Q761103", slug: "dendi-kingdom", representativeYear: 1783 }, // Dendi (province) (added 2026-10-30, states batch 2)
+  "Chavín culture": { wikidataId: "Q13341477", slug: "chavin-culture", aliases: ["Chavin"], representativeYear: -323 }, // Chavín culture (added 2026-10-30, states batch 2)
+  "Kingdom of Saba": { wikidataId: "Q216068", slug: "kingdom-of-saba", aliases: ["Saba"], representativeYear: -323 }, // Sheba (added 2026-10-30, states batch 2)
+  "Hyderabad State": { wikidataId: "Q1240096", slug: "hyderabad-state", aliases: ["Nizam's Dominions"], representativeYear: 1800 }, // Hyderabad State (added 2026-10-30, states batch 2)
+  "Chach dynasty": { wikidataId: "Q15156207", slug: "chach-dynasty", aliases: ["Kingdom of Sind"], representativeYear: 700 }, // Chach dynasty (added 2026-10-30, states batch 2)
+  "Kingdom of the Masaesyli": { wikidataId: "Q1288728", slug: "masaesyli", aliases: ["Kingdom of Syphax"], representativeYear: -200 }, // Masaesyli (added 2026-10-30, states batch 2)
+  "Turk Shahis": { wikidataId: "Q39047075", slug: "turk-shahis", aliases: ["Kingdom of Kapisa"], representativeYear: 700 }, // Turk Shahis (added 2026-10-30, states batch 2)
+  "Oghuz Yabgu State": { wikidataId: "Q1099731", slug: "oghuz-yabgu-state", aliases: ["Oghuz Turks", "Oghuz"], representativeYear: 1100 }, // Oghuz Yabgu State (added 2026-10-30, states batch 2)
 };
 
 // ---------------------------------------------------------------------------
