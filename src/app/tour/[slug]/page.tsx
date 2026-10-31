@@ -52,13 +52,15 @@ const WAR_SEO: Record<string, { title: string; description: string; about: { nam
   },
 };
 
-const fmtYear = (y: number) => (y < 0 ? `${Math.abs(y).toLocaleString("en-US")} BCE` : `${y}`);
+// Thousands separators only from 10,000 up: "300,000 BCE" but "1200 BCE".
+const bce = (y: number) => (Math.abs(y) >= 10000 ? Math.abs(y).toLocaleString("en-US") : `${Math.abs(y)}`);
+const fmtYear = (y: number) => (y < 0 ? `${bce(y)} BCE` : `${y}`);
 
 /** "1095–1291", "336–323 BCE", "300,000 BCE–20,000 BCE": the span a tour covers. */
 function tourSpan(tour: Tour): string {
   const years = tour.steps.map((s) => s.mapState.year);
   const [from, to] = [Math.min(...years), Math.max(...years)];
-  if (from < 0 && to < 0) return `${Math.abs(from).toLocaleString("en-US")}–${Math.abs(to).toLocaleString("en-US")} BCE`;
+  if (from < 0 && to < 0) return `${bce(from)}–${bce(to)} BCE`;
   return `${fmtYear(from)}–${fmtYear(to)}`;
 }
 

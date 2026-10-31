@@ -1,0 +1,166 @@
+import type { Tour } from "@/data/tours";
+
+export const TOUR: Tour = {
+  slug: "unification-of-italy-and-germany",
+  title: "Making Italy and Germany",
+  description:
+    "From the 1815 settlement and the failed revolutions of 1848 to Cavour's diplomacy, Garibaldi's Thousand and Bismarck's three wars: how two new nation-states were built in little more than a decade.",
+  duration: 9,
+  difficulty: "standard",
+  steps: [
+    {
+      title: "The Vienna Settlement: 1815",
+      date: "1814–1815",
+      text: "After Napoleon's fall, the Congress of Vienna put much of the old order back in place. Italy was once more a patchwork of kingdoms, duchies and the Papal States; Austria ruled Lombardy–Venetia directly and held sway over Parma, Modena and Tuscany. North of the Alps, 39 mostly German-speaking states were bound into a loose German Confederation in place of the vanished Holy Roman Empire. Its only organ, a Federal Convention sitting in Frankfurt, was chaired by Austria's envoy and had to agree unanimously on the biggest questions. Patriots such as Giuseppe Mazzini, who founded the secret society Young Italy in exile in the early 1830s, wanted something else: nations governed by their own peoples.",
+      mapState: { year: 1815, lat: 47, lng: 11, zoom: 4.3 },
+      highlight: ["Austrian Empire", "Prussia", "Kingdom of Sardinia", "Lombardy", "Venetia", "Papal States", "Kingdom of the Two Sicilies"],
+      markers: [
+        { label: "Vienna: the Congress, 1814–1815", at: [16.372, 48.208] },
+        { label: "Frankfurt: seat of the Federal Convention", at: [8.682, 50.111] },
+      ],
+    },
+    {
+      title: "1848: Revolution and Defeat",
+      date: "1848–1849",
+      text: "In 1848 revolution swept across Europe. In March the people of Milan drove out the Austrian garrison in five days of street fighting, and King Charles Albert of Sardinia, who ruled Piedmont, declared war on Austria. In May an elected German National Assembly gathered in St Paul's Church in Frankfurt to write a constitution for a united Germany. Both hopes collapsed. Marshal Radetzky beat the Piedmontese at Custoza in July 1848 and at Novara in March 1849. French troops ended Mazzini's short-lived Roman Republic, and Venice surrendered in August 1849. In Berlin, King Frederick William IV of Prussia turned down the imperial crown that the Frankfurt deputies offered him.",
+      mapState: { year: 1848, mapYear: 1815, lat: 46.5, lng: 10.5, zoom: 4.6 },
+      highlight: ["Kingdom of Sardinia", "Lombardy", "Venetia"],
+      markers: [
+        { label: "Milan: the Five Days, March 1848", at: [9.19, 45.467] },
+        { label: "Frankfurt: National Assembly, 1848–1849", at: [8.681, 50.111] },
+        { label: "Custoza, July 1848", at: [10.8, 45.383], kind: "battle" },
+        { label: "Novara, March 1849", at: [8.716, 45.431], kind: "battle" },
+        { label: "Rome: the Roman Republic falls, June 1849", at: [12.483, 41.893], kind: "battle" },
+        { label: "Venice surrenders, August 1849", at: [12.336, 45.438] },
+      ],
+      routes: [
+        { label: "Charles Albert's advance, 1848", kind: "conquest", path: [[7.68, 45.08], [8.62, 45.45], [9.19, 45.47], [10.0, 45.4], [10.68, 45.43]] },
+      ],
+    },
+    {
+      title: "Cavour, Napoleon III and the War of 1859",
+      date: "1852–1860",
+      text: "Defeated in 1849, Piedmont-Sardinia became the base for a second attempt. Count Camillo Cavour, its prime minister from 1852, steered the kingdom through the Crimean War and found a powerful partner. At a secret meeting at Plombières in July 1858, Napoleon III of France agreed to help drive Austria out of Italy in exchange for Savoy and Nice. War broke out in 1859. French and Piedmontese armies beat the Austrians at Magenta on 4 June and at Solferino on 24 June. The plight of the wounded at Solferino so shocked the Swiss Henry Dunant that he began the work that led to the Red Cross. Piedmont gained Lombardy, then the central Italian states; France took Savoy and Nice.",
+      mapState: { year: 1859, mapYear: 1815, lat: 45.7, lng: 8.8, zoom: 5.4 },
+      highlight: ["Kingdom of Sardinia", "Lombardy"],
+      markers: [
+        { label: "Turin: Cavour's capital", at: [7.676, 45.079] },
+        { label: "Plombières: secret pact, July 1858", at: [6.464, 47.967] },
+        { label: "Magenta, 4 June 1859", at: [8.802, 45.456], kind: "battle" },
+        { label: "Solferino, 24 June 1859", at: [10.566, 45.367], kind: "battle" },
+      ],
+      routes: [
+        { label: "The allied advance into Lombardy, 1859", kind: "conquest", path: [[7.68, 45.08], [8.62, 45.45], [8.8, 45.46], [9.19, 45.47], [10.0, 45.42], [10.56, 45.37]] },
+      ],
+    },
+    {
+      title: "Garibaldi and the Thousand",
+      date: "May–October 1860",
+      text: "On the night of 5 May 1860 Giuseppe Garibaldi sailed from Quarto, near Genoa, with about 1,160 volunteers, the 'Thousand', to topple the Bourbon Kingdom of the Two Sicilies. They landed at Marsala on 11 May, won their first fight at Calatafimi and, helped by a rising in the city, took Palermo after days of street battles. Volunteers from across Italy and abroad poured in to join them. In August Garibaldi crossed into Calabria despite Cavour's objections, and royal resistance largely dissolved. He entered Naples on 7 September as King Francis II withdrew to the fortress of Gaeta, and in early October his army narrowly defeated the Bourbon forces on the Volturno river.",
+      mapState: { year: 1860, mapYear: 1815, lat: 40, lng: 12.8, zoom: 5.2 },
+      highlight: ["Kingdom of the Two Sicilies"],
+      markers: [
+        { label: "Quarto: the Thousand embark, 5 May 1860", at: [8.992, 44.389] },
+        { label: "Marsala: landing, 11 May", at: [12.434, 37.798] },
+        { label: "Palermo taken, May–June", at: [13.352, 38.111], kind: "battle" },
+        { label: "Naples: Garibaldi enters, 7 September", at: [14.249, 40.836] },
+        { label: "Volturno, 1–2 October 1860", at: [14.094, 41.092], kind: "battle" },
+      ],
+      routes: [
+        { label: "The Thousand sail to Sicily", kind: "voyage", path: [[8.99, 44.37], [9.7, 43.0], [10.6, 41.2], [11.5, 39.3], [12.2, 38.2], [12.43, 37.8]] },
+        { label: "The conquest of Sicily, May–July", kind: "conquest", path: [[12.43, 37.8], [12.86, 37.91], [13.35, 38.11], [14.4, 38.03], [15.24, 38.22], [15.55, 38.19]] },
+        { label: "Calabria to Naples, August–September", kind: "conquest", path: [[15.75, 37.93], [15.66, 38.11], [16.1, 39.0], [15.9, 40.0], [15.06, 40.62], [14.25, 40.84]] },
+      ],
+    },
+    {
+      title: "The Kingdom of Italy",
+      date: "September 1860 – March 1861",
+      text: "To join north and south, Cavour sent Piedmontese troops into the Papal States in September 1860. They beat the papal army at Castelfidardo on 18 September, leaving the Pope only Rome and Lazio, and marched on into the south. Plebiscites on 21 October approved annexation, and on 26 October Garibaldi met King Victor Emmanuel II near Teano and handed over his conquests. Gaeta surrendered in February 1861, and on 17 March 1861 the Kingdom of Italy was proclaimed. Cavour died that June. Many in the south were soon disillusioned: heavier taxes and conscription fed a long armed revolt, branded 'brigandage', that at one point tied down some 140,000 troops.",
+      mapState: { year: 1861, mapYear: 1815, lat: 42.5, lng: 12.5, zoom: 5.4 },
+      highlight: ["Papal States", "Kingdom of the Two Sicilies"],
+      markers: [
+        { label: "Castelfidardo, 18 September 1860", at: [13.55, 43.463], kind: "battle" },
+        { label: "Teano: Garibaldi meets the King, 26 October", at: [14.067, 41.25] },
+        { label: "Gaeta: siege ends, February 1861", at: [13.555, 41.222], kind: "battle" },
+        { label: "Turin: seat of the new kingdom's parliament", at: [7.676, 45.079] },
+      ],
+      routes: [
+        { label: "The Piedmontese army marches south, 1860", kind: "conquest", path: [[12.91, 43.91], [13.55, 43.46], [13.9, 42.5], [14.1, 41.8], [14.07, 41.25]] },
+      ],
+    },
+    {
+      title: "Bismarck's First War: Denmark, 1864",
+      date: "February–October 1864",
+      text: "In Prussia, King Wilhelm I made Otto von Bismarck minister-president in 1862, in the middle of a clash with parliament over army spending. That September Bismarck told deputies that the great questions of the age would be decided not by speeches and majority votes but 'by iron and blood'. His first test was the old dispute over the duchies of Schleswig and Holstein. On 1 February 1864 Prussian and Austrian troops crossed into Danish-held Schleswig. On 18 April, after more than two weeks of bombardment, the Prussians stormed the Danish redoubts at Dybbøl, a defeat still marked in Denmark every year. By the Treaty of Vienna in October, Denmark gave up Schleswig, Holstein and Lauenburg.",
+      mapState: { year: 1864, mapYear: 1815, lat: 54.8, lng: 10.8, zoom: 5.5 },
+      highlight: ["Denmark", "Schleswig", "Holstein", "Prussia"],
+      markers: [
+        { label: "Berlin: Bismarck in power, 1862", at: [13.405, 52.52] },
+        { label: "The Danevirke line", at: [9.45, 54.467] },
+        { label: "Dybbøl, 18 April 1864", at: [9.758, 54.907], kind: "battle" },
+        { label: "Copenhagen", at: [12.568, 55.676] },
+      ],
+      routes: [
+        { label: "Prussian and Austrian invasion, 1864", kind: "conquest", path: [[9.98, 53.95], [9.67, 54.3], [9.45, 54.47], [9.6, 54.75], [9.76, 54.9]] },
+      ],
+    },
+    {
+      title: "The German War of 1866",
+      date: "June–August 1866",
+      text: "Quarrels over the captured duchies gave Bismarck his war with Austria, the traditional leader of the German states. Prussia allied with Italy, which wanted Venetia. Fighting began in mid-June 1866, with Bavaria, Saxony, Hanover and other German states on Austria's side. Prussian infantry carried the Dreyse needle gun, a bolt-action rifle that fired faster than Austria's muzzle-loaders. On 3 July, at Königgrätz (Hradec Králové) in Bohemia, the Prussians won the biggest battle fought anywhere since Leipzig in 1813. Italy lost at Custoza and at sea off Lissa but still received Venetia. In what became known as the Seven Weeks' War, the German Confederation was destroyed and Austria shut out of German affairs.",
+      mapState: { year: 1866, mapYear: 1815, lat: 48.5, lng: 13.5, zoom: 4.5 },
+      highlight: ["Prussia", "Austrian Empire", "Venetia"],
+      markers: [
+        { label: "Königgrätz, 3 July 1866", at: [15.75, 50.27], kind: "battle" },
+        { label: "Custoza, 24 June 1866", at: [10.796, 45.379], kind: "battle" },
+        { label: "Lissa: naval battle, July 1866", at: [16.053, 43.176], kind: "battle" },
+      ],
+      routes: [
+        { label: "Prussian armies enter Bohemia", kind: "conquest", path: [[13.74, 51.05], [14.6, 50.75], [15.3, 50.45], [15.75, 50.27]] },
+        { label: "Prussian advance from Silesia", kind: "conquest", path: [[17.03, 51.11], [16.3, 50.6], [15.95, 50.4], [15.75, 50.27]] },
+      ],
+    },
+    {
+      title: "War with France: Sedan",
+      date: "July–September 1870",
+      text: "In 1870 the offer of the Spanish throne to a Hohenzollern prince brought France and Prussia to the brink. Bismarck released an edited version of a report on King Wilhelm's meeting with the French ambassador at Ems, and France declared war in July. Historians still debate whether Bismarck deliberately provoked the conflict to draw the southern German states in, or simply exploited events. Bavaria, Württemberg and Baden fought beside Prussia's North German Confederation. Moving fast by rail, German armies shut one French army up in Metz and on 1–2 September surrounded another at Sedan, taking Emperor Napoleon III prisoner along with more than 100,000 of his men.",
+      mapState: { year: 1870, mapYear: 1815, lat: 49.3, lng: 6.5, zoom: 5.4 },
+      highlight: ["France", "Prussia", "Bavaria", "Württemberg", "Baden"],
+      markers: [
+        { label: "Ems: the king meets the French envoy, July 1870", at: [7.711, 50.338] },
+        { label: "Metz: French army besieged", at: [6.178, 49.12], kind: "battle" },
+        { label: "Sedan, 1–2 September 1870", at: [4.946, 49.699], kind: "battle" },
+      ],
+      routes: [
+        { label: "German invasion of Lorraine, August 1870", kind: "conquest", path: [[8.3, 49.4], [7.3, 49.25], [6.6, 49.12], [6.18, 49.12]] },
+        { label: "German armies close on Sedan", kind: "conquest", path: [[7.6, 48.9], [6.2, 48.7], [5.2, 48.9], [4.9, 49.4], [4.95, 49.68]] },
+      ],
+    },
+    {
+      title: "Rome, Capital of Italy",
+      date: "20 September 1870",
+      text: "France's war decided Rome's fate as well. For years a French garrison had shielded Pope Pius IX, but Napoleon III recalled it in the summer of 1870 to fight Prussia. After Sedan the Italian government acted. On 20 September Italian troops blasted a breach in the Aurelian Walls near the Porta Pia and entered the city; about 70 soldiers died in the brief fighting. A plebiscite on 2 October approved annexation, and in February 1871 Rome became the capital of Italy. The Papal States, which had existed since the eighth century, were gone, and the long stand-off between the popes and the Italian state, the 'Prisoner in the Vatican' period, began.",
+      mapState: { year: 1870, mapYear: 1878, lat: 42, lng: 12.5, zoom: 5.8 },
+      highlight: ["Italy"],
+      markers: [
+        { label: "Porta Pia: the walls breached, 20 September 1870", at: [12.501, 41.909], kind: "battle" },
+      ],
+    },
+    {
+      title: "An Empire Proclaimed at Versailles",
+      date: "18 January 1871",
+      text: "France fought on under a new government formed in Paris on 4 September. From 19 September German forces besieged the capital. Parisians endured shelling, a freezing winter and hunger, eating horses, rats and even the zoo's two elephants, and the siege cost about 47,000 civilian casualties by one count. On 18 January 1871, in the Hall of Mirrors at Versailles, the German princes proclaimed Wilhelm I German Emperor. Paris capitulated ten days later. Under the Treaty of Frankfurt in May, France ceded most of Alsace and part of Lorraine and paid a huge indemnity. For the first time, most German speakers, though not those of Austria or Switzerland, lived in a single nation-state.",
+      mapState: { year: 1871, mapYear: 1878, lat: 49.5, lng: 6, zoom: 4.8 },
+      highlight: ["Germany"],
+      markers: [
+        { label: "Siege of Paris, September 1870 – January 1871", at: [2.352, 48.857], kind: "battle" },
+        { label: "Versailles: Wilhelm I proclaimed emperor, 18 January 1871", at: [2.12, 48.805] },
+        { label: "Strasbourg: Alsace annexed", at: [7.746, 48.583] },
+        { label: "Frankfurt: peace treaty, 10 May 1871", at: [8.682, 50.111] },
+      ],
+      routes: [
+        { label: "German advance on Paris, September 1870", kind: "conquest", path: [[4.95, 49.7], [4.4, 49.4], [3.6, 49.1], [2.8, 48.95], [2.4, 48.87]] },
+      ],
+    },
+  ],
+};

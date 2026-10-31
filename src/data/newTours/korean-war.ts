@@ -1,0 +1,142 @@
+import type { Tour } from "@/data/tours";
+
+export const TOUR: Tour = {
+  slug: "korean-war",
+  title: "The Korean War",
+  description:
+    "From the line drawn at the 38th parallel in 1945 to the armistice of 1953: the invasion, the Pusan Perimeter, Inchon, the race to the Yalu, China's intervention and two years of stalemate in a war that never formally ended.",
+  duration: 8,
+  difficulty: "standard",
+  steps: [
+    {
+      title: "A Line Across Korea: 1945–1948",
+      date: "August 1945",
+      text: "Japan had ruled Korea as a colony since 1910. As its surrender approached in August 1945, two American colonels in Washington, Dean Rusk and Charles Bonesteel, chose the 38th parallel to separate a Soviet occupation zone in the north from an American one in the south; Rusk later explained that they wanted Seoul on the American side. Soviet troops had entered the north on 10 August, and US forces came ashore at Incheon in September. Talks on a single government failed, and in 1948 two rival states emerged: the Republic of Korea under Syngman Rhee in August, and Kim Il Sung's Democratic People's Republic in September. Each claimed the whole peninsula.",
+      mapState: { year: 1945, lat: 38.4, lng: 127.4, zoom: 5.4 },
+      highlight: ["Korea (USA)", "Korea (USSR)"],
+      markers: [
+        { label: "Seoul", at: [126.977, 37.569] },
+        { label: "Pyongyang", at: [125.748, 39.017] },
+        { label: "Incheon: US troops land, September 1945", at: [126.603, 37.476] },
+      ],
+      routes: [
+        { label: "Soviet forces enter northern Korea, August 1945", kind: "conquest", path: [[130.6, 42.4], [129.8, 41.8], [128.6, 40.8], [127.5, 39.9], [126.3, 39.3], [125.75, 39.02], [126.3, 38.2]] },
+        { label: "US forces arrive, September 1945", kind: "voyage", path: [[125.4, 35.6], [125.7, 36.6], [126.2, 37.2], [126.603, 37.476]] },
+      ],
+    },
+    {
+      title: "The Invasion: June 1950",
+      date: "25 June 1950",
+      text: "Kim Il Sung had spent a year pressing Stalin to back an attack, and won his approval in spring 1950. Before dawn on 25 June, without any declaration of war, the North Korean army crossed the 38th parallel along its length. Its Soviet-supplied tanks and heavy guns faced a southern army that had none. Seoul fell on 28 June; that day the South blew up the Han River bridge while thousands of refugees were crossing it, killing hundreds. With the Soviet delegate boycotting it, the UN Security Council condemned the attack and urged members to help the South. American troops rushed from Japan were beaten at Osan and Taejon in July.",
+      mapState: { year: 1950, mapYear: 1945, lat: 37, lng: 127.5, zoom: 5.8 },
+      highlight: ["Korea (USSR)"],
+      markers: [
+        { label: "Seoul falls, 28 June 1950", at: [126.977, 37.569], kind: "battle" },
+        { label: "Osan, 5 July 1950", at: [127.053, 37.185], kind: "battle" },
+        { label: "Taejon, July 1950", at: [127.273, 36.475], kind: "battle" },
+      ],
+      routes: [
+        { label: "North Korean advance in the west, June–July 1950", kind: "conquest", path: [[126.6, 38.2], [126.977, 37.65], [127.053, 37.185], [127.273, 36.475], [127.9, 36.1], [128.3, 35.95]] },
+        { label: "North Korean advance down the east coast", kind: "conquest", path: [[128.6, 38.2], [128.9, 37.6], [129.3, 36.8], [129.365, 36.1]] },
+      ],
+    },
+    {
+      title: "The Pusan Perimeter: August–September 1950",
+      date: "August 1950",
+      text: "By August the South Korean and American forces, now fighting as the UN Command, had been pushed into the south-eastern corner of the peninsula. They held a front of about 230 kilometres around the port of Pusan, much of it along the Naktong River. For six weeks North Korean divisions attacked near Taegu, Masan and Pohang, but their long supply lines were bombed by day, while ships landed fresh troops, tanks and stores at Pusan. By early September the defenders outnumbered the attackers. Civilians were caught in between: in July, at No Gun Ri, American soldiers and aircraft had fired on a column of South Korean refugees, killing a number that is still disputed.",
+      mapState: { year: 1950, mapYear: 1945, lat: 35.7, lng: 128.6, zoom: 6.6 },
+      markers: [
+        { label: "Pusan", at: [129.075, 35.18] },
+        { label: "Taegu, August–September 1950", at: [128.43, 35.96], kind: "battle" },
+        { label: "Masan", at: [128.55, 35.183], kind: "battle" },
+        { label: "Pohang", at: [129.365, 36.032], kind: "battle" },
+      ],
+      routes: [{ label: "Reinforcements and supplies by sea", kind: "voyage", path: [[130.6, 33.7], [130.1, 34.3], [129.6, 34.8], [129.075, 35.12]] }],
+    },
+    {
+      title: "Inchon: September 1950",
+      date: "15 September 1950",
+      text: "General Douglas MacArthur gambled on a landing far behind the North Korean front, overriding commanders who feared Inchon's extreme tides and narrow channels. On 15 September 1950 about 75,000 troops and 261 ships took part. Defenders were few, though the preliminary bombardment wrecked much of the town. The next day the Eighth Army began to break out of the Pusan Perimeter, and its spearhead met the landing force near Osan on 27 September. With its supply lines cut, the North Korean army in the south fell apart; by one account only 25,000 to 30,000 of its soldiers made it home. Seoul was back in UN hands by 25 September.",
+      mapState: { year: 1950, mapYear: 1945, lat: 36.6, lng: 127.3, zoom: 5.8 },
+      markers: [
+        { label: "Inchon landing, 15 September 1950", at: [126.603, 37.476], kind: "battle" },
+        { label: "Seoul retaken, 25 September 1950", at: [126.977, 37.569], kind: "battle" },
+        { label: "Osan: the two forces meet, 27 September", at: [127.053, 37.185] },
+      ],
+      routes: [
+        { label: "The Inchon landing force", kind: "voyage", path: [[129.075, 35.1], [127.6, 34.3], [126.2, 34.6], [125.8, 35.8], [126.2, 37.0], [126.603, 37.476]] },
+        { label: "X Corps takes Seoul", kind: "conquest", path: [[126.603, 37.476], [126.8, 37.55], [126.977, 37.569]] },
+        { label: "Breakout from the perimeter", kind: "conquest", path: [[128.43, 35.96], [128.0, 36.3], [127.273, 36.475], [127.1, 36.9], [127.053, 37.185]] },
+        { label: "North Korean collapse and retreat", kind: "retreat", path: [[128.2, 36.3], [127.8, 37.0], [127.5, 37.7], [127.2, 38.3]] },
+      ],
+    },
+    {
+      title: "The Drive to the Yalu: October–November 1950",
+      date: "October 1950",
+      text: "Washington let MacArthur cross the 38th parallel as long as neither China nor the Soviet Union stepped in, and on 30 September China's premier Zhou Enlai warned that China would. South Korean troops crossed first; UN forces followed on 7 October and took Pyongyang on 19 October. On 26 October a South Korean reconnaissance platoon reached the Yalu, the Chinese border, at Ch'osan, and on 21 November an American regiment entered Hyesanjin on the river. Meeting Truman at Wake Island in mid-October, MacArthur had judged a Chinese intervention unlikely. His two advancing forces, west and east, were separated by up to 160 kilometres of mountains.",
+      mapState: { year: 1950, mapYear: 1960, lat: 39.6, lng: 127, zoom: 5.4 },
+      highlight: ["Korea, Democratic People's Republic of"],
+      markers: [
+        { label: "Pyongyang taken, 19 October 1950", at: [125.748, 39.017], kind: "battle" },
+        { label: "Ch'osan: first UN unit on the Yalu", at: [125.306, 40.603] },
+        { label: "Hyesanjin, 21 November 1950", at: [128.183, 41.4] },
+        { label: "Wonsan", at: [127.446, 39.148] },
+      ],
+      routes: [
+        { label: "Eighth Army advance in the west", kind: "conquest", path: [[126.977, 37.6], [126.55, 37.97], [125.748, 39.017], [125.6, 39.6], [125.4, 40.2], [125.306, 40.603]] },
+        { label: "X Corps advance in the east", kind: "conquest", path: [[127.446, 39.148], [127.6, 39.83], [128.2, 40.4], [128.3, 40.9], [128.183, 41.4]] },
+      ],
+    },
+    {
+      title: "China Intervenes: Chosin, November–December 1950",
+      date: "November 1950",
+      text: "China's leaders decided on 13 October to fight, even without Soviet air cover. Marching by night to escape air reconnaissance, the People's Volunteer Army crossed the Yalu from 19 October, struck South Korean units on 25 October and met Americans at Unsan on 1 November. Its second offensive, from 25 November, broke the Eighth Army on the Ch'ongch'on River. In the east, from 27 November, around 120,000 Chinese troops surrounded some 30,000 UN soldiers at the Chosin Reservoir. In freezing cold the UN force fought its way out to Hungnam, from where about 105,000 soldiers and 98,000 civilians were shipped south by 24 December. Both sides' losses, many from the cold, are disputed.",
+      mapState: { year: 1950, mapYear: 1960, lat: 39.8, lng: 126.6, zoom: 5.8 },
+      highlight: ["China"],
+      markers: [
+        { label: "Andong: the Chinese cross the Yalu", at: [124.394, 40.121] },
+        { label: "Unsan, 1 November 1950", at: [125.803, 39.972], kind: "battle" },
+        { label: "Ch'ongch'on River, 25 November 1950", at: [125.84, 39.71], kind: "battle" },
+        { label: "Chosin Reservoir, 27 November–13 December", at: [127.26, 40.37], kind: "battle" },
+        { label: "Hungnam evacuation, December 1950", at: [127.6, 39.833] },
+      ],
+      routes: [
+        { label: "Chinese advance in the west", kind: "conquest", path: [[124.394, 40.121], [124.9, 40.1], [125.4, 40.0], [125.803, 39.972], [125.84, 39.71]] },
+        { label: "Chinese advance on Chosin", kind: "conquest", path: [[126.2, 41.2], [126.8, 40.9], [127.1, 40.6], [127.26, 40.42]] },
+        { label: "Eighth Army retreat", kind: "retreat", path: [[125.84, 39.71], [125.748, 39.017], [126.3, 38.3], [126.977, 37.65]] },
+        { label: "X Corps fights out to Hungnam", kind: "retreat", path: [[127.26, 40.37], [127.3, 40.2], [127.424, 40.038], [127.6, 39.833]] },
+        { label: "Evacuation by sea to Pusan", kind: "voyage", path: [[127.7, 39.8], [128.9, 38.5], [129.6, 37.0], [129.6, 35.7], [129.075, 35.1]] },
+      ],
+    },
+    {
+      title: "Seoul Lost and Retaken: January–March 1951",
+      date: "January 1951",
+      text: "Chinese and North Korean forces opened a new offensive on New Year's Eve and took Seoul on 4 January 1951. They could push only a little further south: food and ammunition still had to be carried from the Yalu each night, on foot and by bicycle. General Matthew Ridgway, who had taken over the battered Eighth Army in late December, rebuilt its confidence and pushed north again in a series of deliberate offensives. Operation Ripper drove the communists out of Seoul on 14 March, the city's fourth change of hands in a year. It lay in ruins; of 1.5 million people before the war, about 200,000 remained. In April Truman dismissed MacArthur.",
+      mapState: { year: 1951, mapYear: 1960, lat: 37.4, lng: 127.4, zoom: 6.4 },
+      markers: [{ label: "Seoul: lost 4 January, retaken 14 March 1951", at: [126.977, 37.569], kind: "battle" }],
+      routes: [
+        { label: "Chinese Third Phase Offensive, January 1951", kind: "conquest", path: [[126.8, 38.2], [126.9, 37.85], [126.977, 37.569], [127.0, 37.27]] },
+        { label: "UN counter-offensives, February–March 1951", kind: "conquest", path: [[127.0, 37.05], [127.1, 37.35], [127.0, 37.6], [127.1, 37.95], [127.2, 38.2]] },
+      ],
+    },
+    {
+      title: "Stalemate: 1951–1953",
+      date: "July 1951",
+      text: "After a failed Chinese spring offensive in April and May 1951, the front settled near the 38th parallel. Armistice talks opened at Kaesong on 10 July 1951 and later moved to Panmunjom, but they dragged on for two years, stuck above all on prisoners: many captured Chinese and North Koreans did not want to go back. Meanwhile the armies fought costly battles for ridges such as Bloody Ridge and Heartbreak Ridge, and American bombers burned North Korea's towns. By one account the US dropped 635,000 tons of bombs on Korea, more than in the whole Pacific war against Japan, and most northern cities were largely destroyed.",
+      mapState: { year: 1952, mapYear: 1960, lat: 38.6, lng: 127, zoom: 6 },
+      markers: [
+        { label: "Panmunjom: armistice talks", at: [126.665, 37.961] },
+        { label: "Pyongyang: heavily bombed", at: [125.748, 39.017] },
+        { label: "Wonsan: blockaded and bombed", at: [127.446, 39.148] },
+      ],
+    },
+    {
+      title: "The Armistice: 27 July 1953",
+      date: "27 July 1953",
+      text: "Stalin's death in March 1953 helped to unblock the talks. On 27 July 1953 the UN Command, the North Korean army and the Chinese volunteers signed an armistice at Panmunjom; South Korea's president, Syngman Rhee, refused to sign. A demilitarised zone about 4 kilometres wide follows the last front line, which crosses the 38th parallel; Kaesong, once in the South, ended up in the North. No peace treaty has ever been signed. Estimates of the dead vary widely, but commonly run to about a million soldiers and between 1.5 and 3 million civilians. Around 4.5 million North Koreans are thought to have fled south or abroad.",
+      mapState: { year: 1953, mapYear: 1960, lat: 37.9, lng: 127.4, zoom: 5.6 },
+      highlight: ["Korea, Republic of", "Korea, Democratic People's Republic of"],
+      markers: [{ label: "Panmunjom: armistice signed, 27 July 1953", at: [126.665, 37.961] }],
+    },
+  ],
+};

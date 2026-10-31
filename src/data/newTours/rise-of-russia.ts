@@ -1,0 +1,180 @@
+import type { Tour } from "@/data/tours";
+
+export const TOUR: Tour = {
+  slug: "rise-of-russia",
+  title: "From Kyiv to Empire: The Rise of Russia",
+  description:
+    "From the river trade of Kievan Rus' and the baptism of 988, through the Mongol conquest and the rise of Moscow, to the empire of Peter and Catherine that stretched from the Baltic to the Pacific.",
+  duration: 9,
+  difficulty: "standard",
+  trail: true,
+  steps: [
+    {
+      title: "Kievan Rus': the River Road",
+      date: "c. 882",
+      text: "According to the Primary Chronicle, written in Kyiv centuries later, Scandinavian Varangians were invited to rule Novgorod in the 860s, and around 882 the prince Oleg seized Smolensk and then Kyiv, which became his capital. Their realm, Kievan Rus', joined East Slavic, Norse and Finnic peoples under the Rurik dynasty. It grew rich on the river route from the Baltic to the Black Sea and Constantinople, exporting furs, wax, honey and slaves. At its height in the mid-11th century it reached from the White Sea to the Black Sea. Belarus, Russia and Ukraine all trace their cultural roots to this state.",
+      mapState: { year: 882, mapYear: 900, lat: 53, lng: 31, zoom: 3.8 },
+      highlight: ["Kyivan Rus"],
+      markers: [
+        { label: "Novgorod", at: [31.27, 58.55] },
+        { label: "Kyiv: capital from about 882", at: [30.52, 50.45] },
+        { label: "Constantinople", at: [28.98, 41.01] },
+      ],
+      routes: [
+        { label: "Oleg moves south from Novgorod, c. 882", kind: "conquest", path: [[31.27, 58.55], [31.5, 56.5], [32.05, 54.78], [31, 52.5], [30.52, 50.45]] },
+        { label: "The river road to Constantinople", kind: "voyage", path: [[30.52, 50.45], [32.5, 48.5], [33.5, 46.6], [31.5, 45.5], [30, 43], [28.98, 41.01]] },
+      ],
+    },
+    {
+      title: "The Baptism of Rus'",
+      date: "988",
+      text: "Christianity had reached Kyiv before; Princess Olga was baptised in the mid-10th century. The decisive step came under her grandson Vladimir. When the Byzantine emperor Basil II faced a revolt in 987, Vladimir sent troops in exchange for the hand of the emperor's sister Anne. When the marriage was delayed, he captured the Byzantine city of Chersonesus in Crimea, and there, by the traditional account, he was baptised around 988, though the year is debated. Back in Kyiv he had the idol of the thunder god Perun thrown into the Dnieper. Byzantine church art, books and learning followed; his son Yaroslav built Kyiv's Saint Sophia Cathedral.",
+      mapState: { year: 988, mapYear: 1000, lat: 47, lng: 31, zoom: 4.3 },
+      highlight: ["Kyivan Rus"],
+      markers: [
+        { label: "Chersonesus: Vladimir baptised, c. 988", at: [33.49, 44.61] },
+        { label: "Kyiv: Vladimir baptises his family and people", at: [30.52, 50.45] },
+        { label: "Constantinople", at: [28.98, 41.01] },
+      ],
+      routes: [
+        { label: "Vladimir's campaign to Chersonesus", kind: "conquest", path: [[30.52, 50.45], [32.5, 48.5], [33.6, 46.5], [33.8, 45.3], [33.49, 44.61]] },
+        { label: "Christianity from Byzantium", kind: "spread", path: [[28.98, 41.01], [30.5, 43], [32, 45], [32.5, 47.5], [30.52, 50.45]] },
+      ],
+    },
+    {
+      title: "The Mongol Storm",
+      date: "1237–1240",
+      text: "By the 12th century Rus' had split into rival principalities. After a first Mongol victory on the Kalka River in 1223, Batu Khan and the general Subutai returned in force. Ryazan fell in December 1237 after a three-day siege; the chronicles record the killing of its prince and of men, women and children. Vladimir fell in February 1238. In late 1240 Kyiv itself was stormed and sacked. Its recovery took centuries. Batu built his capital, Sarai, on the lower Volga, and his state became known as the Golden Horde. Most Rus' princes, including those of Novgorod, which escaped destruction, had to pay it tribute and seek its approval to rule.",
+      mapState: { year: 1240, mapYear: 1279, lat: 53, lng: 38, zoom: 3.8 },
+      highlight: ["Khanate of the Golden Horde", "Rus' principalities"],
+      markers: [
+        { label: "Ryazan, December 1237", at: [39.74, 54.63], kind: "battle" },
+        { label: "Vladimir, February 1238", at: [40.41, 56.13], kind: "battle" },
+        { label: "Siege of Kyiv, November–December 1240", at: [30.52, 50.45], kind: "battle" },
+      ],
+      routes: [
+        { label: "Batu's campaign in the north, 1237–1238", kind: "conquest", path: [[49, 55], [45, 54.8], [42, 54.6], [39.74, 54.63], [40.41, 56.13]] },
+        { label: "South to Kyiv, 1239–1240", kind: "conquest", path: [[40.41, 56.13], [38, 53.5], [36, 51.5], [33, 51], [30.52, 50.45]] },
+      ],
+    },
+    {
+      title: "Moscow Gathers the Lands",
+      date: "1325–1480",
+      text: "Moscow became a separate principality in 1263, under a son of Alexander Nevsky. Its princes rose by serving the khans: Ivan I collected the Horde's tribute from other princes, and in 1325 the head of the Russian Church, Metropolitan Peter, moved his residence to Moscow. In 1380 Prince Dmitry defeated a Tatar army at Kulikovo, though tribute was later resumed. Ivan III annexed the Novgorod Republic in 1478 and stopped paying tribute. In 1480 Akhmat Khan of the Great Horde marched north, but at the Ugra River his attempts to cross were thrown back, promised Lithuanian help never came, and both armies withdrew. Russian tradition marks this as the end of the 'Tatar yoke'.",
+      mapState: { year: 1480, mapYear: 1492, lat: 55, lng: 37, zoom: 4.4 },
+      highlight: ["Grand Duchy of Moscow"],
+      markers: [
+        { label: "Moscow", at: [37.62, 55.76] },
+        { label: "Kulikovo, 1380", at: [38.65, 53.65], kind: "battle" },
+        { label: "Novgorod: annexed, 1478", at: [31.27, 58.55] },
+        { label: "Stand on the Ugra, near Kaluga, 1480", at: [36.28, 54.55], kind: "battle" },
+      ],
+      routes: [
+        { label: "Akhmat Khan advances, 1480", kind: "conquest", path: [[40, 49], [38.5, 51.5], [37, 53.3], [36.4, 54.3]] },
+        { label: "The Horde withdraws", kind: "retreat", path: [[36.1, 54.3], [36.8, 52.5], [38.6, 50.5], [40.5, 48.8]] },
+      ],
+    },
+    {
+      title: "Ivan IV Takes the Volga",
+      date: "1552–1556",
+      text: "In 1547 Ivan IV, later called 'the Terrible', became the first ruler of Moscow to be crowned tsar. His target was the Khanate of Kazan, a Muslim Tatar state on the middle Volga that Russian armies had besieged many times. In 1551 his engineers built a wooden fortress, Sviyazhsk, just upriver. In 1552 a large Russian army, supported by artillery and sappers, stormed Kazan after a six-week siege. Estimates of the dead, many of them civilians, range from about 20,000 to 65,000, and resistance in the countryside lasted until 1556. That year Russia also took the Khanate of Astrakhan, giving it the whole Volga down to the Caspian Sea.",
+      mapState: { year: 1552, mapYear: 1600, lat: 52, lng: 44, zoom: 3.9 },
+      highlight: ["Tsardom of Muscovy"],
+      markers: [
+        { label: "Sviyazhsk fortress, 1551", at: [48.65, 55.77] },
+        { label: "Siege of Kazan, 1552", at: [49.11, 55.8], kind: "battle" },
+        { label: "Astrakhan: annexed, 1556", at: [48.04, 46.35] },
+      ],
+      routes: [
+        { label: "The march on Kazan, 1552", kind: "conquest", path: [[37.62, 55.76], [40.41, 56.13], [44.01, 56.33], [46.5, 56], [48.65, 55.77], [49.11, 55.8]] },
+        { label: "Down the Volga to Astrakhan, 1556", kind: "conquest", path: [[49.11, 55.8], [48.5, 53.5], [46, 51.5], [44.5, 48.7], [48.04, 46.35]] },
+      ],
+    },
+    {
+      title: "Across Siberia",
+      date: "1581–1639",
+      text: "In 1581 about 540 Cossacks led by Yermak Timofeyevich crossed the Urals against the Khanate of Sibir, ruled by Kuchum Khan. In October 1582 they entered his capital, Qashliq. Kuchum struck back, and Yermak died in 1584, but the Russians returned and built forts: Tyumen in 1586, Tobolsk in 1587. Advancing from river to river, small bands of Cossacks and traders reached the Pacific coast in 1639. They forced the native peoples, among them the Khanty, Mansi, Yakuts and later the Koryaks, to pay tribute in furs, called yasak. Historians describe brutal coercion, including killings and the enslavement of women and children, and the Yakuts and others fought back repeatedly.",
+      mapState: { year: 1639, mapYear: 1650, lat: 60, lng: 100, zoom: 2.5 },
+      highlight: ["Tsardom of Muscovy"],
+      markers: [
+        { label: "Qashliq: Yermak takes the capital of Sibir, 1582", at: [68.52, 58.15], kind: "battle" },
+        { label: "Tobolsk, founded 1587", at: [68.27, 58.2] },
+        { label: "Yakutsk, founded 1632", at: [129.73, 62.03] },
+        { label: "Okhotsk, on the Pacific, 1647", at: [143.26, 59.37] },
+      ],
+      routes: [
+        { label: "Yermak crosses the Urals, 1581–1582", kind: "conquest", path: [[56.2, 58], [59.5, 58.3], [63, 57.8], [65.53, 57.15], [68.52, 58.15]] },
+        { label: "From river to river to the Pacific, 1587–1647", kind: "conquest", path: [[68.27, 58.2], [82, 58.5], [92.9, 58.5], [105, 57.5], [118, 60.5], [129.73, 62.03], [137, 60.5], [143.26, 59.37]] },
+      ],
+    },
+    {
+      title: "The Time of Troubles and the Romanovs",
+      date: "1598–1613",
+      text: "When Ivan's son Feodor I died childless in 1598, the dynasty descended from Rurik died with him. Russia slid into chaos: a famine in 1601–1603 killed, by one account, nearly a third of the population, and a series of pretenders each claimed to be Ivan's dead son Dmitry. The Polish–Lithuanian Commonwealth intervened, took Smolensk, and in 1610 placed a garrison in the Moscow Kremlin. In 1611 Kuzma Minin, a butcher of Nizhny Novgorod, raised funds for a militia led by Prince Dmitry Pozharsky; in October 1612 the Polish garrison surrendered. In 1613 an assembly of the land elected Michael Romanov tsar. His dynasty would rule until 1917.",
+      mapState: { year: 1612, mapYear: 1600, lat: 55.5, lng: 38, zoom: 4.6 },
+      highlight: ["Tsardom of Muscovy"],
+      markers: [
+        { label: "Moscow: Polish garrison surrenders, 1612", at: [37.62, 55.76], kind: "battle" },
+        { label: "Smolensk: taken by Poland–Lithuania", at: [32.05, 54.78] },
+        { label: "Nizhny Novgorod: Minin raises the militia", at: [44.01, 56.33] },
+        { label: "Yaroslavl: the militia's base, 1612", at: [39.89, 57.63] },
+      ],
+      routes: [
+        { label: "The national militia marches on Moscow, 1612", kind: "conquest", path: [[44.01, 56.33], [42, 57.2], [39.89, 57.63], [38.7, 56.8], [37.62, 55.76]] },
+      ],
+    },
+    {
+      title: "Peter the Great: a Window on the West",
+      date: "1703–1721",
+      text: "Peter I, tsar from 1682, set out to make Russia a European power with a modern army, a navy and a Baltic coast. In the Great Northern War against Sweden he took a Swedish fort on the Neva, and in May 1703 began a new city there, Saint Petersburg. Conscripted serfs built it, and tens of thousands died doing so. In 1709 Charles XII of Sweden, allied with the Cossack hetman Ivan Mazepa, besieged Poltava; Peter's much larger army crushed him, and Charles and Mazepa fled to Ottoman territory. Peter moved the capital to Saint Petersburg in 1712, and in 1721, after victory over Sweden, took the title of emperor.",
+      mapState: { year: 1709, mapYear: 1715, lat: 55, lng: 32, zoom: 3.9 },
+      highlight: ["Tsardom of Muscovy"],
+      markers: [
+        { label: "Saint Petersburg, founded 1703", at: [30.31, 59.94] },
+        { label: "Poltava, 8 July 1709", at: [34.55, 49.59], kind: "battle" },
+        { label: "Perevolochna: the Swedish army surrenders", at: [34.06, 48.86] },
+      ],
+      routes: [
+        { label: "Charles XII invades, 1708–1709", kind: "conquest", path: [[21, 52.2], [25.3, 53.5], [28.5, 54], [31.5, 52.5], [33.5, 50.8], [34.55, 49.59]] },
+        { label: "Charles and Mazepa flee to Ottoman lands", kind: "retreat", path: [[34.55, 49.59], [34.06, 48.86], [32.5, 47.8], [30.5, 46.9], [29.6, 46.8]] },
+      ],
+    },
+    {
+      title: "Catherine the Great: the Black Sea and Poland",
+      date: "1768–1795",
+      text: "Catherine II, a German princess who seized power from her husband in 1762, expanded the empire by roughly 200,000 square miles. War with the Ottomans from 1768 to 1774 ended with the Treaty of Küçük Kaynarca, which pulled the Crimean Khanate away from Ottoman control; in 1783 she annexed it outright, ending the Crimean Tatars' own state. New cities followed: Kherson, Sevastopol, and in 1794 Odesa. In the west, Russia, Prussia and Austria divided the Polish–Lithuanian Commonwealth in 1772, 1793 and 1795, erasing it from the map for 123 years. At home, serfdom grew harsher, and Pugachev's great revolt of the 1770s drew in Cossacks, Volga peoples and peasants.",
+      mapState: { year: 1783, mapYear: 1783, lat: 50, lng: 30, zoom: 4 },
+      highlight: ["Russian Empire", "Poland"],
+      markers: [
+        { label: "Sevastopol: naval base, 1783", at: [33.52, 44.6] },
+        { label: "Kherson", at: [32.63, 46.64] },
+        { label: "Odesa, 1794", at: [30.73, 46.48] },
+        { label: "Küçük Kaynarca: peace, 1774", at: [27.5, 43.98] },
+        { label: "Warsaw: Poland partitioned, 1772–1795", at: [21.01, 52.23] },
+      ],
+      routes: [
+        { label: "Russia advances to the Black Sea", kind: "conquest", path: [[35.04, 48.47], [33.5, 47], [33.9, 45.5], [33.52, 44.6]] },
+        { label: "Partitions of Poland", kind: "conquest", path: [[30.5, 54.5], [27, 53.5], [24, 52.8], [21.01, 52.23]] },
+      ],
+    },
+    {
+      title: "A Sixth of the World",
+      date: "1801–1897",
+      text: "Russia helped defeat Napoleon and pushed on in every direction. It took eastern Georgia in 1801, won land from Persia, and fought the long Caucasian War against highland resistance, which ended only in 1864. Defeat by Britain, France and the Ottomans in the Crimean War of 1853–1856 led to reforms, above all the emancipation of 23 million serfs in 1861, and to conquests in Central Asia: Tashkent in 1865, Samarkand in 1868, Khiva in 1873. China ceded the Amur region in 1858–1860, while Alaska was sold in 1867. Polish risings in 1830 and 1863 were crushed. By the 1897 census the empire held 126 million people of many faiths and languages.",
+      mapState: { year: 1880, mapYear: 1880, lat: 52, lng: 75, zoom: 2.5 },
+      highlight: ["Russian Empire"],
+      markers: [
+        { label: "Sevastopol: besieged in the Crimean War, 1854–1855", at: [33.52, 44.6], kind: "battle" },
+        { label: "Tbilisi", at: [44.79, 41.72] },
+        { label: "Tashkent, taken 1865", at: [69.28, 41.31] },
+        { label: "Samarkand, taken 1868", at: [66.98, 39.66] },
+        { label: "Khiva, taken 1873", at: [60.36, 41.38] },
+        { label: "Vladivostok", at: [131.89, 43.12] },
+      ],
+      routes: [
+        { label: "Into Central Asia, 1865–1873", kind: "conquest", path: [[61.5, 50.5], [65.5, 46.5], [68, 43.5], [69.28, 41.31], [66.98, 39.66]] },
+        { label: "To the Amur and the Pacific, 1858–1860", kind: "conquest", path: [[104.3, 52.3], [113.5, 52], [124, 53], [127.5, 50.3], [134.5, 48.4], [131.89, 43.12]] },
+      ],
+    },
+  ],
+};

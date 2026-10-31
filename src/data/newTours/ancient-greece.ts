@@ -1,0 +1,162 @@
+import type { Tour } from "@/data/tours";
+
+export const TOUR: Tour = {
+  slug: "ancient-greece",
+  title: "Ancient Greece: From City-States to the Hellenistic World",
+  description:
+    "From the palaces of Mycenae to the sack of Corinth: Greek colonies from Spain to the Black Sea, the rivalry of Athens and Sparta, the Persian Wars, the Golden Age, and the kingdoms that carried Greek culture towards India.",
+  duration: 9,
+  difficulty: "standard",
+  steps: [
+    {
+      title: "Mycenae: The Age of Palaces",
+      date: "c. 1400–1180 BCE",
+      text: "Greece's first great civilisation flourished in the Late Bronze Age, from about 1750 to 1050 BCE. Kings ruled from fortified palaces at Mycenae, Pylos, Thebes and elsewhere, and their scribes kept accounts in Linear B, the earliest written Greek. Mycenaean traders crossed the eastern Mediterranean, and their world later became the setting of the Trojan War legends. From around 1250 BCE a wave of destruction struck the mainland, and Thebes burned. Around 1190 Mycenae was destroyed; around 1180 the palace at Pylos burned, its last clay tablets recording hasty defence preparations. Invaders, the 'Sea Peoples', natural disasters and climate change have all been blamed. A long age without written records followed.",
+      mapState: { year: -1200, lat: 37.6, lng: 25, zoom: 5.2 },
+      markers: [
+        { label: "Mycenae: destroyed c. 1190 BCE", at: [22.76, 37.73] },
+        { label: "Palace of Pylos: burned c. 1180 BCE", at: [21.7, 37.03] },
+        { label: "Thebes: burned c. 1250 BCE", at: [23.32, 38.32] },
+        { label: "Athens: acropolis spared", at: [23.73, 37.97] },
+      ],
+      routes: [{ label: "Refugees flee to Cyprus and the Levant", kind: "migration", path: [[22.9, 37.5], [24.8, 36.6], [27.8, 36.1], [30.5, 35.5], [33, 35]] }],
+    },
+    {
+      title: "Colonies Across the Sea",
+      date: "c. 750–550 BCE",
+      text: "As populations grew and good farmland ran short, Greek cities sent settlers abroad, each group led by a founder, to build new and independent cities. Euboeans settled in southern Italy in the 8th century BCE. Corinthians founded Syracuse in Sicily in 733; Megarians founded Byzantium, traditionally in 667; settlers from Thera, driven by drought and unrest, founded Cyrene in Libya in 631; Phocaeans founded Massalia, modern Marseille, around 600. Milesians and others planted 70 to 90 colonies around the Black Sea. The newcomers met Etruscans, Italic peoples and others. The Etruscans adopted a Greek alphabet, which became the ancestor of the Latin one.",
+      mapState: { year: -650, mapYear: -400, lat: 40, lng: 18, zoom: 3.6 },
+      highlight: ["Greek city-states", "Greek colonies"],
+      markers: [
+        { label: "Syracuse, 733 BCE", at: [15.29, 37.07] },
+        { label: "Byzantium, c. 667 BCE", at: [28.98, 41.02] },
+        { label: "Cyrene, 631 BCE", at: [21.86, 32.82] },
+        { label: "Massalia, c. 600 BCE", at: [5.37, 43.3] },
+        { label: "Olbia, a Milesian colony", at: [31.9, 46.69] },
+      ],
+      routes: [
+        { label: "Corinth to Syracuse", kind: "voyage", path: [[22.88, 37.91], [22, 38.2], [21, 38.35], [19, 38.2], [16.5, 37.6], [15.29, 37.07]] },
+        { label: "Phocaea to Massalia", kind: "voyage", path: [[26.76, 38.67], [24.5, 37.3], [21.5, 36.8], [16.5, 38.2], [15.6, 38.2], [12, 40.5], [8.5, 42.2], [5.37, 43.3]] },
+        { label: "Megara to Byzantium", kind: "voyage", path: [[23.35, 37.95], [24.4, 37.8], [25, 39], [26.4, 40.1], [27.5, 40.7], [28.98, 41.02]] },
+        { label: "Thera to Cyrene", kind: "voyage", path: [[25.43, 36.4], [24, 35], [22.5, 33.5], [21.86, 32.82]] },
+        { label: "Miletus to the Black Sea", kind: "voyage", path: [[27.28, 37.53], [26.3, 39.5], [26.4, 40.2], [29, 41.1], [30.5, 43.5], [31.9, 46.69]] },
+      ],
+    },
+    {
+      title: "Sparta and Athens",
+      date: "6th century – 508 BCE",
+      text: "By the 6th century BCE the Greek world was a patchwork of independent city-states, and two grew strongest. Sparta, which had conquered neighbouring Messenia, lived off the helots, Greeks enslaved in war who farmed Spartan land and were treated harshly. Their labour freed Spartan citizens to be full-time soldiers, and Sparta led the Peloponnesian League. Athens took a different path. The reforms of Solon eased social unrest, and in 508 BCE Cleisthenes, often called the father of Athenian democracy, set the city on a democratic footing, giving power to an assembly of citizens. Only adult male citizens took part: women, slaves and resident foreigners were excluded.",
+      mapState: { year: -508, mapYear: -500, lat: 37.6, lng: 22.6, zoom: 6.2 },
+      markers: [
+        { label: "Sparta", at: [22.42, 37.08] },
+        { label: "Athens: democracy, 508 BCE", at: [23.73, 37.97] },
+      ],
+    },
+    {
+      title: "Marathon",
+      date: "490 BCE",
+      text: "Persia's Achaemenid kings had ruled the Greek cities of Ionia, on the Anatolian coast, since shortly after 550 BCE. In 499 they revolted, and Athens and Eretria sent help; in 498 the rebels burned Sardis, a Persian regional capital. Once the revolt was crushed, King Darius I sent a fleet across the Aegean in 490. It took Naxos and Eretria, then landed at Marathon, north-east of Athens. There about 10,000 Athenians, joined by a small force from Plataea, charged the larger Persian army and drove it back to its ships. Herodotus counted 6,400 Persian dead against 192 Athenians.",
+      mapState: { year: -490, mapYear: -500, lat: 38.2, lng: 25.6, zoom: 5.8 },
+      highlight: ["Achaemenid Empire"],
+      markers: [
+        { label: "Sardis: burned, 498 BCE", at: [28.04, 38.49] },
+        { label: "Eretria: captured, 490 BCE", at: [23.79, 38.4] },
+        { label: "Marathon, 490 BCE", at: [23.98, 38.12], kind: "battle" },
+        { label: "Athens", at: [23.73, 37.97] },
+      ],
+      routes: [
+        { label: "The Persian fleet: Naxos, Eretria, Marathon", kind: "conquest", path: [[27.3, 37.6], [25.9, 37.15], [25.27, 37.39], [24.6, 37.9], [23.85, 38.35], [24.05, 38.2], [23.98, 38.12]] },
+        { label: "The Athenians march to Marathon", kind: "conquest", path: [[23.73, 37.97], [23.85, 38.05], [23.98, 38.12]] },
+      ],
+    },
+    {
+      title: "Thermopylae and Salamis",
+      date: "480–479 BCE",
+      text: "In 480 BCE Darius's son Xerxes invaded with an army that modern scholars put at 120,000 to 300,000 men, crossing the Hellespont on two pontoon bridges. About 7,000 Greeks under King Leonidas of Sparta held the narrow pass of Thermopylae until a local man, Ephialtes, showed the Persians a path around it; the rearguard, including 300 Spartans, died fighting. The Persians took the evacuated city of Athens and burned the Acropolis. But Themistocles of Athens tricked the Persian fleet into the narrow straits of Salamis, where the allied Greek fleet defeated it. Xerxes withdrew to Asia, and in 479 the Greeks destroyed the army he had left behind at Plataea.",
+      mapState: { year: -480, mapYear: -500, lat: 39.2, lng: 24.6, zoom: 5.2 },
+      highlight: ["Achaemenid Empire"],
+      markers: [
+        { label: "Thermopylae, 480 BCE", at: [22.54, 38.8], kind: "battle" },
+        { label: "Artemisium, 480 BCE", at: [23.2, 39.05], kind: "battle" },
+        { label: "Salamis, September 480 BCE", at: [23.57, 37.95], kind: "battle" },
+        { label: "Plataea, August 479 BCE", at: [23.27, 38.22], kind: "battle" },
+      ],
+      routes: [
+        { label: "Xerxes marches from Sardis, 480 BCE", kind: "conquest", path: [[28.04, 38.49], [27.2, 39.3], [26.4, 40.19], [26.6, 40.6], [25, 40.9], [23, 40.6], [22.4, 39.6], [22.54, 38.8]] },
+        { label: "On to Athens", kind: "conquest", path: [[22.54, 38.8], [23, 38.5], [23.4, 38.2], [23.73, 37.97]] },
+        { label: "Xerxes withdraws to Asia", kind: "retreat", path: [[23.6, 38.1], [22.7, 39.3], [23.2, 40.6], [25, 40.95], [26.4, 40.25]] },
+      ],
+    },
+    {
+      title: "The Golden Age of Athens",
+      date: "478–432 BCE",
+      text: "After the Persian defeat, Athens led a new alliance, the Delian League, founded in 478 BCE with its treasury on the sacred island of Delos. Between 150 and 330 cities joined. Over time it became an Athenian empire: allies paid cash instead of providing ships, members that tried to leave, like Naxos, were forced back, and the treasury was moved to Athens. Under Pericles, that money helped rebuild the Acropolis, left in ruins by the Persians; the Parthenon rose between 447 and 432 BCE, with sculpture by Phidias. The playwrights Aeschylus, Sophocles and Euripides, the historian Herodotus and the philosopher Socrates all lived and worked in the city.",
+      mapState: { year: -447, mapYear: -400, lat: 38.2, lng: 25, zoom: 5.4 },
+      highlight: ["Greek city-states"],
+      markers: [
+        { label: "The Parthenon, 447–432 BCE", at: [23.73, 37.97] },
+        { label: "Delos: the league's first treasury", at: [25.27, 37.39] },
+      ],
+      routes: [{ label: "The treasury moves to Athens", kind: "voyage", path: [[25.27, 37.39], [24.7, 37.6], [24.1, 37.7], [23.73, 37.97]] }],
+    },
+    {
+      title: "The Peloponnesian War",
+      date: "431–404 BCE",
+      text: "Sparta and its allies feared Athens' growing power, and in 431 BCE war broke out. Pericles kept the Athenians behind their walls and relied on the fleet, but in 430 a plague swept the crowded city, killing Pericles and between a third and two-thirds of the population. In 416 Athens seized neutral Melos, killed its men and enslaved its women and children. In 415 it sent a great expedition against Syracuse; by 413 the whole force was lost, and 7,000 survivors were held in stone quarries. Sparta, with Persian money, built a fleet. Lysander destroyed the Athenian fleet at Aegospotami in 405, and starving Athens surrendered in April 404.",
+      mapState: { year: -413, mapYear: -400, lat: 38.6, lng: 21, zoom: 4.6 },
+      markers: [
+        { label: "Athens: surrenders, April 404 BCE", at: [23.73, 37.97] },
+        { label: "Sparta", at: [22.42, 37.08] },
+        { label: "Syracuse: Athenian disaster, 413 BCE", at: [15.29, 37.07], kind: "battle" },
+        { label: "Aegospotami, 405 BCE", at: [26.55, 40.25], kind: "battle" },
+      ],
+      routes: [
+        { label: "The Sicilian Expedition, 415 BCE", kind: "voyage", path: [[23.6, 37.94], [22, 37.2], [21.2, 37.8], [20.5, 38.5], [19.9, 39.6], [17.2, 39.9], [16, 38.5], [15.29, 37.07]] },
+        { label: "Lysander's fleet to the Hellespont", kind: "voyage", path: [[27, 37.9], [26.2, 39], [26.3, 40], [26.55, 40.25]] },
+      ],
+    },
+    {
+      title: "Macedon Rises: Chaeronea and Alexander",
+      date: "338–323 BCE",
+      text: "In the north, Philip II, king of Macedon from 359 BCE, rebuilt his army around the Macedonian phalanx and used diplomacy as skilfully as force. In Athens the orator Demosthenes rallied resistance. In August 338, at Chaeronea, Philip crushed the armies of Athens and Thebes; his 18-year-old son Alexander led the left wing, and all 300 of the elite Sacred Band of Thebes were killed. Philip bound every Greek state but Sparta into the League of Corinth to wage war on Persia, but was assassinated in 336. Alexander led the invasion instead. In eleven years he conquered the Persian Empire and reached India, then died at Babylon in 323, aged 32.",
+      mapState: { year: -338, mapYear: -323, lat: 34, lng: 40, zoom: 3 },
+      highlight: ["Empire of Alexander"],
+      markers: [
+        { label: "Pella, capital of Macedon", at: [22.52, 40.75] },
+        { label: "Chaeronea, August 338 BCE", at: [22.85, 38.5], kind: "battle" },
+        { label: "Babylon: Alexander dies, 323 BCE", at: [44.42, 32.54] },
+      ],
+      routes: [
+        { label: "Philip marches south, 339–338 BCE", kind: "conquest", path: [[22.52, 40.75], [22.4, 39.6], [22.5, 38.9], [22.85, 38.5]] },
+        { label: "Alexander's campaigns, 334–323 BCE", kind: "conquest", path: [[22.52, 40.75], [26.4, 40.19], [36.19, 36.75], [29.89, 31.2], [43.44, 36.56], [52.89, 29.94], [73.64, 32.83], [44.42, 32.54]] },
+      ],
+    },
+    {
+      title: "The Hellenistic Kingdoms",
+      date: "323–30 BCE",
+      text: "After Alexander's death his generals, the Diadochi or 'successors', fought over his empire for decades. At Ipsus in Phrygia in 301 BCE, Cassander, Lysimachus and Seleucus defeated Antigonus, who died in the battle. Great dynasties emerged: the Ptolemies in Egypt, the Seleucids from Anatolia to Iran, and the Antigonids in Macedon, with smaller kingdoms such as Pergamon. They blended Greek and local ways: the Ptolemies ruled Egypt as pharaohs from Alexandria, whose great library drew scholars from across the Greek world. Koine Greek became a common language from the Mediterranean towards India, and this was the age of Euclid and Archimedes, and of Stoic and Epicurean philosophy.",
+      mapState: { year: -301, mapYear: -300, lat: 33, lng: 38, zoom: 3.2 },
+      highlight: ["Ptolemaic Kingdom", "Seleucid Kingdom"],
+      markers: [
+        { label: "Ipsus, 301 BCE", at: [30.99, 38.95], kind: "battle" },
+        { label: "Alexandria: the Ptolemies' capital and library", at: [29.89, 31.2] },
+        { label: "Seleucia on the Tigris", at: [44.52, 33.09] },
+        { label: "Antioch", at: [36.18, 36.2] },
+        { label: "Pergamon", at: [27.18, 39.13] },
+        { label: "Pella: Antigonid Macedon", at: [22.52, 40.75] },
+      ],
+    },
+    {
+      title: "Rome Takes Greece",
+      date: "197–146 BCE",
+      text: "Rome was drawn into the Greek east. In 197 BCE, at Cynoscephalae in Thessaly, a Roman army under Flamininus defeated Philip V of Macedon. At Pydna in 168 Rome beat Perseus, the last Antigonid king; Macedon was split into four republics and later became a Roman province, and in 167 Roman troops enslaved 150,000 people in Epirus. When the Achaean League defied Rome in 146, the consul Lucius Mummius routed its army outside Corinth, then burned the city, killed its men and enslaved its women and children. In the same year Rome destroyed Carthage. Greek independence was over, but the last Hellenistic kingdom, Ptolemaic Egypt, survived until 30 BCE.",
+      mapState: { year: -146, mapYear: -100, lat: 39.2, lng: 22.4, zoom: 5.4 },
+      highlight: ["Roman Republic"],
+      markers: [
+        { label: "Pydna, 168 BCE", at: [22.61, 40.37], kind: "battle" },
+        { label: "Corinth: sacked, 146 BCE", at: [22.88, 37.91], kind: "battle" },
+      ],
+      routes: [{ label: "The Roman advance from Macedonia, 146 BCE", kind: "conquest", path: [[22.6, 40.6], [22.4, 39.6], [22.6, 38.9], [23.3, 38.3], [22.88, 37.91]] }],
+    },
+  ],
+};

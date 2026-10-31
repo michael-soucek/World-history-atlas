@@ -2,6 +2,7 @@ import type { EntityType } from "@/types";
 import { EVENT_TOURS } from "@/data/eventTours";
 import { MOVEMENT_TOURS } from "@/data/movementTours";
 import { WAR_TOURS } from "@/data/warTours";
+import { NEW_TOURS } from "@/data/newTours";
 
 export interface TourMapState {
   /** The year shown on the map, and the borders drawn unless mapYear says otherwise. */
@@ -740,7 +741,7 @@ export const TOURS: Tour[] = [
 
 /** Look up a tour by slug. */
 // Tours with migration and campaign arrows live in movementTours.ts.
-TOURS.push(...MOVEMENT_TOURS, ...EVENT_TOURS, ...WAR_TOURS);
+TOURS.push(...MOVEMENT_TOURS, ...EVENT_TOURS, ...WAR_TOURS, ...NEW_TOURS);
 
 export function getTourBySlug(slug: string): Tour | undefined {
   return TOURS.find(t => t.slug === slug);

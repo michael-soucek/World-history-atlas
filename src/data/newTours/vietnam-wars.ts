@@ -1,0 +1,133 @@
+import type { Tour } from "@/data/tours";
+
+export const TOUR: Tour = {
+  slug: "vietnam-wars",
+  title: "Vietnam: From Dien Bien Phu to the Fall of Saigon",
+  description:
+    "Thirty years of war in Indochina: the fight against French rule, the partition of 1954, American escalation, the Ho Chi Minh Trail, Tet, the wars in Cambodia and Laos, and the fall of Saigon in 1975.",
+  duration: 9,
+  difficulty: "standard",
+  steps: [
+    {
+      title: "The War Against France: 1945–1953",
+      date: "September 1945",
+      text: "On 2 September 1945, weeks after Japan's surrender, Ho Chi Minh declared the independent Democratic Republic of Vietnam in Hanoi. France set out to restore its colonial rule: that month its troops overthrew the Viet Minh administration in Saigon, and in December 1946 open war began. France later created a State of Vietnam under the former emperor Bảo Đại. After the communist victory in China in 1949, Beijing and Moscow backed the Viet Minh while the United States aided France. The French Union's army included North and sub-Saharan African colonial troops, Laotians, Cambodians and Vietnamese. In Vietnam the conflict is remembered as the resistance war against the French colonialists.",
+      mapState: { year: 1946, mapYear: 1945, lat: 16.5, lng: 105.5, zoom: 4.8 },
+      highlight: ["Tonkin", "Annam", "Cochin China"],
+      markers: [
+        { label: "Hanoi: independence declared, 2 September 1945", at: [105.85, 21.0] },
+        { label: "Saigon: French troops take control, September 1945", at: [106.702, 10.776] },
+      ],
+    },
+    {
+      title: "Điện Biên Phủ: 1954",
+      date: "13 March – 7 May 1954",
+      text: "In November 1953 French paratroopers seized the valley of Điện Biên Phủ in the far north-west, near Laos, hoping to cut Viet Minh supply lines and draw their army into a set-piece battle. The base would be supplied by air. General Võ Nguyên Giáp surrounded it instead, dragging heavy artillery and anti-aircraft guns up the hills around the valley and hiding them in tunnels. The bombardment began on 13 March 1954; as outposts fell, the airstrip became unusable. On 7 May the garrison was overrun and about 11,700 French Union soldiers were taken prisoner. Vietnamese figures put Viet Minh casualties at about 13,900; some other estimates exceed 23,000.",
+      mapState: { year: 1954, mapYear: 1945, lat: 21.4, lng: 104.3, zoom: 6.3 },
+      highlight: ["Tonkin"],
+      markers: [
+        { label: "Điện Biên Phủ, 13 March – 7 May 1954", at: [103.016, 21.387], kind: "battle" },
+        { label: "Hanoi", at: [105.85, 21.0] },
+      ],
+      routes: [{ label: "Giáp's divisions close in", kind: "conquest", path: [[105.4, 21.9], [104.8, 21.75], [104.2, 21.6], [103.6, 21.45], [103.1, 21.4]] }],
+    },
+    {
+      title: "Geneva and Partition: 1954",
+      date: "21 July 1954",
+      text: "The Indochina talks at Geneva opened the day after Điện Biên Phủ fell. On 21 July 1954 ceasefires were agreed for Vietnam, Laos and Cambodia. Vietnam was divided at the 17th parallel: Viet Minh forces would regroup in the North and those of the State of Vietnam in the South. A closing declaration called the line provisional; the State of Vietnam and the United States both rejected the partition. A great migration followed. The international commission recorded at least 892,876 northerners moving south, many of them Catholics, while tens of thousands of civilians and some 100,000 Viet Minh fighters went north. In the South, Ngô Đình Diệm took power with American support.",
+      mapState: { year: 1954, mapYear: 1960, lat: 16, lng: 106.5, zoom: 4.8 },
+      highlight: ["Laos", "Cambodia"],
+      markers: [
+        { label: "Bến Hải River: the 17th parallel line", at: [107.1125, 17.015] },
+        { label: "Hanoi", at: [105.85, 21.0] },
+        { label: "Haiphong", at: [106.684, 20.865] },
+        { label: "Saigon", at: [106.702, 10.776] },
+      ],
+      routes: [
+        { label: "Northerners move south, 1954–1955", kind: "migration", path: [[106.9, 20.7], [107.7, 19.3], [108.7, 16.5], [109.5, 13.5], [109.2, 11.0], [106.75, 10.7]] },
+        { label: "Viet Minh fighters regroup north", kind: "migration", path: [[106.6, 11.0], [108.2, 13.8], [107.6, 16.4], [106.6, 18.6], [105.85, 20.9]] },
+      ],
+    },
+    {
+      title: "The Gulf of Tonkin and American Escalation: 1964–1965",
+      date: "August 1964",
+      text: "From the late 1950s the Viet Cong insurgency in the South, supplied and increasingly directed from Hanoi, grew; Kennedy sent military advisers, and in 1963 Diệm was killed in a US-backed coup. On 2 August 1964, after South Vietnamese commando raids on the coast, North Vietnamese torpedo boats fought the US destroyer Maddox in the Gulf of Tonkin. A second attack reported on 4 August never took place, yet Congress passed the Gulf of Tonkin Resolution on 7 August, which Johnson used to expand the war. Sustained bombing of the North, Operation Rolling Thunder, began on 2 March 1965; six days later 3,500 Marines landed near Đà Nẵng. US troop numbers reached 536,000 by 1969.",
+      mapState: { year: 1965, mapYear: 1960, lat: 18.5, lng: 106.5, zoom: 5.2 },
+      markers: [
+        { label: "Gulf of Tonkin incident, 2 August 1964", at: [106.518, 19.783], kind: "battle" },
+        { label: "Đà Nẵng: US Marines land, 8 March 1965", at: [108.21, 16.069] },
+        { label: "Hanoi", at: [105.85, 21.0] },
+      ],
+      routes: [{ label: "Operation Rolling Thunder, 1965–1968", kind: "raid", path: [[108.21, 16.069], [107.5, 17.5], [106.8, 19.0], [106.2, 20.3], [105.85, 21.0]] }],
+    },
+    {
+      title: "The Ho Chi Minh Trail",
+      date: "1959–1975",
+      text: "North Vietnam fed its war in the South through a web of roads and footpaths in Laos and Cambodia. Americans called it the Ho Chi Minh Trail; the Vietnamese named it after the Trường Sơn mountains it followed. Work began in 1959. Early loads moved on bicycles; later came trucks and even a fuel pipeline. A second route, the Sihanouk Trail from the Cambodian port of Sihanoukville, turned out to carry more. The United States tried to cut the trail with one of the most intense air campaigns ever flown. Laos was hit by some 2 million tons of bombs, making it per person the most heavily bombed country in history.",
+      mapState: { year: 1967, mapYear: 1960, lat: 16, lng: 106.5, zoom: 5.2 },
+      highlight: ["Laos", "Cambodia"],
+      markers: [
+        { label: "Tchepone (Xépôn), a key trail hub", at: [106.237, 16.682] },
+        { label: "Bến Hải River: the border", at: [107.1125, 17.015] },
+      ],
+      routes: [{ label: "Men and supplies down the trail", kind: "conquest", path: [[105.85, 21.0], [105.7, 19.2], [105.8, 17.8], [106.237, 16.682], [106.6, 15.6], [106.85, 14.8], [107.5, 14.0], [107.8, 13.0]] }],
+    },
+    {
+      title: "The Tet Offensive: 1968",
+      date: "30–31 January 1968",
+      text: "On 30 and 31 January 1968, during the Tết lunar new year holiday, about 77,000 North Vietnamese and Viet Cong troops attacked more than 100 towns and cities across the South, including Saigon. Hanoi hoped to spark a popular uprising; none came, and the attackers took very heavy losses. In Huế the fighting lasted a month and left the old imperial capital largely destroyed; between 5,800 and 8,000 civilians died there, over 2,000 of them executed by the communist forces. On 16 March American soldiers massacred between 347 and 504 villagers, mostly women, children and old men, at Mỹ Lai. A military defeat for Hanoi, Tet still turned much of the American public against the war.",
+      mapState: { year: 1968, mapYear: 1960, lat: 13.5, lng: 107.5, zoom: 5.2 },
+      markers: [
+        { label: "Huế, 31 January – 2 March 1968", at: [107.58, 16.4675], kind: "battle" },
+        { label: "Khe Sanh, besieged", at: [106.724, 16.654], kind: "battle" },
+        { label: "Mỹ Lai massacre, 16 March 1968", at: [108.869, 15.178] },
+        { label: "Saigon attacked", at: [106.702, 10.776], kind: "battle" },
+      ],
+    },
+    {
+      title: "Cambodia and Laos: 1969–1971",
+      date: "May 1970",
+      text: "Richard Nixon began 'Vietnamization', handing the fighting to an enlarged South Vietnamese army while American troops went home. From March 1969 he also had B-52s secretly bomb communist bases in neutral Cambodia. After Prince Sihanouk was overthrown in 1970, South Vietnamese and American troops pushed into eastern Cambodia between late April and July; they seized large stocks of supplies but missed the communist headquarters. Protests erupted across the United States, and on 4 May National Guardsmen shot dead four students at Kent State University. In February 1971 South Vietnam struck into Laos towards Tchepone to cut the trail; Operation Lam Son 719 ended in a costly rout. Cambodia's civil war deepened.",
+      mapState: { year: 1970, mapYear: 1960, lat: 13.5, lng: 106, zoom: 5.3 },
+      highlight: ["Cambodia", "Laos"],
+      markers: [
+        { label: "Phnom Penh", at: [104.921, 11.569] },
+        { label: "Tchepone, objective of Lam Son 719", at: [106.237, 16.682], kind: "battle" },
+      ],
+      routes: [
+        { label: "Incursion into the 'Parrot's Beak', 1970", kind: "conquest", path: [[106.3, 11.25], [106.0, 11.15], [105.75, 11.1]] },
+        { label: "Incursion into the 'Fishhook', 1970", kind: "conquest", path: [[106.7, 11.55], [106.5, 11.75], [106.3, 11.95]] },
+        { label: "Lam Son 719: into Laos, February 1971", kind: "conquest", path: [[106.724, 16.654], [106.577, 16.688], [106.4, 16.72], [106.26, 16.69]] },
+        { label: "The retreat from Laos, March 1971", kind: "retreat", path: [[106.26, 16.64], [106.42, 16.66], [106.58, 16.64], [106.72, 16.61]] },
+      ],
+    },
+    {
+      title: "The Paris Peace Accords: 1973",
+      date: "27 January 1973",
+      text: "Peace talks in Paris had begun in 1968. In 1972 American air power helped South Vietnam withstand North Vietnam's huge Easter Offensive. The agreement, negotiated chiefly by Henry Kissinger and Lê Đức Thọ, was signed on 27 January 1973 by the United States, North Vietnam, South Vietnam and the Viet Cong's Provisional Revolutionary Government. The remaining US forces left. North Vietnamese troops were allowed to stay in the South, and President Thiệu's government was allowed to survive. Kissinger and Thọ were awarded the Nobel Peace Prize, which Thọ declined. The ceasefire barely held, and open fighting resumed in March 1973.",
+      mapState: { year: 1973, mapYear: 1960, lat: 15, lng: 107, zoom: 4.8 },
+      markers: [
+        { label: "Hanoi", at: [105.85, 21.0] },
+        { label: "Saigon", at: [106.702, 10.776] },
+      ],
+      routes: [{ label: "The last US forces leave, 1973", kind: "retreat", path: [[106.702, 10.776], [108.0, 10.6], [110.0, 11.4], [112.5, 13.0], [115.0, 14.6]] }],
+    },
+    {
+      title: "The Fall of Saigon: 1975",
+      date: "30 April 1975",
+      text: "North Vietnam's final offensive opened in the Central Highlands in March 1975. Huế fell on 25 March and Đà Nẵng on 28 March, amid a panicked flight of soldiers and refugees. At Xuân Lộc the South Vietnamese 18th Division held for 11 days before pulling back on 20 April; President Thiệu resigned the next day, accusing the United States of betrayal. As helicopters lifted out the last Americans and tens of thousands of South Vietnamese, northern troops entered Saigon on 30 April. Vietnam's government calls it Liberation Day; many overseas Vietnamese mourn 'Black April'. Estimates of Vietnamese dead in the whole war run from about 970,000 to 3 million; some 58,220 Americans died.",
+      mapState: { year: 1975, mapYear: 1985, lat: 13.5, lng: 107.5, zoom: 5.2 },
+      highlight: ["Vietnam"],
+      markers: [
+        { label: "Huế falls, 25 March 1975", at: [107.58, 16.4675] },
+        { label: "Đà Nẵng falls, 28 March 1975", at: [108.21, 16.069] },
+        { label: "Xuân Lộc, April 1975", at: [107.239, 10.923], kind: "battle" },
+        { label: "Saigon falls, 30 April 1975", at: [106.696, 10.778], kind: "battle" },
+      ],
+      routes: [
+        { label: "Through the Central Highlands, March 1975", kind: "conquest", path: [[107.8, 14.4], [108.04, 12.67], [107.7, 11.9], [107.239, 10.923]] },
+        { label: "Down the coast, March–April 1975", kind: "conquest", path: [[107.58, 16.4675], [108.21, 16.069], [108.9, 14.0], [109.19, 12.25], [108.4, 11.2], [107.239, 10.923], [106.75, 10.8]] },
+      ],
+    },
+  ],
+};

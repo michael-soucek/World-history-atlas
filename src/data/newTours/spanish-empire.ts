@@ -1,0 +1,173 @@
+import type { Tour } from "@/data/tours";
+
+export const TOUR: Tour = {
+  slug: "spanish-empire",
+  title: "The Spanish Empire",
+  description:
+    "From the fall of Granada and Columbus's first voyage to the conquest of the Aztecs and Incas, the silver of Potosí, the Manila galleons and the loss of the last colonies in 1898, including the cost to the peoples Spain conquered.",
+  duration: 10,
+  difficulty: "standard",
+  steps: [
+    {
+      title: "Two Crowns and the Year 1492",
+      date: "1469–1492",
+      text: "In 1469 Isabella, heir to Castile, married Ferdinand, heir to Aragon. Their kingdoms kept separate laws, but their joint rule laid the foundations of Spain. After ten years of war they took Granada, the last Muslim state in Iberia, on 2 January 1492, and that same year ordered Jews who would not convert to leave. In August the Genoese navigator Christopher Columbus, backed by the monarchs, sailed west from Palos with three ships, hoping to reach Asia. After a stop in the Canary Islands he made landfall on 12 October on an island in the Bahamas that its inhabitants called Guanahani.",
+      mapState: { year: 1492, lat: 31, lng: -40, zoom: 2.6 },
+      highlight: ["Castille", "Aragón"],
+      markers: [
+        { label: "Valladolid: Isabella and Ferdinand marry, 1469", at: [-4.72, 41.65] },
+        { label: "Granada surrenders, 2 January 1492", at: [-3.6, 37.17], kind: "battle" },
+        { label: "Palos: Columbus sails, August 1492", at: [-6.89, 37.23] },
+        { label: "Guanahani (San Salvador), 12 October 1492", at: [-74.5, 24.04] },
+      ],
+      routes: [
+        { label: "Columbus's first voyage, 1492", kind: "voyage", path: [[-6.89, 37.23], [-10, 33], [-15.6, 27.97], [-17.23, 28.11], [-35, 27], [-55, 26], [-70, 24.6], [-74.5, 24.04]] },
+      ],
+    },
+    {
+      title: "Hispaniola and the Fall of Tenochtitlan",
+      date: "1502–1521",
+      text: "On Hispaniola, from 1502, Spanish settlers were granted the forced labour of Taíno communities under the encomienda system. According to figures cited by Yale's genocide studies programme, the island's Indigenous population fell from between 100,000 and a million in 1492 to about 32,000 by 1514. In 1519 Hernán Cortés landed on the Mexican coast with some 500 soldiers. Tlaxcala and other peoples who resented Aztec rule joined him in great numbers, and smallpox swept the Valley of Mexico, killing many Aztec leaders. After a siege of almost three months, Tenochtitlan fell on 13 August 1521. Researchers at University College London estimate that within a century some 90 percent of the Americas' Indigenous people had died, chiefly of disease.",
+      mapState: { year: 1521, mapYear: 1500, lat: 20, lng: -86, zoom: 4.2 },
+      highlight: ["Aztec Empire"],
+      markers: [
+        { label: "Santo Domingo, Hispaniola", at: [-69.94, 18.46] },
+        { label: "San Juan de Ulúa: Cortés lands, April 1519", at: [-96.13, 19.21] },
+        { label: "Tlaxcala", at: [-98.24, 19.31] },
+        { label: "Tenochtitlan falls, 13 August 1521", at: [-99.13, 19.43], kind: "battle" },
+      ],
+      routes: [
+        { label: "Cortés and his allies march inland, 1519", kind: "conquest", path: [[-96.13, 19.21], [-96.41, 19.45], [-97.2, 19.5], [-98.24, 19.31], [-98.7, 19.2], [-99.13, 19.43]] },
+      ],
+    },
+    {
+      title: "The Conquest of the Incas",
+      date: "1532–1572",
+      text: "The Inca Empire ran along the Andes from today's Colombia to Chile and, by scholars' estimates, held 12 to 16 million people. When Francisco Pizarro arrived, smallpox had already killed the emperor Huayna Capac, and his sons Atahualpa and Huáscar had fought a civil war. On 16 November 1532 at Cajamarca, Pizarro's 168 men ambushed Atahualpa's largely unarmed escort, killed thousands and took him prisoner. Atahualpa was executed the next year, and Pizarro took Cusco, helped by peoples who had resented Inca rule. Resistance went on for decades from the mountain stronghold of Vilcabamba, until the last Inca ruler, Túpac Amaru, was captured and executed in 1572.",
+      mapState: { year: 1532, mapYear: 1530, lat: -6, lng: -76, zoom: 4.2 },
+      highlight: ["Inca Empire"],
+      markers: [
+        { label: "Tumbes", at: [-80.46, -3.57] },
+        { label: "Cajamarca, 16 November 1532", at: [-78.52, -7.16], kind: "battle" },
+        { label: "Cusco, the Inca capital", at: [-71.98, -13.52] },
+        { label: "Vilcabamba: the last Inca refuge, to 1572", at: [-73.2, -12.9] },
+      ],
+      routes: [
+        { label: "Pizarro sails south, 1531", kind: "voyage", path: [[-79.53, 8.97], [-80.2, 5], [-81.2, 1], [-81, -2], [-80.46, -3.57]] },
+        { label: "To Cajamarca, 1532", kind: "conquest", path: [[-80.46, -3.57], [-80.6, -5.2], [-79.5, -6.5], [-78.52, -7.16]] },
+        { label: "On to Cusco, 1533", kind: "conquest", path: [[-78.52, -7.16], [-77.5, -9.5], [-75.5, -11.8], [-74.22, -13.16], [-71.98, -13.52]] },
+      ],
+    },
+    {
+      title: "Charles V: An Empire Without Sunset",
+      date: "1516–1556",
+      text: "Isabella and Ferdinand's grandson Charles, born in Ghent in 1500, inherited the Low Countries, then in 1516 Castile and Aragon with their Italian kingdoms and American colonies, and in 1519 the Austrian lands, when he was also elected Holy Roman Emperor. His realms were the first to be called 'the empire on which the sun never sets'. He spent most of his reign at war: with France, whose king he captured at Pavia in 1525, with the Ottomans, and with the Protestant princes. Silver from Mexico and Peru helped repay his German and Italian bankers, and fuelled inflation. In 1556 he abdicated, leaving Spain to his son Philip and the empire to his brother Ferdinand.",
+      mapState: { year: 1530, lat: 45, lng: 5, zoom: 3.8 },
+      highlight: ["Spain", "Habsburg Netherlands", "Holy Roman Empire", "Naples", "Sicily", "Milan"],
+      markers: [
+        { label: "Ghent: Charles born, 1500", at: [3.73, 51.05] },
+        { label: "Pavia, 1525", at: [9.16, 45.2], kind: "battle" },
+        { label: "Rome: sacked by his mutinous troops, 1527", at: [12.48, 41.89] },
+        { label: "Vienna: defended against the Ottomans", at: [16.37, 48.21] },
+        { label: "Tunis: captured, 1535", at: [10.18, 36.81], kind: "battle" },
+        { label: "Yuste: Charles retires, 1557", at: [-5.74, 40.11] },
+      ],
+    },
+    {
+      title: "Potosí: Silver and the Mita",
+      date: "from 1545",
+      text: "In 1545 a Quechua miner, Diego Huallpa, is said to have found silver on the Cerro Rico, the 'rich mountain' above Potosí in today's Bolivia. Potosí grew into one of the largest cities in the Americas, with more than 200,000 people, and by one estimate produced 60 percent of the world's silver in the late 16th century. The labour came from Indigenous communities. From 1573 Viceroy Francisco de Toledo turned the Inca mit'a into a draft that sent about one adult man in seven, some 13,000 a year, to the mines, where many died. Silver went by llama and mule to the Pacific, by ship to Panama, across the isthmus, and on to Spain with the treasure fleets.",
+      mapState: { year: 1580, mapYear: 1600, lat: 8, lng: -45, zoom: 2.6 },
+      highlight: ["Viceroyalty of Peru"],
+      markers: [
+        { label: "Potosí and the Cerro Rico", at: [-65.75, -19.59] },
+        { label: "Panama", at: [-79.53, 8.97] },
+        { label: "Portobelo", at: [-79.66, 9.55] },
+      ],
+      routes: [
+        { label: "Mita labourers drafted to Potosí", kind: "forced", path: [[-71.98, -13.52], [-70, -15.5], [-68.2, -16.5], [-66.8, -18.2], [-65.75, -19.59]] },
+        { label: "Silver shipped north to Panama", kind: "voyage", path: [[-70.32, -18.48], [-73, -15], [-77.14, -12.05], [-80.5, -5], [-81, 1], [-79.53, 8.97]] },
+        { label: "The treasure fleets to Spain", kind: "voyage", path: [[-79.66, 9.55], [-76, 12.5], [-80, 17], [-84, 22.5], [-79, 25.5], [-60, 32], [-30, 37], [-12, 37], [-6.3, 36.53]] },
+      ],
+    },
+    {
+      title: "The Philippines and the Manila Galleons",
+      date: "1565–1815",
+      text: "Spain reached Asia across the Pacific. Magellan's expedition arrived in the islands in 1521, and Magellan was killed at Mactan. In 1565 Miguel López de Legazpi, sailing from Mexico, founded the first Spanish settlement at Cebu; the islands, named after Philip II, were ruled from Manila from 1571. Also in 1565, the friar and navigator Andrés de Urdaneta found a way back east by riding the Kuroshio current. For 250 years galleons sailed between Manila and Acapulco, taking at least four months on the eastward crossing. American silver went west to buy Chinese silk, porcelain and spices. Most of the crews were Filipinos, many of them press-ganged.",
+      mapState: { year: 1571, mapYear: 1650, lat: 20, lng: 190, zoom: 2.5 },
+      highlight: ["Philippines", "Viceroyalty of New Spain"],
+      markers: [
+        { label: "Manila: capital from 1571", at: [120.98, 14.6] },
+        { label: "Cebu: first Spanish settlement, 1565", at: [123.9, 10.29] },
+        { label: "Mactan: Magellan killed, 1521", at: [123.97, 10.3], kind: "battle" },
+        { label: "Guam (Marianas)", at: [144.8, 13.5] },
+        { label: "Acapulco", at: [260.12, 16.86] },
+      ],
+      routes: [
+        { label: "Galleon route to Acapulco, via the north Pacific", kind: "voyage", path: [[120.98, 14.6], [124.2, 12.59], [140, 30], [170, 38], [200, 40], [230, 37], [241.58, 33.38], [250, 23], [260.12, 16.86]] },
+        { label: "Return route to Manila, via the Marianas", kind: "voyage", path: [[260.12, 16.86], [230, 13], [190, 12], [144.8, 13.5], [124.2, 12.59], [120.98, 14.6]] },
+      ],
+    },
+    {
+      title: "Philip II and the Armada",
+      date: "1556–1598",
+      text: "Under Philip II Spain reached the height of its power. In 1580 he took the crown of Portugal after a succession crisis, bringing its empire under the same king, and Spanish fleets shared in the victory over the Ottomans at Lepanto. But his wars piled up debts, and the crown defaulted again and again. In 1588 he sent an armada of 141 ships from Lisbon to escort the Duke of Parma's army from Flanders to England and overthrow the Protestant Elizabeth I. English fireships scattered it off Calais and it was mauled at Gravelines. Driven to sail home around Scotland and Ireland, it lost dozens of ships, and some 5,000 men died on those coasts.",
+      mapState: { year: 1588, mapYear: 1600, lat: 50, lng: -3, zoom: 4.2 },
+      highlight: ["Spain", "Portugal", "Habsburg Netherlands"],
+      markers: [
+        { label: "Lisbon: the armada sails, 1588", at: [-9.15, 38.73] },
+        { label: "Calais: fireship attack", at: [1.86, 50.95] },
+        { label: "Gravelines, 1588", at: [2.13, 50.99], kind: "battle" },
+      ],
+      routes: [
+        { label: "The armada sails up the Channel", kind: "voyage", path: [[-9.15, 38.73], [-10, 43], [-6, 48], [-5.21, 49.96], [-2, 50.3], [1.86, 50.95]] },
+        { label: "The return around Scotland and Ireland", kind: "retreat", path: [[2.13, 51.1], [3, 53.5], [1, 57], [-1.6, 59.5], [-6, 58.5], [-10.5, 55], [-10.8, 52], [-9, 45], [-8.4, 43.37]] },
+      ],
+    },
+    {
+      title: "Decline and the Bourbons",
+      date: "1640–1714",
+      text: "In 1640 Portugal won back its independence, and Spain's weight in Europe waned. When Charles II, the last Spanish Habsburg, died childless in November 1700, he left his throne to Philip of Anjou, grandson of Louis XIV of France. A Grand Alliance including Britain and the Dutch Republic backed the Austrian claimant, Archduke Charles, and war engulfed Europe. The peace treaties of 1713 and 1714 confirmed Philip V as king but stripped Spain of its European lands: the Spanish Netherlands, Milan, Naples and Sardinia went to Austria, Sicily to Savoy, and Gibraltar and Menorca to Britain. The new Bourbon kings centralised power, and the American empire remained largely intact, reaching its greatest extent in the late 1700s.",
+      mapState: { year: 1714, mapYear: 1715, lat: 44, lng: 4, zoom: 4 },
+      highlight: ["Spain"],
+      markers: [
+        { label: "Madrid", at: [-3.7, 40.42] },
+        { label: "Utrecht: peace, 1713", at: [5.12, 52.09] },
+        { label: "Gibraltar: to Britain", at: [-5.35, 36.14] },
+        { label: "Menorca: to Britain", at: [4.08, 39.97] },
+      ],
+    },
+    {
+      title: "The Wars of Independence",
+      date: "1808–1825",
+      text: "When Napoleon invaded Spain in 1808 and Ferdinand VII gave up his crown, royal authority in the Americas collapsed and local juntas took over. From 1810 the crisis became war between royalists and patriots, often a civil war among Spanish Americans themselves. In Mexico the priest Miguel Hidalgo led a peasant revolt; independence came in 1821 under Agustín de Iturbide. In the south, José de San Martín took his army over the Andes into Chile in 1817, and in 1819 Simón Bolívar crossed the Andes to take New Granada. Their campaigns converged on Peru, and on 9 December 1824 Antonio José de Sucre won the decisive battle of Ayacucho. By the mid-1820s Spain had lost almost all of its mainland American empire.",
+      mapState: { year: 1820, mapYear: 1815, lat: -2, lng: -78, zoom: 2.6 },
+      highlight: ["Viceroyalty of New Spain", "Viceroyalty of New Granada", "Viceroyalty of Peru", "United Provinces of the Río de la Plata"],
+      markers: [
+        { label: "Mexico City: independence, 1821", at: [-99.13, 19.43] },
+        { label: "Bogotá: taken by Bolívar, 1819", at: [-74.07, 4.71] },
+        { label: "Chacabuco, 1817", at: [-70.68, -32.99], kind: "battle" },
+        { label: "Ayacucho, 9 December 1824", at: [-74.13, -13.04], kind: "battle" },
+      ],
+      routes: [
+        { label: "San Martín crosses the Andes, 1817", kind: "conquest", path: [[-68.84, -32.89], [-69.6, -32.8], [-70.2, -32.9], [-70.68, -32.99], [-70.65, -33.44]] },
+        { label: "San Martín's army sails to Peru, 1820", kind: "voyage", path: [[-71.62, -33.05], [-73, -28], [-72.5, -20], [-76.2, -13.71]] },
+        { label: "Bolívar crosses the Andes, 1819", kind: "conquest", path: [[-69.5, 7.5], [-71.5, 6.5], [-72.8, 5.8], [-73.43, 5.45], [-74.07, 4.71]] },
+      ],
+    },
+    {
+      title: "1898: The End of an Empire",
+      date: "1898",
+      text: "By the late 19th century Spain kept only Cuba, Puerto Rico, the Philippines and scattered Pacific islands. In 1895 Cuban nationalists rose against Spanish rule, and General Valeriano Weyler answered with a brutal policy of 'reconcentration'. In the Philippines, too, revolutionaries were fighting Spain. In February 1898 the American battleship Maine blew up in Havana harbour, and two months later the United States was at war with Spain. Its navy destroyed Spanish squadrons in Manila Bay on 1 May and off Santiago de Cuba on 3 July. By the Treaty of Paris that December, Cuba was set on the road to independence and Spain ceded Puerto Rico, Guam and the Philippines, ending almost four centuries of empire in the Americas and Asia.",
+      mapState: { year: 1898, mapYear: 1900, lat: 18, lng: -160, zoom: 2.3 },
+      highlight: ["Spain", "Philippines"],
+      markers: [
+        { label: "Havana: the Maine explodes, February 1898", at: [-82.36, 23.14] },
+        { label: "Santiago de Cuba, 3 July 1898", at: [-75.88, 19.96], kind: "battle" },
+        { label: "Puerto Rico", at: [-66.06, 18.41] },
+        { label: "Guam", at: [-215.2, 13.5] },
+        { label: "Manila Bay, 1 May 1898", at: [-239.25, 14.5], kind: "battle" },
+      ],
+    },
+  ],
+};
