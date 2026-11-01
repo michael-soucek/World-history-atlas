@@ -3,6 +3,7 @@
  * Used by API routes and the build-time pipeline.
  */
 
+import { countrySlugFor, getCountry } from "@/lib/countries";
 import { getSovereignColor } from "@/data/sovereignColors";
 import { lookupByName, resolveFeature } from "@/data/crosswalk";
 
@@ -40,6 +41,9 @@ export interface EnrichedBorderProperties {
   slug?: string;
   /** True when the feature's own name (not just its sovereign) maps to wikidataId */
   core?: boolean;
+  /** For a shape with no place page that is a modern country (or its colony): that country's page slug and name. */
+  countrySlug?: string;
+  countryName?: string;
 }
 
 // ── Internal helpers ───────────────────────────────────────────────────────
@@ -151,5 +155,39 @@ export function enrichBorderProps(
     wikidataId: crosswalkEntry?.wikidataId,
     slug: crosswalkEntry?.slug,
     core: crosswalkEntry ? lookupByName(name, dataYear) === crosswalkEntry : undefined,
+    ...(crosswalkEntry ? {} : countryFor(name, dataYear)),
   };
+}
+
+/** Colonial and older names the maps use for today's countries. */
+const COLONY_TO_COUNTRY: Record<string, string> = {
+  "Southern Rhodesia": "zimbabwe",
+  Rhodesia: "zimbabwe",
+  "Northern Rhodesia": "zambia",
+  "British Somaliland": "somalia",
+  "South West Africa": "namibia",
+  "British Guiana": "guyana",
+  Malaya: "malaysia",
+  "British Malaya": "malaysia",
+  "Gold Coast": "ghana",
+  "Republic of the Congo (Léopoldville)": "democratic-republic-of-the-congo",
+  "Western Australia (UK)": "australia",
+  "South Australia (UK)": "australia",
+  "Queensland (UK)": "australia",
+  "Northern Territory (UK)": "australia",
+  "New South Wales (UK)": "australia",
+  "Cyraneica (UK Lybia)": "libya",
+};
+
+/**
+ * A shape the atlas has no place page for, but which is a modern country, or
+ * the colony that became one ("Nigeria" under Britain, "Angola (Portugal)"):
+ * its country history page. Only from 1700, since an older map's "Ghana" or
+ * "Mali" is a different, earlier state.
+ */
+function countryFor(name: string, year: number): { countrySlug: string; countryName: string } | Record<string, never> {
+  if (year < 1700) return {};
+  const slug = COLONY_TO_COUNTRY[name] ?? countrySlugFor(name) ?? countrySlugFor(name.replace(/ \([^)]*\)$/, ""));
+  const country = slug ? getCountry(slug) : undefined;
+  return country ? { countrySlug: country.slug, countryName: country.name } : {};
 }

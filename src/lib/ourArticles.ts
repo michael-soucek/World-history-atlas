@@ -28,7 +28,7 @@ export interface OurArticle {
   timeline: { year: string; text: string }[];
 }
 
-export type ArticleKind = "place" | "person" | "event" | "culture" | "explorer" | "country" | "philosophy" | "city" | "region" | "era" | "theme" | "timeline";
+export type ArticleKind = "place" | "person" | "event" | "culture" | "explorer" | "country" | "philosophy" | "city" | "site" | "region" | "era" | "theme" | "timeline";
 
 const DIR = join(process.cwd(), "content/articles");
 

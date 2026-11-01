@@ -9,6 +9,8 @@ import SiteFooter from "@/components/SiteFooter";
 import PageHistory from "@/components/PageHistory";
 import PageIntro, { SectionRule } from "@/components/PageIntro";
 import { LinkRow } from "@/components/Gazetteer";
+import { SpanRow, formatYear, mapHref } from "@/components/RulerTimeline";
+import { sitesNear } from "@/lib/siteHistory";
 import { CITY_LIST, distinctRulers, getCity, nearbyCities, rulersOf, type City, type RulerSpan } from "@/lib/cityHistory";
 import { buildPageMetadata, metaDescription, fitTitle } from "@/lib/seo";
 import { JsonLd, SITE_URL, breadcrumbLd } from "@/lib/jsonLd";
@@ -59,12 +61,6 @@ function cityDescription(city: City, spans: RulerSpan[]): string {
     `Who ruled ${city.name}${formerly}? ${list}: every state that has held the city, traced through historical maps from ${formatYear(spans[0]?.from ?? 0)} to today.`,
   )!;
 }
-
-/** "-123000" → "123,000 BCE": snapshot years reach far into prehistory. */
-const formatYear = (y: number) => (y < 0 ? `${Math.abs(y) >= 10000 ? Math.abs(y).toLocaleString("en-US") : -y} BCE` : `${y} CE`);
-
-/** Link to the atlas at this snapshot year, centred on the city. */
-const mapHref = (city: City, year: number) => `/map?year=${year}&lat=${city.lat}&lng=${city.lng}&z=5`;
 
 export default async function CityHistoryPage({ params }: Props) {
   const { slug } = await params;
@@ -131,7 +127,7 @@ export default async function CityHistoryPage({ params }: Props) {
           <section>
             <SectionRule count={`${spans.length} periods`}>Timeline</SectionRule>
             <ol className="max-w-3xl">
-              {spans.map((s) => <SpanRow key={s.from} city={city} span={s} />)}
+              {spans.map((s) => <SpanRow key={s.from} point={city} span={s} />)}
             </ol>
             <CityAnswers city={city} spans={spans} />
             <p className="mt-10 max-w-3xl text-sm text-ink/68 leading-relaxed">
@@ -155,41 +151,15 @@ export default async function CityHistoryPage({ params }: Props) {
           )}
 
           <div className="mt-20 sm:mt-28 space-y-12">
+            {sitesNear(city).length > 0 && (
+              <LinkRow title="Historic sites nearby" links={sitesNear(city).map((s) => ({ href: `/site/${s.slug}`, label: s.name }))} />
+            )}
             <LinkRow title="Nearby cities" links={nearbyCities(city).map((c) => ({ href: `/history-of/${c.slug}`, label: c.name }))} />
           </div>
         </div>
       </main>
       <SiteFooter />
     </>
-  );
-}
-
-function SpanRow({ city, span }: { city: City; span: RulerSpan }) {
-  const years = `${formatYear(span.from)} – ${span.to === null ? "today" : formatYear(span.to)}`;
-  return (
-    <li className="grid grid-cols-[7.5rem_1fr] sm:grid-cols-[11rem_1fr_auto] gap-x-6 items-baseline py-4 border-b border-ink/10">
-      <span className="font-mono text-[12px] tracking-wide text-ink/68 tabular-nums">{years}</span>
-      <span className="min-w-0">
-        {span.name ? (
-          span.href ? (
-            <Link href={span.href} className="font-display text-xl sm:text-2xl tracking-tight text-ink hover:text-accent transition-colors">
-              {span.name}
-            </Link>
-          ) : (
-            <span className="font-display text-xl sm:text-2xl tracking-tight text-ink">{span.name}</span>
-          )
-        ) : (
-          <span className="text-[15px] italic text-ink/64">No state drawn here on the map</span>
-        )}
-        {span.sovereign && <span className="block text-[13px] text-ink/68 mt-0.5">under {span.sovereign}</span>}
-      </span>
-      <Link
-        href={mapHref(city, span.from)}
-        className="col-start-2 sm:col-start-auto mt-1 sm:mt-0 font-mono text-[11px] tracking-wide text-ink/64 hover:text-accent transition-colors"
-      >
-        Map of {formatYear(span.from)} →
-      </Link>
-    </li>
   );
 }
 

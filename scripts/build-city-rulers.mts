@@ -1,7 +1,8 @@
 /**
  * Works out which state held each city in src/data/cities.json in every map
  * snapshot, and writes src/data/cityRulers.json for the /history-of pages.
- * Does the same for each country's capital in src/data/countries.json
+ * Does the same for each historic site in src/data/sites.json (src/data/siteRulers.json,
+ * for the /site pages) and for each country's capital in src/data/countries.json
  * (src/data/countryRulers.json, for the /country pages), plus a map view
  * framing the modern country (src/data/countryViews.json).
  *
@@ -63,9 +64,14 @@ interface Row { year: number; name: string | null; sovereign: string | null }
 interface Span { from: number; to: number | null; name: string | null; sovereign: string | null }
 type Point = { slug: string; lng: number; lat: number };
 const cities = JSON.parse(readFileSync(join(ROOT, "src/data/cities.json"), "utf8")) as Point[];
+const sites = JSON.parse(readFileSync(join(ROOT, "src/data/sites.json"), "utf8")) as Point[];
 const countries = JSON.parse(readFileSync(join(ROOT, "src/data/countries.json"), "utf8")) as Point[];
-// Countries are keyed "country:{slug}" so they can't collide with a city.
-const points: Point[] = [...cities, ...countries.map((c) => ({ ...c, slug: `country:${c.slug}` }))];
+// Sites and countries are keyed "site:{slug}" and "country:{slug}" so they can't collide with a city.
+const points: Point[] = [
+  ...cities,
+  ...sites.map((c) => ({ ...c, slug: `site:${c.slug}` })),
+  ...countries.map((c) => ({ ...c, slug: `country:${c.slug}` })),
+];
 const rows: Record<string, Row[]> = Object.fromEntries(points.map((c) => [c.slug, []]));
 
 /** Bounding box of a geometry's outer rings. */
@@ -106,9 +112,11 @@ for (const [slug, list] of Object.entries(rows)) {
   out[slug] = spans;
 }
 
-const cityOut = Object.fromEntries(Object.entries(out).filter(([k]) => !k.startsWith("country:")));
+const cityOut = Object.fromEntries(Object.entries(out).filter(([k]) => !k.includes(":")));
+const siteOut = Object.fromEntries(Object.entries(out).filter(([k]) => k.startsWith("site:")).map(([k, v]) => [k.slice(5), v]));
 const countryOut = Object.fromEntries(Object.entries(out).filter(([k]) => k.startsWith("country:")).map(([k, v]) => [k.slice(8), v]));
 writeFileSync(join(ROOT, "src/data/cityRulers.json"), JSON.stringify(cityOut) + "\n");
+writeFileSync(join(ROOT, "src/data/siteRulers.json"), JSON.stringify(siteOut) + "\n");
 writeFileSync(join(ROOT, "src/data/countryRulers.json"), JSON.stringify(countryOut) + "\n");
 
 // A map view for each country: the latest snapshot's shape at its capital,
@@ -127,4 +135,4 @@ for (const c of countries) {
     : { lat: c.lat, lng: c.lng, zoom: f && span >= 90 ? 3 : 5 };
 }
 writeFileSync(join(ROOT, "src/data/countryViews.json"), JSON.stringify(views) + "\n");
-console.log(`Wrote ${cities.length} cities and ${countries.length} countries.`);
+console.log(`Wrote ${cities.length} cities, ${sites.length} sites and ${countries.length} countries.`);

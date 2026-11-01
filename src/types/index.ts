@@ -130,6 +130,8 @@ export interface AtlasViewState {
   selectedName?: string;
   /** Sovereign of the selected region */
   selectedSovereign?: string;
+  /** Country history page for a selected shape that has no place page. */
+  selectedCountry?: { slug: string; name: string };
 }
 
 // ---------------------------------------------------------------------------

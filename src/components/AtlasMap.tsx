@@ -354,6 +354,8 @@ export default function AtlasMap() {
             wikidataId?: string;
             name?: string;
             sovereign?: string;
+            countrySlug?: string;
+            countryName?: string;
           };
 
           // Mark as "already flown" so the effect doesn't jump the camera on click selection
@@ -371,6 +373,7 @@ export default function AtlasMap() {
             wikidataId: props.wikidataId ?? undefined,
             name: props.name ?? "",
             sovereign: props.sovereign ?? "",
+            country: props.countrySlug && props.countryName ? { slug: props.countrySlug, name: props.countryName } : undefined,
           });
         });
 

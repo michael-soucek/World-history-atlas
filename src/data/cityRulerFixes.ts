@@ -100,4 +100,8 @@ export const CITY_RULER_FIXES: Record<string, RulerFix[]> = {
   antananarivo: [{ from: 1000, to: 1600, name: "Highland Malagasy chiefdoms" }],
   // Jolof, not Mali, held the Cape Verde peninsula.
   dakar: [{ from: 1400, to: 1530, name: "Jolof Empire" }],
+  // Ottoman (under Allied occupation) until 1922; the 1920 map leaves it blank.
+  istanbul: [{ from: 1920, to: 1930, name: "Ottoman Empire" }],
+  // Divided 1948–67: the west held by Israel, the Old City and the east by Jordan.
+  jerusalem: [{ from: 1960, to: 1985, name: "Divided between Israel and Jordan" }],
 };

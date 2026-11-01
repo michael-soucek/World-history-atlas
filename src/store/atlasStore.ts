@@ -33,6 +33,7 @@ interface AtlasStore extends AtlasViewState {
     wikidataId?: string;
     name?: string;
     sovereign?: string;
+    country?: { slug: string; name: string };
   }) => void;
   clearSelection: () => void;
   syncFromUrl: (params: Partial<AtlasViewState>) => void;
@@ -53,6 +54,7 @@ export const useAtlasStore = create<AtlasStore>((set, get) => ({
   selectedWikidataId: undefined,
   selectedName: undefined,
   selectedSovereign: undefined,
+  selectedCountry: undefined,
 
   setYear: (year) =>
     set((state) => ({
@@ -63,11 +65,12 @@ export const useAtlasStore = create<AtlasStore>((set, get) => ({
 
   setView: (lat, lng, zoom) => set({ lat, lng, zoom }),
 
-  selectRegion: ({ wikidataId, name, sovereign }) =>
+  selectRegion: ({ wikidataId, name, sovereign, country }) =>
     set({
       selectedWikidataId: wikidataId,
       selectedName: name,
       selectedSovereign: sovereign,
+      selectedCountry: country,
     }),
 
   clearSelection: () =>
@@ -75,6 +78,7 @@ export const useAtlasStore = create<AtlasStore>((set, get) => ({
       selectedWikidataId: undefined,
       selectedName: undefined,
       selectedSovereign: undefined,
+      selectedCountry: undefined,
     }),
 
   syncFromUrl: (params) => {

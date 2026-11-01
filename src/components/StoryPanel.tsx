@@ -10,7 +10,7 @@ import type { PlaceContent } from "@/types";
 // ── Story panel component ──────────────────────────────────────────────────
 
 export default function StoryPanel() {
-  const { selectedWikidataId, selectedName, selectedSovereign, year, clearSelection } =
+  const { selectedWikidataId, selectedName, selectedSovereign, selectedCountry, year, clearSelection } =
     useAtlasStore();
 
   const [content, setContent] = useState<PlaceContent | null>(null);
@@ -203,15 +203,24 @@ export default function StoryPanel() {
                   <p className="font-text text-ink/80 text-[16px] leading-[1.65]">
                     {displayName === "Unknown"
                       ? "The source maps have no record of who held this land in this year, so it is left unnamed rather than guessed."
-                      : <>The source map names this territory <span className="italic">{displayName}</span> in {formatYear(year)}, but it doesn&rsquo;t have its own page in the atlas yet.</>}
+                      : selectedCountry
+                        ? <>The source map names this territory <span className="italic">{displayName}</span> in {formatYear(year)}.</>
+                        : <>The source map names this territory <span className="italic">{displayName}</span> in {formatYear(year)}, but it doesn&rsquo;t have its own page in the atlas yet.</>}
                   </p>
                   {selectedSovereign && selectedSovereign !== displayName && selectedSovereign !== "Unknown" && (
                     <p className="text-sm text-ink/72">Part of: <span className="text-ink">{selectedSovereign}</span></p>
                   )}
+                  {selectedCountry ? (
+                    <p className="text-sm text-ink/70 leading-relaxed">
+                      Read the{" "}
+                      <a href={`/country/${selectedCountry.slug}`} className="text-accent underline underline-offset-2 hover:text-ink">history of {selectedCountry.name}</a> for its story.
+                    </p>
+                  ) : (
                   <p className="text-sm text-ink/70 leading-relaxed">
                     Try another year with the slider, or browse the{" "}
                     <a href="/browse?type=place" className="text-accent underline underline-offset-2 hover:text-ink">places that do have pages</a>.
                   </p>
+                  )}
                 </div>
               ) : (
                 <p className="text-ink/66 text-sm italic">
@@ -226,6 +235,15 @@ export default function StoryPanel() {
 
       {/* Footer links */}
       <div className="border-t border-ink/10 p-4 sm:px-6 flex flex-wrap gap-2 empty:hidden">
+        {!effectiveContent?.wikidataId && !selectedWikidataId && selectedCountry && (
+          <a
+            href={`/country/${selectedCountry.slug}`}
+            className="flex-1 text-center rounded-md px-3 py-2.5 text-sm font-semibold
+              bg-ink text-parchment hover:bg-accent transition-colors"
+          >
+            History of {selectedCountry.name}
+          </a>
+        )}
         {effectiveContent?.wikidataId && (
           <a
             href={`/place/${effectiveContent.wikidataId}`}

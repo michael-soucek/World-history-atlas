@@ -8,7 +8,7 @@
  */
 import CITIES from "@/data/cities.json";
 import RULERS from "@/data/cityRulers.json";
-import { CITY_RULER_FIXES } from "@/data/cityRulerFixes";
+import { CITY_RULER_FIXES, type RulerFix } from "@/data/cityRulerFixes";
 import { resolveFeature } from "@/data/crosswalk";
 import { SNAPSHOT_YEARS } from "@/data/snapshotYears";
 import { placePath } from "@/lib/placePath";
@@ -49,14 +49,13 @@ export function getCity(slug: string): City | undefined {
  * is itself part of the story.
  */
 export function rulersOf(slug: string): RulerSpan[] {
-  const spans = applyFixes((RULERS as Record<string, RulerSpan[]>)[slug] ?? [], slug).flatMap(withLinks);
+  const spans = applyRulerFixes((RULERS as Record<string, RulerSpan[]>)[slug] ?? [], CITY_RULER_FIXES[slug]).flatMap(withLinks);
   const first = spans.findIndex((s) => s.name);
   return first === -1 ? [] : spans.slice(first);
 }
 
-/** The generated spans with src/data/cityRulerFixes.ts applied, neighbours with the same ruler merged. */
-function applyFixes(raw: RulerSpan[], slug: string): RulerSpan[] {
-  const fixes = CITY_RULER_FIXES[slug];
+/** Generated spans with fixes (src/data/cityRulerFixes.ts, siteRulerFixes.ts) applied, neighbours with the same ruler merged. */
+export function applyRulerFixes(raw: RulerSpan[], fixes: RulerFix[] | undefined): RulerSpan[] {
   if (!fixes) return raw;
   const end = (t: number | null) => t ?? Infinity;
   let spans = raw.map((s) => ({ ...s }));

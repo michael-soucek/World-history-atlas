@@ -12,6 +12,7 @@ import { PHILOSOPHY_ERAS } from "@/data/philosophy";
 import { buildPageMetadata } from "@/lib/seo";
 import { TOURS } from "@/data/tours";
 import { CITY_LIST } from "@/lib/cityHistory";
+import { SITE_LIST } from "@/lib/siteHistory";
 import { ERA_LIST, eraSlug } from "@/data/eras";
 
 /** Names people search by that aren't the page's own, keyed by slug. */
@@ -94,6 +95,9 @@ export default function SearchPage() {
   }
   for (const c of CITY_LIST) {
     items.push({ slug: c.slug, name: `${c.name}: history`, entityType: "place", wikidataId: `city-${c.slug}`, route: "history-of", label: "City", tagline: c.formerly ? `Formerly ${c.formerly}` : undefined });
+  }
+  for (const s of SITE_LIST) {
+    items.push({ slug: s.slug, name: s.name, entityType: "place", wikidataId: `site-${s.slug}`, route: "site", label: "Historic site", tagline: s.country });
   }
   for (const e of ERA_LIST) {
     if (!isFinite(e.start)) continue;

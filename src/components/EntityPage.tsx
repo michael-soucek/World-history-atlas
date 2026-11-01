@@ -6,6 +6,7 @@
 import Link from "next/link";
 import { JsonLd, articleLd, breadcrumbLd } from "@/lib/jsonLd";
 import { citiesHeldBy, toursFeaturing, toursOfEvent } from "@/lib/relatedLinks";
+import { sitesHeldBy } from "@/lib/siteHistory";
 import { ArrowRight, ArrowUpRight, MapPin } from "lucide-react";
 import RelatedResources from "@/components/RelatedResources";
 import AdSlot from "@/components/AdSlot";
@@ -330,11 +331,12 @@ function EventTourLinks({ slug }: { slug: string }) {
   );
 }
 
-/** "Cities it held" and "Guided tours" links for an empire's sidebar; hidden when empty. */
+/** "Cities it held", "Historic sites" and "Guided tours" links for an empire's sidebar; hidden when empty. */
 function PlaceCrossLinks({ entry, name }: { entry: CrosswalkEntry; name: string }) {
   const cities = citiesHeldBy(entry.slug);
+  const sites = sitesHeldBy(entry.slug);
   const tours = toursFeaturing(entry);
-  if (!cities.length && !tours.length) return null;
+  if (!cities.length && !sites.length && !tours.length) return null;
   return (
     <div className="space-y-6">
       {tours.length > 0 && (
@@ -357,6 +359,19 @@ function PlaceCrossLinks({ entry, name }: { entry: CrosswalkEntry; name: string 
               <span key={c.slug}>
                 <Link href={`/history-of/${c.slug}`} className="text-ink/80 hover:text-accent transition-colors">{c.name}</Link>
                 {i < cities.length - 1 && <span className="text-ink/25"> · </span>}
+              </span>
+            ))}
+          </p>
+        </div>
+      )}
+      {sites.length > 0 && (
+        <div>
+          <p className="label text-ink/64 !text-[10px] mb-2">Historic sites in its lands</p>
+          <p className="text-sm leading-relaxed">
+            {sites.map((x, i) => (
+              <span key={x.slug}>
+                <Link href={`/site/${x.slug}`} className="text-ink/80 hover:text-accent transition-colors">{x.name}</Link>
+                {i < sites.length - 1 && <span className="text-ink/25"> · </span>}
               </span>
             ))}
           </p>

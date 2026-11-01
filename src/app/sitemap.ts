@@ -4,6 +4,7 @@ import { PEOPLE_CROSSWALK, EVENTS_CROSSWALK, CULTURES_CROSSWALK } from "@/data/e
 import { ERA_LIST, eraSlug } from "@/data/eras";
 import { TOURS } from "@/data/tours";
 import { CITY_LIST } from "@/lib/cityHistory";
+import { SITE_LIST } from "@/lib/siteHistory";
 import { EXPLORERS } from "@/data/voyages";
 import { TIMELAPSES } from "@/data/timelapses";
 import { PHILOSOPHY_ERAS } from "@/data/philosophy";
@@ -50,6 +51,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: `${BASE}/borders-over-time/${t.slug}`, lastModified: new Date("2026-10-21"), changeFrequency: "monthly" as const, priority: 0.8,
     })),
     { url: `${BASE}/history-of`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE}/sites`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE}/countries`, lastModified: new Date("2026-10-25"), changeFrequency: "monthly", priority: 0.8 },
     { url: `${BASE}/philosophy`, lastModified: new Date("2026-10-25"), changeFrequency: "monthly", priority: 0.8 },
     { url: `${BASE}/play`, lastModified: now, changeFrequency: "daily", priority: 0.7 },
@@ -135,6 +137,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }));
 
+  // Sites without an article yet are thin (a timeline only), so they wait.
+  const siteRoutes: MetadataRoute.Sitemap = SITE_LIST.filter(s => getOurArticle("site", s.slug)).map(s => ({
+    url: `${BASE}/site/${s.slug}`,
+    lastModified: writtenOn("site", s.slug, now),
+    changeFrequency: "yearly",
+    priority: 0.6,
+  }));
+
   const explorerRoutes: MetadataRoute.Sitemap = EXPLORERS.map(e => ({
     url: `${BASE}/explorer/${e.slug}`,
     lastModified: writtenOn("explorer", e.slug, ARTICLES_WRITTEN),
@@ -176,6 +186,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...themeRoutes,
     ...tourRoutes,
     ...cityRoutes,
+    ...siteRoutes,
     ...explorerRoutes,
     ...timelineRoutes,
   ];
