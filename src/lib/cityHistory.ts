@@ -11,6 +11,7 @@ import RULERS from "@/data/cityRulers.json";
 import { CITY_RULER_FIXES } from "@/data/cityRulerFixes";
 import { resolveFeature } from "@/data/crosswalk";
 import { SNAPSHOT_YEARS } from "@/data/snapshotYears";
+import { placePath } from "@/lib/placePath";
 
 export interface City {
   slug: string;
@@ -90,7 +91,7 @@ export function withLinks(span: RulerSpan): RulerSpan[] {
   const out: RulerSpan[] = [];
   for (const year of years.length ? years : [span.from]) {
     const entry = resolveFeature(span.name, span.sovereign ?? span.name, year);
-    const href = entry ? `/place/${entry.slug}` : undefined;
+    const href = entry ? placePath(entry.slug) : undefined;
     const last = out.at(-1);
     if (last && last.href === href) continue;
     if (last) last.to = year;

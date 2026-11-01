@@ -5,6 +5,7 @@ import SiteFooter from "@/components/SiteFooter";
 import { ReadAloudButton } from "@/components/ReadAloudButton";
 import SupportButton from "@/components/SupportButton";
 import { buildPageMetadata } from "@/lib/seo";
+import { JsonLd, SITE_URL, breadcrumbLd } from "@/lib/jsonLd";
 import { BORDER_FIXES } from "@/data/borderFixes";
 
 export const metadata: Metadata = buildPageMetadata({
@@ -17,6 +18,12 @@ export const metadata: Metadata = buildPageMetadata({
 export default function AboutPage() {
   return (
     <>
+      <JsonLd
+        data={[
+          { "@type": "AboutPage", name: "About the data", url: `${SITE_URL}/about`, isPartOf: { "@type": "WebSite", name: "Borders of Time", url: SITE_URL } },
+          breadcrumbLd([["About the data", "/about"]]),
+        ]}
+      />
       <SiteHeader />
       <main className="page-bg min-h-screen">
       <div className="max-w-3xl mx-auto px-4 sm:px-6 pt-12 sm:pt-20 pb-24 space-y-16">

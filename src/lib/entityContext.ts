@@ -17,6 +17,7 @@ import { ENTITY_PLACE_OVERRIDE } from "@/data/entityPlaceLinks";
 import { SNAPSHOT_YEARS } from "@/data/snapshotYears";
 import { TOURS } from "@/data/tours";
 import { formatArea, placeMaps, sizeComparison, withArticle } from "@/lib/placeMaps";
+import { getOurArticle } from "@/lib/ourArticles";
 
 export type TimedKind = "person" | "event" | "culture";
 
@@ -41,6 +42,12 @@ export interface EntityContext extends TimedEntry {
   people: TimedEntry[];
   events: TimedEntry[];
   tours: { slug: string; title: string; stops: number[] }[];
+  /**
+   * People or events: the site's pages of the same kind that come just before
+   * and just after it in time (by birth or start year), for reading on in order.
+   */
+  earlier: TimedEntry[];
+  later: TimedEntry[];
 }
 
 interface StoredEntity {
@@ -227,7 +234,18 @@ export async function entityContext(kind: TimedKind, slug: string): Promise<Enti
     stops: t.steps.flatMap((s, i) => (named.test(`${s.title} ${s.text}`) ? [i + 1] : [])),
   })).filter((t) => t.stops.length);
 
-  return { ...self, description, maps, before, after, place, people, events, tours };
+  // Neighbours in time: same kind, with an article of their own, ordered by start year.
+  const chain = kind === "culture" || start === undefined ? [] : entries
+    .filter((e) => e.kind === kind && e.start !== undefined && (e.slug === slug || getOurArticle(kind, e.slug)))
+    .sort((a, b) => a.start! - b.start! || a.name.localeCompare(b.name));
+  // Skip pages the lists above already link, so these add new neighbours.
+  const shown = new Set([...people, ...events].map((e) => `${e.kind}:${e.slug}`));
+  const fresh = (e: TimedEntry) => !shown.has(`${e.kind}:${e.slug}`);
+  const at = chain.findIndex((e) => e.slug === slug);
+  const earlier = at > 0 ? chain.slice(0, at).filter(fresh).slice(-2) : [];
+  const later = at >= 0 ? chain.slice(at + 1).filter(fresh).slice(0, 2) : [];
+
+  return { ...self, description, maps, before, after, place, people, events, tours, earlier, later };
 }
 
 /**

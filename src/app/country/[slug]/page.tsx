@@ -10,11 +10,12 @@ import PageIntro, { SectionRule } from "@/components/PageIntro";
 import { LinkRow } from "@/components/Gazetteer";
 import OurArticle from "@/components/OurArticle";
 import { JsonLd, articleLd, breadcrumbLd } from "@/lib/jsonLd";
-import { buildPageMetadata, brandTitle } from "@/lib/seo";
+import { buildPageMetadata, fitTitle } from "@/lib/seo";
 import { commonsThumb } from "@/lib/commonsImage";
 import { articleIntro, articleWordCount, getOurArticle } from "@/lib/ourArticles";
 import { backlinksTo, type Backlink } from "@/lib/backlinks";
 import type { RulerSpan } from "@/lib/cityHistory";
+import { placePath } from "@/lib/placePath";
 import {
   CONTINENTS, COUNTRY_LIST, citiesIn, countryRulers, countryView, countryWithArticle, getCountry, statesOver,
   type Country, type StateOverCountry,
@@ -34,7 +35,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const article = country && getOurArticle("country", slug);
   if (!country || !article) return { title: "Country — Borders of Time" };
   return buildPageMetadata({
-    title: brandTitle(`History of ${countryWithArticle(country)}: Timeline, Empires & Maps`),
+    title: fitTitle(
+      `History of ${countryWithArticle(country)}: Timeline, Empires & Maps`,
+      `History of ${countryWithArticle(country)}: Timeline & Maps`,
+      `History of ${countryWithArticle(country)}: Timeline`,
+    ),
     description: countryDescription(country, article),
     path: `/country/${slug}`,
     type: "article",
@@ -242,7 +247,7 @@ function StatesOver({ country, states }: { country: Country; states: StateOverCo
       <ul className="columns-1 sm:columns-2 lg:columns-3 gap-x-10">
         {states.map((s) => (
           <li key={s.slug} className="break-inside-avoid border-b border-ink/10 py-2.5 flex items-baseline justify-between gap-4">
-            <Link href={`/place/${s.slug}`} className="text-[16px] text-ink hover:text-accent transition-colors">{s.name}</Link>
+            <Link href={placePath(s.slug)} className="text-[16px] text-ink hover:text-accent transition-colors">{s.name}</Link>
             <span className="font-mono text-[11px] text-ink/64 tabular-nums whitespace-nowrap">
               {s.from === s.to ? fmtYear(s.from) : `${fmtYear(s.from)}–${s.to >= 2010 ? "" : fmtYear(s.to)}`}
             </span>

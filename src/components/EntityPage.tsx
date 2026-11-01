@@ -24,6 +24,7 @@ import { getEntityImages } from "@/lib/entityImages";
 import type { PlaceContent, EntityType } from "@/types";
 import type { CrosswalkEntry } from "@/types";
 import { ENTITY_PLACE_OVERRIDE, ENTITY_YEAR_OVERRIDE } from "@/data/entityPlaceLinks";
+import { EXPLORERS } from "@/data/voyages";
 
 interface EntityPageProps {
   content: PlaceContent;
@@ -270,6 +271,7 @@ export default async function EntityPage({ content, entry, entityType, baseRoute
 
             {entityType === "place" && <PlaceCrossLinks entry={entry} name={content.name} />}
             {entityType === "event" && <EventTourLinks slug={entry.slug} />}
+            {entityType === "person" && <ExplorerLink qid={entry.wikidataId} name={content.name} />}
 
             {/* Further reading / viewing — hidden entirely when none are curated yet */}
             <RelatedResources resourceKey={`${entityType}:${entry.slug}`} />
@@ -289,6 +291,21 @@ export default async function EntityPage({ content, entry, entityType, baseRoute
       </div>
     </div>
     </>
+  );
+}
+
+/** A person who also has an explorer page: link to their mapped voyages. */
+function ExplorerLink({ qid, name }: { qid: string; name: string }) {
+  const explorer = EXPLORERS.find((e) => e.wikidataId === qid);
+  if (!explorer) return null;
+  const expedition = explorer.lifespan.startsWith("Expedition");
+  return (
+    <div>
+      <p className="label text-ink/64 !text-[10px] mb-2">{expedition ? "The expedition" : "The voyages"}</p>
+      <Link href={`/explorer/${explorer.slug}`} className="text-sm text-ink/80 hover:text-accent transition-colors">
+        {name}’s {expedition ? "route" : "voyages"}, stop by stop on the map →
+      </Link>
+    </div>
   );
 }
 

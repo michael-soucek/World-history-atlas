@@ -5,10 +5,10 @@ import SiteFooter from "@/components/SiteFooter";
 import PageIntro from "@/components/PageIntro";
 import GuessGame from "@/components/GuessGame";
 import PlayTabs from "@/components/PlayTabs";
-import { buildPageMetadata } from "@/lib/seo";
+import { buildPageMetadata, fitTitle } from "@/lib/seo";
 
 export const metadata: Metadata = buildPageMetadata({
-  title: "Guess the Year: Daily History Map Game (Like Wordle for History) — Borders of Time",
+  title: fitTitle("Guess the Year: Daily History Map Game (Like Wordle for History)", "Guess the Year: Daily History Map Game, Like Wordle"),
   description: "Five historical maps a day, names hidden. Can you tell the year from the borders alone? A new game every day, plus unlimited practice rounds.",
   path: "/play",
 });

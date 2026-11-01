@@ -4,11 +4,15 @@ import SiteFooter from "@/components/SiteFooter";
 import { Bookmark, Palette, Download, GraduationCap, ShieldOff } from "lucide-react";
 import { buildPageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = buildPageMetadata({
-  title: "Borders of Time Pro (coming soon)",
-  description: "A look at what a future Borders of Time Pro tier could include — nothing here is built or for sale yet.",
-  path: "/pro",
-});
+export const metadata: Metadata = {
+  ...buildPageMetadata({
+    title: "Borders of Time Pro (coming soon)",
+    description: "A look at what a future Borders of Time Pro tier could include — nothing here is built or for sale yet.",
+    path: "/pro",
+  }),
+  // A preview of features that don't exist yet: nothing for a search to land on.
+  robots: { index: false, follow: true },
+};
 
 const FEATURES = [
   {

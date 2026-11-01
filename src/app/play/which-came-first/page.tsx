@@ -5,10 +5,10 @@ import SiteFooter from "@/components/SiteFooter";
 import PageIntro from "@/components/PageIntro";
 import PlayTabs from "@/components/PlayTabs";
 import WhichFirstGame from "@/components/WhichFirstGame";
-import { buildPageMetadata } from "@/lib/seo";
+import { buildPageMetadata, fitTitle } from "@/lib/seo";
 
 export const metadata: Metadata = buildPageMetadata({
-  title: "Which Came First? History Timeline Game — Borders of Time",
+  title: fitTitle("Which Came First? History Timeline Game"),
   description: "Two moments from history, side by side. Pick the one that happened first and see how long a streak you can build as the pairs get closer in time.",
   path: "/play/which-came-first",
 });

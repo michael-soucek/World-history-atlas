@@ -3,6 +3,7 @@ import { fmtYear, listOf, type EntityContext, type StoredFacts } from "@/lib/ent
 import { formatArea, modernName, withArticle, type PlaceMaps } from "@/lib/placeMaps";
 import { countryHref } from "@/lib/countries";
 import { publishedCountries } from "@/lib/countryPages";
+import { placePath } from "@/lib/placePath";
 
 /** Capitalise the first letter: Wikidata writes "worldwide", answers start with a capital. */
 const cap = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
@@ -89,7 +90,7 @@ function placeAnswers(name: string, facts: StoredFacts, maps: PlaceMaps | undefi
               {near.map((n, i) => (
                 <span key={n.name}>
                   {i > 0 && (i === near.length - 1 ? " and " : ", ")}
-                  {n.slug ? <>{withArticle(n.name).slice(0, -n.name.length)}<Link href={`/place/${n.slug}`} className={link}>{n.name}</Link></> : withArticle(n.name)}
+                  {n.slug ? <>{withArticle(n.name).slice(0, -n.name.length)}<Link href={placePath(n.slug)} className={link}>{n.name}</Link></> : withArticle(n.name)}
                 </span>
               ))}
               {maps.neighbours.length > near.length ? ", among others" : ""}.

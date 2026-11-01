@@ -3,6 +3,7 @@ import Link from "next/link";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
 import { buildPageMetadata } from "@/lib/seo";
+import { JsonLd, SITE_URL, breadcrumbLd } from "@/lib/jsonLd";
 
 export const metadata: Metadata = buildPageMetadata({
   title: "Contact — Borders of Time",
@@ -30,6 +31,12 @@ const REASONS = [
 export default function ContactPage() {
   return (
     <>
+      <JsonLd
+        data={[
+          { "@type": "ContactPage", name: "Contact", url: `${SITE_URL}/contact`, isPartOf: { "@type": "WebSite", name: "Borders of Time", url: SITE_URL } },
+          breadcrumbLd([["Contact", "/contact"]]),
+        ]}
+      />
       <SiteHeader />
       <main className="page-bg min-h-screen">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 pt-12 sm:pt-20 pb-24 space-y-16">

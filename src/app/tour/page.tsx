@@ -6,10 +6,10 @@ import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
 import PageIntro from "@/components/PageIntro";
 import { TOURS } from "@/data/tours";
-import { buildPageMetadata } from "@/lib/seo";
+import { buildPageMetadata, fitTitle } from "@/lib/seo";
 
 export const metadata: Metadata = buildPageMetadata({
-  title: `${TOURS.length} Guided History Tours on an Animated Map — Borders of Time`,
+  title: fitTitle(`${TOURS.length} Guided History Tours on an Animated Map`),
   description: `Narrated map tours of history's biggest events, with animated arrows and battles: the Mongols, the Crusades, Alexander, Napoleon, World War II and ${TOURS.length - 5} more.`,
   path: "/tour",
 });

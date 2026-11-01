@@ -5,14 +5,14 @@ import SiteFooter from "@/components/SiteFooter";
 import PageIntro, { SectionRule } from "@/components/PageIntro";
 import OurArticle from "@/components/OurArticle";
 import { JsonLd, breadcrumbLd, collectionLd } from "@/lib/jsonLd";
-import { buildPageMetadata } from "@/lib/seo";
+import { buildPageMetadata, fitTitle } from "@/lib/seo";
 import { getOurArticle } from "@/lib/ourArticles";
 import { philosophersOf } from "@/lib/backlinks";
 import { PHILOSOPHY_ERAS } from "@/data/philosophy";
 
 export const metadata: Metadata = buildPageMetadata({
-  title: "The History of Philosophy: Every Era, Tradition & Great Thinker — Borders of Time",
-  description: "The history of philosophy from ancient Greece, India and China to the twentieth century: every era and tradition, its key ideas, and the philosophers who shaped it.",
+  title: fitTitle("The History of Philosophy: Every Era, Tradition & Great Thinker", "The History of Philosophy: Every Era & Great Thinker"),
+  description: "The history of philosophy from ancient Greece, India and China to the twentieth century: every era and tradition, its key ideas and the thinkers who shaped it.",
   path: "/philosophy",
 });
 

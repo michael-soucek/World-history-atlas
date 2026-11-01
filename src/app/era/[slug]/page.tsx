@@ -13,7 +13,8 @@ import { ERA_LIST, eraFromSlug, eraSlug } from "@/data/eras";
 import { SNAPSHOT_YEARS, formatYear } from "@/data/snapshotYears";
 import { CROSSWALK } from "@/data/crosswalk";
 import { getEntityLifespan, overlapsEra } from "@/lib/entityTimeline";
-import { buildPageMetadata, metaDescription } from "@/lib/seo";
+import { buildPageMetadata, metaDescription, fitTitle } from "@/lib/seo";
+import { placePath } from "@/lib/placePath";
 
 interface Props { params: Promise<{ slug: string }> }
 
@@ -35,7 +36,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const era = eraFromSlug(slug);
   if (!era) return { title: "Era — Borders of Time" };
   return buildPageMetadata({
-    title: `The ${era.label} Era${isFinite(era.start) ? ` (${eraSpan(era)})` : ""}: Empires, Maps & People — Borders of Time`,
+    title: fitTitle(
+      `The ${era.label} Era${isFinite(era.start) ? ` (${eraSpan(era)})` : ""}: Empires, Maps & People`,
+      `The ${era.label} Era${isFinite(era.start) ? ` (${eraSpan(era)})` : ""}: Empires & Maps`,
+    ),
     description: metaDescription(era.blurb)!,
     path: `/era/${slug}`,
   });
@@ -90,7 +94,7 @@ export default async function EraPage({ params }: Props) {
       <main className="page-bg min-h-screen">
         <JsonLd
           data={[
-            collectionLd(`The ${era.label} era`, era.blurb ?? "", `/era/${slug}`, places.map((p) => ({ name: p.name, path: `/place/${p.slug}` }))),
+            collectionLd(`The ${era.label} era`, era.blurb ?? "", `/era/${slug}`, places.map((p) => ({ name: p.name, path: placePath(p.slug) }))),
             breadcrumbLd([["Browse", "/browse"], [`${era.label} era`, `/era/${slug}`]]),
           ]}
         />
@@ -150,7 +154,7 @@ export default async function EraPage({ params }: Props) {
               <SectionRule count={`${places.length} places`}>Empires &amp; states of the {era.label.toLowerCase()} age</SectionRule>
               <Gazetteer
                 items={places.map(place => ({
-                  href: `/place/${place.slug}`,
+                  href: placePath(place.slug),
                   name: place.name,
                   meta: place.lifespan && isFinite(place.lifespan.validFrom) && isFinite(place.lifespan.validTo)
                     ? `${fmtShort(place.lifespan.validFrom)}–${fmtShort(place.lifespan.validTo)}`

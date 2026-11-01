@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { MAP_COUNT, drawnContinuously, formatArea, placeMaps, sizeComparison, withArticle, type MapLabel } from "@/lib/placeMaps";
+import { placePath } from "@/lib/placePath";
 
 function fmtYear(y: number) {
   return y > 0 ? `${y} CE` : `${Math.abs(y)} BCE`;
@@ -12,7 +13,7 @@ function Name({ label }: { label: MapLabel }) {
   return label.slug ? (
     <>
       {article}
-      <Link href={`/place/${label.slug}`} className="underline underline-offset-4 decoration-ink/25 hover:text-accent transition-colors">
+      <Link href={placePath(label.slug)} className="underline underline-offset-4 decoration-ink/25 hover:text-accent transition-colors">
         {label.name}
       </Link>
     </>

@@ -11,11 +11,26 @@ interface PageSeoArgs {
   path?: string;
 }
 
+/** About what Google shows of a title before cutting it off with "…". */
+export const TITLE_MAX = 60;
+const BRAND = " — Borders of Time";
+
 /**
- * Adds " — Borders of Time" only when the title still fits in the ~60
- * characters Google shows; it prints the site name above each result anyway.
+ * Adds " — Borders of Time" only when the whole title still fits in the ~60
+ * characters Google shows; it prints the site name above each result anyway,
+ * so a cut-off brand only crowds out the words people searched for.
  */
-export const brandTitle = (core: string) => (core.length <= 52 ? `${core} — Borders of Time` : core);
+export const brandTitle = (core: string) => (core.length + BRAND.length <= TITLE_MAX ? `${core}${BRAND}` : core);
+
+/**
+ * The first of several title wordings, most descriptive first, that fits in
+ * ~60 characters (else the shortest), branded when there's room. Lets one
+ * template serve "Rome" and "Spanish American wars of independence" alike.
+ */
+export function fitTitle(...candidates: string[]): string {
+  const fits = candidates.find((c) => c.length <= TITLE_MAX);
+  return brandTitle(fits ?? candidates.reduce((a, b) => (b.length < a.length ? b : a)));
+}
 
 export function buildPageMetadata(args: PageSeoArgs): Metadata {
   const imageUrl = args.imageUrl || DEFAULT_SOCIAL_IMAGE;
@@ -40,6 +55,20 @@ export function buildPageMetadata(args: PageSeoArgs): Metadata {
 }
 
 /**
+ * Where the last full sentence in `text` ends (index of its full stop), or -1.
+ * Skips the stops in initials and abbreviations: "Harry S. Truman",
+ * "St. Petersburg", "c. 1200".
+ */
+function lastSentenceEnd(text: string): number {
+  for (let i = text.lastIndexOf(". "); i > 0; i = text.lastIndexOf(". ", i - 1)) {
+    const word = text.slice(0, i).split(/[\s(]/).pop() ?? "";
+    if (/^((?:[A-Z]\.)*[A-Z]|St|Mt|Dr|Mr|Mrs|Ms|Jr|Sr|c|ca|vs|No|Co|Ft|Gen|Col|Lt|Capt|Rev)$/.test(word)) continue;
+    return i;
+  }
+  return -1;
+}
+
+/**
  * Trim text for a meta description (Google shows about 155 characters):
  * end at a full sentence when one fits, otherwise at a word, with "…".
  */
@@ -48,7 +77,7 @@ export function metaDescription(text: string | undefined | null, max = 158): str
   if (!t) return undefined;
   if (t.length <= max) return t;
   const cut = t.slice(0, max);
-  const sentence = cut.lastIndexOf(". ");
+  const sentence = lastSentenceEnd(cut);
   if (sentence >= 90) return cut.slice(0, sentence + 1);
   return cut.slice(0, cut.lastIndexOf(" ")).replace(/[,;:(—–-]+$/, "").trim() + "…";
 }
@@ -84,6 +113,37 @@ const ENTITY_TITLE_SUFFIX: Record<EntityKind, string> = {
   event: "Map, Timeline & History",
   culture: "History & Map",
 };
+
+/** Shorter wordings of the suffix, tried in order when a long name and dates leave no room. */
+const SHORTER_SUFFIXES: Record<string, string[]> = {
+  "Interactive Map & History": ["Map & History", "History"],
+  "Biography & Map": ["Biography"],
+  "Map, Timeline & History": ["Map & History", "History"],
+  "History & Map": ["History"],
+  "Life, Ideas & Works": ["Life & Ideas"],
+};
+
+/**
+ * A closing sentence for a description too short to fill Google's snippet,
+ * saying what else the page has (all of it is on every page of that kind).
+ */
+const DESCRIPTION_TAIL: Record<EntityKind, string[]> = {
+  place: ["Its borders on the map, key dates and history.", "Its borders on the map."],
+  person: ["Life, key dates and the map of their world.", "Key dates and a map of their world."],
+  event: ["Key dates, the people involved and the map of the time.", "Key dates and the map of the time."],
+  culture: ["Key dates, its story and where it flourished on the map.", "Key dates and where it flourished."],
+};
+
+/**
+ * Adds the first of `tails` that fits to a description too short to fill
+ * Google's snippet (a whole sentence that ends early, never a cut-off one).
+ */
+export function padDescription(description: string, ...tails: string[]): string {
+  if (description.length >= 115 || description.endsWith("…")) return description;
+  const stop = /[.!?]$/.test(description) ? "" : ".";
+  const tail = tails.find((t) => description.length + stop.length + 1 + t.length <= 160);
+  return tail ? `${description}${stop} ${tail}` : description;
+}
 
 /** A place with no Wikidata image of its own leads with the first vetted article image (see splitHero). */
 async function leadImage(qid?: string): Promise<string | undefined> {
@@ -141,25 +201,28 @@ export async function entityMetadata(
   // Philosophers are searched for their ideas, not a map.
   const { PHILOSOPHER_SLUGS } = await import("@/data/philosophy");
   const suffix = kind === "person" && PHILOSOPHER_SLUGS.has(slug) ? "Life, Ideas & Works" : ENTITY_TITLE_SUFFIX[kind];
-  const core = `${content.name}${dates && !namedWithDates ? ` (${dates})` : ""}: ${suffix}`;
-  const title = core.length <= 52 ? `${core} — Borders of Time` : core;
+  const head = `${content.name}${dates && !namedWithDates ? ` (${dates})` : ""}`;
+  const title = fitTitle(...[suffix, ...(SHORTER_SUFFIXES[suffix] ?? [])].map((s) => `${head}: ${s}`));
   const ctx = kind === "place" ? null : await entityContext(kind, slug);
   const own = kind === "place" ? placeDescription(slug, content.name, dates) : ctx ? contextDescription(ctx) : undefined;
   // Next best: the opening of the page's own article, before the encyclopedia's summary.
   const { articleIntro, getOurArticle } = await import("@/lib/ourArticles");
-  // People: our own article's opening says who they were far better than a
-  // list of contemporaries, with the dates worked in after the name.
-  const intro = kind === "person" ? articleIntro(getOurArticle(kind, slug)) : undefined;
+  // People, events and cultures: our own article's opening says what they
+  // were far better than the encyclopedia's one-line label ("aspect of
+  // history") plus a list of contemporaries; for people the dates are worked
+  // in after the name.
+  const intro = kind !== "place" ? articleIntro(getOurArticle(kind, slug)) : undefined;
   const personIntro =
     intro && dates && !namedWithDates && new RegExp(`^${content.name.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")} (was|is|had|became|ruled)\\b`).test(intro)
       ? `${content.name} (${dates})${intro.slice(content.name.length)}`
       : intro;
-  const description =
+  const raw =
     metaDescription(personIntro) ??
     metaDescription(own) ??
     metaDescription(articleIntro(getOurArticle(kind, slug))) ??
     metaDescription(content.summary) ??
     `${content.name} on the interactive history map: when and where it happened, with key facts and pictures.`;
+  const description = padDescription(raw, ...DESCRIPTION_TAIL[kind]);
   return {
     ...buildPageMetadata({ title, description, path: `/${kind}/${slug}`, type: "article", imageUrl: content.imageUrl ?? (await leadImage(qid)) }),
   };

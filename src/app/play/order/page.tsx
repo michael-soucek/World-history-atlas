@@ -5,10 +5,10 @@ import SiteFooter from "@/components/SiteFooter";
 import PageIntro from "@/components/PageIntro";
 import PlayTabs from "@/components/PlayTabs";
 import OrderGame from "@/components/OrderGame";
-import { buildPageMetadata } from "@/lib/seo";
+import { buildPageMetadata, fitTitle } from "@/lib/seo";
 
 export const metadata: Metadata = buildPageMetadata({
-  title: "Put It in Order: Daily History Timeline Puzzle — Borders of Time",
+  title: fitTitle("Put It in Order: Daily History Timeline Puzzle"),
   description: "Five moments from world history, shuffled. Put them in the order they happened. A new puzzle every day, plus unlimited practice.",
   path: "/play/order",
 });

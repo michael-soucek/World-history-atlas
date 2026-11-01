@@ -5,7 +5,7 @@ import SiteFooter from "@/components/SiteFooter";
 import TourPlayer from "@/components/TourPlayer";
 import RelatedResources from "@/components/RelatedResources";
 import { TOURS, getTourBySlug } from "@/data/tours";
-import { buildPageMetadata, metaDescription } from "@/lib/seo";
+import { buildPageMetadata, metaDescription, fitTitle, padDescription } from "@/lib/seo";
 import { JsonLd, SITE_URL, breadcrumbLd } from "@/lib/jsonLd";
 import type { Tour } from "@/data/tours";
 import Link from "next/link";
@@ -77,13 +77,18 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return buildPageMetadata({
     // Titles that already have a subtitle ("Out of Africa: How Humans…") skip the extra one.
     title: tour.title.includes(":")
-      ? `${tour.title} (${tourSpan(tour)}) — Borders of Time`
-      : `${tour.title} (${tourSpan(tour)}): Interactive Map Tour — Borders of Time`,
+      ? fitTitle(`${tour.title} (${tourSpan(tour)})`, tour.title)
+      : fitTitle(
+          `${tour.title} (${tourSpan(tour)}): Interactive Map Tour`,
+          `${tour.title} (${tourSpan(tour)}): Map Tour`,
+          `${tour.title}: Interactive Map Tour`,
+          `${tour.title}: Map Tour`,
+        ),
     // Two tour descriptions run past Google's ~160-char meta-description
     // display width; shortened here for the meta tag specifically (a blind
     // slice(0, 160) cuts both mid-word). The full description still renders
     // in full on the /tour hub page.
-    description: META_DESCRIPTION_OVERRIDES[slug] ?? metaDescription(tour.description)!,
+    description: META_DESCRIPTION_OVERRIDES[slug] ?? padDescription(metaDescription(tour.description)!, "Follow it stop by stop on a narrated, animated map."),
     path: `/tour/${slug}`,
   });
 }

@@ -42,7 +42,7 @@ function MapYear({ year, regionId }: { year: number; regionId?: string }) {
  * the encyclopedia text. Renders nothing when there's nothing to say.
  */
 export default function EntityInTime({ ctx }: { ctx: EntityContext }) {
-  const { name, start, end, maps, before, after, place, people, events, tours, kind } = ctx;
+  const { name, start, end, maps, before, after, place, people, events, tours, kind, earlier, later } = ctx;
   const dated = start !== undefined && end !== undefined;
   const peak = place ? largest(place.area) : null;
   if (!dated && !place && !tours.length) return null;
@@ -116,6 +116,15 @@ export default function EntityInTime({ ctx }: { ctx: EntityContext }) {
           <p>
             {kind === "person" ? "Events of those years" : "Other events of the same years"}:{" "}
             <List items={events} render={(e) => <Entry e={e} />} />.
+          </p>
+        )}
+
+        {(earlier.length > 0 || later.length > 0) && (
+          <p>
+            {kind === "person" ? "Born just before and after, among others on this site" : "Next to it in time on this site"}:{" "}
+            {earlier.length > 0 && <>before, <List items={earlier} render={(e) => <Entry e={e} />} /></>}
+            {earlier.length > 0 && later.length > 0 && "; "}
+            {later.length > 0 && <>after, <List items={later} render={(e) => <Entry e={e} />} /></>}.
           </p>
         )}
 

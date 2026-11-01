@@ -6,10 +6,10 @@ import PageIntro from "@/components/PageIntro";
 import ComparePageClient from "@/components/ComparePageClient";
 import { COMPARISONS, DEFAULT_COMPARISON, type Comparison } from "@/data/comparisons";
 import { SNAPSHOT_YEARS } from "@/data/snapshotYears";
-import { buildPageMetadata } from "@/lib/seo";
+import { buildPageMetadata, fitTitle } from "@/lib/seo";
 
 export const metadata: Metadata = buildPageMetadata({
-  title: "Compare Historical Maps: Then vs. Then, Any Two Years — Borders of Time",
+  title: fitTitle("Compare Historical Maps: Then vs. Then, Any Two Years"),
   description: "Drag a divider across the world map to compare borders in any two years: Rome against today, Europe before and after World War I, the fall of the USSR and more.",
   path: "/compare",
 });

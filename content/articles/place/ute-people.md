@@ -25,7 +25,7 @@ The United States gained Ute lands from Mexico in 1848. Mormon settlers arrived 
 
 ## The Ute today
 
-The Ute have governed themselves under elected councils since 1934 and run their own police, courts and schools since 1975. The Uintah and Ouray Reservation is the second largest in the United States. The Southern Ute Tribe, enriched by natural-gas businesses, holds a triple-A credit rating, while the Ute Mountain Utes, whose land borders Mesa Verde and includes many [Ancestral Puebloan](/place/ancestral-puebloans) ruins, run a tribal park. Ute tribes help co-manage the Bears Ears National Monument, created in 2016. Some 15,119 people identified as Ute in the 2020 census, and the language is still spoken on the reservations.
+The Ute have governed themselves under elected councils since 1934 and run their own police, courts and schools since 1975. The Uintah and Ouray Reservation is the second largest in the United States. The Southern Ute Tribe, enriched by natural-gas businesses, holds a triple-A credit rating, while the Ute Mountain Utes, whose land borders Mesa Verde and includes many [Ancestral Puebloan](/culture/ancestral-puebloans) ruins, run a tribal park. Ute tribes help co-manage the Bears Ears National Monument, created in 2016. Some 15,119 people identified as Ute in the 2020 census, and the language is still spoken on the reservations.
 
 ## On our maps
 

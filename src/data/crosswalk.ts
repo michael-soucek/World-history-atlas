@@ -572,8 +572,13 @@ function addName(name: string, entry: CrosswalkEntry): void {
 for (const [name, entry] of Object.entries(CROSSWALK)) {
   addName(name, entry);
   _slugToEntry.set(entry.slug, entry);
-  _qidToEntry.set(entry.wikidataId, entry);
-  _qidToCanonicalName.set(entry.wikidataId, name);
+  // The first entry for a QID is its page; later ones are spelling variants
+  // whose slugs redirect there (manchu-empire → qing-dynasty), so links and
+  // names built from a QID must not pick them.
+  if (!_qidToEntry.has(entry.wikidataId)) {
+    _qidToEntry.set(entry.wikidataId, entry);
+    _qidToCanonicalName.set(entry.wikidataId, name);
+  }
   if (entry.aliases) {
     for (const alias of entry.aliases) addName(alias, entry);
   }

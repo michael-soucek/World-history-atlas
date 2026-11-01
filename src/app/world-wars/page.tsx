@@ -6,11 +6,11 @@ import SiteFooter from "@/components/SiteFooter";
 import PageIntro, { SectionRule } from "@/components/PageIntro";
 import { WORLD_WARS } from "@/data/warTours";
 import type { Tour } from "@/data/tours";
-import { buildPageMetadata } from "@/lib/seo";
+import { buildPageMetadata, fitTitle } from "@/lib/seo";
 import { JsonLd, breadcrumbLd, collectionLd } from "@/lib/jsonLd";
 
 export const metadata: Metadata = buildPageMetadata({
-  title: "WW1 and WW2 Maps: Every Front Line and Battle — Borders of Time",
+  title: fitTitle("WW1 and WW2 Maps: Every Front Line and Battle"),
   description:
     "Interactive maps of World War I and World War II: watch the front lines move stage by stage, with occupied territory, offensives and 120 battles marked.",
   path: "/world-wars",

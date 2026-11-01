@@ -12,7 +12,7 @@ import { ReadAloudButton } from "@/components/ReadAloudButton";
 import { CROSSWALK } from "@/data/crosswalk";
 import { readableNameFromSlug } from "@/lib/entityResolver";
 import { getExplorerBySlug } from "@/data/voyages";
-import { buildPageMetadata, metaDescription, brandTitle } from "@/lib/seo";
+import { buildPageMetadata, metaDescription, fitTitle, padDescription } from "@/lib/seo";
 
 interface Props { params: Promise<{ slug: string }> }
 
@@ -172,8 +172,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const theme = THEMES[slug];
   if (!theme) return { title: "Theme — Borders of Time" };
   return buildPageMetadata({
-    title: brandTitle(`${theme.label} in World History: Maps, Places & People`),
-    description: metaDescription(`${theme.description} Explore the empires, people and events behind it on the interactive history map.`)!,
+    title: fitTitle(`${theme.label} in World History: Maps, Places & People`, `${theme.label} in World History: Maps & People`, `${theme.label} in World History`),
+    description: padDescription(metaDescription(`${theme.description} Explore the empires, people and events behind it on the interactive history map.`)!, "Its empires, people and events on the map."),
     path: `/theme/${slug}`,
   });
 }

@@ -59,7 +59,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE}/compare`, lastModified: now, changeFrequency: "monthly", priority: 0.6 },
     { url: `${BASE}/about`,    lastModified: now, changeFrequency: "yearly",  priority: 0.4 },
     { url: `${BASE}/support`,  lastModified: now, changeFrequency: "yearly",  priority: 0.3 },
-    { url: `${BASE}/pro`,      lastModified: now, changeFrequency: "monthly", priority: 0.3 },
     { url: `${BASE}/contact`,  lastModified: now, changeFrequency: "yearly",  priority: 0.2 },
     { url: `${BASE}/privacy`,  lastModified: now, changeFrequency: "yearly",  priority: 0.2 },
     { url: `${BASE}/terms`,    lastModified: now, changeFrequency: "yearly",  priority: 0.2 },
@@ -73,29 +72,30 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const uniquePlaces = Object.values(CROSSWALK).filter(e => !cultureQids.has(e.wikidataId) && !seenQids.has(e.wikidataId) && seenQids.add(e.wikidataId));
   const placeRoutes: MetadataRoute.Sitemap = uniquePlaces.map(e => ({
     url: `${BASE}/place/${e.slug}`,
-    // Place pages: new search titles (2026-10-21), 57 new places and our own articles (2026-10-22).
-    lastModified: new Date("2026-10-22"),
+    // Place pages: new search titles (2026-10-21), then our own articles (each dated).
+    lastModified: writtenOn("place", e.slug, ARTICLES_WRITTEN),
     changeFrequency: "monthly",
     priority: 0.8,
   }));
 
-  const personRoutes: MetadataRoute.Sitemap = Object.values(PEOPLE_CROSSWALK).map(e => ({
+  // People and events without an article of their own are noindex: leave them out.
+  const personRoutes: MetadataRoute.Sitemap = Object.values(PEOPLE_CROSSWALK).filter(e => getOurArticle("person", e.slug)).map(e => ({
     url: `${BASE}/person/${e.slug}`,
     lastModified: writtenOn("person", e.slug, ARTICLES_WRITTEN),
     changeFrequency: "monthly",
     priority: 0.7,
   }));
 
-  const eventRoutes: MetadataRoute.Sitemap = Object.values(EVENTS_CROSSWALK).map(e => ({
+  const eventRoutes: MetadataRoute.Sitemap = Object.values(EVENTS_CROSSWALK).filter(e => getOurArticle("event", e.slug)).map(e => ({
     url: `${BASE}/event/${e.slug}`,
-    lastModified: ARTICLES_WRITTEN,
+    lastModified: writtenOn("event", e.slug, ARTICLES_WRITTEN),
     changeFrequency: "monthly",
     priority: 0.7,
   }));
 
   const cultureRoutes: MetadataRoute.Sitemap = Object.values(CULTURES_CROSSWALK).map(e => ({
     url: `${BASE}/culture/${e.slug}`,
-    lastModified: ARTICLES_WRITTEN,
+    lastModified: writtenOn("culture", e.slug, ARTICLES_WRITTEN),
     changeFrequency: "monthly",
     priority: 0.7,
   }));
@@ -137,7 +137,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const explorerRoutes: MetadataRoute.Sitemap = EXPLORERS.map(e => ({
     url: `${BASE}/explorer/${e.slug}`,
-    lastModified: ARTICLES_WRITTEN,
+    lastModified: writtenOn("explorer", e.slug, ARTICLES_WRITTEN),
     changeFrequency: "monthly",
     priority: 0.7,
   }));

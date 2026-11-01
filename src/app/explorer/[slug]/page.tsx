@@ -14,8 +14,9 @@ import { getEntityImages } from "@/lib/entityImages";
 import OurArticle from "@/components/OurArticle";
 import { articleIntro, articleWordCount, getOurArticle } from "@/lib/ourArticles";
 import { EXPLORERS, getExplorerBySlug } from "@/data/voyages";
+import { lookupPersonByQid } from "@/data/entityCrosswalk";
 import { buildEntityContent } from "@/lib/wikidata";
-import { buildPageMetadata, metaDescription } from "@/lib/seo";
+import { buildPageMetadata, metaDescription, fitTitle, padDescription } from "@/lib/seo";
 import { JsonLd, SITE_URL, articleLd, breadcrumbLd } from "@/lib/jsonLd";
 
 interface Props { params: Promise<{ slug: string }> }
@@ -39,8 +40,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!data) return { title: "Explorer not found — Borders of Time" };
   const { explorer, content } = data;
   const isExpedition = explorer.lifespan.startsWith("Expedition");
-  const title = `${explorer.name}${isExpedition ? "" : ` (${explorer.lifespan})`}: ${isExpedition ? "Expedition" : "Voyages"}, Route Map & Timeline — Borders of Time`;
-  const description = metaDescription(`${explorer.tagline} Every stop dated and mapped.`)!;
+  const head = `${explorer.name}${isExpedition ? "" : ` (${explorer.lifespan})`}`;
+  const what = isExpedition ? "Expedition" : "Voyages";
+  const title = fitTitle(`${head}: ${what}, Route Map & Timeline`, `${head}: ${what} & Route Map`, `${explorer.name}: ${what} & Route Map`);
+  const description = padDescription(metaDescription(`${explorer.tagline} Every stop dated and mapped.`)!, "Follow the routes on an interactive map.");
   return buildPageMetadata({ title, description, path: `/explorer/${slug}`, type: "article", imageUrl: content?.imageUrl });
 }
 
@@ -61,6 +64,9 @@ export default async function ExplorerPage({ params }: Props) {
   const voyages = explorer.voyages ?? [];
   const hasVoyages = explorer.status === "full" && voyages.length > 0;
   const ownArticle = getOurArticle("explorer", explorer.slug);
+  // The same person's biography page, when the site has one.
+  const person = lookupPersonByQid(explorer.wikidataId);
+  const personHref = person && getOurArticle("person", person.slug) ? `/person/${person.slug}` : undefined;
 
   return (
     <>
@@ -218,6 +224,14 @@ export default async function ExplorerPage({ params }: Props) {
                 <a href={content.wikipediaUrl} target="_blank" rel="noopener noreferrer" className="flex items-center justify-between border-y border-ink/15 py-4 text-sm text-ink/70 hover:text-accent transition-colors">
                   Full article on Wikipedia <span aria-hidden="true">↗</span>
                 </a>
+              )}
+              {personHref && (
+                <div>
+                  <p className="label text-ink/64 !text-[10px] mb-2">Biography</p>
+                  <Link href={personHref} className="text-sm text-ink/80 hover:text-accent transition-colors">
+                    {explorer.name}: life, key dates and the map of their world →
+                  </Link>
+                </div>
               )}
               <RelatedResources resourceKey={`explorer:${explorer.slug}`} />
               <p className="text-[11px] text-ink/64 leading-relaxed">

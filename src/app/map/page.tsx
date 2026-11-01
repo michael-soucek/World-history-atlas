@@ -3,7 +3,7 @@ import { JsonLd, webAppLd } from "@/lib/jsonLd";
 import type { Metadata } from "next";
 import AtlasPageClient from "@/components/AtlasPageClient";
 import { formatYear } from "@/data/snapshotYears";
-import { DEFAULT_SOCIAL_IMAGE, brandTitle } from "@/lib/seo";
+import { DEFAULT_SOCIAL_IMAGE, fitTitle } from "@/lib/seo";
 
 interface Props {
   searchParams: Promise<{
@@ -23,8 +23,8 @@ export async function generateMetadata({ searchParams }: Props): Promise<Metadat
   // Every variant shares the canonical /map, so the default (no ?year) is
   // what search engines index: describe the tool, not one year.
   const title = sp.year
-    ? brandTitle(`World Map in ${yearLabel}: Historical Borders`)
-    : brandTitle("Interactive Historical World Map: Empires & Borders Through Time");
+    ? fitTitle(`World Map in ${yearLabel}: Historical Borders`)
+    : fitTitle("Interactive Historical World Map: Empires & Borders Through Time", "Interactive Historical World Map: Empires & Borders");
   const description = sp.year
     ? `The world's empires, kingdoms and borders as they were in ${yearLabel}, on an interactive historical map you can scrub through time.`
     : "Drag through 5,000 years on an interactive world map: see the borders of every empire, kingdom and nation from ancient Egypt and Rome to today.";

@@ -4,14 +4,14 @@ import SiteFooter from "@/components/SiteFooter";
 import PageIntro, { SectionRule } from "@/components/PageIntro";
 import Gazetteer from "@/components/Gazetteer";
 import { JsonLd, breadcrumbLd, collectionLd } from "@/lib/jsonLd";
-import { buildPageMetadata } from "@/lib/seo";
+import { buildPageMetadata, fitTitle } from "@/lib/seo";
 import { getOurArticle } from "@/lib/ourArticles";
 import { CONTINENTS, COUNTRY_LIST } from "@/lib/countries";
 
 const published = COUNTRY_LIST.filter((c) => getOurArticle("country", c.slug));
 
 export const metadata: Metadata = buildPageMetadata({
-  title: `The History of Every Country: ${published.length} Country Histories — Borders of Time`,
+  title: fitTitle(`The History of Every Country: ${published.length} Country Histories`),
   description: "The history of every country in the world, from the first peoples to today: key dates, the empires that ruled each land, and its borders on historical maps.",
   path: "/countries",
 });

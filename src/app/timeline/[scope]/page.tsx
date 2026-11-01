@@ -8,7 +8,8 @@ import PageIntro from "@/components/PageIntro";
 import { LinkRow } from "@/components/Gazetteer";
 import { ERA_LIST, eraFromSlug, eraSlug } from "@/data/eras";
 import { SNAPSHOT_YEARS } from "@/data/snapshotYears";
-import { buildPageMetadata, metaDescription, brandTitle } from "@/lib/seo";
+import { buildPageMetadata, metaDescription, fitTitle } from "@/lib/seo";
+import { JsonLd, breadcrumbLd, collectionLd } from "@/lib/jsonLd";
 
 const fmt = (y: number) => (y < 0 ? `${Math.abs(y).toLocaleString("en-US")} BCE` : `${y} CE`);
 
@@ -25,7 +26,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const years = SNAPSHOT_YEARS.filter(y => y >= era.start && y < era.end);
   const span = isFinite(era.start) ? `${fmt(era.start)} to ${isFinite(era.end) ? fmt(era.end) : "today"}` : `before ${fmt(era.end)}`;
   return buildPageMetadata({
-    title: brandTitle(`${era.label} World Maps: ${years.length} Historical Maps, ${span}`),
+    title: fitTitle(`${era.label} World Maps: ${years.length} Historical Maps, ${span}`, `${era.label} World Maps: ${years.length} Maps, ${span}`, `${era.label} World Maps: ${years.length} Historical Maps`),
     description: metaDescription(`The world's borders in the ${era.label} era, ${span}, map by map: ${years.map(fmt).join(", ")}. Open any year on the interactive map.`)!,
     path: `/timeline/${scope}`,
   });
@@ -52,13 +53,19 @@ export default async function ScopedTimelinePage({ params }: Props) {
 
   return (
     <>
+      <JsonLd
+        data={[
+          collectionLd(`${era.label} world maps`, `The world's borders in the ${era.label} era, map by map.`, `/timeline/${scope}`, eraYears.map((y) => ({ name: `World map, ${fmt(y)}`, path: `/map?year=${y}` }))),
+          breadcrumbLd([["Timeline", "/timeline"], [`${era.label} world maps`, `/timeline/${scope}`]]),
+        ]}
+      />
       <SiteHeader />
       <main className="page-bg min-h-screen">
         <PageIntro
           crumbs={[{ href: "/timeline", label: "Timeline" }]}
           label={isFinite(era.start) ? range : "Before 3000 BCE"}
           accent={accentMeta.accent}
-          title={era.label}
+          title={`${era.label} world maps`}
           lede={"blurb" in era ? era.blurb : undefined}
           aside={<p className="font-mono text-[12px] tracking-wide text-ink/68">{eraYears.length} map{eraYears.length !== 1 ? "s" : ""}</p>}
         />
@@ -81,6 +88,13 @@ export default async function ScopedTimelinePage({ params }: Props) {
               ))}
             </ul>
           )}
+
+          <p className="mt-10 text-[15px] text-ink/72">
+            <Link href={`/era/${scope}`} className="text-accent hover:text-ink underline underline-offset-4 decoration-accent/30 transition-colors">
+              The empires, people and events of the {era.label.toLowerCase()} era
+            </Link>{" "}
+            →
+          </p>
 
           <div className="mt-20 sm:mt-28">
             <LinkRow

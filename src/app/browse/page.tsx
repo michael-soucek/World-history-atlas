@@ -11,7 +11,8 @@ import SiteFooter from "@/components/SiteFooter";
 import PageIntro, { SectionRule } from "@/components/PageIntro";
 import Gazetteer from "@/components/Gazetteer";
 import { ERA_LIST, eraSlug } from "@/data/eras";
-import { buildPageMetadata } from "@/lib/seo";
+import { buildPageMetadata, fitTitle } from "@/lib/seo";
+import { JsonLd, SITE_URL, breadcrumbLd } from "@/lib/jsonLd";
 import type { EntityType } from "@/types";
 import { CROSSWALK } from "@/data/crosswalk";
 import { PEOPLE_CROSSWALK, EVENTS_CROSSWALK, CULTURES_CROSSWALK } from "@/data/entityCrosswalk";
@@ -51,6 +52,8 @@ function listForType(type: EntityType): { slug: string; name: string; href?: str
   };
 
   if (type === "place") {
+    // A "place" that is really a culture (the map's "Anasazi") is listed under cultures.
+    for (const c of Object.values(CULTURES_CROSSWALK)) seenQid.add(c.wikidataId);
     for (const [name, entry] of Object.entries(CROSSWALK)) {
       push(entry.slug, name, entry.wikidataId);
     }
@@ -79,19 +82,19 @@ function listForType(type: EntityType): { slug: string; name: string; href?: str
 /** Search-friendly titles for each filtered list ("Historical Figures: 70 People in World History"). */
 const TYPE_SEO: Record<EntityType, (n: number) => { title: string; description: string }> = {
   place: (n) => ({
-    title: `${n} Empires, Kingdoms & States in History — Borders of Time`,
+    title: fitTitle(`${n} Empires, Kingdoms & States in History`),
     description: `An A–Z of ${n} empires, kingdoms and states from world history, from the Achaemenids to the Zulu Kingdom, each with its story and its borders on the map.`,
   }),
   person: (n) => ({
-    title: `${n} Historical Figures: Rulers, Conquerors & Thinkers — Borders of Time`,
+    title: fitTitle(`${n} Historical Figures: Rulers, Conquerors & Thinkers`),
     description: `An A–Z of ${n} people who shaped world history: rulers, conquerors, explorers and thinkers, each linked to the map of their world.`,
   }),
   event: (n) => ({
-    title: `${n} Key Events in World History: Battles, Treaties & Revolutions — Borders of Time`,
+    title: fitTitle(`${n} Key Events in World History: Battles, Treaties & Revolutions`, `${n} Key Events in World History: Battles & Revolutions`),
     description: `An A–Z of ${n} turning points in world history, from battles and treaties to revolutions and the fall of empires, each placed on the map.`,
   }),
   culture: (n) => ({
-    title: `${n} Civilizations & Cultures in World History — Borders of Time`,
+    title: fitTitle(`${n} Civilizations & Cultures in World History`),
     description: `An A–Z of ${n} civilizations, movements and traditions from world history, each with its story and where it flourished on the map.`,
   }),
 };
@@ -107,7 +110,7 @@ export async function generateMetadata({ searchParams }: Props): Promise<Metadat
   const total = (["place", "person", "event", "culture"] as const).reduce((n, t) => n + listForType(t).length, 0);
   return {
     ...buildPageMetadata({
-      title: "Browse World History: Empires, People, Events & Cultures — Borders of Time",
+      title: fitTitle("Browse World History: Empires, People, Events & Cultures"),
       description: `Browse ${total} empires, people, events and cultures from world history, by era, region or theme, each linked to the interactive map.`,
     }),
     alternates: { canonical: "/browse" },
@@ -152,8 +155,22 @@ export default async function BrowsePage({ searchParams }: Props) {
 function BrowseByType({ type }: { type: EntityType }) {
   const meta = TYPE_META[type];
   const items = listForType(type);
+  const seo = TYPE_SEO[type](items.length);
   return (
     <>
+      <JsonLd
+        data={[
+          {
+            "@type": "CollectionPage",
+            name: meta.label,
+            description: seo.description,
+            url: `${SITE_URL}/browse?type=${type}`,
+            isPartOf: { "@type": "WebSite", name: "Borders of Time", url: SITE_URL },
+            mainEntity: { "@type": "ItemList", numberOfItems: items.length },
+          },
+          breadcrumbLd([["Browse", "/browse"], [meta.label, `/browse?type=${type}`]]),
+        ]}
+      />
       <SiteHeader />
       <main className="min-h-screen page-bg">
         <PageIntro
@@ -197,6 +214,18 @@ function BrowseHub() {
   };
   return (
     <>
+      <JsonLd
+        data={[
+          {
+            "@type": "CollectionPage",
+            name: "Browse world history",
+            description: "Empires, people, events and cultures from world history, by era, region or theme.",
+            url: `${SITE_URL}/browse`,
+            isPartOf: { "@type": "WebSite", name: "Borders of Time", url: SITE_URL },
+          },
+          breadcrumbLd([["Browse", "/browse"]]),
+        ]}
+      />
       <SiteHeader />
       <main className="min-h-screen page-bg">
         <PageIntro

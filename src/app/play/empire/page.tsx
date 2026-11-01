@@ -5,10 +5,10 @@ import SiteFooter from "@/components/SiteFooter";
 import PageIntro from "@/components/PageIntro";
 import PlayTabs from "@/components/PlayTabs";
 import EmpireGame from "@/components/EmpireGame";
-import { buildPageMetadata } from "@/lib/seo";
+import { buildPageMetadata, fitTitle } from "@/lib/seo";
 
 export const metadata: Metadata = buildPageMetadata({
-  title: "Name the Empire: Daily Historical Map Quiz — Borders of Time",
+  title: fitTitle("Name the Empire: Daily Historical Map Quiz"),
   description: "One empire lit up on a historical map, four names to choose from. Five rounds a day from 500 BCE to today, plus unlimited practice.",
   path: "/play/empire",
 });

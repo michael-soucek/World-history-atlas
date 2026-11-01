@@ -5,10 +5,10 @@ import SiteFooter from "@/components/SiteFooter";
 import PageIntro from "@/components/PageIntro";
 import CitySearch from "@/components/CitySearch";
 import { CITY_LIST, distinctRulers, rulersOf } from "@/lib/cityHistory";
-import { buildPageMetadata } from "@/lib/seo";
+import { buildPageMetadata, fitTitle } from "@/lib/seo";
 
 export const metadata: Metadata = buildPageMetadata({
-  title: `Who Ruled It? The History of ${CITY_LIST.length} World Cities on the Map — Borders of Time`,
+  title: fitTitle(`Who Ruled It? The History of ${CITY_LIST.length} World Cities on the Map`),
   description: "Who ruled Istanbul, Jerusalem or Budapest? Pick a city to see every empire, kingdom and people that held it, from the ancient world to today, on old maps.",
   path: "/history-of",
 });

@@ -10,7 +10,7 @@ import PageHistory from "@/components/PageHistory";
 import PageIntro, { SectionRule } from "@/components/PageIntro";
 import { LinkRow } from "@/components/Gazetteer";
 import { CITY_LIST, distinctRulers, getCity, nearbyCities, rulersOf, type City, type RulerSpan } from "@/lib/cityHistory";
-import { buildPageMetadata, metaDescription, brandTitle } from "@/lib/seo";
+import { buildPageMetadata, metaDescription, fitTitle } from "@/lib/seo";
 import { JsonLd, SITE_URL, breadcrumbLd } from "@/lib/jsonLd";
 import { connectedTo, fmtSpan, type TimedEntry } from "@/lib/entityContext";
 import { TOURS } from "@/data/tours";
@@ -30,7 +30,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!city) return { title: "City — Borders of Time" };
   const spans = rulersOf(slug);
   return buildPageMetadata({
-    title: brandTitle(`Who Ruled ${city.name}? History of ${city.name} on the Map`),
+    title: fitTitle(`Who Ruled ${city.name}? History of ${city.name} on the Map`, `History of ${city.name}: Who Ruled It, on the Map`, `History of ${city.name}: Who Ruled It`),
     description: cityDescription(city, spans),
     path: `/history-of/${slug}`,
   });
@@ -53,6 +53,8 @@ function cityDescription(city: City, spans: RulerSpan[]): string {
   const names = (linked.length >= 3 ? linked : distinctRulers(spans)).slice(-5);
   const list = names.length > 1 ? `${names.slice(0, -1).join(", ")} and ${names.at(-1)}` : names[0] ?? "";
   const formerly = city.formerly ? ` (${city.formerly})` : "";
+  // A city the maps have no rulers for yet still gets a whole sentence.
+  if (!list) return metaDescription(`Who ruled ${city.name}${formerly}? The city's story from its beginnings to today, the country it belongs to now, and where it lies on the atlas's historical maps.`)!;
   return metaDescription(
     `Who ruled ${city.name}${formerly}? ${list}: every state that has held the city, traced through historical maps from ${formatYear(spans[0]?.from ?? 0)} to today.`,
   )!;

@@ -6,13 +6,13 @@ import SiteFooter from "@/components/SiteFooter";
 import PageIntro from "@/components/PageIntro";
 import { TIMELAPSES, formatYear, type TimelapseFacts } from "@/data/timelapses";
 import FACTS from "@/data/timelapseFacts.json";
-import { buildPageMetadata } from "@/lib/seo";
+import { buildPageMetadata, fitTitle } from "@/lib/seo";
 import { JsonLd, breadcrumbLd, collectionLd } from "@/lib/jsonLd";
 
 export const metadata: Metadata = buildPageMetadata({
-  title: "Borders Over Time: Animated History Maps of Every Region",
+  title: fitTitle("Borders Over Time: Animated History Maps of Every Region"),
   description:
-    "Watch borders change on animated maps of Europe, the Middle East, East Asia, South Asia, Africa, the Americas and the whole world, year by year from 2000 BCE to today.",
+    "Watch borders change year by year on animated maps of Europe, the Middle East, East Asia, South Asia, Africa, the Americas and the world, 2000 BCE to today.",
   path: "/borders-over-time",
   imageUrl: "/timelapse/europe-wide.webp",
 });
