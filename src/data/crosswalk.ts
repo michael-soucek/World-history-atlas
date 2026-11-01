@@ -86,7 +86,6 @@ export const CROSSWALK: Record<string, CrosswalkEntry> = {
   "Dutch Republic": { wikidataId: "Q170072", slug: "dutch-republic", aliases: ["Netherlands", "United Provinces"], years: [1581, 1795], representativeYear: 1650 }, // Dutch Republic
   "Netherlands": { wikidataId: "Q55", slug: "netherlands", years: [1815, 2010], representativeYear: 2000 }, // Kingdom of the Netherlands, after Napoleon
   "Shan States": { wikidataId: "Q4765854", slug: "shan-states", representativeYear: 1600 }, // Shan States
-  "Manchu Empire": { wikidataId: "Q8733", slug: "manchu-empire", aliases: ["Qing dynasty"], years: [1644, 1912], representativeYear: 1800 }, // Manchu Empire (Qing)
   "Kingdom of Prussia": { wikidataId: "Q27306", slug: "kingdom-of-prussia", aliases: ["Prussia"], representativeYear: 1783 }, // ✓ Kingdom of Prussia
   "Habsburg Monarchy": { wikidataId: "Q153136", slug: "habsburg-monarchy", aliases: ["Austria", "Habsburg", "Austrian Empire", "Habsburg Austria"], years: [1500, 1815], representativeYear: 1700 }, // Habsburg Monarchy
   "Sweden": { wikidataId: "Q34", slug: "sweden", aliases: ["Swedish Empire"], representativeYear: 1650 }, // ✓ Sweden
