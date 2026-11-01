@@ -21,7 +21,7 @@ Havel found work as a stagehand in Prague, first at the Theatre ABC and then at 
 
 ## Dissident
 
-During the Warsaw Pact invasion that ended the [Prague Spring](/event/prague-spring) in August 1968, Havel broadcast for a clandestine resistance radio station. Afterwards his plays were banned at home and he took a job in a brewery, which inspired his play Audience. In 1977 he was among the founders of Charter 77, a human rights manifesto prompted partly by the trial of the rock band The Plastic People of the Universe. His essay The Power of the Powerless (1978) argued that ordinary people kept the regime alive by "living within a lie". He co-founded a committee to defend the unjustly prosecuted in 1979, and that May was jailed for almost four years; his letters from prison became Letters to Olga.
+During the Warsaw Pact invasion that ended the [Prague Spring](/event/prague-spring) in August 1968, Havel broadcast for a clandestine resistance radio station. Afterwards his plays were banned at home and he took a job in a brewery, which inspired his play Audience. In 1977 he was among the founders of Charter 77, a human rights manifesto prompted partly by the trial of the rock band The Plastic People of the Universe. His essay The Power of the Powerless (1978) argued that citizens under communism were forced to "live within a lie". He co-founded a committee to defend the unjustly prosecuted in 1979, and that May was jailed for almost four years; his letters from prison became Letters to Olga.
 
 ## The Velvet Revolution
 

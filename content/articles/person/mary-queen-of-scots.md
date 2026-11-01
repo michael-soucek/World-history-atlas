@@ -29,7 +29,7 @@ In February 1567 an explosion wrecked the house at Kirk o' Field where Darnley w
 
 ## Captivity in England
 
-Mary escaped in May 1568, was defeated at Langside and crossed the Solway into the [Kingdom of England](/place/kingdom-of-england), hoping for help from [Elizabeth I](/person/elizabeth-i). Instead she was kept in custody for more than eighteen years. An inquiry examined the disputed "casket letters" that seemed to link her to Darnley's death, but reached no verdict; historians still disagree about whether they were forged. Plots to put her on the English throne, such as the Ridolfi Plot of 1571, kept her under suspicion.
+Mary escaped in May 1568, was defeated at Langside and crossed the Solway into the [Kingdom of England](/place/kingdom-of-england), hoping for help from [Elizabeth I](/person/elizabeth-i). Instead she was kept in custody for more than eighteen years. An inquiry examined the disputed "casket letters" that seemed to link her to Darnley's death, but concluded that nothing was proven against her; historians still disagree about whether they were forged. Plots to put her on the English throne, such as the Ridolfi Plot of 1571, kept her under suspicion.
 
 ## Trial and death
 

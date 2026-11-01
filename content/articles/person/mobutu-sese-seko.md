@@ -25,11 +25,11 @@ On 24 November 1965, amid a deadlock between president and parliament, Mobutu st
 
 ## Authenticity and the cult of the leader
 
-Under the slogan of authenticité, cities lost their colonial names, the country became Zaire in October 1971, and citizens were told to replace European names with African ones. Mobutu himself took the long name Mobutu Sese Seko Nkuku Ngbendu wa za Banga in 1972. Suits gave way to the abacost tunic, and his image, with leopard-skin hat and walking stick, appeared everywhere. In 1974 Kinshasa hosted the Ali–Foreman "Rumble in the Jungle", which he funded.
+Under the slogan of authenticité, cities lost their colonial names, the country became Zaire in October 1971, and citizens were told to replace European names with African ones. Mobutu himself took the long name Mobutu Sese Seko Nkuku Ngbendu wa za Banga in 1972. Suits gave way to the abacost tunic, and his image, with leopard-skin hat and walking stick, appeared everywhere. In 1974 Kinshasa hosted the Ali–Foreman "Rumble in the Jungle", which he agreed to stage.
 
 ## Wealth and decline
 
-The nationalisation of foreign businesses in 1973–1974, handed largely to allies, combined with a collapse in copper prices to wreck the economy, and inflation and debt followed. Ministers were reshuffled constantly, and corruption ran through the state. Estimates of Mobutu's own fortune vary enormously, from about $50 million to as much as $5 billion. Western governments tolerated his rule as a bulwark against communism; French and Belgian troops, with American support, repelled invasions of Shaba province in 1977 and 1978.
+The nationalisation of foreign businesses in 1973–1974, handed largely to allies, combined with a collapse in copper prices to wreck the economy, and inflation and debt followed. Ministers were reshuffled constantly, and corruption ran through the state. Estimates of Mobutu's own fortune vary enormously, from about $50 million to as much as $5 billion. Western governments tolerated his rule as a bulwark against communism; Moroccan troops airlifted by France in 1977, and French and Belgian troops with American support in 1978, repelled invasions of Shaba province.
 
 ## Fall and exile
 

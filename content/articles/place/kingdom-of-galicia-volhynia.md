@@ -2,6 +2,7 @@
 sources:
   - Wikipedia: Kingdom of Galicia–Volhynia | https://en.wikipedia.org/wiki/Kingdom_of_Galicia%E2%80%93Volhynia
   - Wikidata: Kingdom of Galicia–Volhynia (Q239502) | https://www.wikidata.org/wiki/Q239502
+  - Wikipedia: Kingdom of Galicia and Lodomeria | https://en.wikipedia.org/wiki/Kingdom_of_Galicia_and_Lodomeria
   - Borders of Time maps, built on historical-basemaps | https://github.com/aourednik/historical-basemaps
 written: 2026-10-30
 ---

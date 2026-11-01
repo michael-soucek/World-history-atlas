@@ -5,7 +5,7 @@ sources:
   - Borders of Time maps, built on historical-basemaps | https://github.com/aourednik/historical-basemaps
 written: 2026-10-30
 ---
-Coahuiltecan is a collective name for the many small hunter-gatherer peoples who lived in the dry brush country of southern Texas and north-eastern Mexico, astride the Rio Grande. They never formed a single nation: Spanish records name more than 1,000 bands, speaking several languages that may not have been related. Under Spanish rule, epidemics and mission life most of these groups were absorbed into the Hispanic and mestizo population by the early 19th century, but some families kept their heritage, and several organisations in Texas today claim Coahuiltecan descent.
+Coahuiltecan is a collective name for the many small hunter-gatherer peoples who lived in the dry brush country of southern Texas and north-eastern Mexico, astride the Rio Grande. They never formed a single nation: Spanish records name more than 1,000 bands, speaking several languages that may not have been related. Under Spanish rule, through epidemics and mission life, most of these groups were absorbed into the Hispanic and mestizo population by the early 19th century, but some families kept their heritage, and several organisations in Texas today claim Coahuiltecan descent.
 
 ## Land and name
 

@@ -1,6 +1,7 @@
 ---
 sources:
   - Wikipedia: Muslim Sicily | https://en.wikipedia.org/wiki/Muslim_Sicily
+  - Wikipedia: Muslim expulsion to Lucera | https://en.wikipedia.org/wiki/Muslim_expulsion_to_Lucera
   - Wikidata: Muslim Sicily (Q1250763) | https://www.wikidata.org/wiki/Q1250763
   - Borders of Time maps, built on historical-basemaps | https://github.com/aourednik/historical-basemaps
 written: 2026-10-30
@@ -29,7 +30,7 @@ Dynastic quarrels weakened the emirate in the early eleventh century, and a Byza
 
 ## Legacy
 
-Under the Norman counts and kings, Muslims kept a large role in Sicily's crafts, trade and administration, and Arabic remained a language of government for about a century. Pressure on them grew from the 1160s, and after 1189 attacks on Muslim communities spread. A Muslim revolt in the west was crushed by [Frederick II](/person/frederick-ii-holy-roman-emperor), who from 1223 deported the survivors to Lucera in Apulia; the removals were complete by the late 1240s. Arabic left its mark on Sicilian vocabulary and place names, on farming and cooking, and above all on the language of [Malta](/country/malta), which grew out of Siculo-Arabic.
+Under the Norman counts and kings, Muslims kept a large role in Sicily's crafts, trade and administration, and Arabic remained a language of government for at least a century. Pressure on them grew from the 1160s, and after 1189 attacks on Muslim communities spread. A Muslim revolt in the west was crushed by [Frederick II](/person/frederick-ii-holy-roman-emperor), who from 1223 deported the survivors to Lucera in Apulia; the resettlement was largely complete by 1240. Arabic left its mark on Sicilian vocabulary and place names, on farming and cooking, and above all on the language of [Malta](/country/malta), which grew out of Siculo-Arabic.
 
 ## On our maps
 

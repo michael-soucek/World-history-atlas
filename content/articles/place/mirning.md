@@ -19,7 +19,7 @@ The Mirning language is part of the Pama–Nyungan family; its own name, Ngandat
 
 ## Contact
 
-Europeans first met the Jirkala-mirning in 1872, counting just 30 people. Settlers arriving in Wonunda-mirnung country in 1877 put that group at no more than 80. Writing in 1931, the anthropologist A. P. Elkin reported that the Jirkala group no longer existed as a distinct tribe. Mirning families nevertheless kept their identity and their tie to the Bight, and today the language is among those supported by the Far West Languages Centre in Ceduna.
+Europeans first met the Jirkala-mirning in 1872, counting just 30 people. Settlers arriving in Wonunda-mirnung country in 1877 put that group at no more than 80. Writing in 1931, the anthropologist A. P. Elkin reported that the Jirkala group no longer existed as a distinct tribe. Mirning families nevertheless kept their identity and their tie to the Bight.
 
 ## Koonalda Cave
 

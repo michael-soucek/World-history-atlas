@@ -13,7 +13,7 @@ The name probably began with one tribe on the south-eastern Adriatic, in today's
 
 ## Bronze Age roots
 
-Archaeologists trace the Illyrians to Bronze Age cultures of the western Balkans, such as the Cetina culture, formed when steppe-derived newcomers mixed with older Neolithic farmers. Ancient DNA from Croatia, Montenegro and Albania shows this mixture and a common paternal line, J2b-L283, attested in northern Albania as early as the nineteenth century BCE. By the seventh century BCE, at the start of the Iron Age, distinct Illyrian groups appear under influence from the [Hallstatt culture](/place/hallstatt-culture) to the north, burying their elite in earth and stone mounds.
+Archaeologists trace the Illyrians to Bronze Age cultures of the western Balkans, such as the Cetina culture, formed when steppe-derived newcomers mixed with older Neolithic farmers. Ancient DNA from Croatia, Montenegro and Albania shows this mixture and a common paternal line, J2b-L283, attested in northern Albania as early as the nineteenth century BCE. Illyrian culture is usually said to have begun to flourish in the eighth century BCE, early in the Iron Age.
 
 ## Kingdoms, pirates and Rome
 

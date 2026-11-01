@@ -30,7 +30,7 @@ In Idaho the Kootenai Tribe had likewise never signed a treaty with the United S
 
 ## The Ktunaxa today
 
-The four British Columbia nations are ʔakisq̓nuk (Columbia Lake), ʔaq̓am near Cranbrook, Yaqan Nukiy (Lower Kootenay) at Creston, and Tobacco Plains. The language is endangered: Statistics Canada counted 210 speakers in 2021, while the nation's own language programme reports 24 fluent speakers, all over 65. Communities have recorded thousands of words and phrases on the FirstVoices website, built school curricula, and College of the Rockies in Cranbrook teaches introductory Ktunaxa.
+The four British Columbia nations are ʔakisq̓nuk (Columbia Lake), ʔaq̓am near Cranbrook, Yaqan Nukiy (Lower Kootenay) at Creston, and Tobacco Plains. The language is endangered: Statistics Canada counted 210 speakers in 2021, while the nation's own language programme reports 24 fluent speakers, all over 65. Communities have recorded Ktunaxa words and phrases on the FirstVoices website, built school curricula, and College of the Rockies in Cranbrook teaches introductory Ktunaxa.
 
 ## On our maps
 

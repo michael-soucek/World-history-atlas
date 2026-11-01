@@ -13,7 +13,7 @@ Kaarta was a Bambara kingdom in the dry Sahel of what is now western [Mali](/cou
 
 ## Beginnings
 
-Tradition says that Sunsana, son of Niangolo, founded the first capital, Sounsan, near Mourdiah around 1635. His son Massa, who reigned from 1650 to 1710, is remembered for building his power through his many daughters, whose husbands joined him in raiding the neighbouring peoples. Under Benefali (1710–1745) Kaarta fought a long war against Bitòn Coulibaly, who in 1712 had founded the Ségou state. When Benefali's son Foulakoro besieged Mourdiah, its people called on Bitòn for help; Foulakoro was defeated, captured and died a prisoner, and the first Kaarta state came to an end.
+Tradition says that Sunsana, son of Niangolo, founded the first capital, Sounsan, near Mourdiah around 1635. His son Massa, who reigned from 1650 to 1710, is remembered for building his power through his many daughters, whose husbands joined him in raiding the neighbouring peoples. Under Benefali (1710–1745) Kaarta fought a long war against Bitòn Coulibaly, who in 1712 had taken power in Ségou. When Benefali's son Foulakoro besieged Mourdiah, its people called on Bitòn for help; Foulakoro was defeated, captured and died a prisoner, and the first Kaarta state came to an end.
 
 ## Revival
 

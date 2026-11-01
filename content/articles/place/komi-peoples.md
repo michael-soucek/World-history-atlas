@@ -21,7 +21,7 @@ In 1365 Prince Dmitry Donskoy of Moscow charged the missionary Stephen of Perm w
 
 ## Colonisation
 
-Russian settlement grew from the sixteenth century,. Syktyvkar, called Ust-Sysolsk until 1930, was founded in the eighteenth century and became the region's main town. Komi revolts against Russian rule and Slavic settlement grew more frequent after freed serfs arrived in large numbers from the 1860s, and a movement to revive Komi culture took shape.
+Russian settlement grew from the sixteenth century. Syktyvkar, called Ust-Sysolsk until 1930, was founded in the eighteenth century and became the region's main town. Komi revolts against Russian rule and Slavic settlement grew more frequent after freed serfs arrived in large numbers from the 1860s, and a movement to revive Komi culture took shape.
 
 ## The Soviet era
 
@@ -33,7 +33,7 @@ Timber villages traditionally lined the rivers, while the reindeer-herding Izhma
 
 ## The Komi today
 
-Komi, a Permian language within the Uralic family, has two written standards, Zyryan and Permyak, created in the early Soviet years. It is written in Cyrillic with two extra letters. Like other Finno-Ugric peoples of Russia, the Komi are declining in number: the 2010 census counted 228,235 people identifying as Komi, against 336,309 in 1989. Since 1991 they have reasserted their distinct identity.
+Komi, a Permian language within the Uralic family, has two main written forms, Zyryan and Permyak, long treated as separate languages. It is written in Cyrillic with two extra letters. Like other Finno-Ugric peoples of Russia, the Komi are declining in number: the 2010 census counted 228,235 people identifying as Komi, against 336,309 in 1989. Since 1991 they have reasserted their distinct identity.
 
 ## On our maps
 

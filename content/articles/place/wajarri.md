@@ -15,7 +15,7 @@ Norman Tindale estimated Wajarri lands at about 35,000 square miles (roughly 90,
 
 ## Language
 
-Wajarri belongs to the Kartu group, part of the Pama–Nyungan family, and is classed as endangered. Sketch grammars were written in 1981 and 1996, and the Yamaji Language Centre produced an illustrated wordlist and other materials through the 1990s. Since July 2005 a Geraldton language programme has published a printed dictionary and a dictionary app, worked with schools and held community classes. In 2008 Wajarri became the first Aboriginal language offered at senior secondary level in Western Australia. The word yamaji can mean a Wajarri person or, more broadly, Aboriginal people of the Murchison–Gascoyne region.
+Wajarri belongs to the Kartu group, part of the Pama–Nyungan family, and is classed as endangered. Sketch grammars were written in 1981 and 1996, and the Yamaji Language Centre produced an illustrated wordlist and other materials through the 1990s. Since July 2005 a Geraldton language programme has published a printed dictionary and a dictionary app, worked with schools and held community classes. In 2008 Wajarri reportedly became the first Aboriginal language offered at senior secondary level in Western Australia. The word yamaji can mean a Wajarri person or, more broadly, Aboriginal people of the Murchison–Gascoyne region.
 
 ## The radio observatory
 

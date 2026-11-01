@@ -22,7 +22,7 @@ Florence remained formally a republic. Like his grandfather, Lorenzo governed th
 
 ## The Pazzi conspiracy
 
-On 26 April 1478, during Mass in Florence Cathedral, conspirators linked to the rival Pazzi family and to Francesco Salviati, archbishop of Pisa, attacked the two brothers. Giuliano was stabbed to death; Lorenzo escaped with a neck wound. Salviati had the backing of Pope Sixtus IV. Florentine crowds took violent revenge, lynching the archbishop and several Pazzi. The pope then excommunicated Lorenzo, placed Florence under interdict and joined King Ferdinand I of Naples in a war against the city. With few allies, Lorenzo went to Naples in person and, after months as the king's guest and virtual captive, negotiated peace. The success let him strengthen his hold on Florence's government.
+On 26 April 1478, during Mass in Florence Cathedral, conspirators linked to the rival Pazzi family and to Francesco Salviati, archbishop of Pisa, attacked the two brothers. Giuliano was stabbed to death; Lorenzo escaped with a wound. Salviati had the backing of Pope Sixtus IV. Florentine crowds took violent revenge, lynching the archbishop and several Pazzi. The pope then excommunicated Lorenzo, placed Florence under interdict and joined King Ferdinand I of Naples in a war against the city. With few allies, Lorenzo went to Naples in person and, after months as the king's guest and virtual captive, negotiated peace. The success let him strengthen his hold on Florence's government.
 
 ## Keeper of the balance
 
@@ -30,7 +30,7 @@ Afterwards Lorenzo tried to preserve peace among the main Italian powers, includ
 
 ## Patron and poet
 
-Lorenzo commissioned relatively few works himself, but he helped artists such as Botticelli, Verrocchio, Ghirlandaio and [Leonardo da Vinci](/person/leonardo-da-vinci) win commissions, and he sent Florentine painters to decorate the Sistine Chapel as a gesture to the pope. The young [Michelangelo](/person/michelangelo) lived in his household for three years. He expanded the Medici library, had agents collect Greek manuscripts, and gathered philosophers such as Ficino, Poliziano and Pico della Mirandola. He also wrote poetry in Tuscan.
+Lorenzo commissioned relatively few works himself, but he helped artists such as Botticelli, Verrocchio, Ghirlandaio and [Leonardo da Vinci](/person/leonardo-da-vinci) win commissions, and he sent Florentine painters to decorate the Sistine Chapel as a gesture to the pope. The young [Michelangelo](/person/michelangelo) joined his circle in 1489 and stayed at the Medici court until Lorenzo's death. He expanded the Medici library, had agents collect Greek manuscripts, and gathered philosophers such as Ficino, Poliziano and Pico della Mirandola. He also wrote poetry in Tuscan.
 
 ## Death and aftermath
 

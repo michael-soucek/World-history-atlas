@@ -8,7 +8,7 @@ sources:
   - Borders of Time maps, built on historical-basemaps | https://github.com/aourednik/historical-basemaps
 written: 2026-10-30
 ---
-The Yankunytjatjara are Aboriginal people of the far north-west of South Australia, the easternmost of the peoples who speak the Western Desert language. Their country runs from the Musgrave Ranges east to the Everard Ranges, and together with the Pitjantjatjara they gave their names to the Aṉangu Pitjantjatjara Yankunytjatjara (APY) Lands, returned to Aboriginal ownership in 1981.
+The Yankunytjatjara are Aboriginal people of the far north-west of South Australia, among the easternmost of the peoples who speak the Western Desert language. Their country runs from the Musgrave Ranges east to the Everard Ranges, and together with the Pitjantjatjara they gave their names to the Aṉangu Pitjantjatjara Yankunytjatjara (APY) Lands, returned to Aboriginal ownership in 1981.
 
 ## Language
 
@@ -22,7 +22,7 @@ Norman Tindale estimated the Yankunytjatjara lands at about 22,000 square miles.
 
 ## Twentieth century
 
-Church and government settlements came to the region in the mid-20th century. In 1961 the Church founded the community now called Kaltjiti, then known as Fregon, and in 1968 the South Australian government established Indulkana as a base for welfare services to people living in camps on pastoral stations. British nuclear tests in the 1950s also touched Yankunytjatjara lives: the activist Yami Lester, a Yankunytjatjara man, was blinded as a boy after the "black mist" from the Emu 1 test of 15 October 1953 passed over his family's camp. His later campaigning helped bring about the McClelland Royal Commission of 1985.
+Church and government settlements came to the region in the mid-20th century. Around 1961, according to some accounts, the Church founded the community now called Kaltjiti, then known as Fregon, and in about 1968 the South Australian government established Indulkana as a base for welfare services to people living in camps on pastoral stations. British nuclear tests in the 1950s also touched Yankunytjatjara lives: the activist Yami Lester, a Yankunytjatjara man, was blinded as a boy after the "black mist" from the Emu 1 test of 15 October 1953 passed over his family's camp. His later campaigning helped bring about the McClelland Royal Commission of 1985.
 
 ## Land rights and today
 

@@ -30,7 +30,7 @@ Fighting began in March 1900, when Asante warriors surrounded the British and th
 
 ## Exile and remembrance
 
-In 1901 the British arrested Yaa Asantewaa and other chiefs and exiled them to the Seychelles, and on 1 January 1902 Asante was formally annexed to the British crown. She died there on 17 October 1921. When Prempeh I was allowed home in 1924, he arranged for her remains to be brought back for a royal burial. Asante became part of independent [Ghana](/country/ghana) in 1957. In 1960 a girls' secondary school in Kumasi was named after her, and in 2000 the centenary of the war was marked with a festival and a museum at Kwaso in the Ejisu district, much of whose collection, including her battle dress, was lost in a fire in 2004.
+After the war the British captured Yaa Asantewaa and other chiefs and exiled them to the Seychelles, and on 1 January 1902 Asante was formally annexed to the British crown. She died there on 17 October 1921. When Prempeh I was allowed home in 1924, he arranged for her remains to be brought back for a royal burial. Asante became part of independent [Ghana](/country/ghana) in 1957. In 1960 a girls' secondary school in Kumasi was named after her, and in 2000 the centenary of the war was marked with a festival and a museum at Kwaso in the Ejisu district, where several items, including her battle dress, were lost in a fire in 2004.
 
 ## On our maps
 

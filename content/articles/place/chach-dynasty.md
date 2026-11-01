@@ -13,19 +13,19 @@ In the 7th century the lower Indus valley was ruled by a short-lived Brahmin dyn
 
 ## A problem of sources
 
-Almost everything known about the dynasty comes from the Chach Nama, a Persian work written in the 13th century by Ali Kufi, who said he had translated an older Arabic history. Parts of it agree with earlier Arab historians such as al-Baladhuri, and other parts seem to preserve local traditions. Some modern historians, however, doubt its reliability, and Manan Ahmed Asif argues that it is largely an original literary work shaped by the politics of its own time. Its dates, numbers and speeches are therefore best treated with caution. Coins struck in Sindh in the names of its rulers give some independent evidence.
+Almost everything known about the dynasty comes from the Chach Nama, a Persian work written in the 13th century by Ali Kufi, who said he had translated an older Arabic history. Parts of it agree with earlier Arab historians such as al-Baladhuri, and other parts seem to preserve local traditions. Some modern historians, however, doubt its reliability, and Manan Ahmed Asif argues that it is largely an original literary work shaped by the politics of its own time. Its dates, numbers and speeches are therefore best treated with caution.
 
 ## Chach seizes the throne
 
-According to the Chach Nama, Chach was a Brahmin who rose to become a trusted minister at the court of Rai Sahasi II, the last ruler of the Rai dynasty, which had supported Buddhism. When the king died, Chach married his widow and took power, and he secured his position by killing the late king's brother, who had come from Chittor to claim the throne. Chach then campaigned in every direction to bring neighbouring rulers and peoples under his control. He reigned until about 671.
+According to the Chach Nama, Chach was a Brahmin who rose to become a close confidant at the court of Rai Sahasi II, the last ruler of the Rai dynasty, which had supported Buddhism. When the king died, Chach married his widow and took power, and he secured his position by killing the late king's brother, who had come from Chittor to claim the throne. Chach then campaigned in every direction to bring neighbouring rulers and peoples under his control. He reigned until about 671.
 
 ## Chandar and Dahir
 
-Chach was followed by his brother Chandar, who is said to have ruled for about eight years, and then by Chach's son Dahir, who ruled from Aror while another son governed at Brahmanabad. Sindh's population was mostly Hindu, with a significant Buddhist minority, and many accounts describe tensions between Buddhist communities and the Brahmin dynasty, which some regarded as usurpers. Historians caution, though, that other evidence points to peaceful relations between followers of the two religions.
+Chach was followed by his brother Chandar, who is said to have ruled for about eight years, and then by Chach's son Dahir, who ruled from Aror while another son governed at Brahmanabad. Sindh's population was mostly Hindu, with a significant Buddhist minority, and many accounts describe tensions between Buddhist communities and the Brahmin dynasty, which some regarded as usurpers.
 
 ## The Arab conquest
 
-Arab forces had raided the region since the mid-7th century. The immediate cause of the final war, according to the Chach Nama and other accounts, was an attack by pirates near the port of Debal on ships carrying gifts and Muslim travellers from Sri Lanka. Al-Hajjaj ibn Yusuf, governor of Iraq, demanded redress; when Dahir said he could not control the pirates, two Arab expeditions were sent, and both were defeated near Debal.
+Arab forces had raided the region since the mid-7th century. The immediate cause of the final war, according to the Chach Nama and other accounts, was an attack by pirates near the port of Debal on ships carrying gifts and Muslim travellers from Sri Lanka. Al-Hajjaj ibn Yusuf, governor of Iraq, sent two Arab expeditions, and both were defeated near Debal.
 
 In 711 al-Hajjaj sent his young nephew, Muhammad ibn al-Qasim, with a large army of cavalry, camel troops and siege engines. He took Debal, won over several Buddhist towns and local groups, crossed the Indus and met Dahir near Aror. Dahir was killed in the battle, in 712 according to most accounts. His son Jaisimha held Brahmanabad for some months before it fell, and Aror and Multan were taken soon after. Casualty figures in the chronicles range into the thousands at several cities, though the invaders took most towns by negotiated surrender.
 

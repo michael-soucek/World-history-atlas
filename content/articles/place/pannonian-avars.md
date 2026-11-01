@@ -5,7 +5,7 @@ sources:
   - Borders of Time maps, built on historical-basemaps | https://github.com/aourednik/historical-basemaps
 written: 2026-10-30
 ---
-The Avars who ruled the Carpathian Basin from the 560s until about 800 were mounted nomads from the eastern steppe who built one of early medieval Europe's great powers, the Avar Khaganate. From their base on the plains of today's Hungary they dominated Slavic, Germanic and Bulgar subjects, besieged Constantinople and shaped the Slavic settlement of the Balkans, before Frankish armies broke their realm in the 790s. They are called Pannonian Avars to set them apart from the unrelated Avars of the Caucasus.
+The Avars who ruled the Carpathian Basin from the 560s until about 800 were mounted nomads from the eastern steppe who built one of early medieval Europe's great powers, the Avar Khaganate. From their base on the plains of today's Hungary they dominated Slavic, Germanic and Bulgar subjects, besieged Constantinople and shaped the Slavic settlement of the Balkans, before Frankish armies broke their realm in the 790s. They are called Pannonian Avars to set them apart from the separate Avars of the Caucasus.
 
 ## From the eastern steppe
 
@@ -29,7 +29,7 @@ After [Charlemagne](/person/charlemagne) annexed Bavaria in 788, war with the Fr
 
 ## Legacy and debates
 
-The Avars gradually merged with the Slavic majority, and survivors were probably absorbed by the Hungarians after the Magyar conquest of the 890s, which laid the ground for the later [Kingdom of Hungary](/place/kingdom-of-hungary). The archaeologist Gyula László argued that late Avars survived in large numbers and even passed their speech to the Hungarians, a continuity theory that has supporters in Hungary but is not widely accepted. Most scholars doubt any link with today's Caucasian Avars.
+The Avars gradually merged with the Slavic majority, and survivors were probably absorbed by the Hungarians after the Magyar conquest of the 890s, which laid the ground for the later [Kingdom of Hungary](/place/kingdom-of-hungary). The archaeologist Gyula László argued that late Avars survived in large numbers and even passed their speech to the Hungarians, a theory known as Avar-Hungarian continuity. Whether they had any link with today's Caucasian Avars is uncertain.
 
 ## On our maps
 

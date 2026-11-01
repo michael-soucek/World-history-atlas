@@ -1,6 +1,7 @@
 ---
 sources:
   - Wikipedia: Navajo | https://en.wikipedia.org/wiki/Navajo
+  - Wikipedia: Code talker | https://en.wikipedia.org/wiki/Code_talker
   - Wikidata: Navajo (Q108266) | https://www.wikidata.org/wiki/Q108266
   - Borders of Time maps, built on historical-basemaps | https://github.com/aourednik/historical-basemaps
 written: 2026-10-30

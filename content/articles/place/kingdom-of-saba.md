@@ -15,7 +15,7 @@ The second is the archaeological and epigraphic record. About 6,500 of the rough
 
 ## Origins
 
-Scholars disagree about when the kingdom began. A formative phase is placed in the late 2nd millennium BCE, and estimates for the state itself range from about 1200 BCE to the 8th century BCE; many put its emergence between about 1000 and 800 BCE. The early Sabaeans were a tribal community on the edge of the Sayhad desert, whose leaders built a commonwealth of allied groups and took the title mukarrib, "federator".
+Scholars disagree about when the kingdom began. Marib itself appears to have been settled in the late 2nd millennium BCE, and estimates for the state itself range from about 1200 BCE to the 8th century BCE; many put its emergence between about 1000 and 800 BCE. The early Sabaeans were a tribal community on the edge of the Sayhad desert, whose leaders built a commonwealth of allied groups and took the title mukarrib, "federator".
 
 ## The age of the mukarribs
 

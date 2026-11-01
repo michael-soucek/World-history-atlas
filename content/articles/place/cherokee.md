@@ -2,6 +2,7 @@
 sources:
   - Wikipedia: Cherokee | https://en.wikipedia.org/wiki/Cherokee
   - Wikipedia: Trail of Tears | https://en.wikipedia.org/wiki/Trail_of_Tears
+  - Wikipedia: Dragging Canoe | https://en.wikipedia.org/wiki/Dragging_Canoe
   - Wikidata: Cherokee (Q105405) | https://www.wikidata.org/wiki/Q105405
   - Borders of Time maps, built on historical-basemaps | https://github.com/aourednik/historical-basemaps
 written: 2026-10-30
@@ -18,7 +19,7 @@ Cherokee society was matrilineal. Children belonged to the mother's clan, one of
 
 ## Trade, war and the colonies
 
-From the 1690s the Cherokee traded deerskins with the English colonies and fought as British allies in several wars, while smallpox in 1738–39 killed perhaps half the people, by one contemporary account. Disputes during the [French and Indian War](/event/french-and-indian-war) led to the Anglo-Cherokee War of 1760. During the American Revolution, militias destroyed more than 50 Cherokee towns, and Dragging Canoe's followers, whose mother was [Natchez](/place/natchez-people), fought on until 1794.
+From the 1690s the Cherokee traded deerskins with the English colonies and fought as British allies in several wars, while smallpox in 1738–39 killed perhaps half the people, by one contemporary account. Disputes during the [French and Indian War](/event/french-and-indian-war) led to the Anglo-Cherokee War of 1760. During the American Revolution, militias destroyed more than 50 Cherokee towns, and Dragging Canoe, whose mother was [Natchez](/place/natchez-people)-born, fought on with his followers until 1794.
 
 ## A nation with a constitution
 

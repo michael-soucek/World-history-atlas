@@ -16,7 +16,7 @@ Around 1900 the people immediately west of the Western Arrernte called themselve
 
 Norman Tindale put their lands at about 10,300 square miles, west of the Gosse Range and Palm Valley on the southern MacDonnell Ranges, south to Tempe Downs and south-west towards Lake Amadeus and the George Gill Range around Kings Canyon. People of the border country with the [Arrernte](/place/arrernte-people) often speak both languages and share ancestors and law.
 
-Luritja is a dialect of the Western Desert language. Papunya Luritja, spoken from Papunya west through Mount Liebig, is close to the language of the [Pintupi](/place/pintupi) and has probably absorbed influences from Arrernte and Warlpiri; the variety at Kintore is often called Pintupi-Luritja. Southern or Titjikala Luritja, spoken around Titjikala and Watarrka (Kings Canyon), is closer to [Pitjantjatjara](/place/pitjantjatjara) and the northern varieties of [Yankunytjatjara](/place/yankunytjatjara). Luritja is said to be the Aboriginal language most widely spoken in Alice Springs.
+Luritja is a dialect of the Western Desert language. Papunya Luritja, spoken from Papunya west through Mount Liebig, is close to the language of the [Pintupi](/place/pintupi) and has probably absorbed influences from Arrernte and Warlpiri; the variety at Kintore is often called Pintupi-Luritja. Southern or Titjikala Luritja, spoken around Titjikala and Watarrka (Kings Canyon), probably derives mostly from [Pitjantjatjara](/place/pitjantjatjara), and southern Luritja groups also show influence from [Yankunytjatjara](/place/yankunytjatjara).
 
 ## Missionaries and anthropologists
 
@@ -24,7 +24,7 @@ The Lutheran missionary Carl Strehlow made the first sustained study of the Kuka
 
 ## Land and art
 
-In 1974 the Luritja founded the Luritja Land Association, the first Aboriginal land rights organisation in Central Australia. In December 1993 about 4,750 square kilometres, including the Tempe Downs and Middleton Ponds pastoral leases, were bought for the traditional owners, and more than 350 Luritja people lived there or planned to. Pintupi-Luritja communities founded after colonisation, among them some sixteen outstations, were mostly still inhabited in 2011.
+In 1974 the Luritja founded the Luritja Land Association, the first Aboriginal land rights organisation in Central Australia. In December 1993 about 4,750 square kilometres, including the Tempe Downs and Middleton Ponds pastoral leases, were bought for the traditional owners, and more than 350 Luritja people lived there or planned to. Pintupi-Luritja communities founded after colonisation, among them some sixteen outstations, were in many cases still inhabited in 2011.
 
 Art is central to the Luritja economy. Papunya Tula, whose artists live mostly at Papunya and Kintore, is world-renowned, and painters in Alice Springs work through the Tangentyere Artists collective. The Luritja artist and activist Harold Thomas designed the Aboriginal flag.
 

@@ -6,7 +6,7 @@ sources:
   - Borders of Time maps, built on historical-basemaps | https://github.com/aourednik/historical-basemaps
 written: 2026-10-30
 ---
-For more than two centuries the Deccan plateau of south-central India was governed by the Nizams, a line of Muslim rulers whose realm became the largest and richest of the Indian princely states. Founded in 1724 by a former Mughal governor, Hyderabad State passed under British protection in 1798 and survived until 1948, when the newly independent Indian government took it over by military force. Its lands now lie in Telangana, Karnataka and Maharashtra in [India](/country/india).
+For more than two centuries the Deccan plateau of south-central India was governed by the Nizams, a line of Muslim rulers whose realm became one of the largest and richest of the Indian princely states. Founded in 1724 by a former Mughal governor, Hyderabad State passed under British protection in 1798 and survived until 1948, when the newly independent Indian government took it over by military force. Its lands now lie in Telangana, Karnataka and Maharashtra in [India](/country/india).
 
 ## From Mughal province to dynasty
 
@@ -24,7 +24,7 @@ From 1857 the chief minister Salar Jung I reorganised the administration into di
 
 When British rule ended in 1947, the Nizam declined to join either India or Pakistan. Hyderabad signed a standstill agreement with India in November 1947, but relations broke down amid accusations on both sides: India pointed to the Razakars, an armed Muslim militia led by Qasim Razvi that was accused of widespread attacks on Hindus, while Hyderabad complained of an economic blockade. A communist-led peasant uprising was also under way in Telangana. Hyderabad appealed to the United Nations Security Council.
 
-On 13 September 1948 the Indian Army entered the state in an operation code-named Operation Polo and officially called a "police action". The Nizam's forces were quickly overwhelmed, and he announced a ceasefire on 17 September. Severe communal violence followed. A mixed-faith committee led by Pandit Sunderlal, appointed by [Jawaharlal Nehru](/person/jawaharlal-nehru), reported large-scale reprisals against Muslims in Marathwada and Telangana, mostly by local Hindus, with soldiers sometimes standing by and sometimes taking part. Its report, not made public until 2013, gave a deliberately conservative estimate of roughly 27,000 to 40,000 dead; other scholars and observers have put the toll at 200,000 or higher.
+On 13 September 1948 the Indian Army entered the state in an operation code-named Operation Polo and officially called a "police action". The Nizam's forces were quickly overwhelmed, and he announced a ceasefire on 17 September. Severe communal violence followed. A mixed-faith committee led by Pandit Sunderlal, appointed by [Jawaharlal Nehru](/person/jawaharlal-nehru), reported large-scale reprisals against Muslims in Marathwada and Telangana, mostly by local Hindus, with soldiers sometimes standing by and sometimes taking part. Its report, not made public until 2013, gave what it called a very conservative estimate of roughly 27,000 to 40,000 dead; other scholars and observers have put the toll at 200,000 or higher.
 
 ## Afterwards
 

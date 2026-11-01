@@ -25,7 +25,7 @@ Though the dynasty was Turkish, its sultans took old Persian royal names, such a
 
 ## Under the Mongols
 
-In 1243 a Mongol army under Baiju crushed Kaykhusraw II at Köse Dağ, and the sultanate became a vassal of the Mongols and later of the [Ilkhanate](/place/ilkhanate). The realm was split among rival brothers, and real power passed to Mongol officials and regents. Local Turkish lords founded small principalities, the beyliks, that slipped out of Konya's control. By the 1280s the sultans directly ruled little beyond Konya. Mesud II, the last of the Seljuk vassal sultans, was murdered in 1308. One of the beyliks, the house of Osman, would go on to build the [Ottoman Empire](/place/ottoman-empire).
+In 1243 a Mongol army under Baiju crushed Kaykhusraw II at Köse Dağ, and the sultanate became a vassal of the Mongols and later of the [Ilkhanate](/place/ilkhanate). The realm was split among rival brothers, and real power passed to Mongol officials and regents. Local Turkish lords founded small principalities, the beyliks, that slipped out of Konya's control. By the 1280s the sultans directly ruled little beyond Konya. Mesud II, sultan in Kayseri from 1303, was murdered in 1308, and his son Mesud III soon afterwards. One of the beyliks, the house of Osman, would go on to build the [Ottoman Empire](/place/ottoman-empire).
 
 ## On our maps
 

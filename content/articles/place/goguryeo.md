@@ -2,6 +2,7 @@
 sources:
   - Wikipedia: Goguryeo | https://en.wikipedia.org/wiki/Goguryeo
   - Wikidata: Goguryeo (Q28370) | https://www.wikidata.org/wiki/Q28370
+  - Wikipedia: Gwanggaeto the Great | https://en.wikipedia.org/wiki/Gwanggaeto_the_Great
   - Borders of Time maps, built on historical-basemaps | https://github.com/aourednik/historical-basemaps
 written: 2026-10-30
 ---
@@ -17,7 +18,7 @@ Goguryeo began as a federation of five tribes. Under King Taejo, in the 1st and 
 
 ## The golden age
 
-[Gwanggaeto the Great](/person/gwanggaeto-the-great), who reigned from 391, campaigned in every direction. According to his memorial stele at Ji'an, he took 64 walled towns and 1,400 villages, seized Liaodong, absorbed much of Buyeo and made [Silla](/place/silla) a dependent. His son Jangsu reigned for 79 years, moved the capital to Pyongyang in 427 and pushed north towards the Songhua River. Society was strongly military: every man owed service, and at its height the kingdom could reportedly raise some 300,000 troops.
+[Gwanggaeto the Great](/person/gwanggaeto-the-great), who reigned from 391, campaigned in every direction. He is credited with taking 64 walled towns and 1,400 villages, seized Liaodong, absorbed much of Buyeo and made [Silla](/place/silla) a dependent. His son Jangsu reigned for 79 years, moved the capital to Pyongyang in 427 and pushed north towards the Songhua River. Society was strongly military: every man owed service, and at its height the kingdom could reportedly raise some 300,000 troops.
 
 ## Wars with Sui and Tang
 
@@ -29,7 +30,7 @@ Yŏn Kaesomun's death in 666 set his sons against each other, and one defected t
 
 ## Culture and legacy
 
-Goguryeo's surviving art lies mainly in painted tombs near Ji'an and Pyongyang, showing hunts, dances and warriors; in 2004 UNESCO inscribed sites in China and North Korea on its World Heritage List. Ancestor worship, an annual October festival honouring Jumong, Buddhism and Taoism all had a place in its religious life. In modern times China and Korea have disputed whether Goguryeo belongs to Chinese or Korean history. China's state-backed Northeast Project of 2002 to 2007 was criticised, especially in Korea, for treating it as part of China's past, while Korean scholars regard it as a Korean kingdom; in 2004 the two governments reached a diplomatic compromise.
+Goguryeo's surviving art lies mainly in painted tombs near Ji'an and Pyongyang, showing hunts, dances and warriors; in 2004 UNESCO inscribed sites in China and North Korea on its World Heritage List. Ancestor worship, an annual October festival, the Dongmaeng, Buddhism and Taoism all had a place in its religious life. In modern times China and Korea have disputed whether Goguryeo belongs to Chinese or Korean history. China's state-backed Northeast Project of 2002 to 2007 was criticised, especially in Korea, for treating it as part of China's past, while Korean scholars regard it as a Korean kingdom; in 2004 the two governments reached a diplomatic compromise.
 
 ## On our maps
 

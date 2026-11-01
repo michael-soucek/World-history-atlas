@@ -21,7 +21,7 @@ By the third century BCE the fortified town, or oppidum, had replaced the clan a
 
 ## Between Carthage and Rome
 
-When [Carthage](/place/carthage) and Rome fought for Spain, the Celtiberians were the most influential people of the interior. Many served Carthage as allies or mercenaries, some crossing the Alps with [Hannibal](/person/hannibal), until [Scipio Africanus](/person/scipio-africanus) won many tribes over to Rome. Part of Celtiberia was conquered in 195 BCE, and revolts followed in 195 to 193, 181 to 179, 153 to 151 and 143 to 133 BCE. In 153 BCE the town of Segeda defied Rome and its people fled to Numantia, where Roman armies suffered heavy losses, and in 137 BCE a consular army of 20,000 under Mancinus was forced to surrender.
+When [Carthage](/place/carthage) and Rome fought for Spain, the Celtiberians were the most influential people of the interior. Many served Carthage as allies or mercenaries, some crossing the Alps with [Hannibal](/person/hannibal), until [Scipio Africanus](/person/scipio-africanus) won many tribes over to Rome. Part of Celtiberia was conquered in 195 BCE, and revolts followed in 195 to 193, 181 to 179, 153 to 151 and 143 to 133 BCE. In 154 BCE the town of Segeda defied Rome and its people fled to Numantia, where Roman armies suffered heavy losses, and in 137 BCE a consular army of 20,000 under Mancinus was forced to surrender.
 
 ## Numantia and after
 

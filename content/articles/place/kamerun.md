@@ -8,7 +8,7 @@ sources:
   - Borders of Time maps, built on historical-basemaps | https://github.com/aourednik/historical-basemaps
 written: 2026-10-30
 ---
-Germany's colony in west-central Africa, Kamerun, stretched from the Gulf of Guinea coast at Duala deep into the interior, covering most of present-day Cameroon and, after 1911, slices of Chad, the Central African Republic, Congo, Gabon and Nigeria. It existed from 1884 until British, French and Belgian forces conquered it in 1914–1916. Its history is one of plantations, forced labour and violent conquest, but also of African rulers who negotiated, collaborated and, in the end, resisted.
+Germany's colony in west-central Africa, Kamerun, stretched from the Gulf of Guinea coast at Duala deep into the interior, covering most of present-day Cameroon and, by 1914, slices of Chad, the Central African Republic, Congo, Gabon and Nigeria. It existed from 1884 until British, French and Belgian forces conquered it in 1914–1916. Its history is one of plantations, forced labour and violent conquest, but also of African rulers who negotiated, collaborated and, in the end, resisted.
 
 ## Traders and treaties
 
@@ -28,7 +28,7 @@ From 1910 the colonial government planned to move the Duala people away from the
 
 ## War and partition
 
-Surrounded by Allied colonies, Kamerun was invaded from several sides in the [First World War](/event/world-war-i). Duala surrendered on 27 September 1914. German forces held out in the interior around Jaunde (Yaoundé) until early 1916, when most German troops, together with many Cameroonian soldiers and chiefs, including Beti leaders, withdrew to neutral Spanish Guinea; the northern fort at Mora surrendered in February 1916. The Allied armies used some 40,000 African carriers. Britain and France divided the colony, with France taking about four-fifths, and the [Treaty of Versailles](/event/treaty-of-versailles) confirmed the split into League of Nations mandates, including [French Cameroon](/place/french-cameroon). French Cameroon and part of British Cameroons reunited as independent [Cameroon](/country/cameroon) in 1961.
+Surrounded by Allied colonies, Kamerun was invaded from several sides in the [First World War](/event/world-war-i). Duala surrendered on 27 September 1914. German forces held out in the interior around Jaunde (Yaoundé) until early 1916, when most German troops and the civil administration withdrew to neutral Spanish Guinea; the northern fort at Mora surrendered in February 1916. The Allied armies used some 40,000 African carriers. Britain and France divided the colony, with France taking about four-fifths, and the [Treaty of Versailles](/event/treaty-of-versailles) confirmed the split into League of Nations mandates, including [French Cameroon](/place/french-cameroon). French Cameroon and part of British Cameroons reunited as independent [Cameroon](/country/cameroon) in 1961.
 
 ## On our maps
 

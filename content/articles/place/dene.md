@@ -20,7 +20,7 @@ No people lived in what is now the Northwest Territories before the Dene. Most l
 
 ## Fur trade and treaties
 
-The name Chipewyan comes from a Cree word for "pointed hides", after the cut of their parkas; despite the similar sound, they are unrelated to the Chippewa ([Ojibwe](/place/ojibwe)). Chipewyan contact with English traders began around 1717, and a young Chipewyan woman, Thanadelthur, helped make peace with the [Cree](/place/cree) so that her people could join the fur trade. Chipewyan bands later grouped around trading posts, acting as middlemen and trappers. In 1899 Treaty 8 was negotiated with Dene groups in the south, and after oil was found in the Mackenzie valley Canada sought Treaty 11, signed in 1921. Many Dene felt these treaties were not honoured. In 1956 the government forcibly moved the Sayisi Dene to Churchill, a relocation now commemorated by a memorial there; in the 1970s they returned to caribou country at Tadoule Lake.
+The name Chipewyan comes from a Cree word for "pointed hides", after the cut of their parkas; despite the similar sound, they are unrelated to the Chippewa ([Ojibwe](/place/ojibwe)). Chipewyan contact with English traders began around 1717, and a young Chipewyan woman, Thanadelthur, helped make peace with the [Cree](/place/cree) so that her people could join the fur trade. Chipewyan bands later grouped around trading posts, acting as middlemen and trappers. In 1899 Treaty 8 was negotiated with Dene groups in the south, and after oil was found in the Mackenzie valley Canada sought Treaty 11, signed in 1921. Many Dene felt Treaty 8 had not been honoured. In 1956 the government forcibly moved the Sayisi Dene to Churchill; in the 1970s they returned to caribou country at Tadoule Lake.
 
 ## The Dene today
 

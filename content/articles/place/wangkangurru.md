@@ -10,7 +10,7 @@ Much of the Simpson Desert, in the far north of South Australia, is Wangkangurru
 
 ## Country
 
-Norman Tindale estimated Wangkangurru country at about 14,000 square miles (roughly 36,000 square kilometres). It ran north from Stevenson Creek to Mount Dare, took in the lower Finke River and Macumba Creek, and covered the southern Simpson Desert, reaching south-east to the Warburton River and Kallakoopah Creek, and included Atna Hill and Blood Creek. Early outsiders recorded the name in many garbled forms; Tindale noted that one expedition member in 1895 seemed unable to hear some of its sounds, writing "Wonkongnuru".
+Norman Tindale estimated Wangkangurru country at about 14,000 square miles (roughly 36,000 square kilometres). It ran north from Stevenson Creek to Mount Dare, took in the lower Finke River and Macumba Creek, and covered the southern Simpson Desert, reaching south-east to the Warburton River and Kallakoopah Creek, and included Atna Hill and Blood Creek. Early outsiders recorded the name in many garbled forms; Tindale noted that one expedition member, writing in 1895, seemed unable to hear some of its sounds, writing "Wonkongnuru".
 
 ## Language
 

@@ -29,4 +29,4 @@ The Hopi adopted a constitution in 1936, creating a Tribal Council while keeping
 
 ## On our maps
 
-Our 1500 map draws an approximate Hopi territory around the mesas of north-eastern Arizona; the outline is a rough indication of a much smaller village homeland. Neighbours on the same map include the Navajo, the [Apache](/place/apache) and the [Ute](/place/ute-people).
+Our 1500 map draws an approximate Hopi territory around the mesas of north-eastern Arizona; the outline is a rough indication of a much smaller village homeland. Neighbours on the same map include the Navajo and the [Apache](/place/apache).

@@ -8,7 +8,7 @@ sources:
   - Borders of Time maps, built on historical-basemaps | https://github.com/aourednik/historical-basemaps
 written: 2026-10-30
 ---
-The Antakirinja, spelled Antikirinya by the Australian Institute of Aboriginal and Torres Strait Islander Studies and sometimes called Ngonde, are an Aboriginal people of the far north of South Australia. Their country lies on the eastern edge of the Western Desert, between the Everard Ranges and the stony gibber plains around Coober Pedy. Today many Antakirinja people live in towns such as Coober Pedy and Oodnadatta, and many who once identified as Antakirinja now identify as Yankunytjatjara.
+The Antakirinja, also spelled Antikirinya or Antakarinya and sometimes called Ngonde, are an Aboriginal people of the far north of South Australia. Their country lies on the eastern edge of the Western Desert, between the Everard Ranges and the stony gibber plains around Coober Pedy. Many people who once identified as Antakirinja now identify as Yankunytjatjara.
 
 ## Name and language
 
@@ -20,7 +20,7 @@ Tindale estimated their lands at about 24,500 square miles. They took in the upp
 
 ## Recording their own history
 
-In 2000 an Antikirinja Social History Project recorded oral history interviews, translated by Bobby Brown, which are now held by the State Library of South Australia. In 2012 the Antakirinja man Ingkama Bobby Brown and the linguist Petter Naessan published Irrititja, The Past, an Antakirinja history centred on Ingomar Station that covers his upbringing, the foods and animals of the country and the language.
+In 2012 the Antakirinja man Ingkama Bobby Brown and the linguist Petter Naessan published Irrititja, The Past, an Antakirinja history from Ingomar Station and beyond.
 
 ## On our maps
 

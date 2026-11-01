@@ -19,7 +19,7 @@ Pawnee belief gave the stars a central place: the Morning Star and Evening Star 
 
 ## Contact, slavery and horses
 
-Spanish records from 1541 describe Coronado meeting the grass-lodge villages of "Quivira" and the people of "Harahey", whom one historian identified with the Pawnee. In the later seventeenth century, raiders armed with French guns carried off so many Pawnee captives that in French Canada "Panis" came to mean any Indigenous slave. By around 1719 the Pawnee had their own horses and guns, and in 1720 they destroyed a Spanish expedition under Villasur in Nebraska, killing Villasur, 45 other Spaniards and 11 Pueblo allies. Smallpox epidemics from about 1760 reduced the Skidi, who had lived in eight large villages in 1725, to a single village by 1800.
+Spanish records from 1541 describe Coronado meeting the grass-lodge villages of "Quivira" and the people of "Harahey", whom one historian identified with the Pawnee. From the mid-seventeenth century, raiders armed with French metal weapons carried off so many Pawnee captives that in French Canada "Panis" came to mean any Indigenous slave. By around 1719 the Pawnee had their own horses and metal weapons, and in 1720 they destroyed a Spanish expedition under Villasur in Nebraska, killing Villasur, 45 other Spaniards and 11 Pueblo allies. Smallpox epidemics from about 1760 reduced the Skidi, who had lived in eight large villages in 1725, to a single village by 1800.
 
 ## Treaties, war and removal
 

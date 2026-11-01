@@ -23,11 +23,11 @@ In 1332 Sultan Sabr ad-Din launched a wider rising aimed, according to the emper
 
 ## Zeila and the last sultans
 
-Fighting resumed under later rulers. Haqq ad-Din II moved the centre of power east to the Harar plateau and Zeila, and al-Maqrizi credits him with more than twenty battles against the emperor before his death in battle in 1376. His brother Sa'ad ad-Din II continued raiding until an Ethiopian army, probably under Emperor Dawit I, defeated him on the Harar plateau in 1403. Al-Maqrizi says he was then pursued and killed at Zeila; another source places his death in 1410 under Emperor Yeshaq, and some historians doubt that the Ethiopians reached Zeila at all.
+Fighting resumed under later rulers. Haqq ad-Din II moved the centre of power east to the Harar plateau and Zeila, and al-Maqrizi credits him with more than twenty battles against the emperor before his death in battle in 1376. His brother Sa'ad ad-Din II continued raiding until an Ethiopian army, probably under Emperor Dawit I, defeated him on the Harar plateau in 1403. Al-Maqrizi says he was then pursued and killed at Zeila; another source places his death in 1410 under Emperor Yeshaq.
 
 ## Legacy
 
-Muslim power in the region recovered further east: by the later fifteenth century the [Adal Sultanate](/place/adal-sultanate), centred on Harar, had taken Ifat's place. Smaller Walashma branches held on in places until the eighteenth century. The name survives in the district of Yifat in North Shewa.
+Muslim power in the region recovered further east: by the later fifteenth century the [Adal Sultanate](/place/adal-sultanate), centred on Harar, had taken Ifat's place. Smaller Walashma branches held on in places until the eighteenth century.
 
 ## On our maps
 

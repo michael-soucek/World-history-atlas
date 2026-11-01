@@ -2,6 +2,7 @@
 sources:
   - Wikipedia: Yamnaya culture | https://en.wikipedia.org/wiki/Yamnaya_culture
   - Wikidata: Yamnaya culture (Q426737) | https://www.wikidata.org/wiki/Q426737
+  - Wikipedia: Anatolian hypothesis | https://en.wikipedia.org/wiki/Anatolian_hypothesis
   - Borders of Time maps, built on historical-basemaps | https://github.com/aourednik/historical-basemaps
 written: 2026-10-30
 ---
@@ -25,7 +26,7 @@ The defining trait is the kurgan: a pit grave covered by a mound, the body laid 
 
 ## Language and ancient DNA
 
-Marija Gimbutas identified Yamnaya with late Proto-Indo-European speakers in her Kurgan hypothesis, and Anthony considers the Pontic–Caspian steppe the strongest candidate for that homeland, perhaps excluding the Anatolian branch. Colin Renfrew argued instead for a Near Eastern origin. Ancient-DNA studies since 2015 model Yamnaya people as a mix of eastern European and Caucasus hunter-gatherer ancestry, with later work refining the picture, and find large shares of related "steppe ancestry" in later populations such as Corded Ware, Bell Beaker, Sintashta and Andronovo. The geneticist David Reich sees them as a coherent group that spread many Indo-European languages. Critics such as Leo Klejn note that the most common Yamnaya male lineage is largely missing from later western Europeans, and a 2022 study by Guus Kroonen and colleagues placed the core Indo-European homeland in the western Yamnaya zone around the Dnieper. These remain hypotheses under active debate.
+Marija Gimbutas identified Yamnaya with late Proto-Indo-European speakers in her Kurgan hypothesis, and Anthony considers the Pontic–Caspian steppe the strongest candidate for that homeland, perhaps excluding the Anatolian branch. Colin Renfrew argued instead for an origin among Neolithic farmers in Anatolia. Ancient-DNA studies since 2015 model Yamnaya people as a mix of eastern European and Caucasus hunter-gatherer ancestry, with later work refining the picture, and find large shares of related "steppe ancestry" in later populations such as Corded Ware, Bell Beaker, Sintashta and Andronovo. The geneticist David Reich sees them as a coherent group that spread many Indo-European languages. Critics such as Leo Klejn note that the most common Yamnaya male lineage is largely missing from later western Europeans, and a 2022 study by Guus Kroonen and colleagues placed the core Indo-European homeland in the western Yamnaya zone around the Dnieper. These remain hypotheses under active debate.
 
 ## Successors
 

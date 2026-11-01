@@ -27,7 +27,7 @@ Elsewhere, settlers moving onto Shoshone hunting lands sparked war. On the Bear 
 
 ## Land rights
 
-The 1863 Treaty of Ruby Valley described a Western Shoshone territory of tens of thousands of square miles in the Great Basin. Western Shoshone leaders maintain that they never gave up title to it, and most tribal leaders opposed the 2004 act under which Congress set aside $160 million as payment for it. They have protested nuclear testing and gold mining on their lands and have issued their own passports since 1992.
+The 1863 Treaty of Ruby Valley described a Western Shoshone territory of tens of thousands of square miles in the Great Basin. Western Shoshone leaders maintain that they never gave up title to it, and most tribal leaders opposed the 2004 act under which Congress set aside $160 million as payment for it. They have protested nuclear testing and gold mining on their lands and have issued their own passports.
 
 ## The Shoshone today
 

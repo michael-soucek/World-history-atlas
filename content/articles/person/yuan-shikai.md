@@ -13,7 +13,7 @@ The general who built China's first modern army, Yuan Shikai used it to negotiat
 
 ## Early career and Korea
 
-Yuan was born on 16 September 1859 into a well-off family in Xiangcheng county. After failing the imperial examinations in 1876 and 1879, he turned to the military, joining the Huai Army, in which many relatives served. In 1882 he went with Chinese troops sent to restore order in Korea, then ruled by the [Joseon dynasty](/place/joseon-dynasty). When pro-Japanese reformers staged a coup in December 1884, Yuan's soldiers defeated the outnumbered Japanese troops and recovered the king. From 1885 he served as China's imperial resident in Seoul, blocking reform and Japanese influence with a heavy hand. As war with Japan approached in July 1894, he slipped out of the country in disguise.
+Yuan was born on 16 September 1859 into a well-off family in Xiangcheng county. After failing the imperial examinations in 1876 and 1879, he turned to the military, joining the Huai Army, in which many relatives served. In 1882 he went with Chinese troops sent to restore order in Korea, then ruled by the [Joseon dynasty](/place/joseon-dynasty). When pro-Japanese reformers staged a coup in December 1884, Yuan's soldiers defeated the outnumbered Japanese troops and recovered the king. From 1885 he served as China's imperial resident in Seoul, blocking reform and Japanese influence with a heavy hand. As war with Japan approached in 1894, he was recalled to China.
 
 ## The New Army
 
@@ -29,7 +29,7 @@ The Wuchang Uprising of October 1911 began the [1911 Revolution](/event/1911-rev
 
 ## Dictatorship and monarchy
 
-The Kuomintang won the 1913 parliamentary elections, but its leader Song Jiaoren was shot in Shanghai in March. Contemporary opinion blamed Yuan, though he was never formally implicated. Yuan crushed the "Second Revolution" that followed, banned the Kuomintang, dissolved parliament in early 1914 and issued a new charter giving himself nearly unlimited power. In 1915 he accepted part of Japan's Twenty-One Demands, losing popularity. Then, after a specially convened assembly voted to offer him the crown, he proclaimed himself emperor on 12 December 1915 under the reign title Hongxian.
+The Kuomintang won the 1913 parliamentary elections, but its leader Song Jiaoren was shot in Shanghai in March. Yuan was accused of involvement, though for lack of evidence he was never implicated. Yuan crushed the "Second Revolution" that followed, banned the Kuomintang, dissolved parliament in early 1914 and issued a new charter giving himself nearly unlimited power. In 1915 he accepted part of Japan's Twenty-One Demands, losing popularity. Then, after a specially convened assembly voted to offer him the crown, he proclaimed himself emperor on 12 December 1915 under the reign title Hongxian.
 
 ## Collapse and death
 

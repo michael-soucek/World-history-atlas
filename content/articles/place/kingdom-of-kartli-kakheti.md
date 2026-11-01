@@ -2,6 +2,7 @@
 sources:
   - Wikipedia: Kingdom of Kartli-Kakheti | https://en.wikipedia.org/wiki/Kingdom_of_Kartli-Kakheti
   - Wikidata: Kingdom of Kartli-Kakheti (Q282475) | https://www.wikidata.org/wiki/Q282475
+  - Wikipedia: Treaty of Georgievsk | https://en.wikipedia.org/wiki/Treaty_of_Georgievsk
   - Borders of Time maps, built on historical-basemaps | https://github.com/aourednik/historical-basemaps
 written: 2026-10-30
 ---

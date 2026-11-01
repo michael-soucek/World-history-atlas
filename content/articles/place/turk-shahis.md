@@ -25,7 +25,7 @@ Hyecho described the king, his officials and the people as devoted Buddhists who
 
 ## Decline and fall
 
-China withdrew from Central Asia around 760, after the Battle of Talas and the An Lushan rebellion, leaving the kingdom more exposed. A ruler of Kabul submitted to the Abbasid caliph al-Mahdi between 775 and 785. During the Abbasid civil war the Turk Shahi king invaded Khorasan, but in 814/815 the forces of the [Abbasid Caliphate](/place/abbasid-caliphate) defeated him and pushed as far as Gandhara. He had to convert to Islam, pay heavy tribute and send a jewelled Buddha statue, which was displayed in Mecca. According to al-Biruni, the last king, Lagaturman, was overthrown around 822 by his Brahmin minister Kallar, founder of the Hindu Shahis.
+China withdrew from Central Asia around 760, after the Battle of Talas and the An Lushan rebellion, leaving the kingdom more exposed. A ruler of Kabul submitted to the Abbasid caliph al-Mahdi between 775 and 785. During the Abbasid civil war the Turk Shahi king invaded Khorasan, but in 814/815 the forces of the [Abbasid Caliphate](/place/abbasid-caliphate) defeated him and pushed as far as Gandhara. He had to convert to Islam, pay heavy tribute and hand over a precious idol of gold, silver and jewels, which was sent to Mecca. According to al-Biruni, the last king, Lagaturman, was overthrown around 822 by his Brahmin minister Kallar, founder of the Hindu Shahis.
 
 ## On our maps
 

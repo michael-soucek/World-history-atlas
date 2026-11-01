@@ -25,7 +25,7 @@ Vassals peeled away quickly after Ram Khamhaeng's death. Martaban broke free in 
 
 ## Legacy
 
-The old Sukhothai nobility remained powerful inside Ayutthaya, and in 1569 one of its members, Maha Thammaracha, became king there under Burmese overlordship, founding the Sukhothai dynasty; his son Naresuan later threw off Burmese rule. From the late nineteenth century Sukhothai became the opening chapter of Thai national history, held up as a time of fatherly kingship and later debated by conservatives and radicals alike. The ruins of the capital are now a World Heritage Site.
+The old Sukhothai nobility remained powerful inside Ayutthaya, and in 1569 one of its members, Maha Thammaracha, became king there under Burmese overlordship, founding the Sukhothai dynasty; his son Naresuan later threw off Burmese rule. From the late nineteenth century Sukhothai became the opening chapter of Thai national history, held up as a time of fatherly kingship. The ruins of the capital are now a World Heritage Site.
 
 ## On our maps
 

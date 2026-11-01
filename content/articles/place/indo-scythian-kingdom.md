@@ -9,7 +9,7 @@ Nomadic Saka horsemen from the Central Asian steppe pushed south in the second a
 
 ## From the steppe to Sakastan
 
-The movement began far to the east. Chinese chronicles record that the Xiongnu drove the Yuezhi out of their homeland near Dunhuang around 175 BCE, and that the Yuezhi in turn pushed the Saka, called the Sai in Chinese, off their pastures in the Ili valley. Some Saka moved into Ferghana and Sogdiana, then on towards Bactria and Parthia. Between 138 and 124 BCE Saka groups and their Massagetae allies fought the Parthians and killed two of their kings. Many settled around Lake Hamun in Drangiana, a region that came to be called Sakastan, the land of the Saka, and later Sistan.
+The movement began far to the east. Chinese chronicles record that the Xiongnu drove the Yuezhi out of their homeland near Dunhuang around 175 BCE, and that the Yuezhi in turn pushed the Saka, called the Sai in Chinese, off their pastures in the Ili valley. Some Saka moved into Ferghana and Sogdiana, then on towards Bactria and Parthia. Between 138 and 124 BCE Saka groups and their Massagetae allies fought the Parthians and killed two of their kings. Many settled in Drangiana, a region that came to be called Sakastan, the land of the Saka, and later Sistan.
 
 ## Maues and Azes
 

@@ -2,6 +2,7 @@
 sources:
   - Wikipedia: Bengal Sultanate | https://en.wikipedia.org/wiki/Bengal_Sultanate
   - Wikidata: Sultanate of Bengal (Q4083686) | https://www.wikidata.org/wiki/Q4083686
+  - Wikipedia: Battle of Rajmahal | https://en.wikipedia.org/wiki/Battle_of_Rajmahal
   - Borders of Time maps, built on historical-basemaps | https://github.com/aourednik/historical-basemaps
 written: 2026-10-30
 ---
@@ -23,7 +24,7 @@ Alauddin Hussain Shah took the throne in 1494 and founded a dynasty that lasted 
 
 ## Economy and culture
 
-Bengal minted silver coins called the taka and used cowrie shells from the Maldives for small purchases. Fine muslin and silk cloth were exported in bulk, paper made from mulberry bark was highly prized, and the fertile land produced rice, sugarcane and fruit. Bengali merchants and shipowners were active as far away as Malacca. Chinese envoys, including Ma Huan, described busy, well-supplied cities. Persian was the language of government and trade, while Bengali gained court patronage for the first time. Brick mosques with terracotta ornament became the hallmark of a recognisably Bengali style.
+Bengal minted silver coins called the taka and used cowrie shells from the Maldives for small purchases. Fine muslin and silk cloth were exported in bulk, paper made from mulberry bark was highly prized, and the fertile land produced rice, sugarcane and fruit. Bengali merchants and shipowners were active as far away as Malacca. Chinese envoys, including Ma Huan, described busy, well-supplied cities. Persian was the language of government and trade, while Bengali also became a court language. Brick mosques with terracotta ornament became the hallmark of a recognisably Bengali style.
 
 ## Decline and conquest
 

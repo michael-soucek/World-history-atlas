@@ -26,7 +26,7 @@ Egyptian nationalists wanted a united kingdom of the Nile valley, while Britain 
 
 ## The road to independence
 
-The Sudan Defence Force fought the Italians on the Eritrean and Ethiopian fronts in 1940–1941. After the war an advisory council for the north was set up and a 1947 conference at Juba agreed to unite the administrations of north and south. In 1951 Egypt repudiated the condominium, but after its 1952 revolution the new leadership accepted Sudanese self-determination, and on 12 February 1953 Britain and Egypt agreed a transition to self-government. Ismail al-Azhari became chief minister in 1954. In August 1955 southern troops mutinied at the prospect of serving under northern officers, killing several hundred northerners Seventy southerners were later executed, and some mutineers escaped to organise armed resistance.
+The Sudan Defence Force fought the Italians on the Eritrean and Ethiopian fronts in 1940–1941. After the war an advisory council for the north was set up and a 1947 conference at Juba agreed to unite the administrations of north and south. In 1951 Egypt repudiated the condominium, but after its 1952 revolution the new leadership accepted Sudanese self-determination, and on 12 February 1953 Britain and Egypt agreed a transition to self-government. Ismail al-Azhari became chief minister in 1954. In August 1955 southern troops mutinied at the prospect of serving under northern officers, killing several hundred northerners. Seventy southerners were later executed, and some mutineers escaped to organise armed resistance.
 
 ## On our maps
 

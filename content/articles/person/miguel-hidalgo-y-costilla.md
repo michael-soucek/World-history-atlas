@@ -15,11 +15,11 @@ Miguel Hidalgo was a Catholic parish priest in the small town of Dolores whose c
 
 Hidalgo was born on 8 May 1753 at Pénjamo, in the [Viceroyalty of New Spain](/place/new-spain), to a criollo family, that is, people of Spanish descent born in the Americas; his father managed a hacienda. He studied with the Jesuits in Valladolid, now Morelia, until their expulsion in 1767, then at the Colegio de San Nicolás and the university in Mexico City. Besides Latin he learned French and Italian and several indigenous languages, including Nahuatl and Purépecha, and his French gave him access to banned Enlightenment books. Ordained in 1778, he taught at San Nicolás and became its head in 1790, but was removed in 1792, both for his new teaching methods and over the handling of funds.
 
-He lived far from the expected life of a priest. He questioned papal power and clerical celibacy, owned haciendas, and fathered several children with different women. He was investigated by the Inquisition, which did not convict him. In 1803 he took over the parish of Dolores in Guanajuato from his late brother.
+He lived far from the expected life of a priest. He questioned papal power and clerical celibacy, owned haciendas, and fathered several children with different women. He was investigated by the Inquisition, which did not convict him. In 1803 he took over the parish of Dolores in Guanajuato.
 
 ## Dolores
 
-At Dolores he left most church duties to a vicar and set up workshops for bricks, pottery and leather, and promoted silk, beekeeping and vine-growing to give poor indigenous and mixed-race families a living. Colonial rules protecting Spanish producers led officials to order him to stop. A drought and famine in 1807–1808, worsened by merchants hoarding grain, deepened his anger at the peninsulares, the Spanish-born elite. Meanwhile [Napoleon](/person/napoleon) had forced King Charles IV of Spain and his son Ferdinand VII to abdicate, leaving the empire in turmoil. Hidalgo joined a circle of conspirators in Querétaro that included the officer Ignacio Allende.
+At Dolores he left most church duties to a vicar and set up workshops for bricks, pottery and leather, and promoted silk, beekeeping and vine-growing to give poor indigenous and mixed-race families a living. Colonial rules protecting Spanish producers led officials to order him to stop. Meanwhile [Napoleon](/person/napoleon) had forced King Charles IV of Spain and his son Ferdinand VII to abdicate, leaving the empire in turmoil. Hidalgo joined a circle of conspirators in Querétaro that included the officer Ignacio Allende.
 
 ## The Grito
 

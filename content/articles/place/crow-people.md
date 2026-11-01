@@ -13,7 +13,7 @@ Apsáalooke means "children of the large-beaked bird", a name given by their clo
 
 ## Masters of the Yellowstone
 
-On the plains the Crow drove [Shoshone](/place/shoshone) bands westward and allied with the [Kiowa](/place/kiowa) and Plains Apache. Their territory ran from the headwaters of the Yellowstone to its mouth on the Missouri and took in the Powder, Tongue and Bighorn valleys and the Bighorn and Absaroka mountains. By the early nineteenth century they formed three groups, the Mountain Crow, the River Crow and the Kicked in the Bellies; oral history recalls a fourth that may have joined the Kiowa. Horses spread across the plains from about 1730, and the Crow built some of the largest herds of any plains people, which made them a target for raids by the [Blackfoot Confederacy](/place/blackfoot-confederacy), the Assiniboine and others.
+On the plains the Crow drove [Shoshone](/place/shoshone) bands westward and allied with the [Kiowa](/place/kiowa) and Plains Apache. Their territory ran from the headwaters of the Yellowstone to its mouth on the Missouri and took in the Powder, Tongue and Bighorn valleys and the Bighorn and Absaroka mountains. By the early nineteenth century they formed three groups, the Mountain Crow, the River Crow and the Kicked in the Bellies; oral history recalls a fourth that may have joined the Kiowa. Horses spread across the plains from about 1730, and the Crow became noted horse breeders with relatively large herds, which made them a target for raids by the [Blackfoot Confederacy](/place/blackfoot-confederacy), the Assiniboine and others.
 
 ## Society and art
 

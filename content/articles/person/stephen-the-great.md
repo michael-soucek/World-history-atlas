@@ -21,7 +21,7 @@ Early in his reign Stephen made peace with Poland, accepting King Casimir IV as 
 
 ## Against the sultan
 
-In 1473 Stephen stopped paying tribute to the Ottomans and tried to install friendly princes in neighbouring Wallachia, though each soon submitted to the sultan. An Ottoman army, reported at around 120,000 men, invaded Moldavia, and in January 1475 Stephen, heavily outnumbered, met it near Vaslui and routed it, using hidden buglers to throw the enemy into panic. Some modern historians rank it among the greatest European victories over the Ottomans. Pope Sixtus IV praised him as a true champion of the Christian faith, but no material help came. In 1476 [Mehmed II](/person/mehmed-ii) led an invasion in person and defeated Stephen at Valea Albă, but failed to take his fortresses and was forced out by shortages and disease.
+In 1473 Stephen stopped paying tribute to the Ottomans and tried to install friendly princes in neighbouring Wallachia, though each soon submitted to the sultan. An Ottoman army, reported at around 120,000 men, invaded Moldavia, and in January 1475 Stephen, heavily outnumbered, met it near Vaslui and routed it, using hidden buglers to throw the enemy into panic. The historian Alexander Mikaberidze ranks it among the biggest European victories over the Ottomans. Pope Sixtus IV praised him as a true champion of the Christian faith, but no material help came. In 1476 [Mehmed II](/person/mehmed-ii) led an invasion in person and defeated Stephen at Valea Albă, but failed to take his fortresses and was forced out by shortages and disease.
 
 ## Losses and balancing
 

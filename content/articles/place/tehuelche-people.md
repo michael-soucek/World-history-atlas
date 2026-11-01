@@ -25,7 +25,7 @@ From the eighteenth century, trade fairs in what is now Buenos Aires Province dr
 
 ## Colonisation and its costs
 
-Argentine and Chilean settlement, especially the huge sheep estates of Patagonia, destroyed the hunting economy, and new diseases caused deadly epidemics. The Argentine army's Conquest of the Desert brought many communities close to destruction. Some Tehuelche were taken to Europe in the late nineteenth century and exhibited against their will in human zoos. In 1898 Argentina created the Camusu Aike reservation in Santa Cruz for Tehuelche families, and other reserves followed in 1922, though several later lost their status. In [Chile](/country/chile), a smallpox outbreak in 1905 struck a settled group near Punta Arenas, and survivors moved into Argentina.
+Argentine and Chilean settlement, especially the huge sheep estates of Patagonia, destroyed the hunting economy, and new diseases caused deadly epidemics. The Argentine army's Conquest of the Desert brought many communities close to destruction. Some Tehuelche were taken to Europe in the late nineteenth century and exhibited against their will in human zoos. In 1898 Argentina created the Camusu Aike reservation in Santa Cruz for Tehuelche families, and other reserves followed in 1922, though these later lost their status. In [Chile](/country/chile), a smallpox outbreak in 1905 struck a settled group near Punta Arenas, and survivors moved into Argentina.
 
 ## The Tehuelche today
 

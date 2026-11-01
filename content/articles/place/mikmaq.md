@@ -1,6 +1,7 @@
 ---
 sources:
   - Wikipedia: Miꞌkmaq | https://en.wikipedia.org/wiki/Mi%EA%9E%8Ckmaq
+  - Wikipedia: R v Marshall | https://en.wikipedia.org/wiki/R_v_Marshall
   - Wikidata: Miꞌkmaq (Q495751) | https://www.wikidata.org/wiki/Q495751
   - Borders of Time maps, built on historical-basemaps | https://github.com/aourednik/historical-basemaps
 written: 2026-10-30
@@ -29,7 +30,7 @@ The arrival of New England Planters and Loyalists brought heavy pressure on land
 
 ## Treaty rights today
 
-In 1999 the Supreme Court of Canada's R v Marshall ruling upheld the 1752 treaty right to fish, hunt and gather for a "moderate livelihood", followed by tense disputes over lobster fishing. In 2010 Canada and Nova Scotia agreed to consult the Grand Council on matters affecting the Mi'kmaq. In Newfoundland, Miawpukek was recognised in 1987 and the landless Qalipu First Nation in 2011. About 9,245 people spoke Mi'kmaw in 2021, and band-run schools have strengthened education.
+In 1999 the Supreme Court of Canada's R v Marshall ruling upheld a treaty right, under the treaties of 1760–1761, to fish, hunt and gather for a "moderate livelihood", followed by tense disputes over lobster fishing. In 2010 Canada and Nova Scotia agreed to consult the Grand Council on matters affecting the Mi'kmaq. In Newfoundland, Miawpukek was recognised in 1987 and the landless Qalipu First Nation in 2011. About 9,245 people spoke Mi'kmaw in 2021, and band-run schools have strengthened education.
 
 ## On our maps
 

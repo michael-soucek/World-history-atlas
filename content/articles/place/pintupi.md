@@ -24,7 +24,7 @@ Some Pintupi stayed in the desert much longer. In October 1984 a family of nine 
 
 ## Papunya and the painting movement
 
-In 1971, a schoolteacher at Papunya encouraged children to paint a mural in the style of ceremonial sand and body designs, and senior men soon took over the work. From this came Papunya Tula Artists, a cooperative formed in 1972 and owned by Aboriginal people. Many of its founding painters were Pintupi. The works, often called dot painting, are generally regarded as the beginning of contemporary Indigenous Australian art. Because some early paintings showed designs restricted to ceremony, artists soon began to conceal or omit sacred elements in work made for sale.
+In 1971, a schoolteacher at Papunya encouraged children to paint a mural in the style of ceremonial sand and body designs, and senior men soon took over the work. From this came Papunya Tula Artists, a cooperative formed in 1972 and owned by Aboriginal people. Its painters came from the desert groups living at Papunya, the Pintupi among them. The works, often called dot painting, are generally regarded as the beginning of contemporary Indigenous Australian art. Because some early paintings showed designs restricted to ceremony, artists soon began to conceal or omit sacred elements in work made for sale.
 
 ## Return to country
 

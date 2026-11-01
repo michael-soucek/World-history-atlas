@@ -33,7 +33,7 @@ Faction fighting returned within a few years of his departure, and in the end hi
 
 ## Legacy
 
-Solon was counted among the Seven Sages of Greece. Orators of the fourth century credited him with almost every Athenian law, which makes it hard to know what was truly his. [Aristotle](/person/aristotle)'s school called him the first champion of the people, while his surviving poems show a man who saw himself as a mediator holding his shield over rich and poor alike.
+Solon was counted among the Seven Sages of Greece. Orators of the fourth century credited him with almost every Athenian law, which makes it hard to know what was truly his. [Aristotle](/person/aristotle)'s school called him the first champion of the people, while his surviving poems show a man who saw himself as a mediator between rich and poor.
 
 ## On our maps
 

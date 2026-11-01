@@ -10,7 +10,7 @@ Karelia, a land of forests and lakes now split between Finland and Russia, takes
 
 ## Origins
 
-Archaeology suggests the Karelians took shape in the early Middle Ages, as incomers from western Finland merged with the people already living there. Cemeteries of AD 600 to 800 cluster on the western shore of Lake Ladoga and the Karelian Isthmus, and the much larger number of finds from 800 to 1050 points to rapid growth and spread. Scandinavian sagas name the land Kirjaland or Karjalabotn, and Russian chronicles first mention the Karelians, as the Korela, in 1143, when they raided Tavastia in Finland.
+Archaeology suggests the Karelians took shape in the early Middle Ages, as incomers from western Finland merged with the people already living there. Cemeteries of AD 600 to 800 cluster on the western shore of Lake Ladoga and the Karelian Isthmus, and the much larger number of finds from 800 to 1050 points to rapid growth and spread. Scandinavian sagas name the land Kirjaland or Karjalabotn, and Russian chronicles first mention the Karelians, as the Koryela, in 1143, when they raided Tavastia in Finland.
 
 ## Between Novgorod and Sweden
 

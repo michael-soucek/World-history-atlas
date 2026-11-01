@@ -25,7 +25,7 @@ Squeezed between the [Apache](/place/apache), their bitterest enemies, and the e
 
 ## Removal and recovery
 
-After the [Louisiana Purchase](/event/louisiana-purchase) and Texan independence, the related bands were increasingly grouped together as "Wichita". Texas forced them onto the Brazos reservation in 1855 and out of the state in 1859. They sided with the Union in the Civil War, living for a time at the site of today's Wichita, Kansas, and in 1867 were settled in south-western Indian Territory, where most still live. Allotment followed an agreement of 1891. Numbers fell to 572 by 1868, but enrolment had recovered to 2,953 by 2018. The tribes opened the Wichita Tribal History Center in Anadarko in 2018 and hold an annual dance every August.
+After the [Louisiana Purchase](/event/louisiana-purchase) and Texan independence, the related bands were increasingly grouped together as "Wichita". The United States forced them onto the Brazos reservation in Texas in 1855, and in 1859 they were forced out of the state. They sided with the Union in the Civil War, living for a time at the site of today's Wichita, Kansas, and in 1867 were settled in south-western Indian Territory, where most still live. Allotment followed an agreement of 1891. Numbers fell to 572 by 1868, but enrolment had recovered to 2,953 by 2018. The tribes opened the Wichita Tribal History Center in Anadarko in 2018 and hold an annual dance every August.
 
 ## On our maps
 

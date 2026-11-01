@@ -6,7 +6,7 @@ sources:
   - Borders of Time maps, built on historical-basemaps | https://github.com/aourednik/historical-basemaps
 written: 2026-10-30
 ---
-The Wabanaki Confederacy is an alliance of five Eastern Algonquian nations of the far north-east of North America: the Abenaki, the [Mi'kmaq](/place/mikmaq), the Wolastoqiyik (Maliseet), the Passamaquoddy and the Penobscot. Formed in the 1680s to face Haudenosaunee pressure and English expansion, it fought in a long series of colonial wars as an ally of the French. Colonial authorities declared it disbanded in 1862, but its member nations endured, and the confederacy was revived in 1993.
+The Wabanaki Confederacy is an alliance of five Eastern Algonquian nations of the far north-east of North America: the Abenaki, the [Mi'kmaq](/place/mikmaq), the Wolastoqiyik (Maliseet), the Passamaquoddy and the Penobscot. Formed in the 1680s to face Haudenosaunee pressure and English expansion, it fought in a long series of colonial wars as an ally of the French. Colonial authorities reportedly declared it disbanded in 1862, but its member nations endured, and the confederacy was revived in 1993.
 
 ## Dawnland
 
@@ -26,7 +26,7 @@ The confederacy had no capital and no single ruler. Councils of sakoms, leaders 
 
 ## Wars with Britain
 
-The Wabanaki fought in seven major wars, from King Philip's War to the [French and Indian War](/event/french-and-indian-war) of 1754–1763, raiding English settlements along the Kennebec and Androscoggin rivers. War, famine and disease took a severe toll. After Britain's victory in 1763, colonial policy marginalised the Wabanaki peoples, and settlers from New England and Europe took over much of their land. In 1862 the colonial government declared the confederacy disbanded.
+The Wabanaki fought in a long run of wars, from King Philip's War to the [French and Indian War](/event/french-and-indian-war) of 1754–1763, raiding English settlements along the Kennebec and Androscoggin rivers. War, famine and disease took a severe toll. After Britain's victory in 1763, colonial policy marginalised the Wabanaki peoples, and settlers from New England and Europe took over much of their land. In 1862 the colonial government reportedly declared the confederacy disbanded.
 
 ## Revival
 
@@ -34,4 +34,4 @@ The five nations continued to meet, and in 1993 the confederacy was formally re-
 
 ## On our maps
 
-Our 1492 map labels this region "Wabanaki (Dawnland Confederacy)", an approximate outline of the five nations' homelands; the confederacy itself took formal shape in the 1680s. Neighbours include the [Innu](/place/innu) to the north and the French colony of [New France](/place/new-france), founded within and beside Wabanaki lands in the early seventeenth century.
+Our 1492 map labels this region "Wabanaki (Dawnland Confederacy)", an approximate outline of the five nations' homelands; the confederacy itself took formal shape in the 1680s. Neighbours include the [Innu](/place/innu) to the north; the French colony of [New France](/place/new-france) was founded within and beside Wabanaki lands only in the early seventeenth century.

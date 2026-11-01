@@ -29,7 +29,7 @@ After his release he served as a palace archivist, a post open to eunuchs, and c
 
 ## Last years
 
-His Letter to Ren An, written to an official apparently facing execution after a failed rebellion in 91 BCE, explains why he chose to live on in disgrace: he could not bear to leave his work unknown to later generations. It contains his famous line that a death may weigh as much as Mount Tai or as little as a feather. It is the last contemporary record of him. When he died is unknown; most historians think he retired from court and died around the same time as Emperor Wu, in 87 or 86 BCE.
+His Letter to Ren An, written to an official apparently facing execution after a failed rebellion in 91 BCE, explains why he chose to live on in disgrace: he could not bear to leave his work unknown to later generations. It contains his famous line that a death may weigh as much as Mount Tai or as little as a goose feather. It is the last contemporary record of him. When he died is unknown; most historians think he retired from court and died around the same time as Emperor Wu, in 87 or 86 BCE.
 
 ## Legacy
 

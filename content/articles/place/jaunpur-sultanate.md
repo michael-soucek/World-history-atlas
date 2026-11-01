@@ -21,7 +21,7 @@ Ibrahim Shah founded colleges and sponsored works of Islamic law and theology, a
 
 ## Wars with Delhi
 
-Ibrahim's son Mahmud Shah took Chunar but was defeated by the Gajapati ruler of Odisha, and in 1452 he besieged Delhi, only to be beaten by Bahlul Lodi. Rajput clans within and around the sultanate supplied large numbers of troops, which helped Jaunpur sustain its wars. After a brief reign by Muhammad Shah, his brother Hussain Shah seized the throne in 1458. Hussain marched on Delhi several times; in 1478 he is said to have rejected an offer by Bahlul Lodi to rule Delhi as his vassal. But a series of defeats cost him much of his territory, and Bahlul Lodi eventually captured Jaunpur.
+Ibrahim's son Mahmud Shah took Chunar but was defeated by the Gajapati ruler of Odisha, and in 1452 he besieged Delhi, only to be beaten by Bahlul Lodi. Rajput vassals within and around the sultanate are thought to have supplied large numbers of troops, which may help explain how Jaunpur sustained its wars. After a brief reign by Muhammad Shah, his brother Hussain Shah seized the throne in 1458. Hussain marched on Delhi several times; in 1478 he is said to have rejected an offer by Bahlul Lodi to rule Delhi as his vassal. But a series of defeats cost him much of his territory, and Bahlul Lodi eventually captured Jaunpur.
 
 ## The end of the sultanate
 

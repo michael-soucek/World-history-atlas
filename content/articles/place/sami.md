@@ -5,7 +5,7 @@ sources:
   - Borders of Time maps, built on historical-basemaps | https://github.com/aourednik/historical-basemaps
 written: 2026-10-30
 ---
-The Sámi are the Indigenous people of Sápmi, a homeland that stretches across the far north of Norway, Sweden and Finland and Russia's Kola Peninsula. They speak a group of related Uralic languages, are best known abroad for reindeer herding, and today have elected parliaments in three Nordic countries. Older outsider names such as Lapps and Laplanders are now regarded by many Sámi as offensive.
+The Sámi are the Indigenous people of Sápmi, a homeland that stretches across the far north of Norway, Sweden and Finland and Russia's Kola Peninsula. They speak a group of related Uralic languages, are best known abroad for reindeer herding, and today have elected parliaments in three Nordic countries. Older outsider names such as Lapps and Laplanders are now regarded by some Sámi as offensive.
 
 ## Origins
 
@@ -27,7 +27,7 @@ From the nineteenth century the Norwegian and Swedish states pressed northward a
 
 ## Rights and revival
 
-Protests against the Alta hydroelectric dam in 1979 put Sámi rights on the Norwegian political agenda. A Sámi flag and anthem were adopted in 1986. Finland created a Sámi parliament in 1973, Norway in 1989 and Sweden in 1993; Russia recognises none, though Sámi there formed their own unofficial body. Norway's constitution now commits the state to protect Sámi language and culture, and the 2005 Finnmark Act placed about 95 per cent of the county's land under the Finnmark Estate, half of whose board is chosen by the Sámi parliament. Sweden apologised in 1998, and the Church of Sweden followed in 2021.
+Protests against the Alta hydroelectric dam in 1979 put Sámi rights on the Norwegian political agenda. A Sámi flag and anthem were adopted in 1986. Finland created a Sámi parliament in 1973, Norway in 1989 and Sweden in 1993; Russia recognises none, though Sámi there formed their own unofficial body. Norway's constitution now commits the state to protect Sámi language and culture, and the 2005 Finnmark Act placed about 95 per cent of the county's land under the Finnmark Estate, half of whose board is chosen by the Sámi parliament. In 2021 the Church of Sweden formally apologised to the Sámi.
 
 The Sámi are estimated at around 80,000 people, the largest share of them in Norway. All Sámi languages are endangered to some degree, and revitalisation efforts continue.
 

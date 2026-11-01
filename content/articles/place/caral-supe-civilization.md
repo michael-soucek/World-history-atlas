@@ -10,7 +10,7 @@ On a narrow strip of desert coast north of Lima, in the valleys of the Supe, Pat
 
 ## Discovery
 
-The archaeologist Max Uhle came across the Caral site in 1905 but did not recognise its hills as buildings, and when Paul Kosok studied it in 1948 others doubted his claims about its age. Work at Aspero, on the coast at the mouth of the Supe, followed from the 1970s. In the 1990s a Peruvian team led by Ruth Shady began extensive excavations at Caral, and a paper in Science in 2001, followed by a 2004 article in Nature reporting radiocarbon dates across the region, made the culture's importance widely known. Until then the [Chavín culture](/place/chavin-culture), of around 900 BCE, had been considered the first civilisation of [Peru](/country/peru).
+The archaeologist Max Uhle came across the Caral site in 1905 but did not recognise its hills as buildings, and when Paul Kosok studied it in 1948 others doubted his claims about its age. Aspero, on the coast at the mouth of the Supe, was re-examined in the 1970s. In the 1990s a Peruvian team led by Ruth Shady began extensive excavations at Caral, and a paper in Science in 2001, followed by a 2004 article in Nature reporting radiocarbon dates across the region, made the culture's importance widely known. Until then the [Chavín culture](/place/chavin-culture), of around 900 BCE, had been considered the first civilisation of [Peru](/country/peru).
 
 ## Dating the civilisation
 

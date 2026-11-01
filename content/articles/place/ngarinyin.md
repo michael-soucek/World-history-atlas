@@ -15,13 +15,13 @@ Norman Tindale put Ngarinyin lands at about 27,000 square kilometres (10,500 squ
 
 ## Society and belief
 
-Ngarinyin society was made up of about 40 local groups, each with its own clan and moiety affiliations. The Wanjina Wunggurr tradition that they share with the Worrorra and Wunambal traces law and life to two kinds of ancestral power: the Wanjina, spirits tied to particular places and clans, and Wunggurr, a creative serpent force running through all living things. Rock paintings of Wanjina, together with the older Gwion Gwion figures, are visible evidence of this shared culture.
+Ngarinyin society was made up of about 40 local groups, each with its own clan and moiety affiliations. The Wanjina Wunggurr tradition that they share with the Worrorra and Wunambal traces law and life to two kinds of ancestral power: the Wanjina, spirits tied to particular places and clans, and Wunggurr, a creator being akin to the Rainbow Serpent. Rock paintings of Wanjina, together with the Gwion Gwion figures, are visible evidence of this shared culture.
 
 The German ethnographer Helmut Petri lived among the Ngarinyin during the Frobenius expedition of 1938–39 and gathered extensive notes and objects. Much of his material was lost when Allied bombing destroyed his museum in Frankfurt during the Second World War.
 
 ## Language
 
-Ngarinyin, sometimes called Ungarinyin, is one of three Worrorran languages and was once among the most widely spoken in the northern Kimberley. There were 82 speakers in 2003, and only 38 people reported using it at home in the 2016 census. Younger people now mostly speak Kriol, though many keep some knowledge of the old language, and efforts are under way to document its grammar and its unusual kinship terms, in which a single word can cover relatives several generations apart.
+Ngarinyin, sometimes called Ungarinyin, is one of three Worrorran languages. There were 82 speakers in 2003, and only 38 people reported using it at home in the 2016 census. Younger people now mostly speak Kriol, though many keep some knowledge of the old language, and efforts are under way to document its grammar and its unusual kinship terms, in which a single word can cover relatives several generations apart.
 
 ## Native title and country management
 

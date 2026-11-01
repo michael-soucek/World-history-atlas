@@ -4,6 +4,7 @@ sources:
   - Wikidata: Wiradjuri (Q957298) | https://www.wikidata.org/wiki/Q957298
   - Wikipedia: Wiradjuri language | https://en.wikipedia.org/wiki/Wiradjuri_language
   - Wikipedia: Bathurst War | https://en.wikipedia.org/wiki/Bathurst_War
+  - Wikipedia: Windradyne | https://en.wikipedia.org/wiki/Windradyne
   - Borders of Time maps, built on historical-basemaps | https://github.com/aourednik/historical-basemaps
 written: 2026-10-30
 ---
@@ -11,7 +12,7 @@ The Wiradjuri, the biggest Aboriginal nation of New South Wales, are a people of
 
 ## Country
 
-The anthropologist Norman Tindale estimated Wiradjuri lands at about 127,000 square kilometres. They ran from above Mudgee in the north, along the foothills of the Blue Mountains and the western slopes, south to Albury on the upper Murray, and west beyond Hay and Narrandera, taking in places such as Bathurst, Wagga Wagga, Dubbo, Cowra and Condobolin. The three rivers have Wiradjuri names: Wambuul for the Macquarie, Kalare for the Lachlan, and Murrumbidjeri for the Murrumbidgee.
+The anthropologist Norman Tindale estimated Wiradjuri lands at about 127,000 square kilometres. They ran from above Mudgee in the north, along the foothills of the Blue Mountains and the western slopes, south to Albury on the upper Murray, and west along Billabong Creek and south-west to around Hay and Narrandera, taking in places such as Bathurst, Wagga Wagga, Dubbo, Cowra and Condobolin. The three rivers have Wiradjuri names: Wambuul for the Macquarie, Kalare for the Lachlan, and Murrumbidjeri for the Murrumbidgee.
 
 ## Name
 

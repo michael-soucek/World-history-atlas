@@ -3,6 +3,8 @@ sources:
   - Wikipedia: South African Republic | https://en.wikipedia.org/wiki/South_African_Republic
   - Wikidata: South African Republic (Q550374) | https://www.wikidata.org/wiki/Q550374
   - Wikipedia: Second Boer War | https://en.wikipedia.org/wiki/Second_Boer_War
+  - Wikipedia: Burgher (Boer republics) | https://en.wikipedia.org/wiki/Burgher_(Boer_republics)
+  - Wikipedia: Second Boer War concentration camps | https://en.wikipedia.org/wiki/Second_Boer_War_concentration_camps
   - Borders of Time maps, built on historical-basemaps | https://github.com/aourednik/historical-basemaps
 written: 2026-10-30
 ---
@@ -18,7 +20,7 @@ All able-bodied burghers served in commandos under elected officers, and the fie
 
 ## Annexation and the First Boer War
 
-In the 1870s Britain pursued a plan to confederate southern Africa. With the republic close to bankruptcy and its war with Sekhukhune unresolved, Sir Theophilus Shepstone proclaimed it a British colony on 12 April 1877. Burghers met at Paardekraal in December 1880 and placed power in a triumvirate of Paul Kruger, Piet Joubert and Pretorius. In the war that followed, Boer forces won at Laing's Nek, Ingogo and, on 27 February 1881, at Majuba. Britain made peace; the Pretoria Convention of 1881 restored self-government under British suzerainty, and the London Convention of 27 February 1884 lifted that suzerainty and the republic's old name returned.
+In the 1870s Britain pursued a plan to confederate southern Africa. With the republic close to bankruptcy and its war with Sekhukhune unresolved, Sir Theophilus Shepstone proclaimed it a British colony on 12 April 1877. Burghers met at Paardekraal in December 1880 and placed power in a triumvirate of Paul Kruger, Piet Joubert and Pretorius. In the war that followed, Boer forces won at Laing's Nek, Ingogo and, on 27 February 1881, at Majuba. Britain made peace; the Pretoria Convention of 1881 restored self-government under British suzerainty, and the London Convention of 27 February 1884 dropped the reference to suzerainty and the republic's old name returned.
 
 ## Gold
 

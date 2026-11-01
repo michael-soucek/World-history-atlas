@@ -13,11 +13,11 @@ Arab and Berber armies under Tariq ibn Ziyad had crossed from North Africa in 71
 
 ## The emirate
 
-For some 150 years his descendants governed as emirs, nominally accepting Abbasid religious authority while acting independently. Their grip on the frontier marches was often weak; around 900 the emir Abdallah's power reached little beyond Córdoba itself. Revolts were common, such as the rising of a Córdoba suburb against al-Hakam I in 818, after which the exiles scattered as far as Fez, Alexandria and Crete. Abd al-Rahman II brought in the fashions of Baghdad, and the musician Ziryab became a celebrated trendsetter at his court.
+For some 150 years his descendants governed as emirs, nominally accepting Abbasid religious authority while acting independently. Their grip on the frontier marches was often weak, depending on the competence of each emir. Revolts were common, such as the rising of a Córdoba suburb against al-Hakam I in 818, after which the exiles scattered as far as Fez, Alexandria and Crete. Abd al-Rahman II brought in the fashions of Baghdad, and the musician Ziryab became a celebrated trendsetter at his court.
 
 ## The caliphate
 
-Abd al-Rahman III, who came to the throne in 912, restored central authority. Faced with the new Fatimid caliphate in North Africa, he proclaimed himself caliph in 929. He took Melilla, Ceuta and Tangier to block Fatimid expansion, and the Idrisid princes of Morocco were drawn into his orbit. He exchanged embassies with the Byzantines and the Frankish kingdoms and dominated the Christian kingdoms of the north. Revenues reached about 6.2 million dinars, and from about 936 he built the palace-city of Madinat al-Zahra outside Córdoba. His son al-Hakam II, who ruled from 961 to 976, presided over an intellectual high point; his library was said to hold 400,000 to 500,000 volumes.
+Abd al-Rahman III, who came to the throne in 912, restored central authority. Faced with the new Fatimid caliphate in North Africa, he proclaimed himself caliph in 929. He took Melilla, Ceuta and Tangier to block Fatimid expansion, and the Idrisid princes of Morocco were drawn into his orbit. He exchanged embassies with the Byzantines and the Frankish kingdoms and dominated the Christian kingdoms of the north. From about 936 he built the palace-city of Madinat al-Zahra outside Córdoba. His son al-Hakam II, who ruled from 961 to 976, presided over an intellectual high point; his library was said to hold 400,000 to 500,000 volumes.
 
 ## Society and culture
 
@@ -25,7 +25,7 @@ The population was mixed: an Arab elite, a larger Berber community, a growing ma
 
 ## Almanzor and the collapse
 
-After al-Hakam II died in 976, his ten-year-old son Hisham II became caliph, but real power passed to the chief minister Almanzor. He reorganised the army around Berber cavalry and slave soldiers, led frequent raids on the Christian north and made the caliph a figurehead. After his death in 1002 his sons kept control until 1009, when the killing of Abd al-Rahman Sanchuelo opened a civil war, the Fitna of al-Andalus. Rival claimants fought for the throne with Berber and Christian mercenaries, and in 1031 the caliphate was abolished, leaving al-Andalus divided into independent taifa kingdoms such as Seville and Zaragoza.
+After al-Hakam II died in 976, his ten-year-old son Hisham II became caliph, but real power passed to the chief minister Almanzor. He professionalised the army, relying on Maghrebi Berber and slave troops, led frequent raids on the Christian north and made the caliph a figurehead. After his death in 1002 his sons kept control until 1009, when the killing of Abd al-Rahman Sanchuelo opened a civil war, the Fitna of al-Andalus. Rival claimants fought for the throne with Berber and Christian mercenaries, and in 1031 the caliphate was abolished, leaving al-Andalus divided into independent taifa kingdoms such as Seville and Zaragoza.
 
 ## On our maps
 

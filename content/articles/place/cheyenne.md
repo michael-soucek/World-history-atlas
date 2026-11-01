@@ -1,6 +1,7 @@
 ---
 sources:
   - Wikipedia: Cheyenne | https://en.wikipedia.org/wiki/Cheyenne
+  - Wikipedia: Council of Forty-four | https://en.wikipedia.org/wiki/Council_of_Forty-four
   - Wikidata: Cheyenne (Q322951) | https://www.wikidata.org/wiki/Q322951
   - Borders of Time maps, built on historical-basemaps | https://github.com/aourednik/historical-basemaps
 written: 2026-10-30
@@ -17,7 +18,7 @@ According to Cheyenne tradition, the Suhtai prophet Erect Horns brought the Sun 
 
 ## Sacred law and government
 
-The prophet Sweet Medicine brought the Sacred Arrows, received at Bear Butte, and the Suhtai the Sacred Buffalo Hat; these two bundles are the great covenants of the nation. Sweet Medicine is also credited with founding the Council of Forty-Four peace chiefs, four from each of ten bands plus four senior advisers, and the military societies, such as the Dog Soldiers, Bowstrings and Swift Foxes, which policed hunts and camps and led in war.
+The prophet Sweet Medicine brought the Sacred Arrows, received at Bear Butte, and the Suhtai the Sacred Buffalo Hat; these two bundles are the great covenants of the nation. Sweet Medicine is also credited with founding the Council of Forty-Four peace chiefs, four from each of ten bands plus four principal chiefs, and the military societies, such as the Dog Soldiers, Bowstrings and Swift Foxes, which policed hunts and camps and led in war.
 
 ## Wars with the United States
 

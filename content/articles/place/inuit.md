@@ -10,7 +10,7 @@ The Inuit are an Indigenous people of the Arctic whose homelands stretch from no
 
 ## Origins and the eastern Arctic
 
-The ancestors of the Inuit, known to archaeologists as the [Thule](/place/thule-culture), emerged around the Bering Strait and western Alaska and moved east across the Canadian Arctic, reaching Greenland between about 1100 and the 1200s, depending on the estimate. Along the way they replaced the older [Dorset](/place/dorset-culture) people, whom Inuit stories remember as the Tuniit. To the south their range was bounded by other nations, among them the [Cree](/place/cree) and the [Innu](/place/innu) in Quebec and Labrador and the Gwich'in and other Athabaskan peoples in the west. Relations with them mixed trade with frequent border disputes.
+The ancestors of the Inuit, known to archaeologists as the [Thule](/place/thule-culture), emerged around the Bering Strait and western Alaska and moved east across the Canadian Arctic, reaching Greenland by the thirteenth century. Along the way they replaced the older [Dorset](/place/dorset-culture) people, whom Inuit stories remember as the Tuniit. To the south their range was bounded by other nations, among them the [Cree](/place/cree) and the [Innu](/place/innu) in Quebec and Labrador and the Gwich'in and other Athabaskan peoples in the west. Relations with them mixed trade with frequent border disputes.
 
 ## Life on land and sea
 

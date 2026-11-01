@@ -17,7 +17,7 @@ Sogdian merchants were central to the khaganate's wealth and foreign policy. A S
 
 ## Tong Yabghu
 
-Its greatest ruler was Tong Yabghu, who reigned from 618 to 630 over lands from the Tarim Basin to the Caspian. His winter capital was Suyab in the Chui valley of today's Kyrgyzstan, and among his visitors was the Chinese pilgrim Xuanzang. During the last great war between Byzantium and Persia, he sent forces through the Caucasus in 627; they stormed Derbent, joined the emperor Heraclius at the siege of Tiflis and later took the city. His son Tardush Shad established Turkic rule in Tokharistan, in today's Afghanistan.
+Its greatest ruler was Tong Yabghu, who reigned from 618 to 630 over lands from the Tarim Basin to the Caspian. His winter capital was Suyab in the Chui valley of today's Kyrgyzstan, and the Chinese pilgrim Xuanzang is said to have met him. During the last great war between Byzantium and Persia, he sent forces through the Caucasus in 627; they stormed Derbent, joined the emperor Heraclius at the siege of Tiflis and later took the city. His son Tardush Shad established Turkic rule in Tokharistan, in today's Afghanistan.
 
 ## The ten arrows
 
@@ -33,4 +33,4 @@ The Tang divided the ten tribes between two Ashina princes ruling as its clients
 
 ## On our maps
 
-Our 700 map draws the Western Gokturk Khaganate, although the independent khaganate had been destroyed in 657 and by around 700 the region's tribes were led by the Turgesh. It is shown alongside the [Tang dynasty](/place/tang-dynasty), the [Tibetan Empire](/place/tibetan-empire) and the [Khazars](/place/khazars); for its origins see the [Göktürks](/place/gokturks), and for its great western rivals the [Sasanian Empire](/place/sasanian-empire) and the [Byzantine Empire](/place/byzantine-empire).
+Our 700 map draws the Western Gokturk Khaganate, although the independent khaganate had been destroyed in 657 and by around 700 the region's tribes were led by the Turgesh. It is shown alongside the [Tibetan Empire](/place/tibetan-empire) and the [Khazars](/place/khazars), while China to the east is the [Tang dynasty](/place/tang-dynasty), which had ruled since 618; for its origins see the [Göktürks](/place/gokturks), and for its great western rivals the [Sasanian Empire](/place/sasanian-empire) and the [Byzantine Empire](/place/byzantine-empire).

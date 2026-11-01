@@ -33,4 +33,4 @@ Neighbouring peoples had absorbed the Hurrians by the start of the Iron Age. The
 
 ## On our maps
 
-Our maps draw a Hurrian territory, labelled Hurrians or Hurrian Kingdoms, in 3000, 2000 and 1500 BCE. The outline is approximate, and the earliest map comes before the first written evidence for Hurrian kingdoms later in the third millennium. [Sumer](/culture/sumer) and, later, the [New Kingdom of Egypt](/place/new-kingdom-of-egypt) were among its neighbours.
+Our maps draw a Hurrian territory, labelled Hurrians or Hurrian Kingdoms, in 3000, 2000 and 1500 BCE. The outline is approximate, and the earliest map comes before the first written evidence for Hurrian kingdoms later in the third millennium. [Sumer](/culture/sumer) and, later, the Hittites and Assyria were among its neighbours.

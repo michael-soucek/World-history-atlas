@@ -1,6 +1,7 @@
 ---
 sources:
   - Wikipedia: Vandals | https://en.wikipedia.org/wiki/Vandals
+  - Wikipedia: Sack of Rome (455) | https://en.wikipedia.org/wiki/Sack_of_Rome_(455)
   - Wikidata: Vandals (Q42211) | https://www.wikidata.org/wiki/Q42211
   - Borders of Time maps, built on historical-basemaps | https://github.com/aourednik/historical-basemaps
 written: 2026-10-30

@@ -13,7 +13,7 @@ For a quarter of a century the king of Pontus, a realm on the southern shore of 
 
 ## A disputed throne
 
-Mithridates was born around 135 BCE at Sinope, in what is now northern Turkey. His family was of mixed Persian and Greek descent, and he claimed [Cyrus the Great](/person/cyrus-the-great) and Darius among his ancestors on his father's side and [Seleucus I](/person/seleucus-i-nicator) among the Macedonian generals on his mother's. When his father, Mithridates V, was poisoned at a banquet around 120 BCE, power passed to his mother as regent, who favoured his younger brother. According to later tradition, the young prince fled and spent years in hiding, hardening himself and taking small doses of poison to build up resistance. Between 116 and 113 BCE he returned, was acclaimed king, and imprisoned his mother and brother, both of whom died in captivity.
+Mithridates was born around 135 BCE at Sinope, in what is now northern Turkey. His family was of mixed Persian and Greek descent, and he claimed [Cyrus the Great](/person/cyrus-the-great) and Darius among his ancestors on his father's side and [Seleucus I](/person/seleucus-i-nicator) among the Macedonian generals on his mother's. When his father, Mithridates V, was poisoned at a banquet around 120 BCE, power passed to his mother as regent, who favoured his younger brother. According to later tradition, the young prince fled and spent years in hiding, hardening himself and taking small doses of poison to build up resistance. Between 116 and 113 BCE he returned, was acclaimed king, and imprisoned his mother and brother; his mother died in prison, and his brother either died there or was executed.
 
 ## Master of the Black Sea
 
@@ -21,7 +21,7 @@ Mithridates set out to make Pontus the leading power around the Black Sea. He br
 
 ## War with Rome
 
-In 89 BCE, urged on by Roman officials, Nicomedes IV of Bithynia invaded Pontus. Rome was then tied up with the Social War in Italy, and Mithridates routed the invaders and overran the Roman province of Asia. In 88 BCE he ordered the killing of Roman and Italian residents in the cities of Asia Minor, an event known as the Asiatic Vespers; ancient sources put the dead as high as 80,000. Presenting himself as the liberator of the Greeks, he won over Athens and much of mainland Greece. Sulla drove his armies out of Greece in the First Mithridatic War (88 to 84 BCE), but, needing to return to Rome to fight his rivals, granted a lenient peace. A Roman commander's attack on Pontus in 83 BCE began a brief second war, which Mithridates won.
+In 89 BCE, urged on by Roman officials, Nicomedes IV of Bithynia invaded Pontus. Rome was then tied up with the Social War in Italy, and Mithridates routed the invaders and overran the Roman province of Asia. In 88 BCE he ordered the killing of Roman and Italian residents in the cities of Asia Minor, an event known as the Asiatic Vespers; ancient sources put the dead as high as 80,000. Presenting himself as the liberator of the Greeks, he won over Athens and much of mainland Greece. Sulla drove his armies out of Greece in the First Mithridatic War (89 to 85 BCE), but, needing to return to Rome to fight his rivals, granted a lenient peace. A Roman commander's attack on Pontus in 83 BCE began a brief second war, which Mithridates won.
 
 ## The final struggle
 

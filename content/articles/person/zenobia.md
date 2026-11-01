@@ -29,7 +29,7 @@ While the emperor Claudius Gothicus fought invaders in Europe, Zenobia moved to 
 
 ## A cultured court
 
-Zenobia governed a realm of many languages and religions, presenting herself at once as a Syrian queen, a Hellenistic monarch and a Roman empress. She probably spent much of her reign in Antioch. Her court attracted scholars, among them the philosopher Longinus. She protected Christians and Jews, and later Christian writers called her Jewish, though no evidence supports this.
+Zenobia governed a realm of many languages and religions, presenting herself at once as a Syrian queen, a Hellenistic monarch and a Roman empress. According to Zosimus, she kept a residence in Antioch. Her court attracted scholars, among them the philosopher Longinus. She protected Christians and Jews, and later Christian writers called her Jewish; the scholar Javier Teixidor thought she was probably a convert to Judaism.
 
 ## Rebellion and defeat
 

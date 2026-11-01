@@ -4,6 +4,7 @@ sources:
   - Wikidata: Nyamal (Q28220115) | https://www.wikidata.org/wiki/Q28220115
   - Wikipedia: Nyamal language | https://en.wikipedia.org/wiki/Nyamal_language
   - Wikipedia: Pilbara strike | https://en.wikipedia.org/wiki/Pilbara_strike
+  - Wikipedia: Peter Coppin | https://en.wikipedia.org/wiki/Peter_Coppin
   - Borders of Time maps, built on historical-basemaps | https://github.com/aourednik/historical-basemaps
 written: 2026-10-30
 ---
@@ -25,7 +26,7 @@ In 1863 the pastoralist Walter Padbury took up land on the De Grey, and other le
 
 ## The Pilbara strike
 
-On 1 May 1946 some 800 Aboriginal pastoral workers walked off Pilbara stations and out of work in Port Hedland and Marble Bar, demanding fair wages and decent conditions. It went on until August 1949, making it the longest strike Australia has seen. Among its leaders were the Nyamal men Clancy McKenna and Peter Coppin. Coppin later helped found Yandeyarra station, which still operates, and in 2002 he was named NAIDOC Elder of the Year. More recently the Nyamal psychologist Tracy Westerman was named Western Australia's Australian of the Year for 2018.
+On 1 May 1946 some 800 Aboriginal pastoral workers walked off Pilbara stations and out of work in Port Hedland and Marble Bar, demanding fair wages and decent conditions. It went on until August 1949, making it the longest strike Australia has seen. Among its leaders were the Nyamal men Clancy McKenna and Peter Coppin. Coppin later managed Yandeyarra Station, and in 2002 he was named NAIDOC Elder of the Year. More recently the Nyamal psychologist Tracy Westerman was named Western Australia's Australian of the Year for 2018.
 
 ## On our maps
 

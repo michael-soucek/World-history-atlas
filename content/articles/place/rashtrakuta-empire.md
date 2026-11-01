@@ -25,7 +25,7 @@ The empire was divided into provinces called rashtras, sixteen of them under Amo
 
 ## Ellora and other monuments
 
-The greatest Rashtrakuta monument is the Kailasa temple at Ellora, carved out of a single rock mass at the command of Krishna I. Five Jain cave temples at the same site are assigned to Amoghavarsha's time, and temples at Pattadakal and elsewhere in Karnataka show a regional southern style.
+The greatest Rashtrakuta monument is the Kailasa temple at Ellora, carved out of a single rock mass at the command of Krishna I. Five Jain cave temples at the same site are sometimes ascribed to Amoghavarsha's time, and temples at Pattadakal and elsewhere in Karnataka show a regional southern style.
 
 ## Collapse
 

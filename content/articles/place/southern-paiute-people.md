@@ -20,7 +20,7 @@ The Southern Paiute were not organised as a single tribe. Groups of roughly 10 t
 
 ## Contact and settlement
 
-The first recorded European contact came in 1776, when the Franciscan friars Silvestre Vélez de Escalante and Francisco Atanasio Domínguez crossed the region looking for a route to California. Before the 1850s the main threat came from Navajo and Ute raiders, who seized Paiute women and children to sell as slaves. From 1851 Mormon settlers took over Paiute land and water sources; relations were at first peaceful, but cattle herds ate the seeds and drove off the game on which families depended. Silver mining at Pioche from 1869 drew on cheap Paiute labour in harsh conditions, and children were sent to assimilationist schools. By the early 1900s the Southern Paiute numbered roughly 800.
+The first recorded European contact came in 1776, when the Franciscan friars Silvestre Vélez de Escalante and Francisco Atanasio Domínguez crossed the region looking for a route to California. Before the 1850s the main threat came from raiders such as the Navajo and Ute; the Navajo in particular seized Paiute women and children to sell as slaves. From 1851 Mormon settlers took over Paiute land and water sources; relations were at first peaceful, but cattle herds ate the seeds and drove off the game on which families depended. Silver mining at Pioche from 1869 drew on cheap Paiute labour in harsh conditions, and children were sent to assimilationist schools. By the early 1900s the Southern Paiute numbered roughly 800.
 
 ## Termination and restoration
 

@@ -30,7 +30,7 @@ Rivalry with Britain brought a series of colonial wars. By the Treaty of Utrecht
 
 ## Cession and legacy
 
-The Treaty of Paris of 10 February 1763 ended the [Seven Years' War](/event/seven-years-war). Britain took Canada and the lands east of the Mississippi, which became the [Province of Quebec](/place/province-of-quebec-1763-1791), while western Louisiana had already passed to Spain. Only Saint Pierre and Miquelon remained French. The colony's French-speaking descendants shaped modern Quebec and the bilingualism of [Canada](/country/canada), and the Conquest remains a debated theme in Quebec's historical memory.
+The Treaty of Paris of 10 February 1763 ended the [Seven Years' War](/event/seven-years-war). Britain took Canada, which became the [Province of Quebec](/place/province-of-quebec-1763-1791), and the lands east of the Mississippi, while western Louisiana had already passed to Spain. Only Saint Pierre and Miquelon remained French. The colony's French-speaking descendants shaped modern Quebec and the bilingualism of [Canada](/country/canada), and the Conquest remains a debated theme in Quebec's historical memory.
 
 ## On our maps
 

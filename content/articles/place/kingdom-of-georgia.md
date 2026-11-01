@@ -2,6 +2,9 @@
 sources:
   - Wikipedia: Kingdom of Georgia | https://en.wikipedia.org/wiki/Kingdom_of_Georgia
   - Wikidata: Kingdom of Georgia (Q154667) | https://www.wikidata.org/wiki/Q154667
+  - Wikipedia: Monastery of Iviron | https://en.wikipedia.org/wiki/Monastery_of_Iviron
+  - Wikipedia: Monastery of the Cross | https://en.wikipedia.org/wiki/Monastery_of_the_Cross
+  - Wikipedia: Kingdom of Kartli-Kakheti | https://en.wikipedia.org/wiki/Kingdom_of_Kartli-Kakheti
   - Borders of Time maps, built on historical-basemaps | https://github.com/aourednik/historical-basemaps
 written: 2026-10-30
 ---

@@ -14,7 +14,7 @@ Linguistic and ethnographic studies suggest that the Oromo originated in the far
 
 ## Gadaa
 
-Under Gadaa, men passed through a series of grades lasting eight years each, and every eight years leaders were chosen by consensus to serve a single fixed term before handing over power. A council, a general assembly and a religious assembly shared authority, and the system regulated political, economic, social and ritual life. Gadaa was tied to a lunar-stellar calendar used to time elections and transfers of power. UNESCO inscribed it on its list of Intangible Cultural Heritage in 2016.
+Under Gadaa, men passed through a series of grades lasting eight years each, and every eight years leaders were chosen by consensus to serve a single fixed term before handing over power. A council, a general assembly and a religious assembly shared authority, and the system regulated political, economic, social and ritual life. The Oromo also developed their own lunisolar calendar. UNESCO inscribed it on its list of Intangible Cultural Heritage in 2016.
 
 ## The great expansion
 

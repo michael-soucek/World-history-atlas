@@ -2,6 +2,7 @@
 sources:
   - Wikipedia: Karkota dynasty | https://en.wikipedia.org/wiki/Karkota_dynasty
   - Wikidata: Karkota dynasty (Q466433) | https://www.wikidata.org/wiki/Q466433
+  - Wikipedia: Rajatarangini | https://en.wikipedia.org/wiki/Rajatarangini
   - Borders of Time maps, built on historical-basemaps | https://github.com/aourednik/historical-basemaps
 written: 2026-10-30
 ---
@@ -21,7 +22,7 @@ Lalitaditya Muktapida reigned from about 724 to 760. Kalhana credits him with va
 
 ## Society and belief
 
-The Karkota kings built many shrines to Vishnu and supported Brahmins with grants of villages, while also allowing Buddhism to flourish; stupas and monasteries stand among the ruins of their capital. A satirical work of the period, the Kuttanimata, pictures a wealthy, unequal society dominated by merchants. Kings collected customs dues, market taxes and other levies, and both coins and cowrie shells were used as money.
+The Karkota kings built many shrines to Vishnu and supported Brahmins with grants of villages, while also allowing Buddhism to flourish; stupas and monasteries stand among the ruins of their capital. A didactic work of the period, the Kuttanimata, pictures a wealthy, unequal society dominated by merchants. Kings collected customs dues, market taxes and other levies, and both coins and cowrie shells were used as money.
 
 ## A court of scholars
 

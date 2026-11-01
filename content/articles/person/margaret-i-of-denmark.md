@@ -29,7 +29,7 @@ Lacking an heir of her own, Margaret adopted her great-nephew Bogislav of Pomera
 
 ## Government
 
-Margaret ruled through officials she chose herself and gave the old councils little room. She took back crown lands that had passed to the nobility and church, replaced debased coinage with good silver, bought Gotland back from its holders and recovered much of Schleswig. She placed Danes and Germans in key posts in Sweden and Norway, which later Swedish and Norwegian historians criticised as favouritism, though others see it as a search for loyal administrators. Abroad she avoided entangling wars, refusing an English offer of an offensive alliance; Erik's 1406 marriage to Philippa, daughter of Henry IV of England, sealed only a defensive pact.
+Margaret ruled through officials she chose herself and gave the old councils little room. She took back crown lands that had passed to the nobility and church, issued new coinage, recovered Gotland and much of Schleswig. She placed Danes and Germans in key posts in Sweden and Norway, which later Swedish and Norwegian historians criticised as favouritism, though others see it as a search for loyal administrators. Abroad she avoided entangling wars, refusing an English offer of an offensive alliance; Erik's 1406 marriage to Philippa, daughter of Henry IV of England, sealed only a defensive pact.
 
 ## Death and reputation
 

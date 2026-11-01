@@ -9,11 +9,11 @@ sources:
   - Wikidata: Yitzhak Rabin (Q34060) | https://www.wikidata.org/wiki/Q34060
 written: 2026-10-30
 ---
-Yitzhak Rabin spent 27 years as a soldier, commanding [Israel](/country/israel)'s army in the Six-Day War, before becoming prime minister twice, in 1974–1977 and from 1992. In his second term he signed the Oslo Accords with the Palestine Liberation Organization and a peace treaty with Jordan, sharing the 1994 Nobel Peace Prize. In November 1995 he was shot dead by an Israeli opponent of the peace process.
+Yitzhak Rabin spent more than a quarter of a century as a soldier, commanding [Israel](/country/israel)'s army in the Six-Day War, before becoming prime minister twice, in 1974–1977 and from 1992. In his second term he signed the Oslo Accords with the Palestine Liberation Organization and a peace treaty with Jordan, sharing the 1994 Nobel Peace Prize. In November 1995 he was shot dead by an Israeli opponent of the peace process.
 
 ## Youth in Mandatory Palestine
 
-Rabin was born in Jerusalem on 1 March 1922 to Jewish immigrants from the Russian Empire, his father from what is now Ukraine and his mother from Belarus, and grew up in Tel Aviv in a Labour Zionist household. He studied agriculture and hoped to become an irrigation engineer, but as Arab-Jewish violence grew in the late 1930s he turned to military affairs. In 1941 he joined the Palmach, the new strike force of the Jewish underground army, the Haganah,. After the Second World War he planned a 1945 raid that freed 208 interned Jewish immigrants from a British camp at Atlit, and in 1946 the British held him for five months.
+Rabin was born in Jerusalem on 1 March 1922 to Jewish immigrants from the Russian Empire, his father from what is now Ukraine and his mother from Belarus, and grew up in Tel Aviv in a Labour Zionist household. He studied agriculture and hoped to become an irrigation engineer, but as Arab-Jewish violence grew in the late 1930s he turned to military affairs. In 1941 he joined the Palmach, the new strike force of the Jewish underground army, the Haganah. After the Second World War he planned a 1945 raid that freed 208 interned Jewish immigrants from a British camp at Atlit, and in 1946 the British held him for five months.
 
 ## Soldier
 

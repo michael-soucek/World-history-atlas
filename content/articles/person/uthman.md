@@ -13,7 +13,7 @@ Uthman ibn Affan, the third caliph, governed the young Muslim state from 644 to 
 
 ## Merchant and early convert
 
-Uthman was born around 576, in Mecca according to most accounts, into the Umayya family of the Abd Shams clan, the leading lineage of the Quraysh tribe on the eve of Islam. Like his father he became a trader and grew very wealthy, and he was one of the few Meccans of his day who could write.
+Uthman was born around 576, in Mecca according to most accounts, into the Umayya family of the Abd Shams clan, the leading lineage of the Quraysh tribe on the eve of Islam. Like his father he became a trader and grew very wealthy.
 
 Returning from a trading trip to Syria, Uthman was persuaded by [Abu Bakr](/person/abu-bakr) to accept Muhammad's message and became one of the first converts. He married Muhammad's daughter Ruqayya, and after her death another daughter, Umm Kulthum, which earned him the name "possessor of the two lights". To escape persecution the couple went to Abyssinia in 615, and in 622 they joined the move to Medina, where Uthman again prospered in trade. In 628 Muhammad sent him to negotiate with the Meccans at Hudaybiyya, and he is said to have paid for a large part of the expedition to Tabuk in 630.
 

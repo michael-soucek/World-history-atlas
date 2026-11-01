@@ -13,7 +13,7 @@ Archaeological finds place a recognisable Mapuche culture in the region by 600 t
 
 ## The Arauco War
 
-Pedro de Valdivia founded Santiago in 1541, and between 1550 and 1553 the Spanish built Concepción, Valdivia, Imperial, Villarrica and Angol in Mapuche country. In 1553 the Mapuche chose Caupolicán as war leader, with Lautaro, who had served as an auxiliary with Spanish cavalry, as his deputy; Lautaro's forces destroyed Valdivia and his army at Tucapel. Warfare, epidemics and deaths in Spanish-owned gold mines cut Mapuche numbers sharply. In 1598 warriors under Pelantaro surprised Governor Martín García Óñez de Loyola at Curalaba, and the general rising that followed destroyed or emptied every Spanish town south of the Biobío except Concepción and Chillán. That river remained the frontier of the [Spanish Empire](/place/spanish-empire) for the rest of colonial rule, in a sporadic conflict lasting nearly 350 years.
+Pedro de Valdivia founded Santiago in 1541, and between 1550 and 1553 the Spanish built Concepción, Valdivia, Imperial, Villarrica and Angol in Mapuche country. In 1553 the Mapuche chose Caupolicán as war leader, with Lautaro, who had served as an auxiliary with Spanish cavalry, as his deputy; Lautaro's forces destroyed Valdivia and his army at Tucapel. Warfare, epidemics and deaths in Spanish-owned gold mines cut Mapuche numbers sharply. In 1598 warriors under Pelantaro surprised Governor Martín García Óñez de Loyola at Curalaba, and the general rising that followed destroyed or emptied every Spanish town south of the Biobío, while only Concepción and Chillán withstood the sieges and raids. That river remained the frontier of the [Spanish Empire](/place/spanish-empire) for the rest of colonial rule, in a sporadic conflict lasting nearly 350 years.
 
 ## East across the Andes
 
@@ -29,7 +29,7 @@ Both republics expanded rapidly in the nineteenth century. Between 1861 and 1879
 
 ## The Mapuche today
 
-Chile counted about 1.6 million Mapuche in 2024 and Argentina about 146,000 in 2022. Linguists estimate some 200,000 fluent Mapudungun speakers in Chile, and the language is now taught in rural schools in several southern regions; Land and autonomy remain contested. Since the 1990s some organisations have pressed for the recovery of ancestral land, and armed groups have attacked forestry companies and private property, prompting prosecutions under anti-terrorism law; in 2022 Chile's Chamber of Deputies declared four such groups terrorist organisations.
+Chile counted about 1.6 million Mapuche in 2024 and Argentina about 146,000 in 2022. Linguists estimate some 200,000 fluent Mapudungun speakers in Chile, and the language is now taught in rural schools in several southern regions. Land and autonomy remain contested. Since the 1990s some organisations have pressed for the recovery of ancestral land, and armed groups have attacked forestry companies and private property, prompting prosecutions under anti-terrorism law; in 2022 Chile's Chamber of Deputies declared four such groups terrorist organisations.
 
 ## On our maps
 

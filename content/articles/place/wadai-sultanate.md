@@ -5,11 +5,11 @@ sources:
   - Borders of Time maps, built on historical-basemaps | https://github.com/aourednik/historical-basemaps
 written: 2026-10-30
 ---
-Wadai was a Muslim sultanate in the Sahel east of Lake Chad, in what is now eastern [Chad](/country/chad) and part of the Central African Republic. Founded in 1635 by Abd al-Karim, it grew rich on long-distance trade and slaving, became one of the strongest states of the central Sudan in the nineteenth century, and fell to French conquest between 1906 and 1912. Our maps label it the Wadai Empire.
+Wadai was a Muslim sultanate in the Sahel east of Lake Chad, in what is now eastern [Chad](/country/chad) and part of the Central African Republic. Founded in 1635 by Abd al-Karim, it grew rich on long-distance trade and slaving, became one of the strongest states of the central Sudan in the nineteenth century, and fell to French conquest between 1906 and 1912. Our later maps label it the Wadai Empire.
 
 ## Founding
 
-Before the 1630s the region was ruled by the Tunjur, a dynasty also linked in tradition with Darfur. In 1635 Abd al-Karim, from a noble family of the Maba people, gathered the Maba and smaller groups under the banner of Islam and overthrew the Tunjur king Daud. He married Daud's daughter, sealed alliances with neighbouring peoples through further marriages, built a capital at Wara and founded the ruling Kolak dynasty. Islam became the religion of the state, although most ordinary people continued to follow traditional beliefs.
+Before the 1630s the region was ruled by the Tunjur, a dynasty also linked in tradition with Darfur. In 1635 Abd al-Karim, from a noble family of the Maba people, gathered the Maba and smaller groups under the banner of Islam and overthrew the Tunjur king Daud. He is said to have married Daud's daughter and sealed alliances with neighbouring peoples through further marriages, and he built a capital at Wara and founded the ruling Kolak dynasty. Islam became the religion of the state, although most ordinary people continued to follow traditional beliefs.
 
 ## Between Darfur and Bornu
 
@@ -29,8 +29,8 @@ Succession quarrels returned after 1898, with Darfur and the Senussi backing riv
 
 ## A surviving title
 
-France restored the sultanate as a dependent office in 1935, and when Chad became independent in 1960 it passed into the new republic. The Kolak of Wadai remains a traditional, non-sovereign ruler in Chad today.
+France reportedly restored the sultanate as a dependent office in 1935, and when Chad became independent in 1960 it passed into the new republic. The Kolak of Wadai remains a traditional, non-sovereign ruler in Chad today.
 
 ## On our maps
 
-Our 1878 and 1880 maps show the Wadai Empire east of Lake Chad, bordering lands labelled [Egypt](/country/egypt) to the east and the Ottoman Empire's Saharan territory to the north.
+Our maps from 1530 to 1800 draw an approximate Wadai, the earliest before its traditional founding in 1635, and our 1878 and 1880 maps show the Wadai Empire east of Lake Chad, bordering lands labelled [Egypt](/country/egypt) to the east and the Ottoman Empire's Saharan territory to the north.

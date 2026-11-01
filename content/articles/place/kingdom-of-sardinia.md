@@ -9,7 +9,7 @@ The Kingdom of Sardinia is best known as the state of the House of Savoy between
 
 ## The earlier kingdom
 
-The title is much older than the Savoyard state. In 1297 Pope Boniface VIII created, on paper, a kingdom of Sardinia and Corsica and granted it to James II of Aragon. Aragonese forces began conquering the island in 1324, against the Pisans and later the native judicate of Arborea, which resisted for nearly a century; the last Arborean lands were bought in 1420. Corsica, held by Genoa, was never taken. Under Aragon and then Spain, Sardinia kept its own parliament and was ruled by a viceroy from Cagliari, but suffered from pirate raids and outbreaks of plague.
+The title is much older than the Savoyard state. In 1297 Pope Boniface VIII created, on paper, a kingdom of Sardinia and Corsica and granted it to James II of Aragon. Aragonese forces began conquering the island in 1324, against the Pisans and later the native judicate of Arborea, which resisted for nearly a century; the last Arborean lands were bought in 1420. Corsica, held by Genoa, was never taken. Under Aragon and then Spain, Sardinia kept its own parliament and was ruled by a viceroy from Cagliari, but suffered from Barbary pirate raids.
 
 ## The Savoyard exchange
 

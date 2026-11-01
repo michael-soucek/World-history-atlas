@@ -1,6 +1,7 @@
 ---
 sources:
   - Wikipedia: Vladimir-Suzdal | https://en.wikipedia.org/wiki/Vladimir-Suzdal
+  - Wikipedia: Church of the Intercession on the Nerl | https://en.wikipedia.org/wiki/Church_of_the_Intercession_on_the_Nerl
   - Wikidata: Grand Principality of Vladimir (Q83546) | https://www.wikidata.org/wiki/Q83546
   - Borders of Time maps, built on historical-basemaps | https://github.com/aourednik/historical-basemaps
 written: 2026-10-30
@@ -21,7 +22,7 @@ After a struggle with the boyars, Andrey's brother Vsevolod III won the throne a
 
 ## White-stone churches
 
-Andrey invited architects from abroad, and the churches of Vladimir-Suzdal combined the Byzantine cross-in-square plan with carved white limestone in a manner reminiscent of Romanesque Europe. The Church of the Intercession on the Nerl became the best-known example. Moscow's builders later took over both the technique and the four-pillared cathedral type.
+Andrey invited architects from abroad, and the churches of Vladimir-Suzdal combined the Byzantine cross-in-square plan with carved white limestone in a manner reminiscent of Romanesque Europe. The Church of the Intercession on the Nerl became one of the best-known examples. Moscow's builders later took over both the technique and the four-pillared cathedral type.
 
 ## Under the Mongols
 
@@ -29,7 +30,7 @@ The [Mongol invasion of Kievan Rus'](/event/mongol-invasion-of-kievan-rus) in 12
 
 ## Absorbed by Moscow
 
-Moscow, Tver and Nizhny Novgorod contended for the title, and the winners preferred to stay in their own cities. The metropolitan moved his seat from Vladimir to Moscow in the 1320s, and from 1331 the prince of Moscow was usually also grand prince of Vladimir. By the late 1380s or 1390s the two thrones were permanently joined, and Vladimir's legacy passed to the [Grand Principality of Moscow](/place/grand-principality-of-moscow), whose rulers kept "Vladimir" in their titles until 1917.
+Moscow, Tver and Nizhny Novgorod contended for the title, and the winners preferred to stay in their own cities. The metropolitan moved his seat from Vladimir to Moscow in the 1320s, and from 1331 the prince of Moscow was usually also grand prince of Vladimir. By 1389 the two thrones were permanently joined, and Vladimir's legacy passed to the [Grand Principality of Moscow](/place/grand-principality-of-moscow), whose rulers kept "Vladimir" in their titles until 1917.
 
 ## On our maps
 

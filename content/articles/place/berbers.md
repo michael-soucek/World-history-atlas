@@ -9,7 +9,7 @@ From the Atlantic coast of Morocco to the oases of western Egypt, the Imazighen 
 
 ## Deep roots
 
-People have lived in the Maghreb since at least 10,000 BC, and rock paintings at Tassili n'Ajjer in Algeria and Tadrart Acacus in Libya record a Neolithic world of herders and early farmers between about 6000 and 2000 BC. Linguists think the Amazigh languages, a branch of the Afroasiatic family, spread west from the Nile Valley across the northern Sahara from around 2000 BC. Ancient Egyptian writings are the first to mention them, and Greek and Roman writers later named the Mauri in the far west, the Numidians nearer Carthage and the more pastoral Gaetulians on the desert edge.
+People have lived in the Maghreb since prehistoric times, and rock paintings at Tassili n'Ajjer in Algeria and Tadrart Acacus in Libya record a Neolithic world of herders and early farmers between about 6000 and 2000 BC. Linguists think the Amazigh languages, a branch of the Afroasiatic family, spread west from the Nile Valley across the northern Sahara from around 2000 BC. Ancient Egyptian writings are the first to mention them, and Greek and Roman writers later named the Mauri in the far west, the Numidians nearer Carthage and the more pastoral Gaetulians on the desert edge.
 
 ## Kingdoms of antiquity
 

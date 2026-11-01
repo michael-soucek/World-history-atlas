@@ -9,7 +9,7 @@ From its capital at Sennar on the Blue Nile, the Funj Sultanate ruled much of wh
 
 ## Origins
 
-Christian Nubia had been in decline for centuries. [Makuria](/place/makuria) had largely collapsed by the late 14th century, and in the 15th century an Arab tribal federation led by Abdallah Jammah is said to have destroyed what remained of [Alodia](/place/alodia). In the early 16th century the Funj, cattle-herding newcomers from the south, overcame this federation. Scholars still debate who the Funj were: Nubians, Shilluk, a social class rather than an ethnic group, or migrants from further afield. Traditions disagree on how the state began in 1504, but the Abdallab chiefs ended up as subordinate rulers under the Funj, who quickly adopted Islam. The traveller David Reubeni, visiting in 1523, described Amara Dunqas as a Muslim king forever touring his lands with mounted captains.
+Christian Nubia had been in decline for centuries. [Makuria](/place/makuria) had largely collapsed by the late 14th century, and in the 15th century an Arab tribal federation led by Abdallah Jammah is said to have destroyed what remained of [Alodia](/place/alodia). In the early 16th century the Funj, newcomers from further south, gained the upper hand over this federation. Scholars still debate who the Funj were: Nubians, Shilluk, a social class rather than an ethnic group, or migrants from further afield. Traditions disagree on how the state began in 1504, but the Abdallab chiefs ended up as subordinate rulers under the Funj, who quickly adopted Islam. The traveller David Reubeni, visiting in 1523, described Amara Dunqas as a Muslim king forever touring his lands with mounted captains.
 
 ## Ottomans, Ajib and Ethiopia
 

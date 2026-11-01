@@ -29,7 +29,7 @@ As the [Scramble for Africa](/event/scramble-for-africa) gathered pace, conflict
 
 ## The eastern empire and the end
 
-By 1895 Samori was based at Dabakala, and that year his troops forced a French column to retreat and won the submission of the trading city of [Kong](/place/kong-empire). He destroyed Kong in May 1897 after it rebelled, and in August his son's forces killed the French officer Braulot near Bouna. The fall of Sikasso in May 1898 freed French forces to close in. Samori retreated towards Liberia through mountainous country, where thousands of his followers died of hunger, and on 29 September 1898 a French force under Henri Gouraud captured him at Guelemou. His lands were absorbed into [French West Africa](/place/french-west-africa) and British Sierra Leone.
+By 1895 Samori was based at Dabakala, and that year his troops forced a French column to retreat and won the submission of the trading city of [Kong](/place/kong-empire). He destroyed Kong in May 1897 after it rebelled, and in August his son's forces killed the French officer Braulot near Bouna. The fall of Sikasso in May 1898 freed French forces to close in. Samori retreated towards Liberia through mountainous country, where thousands of his followers died of hunger, and on 29 September 1898 a French force under Henri Gouraud captured him at Guelemou. His lands were absorbed into [French West Africa](/place/french-west-africa).
 
 ## On our maps
 

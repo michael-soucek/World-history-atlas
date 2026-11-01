@@ -15,7 +15,7 @@ The anthropologist Norman Tindale reckoned Wirangu lands at about 21,500 square 
 
 ## Beliefs
 
-Wirangu stories tie the land to the travels of ancestral beings. One published account, recorded by Tindale, tells of a great serpent pursued by two ancestral men from Ooldea to a granite waterhole to the south-east, where the ochre deposits of red, yellow and white are explained as traces left by the wounded snake.
+Wirangu stories tie the land to the travels of ancestral beings. One published account, recorded by the anthropologist Ronald Berndt, tells of a great serpent pursued by two ancestral men from Ooldea to a granite waterhole to the south-east, where the ochre deposits of red, yellow and white are explained as traces left by the wounded snake.
 
 ## Contact and conflict
 

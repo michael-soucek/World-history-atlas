@@ -22,7 +22,7 @@ Rivers carried an exchange system that brought exotic raw materials from across 
 
 ## Earthworks and art
 
-The greatest concentration of ceremonial sites lies in the Scioto and Paint Creek valleys around Chillicothe, Ohio, where burial mounds stand within geometric enclosures covering tens to hundreds of acres. The Octagon at Newark covers more than 50 acres, and researchers including Bradley Lepper have argued that it is aligned with the 18.6-year cycle of lunar risings and settings, though such interpretations are still debated. Hopewell artists worked copper into falcons and other forms, cut mica into shapes such as the celebrated "Mica Hand", and carved stone pipes in the shape of animals and birds; more than 200 were found in a single mound at Mound City.
+The greatest concentration of ceremonial sites lies in the Scioto and Paint Creek valleys around Chillicothe, Ohio, where burial mounds stand within geometric enclosures covering tens to hundreds of acres. The Octagon at Newark covers more than 50 acres, and researchers including Bradley Lepper have argued that it is aligned with the 18.6-year cycle of lunar risings and settings, though such interpretations are still debated. Hopewell artists worked copper, pearls and sharks' teeth into ornaments, cut mica into shapes such as the celebrated "Mica Hand", and were expert carvers of pipestone; many burial mounds are full of finely carved figures and pipes.
 
 ## Decline
 

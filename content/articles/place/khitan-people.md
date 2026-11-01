@@ -17,7 +17,7 @@ For several centuries the Khitans were a confederation of tribes that herded hor
 
 ## The Liao empire
 
-Abaoji united the tribes and founded the [Liao dynasty](/place/liao-dynasty), dated to 907 in some accounts and 916 in others. Exploiting the turmoil after the Tang collapse, the Khitans gained sixteen prefectures of northern China in 936 for backing a rebel who founded the Later Jin and briefly took Kaifeng in 947. They destroyed the kingdom of Balhae and fought three wars with [Goryeo](/place/goryeo) between 993 and 1018. The Chanyuan Treaty of 1005 began roughly 120 years of peace with the [Song dynasty](/place/song-dynasty). The Liao kept the Khitan language, shamanic rites and seasonal hunts while governing farmers and city people, and used two scripts of their own, the large and the small, which are still not fully deciphered.
+Abaoji united the tribes and founded the [Liao dynasty](/place/liao-dynasty), dated to 907 in some accounts and 916 in others. Exploiting the turmoil after the Tang collapse, the Khitans gained sixteen prefectures of northern China in 936 for backing a rebel who founded the Later Jin, and briefly took Kaifeng in 947. They destroyed the kingdom of Balhae and fought three wars with [Goryeo](/place/goryeo) between 993 and 1018. The Chanyuan Treaty of 1005 began roughly 120 years of peace with the [Song dynasty](/place/song-dynasty). The Liao kept the Khitan language, shamanic rites and seasonal hunts while governing farmers and city people, and used two scripts of their own, the large and the small, which are still not fully deciphered.
 
 ## Society and belief
 

@@ -9,7 +9,7 @@ sources:
   - Wikidata: Mark Antony (Q51673) | https://www.wikidata.org/wiki/Q51673
 written: 2026-10-30
 ---
-Marcus Antonius, known in English as Mark Antony, was Julius Caesar's leading lieutenant and, after Caesar's murder, one of the three men who ruled the Roman world. Born in 83 BCE, he governed the eastern provinces in partnership with Cleopatra VII of Egypt until his rivalry with Caesar's heir Octavian ended in defeat at Actium in 31 BCE and his suicide the following year. His fall cleared the way for Octavian to become Augustus, the first Roman emperor. His reputation still bears the marks of Cicero's speeches and from Octavian's propaganda.
+Marcus Antonius, known in English as Mark Antony, was Julius Caesar's leading lieutenant and, after Caesar's murder, one of the three men who ruled the Roman world. Born in 83 BCE, he governed the eastern provinces in partnership with Cleopatra VII of Egypt until his rivalry with Caesar's heir Octavian ended in defeat at Actium in 31 BCE and his suicide the following year. His fall cleared the way for Octavian to become Augustus, the first Roman emperor. His reputation still bears the marks of Cicero's speeches and of Octavian's propaganda.
 
 ## Youth and early career
 

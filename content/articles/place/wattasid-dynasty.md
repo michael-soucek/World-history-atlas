@@ -7,7 +7,7 @@ sources:
   - Borders of Time maps, built on historical-basemaps | https://github.com/aourednik/historical-basemaps
 written: 2026-10-30
 ---
-The Wattasids were a Zenata Berber family who first ran the Marinid sultanate of [Morocco](/country/morocco) as viziers and then, from 1472 to 1554, ruled from Fez as sultans in their own right. Their era was one of weakness: Portuguese and Spanish forces seized much of the Moroccan coast, the south slipped from their control, and they were finally swept aside by the Saadians. Our maps label their state the Wattasid Caliphate, although its rulers used the title of sultan.
+The Wattasids were a Zenata Berber family who first ran the Marinid sultanate of [Morocco](/country/morocco) as viziers and then, from 1472 to 1554, ruled from Fez as sultans in their own right. Their era was one of weakness: Portuguese and Spanish forces seized much of the Moroccan coast, the south slipped from their control, and they were finally swept aside by the Saadians. Our 1492 and 1500 maps label their state the Wattasid Caliphate, although its rulers used the title of sultan.
 
 ## Viziers behind the throne
 
@@ -23,7 +23,7 @@ Muhammad al-Sheikh held only northern Morocco; the south was divided among local
 
 ## The Saadian challenge
 
-Resistance to the Portuguese gave rise to a new power in the south. In 1510 the tribes of the Sous valley chose the Saadian chief Muhammad al-Qa'im as their leader, and his sons took Marrakesh by about 1525. Ahmad al-Wattasi failed to retake the city, and under a 1527 treaty Morocco was split roughly along the Oum Er-Rbia river. The Saadians routed a Wattasid army in 1536 and in 1541 drove the Portuguese from Agadir, winning prestige that the Wattasids, who had sought coexistence with the Portuguese, could not match.
+Resistance to the Portuguese gave rise to a new power in the south. In 1510 the tribes of the Sous valley chose the Saadian chief Muhammad al-Qa'im as their leader, and his sons took Marrakesh by about 1525. Ahmad al-Wattasi failed to retake the city, and under a treaty usually dated 1527 Morocco was split roughly along the Oum Er-Rbia river. The Saadians routed a Wattasid army in 1536 and in 1541 drove the Portuguese from Agadir, winning prestige that the Wattasids, who had sought coexistence with the Portuguese, could not match.
 
 ## The fall of Fez
 
@@ -35,4 +35,4 @@ Historians generally regard the Wattasid period as one of crisis, with towns imp
 
 ## On our maps
 
-Our 1492 and 1500 maps show the Wattasid Caliphate in northern Morocco, with the Zayyanid realm to the east and Castile across the Strait of Gibraltar.
+Our 1492 and 1500 maps show the Wattasid Caliphate in northern Morocco, with the Zayyanid realm to the east and Castile across the Strait of Gibraltar. The 1530 and 1600 maps label it Watassid Morocco, the second well after the dynasty's fall in 1554.

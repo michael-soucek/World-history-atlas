@@ -32,7 +32,7 @@ In the thirteenth or fourteenth century, under Talakaifaiki, Tongan overlordship
 
 ## The end of the title
 
-European visitors arrived from 1616, and Cook's voyages of the 1770s described the Tuʻi Tonga's high ceremonial rank. After decades of civil war, Tāufaʻāhau, holder of the Tuʻi Kanokupolu title, united the islands in 1845 as King George Tupou I. The last Tuʻi Tonga, Laufilitonga, died in 1865, and the title passed into the Tongan crown.
+European visitors arrived from 1616, and Cook's voyages of the 1770s described the Tuʻi Tonga's high ceremonial rank. After decades of civil war, Tāufaʻāhau, holder of the Tuʻi Kanokupolu title, united the islands in 1845 as King George Tupou I. The last Tuʻi Tonga, Laufilitonga, died in 1865, and the title was abolished in 1875.
 
 ## On our maps
 

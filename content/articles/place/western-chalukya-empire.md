@@ -33,4 +33,4 @@ War with the Cholas exhausted both empires. After Vikramaditya died in 1126 the 
 
 ## On our maps
 
-Shown on our maps as the Chalukya Empire, it appears on the 1000 map, in the early years of its struggle with the Chola dynasty to the south.
+Shown as the Chalukya Empire, it appears on the 1000 map, in the early years of its struggle with the Chola dynasty to the south, and as the Western Chalukyas on the 1100 map, during the reign of Vikramaditya VI.

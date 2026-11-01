@@ -2,6 +2,9 @@
 sources:
   - Wikipedia: Greco-Bactrian Kingdom | https://en.wikipedia.org/wiki/Greco-Bactrian_Kingdom
   - Wikidata: Greco-Bactrian Kingdom (Q488880) | https://www.wikidata.org/wiki/Q488880
+  - Wikipedia: Euthydemus I | https://en.wikipedia.org/wiki/Euthydemus_I
+  - Wikipedia: Ai-Khanoum | https://en.wikipedia.org/wiki/Ai-Khanoum
+  - Wikipedia: Bactrian language | https://en.wikipedia.org/wiki/Bactrian_language
   - Borders of Time maps, built on historical-basemaps | https://github.com/aourednik/historical-basemaps
 written: 2026-10-30
 ---
@@ -21,7 +24,7 @@ Around 230–220 BCE Euthydemus, a Greek from Magnesia according to Polybius, ov
 
 ## Eucratides and the decline
 
-Around 171 or 170 BCE Eucratides seized power in a coup and founded his own dynasty. He fought off a challenge from an Indian Greek king, campaigned in north-western India and minted the largest gold coin of the Hellenistic world. Yet his reign also brought losses: the Parthian king Mithridates I took Bactria's western provinces, and around 145 BCE Eucratides was murdered by his own son on his way back from India. In the same period the city of Ai-Khanoum was burned, apparently by nomads, and never resettled.
+Around 171 or 170 BCE Eucratides seized power in a coup and founded his own dynasty. He fought off a challenge from an Indian Greek king, campaigned in north-western India and minted the largest gold coin of the Hellenistic world. Yet his reign also brought losses: the Parthian king Mithridates I took Bactria's western provinces, and around 145 BCE Eucratides was murdered by his own son on his way back from India. In the same period the city of Ai-Khanoum fell, apparently to Saka nomads, and was largely abandoned.
 
 ## The nomad invasions
 

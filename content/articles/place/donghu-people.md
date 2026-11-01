@@ -26,7 +26,7 @@ In the time of the Xiongnu ruler Touman, Sima Qian says, the Donghu were at the 
 
 ## Wuhuan and Xianbei
 
-The survivors split into two groups named after mountains: the Wuhuan in the south and the Xianbei in the north. By the end of the first century BCE these names had replaced the old general term. The Xianbei later defeated the Wuhuan and the northern Xiongnu and built a powerful state under the elected leader Tanshihuai. Historians regard the Wuhuan as ancestors of the Kumo Xi, and the Xianbei as ancestors of the [Khitans](/place/khitan-people) and the Mongols; the Rouran are also traced to Donghu stock.
+The survivors split into two groups named after mountains: the Wuhuan in the south and the Xianbei in the north. Gradually these names replaced the old general term. The Xianbei later defeated the Wuhuan and the northern Xiongnu and built a powerful state under the elected leader Tanshihuai. Historians regard the Wuhuan as ancestors of the Kumo Xi, and the Xianbei as ancestors of the [Khitans](/place/khitan-people) and the Mongols; the Rouran are also traced to Donghu stock.
 
 ## Who were they?
 

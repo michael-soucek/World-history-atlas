@@ -13,7 +13,7 @@ The word comes from French and means a person of mixed parentage; it is related 
 
 ## Fur-trade origins
 
-From the mid-seventeenth century French and later British traders in the interior often married Cree, Ojibwe and Saulteaux women "according to the custom of the country". Such marriages tied traders into Indigenous kinship networks, and women's skills in canoe travel, preparing hides and making pemmican were central to the trade. The North West Company encouraged these unions, while the Hudson's Bay Company at first forbade them. Over two or three generations the children of these families became a distinct community of voyageurs, interpreters, free traders and bison hunters who supplied pemmican to the fur brigades. Some argue that the nation was born politically at the Battle of Seven Oaks in 1816, where the Métis leader Cuthbert Grant flew a Métis flag.
+From the mid-seventeenth century French and later British traders in the interior often married Cree, Ojibwe and Saulteaux women "according to the custom of the country". Such marriages tied traders into Indigenous kinship networks, and women's skills in canoe travel, preparing hides and making pemmican were central to the trade. The North West Company encouraged these unions, while the Hudson's Bay Company at first forbade them. Over two or three generations the children of these families became a distinct community of voyageurs, interpreters, free traders and bison hunters who supplied pemmican to the fur brigades. Some argue that the nation was born politically at the Battle of Seven Oaks in 1816; days before it, the Métis leader Cuthbert Grant was recorded flying a Métis flag.
 
 ## Red River and Riel
 

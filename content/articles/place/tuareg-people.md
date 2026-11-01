@@ -1,6 +1,7 @@
 ---
 sources:
   - Wikipedia: Tuareg people | https://en.wikipedia.org/wiki/Tuareg_people
+  - Wikipedia: Sultanate of Agadez | https://en.wikipedia.org/wiki/Sultanate_of_Agadez
   - Wikidata: Tuareg (Q58843) | https://www.wikidata.org/wiki/Q58843
   - Borders of Time maps, built on historical-basemaps | https://github.com/aourednik/historical-basemaps
 written: 2026-10-30
@@ -17,7 +18,7 @@ The Tuareg descend from the ancient Berber populations of North Africa. Some res
 
 ## Faith and trade
 
-The Tuareg became Muslim during the medieval period, at first with some resistance, and in the sixteenth century adopted the Maliki school of Sunni Islam. Some older customs survive, including matrilineal succession to clan leadership, in which a chief is often followed by his sister's son. Tuareg clerical families helped spread Islam across the Sahel. Timbuktu is traditionally said to have been founded by Tuareg around 1100, though historians find the evidence for its origins inconclusive. The [Sultanate of Agadez](/place/sultanate-of-agadez), based in the Aïr Mountains, was established by a Tuareg dynasty in 1449. For centuries Tuareg caravans carried salt from desert mines such as Taoudenni and Bilma south to the markets of the Sahel.
+The Tuareg became Muslim during the medieval period, at first with some resistance, and in the sixteenth century adopted the Maliki school of Sunni Islam. Some older customs survive, including matrilineal succession to clan leadership, in which a chief is often followed by his sister's son. Tuareg clerical families helped spread Islam across the Sahel. Timbuktu is traditionally said to have been founded by Tuareg around 1100. The [Sultanate of Agadez](/place/sultanate-of-agadez), based in the Aïr Mountains, was established by a Tuareg ruling house, in 1449 by some accounts and around 1405 by others. For centuries Tuareg caravans carried salt from desert mines such as Taoudenni and Bilma south to the markets of the Sahel.
 
 ## Society
 

@@ -10,7 +10,7 @@ Río de Oro was the southern and larger part of Spain's Saharan territory on the
 
 ## A river that was not there
 
-The name, "River of Gold", goes back to 1436, when the Portuguese navigator Afonso Gonçalves Baldaia, sent south by Prince Henry the Navigator, sailed into the long bay behind the Dakhla peninsula and took it for the mouth of a great river. No gold was found there, though some gold dust was obtained by trade, but the name stuck to the bay and the land around it. For centuries afterwards, fishermen from the Canary Islands worked the rich waters offshore.
+The name, "River of Gold", goes back to 1436, when the Portuguese navigator Afonso Gonçalves Baldaia, sent south by Prince Henry the Navigator, sailed into the long bay behind the Dakhla peninsula and took it for the mouth of a great river. No gold was found there, though some gold dust was obtained by trade, but the name stuck to the bay and the land around it. From the eighteenth century, fishermen from the Canary Islands worked the rich waters offshore.
 
 ## The Spanish claim
 

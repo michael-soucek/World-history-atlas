@@ -17,7 +17,7 @@ Zinder sat on the main route between Tripoli on the Mediterranean and Kano in th
 
 ## Court and army
 
-European travellers in the mid-nineteenth century put the sultanate at about 70,000 square kilometres with over 400,000 people, most of them Hausa, with Kanuri, Tuareg, Fula, Toubou and Arab minorities. The sultan, known in Hausa as the Sarkin Damagaram, kept a large household; the traveller Heinrich Barth estimated in 1851 that he had some 300 wives. Power passed directly to a son or brother, and twenty-six rulers had reigned by 1906. Two leading officers stood beneath him: the Ciroma, commander and chief minister, and the Yakudima, the heir. By the late nineteenth century the state could raise around 5,000 horsemen and 30,000 foot soldiers, could call on allied Kel Gres Tuareg, and even cast its own cannon, though the historian Robin Law judged these of little practical use.
+European travellers in the mid-nineteenth century put the sultanate at about 70,000 square kilometres with over 400,000 people, most of them Hausa, with Kanuri, Tuareg, Fula, Toubou and Arab minorities. The sultan, known in Hausa as the Sarkin Damagaram, kept a large household; the traveller Heinrich Barth estimated in 1851 that he had some 300 wives. Power passed directly to a son or brother, and twenty-six rulers had reigned by 1906. Two leading officers stood beneath him: the Ciroma, commander and chief minister, and the Yakudima, the heir. By the late nineteenth century the state could raise around 5,000 horsemen and 30,000 foot soldiers, and even cast its own cannon, though the historian Robin Law judged these of little practical use.
 
 ## Trees of the sultan
 

@@ -13,7 +13,7 @@ In 52 BCE a young noble of the Arverni, a people of central Gaul, brought togeth
 
 ## Name and family
 
-Vercingetorix may not have been a personal name at all. In Gaulish it means something like "great king of warriors", and scholars generally treat it as a title. He was probably born at Gergovia, the chief town of the Arverni in what is now Auvergne. His birth is traditionally placed around 82 BCE because Caesar calls him a young man in 52 BCE, though some historians prefer a date in the 70s. His father, Celtillus, was a leading Arvernian noble who was killed by his own people, perhaps in the 60s BCE, for trying to make himself king.
+Vercingetorix may not have been a personal name at all. In Gaulish it means something like "great king of warriors", and scholars generally treat it as a title. He was probably born at Gergovia, the chief town of the Arverni in what is now Auvergne. His birth is traditionally placed around 82 BCE because Caesar calls him a young man in 52 BCE, though the Latin term could also describe men past thirty. His father, Celtillus, was a leading Arvernian noble who was killed by his own people, perhaps in the 60s BCE, for trying to make himself king.
 
 ## Leader of the revolt
 

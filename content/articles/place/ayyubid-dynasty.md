@@ -21,7 +21,7 @@ Saladin left not a centralised state but a group of principalities shared among 
 
 ## Learning and architecture
 
-The Ayyubids were great builders and patrons. They founded madrasas for all four Sunni legal schools, using them to restore Sunni teaching in formerly Fatimid Egypt; around 25 were built in Cairo during the Ayyubid period. Saladin enclosed Cairo and Fustat within a single wall, and Ayyubid castles combined Fatimid, crusader and new techniques. Women of the ruling family endowed many religious buildings in Damascus, and physicians such as Maimonides served at court. The army relied on Kurdish and Turkic cavalry paid partly through land grants, alongside growing corps of mamluk slave soldiers.
+The Ayyubids were great builders and patrons. They founded madrasas for all four Sunni legal schools, using them to restore Sunni teaching in formerly Fatimid Egypt; ten were built in Cairo under Saladin and about 25 more over the rest of the Ayyubid period. Saladin enclosed Cairo and Fustat within a single wall, and Ayyubid castles combined Fatimid, crusader and new techniques. Women of the ruling family endowed many religious buildings in Damascus, and physicians such as Maimonides served at court. The army relied on Kurdish and Turkic cavalry paid partly through land grants, alongside growing corps of mamluk slave soldiers.
 
 ## Mamluks and Mongols
 
