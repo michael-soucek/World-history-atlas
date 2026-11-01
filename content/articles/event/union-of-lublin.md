@@ -30,4 +30,4 @@ Historians have judged the union both Sigismund's greatest success and his great
 
 ## On our maps
 
-Our 1530 map shows [Poland](/place/poland) and Lithuania as separate realms under one dynasty, and our 1600 map shows the united Commonwealth beside the [Tsardom of Russia](/place/tsardom-of-russia).
+Our 1530 map already draws [Poland](/place/poland) and Lithuania as a single block, although they were then still separate realms under one dynasty, and our 1600 map shows the united Commonwealth beside the [Tsardom of Russia](/place/tsardom-of-russia).

@@ -32,4 +32,4 @@ Many Germans saw the treaty as a dictated peace, and nationalist parties, above 
 
 ## On our maps
 
-Our 1914 map shows the [German Empire](/place/german-empire) before the war, and our 1920 map shows Germany's reduced borders, the Polish corridor and the Free City of Danzig, alongside a restored [Poland](/country/poland).
+Our 1914 map shows the [German Empire](/place/german-empire) before the war, and our 1920 map shows Germany's reduced borders and the Polish corridor, alongside a restored [Poland](/country/poland).

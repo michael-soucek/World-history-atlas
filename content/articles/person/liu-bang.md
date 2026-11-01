@@ -33,4 +33,4 @@ In 200 BC Liu led an army against the [Xiongnu](/place/xiongnu), the nomadic pow
 
 ## On our maps
 
-Our -200 map shows the newly founded Han state holding most of China, with the Xiongnu confederation to the north; the -300 map shows China before the Qin unification.
+Our 200 BCE map shows the newly founded Han state holding most of China, with the Xiongnu confederation to the north; the 300 BCE map shows China before the Qin unification.

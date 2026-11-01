@@ -32,4 +32,4 @@ A senatorial commission ordered whatever remained to be levelled and forbade res
 
 ## On our maps
 
-Our -200 map shows Carthage after the Second Punic War, reduced to its African heartland; the -100 map shows the region as Roman territory.
+Our 200 BCE map shows Carthage after the Second Punic War, reduced to its African heartland; the 100 BCE map shows the region as Roman territory.

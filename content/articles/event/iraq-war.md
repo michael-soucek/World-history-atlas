@@ -32,4 +32,4 @@ The war left Iraq deeply divided, and al-Maliki's government alienated much of t
 
 ## On our maps
 
-Our 2000 map shows Iraq under Saddam Hussein before the invasion, and our 2010 map shows the country during the final year of the American presence, with its borders unchanged.
+Our 2000 map shows Iraq under Saddam Hussein before the invasion, and our 2010 map shows the country during the last full year of the American presence, with its borders unchanged.

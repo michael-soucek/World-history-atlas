@@ -24,7 +24,7 @@ Thirteen passengers and 22 crew died, along with a civilian member of the ground
 
 ## On film and radio
 
-The first transatlantic arrival of the season had drawn many reporters. Four newsreel teams filmed the disaster, photographers captured the burning ship, and Herbert Morrison's emotional eyewitness report for the Chicago station WLS, recorded on the spot, was broadcast the next day. In Germany the press was more restrained, and the newsreel footage was not shown there until after the [Second World War](/event/world-war-ii).
+The first transatlantic arrival of the season had drawn many reporters. Four newsreel teams filmed the disaster, photographers captured the burning ship, and Herbert Morrison's emotional eyewitness report for the Chicago station WLS, recorded on the spot, was broadcast the next day.
 
 ## Causes
 

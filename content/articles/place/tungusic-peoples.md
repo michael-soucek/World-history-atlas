@@ -12,7 +12,7 @@ written: 2026-10-30
 
 ## Name and homeland
 
-The label is an outsider's word. "Tungus" was the Russian name for the Evenki, picked up in the seventeenth century from the Yakuts, and English scholars began using "Tungusic" for the language family in the 1850s. A supposed link with the ancient [Donghu](/place/donghu-people) of Chinese records rests on a chance likeness of sound and is now widely rejected. Most researchers place the Tungusic homeland in the Amur region of north-eastern Manchuria; one recent study puts it near Lake Khanka, and genetic work in the lower Amur suggests an expansion beginning before 3500 BC. As Tungusic speakers spread north and west, they displaced many older Siberian languages.
+The label is an outsider's word. "Tungus" was the Russian name for the Evenki, picked up from the Yakuts, and English scholars began using "Tungusic" for the language family in the 1850s. A supposed link with the ancient [Donghu](/place/donghu-people) of Chinese records rests on a chance likeness of sound and is now widely rejected. Most researchers place the Tungusic homeland in the Amur region of north-eastern Manchuria; one recent study puts it near Lake Khanka, and genetic work in the lower Amur suggests an expansion beginning before 3500 BC. As Tungusic speakers spread north and west, they displaced many older Siberian languages.
 
 ## Forest peoples of the Amur
 
@@ -32,7 +32,7 @@ From the seventeenth century the [Tsardom of Russia](/place/tsardom-of-russia) p
 
 ## Today
 
-Recent counts list about 10.4 million Manchus and some 190,000 Xibe in China, around 69,500 Evenki across Russia, China and Mongolia, 22,500 Evens and 17,500 Nanai, with groups such as the Negidals and Oroks numbering in the hundreds. Only about 75,000 people speak a Tungusic language natively. Xibe, kept alive in Xinjiang since a Qing garrison moved there in the 1760s, is now the most spoken; Manchu itself had only 18 native speakers in one village as of 2012. Many Evenki in Russia still herd reindeer, fish and hunt.
+Recent counts list about 10.4 million Manchus and some 190,000 Xibe in China, around 69,500 Evenki across Russia, China and Mongolia, 22,500 Evens and 17,500 Nanai, with groups such as the Negidals and Oroks numbering in the hundreds. Only about 75,000 people speak a Tungusic language natively. Xibe, kept alive in Xinjiang since a Qing garrison moved there in the 1760s, is now the most spoken; Manchu itself had only 18 native speakers in one village as of 2007. Many Evenki in Russia still herd reindeer, fish and hunt.
 
 ## On our maps
 

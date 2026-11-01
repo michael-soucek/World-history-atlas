@@ -33,4 +33,4 @@ Resistance continued, with Akyem and Denkyira remnants defeating the Asante in 1
 
 ## On our maps
 
-Our 1700 and 1715 maps show West Africa in the years of his wars; the Asante state he founded appears at its height on our 1800 map.
+Our 1700 and 1715 maps show West Africa in the years of his wars; the Asante state he founded appears at its greatest extent on our 1815 map.

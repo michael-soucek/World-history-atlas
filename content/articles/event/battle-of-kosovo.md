@@ -20,7 +20,7 @@ Detailed contemporary accounts are scarce, and much of what is told comes from l
 
 ## An unclear outcome
 
-The first news to reach western Europe presented the battle as a Christian victory. In fact both sides withdrew. Bayezid, who had his brother Yakub put to death on the battlefield, hurried away to secure the throne. But the Ottomans could replace their losses from a large empire, while Serbia could not. Within a few years Lazar's widow, Milica, ruling for their son Stefan Lazarević, accepted Ottoman overlordship, and Stefan fought as a vassal for Bayezid. Serbia survived as a dependent despotate until the Ottomans took Smederevo in 1459. Vuk Branković, often blamed in legend for betraying Lazar, also became an Ottoman vassal.
+The first news to reach western Europe presented the battle as a Christian victory. In fact both sides withdrew. Bayezid, who had his brother Yakub put to death on hearing of their father's death, hurried away to secure the throne. But the Ottomans could replace their losses from a large empire, while Serbia could not. Within a few years Lazar's widow, Milica, ruling for their son Stefan Lazarević, accepted Ottoman overlordship, and Stefan fought as a vassal for Bayezid. Serbia survived as a dependent despotate until the Ottomans took Smederevo in 1459. Vuk Branković, often blamed in legend for betraying Lazar, later lost his lands and died an Ottoman prisoner.
 
 ## Legend and memory
 

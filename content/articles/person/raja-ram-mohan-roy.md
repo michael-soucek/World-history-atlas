@@ -21,7 +21,7 @@ By 1797 Roy was in Calcutta, lending money to East India Company officials and w
 
 ## Press, schools and the Brahmo Sabha
 
-In the 1820s Roy poured out tracts and periodicals, including the Bengali weekly Sambad Kaumudi and the Persian paper Mirat-ul-Akhbar, and protested when the Company restricted the press. He founded the Anglo-Hindu School in 1822 and the Vedanta College in 1826, combining Western subjects with Indian learning, and in 1830 helped the missionary Alexander Duff open the school now known as Scottish Church College. His Gaudiya Vyakaran, published in 1826, was the first complete grammar of Bengali. In 1828, with Debendranath Tagore, he launched the Brahmo Sabha, a congregation devoted to the worship of one formless God.
+In the 1820s Roy poured out tracts and periodicals, including the Bengali weekly Sambad Kaumudi and the Persian paper Mirat-ul-Akhbar, and protested when the Company restricted the press. He founded the Anglo-Hindu School in 1822 and the Vedanta College in 1826, combining Western subjects with Indian learning, and in 1830 helped the missionary Alexander Duff open the school now known as Scottish Church College. His Gaudiya Vyakaran, published in 1826, was the first complete grammar of Bengali. In 1828 he launched the Brahmo Sabha, a congregation devoted to the worship of one formless God.
 
 ## The fight against sati
 

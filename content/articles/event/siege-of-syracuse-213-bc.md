@@ -34,4 +34,4 @@ By 210 BC the whole island was a Roman province. Losing Syracuse denied Carthage
 
 ## On our maps
 
-Our -200 map shows Sicily within the [Roman Republic](/place/roman-republic) shortly after the siege, during the closing years of the [Punic Wars](/event/punic-wars); the -300 map shows the island before Roman rule.
+Our 200 BCE map shows Sicily within the [Roman Republic](/place/roman-republic) shortly after the siege, during the closing years of the [Punic Wars](/event/punic-wars); the 300 BCE map shows the island before Roman rule.

@@ -12,7 +12,7 @@ After the defeat of [Napoleon](/person/napoleon), the peace settlement worked ou
 
 ## Crisis with the Chamber
 
-Relations between the king and the elected Chamber of Deputies steadily worsened. Deputies threw out government bills, and in 1827 Charles disbanded the Paris National Guard on the grounds that it had insulted the crown. In March 1830 a majority of deputies, the so-called 221, passed an address of no confidence in the ministry of Jules de Polignac. Charles dissolved the Chamber, but the elections held in early July returned an even stronger liberal opposition.
+Relations between the king and the elected Chamber of Deputies steadily worsened. Deputies threw out government bills, and in 1827 Charles disbanded the Paris National Guard on the grounds that it had insulted the crown. In March 1830 a majority of deputies, the so-called 221, passed an address of no confidence in the ministry of Jules de Polignac. Charles dissolved the Chamber, but the elections held in July returned an even stronger liberal opposition.
 
 On 25 July the king signed four decrees, the July Ordinances. They dissolved the newly elected Chamber before it could meet, suspended press freedom, narrowed the vote so that much of the commercial middle class lost it, and called fresh elections. They were published the next day.
 

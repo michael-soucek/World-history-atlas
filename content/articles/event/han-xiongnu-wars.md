@@ -30,4 +30,4 @@ Under the Eastern Han, generals such as Dou Gu and Ban Chao restored Chinese con
 
 ## On our maps
 
-Our -200 and -100 maps show the Han and the Xiongnu side by side, and the 100 map shows the Han after the northern confederacy's collapse.
+Our 200 and 100 BCE maps show the Han and the Xiongnu side by side, and the 100 map shows the Han after the northern confederacy's collapse.

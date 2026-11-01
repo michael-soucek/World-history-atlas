@@ -38,4 +38,4 @@ Historians now treat the huge Gallic death tolls and tiny Roman losses in Caesar
 
 ## On our maps
 
-Our -100 map shows Gaul before the conquest, and our -1 map shows it fully inside Roman territory, covering modern [France](/country/france) and [Belgium](/country/belgium).
+Our 100 BCE map shows Gaul before the conquest, and our 1 BCE map shows it fully inside Roman territory, covering modern [France](/country/france) and [Belgium](/country/belgium).

@@ -14,7 +14,7 @@ Warumungu is related to the Warlpiri language of the [Warlpiri](/place/warlpiri-
 
 ## Country
 
-Norman Tindale estimated Warumungu lands at about 21,300 square miles, from Mount Grayling at Renner Springs in the north to the headwaters of the Gosse River in the south, east to around Alroy and Rockhampton Downs, and west to the sand plains beyond Tennant Creek. The creek's permanent waterholes were traditional refuges in drought. Their great creator being, Wollunqua, is the Warumungu form of the Rainbow Serpent known across Aboriginal Australia.
+Norman Tindale estimated Warumungu lands at about 21,300 square miles, from Mount Grayling at Renner Springs in the north to the headwaters of the Gosse River in the south, east to around Alroy and Rockhampton Downs, and west to the sand plains beyond Tennant Creek. The creek's permanent waterholes were traditional refuges in drought. Their great creator being, Wollunqua, is the Warumungu form of the Rainbow Serpent found in many Aboriginal creation stories.
 
 ## Telegraph, cattle and gold
 

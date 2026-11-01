@@ -1192,7 +1192,7 @@ export const EVENTS_CROSSWALK: Record<string, CrosswalkEntry & { entityType: Ent
   "battle-of-fontenoy": { wikidataId: "Q569953", slug: "battle-of-fontenoy", entityType: "event", name: "Battle of Fontenoy" },
   "treaty-of-paris-1763": { wikidataId: "Q156211", slug: "treaty-of-paris-1763", entityType: "event", name: "Treaty of Paris (1763)" },
   "treaty-of-paris-1783": { wikidataId: "Q217450", slug: "treaty-of-paris-1783", entityType: "event", name: "Treaty of Paris (1783)" },
-  "constitutional-convention-1787": { wikidataId: "Q405475", slug: "constitutional-convention-1787", entityType: "event", name: "Constitutional Convention (United States)" },
+  "constitutional-convention-1787": { wikidataId: "Q405475", slug: "constitutional-convention-1787", entityType: "event", name: "US Constitutional Convention" },
   "lewis-and-clark-expedition": { wikidataId: "Q505802", slug: "lewis-and-clark-expedition", entityType: "event", name: "Lewis and Clark Expedition" },
   "slavery-abolition-act-1833": { wikidataId: "Q487420", slug: "slavery-abolition-act-1833", entityType: "event", name: "Slavery Abolition Act 1833" },
   "anglo-irish-treaty": { wikidataId: "Q541191", slug: "anglo-irish-treaty", entityType: "event", name: "Anglo-Irish Treaty" },

@@ -30,4 +30,4 @@ Babylonia did not accept Persian rule quietly. Under Darius I it twice revolted,
 
 ## On our maps
 
-Our -700 map shows Babylonia under the Assyrians, and our -500 map shows it absorbed into the Achaemenid Empire. The site of Babylon lies in modern [Iraq](/country/iraq).
+Our 700 BCE map shows Babylonia under the Assyrians, and our 500 BCE map shows it absorbed into the Achaemenid Empire. The site of Babylon lies in modern [Iraq](/country/iraq).

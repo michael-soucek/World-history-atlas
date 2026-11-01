@@ -16,7 +16,7 @@ Man Singh, a Kachhwaha Rajput whose family had risen high in Mughal service, mus
 
 ## The battle
 
-Fighting began about three hours after sunrise. The Mewari charge broke the Mughal wings and centre, and according to Abul Fazl the Mughals fell back before rallying at a spot later called Rakt Talai. Man Singh then committed the reserve, while Mihtar Khan beat the war drums and spread word that the emperor himself was arriving with reinforcements. Mughal musket fire turned back the Mewari elephants, and the tide swung against Pratap. Wounded, he was persuaded by his nobles to leave the field. A Jhala chief, also named Man Singh, took up the royal emblems and was mistaken for the Rana; he was killed, but his sacrifice allowed Pratap to escape.
+Fighting began about three hours after sunrise. The Mewari charge broke the Mughal wings and centre, and according to Abul Fazl the Mughals fell back before rallying at a spot later called Rakt Talai. Man Singh then led the rear guard into the battle, while Mihtar Khan beat the war drums and spread word that the emperor himself was arriving with reinforcements. Mughal musket fire turned back the Mewari elephants, and the tide swung against Pratap. Wounded, he was persuaded by his nobles to leave the field. A Jhala chief, also named Man Singh, took up the royal emblems and was mistaken for the Rana; he was killed, but his sacrifice allowed Pratap to escape.
 
 ## Casualties
 

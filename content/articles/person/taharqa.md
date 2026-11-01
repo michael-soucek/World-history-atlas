@@ -34,4 +34,4 @@ Taharqa died in 664 BC and was succeeded by Shabaka's son Tantamani, whose attem
 
 ## On our maps
 
-Our -700 map shows the Kushite kingdom at about the time Taharqa came to power, alongside the Egypt of the [Third Intermediate Period](/place/third-intermediate-period-of-egypt) that his dynasty ruled.
+Our 700 BCE map shows the Kushite kingdom at about the time Taharqa came to power, alongside the Egypt of the [Third Intermediate Period](/place/third-intermediate-period-of-egypt) that his dynasty ruled.

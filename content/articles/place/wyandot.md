@@ -22,7 +22,7 @@ By the mid-eighteenth century some bands had settled around Sandusky Bay, where 
 
 ## Removal to Kansas
 
-The 1817 Treaty of Fort Meigs reduced the Ohio Wyandot to a reservation at Upper Sandusky, and in the 1840s most were removed west. With money from their Ohio lands they bought land from the [Lenape](/place/lenape) at the meeting of the Kansas and Missouri rivers, now Wyandotte County, Kansas. There they set up schools and libraries, and Wyandot people helped people escaping slavery at Quindaro, a stop on the Underground Railroad. Further removals to Indian Territory followed after the American Civil War.
+The 1817 Treaty of Fort Meigs reduced the Ohio Wyandot to a reservation at Upper Sandusky, and in the 1840s most were removed west. With money from their Ohio lands they bought land from the [Lenape](/place/lenape) at the meeting of the Kansas and Missouri rivers, now Wyandotte County, Kansas. There they set up schools and libraries, and Quindaro, a town founded on Wyandot land in 1856, became a stop on the Underground Railroad. Further removals to Indian Territory followed after the American Civil War.
 
 ## The Wyandot today
 

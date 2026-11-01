@@ -34,4 +34,4 @@ The war left a lasting imprint on Chinese culture. The river across the middle o
 
 ## On our maps
 
-Our -323 map shows Qin before its conquest of the other states, and the -200 map shows the newly founded Han empire across much of [China](/country/china).
+Our 323 BCE map shows Qin before its conquest of the other states, and the 200 BCE map shows the newly founded Han empire across much of [China](/country/china).

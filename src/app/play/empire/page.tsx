@@ -9,7 +9,7 @@ import { buildPageMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = buildPageMetadata({
   title: "Name the Empire: Daily Historical Map Quiz — Borders of Time",
-  description: "One empire lit up on a historical map, four names to choose from. Five rounds a day from 500 BCE to today, plus unlimited practice. How well do you know the world's old borders?",
+  description: "One empire lit up on a historical map, four names to choose from. Five rounds a day from 500 BCE to today, plus unlimited practice.",
   path: "/play/empire",
 });
 

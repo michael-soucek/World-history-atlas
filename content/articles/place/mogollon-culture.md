@@ -9,7 +9,7 @@ The Mogollon culture is an archaeological tradition of the south-western [United
 
 ## Naming and recognition
 
-The culture borrows its name from New Mexico's Mogollon Mountains, which honour Juan Ignacio Flores Mogollón, who governed the Spanish province there between 1712 and 1715. Emil Haury chose and defined the term in 1936, drawing on his digs of 1931 to 1934 at two New Mexico sites, Harris Village near the Mimbres River and a settlement on the upper San Francisco River. He showed that it differed from its neighbours, the Hohokam and the Ancestral Puebloans, in its brown coiled-and-scraped pottery, deep pit-houses and ceremonial buildings. Later research has broadly confirmed his view, and archaeologists also recognise distinct Mogollon styles of stone tools, settlement and burial.
+The culture borrows its name from New Mexico's Mogollon Mountains, which honour Juan Ignacio Flores Mogollón, who governed the Spanish province there between 1712 and 1715. Emil Haury chose and defined the term in 1936, drawing on his digs of 1931, 1933 and 1934 at two New Mexico sites, Harris Village near the Mimbres River and a settlement on the upper San Francisco River. He showed that it differed from its neighbours, the Hohokam and the Ancestral Puebloans, in its brown coiled-and-scraped pottery, deep pit-houses and ceremonial buildings. Later research has broadly confirmed his view, and archaeologists also recognise distinct Mogollon styles of stone tools, settlement and burial.
 
 ## Origins and dating
 

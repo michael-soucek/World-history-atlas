@@ -14,7 +14,7 @@ In late 2013 the Euromaidan protests began in Kyiv after Yanukovych failed to si
 
 ## The takeover
 
-According to Putin's own later account, at an overnight meeting with his security chiefs on 22–23 February he said that work must begin on "returning Crimea to Russia". On 26–27 February armed men in uniforms without insignia seized the Crimean parliament and government buildings in Simferopol. With the building occupied and no independent journalists present, the parliament dismissed the regional government and installed Sergey Aksyonov, whose Russian Unity party had won about 4 per cent of the vote at the previous election. Unmarked troops then blocked the land routes to mainland Ukraine and seized airports and Ukrainian military bases.
+According to Putin's own later account, at an overnight meeting with his security chiefs on 22–23 February he said that work must begin on "returning Crimea to Russia". On 27 February armed men in uniforms without insignia seized the Crimean parliament and government buildings in Simferopol. With the building occupied and no independent journalists present, the parliament dismissed the regional government and installed Sergey Aksyonov, whose Russian Unity party had won about 4 per cent of the vote at the previous election. Unmarked troops then blocked the land routes to mainland Ukraine and seized airports and Ukrainian military bases.
 
 Russian officials at first said the troops were local self-defence units. On 1 March Russia's Federation Council authorised the use of the armed forces in Ukraine, and by 2 March Russian troops controlled the peninsula. Putin later acknowledged that the soldiers had been Russian.
 

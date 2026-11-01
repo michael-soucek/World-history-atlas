@@ -36,4 +36,4 @@ Darius was now determined to punish Athens and Eretria. Mardonius's expedition o
 
 ## On our maps
 
-Our -500 map shows the Achaemenid Empire at about the time of the revolt, stretching to the Aegean coast and beyond, with the cities of [Greece](/country/greece) lying across the sea to the west.
+Our 500 BCE map shows the Achaemenid Empire at about the time of the revolt, stretching to the Aegean coast and beyond, with the cities of [Greece](/country/greece) lying across the sea to the west.

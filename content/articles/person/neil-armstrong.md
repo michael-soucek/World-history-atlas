@@ -10,7 +10,7 @@ sources:
   - NASA: Neil A. Armstrong | https://www.nasa.gov/people/neil-a-armstrong/
 written: 2026-10-25
 ---
-Neil Armstrong was an American naval aviator, test pilot and engineer who, as commander of [Apollo 11](/event/apollo-11), became the first person to walk on the Moon on 21 July 1969 (20 July in American time zones). The landing fulfilled the goal set by President [John F. Kennedy](/person/john-f-kennedy) in 1961 and marked the high point of the space race between the [United States](/place/united-states) and the [Soviet Union](/place/soviet-union). A private, reserved man, Armstrong spent the rest of his life largely avoiding the celebrity his single step brought him.
+On 21 July 1969 (20 July in American time zones) Neil Armstrong, commander of [Apollo 11](/event/apollo-11), stepped onto the Moon, the first person ever to walk there; before that the American had been a naval aviator, test pilot and engineer. The landing fulfilled the goal set by President [John F. Kennedy](/person/john-f-kennedy) in 1961 and marked the high point of the space race between the [United States](/place/united-states) and the [Soviet Union](/place/soviet-union). A private, reserved man, Armstrong spent the rest of his life largely avoiding the celebrity his single step brought him.
 
 ## Ohio and the navy
 
@@ -20,7 +20,7 @@ In 1947 he went to Purdue University in Indiana to study aeronautical engineerin
 
 ## Test pilot
 
-Armstrong joined the National Advisory Committee for Aeronautics in 1955; in 1958 it became the core of NASA, the space agency created under President [Dwight D. Eisenhower](/person/dwight-d-eisenhower) and soon moved to its high-speed flight station at Edwards Air Force Base in the California desert. Over his career he flew more than 200 models of aircraft, and at Edwards he made seven flights in the rocket-powered X-15, in which he reached an altitude of about 63 kilometres and a speed of more than five times the speed of sound. Colleagues regarded him as an exceptionally capable engineer-pilot, though not all of his flights went smoothly; on one in 1962 he overshot and flew far beyond the planned landing area.
+Armstrong joined the National Advisory Committee for Aeronautics in 1955 and soon moved to its High-Speed Flight Station in the California desert, at Edwards Air Force Base; in 1958 the NACA became the core of NASA, the space agency created under President [Dwight D. Eisenhower](/person/dwight-d-eisenhower). In all he flew over 200 different models of aircraft, and at Edwards he made seven flights in the rocket-powered X-15, in which he reached an altitude of about 63 kilometres and a speed of more than five times the speed of sound. Colleagues regarded him as an exceptionally capable engineer-pilot, though not all of his flights went smoothly; on one in 1962 he overshot and flew far beyond the planned landing area.
 
 He married Janet Shearon in 1956 and they had three children. Their daughter Karen developed a brain tumour and died in January 1962, aged two, a loss that friends believed affected him deeply. Later that year NASA selected him in its second group of astronauts, as one of the first civilians in the corps.
 
@@ -36,10 +36,10 @@ Several hours later, at 02:56 UTC on 21 July, Armstrong climbed down the ladder 
 
 ## Later life
 
-Armstrong never flew in space again. After a short spell as a NASA administrator in [Washington, D.C.](/history-of/washington-dc), he left the agency in 1971 to teach aerospace engineering at the University of Cincinnati until 1979, and afterwards served on the boards of several companies. He was vice-chairman of the presidential commission that investigated the Space Shuttle Challenger disaster in 1986. He gave few interviews, stopped signing autographs when he found his signatures being sold, and rarely traded on his fame, which earned him a reputation as a recluse that friends said was exaggerated. He and Janet divorced in 1994, and that year he married Carol Held Knight.
+Armstrong never flew in space again. After a short spell as a NASA administrator in [Washington, D.C.](/history-of/washington-dc), he left the agency in 1971 and until 1979 held a teaching post in aerospace engineering at the University of Cincinnati, and afterwards served on the boards of several companies. He was vice-chairman of the presidential commission that investigated the Space Shuttle Challenger disaster in 1986. He gave few interviews, stopped signing autographs when he found his signatures being sold, and rarely traded on his fame, which earned him a reputation as a recluse that friends said was exaggerated. He and Janet divorced in 1994, and that year he married Carol Held Knight.
 
 ## Death and legacy
 
-Armstrong died on 25 August 2012 in Cincinnati, aged 82, from complications after heart bypass surgery; years later it emerged that the hospital had paid his family a settlement over his post-operative care. He was buried at sea in the Atlantic. His honours included the Presidential Medal of Freedom in 1969 and the Congressional Space Medal of Honor in 1978.
+Armstrong died on 25 August 2012 in Cincinnati, aged 82, from complications after heart bypass surgery; years later it emerged that the hospital had paid his family a settlement over his post-operative care. He was buried at sea in the Atlantic. His honours included the Presidential Medal of Freedom in 1969 and, in 1978, the Congressional Space Medal of Honor.
 
 The first Moon landing is often seen as a decisive moment in the [Cold War](/event/cold-war) competition for prestige and technology, and the achievement of a vast team of some 400,000 people who worked on the Apollo programme. Armstrong himself always stressed that team, and his modesty and reluctance to claim personal glory became a central part of how he is remembered.

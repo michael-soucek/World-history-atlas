@@ -33,4 +33,4 @@ Since the 1990s, China's economy has grown at extraordinary rates, making it the
 
 ## On our maps
 
-Our maps label the People's Republic as China from 1960 to 2010, with an outline of about 9.3 million square kilometres on the 2010 map. Lhasa and Kashgar lie inside it from 1960, and Hong Kong on the 2010 map. For earlier periods, see the [Qing dynasty](/place/qing-dynasty), the [Ming dynasty](/place/ming-dynasty) and the [Han dynasty](/place/han-dynasty).
+Our maps label the People's Republic as China from 1960 to 2010, with an outline of about 9.3 million square kilometres on the 2010 map. Lhasa and Kashgar lie inside it from 1960, and Hong Kong on the 2010 map. For earlier periods, see the [Qing dynasty](/place/qing-dynasty), the Ming dynasty and the Han dynasty.

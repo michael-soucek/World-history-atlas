@@ -32,4 +32,4 @@ The papacy backed images throughout, and the quarrel deepened the divergence bet
 
 ## On our maps
 
-Our 700 and 800 maps show the empire in the iconoclast era, alongside the rising [Carolingian Empire](/place/carolingian-empire) in the west.
+Our 700 map shows the empire shortly before the controversy began, and our 800 map shows it in the iconoclast era, alongside the rising [Carolingian Empire](/place/carolingian-empire) in the west.

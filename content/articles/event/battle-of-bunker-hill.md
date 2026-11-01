@@ -14,7 +14,7 @@ Gage and the newly arrived generals William Howe, John Burgoyne and Henry Clinto
 
 ## A redoubt overnight
 
-On the night of 16 June, about 1,200 men under Colonel William Prescott crossed onto the Charlestown Peninsula. Apparently going against orders, they passed over Bunker Hill and chose the lower Breed's Hill, closer to Boston, and dug a square earthen redoubt with walls about six feet high. At dawn a British warship spotted the works and opened fire, and soon guns across the harbour joined in, though with little effect. Prescott realised his position could be outflanked and began extending it with a breastwork, while reinforcements from Connecticut and New Hampshire, including men under John Stark, lined a rail fence running down towards the Mystic River.
+On the night of 16 June, about 1,200 men under Colonel William Prescott crossed onto the Charlestown Peninsula. After some debate among the officers, they passed over Bunker Hill and chose the lower Breed's Hill, closer to Boston, and dug a square earthen redoubt with walls about six feet high. At dawn a British warship spotted the works and opened fire, and soon guns across the harbour joined in, though with little effect. Prescott realised his position could be outflanked and began extending it with a breastwork, while Connecticut men under Thomas Knowlton and New Hampshire reinforcements under John Stark lined a rail fence running down towards the Mystic River.
 
 ## Three assaults
 

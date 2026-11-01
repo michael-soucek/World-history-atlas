@@ -13,7 +13,7 @@ Cetshwayo kaMpande was the last king of an independent [Zulu Kingdom](/place/zul
 
 ## A disputed succession
 
-He was born around 1826, a son of the future king Mpande and his wife Ngqumbazi, and so a nephew of [Shaka](/person/shaka), founder of the Zulu state. Rivalry between Cetshwayo and his younger brother Mbuyazi exploded into civil war in 1856. At the battle of Ndondakusuka on 2 December that year Cetshwayo's Usuthu faction defeated Mbuyazi and annihilated most of his followers, five of Cetshwayo's own brothers among them. Mpande formally recognised Cetshwayo as heir in 1861. With the help of a white trader turned adviser, John Dunn, he made sure that imported firearms went to his own supporters, and he dealt ruthlessly with possible rivals, ordering the killing of one of his father's wives and her children.
+He was born around 1826, a son of the future king Mpande and his wife Ngqumbazi, and so a half-nephew of [Shaka](/person/shaka), founder of the Zulu state. Rivalry between Cetshwayo and his younger brother Mbuyazi exploded into civil war in 1856. At the battle of Ndondakusuka on 2 December that year Cetshwayo's Usuthu faction defeated Mbuyazi and annihilated most of his followers, five of Cetshwayo's own brothers among them. Mpande formally recognised Cetshwayo as heir in 1861. With the help of a white trader turned adviser, John Dunn, he made sure that imported firearms went to his own supporters, and he dealt ruthlessly with possible rivals, ordering the killing of one of his father's wives and her children.
 
 ## King of the Zulu
 

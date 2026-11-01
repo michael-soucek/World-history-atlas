@@ -29,7 +29,7 @@ Later writers built a famous story around Ferdowsi and Mahmud. In it the sultan 
 
 ## Death and legacy
 
-Ferdowsi died in Tus, probably about 1020, although reference works give dates as late as 1025. A local cleric, who thought him a heretic, refused him burial in the town cemetery, so he was laid to rest in his own garden. His tomb was rebuilt between 1928 and 1934 under Reza Shah, who in 1934 held a millennial celebration in his honour. The Shahnameh shaped nearly all later Persian epic and its scenes filled lavishly illustrated royal manuscripts, and many Iranians see in him the founder of modern literary Persian.
+Ferdowsi died in Tus in about 1020 or 1025; sources disagree on the year. A local cleric, who thought him a heretic, refused him burial in the town cemetery, so he was laid to rest in his own garden. His tomb was rebuilt between 1928 and 1934 under Reza Shah, who in 1934 held a millennial celebration in his honour. The Shahnameh shaped nearly all later Persian epic and its scenes filled lavishly illustrated royal manuscripts, and many Iranians see in him the founder of modern literary Persian.
 
 ## On our maps
 

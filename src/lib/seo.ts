@@ -64,6 +64,8 @@ export function titleDates(tagline: string | undefined, allowSingle = false): st
   const range = part.match(/^(.+?) – (.+)$/);
   if (range) {
     const [a, b] = [range[1], range[2]];
+    // A one-year event: "1787", not "1787–1787".
+    if (a === b) return a.replace(/ CE$/, "");
     // Drop "CE" when both ends are CE ("1769–1821"); say "BCE" once when both are ("356–323 BCE").
     if (a.endsWith(" CE") && b.endsWith(" CE")) return `${a.slice(0, -3)}–${b.slice(0, -3)}`;
     if (a.endsWith(" BCE") && b.endsWith(" BCE")) return `${a.slice(0, -4)}–${b}`;

@@ -33,4 +33,4 @@ After the campaign Piye sailed home to Napata and, as far as is known, never ret
 
 ## On our maps
 
-Our -700 map shows the period of Kushite rule over [Egypt](/country/egypt) that his conquest began; the -1000 map shows the divided [Third Intermediate Period of Egypt](/place/third-intermediate-period-of-egypt) that preceded it.
+Our 700 BCE map shows the period of Kushite rule over [Egypt](/country/egypt) that his conquest began; the 1000 BCE map shows the divided [Third Intermediate Period of Egypt](/place/third-intermediate-period-of-egypt) that preceded it.

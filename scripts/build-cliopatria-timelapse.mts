@@ -147,10 +147,17 @@ console.log(`${rows.length} shapes`);
 const groupOf = (r: Row) => plain(r.properties.MemberOf.split(";")[0] || r.properties.Name);
 
 const linkCache = new Map<string, string | undefined>();
+/** Alias slugs that next.config.ts redirects; link straight to where they land. */
+const REDIRECTED: Record<string, string> = {
+  "manchu-empire": "qing-dynasty",
+  "polishlithuanian-commonwealth": "polish-lithuanian-commonwealth",
+};
+
 function slugFor(name: string, year: number): string | undefined {
   const key = `${name}|${Math.round(year / 50)}`;
   if (!linkCache.has(key)) linkCache.set(key, resolveFeature(name, name, year)?.slug);
-  return linkCache.get(key);
+  const slug = linkCache.get(key);
+  return slug ? (REDIRECTED[slug] ?? slug) : slug;
 }
 const named = (name: string, year: number) => {
   const slug = slugFor(name, year);

@@ -35,4 +35,4 @@ Pompey claimed that he had ended the war, to Crassus's anger. Both men kept thei
 
 ## On our maps
 
-Our -100 map shows the Roman Republic in control of the whole of [Italy](/country/italy) a generation before the revolt.
+Our 100 BCE map shows the Roman Republic in control of the whole of [Italy](/country/italy) a generation before the revolt.

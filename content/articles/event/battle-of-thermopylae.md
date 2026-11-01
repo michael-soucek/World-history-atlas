@@ -30,4 +30,4 @@ With the pass lost, the Greek fleet withdrew from Artemisium to Salamis. The Per
 
 ## On our maps
 
-Our -500 map shows the [Achaemenid Empire](/place/achaemenid-empire) at the height of its power, a generation before Xerxes' invasion of Greece, an episode in the wider [Greco-Persian Wars](/event/greco-persian-wars).
+Our 500 BCE map shows the [Achaemenid Empire](/place/achaemenid-empire) at the height of its power, a generation before Xerxes' invasion of Greece, an episode in the wider [Greco-Persian Wars](/event/greco-persian-wars).

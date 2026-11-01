@@ -16,7 +16,7 @@ On 4 November 1979 a group calling itself the Muslim Student Followers of the Im
 
 ## Rescue attempt
 
-Negotiations made little progress, and Carter approved a military rescue, Operation Eagle Claw, over the objections of Secretary of State Cyrus Vance. On 24 April 1980 eight helicopters took off from USS Nimitz, an aircraft carrier, for a desert landing site in eastern Iran known as Desert One. Dust storms and mechanical failures left too few working helicopters, and the mission was abandoned. As the force withdrew, a helicopter collided with a transport aircraft, killing eight American servicemen; an Iranian civilian also died during the operation. Vance resigned in protest.
+Negotiations made little progress, and Carter approved a military rescue, Operation Eagle Claw, over the objections of Secretary of State Cyrus Vance. On 24 April 1980 eight helicopters took off from USS Nimitz, an aircraft carrier, for a desert landing site in eastern Iran known as Desert One. Dust storms and mechanical failures left too few working helicopters, and the mission was abandoned. As the force withdrew, a helicopter collided with a transport aircraft, killing eight American servicemen; an Iranian civilian also died during the operation. Vance, who had already handed in his resignation in protest, left office days later.
 
 ## Negotiation and release
 

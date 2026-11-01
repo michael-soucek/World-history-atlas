@@ -37,4 +37,4 @@ In 1950 the People's Liberation Army invaded eastern Tibet, defeating the Tibeta
 
 ## On our maps
 
-Our maps show Tibet on most maps from 1000 to 1715 and from 1914 to 1945. Its largest outline, about 2.3 million square kilometres on the 1000 map, covers much of the Tibetan plateau, now mostly in China, with smaller shares in India and Nepal. Lhasa lies inside it for much of the period. Between 1783 and 1900 the basemap includes it in the Qing Empire; by 1960 it is part of China. For the earlier empire, see the [Tibetan Empire](/place/tibetan-empire).
+Our maps show Tibet on most maps from 1000 to 1715 and from 1914 to 1945. Its largest outline, about 2.3 million square kilometres on the 1000 map, covers much of the Tibetan plateau, now mostly in China, with smaller shares in India and Nepal. Lhasa lies inside it for much of the period. Between 1783 and 1900 the basemap includes it in the Qing Empire; by 1960 it is part of China. For the earlier empire, see the Tibetan Empire.

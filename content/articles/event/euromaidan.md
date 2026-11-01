@@ -26,7 +26,7 @@ On 21 February, with mediators from the EU and Russia, Yanukovych and opposition
 
 ## Aftermath
 
-The protests killed more than 100 people in total, among them 108 protesters and 13 police, and injured some 2,500. Within days of Yanukovych's fall Russia [annexed Crimea](/event/russian-annexation-of-crimea) and pro-Russian unrest spread in the east, the beginning of a conflict that eventually escalated into the [Russo-Ukrainian war](/event/russian-invasion-of-ukraine). The February climax is often called the Revolution of Dignity, and Euromaidan has been called Europe's biggest democratic mass movement since the [Revolutions of 1989](/event/revolutions-of-1989). It remains a founding moment in the recent history of [Ukraine](/country/ukraine).
+The protests killed more than 100 people in total, among them 108 protesters and 13 police, and injured some 2,500. Within weeks of Yanukovych's fall Russia [annexed Crimea](/event/russian-annexation-of-crimea) and pro-Russian unrest spread in the east, the beginning of a conflict that eventually escalated into the [Russo-Ukrainian war](/event/russian-invasion-of-ukraine). The February climax is often called the Revolution of Dignity, and Euromaidan has been called Europe's biggest democratic mass movement since the [Revolutions of 1989](/event/revolutions-of-1989). It remains a founding moment in the recent history of [Ukraine](/country/ukraine).
 
 ## On our maps
 

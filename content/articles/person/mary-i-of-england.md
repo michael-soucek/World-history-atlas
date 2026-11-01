@@ -21,7 +21,7 @@ An Act of 1544 restored Mary to the succession after her younger half-brother Ed
 
 ## Winning the crown
 
-Edward died on 6 July 1553. Mary fled to East Anglia, rallied supporters at Framlingham Castle, and Northumberland's support collapsed; Jane was deposed on 19 July, and Mary entered London in triumph on 3 August. She was crowned on 1 October. Northumberland was executed at once; Jane and her husband were executed only after Wyatt's rebellion, a rising against Mary's planned Spanish marriage.
+Edward died on 6 July 1553. Mary fled to East Anglia, rallied supporters at Framlingham Castle, and Northumberland's support collapsed; Jane was deposed on 19 July, and Mary entered London in triumph on 3 August. She was crowned on 1 October. Northumberland was executed that August; Jane and her husband were executed only after Wyatt's rebellion, a rising against Mary's planned Spanish marriage.
 
 ## The Spanish marriage
 

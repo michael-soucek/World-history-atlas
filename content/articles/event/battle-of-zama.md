@@ -32,4 +32,4 @@ Carthage was now clearly subordinate to the [Roman Republic](/place/roman-republ
 
 ## On our maps
 
-Our -200 map shows the western Mediterranean just after Zama, with Carthage reduced to its African territory. The battlefield lies in modern [Tunisia](/country/tunisia).
+Our 200 BCE map shows the western Mediterranean just after Zama, with Carthage reduced to its African territory. The battlefield lies in modern [Tunisia](/country/tunisia).

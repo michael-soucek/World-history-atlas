@@ -28,4 +28,4 @@ The prevailing modern view is that Qin did collect and destroy many texts it con
 
 ## On our maps
 
-Our -200 map shows China shortly after the Qin dynasty's fall, under the early Han dynasty.
+Our 200 BCE map shows China shortly after the Qin dynasty's fall, under the early Han dynasty.

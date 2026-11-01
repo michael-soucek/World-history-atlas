@@ -34,4 +34,4 @@ A 1997 court ruling over a dam at Nibutani recognised the Ainu as Indigenous for
 
 ## On our maps
 
-Our maps draw Ainu lands across Hokkaido, Sakhalin and the Kurils in every map year from -3000 to 1700. The early outline is a rough stand-in for their Jōmon and Satsumon forebears; later it sits beside the [Kamakura shogunate](/place/kamakura-shogunate) in 1300 and the [Tokugawa shogunate](/place/tokugawa-shogunate) and [Qing empire](/place/manchu-empire) in 1700. See also [Japan](/country/japan).
+Our maps draw Ainu lands across Hokkaido, Sakhalin and the Kurils in every map year from -3000 to 1700. The early outline is a rough stand-in for their Jōmon and Satsumon forebears; later it sits beside the [Kamakura shogunate](/place/kamakura-shogunate) in 1300 and the [Tokugawa shogunate](/place/tokugawa-shogunate) and [Qing empire](/place/qing-dynasty) in 1700. See also [Japan](/country/japan).
