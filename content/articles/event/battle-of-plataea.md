@@ -30,4 +30,4 @@ According to Herodotus, the Greek fleet won at Mycale, in Asia Minor, on the sam
 
 ## On our maps
 
-Our -500 map shows the [Achaemenid Empire](/place/achaemenid-empire) and the Greek states on the eve of the invasions; the battlefield lies in modern [Greece](/country/greece).
+Our 500 BCE map shows the [Achaemenid Empire](/place/achaemenid-empire) and the Greek states on the eve of the invasions; the battlefield lies in modern [Greece](/country/greece).

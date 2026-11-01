@@ -22,7 +22,7 @@ Valens's scouts reported that the Goths near Adrianople numbered only about 10,0
 
 On 9 August the Roman army marched for several hours in the summer heat to the Gothic wagon laager, arriving hot and thirsty. The Goths lit fires to blow smoke and heat towards them. While talks were still taking place, some Roman units attacked without orders, and the battle began before the Roman line had fully formed. At this point the Gothic cavalry under Alatheus and Saphrax returned and struck the Roman left wing, which had advanced up to the wagons and was left unsupported. The Roman infantry was pressed together so tightly that the soldiers could hardly use their weapons, and the army collapsed into a rout.
 
-Valens was killed in the fighting; one account says he died when the Goths burned a farmhouse in which he had taken refuge, and his body was never found. The historian Ammianus Marcellinus, the main source, writes that only about a third of the army escaped. Modern estimates of the Roman force vary widely, from around 15,000 to 40,000 men, and of the dead from about 10,000 to 20,000. Many senior officers also died.
+Valens was killed in the fighting; one account says he died when the Goths burned a farmhouse in which he had taken refuge, and his body was never found. The historian Ammianus Marcellinus, the main source, writes that only about a third of the army escaped. Modern estimates of the Roman force vary widely, from around 12,000 to 20,000 men, and of the dead from about 10,000 to 20,000. Many senior officers also died.
 
 ## Aftermath
 

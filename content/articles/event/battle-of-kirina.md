@@ -23,7 +23,7 @@ The two armies met at Kirina in about 1235. Sundiata's coalition won a decisive 
 
 ## Legend and history
 
-The Epic of Sundiata, preserved by generations of griots and widely regarded as Mali's national epic, turns the contest into a duel of magic. Soumaoro appears as a sorcerer-king who cannot be harmed until Sundiata learns that his protective animal is the rooster; an arrow tipped with a cock's spur wounds him, and his power collapses. Historians treat these episodes as legend, but writers such as Ibn Battuta and Ibn Khaldun, who knew Mali about a century later, independently confirm that Sundiata existed.
+The Epic of Sundiata, preserved by generations of griots and widely regarded as Mali's national epic, turns the contest into a duel of magic. Soumaoro appears as a sorcerer-king who cannot be harmed until Sundiata learns that his protective animal is the rooster; an arrow tipped with a cock's spur wounds him, and his power collapses. Historians treat these episodes as legend, but later Arab writers, notably Ibn Battuta, who visited Mali about a century afterwards, and the historian Ibn Khaldun, independently confirm that Sundiata existed.
 
 ## The new empire
 

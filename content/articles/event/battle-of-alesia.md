@@ -37,4 +37,4 @@ Organised resistance in Gaul ended, and the Senate voted 20 days of thanksgiving
 
 ## On our maps
 
-Our -100 map shows Gaul, home of the [Celts](/place/celts), before Caesar's conquest; by our -1 map it lies within Roman territory, covering modern [France](/country/france).
+Our 100 BCE map shows Gaul, home of the [Celts](/place/celts), before Caesar's conquest; by our 1 BCE map it lies within Roman territory, covering modern [France](/country/france).

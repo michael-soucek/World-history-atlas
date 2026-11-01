@@ -28,7 +28,7 @@ De Valera denounced the treaty on 8 December, and the Dáil cabinet backed it by
 
 ## Aftermath
 
-The split erupted into civil war in 1922, which the pro-treaty side won in 1923. Griffith died in August 1922, and Collins was killed ten days later in an ambush by anti-treaty republicans at Béal na Bláth. The Irish Free State formally came into being on 6 December 1922. After the Statute of Westminster loosened imperial ties, the Free State removed the treaty's provisions on the monarch, the governor-general and the treaty's legal supremacy in 1932, bearing out Collins's claim that the settlement offered "the freedom to achieve freedom". The modern state is [Ireland](/country/ireland).
+The split erupted into civil war in 1922, which the pro-treaty side won in 1923. Griffith died in August 1922, and Collins was killed ten days later in an ambush by anti-treaty republicans at Béal na Bláth. The Irish Free State formally came into being on 6 December 1922. After the Statute of Westminster loosened imperial ties, the Free State removed the treaty's provisions on the monarch, the governor-general and the treaty's legal supremacy during the 1930s, bearing out Collins's claim that the settlement offered "the freedom to achieve freedom". The modern state is [Ireland](/country/ireland).
 
 ## On our maps
 

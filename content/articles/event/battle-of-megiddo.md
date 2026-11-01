@@ -24,7 +24,7 @@ Thutmose then surrounded Megiddo with a ditch and a timber palisade. After about
 
 ## The record at Karnak
 
-Everything known about the battle comes from the Egyptian side. During the campaign the scribe Tjaneni kept a daily journal, and decades later the king had a version of it inscribed on the walls of the temple of Amun-Re at Karnak, in Thebes. The date it gives, in the king's 23rd regnal year, is often converted to 16 April 1457 BC, but other chronologies place the battle in 1479 or 1482 BC.
+Everything known about the battle comes from the Egyptian side. During the campaign the scribe Tjaneni kept a daily journal, and about twenty years later the king had a version of it inscribed on the walls of the temple of Amun-Re at Karnak, in Thebes. The date it gives, in the king's 23rd regnal year, is often converted to 16 April 1457 BC, but other chronologies place the battle in 1479 or 1482 BC.
 
 ## Consequences
 
@@ -32,4 +32,4 @@ Megiddo was only the first of many campaigns; Thutmose returned to the Levant al
 
 ## On our maps
 
-Our -1500 map shows the New Kingdom at about the time of Thutmose III's campaigns, with its northern rivals. For the land today, see [Egypt](/country/egypt).
+Our 1500 BCE map shows the New Kingdom at about the time of Thutmose III's campaigns, with its northern rivals. For the land today, see [Egypt](/country/egypt).

@@ -30,7 +30,7 @@ A military commission tried eight defendants. Mary Surratt, Powell, Herold and A
 
 ## Mourning
 
-Lincoln was mourned in both North and South and around the world, with governments from Britain to China and Liberia sending condolences. After a funeral in Washington on 19 April, a train carried his body on a route of some 1,700 miles to Springfield, Illinois. [Frederick Douglass](/person/frederick-douglass) called the killing an unspeakable calamity, and Walt Whitman wrote "O Captain! My Captain!" in his memory. Lincoln's death made him a national martyr as the country entered the [Reconstruction era](/event/reconstruction-era) under Johnson.
+Lincoln was mourned in both North and South and around the world, with governments from Britain to China and Liberia sending condolences. After a funeral in Washington on 19 April, a train carried his body on a route of some 1,700 miles to Springfield, Illinois. Across the country he was mourned, by [Frederick Douglass](/person/frederick-douglass) among many others, and Walt Whitman wrote "O Captain! My Captain!" in his memory. Lincoln's death made him a national martyr as the country entered the [Reconstruction era](/event/reconstruction-era) under Johnson.
 
 ## On our maps
 

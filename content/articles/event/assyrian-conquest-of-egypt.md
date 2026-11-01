@@ -28,8 +28,8 @@ His successor Tantamani then marched down the Nile from Nubia, reoccupied Memphi
 
 ## Aftermath
 
-The reconquest ended Kushite rule over Egypt, although Tantamani was still acknowledged in the south until 656 BC, when Psamtik's fleet took control of Thebes peacefully and reunited the country. Psamtik founded the Twenty-sixth Dynasty and, around 655 BC, while Assyria was distracted by civil war, quietly ended his dependence, hiring Carian and Greek mercenaries. Egypt nonetheless stayed on friendly terms with Assyria and later sent forces to help it against [Babylonia](/place/babylonia) and the Medes, though these could not prevent Assyria's collapse after 609 BC.
+The reconquest ended Kushite rule over Egypt, although Tantamani was still acknowledged in the south until 656 BC, when Psamtik's fleet took control of Thebes peacefully and reunited the country. Psamtik founded the Twenty-sixth Dynasty and, around 655 BC, while Assyria was distracted by civil war, quietly ended his dependence, hiring Carian and Greek mercenaries. Egypt nonetheless stayed on friendly terms with Assyria and later sent forces to help it against [Babylonia](/place/babylonia) and the Medes, though these could not prevent Assyria's final collapse in 609 BC.
 
 ## On our maps
 
-Our -700 map shows the Assyrian empire and Egypt in the years just before the invasions, and the [Third Intermediate Period of Egypt](/place/third-intermediate-period-of-egypt) that preceded the conquest. For the land today, see [Egypt](/country/egypt).
+Our 700 BCE map shows the Assyrian empire and Egypt in the years just before the invasions, and the [Third Intermediate Period of Egypt](/place/third-intermediate-period-of-egypt) that preceded the conquest. For the land today, see [Egypt](/country/egypt).

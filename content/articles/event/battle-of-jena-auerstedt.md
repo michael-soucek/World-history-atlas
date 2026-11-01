@@ -4,7 +4,7 @@ sources:
   - Wikidata: Battle of Jena–Auerstedt (Q154426) | https://www.wikidata.org/wiki/Q154426
 written: 2026-10-31
 ---
-Two battles fought on the same day, 14 October 1806, a few kilometres apart in what is now Thuringia and Saxony-Anhalt, destroyed the army of Prussia in a single afternoon. At Jena, [Napoleon](/person/napoleon) himself routed a Prussian and Saxon force under Prince Hohenlohe; at Auerstedt, to the north, Marshal Louis-Nicolas Davout's lone corps beat the main Prussian army, which was more than twice its size. The twin defeats decided the War of the Fourth Coalition against Prussia and set off the reforms that would later transform the Prussian state.
+Two battles fought on the same day, 14 October 1806, a short distance apart in what is now Thuringia and Saxony-Anhalt, destroyed the army of Prussia in a single afternoon. At Jena, [Napoleon](/person/napoleon) himself routed a Prussian and Saxon force under Prince Hohenlohe; at Auerstedt, to the north, Marshal Louis-Nicolas Davout's lone corps beat the main Prussian army, which was more than twice its size. The twin defeats decided the War of the Fourth Coalition against Prussia and set off the reforms that would later transform the Prussian state.
 
 ## An army living on its past
 

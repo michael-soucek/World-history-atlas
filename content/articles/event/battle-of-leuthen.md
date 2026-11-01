@@ -20,7 +20,7 @@ Early on 5 December, in fog, Frederick advanced towards the Austrian right. A ca
 
 ## Breaking the Austrian line
 
-The Prussian attack fell first on Württemberg troops, who fired steadily before fleeing and carrying Bavarian units with them. The Austrian flank commander, Franz Leopold von Nádasdy, asked for help but Charles still expected the real blow in the north. When the Austrians finally shifted troops south, they had to cover a front stretched to nearly 10 kilometres. Prussian grenadiers stormed Leuthen itself, fighting through the churchyard and streets in close-packed, bloody combat, while heavy guns on the Butterberg pounded the defenders. A late Austrian cavalry counter-attack was caught in flank and rear by Prussian squadrons under Hans Joachim von Zieten and Georg Wilhelm von Driesen, and its commander, Count Lucchesi, was killed. The Austrian army collapsed and fled towards Breslau.
+The Prussian attack fell first on Württemberg troops, who fired steadily before fleeing and carrying Bavarian units with them. The Austrian flank commander, Franz Leopold von Nádasdy, asked for help but Charles still expected the real blow in the north. When the Austrians finally shifted troops south, they had to cover a front stretched to nearly 10 kilometres. Prussian grenadiers stormed Leuthen itself, fighting through the churchyard and streets in close-packed, bloody combat, while heavy guns on the Butterberg pounded the defenders. A late Austrian cavalry counter-attack was struck in flank and front by Prussian squadrons under Hans Joachim von Zieten and Georg Wilhelm von Driesen, and its commander, Count Lucchesi, was killed. The Austrian army collapsed and fled towards Breslau.
 
 ## Aftermath
 

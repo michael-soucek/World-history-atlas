@@ -28,4 +28,4 @@ The victors took great spoils, including the jewelled royal banner of the Sasani
 
 ## On our maps
 
-Our 600 map shows the Sasanian Empire at its height, and our 700 map shows its former lands inside the Umayyad Caliphate, the Rashidun state's successor. The battlefield lies in modern [Iraq](/country/iraq).
+Our 600 map shows the Sasanian Empire before the Arab conquests, and our 700 map shows its former lands inside the Umayyad Caliphate, the Rashidun state's successor. The battlefield lies in modern [Iraq](/country/iraq).

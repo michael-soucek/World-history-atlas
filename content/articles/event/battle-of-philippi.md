@@ -36,4 +36,4 @@ The story of Brutus's ghostly visitor, who promised to see him again at Philippi
 
 ## On our maps
 
-Our -1 map shows Macedonia, in modern [Greece](/country/greece), as part of the Roman world after the civil wars; the nearest earlier map, -100, shows the republic before them.
+Our 1 BCE map shows Macedonia, in modern [Greece](/country/greece), as part of the Roman world after the civil wars; the nearest earlier map, -100, shows the republic before them.

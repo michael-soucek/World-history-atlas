@@ -24,7 +24,7 @@ Ramesses returned to Egypt without taking Kadesh, and the Hittites kept control 
 
 ## The treaty
 
-Fighting between the two powers continued for some years. Around 1259 BCE, Ramesses II and the Hittite king Hattusili III concluded a formal peace treaty, versions of which survive in both Egyptian hieroglyphs and Akkadian cuneiform on clay tablets from the Hittite capital, Hattusa. The treaty set out mutual non-aggression and support, and was later sealed by a marriage between Ramesses and a Hittite princess. A copy of the agreement hangs at the United Nations headquarters in New York.
+Fighting between the two powers continued for some years. Around 1258 BCE, Ramesses II and the Hittite king Hattusili III concluded a formal peace treaty, versions of which survive in both Egyptian hieroglyphs and Akkadian cuneiform on clay tablets from the Hittite capital, Hattusa. The treaty set out mutual non-aggression and support, and was later sealed by a marriage between Ramesses and a Hittite princess. A copy of the agreement hangs at the United Nations headquarters in New York.
 
 ## How we know
 

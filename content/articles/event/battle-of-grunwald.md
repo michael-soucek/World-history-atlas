@@ -8,7 +8,7 @@ On 15 July 1410, in the lands of the Teutonic Order in Prussia, the combined arm
 
 ## Crusaders and neighbours
 
-The Teutonic Order, a crusading order of knights, began its conquest of the pagan Prussians in 1230 and then spent about a century raiding pagan Lithuania, especially Samogitia, which separated its lands in Prussia from its branch in Livonia. In 1385 the Lithuanian ruler Jogaila agreed to marry Queen Jadwiga of Poland, became a Christian and was crowned king as Władysław II Jagiełło, linking the two states. Lithuania's conversion undercut the Order's reason for crusading, but disputes continued over Samogitia, held by the Order since 1404,.
+The Teutonic Order, a crusading order of knights, began its conquest of the pagan Prussians in 1230 and then spent about a century raiding pagan Lithuania, especially Samogitia, which separated its lands in Prussia from its branch in Livonia. In 1385 the Lithuanian ruler Jogaila agreed to marry Queen Jadwiga of Poland, became a Christian and was crowned king as Władysław II Jagiełło, linking the two states. Lithuania's conversion undercut the Order's reason for crusading, but disputes continued over Samogitia, held by the Order since 1404.
 
 ## War and truce
 
@@ -22,7 +22,7 @@ No reliable contemporary figures exist, and modern estimates, often shaped by na
 
 The armies met on the morning of 15 July near the villages of Grunwald, Tannenberg and Ludwigsdorf. The knights of the Order waited for hours in the heat, and the Grand Master sent two swords to the Polish king as a provocation. Vytautas then attacked the Order's left. After more than an hour, his light cavalry retreated. One chronicler presented this as a rout; many modern historians think it was at least partly a deliberate feigned withdrawal of a kind learned from the steppe.
 
-Heavy fighting followed between the Poles and the Order's knights. The royal banner of Kraków was briefly lost, and one knight charged at the king himself before being stopped. When von Jungingen led a last great attack on the Polish right, the Lithuanians returned and struck him from behind. The Grand Master was killed, his army broke, and many more knights died when their wagon camp was overrun. The fighting lasted about ten hours.
+Heavy fighting followed between the Poles and the Order's knights. The royal banner of Kraków was briefly lost, and one knight charged at the king himself before being stopped. When von Jungingen led a last great attack on the Polish right, the Lithuanians returned and struck him from behind. The Grand Master was killed, his army broke, and many more knights died when their wagon camp was overrun. By some accounts the fighting lasted about ten hours.
 
 ## Losses and peace
 

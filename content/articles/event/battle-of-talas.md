@@ -12,11 +12,11 @@ In the first half of the eighth century the Tang dynasty extended its power deep
 
 ## Prelude
 
-Gao Xianzhi, a general of Korean descent, had won fame in 747 by leading a Tang army across the Pamirs to defeat Tibetan forces. In 750 he attacked Chach, executed its ruler despite a promise of safe conduct, and plundered the city. The ruler's son fled to seek help from the Arabs. In the caliphate, the Abbasids had just overthrown the Umayyads in 750, and their governor in Khurasan, Abu Muslim, sent troops under Ziyad ibn Salih to answer the appeal. Gao advanced west to meet the threat.
+Gao Xianzhi, a general of Korean descent, had won fame in 747 by leading a Tang army across the Pamirs to defeat Tibetan forces. In 750 he attacked Chach and plundered the city even though its ruler had submitted; the ruler was taken to the Tang capital and executed. The ruler's son fled to seek help from the Arabs. In the caliphate, the Abbasids had just overthrown the Umayyads in 750, and their governor in Khurasan, Abu Muslim, sent troops under Ziyad ibn Salih to answer the appeal. Gao advanced west to meet the threat.
 
 ## The battle
 
-The armies met near the Talas River in July 751. Figures for their size vary widely: Chinese accounts give the Tang side between 10,000 and 20,000 of its own troops plus Karluk auxiliaries, Arab writers claim 100,000, and modern historians tend to suggest around 30,000 on each side. According to Chinese sources the fighting was even for five days before the Karluks, who had been fighting with the Tang, changed sides and attacked them, leading to a heavy defeat. Arab sources do not describe a defection, and some historians think the Karluks were allied with the Abbasids from the start. Gao Xianzhi escaped with a small remnant of his army, and many Tang soldiers were taken prisoner.
+The armies met near the Talas River in July 751. Figures for their size vary widely: Chinese accounts give the Tang side between 10,000 and 20,000 of its own troops plus Karluk auxiliaries, Arab writers claim 100,000, and modern historians tend to suggest around 30,000 on each side. According to Chinese sources the fighting was even for five days before the Karluks, who had been fighting with the Tang, changed sides and attacked them, leading to a heavy defeat. The sources differ on this, and some historians think the Karluks were allied with the Abbasids from the start. Gao Xianzhi escaped with a small remnant of his army, and many Tang soldiers were taken prisoner.
 
 ## A limited turning point
 

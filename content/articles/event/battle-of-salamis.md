@@ -28,4 +28,4 @@ Fearing that the Greeks might cut his bridges over the Hellespont, Xerxes return
 
 ## On our maps
 
-Our -500 map shows the [Achaemenid Empire](/place/achaemenid-empire) before the invasion; the battle belongs to the wider [Greco-Persian Wars](/event/greco-persian-wars).
+Our 500 BCE map shows the [Achaemenid Empire](/place/achaemenid-empire) before the invasion; the battle belongs to the wider [Greco-Persian Wars](/event/greco-persian-wars).

@@ -17,7 +17,7 @@ Suleiman left Constantinople in April 1526 with a large army and artillery, whil
 
 ## The battle
 
-The Hungarian army numbered some 25,000 to 30,000 men, a mix of armoured cavalry, mercenary infantry and noble levies, commanded by Archbishop Pál Tomori. The size of the Ottoman army is uncertain; modern estimates range from about 45,000 fighting troops to considerably more, and it was far stronger in artillery and in disciplined Janissary infantry. In the afternoon the Hungarian heavy cavalry charged and at first drove back the Ottoman front line. But the Ottoman centre gave way in good order, the attackers pushed too far, and they were caught by cannon and musket fire and by cavalry attacks from the flanks. Within about two hours the Hungarian army had collapsed.
+The Hungarian army numbered some 25,000 to 30,000 men, a mix of armoured cavalry, mercenary infantry and noble levies, commanded by Archbishop Pál Tomori. The size of the Ottoman army is uncertain; estimates range from about 50,000 to 100,000 men, and it was far stronger in artillery and in disciplined Janissary infantry. In the afternoon the Hungarian heavy cavalry charged and at first drove back the Ottoman front line. But the Ottoman centre gave way in good order, the attackers pushed too far, and they were caught by cannon and musket fire and by cavalry attacks from the flanks. Within about two hours the Hungarian army had collapsed.
 
 ## The death of the king
 

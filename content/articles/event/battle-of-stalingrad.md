@@ -16,7 +16,7 @@ German forces reached the Volga north of the city in late August 1942, and on 23
 
 ## Operation Uranus
 
-While the city absorbed German strength, the Soviet command prepared a counter-attack. On 19 November 1942 Operation Uranus struck the long, thinly held flanks north and south of Stalingrad, which were defended largely by Romanian armies. The two Soviet pincers met near Kalach on 23 November, trapping the Sixth Army and part of the Fourth Panzer Army, perhaps 250,000 to 300,000 men by most estimates. Hitler forbade a breakout, trusting a promise that the air force could supply the pocket, but airlifted supplies fell far short of what was needed. In December a relief attack under Field Marshal Erich von Manstein came within some fifty kilometres of the pocket before it was stopped.
+While the city absorbed German strength, the Soviet command prepared a counter-attack. On 19 November 1942 Operation Uranus struck the long, thinly held flanks north and south of Stalingrad, which were defended largely by Romanian armies. The two Soviet pincers met near Kalach on 23 November, trapping the Sixth Army and part of the Fourth Panzer Army, perhaps 250,000 to 330,000 men by different estimates. Hitler forbade a breakout, trusting a promise that the air force could supply the pocket, but airlifted supplies fell far short of what was needed. In December a relief attack under Field Marshal Erich von Manstein came within some fifty kilometres of the pocket before it was stopped.
 
 ## Surrender
 

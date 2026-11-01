@@ -34,4 +34,4 @@ Remaining resistance was crushed by 202 BC; the town of Lu surrendered when show
 
 ## On our maps
 
-Our -200 map shows the newly founded Han dynasty, a few years after Gaixia; the -300 map shows China before the Qin unification.
+Our 200 BCE map shows the newly founded Han dynasty, a few years after Gaixia; the 300 BCE map shows China before the Qin unification.

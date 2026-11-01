@@ -34,4 +34,4 @@ The exile is often seen as a turning point in Jewish history. In this period the
 
 ## On our maps
 
-Our -700 map shows the region before the Babylonian conquest, and our -500 map shows it as part of the [Achaemenid Empire](/place/achaemenid-empire) after the return. See also the [fall of Babylon](/event/fall-of-babylon) and modern [Israel](/country/israel).
+Our 700 BCE map shows the region before the Babylonian conquest, and our 500 BCE map shows it as part of the [Achaemenid Empire](/place/achaemenid-empire) after the return. See also the [fall of Babylon](/event/fall-of-babylon) and modern [Israel](/country/israel).

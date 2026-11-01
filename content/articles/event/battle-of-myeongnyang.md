@@ -28,7 +28,7 @@ When the tide turned, the Japanese ships began drifting backwards and colliding.
 
 ## Aftermath
 
-Yi pulled back to the north to resupply, and sailors and ships that had been in hiding since Chilcheollyang rallied to him. The Japanese made a brief raid up the western coast but soon fell back to their bases in the south, and never again tried to force their way into the Yellow Sea. Encouraged by the victory, Ming China sent a fleet to join Yi early in 1598. In reprisal, Japanese troops burned Yi's home village of Asan in November 1597 and killed his youngest son. Later claims that Yi stretched iron chains across the strait do not appear in his own war diary.
+Yi pulled back to the north to resupply, and sailors and ships that had been in hiding since Chilcheollyang rallied to him. The Japanese made a brief raid up the western coast but soon fell back to their bases in the south, and never again tried to force their way into the Yellow Sea. Encouraged by the victory, Ming China sent a fleet to join Yi in 1598. In reprisal, Japanese troops burned Yi's home village of Asan in November 1597 and killed his youngest son. Later claims that Yi stretched iron chains across the strait do not appear in his own war diary.
 
 ## On our maps
 

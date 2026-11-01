@@ -25,7 +25,7 @@ Figures vary between sources. The Holy League lost perhaps 7,500 to 10,000 dead 
 
 ## Aftermath
 
-The victory caused great celebration across Catholic Europe and became a powerful symbol, commemorated in paintings, poems and the Catholic feast of Our Lady of the Rosary. Its practical effects were more limited. The Ottomans rebuilt their fleet within about a year, and the League soon broke apart after the death of Pius V in 1572. In March 1573 Venice made a separate peace, recognising the loss of Cyprus and paying an indemnity. Even so, the loss of so many experienced crews was hard to replace, and Ottoman naval activity in the western Mediterranean declined in the following decades.
+The victory caused great celebration across Catholic Europe and became a powerful symbol, commemorated in paintings, poems and the Catholic feast of Our Lady of the Rosary. Its practical effects were more limited. The Ottomans rebuilt their fleet within about a year, and the League soon broke apart after the death of Pius V in 1572. In March 1573 Venice made a separate peace, recognising the loss of Cyprus and paying an indemnity. Even so, the loss of so many experienced crews was hard to replace, and Ottoman naval initiative declined sharply after about 1580.
 
 ## On our maps
 

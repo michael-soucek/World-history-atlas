@@ -26,7 +26,7 @@ The Ottomans opened with a heavy attack, which was met by volleys from Timur's h
 
 ## Aftermath
 
-Bayezid died in captivity about three months later, the only Ottoman sultan ever to be taken prisoner in person. Timur marched to the Aegean coast and captured Smyrna from the Knights Hospitaller. The Ottoman state fractured as Bayezid's sons fought one another for the throne, a struggle that lasted until 1413.
+Bayezid died in captivity in March 1403, the only Ottoman sultan ever to be taken prisoner in person. Timur marched to the Aegean coast and captured Smyrna from the Knights Hospitaller. The Ottoman state fractured as Bayezid's sons fought one another for the throne, a struggle that lasted until 1413.
 
 ## On our maps
 

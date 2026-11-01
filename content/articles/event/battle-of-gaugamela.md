@@ -12,7 +12,7 @@ Alexander had begun his [campaign against Persia](/event/wars-of-alexander-the-g
 
 ## The armies
 
-Darius chose a broad, level plain where he could use his numerical advantage. He had the ground cleared so that his scythed chariots could charge, and he deployed elephants as well. Ancient writers gave fantastic figures for the Persian army, up to a million men; modern historians suggest something between about 50,000 and 120,000, still far larger than Alexander's force. The Macedonian army, including Greek allies and mercenaries, probably numbered about 40,000 infantry and 7,000 cavalry.
+Darius chose a broad, level plain where he could use his numerical advantage. He had the ground cleared so that his scythed chariots could charge, and he deployed elephants as well. Ancient writers gave fantastic figures for the Persian army, up to a million men; modern estimates range from about 50,000 to 250,000, still far larger than Alexander's force. The Macedonian army, including Greek allies and mercenaries, probably numbered about 40,000 infantry and 7,000 cavalry.
 
 ## The battle
 

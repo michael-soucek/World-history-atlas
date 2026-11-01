@@ -8,7 +8,7 @@ From about AD 165 to 180 a long and deadly epidemic swept across the [Roman Empi
 
 ## A crowded, unhealthy empire
 
-The plague struck at the end of a long period of relative peace and prosperity, when the empire's population, perhaps around 75 million, was probably at its peak. Yet conditions favoured disease. Perhaps a fifth of the population lived in cities, where deaths outnumbered births and sanitation was poor; Rome alone may have had a million people. Average life expectancy at birth was perhaps 25 years, and even the emperor was not spared: of Marcus Aurelius's fourteen children, just two are known to have grown up. Roads and shipping lanes that bound the empire together also carried infections quickly from one region to another.
+The plague struck at the end of a long period of relative peace and prosperity, when the empire's population, perhaps around 75 million, was probably at its peak. Yet conditions favoured disease. Perhaps a fifth of the population lived in cities, where deaths outnumbered births and sanitation was poor; Rome alone may have had a million people. Average life expectancy at birth was perhaps 25 years. Roads and shipping lanes that bound the empire together also carried infections quickly from one region to another.
 
 ## Out of the East
 

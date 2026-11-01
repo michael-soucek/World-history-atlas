@@ -32,4 +32,4 @@ Surena's success aroused the jealousy of Orodes, who had him executed. Parthia w
 
 ## On our maps
 
-Our -100 map shows the Roman Republic and the Parthian Empire before the battle, and our -1 map shows the frontier between them that followed. The battlefield lies in modern [Turkey](/country/turkey).
+Our 100 BCE map shows the Roman Republic and the Parthian Empire before the battle, and our 1 BCE map shows the frontier between them that followed. The battlefield lies in modern [Turkey](/country/turkey).

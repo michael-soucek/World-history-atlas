@@ -8,7 +8,7 @@ The Battle of Austerlitz was fought on 2 December 1805 near the Moravian town of
 
 ## The Third Coalition
 
-Britain and France had been at war again since May 1803. In 1804 and 1805 the British prime minister William Pitt the Younger built a new coalition against France, and by 1805 Russia and Austria had joined. Napoleon, emperor of the French since December 1804, abandoned his planned invasion of Britain and marched his Grande Armée from the Channel coast to the Rhine. In October he trapped an Austrian army at Ulm, where 23,000 men surrendered on 20 October, the day before the French and Spanish fleets were defeated at the [Battle of Trafalgar](/event/battle-of-trafalgar). In November the French entered Vienna.
+Britain and France had been at war again since May 1803. In 1804 and 1805 the British prime minister William Pitt the Younger built a new coalition against France, and by 1805 Russia and Austria had joined. Napoleon, crowned emperor of the French in December 1804, abandoned his planned invasion of Britain and marched his Grande Armée from the Channel coast to the Rhine. In October he trapped an Austrian army at Ulm, where 23,000 men surrendered on 20 October, the day before the French and Spanish fleets were defeated at the [Battle of Trafalgar](/event/battle-of-trafalgar). In November the French entered Vienna.
 
 ## The trap
 

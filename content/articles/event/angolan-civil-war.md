@@ -16,7 +16,7 @@ Through the 1980s UNITA, supported by South Africa and, after Congress repealed 
 
 ## The New York Accords and Bicesse
 
-Talks among Angola, Cuba and South Africa produced the New York Accords of 22 December 1988, which linked Namibian independence to the withdrawal of foreign troops. The last Cubans left in 1991, the year the MPLA abandoned Marxism-Leninism and accepted multi-party politics. On 31 May 1991 President José Eduardo dos Santos and Savimbi signed the Bicesse Accords. In the September 1992 election dos Santos officially won 49.6 per cent and Savimbi 40.6 per cent; Savimbi rejected the result as unfair, and before a run-off could be held, fighting erupted in Luanda at the end of October.
+Talks among Angola, Cuba and South Africa produced the New York Accords of 22 December 1988, which linked Namibian independence to the withdrawal of foreign troops. The MPLA abandoned Marxism-Leninism and accepted multi-party politics in 1990, and the last Cubans left in 1991. On 31 May 1991 President José Eduardo dos Santos and Savimbi signed the Bicesse Accords. In the September 1992 election dos Santos officially won 49.6 per cent and Savimbi 40.6 per cent; Savimbi rejected the result as unfair, and before a run-off could be held, fighting erupted in Luanda at the end of October.
 
 ## War of the cities
 

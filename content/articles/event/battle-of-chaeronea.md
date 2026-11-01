@@ -30,4 +30,4 @@ Philip was assassinated in 336 BC before he could lead the campaign. Alexander i
 
 ## On our maps
 
-Our -400 map shows the Greek city-states before Macedon's rise, and our -323 map shows the [Macedonian Empire](/place/macedonian-empire) at Alexander's death. The battlefield lies in modern [Greece](/country/greece).
+Our 400 BCE map shows the Greek city-states before Macedon's rise, and our 323 BCE map shows the [Macedonian Empire](/place/macedonian-empire) at Alexander's death. The battlefield lies in modern [Greece](/country/greece).

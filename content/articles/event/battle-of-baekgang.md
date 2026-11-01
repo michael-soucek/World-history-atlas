@@ -14,7 +14,7 @@ For centuries the peninsula was divided between Goguryeo, Paekche and Silla, who
 
 In 660 a combined Silla and Tang army conquered Paekche. A Buddhist monk, Dochim, and the former general Buyeo Boksin launched a movement to restore the kingdom, bringing Prince Buyeo Pung back from Japan to be king and making the fortress of Juryu their base. After some early successes they were in serious trouble by 662, confined to Juryu and its surroundings, and Buyeo Pung had Boksin killed for fear of a revolt.
 
-Paekche and the Yamato court of [Japan](/country/japan) had long been allies, and their royal houses were related; Paekche princes had lived at the Japanese court for generations. The loss of Paekche shocked Yamato. Empress Kōgyoku and Crown Prince Naka no Ōe, the future Emperor Tenji, resolved to send help under the general Abe no Hirafu, and the empress moved her court to a temporary palace in northern Kyūshū to oversee the preparations. Around August 661 some 5,000 soldiers and 170 ships arrived, and in 662 further contingents of 27,000 and 10,000 men followed.
+Paekche and the Yamato court of [Japan](/country/japan) had long been allies, and their royal houses were related; Paekche princes had lived at the Japanese court for generations. The loss of Paekche shocked Yamato. Empress Saimei (who had earlier reigned as Kōgyoku) and Crown Prince Naka no Ōe, the future Emperor Tenji, resolved to send help under the general Abe no Hirafu, and the empress moved her court to a temporary palace in northern Kyūshū to oversee the preparations. Around August 661 some 5,000 soldiers and 170 ships arrived, and in 662 further contingents of 27,000 and 10,000 men followed.
 
 ## The battle
 

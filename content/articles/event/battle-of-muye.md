@@ -28,4 +28,4 @@ The day and month of the battle are recorded, but not the year, and earlier scho
 
 ## On our maps
 
-Our -1500 map shows the era of the Shang, and the -1000 map the early Zhou period in [China](/country/china).
+Our 1500 BCE map shows the era of the Shang, and the 1000 BCE map the early Zhou period in [China](/country/china).

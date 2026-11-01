@@ -22,7 +22,7 @@ As the Romans pushed forward, the Carthaginian centre gave ground steadily witho
 
 ## Losses
 
-The scale of the slaughter is not in doubt, but the numbers are. Polybius put the Roman dead at about 70,000, while Livy gave a figure of around 48,000, with many more captured. Modern estimates commonly fall between these. Among the dead were the consul Paullus and dozens of senators and former magistrates; Varro escaped. Hannibal's losses were much lighter, perhaps 6,000 to 8,000 men, most of them from the Gallic contingent in the centre.
+The scale of the slaughter is not in doubt, but the numbers are. Polybius put the Roman dead at about 70,000, while Livy gave a figure of around 48,000, with many more captured. Modern estimates commonly fall between these. Among the dead were the consul Paullus and dozens of senators and former magistrates; Varro escaped. Hannibal's losses were much lighter, between about 5,700 and 8,000 men, most of them from the Gallic contingent in the centre.
 
 ## Aftermath
 

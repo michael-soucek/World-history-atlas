@@ -36,4 +36,4 @@ The tactics used at Leuctra, concentrating force at one point while holding back
 
 ## On our maps
 
-The battle falls between our -400 and -323 maps. Leuctra lies in central [Greece](/country/greece), and the -323 map shows how the Greek world had passed under Macedonian power within a generation.
+The battle falls between our 400 and 323 BCE maps. Leuctra lies in central [Greece](/country/greece), and the 323 BCE map shows how the Greek world had passed under Macedonian power within a generation.

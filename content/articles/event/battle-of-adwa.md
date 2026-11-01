@@ -17,7 +17,7 @@ Italian forces, based in Eritrea, pushed south into Tigray in 1894 and 1895, exp
 
 ## The battle
 
-The Ethiopian army was very large, commonly estimated at between 70,000 and over 100,000 men, most of them armed with modern rifles bought from France, Russia and other sources, and supported by artillery. Baratieri had roughly 15,000 to 18,000 men, Italian troops and Eritrean askaris. Under pressure from the government of Prime Minister Francesco Crispi to win a victory, and with his own replacement already on the way, he decided to advance at night to positions overlooking the Ethiopian camp.
+The Ethiopian army was very large, commonly estimated at between 73,000 and over 100,000 men, most of them armed with modern rifles bought from France, Russia and other sources, and supported by artillery. Baratieri had roughly 15,000 to 18,000 men, Italian troops and Eritrean askaris. Under pressure from the government of Prime Minister Francesco Crispi to win a victory, and with his own replacement already on the way, he decided to advance at night to positions overlooking the Ethiopian camp.
 
 The plan relied on poor maps. Baratieri's four brigades lost contact in the mountainous terrain, and one, under General Albertone, advanced far ahead of the others. Early on 1 March the Ethiopians attacked it in overwhelming numbers, then turned on the remaining brigades one by one. By early afternoon the Italian army was in full retreat, leaving its artillery behind. Two Italian generals were killed and Albertone was captured.
 

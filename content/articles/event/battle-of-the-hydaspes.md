@@ -30,4 +30,4 @@ According to the famous story, Porus asked to be treated as a king, and Alexande
 
 ## On our maps
 
-Our -323 map shows the [Macedonian Empire](/place/macedonian-empire) at Alexander's death in 323 BCE, three years after the battle.
+Our 323 BCE map shows the [Macedonian Empire](/place/macedonian-empire) at Alexander's death in 323 BCE, three years after the battle.

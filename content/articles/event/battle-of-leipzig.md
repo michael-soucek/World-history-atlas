@@ -28,7 +28,7 @@ On 19 October a rearguard fought street by street in the city to cover the withd
 
 ## The cost
 
-Casualty estimates vary widely, from about 80,000 to over 130,000 killed, wounded and missing. The French also lost large numbers of prisoners, guns and most of their supply trains.
+Casualty estimates vary widely, from about 80,000 to 110,000 killed, wounded and missing. The French also lost large numbers of prisoners, guns and most of their supply trains.
 
 ## Consequences
 

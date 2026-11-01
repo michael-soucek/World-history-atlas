@@ -34,4 +34,4 @@ King Zhaoxiang refused Bai Qi's request to press on at once against Handan. When
 
 ## On our maps
 
-Our -300 map shows [Qin](/place/qin-dynasty) and the other Warring States of the late [Zhou dynasty](/place/zhou-dynasty) a generation before the battle; the -200 map shows the unified empire under the [Han dynasty](/place/han-dynasty).
+Our 300 BCE map shows [Qin](/place/qin-dynasty) and the other Warring States of the late [Zhou dynasty](/place/zhou-dynasty) a generation before the battle; the 200 BCE map shows the unified empire under the [Han dynasty](/place/han-dynasty).

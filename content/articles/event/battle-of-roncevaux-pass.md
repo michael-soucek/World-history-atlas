@@ -24,7 +24,7 @@ On the evening of 15 August, as the army crossed the pass, the Basques fell on t
 
 ## Aftermath
 
-Charlemagne never again led an army into Spain himself, leaving later campaigns to his commanders. The Franks went on to build a frontier zone south of the Pyrenees, the Spanish March, and took Barcelona about a decade later. Zaragoza, however, stayed in Muslim hands. In 824 a second battle at Roncevaux ended in another Frankish defeat, helping to secure the independence of the Basque Kingdom of Pamplona.
+Charlemagne never again led an army into Spain himself, leaving later campaigns to his commanders. The Franks went on to build a frontier zone south of the Pyrenees, the Spanish March, and took Barcelona in 801. Zaragoza, however, stayed in Muslim hands. In 824 a second battle at Roncevaux ended in another Frankish defeat, helping to secure the independence of the Basque Kingdom of Pamplona.
 
 ## From history to legend
 

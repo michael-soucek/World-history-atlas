@@ -16,7 +16,7 @@ In 208 Cao Cao turned south towards Jing province, along the middle Yangtze. Its
 
 ## The armies
 
-Cao Cao claimed to command 800,000 men, which was certainly an exaggeration for effect. Historical sources suggest his real strength may have been around 200,000 or fewer, many of them newly surrendered soldiers of doubtful loyalty. The allies are reported to have had around 50,000 men, about 30,000 of them under Zhou Yu. Cao Cao's army was also suffering from illness, probably an epidemic disease, among troops far from home.
+Cao Cao claimed to command 800,000 men, which was certainly an exaggeration for effect. Zhou Yu estimated his real strength at about 220,000 to 240,000, many of them newly surrendered soldiers of doubtful loyalty. The allies are reported to have had around 50,000 men, about 30,000 of them under Zhou Yu. Cao Cao's army was also suffering from illness, probably an epidemic disease, among troops far from home.
 
 ## The battle
 

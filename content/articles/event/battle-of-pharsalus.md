@@ -36,4 +36,4 @@ The battle did not end the civil war, but it shifted loyalties across the easter
 
 ## On our maps
 
-Our -100 map shows the Roman Republic before the civil wars, and our -1 map shows the [Roman Empire](/place/roman-empire) that emerged from them. The battlefield lies in modern [Greece](/country/greece).
+Our 100 BCE map shows the Roman Republic before the civil wars, and our 1 BCE map shows the [Roman Empire](/place/roman-empire) that emerged from them. The battlefield lies in modern [Greece](/country/greece).
