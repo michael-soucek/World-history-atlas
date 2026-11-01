@@ -7,6 +7,9 @@ import { ArrowLeft, ArrowRight, Pause, Play, Maximize2 } from "lucide-react";
 import { ReadAloudButton } from "@/components/ReadAloudButton";
 import SupportNudge from "@/components/SupportNudge";
 import type { Tour, TourRoute, TourSide, TourStep } from "@/data/tours";
+
+/** The tours collected on /world-wars (other war tours, like the Civil War, shade territory too). */
+const WORLD_WAR_TOURS = new Set(["first-world-war", "second-world-war-europe", "second-world-war-pacific"]);
 import { ROUTE_STYLE } from "@/lib/tourRoutes";
 
 // MapLibre must never be imported on the server.
@@ -113,7 +116,7 @@ export default function TourPlayer({ tour }: TourPlayerProps) {
           <nav className="label flex items-center gap-2.5 text-ink/64 mb-8" aria-label="Breadcrumb">
             <Link href="/tour" className="hover:text-accent transition-colors">Guided tours</Link>
             <span aria-hidden="true">/</span>
-            {tour.sides ? (
+            {WORLD_WAR_TOURS.has(tour.slug) ? (
               <>
                 <Link href="/world-wars" className="hover:text-accent transition-colors">The world wars</Link>
                 <span aria-hidden="true">/</span>
