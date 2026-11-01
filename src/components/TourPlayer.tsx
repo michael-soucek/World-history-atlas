@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import dynamic from "next/dynamic";
 import { ArrowLeft, ArrowRight, Pause, Play, Maximize2 } from "lucide-react";
@@ -34,6 +34,24 @@ export default function TourPlayer({ tour }: TourPlayerProps) {
 
   const current = tour.steps[step];
   const last = tour.steps.length - 1;
+  const mapRef = useRef<HTMLDivElement>(null);
+  const stopRef = useRef<HTMLElement>(null);
+  const firstStep = useRef(true);
+
+  // When the stop changes, bring its heading back into view if the reader had
+  // scrolled down through the previous one's text (or the legends below it).
+  // On phones the map stays pinned at the top, so the heading goes just below it.
+  useEffect(() => {
+    if (firstStep.current) { firstStep.current = false; return; }
+    const el = stopRef.current;
+    if (!el) return;
+    const wide = window.matchMedia("(min-width: 1024px)").matches;
+    const offset = wide ? 80 : (mapRef.current?.getBoundingClientRect().bottom ?? 64) + 12;
+    const top = el.getBoundingClientRect().top;
+    if (top < offset || top > window.innerHeight * 0.55) {
+      window.scrollTo({ top: window.scrollY + top - offset, behavior: "smooth" });
+    }
+  }, [step]);
 
   // Deep links from the world-wars hub open at a given stop: /tour/x?stop=5.
   // (A 0ms timer rather than setState in the effect body, as below.)
@@ -82,7 +100,7 @@ export default function TourPlayer({ tour }: TourPlayerProps) {
   return (
     <div className="lg:grid lg:grid-cols-[minmax(0,1fr)_440px] xl:grid-cols-[minmax(0,1fr)_500px]">
       {/* ── The map ── */}
-      <div className="relative h-[46svh] min-h-[300px] lg:h-[calc(100svh-4rem)] lg:sticky lg:top-16 bg-[#cdd9e5] overflow-hidden">
+      <div ref={mapRef} className="relative z-10 h-[40svh] min-h-[240px] sticky top-16 lg:h-[calc(100svh-4rem)] bg-[#cdd9e5] overflow-hidden">
         <TourMap
           state={ms}
           routes={current.routes}
@@ -111,8 +129,8 @@ export default function TourPlayer({ tour }: TourPlayerProps) {
       </div>
 
       {/* ── The narration ── */}
-      <div className="border-l border-ink/10 bg-parchment">
-        <div className="px-5 sm:px-8 xl:px-10 pt-8 sm:pt-10 pb-12">
+      <div className="border-l border-ink/10 bg-parchment flex flex-col">
+        <div className="px-5 sm:px-8 xl:px-10 pt-8 sm:pt-10 pb-10 flex-1">
           <nav className="label flex items-center gap-2.5 text-ink/64 mb-8" aria-label="Breadcrumb">
             <Link href="/tour" className="hover:text-accent transition-colors">Guided tours</Link>
             <span aria-hidden="true">/</span>
@@ -151,46 +169,17 @@ export default function TourPlayer({ tour }: TourPlayerProps) {
           </div>
 
           {/* Current stop */}
-          <article key={step} className="mt-8 animate-[year-in_0.6s_cubic-bezier(.2,.7,.2,1)_both]" aria-live="polite">
+          <article ref={stopRef} key={step} className="mt-8 animate-[year-in_0.6s_cubic-bezier(.2,.7,.2,1)_both]" aria-live="polite">
             <p className="font-mono text-[11px] tracking-wider text-accent tabular-nums">
               Stop {String(step + 1).padStart(2, "0")} · {current.date ?? `${y.n} ${y.e}`}
             </p>
-            <h2 className="mt-2 font-display text-3xl leading-tight tracking-tight text-ink">{current.title}</h2>
-            <p className="mt-4 font-text text-[18px] leading-[1.7] text-ink/85">{current.text}</p>
+            <h2 className="mt-2 font-display text-[26px] sm:text-[30px] leading-tight tracking-tight text-ink text-balance">{current.title}</h2>
+            <p className="mt-4 font-text text-[17px] leading-[1.65] text-ink/85 max-w-[62ch]">{current.text}</p>
             {current.zones?.length && tour.sides ? <ZoneLegend sides={tour.sides} step={current} /> : null}
             {current.routes?.length || current.markers?.some(m => m.kind === "battle") ? (
               <RouteLegend routes={current.routes ?? []} battles={current.markers?.some(m => m.kind === "battle") ?? false} />
             ) : null}
           </article>
-
-          {/* Controls */}
-          <div className="mt-8 flex items-center gap-2">
-            <button
-              onClick={() => goTo(Math.max(0, step - 1))}
-              disabled={step === 0}
-              className="w-11 h-11 grid place-items-center rounded-md border border-ink/15 text-ink/70 hover:text-ink hover:border-ink/40 disabled:opacity-30 disabled:cursor-not-allowed transition-colors"
-              aria-label="Previous stop"
-            >
-              <ArrowLeft size={17} />
-            </button>
-            <button
-              onClick={() => (step >= last && !playing ? (setStep(0), setPlaying(true)) : setPlaying(p => !p))}
-              className="h-11 px-5 inline-flex items-center gap-2 rounded-md bg-ink text-parchment hover:bg-accent text-sm font-semibold transition-colors"
-            >
-              {playing ? <Pause size={14} fill="currentColor" /> : <Play size={14} fill="currentColor" />}
-              {playing ? "Pause" : step >= last ? "Replay" : step === 0 ? "Play tour" : "Resume"}
-            </button>
-            <button
-              onClick={() => goTo(Math.min(last, step + 1))}
-              disabled={step === last}
-              className="w-11 h-11 grid place-items-center rounded-md border border-ink/15 text-ink/70 hover:text-ink hover:border-ink/40 disabled:opacity-30 disabled:cursor-not-allowed transition-colors"
-              aria-label="Next stop"
-            >
-              <ArrowRight size={17} />
-            </button>
-            <ReadAloudButton text={current.text} variant="minimal" className="ml-auto" />
-          </div>
-          <p className="mt-3 text-[11px] text-ink/64 max-lg:hidden">Tip: use the ← → keys.</p>
 
           {step === last && (
             <div className="mt-8">
@@ -222,6 +211,54 @@ export default function TourPlayer({ tour }: TourPlayerProps) {
             })}
           </ol>
         </div>
+
+        {/* Controls: pinned to the bottom of the screen while the narration scrolls. */}
+        <div className="sticky bottom-0 z-20 border-t border-ink/15 bg-parchment/95 backdrop-blur px-4 sm:px-8 xl:px-10 pt-3 pb-[max(0.75rem,env(safe-area-inset-bottom))]">
+          <div className="flex items-center gap-2">
+            <button
+              onClick={() => goTo(Math.max(0, step - 1))}
+              disabled={step === 0}
+              className="w-11 h-11 shrink-0 grid place-items-center rounded-md border border-ink/15 text-ink/70 hover:text-ink hover:border-ink/40 disabled:opacity-30 disabled:cursor-not-allowed transition-colors"
+              aria-label="Previous stop"
+            >
+              <ArrowLeft size={17} />
+            </button>
+            <button
+              onClick={() => (step >= last && !playing ? (setStep(0), setPlaying(true)) : setPlaying(p => !p))}
+              className="w-11 h-11 shrink-0 grid place-items-center rounded-md border border-ink/15 text-ink/70 hover:text-ink hover:border-ink/40 transition-colors"
+              aria-label={playing ? "Pause the tour" : step >= last ? "Replay the tour" : "Play the tour automatically"}
+              title={playing ? "Pause" : step >= last ? "Replay" : "Play automatically"}
+            >
+              {playing ? <Pause size={15} fill="currentColor" /> : <Play size={15} fill="currentColor" />}
+            </button>
+            <div className="min-w-0 flex-1 px-1">
+              <p className="font-mono text-[11px] tracking-wider text-accent tabular-nums">
+                Stop {step + 1} of {tour.steps.length}
+              </p>
+              <p className="truncate text-[13px] text-ink/72">{current.title}</p>
+            </div>
+            <ReadAloudButton text={current.text} variant="minimal" className="shrink-0 max-sm:hidden" />
+            {step < last ? (
+              <button
+                onClick={() => goTo(step + 1)}
+                className="h-11 shrink-0 px-4 sm:px-5 inline-flex items-center gap-2 rounded-md bg-ink text-parchment hover:bg-accent text-sm font-semibold transition-colors"
+                aria-label={`Next stop: ${tour.steps[step + 1].title}`}
+              >
+                Next
+                <ArrowRight size={16} />
+              </button>
+            ) : (
+              <button
+                onClick={() => goTo(0)}
+                className="h-11 shrink-0 px-4 sm:px-5 inline-flex items-center gap-2 rounded-md bg-ink text-parchment hover:bg-accent text-sm font-semibold transition-colors"
+              >
+                <ArrowLeft size={16} />
+                Start again
+              </button>
+            )}
+          </div>
+          <p className="mt-2 text-[11px] text-ink/64 max-lg:hidden">Use the ← → keys to move between stops.</p>
+        </div>
       </div>
     </div>
   );
@@ -231,13 +268,13 @@ export default function TourPlayer({ tour }: TourPlayerProps) {
 function ZoneLegend({ sides, step }: { sides: TourSide[]; step: TourStep }) {
   const present = sides.filter(side => step.zones?.some(z => z.side === side.key));
   return (
-    <div className="mt-6 border-t border-ink/10 pt-4">
+    <div className="mt-5 border-t border-ink/10 pt-3.5">
       <p className="label text-ink/64">Who holds what</p>
-      <ul className="mt-2.5 space-y-2">
+      <ul className="mt-2 space-y-1.5">
         {present.map(side => {
           const occupies = step.zones?.some(z => z.side === side.key && z.occupied);
           return (
-            <li key={side.key} className="flex items-center gap-3 text-[14px] leading-snug text-ink/75">
+            <li key={side.key} className="flex items-center gap-3 text-[13px] leading-snug text-ink/75">
               <span className="flex shrink-0 gap-1" aria-hidden="true">
                 <svg width="15" height="12" viewBox="0 0 15 12">
                   <rect x="0.5" y="0.5" width="14" height="11" fill={side.color} fillOpacity="0.4" stroke={side.color} />
@@ -269,13 +306,13 @@ function ZoneLegend({ sides, step }: { sides: TourSide[]; step: TourStep }) {
 /** What each arrow on the map means, for the current stop. */
 function RouteLegend({ routes, battles }: { routes: TourRoute[]; battles: boolean }) {
   return (
-    <div className="mt-6 border-t border-ink/10 pt-4">
+    <div className="mt-5 border-t border-ink/10 pt-3.5">
       <p className="label text-ink/64">On the map</p>
-      <ul className="mt-2.5 space-y-2">
+      <ul className="mt-2 space-y-1.5">
         {routes.map(route => {
           const style = ROUTE_STYLE[route.kind];
           return (
-            <li key={route.label} className="flex items-center gap-3 text-[14px] leading-snug text-ink/75">
+            <li key={route.label} className="flex items-center gap-3 text-[13px] leading-snug text-ink/75">
               <svg width="34" height="10" viewBox="0 0 34 10" aria-hidden="true" className="shrink-0">
                 <line x1="1" y1="5" x2="25" y2="5" stroke={style.color} strokeWidth="2.6" strokeDasharray={style.dashed ? "5 3.5" : undefined} />
                 <path d="M33 5 L24 0.8 L26.5 5 L24 9.2 Z" fill={style.color} />
@@ -288,7 +325,7 @@ function RouteLegend({ routes, battles }: { routes: TourRoute[]; battles: boolea
           );
         })}
         {battles ? (
-          <li className="flex items-center gap-3 text-[14px] leading-snug text-ink/75">
+          <li className="flex items-center gap-3 text-[13px] leading-snug text-ink/75">
             <svg width="34" height="14" viewBox="0 0 34 14" aria-hidden="true" className="shrink-0">
               <g transform="translate(17 7)" strokeLinecap="round">
                 <line x1="-5" y1="-5" x2="5" y2="5" stroke="#d2462a" strokeWidth="2.2" />
