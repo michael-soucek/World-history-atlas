@@ -27,7 +27,7 @@ Strikes, or hartals, and public meetings spread across the country, and many new
 
 ## Chauri Chaura and suspension
 
-On 4 February 1922, at Chauri Chaura in the Gorakhpur district of the United Provinces, police fired on a large crowd of demonstrators, killing three. The crowd then set fire to the police station, and 22 or 23 policemen died, according to differing accounts. Gandhi concluded that the public was not yet ready for disciplined non-violence. He fasted and, on 12 February 1922, called off the campaign. He was then arrested, and on 18 March 1922 he was sentenced to six years' imprisonment for publishing seditious material.
+On 4 February 1922, at Chauri Chaura in the Gorakhpur district of the United Provinces, police fired on a large crowd of demonstrators, killing three. The crowd then set fire to the police station, and 22 policemen inside died. Gandhi concluded that the public was not yet ready for disciplined non-violence. He fasted and, on 12 February 1922, called off the campaign. He was then arrested, and on 18 March 1922 he was sentenced to six years' imprisonment for publishing seditious material.
 
 Many in the Congress, including Nehru and others then in jail, thought the decision hasty. Motilal Nehru and Chittaranjan Das set up the Swaraj Party, and the Ali brothers also broke away.
 

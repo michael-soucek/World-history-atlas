@@ -16,7 +16,7 @@ France had been an American ally since 1778, and a French army under Rochambeau 
 
 ## Closing the trap
 
-De Grasse arrived at the end of August, and on 5 September his fleet fought a British squadron under Admiral Thomas Graves at the Battle of the Chesapeake. Graves was forced back to New York, leaving Cornwallis cut off by sea. By late September Washington commanded some 19,000 men, roughly half American and half French, against Cornwallis's 8,000 to 9,000, about a third of them German auxiliaries. The allies surrounded Yorktown on 28 September, and Cornwallis, promised relief from New York, pulled back from most of his outer works.
+De Grasse arrived at the end of August, and on 5 September his fleet fought a British squadron under Admiral Thomas Graves at the Battle of the Chesapeake. Graves was forced back to New York, leaving Cornwallis cut off by sea. By late September Washington commanded some 19,000 men, about 7,800 of them French and the rest American, against Cornwallis's 8,000 to 9,000, about a third of them German auxiliaries. The allies surrounded Yorktown on 28 September, and Cornwallis, promised relief from New York, pulled back from most of his outer works.
 
 ## The siege
 

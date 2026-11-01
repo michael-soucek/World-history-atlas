@@ -9,7 +9,7 @@ From 1804 to 1806, a small United States Army party known as the Corps of Discov
 
 ## Jefferson's aims
 
-President [Thomas Jefferson](/person/thomas-jefferson) wanted a practical water route across the continent for commerce, and he wanted to assert American sovereignty over the peoples living along the Missouri before Britain or other powers could stake claims. Science was a secondary goal. Congress quietly provided $2,324, and The party carried silver peace medals bearing Jefferson's portrait, flags and gifts, and was told to inform the nations it met that their lands now came under the authority of the United States.
+President [Thomas Jefferson](/person/thomas-jefferson) wanted a practical water route across the continent for commerce, and he wanted to assert American sovereignty over the peoples living along the Missouri before Britain or other powers could stake claims. Science was a secondary goal. Congress quietly provided $2,324. The party carried silver peace medals bearing Jefferson's portrait, flags and gifts, and was told to inform the nations it met that their lands now came under the authority of the United States.
 
 ## Up the Missouri
 

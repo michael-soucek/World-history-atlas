@@ -18,11 +18,11 @@ The military dictator Ch'oe U then moved the king and court to Ganghwa Island in
 
 ## A long war of resistance
 
-In 1235, after the Mongols had destroyed the Jin, the great khan [Ögedei](/person/ogedei-khan) ordered a new attack. For four years Mongol troops ranged as far south as present-day Seoul. Goryeo no longer risked large field armies. Instead it relied on small mobile units and on fortified refuges, and the Mongols never attempted to take Ganghwa itself. During this invasion the king ordered new printing blocks for the Buddhist scriptures, the Tripitaka Koreana, completed in 1248. A truce followed, in which Goryeo sent a royal relative passed off as the crown prince as a hostage.
+In 1235, after the Mongols had destroyed the Jin, the great khan [Ögedei](/person/ogedei-khan) ordered a new attack. For four years Mongol troops ranged as far south as present-day Seoul. Goryeo no longer risked large field armies. Instead it relied on small mobile units and on fortified refuges, and the Mongols never took Ganghwa itself. During this invasion the king ordered new printing blocks for the Buddhist scriptures, the Tripitaka Koreana, completed in 1248. A truce followed, in which Goryeo sent a royal relative passed off as the crown prince as a hostage.
 
 ## Devastation in the 1250s
 
-Further invasions came in 1247, 1253 and nearly every year afterwards, as the Mongols demanded that the king leave Ganghwa and come to their court. In 1253 Chungju survived a 70-day siege, and in 1254 the Mongols reportedly lost half their force before a mountain fortress at Sangju. Yet the 1254–1255 campaign alone is said to have carried off some 206,800 captives, and famine spread so widely that corpses lined the roads.
+Further invasions came in 1247, 1253 and nearly every year afterwards, as the Mongols demanded that the king leave Ganghwa and come to their court. In 1253 Chungju held out through a 70-day siege, and in 1254 the Mongols reportedly lost half their force before a mountain fortress at Sangju. Yet the 1254–1255 campaign alone is said to have carried off some 206,800 captives, and famine spread so widely that corpses lined the roads.
 
 ## Peace and vassalage
 

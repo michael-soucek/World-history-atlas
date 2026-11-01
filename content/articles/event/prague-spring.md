@@ -4,7 +4,7 @@ sources:
   - Wikidata: Prague Spring (Q162401) | https://www.wikidata.org/wiki/Q162401
 written: 2026-10-30
 ---
-The Prague Spring was a brief experiment in reform communism in Czechoslovakia in 1968. Under the new party leader Alexander Dubček, censorship was lifted and citizens were promised a "socialism with a human face", until troops of the Soviet Union and four of its Warsaw Pact allies invaded on the night of 20–21 August and brought the reforms to an end. Its suppression shaped two decades of Czechoslovak life and became an emblem of the [Cold War](/event/cold-war).
+The Prague Spring was a brief experiment in reform communism in Czechoslovakia in 1968. Under the new party leader Alexander Dubček, censorship was lifted and citizens were promised a "socialism with a human face", until troops of the Soviet Union and its Warsaw Pact allies invaded on the night of 20–21 August and brought the reforms to an end. Its suppression shaped two decades of Czechoslovak life and became an emblem of the [Cold War](/event/cold-war).
 
 ## A slow thaw
 

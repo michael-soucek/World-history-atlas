@@ -22,7 +22,7 @@ Moscow insisted that German troops had killed the prisoners in 1941. After retak
 
 ## The Soviet admission
 
-Archival research and Polish pressure grew in the late 1980s. On 13 April 1990, the anniversary of the German announcement, the government of [Mikhail Gorbachev](/person/mikhail-gorbachev) formally acknowledged that the NKVD had carried out the killings and expressed "profound regret". Boris Yeltsin later passed the key documents to Poland's president, Lech Wałęsa,, including the 1940 execution order bearing Stalin's signature and a 1959 KGB note recording the 21,857 dead and proposing that their files be destroyed.
+Archival research and Polish pressure grew in the late 1980s. On 13 April 1990, the anniversary of the German announcement, the government of [Mikhail Gorbachev](/person/mikhail-gorbachev) formally acknowledged that the NKVD had carried out the killings and expressed "profound regret". Boris Yeltsin later passed the key documents to Poland's president, Lech Wałęsa, including the 1940 execution order bearing Stalin's signature and a 1959 KGB note recording the 21,857 dead and proposing that their files be destroyed.
 
 ## A contested memory
 

@@ -4,7 +4,7 @@ sources:
   - Wikidata: Philippine–American War (Q214456) | https://www.wikidata.org/wiki/Q214456
 written: 2026-10-30
 ---
-The Philippine–American War was fought between the United States and the First Philippine Republic from 1899 to 1902, after Spain ceded the Philippines to the Americans at the end of the Spanish–American War. Filipino forces under Emilio Aguinaldo first fought conventionally and then waged a guerrilla war. The United States declared the conflict over in July 1902, although resistance continued in some regions for years. The war cost the lives of over 4,000 American and around 20,000 Filipino soldiers, and perhaps 200,000 or more Filipino civilians, most from famine and disease.
+The Philippine–American War was fought between the United States and the First Philippine Republic from 1899 to 1902, after Spain ceded the Philippines to the Americans at the end of the Spanish–American War. Filipino forces under Emilio Aguinaldo first fought conventionally and then waged a guerrilla war. The United States declared the conflict over in July 1902, although resistance continued in some regions for years. The war cost the lives of over 4,000 American and over 20,000 Filipino soldiers, and perhaps 200,000 or more Filipino civilians, most from famine and disease.
 
 ## From allies to enemies
 

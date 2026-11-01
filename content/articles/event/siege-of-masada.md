@@ -4,13 +4,13 @@ sources:
   - Wikidata: Siege of Masada (Q3555020) | https://www.wikidata.org/wiki/Q3555020
 written: 2026-10-30
 ---
-Masada, an isolated, flat-topped desert mountain in what is now [Israel](/country/israel), was the last stronghold of the Jewish revolt against Rome. In 72 to 73 AD a Roman army under the governor Lucius Flavius Silva surrounded it, built an enormous ramp up its western side and broke in. According to the historian Josephus, nearly all the defenders, members of the Sicarii faction, and their families had killed themselves before the Romans entered. That account has been debated by modern scholars, while the story itself became a powerful symbol in modern Israel.
+Masada, an isolated, flat-topped desert mountain in what is now [Israel](/country/israel), was the last stronghold of the Jewish revolt against Rome. In 72 to 73 AD, by the traditional dating (some scholars prefer 73 to 74), a Roman army under the governor Lucius Flavius Silva surrounded it, built an enormous ramp up its western side and broke in. According to the historian Josephus, nearly all the defenders, members of the Sicarii faction, and their families had killed themselves before the Romans entered. That account has been debated by modern scholars, while the story itself became a powerful symbol in modern Israel.
 
 ## A desert fortress
 
 The rock rises steeply on all sides and was reached by a single narrow, winding path known as the Snake. Josephus says the Hasmoneans first built a fortress there; between 37 and 31 BC Herod the Great strengthened it as a refuge for himself.
 
-When the First Jewish–Roman War broke out in 66 AD, the Sicarii, a radical group led by Eleazar ben Ya'ir, took Masada from its Roman garrison. More Sicarii and their families arrived in 70 after being driven out of Jerusalem by other Jews, and more refugees followed after the Romans destroyed the city and its Temple in the [Siege of Jerusalem](/event/siege-of-jerusalem-70). From Masada the Sicarii raided the surrounding countryside; Josephus says they killed 700 people at the Jewish settlement of Ein Gedi. Archaeologists have identified a building on the summit adapted as a synagogue, one of the oldest known in the land.
+When the First Jewish–Roman War broke out in 66 AD, the Sicarii, a radical group led by Eleazar ben Ya'ir, took Masada from its Roman garrison. More Sicarii and their families arrived in 70 after being driven out of Jerusalem by other Jews, and more refugees followed after the Romans destroyed the city and its Temple in the [Siege of Jerusalem](/event/siege-of-jerusalem-70). From Masada the Sicarii raided the surrounding countryside; Josephus says they killed 700 people at the Jewish settlement of Ein Gedi. Archaeologists have identified a building on the summit adapted as a synagogue.
 
 ## Our only witness
 

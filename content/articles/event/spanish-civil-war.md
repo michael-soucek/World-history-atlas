@@ -16,7 +16,7 @@ On 17–18 July 1936 army officers led by Generals Emilio Mola, José Sanjurjo a
 
 ## Foreign intervention
 
-Britain and France sponsored a Non-Intervention Agreement, which most European powers signed but Germany and Italy ignored. Fascist Italy sent tens of thousands of troops, and Nazi Germany sent the Condor Legion of aircraft and tanks. The Soviet Union supplied the Republic with weapons, advisers and pilots, and the Communist International organised the International Brigades, in which roughly 32,000 to 35,000 foreign volunteers served, according to most estimates, though some older figures are higher. On 26 April 1937 the Basque town of Guernica was destroyed by German and Italian bombers, an attack commemorated in a painting by [Pablo Picasso](/person/pablo-picasso).
+Britain and France sponsored a Non-Intervention Agreement, which most European powers signed but Germany and Italy ignored. Fascist Italy sent tens of thousands of troops, and Nazi Germany sent the Condor Legion of aircraft and tanks. The Soviet Union supplied the Republic with weapons, advisers and pilots, and the Communist International organised the International Brigades, in which some 32,000 foreign volunteers served, according to recent estimates, though some older figures are higher. On 26 April 1937 the Basque town of Guernica was destroyed by German and Italian bombers, an attack commemorated in a painting by [Pablo Picasso](/person/pablo-picasso).
 
 ## The course of the war
 

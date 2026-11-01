@@ -16,7 +16,7 @@ He tried to recruit [Frederick Douglass](/person/frederick-douglass), but Dougla
 
 Late on the night of Sunday 16 October, Brown led his men across the Potomac bridge into the town. They captured the lightly guarded armoury, cut the telegraph lines, and took hostages, among them Lewis Washington, a great-grandnephew of George Washington. The first person killed was Haywood Shepherd, a free Black railway baggage handler shot on the bridge.
 
-Brown had no way to spread word to the enslaved people of the district, and he lingered too long waiting for them. By Monday morning townspeople and militia companies from Virginia and Maryland were converging on the town, and by noon they held the bridges, the only practical routes of escape. Brown and his remaining men barricaded themselves with their most important hostages in the armoury's fire-engine house, later known as John Brown's Fort. Among the dead that day were two of Brown's sons, Watson and Oliver, as well as four townspeople, including the mayor.
+Brown had no way to spread word to the enslaved people of the district, and he lingered too long waiting for them. By Monday morning townspeople and militia companies from Virginia and Maryland were converging on the town, and by noon they held the bridges, the only practical routes of escape. Brown and his remaining men barricaded themselves with their most important hostages in the armoury's fire-engine house, later known as John Brown's Fort. Two of Brown's sons, Watson and Oliver, were mortally wounded, and four townspeople, including the mayor, were killed.
 
 ## The Marines
 

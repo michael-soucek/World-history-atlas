@@ -26,7 +26,7 @@ In December 1941 Japan attacked the United States at Pearl Harbor and declared w
 
 ## Atrocities and civilian suffering
 
-The war was marked by widespread atrocities against Chinese civilians. Japan carried out the largest biological warfare attacks in history, which are estimated to have killed at least 200,000 people, and also used chemical weapons. Many women, by some estimates more than 200,000, were forced into sexual slavery for the Japanese military as so-called comfort women. Estimates of total Chinese deaths range from about 14 million to 22 million, and Chinese figures for total casualties reach 35 million.
+The war was marked by widespread atrocities against Chinese civilians. Japan carried out the largest biological warfare attacks in history, which are estimated to have killed at least 200,000 people, and also used chemical weapons. Many women, by some estimates more than 200,000, were forced into sexual slavery for the Japanese military as so-called comfort women. Estimates of total Chinese deaths range from about 10 million to 20 million, and Chinese figures for total casualties reach 35 million.
 
 ## Surrender and aftermath
 

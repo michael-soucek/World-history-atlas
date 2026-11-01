@@ -28,7 +28,7 @@ Spain formally handed Louisiana to France at New Orleans on 30 November 1803, an
 
 ## Consequences
 
-The purchase gave the United States control of the Mississippi and opened the way to westward expansion, beginning with the Lewis and Clark expedition. About half of the territory's roughly 60,000 non-Native inhabitants were enslaved, and the question of whether slavery should spread to new states created from the land became a bitter dispute, addressed for a time by the Missouri Compromise of 1820. For Native Americans, the following decades saw many nations removed from their lands east of the Mississippi to the newly acquired West, most notoriously on the [Trail of Tears](/event/trail-of-tears).
+The purchase gave the United States control of the Mississippi and opened the way to westward expansion, beginning with the Lewis and Clark expedition. The territory's settler population included many enslaved people, and the question of whether slavery should spread to new states created from the land became a bitter dispute, addressed for a time by the Missouri Compromise of 1820. For Native Americans, the following decades saw many nations removed from their lands east of the Mississippi to the newly acquired West, most notoriously on the [Trail of Tears](/event/trail-of-tears).
 
 ## On our maps
 

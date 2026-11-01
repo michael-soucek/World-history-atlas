@@ -20,7 +20,7 @@ The first three voyages, between 1405 and 1411, sailed through Champa, Java, Mal
 
 ## The end of the voyages
 
-When the Yongle Emperor died in 1424, his successor, the Hongxi Emperor, ordered the voyages stopped on the day he took the throne, siding with civil officials who opposed them. His son, the Xuande Emperor, ordered one last expedition, which sailed from 1431 to 1433 and reached Hormuz, while smaller squadrons visited Bengal and the Red Sea, where some members travelled to Mecca. Zheng He died around 1433, probably during or soon after the voyage.
+When the Yongle Emperor died in 1424, his successor, the Hongxi Emperor, ordered the voyages stopped on the day he took the throne, siding with civil officials who opposed them. His son, the Xuande Emperor, ordered one last expedition, which sailed from 1431 to 1433 and reached Hormuz, while smaller squadrons visited Bengal and the Red Sea, where some members travelled to Mecca. Zheng He died in 1433 or 1435.
 
 Why the voyages ended is debated. Explanations include their cost, rivalry between court eunuchs and Confucian officials, and the dynasty's need to spend on the northern frontier against the Mongols. Most official records of the expeditions have been lost, and the story that an official deliberately destroyed them is uncertain.
 

@@ -16,7 +16,7 @@ In 1969 Mohamed Siad Barre seized power in Somalia, and the country drew close t
 
 ## The Somali offensive
 
-The Somali National Army invaded in July 1977; Ethiopian records give 12 July, though other sources give 13 or 23 July. With around 31,000 to 39,000 men and far more tanks and artillery than the thinly spread Ethiopian forces, it took perhaps 70 per cent of the Ogaden within a month. An attack on the city of Dire Dawa in August was repulsed, but Jijiga fell on 12 September and the Marda Pass the next day. Ethiopia admitted it held only about a tenth of the region. From late September to December, Somali forces tried and failed to take the city of Harar.
+The Somali National Army invaded in July 1977; Ethiopian records give 12 July, though other sources give 13 or 23 July. With around 31,000 to 39,000 men and far more tanks and artillery than the thinly spread Ethiopian forces, it took perhaps 70 per cent of the Ogaden within a month. An attack on the city of Dire Dawa in August was repulsed, but Jijiga fell on 12 September and the Marda Pass the next day. Ethiopia admitted it held only about a tenth of the region. From late September into January, Somali forces tried and failed to take the city of Harar.
 
 ## The Soviet switch
 

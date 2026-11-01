@@ -16,7 +16,7 @@ When the Assyrian king Sargon II died in 705 BCE, several small states in the Le
 
 ## The city and the siege
 
-Lachish was the second city of Judah, standing on a steep mound about 53 kilometres from Jerusalem and enclosing some eight hectares. Because the northern slope was the steeper, the Assyrians are thought to have attacked from the south. Archers and slingers on both sides traded volleys while Assyrian engineers piled stone and earth into a ramp against the wall. Battering rams were hauled up it, the wall was breached and the city was stormed. Some defenders tried to flee down the far side of the hill.
+Lachish was the second city of Judah, standing on a steep mound about 53 kilometres south-west of Jerusalem. Because the northern slope was the steeper, the Assyrians are thought to have attacked from the south. Archers and slingers on both sides traded volleys while Assyrian engineers piled stone and earth into a ramp against the wall. Battering rams were hauled up it, the wall was breached and the city was stormed. Some defenders tried to flee down the far side of the hill.
 
 ## Captivity and punishment
 

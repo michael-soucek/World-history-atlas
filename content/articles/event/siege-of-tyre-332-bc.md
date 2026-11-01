@@ -15,7 +15,7 @@ Alexander asked to offer sacrifice in the island temple of Melqart, a god the Gr
 
 ## The causeway
 
-Alexander's engineers began building a mole across the shallow channel, which ancient writers describe as about 200 feet wide. Near the island the water deepened and the builders came under fire from the walls and from Tyrian ships. Alexander raised two towers, reportedly about 50 metres high and covered in hides against fire arrows, at the end of the mole. The Tyrians answered by packing an old horse transport with brushwood, pitch and sulphur, setting it alight and running it onto the causeway, burning the towers and much of the siege equipment.
+Alexander's engineers began building a mole across the shallow channel, which the ancient writer Diodorus describes as 200 feet wide. Near the island the water deepened and the builders came under fire from the walls and from Tyrian ships. Alexander raised two towers, reportedly about 50 metres high and covered in hides against fire arrows, at the end of the mole. The Tyrians answered by packing an old horse transport with brushwood, pitch and sulphur, setting it alight and running it onto the causeway, burning the towers and much of the siege equipment.
 
 ## Gaining a fleet
 

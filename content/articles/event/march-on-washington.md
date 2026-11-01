@@ -10,17 +10,17 @@ On 28 August 1963 somewhere between 200,000 and 300,000 people gathered in Washi
 
 A century after the [Emancipation Proclamation](/event/emancipation-proclamation), Black Americans in the South still lived under the segregation and disenfranchisement of the Jim Crow laws. The idea of a mass march on the capital was not new. In 1941 the labour leader A. Philip Randolph, working with Bayard Rustin, threatened one to protest discrimination in wartime defence industries, and called it off when President Franklin D. Roosevelt banned such discrimination by executive order.
 
-Randolph and Rustin began planning a new march in December 1961, at first concentrating on unemployment and the need for public works. The year 1963 brought violent attacks on peaceful demonstrators across the South, the murder of the Mississippi activist Medgar Evers, and, in June, President [John F. Kennedy](/person/john-f-kennedy)'s announcement that he would seek civil rights legislation. The organisers broadened their aims to "jobs and freedom".
+In May 1963 Randolph announced a new march, at first concentrating on jobs and economic inequality. The year 1963 brought violent attacks on peaceful demonstrators across the South, the murder of the Mississippi activist Medgar Evers, and, in June, President [John F. Kennedy](/person/john-f-kennedy)'s announcement that he would seek civil rights legislation. The organisers broadened their aims to "jobs and freedom".
 
 ## The coalition
 
 Six leading figures, known as the Big Six, joined forces: Randolph, King of the Southern Christian Leadership Conference, Roy Wilkins of the NAACP, Whitney Young of the National Urban League, James Farmer of the Congress of Racial Equality and John Lewis of the Student Nonviolent Coordinating Committee. Four white allies from labour and the churches and synagogues, including the autoworkers' leader Walter Reuther, later made it the Big Ten. Wilkins and Young had at first objected to Rustin because he was gay, a former Communist and a draft resister, but he became deputy organiser and ran the logistics.
 
-The demands included meaningful civil rights legislation, an end to school segregation, a federal jobs programme, a ban on discrimination in hiring and a national minimum wage of $2 an hour. Kennedy at first warned against the march but later endorsed it. The FBI and some politicians portrayed it as Communist-inspired, [Malcolm X](/person/malcolm-x) dismissed it as a "farce on Washington", and organisers received bomb threats.
+The demands included meaningful civil rights legislation, an end to school segregation, a federal jobs programme, a ban on discrimination in hiring and a higher national minimum wage. Kennedy at first warned against the march but later endorsed it. The FBI and some politicians portrayed it as Communist-inspired, [Malcolm X](/person/malcolm-x) derided it as "a picnic" and "a circus", and organisers received bomb threats.
 
 ## The day
 
-More than 2,000 buses, 21 special trains and 10 chartered airliners brought marchers to the city, where some 5,900 police officers and thousands of troops stood by. The crowd moved off from the Washington Monument towards the Lincoln Memorial before its leaders, who were meeting members of Congress, had arrived; they joined it on Constitution Avenue and linked arms at its head. The day passed peacefully.
+Marchers arrived by road, rail and air, with 450 buses leaving New York alone, where some 5,900 police officers and thousands of troops stood by. The crowd moved off from the Washington Monument towards the Lincoln Memorial before its leaders, who were meeting members of Congress, had arrived; they joined it on Constitution Avenue and linked arms at its head. The day passed peacefully.
 
 ## The speeches
 

@@ -26,7 +26,7 @@ In late summer the Romans fought their way into the Temple courts, and the Templ
 
 ## Casualties
 
-Josephus gives a figure of 1.1 million deaths during the siege and 97,000 people enslaved. Most modern historians consider the death toll greatly exaggerated, but agree that the loss of life, from fighting, starvation and executions, was enormous. Simon bar Giora was taken to Rome and executed during the triumph; John of Gischala was imprisoned for life.
+Josephus gives a figure of 1.1 million deaths during the siege and 97,000 captives taken over the whole war. Most modern historians consider the death toll greatly exaggerated, but agree that the loss of life, from fighting, starvation and executions, was enormous. Simon bar Giora was taken to Rome and executed during the triumph; John of Gischala was imprisoned for life.
 
 ## Aftermath
 

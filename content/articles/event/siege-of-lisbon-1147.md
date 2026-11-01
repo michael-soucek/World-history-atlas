@@ -10,7 +10,7 @@ Over the summer and autumn of 1147, King Afonso I of Portugal, helped by a fleet
 
 The fall of the crusader county of Edessa in 1144 prompted Pope Eugene III to proclaim a new crusade over 1145 and 1146, and by spring 1147 he had also approved crusading against the Moors in the Iberian Peninsula, part of the long Christian advance traditionally dated back to the [Battle of Covadonga](/event/battle-of-covadonga) in 722.
 
-On 19 May 1147 a fleet left Dartmouth in the [Kingdom of England](/place/kingdom-of-england), carrying crusaders from England, Scotland, Flanders, Frisia, France and parts of Germany. No king or great prince led them; they were mostly townsmen bound by a sworn association, with captains such as Hervey de Glanvill, constable of Suffolk, taking decisions jointly. The chronicler Odo of Deuil counted 164 ships, and there may have been around 200 by the time they reached Iberia. Bad weather drove them into Porto on 16 June, where the local bishop urged them to meet Afonso Henriques, who had proclaimed himself king in 1139 and had captured Santarém that March.
+In May 1147 a fleet left Dartmouth in the [Kingdom of England](/place/kingdom-of-england), carrying crusaders from England, Scotland, Flanders, Frisia, France and parts of Germany. No king or great prince led them; they were mostly townsmen bound by a sworn association, with captains such as Hervey de Glanvill, constable of Suffolk, taking decisions jointly. The chronicler Odo of Deuil counted 164 ships, and there may have been around 200 by the time they reached Iberia. Bad weather drove them into Porto on 16 June, where the local bishop urged them to meet Afonso Henriques, who had proclaimed himself king in 1139 and had captured Santarém that March.
 
 ## The bargain
 

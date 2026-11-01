@@ -4,7 +4,7 @@ sources:
   - Wikidata: Normandy landings (Q16470) | https://www.wikidata.org/wiki/Q16470
 written: 2026-10-30
 ---
-The Normandy landings, on 6 June 1944, were the Allied seaborne and airborne invasion of German-occupied France, often known simply as D-Day. More than 150,000 American, British, Canadian and other Allied troops came ashore or landed by air on the first day, opening a second front in western Europe during [World War II](/event/world-war-ii). The operation began the liberation of France and western Europe and was the largest seaborne invasion in history.
+The Normandy landings, on 6 June 1944, were the Allied seaborne and airborne invasion of German-occupied France, often known simply as D-Day. Nearly 160,000 American, British, Canadian and other Allied troops came ashore or landed by air on the first day, opening a second front in western Europe during [World War II](/event/world-war-ii). The operation began the liberation of France and western Europe and was the largest seaborne invasion in history.
 
 ## Planning Overlord
 
@@ -24,7 +24,7 @@ Utah was taken with relatively light losses, but at Omaha strong defences on the
 
 ## The Normandy campaign
 
-The bridgehead was expanded over the following weeks amid fierce fighting in the hedgerow country, the bocage. Caen fell only in July. At the end of July American forces broke out to the south and west, and much of the German army in Normandy was trapped and destroyed in the Falaise pocket in August. Paris was liberated on 25 August 1944, with Free French troops leading the way, and [Charles de Gaulle](/person/charles-de-gaulle) entered the city the next day.
+The bridgehead was expanded over the following weeks amid fierce fighting in the hedgerow country, the bocage. Caen fell only in July. At the end of July American forces broke out to the south and west, and much of the German army in Normandy was trapped and destroyed in the Falaise pocket in August. Paris was liberated on 25 August 1944, with Free French troops leading the way, and [Charles de Gaulle](/person/charles-de-gaulle) arrived the same day, leading a victory parade on the 26th.
 
 ## Significance
 

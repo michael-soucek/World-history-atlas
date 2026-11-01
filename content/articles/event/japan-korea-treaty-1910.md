@@ -28,7 +28,7 @@ Of the treaty's eight articles, the first declared that the Korean emperor ceded
 
 ## Disputed legality
 
-Koreans came to call the agreement a "forced treaty". The exiled Korean Provisional Government and later South Korea held that it had been void from the start, while Japan rejected that view. When the two countries finally established relations in 1965, they settled on a compromise wording: all treaties concluded between the two empires on or before 22 August 1910 were declared "already null and void", leaving open from when. The question remains alive. At an international conference at Harvard in 2001, Western specialists in international law reportedly declined to endorse the claim of illegality, while in 2010, the centenary, groups of Korean and Japanese intellectuals issued joint declarations that the treaty had never been valid.
+Koreans came to call the agreement a "forced treaty". The exiled Korean Provisional Government and later South Korea held that it had been void from the start, while Japan rejected that view. When the two countries finally established relations in 1965, they settled on a compromise wording: all treaties concluded between the two empires on or before 22 August 1910 were declared "already null and void", leaving open from when. The question remains alive. Academic conferences at Harvard in 2001 re-examined its legality, and in 2010, the centenary, groups of Korean and Japanese intellectuals issued joint declarations that the treaty had never been valid.
 
 ## On our maps
 

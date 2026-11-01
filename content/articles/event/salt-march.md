@@ -8,7 +8,7 @@ In the spring of 1930 [Mahatma Gandhi](/person/mahatma-gandhi) walked for 24 day
 
 ## Why salt
 
-On 26 January 1930 the Indian National Congress, led by Gandhi and [Jawaharlal Nehru](/person/jawaharlal-nehru), proclaimed Purna Swaraj, the goal of complete self-rule, and asked Gandhi to lead the first act of civil disobedience. His choice of target, the Salt Act of 1882, puzzled many colleagues and amused the viceroy, Lord Irwin. The law gave the government a monopoly over making and selling salt and imposed a tax on it, so that even people living by the sea had to buy it from official depots. Gandhi reasoned that salt was a necessity for everyone, that the tax fell hardest on the poor, and that the grievance united Hindus and Muslims alike. The salt tax made up about 8.2 per cent of the tax revenue of the [British Raj](/place/british-raj).
+On 26 January 1930 the Indian National Congress, led by Gandhi and [Jawaharlal Nehru](/person/jawaharlal-nehru), proclaimed Purna Swaraj, the goal of complete self-rule, and asked Gandhi to lead the first act of civil disobedience. His choice of target, the Salt Act of 1882, puzzled many colleagues, and the viceroy, Lord Irwin, did not take it seriously. The law gave the government a monopoly over making and selling salt and imposed a tax on it, so that even people living by the sea had to buy it from official depots. Gandhi reasoned that salt was a necessity for everyone, that the tax fell hardest on the poor, and that the grievance united Hindus and Muslims alike. The salt tax made up about 8.2 per cent of the tax revenue of the [British Raj](/place/british-raj).
 
 ## Preparations
 
@@ -28,7 +28,7 @@ The planned raid on the Dharasana Salt Works went ahead without him, led first b
 
 ## Results
 
-The campaign continued until early 1931, when Gandhi was released to negotiate with Irwin. The resulting Gandhi–Irwin Pact led to his attendance at the Second Round Table Conference at the end of that year. The march brought no immediate constitutional gains, and Congress formally ended the satyagraha in 1934. Yet it shifted opinion in India, Britain and beyond towards the legitimacy of Indian self-rule, and Nehru regarded it as transforming the confidence of ordinary villagers. Decades later [Martin Luther King Jr.](/person/martin-luther-king-jr) cited the march as a major influence on the American civil rights movement.
+The campaign continued until early 1931, when Gandhi was released to negotiate with Irwin. The resulting Gandhi–Irwin Pact led to his attendance at the Second Round Table Conference at the end of that year. The march brought no immediate constitutional gains, and Congress formally ended the satyagraha in 1934. Yet it shifted opinion in India, Britain and beyond towards the legitimacy of Indian self-rule, and Nehru likened the popular response to a spring suddenly released. Decades later [Martin Luther King Jr.](/person/martin-luther-king-jr) cited the march as a major influence on the American civil rights movement.
 
 ## On our maps
 

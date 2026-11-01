@@ -8,7 +8,7 @@ The Mongol invasions of Japan were two seaborne attacks launched by Kublai Khan,
 
 ## Demands for submission
 
-[Kublai Khan](/person/kublai-khan) became khagan in 1260 and, after decades of Mongol campaigns in Korea, had made [Goryeo](/place/goryeo) a vassal. Japan was governed in practice by the Hōjō family, who ruled as regents for the shoguns of the [Kamakura shogunate](/place/kamakura-shogunate); their leader at the time was Hōjō Tokimune. Between 1266 and 1273 Mongol and Korean envoys travelled to Japan six times with letters demanding submission. The imperial court in Kyoto was inclined to reply, but the shogunate overruled it, and the envoys went home without an answer. Expecting attack, the authorities began strengthening the defences of Kyushu.
+[Kublai Khan](/person/kublai-khan) became khagan in 1260 and, after decades of Mongol campaigns in Korea, had made [Goryeo](/place/goryeo) a vassal. Japan was governed in practice by the Hōjō family, who ruled as regents for the shoguns of the [Kamakura shogunate](/place/kamakura-shogunate); their leader at the time was Hōjō Tokimune. Between 1266 and 1273 Mongol and Korean envoys travelled to Japan six times with letters demanding submission. The Japanese ignored the demands, and the envoys went home without an answer. Expecting attack, the authorities began strengthening the defences of Kyushu.
 
 ## The first invasion, 1274
 

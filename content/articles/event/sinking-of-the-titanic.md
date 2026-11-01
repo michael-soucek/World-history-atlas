@@ -24,7 +24,7 @@ As water spread from one compartment to the next, the bow sank lower. Shortly be
 
 ## The dead
 
-Estimates of the death toll vary between about 1,490 and 1,520, depending on the source; modern researchers put it at 1,496. Class made a great difference. Fewer than one in ten first- and second-class women died, but more than half of third-class women did, and most third-class children were lost, while almost all first- and second-class children survived.
+Estimates of the death toll vary between about 1,490 and 1,520, depending on the source; modern researchers put it at 1,496. Class made a great difference. Only 3 per cent of first-class and 13 per cent of second-class women died, but nearly half of third-class women did, and most third-class children were lost, while almost all first- and second-class children survived.
 
 ## Inquiries and reforms
 

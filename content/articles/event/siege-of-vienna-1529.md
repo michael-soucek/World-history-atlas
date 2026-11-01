@@ -13,7 +13,7 @@ The siege grew out of the [Battle of Mohács](/event/battle-of-mohacs) in 1526, 
 
 ## The march north
 
-Suleiman set out from Constantinople on 10 May 1529. Contemporary writers gave huge figures for his army, but modern estimates of the fighting force that reached Vienna range from about 75,000 to 100,000 men. The spring was unusually wet. Floods and mud slowed the march through the Balkans, and much of the heavy siege artillery had to be left behind, while many camels died and sickness spread among the troops. Zápolya joined the sultan at Mohács in August, and Buda was retaken in early September.
+Suleiman mustered his army in the spring of 1529. Contemporary writers gave huge figures for his army, but modern estimates of the fighting force that reached Vienna range from about 75,000 to 100,000 men. The spring was unusually wet. Floods and mud slowed the march through the Balkans, and much of the heavy siege artillery had to be left behind, while many camels died and sickness spread among the troops. Zápolya joined the sultan at Mohács in August, and Buda was retaken in early September.
 
 ## The defence
 

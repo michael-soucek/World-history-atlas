@@ -22,7 +22,7 @@ A group of Westerners who had stayed in Nanjing, among them the German businessm
 
 ## How many died?
 
-The death toll is disputed. The International Military Tribunal for the Far East put the toll at more than 200,000, while many recent estimates fall between 100,000 and 200,000. The historian Bob Wakabayashi, for example, estimates fewer than 50,000 deaths within the city walls but well over 100,000 in Nanjing and its six surrounding rural counties over three months. The Chinese government and the national memorial use the figure of 300,000, which some historians regard as symbolic or applicable to the wider Shanghai to Nanjing region. The lowest estimates, about 40,000, cover the city alone. Estimates of the number of rapes range from about 4,000 to over 80,000, with around 20,000 most commonly cited.
+The death toll is disputed. The International Military Tribunal for the Far East put the toll at more than 200,000, while many recent estimates fall between 100,000 and 200,000. The historian Bob Wakabayashi, for example, counting victims in the city and its six surrounding rural counties up to March 1938, puts the toll at well over 100,000 but short of 200,000. The Chinese government and the national memorial use the figure of 300,000, which some historians, such as Ikuhiko Hata, regard as a symbolic figure; the highest estimates, over 340,000, cover the wider Shanghai to Nanjing region. The lowest estimates, about 40,000, cover the city alone. Estimates of the number of rapes range from about 4,000 to over 80,000, with around 20,000 most commonly cited.
 
 ## Trials and responsibility
 

@@ -4,7 +4,7 @@ sources:
   - Wikidata: 1755 Lisbon earthquake (Q191055) | https://www.wikidata.org/wiki/Q191055
 written: 2026-10-30
 ---
-On the morning of 1 November 1755, All Saints' Day, a massive earthquake beneath the Atlantic off south-west Iberia, followed by a tsunami and days of fire, all but destroyed Lisbon, the capital of [Portugal](/country/portugal). Perhaps 30,000 to 40,000 people died in the city, with thousands more in Morocco and elsewhere. The disaster shook the confidence of Enlightenment Europe, prompted one of the first planned modern city centres, and is often seen as the starting point of scientific seismology.
+On the morning of 1 November 1755, All Saints' Day, a massive earthquake beneath the Atlantic off south-west Iberia, followed by a tsunami and fire, all but destroyed Lisbon, the capital of [Portugal](/country/portugal). Perhaps 30,000 to 40,000 people died in the city, with thousands more in Morocco and elsewhere. The disaster shook the confidence of Enlightenment Europe, prompted one of the first planned modern city centres, and is often seen as the starting point of scientific seismology.
 
 ## The shock, the wave and the fire
 
@@ -12,7 +12,7 @@ The earthquake struck at around twenty to ten in the morning, while many residen
 
 ## Beyond Lisbon
 
-The Algarve coast in southern Portugal suffered severe damage, as did Madeira, the Azores, Cádiz and Portuguese-held and former Portuguese towns in North Africa. Tremors were reported as far away as Finland. The tsunami crossed the Atlantic to the Caribbean, struck Cornwall and the west coast of Ireland, and, according to letters rediscovered in 2015, reached Brazil.
+The Algarve coast in southern Portugal suffered severe damage, as did Madeira, the Azores, Cádiz and Portuguese-held and former Portuguese towns in North Africa. Tremors were reportedly felt as far away as Finland. The tsunami crossed the Atlantic to the Caribbean, struck Cornwall and the west coast of Ireland, and, according to letters rediscovered in 2015, reached Brazil.
 
 ## Counting the cost
 

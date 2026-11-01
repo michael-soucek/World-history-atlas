@@ -20,7 +20,7 @@ Crowds had already seized tens of thousands of muskets from the Hôtel des Inval
 
 ## Surrender and killings
 
-Around five in the afternoon de Launay, short of food and without water, ordered a ceasefire and opened the gates. Roughly a hundred attackers had been killed or fatally wounded, against a single defender, a difference explained by the protection of the walls. After the surrender the crowd turned on the garrison. De Launay was dragged towards the Hôtel de Ville, stabbed to death and beheaded, and several other defenders were killed. The city's chief magistrate, Jacques de Flesselles, accused of treachery, was also murdered.
+At about half past five in the afternoon de Launay, short of food and without water, ordered a ceasefire and opened the gates. Roughly a hundred attackers had been killed or fatally wounded, against a single defender, a difference explained by the protection of the walls. After the surrender the crowd turned on the garrison. De Launay was dragged towards the Hôtel de Ville, stabbed to death and beheaded, and several other defenders were killed. The city's chief magistrate, Jacques de Flesselles, accused of treachery, was also murdered.
 
 ## A revolution, not a revolt
 

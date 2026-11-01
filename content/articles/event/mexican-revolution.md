@@ -28,7 +28,7 @@ Carranza's government called a constitutional congress, which produced the Const
 
 ## Legacy
 
-Estimates of the dead vary widely, from about one million to more than two million, most of them civilians who died from violence, hunger and disease. Hundreds of thousands of people fled to the United States. The revolution gave rise to a political system that, under the party later called the PRI, governed Mexico for most of the twentieth century, and to large-scale land reform, especially in the 1930s. It also inspired an artistic movement, including the murals of Diego Rivera.
+Estimates of the dead vary widely, from about one million to more than two million, most of them civilians who died from violence, hunger and disease. Nearly 200,000 refugees fled abroad, mostly to the United States. The revolution gave rise to a political system that, under the party later called the PRI, governed Mexico for most of the twentieth century, and to large-scale land reform, especially in the 1930s. It also inspired an artistic movement, including the murals of Diego Rivera.
 
 ## On our maps
 

@@ -16,11 +16,11 @@ In March 1995 the Bosnian Serb leader Radovan Karadžić issued a directive on t
 
 ## Separation and deportation
 
-On 12 and 13 July Serb forces separated men and boys from the women, children and elderly at Potočari. The women and children were bussed to Bosnian government lines; the roughly 1,000 men were held back. On 13 July the Dutch peacekeepers handed over some 5,000 Bosniaks sheltering at their base, in exchange for the release of 14 of their own soldiers held by the Bosnian Serbs. Witnesses described killings, beatings and rapes in and around Potočari.
+On 12 and 13 July Serb forces separated men and boys from the women, children and elderly at Potočari. The women and children were bussed to Bosnian government lines; the men were held back. On 13 July the Dutch peacekeepers handed over some 5,000 Bosniaks sheltering at their base, in exchange for the release of 14 of their own soldiers held by the Bosnian Serbs. Witnesses described killings, beatings and rapes in and around Potočari.
 
 ## The column and the executions
 
-On the night of 11 July around 12,000 to 13,000 men, about half of them soldiers of the Bosnian army's 28th Division set off through the forests towards government territory near Tuzla. Shelled and ambushed, the column broke apart, and thousands were captured or induced to surrender, many on 13 July along the Bratunac–Konjević Polje road. Only about a third crossed that road, and survivors broke through to Bosnian lines at Baljkovica on 16 July. Almost all prisoners were killed. From 13 July they were taken to schools, warehouses and fields at sites such as Kravica, Orahovac, Petkovci, Branjevo and Kozluk, often blindfolded and bound, and shot in organised mass executions. Between August and October 1995 many bodies were dug up and moved to secondary graves, which the ICTY found was an attempt to conceal the crime.
+On the night of 11 July around 12,000 to 13,000 men, about half of them soldiers of the Bosnian army's 28th Division, set off through the forests towards government territory near Tuzla. Shelled and ambushed, the column broke apart, and thousands were captured or induced to surrender, many on 13 July along the Bratunac–Konjević Polje road. Only about a third crossed that road, and survivors broke through to Bosnian lines at Baljkovica on 16 July. Almost all prisoners were killed. From 13 July they were taken to schools, warehouses and fields at sites such as Kravica, Orahovac, Petkovci, Branjevo and Kozluk, often blindfolded and bound, and shot in organised mass executions. Between August and October 1995 many bodies were dug up and moved to secondary graves, which the ICTY found was an attempt to conceal the crime.
 
 ## Justice
 
@@ -28,7 +28,7 @@ A list of the missing and dead contains 8,372 names, and by 2020 nearly 7,000 vi
 
 ## Responsibility and memory
 
-The Dutch government resigned in 2002, citing its failure to prevent the massacre, and Dutch courts later held the state liable for more than 300 deaths. In 2004 Republika Srpska acknowledged that its forces had carried out a planned mass killing. Serbia's president Tomislav Nikolić apologised in 2013 for "the crime" of Srebrenica but did not call it genocide, Deniers continue to dispute the genocide finding, the death toll and even the killings themselves. In 2024 the UN made 11 July an annual day of commemoration. The Srebrenica Genocide Memorial at Potočari was opened in 2003.
+The Dutch government resigned in 2002, citing its failure to prevent the massacre, and Dutch courts later held the state liable for more than 300 deaths. In 2004 Republika Srpska acknowledged that its forces had carried out a planned mass killing. Serbia's president Tomislav Nikolić apologised in 2013 for "the crime" of Srebrenica but did not call it genocide. Deniers continue to dispute the genocide finding, the death toll and even the killings themselves. In 2024 the UN made 11 July an annual day of commemoration. The Srebrenica Genocide Memorial at Potočari was opened in 2003.
 
 ## On our maps
 

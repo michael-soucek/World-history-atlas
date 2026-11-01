@@ -28,7 +28,7 @@ On 5 September 1774 Pugachev failed to take Tsaritsyn and was defeated nearby, w
 
 ## Consequences
 
-Catherine responded by further curbing Cossack privileges, stationing more garrisons and reorganising provincial government into smaller units. Far from loosening serfdom, the state extended it. The rising lived on in folk memory and in literature, above all in Alexander Pushkin's novel "The Captain's Daughter" of 1836.
+Catherine responded by further curbing Cossack privileges, stationing more garrisons and reorganising provincial government into smaller units. The rising lived on in folk memory and in literature, above all in Alexander Pushkin's novel "The Captain's Daughter" of 1836.
 
 ## On our maps
 

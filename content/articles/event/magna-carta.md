@@ -12,7 +12,7 @@ John succeeded his brother [Richard I](/person/richard-i-of-england) in 1199. By
 
 ## Rebellion and Runnymede
 
-A group of barons, mainly from the north and east of England, renounced their allegiance in May 1215 and captured London. The archbishop of Canterbury, Stephen Langton, helped mediate. At Runnymede, the king and the rebels agreed a document on about 15 June 1215, and the barons renewed their oaths of loyalty a few days later. Copies were sealed and sent across the kingdom.
+A group of rebel barons gathered at Northampton, renounced their allegiance in May 1215 and captured London. The archbishop of Canterbury, Stephen Langton, helped mediate. At Runnymede, the king and the rebels agreed a document on about 15 June 1215, and the barons renewed their oaths of loyalty a few days later. Copies were sealed and sent across the kingdom.
 
 ## What the charter said
 

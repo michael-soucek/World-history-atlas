@@ -20,7 +20,7 @@ On 20 October 1962 China launched simultaneous attacks in both sectors. In the e
 
 ## Second offensive and ceasefire
 
-After a pause of about three weeks, China attacked again on 14 November, capturing Se La and Bomdila in the east, while the western battles at Rezang La and Gurung Hill were costly for both sides. Nehru appealed to the United States for fighter squadrons, but Washington was absorbed by the [Cuban Missile Crisis](/event/cuban-missile-crisis). On 19 November Premier Zhou Enlai announced that Chinese forces would cease fire from 21 November and, from 1 December, pull back 20 kilometres behind the line of control as it stood in 1959. Indian figures record 1,383 killed, 1,696 missing and 3,968 captured; Chinese figures give 722 Chinese dead.
+After a pause of about three weeks, China attacked again on 14 November, capturing Se La and Bomdila in the east, while the western battles at Rezang La and Gurung Hill were costly for both sides. Nehru appealed to the United States for fighter squadrons, but the war ended before any American intervention; the fighting had coincided with the [Cuban Missile Crisis](/event/cuban-missile-crisis). On 19 November Premier Zhou Enlai announced that Chinese forces would cease fire from 21 November and, from 1 December, pull back 20 kilometres behind the line of control as it stood in 1959. Indian figures record 1,383 killed, 1,696 missing and 3,968 captured; Chinese figures give 722 Chinese dead.
 
 ## Aftermath
 

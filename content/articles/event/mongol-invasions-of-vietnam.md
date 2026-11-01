@@ -8,7 +8,7 @@ The Mongol invasions of Vietnam were a series of campaigns by the [Mongol Empire
 
 ## The first invasion
 
-In the 1250s the Mongols were seeking a way to attack the [Song dynasty](/place/song-dynasty) of southern China from the south-west. After conquering the kingdom of Dali in Yunnan, the general Uriyangkhadai sent envoys to the Đại Việt ruler Trần Thái Tông demanding submission and passage for his army. The envoys were imprisoned. Early in 1258 Uriyangkhadai invaded with a force that modern estimates put at a few thousand Mongols plus several thousand or more troops from Yunnan. The Vietnamese, fighting with war elephants, were defeated, and the Mongols took the capital, Thăng Long, modern Hanoi, and massacred its inhabitants. After only a few days they moved on north to attack the Song. Trần Thái Tông then opened tributary relations with the Mongols, while keeping his ties with the Song.
+In the 1250s the Mongols were seeking a way to attack the [Song dynasty](/place/song-dynasty) of southern China from the south-west. After conquering the kingdom of Dali in Yunnan, the general Uriyangkhadai sent envoys to the Đại Việt ruler Trần Thái Tông demanding submission and passage for his army. The envoys were imprisoned. Early in 1258 Uriyangkhadai invaded with a force that modern estimates put at a few thousand Mongols plus several thousand or more troops from Yunnan. The Vietnamese, fighting with war elephants, were defeated, and the Mongols took the capital, Thăng Long, modern Hanoi, and massacred its inhabitants. After nine days they moved on north to attack the Song. Trần Thái Tông then opened tributary relations with the Mongols, while keeping his ties with the Song.
 
 ## Champa and the second invasion
 

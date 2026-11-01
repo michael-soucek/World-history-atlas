@@ -23,7 +23,7 @@ Before engaging the sultan, Timur is reported to have had some 100,000 captives 
 
 ## The sack
 
-Timur's forces entered the city, and over the following days it was looted. When inhabitants resisted the occupiers, the response was a general massacre; chroniclers describe towers of heads and corpses left unburied in the streets. Accounts of the duration vary, from three or four days to more than a week, and estimates of the dead in Delhi range from about 100,000 to 200,000. Large numbers of men, women and children were enslaved, skilled craftsmen in particular, and carried back with the loot to Timur's capital, Samarkand.
+Timur's forces entered the city, and over the following days it was looted. When inhabitants resisted the occupiers, the response was a general massacre; chroniclers describe towers of heads and corpses left unburied in the streets. Accounts of the duration vary, from three or four days to more than a week, and the dead in Delhi are commonly put at around 100,000. Large numbers of men, women and children were enslaved, skilled craftsmen in particular, and carried back with the loot to Timur's capital, Samarkand.
 
 ## Aftermath
 

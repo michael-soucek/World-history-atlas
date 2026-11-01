@@ -26,7 +26,7 @@ Scholars debate how sudden and complete this change was. Ashoka did not disband 
 
 ## Legacy
 
-The Kalinga War marked the end of the major expansion of the Maurya Empire. After Ashoka's death around 232 BCE the empire weakened and broke up within about half a century. Kalinga regained its independence and, in the first century BCE, became a significant power again under King Kharavela. In modern India, Ashoka's lion capital from Sarnath is the national emblem, and the wheel of dhamma appears on the national flag.
+The Kalinga War marked the end of the major expansion of the Maurya Empire. After Ashoka's death around 232 BCE the empire weakened and broke up within about half a century. Kalinga regained its independence and, in the second or first century BCE, became a significant power again under King Kharavela. In modern India, Ashoka's lion capital from Sarnath is the national emblem, and the wheel of dhamma appears on the national flag.
 
 ## On our maps
 

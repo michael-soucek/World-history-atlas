@@ -22,7 +22,7 @@ The first session showed a clear divide. A majority wanted the prepared drafts h
 
 The first text completed, the Constitution on the Sacred Liturgy of December 1963, called for fuller participation by lay people, more Scripture at Mass and a wider use of the vernacular, while keeping Latin. Lumen gentium (1964) described the Church as the People of God and taught that bishops together with the pope share responsibility for the whole Church. Gaudium et spes, addressed to all humanity, covered topics from family life to war.
 
-The declarations proved the most contested. Nostra aetate rejected the charge that the Jewish people as a whole were responsible for Christ's death and condemned antisemitism. Dignitatis humanae based a right to religious liberty on the dignity of the person and drew the largest vote against any approved text; the final tally before promulgation was 2,308 to 70.
+The declarations proved the most contested. Nostra aetate rejected the charge that the Jewish people as a whole were responsible for Christ's death and condemned antisemitism. Dignitatis humanae based a right to religious liberty on the dignity of the person and, on most tallies, drew the largest vote against any approved text; the final tally before promulgation was 2,308 to 70.
 
 ## Changes in the parishes
 

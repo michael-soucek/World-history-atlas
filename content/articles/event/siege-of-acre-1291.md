@@ -12,7 +12,7 @@ In the spring of 1291 the Mamluk sultan of Egypt, al-Ashraf Khalil, besieged and
 
 ## The pretext
 
-After the loss of Tripoli, King Henry II of Jerusalem and Cyprus sent envoys to warn the rulers of Europe. The main response was a band of poorly disciplined and irregularly paid Italian volunteers who arrived in Acre by sea. In August 1290, according to the historian Steven Runciman, they attacked and killed Muslim merchants near the city. Qalawun demanded that the culprits be handed over; the city's council refused. The sultan broke the truce he had agreed in 1284 and began to mobilise, but he died in December 1290 and his son al-Ashraf Khalil took up the campaign.
+After the loss of Tripoli, King Henry II of Jerusalem and Cyprus sent envoys to warn the rulers of Europe. The main response was a band of poorly disciplined and irregularly paid Italian volunteers who arrived in Acre by sea. In August 1290, according to the historian Steven Runciman, they attacked and killed Muslim merchants near the city. Qalawun demanded that the culprits be handed over; the city's council refused. The sultan broke the truce he had agreed in 1284 and began to mobilise, but he died in November 1290 and his son al-Ashraf Khalil took up the campaign.
 
 ## The siege
 

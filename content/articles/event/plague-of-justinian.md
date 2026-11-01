@@ -8,11 +8,11 @@ The Plague of Justinian was an outbreak of bubonic plague that reached the Medit
 
 ## Arrival
 
-The disease was first recorded in 541 at Pelusium, a port on the eastern edge of the Nile delta in [Egypt](/country/egypt). Its earlier origins are uncertain; Central Asia and East Africa have both been proposed. From Egypt it travelled along the grain and trade routes of the Mediterranean, carried by rats and their fleas on ships, and reached Constantinople in the spring of 542.
+The disease was first recorded in 541 at Pelusium, a port on the eastern edge of the Nile delta in [Egypt](/country/egypt). Its earlier origins are uncertain; Central Asia and East Africa have both been proposed. From Egypt it travelled along the grain and trade routes of the Mediterranean, carried by rats and their fleas on ships, and reached Constantinople in 542.
 
 ## Constantinople in 542
 
-The historian Procopius, who was in the capital, described the epidemic in detail: fever followed by swellings in the groin and armpits, delirium, and death within days for many of the sick. At its peak, he wrote, the city lost thousands of people a day, at one point perhaps as many as 10,000, though such figures cannot be checked. Bodies piled up faster than they could be buried, and officials had mass graves dug and filled the towers of the city walls with corpses. Estimates of the death toll in Constantinople vary, but a loss of around a fifth of its population or more is often suggested. Justinian himself fell ill in 542 and recovered.
+The historian Procopius, who was in the capital, described the epidemic in detail: fever followed by swellings in the groin and armpits, delirium, and death within days for many of the sick. At its peak, he wrote, the city lost thousands of people a day, at one point perhaps as many as 10,000, though such figures cannot be checked. Bodies piled up faster than they could be buried and were left stacked in the open. Estimates of the death toll in Constantinople vary, but a loss of around a fifth of its population or more is often suggested. Justinian himself fell ill in 542 and recovered.
 
 ## Spread and return
 
@@ -24,7 +24,7 @@ For a long time the identification relied on written descriptions. Since the ear
 
 ## How great was the impact
 
-Older accounts treated the plague as a demographic catastrophe that killed perhaps a quarter to a half of the Mediterranean population, weakened Byzantium and Persia, undermined Justinian's attempt to reconquer the western provinces and eased the way for the [early Muslim conquests](/event/early-muslim-conquests) of the seventh century. Some recent scholars, notably Lee Mordechai and Merle Eisenberg, have argued that the evidence for such mass mortality is thin and that the effects were more limited and uneven. Others defend a higher estimate. The scale remains genuinely uncertain, and estimates of total deaths range from a few million to many tens of millions.
+Older accounts treated the plague as a demographic catastrophe that killed perhaps a quarter to a half of the Mediterranean population, weakened Byzantium and Persia, undermined Justinian's attempt to reconquer the western provinces and eased the way for the [early Muslim conquests](/event/early-muslim-conquests) of the seventh century. Some recent scholars, notably Lee Mordechai and Merle Eisenberg, have argued that the evidence for such mass mortality is thin and that the effects were more limited and uneven. Others defend a higher estimate. The scale remains genuinely uncertain, and some historians' estimates of total deaths over two centuries of recurrence, 15 to 100 million, are far higher than sceptics accept.
 
 ## Legacy
 

@@ -22,7 +22,7 @@ The first commander, Itakura Shigemasa, was killed in a failed assault, and Mats
 
 ## Reprisals
 
-An estimated 37,000 rebels and sympathisers were executed. Amakusa Shirō's head was displayed in Nagasaki, and the castle was burned and buried with the dead. Matsukura Katsuie was found guilty of misrule and beheaded in Edo, the only daimyo to suffer that fate in the Edo period, while Terasawa Katataka lost his lands and took his own life. Settlers from elsewhere in Japan were brought in to farm the depopulated peninsula, and every inhabitant had to register with a Buddhist temple.
+An estimated 37,000 rebels and sympathisers were executed. Amakusa Shirō's head was displayed in Nagasaki, and the castle was burned and buried with the dead. Matsukura Katsuie was found guilty of misrule and beheaded in Edo, the only daimyo to suffer that fate in the Edo period, while Terasawa Katataka was stripped of his Amakusa lands. Settlers from elsewhere in Japan were brought in to farm the depopulated peninsula, and every inhabitant had to register with a Buddhist temple.
 
 ## Consequences
 

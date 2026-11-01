@@ -20,7 +20,7 @@ The first winter was catastrophic. Between November 1941 and February 1942 many 
 
 ## The Road of Life
 
-The only link with the rest of the country ran across Lake Ladoga. Boats carried supplies in summer, and from 20 November 1941 lorries drove over the frozen lake on the ice road known as the Road of Life, bringing food in and taking evacuees out. According to Zhukov, more than 1.7 million people were evacuated between June 1941 and March 1943. On 9 August 1942 Dmitri Shostakovich's Seventh Symphony was performed in the city and broadcast by loudspeaker towards the German lines.
+The only link with the rest of the country ran across Lake Ladoga. Boats carried supplies in summer, and from 20 November 1941 lorries drove over the frozen lake on the ice road known as the Road of Life, bringing food in and taking evacuees out. Some 1.4 million people, mainly women and children, were evacuated during the siege. On 9 August 1942 Dmitri Shostakovich's Seventh Symphony was performed in the city and broadcast by loudspeaker towards the German lines.
 
 ## Breaking the siege
 

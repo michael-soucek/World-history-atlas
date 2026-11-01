@@ -24,7 +24,7 @@ Sixteen nations met in Paris and asked for 22 billion dollars; President Harry S
 
 ## Results
 
-The years 1948 to 1952 brought the fastest growth in Europe's history, with industrial production up by 35 per cent. Historians still debate how much of this the plan caused; the aid amounted to roughly 3 per cent of the recipients' combined national income, and several countries had already reached pre-war output before it began. Its political effects were arguably as important. It eased austerity, weakened communist parties in the west, and built the habits of co-operation that fed into NATO and the path to the [Treaty of Rome](/event/treaty-of-rome). The plan ended in 1951, earlier than intended, as the cost of the [Korean War](/event/korean-war) and rearmament took priority.
+The years 1948 to 1952 brought the fastest growth in Europe's history, with industrial production up by 35 per cent. Historians still debate how much of this the plan caused; the aid amounted to less than 3 per cent of the recipients' combined national income, and several countries had already reached pre-war output before it began. Its political effects were arguably as important. It eased austerity, weakened communist parties in the west, and built the habits of co-operation that fed into NATO and the path to the [Treaty of Rome](/event/treaty-of-rome). The plan ended in 1951, earlier than intended, as the cost of the [Korean War](/event/korean-war) and rearmament took priority.
 
 ## On our maps
 

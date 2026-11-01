@@ -12,7 +12,7 @@ In April 1978 the communist People's Democratic Party of Afghanistan seized powe
 
 ## The intervention
 
-Distrustful of Amin and fearing the loss of a neighbouring ally, the [Soviet Union](/place/soviet-union) sent troops across the border from 24–25 December 1979. On 27 December Soviet special forces stormed Amin's palace in Kabul and killed him, installing Babrak Karmal in his place. The invasion was widely condemned, including by the UN General Assembly, and the United States led a boycott of the 1980 Moscow Olympics.
+Distrustful of Amin and fearing the loss of a neighbouring ally, the [Soviet Union](/place/soviet-union) sent troops across the border from 25 December 1979. On 27 December Soviet special forces stormed Amin's palace in Kabul and killed him, installing Babrak Karmal in his place. The invasion was widely condemned, including by the UN General Assembly, and the United States led a boycott of the 1980 Moscow Olympics.
 
 ## A guerrilla war
 
@@ -20,7 +20,7 @@ The Soviet Fortieth Army, which reached a strength of about 115,000 troops in th
 
 ## Withdrawal
 
-[Mikhail Gorbachev](/person/mikhail-gorbachev), who came to power in 1985, called the war a "bleeding wound" and looked for a way out. In 1986 Mohammad Najibullah replaced Karmal and offered national reconciliation. Under the Geneva Accords of April 1988, the Soviet Union agreed to leave, and the last Soviet troops crossed back over the Amu Darya on 15 February 1989.
+[Mikhail Gorbachev](/person/mikhail-gorbachev), who came to power in 1985, came to see the war as a costly drain and looked for a way out. In 1986 Mohammad Najibullah replaced Karmal and offered national reconciliation. Under the Geneva Accords of April 1988, the Soviet Union agreed to leave, and the last Soviet troops crossed back over the Amu Darya on 15 February 1989.
 
 ## The toll
 

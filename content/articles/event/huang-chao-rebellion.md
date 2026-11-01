@@ -14,7 +14,7 @@ In 876 the court tried to buy Wang off with an army commission. Huang, left out 
 
 ## The long march south
 
-Huang avoided the forces gathered to protect Luoyang and struck south across the Yangtze, through Jiangxi, Zhejiang and Fujian. He repeatedly offered to submit if he were made a regional governor, but the court refused. In autumn 879 he took Guangzhou after a siege of a single day. Arab sources claim that tens of thousands of foreign merchants and residents were killed there, though Chinese sources do not mention a massacre. Disease then struck his army in the south, killing a large share of his men, and he turned back north.
+Huang avoided the forces gathered to protect Luoyang and struck south across the Yangtze, through Jiangxi, Zhejiang and Fujian. He repeatedly offered to submit if he were made a regional governor, but the court refused. In autumn 879 he took Guangzhou after a siege of a single day. Arab sources claim that tens of thousands of foreign merchants and residents were killed there, though Chinese sources do not mention a massacre. Disease then struck his army in the south, killing many of his men, and he turned back north.
 
 ## The fall of Chang'an
 
@@ -28,7 +28,7 @@ In 882 Huang's general Zhu Wen went over to the Tang. The decisive blow came fro
 
 ## Legacy
 
-The rebellion has been compared with the [Yellow Turban Rebellion](/event/yellow-turban-rebellion) and the [Taiping Rebellion](/event/taiping-rebellion) for its effect on a dynasty. Real power now lay with provincial commanders, and in 907 Zhu Wen, Huang's former follower, deposed the last Tang emperor, opening the era of division known as the Five Dynasties and Ten Kingdoms. Older histories held that the revolt wiped out the old aristocratic clans, but recent research suggests that many survived by moving south and that their decline had begun long before.
+The rebellion has been compared with the [Yellow Turban Rebellion](/event/yellow-turban-rebellion) and the [Taiping Rebellion](/event/taiping-rebellion) for its effect on a dynasty. Real power now lay with provincial commanders, and in 907 Zhu Wen, Huang's former follower, deposed the last Tang emperor, opening the era of division known as the Five Dynasties and Ten Kingdoms. Older histories held that the revolt wiped out the old aristocratic clans, but recent research suggests that their decline had begun long before.
 
 ## On our maps
 

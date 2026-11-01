@@ -17,7 +17,7 @@ The first major rising came in Palermo, in Sicily, in January 1848, but it was e
 
 ## Nations and parliaments
 
-In the Habsburg lands, Hungary won wide autonomy through the April Laws, passed under the leadership of Lajos Kossuth and others. In northern Italy, Milan and Venice rose against Austrian rule and the Kingdom of Sardinia went to war with Austria. Elected delegates from across the German states gathered in the Frankfurt Parliament in May 1848 to draft a constitution for a united Germany. The same year Karl Marx and Friedrich Engels published the Communist Manifesto, although it had little influence on events at the time.
+In the Habsburg lands, Hungary won wide autonomy through the April Laws, passed under the leadership of Lajos Kossuth and others. In northern Italy, Milan and Venice rose against Austrian rule and the Kingdom of Sardinia went to war with Austria. Elected delegates from across the German states gathered in the Frankfurt Parliament in May 1848 to draft a constitution for a united Germany. The same year Karl Marx and Friedrich Engels published the Communist Manifesto.
 
 ## Reaction
 
@@ -29,7 +29,7 @@ The longest resistance came in Hungary, which declared independence from the Hab
 
 ## Consequences
 
-Few of the revolutionaries' goals were achieved at once, and many leaders were executed, imprisoned or driven into exile, with large numbers emigrating to the United States. Yet the revolutions ended feudal obligations on peasants in Austria and Hungary, brought constitutional government to Denmark and Sardinia, and made a liberal constitution permanent in the Netherlands. The national questions they raised were later resolved from above, through the [unification of Italy](/event/unification-of-italy), the [unification of Germany](/event/unification-of-germany) and the Austro-Hungarian Compromise of 1867, which made [Hungary](/country/hungary) an equal partner within the [Habsburg monarchy](/place/habsburg-monarchy).
+Few of the revolutionaries' goals were achieved at once, and many leaders were executed, imprisoned or driven into exile, with large numbers emigrating to the United States. Yet the revolutions ended feudal obligations on peasants in Austria and Hungary, brought constitutional government to Denmark and Sardinia, and introduced representative democracy in the Netherlands. The national questions they raised were later resolved from above, through the [unification of Italy](/event/unification-of-italy), the [unification of Germany](/event/unification-of-germany) and the Austro-Hungarian Compromise of 1867, which made [Hungary](/country/hungary) an equal partner within the [Habsburg monarchy](/place/habsburg-monarchy).
 
 ## On our maps
 

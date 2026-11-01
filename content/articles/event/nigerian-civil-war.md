@@ -14,15 +14,15 @@ From June to October 1966 pogroms in the north killed an estimated 10,000 to 30,
 
 ## The fighting
 
-Federal troops invaded on 6 July 1967. In August a Biafran force struck west across the Niger, taking Benin City and advancing to within striking distance of Lagos before being pushed back. Federal forces captured the Biafran capital, Enugu, in October 1967, and at Asaba federal soldiers killed about 700 civilians. The capture of Bonny, Calabar and, in May 1968, Port Harcourt cut Biafra off from the sea and from most of its oil. The federal army grew from about 7,000 men to some 200,000. Britain and the Soviet Union armed the federal side, while France covertly helped Biafra, which only five countries recognised, among them [Tanzania](/country/tanzania).
+Federal troops invaded on 6 July 1967. In August a Biafran force struck west across the Niger, taking Benin City and advancing as far as Ore, some 210 kilometres east of Lagos, before being pushed back. Federal forces captured the Biafran capital, Enugu, in October 1967, and at Asaba federal soldiers killed about 700 civilians. The capture of Bonny, Calabar and, in May 1968, Port Harcourt cut Biafra off from the sea and from most of its oil. The federal army grew from about 7,000 men to some 200,000. Britain and the Soviet Union armed the federal side, while France covertly helped Biafra, which only five countries recognised, among them [Tanzania](/country/tanzania).
 
 ## Blockade and famine
 
-Encircled from 1968, Biafra suffered mass starvation as the federal blockade cut off food imports, and the protein-deficiency disease kwashiorkor killed great numbers of children. In September 1968 the International Committee of the Red Cross estimated 8,000 to 10,000 deaths a day. Images of starving children made Biafra one of the first wars seen on television worldwide, and volunteer organisations ran a blockade-breaking relief airlift. The experience later led to the founding of Médecins Sans Frontières. A Nigerian delegate openly called starvation a legitimate weapon of war. Whether the federal campaign amounted to genocide remains debated: some scholars argue that it did, while others stress that Nigeria sought to reincorporate the Igbo rather than destroy them.
+Encircled from 1968, Biafra suffered mass starvation as the federal blockade cut off food imports, and the protein-deficiency disease kwashiorkor killed great numbers of children. In September 1968 the International Committee of the Red Cross estimated 8,000 to 10,000 deaths a day. Images of starving children drew worldwide sympathy, and volunteer organisations ran a blockade-breaking relief airlift. The experience later led to the founding of Médecins Sans Frontières. A Nigerian delegate openly called starvation a legitimate weapon of war. Whether the federal campaign amounted to genocide remains debated: some scholars argue that it did, while others stress that Nigeria sought to reincorporate the Igbo rather than destroy them.
 
 ## Surrender
 
-A final federal offensive split the Biafran enclave in late December 1969, and Owerri and Uli fell in January 1970. Ojukwu fled into exile in Ivory Coast, and his deputy, Philip Effiong, surrendered; the surrender was signed on 14 January 1970. Gowon spoke of "the dawn of national reconciliation".
+A final federal offensive began on 23 December 1969, and Owerri and Uli fell in January 1970. Ojukwu fled into exile in Ivory Coast, and his deputy, Philip Effiong, surrendered; the surrender was signed on 14 January 1970. Gowon spoke of "the dawn of national reconciliation".
 
 ## Legacy
 
