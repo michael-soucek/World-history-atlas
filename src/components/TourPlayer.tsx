@@ -237,7 +237,8 @@ export default function TourPlayer({ tour }: TourPlayerProps) {
               </p>
               <p className="truncate text-[13px] text-ink/72">{current.title}</p>
             </div>
-            <ReadAloudButton text={current.text} variant="minimal" className="shrink-0 max-sm:hidden" />
+            {/* Keyed by stop: moving on unmounts the old button, which cancels its speech. */}
+            <ReadAloudButton key={step} text={current.text} variant="minimal" className="shrink-0 max-sm:hidden" />
             {step < last ? (
               <button
                 onClick={() => goTo(step + 1)}
