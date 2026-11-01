@@ -4,7 +4,7 @@ sources:
   - Wikidata: Great Purge (Q187650) | https://www.wikidata.org/wiki/Q187650
 written: 2026-10-30
 ---
-Between 1936 and 1938 the [Soviet Union](/place/soviet-union) under [Joseph Stalin](/person/joseph-stalin) carried out a wave of political repression known as the Great Purge or Great Terror. The secret police, the NKVD, arrested well over a million people, among them former Bolshevik leaders, army commanders, officials, peasants, clergy and members of ethnic minorities. Official records list 681,692 executions in 1937 and 1938 alone, and scholars estimate the total death toll at around 700,000 to 1.2 million.
+Between 1936 and 1939 the [Soviet Union](/place/soviet-union) under [Joseph Stalin](/person/joseph-stalin) carried out a wave of political repression known as the Great Purge or Great Terror. The secret police, the NKVD, arrested well over a million people, among them former Bolshevik leaders, army commanders, officials, peasants, clergy and members of ethnic minorities. Official records list 681,692 executions in 1937 and 1938 alone, and scholars estimate the total death toll at around 700,000 to 1.2 million.
 
 ## Background
 

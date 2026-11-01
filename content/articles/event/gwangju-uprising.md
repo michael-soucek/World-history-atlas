@@ -20,7 +20,7 @@ From 22 May the army ringed Gwangju and cut it off. Inside, committees of citize
 
 ## The crackdown
 
-At 4 a.m. on 27 May three airborne brigades re-entered the city and overcame the militias at the provincial office within 90 minutes. The [United States](/country/united-states), fearing intervention by [North Korea](/country/north-korea), had approved the use of Korean troops to retake Gwangju. The martial law authorities then announced that 4 police officers, 22 soldiers and 144 civilians had died; disputing it could lead to arrest. Researchers later found deaths in the city that month about 2,300 above normal levels.
+At 4 a.m. on 27 May three airborne brigades re-entered the city and overcame the militias at the provincial office within 90 minutes. The [United States](/country/united-states), fearing intervention by [North Korea](/country/north-korea), had approved the use of Korean troops to retake Gwangju. The martial law authorities then announced that 4 police officers, 22 soldiers and 144 civilians had died; disputing it could lead to arrest. Some later estimates put the toll as high as 2,300.
 
 ## Reckoning
 

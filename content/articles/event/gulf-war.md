@@ -8,7 +8,7 @@ The Gulf War of 1990–1991 began when Iraq invaded and annexed its small neighb
 
 ## The invasion of Kuwait
 
-[Iraq](/country/iraq) emerged from its long war with Iran in 1988 heavily in debt, much of it owed to Gulf states including [Kuwait](/country/kuwait). Saddam Hussein accused Kuwait of keeping oil prices low by overproducing and of drilling into Iraqi oil fields, and revived old Iraqi claims to Kuwaiti territory. On 2 August 1990 Iraqi forces invaded and took the country within hours; the emir fled to [Saudi Arabia](/country/saudi-arabia), and Iraq soon declared Kuwait its nineteenth province.
+[Iraq](/country/iraq) emerged from its long war with Iran in 1988 heavily in debt, much of it owed to Gulf states including [Kuwait](/country/kuwait). Saddam Hussein accused Kuwait of keeping oil prices low by overproducing and of drilling into Iraqi oil fields, and revived old Iraqi claims to Kuwaiti territory. On 2 August 1990 Iraqi forces invaded and took the country within two days; the emir fled to [Saudi Arabia](/country/saudi-arabia), and Iraq soon declared Kuwait its nineteenth province.
 
 ## Desert Shield
 
@@ -20,7 +20,7 @@ Operation Desert Storm began on 17 January 1991 with a massive air campaign agai
 
 ## The ground war
 
-The coalition ground offensive began on 24 February. While forces attacked directly into Kuwait, a large armoured force swept west and north through the Iraqi desert to cut off the Iraqi army. Iraqi resistance collapsed, and many soldiers surrendered. Iraqi forces set more than 600 Kuwaiti oil wells on fire and released oil into the Gulf, causing severe environmental damage. Kuwait City was liberated on 26–27 February, and on 28 February President George H. W. Bush declared a ceasefire.
+The coalition ground offensive began on 24 February. While forces attacked directly into Kuwait, a large armoured force swept west and north through the Iraqi desert to cut off the Iraqi army. Iraqi resistance collapsed, and many soldiers surrendered. Iraqi forces set some 700 Kuwaiti oil wells on fire and released oil into the Gulf, causing severe environmental damage. Kuwait City was liberated on 26–27 February, and on 28 February President George H. W. Bush declared a ceasefire.
 
 ## Losses
 

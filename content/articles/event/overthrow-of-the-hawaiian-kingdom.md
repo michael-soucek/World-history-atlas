@@ -24,7 +24,7 @@ In January 1893 her opponents, led by the newspaper publisher Lorrin Thurston an
 
 ## Investigation and annexation
 
-The new president, Grover Cleveland, blocked immediate annexation and sent James Blount to investigate. Blount's report concluded that American diplomatic and military representatives had abused their authority, but a Senate committee report cleared Stevens. The Republic of Hawaii was proclaimed on 4 July 1894 with Dole as president. After a failed royalist rising in January 1895, the queen was arrested and convicted by a military tribunal, and on 24 January she abdicated. Under President William McKinley, the Newlands Resolution provided for annexation, which took effect on 7 July 1898. Most Native Hawaiians stayed away from the annexation ceremony in August.
+The new president, Grover Cleveland, blocked immediate annexation and sent James Blount to investigate. Blount's report concluded that American diplomatic and military representatives had abused their authority, but a Senate committee report cleared Stevens. The Republic of Hawaii was proclaimed on 4 July 1894 with Dole as president. After a failed royalist rising in January 1895, the queen was arrested; on 24 January she abdicated, and she was then convicted by a military tribunal. Under President William McKinley, the Newlands Resolution provided for annexation, which took effect on 7 July 1898. Most Native Hawaiians stayed away from the annexation ceremony in August.
 
 ## Legacy
 

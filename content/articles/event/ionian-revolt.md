@@ -24,7 +24,7 @@ From 497 BC Persian armies moved to retake the outlying areas. In Cyprus the reb
 
 ## Lade and the fall of Miletus
 
-In 494 BC the Persians gathered their army and a fleet drawn from Phoenicia, Cyprus, Egypt and Cilicia and went straight for Miletus. The Greeks assembled 353 triremes, according to Herodotus, off the island of Lade. When battle began, most of the Samian ships sailed away under a secret deal with Persia, the Lesbians followed, and the line collapsed despite hard fighting by the Chians. Miletus was then taken by siege. Herodotus says most of its men were killed and its women and children enslaved; archaeology confirms heavy destruction. Surviving captives were resettled near the mouth of the Tigris.
+In 494 BC the Persians gathered their army and a fleet drawn from Phoenicia, Cyprus, Egypt and Cilicia and went straight for Miletus. The Greeks assembled 353 triremes, according to Herodotus, off the island of Lade. When battle began, most of the Samian ships sailed away under a secret deal with Persia, the Lesbians followed, and the line collapsed despite hard fighting by the Chians. Miletus was then taken by siege. Herodotus says most of its men were killed and its women and children enslaved; archaeology shows widespread destruction. Surviving captives were resettled near the mouth of the Tigris.
 
 ## The end of the revolt
 

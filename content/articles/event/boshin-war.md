@@ -22,7 +22,7 @@ Imperial forces under Saigō Takamori advanced on Edo, and in May 1868 the city 
 
 ## The Republic of Ezo
 
-The shogun's naval commander, Enomoto Takeaki, refused to hand over most of his warships and sailed north to Hokkaido with about 2,000 men and a few French advisers, among them Jules Brunet. There the loyalists set up the Republic of Ezo, with Enomoto as its elected president, and fortified the new fortress of Goryōkaku at Hakodate. No foreign government recognised it. In April 1869 an imperial fleet and some 7,000 troops landed, won the naval battle in Hakodate Bay and surrounded Goryōkaku. Enomoto surrendered on 27 June 1869.
+The shogun's naval commander, Enomoto Takeaki, refused to hand over most of his warships and sailed north to Hokkaido with his remaining ships and men and a few French advisers, among them Jules Brunet. There the loyalists set up the Republic of Ezo, with Enomoto as its elected president, and fortified the new fortress of Goryōkaku at Hakodate. No foreign government recognised it. In April 1869 an imperial fleet and some 7,000 troops landed, won the naval battle in Hakodate Bay and surrounded Goryōkaku. Enomoto surrendered on 27 June 1869.
 
 ## Aftermath
 

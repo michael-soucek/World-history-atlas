@@ -18,7 +18,7 @@ Charles struck first at Denmark, landing near Copenhagen and forcing it out of t
 
 ## Peter rebuilds
 
-Meanwhile Peter reorganised his army and pushed into the Swedish Baltic provinces. In 1703 he captured the fortress of Nyen at the mouth of the Neva and began building a new city nearby, Saint Petersburg. In 1707 he offered to give back most of his conquests if he could keep that foothold, but Charles refused.
+Meanwhile Peter reorganised his army and pushed into the Swedish Baltic provinces. In 1703 he captured the fortress of Nyen at the mouth of the Neva and began building a new city nearby, Saint Petersburg. Peter sought a negotiated peace that would let him keep that foothold, but Charles refused.
 
 ## Invasion of Russia and Poltava
 

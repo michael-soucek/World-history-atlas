@@ -4,7 +4,7 @@ sources:
   - Wikidata: Dirty War (Q75984) | https://www.wikidata.org/wiki/Q75984
 written: 2026-10-30
 ---
-"Dirty War" is the name, coined by Argentina's military rulers themselves, for the campaign of state terror waged against suspected leftists and other opponents in [Argentina](/country/argentina) from the mid-1970s until the return of democracy in December 1983. Security forces and allied death squads abducted, tortured and killed thousands of people, most of whom vanished without trace and became known as the desaparecidos, the disappeared. Estimates of the dead and disappeared range from about 13,000 to 30,000, and later trials made Argentina a leading example of prosecuting such crimes in national courts.
+"Dirty War" is the name, used by Argentina's military rulers themselves, for the campaign of state terror waged against suspected leftists and other opponents in [Argentina](/country/argentina) from the mid-1970s until the return of democracy in December 1983. Security forces and allied death squads abducted, tortured and killed thousands of people, most of whom vanished without trace and became known as the desaparecidos, the disappeared. Estimates of the dead and disappeared range from about 13,000 to 30,000, and later trials made Argentina a leading example of prosecuting such crimes in national courts.
 
 ## Background
 
@@ -12,7 +12,7 @@ After the army overthrew [Juan Perón](/person/juan-peron) in 1955 and banned Pe
 
 ## The junta
 
-In March 1976 the military deposed Isabel Perón. The junta, which called its programme the National Reorganisation Process, extended repression far beyond the armed guerrillas, whom prosecutors later showed had never controlled territory or posed a real threat to the state. Trade unionists, according to some accounts about half of the victims, students, journalists, writers, artists and activists were seized and taken to a network of some 340 secret detention centres. Many were killed in mass shootings or drugged and thrown from aircraft into the River Plate or the Atlantic in so-called death flights. Argentina also coordinated the hunting of exiles with neighbouring dictatorships under [Operation Condor](/event/operation-condor), and received some $50 million in military aid from the [United States](/country/united-states).
+In March 1976 the military deposed Isabel Perón. The junta, which called its programme the National Reorganisation Process, extended repression far beyond the armed guerrillas, whom prosecutors later argued had never controlled territory or posed a real threat to the state. Trade unionists, students, journalists, writers, artists and activists were seized and taken to a network of some 340 secret detention centres. Many were killed in mass shootings or drugged and thrown from aircraft into the River Plate or the Atlantic in so-called death flights. Argentina also coordinated the hunting of exiles with neighbouring dictatorships under [Operation Condor](/event/operation-condor), and received some $50 million in military aid from the [United States](/country/united-states).
 
 ## The stolen children
 
@@ -24,7 +24,7 @@ Economic crisis and growing opposition weakened the junta, which in 1982 sought 
 
 ## Truth and trials
 
-Alfonsín set up the National Commission on the Disappearance of Persons (CONADEP), chaired by the writer Ernesto Sábato. Its report, Nunca Más ("Never Again"), documented nearly 9,000 people disappeared by name and stressed that the true figure was higher. In the 1985 Trial of the Juntas, Videla and other commanders were convicted, Videla receiving a life sentence. Under military pressure, the Full Stop law of 1986 cut short further prosecutions; after a series of army revolts in 1987 and 1988, President Carlos Menem pardoned those convicted in 1989.
+Alfonsín set up the National Commission on the Disappearance of Persons (CONADEP), chaired by the writer Ernesto Sábato. Its report, Nunca Más ("Never Again"), documented nearly 9,000 people disappeared by name and stressed that the true figure was higher. In the 1985 Trial of the Juntas, Videla and other commanders were convicted, Videla receiving a life sentence. Under military pressure, the Full Stop law of 1986 cut short further prosecutions; after a series of army revolts in 1987 and 1988, President Carlos Menem pardoned those convicted in 1989–90.
 
 ## Renewed prosecutions
 

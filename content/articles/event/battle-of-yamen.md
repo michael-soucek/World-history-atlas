@@ -10,7 +10,7 @@ The Battle of Yamen, fought on 19 March 1279 in a bay near today's Jiangmen in G
 
 The Southern Song, founded after the [Jingkang incident](/event/jingkang-incident), was by then losing its long war against the Yuan. In 1276 the court fled its capital, Lin'an (Hangzhou), leaving Emperor Gong to be captured. Loyalists made his elder brother, Zhao Shi, emperor. When Fuzhou fell in 1277 the court moved to Quanzhou, where the Grand General Zhang Shijie hoped to obtain ships. The Muslim merchant Pu Shougeng refused, so Zhang seized his property and fled with the court in commandeered vessels. Pu then killed members of the imperial clan and many officials in the city and went over to the Yuan, strengthening their navy.
 
-The Song could no longer face the Yuan in open battle, so Zhang Shijie built a large fleet to keep the court moving. On the way to Guangdong, Zhao Shi's ship capsized in a storm; he survived but fell ill, and later died at Mui Wo on Lantau Island. His seven-year-old brother, Zhao Bing, succeeded him, and Zhang took the new emperor to Yamen. In 1278 the loyalist Wen Tianxiang was captured, ending Song resistance on land in the area.
+The Song could no longer face the Yuan in open battle, so Zhang Shijie built a large fleet to keep the court moving. On the way to Guangdong, Zhao Shi's ship capsized in a storm; he survived but fell ill, and later died, according to one tradition at Mui Wo on Lantau Island. His six-year-old brother, Zhao Bing, succeeded him, and Zhang took the new emperor to Yamen. In 1278 the loyalist Wen Tianxiang was captured, ending Song resistance on land in the area.
 
 ## The chained fleet
 

@@ -22,7 +22,7 @@ Burgoyne dug in and waited, hoping that Sir Henry Clinton would come up from New
 
 ## Bemis Heights
 
-On 7 October about 2,000 British and German troops advanced into a wheat field. American brigades struck both flanks; the grenadiers were routed and General Simon Fraser was mortally wounded. Arnold, without a command, rode onto the field and led attacks on the fortified British camp. One redoubt held, but another was stormed, its commander Heinrich von Breymann was killed, and Arnold was badly wounded in the leg.
+On 7 October a column of British and German troops advanced into a wheat field. American brigades struck both flanks; the grenadiers were routed and General Simon Fraser was mortally wounded. Arnold, without a command, rode onto the field and led attacks on the fortified British camp. One redoubt held, but another was stormed, its commander Heinrich von Breymann was killed, and Arnold was badly wounded in the leg.
 
 ## Surrender
 

@@ -18,7 +18,7 @@ In 1939, at the Sir William Dunn School of Pathology in Oxford, Chain drew Flore
 
 ## Mice and the first patients
 
-On 25 May 1940 Florey infected eight mice with a virulent streptococcus and then treated four of them with penicillin. By the early hours of the next day all four untreated mice were dead, while the treated ones survived. The team published its results in The Lancet on 24 August 1940. Human trials followed. In February 1941 an Oxford policeman, Albert Alexander, with a severe facial infection, improved dramatically, but the supply ran out and he relapsed and died on 15 March. Later patients, including children who needed smaller doses, recovered.
+On 25 May 1940 Florey infected eight mice with a virulent streptococcus and then treated four of them with penicillin. By the early hours of the next day all four untreated mice were dead, while the treated ones were still alive. The team published its results in The Lancet on 24 August 1940. Human trials followed. In February 1941 an Oxford policeman, Albert Alexander, with a severe facial infection, improved dramatically, but the supply ran out and he relapsed and died on 15 March. Later patients, including children who needed smaller doses, recovered.
 
 ## Mass production
 

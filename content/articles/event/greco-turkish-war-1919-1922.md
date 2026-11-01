@@ -12,7 +12,7 @@ The two sides have long told the story differently. Greek governments presented 
 
 ## Landing and advance
 
-Britain's prime minister, David Lloyd George, backed Greek claims, and on 15 May 1919 some 20,000 Greek troops landed at Smyrna, now İzmir. By the end of summer 1920 they held most of western Anatolia. The [Treaty of Sèvres](/event/treaty-of-sevres), signed by the Sultan's government on 10 August 1920, gave Greece eastern Thrace and the administration of Smyrna, but it was never ratified. In Greece, the election of November 1920 removed Eleftherios Venizelos, and a plebiscite restored King Constantine, who replaced many experienced officers.
+Britain's prime minister, David Lloyd George, backed Greek claims, and on 15 May 1919 Greek troops landed at Smyrna, now İzmir. By the end of summer 1920 they held most of western Anatolia. The [Treaty of Sèvres](/event/treaty-of-sevres), signed by the Sultan's government on 10 August 1920, gave Greece eastern Thrace and the administration of Smyrna, but it was never ratified. In Greece, the election of November 1920 removed Eleftherios Venizelos, and a plebiscite restored King Constantine, who replaced many experienced officers.
 
 ## Inönü and Sakarya
 
@@ -20,11 +20,11 @@ The nationalists, now building a regular army, halted Greek attacks at the two b
 
 ## Collapse and Smyrna
 
-On 26 August 1922 the Turks launched their Great Offensive. The Greek army was decisively beaten at Dumlupınar on 30 August, still marked in Turkey as Victory Day, and fled to the coast; Turkish cavalry entered Smyrna on 9 September. Days later fire destroyed the Greek and Armenian quarters while the Turkish and Jewish districts survived. Responsibility is disputed, though most eyewitness reports blamed Turkish troops, and some 50,000 to 100,000 Greeks and Armenians are estimated to have died in the fire and accompanying killings. The Armistice of Mudanya, agreed on 11 October and accepted by Greece on 14 October, ended the fighting.
+On 26 August 1922 the Turks launched their Great Offensive. The Greek army was decisively beaten at Dumlupınar on 30 August, still marked in Turkey as Victory Day, and fled to the coast; Turkish cavalry entered Smyrna on 9 September. Days later fire destroyed the Greek and Armenian quarters while the Turkish and Jewish districts survived. Responsibility is disputed, with some sources blaming Turkish forces and others Greeks or Armenians, and some 50,000 to 100,000 Greeks and Armenians are estimated to have died in the fire and accompanying killings. The Armistice of Mudanya, agreed on 11 October and accepted by Greece on 14 October, ended the fighting.
 
 ## Losses and atrocities
 
-Commonly cited figures give about 19,000 Greek and 9,000 Turkish soldiers killed in action, with many more wounded, missing or captured. Civilians suffered on both sides. The political scientist R. J. Rummel estimated that 264,000 Greek civilians were killed by Turkish forces between 1919 and 1922, and atrocities against the Pontic Greeks are recognised in Greece and Cyprus as a genocide. An Inter-Allied commission found in 1921 that Greek and Armenian bands, sometimes aided by regular troops, had systematically destroyed Muslim villages on the Yalova–Gemlik peninsula, and the retreating Greek army burned towns such as Manisa and Uşak. Estimates of Turkish civilian deaths vary widely, from at least 15,000 to far higher figures put forward by Turkish negotiators and some historians whose work has been heavily criticised.
+Commonly cited figures give about 19,000 Greek and 9,000 Turkish soldiers killed in action, with many more wounded, missing or captured. Civilians suffered on both sides. The political scientist R. J. Rummel estimated that 264,000 Greek civilians were killed by Turkish forces between 1919 and 1922, and atrocities against the Pontic Greeks are recognised in Greece and Cyprus as a genocide. An Inter-Allied commission found in 1921 that Greek and Armenian bands, sometimes aided by regular troops, had systematically destroyed Muslim villages on the Yalova–Gemlik peninsula, and the retreating Greek army burned towns such as Manisa. Estimates of Turkish civilian deaths vary widely, from at least 15,000 to far higher figures put forward by Turkish negotiators and some historians whose work has been heavily criticised.
 
 ## Consequences
 
@@ -32,4 +32,4 @@ Greece abandoned its claims in Anatolia and eastern Thrace. The [Treaty of Lausa
 
 ## On our maps
 
-Our 1920 map shows the Ottoman Empire on the eve of the war, and our 1930 map shows the Republic of Turkey within the borders confirmed at Lausanne.
+Our 1920 map shows the Ottoman Empire during the war, and our 1930 map shows the Republic of Turkey within the borders confirmed at Lausanne.

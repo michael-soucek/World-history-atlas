@@ -16,7 +16,7 @@ On 12 January 1904, while many German troops were away in the south, Herero figh
 
 ## Waterberg and the desert
 
-Maharero gathered around 60,000 people with their cattle at the Waterberg plateau. On 11 August 1904 German forces attacked, and most of the Herero broke out to the south-east into the arid Omaheke. German troops pursued them, guarded or poisoned waterholes, and killed many of those they caught, men, women and children alike. Around 40,000 Herero are thought to have died in the desert, many of thirst. On 2 October Trotha issued an order declaring that every Herero found within the German borders would be shot; historians debate whether he meant to kill them all or to drive them out of the colony. Amid criticism in Germany, the Kaiser withdrew the order in December 1904.
+Maharero gathered around 60,000 people with their cattle at the Waterberg plateau. On 11 August 1904 German forces attacked, and most of the Herero broke out to the south-east into the arid Omaheke. German troops pursued them, guarded or poisoned waterholes, and killed many of those they caught, men, women and children alike. Most of those who fled are thought to have died in the desert, many of thirst. On 2 October Trotha issued an order declaring that every Herero found within the German borders would be shot; historians debate whether he meant to kill them all or to drive them out of the colony. Amid criticism in Germany, the Kaiser withdrew the order in December 1904.
 
 ## The Nama war and the camps
 

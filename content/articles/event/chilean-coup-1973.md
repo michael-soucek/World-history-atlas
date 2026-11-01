@@ -16,7 +16,7 @@ The [United States](/country/united-states) government of Richard Nixon was host
 
 ## Crisis
 
-In the March 1973 congressional elections Popular Unity won 43.2 per cent, which was not enough to break the deadlock with the opposition-controlled Congress. On 29 June a tank regiment attacked La Moneda in a failed rising known as the Tanquetazo. On 23 August the Chamber of Deputies passed a resolution, by 81 votes to 47, accusing the government of breaking the constitution and calling on the armed forces to restore legal order. The same day General Carlos Prats, the army commander who had opposed military intervention, resigned under pressure, and Pinochet replaced him.
+In the March 1973 congressional elections Popular Unity won 43.2 per cent, which was not enough to break the deadlock with the opposition-controlled Congress. On 29 June a tank regiment attacked La Moneda in a failed rising known as the Tanquetazo. On 23 August the Chamber of Deputies passed a resolution, by 81 votes to 47, accusing the government of breaking the constitution and calling on the armed forces to restore legal order. The next day General Carlos Prats, the army commander who had opposed military intervention, resigned under pressure, and Pinochet replaced him.
 
 ## 11 September
 

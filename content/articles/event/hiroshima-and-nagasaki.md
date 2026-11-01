@@ -12,7 +12,7 @@ Fearing that Nazi Germany might build an atomic bomb, the United States, with Br
 
 ## The decision
 
-By mid-1945 Germany had surrendered, but the war with Japan continued. American bombers had already burned large parts of Japanese cities with incendiary raids, and plans were being made to invade the home islands. President Harry Truman, who had learned of the project only on taking office in April, approved the use of the bomb. A committee chose targets among cities not yet heavily bombed, and Secretary of War Henry Stimson had the historic city of Kyoto removed from the list. On 26 July the Allies issued the Potsdam Declaration, demanding Japan's unconditional surrender and warning of prompt and complete destruction; the Japanese government did not accept it.
+By mid-1945 Germany had surrendered, but the war with Japan continued. American bombers had already burned large parts of Japanese cities with incendiary raids, and plans were being made to invade the home islands. President Harry Truman, who had taken office in April, approved the use of the bomb. A committee chose targets among cities not yet heavily bombed, and Secretary of War Henry Stimson had the historic city of Kyoto removed from the list. On 26 July the Allies issued the Potsdam Declaration, demanding Japan's unconditional surrender and warning of prompt and complete destruction; the Japanese government did not accept it.
 
 ## Hiroshima
 
@@ -24,7 +24,7 @@ On 8 August the [Soviet Union](/place/soviet-union) declared war on Japan, invad
 
 ## Surrender
 
-On 15 August Emperor [Hirohito](/person/hirohito) announced Japan's acceptance of the Allied terms in a radio broadcast, citing a new and cruel bomb, and the formal surrender was signed on 2 September 1945. Historians continue to debate the relative weight of the bombs and of the Soviet entry into the war in Japan's decision.
+On 15 August Emperor [Hirohito](/person/hirohito) announced Japan's acceptance of the Allied terms in a radio broadcast, and the formal surrender was signed on 2 September 1945. Historians continue to debate the relative weight of the bombs and of the Soviet entry into the war in Japan's decision.
 
 ## Survivors and debate
 

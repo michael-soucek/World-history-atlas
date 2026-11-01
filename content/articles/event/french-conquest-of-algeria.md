@@ -20,7 +20,7 @@ Resistance came from two main directions. In the east, Ahmed Bey held Constantin
 
 ## Bugeaud's campaigns
 
-General Thomas Robert Bugeaud answered with fast-moving columns and a scorched-earth policy that inflicted great suffering on the rural population. In 1843 French forces captured Abdelkader's mobile camp, the smala. He fell back into [Morocco](/country/morocco), which France pressured by war in 1844. By the late 1840s more than 100,000 French soldiers were in Algeria. Abdelkader surrendered in December 1847 on the promise of exile in the Middle East, but France held him until 1852 before letting him go to Damascus.
+General Thomas Robert Bugeaud answered with fast-moving columns and a scorched-earth policy that inflicted great suffering on the rural population. In 1843 French forces captured Abdelkader's mobile camp, the smala. He fell back into [Morocco](/country/morocco), which France pressured by war in 1844. Abdelkader surrendered in December 1847 on the promise of exile in the Middle East, but France held him until 1852 before letting him go to Damascus.
 
 ## Later revolts and the Sahara
 

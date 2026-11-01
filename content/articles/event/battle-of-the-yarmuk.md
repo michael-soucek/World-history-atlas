@@ -24,7 +24,7 @@ The battle was fought over six days, with the main engagements placed in mid-to-
 
 ## Aftermath
 
-The defeat left Byzantium with no field army able to defend Syria. Heraclius withdrew to Constantinople, and later tradition records his farewell to the province. Muslim forces retook Damascus and went on to capture the other cities of Syria. Jerusalem surrendered to the caliph Umar in 637 or 638, and Egypt was conquered within a few years. In the same period Arab armies defeated the Sasanians at al-Qadisiyyah. The Levant has remained part of the Muslim world ever since, and Yarmuk is counted among the most consequential battles of the early Middle Ages.
+The defeat left Byzantium with no field army able to defend Syria. Heraclius withdrew to Constantinople, and later tradition records his farewell to the province. Muslim forces retook Damascus and went on to capture the other cities of Syria. Jerusalem surrendered to the caliph Umar in 637 or 638, and Egypt was conquered within a few years. In the same period Arab armies defeated the Sasanians at al-Qadisiyyah. The Levant remained under Muslim rule for centuries afterwards, and Yarmuk is counted among the most consequential battles of the early Middle Ages.
 
 ## On our maps
 

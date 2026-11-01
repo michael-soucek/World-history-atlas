@@ -12,11 +12,11 @@ The Campanian coast was one of the richest areas of Roman Italy, with busy towns
 
 ## The date
 
-For centuries the eruption was dated to 24 August, the date given in the surviving manuscripts of the letters of Pliny the Younger. Archaeologists had long noted evidence that seemed to fit an autumn date better, such as autumn fruits and heavier clothing. In 2018 a charcoal inscription found in Pompeii, dated to the equivalent of mid-October, appeared to confirm that the eruption happened later in the year. Many scholars now favour 24 October 79 CE, although the question is not entirely settled.
+For centuries the eruption was dated to 24 August, the date given in the surviving manuscripts of the letters of Pliny the Younger. Archaeologists had long noted evidence that seemed to fit an autumn date better, such as autumn fruits and heavier clothing. In 2018 a charcoal inscription found in Pompeii, dated to the equivalent of mid-October, appeared to confirm that the eruption happened later in the year. Many scholars now favour a date in late October 79 CE, often given as 24 October, although the question is not entirely settled.
 
 ## The eruption
 
-Around midday a huge column of gas, ash and pumice rose many kilometres into the sky, spreading out at the top into a cloud that Pliny compared to an umbrella pine. Wind carried the debris to the south-east, and for many hours pumice and ash rained down on Pompeii, collapsing roofs and filling streets. Many inhabitants fled at this stage. Herculaneum, to the west of the volcano, received little fall but was not spared.
+In the early afternoon a huge column of gas, ash and pumice rose many kilometres into the sky, spreading out at the top into a cloud that Pliny compared to an umbrella pine. Wind carried the debris to the south-east, and for many hours pumice and ash rained down on Pompeii, collapsing roofs and filling streets. Many inhabitants fled at this stage. Herculaneum, to the west of the volcano, received little fall but was not spared.
 
 During the night and the following morning, the column repeatedly collapsed, sending pyroclastic surges and flows, fast-moving avalanches of extremely hot gas and rock, down the mountain's slopes. These reached Herculaneum first, killing the people who had taken shelter in boat sheds on the shore, and later swept over Pompeii, killing those who had stayed or were trying to escape. Herculaneum was buried under around twenty metres of volcanic material, Pompeii under several metres of ash and pumice.
 

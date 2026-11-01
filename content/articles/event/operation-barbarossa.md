@@ -16,7 +16,7 @@ In 1939 Germany and the Soviet Union had signed a non-aggression pact and econom
 
 ## The invasion
 
-The attack began at around 03:15 on Sunday 22 June 1941 with bombing raids and an artillery barrage along the whole front, joined by Romanian, Finnish, Italian, Hungarian and other forces. The Soviets had more tanks and aircraft on paper, but the Luftwaffe reportedly destroyed more than 3,000 Soviet aircraft in the first three days, and large Soviet forces were encircled. Army Group North overran the Baltic states and, with Finnish forces, began the siege of Leningrad on 8 September, a siege that lasted until 1944. Army Group Centre took Smolensk in late July. Army Group South captured Kiev on 19 September after encircling the Soviet armies defending it, then took Kharkov in October and Rostov-on-Don in November, while most of Crimea fell and Sevastopol was besieged.
+The attack began at around 03:15 on Sunday 22 June 1941 with bombing raids and an artillery barrage along the whole front, joined by Finnish and Romanian units and soon afterwards by Italian, Hungarian and other forces. The Soviets had more tanks and aircraft on paper, but the Luftwaffe reportedly destroyed more than 3,000 Soviet aircraft in the first three days, and large Soviet forces were encircled. Army Group North overran the Baltic states and, with Finnish forces, began the siege of Leningrad on 8 September, a siege that lasted until 1944. Army Group Centre took Smolensk in late July. Army Group South captured Kiev on 19 September after encircling the Soviet armies defending it, then took Kharkov in October and Rostov-on-Don in November, while most of Crimea fell and Sevastopol was besieged.
 
 ## The drive on Moscow
 

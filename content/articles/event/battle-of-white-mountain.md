@@ -20,7 +20,7 @@ A small imperial force probing the Bohemian flank found the defenders falling ba
 
 ## Collapse of the revolt
 
-Imperial troops entered Prague the next day, and Frederick fled with his wife Elizabeth after a reign of only one winter, the origin of his mocking nickname. Prague was plundered for weeks. Forty-seven leaders of the revolt were tried, and twenty-seven were executed in the Old Town Square; crosses set in the paving there commemorate them. An estimated five-sixths of Bohemia's nobles left the country, and their estates were confiscated. A Protestant army in Silesia fought on until 1623.
+Imperial troops entered Prague the next day, and Frederick fled with his wife Elizabeth after a reign of only one winter, the origin of his mocking nickname. Forty-seven leaders of the revolt were tried, and twenty-seven were executed in the Old Town Square; crosses set in the paving there commemorate them. An estimated five-sixths of Bohemia's nobles left the country, and their estates were confiscated. A Protestant army in Silesia fought on until 1623.
 
 ## Recatholicisation
 

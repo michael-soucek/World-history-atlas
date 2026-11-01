@@ -28,7 +28,7 @@ Neither republic claimed to be Czechoslovakia's sole successor; both joined the 
 
 ## Legacy
 
-The Velvet Divorce was the only entirely peaceful breakup of a former Eastern Bloc state, in sharp contrast to the [breakup of Yugoslavia](/event/breakup-of-yugoslavia) and the violence that followed the [dissolution of the Soviet Union](/event/dissolution-of-the-soviet-union). The two languages remain mutually intelligible, ties between the two peoples are close, and Slovakia's economy has since largely caught up with its neighbour's.
+The Velvet Divorce was a peaceful, negotiated separation, often contrasted with the [breakup of Yugoslavia](/event/breakup-of-yugoslavia) and the violence that followed the [dissolution of the Soviet Union](/event/dissolution-of-the-soviet-union). The two languages remain mutually intelligible, ties between the two peoples are close, and Slovakia's economy has since largely caught up with its neighbour's.
 
 ## On our maps
 

@@ -31,4 +31,4 @@ Polish hopes turned to France. In 1807 Napoleon created the Duchy of Warsaw from
 
 ## On our maps
 
-Our 1715 map shows the Polish–Lithuanian Commonwealth at its full extent, and the 1783 map the reduced Poland after the First Partition. By our 1800 map Poland has disappeared, divided between the [Russian Empire](/place/russian-empire), the [Kingdom of Prussia](/place/kingdom-of-prussia) and the [Habsburg monarchy](/place/habsburg-monarchy).
+Our 1715 map shows the Polish–Lithuanian Commonwealth before the partitions, and the 1783 map the reduced Poland after the First Partition. By our 1800 map Poland has disappeared, divided between the [Russian Empire](/place/russian-empire), the [Kingdom of Prussia](/place/kingdom-of-prussia) and the [Habsburg monarchy](/place/habsburg-monarchy).

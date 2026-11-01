@@ -8,7 +8,7 @@ On the evening of 5 March 1770, British soldiers guarding the Custom House on Ki
 
 ## A town under occupation
 
-Boston, the capital of the Province of Massachusetts Bay, was a centre of opposition to new taxes imposed by the British Parliament. The Townshend Acts of 1768, which placed duties on British goods imported into the colonies, provoked petitions, boycotts and riots. In response, London ordered troops to the town, and the first of four regiments came ashore on 1 October 1768. Two later left, but the 14th and 29th Regiments of Foot stayed.
+Boston, the capital of the Province of Massachusetts Bay, was a centre of opposition to new taxes imposed by the British Parliament. The Townshend Acts of 1767, which placed duties on British goods imported into the colonies, provoked petitions, boycotts and riots. In response, London ordered troops to the town, and the first of four regiments came ashore on 1 October 1768. Two later left, but the 14th and 29th Regiments of Foot stayed.
 
 Tension sharpened in February 1770, when a customs employee killed Christopher Seider, a boy of about eleven, whose funeral drew huge crowds.
 

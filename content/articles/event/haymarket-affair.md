@@ -12,7 +12,7 @@ Industry in the United States grew rapidly after the [American Civil War](/event
 
 ## The McCormick shootings
 
-On 3 May Spies addressed strikers outside the McCormick Harvesting Machine Company works. When workers surged towards strikebreakers leaving the plant, police opened fire, killing two men, by some newspaper accounts more. Anarchists printed leaflets calling a protest meeting for the next evening. The first version urged workers to arm themselves; Spies refused to speak unless the line was removed, and most copies were destroyed.
+On 3 May Spies addressed strikers outside the McCormick Harvesting Machine Company works. When workers surged towards strikebreakers leaving the plant, police opened fire, killing two strikers. Anarchists printed leaflets calling a protest meeting for the next evening. The first version urged workers to arm themselves; Spies refused to speak unless the line was removed, and most copies were destroyed.
 
 ## The bomb
 
@@ -24,7 +24,7 @@ A wave of raids, arrests and press hysteria followed, aimed especially at anarch
 
 ## Pardon and debate
 
-In 1893 Governor John Peter Altgeld pardoned the three surviving prisoners, condemning the trial for its packed jury and biased judge and noting that no link to the bomber had been shown. Most historians have since regarded the case as a serious miscarriage of justice. Timothy Messer-Kruse, after re-reading the trial transcript, has argued instead that the proceedings were fair by the standards of the day. Historians including James Joll and Messer-Kruse point to Rudolf Schnaubelt, a police suspect, who fled the country, as the likely bomber.
+In 1893 Governor John Peter Altgeld pardoned the three surviving prisoners, condemning the trial for its packed jury and biased judge and noting that no link to the bomber had been shown. Most historians have since regarded the case as a serious miscarriage of justice. The historian Timothy Messer-Kruse has challenged this view. Historians including James Joll and Messer-Kruse point to Rudolf Schnaubelt, a police suspect, who fled the country, as the likely bomber.
 
 ## May Day
 

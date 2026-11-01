@@ -14,7 +14,7 @@ The fault broke over a length of about 1,200 to 1,300 kilometres, the longest ru
 
 ## The waves
 
-In deep water the tsunami was a low swell travelling at 500 to 1,000 kilometres an hour; near shore it slowed and reared up. It reached the coast of Aceh, at the northern tip of Sumatra, within about twenty minutes. Waves of 15 to 30 metres hit the province's west coast, and the water ran up to 51 metres on a hillside near Lhoknga. In Banda Aceh the flood reached three to four kilometres inland and swept away most buildings near the shore.
+In deep water the tsunami was a low swell travelling at 500 to 1,000 kilometres an hour; near shore it slowed and reared up. It reached the coast of Aceh, at the northern tip of Sumatra, within about twenty minutes. Waves of 15 to 30 metres hit the province's west coast, and the water ran up to 51 metres on a hillside near Lhoknga. In Banda Aceh the flood reached more than three kilometres inland and swept away most houses within two to three kilometres of the shore.
 
 Sri Lanka and the east coast of India were struck around one and a half to two hours after the earthquake, and Thailand about two hours after, because the waves slowed over the shallow Andaman Sea. Waves curved around Sri Lanka to hit its western shore and reached the Indian state of Kerala. The tsunami went on to strike [Somalia](/country/somalia) and the low-lying [Maldives](/country/maldives), caused a death near Cape Town some 8,000 kilometres away, and was detected as far as Mexico, Canada and Antarctica.
 

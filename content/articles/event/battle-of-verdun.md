@@ -16,7 +16,7 @@ Bad weather delayed the attack until 21 February 1916, when about 800 German gun
 
 ## A battle of attrition
 
-From March, French guns on the west bank of the Meuse caused heavy losses among the attackers, and the Germans extended the offensive across the river to hills such as the Mort Homme and Côte 304, without reaching their goals. Pétain rotated divisions through Verdun so that troops did not stay too long in the line, which meant that most of the French army served there at some point. In June the Germans took Fort Vaux and pushed towards Fleury and Fort Souville, coming within about four kilometres of the Verdun citadel. The village of Fleury changed hands sixteen times between late June and mid-August. Rain and shellfire turned the ground into a wasteland of craters, mud and human remains.
+From March, French guns on the west bank of the Meuse caused heavy losses among the attackers, and the Germans extended the offensive across the river to hills such as the Mort Homme and Côte 304, without reaching their goals. Pétain rotated divisions through Verdun so that troops did not stay too long in the line, which meant that most of the French army served there at some point. In June the Germans took Fort Vaux and pushed towards Fleury and Fort Souville, coming within about five kilometres of the Verdun citadel. The village of Fleury changed hands sixteen times between late June and mid-August. Rain and shellfire turned the ground into a wasteland of craters, mud and human remains.
 
 ## The French recovery
 

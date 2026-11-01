@@ -28,7 +28,7 @@ The war grew deeply unpopular in Russia, where uncensored television coverage da
 
 ## Toll and legacy
 
-Casualty figures remain disputed. Russia officially reported 5,500 military deaths, while independent figures run from 5,000 up to 14,000. Estimates of Chechen fighters killed range from about 2,800, according to Maskhadov, to 15,000, according to the Russian interior ministry. Between 30,000 and 100,000 Chechen civilians are estimated to have died, and over half a million people were forced from their homes. A peace treaty followed in 1997, but in 1999 Russian forces invaded again, beginning the Second Chechen War.
+Casualty figures remain disputed. Russia officially reported 5,500 military deaths, while independent figures run from 5,000 up to 14,000. Estimates of Chechen fighters killed range from about 2,800, according to Maskhadov, to 10,000–15,000 by the end of 1995 alone, according to the Russian interior ministry. Between 30,000 and 100,000 Chechen civilians are estimated to have died, and over half a million people were forced from their homes. A peace treaty followed in 1997, but in 1999 Russian forces invaded again, beginning the Second Chechen War.
 
 ## On our maps
 

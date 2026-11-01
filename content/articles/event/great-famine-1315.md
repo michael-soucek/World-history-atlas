@@ -16,7 +16,7 @@ In the spring of 1315 heavy rain began to fall and continued through the summer.
 
 ## Hunger and disease
 
-The famine affected most of northern Europe, including England, Ireland, Scotland, northern France, the Low Countries, Scandinavia, Germany and western Poland; the Alps and the Pyrenees roughly marked its southern limit. People ate seed grain and draught animals, and then whatever else they could find. Weakened by hunger, many died of disease. Chroniclers recorded children abandoned by their parents, a sharp rise in crime and rumours of cannibalism, though such reports are difficult to verify. Towns were hit hard because they depended on food from outside: in Ypres, in Flanders, perhaps a tenth of the population died in 1316.
+The famine affected most of northern Europe, including England, Ireland, Scotland, northern France, the Low Countries, Scandinavia, Germany and western Poland; the Alps and the Pyrenees roughly marked its southern limit. People ate seed grain and draught animals, and then whatever else they could find. Weakened by hunger, many died of disease. Chroniclers recorded children abandoned by their parents, a sharp rise in crime and rumours of cannibalism, though such reports are difficult to verify. Towns were hit hard because they depended on food from outside.
 
 Estimates of the total death toll are uncertain. Historians commonly suggest that around 10 to 15 percent of the population died in parts of England and northern France, and that some towns may have lost a quarter of their inhabitants.
 

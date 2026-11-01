@@ -20,7 +20,7 @@ There was at first no civil government and no law on mining rights, so miners ad
 
 ## Native Californians and foreign miners
 
-For Native Californians the rush was a disaster. Mining destroyed fisheries and food sources, bringing starvation and disease, and settlers and militias carried out repeated massacres. The historian Benjamin Madley estimates that non-Native people killed at least 9,400 to 16,000 Native Californians between 1846 and 1873, and these killings are now often referred to as the California genocide. A state law of 1850 allowed settlers to hold Native people as bound labourers. Foreign miners also faced hostility: a foreign miners' tax of 1851 fell mainly on Latin Americans, and Chinese miners suffered violent racism.
+For Native Californians the rush was a disaster. Mining destroyed fisheries and food sources, bringing starvation and disease, and settlers and militias carried out repeated massacres. The historian Benjamin Madley estimates that non-Native people killed at least 9,400 to 16,000 Native Californians between 1846 and 1873, and these killings are now often referred to as the California genocide. A state law of 1850 allowed settlers to hold Native people as bound labourers. Foreign miners also faced hostility: a foreign miners' tax of 1850 fell mainly on Latin Americans, and Chinese miners suffered violent racism.
 
 ## Statehood and change
 

@@ -14,7 +14,7 @@ From 1961 the regime was also fighting independence movements in Angola, Mozambi
 
 ## The Armed Forces Movement
 
-By late 1973 many career officers had concluded that the wars could not be won and needed a political solution. They were also angered by new decrees letting short-course militia officers rise on equal terms with academy graduates. Led by Vasco Lourenço, Vítor Alves and Otelo Saraiva de Carvalho, they formed the Armed Forces Movement (MFA). General António de Spínola, removed from his command in Guinea in early 1974 after publishing a book critical of colonial policy, became a figurehead for reform. A premature rising at Caldas da Rainha on 16 March failed, but it persuaded the government that the threat was smaller than it was.
+By late 1973 many career officers had concluded that the wars could not be won and needed a political solution. They were also angered by new decrees letting short-course militia officers rise on equal terms with academy graduates. Led by Vasco Lourenço, Vítor Alves and Otelo Saraiva de Carvalho, they formed the Armed Forces Movement (MFA). General António de Spínola, a former governor of Portuguese Guinea who was dismissed from the army leadership in early 1974 after publishing a book critical of colonial policy, became a figurehead for reform. A premature rising at Caldas da Rainha on 16 March failed, but it persuaded the government that the threat was smaller than it was.
 
 ## Two songs and a coup
 

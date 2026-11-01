@@ -14,7 +14,7 @@ In 1552 a revolt by Maurice, the Protestant elector of Saxony, and other princes
 
 ## Three principles
 
-The settlement rested on three principles. First, the ruler of each territory decided whether it would be Lutheran or Catholic, and his subjects were in general expected to follow. Those who would not conform were allowed to move to a territory of their own faith, selling their property after paying local taxes, a right of emigration that was novel for its time. Serfs, however, were effectively excluded from it.
+The settlement rested on three principles. First, the ruler of each territory decided whether it would be Lutheran or Catholic, and his subjects were in general expected to follow. Those who would not conform were allowed to move to a territory of their own faith, selling their property after paying local taxes. Serfs, however, were effectively excluded from it.
 
 Second, the ecclesiastical reservation dealt with the prince-bishops and abbots who ruled territories as churchmen. If one of them became a Protestant, his subjects were not to be converted with him, and he was expected to resign his office, although the agreement did not say so explicitly.
 

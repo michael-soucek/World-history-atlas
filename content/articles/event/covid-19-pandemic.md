@@ -8,7 +8,7 @@ A new coronavirus, later named SARS-CoV-2, was identified in the Chinese city of
 
 ## Outbreak in Wuhan
 
-The outbreak was detected in Wuhan, in the [Chinese](/place/china) province of Hubei, in late 2019; molecular studies suggest the first infections probably occurred in October or November. Many early patients had connections to the city's Huanan Seafood Wholesale Market, where live animals were also on sale. Local doctors raised the alarm in late December, and several of them, including the ophthalmologist Li Wenliang, were detained by police in early January 2020 for "spreading rumours". The WHO's China office was notified of a cluster of unexplained pneumonia cases on 31 December 2019. Chinese authorities identified the new virus on 7 January, its genome was published on 10 January, and the first confirmed death occurred in Wuhan on 9 January.
+The outbreak was detected in Wuhan, in the [Chinese](/place/china) province of Hubei, in late 2019; molecular studies suggest the first infections probably occurred in October or November. Many early patients had connections to the city's Huanan Seafood Wholesale Market, where live animals were also on sale. Local doctors raised the alarm in late December, and several of them, including the ophthalmologist Li Wenliang, were detained by police in early January 2020 for "spreading false rumours". The WHO's China office was notified of a cluster of unexplained pneumonia cases on 31 December 2019. Chinese authorities identified the new virus on 7 January, its genome was published on 10 January, and the first confirmed death occurred in Wuhan on 9 January.
 
 ## The question of origins
 

@@ -13,7 +13,7 @@ After China's defeat in the [First Sino-Japanese War](/event/first-sino-japanese
 
 ## The Boxers
 
-The movement called itself the Yihequan, the Fists of Righteousness and Harmony, and later the Yihetuan, or militia. It drew on secret societies and popular religion in Shandong, mainly among poor farmers and young men. Members practised rituals they believed made them invulnerable to bullets. Initially hostile to the ruling dynasty, the Boxers adopted the slogan "Support the Qing, destroy the foreigners". From 1899 they spread across Shandong and Zhili, the province around Beijing, attacking churches, missionaries and converts, and tearing up railways and telegraph lines.
+The movement called itself the Yihequan, the Fists of Righteousness and Harmony, and later the Yihetuan, or militia. It drew on secret societies and popular religion in Shandong, mainly among poor farmers and young men. Members practised rituals they believed made them invulnerable to bullets. Whether the movement was ever hostile to the ruling dynasty is debated by historians, but the Boxers adopted the slogan "Support the Qing, destroy the foreigners". From 1899 they spread across Shandong and Zhili, the province around Beijing, attacking churches, missionaries and converts, and tearing up railways and telegraph lines.
 
 ## The siege of the legations
 

@@ -12,7 +12,7 @@ At a conference at Chantilly in December 1915, the Allies agreed to launch simul
 
 ## The first day
 
-The attack began on 1 July 1916 after a five-day artillery bombardment. South of the Albert–Bapaume road the German defence largely gave way, and the French Sixth Army, as well as the British divisions beside it, took their objectives. Further north, however, the German defenders held commanding ground, and their machine guns and artillery cut down the advancing British infantry. The British Fourth Army suffered 57,470 casualties that day, including 19,240 killed. Research published in 2016 found that German interrogators had learned the date and place of the attack weeks earlier from two British soldiers.
+The attack began on 1 July 1916 after an artillery bombardment that had begun on 24 June. South of the Albert–Bapaume road the German defence largely gave way, and the French Sixth Army, as well as the British divisions beside it, took their objectives. Further north, however, the German defenders held commanding ground, and their machine guns and artillery cut down the advancing British infantry. The British Fourth Army suffered 57,470 casualties that day, including 19,240 killed. Research published in 2016 found that German interrogators had learned the date and place of the attack weeks earlier from two British soldiers.
 
 ## Attrition through summer and autumn
 
@@ -20,7 +20,7 @@ The battle then became a long series of costly attacks on fortified villages, wo
 
 ## Results and casualties
 
-By the end, the Allies had advanced up to about ten kilometres along most of the front, their largest territorial gain since 1914, but they had not taken the key towns of Péronne and Bapaume. Casualty figures are disputed. British and French losses together were around 620,000, roughly two-thirds of them British. Estimates of German losses range from about 237,000 to more than 600,000, depending on the source and on how casualties are counted. After further British attacks in early 1917, the Germans withdrew by about 40 kilometres to the Hindenburg Line in March.
+By the end, the Allies had advanced up to about ten kilometres along most of the front, their largest territorial gain since 1914, but they had not taken the key towns of Péronne and Bapaume. Casualty figures are disputed. British and French losses together were around 620,000, roughly two-thirds of them British. Estimates of German losses range from about 237,000 to about 600,000, depending on the source and on how casualties are counted. After further British attacks in early 1917, the Germans withdrew by about 40 kilometres to the Hindenburg Line in March.
 
 ## Memory and debate
 

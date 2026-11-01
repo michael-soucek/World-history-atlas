@@ -14,7 +14,7 @@ In 1560 an Ottoman fleet routed a Christian expedition at Djerba, and the knight
 
 ## The armies
 
-The Ottoman fleet sailed from Constantinople on 22 March 1565. The order's historian Giacomo Bosio counted 193 vessels. Figures for the army differ widely: de Valette's early letter gave 15,000 to 16,000 landing troops, another contemporary 22,000, while the soldier-diarist Francisco Balbi listed about 40,000 in all; many historians accept a figure of around 30,000. Balbi put the defenders at about 6,100, including 500 knights, Spanish and Italian troops, galley slaves and some 3,000 Maltese.
+The Ottoman fleet sailed from Constantinople on 22 March 1565. The order's historian Giacomo Bosio counted 193 vessels. Figures for the army differ widely: de Valette's early letter gave 15,000 to 16,000 landing troops, another contemporary 22,000, while the soldier-diarist Francisco Balbi listed about 40,000 in all; Bosio arrived at a total of about 30,000. Balbi put the defenders at about 6,100, including 500 knights, Spanish and Italian troops, galley slaves and some 3,000 Maltese.
 
 ## The fall of St Elmo
 

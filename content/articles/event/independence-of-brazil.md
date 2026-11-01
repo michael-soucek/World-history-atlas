@@ -20,7 +20,7 @@ Encouraged by his wife, Maria Leopoldina, and by Brazilian politicians, Pedro an
 
 ## The Cry of Ipiranga
 
-On 7 September 1822, while travelling back from São Paulo, Pedro received letters reporting that the Cortes had stripped him of his remaining powers and ordered him home. He declared that ties with Portugal were broken, a moment remembered as the Cry of Ipiranga. He was acclaimed emperor in Rio de Janeiro on 12 October and crowned on 1 December 1822.
+On 7 September 1822, while travelling near São Paulo, Pedro received letters reporting that the Cortes had stripped him of his remaining powers and ordered him home. He declared that ties with Portugal were broken, a moment remembered as the Cry of Ipiranga. He was acclaimed emperor in Rio de Janeiro on 12 October and crowned on 1 December 1822.
 
 ## War of independence
 

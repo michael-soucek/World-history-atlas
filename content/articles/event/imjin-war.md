@@ -28,7 +28,7 @@ Hideyoshi invaded again in 1597. Yi Sun-sin had been dismissed and imprisoned af
 
 ## The cost
 
-Korea suffered enormous losses of life, though figures are uncertain, along with famine, disease and the destruction of farmland, palaces and records. Tens of thousands of Koreans were taken to Japan, among them potters and other craftsmen. The Mimizuka mound in Kyoto holds noses and ears cut from Korean and Chinese dead as trophies. The cost of the war weakened Ming finances in the decades before the dynasty's fall, while in Japan power passed to [Tokugawa Ieyasu](/person/tokugawa-ieyasu), who restored relations with Korea in 1607.
+Korea suffered enormous losses of life, though figures are uncertain, along with famine, disease and the destruction of farmland, palaces and records. Tens of thousands of Koreans were taken to Japan, among them potters and other craftsmen. The Mimizuka mound in Kyoto holds noses and ears cut from Korean and Chinese dead as trophies. The cost of the war weakened Ming finances in the decades before the dynasty's fall, while in Japan power passed to [Tokugawa Ieyasu](/person/tokugawa-ieyasu), who restored relations with Korea about a decade after the war.
 
 ## On our maps
 

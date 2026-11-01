@@ -20,7 +20,7 @@ Oslo I set out a five-year interim period. Israel would first withdraw from Gaza
 
 ## Violence and opposition
 
-The process faced strong opposition on both sides. Less than six months after the signing, an Israeli extremist killed 29 Palestinians at the Cave of the Patriarchs, and Hamas responded with its first lethal suicide bombings; by its own account it aimed to derail the process. Many Palestinians rejected the terms, and the scholar Edward Said called them a "Palestinian Versailles". On the Israeli right the accords were bitterly opposed, and in 1995 Rabin was assassinated by a right-wing Israeli extremist. Rabin, Arafat and Shimon Peres had shared the Nobel Peace Prize in 1994.
+The process faced strong opposition on both sides. Less than six months after the signing, an Israeli extremist killed 29 Palestinians at the Cave of the Patriarchs, and Hamas responded with its first lethal suicide bombings; part of a campaign of attacks that year aimed at derailing the process. Many Palestinians rejected the terms, and the scholar Edward Said called them a "Palestinian Versailles". On the Israeli right the accords were bitterly opposed, and in 1995 Rabin was assassinated by a right-wing Israeli extremist. Rabin, Arafat and Shimon Peres had shared the Nobel Peace Prize in 1994.
 
 ## Stalemate
 

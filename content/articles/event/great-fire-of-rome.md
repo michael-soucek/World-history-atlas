@@ -22,7 +22,7 @@ Nero was at his villa in Antium, about 35 miles away, when the fire began. He re
 
 ## Rumours and blame
 
-The speed with which Nero built his new palace fed rumours that he had set the fire to clear the land, although much of it already belonged to him. The surviving accounts, by Tacitus, Suetonius and Cassius Dio, all written later, offer differing stories, including the famous claim that the emperor sang while the city burned. Tacitus, the most detailed and generally most reliable of them, hints at Nero's guilt without directly accusing him. Most modern historians think that the fire was probably an accident, the almost inevitable result of an overcrowded city poorly equipped to fight large fires.
+The speed with which Nero built his new palace fed rumours that he had set the fire to clear the land, although much of it already belonged to him. The surviving accounts, by Tacitus, Suetonius and Cassius Dio, all written later, offer differing stories, including the famous claim that the emperor sang while the city burned. Tacitus, the most detailed and generally most reliable of them, hints at Nero's guilt without directly accusing him. The fire may well have been an accident, the almost inevitable result of an overcrowded city poorly equipped to fight large fires.
 
 ## The persecution of Christians
 

@@ -17,13 +17,13 @@ In 1845 a previously unknown disease, potato blight, caused by the organism Phyt
 
 ## Relief and its limits
 
-The Conservative government of Robert Peel bought maize from America to keep food prices down and set up public works so the poor could earn wages. In 1846 Peel also secured the repeal of the Corn Laws, the tariffs on imported grain. The Whig government of Lord John Russell that followed in mid-1846 relied more heavily on the market and on local taxation. Its relief schemes were run under the Treasury official Charles Trevelyan, who believed that too much aid would encourage dependence. Public works employed hundreds of thousands at low wages but could not prevent mass death. In 1847 government soup kitchens fed around three million people a day at their peak, but they were closed after a few months, and the burden shifted to the overcrowded workhouses of the Poor Law system.
+The Conservative government of Robert Peel bought maize from America to keep food prices down and set up public works so the poor could earn wages. In 1846 Peel also secured the repeal of the Corn Laws, the tariffs on imported grain. The Whig government of Lord John Russell that followed in mid-1846 relied more heavily on the market and on local taxation. Its relief schemes were run under the Treasury official Charles Trevelyan, who believed that too much aid would encourage dependence. Public works employed hundreds of thousands at low wages but could not prevent mass death. In 1847 the government opened soup kitchens to feed the hungry directly, but they were closed after a few months, and the burden shifted to the overcrowded workhouses of the Poor Law system.
 
 Private charity, including Quaker relief committees, the British Relief Association and donors abroad, provided further help. Meanwhile grain, livestock and butter continued to be exported from Ireland, a fact that has caused lasting bitterness, although historians debate how far banning exports would have closed the food gap.
 
 ## Evictions and emigration
 
-A provision of the 1847 relief law, the Gregory clause, denied public relief to anyone holding more than a quarter of an acre of land, forcing many to give up their holdings. Landlords, facing heavy local taxes for the poor, cleared tenants on a large scale. Over a million people emigrated between 1845 and 1855, chiefly to the [United States](/country/united-states), Canada and Britain, often in crowded and disease-ridden ships.
+A provision of the 1847 relief law, the Gregory clause, denied public relief to anyone holding more than a quarter of an acre of land, forcing many to give up their holdings. Landlords, facing heavy local taxes for the poor, cleared tenants on a large scale. At least 2.1 million people emigrated between 1845 and 1855, chiefly to the [United States](/country/united-states), Canada and Britain, often in crowded and disease-ridden ships.
 
 ## Consequences
 

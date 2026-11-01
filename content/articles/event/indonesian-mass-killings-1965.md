@@ -12,7 +12,7 @@ In the early 1960s President Sukarno governed by balancing three forces he calle
 
 ## The 30 September Movement
 
-On the night of 30 September 1965 the movement seized and killed six of the army's most senior generals, saying it was protecting Sukarno from a plot by a pro-Western "Council of Generals", but its leadership proved confused. Major General Suharto, commander of the army's strategic reserve, retook central Jakarta with almost no resistance and within days held real control of the government. From 5 October, the day of the generals' funeral, an army propaganda campaign pinned the affair on the PKI, spreading lurid and partly false accounts of how the officers had died. The party denied any involvement.
+On the night of 30 September 1965 the movement seized and killed six of the army's most senior generals, saying it was protecting Sukarno from a plot by a pro-Western "Council of Generals", but its leadership proved confused. Major General Suharto, commander of the army's strategic reserve, retook central Jakarta with almost no resistance and within days held real control of the government. From 5 October, the day of the generals' funeral, an army propaganda campaign pinned the affair on the PKI, spreading lurid and partly false accounts of how the officers had died.
 
 ## The killings
 

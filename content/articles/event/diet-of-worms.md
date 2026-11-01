@@ -24,7 +24,7 @@ Luther was not arrested at Worms, since his safe conduct still held, and he set 
 
 ## Other business
 
-The diet also dealt with the government of the Empire. Because Charles also ruled Spain and the Netherlands and was often absent, he named deputies, and his younger brother Ferdinand was raised to archduke and given charge of the Austrian hereditary lands. Ferdinand would succeed Charles as emperor after his abdications in 1556.
+The diet also dealt with the government of the Empire. Because Charles also ruled Spain and the Netherlands and was often absent, he named deputies, and his younger brother, Archduke Ferdinand, was given charge of the Austrian hereditary lands. Ferdinand would succeed Charles as emperor after his abdications in 1556.
 
 ## Aftermath
 

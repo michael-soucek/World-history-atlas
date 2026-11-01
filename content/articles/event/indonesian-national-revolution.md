@@ -28,7 +28,7 @@ On 19 December 1948 the Dutch launched a second offensive, captured Yogyakarta a
 
 ## Independence
 
-Talks at a Round Table Conference in The Hague in 1949 led the [Netherlands](/country/netherlands) to recognise the sovereignty of the federal United States of Indonesia, while keeping Western New Guinea for the time being. The federal states created by the Dutch were dissolved into a unitary Republic during 1950. Estimates of Indonesian deaths range from about 97,000 to 100,000, while more than 4,000 Dutch and nearly 1,000 British soldiers were killed or went missing. In 2022 a major Dutch historical study concluded that Dutch forces had used extreme violence that was widespread and often deliberate, and the Dutch government apologised.
+Talks at a Round Table Conference in The Hague in 1949 led the [Netherlands](/country/netherlands) to recognise the sovereignty of the federal United States of Indonesia, while keeping Western New Guinea for the time being. The federal states created by the Dutch were dissolved into a unitary Republic during 1950. Estimates of Indonesian deaths range from about 97,000 to 100,000, while more than 4,000 Dutch and between about 980 and 1,200 British soldiers were killed. In 2022 a major Dutch historical study concluded that Dutch forces had used extreme violence that was widespread and often deliberate, and the Dutch government apologised.
 
 ## On our maps
 

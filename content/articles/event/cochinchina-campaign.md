@@ -20,7 +20,7 @@ On 17 February 1859 the allies forced their way up the Saigon river and captured
 
 ## Ky Hoa and the south
 
-With the China war over, Admiral Léonard Charner brought a fleet of 70 ships and 3,500 soldiers south. On 24 and 25 February 1861 the allies stormed the Vietnamese siege lines at Ky Hoa, defeating Nguyễn Tri Phương at considerable cost. Mỹ Tho fell without a fight on 12 April. France now demanded the cession of territory, an indemnity and freedom of trade, which Tự Đức refused. He turned to guerrilla resistance, and French troops responded with a harshness that fed further revolt. In a separate incident on 31 July 1861 the American warship USS Saginaw, fired on while searching for missing sailors, destroyed the fort at Qui Nhơn. Admiral Louis Bonard, Charner's successor, took Biên Hòa on 16 December 1861 and Vĩnh Long in March 1862.
+With the China war over, Admiral Léonard Charner brought a fleet of 70 ships and 3,500 soldiers south. On 24 and 25 February 1861 the allies stormed the Vietnamese siege lines at Ky Hoa, defeating Nguyễn Tri Phương at considerable cost. Mỹ Tho fell without a fight on 12 April. Shortly before, France had demanded the cession of territory, an indemnity and freedom of trade, which Tự Đức refused. He turned to guerrilla resistance, and French troops responded with a harshness that fed further revolt. In a separate incident on 31 July 1861 the American warship USS Saginaw, fired on while searching for missing sailors, destroyed the fort at Qui Nhơn. Admiral Louis Bonard, Charner's successor, took Biên Hòa on 16 December 1861 and Vĩnh Long in March 1862.
 
 ## The Treaty of Saigon
 

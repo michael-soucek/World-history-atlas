@@ -8,7 +8,7 @@ The Crisis of the Third Century was a period of about fifty years, usually dated
 
 ## The soldier emperors
 
-The crisis began in 235 when the young emperor Severus Alexander was murdered by his own troops on the Rhine frontier. His successor, Maximinus Thrax, was a career soldier who had risen from the ranks. Over the next half-century the armies repeatedly made and unmade emperors. More than two dozen men held or claimed the imperial title during this period, and most died violently, killed by their own soldiers or rivals. In 238 alone six men were proclaimed emperor. Because each new ruler depended on the goodwill of the army, he had to reward it with money and was constantly pulled away from the frontiers by rebellions.
+The crisis began in 235 when the young emperor Severus Alexander was murdered by his own troops on the Rhine frontier. His successor, Maximinus Thrax, was a career soldier who had risen from the ranks. Over the next half-century the armies repeatedly made and unmade emperors. More than two dozen men held or claimed the imperial title during this period, and most died violently, killed by their own soldiers or rivals. In 238 alone six men held the imperial title. Because each new ruler depended on the goodwill of the army, he had to reward it with money and was constantly pulled away from the frontiers by rebellions.
 
 ## Threats on every frontier
 
