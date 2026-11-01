@@ -10,6 +10,10 @@ const nextConfig: NextConfig = {
     "/event/[slug]": ["./content/articles/event/**/*"],
     "/culture/[slug]": ["./content/articles/culture/**/*"],
     "/explorer/[slug]": ["./content/articles/explorer/**/*"],
+    "/site/[slug]": ["./content/articles/site/**/*"],
+    "/history-of/[slug]": ["./content/articles/city/**/*"],
+    // The map panel shows the opening of our own article.
+    "/api/place/[wikidataId]": ["./content/articles/place/**/*", "./content/articles/culture/**/*"],
   },
   async redirects() {
     return [

@@ -92,7 +92,7 @@ export default function SiteFooter() {
       <div className="border-t border-white/10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 flex flex-col lg:flex-row gap-2 lg:justify-between lg:gap-6 text-[12px] text-parchment/62 leading-relaxed">
           <span>Written from credible, cited sources. Contested topics present perspectives, not verdicts.</span>
-          <span>Borders from historical-basemaps, GPL-3.0, with our corrections · Text from Wikipedia, CC BY-SA 4.0</span>
+          <span>Borders from historical-basemaps, GPL-3.0, with our corrections · Articles written by us; facts from Wikidata, images from Wikimedia Commons</span>
           <span>
             As an Amazon Associate we earn from qualifying purchases. Some book and tour links are affiliate links;{" "}
             <Link href="/terms" className="underline underline-offset-2 hover:text-parchment/70 transition-colors">disclosure</Link>.

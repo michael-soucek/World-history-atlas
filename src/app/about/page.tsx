@@ -168,7 +168,10 @@ export default function AboutPage() {
             <div className="flex-1 h-px bg-paper" />
           </div>
           <p className="text-ink/70 text-sm leading-relaxed">
-            Summaries are fetched from the{" "}
+            Every article on the site is written by Borders of Time from the sources listed beneath
+            it, mostly Wikipedia and Wikidata, checked and put in our own words. The map&rsquo;s side
+            panel shows the opening of that article. Where a page has no article yet, a short summary
+            from the{" "}
             <a
               href="https://en.wikipedia.org/api/rest_v1/"
               target="_blank"
@@ -177,7 +180,7 @@ export default function AboutPage() {
             >
               Wikipedia REST API
             </a>{" "}
-            and are licensed under{" "}
+            is shown instead, licensed under{" "}
             <a
               href="https://creativecommons.org/licenses/by-sa/4.0/"
               target="_blank"
@@ -186,7 +189,7 @@ export default function AboutPage() {
             >
               CC BY-SA 4.0
             </a>
-            . Entity data (identifiers, Wikipedia title linkages) comes from{" "}
+            . Entity data (dates, places, identifiers) comes from{" "}
             <a
               href="https://www.wikidata.org"
               target="_blank"
