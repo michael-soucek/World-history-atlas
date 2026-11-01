@@ -13,7 +13,7 @@ In the 1530s a commander from the Muslim lowlands of the Horn of Africa overran 
 
 ## Rise in Adal
 
-Ahmad was born in 1506 in Hubat, in the lowlands near Harar, then part of the Adal Sultanate. Historians disagree about his ethnic origins: he has been described as Somali, as Harla or Harari, and as Balaw. He came to prominence as a follower of Garad Abun Adashe, a popular leader who fought the ruling Walashma dynasty, and married Bati del Wambara, a daughter of the earlier ruler Imam Mahfuz. After Sultan Abu Bakr ibn Muhammad killed Adashe in 1525, Ahmad held out in Hubat, defeated the sultan's forces and also ambushed an army sent by the Ethiopian emperor Dawit II. Mediation by the religious leaders of Harar eventually reconciled him with the sultan, and from 1527 he held power in Adal with the title of imam.
+Ahmad was born in 1506 in Hubat, in the lowlands near Harar, then part of the Adal Sultanate. Historians disagree about his ethnic origins: he has been described as Somali, as Harla or Harari, and as Balaw. He came to prominence as a follower of Garad Abun Adashe, a popular leader who fought the ruling Walashma dynasty, and married Bati del Wambara, a daughter of the earlier ruler Imam Mahfuz. After Sultan Abu Bakr ibn Muhammad killed Adashe in 1525, Ahmad held out in Hubat, defeated the sultan's forces and also ambushed an army sent by the Ethiopian emperor Dawit II. Mediation by the religious leaders of Harar briefly reconciled him with the sultan, but the peace soon broke down; Ahmad eventually killed Abu Bakr, set up a puppet sultan, and from 1527 held power in Adal with the title of imam.
 
 ## The conquest of the highlands
 

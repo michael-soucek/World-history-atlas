@@ -9,7 +9,7 @@ sources:
   - Wikidata: Augusto Pinochet (Q368) | https://www.wikidata.org/wiki/Q368
 written: 2026-10-30
 ---
-Augusto Pinochet was the Chilean army commander who took power in the military coup of September 1973 and ruled Chile as head of a military government until 1990, longer than any other Chilean head of state. His regime carried out free-market economic reforms that remain debated, and official Chilean commissions documented thousands of killings, disappearances and cases of torture under his rule. He died in 2006 facing charges at home but never convicted.
+Augusto Pinochet was the Chilean army commander who took power in the military coup of September 1973 and ruled Chile as head of a military government until 1990. His regime carried out free-market economic reforms that remain debated, and official Chilean commissions documented thousands of killings, disappearances and cases of torture under his rule. He died in 2006 facing charges at home but never convicted.
 
 ## An army career
 

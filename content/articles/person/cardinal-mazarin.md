@@ -17,7 +17,7 @@ Mazarin was born on 14 July 1602 at Pescina, in the Abruzzo, to a family living 
 
 ## Peacemaker at Casale
 
-His first mission was to head off a war between France and Spain over Mantua in northern Italy. On 26 October 1630, as the two armies faced each other outside Casale, Mazarin famously galloped between them waving a paper and shouting for peace, carrying terms that both commanders accepted. The settlement impressed [Cardinal Richelieu](/person/cardinal-richelieu), France's chief minister. As papal envoy in Paris and nuncio from 1634, Mazarin cultivated the French court with gifts. Although he wore clerical dress, he never became a priest. Increasingly identified with France, he moved to Paris in January 1640 to serve Richelieu and was made a cardinal in December 1641.
+His first mission was to head off a war between France and Spain over Mantua in northern Italy. On 26 October 1630, as the two armies faced each other outside Casale, Mazarin famously galloped between them waving a paper and shouting for peace, carrying terms that both commanders accepted. The settlement impressed [Cardinal Richelieu](/person/cardinal-richelieu), France's chief minister. As papal envoy in Paris and nuncio from 1634, Mazarin cultivated the French court with gifts. Increasingly identified with France, he moved to Paris in January 1640 to serve Richelieu and was made a cardinal in December 1641.
 
 ## First minister
 

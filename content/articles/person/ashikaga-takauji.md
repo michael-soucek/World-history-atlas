@@ -23,7 +23,7 @@ In 1331 Emperor Go-Daigo rose against the Hōjō, and in 1333 Takauji was sent t
 
 ## Breaking with the emperor
 
-Many samurai soon resented the new court, which seemed to ignore their interests, and looked to Takauji as their champion. He clashed with Go-Daigo's son Prince Moriyoshi, whom he had arrested and, in 1335, executed by his brother Ashikaga Tadayoshi. That year Takauji crushed a rising by Hōjō Takatoki's son, seized Kamakura, styled himself shogun and handed out land to his followers without the court's approval. Go-Daigo sent Nitta Yoshisada against him and drove him west.
+Many samurai soon resented the new court, which seemed to ignore their interests, and looked to Takauji as their champion. He clashed with Go-Daigo's son Prince Moriyoshi, whom he had arrested and, in 1335, executed by his brother Ashikaga Tadayoshi. That year Takauji crushed a rising by Hōjō Takatoki's son, seized Kamakura, styled himself shogun and handed out land to his followers without the court's approval. Go-Daigo sent Nitta Yoshisada against him; Takauji beat Nitta and briefly took Kyoto in early 1336, but was driven out and fled west.
 
 ## Victory and two courts
 
@@ -31,7 +31,7 @@ Takauji regrouped in Kyushu, where his victory at Tatarahama in 1336 won over ma
 
 ## A divided regime
 
-Takauji and Tadayoshi at first shared power, Takauji commanding the vassals and rewards, his brother running justice and administration. From 1349 their quarrel, known as the Kannō disturbance, tore the regime apart; each brother at times nominally submitted to the Southern Court to fight the other, and Kyoto changed hands repeatedly in the early 1350s. Tadayoshi died in 1352, leaving Takauji in sole control, but Southern forces, joined by defectors such as Tadayoshi's adopted son Tadafuyu, kept fighting.
+Takauji and Tadayoshi at first shared power, Takauji commanding the vassals and rewards, his brother running justice and administration. From 1349 their quarrel, known as the Kannō disturbance, tore the regime apart; Tadayoshi at one point went over to the Southern Court to fight his brother, and Kyoto changed hands repeatedly in the early 1350s. Tadayoshi died in 1352, leaving Takauji in sole control, but Southern forces, joined by defectors such as Tadayoshi's adopted son Tadafuyu, kept fighting.
 
 ## Death and legacy
 

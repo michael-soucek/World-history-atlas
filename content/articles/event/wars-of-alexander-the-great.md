@@ -12,7 +12,7 @@ Alexander's father, [Philip II of Macedon](/person/philip-ii-of-macedon), had ma
 
 ## The conquest of Asia Minor and the Levant
 
-In 334 BCE Alexander crossed the Hellespont with an army of perhaps 30,000 to 40,000 infantry and around 5,000 cavalry. He defeated the local Persian commanders at the Granicus River and took over the Greek cities of western Asia Minor. In 333 BCE he met King Darius III for the first time at Issus, in the corner between Anatolia and Syria, and routed him. Instead of pursuing Darius, he turned south to take the Phoenician ports and deny the Persian fleet its bases. Tyre resisted for about seven months before falling in 332 BCE, and Gaza also had to be besieged.
+In 334 BCE Alexander crossed the Hellespont into Asia with a Macedonian and allied Greek army. He defeated the local Persian commanders at the Granicus River and took over the Greek cities of western Asia Minor. In 333 BCE he met King Darius III for the first time at Issus, in the corner between Anatolia and Syria, and routed him. Instead of pursuing Darius, he turned south to take the Phoenician ports and deny the Persian fleet its bases. Tyre resisted a long and difficult siege before falling in 332 BCE, and Gaza also had to be besieged.
 
 ## Egypt and Mesopotamia
 

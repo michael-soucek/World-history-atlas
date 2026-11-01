@@ -13,7 +13,7 @@ Prithviraja III, popularly called Prithviraj Chauhan, was a king of the Chahaman
 
 ## The sources
 
-Only seven inscriptions from his reign are known, none issued by the king himself. The only literary work from his lifetime, the Prithviraja Vijaya, is a court eulogy. Persian chronicles describe his wars with the Ghurids, while Jain and Hindu texts written centuries later add contradictory and sometimes demonstrably false episodes. The Prithviraj Raso, traditionally attributed to his court poet Chand Bardai, made him a great hero; historians treat most of its narrative as unhistorical.
+Only a few inscriptions from his reign are known, none issued by the king himself. The only literary work from his lifetime, the Prithviraja Vijaya, is a court eulogy. Persian chronicles describe his wars with the Ghurids, while Jain and Hindu texts written centuries later add contradictory and sometimes demonstrably false episodes. The Prithviraj Raso, traditionally attributed to his court poet Chand Bardai, made him a great hero; historians treat most of its narrative as unhistorical.
 
 ## Early life and reign
 

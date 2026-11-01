@@ -33,7 +33,7 @@ Looking for Christian allies against Egyptian and Ottoman pressure, Tewodros wro
 
 ## Magdala
 
-The British defeated his army at Arogye on 10 April 1868. Tewodros released the Europeans, but had several hundred Ethiopian prisoners thrown from the cliffs. When the British stormed Magdala on 15 April 1868, he shot himself rather than be captured. The fortress was looted and its treasures dispersed across Europe; his young son Alemayehu was taken to Britain and died there in 1879. Tewodros was eventually succeeded by Yohannes IV, and in Ethiopia he is remembered as a symbol of national unity and defiance.
+The British defeated his army at Arogye on 10 April 1868. Tewodros released the Europeans, but had several hundred Ethiopian prisoners thrown from the cliffs. When the British stormed Magdala on 13 April 1868, he shot himself rather than be captured. The fortress was looted and its treasures dispersed across Europe; his young son Alemayehu was taken to Britain and died there in 1879. Tewodros was eventually succeeded by Yohannes IV, and in Ethiopia he is remembered as a symbol of national unity and defiance.
 
 ## On our maps
 

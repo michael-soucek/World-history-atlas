@@ -14,7 +14,7 @@ A village schoolteacher from southern China who repeatedly failed the imperial c
 
 ## Examinations and visions
 
-Hong was born into a Hakka farming family in Hua county, near Guangzhou; most scholars accept 1 January 1814 as his birth date, though several others are recorded. His family paid for his schooling in the hope that he would pass the state examinations, the route into officialdom. He failed the provincial examination in Guangzhou several times. On a visit there in 1836 he was handed a set of Christian tracts by the Chinese preacher Liang Fa but paid them little attention. After a third failure in 1837 he suffered a breakdown and, during a long delirium, dreamed of ascending to Heaven, where a bearded father figure gave him a sword to fight the demons that men were worshipping.
+Hong was born into a Hakka farming family in Hua county, near Guangzhou; most scholars accept 1 January 1814 as his birth date, though several others are recorded. His family paid for his schooling in the hope that he would pass the state examinations, the route into officialdom. He failed the provincial examination in Guangzhou several times. On a visit there in 1836 he was handed a set of Christian tracts written by the Chinese preacher Liang Fa but paid them little attention. After a third failure in 1837 he suffered a breakdown and, during a long delirium, dreamed of ascending to Heaven, where a bearded father figure gave him a sword to fight the demons that men were worshipping.
 
 ## A new faith
 
@@ -22,7 +22,7 @@ In 1843, after his fourth and final failure, Hong read the tracts properly and d
 
 ## Rebellion
 
-By 1850 the society had tens of thousands of members and was clashing with local authorities and rival groups. When government troops attacked them at Jintian in January 1851, the God Worshippers won, and Hong proclaimed the Heavenly Kingdom of Great Peace. Breaking out of encirclement, the Taiping armies marched north into Hunan and on to the Yangtze valley, and in March 1853 they captured Nanjing, which Hong renamed Tianjing, the Heavenly Capital.
+By 1850 the society had more than 10,000 members and was clashing with local authorities and rival groups. When government troops attacked them at Jintian in January 1851, the God Worshippers won, and Hong proclaimed the Heavenly Kingdom of Great Peace. Breaking out of encirclement, the Taiping armies marched north into Hunan and on to the Yangtze valley, and in March 1853 they captured Nanjing, which Hong renamed Tianjing, the Heavenly Capital.
 
 ## The Heavenly King
 

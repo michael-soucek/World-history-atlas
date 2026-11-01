@@ -31,7 +31,7 @@ Thutmose built or enlarged more than fifty temples. At Karnak he added a festiva
 
 ## Hatshepsut's memory
 
-Many of Hatshepsut's images were later hacked out, and earlier scholars blamed a vengeful Thutmose. Datable erasures, however, began only around his 46th or 47th year, decades after her death, while he was co-ruling with his son Amenhotep II. Many historians now think the aim was to secure the succession of Amenhotep, whose claim was not beyond challenge.
+Many of Hatshepsut's images were later hacked out, and earlier scholars blamed a vengeful Thutmose. The erasures, however, came at least 25 years after her death, while he was co-ruling with his son Amenhotep II. Many historians now think the aim was to secure the succession of Amenhotep, whose claim was not beyond challenge.
 
 ## Death and burial
 

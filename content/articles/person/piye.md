@@ -29,7 +29,7 @@ Piye recorded the campaign on a granite stele, about six feet high, set up at Je
 
 ## Limits of victory and burial
 
-After the campaign Piye sailed home to Napata and, as far as is known, never returned to Egypt. His real authority reached only from Thebes to Herakleopolis, and the Delta princes soon went their own way; it was left to his successor Shebitku to defeat Tefnakht's successor at Sais. Piye's length of reign is debated: dated documents run to at least his year 24, and reliefs at Jebel Barkal show a jubilee usually held in a king's thirtieth year, so Kenneth Kitchen proposed a reign of at least 31 years. He was buried in a pyramid tomb at el-Kurru, near Jebel Barkal, with four of his favourite horses buried nearby. His son [Taharqa](/person/taharqa) later came to the throne after Piye's brother Shabaka and Shebitku.
+After the campaign Piye sailed home to Napata and, as far as is known, never returned to Egypt. His real authority reached only from Thebes to Herakleopolis, and the Delta princes soon went their own way; it was left to his successor Shebitku to defeat Tefnakht's successor at Sais. Piye's length of reign is debated: dated documents run to at least his year 24, and reliefs at Jebel Barkal show a jubilee usually held in a king's thirtieth year; Kenneth Kitchen has proposed a reign of at least 31 years. He was buried in a pyramid tomb at el-Kurru, near Jebel Barkal, with four of his favourite horses buried nearby. His son [Taharqa](/person/taharqa) later came to the throne after Piye's brother Shabaka and Shebitku.
 
 ## On our maps
 

@@ -16,7 +16,7 @@ The Soviet leader Leonid Brezhnev and the heads of neighbouring communist states
 
 ## Operation Danube
 
-At about 11 p.m. on 20 August, around 250,000 soldiers crossed the border with some 2,000 tanks; the force later grew to roughly half a million. Soviet troops outnumbered the others five to one. Romania refused to take part, Albania left the Warsaw Pact soon afterwards, and East German units were held back at the last moment for fear of recalling the German occupation three decades earlier. Soviet special forces seized Prague's airport for an airlift, and armoured columns reached the capital almost unopposed. The Czechoslovak army, lacking an independent chain of command, offered no effective resistance, and Dubček urged the population not to fight. The hardliners' plan to vote Dubček out collapsed when news of the invasion reached the party Presidium, which condemned it by seven votes to four.
+Around midnight on 20–21 August, some 250,000 soldiers crossed the border with some 2,000 tanks; the force later grew to roughly half a million. Soviet troops outnumbered the others five to one. Romania refused to take part, Albania left the Warsaw Pact soon afterwards, and East German units were held back at the last moment for fear of recalling the German occupation three decades earlier. Soviet special forces seized Prague's airport for an airlift, and armoured columns reached the capital almost unopposed. The Czechoslovak army, lacking an independent chain of command, offered no effective resistance, and Dubček urged the population not to fight. The hardliners' plan to vote Dubček out collapsed when news of the invasion reached the party Presidium, which condemned it by seven votes to four.
 
 ## Resistance and the Moscow Protocol
 
@@ -24,7 +24,7 @@ Dubček and other reformers were arrested and flown to Moscow. Across the countr
 
 ## Normalisation
 
-On 19 January 1969 the student Jan Palach burned himself to death in Prague's Wenceslas Square in protest. In April 1969 Dubček was replaced by Gustáv Husák, who reversed the reforms, purged the party and drove critics out of their jobs. Many of them later formed the dissident movement that led the [Velvet Revolution](/event/velvet-revolution) in 1989. Some 70,000 people fled immediately after the invasion, and around 300,000 emigrated before 1989. The doctrine that Moscow could intervene to protect socialism in an allied state became known as the Brezhnev Doctrine.
+On 16 January 1969 the student Jan Palach set himself on fire in Prague's Wenceslas Square in protest; he died three days later. In April 1969 Dubček was replaced by Gustáv Husák, who reversed the reforms, purged the party and drove critics out of their jobs. Many of them later formed the dissident movement that led the [Velvet Revolution](/event/velvet-revolution) in 1989. Some 70,000 people fled immediately after the invasion, and around 300,000 emigrated before 1989. The doctrine that Moscow could intervene to protect socialism in an allied state became known as the Brezhnev Doctrine.
 
 ## Reactions abroad
 

@@ -9,7 +9,7 @@ sources:
   - Wikidata: Theodosius I (Q46696) | https://www.wikidata.org/wiki/Q46696
 written: 2026-10-30
 ---
-Theodosius I, known as Theodosius the Great, ruled from 379 until his death in 395 and the last man to rule both halves of the [Roman Empire](/place/roman-empire). A general from Hispania, he took power after a catastrophic defeat by the Goths, made Nicene Christianity the official orthodoxy, and left the empire divided between his two sons.
+Theodosius I, known as Theodosius the Great, ruled from 379 until his death in 395 and was the last man to rule both halves of the [Roman Empire](/place/roman-empire). A general from Hispania, he took power after a catastrophic defeat by the Goths, made Nicene Christianity the official orthodoxy, and left the empire divided between his two sons.
 
 ## A soldier's son
 

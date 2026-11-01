@@ -21,7 +21,7 @@ In 1722 Afghan rebels under Mahmud Hotaki captured Isfahan and forced Shah Solta
 
 ## From general to shah
 
-Nader then turned on the Ottomans. When Tahmasp, acting on his own, lost Nader's gains and signed away Georgia and Armenia, Nader forced him to abdicate in 1732 in favour of his infant son, Abbas III, with Nader as regent. Defeated outside Baghdad in 1733, the only battle he is recorded as losing, he struck back and by 1735 had recovered the Caucasus, while Russia agreed to withdraw from the remaining Iranian lands it held. At a great assembly on the Moghan plain he accepted the crown and was proclaimed shah on 8 March 1736. He tried to steer Iran away from the strict Shia identity of the Safavids, proposing that it be recognised as a fifth school of Sunni law.
+Nader then turned on the Ottomans. When Tahmasp, acting on his own, lost Nader's gains and signed away Georgia and Armenia, Nader forced him to abdicate in 1732 in favour of his infant son, Abbas III, with Nader as regent. Routed by the Ottomans near Baghdad in 1733, he struck back and by 1735 had recovered the Caucasus, while Russia agreed to withdraw from the remaining Iranian lands it held. At a great assembly on the Moghan plain he accepted the crown and was proclaimed shah on 8 March 1736. He tried to steer Iran away from the strict Shia identity of the Safavids, proposing that it be recognised as a fifth school of Sunni law.
 
 ## The invasion of India
 

@@ -33,4 +33,4 @@ Casimir married four times, and his second divorce and later marriages were disp
 
 ## On our maps
 
-Our 1300 map shows the fragmented [Poland](/place/poland) of Casimir's youth, hemmed in by the [Teutonic Order's state](/place/state-of-the-teutonic-order), and our 1400 map shows the kingdom after his eastern expansion into Ruthenia.
+Our 1300 map shows the fragmented [Poland](/place/poland) shortly before Casimir's birth, hemmed in by the [Teutonic Order's state](/place/state-of-the-teutonic-order), and our 1400 map shows the kingdom after his eastern expansion into Ruthenia.

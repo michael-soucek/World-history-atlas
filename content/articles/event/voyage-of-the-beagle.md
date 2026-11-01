@@ -9,7 +9,7 @@ Between December 1831 and October 1836 the small Royal Navy survey ship HMS Beag
 
 ## Purpose and preparations
 
-After the Spanish American wars of independence opened South America to British trade, the Admiralty wanted accurate charts of its southern coasts. A first survey had been carried out between 1826 and 1830. The second was to complete the mapping of Patagonia and Tierra del Fuego, survey Chile and Peru, and carry a chain of longitude measurements round the globe, for which the ship carried 22 chronometers. FitzRoy, aged 27, also intended to return three Fuegians he had taken to England on the earlier voyage.
+After the Spanish American wars of independence opened South America to British trade, the Admiralty wanted accurate charts of its southern coasts. A first survey had been carried out between 1826 and 1830. The second was to complete the mapping of Patagonia and Tierra del Fuego, survey Chile and Peru, and carry a chain of longitude measurements round the globe, for which the ship carried 22 chronometers. FitzRoy, aged 26, also intended to return three Fuegians he had taken to England on the earlier voyage.
 
 FitzRoy wanted a companion able to study geology ashore. Through Cambridge contacts, the Cambridge professor John Stevens Henslow recommended Darwin, a recent graduate expecting to become a clergyman. Darwin's father at first objected, but was persuaded by Darwin's uncle Josiah Wedgwood, and Darwin accepted on 1 September 1831. He paid his own way and kept control of his collections. Before sailing, FitzRoy gave him the first volume of Charles Lyell's Principles of Geology, which explained the Earth's features as the result of slow processes over vast spans of time.
 

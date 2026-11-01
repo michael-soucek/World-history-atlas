@@ -14,7 +14,7 @@ Edward I, nicknamed Longshanks for his unusual height, was King of England from 
 
 ## Prince and civil war
 
-Edward was born at the Palace of Westminster on the night of 17–18 June 1239, the eldest son of Henry III and Eleanor of Provence. In 1254, aged fifteen, he married Eleanor of Castile, half-sister of the king of Castile,; he was granted Gascony and lands in Ireland and Wales. When barons led by Simon de Montfort demanded reform of royal government, the young Edward wavered, briefly backing the reformers in 1259, but he stood by his father in the Second Barons' War that began in 1264. Captured after the royalist defeat at Lewes in May 1264, he escaped in May 1265 and destroyed Montfort's army at Evesham on 4 August 1265; Montfort was killed on the field.
+Edward was born at the Palace of Westminster on the night of 17–18 June 1239, the eldest son of Henry III and Eleanor of Provence. In 1254, aged fifteen, he married Eleanor of Castile, half-sister of the king of Castile; he was granted Gascony and lands in Ireland and Wales. When barons led by Simon de Montfort demanded reform of royal government, the young Edward wavered, briefly backing the reformers in 1259, but he stood by his father in the Second Barons' War that began in 1264. Captured after the royalist defeat at Lewes in May 1264, he escaped in May 1265 and destroyed Montfort's army at Evesham on 4 August 1265; Montfort was killed on the field.
 
 ## Crusade and accession
 

@@ -34,4 +34,4 @@ Greek historians told a darker story. Herodotus reported that Cheops, as the Gre
 
 ## On our maps
 
-Our earliest maps fall well after his lifetime: the 2000 BCE map shows the [Middle Kingdom of Egypt](/place/middle-kingdom-of-egypt), and the [Early Dynastic Egypt](/place/early-dynastic-egypt) page covers the united kingdom his dynasty inherited. See also the [New Kingdom of Egypt](/place/new-kingdom-of-egypt), when his cult at Giza revived, and modern [Egypt](/country/egypt).
+None of our maps falls in his reign: the 2000 BCE map shows the [Middle Kingdom of Egypt](/place/middle-kingdom-of-egypt), and the [Early Dynastic Egypt](/place/early-dynastic-egypt) page covers the united kingdom his dynasty inherited. See also the [New Kingdom of Egypt](/place/new-kingdom-of-egypt), when his cult at Giza revived, and modern [Egypt](/country/egypt).

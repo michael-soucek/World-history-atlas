@@ -33,7 +33,7 @@ After the Christian kingdom of [Makuria](/place/makuria) attacked the Red Sea po
 
 ## Death and memory
 
-Baybars died in Damascus on 30 June 1277. Many sources say he drank poisoned kumis (fermented mare's milk) meant for someone else; others mention a wound or illness. He was buried in Damascus, beside the library that bears his name. He also built bridges, canals and harbours and set up a relay of mounted couriers that could carry messages from Cairo to Damascus in four days. A popular romance of his life, the Sirat Baybars, made him a folk hero, and he is still celebrated in Egypt, Syria and Kazakhstan.
+Baybars died in Damascus on 30 June 1277. Many sources say he drank poisoned kumis (fermented mare's milk) meant for someone else; others mention a wound or illness. He was buried in Damascus, in the library that bears his name. He also built bridges, canals and harbours and set up a relay of mounted couriers that could carry messages from Cairo to Damascus in four days. A popular romance of his life, the Sirat Baybars, made him a folk hero, and he is still celebrated in Egypt, Syria and Kazakhstan.
 
 ## On our maps
 

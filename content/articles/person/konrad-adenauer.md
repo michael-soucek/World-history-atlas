@@ -21,7 +21,7 @@ When [Adolf Hitler](/person/adolf-hitler) came to power, Adenauer was removed as
 
 ## Founding a party and a state
 
-The Americans reinstated him as mayor in 1945, but the British dismissed him that December. He then threw himself into building the Christian Democratic Union, a party meant to unite Catholics and Protestants, and led it from 1946 to 1966. He chaired the council that drafted West Germany's constitution, the Basic Law, and after the first federal election in August 1949 the Bundestag elected him chancellor on 15 September, reportedly by a single vote. He chose Bonn as the provisional capital.
+The Americans reinstated him as mayor in 1945, but the British dismissed him that October. He then threw himself into building the Christian Democratic Union, a party meant to unite Catholics and Protestants, and led it from 1946 to 1966. He chaired the council that drafted West Germany's constitution, the Basic Law, and after the first federal election in August 1949 the Bundestag elected him chancellor on 15 September, reportedly by a single vote. He chose Bonn as the provisional capital.
 
 ## Western integration
 

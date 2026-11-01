@@ -23,7 +23,7 @@ In 1240 a Swedish expedition led by Birger Jarl, part of a crusade into the east
 
 ## The Battle on the Ice
 
-Later in 1240 the Novgorodians, wary of his power, sent him away, while forces of the bishopric of Dorpat and the Livonian Order seized Pskov. Recalled in 1241, Alexander retook Koporye and Pskov and pushed into Estonian territory. On 5 April 1242, on the frozen Lake Peipus, he defeated the Livonian knights, checking the eastward advance of the [Teutonic Order](/place/state-of-the-teutonic-order), and the Germans soon agreed to give up occupied Russian land and exchange prisoners. Soviet historians presented the victory as having saved Russia from German enslavement; Fennell and others doubt it was a turning point, noting that one chronicle gives most of the credit to his brother Andrey.
+In late 1240 or early 1241 the Novgorodians, wary of his power, sent him away, while forces of the bishopric of Dorpat and the Livonian Order seized Pskov. Recalled in 1241, Alexander retook Koporye and Pskov and pushed into Estonian territory. On 5 April 1242, on the frozen Lake Peipus, he defeated the Livonian knights, checking the eastward advance of the [Teutonic Order](/place/state-of-the-teutonic-order), and the Germans soon agreed to give up occupied Russian land and exchange prisoners. Soviet historians presented the victory as having saved Russia from German enslavement; Fennell and others doubt it was a turning point, noting that one chronicle gives most of the credit to his brother Andrey.
 
 ## Serving the khans
 

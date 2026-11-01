@@ -23,7 +23,7 @@ Roman law barred men of senatorial rank from marrying actresses, and Justin I's 
 
 ## The Nika riots
 
-In January 532 the Blue and Green factions joined forces against the government, burned much of the city and proclaimed Hypatius, a nephew of the former emperor Anastasius, as emperor. According to Procopius, as Justinian's council weighed flight, Theodora declared that she would rather die than live as a fugitive, adding that royal purple made the finest burial shroud. Some scholars regard the speech as Procopius's literary creation rather than her exact words. Troops then attacked the crowd in the Hippodrome, killing, by the sources' figures, more than 30,000 people, and Hypatius was executed.
+In January 532 the Blue and Green factions joined forces against the government, burned much of the city and proclaimed Hypatius, a nephew of the former emperor Anastasius, as emperor. According to Procopius, as Justinian's council weighed flight, Theodora declared that she would rather die than live as a fugitive, adding that royal purple made the finest burial shroud. Some scholars think Procopius shaped the speech to make Justinian look more cowardly than his wife. Troops then attacked the crowd in the Hippodrome, killing, by the sources' figures, more than 30,000 people, and Hypatius was executed.
 
 ## Power at court
 
@@ -35,7 +35,7 @@ Theodora favoured the Miaphysites, who rejected the Council of Chalcedon, while 
 
 ## Death and reputation
 
-She died on 28 June 548. Victor of Tunnuna gave the cause in a term usually rendered as "cancer", though it may mean any malignant ulcer, and she was buried in the Church of the Holy Apostles. Historians remain divided: James Allan Evans and Averil Cameron read the Secret History as aristocratic resentment, while Anthony Kaldellis and Clive Foss note that independent sources confirm much of it.
+She died on 28 June 548. Victor of Tunnuna gave the cause in a term usually rendered as "cancer", though it may mean any malignant ulcer, and she was buried in the Church of the Holy Apostles. Historians remain divided: James Allan Evans reads the Secret History as aristocratic resentment and Averil Cameron as a contemporary way of rationalising the inexplicable, while Anthony Kaldellis and Clive Foss note that independent sources confirm much of it.
 
 ## On our maps
 

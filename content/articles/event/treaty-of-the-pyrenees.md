@@ -24,7 +24,7 @@ Under the treaty Louis XIV was to marry Maria Theresa, daughter of Philip IV of 
 
 ## Consequences
 
-For the historian J. H. Elliott, the treaty amounted to Spain's admission that it could no longer act as the defender of Catholicism against the rest of Europe. Paul Kennedy saw it as the end of the Habsburg bid for mastery, brought down by the cost of defending a worldwide empire. It was the last great diplomatic success of Mazarin and, together with Westphalia, gave Louis XIV's [Kingdom of France](/place/kingdom-of-france) stability and a strong diplomatic position, while Spain was left weakened. Along the mountains themselves, the new border brought customs posts and limits on the free movement of people and goods.
+For the historian J. H. Elliott, the treaty amounted to Spain's admission that it could no longer act as the defender of Catholicism against the rest of Europe. Paul Kennedy saw it as the climax of the Habsburg bid for mastery, which was brought down by the cost of defending a worldwide empire. It was the last great diplomatic success of Mazarin and, together with Westphalia, gave Louis XIV's [Kingdom of France](/place/kingdom-of-france) stability and a strong diplomatic position, while Spain was left weakened. Along the mountains themselves, the new border brought customs posts and limits on the free movement of people and goods.
 
 ## On our maps
 

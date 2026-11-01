@@ -28,7 +28,7 @@ In the autumn of 1611 Kuzma Minin, a butcher from Nizhny Novgorod, raised money 
 
 ## The Romanovs
 
-On 21 February 1613 an assembly of the land elected the sixteen-year-old Michael Romanov, son of Feodor Romanov, by then Patriarch Filaret. Peace came only with the treaties of Stolbovo with Sweden in 1617 and Deulino with Poland in 1619, which left Ingria to Sweden and Smolensk and Severia to Poland. Estimates of deaths from the conflict range from 1 to 1.2 million. The dynasty founded in 1613 ruled until 1917.
+On 21 February 1613 an assembly of the land elected the sixteen-year-old Michael Romanov, son of Feodor Romanov, by then Patriarch Filaret. Peace came only with the treaties of Stolbovo with Sweden in 1617 and Deulino with Poland in 1618, which left Ingria to Sweden and Smolensk and Severia to Poland. Estimates of deaths from the conflict range from 1 to 1.2 million. The dynasty founded in 1613 ruled until 1917.
 
 ## On our maps
 

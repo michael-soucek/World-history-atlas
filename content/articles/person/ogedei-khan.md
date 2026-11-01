@@ -17,7 +17,7 @@ written: 2026-10-30
 
 ## The chosen heir
 
-During the [invasion of the Khwarazmian Empire](/event/mongol-invasion-of-the-khwarazmian-empire) from 1219, Ögedei and his brother Chagatai took Otrar after a five-month siege and massacred its people. When Chagatai and their eldest brother Jochi quarrelled at the siege of Urgench, Genghis put Ögedei in sole command, and the city fell in 1221. The rivalry between the two elder brothers had already made Ögedei, known for his steady temper, the agreed heir. Genghis died in 1227. After a two-year regency under the youngest brother, Tolui, an assembly of Mongol nobles proclaimed Ögedei khan on 13 September 1229.
+During the [invasion of the Khwarazmian Empire](/event/mongol-invasion-of-the-khwarazmian-empire) from 1219, Ögedei and his brother Chagatai took Otrar after a five-month siege and massacred its people. When Chagatai and their eldest brother Jochi quarrelled at the siege of Urgench, Genghis put Ögedei in sole command, and the city fell in 1221. The rivalry between the two elder brothers had already made Ögedei the agreed heir. Genghis died in 1227. After a two-year regency under the youngest brother, Tolui, an assembly of Mongol nobles proclaimed Ögedei khan on 13 September 1229.
 
 ## Wars on every front
 
@@ -29,7 +29,7 @@ In the west, Ögedei's nephew Batu and the general Subutai conquered the steppe 
 
 ## Governing the empire
 
-Ögedei relied on advisers from several traditions, among them the Khitan statesman Yelü Chucai, who ran northern China for much of the reign, and Muslim officials such as Mahmud Yalavach in Turkestan. He divided northern China into ten administrative routes, set up regional secretariats, regulated taxes, and in 1234 created a network of relay stations, the yam, to carry envoys and messages across the empire. Paper currency circulated alongside silver. Tax collection was often farmed out to merchant partners whose high interest drove many peasants to flee. At Karakorum, completed in 1235, he housed craftsmen from China and the Islamic world and allowed temples, mosques and churches for different faiths.
+Ögedei relied on advisers from several traditions, among them the Khitan statesman Yelü Chucai, who ran northern China for much of the reign, and Muslim officials such as Mahmud Yalavach in Turkestan. He divided northern China into ten administrative routes, set up regional secretariats, regulated taxes, and in 1234 created a network of relay stations, the yam, to carry envoys and messages across the empire. Paper currency circulated alongside silver. Tax collection was often farmed out to merchant partners whose high interest drove many peasants to flee. At Karakorum, built up from 1235, he housed craftsmen from China and the Islamic world and allowed temples, mosques and churches for different faiths.
 
 ## Character and death
 

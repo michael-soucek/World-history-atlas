@@ -8,7 +8,7 @@ In August 1689, at the Siberian outpost of Nerchinsk, envoys of Russia and Qing 
 
 ## Russians on the Amur
 
-From around 1640, Russian fur hunters and Cossacks pushed south from Siberia into the Amur basin, land the [Qing dynasty](/place/qing-dynasty) regarded as its own. The Manchu rulers were then still busy conquering Ming China, but by the 1680s they had secured the south and could turn north to a region they saw as the homeland of their ruling clan. Qing forces twice overran the Russian fort at Albazin, in 1685 and 1686, and most Russians were driven from the area.
+From around 1640, Russian fur hunters and Cossacks pushed south from Siberia into the Amur basin, land the [Qing dynasty](/place/qing-dynasty) regarded as its own. The Manchu rulers were then still busy conquering Ming China, but by the 1680s they had secured the south and could turn north to a region they saw as the homeland of their ruling clan. Qing forces took the Russian fort at Albazin in 1685 and besieged it again in 1686, and most Russians were driven from the area.
 
 ## The road to Nerchinsk
 

@@ -27,13 +27,13 @@ In January 1941 Bose slipped away from his Calcutta house in disguise and travel
 
 ## The Indian National Army
 
-In Singapore in July 1943 he took over the Indian independence movement in Southeast Asia and its army, recruited mainly from Indian soldiers captured by Japan and from the Indian community of the region. He proclaimed a Provisional Government of Free India, recognised by Germany, Japan and other Axis states and puppet regimes. In 1944 units of his army joined the Japanese invasion of India, approved by the Japanese prime minister [Hideki Tojo](/person/hideki-tojo). Its defeat at Imphal and Kohima ended any hope of a base on Indian soil, and the army disintegrated during the British reconquest of Burma in 1945.
+In Singapore in July 1943 he took over the Indian independence movement in Southeast Asia and its army, recruited mainly from Indian soldiers captured by Japan and from the Indian community of the region. He proclaimed a Provisional Government of Free India, recognised by Germany, Japan and other Axis states and puppet regimes. In 1944 units of his army joined the Japanese invasion of India, launched while [Hideki Tojo] was Japan's prime minister(/person/hideki-tojo). Its defeat at Imphal and Kohima ended any hope of a base on Indian soil, and the army disintegrated during the British reconquest of Burma in 1945.
 
 ## Death and legacy
 
 After Japan's defeat Bose set out for Manchuria, hoping for Soviet help. On 18 August 1945 his plane crashed on take-off at Taihoku in Japanese-ruled Taiwan, and he died of severe burns that night. Many supporters refused to believe he had died, and conspiracy theories persist. Gandhi called him a patriot, "though misguided". The British put INA officers on trial for treason after the war but backed down in the face of public opposition.
 
-Airports, stations and islands across India bear his name, but his record is also troubling. He argued that India would need an authoritarian government for years after independence, in a 1942 article for a German journal he urged that antisemitism become part of the Indian struggle, and, as the historian Romain Hayes notes, he expressed no concern in his wartime papers for the victims of the Nazi camps.
+Airports, stations and islands across India bear his name, but his record is also troubling. He argued that India would need an authoritarian government for years after independence, according to a 1942 report in London's Jewish Chronicle he wrote in a Goebbels-run journal that antisemitism become part of the Indian struggle, and, as the historian Romain Hayes notes, he expressed no concern in his wartime papers for the victims of the Nazi camps.
 
 ## On our maps
 

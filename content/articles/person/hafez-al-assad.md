@@ -28,7 +28,7 @@ Assad relaxed some of his predecessors' radical policies and mended relations wi
 
 To recover the Golan, Assad planned a joint attack with Egypt's [Anwar Sadat](/person/anwar-sadat). On 6 October 1973 their armies struck in the [Yom Kippur War](/event/yom-kippur-war); Syrian forces broke through on the Golan but were driven back within days, and Sadat's separate ceasefire diplomacy left a lasting distrust between the two leaders.
 
-In 1976 Assad sent troops into the [Lebanese Civil War](/event/lebanese-civil-war), first against the Palestinian and leftist forces then gaining ground, and Syrian forces, eventually some 30,000 men, stayed in Lebanon for the rest of his life. His government was accused of involvement in the killings of the Druze leader Kamal Jumblatt in 1977 and of Lebanon's president, Bachir Gemayel, in 1982, both of whom had resisted Syrian domination.
+In 1976 Assad sent troops into the [Lebanese Civil War](/event/lebanese-civil-war), first against the Palestinian and leftist forces then gaining ground, and Syrian forces, some 30,000 men at the outset, stayed in Lebanon for the rest of his life. His government was accused of involvement in the killings of the Druze leader Kamal Jumblatt in 1977 and of Lebanon's president, Bachir Gemayel, in 1982, both of whom had resisted Syrian domination.
 
 ## Hama
 

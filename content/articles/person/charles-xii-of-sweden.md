@@ -13,7 +13,7 @@ Charles XII became King of Sweden as a fifteen-year-old in 1697 and spent nearly
 
 ## A boy king
 
-Charles was born in the royal castle of Tre Kronor in Stockholm on 17 June 1682, the only son of Charles XI and Queen Ulrika Eleonora to survive infancy. His father kept him close and trained him for kingship and for war. When Charles XI died in April 1697, a regency was arranged, but by November the Riksdag had declared the fifteen-year-old of age. He inherited absolute royal power, the only Swedish ruler ever to do so by succession.
+Charles was born in the royal castle of Tre Kronor in Stockholm on 17 June 1682, the first son of Charles XI and Queen Ulrika Eleonora. His father kept him close and trained him for kingship and for war. When Charles XI died in April 1697, a regency was arranged, but by November the Riksdag had declared the fifteen-year-old of age. He inherited absolute royal power, the only Swedish ruler ever to do so by succession.
 
 ## Three enemies at once
 

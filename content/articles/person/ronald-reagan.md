@@ -13,7 +13,7 @@ Ronald Reagan moved from radio sports commentary and Hollywood films into politi
 
 ## Small-town beginnings and Hollywood
 
-Reagan was born on 6 February 1911 in Tampico, Illinois, and grew up mainly in Dixon. After graduating from Eureka College in 1932, he became a radio sports announcer in Iowa, recreating baseball games from wire reports. A screen test in 1937 won him a contract with Warner Bros., and he went on to appear in 53 films, most memorably Knute Rockne, All American (1940), source of his nickname "the Gipper", and Kings Row (1942). Severely short-sighted, he spent the Second World War in the United States, making army training films. He was twice president of the Screen Actors Guild, and in the 1950s hosted General Electric Theater on television.
+Reagan was born on 6 February 1911 in Tampico, Illinois, and grew up mainly in Dixon. After graduating from Eureka College in 1932, he became a radio sports announcer in Iowa, recreating baseball games from wire reports. A screen test in 1936 won him a contract with Warner Bros., and he went on to appear in 53 films, most memorably Knute Rockne, All American (1940), source of his nickname "the Gipper", and Kings Row (1942). Severely short-sighted, he spent the Second World War in the United States, making army training films. He was twice president of the Screen Actors Guild, and in the 1950s hosted General Electric Theater on television.
 
 ## From Democrat to conservative leader
 

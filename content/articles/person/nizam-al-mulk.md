@@ -13,7 +13,7 @@ For roughly three decades in the eleventh century, the Persian administrator Abu
 
 ## From Tus to the Seljuk court
 
-He was born in April 1018 in Radkan, a village near Tus in north-eastern Iran, into a family of landowning gentry, the dehqans, though one modern estimate places his birth as late as 1020. He was trained in Shafi'i law and Ash'ari theology. His father was a revenue official of the [Ghaznavid Empire](/place/ghaznavid-empire), and when the Seljuks beat the Ghaznavids at Dandanaqan in 1040 and took Khorasan, the family fled to Ghazni, where the young Hasan first held office. After three or four years he changed sides, joining the Seljuks around 1043, and by 1059 he was running the whole province of Khorasan.
+He was born in April 1018 in Radkan, a village near Tus in north-eastern Iran, into a family of landowning gentry, the dehqans. He was trained in Shafi'i law and Ash'ari theology. His father was a revenue official of the [Ghaznavid Empire](/place/ghaznavid-empire), and when the Seljuks beat the Ghaznavids at Dandanaqan in 1040 and took Khorasan, the family fled to Ghazni, where the young Hasan first held office. After three or four years he changed sides, joining the Seljuks around 1043, and by 1059 he was running the whole province of Khorasan.
 
 ## Vizier to Alp Arslan
 

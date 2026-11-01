@@ -31,7 +31,7 @@ With the Roman threat gone, Arminius fought Maroboduus, king of the Marcomanni, 
 
 ## Hermann the German
 
-Tacitus's Annals were rediscovered and printed in the Renaissance, and Arminius became a symbol for German humanists; [Martin Luther](/person/martin-luther) may have been the first to call him Hermann. During the [Napoleonic Wars](/event/napoleonic-wars) and the [unification of Germany](/event/unification-of-germany) he was celebrated as a champion of German freedom, and the huge Hermannsdenkmal statue near Detmold, begun in 1838, was completed after the victory over France in 1871. French writers set [Vercingetorix](/person/vercingetorix) against him as a rival national hero. After 1945 his image faded in West Germany, and the battle's 2,000th anniversary in 2009 passed with little official celebration.
+Tacitus's Annals were rediscovered and printed in the Renaissance, and Arminius became a symbol for German humanists; [Martin Luther](/person/martin-luther) may have been the first to call him Hermann. During the [Napoleonic Wars](/event/napoleonic-wars) and the [unification of Germany](/event/unification-of-germany) he was celebrated as a champion of German freedom, and the huge Hermannsdenkmal statue near Detmold, begun in 1838, was completed after the victory over France in 1871. After 1945 his image faded in West Germany, and the battle's 2,000th anniversary in 2009 passed with little official celebration.
 
 ## On our maps
 

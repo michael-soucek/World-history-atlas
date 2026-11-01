@@ -33,7 +33,7 @@ Theodoric married Audofleda, sister of the Frankish king [Clovis](/person/clovis
 
 ## Troubled last years
 
-His final years were darkened by mistrust. In 523 he had the philosopher [Boethius](/person/boethius), his chief minister, arrested on charges of treason linked to a supposed senatorial plot, and executed him in 524. Pope John I died in 526 amid quarrels with the emperor Justin I over the treatment of Arians. Theodoric died of dysentery on 30 August 526, and his grandson Athalaric succeeded him under the regency of his daughter Amalasuintha. Within decades, the armies of [Justinian I](/person/justinian-i) destroyed the Ostrogothic kingdom.
+His final years were darkened by mistrust. In 523 he had the philosopher [Boethius](/person/boethius), a senior court official, arrested on charges of treason linked to a supposed senatorial plot, and executed him in 524. Pope John I died in 526 amid quarrels with the emperor Justin I over the treatment of Arians. Theodoric died of dysentery on 30 August 526, and his grandson Athalaric succeeded him under the regency of his daughter Amalasuintha. Within decades, the armies of [Justinian I](/person/justinian-i) destroyed the Ostrogothic kingdom.
 
 ## On our maps
 

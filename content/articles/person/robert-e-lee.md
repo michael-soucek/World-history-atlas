@@ -37,7 +37,7 @@ From 1864 [Ulysses S. Grant](/person/ulysses-s-grant) pressed Lee in a series of
 
 ## After the war
 
-Lee became president of Washington College in Lexington, Virginia, now Washington and Lee University, and urged white Southerners to accept defeat. In 1866 he told Congress that Black people should not be given the vote. He died in Lexington on 12 October 1870 after a stroke. Revered in the "Lost Cause" view of the war, he became a Southern icon; many of his monuments have been removed since 2017.
+Lee became president of Washington College in Lexington, Virginia, now Washington and Lee University, and urged white Southerners to accept defeat. In 1866 he told Congress that Black people should not be given the vote. He died in Lexington on 12 October 1870 of pneumonia, two weeks after a stroke. Revered in the "Lost Cause" view of the war, he became a Southern icon; many of his monuments have been removed since 2017.
 
 ## On our maps
 

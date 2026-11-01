@@ -13,7 +13,7 @@ Christopher Columbus was a Genoese navigator who, sailing for the [Crown of Cast
 
 ## A Genoese sailor
 
-The scholarly consensus is that he was born between late August and late October 1451 in the Genoese republic, the son of a wool weaver. He went to sea young, sailed on trading voyages in the Mediterranean and to northern Europe, and in 1476 survived a shipwreck off Portugal. Based in Lisbon from 1477 to 1485, he married Filipa Perestrelo e Moniz, daughter of a Portuguese colonial captain, and traded as far as the Portuguese fort at Elmina on the Gold Coast. He taught himself Latin and read geography, including the book of [Marco Polo](/person/marco-polo).
+The scholarly consensus is that he was born between late August and late October 1451 in the Genoese republic, the son of a wool weaver. He went to sea young, sailed on trading voyages in the Mediterranean and to northern Europe, and in 1476 survived a shipwreck off Portugal. Based in Lisbon from 1477 to 1485, he married Filipa Perestrelo e Moniz, daughter of a Portuguese colonial captain, and traded as far as the Portuguese fort at Elmina on the Gold Coast. He learned Latin and read geography, including the book of [Marco Polo](/person/marco-polo).
 
 ## The plan to sail west
 

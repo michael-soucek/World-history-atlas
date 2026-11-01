@@ -21,7 +21,7 @@ In late 1901 he set out with relatives on a raid into the Nejd, against his fath
 
 ## Britain, the Hejaz and the Ikhwan
 
-During the [First World War](/event/world-war-i) the British courted him; the Treaty of Darin of December 1915 made his lands a British protectorate and brought him a monthly subsidy. He crushed the Rashidis between 1920 and 1922, roughly doubling his territory, and the Uqair agreement of 1922 fixed borders with British-controlled territories, notably Iraq. In 1925 his forces took Mecca from the Hashemite Sharif Hussein, and in January 1926 he was proclaimed King of the Hejaz. The Treaty of Jeddah of May 1927 saw Britain recognise him as independent ruler of the Hejaz and Nejd.
+During the [First World War](/event/world-war-i) the British courted him; the Treaty of Darin of December 1915 made his lands a British protectorate. He crushed the Rashidis between 1920 and 1922, roughly doubling his territory, and the Uqair agreement of 1922 fixed borders with British-controlled territories, notably Iraq. In 1925 his forces took Mecca from the Hashemite Sharif Hussein, and in January 1926 he was proclaimed King of the Hejaz. The Treaty of Jeddah of May 1927 saw Britain recognise him as independent ruler of the Hejaz and Nejd.
 
 His Wahhabi allies were less easily satisfied. Ikhwan leaders, who regarded all non-Wahhabis as unbelievers, rebelled when he stopped their raids into British-protected territories; he defeated them at the Battle of Sabilla in March 1929. On 23 September 1932 he merged his realms into the Kingdom of Saudi Arabia. Wahhabi doctrine was enforced across his lands, and shrines and cemeteries in the holy cities, including the al-Baqi cemetery, were demolished.
 

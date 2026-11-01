@@ -21,7 +21,7 @@ The Second Crusade, which reached Syria in 1148, failed after a siege of Damascu
 
 ## Uniting Syria
 
-When his brother at Mosul died in 1149, the new ruler there recognised Nur al-Din as overlord. Damascus, whose governors preferred alliance with the Kingdom of Jerusalem, held out longer, but in 1154 he took the city with the help of its inhabitants and treated its deposed ruler generously. Syria was now united under one ruler from Edessa to the Hauran. In 1157 he took the Hospitaller fortress of Banias and defeated King Baldwin III of Jerusalem; in 1159 he made peace with the Byzantine emperor Manuel I Komnenos, who was asserting his authority in Antioch, and soon afterwards, at Harim, he routed the armies of Antioch and Tripoli and captured their leaders.
+When his brother at Mosul died in 1149, the new ruler there recognised Nur al-Din as overlord. Damascus, whose governors preferred alliance with the Kingdom of Jerusalem, held out longer, but in 1154 he took the city with the help of its inhabitants and treated its deposed ruler generously. Syria was now united under one ruler from Edessa to the Hauran. In 1157 he took the Hospitaller fortress of Banias and defeated King Baldwin III of Jerusalem; in 1159 he made peace with the Byzantine emperor Manuel I Komnenos, who was asserting his authority in Antioch, and in 1164, at Harim, he routed the armies of Antioch and Tripoli and captured their leaders.
 
 ## The contest for Egypt
 

@@ -16,7 +16,7 @@ Chandragupta was a son of the conquering emperor [Samudragupta](/person/samudrag
 
 ## Conquest of the west
 
-His best-attested campaign was against the Western Kshatrapas, Shaka rulers of west-central India. Inscriptions left by his officials in central India, at Udayagiri and Sanchi, show him campaigning there, and the Kshatrapa coin series breaks off at the end of the fourth century, to resume in the next century dated in the Gupta era. The conquest, probably between 397 and 409, carried Gupta rule to the coast of present-day Gujarat. Chandragupta then issued the first Gupta silver coins, modelled on Kshatrapa issues but bearing the Gupta emblem of Garuda.
+His best-attested campaign was against the Western Kshatrapas, Shaka rulers of west-central India. Inscriptions left by his officials in central India, at Udayagiri and Sanchi, show him campaigning there, and the Kshatrapa coin series breaks off in the late fourth century, while Chandragupta's own coins in their style are dated to 409. The conquest, probably between 397 and 409, carried Gupta rule to the coast of present-day Gujarat. Chandragupta then issued the first Gupta silver coins, modelled on Kshatrapa issues but bearing the Gupta emblem of Garuda.
 
 ## The iron pillar
 

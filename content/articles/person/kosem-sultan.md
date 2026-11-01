@@ -25,7 +25,7 @@ Murad IV became sultan on 10 September 1623 as a boy, and Kösem was named regen
 
 ## Ibrahim and Mehmed IV
 
-When Murad died in 1640, Ibrahim was the last male of the Ottoman dynasty, and Kösem is credited with having saved his life. She became his chief adviser, but his erratic rule, an empty treasury and the costly war against Venice for Crete that began in 1645, which she had supported, fuelled unrest. In 1648 the Janissaries and religious leaders demanded his removal. Kösem agreed, after a long argument, and produced her seven-year-old grandson Mehmed IV; Ibrahim was deposed on 8 August and strangled on 18 August 1648, with her consent, though how far she was involved is debated. Passed over in favour of the boy's young mother, Turhan Sultan, Kösem became regent for a third time.
+When Murad died in 1640, Ibrahim was the last male of the Ottoman dynasty, and Kösem is credited with having saved his life. She became his chief adviser, but his erratic rule, an empty treasury and the costly war against Venice for Crete that began in 1645, which she had supported, fuelled unrest. In 1648 the Janissaries and religious leaders demanded his removal. Kösem agreed, after a long argument, and produced her six-year-old grandson Mehmed IV; Ibrahim was deposed on 8 August and strangled on 18 August 1648, with her consent, though how far she was involved is debated. The boy's young mother, Turhan Sultan, was passed over, and Kösem became regent for a third time.
 
 ## Murder in the palace
 

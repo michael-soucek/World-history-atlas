@@ -13,7 +13,7 @@ Chulalongkorn, the fifth king of the Chakri dynasty and known in Thailand as Ram
 
 ## Heir to a reformer
 
-He was born on 20 September 1853, a son of King Mongkut and Queen Debsirindra. Mongkut, who had dozens of wives and 82 children, chose him as heir and gave him both a traditional schooling in Buddhism, Pali and court ritual and lessons from Western tutors, among them the Englishwoman Anna Leonowens. In 1868 father and son travelled to the coast south of Hua Hin to watch a solar eclipse Mongkut had predicted. Both caught malaria there, and Mongkut died on 1 October. A council of princes, monks and nobles chose the fifteen-year-old Chulalongkorn as king.
+He was born on 20 September 1853, a son of King Mongkut and Queen Debsirindra. Mongkut, who had dozens of wives and 82 children, prepared him to rule and gave him both a traditional schooling in Buddhism, Pali and court ritual and lessons from Western tutors, among them the Englishwoman Anna Leonowens. In 1868 father and son travelled to the coast south of Hua Hin to watch a solar eclipse Mongkut had predicted. Both caught malaria there, and Mongkut died on 1 October. A council of princes, monks and nobles chose the fifteen-year-old Chulalongkorn as king.
 
 ## Regency and early struggles
 
@@ -21,7 +21,7 @@ Real power at first lay with the regent, Chuang Bunnag (Sri Suriyawongse), head 
 
 ## Rebuilding the state
 
-From the late 1880s Chulalongkorn transformed the government. He founded a military academy in 1887, replaced the old overlapping offices with ministries in 1892, and brought in Western-style law with the help of a Belgian adviser, Gustave Rolin-Jaequemyns. From 1897 the provinces were grouped into monthons run by officials of the interior ministry, ending the power of local dynasties; rebellions against this in 1901 were put down by 1902. He abolished prostration before superiors, introduced conscription in 1905, opened the first railway from Bangkok to Korat in 1901, and sent princes to study in Europe. He rejected a petition of 1884 from officials who urged a constitution, saying the time had not come.
+From the late 1880s Chulalongkorn transformed the government. He founded a military academy in 1887, replaced the old overlapping offices with ministries in 1892, and brought in Western-style law with the help of a Belgian adviser, Gustave Rolin-Jaequemyns. From 1897 the provinces were grouped into monthons run by officials of the interior ministry, ending the power of local dynasties; rebellions against this in 1901 were put down by 1902. He had abolished prostration before superiors in 1873, and he introduced conscription in 1905, opened the first railway from Bangkok to Korat in 1901, and sent princes to study in Europe. He rejected a petition of 1884 from officials who urged a constitution, saying the time had not come.
 
 ## Ending slavery
 

@@ -23,7 +23,7 @@ After the First World War and the [Russian Revolution](/event/russian-revolution
 
 Reza Shah built an army of about 100,000 and a civil service of 90,000, and forcibly settled nomadic tribes such as the Bakhtiari and Qashqai, at heavy human cost. The Trans-Iranian Railway linked the Persian Gulf with the Caspian Sea, roads multiplied, state factories were founded and the University of Tehran was founded in the mid-1930s. He abolished the legal privileges of foreigners in 1928, moved currency issue to a national bank, cancelled the British-owned oil company's concession in 1932 before agreeing improved terms, and in 1935 asked foreign governments to call the country Iran rather than Persia.
 
-He curbed the power of the Shia clergy, imposing Western dress on men in 1928 and later banning the chador for women. In 1935 troops stormed the Imam Reza shrine in Mashhad to end a protest against his policies, killing dozens. Elections were managed by the police and parliament became a formality; powerful ministers such as Abdolhossein Teymourtash died in prison, the press was silenced, and the shah accumulated vast landed estates.
+He curbed the power of the Shia clergy, banning clerical dress in favour of Western clothing and later banning the chador for women. In 1935 troops stormed the Imam Reza shrine in Mashhad to end a protest against his policies, killing dozens. Elections were managed by the police and parliament became a formality; powerful ministers such as Abdolhossein Teymourtash died in prison, the press was silenced, and the shah accumulated vast landed estates.
 
 ## Germany and abdication
 

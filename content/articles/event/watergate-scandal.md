@@ -28,7 +28,7 @@ In May 1974 the House Judiciary Committee opened impeachment hearings. On 24 Jul
 
 ## Aftermath
 
-On 8 September 1974 Ford granted Nixon a full pardon, a decision that hurt his popularity. In all, 69 people were charged in connection with Watergate, including two members of Nixon's cabinet, and most were convicted or pleaded guilty; the former attorney general John Mitchell went to prison. The Republicans suffered heavy losses in the 1974 midterm elections. The scandal is often seen as the gravest in American presidential history, and the suffix "-gate" has since been attached to scandals around the world. Two of Nixon's senior officials, Alexander Haig and Henry Kissinger, later blamed Watergate for, respectively, the [Yom Kippur War](/event/yom-kippur-war) and the [Fall of Saigon](/event/fall-of-saigon).
+On 8 September 1974 Ford granted Nixon a full pardon, a decision that hurt his popularity. In all, 69 people were charged in connection with Watergate, including two members of Nixon's cabinet, and most were convicted or pleaded guilty; the former attorney general John Mitchell went to prison. The Republicans suffered heavy losses in the 1974 midterm elections. The scandal is often seen as the gravest in American presidential history, and the suffix "-gate" has since been attached to scandals around the world.
 
 ## On our maps
 

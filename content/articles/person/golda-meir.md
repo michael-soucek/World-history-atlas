@@ -25,7 +25,7 @@ In January 1948, as fighting spread in Palestine, Meir toured the United States 
 
 ## Minister
 
-Elected to the first Knesset in 1949, Meir was minister of labour until 1956, building housing, roads and the beginnings of a welfare state as immigrants poured in, many of them first housed in crude transit camps. As foreign minister from 1956 to 1966, when she adopted the Hebrew surname Meir, she took part in planning the [Suez Crisis](/event/suez-crisis) with France and built close ties with newly independent African states. Diagnosed with lymphoma, she retired from the ministry in 1966 but remained a party leader.
+Elected to the first Knesset in 1949, Meir was minister of labour until 1956, building housing, roads and the beginnings of a welfare state as immigrants poured in, many of them first housed in crude transit camps. On becoming foreign minister in 1956 she adopted the Hebrew surname Meir. In that post, which she held until 1966, she took part in planning the [Suez Crisis](/event/suez-crisis) with France and built close ties with newly independent African states. Diagnosed with lymphoma, she retired from the ministry in 1966 but remained a party leader.
 
 ## Prime minister
 

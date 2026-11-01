@@ -13,7 +13,7 @@ Cecil Rhodes was an English-born diamond magnate who became the leading driver o
 
 ## From vicarage to diamond fields
 
-Rhodes was born on 5 July 1853 at Bishop's Stortford in Hertfordshire, a son of the local vicar. Fearing for his weak health, his family sent him at sixteen to Natal, where his brother Herbert farmed cotton. When diamonds were found near what became Kimberley in 1871, the two brothers moved to the diggings. Rhodes survived a heart attack in 1872 and took over his brother's claims. Through the 1870s he divided his time between the mines and studies at Oriel College, Oxford, where he absorbed a belief in the destiny of the British race and empire that he set down in writing in 1877.
+Rhodes was born on 5 July 1853 at Bishop's Stortford in Hertfordshire, a son of the local vicar. Fearing for his weak health, his family sent him at seventeen to Natal, where his brother Herbert farmed cotton. When diamonds were found near what became Kimberley in 1871, the two brothers moved to the diggings. Rhodes survived a heart attack in 1872 and took over his brother's claims. Through the 1870s he divided his time between the mines and studies at Oriel College, Oxford, where he absorbed a belief in the destiny of the British race and empire that he set down in writing in 1877.
 
 ## Building De Beers
 

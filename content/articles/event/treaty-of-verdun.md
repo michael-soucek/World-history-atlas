@@ -24,7 +24,7 @@ The division followed the Frankish practice of sharing an inheritance among sons
 
 ## Long consequences
 
-East Francia developed into the medieval Kingdom of Germany, the largest part of the [Holy Roman Empire](/place/holy-roman-empire), while West Francia became the [Kingdom of France](/place/kingdom-of-france). The two powers that grew from them disputed the old middle lands for centuries. Alsace-Lorraine in particular changed hands repeatedly: it passed to France in 1766, was annexed by Germany after the [Franco-Prussian War](/event/franco-prussian-war) in 1871, returned to France under the [Treaty of Versailles](/event/treaty-of-versailles) in 1919, was annexed by Germany again in 1940 and has been French since 1945. The collapse of the middle kingdom also contributed to the long political division of Italy, which lasted into the 19th century.
+East Francia developed into the medieval Kingdom of Germany, the largest part of the [Holy Roman Empire](/place/holy-roman-empire), while West Francia became the [Kingdom of France](/place/kingdom-of-france). The two powers that grew from them disputed the old middle lands for centuries. Alsace-Lorraine in particular changed hands repeatedly: Alsace was largely taken by France in the 17th century and Lorraine passed to it in 1766; the region was annexed by Germany after the [Franco-Prussian War](/event/franco-prussian-war) in 1871, returned to France under the [Treaty of Versailles](/event/treaty-of-versailles) in 1919, was annexed by Germany again in 1940 and has been French since 1945. The collapse of the middle kingdom also contributed to the long political division of Italy, which lasted into the 19th century.
 
 ## On our maps
 

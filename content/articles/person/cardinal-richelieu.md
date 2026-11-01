@@ -33,7 +33,7 @@ Richelieu built the Palais-Cardinal in Paris, later the Palais-Royal, rebuilt th
 
 ## Death and legacy
 
-Long in poor health, Richelieu died in Paris on 4 December 1642, aged 57, having chosen Jules Mazarin as his successor. Bonfires celebrated his death in many provinces. He censored the press and ran a wide network of spies, and he is remembered both as a founder of the centralised French state and of the principle of "reason of state", and as the sinister cardinal of later fiction.
+Long in poor health, Richelieu died in Paris on 4 December 1642, aged 57, having fostered the career of his successor, Jules Mazarin. Bonfires celebrated his death in many provinces. He censored the press and ran a wide network of spies, and he is remembered both as a founder of the centralised French state and of the principle of "reason of state", and as the sinister cardinal of later fiction.
 
 ## On our maps
 

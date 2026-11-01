@@ -13,7 +13,7 @@ John Hunyadi rose from the minor nobility of Transylvania to become the leading 
 
 ## Origins
 
-Hunyadi's birth date is unrecorded; historians place it between about 1405 and 1407. He first appears in a royal charter of 1409, in which King Sigismund granted Hunyad Castle, in present-day Hunedoara in Romania, to his father Voyk, a knight of the royal household. Fifteenth-century chroniclers say Voyk had come from Wallachia, a view most modern scholars accept. A rumour that John was really Sigismund's illegitimate son was dismissed even by the chronicler who first recorded it, and modern historians treat it as unverifiable gossip.
+Hunyadi's birth date is unrecorded; historians place it between about 1405 and 1407. He first appears in a royal charter of 1409, in which King Sigismund granted Hunyad Castle, in present-day Hunedoara in Romania, to his father Voyk, a knight of the royal household. Fifteenth-century chroniclers say Voyk had come from Wallachia, a view many modern scholars accept. A rumour that John was really Sigismund's illegitimate son was dismissed even by the chronicler who first recorded it, and modern historians treat it as unverifiable gossip.
 
 ## Learning the soldier's trade
 

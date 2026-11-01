@@ -25,7 +25,7 @@ For the next eleven years Charles governed without Parliament. He made peace wit
 
 ## From Scotland to civil war
 
-The crisis began in Scotland. In 1637 Charles imposed a new prayer book there without consulting the Scottish Parliament or Church, provoking riots and a national covenant against it. In the Bishops' Wars of 1639 and 1640 the Scots invaded and occupied the north of England. Bankrupt, Charles had to recall Parliament. The Long Parliament, which met in November 1640, had his minister Strafford executed, abolished the prerogative courts and declared ship money illegal. In January 1642 Charles entered the Commons with soldiers to arrest five members, but they had fled. He left London, and on 22 August 1642 raised his standard at Nottingham.
+The crisis began in Scotland. In 1637 Charles imposed a new prayer book there without consulting the Scottish Parliament or Church, provoking riots and a national covenant against it. In the second of the Bishops' Wars, in 1640, the Scots invaded and occupied the north of England. Bankrupt, Charles had to recall Parliament. The Long Parliament, which met in November 1640, had his minister Strafford executed, abolished the prerogative courts and declared ship money illegal. In January 1642 Charles entered the Commons with soldiers to arrest five members, but they had fled. He left London, and on 22 August 1642 raised his standard at Nottingham.
 
 ## Defeat and execution
 

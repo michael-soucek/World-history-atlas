@@ -31,7 +31,7 @@ Krishnadevaraya's most celebrated victory came at Raichur, which he captured fro
 
 Portuguese visitors such as Domingo Paes and Duarte Barbosa praised the efficiency of his government and the prosperity of his subjects. He kept a firm hand on his ministers, abolished some unpopular taxes, brought new land under cultivation and built irrigation works around the city of Vijayanagara. A devotee of Venkateshwara, he gave lavish gifts to the temple at Tirumala and rebuilt the Virupaksha temple, while supporting shrines of several Hindu traditions. When the Mughal founder [Babur](/person/babur) surveyed the rulers of India, he counted Krishnadevaraya the most powerful.
 
-His reign is regarded as a golden age of Telugu literature. Krishnadevaraya himself wrote the Telugu poem Amuktamalyada, about the Tamil saint Andal, as well as works in Sanskrit. His court gathered eight celebrated Telugu poets, the Ashtadiggajas, among them Allasani Peddana and Tenali Ramakrishna, later a favourite figure of folk tales. He also supported writers in Kannada, the language of his court, and in Tamil and Sanskrit.
+His reign is regarded as a golden age of Telugu literature. Krishnadevaraya himself wrote the Telugu poem Amuktamalyada, about the Tamil saint Andal, as well as works in Sanskrit. His court gathered eight celebrated Telugu poets, the Ashtadiggajas, among them Allasani Peddana and Tenali Ramakrishna, later a favourite figure of folk tales. He also supported writers in Kannada, Tamil and Sanskrit.
 
 ## Last years
 

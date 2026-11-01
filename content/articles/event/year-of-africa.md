@@ -24,7 +24,7 @@ Belgium agreed at a conference in Brussels in January to grant the Congo indepen
 
 ## South Africa and the United Nations
 
-On 21 March police opened fire on protesters at Sharpeville, an event often treated as a turning point in resistance to apartheid (see [Sharpeville massacre](/event/sharpeville-massacre)). In October a South African referendum approved a republic, a step towards the country leaving the Commonwealth the following year. At the United Nations, where Africa was emerging as a major force, Nkrumah spoke in October on Africa's demand for freedom. On 14 December the Assembly adopted the Declaration on the Granting of Independence to Colonial Countries and Peoples, without a single vote against, though the United States and seven other colonial powers chose to abstain.
+On 21 March police opened fire on protesters at Sharpeville, an event often treated as a turning point in resistance to apartheid (see [Sharpeville massacre](/event/sharpeville-massacre)). In October a South African referendum approved a republic, a step towards the country leaving the Commonwealth the following year. At the United Nations, where Africa was emerging as a major force, Nkrumah spoke that autumn on Africa's demand for freedom. On 14 December the Assembly adopted the Declaration on the Granting of Independence to Colonial Countries and Peoples, without a single vote against, though the United States and seven other colonial powers chose to abstain.
 
 ## Legacy
 

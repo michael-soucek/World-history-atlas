@@ -17,7 +17,7 @@ He was born Lepoqo at Menkhoaneng in what is now northern Lesotho. The year is u
 
 ## Refuge on the mountain
 
-Around 1820 he succeeded his father and settled with his people on Butha-Buthe mountain. These were the years of the [Mfecane](/event/mfecane), the wars and migrations that followed the rise of the Zulu kingdom under [Shaka](/person/shaka), when Nguni groups driven from the east fell on the Sotho. Attacks forced Moshoeshoe to move to a flat-topped hill he named Thaba Bosiu, "mountain at night", which proved impossible to storm. Many uprooted groups gathered under his rule, and from them the Basotho nation took shape. In the 1820s raids by mounted Koranna gunmen taught them the value of horses and firearms, and by 1843 Moshoeshoe was said to have more of both than any other chief in southern Africa.
+Around 1820 he succeeded his father and settled with his people on Butha-Buthe mountain. These were the years of the [Mfecane](/event/mfecane), the wars and migrations that followed the rise of the Zulu kingdom under [Shaka](/person/shaka), when Nguni groups driven from the east fell on the Sotho. Attacks forced Moshoeshoe to move to a flat-topped hill later named Thaba Bosiu, "mountain at night", which proved impossible to storm. Many uprooted groups gathered under his rule, and from them the Basotho nation took shape. In the 1820s raids by mounted Koranna gunmen taught them the value of horses and firearms, and by 1843 Moshoeshoe was said to have more of both than any other chief in southern Africa.
 
 ## Missionaries and treaties
 

@@ -12,7 +12,7 @@ The first known case is generally believed to have been a small boy in the villa
 
 ## Spread
 
-Guinea's health ministry reported the outbreak in March 2014, by which time cases were suspected in Liberia and Sierra Leone. The disease reached Guinea's capital, Conakry, by late May, Liberia's capital, Monrovia, by mid-June and Freetown by late July. Extreme poverty, fragile health services, distrust of governments after years of conflict such as the [Sierra Leone Civil War](/event/sierra-leone-civil-war), and traditional burial practices that involved washing the body all helped the virus spread. Liberia had only about 50 doctors for the whole country. Smaller outbreaks in [Nigeria](/country/nigeria) and Mali were contained, and a few cases were carried to Senegal, Spain, the United Kingdom, Italy and the United States.
+Guinea's health ministry reported the outbreak in March 2014, by which time cases were suspected in Liberia and Sierra Leone. The disease reached Guinea's capital, Conakry, by late May, Liberia's capital, Monrovia, by mid-June and Freetown by late July. Extreme poverty, fragile health services, distrust of governments after years of conflict such as the [Sierra Leone Civil War](/event/sierra-leone-civil-war), and traditional burial practices that involved washing the body all helped the virus spread. In the hardest-hit areas there had long been only one or two doctors for every 100,000 people. Smaller outbreaks in [Nigeria](/country/nigeria) and Mali were contained, and a few cases were carried to Senegal, Spain, the United Kingdom, Italy and the United States.
 
 ## The international response
 
@@ -20,7 +20,7 @@ On 8 August 2014 the WHO declared a public health emergency of international con
 
 ## The end of the epidemic
 
-By early 2015 new cases were falling steeply. Liberia was first declared free of Ebola in May 2015, Sierra Leone in November and Guinea in December, but flare-ups kept recurring, some traced to survivors in whom the virus had lingered and been passed on through sexual contact. The WHO declared the epidemic finally over on 9 June 2016. A trial in Guinea showed that the rVSV-ZEBOV vaccine offered protection; it was approved by regulators in 2019.
+By early 2015 new cases were falling steeply. Liberia was first declared free of Ebola in May 2015, Sierra Leone in November and Guinea in December, but flare-ups kept recurring, some traced to survivors in whom the virus had lingered and been passed on through sexual contact. The WHO declared the epidemic finally over on 9 June 2016. A two-year trial showed that the rVSV-ZEBOV vaccine offered protection; it was approved by regulators in 2019.
 
 ## Consequences
 

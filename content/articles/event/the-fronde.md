@@ -8,7 +8,7 @@ Between 1648 and 1653 France was torn by a series of revolts against the regency
 
 ## War, debt and resentment
 
-Louis XIV inherited the throne in 1643 aged five, so power lay with his mother and Mazarin. France was paying for the [Thirty Years' War](/event/thirty-years-war) and for a long war with Spain that had begun in 1635. To meet the cost, Mazarin raised new taxes, many of which fell on the wealthy townspeople whose stronghold was the parlements, the sovereign law courts. The Parlement of Paris, the most important of them, refused to register the new decrees as an attack on established rights. Many nobles, who had lost influence under Mazarin's predecessor [Cardinal Richelieu](/person/cardinal-richelieu), also hoped to recover their old position.
+Louis XIV inherited the throne in 1643 aged four, so power lay with his mother and Mazarin. France was paying for the [Thirty Years' War](/event/thirty-years-war) and for a long war with Spain that had begun in 1635. To meet the cost, Mazarin raised new taxes, many of which fell on the wealthy townspeople whose stronghold was the parlements, the sovereign law courts. The Parlement of Paris, the most important of them, refused to register the new decrees as an attack on established rights. Many nobles, who had lost influence under Mazarin's predecessor [Cardinal Richelieu](/person/cardinal-richelieu), also hoped to recover their old position.
 
 ## The Fronde of the Parlements, 1648–1649
 
