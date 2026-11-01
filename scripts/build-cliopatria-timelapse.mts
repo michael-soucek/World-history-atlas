@@ -85,6 +85,24 @@ const pad = ([w, s, e, n]: Bbox, k: number): Bbox => {
   return [Math.max(-180, w - dx), Math.max(-85, s - dy), Math.min(180, e + dx), Math.min(85, n + dy)];
 };
 
+/**
+ * The area a frame shows when fitted to a screen of any shape from tall (0.45:1)
+ * to ultra-wide (2.6:1): fitting a tall region to a wide screen shows a lot
+ * more longitude, and a wide one on a phone more latitude. Measured in Web
+ * Mercator, as the map draws it.
+ */
+const MIN_ASPECT = 0.45, MAX_ASPECT = 2.6;
+const mercY = (lat: number) => Math.log(Math.tan(Math.PI / 4 + (lat * Math.PI) / 360));
+const mercLat = (y: number) => (Math.atan(Math.exp(y)) * 360) / Math.PI - 90;
+function coverBox([w, s, e, n]: Bbox): Bbox {
+  const width = ((e - w) * Math.PI) / 180, height = mercY(n) - mercY(s);
+  const needW = Math.max(width, height * MAX_ASPECT), needH = Math.max(height, width / MIN_ASPECT);
+  const cx = (w + e) / 2, cy = (mercY(n) + mercY(s)) / 2;
+  const halfLon = (needW * 90) / Math.PI;
+  return [Math.max(-180, cx - halfLon), Math.max(-85, mercLat(cy - needH / 2)), Math.min(180, cx + halfLon), Math.min(85, mercLat(cy + needH / 2))];
+}
+const unionBox = (boxes: Bbox[]): Bbox => boxes.reduce((u, b) => [Math.min(u[0], b[0]), Math.min(u[1], b[1]), Math.max(u[2], b[2]), Math.max(u[3], b[3])]);
+
 /** Ring area in square degrees (signed), for dropping specks too small to see. */
 function planarArea(ring: Ring): number {
   let a = 0;
@@ -216,8 +234,12 @@ function factsFor(from: number, inView: InView[], area: "km2" | "tallKm2") {
 for (const t of TIMELAPSES.filter((t) => !only.length || only.includes(t.slug))) {
   const view = t.bbox;
   const videoBox = t.videoBbox ?? t.tallBbox;
-  const union = [t.tallBbox, t.videoBbox].reduce<Bbox>((u, b) => (b ? [Math.min(u[0], b[0]), Math.min(u[1], b[1]), Math.max(u[2], b[2]), Math.max(u[3], b[3])] : u), view);
-  const drawn = pad(union, 0.7);
+  const frames = [view, t.tallBbox, t.videoBbox].filter((b): b is Bbox => !!b);
+  const union = unionBox(frames);
+  // Everything any screen can show, so the colours never stop at a line;
+  // shapes wholly outside the region itself are drawn more coarsely.
+  const drawn = unionBox([pad(union, 0.7), ...frames.map(coverBox)]);
+  const near = pad(union, 0.3);
   const picked = rows
     .map((r, i) => ({ r, b: boxes[i] }))
     .filter(({ r, b }) => b && overlaps(b, drawn) && r.properties.ToYear >= t.from && r.properties.FromYear <= TIMELAPSE_END)
@@ -254,10 +276,11 @@ for (const t of TIMELAPSES.filter((t) => !only.length || only.includes(t.slug)))
     const f = Math.max(r.properties.FromYear, t.from);
     const to = Math.min(r.properties.ToYear, TIMELAPSE_END);
     const polys: Ring[][] = [];
+    const far = !overlaps(bboxOf(r.geometry)!, near);
     for (const p of polygons(r.geometry)) {
       for (const q of clipTo(p, drawn)) {
-        const [outer, ...holes] = q.map((ring) => simplify(ring, tol));
-        const visible = (ring: Ring) => ring.length >= 4 && Math.abs(planarArea(ring)) >= minRing;
+        const [outer, ...holes] = q.map((ring) => simplify(ring, far ? tol * 4 : tol));
+        const visible = (ring: Ring) => ring.length >= 4 && Math.abs(planarArea(ring)) >= (far ? minRing * 16 : minRing);
         if (visible(outer)) polys.push([outer, ...holes.filter(visible)]);
       }
     }
