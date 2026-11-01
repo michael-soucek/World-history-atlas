@@ -53,13 +53,12 @@ export default async function ExplorerPage({ params }: Props) {
   if (!data) notFound();
   const { explorer, content } = data;
 
-  const summaryParas = (content?.summary ?? "").split(/\n+/).filter(Boolean);
   const images = (await getEntityImages(explorer.wikidataId, content?.imageUrl)).map(toArticleImage);
   // Hero: the explorer's own Wikidata image if any, else the article's first image.
   const hero: ArticleImageData | undefined = content?.imageUrl
     ? { thumb: content.imageUrl, caption: explorer.imageCaption, author: content.imageAuthor, license: content.imageLicense, sourceUrl: content.imageSourceUrl }
     : images.shift();
-  const summaryImage = summaryParas.length > 0 ? images.shift() : undefined;
+  const articleImage = images.shift();
   const stripImages = images;
   const voyages = explorer.voyages ?? [];
   const hasVoyages = explorer.status === "full" && voyages.length > 0;
@@ -117,8 +116,8 @@ export default async function ExplorerPage({ params }: Props) {
           <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-10 sm:pt-14">
             <VoyageMap voyages={voyages} className="h-[30rem] sm:h-[40rem] w-full" />
             <p className="mt-3 text-[11px] text-ink/64 leading-relaxed max-w-4xl">
-              Route data is compiled in chronological order from Wikipedia&apos;s voyage articles (CC BY-SA),
-              cross-checked against primary source narratives and historical records. Waypoints mark approximate
+              Routes and notes are written by Borders of Time, compiled in chronological order from the voyage
+              histories on Wikipedia and cross-checked against primary narratives and historical records. Waypoints mark approximate
               port, bay, and landfall locations — not survey-grade ship positions — and should be verified
               against detailed historical charts and logs before being treated as authoritative. Coordinates
               for remote stops and open-ocean legs are estimated and approximate.
@@ -173,37 +172,13 @@ export default async function ExplorerPage({ params }: Props) {
             {ownArticle ? (
               <OurArticle
                 article={ownArticle}
-                images={[summaryImage, ...stripImages].filter((i): i is ArticleImageData => !!i)}
+                images={[articleImage, ...stripImages].filter((i): i is ArticleImageData => !!i)}
                 name={explorer.name}
               />
             ) : (
               <>
-              {content?.summary && (
-                <div className="flex items-center gap-4 mb-8 pb-6 border-b border-ink/10">
-                  <ReadAloudButton text={[content.summary, ...(content.sections?.map(s => s.content) || [])].join(" ")} />
-                  <span className="text-xs text-ink/64">Hear the biography read aloud</span>
-                </div>
-              )}
-              {summaryParas.length > 0 ? (
-                <div className="flow-root">
-                  {summaryImage && <ArticleImage img={summaryImage} alt={summaryImage.caption ?? explorer.name} variant="float" side="left" />}
-                  <div className="space-y-5">
-                    {summaryParas.map((para, i) => (
-                      <p key={i} className={`font-text text-ink/85 text-[18px] sm:text-[19px] leading-[1.72] ${i === 0 ? "dropcap" : ""}`}>{para}</p>
-                    ))}
-                  </div>
-                </div>
-              ) : (
                 <p className="font-text text-ink/70 text-lg leading-relaxed">{explorer.tagline}</p>
-              )}
-              {content?.wikipediaUrl && (
-                <p className="text-xs text-ink/64 mt-6">
-                  Summary from{" "}
-                  <a href={content.wikipediaUrl} target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 hover:text-accent transition-colors">Wikipedia</a>
-                  {" "}(CC BY-SA 4.0)
-                </p>
-              )}
-              {stripImages.length > 0 && <ImageStrip images={stripImages} name={explorer.name} />}
+                {stripImages.length > 0 && <ImageStrip images={stripImages} name={explorer.name} />}
               </>
             )}
           </article>

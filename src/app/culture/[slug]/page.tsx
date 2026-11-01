@@ -64,7 +64,6 @@ export default async function CulturePage({ params }: Props) {
   const r = await resolve(slug);
   if (!r.content || !r.entry) {
     const displayName = r.fallbackName ?? slug;
-    const summaryText = r.fallbackSummary?.summary?.trim();
     return (
       <>
         <SiteHeader />
@@ -78,13 +77,7 @@ export default async function CulturePage({ params }: Props) {
             <p className="label text-accent mb-5">Culture / Topic</p>
             <h1 className="font-display text-5xl sm:text-6xl font-light tracking-tight text-ink leading-tight mb-6">{displayName}</h1>
             <p className="text-ink/68 text-base leading-relaxed mb-8 max-w-prose">
-              {summaryText ? (
-                summaryText
-              ) : (
-                <>
-                  We don&apos;t yet have a verified article for <strong className="text-ink/70">{displayName}</strong> in the atlas.
-                </>
-              )}
+              We don&apos;t yet have a verified article for <strong className="text-ink/70">{displayName}</strong> in the atlas.
             </p>
             {r.fallbackSummary?.url && (
               <a

@@ -30,15 +30,15 @@ export async function GET(
     }
 
     const content = await buildPlaceContent(resolved.wikidataId, resolved.canonicalName);
-    // The map panel shows the opening of our own article; Wikipedia's summary
-    // only where we have none.
+    // The map panel shows the opening of our own article, never Wikipedia's text.
     const culture = lookupCultureByQid(resolved.wikidataId);
     const own = articleIntro(getOurArticle("place", resolved.slug) ?? (culture ? getOurArticle("culture", culture.slug) : null));
 
     return NextResponse.json(
       {
         ...content,
-        ...(own ? { summary: own, ownSummary: true } : {}),
+        summary: own ?? "",
+        sections: [],
         // Prefer the curated year (one where this polity is on the map) over
         // Wikidata's inception date.
         representativeYear: lookupByQid(resolved.wikidataId)?.representativeYear ?? content.representativeYear,

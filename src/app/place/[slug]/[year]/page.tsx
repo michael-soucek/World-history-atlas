@@ -23,9 +23,9 @@ async function resolvePage(slug: string, year: number) {
   const content = await buildPlaceContent(entry.wikidataId, canonicalName).catch(() => null);
   // If label guard fires, treat as no content for this page
   const safeContent = content?.labelMismatch ? null : content;
-  // Our own article's opening, where there is one, rather than Wikipedia's summary.
+  // Our own article's opening, never Wikipedia's summary.
   const own = articleIntro(getOurArticle("place", entry.slug));
-  return { entry, content: safeContent && own ? { ...safeContent, summary: own } : safeContent, own: !!own };
+  return { entry, content: safeContent && { ...safeContent, summary: own ?? "" }, own: !!own };
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -148,11 +148,11 @@ export default async function PlaceYearPage({ params }: Props) {
         </div>
 
         <p className="mt-12 text-xs text-ink/62">
-          {own ? "Text written by Borders of Time from cited sources; facts from " : "Content from "}
+          {own ? "Text written by Borders of Time from cited sources; facts from " : "Facts from "}
           <a href={`https://www.wikidata.org/wiki/${entry.wikidataId}`} target="_blank" rel="noopener noreferrer" className="underline hover:text-ink/68">
             Wikidata ({entry.wikidataId})
           </a>
-          {own ? "." : " and Wikipedia (CC BY-SA 4.0)."}
+          .
         </p>
       </div>
     </main>

@@ -99,7 +99,6 @@ export default async function PlacePage({ params }: Props) {
   const searchName = encodeURIComponent(displayName);
 
   if (!content || content.labelMismatch || !entry || !content.summary?.trim()) {
-    const summaryText = result.fallbackSummary?.summary?.trim();
     return (
       <>
         <SiteHeader />
@@ -114,14 +113,8 @@ export default async function PlacePage({ params }: Props) {
             <p className="label text-accent mb-5">Place</p>
             <HandwrittenTitle className="font-display text-5xl sm:text-6xl font-light tracking-tight text-ink leading-tight mb-6">{displayName}</HandwrittenTitle>
             <p className="text-ink/68 text-base leading-relaxed mb-8 max-w-prose">
-              {summaryText ? (
-                summaryText
-              ) : (
-                <>
-                  We don&apos;t yet have a verified article for <strong className="text-ink/70">{displayName}</strong> in the atlas.
-                  You can search Wikipedia directly for more information.
-                </>
-              )}
+              We don&apos;t yet have a verified article for <strong className="text-ink/70">{displayName}</strong> in the atlas.
+              You can search Wikipedia directly for more information.
             </p>
             <div className="flex flex-col sm:flex-row gap-3">
               {result.fallbackSummary?.url && (

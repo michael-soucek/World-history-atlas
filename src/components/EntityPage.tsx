@@ -11,7 +11,7 @@ import { ArrowRight, ArrowUpRight, MapPin } from "lucide-react";
 import RelatedResources from "@/components/RelatedResources";
 import AdSlot from "@/components/AdSlot";
 import SupportNudge from "@/components/SupportNudge";
-import ArticleBody, { splitHero } from "@/components/ArticleBody";
+import { splitHero } from "@/components/ArticleBody";
 import ArticleImage from "@/components/ArticleImage";
 import PlaceOnOurMaps from "@/components/PlaceOnOurMaps";
 import EntityInTime from "@/components/EntityInTime";
@@ -223,8 +223,6 @@ export default async function EntityPage({ content, entry, entityType, baseRoute
           {entityType === "place" && <QuickAnswers kind="place" name={content.name} facts={stored} maps={placeMaps(entry.slug)} />}
           {ctx && <EntityInTime ctx={ctx} />}
           {ctx && entityType !== "place" && <QuickAnswers kind={entityType} ctx={ctx} facts={stored} />}
-          {/* Pages without an article of our own still show the Wikipedia summary. */}
-          {!ownArticle && <ArticleBody content={content} images={rest} />}
         </article>
 
         <aside className="lg:col-span-4 lg:col-start-9 xl:col-start-10 xl:col-span-3">
