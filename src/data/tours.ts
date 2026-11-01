@@ -657,8 +657,8 @@ export const TOURS: Tour[] = [
   {
     slug: "world-religions",
     title: "How the World's Religions Began",
-    description: "Where Hinduism, Judaism, Zoroastrianism, Buddhism, Confucianism, Christianity and Islam took shape — and how they spread across the map.",
-    duration: 6,
+    description: "Where Hinduism, Judaism, Zoroastrianism, Buddhism, Jainism, Confucianism, Daoism, Christianity, Islam and Shinto took shape — and how they spread across the map.",
+    duration: 10,
     difficulty: "intro",
     steps: [
       {
@@ -677,9 +677,26 @@ export const TOURS: Tour[] = [
         mapState: { year: -500, lat: 31, lng: 53, zoom: 4, regionId: "Q389688" },
       },
       {
-        title: "The Buddha and Confucius",
-        text: "Around 500 BCE, two teachers transformed Asian thought. In the Ganges valley, Siddhartha Gautama — the Buddha — taught a path out of suffering through ethics, meditation and insight. In the Chinese state of Lu, Confucius taught that good government and a good life rested on virtue, ritual and respect within the family. Neither saw his ideas written down in his lifetime.",
-        mapState: { year: -500, lat: 30, lng: 105, zoom: 3.5, regionId: "Q35216" },
+        title: "The Buddha",
+        text: "In the Ganges valley of northern India, Siddhartha Gautama — the Buddha — taught a path out of suffering through ethics, meditation and insight. Born into the ruling family of the Shakya people, he spent decades teaching in the kingdom of Magadha and its neighbours. His dates are debated: tradition places his life in the 6th century BCE, while many scholars now put his death around 400 BCE. His teachings were passed on by memory and written down only centuries later.",
+        mapState: { year: -500, lat: 25, lng: 84, zoom: 4.5 },
+        highlight: ["Magadha"],
+      },
+      {
+        title: "Mahavira and Jainism",
+        text: "In the same kingdoms of the Ganges valley lived Vardhamana, known as Mahavira, the 24th and last of the teachers Jains call tirthankaras. Jains do not see him as the founder of their faith but as the one who renewed it. He taught that every living thing has a soul, and that freedom from rebirth comes through strict non-violence (ahimsa), truthfulness and giving up attachment to possessions. Like the Buddha's, his dates are debated; tradition puts his death in 527 BCE, while many historians place it later.",
+        mapState: { year: -500, lat: 25.6, lng: 85.6, zoom: 5 },
+        highlight: ["Magadha"],
+      },
+      {
+        title: "Confucius",
+        text: "In the small Chinese state of Lu, one of many states that owed loyalty in name to the Zhou kings, Confucius (traditionally 551–479 BCE) taught that good government and a good life rested on virtue, ritual and respect within the family. He held office only briefly and spent years travelling between rival courts in search of a ruler who would follow his advice. His disciples later gathered his sayings as the Analects, which became the basis of Chinese education and government for two thousand years.",
+        mapState: { year: -500, lat: 35, lng: 114, zoom: 4.3, regionId: "Q35216" },
+      },
+      {
+        title: "The Way of Daoism",
+        text: "Daoism grew from the same age of competing schools in China. Tradition credits the sage Laozi, said to have lived in Confucius's time, with the Daodejing, a short book about the Dao or 'Way' that underlies all things, though scholars think it was compiled over a longer period. With the writings of Zhuangzi, it urged harmony with nature and doing without forcing. Daoism later also became an organised religion, with priests, temples and scriptures, beginning with the Way of the Celestial Masters in the 2nd century CE.",
+        mapState: { year: -300, lat: 34, lng: 113, zoom: 4.3, regionId: "Q35216" },
       },
       {
         title: "Christianity Conquers Rome",
@@ -687,9 +704,20 @@ export const TOURS: Tour[] = [
         mapState: { year: 300, lat: 40, lng: 22, zoom: 3.5, regionId: "Q2277" },
       },
       {
+        title: "Classical Hinduism",
+        text: "Over many centuries the Vedic tradition grew into what is now called Hinduism. The great epics, the Mahabharata (which contains the Bhagavad Gita) and the Ramayana, took shape between roughly 400 BCE and 400 CE, and the Puranas told the stories of gods such as Vishnu, Shiva and the goddess Devi. Under the Gupta kings of the 4th to 6th centuries, some of the earliest stone temples were built, and devotion to a chosen god (bhakti) became central to worship.",
+        mapState: { year: 400, lat: 24, lng: 80, zoom: 4, regionId: "Q11774" },
+      },
+      {
         title: "Islam Across Three Continents",
         text: "In 610 CE, Muhammad began preaching in Mecca the revelations collected as the Qur'an. Within a century of his death in 632, the Umayyad Caliphate ruled from Spain to the Indus, and Islam spread with Arabic language, law and learning across the Middle East and North Africa.",
         mapState: { year: 700, lat: 30, lng: 30, zoom: 2.5, regionId: "Q8575586" },
+      },
+      {
+        title: "Shinto in Japan",
+        text: "In Japan, the worship of kami, the spirits of nature, places and ancestors, is known as Shinto. It has no founder; its rites are much older than writing in Japan. The Kojiki (712) and Nihon Shoki (720), compiled for the Yamato court, recorded the myths that traced the imperial family to the sun goddess Amaterasu, whose main shrine is at Ise. Buddhism, which reached Japan in the 6th century, came to be practised alongside Shinto, and for over a thousand years the two were closely intertwined.",
+        mapState: { year: 700, lat: 35, lng: 136, zoom: 5 },
+        highlight: ["Yamato"],
       },
       {
         title: "Faiths on the Move",

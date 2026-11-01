@@ -37,4 +37,4 @@ Exhausted by war, plague and civil strife, the empire faced the Arab armies from
 
 ## On our maps
 
-Our maps draw the empire on the 300, 500 and 600 maps, largest on the 500 map at about 3.5 million square kilometres. Nearly half of that is in today's Iran, with large shares in Afghanistan, Iraq and Pakistan. Baghdad's site, Tehran, Isfahan, Tbilisi and Yerevan are Sasanian on our maps. Before it, the region is Parthian; on the 700 map it belongs to the Umayyad Caliphate.
+Our maps draw the empire on the 300, 400, 500 and 600 maps (the 400 map labels it "Persia"), largest on the 500 map at about 3.5 million square kilometres. Nearly half of that is in today's Iran, with large shares in Afghanistan, Iraq and Pakistan. Baghdad's site, Tehran, Isfahan, Tbilisi and Yerevan are Sasanian on our maps. Before it, the region is Parthian; on the 700 map it belongs to the Umayyad Caliphate.

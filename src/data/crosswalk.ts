@@ -34,7 +34,7 @@ export const CROSSWALK: Record<string, CrosswalkEntry> = {
   "Carthage": { wikidataId: "Q6343", slug: "carthage", aliases: ["Carthaginian Empire"], representativeYear: -300 }, // ✓ Carthage
 
   // ── Late Antiquity / Early Medieval ──────────────────────────────────────
-  "Sasanian Empire": { wikidataId: "Q83891", slug: "sasanian-empire", aliases: ["Sassanid Empire", "Sassanid Persia"], representativeYear: 600 }, // Sasanian Empire
+  "Sasanian Empire": { wikidataId: "Q83891", slug: "sasanian-empire", aliases: ["Sassanid Empire", "Sassanid Persia", "Persia"], years: [224, 651], representativeYear: 600 }, // Sasanian Empire
   "Rashidun Caliphate": { wikidataId: "Q12490507", slug: "rashidun-caliphate", representativeYear: 650, mapView: { lat: 28, lng: 45, zoom: 3.5 } }, // Rashidun Caliphate
   "Umayyad Caliphate": { wikidataId: "Q8575586", slug: "umayyad-caliphate", aliases: ["Umayyad"], representativeYear: 700 }, // Umayyad Caliphate
   "Abbasid Caliphate": { wikidataId: "Q12536", slug: "abbasid-caliphate", aliases: ["Abbasid"], representativeYear: 800 }, // Abbasid Caliphate
@@ -113,7 +113,11 @@ export const CROSSWALK: Record<string, CrosswalkEntry> = {
   "Kingdom of Kongo": { wikidataId: "Q796583", slug: "kingdom-of-kongo", aliases: ["Kongo", "Congo"], years: [1390, 1857], representativeYear: 1500 }, // Kingdom of Kongo
   "Japan": { wikidataId: "Q17", slug: "japan", representativeYear: 2000 }, // ✓ Japan
   "India": { wikidataId: "Q668", slug: "india", representativeYear: 2000 }, // ✓ India
-  "Iran": { wikidataId: "Q794", slug: "iran", aliases: ["Persia"], representativeYear: 2000 }, // ✓ Iran
+  "Iran": { wikidataId: "Q794", slug: "iran", years: [1979, 2100], representativeYear: 2000 }, // ✓ Iran (the Islamic Republic; earlier "Persia"/"Iran" shapes go to their dynasty below)
+  // Iran's dynasties between the Safavids and the Islamic Republic: the maps call the state "Persia" or "Iran".
+  "Zand dynasty": { wikidataId: "Q97629053", slug: "zand-dynasty", aliases: ["Persia"], years: [1751, 1794], representativeYear: 1783 }, // Zand Iran (added 2026-11-01)
+  "Qajar Iran": { wikidataId: "Q63158027", slug: "qajar-iran", aliases: ["Persia", "Iran", "Qajar dynasty"], years: [1789, 1925], representativeYear: 1880 }, // Qajar Iran (added 2026-11-01)
+  "Pahlavi Iran": { wikidataId: "Q107258515", slug: "pahlavi-iran", aliases: ["Iran", "Imperial State of Iran"], years: [1925, 1979], representativeYear: 1960 }, // Pahlavi Iran (added 2026-11-01)
   "Turkey": { wikidataId: "Q43", slug: "turkey", aliases: ["Republic of Turkey"], representativeYear: 2000 }, // ✓ Turkey
   "Saudi Arabia": { wikidataId: "Q851", slug: "saudi-arabia", representativeYear: 2000 }, // ✓ Saudi Arabia
   "Vietnam": { wikidataId: "Q881", slug: "vietnam", representativeYear: 2000 }, // ✓ Vietnam

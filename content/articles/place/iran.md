@@ -37,4 +37,4 @@ Iraq's invasion in 1980 began an eight-year war that killed hundreds of thousand
 
 ## On our maps
 
-Our maps show Iran on every map from 1783 to 2010, with Tehran and Isfahan inside it throughout. The basemap also labels the Sasanian state Iran on the 400 map; that outline, at about 2.3 million square kilometres, is the largest under this name and includes Iraq. For earlier empires, see the [Achaemenid Empire](/place/achaemenid-empire), the [Sasanian Empire](/place/sasanian-empire) and the [Safavid Empire](/place/safavid-empire).
+This page follows the Islamic Republic, which our maps draw as Iran from 1985 to 2010, with Tehran and Isfahan inside it. Earlier states on the same land have their own pages, each linked from the maps of its time: the [Achaemenid Empire](/place/achaemenid-empire), the [Parthian Empire](/place/parthian-empire), the [Sasanian Empire](/place/sasanian-empire), the [Safavid Empire](/place/safavid-empire), the [Zand dynasty](/place/zand-dynasty), [Qajar Iran](/place/qajar-iran) and [Pahlavi Iran](/place/pahlavi-iran).
