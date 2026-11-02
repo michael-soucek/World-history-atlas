@@ -1,0 +1,215 @@
+import type { Tour } from "@/data/tours";
+
+export const TOUR: Tour = {
+  slug: "europe-through-history",
+  title: "Europe Through History",
+  description:
+    "How Europe's map was made and remade: Greek colonies and Rome, the kingdoms that followed it, Charlemagne, the Mongols and the Ottomans, Westphalia, Napoleon, two world wars, the Iron Curtain and the Europe of today.",
+  duration: 14,
+  difficulty: "intro",
+  steps: [
+    {
+      title: "Greeks, Etruscans and Celts",
+      date: "c. 500 BCE",
+      text: "Around 500 BCE there were no countries in Europe in the modern sense. Greek city-states such as Athens and Sparta ruled themselves and planted colonies around the Mediterranean and the Black Sea, from Massalia, today's Marseille, to the Crimea. Carthage, a Phoenician city in North Africa, controlled much of the western Mediterranean. In Italy the Etruscans were the leading power, and Rome, which had recently thrown out its kings, was one small republic among many. North of the Alps, Celtic peoples farmed and traded across much of the continent, organised in tribes rather than states.",
+      mapState: { year: -500, lat: 44, lng: 14, zoom: 3.6 },
+      highlight: ["Greek city-states", "Etrurians", "Rome", "Carthaginian Empire"],
+      markers: [
+        { label: "Athens", at: [23.727, 37.984] },
+        { label: "Massalia (Marseille)", at: [5.37, 43.296] },
+        { label: "Carthage", at: [10.323, 36.853] },
+        { label: "Rome", at: [12.483, 41.893] },
+      ],
+    },
+    {
+      title: "Rome Rules the Mediterranean",
+      date: "1st–2nd century CE",
+      text: "In five centuries Rome went from that small republic to master of the whole Mediterranean. It conquered Italy, destroyed Carthage in 146 BCE, absorbed the Greek world and, under Julius Caesar, conquered Gaul. Augustus turned the republic into an empire. Under Trajan, who died in 117, it reached its greatest size, from northern Britain to Mesopotamia. Its northern frontier ran along the Rhine and the Danube. After three legions were destroyed in the Teutoburg Forest in 9 CE, Rome gave up on conquering the Germanic lands beyond the Rhine, a line that still shows in Europe's languages: Latin became French, Spanish, Italian, Portuguese and Romanian on one side of it, but not on the other.",
+      mapState: { year: 117, mapYear: 100, lat: 43, lng: 15, zoom: 3.4 },
+      highlight: ["Roman Empire"],
+      markers: [
+        { label: "Teutoburg Forest, 9 CE", at: [8.13, 52.41], kind: "battle" },
+        { label: "Hadrian's Wall, begun 122", at: [-2.33, 55.02] },
+      ],
+    },
+    {
+      title: "The Huns and the Great Migrations",
+      date: "376–451",
+      text: "In 376, Goths fleeing the Huns were allowed to cross the Danube into the Roman Empire. Two years later they killed the emperor Valens at Adrianople. The empire was now permanently split into a western and an eastern half, and the western half could no longer keep its frontiers. Visigoths sacked Rome in 410 and moved on to settle in Gaul and Spain. Vandals, Suebi and Alans crossed the Rhine, and the Vandals went all the way to North Africa, taking Carthage in 439. Under Attila the Huns built an empire north of the Danube and invaded Gaul and Italy before his death in 453.",
+      mapState: { year: 400, lat: 46, lng: 15, zoom: 3.6 },
+      highlight: ["Hunnic Empire", "Western Roman Empire", "Eastern Roman Empire", "Visigoths", "Ostrogoths"],
+      markers: [
+        { label: "Adrianople, 378", at: [26.556, 41.677], kind: "battle" },
+        { label: "Rome sacked, 410", at: [12.483, 41.893], kind: "battle" },
+        { label: "Catalaunian Plains, 451", at: [4.37, 48.95], kind: "battle" },
+      ],
+      routes: [
+        { label: "The Visigoths, 376–418", kind: "migration", path: [[27.5, 44.5], [23, 43], [19, 44.5], [13.5, 45.8], [11.3, 44.5], [12.5, 41.9], [10, 44], [6.5, 43.7], [1.44, 43.6]] },
+      ],
+    },
+    {
+      title: "Kingdoms After Rome",
+      date: "476–c. 550",
+      text: "In 476 the Germanic general Odoacer deposed the last western emperor, Romulus Augustulus, and did not bother to name a new one. Western Europe became a set of kingdoms ruled by Germanic warrior elites over a mostly Roman population: Franks in Gaul, where Clovis made himself king of most of the country, Visigoths in Spain, Ostrogoths in Italy under Theodoric, Vandals in North Africa, and Anglo-Saxons in much of Britain. The eastern half of the empire, ruled from Constantinople, carried on, and under Justinian in the sixth century it won back North Africa, Italy and part of Spain.",
+      mapState: { year: 500, lat: 45, lng: 10, zoom: 3.6 },
+      highlight: ["Franks", "Visigoths", "Ostrogoths", "Vandals", "Eastern Roman Empire"],
+      markers: [
+        { label: "Constantinople", at: [28.979, 41.015] },
+        { label: "Ravenna: Theodoric's capital", at: [12.2, 44.418] },
+      ],
+    },
+    {
+      title: "Charlemagne's Empire",
+      date: "800",
+      text: "On Christmas Day 800, Pope Leo III crowned the Frankish king Charlemagne emperor in Rome. His empire stretched from the Pyrenees to the Elbe and from the North Sea to central Italy, and it was the first time since Rome that most of western Christendom had one ruler. It did not last as one state. In 843 his grandsons divided it at Verdun into three kingdoms, and the western and eastern parts became the cores of France and Germany. In Spain, Muslim armies had overrun the Visigothic kingdom after 711, and an Umayyad emirate ruled most of the peninsula from Córdoba. In the east, the Byzantine Empire held Greece, the Balkan coasts and Anatolia.",
+      mapState: { year: 800, lat: 47, lng: 9, zoom: 3.8 },
+      highlight: ["Carolingian Empire", "Emirate of Córdoba", "Byzantine Empire"],
+      markers: [
+        { label: "Aachen: Charlemagne's capital", at: [6.084, 50.776] },
+        { label: "Rome: the coronation, 800", at: [12.483, 41.893] },
+        { label: "Córdoba", at: [-4.779, 37.888] },
+      ],
+    },
+    {
+      title: "Christian Kingdoms Take Shape",
+      date: "c. 950–1050",
+      text: "Around the year 1000 many of the states that still exist took recognisable form. The German king Otto I was crowned emperor in 962, founding what became known as the Holy Roman Empire. Rulers further east adopted Christianity and with it a place among Europe's kingdoms: Mieszko I of Poland was baptised in 966, Vladimir of Kyiv around 988, and Stephen of Hungary was crowned king around 1000. In the north, Viking raiders became kings. Danish and Norwegian kingdoms took shape, and in 1016 the Dane Cnut became king of England.",
+      mapState: { year: 1000, lat: 50, lng: 18, zoom: 3.5 },
+      highlight: ["Holy Roman Empire", "Kingdom of France", "Poland", "Kyivan Rus", "Magyars", "England", "Byzantine Empire"],
+      markers: [
+        { label: "Kyiv", at: [30.523, 50.45] },
+        { label: "Gniezno", at: [17.6, 52.535] },
+        { label: "Esztergom", at: [18.74, 47.79] },
+      ],
+    },
+    {
+      title: "Crusades and the Sack of Constantinople",
+      date: "1096–1204",
+      text: "From 1096 western knights went on crusade to the Holy Land, and in Spain the Christian kingdoms of Castile, León, Aragón, Navarre and Portugal pushed south against the Muslim states. In 1204 the Fourth Crusade, diverted from its goal, sacked Constantinople and carved up the Byzantine Empire, which never fully recovered. In the west, the Angevin kings of England, through marriage and inheritance, ruled more of France than the French king did, until Philip II of France took Normandy and most of their lands north of the Loire in 1204.",
+      mapState: { year: 1200, lat: 45, lng: 10, zoom: 3.6 },
+      highlight: ["Angevin Empire", "Kingdom of France", "Holy Roman Empire", "Byzantine Empire", "Castilla", "Almohad Caliphate"],
+      markers: [
+        { label: "Constantinople sacked, 1204", at: [28.979, 41.015], kind: "battle" },
+      ],
+    },
+    {
+      title: "The Mongols Arrive",
+      date: "1237–1300",
+      text: "Between 1237 and 1240 Mongol armies conquered the Rus principalities and destroyed Kyiv. In 1241 they defeated a Polish army at Legnica and the Hungarians at Mohi, then withdrew, possibly because the Great Khan Ögedei had died. The western part of the Mongol empire, the Golden Horde, ruled the steppe from the Volga and took tribute from the Rus princes for more than two centuries. Under its rule a small principality, Moscow, grew rich and powerful by collecting tribute for the khans.",
+      mapState: { year: 1300, lat: 50, lng: 30, zoom: 3.2 },
+      highlight: ["Khanate of the Golden Horde", "Grand Duchy of Moscow", "Lithuania"],
+      markers: [
+        { label: "Kyiv destroyed, 1240", at: [30.523, 50.45], kind: "battle" },
+        { label: "Legnica, 1241", at: [16.16, 51.21], kind: "battle" },
+        { label: "Mohi, 1241", at: [20.95, 47.95], kind: "battle" },
+        { label: "Sarai: the Horde's capital", at: [47.0, 47.0] },
+      ],
+      routes: [
+        { label: "Mongol invasion, 1237–1241", kind: "conquest", path: [[49, 53], [42, 55], [36, 54], [30.5, 50.45], [25, 50], [16.2, 51.2]] },
+      ],
+    },
+    {
+      title: "The Ottomans Take Constantinople",
+      date: "1453",
+      text: "The Ottoman Turks crossed into Europe in the 1350s, beat the Serbs at Kosovo in 1389 and made Edirne their capital. On 29 May 1453 Sultan Mehmed II took Constantinople after a siege of seven weeks, ending the Eastern Roman Empire after more than a thousand years. As Istanbul, the city became the capital of an empire that went on to rule the Balkans, Hungary and the whole eastern Mediterranean, and that besieged Vienna in 1529 and 1683.",
+      mapState: { year: 1453, mapYear: 1500, lat: 42, lng: 24, zoom: 4.2 },
+      highlight: ["Ottoman Empire"],
+      markers: [
+        { label: "Kosovo, 1389", at: [21.1, 42.7], kind: "battle" },
+        { label: "Constantinople falls, 1453", at: [28.979, 41.015], kind: "battle" },
+        { label: "Edirne", at: [26.555, 41.677] },
+      ],
+    },
+    {
+      title: "1492: Spain, Poland-Lithuania and Moscow",
+      date: "1469–1500",
+      text: "The marriage of Isabella of Castile and Ferdinand of Aragon in 1469 joined Spain's two largest kingdoms, and in January 1492 they took Granada, the last Muslim state in the peninsula. That same year Columbus sailed west for them, and Spain and Portugal began to build overseas empires. In the east, a royal marriage in 1386 had joined Poland and Lithuania, which together ruled a vast area from the Baltic towards the Black Sea. Moscow's Ivan III absorbed Novgorod in 1478 and stopped paying tribute to the Horde in 1480.",
+      mapState: { year: 1500, lat: 47, lng: 12, zoom: 3.3 },
+      highlight: ["Castille", "Aragón", "Portugal", "Poland-Lithuania", "Ottoman Empire", "Holy Roman Empire"],
+      markers: [
+        { label: "Granada, January 1492", at: [-3.599, 37.177], kind: "battle" },
+        { label: "Moscow", at: [37.618, 55.756] },
+      ],
+    },
+    {
+      title: "The Peace of Westphalia",
+      date: "1648",
+      text: "The Thirty Years' War began in 1618 as a religious conflict inside the Holy Roman Empire and became a struggle between Europe's great powers that devastated Germany. The Peace of Westphalia that ended it in 1648 recognised the independence of the Dutch Republic and the Swiss Confederation, gave Sweden lands on the German coast and France gains on the Rhine, and left the emperor with little real power over the hundreds of German states. Historians often date the modern system of sovereign states to this settlement, though the idea took much longer to develop.",
+      mapState: { year: 1648, mapYear: 1650, lat: 50, lng: 10, zoom: 4 },
+      highlight: ["Dutch Republic", "Swiss Confederation", "Sweden", "France", "Spain", "Holy Roman Empire"],
+      markers: [
+        { label: "Münster and Osnabrück: the peace talks", at: [7.626, 51.96] },
+      ],
+    },
+    {
+      title: "Napoleon and the Congress of Vienna",
+      date: "1803–1815",
+      text: "Napoleon redrew the map of Europe more than anyone since Charlemagne. He ended the Holy Roman Empire in 1806, made his relatives kings of new states and, at his height in 1812, controlled most of the continent directly or through allies. After his defeat, the great powers met at the Congress of Vienna. The 1815 settlement restored many old rulers but not the old map: 39 German states joined a loose German Confederation, Prussia gained the Rhineland, Austria took Lombardy and Venetia, Russia took most of Poland, and the Netherlands and Belgium became one kingdom.",
+      mapState: { year: 1815, lat: 49, lng: 13, zoom: 3.8 },
+      highlight: ["Austrian Empire", "Prussia", "France", "United Kingdom of the Netherlands", "Kingdom of Sardinia"],
+      markers: [
+        { label: "Vienna: the Congress, 1814–1815", at: [16.372, 48.208] },
+        { label: "Waterloo, 1815", at: [4.412, 50.68], kind: "battle" },
+      ],
+    },
+    {
+      title: "New Nations: Italy, Germany and the Balkans",
+      date: "1859–1878",
+      text: "In little more than a decade two great new states appeared in the middle of Europe. The Kingdom of Italy was proclaimed in 1861 and took Rome in 1870. The German Empire was proclaimed at Versailles in January 1871, after Prussia had beaten Austria and then France. Austria answered by becoming the Dual Monarchy of Austria-Hungary in 1867. In the Balkans, the Congress of Berlin in 1878 recognised Serbia, Montenegro and Romania as independent, created a self-governing Bulgaria and let Austria-Hungary occupy Bosnia.",
+      mapState: { year: 1880, lat: 46, lng: 15, zoom: 3.9 },
+      highlight: ["Germany", "Italy", "Austria Hungary", "Serbia", "Romania", "Bulgaria", "Montenegro"],
+      markers: [
+        { label: "Versailles: the German Empire proclaimed, 1871", at: [2.12, 48.805] },
+        { label: "Berlin: the Congress, 1878", at: [13.405, 52.52] },
+      ],
+    },
+    {
+      title: "The Eve of the First World War",
+      date: "1914",
+      text: "In 1914 four empires ruled most of central and eastern Europe: the German, Austro-Hungarian, Russian and Ottoman. On 28 June the heir to the Austro-Hungarian throne, Archduke Franz Ferdinand, was shot in Sarajevo, and within six weeks the great powers were at war. By 1922 all four empires had fallen.",
+      mapState: { year: 1914, lat: 49, lng: 20, zoom: 3.4 },
+      highlight: ["German Empire", "Austro-Hungarian Empire", "Russian Empire", "Ottoman Empire"],
+      markers: [
+        { label: "Sarajevo, 28 June 1914", at: [18.413, 43.856], kind: "battle" },
+      ],
+    },
+    {
+      title: "A New Map After 1918",
+      date: "1918–1922",
+      text: "The peace treaties after the First World War created the biggest change in Europe's borders since 1815. Poland returned as an independent state after more than a century. Czechoslovakia and the Kingdom of Serbs, Croats and Slovenes, later Yugoslavia, were formed from Austro-Hungarian lands. Finland, Estonia, Latvia and Lithuania broke away from Russia. Austria and Hungary became small separate states, and Hungary lost about two-thirds of its former territory at Trianon in 1920. Most of Ireland became independent as the Irish Free State in 1922.",
+      mapState: { year: 1920, lat: 51, lng: 20, zoom: 3.6 },
+      highlight: ["Poland", "Czechoslovakia", "Yugoslavia", "Austria", "Hungary", "Finland", "Estonia", "Latvia", "Lithuania"],
+    },
+    {
+      title: "After the Second World War",
+      date: "1945",
+      text: "In 1945 Germany was occupied by the four victorious powers, each with its own zone. Poland's borders were moved west: the Soviet Union kept the eastern lands it had taken in 1939, and Poland received German territory up to the Oder and Neisse rivers. Millions of Germans, Poles and others were expelled or fled. The Baltic states, annexed by the Soviet Union in 1940, stayed Soviet. In 1946 Winston Churchill described an iron curtain that had descended across the continent from the Baltic to the Adriatic.",
+      mapState: { year: 1945, lat: 51, lng: 15, zoom: 4 },
+      highlight: ["Germany (Soviet)", "Germany (UK)", "Germany (USA)", "Germany (France)", "Poland"],
+    },
+    {
+      title: "The Iron Curtain",
+      date: "1949–1989",
+      text: "For four decades Europe was split in two. In the west, NATO was founded in 1949 and six countries signed the Treaty of Rome in 1957, beginning what became the European Union. In the east, Poland, East Germany, Czechoslovakia, Hungary, Romania and Bulgaria had communist governments allied to the Soviet Union in the Warsaw Pact. The Berlin Wall, built in 1961, became the symbol of the divided continent. Yugoslavia and Albania were communist but outside the Soviet bloc.",
+      mapState: { year: 1985, lat: 50, lng: 16, zoom: 3.6 },
+      highlight: ["East Germany", "Poland", "Czechoslovakia", "Hungary", "Romania", "Bulgaria"],
+      markers: [
+        { label: "Berlin Wall, 1961–1989", at: [13.405, 52.52] },
+      ],
+    },
+    {
+      title: "1989–1993: The Map Redrawn Again",
+      date: "1989–1993",
+      text: "The Berlin Wall fell on 9 November 1989, and communist governments across eastern Europe collapsed within months. Germany reunified on 3 October 1990. The Soviet Union broke up in December 1991, leaving Estonia, Latvia, Lithuania, Belarus, Ukraine and Moldova independent. Yugoslavia broke apart in war: Slovenia and Croatia declared independence in 1991 and Bosnia and Herzegovina in 1992. On 1 January 1993 Czechoslovakia split peacefully into the Czech Republic and Slovakia.",
+      mapState: { year: 1994, lat: 50, lng: 20, zoom: 3.5 },
+      highlight: ["Germany", "Estonia", "Latvia", "Lithuania", "Byelarus", "Ukraine", "Moldova", "Slovenia", "Croatia", "Bosnia and Herzegovina", "Czech Republic", "Slovakia"],
+    },
+    {
+      title: "Europe Today",
+      date: "2004–today",
+      text: "In 2004 ten countries, most of them former communist states, joined the European Union. Montenegro became independent in 2006, and Kosovo declared independence from Serbia in 2008, which many countries recognise and others do not. In 2014 Russia annexed Crimea, and in 2022 it launched a full-scale invasion of Ukraine; most of the world does not recognise its claims to Ukrainian territory. The United Kingdom left the European Union in 2020. Europe's borders, settled and resettled for thousands of years, are still not finished.",
+      mapState: { year: 2010, lat: 50, lng: 18, zoom: 3.3 },
+      highlight: ["Montenegro", "Serbia", "Ukraine"],
+    },
+  ],
+};

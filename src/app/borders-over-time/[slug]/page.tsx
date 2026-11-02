@@ -94,6 +94,41 @@ export default async function TimelapsePage({ params }: Props) {
             />
           </section>
 
+          {t.tour && (
+            <section aria-labelledby="tour" className="grid gap-4 border-y border-ink/10 py-8 sm:grid-cols-[1fr_auto] sm:items-center">
+              <div>
+                <h2 id="tour" className="font-display text-2xl sm:text-3xl text-ink">Take the tour: {t.tour.title}</h2>
+                <p className="mt-2 max-w-2xl text-[16px] leading-relaxed text-ink/70">{t.tour.blurb}</p>
+              </div>
+              <Link href={`/tour/${t.tour.slug}`} className="justify-self-start inline-flex items-center h-12 px-6 rounded-md bg-ink text-parchment text-[15px] font-semibold hover:bg-accent transition-colors">
+                Start the tour →
+              </Link>
+            </section>
+          )}
+
+          {t.keyYears && (
+            <section aria-labelledby="key-years">
+              <SectionRule count={`${t.keyYears.length} maps`}>
+                <span id="key-years">{cap(t.label)} in key years</span>
+              </SectionRule>
+              <ul className="grid gap-x-8 gap-y-3 sm:grid-cols-2 lg:grid-cols-3">
+                {t.keyYears.map((k) => {
+                  const [w, s, e, n] = t.bbox;
+                  // Centred a little south of the frame's middle: the timeline bar covers the bottom of the map.
+                  const href = `/map?year=${k.year}&lat=${((s + n) / 2 - 3).toFixed(1)}&lng=${((w + e) / 2).toFixed(1)}&z=3.4`;
+                  return (
+                    <li key={k.year} className="border-t border-ink/10 pt-3">
+                      <Link href={href} className="font-display text-xl text-ink hover:text-accent">
+                        {cap(t.label)} in {formatYear(k.year)} →
+                      </Link>
+                      <p className="mt-1 text-[15px] leading-relaxed text-ink/65">{k.note}</p>
+                    </li>
+                  );
+                })}
+              </ul>
+            </section>
+          )}
+
           <section aria-labelledby="by-year">
             <SectionRule count={`${facts.events.length} changes`}>
               <span id="by-year">The big changes, year by year</span>
@@ -116,6 +151,27 @@ export default async function TimelapsePage({ params }: Props) {
               ))}
             </ol>
           </section>
+
+          {t.faq && (
+            <section aria-labelledby="faq" className="max-w-3xl">
+              <JsonLd
+                data={{
+                  "@context": "https://schema.org",
+                  "@type": "FAQPage",
+                  mainEntity: t.faq.map(({ q, a }) => ({ "@type": "Question", name: q, acceptedAnswer: { "@type": "Answer", text: a } })),
+                }}
+              />
+              <SectionRule><span id="faq">Questions</span></SectionRule>
+              <dl className="space-y-6">
+                {t.faq.map(({ q, a }) => (
+                  <div key={q}>
+                    <dt className="font-display text-xl text-ink">{q}</dt>
+                    <dd className="mt-2 text-[16px] leading-relaxed text-ink/70">{a}</dd>
+                  </div>
+                ))}
+              </dl>
+            </section>
+          )}
 
           <section aria-labelledby="more">
             <SectionRule><span id="more">More time-lapses</span></SectionRule>

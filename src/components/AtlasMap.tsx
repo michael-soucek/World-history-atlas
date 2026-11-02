@@ -167,11 +167,16 @@ export default function AtlasMap() {
 
     import("maplibre-gl").then(({ Map, NavigationControl }) => {
       if (disposed || !mapContainerRef.current) return;
+      // A link with a view in it (?lat=&lng=&z=, e.g. "Europe in 1914") opens there;
+      // otherwise the whole world.
+      const q = new URLSearchParams(window.location.search);
+      const num = (k: string) => (q.has(k) && Number.isFinite(Number(q.get(k))) ? Number(q.get(k)) : undefined);
+      const [lat, lng, z] = [num("lat"), num("lng"), num("z")];
       const map = new Map({
         container: mapContainerRef.current!,
         style: BASE_STYLE,
-        center: [0, 20],
-        zoom: 1.6,
+        center: lat !== undefined && lng !== undefined ? [lng, lat] : [0, 20],
+        zoom: z ?? 1.6,
         attributionControl: {},
       });
 

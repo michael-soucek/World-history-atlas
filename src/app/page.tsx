@@ -115,7 +115,9 @@ export default async function HomePage() {
     }),
   );
   const eras = ERA_LIST.map((e, i) => ({ era: e, art: TIMELINE_ILLUSTRATIONS[e.label], n: ROMAN[i] }));
-  const tours = TOURS.slice(0, 6);
+  // Europe's story leads the list: people search for how Europe's borders changed.
+  const europeTour = TOURS.find((t) => t.slug === "europe-through-history");
+  const tours = [...(europeTour ? [europeTour] : []), ...TOURS.filter((t) => t !== europeTour)].slice(0, 6);
   const topicCount = Math.floor(countTopics() / 10) * 10;
 
   const credits = [
@@ -147,7 +149,11 @@ export default async function HomePage() {
                 <Link href="/borders-over-time" className="text-parchment underline decoration-glow/50 underline-offset-4 hover:decoration-glow">
                   watch every year since 2000 BCE
                 </Link>{" "}
-                play out on an animated map. See every empire, kingdom and nation rise, spread and break apart.
+                play out on an animated map of{" "}
+                <Link href="/borders-over-time/europe" className="text-parchment underline decoration-glow/50 underline-offset-4 hover:decoration-glow">
+                  Europe
+                </Link>{" "}
+                or the world. See every empire, kingdom and nation rise, spread and break apart.
               </p>
               <div className="mt-9 flex flex-wrap items-center gap-x-6 gap-y-4">
                 <Link

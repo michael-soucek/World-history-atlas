@@ -2,6 +2,7 @@ import type { Tour } from "@/data/tours";
 import { TOUR as americanCivilWar } from "./american-civil-war";
 import { TOUR as ancientGreece } from "./ancient-greece";
 import { TOUR as britishEmpire } from "./british-empire";
+import { TOUR as europeThroughHistory } from "./europe-through-history";
 import { TOUR as fallOfCommunism } from "./fall-of-communism";
 import { TOUR as greatTravellers } from "./great-travellers";
 import { TOUR as hundredYearsWar } from "./hundred-years-war";
@@ -14,4 +15,4 @@ import { TOUR as unificationOfItalyAndGermany } from "./unification-of-italy-and
 import { TOUR as vietnamWars } from "./vietnam-wars";
 
 /** Tours added 2026-10-31: wars, empires, eras and journeys, each in its own file. */
-export const NEW_TOURS: Tour[] = [americanCivilWar, ancientGreece, britishEmpire, fallOfCommunism, greatTravellers, hundredYearsWar, koreanWar, riseOfRussia, scrambleForAfrica, spanishEmpire, thirtyYearsWar, unificationOfItalyAndGermany, vietnamWars];
+export const NEW_TOURS: Tour[] = [americanCivilWar, ancientGreece, britishEmpire, europeThroughHistory, fallOfCommunism, greatTravellers, hundredYearsWar, koreanWar, riseOfRussia, scrambleForAfrica, spanishEmpire, thirtyYearsWar, unificationOfItalyAndGermany, vietnamWars];

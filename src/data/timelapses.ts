@@ -31,6 +31,12 @@ export interface Timelapse {
   /** Matching /region page, if there is one. */
   region?: string;
   intro: string;
+  /** A guided tour that tells this region's story, linked beside the animation. */
+  tour?: { slug: string; title: string; blurb: string };
+  /** Single years worth opening on the full map, each with a one-line reason. */
+  keyYears?: { year: number; note: string }[];
+  /** Questions people search for, answered on the page and marked up as an FAQ. */
+  faq?: { q: string; a: string }[];
 }
 
 export const TIMELAPSES: Timelapse[] = [
@@ -45,6 +51,50 @@ export const TIMELAPSES: Timelapse[] = [
     region: "europe",
     intro:
       "Bronze Age kingdoms, Greek city-states, Rome’s rise and fall, the medieval kingdoms, Napoleon, two world wars and the end of the Soviet Union: four thousand years of Europe’s borders, one year at a time.",
+    tour: {
+      slug: "europe-through-history",
+      title: "Europe Through History",
+      blurb: "A guided tour in 19 stops, from Greek colonies and Rome to the Iron Curtain and the Europe of today, with the map moving to each moment as you read.",
+    },
+    keyYears: [
+      { year: -500, note: "Greek city-states, Etruscans, Carthage and a young Rome" },
+      { year: 100, note: "The Roman Empire near its greatest size" },
+      { year: 500, note: "The kingdoms that replaced Rome in the west" },
+      { year: 800, note: "Charlemagne’s empire" },
+      { year: 1000, note: "The first Christian kingdoms of the north and east" },
+      { year: 1300, note: "The Golden Horde and the rise of Moscow" },
+      { year: 1500, note: "Spain united, the Ottomans in the Balkans" },
+      { year: 1650, note: "After the Peace of Westphalia" },
+      { year: 1815, note: "The Congress of Vienna settlement" },
+      { year: 1914, note: "The four empires on the eve of war" },
+      { year: 1920, note: "The new states after the First World War" },
+      { year: 1938, note: "On the eve of the Second World War" },
+      { year: 1945, note: "Germany occupied, Poland moved west" },
+      { year: 1985, note: "The Cold War divide" },
+      { year: 1994, note: "After the fall of communism" },
+    ],
+    faq: [
+      {
+        q: "How have Europe’s borders changed over time?",
+        a: "Europe has been redrawn again and again: by Rome’s conquests and its fall in the west, by Charlemagne and the medieval kingdoms, by the Ottoman advance, by Napoleon and the Congress of Vienna, by the unification of Italy and Germany, and by the settlements after both world wars. The last big redrawing came between 1989 and 1993, when the Soviet Union, Yugoslavia and Czechoslovakia broke up.",
+      },
+      {
+        q: "When did Europe’s borders change the most?",
+        a: "The biggest single redrawings followed great wars and collapses: the Napoleonic Wars and the 1815 settlement, the end of the First World War, when four empires fell and states such as Poland, Czechoslovakia and Yugoslavia appeared, the end of the Second World War, and the end of communism from 1989 to 1993.",
+      },
+      {
+        q: "What did Europe look like in 1914?",
+        a: "Four empires, the German, Austro-Hungarian, Russian and Ottoman, ruled most of central and eastern Europe. Poland, Czechoslovakia, Finland and the Baltic states did not exist as independent countries. All four empires were gone by 1922.",
+      },
+      {
+        q: "How many countries are there in Europe today?",
+        a: "Usually about 44 to 50, depending on whether countries that lie partly in Asia, such as Turkey, Kazakhstan and the Caucasus states, are counted, and on how disputed states such as Kosovo are treated.",
+      },
+      {
+        q: "What is the oldest border in Europe?",
+        a: "The border between Portugal and Spain is often called the oldest in Europe: most of it has barely changed since the Treaty of Alcañices in 1297.",
+      },
+    ],
   },
   {
     slug: "world",
