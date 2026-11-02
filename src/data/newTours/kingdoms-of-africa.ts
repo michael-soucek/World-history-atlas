@@ -28,7 +28,7 @@ export const TOUR: Tour = {
     {
       title: "Aksum, Empire of the Red Sea",
       date: "c. 330 CE",
-      text: "By the 3rd century CE, Aksum, in the highlands of what is now northern Ethiopia and Eritrea, controlled trade between the Roman world, Arabia and India, shipping ivory through its Red Sea port of Adulis. The prophet Mani counted it among the four great powers of the world, alongside Rome, Persia and China. From the 3rd century it minted its own coins in gold, silver and bronze, among the first African states to do so and raised towering carved stelae over royal graves. Around 330 CE (the date is debated) King Ezana adopted Christianity, making Aksum one of the first states anywhere to do so: the root of the Ethiopian Orthodox Church. Around 520 King Kaleb conquered Himyar in Yemen.",
+      text: "By the 3rd century CE, Aksum, in the highlands of what is now northern Ethiopia and Eritrea, controlled trade between the Roman world, Arabia and India, shipping ivory through its Red Sea port of Adulis. The prophet Mani named it as one of the world's four great kingdoms, with Rome, Persia and China. From the 3rd century it minted its own coins in gold, silver and bronze, among the first African states to do so and raised towering carved stelae over royal graves. Around 330 CE (the date is debated) King Ezana adopted Christianity, making Aksum one of the first states anywhere to do so: the root of the Ethiopian Orthodox Church. Around 520 King Kaleb conquered Himyar in Yemen.",
       mapState: { year: 300, lat: 14, lng: 39, zoom: 4.5, regionId: "Q139377" },
       markers: [
         { label: "Aksum", at: [38.728, 14.121] },

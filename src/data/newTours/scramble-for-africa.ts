@@ -172,7 +172,7 @@ export const TOUR: Tour = {
         { label: "The rising spreads from the Matumbi Hills, 1905", kind: "spread", path: [[38.9, -8.6], [37.8, -8.5], [36.72, -8.68]] },
         { label: "South to the Ngoni country", kind: "spread", path: [[38.9, -8.6], [37.6, -9.6], [36.6, -10.3], [35.65, -10.68]] },
       ],
-      fact: "Kinjikitile himself was arrested and hanged for treason. Before his execution, he declared that he had already spread the medicine of the rebellion throughout the region.",
+      fact: "The colonial authorities arrested Kinjikitile and executed him by hanging, on a charge of treason. Before his execution, he declared that he had already spread the medicine of the rebellion throughout the region.",
       readMore: ["/event/maji-maji-rebellion", "/place/german-east-africa", "/country/tanzania"],
     },
     {

@@ -64,7 +64,7 @@ export const TOUR: Tour = {
     {
       title: "The Golden Age of Tang",
       date: "618–907",
-      text: "During the Tang dynasty (618–907 CE), the Silk Road reached its peak. Chang'an, the Tang capital and eastern end of the road, was the world's most populous city for much of the period, a walled grid about 8 by 9.7 kilometres with some 110 walled wards. Its West Market had a Persian bazaar, wine shops and taverns. Merchants came from Persia, Sogdia and beyond, and when the Arabs conquered Persia, Peroz, son of the last Sasanian shah, fled with his court to the Tang. Buddhists, Nestorian Christians, Manichaeans, Zoroastrians and Muslims all had followers in China. Two censuses of the 7th and 8th centuries counted about 50 million people in the empire.",
+      text: "During the Tang dynasty (618–907 CE), the Silk Road reached its peak. Chang'an, the Tang capital and eastern end of the road, was through much of these centuries the largest city anywhere, a walled grid about 8 by 9.7 kilometres with some 110 walled wards. Its West Market had a Persian bazaar, wine shops and taverns. Merchants came from Persia, Sogdia and beyond, and when the Arabs conquered Persia, Peroz, son of the last Sasanian shah, fled with his court to the Tang. Buddhists, Nestorian Christians, Manichaeans, Zoroastrians and Muslims all had followers in China. Two censuses of the 7th and 8th centuries counted about 50 million people in the empire.",
       mapState: { year: 800, lat: 36, lng: 108, zoom: 4, regionId: "Q9683" },
       highlight: ["Tang Empire"],
       markers: [

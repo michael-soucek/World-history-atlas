@@ -50,7 +50,7 @@ export const TOUR: Tour = {
     {
       title: "Tang China and the Cosmopolitan Route",
       date: "618–907",
-      text: "Under the Tang dynasty (618–907), the Silk Road reached a golden age. Chang'an, the Tang capital, was the world's most populous city for much of the period, and its West Market even had a Persian bazaar. Sogdian, the language of merchants from around Samarkand, served as a common tongue across Central Asia, and the city was home to Sogdians, Nestorian Christians, Zoroastrians, Manichaeans and Muslims. Goods and faiths flowed both ways: the monk Xuanzang travelled to India and back between 629 and 644 to collect Buddhist scriptures. The golden age had limits. The An Lushan rebellion of 755–763, led by a half-Sogdian general, ravaged the empire, and in 878–879 rebels under Huang Chao massacred foreign merchants at Guangzhou.",
+      text: "Under the Tang dynasty (618–907), the Silk Road reached a golden age. Chang'an, the Tang capital, was for much of this era the largest city on Earth, and its West Market even had a Persian bazaar. Sogdian, the language of merchants from around Samarkand, served as a common tongue across Central Asia, and the city was home to Sogdians, Nestorian Christians, Zoroastrians, Manichaeans and Muslims. Goods and faiths flowed both ways: the monk Xuanzang travelled to India and back between 629 and 644 to collect Buddhist scriptures. The golden age had limits. The An Lushan rebellion of 755–763, led by a half-Sogdian general, ravaged the empire, and in 878–879 rebels under Huang Chao massacred foreign merchants at Guangzhou.",
       mapState: { year: 800, lat: 38, lng: 95, zoom: 3, regionId: "Q9683" },
       highlight: ["Tang Empire"],
       markers: [

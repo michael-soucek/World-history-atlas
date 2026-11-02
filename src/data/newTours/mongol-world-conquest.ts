@@ -147,7 +147,7 @@ export const TOUR: Tour = {
       routes: [
         { label: "Retreat through Serbia and Bulgaria, 1242", kind: "retreat", path: [[19, 44.5], [22.5, 43.5], [25.62, 43.08], [27, 43.5], [30, 45.8], [36, 47.2], [47.43, 47.18]] },
       ],
-      fact: "Ögedei died at dawn on 11 December 1241, after a late-night drinking bout. Batu then declared he could not attend an assembly to elect a successor, and none was chosen until 1246.",
+      fact: "After drinking late into the night, Ögedei was dead by dawn on 11 December 1241. Batu then declared he could not attend an assembly to elect a successor, and none was chosen until 1246.",
       people: ["ogedei-khan", "batu-khan"],
       readMore: ["/place/golden-horde", "/place/second-bulgarian-empire", "/history-of/moscow"],
     },

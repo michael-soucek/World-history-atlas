@@ -190,7 +190,7 @@ export const TOUR: Tour = {
         { label: "Handover ceremony, Wan Chai, 30 June 1997", at: [114.17, 22.28] },
         { label: "Canton: opium seized, 1839", at: [113.26, 23.13] },
       ],
-      fact: "Only the New Territories were leased. Hong Kong Island and Kowloon had been ceded to Britain 'in perpetuity', but China never recognised those treaties, and in 1997 the whole territory went back.",
+      fact: "Only the New Territories were leased. The island and Kowloon were British by treaty 'in perpetuity', but China never recognised those treaties, and in 1997 the whole territory went back.",
       people: ["margaret-thatcher"],
       readMore: ["/history-of/hong-kong", "/event/first-opium-war", "/history-of/guangzhou"],
     },

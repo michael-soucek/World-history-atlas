@@ -11,7 +11,7 @@ export const TOUR: Tour = {
     {
       title: "A disputed crown",
       date: "1328–1337",
-      text: "When Charles IV of France died in 1328 without a son, the senior male line of the House of Capet came to an end. His closest male relative was his nephew, Edward III of England, whose mother Isabella was Charles's sister. French barons and churchmen ruled that a right passed down through a woman did not count, and crowned Charles's cousin Philip of Valois as Philip VI. Edward, who also held Aquitaine and Gascony as the French king's vassal, did homage in 1329. Quarrels grew, and on 24 May 1337 Philip's Great Council in Paris resolved to take Gascony back. Edward answered by pressing his claim to the French throne by war.",
+      text: "When Charles IV of France died in 1328 without a son, the senior male line of the House of Capet came to an end. The nearest man in the bloodline was Edward III of England, a nephew through his mother Isabella, Charles's sister. French barons and churchmen ruled that a right passed down through a woman did not count, and crowned Charles's cousin Philip of Valois as Philip VI. Edward, who also held Aquitaine and Gascony as the French king's vassal, did homage in 1329. Quarrels grew, and on 24 May 1337 Philip's Great Council in Paris resolved to take Gascony back. Edward answered by pressing his claim to the French throne by war.",
       mapState: { year: 1337, mapYear: 1300, lat: 47.5, lng: 0.5, zoom: 4.6 },
       highlight: ["English territory"],
       markers: [

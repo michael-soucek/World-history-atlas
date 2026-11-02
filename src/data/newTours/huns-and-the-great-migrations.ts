@@ -56,7 +56,7 @@ export const TOUR: Tour = {
     {
       title: "Rome Sacked: 410",
       date: "24 August 410",
-      text: "The Visigoths, led by Alaric, had invaded Italy in 401 and besieged Rome three times, demanding gold, land and recognition from Emperor Honorius, who sheltered behind the marshes of Ravenna. Honorius refused to deal. On 24 August 410 the Goths entered Rome through the Salarian Gate and plundered it for three days, the first time in almost 800 years that a foreign enemy had taken the city. The shock echoed across the Roman world; in Bethlehem, Jerome asked what could be safe if Rome could perish. Alaric died of illness months later. The Visigoths moved on to southern Gaul and Spain, where they built a kingdom with its capital at Toulouse, and later Toledo.",
+      text: "The Visigoths, led by Alaric, had invaded Italy in 401 and besieged Rome three times, demanding gold, land and recognition from Emperor Honorius, who sheltered behind the marshes of Ravenna. Honorius refused to deal. On 24 August 410 the Goths entered Rome through the Salarian Gate and plundered it for three days, no foreign army had captured Rome for nearly eight centuries. The shock echoed across the Roman world; in Bethlehem, Jerome asked what could be safe if Rome could perish. Alaric died of illness months later. The Visigoths moved on to southern Gaul and Spain, where they built a kingdom with its capital at Toulouse, and later Toledo.",
       mapState: { year: 410, mapYear: 500, lat: 43, lng: 8, zoom: 4.2 },
       highlight: ["Visigoths"],
       markers: [

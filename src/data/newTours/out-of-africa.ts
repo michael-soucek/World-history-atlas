@@ -70,7 +70,7 @@ export const TOUR: Tour = {
     {
       title: "Across the Sea to Australia",
       date: "c. 65,000–50,000 years ago",
-      text: "Even at its lowest, the sea between Sunda and Sahul, the landmass that joined Australia and New Guinea, had gaps up to about 90 kilometres wide, and Homo erectus had never crossed it. Modern humans did, by raft or boat, at least 50,000 years ago and possibly earlier: excavations at Madjedbebe, a rock shelter in Arnhem Land, have been dated to about 65,000 years ago, though that date is disputed. It is among the earliest evidence of deliberate sea crossings. Lake Mungo in New South Wales holds the oldest human remains on the continent, about 40,000 years old. Aboriginal Australians may have one of the oldest continuous cultures on Earth.",
+      text: "Even at its lowest, the sea between Sunda and Sahul, the landmass that joined Australia and New Guinea, had gaps up to about 90 kilometres wide, and Homo erectus had never crossed it. Modern humans did, by raft or boat, at least 50,000 years ago and possibly earlier: excavations at Madjedbebe, a rock shelter in Arnhem Land, have been dated to about 65,000 years ago, though that date is disputed. It is among the earliest evidence of deliberate sea crossings. Lake Mungo in New South Wales holds the oldest human remains on the continent, about 40,000 years old. Aboriginal Australian culture may be among the longest-unbroken cultural traditions anywhere.",
       mapState: { year: -50000, lat: -15, lng: 125, zoom: 2.8 },
       markers: [
         { label: "Madjedbebe: one of the oldest Australian sites", at: [132.9, -12.5] },

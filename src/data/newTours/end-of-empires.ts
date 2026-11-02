@@ -73,7 +73,7 @@ export const TOUR: Tour = {
     {
       title: "The Suez Crisis",
       date: "1956",
-      text: "The Suez Crisis showed how far the old powers had fallen. On 26 July 1956, in a speech at Alexandria, Egypt's president Gamal Abdel Nasser announced the nationalisation of the Suez Canal Company. Israel invaded Sinai on 29 October; after issuing a joint ultimatum, Britain and France attacked on 31 October, aiming to regain the canal and depose Nasser. Their troops overran Port Said, but heavy pressure from the United States, the Soviet Union and the United Nations forced a ceasefire on 6 November and a withdrawal, policed by the first UN peacekeeping force. The canal stayed closed until March 1957. Nasser's standing soared, and Britain's prime minister Anthony Eden resigned on 9 January 1957.",
+      text: "The Suez Crisis showed how far the old powers had fallen. On 26 July 1956, in a speech at Alexandria, Egypt's president Gamal Abdel Nasser announced the nationalisation of the Suez Canal Company. Israel invaded Sinai on 29 October; after issuing a joint ultimatum, Britain and France attacked on 31 October, aiming to regain the canal and depose Nasser. Their troops overran Port Said, but Washington, Moscow and the UN all pushed hard, forcing a ceasefire on 6 November and then a withdrawal, policed by the first UN peacekeeping force. The canal stayed closed until March 1957. Nasser's standing soared, and Britain's prime minister Anthony Eden resigned on 9 January 1957.",
       mapState: { year: 1956, mapYear: 1945, lat: 30.6, lng: 32.4, zoom: 5.6 },
       markers: [
         { label: "Alexandria: nationalisation announced, 26 July 1956", at: [29.893, 31.198] },

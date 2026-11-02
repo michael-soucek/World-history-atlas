@@ -51,7 +51,7 @@ export const TOUR: Tour = {
       routes: [
         { label: "The Visigoths, 376–418", kind: "migration", path: [[27.5, 44.5], [23, 43], [19, 44.5], [13.5, 45.8], [11.3, 44.5], [12.5, 41.9], [10, 44], [6.5, 43.7], [1.44, 43.6]] },
       ],
-      fact: "The sack of 410 was the first time in almost 800 years that Rome had fallen to a foreign enemy. In Constantinople, the eastern emperor Theodosius II declared three days of mourning.",
+      fact: "No foreign enemy had taken Rome for nearly eight centuries before the sack of 410. In Constantinople, the eastern emperor Theodosius II declared three days of mourning.",
       people: ["attila-the-hun"],
       readMore: ["/event/sack-of-rome-410", "/event/battle-of-adrianople", "/place/hunnic-empire", "/place/visigoths", "/place/vandals"],
     },
