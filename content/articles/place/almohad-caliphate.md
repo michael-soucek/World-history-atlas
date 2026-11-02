@@ -3,6 +3,8 @@ sources:
   - Wikipedia: Almohad Caliphate | https://en.wikipedia.org/wiki/Almohad_Caliphate
   - Wikidata: Almohad Caliphate (Q199688) | https://www.wikidata.org/wiki/Q199688
   - Borders of Time maps, built on historical-basemaps | https://github.com/aourednik/historical-basemaps
+title: Almohad Caliphate Map: Berber Empire of Morocco & Spain
+description: The Almohads united Morocco, Tunisia and al-Andalus in the 12th and 13th centuries. See their empire on our map, Ibn Tumart and Las Navas de Tolosa.
 written: 2026-10-22
 ---
 The Almohads were a Berber religious movement that founded an empire in North Africa and Spain in the twelfth and thirteenth centuries. At its height it united the Maghreb from Morocco to Tunisia with al-Andalus, the only time all of North Africa west of Egypt was ruled by a Berber dynasty.

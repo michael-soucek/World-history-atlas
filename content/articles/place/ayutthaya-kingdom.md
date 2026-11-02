@@ -3,6 +3,8 @@ sources:
   - Wikipedia: Ayutthaya Kingdom | https://en.wikipedia.org/wiki/Ayutthaya_Kingdom
   - Wikidata: Ayutthaya Kingdom (Q841364) | https://www.wikidata.org/wiki/Q841364
   - Borders of Time maps, built on historical-basemaps | https://github.com/aourednik/historical-basemaps
+title: Ayutthaya Kingdom Map (1351–1767): History of Old Siam
+description: Ayutthaya was the main Thai state from 1351 to 1767 and a great trading city of Asia. See its borders on our map, the wars with Burma, King Narai and the fall.
 written: 2026-10-22
 ---
 The Ayutthaya Kingdom was the main Thai state for four centuries, from 1351 to 1767, and is regarded as the forerunner of modern Thailand. Its capital, the island city of [Ayutthaya](/history-of/ayutthaya) on the Chao Phraya river, north of today's Bangkok, was one of the great trading cities of Asia, and European visitors compared it to Venice and Paris.

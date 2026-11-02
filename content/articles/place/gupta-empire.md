@@ -3,6 +3,8 @@ sources:
   - Wikipedia: Gupta Empire | https://en.wikipedia.org/wiki/Gupta_Empire
   - Wikidata: Gupta Empire (Q11774) | https://www.wikidata.org/wiki/Q11774
   - Borders of Time maps, built on historical-basemaps | https://github.com/aourednik/historical-basemaps
+title: Gupta Empire Map: India's Golden Age, Kings & Culture
+description: The Gupta Empire ruled northern India from the early 4th to mid-6th century CE. See its borders on our map, Samudragupta, Chandragupta II, mathematics and art.
 written: 2026-10-22
 ---
 The Gupta Empire ruled much of northern India from the early fourth century CE to the mid-sixth. It is often called a golden age of Indian civilisation, a label some historians now question, but the period's achievements in mathematics, literature and art are not in doubt.

@@ -82,6 +82,54 @@ export function metaDescription(text: string | undefined | null, max = 158): str
   return cut.slice(0, cut.lastIndexOf(" ")).replace(/[,;:(—–-]+$/, "").trim() + "…";
 }
 
+/** Whole sentences of a text, not split after "St.", "c." or initials. */
+function sentences(text: string): string[] {
+  const out: string[] = [];
+  let rest = text.replace(/\s+/g, " ").trim();
+  for (;;) {
+    let end = -1;
+    for (let i = rest.indexOf(". "); i > 0; i = rest.indexOf(". ", i + 1)) {
+      const word = rest.slice(0, i).split(/[\s(]/).pop() ?? "";
+      if (/^((?:[A-Z]\.)*[A-Z]|St|Mt|Dr|Mr|Mrs|Ms|Jr|Sr|c|ca|vs|No|Co|Ft|Gen|Col|Lt|Capt|Rev)$/.test(word)) continue;
+      end = i;
+      break;
+    }
+    if (end < 0) break;
+    out.push(rest.slice(0, end + 1));
+    rest = rest.slice(end + 2);
+  }
+  if (rest) out.push(rest);
+  return out;
+}
+
+/**
+ * A place page's description from the opening of its own article ("The
+ * Samanid Empire ruled north-eastern Iran and Central Asia from Bukhara…"),
+ * which says what the place was, plus a pointer to the map. Searchers saw the
+ * map-measurement version ("Explore the X on an interactive map… 447,000 km²")
+ * on page one and rarely clicked it. Undefined when the opening doesn't name
+ * the place or no whole sentence fits.
+ */
+async function placeArticleDescription(slug: string, name: string, max = 158): Promise<string | undefined> {
+  const { articleIntro, getOurArticle } = await import("@/lib/ourArticles");
+  const intro = articleIntro(getOurArticle("place", slug));
+  if (!intro) return undefined;
+  const key = name.replace(/^the\s+/i, "").split(/[\s(]/)[0].toLowerCase();
+  // Peoples ("The Shawnee are…", "The Almoravids were…") have lands, not borders.
+  const plural = /^[^,.]*?\b(are|were)\b/.test(intro.slice(0, 80));
+  const tail = plural ? " See their lands on our map." : " See its borders on our map.";
+  let text = "";
+  for (const s of sentences(intro)) {
+    const next = text ? `${text} ${s}` : s;
+    if (next.length > max) break;
+    text = next;
+  }
+  // An opening sentence too long for the snippet is cut at a word.
+  if (!text) text = metaDescription(intro, max) ?? "";
+  if (!text.toLowerCase().includes(key)) return undefined;
+  return /[.!?]$/.test(text) && text.length + tail.length <= max ? text + tail : text;
+}
+
 /**
  * The date part of an entity tagline ("Historical figure · 1769 CE – 1821 CE")
  * in compact title form: "1769–1821", "500–330 BCE". Single dates and
@@ -139,7 +187,8 @@ const DESCRIPTION_TAIL: Record<EntityKind, string[]> = {
  * Google's snippet (a whole sentence that ends early, never a cut-off one).
  */
 export function padDescription(description: string, ...tails: string[]): string {
-  if (description.length >= 115 || description.endsWith("…")) return description;
+  // Already points to the map ("See its borders on our map.").
+  if (description.length >= 115 || description.endsWith("…") || description.endsWith("on our map.")) return description;
   const stop = /[.!?]$/.test(description) ? "" : ".";
   const tail = tails.find((t) => description.length + stop.length + 1 + t.length <= 160);
   return tail ? `${description}${stop} ${tail}` : description;
@@ -204,7 +253,7 @@ export async function entityMetadata(
   const head = `${content.name}${dates && !namedWithDates ? ` (${dates})` : ""}`;
   const title = fitTitle(...[suffix, ...(SHORTER_SUFFIXES[suffix] ?? [])].map((s) => `${head}: ${s}`));
   const ctx = kind === "place" ? null : await entityContext(kind, slug);
-  const own = kind === "place" ? placeDescription(slug, content.name, dates) : ctx ? contextDescription(ctx) : undefined;
+  const own = kind === "place" ? (await placeArticleDescription(slug, content.name)) ?? placeDescription(slug, content.name, dates) : ctx ? contextDescription(ctx) : undefined;
   // Next best: the opening of the page's own article, before the encyclopedia's summary.
   const { articleIntro, getOurArticle } = await import("@/lib/ourArticles");
   // People, events and cultures: our own article's opening says what they

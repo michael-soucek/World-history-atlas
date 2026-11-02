@@ -3,6 +3,8 @@ sources:
   - Wikipedia: Chola dynasty | https://en.wikipedia.org/wiki/Chola_dynasty
   - Wikidata: Chola dynasty (Q151148) | https://www.wikidata.org/wiki/Q151148
   - Borders of Time maps, built on historical-basemaps | https://github.com/aourednik/historical-basemaps
+title: Chola Dynasty Map: Empire of Rajaraja I & Rajendra I
+description: The Cholas ruled the Tamil south of India and from the 9th to 13th centuries built a sea power reaching Southeast Asia. See their borders on our map.
 written: 2026-10-22
 ---
 The Cholas were one of the three ancient royal houses of the Tamil country in southern India, alongside the Cheras and Pandyas. They are mentioned in an inscription of the Maurya emperor Ashoka in the third century BCE. Their greatest age came between the ninth and thirteenth centuries CE, when the Chola Empire dominated southern India and became a sea power whose fleets reached Southeast Asia.
