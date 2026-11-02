@@ -3,6 +3,8 @@ sources:
   - Wikipedia: Mamluk Sultanate | https://en.wikipedia.org/wiki/Mamluk_Sultanate
   - Wikidata: Mamluk Sultanate (Q282428) | https://www.wikidata.org/wiki/Q282428
   - Borders of Time maps, built on historical-basemaps | https://github.com/aourednik/historical-basemaps
+title: Mamluk Sultanate Map (1250–1517): Egypt and Syria
+description: Former slave soldiers ruled Egypt and Syria from Cairo for 267 years from 1250. See the Mamluk Sultanate on our map, Baybars, Qalawun and the Ottoman conquest.
 written: 2026-10-22
 ---
 The Mamluk Sultanate was ruled by former slave soldiers. Mamluks were boys bought on the steppes and in the Caucasus, converted to Islam and trained as an elite cavalry. In 1250 the mamluk regiments of Egypt's last strong Ayyubid sultan seized power for themselves, and for the next 267 years Egypt and Syria were governed from Cairo by sultans who had begun life in the barracks.

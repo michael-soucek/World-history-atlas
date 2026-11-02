@@ -3,6 +3,8 @@ sources:
   - Wikipedia: Tsardom of Russia | https://en.wikipedia.org/wiki/Tsardom_of_Russia
   - Wikidata: Tsardom of Russia (Q186096) | https://www.wikidata.org/wiki/Q186096
   - Borders of Time maps, built on historical-basemaps | https://github.com/aourednik/historical-basemaps
+title: Tsardom of Russia Map (1547–1721): Ivan IV to Peter
+description: Russia from Ivan IV's crowning in 1547 to Peter the Great's empire in 1721: the Time of Troubles, the first Romanovs and the push to the Pacific, on our map.
 written: 2026-10-22
 ---
 The Tsardom of Russia was the Russian state from 1547, when Ivan IV was crowned tsar, until 1721, when Peter the Great proclaimed the Russian Empire. In those 174 years, Russia expanded from the forests around Moscow to the Pacific, becoming the largest country in the world.

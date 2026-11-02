@@ -3,6 +3,8 @@ sources:
   - Wikipedia: White Horde | https://en.wikipedia.org/wiki/White_Horde
   - Wikidata: White Horde (Q2553863) | https://www.wikidata.org/wiki/Q2553863
   - Borders of Time maps, built on historical-basemaps | https://github.com/aourednik/historical-basemaps
+title: White Horde Map: Mongol Khanate of the Kazakh Steppe
+description: The White Horde was the eastern wing of the Golden Horde, on the Kazakh steppe. See it on our map, with Urus Khan, Tokhtamysh and the Kazakh Khanate.
 written: 2026-10-22
 ---
 The White Horde was the eastern wing of the Golden Horde, the Mongol state founded by Genghis Khan's eldest son Jochi and his descendants. Its lands lay on the steppes of what is now Kazakhstan, east of the Ural river and north of the Syr Darya. Its later khans briefly reunited the Golden Horde, and its successors included the Kazakh Khanate.
