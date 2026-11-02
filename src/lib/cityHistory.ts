@@ -21,6 +21,8 @@ export interface City {
   lng: number;
   /** Earlier names, comma-separated ("Byzantium, Constantinople"). */
   formerly?: string;
+  /** Approximate founding year (negative = BCE): the traditional date, else the first town on the site. */
+  founded: number;
 }
 
 /** One stretch of snapshots in which the map draws the same ruler. */

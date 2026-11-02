@@ -42,7 +42,7 @@ export function canVisitCountry(slug: string): boolean {
   return !NO_VISIT_COUNTRIES.has(slug);
 }
 
-export function canVisitCity(city: City): boolean {
+export function canVisitCity(city: Pick<City, "slug" | "country">): boolean {
   if (NO_VISIT_CITIES.has(city.slug)) return false;
   const country = countrySlugFor(city.country.replace(/ \(.*\)$/, ""));
   return !country || canVisitCountry(country);

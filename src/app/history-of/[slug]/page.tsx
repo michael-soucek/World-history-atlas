@@ -10,7 +10,7 @@ import PageHistory from "@/components/PageHistory";
 import PageIntro, { SectionRule } from "@/components/PageIntro";
 import { LinkRow } from "@/components/Gazetteer";
 import { SpanRow, formatYear, mapHref } from "@/components/RulerTimeline";
-import { sitesNear } from "@/lib/siteHistory";
+import { builtLabel, sitesNear } from "@/lib/siteHistory";
 import { CITY_LIST, distinctRulers, getCity, nearbyCities, rulersOf, type City, type RulerSpan } from "@/lib/cityHistory";
 import { buildPageMetadata, metaDescription, fitTitle } from "@/lib/seo";
 import { JsonLd, SITE_URL, articleLd, breadcrumbLd } from "@/lib/jsonLd";
@@ -45,8 +45,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 /**
- * "Who ruled Budapest? The Avars, Great Moravia, Hungary, the Ottoman Empire
- * and Austria-Hungary: every state that has held the city, on historical maps."
+ * "Who ruled Budapest, founded about 89 CE? Hungary, the Ottoman Empire and
+ * Austria-Hungary: every state that has held its ground, on historical maps."
  * Names are the distinct states with atlas pages, most recent kept when there
  * are too many; padded with plain map names for cities with few linked rulers.
  */
@@ -58,14 +58,19 @@ const atlasName = (href: string) => {
 function cityDescription(city: City, spans: RulerSpan[]): string {
   // Linked rulers by their atlas name ("Roman Empire", not the map's "Rome (Galerius)").
   const linked = [...new Map(spans.filter((s) => s.href && s.name).map((s) => [s.href, atlasName(s.href!) ?? s.name!])).values()];
-  const names = (linked.length >= 3 ? linked : distinctRulers(spans)).slice(-5);
-  const list = names.length > 1 ? `${names.slice(0, -1).join(", ")} and ${names.at(-1)}` : names[0] ?? "";
+  const pool = linked.length >= 3 ? linked : distinctRulers(spans);
   const formerly = city.formerly ? ` (${city.formerly})` : "";
+  const ask = `Who ruled ${city.name}${formerly}, founded ${builtLabel(city.founded)}?`;
   // A city the maps have no rulers for yet still gets a whole sentence.
-  if (!list) return metaDescription(`Who ruled ${city.name}${formerly}? The city's story from its beginnings to today, the country it belongs to now, and where it lies on the atlas's historical maps.`)!;
-  return metaDescription(
-    `Who ruled ${city.name}${formerly}? ${list}: every state that has held the city, traced through historical maps from ${formatYear(spans[0]?.from ?? 0)} to today.`,
-  )!;
+  if (!pool.length) return metaDescription(`${ask} The city's story from its beginnings to today, and where it lies on the atlas's historical maps.`)!;
+  // The most recent rulers, as many as fit in a full description.
+  for (const n of [5, 4, 3, 2, 1]) {
+    const names = pool.slice(-n);
+    const list = names.length > 1 ? `${names.slice(0, -1).join(", ")} and ${names.at(-1)}` : names[0];
+    const text = `${ask} ${list}: every state that has held its ground, on historical maps.`;
+    if (text.length <= 158 || n === 1) return metaDescription(text)!;
+  }
+  return "";
 }
 
 export default async function CityHistoryPage({ params }: Props) {
@@ -122,8 +127,8 @@ export default async function CityHistoryPage({ params }: Props) {
             <>
               {rulers.length > 0 ? (
                 <>
-                  On our historical maps, {city.name} has been drawn inside {rulers.length} different states, empires and peoples
-                  {spans[0] ? <>, from {formatYear(spans[0].from)} to today</> : null}.
+                  {city.name} dates from {builtLabel(city.founded)}. On our historical maps, the ground it stands on has been drawn
+                  inside {rulers.length} different states, empires and peoples.
                 </>
               ) : (
                 <>Our historical maps don’t yet draw the states that held {city.name}; its story is told below.</>
