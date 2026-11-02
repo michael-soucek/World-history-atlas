@@ -11,6 +11,8 @@ import type { Tour } from "@/data/tours";
 import Link from "next/link";
 import { mentionedIn, fmtSpan, type TimedEntry } from "@/lib/entityContext";
 import { getCanonicalNameByQid, lookupByQid, resolveFeature } from "@/data/crosswalk";
+import { tourExtras, type StopExtras } from "@/lib/tourExtras";
+import { DidYouKnow, StopLinks } from "@/components/TourPlayer";
 
 interface Props { params: Promise<{ slug: string }> }
 
@@ -98,6 +100,7 @@ export default async function TourPage({ params }: Props) {
   const tour = getTourBySlug(slug);
   if (!tour) notFound();
   const war = WAR_SEO[tour.slug];
+  const extras = await tourExtras(tour);
 
   return (
     <>
@@ -129,8 +132,8 @@ export default async function TourPage({ params }: Props) {
             ),
           ]}
         />
-        <TourPlayer tour={tour} />
-        <TourTranscript tour={tour} />
+        <TourPlayer tour={tour} extras={extras} />
+        <TourTranscript tour={tour} extras={extras} />
         <InThisTour tour={tour} />
         <div className="max-w-5xl mx-auto px-6 pb-14">
           <RelatedResources resourceKey={`tour:${tour.slug}`} />
@@ -146,7 +149,7 @@ export default async function TourPage({ params }: Props) {
  * prefer to read straight through, screen readers, and search engines (the
  * player itself only shows one stop at a time).
  */
-function TourTranscript({ tour }: { tour: Tour }) {
+function TourTranscript({ tour, extras }: { tour: Tour; extras: StopExtras[] }) {
   return (
     <div className="max-w-5xl mx-auto px-6 pt-10 pb-6">
       <details className="group border-t border-ink/80">
@@ -163,12 +166,19 @@ function TourTranscript({ tour }: { tour: Tour }) {
               </p>
               <h2 className="mt-1 font-display text-xl sm:text-2xl tracking-tight text-ink">{step.title}</h2>
               <p className="mt-2 max-w-3xl text-[16px] leading-relaxed text-ink/75">{step.text}</p>
+              {step.fact && <DidYouKnow fact={step.fact} />}
               {step.markers?.some((m) => m.kind === "battle") ? (
                 <p className="mt-2 max-w-3xl text-[14px] leading-relaxed text-ink/70">
                   <span className="label text-ink/64 !text-[10px] mr-2">Battles</span>
                   {step.markers.filter((m) => m.kind === "battle").map((m) => m.label).join(" · ")}
                 </p>
               ) : null}
+              {(extras[i].people.length > 0 || extras[i].readMore.length > 0) && (
+                <div className="mt-3 space-y-1.5">
+                  <StopLinks title="People" links={extras[i].people} />
+                  <StopLinks title="Read more" links={extras[i].readMore} />
+                </div>
+              )}
             </li>
           ))}
         </ol>

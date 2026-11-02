@@ -23,6 +23,9 @@ export const TOUR: Tour = {
       routes: [
         { label: "Columbus's first voyage, 1492", kind: "voyage", path: [[-6.89, 37.23], [-10, 33], [-15.6, 27.97], [-17.23, 28.11], [-35, 27], [-55, 26], [-70, 24.6], [-74.5, 24.04]] },
       ],
+      fact: "Columbus's flagship, the Santa María, ran aground off Hispaniola on Christmas Day 1492. Its timbers were stripped to build a fort that he named La Navidad, 'Christmas', after the day of the wreck.",
+      people: ["isabella-i-of-castile", "ferdinand-ii-of-aragon", "christopher-columbus"],
+      readMore: ["/event/voyages-of-christopher-columbus", "/event/granada-war", "/site/alhambra", "/place/crown-of-castile", "/event/reconquista"],
     },
     {
       title: "Hispaniola and the Fall of Tenochtitlan",
@@ -39,6 +42,9 @@ export const TOUR: Tour = {
       routes: [
         { label: "Cortés and his allies march inland, 1519", kind: "conquest", path: [[-96.13, 19.21], [-96.41, 19.45], [-97.2, 19.5], [-98.24, 19.31], [-98.7, 19.2], [-99.13, 19.43]] },
       ],
+      fact: "Cortés did not burn his ships, as popular legend has it. After a plot by men loyal to Cuba's governor, he had them scuttled, leaving his expedition stranded in Mexico with no easy way back.",
+      people: ["hernan-cortes", "moctezuma-ii"],
+      readMore: ["/event/fall-of-tenochtitlan", "/event/spanish-conquest-of-the-aztec-empire", "/history-of/mexico-city", "/place/taino", "/place/aztec-empire"],
     },
     {
       title: "The Conquest of the Incas",
@@ -57,6 +63,9 @@ export const TOUR: Tour = {
         { label: "To Cajamarca, 1532", kind: "conquest", path: [[-80.46, -3.57], [-80.6, -5.2], [-79.5, -6.5], [-78.52, -7.16]] },
         { label: "On to Cusco, 1533", kind: "conquest", path: [[-78.52, -7.16], [-77.5, -9.5], [-75.5, -11.8], [-74.22, -13.16], [-71.98, -13.52]] },
       ],
+      fact: "To win his release, Atahualpa offered to fill a room about 6.7 metres long and 5.2 metres wide, to a height of some 2.4 metres, once with gold and twice with silver within two months.",
+      people: ["francisco-pizarro", "atahualpa"],
+      readMore: ["/event/battle-of-cajamarca", "/event/spanish-conquest-of-the-inca-empire", "/history-of/cusco", "/event/inca-civil-war", "/place/inca-empire"],
     },
     {
       title: "Charles V: An Empire Without Sunset",
@@ -72,6 +81,9 @@ export const TOUR: Tour = {
         { label: "Tunis: captured, 1535", at: [10.18, 36.81], kind: "battle" },
         { label: "Yuste: Charles retires, 1557", at: [-5.74, 40.11] },
       ],
+      fact: "In retirement at the monastery of Yuste, Charles lived among paintings by Titian and walls lined with clocks. He died there in September 1558 of an illness identified in the 21st century as malaria.",
+      people: ["charles-v-holy-roman-emperor"],
+      readMore: ["/event/battle-of-pavia", "/event/sack-of-rome-1527", "/event/siege-of-vienna-1529", "/place/habsburg-monarchy", "/event/italian-wars"],
     },
     {
       title: "Potosí: Silver and the Mita",
@@ -89,6 +101,8 @@ export const TOUR: Tour = {
         { label: "Silver shipped north to Panama", kind: "voyage", path: [[-70.32, -18.48], [-73, -15], [-77.14, -12.05], [-80.5, -5], [-81, 1], [-79.53, 8.97]] },
         { label: "The treasure fleets to Spain", kind: "voyage", path: [[-79.66, 9.55], [-76, 12.5], [-80, 17], [-84, 22.5], [-79, 25.5], [-60, 32], [-30, 37], [-12, 37], [-6.3, 36.53]] },
       ],
+      fact: "Potosí's riches entered the Spanish language. The phrase 'valer un Potosí', to be worth a Potosí, is still used to say that something is of great value.",
+      readMore: ["/country/bolivia", "/place/viceroyalty-of-peru", "/event/columbian-exchange", "/place/spanish-empire"],
     },
     {
       title: "The Philippines and the Manila Galleons",
@@ -107,6 +121,9 @@ export const TOUR: Tour = {
         { label: "Galleon route to Acapulco, via the north Pacific", kind: "voyage", path: [[120.98, 14.6], [124.2, 12.59], [140, 30], [170, 38], [200, 40], [230, 37], [241.58, 33.38], [250, 23], [260.12, 16.86]] },
         { label: "Return route to Manila, via the Marianas", kind: "voyage", path: [[260.12, 16.86], [230, 13], [190, 12], [144.8, 13.5], [124.2, 12.59], [120.98, 14.6]] },
       ],
+      fact: "Most galleons were built in the shipyards of Cavite, near Manila, from Philippine hardwoods. Between 1609 and 1616 each one cost on average 78,000 pesos and used at least 2,000 trees.",
+      people: ["ferdinand-magellan", "philip-ii-of-spain"],
+      readMore: ["/history-of/manila", "/place/captaincy-general-of-the-philippines", "/country/philippines", "/place/new-spain"],
     },
     {
       title: "Philip II and the Armada",
@@ -123,6 +140,9 @@ export const TOUR: Tour = {
         { label: "The armada sails up the Channel", kind: "voyage", path: [[-9.15, 38.73], [-10, 43], [-6, 48], [-5.21, 49.96], [-2, 50.3], [1.86, 50.95]] },
         { label: "The return around Scotland and Ireland", kind: "retreat", path: [[2.13, 51.1], [3, 53.5], [1, 57], [-1.6, 59.5], [-6, 58.5], [-10.5, 55], [-10.8, 52], [-9, 45], [-8.4, 43.37]] },
       ],
+      fact: "The armada's commander, the Duke of Medina Sidonia, got the post only after the Marquis of Santa Cruz died in February 1588. He wrote to Philip pointing to his lack of experience and his tendency to seasickness.",
+      people: ["philip-ii-of-spain", "elizabeth-i"],
+      readMore: ["/event/spanish-armada", "/event/battle-of-lepanto", "/history-of/lisbon", "/event/eighty-years-war", "/country/portugal"],
     },
     {
       title: "Decline and the Bourbons",
@@ -136,6 +156,9 @@ export const TOUR: Tour = {
         { label: "Gibraltar: to Britain", at: [-5.35, 36.14] },
         { label: "Menorca: to Britain", at: [4.08, 39.97] },
       ],
+      fact: "Charles II was nicknamed 'El Hechizado', the Bewitched. In 1691 a foreign ambassador wondered how his monarchy survived at all, though recent historians call the image of an incapable king and a decaying Spain too simple.",
+      people: ["louis-xiv"],
+      readMore: ["/event/war-of-the-spanish-succession", "/event/peace-of-utrecht", "/history-of/madrid", "/country/spain"],
     },
     {
       title: "The Wars of Independence",
@@ -154,6 +177,9 @@ export const TOUR: Tour = {
         { label: "San Martín's army sails to Peru, 1820", kind: "voyage", path: [[-71.62, -33.05], [-73, -28], [-72.5, -20], [-76.2, -13.71]] },
         { label: "Bolívar crosses the Andes, 1819", kind: "conquest", path: [[-69.5, 7.5], [-71.5, 6.5], [-72.8, 5.8], [-73.43, 5.45], [-74.07, 4.71]] },
       ],
+      fact: "Bolivia, declared on 6 August 1825, was first called the 'Republic of Bolívar'. A congressman then argued that as Rome came from Romulus, Bolivia should come from Bolívar, and the new name was approved in October.",
+      people: ["simon-bolivar", "jose-de-san-martin", "miguel-hidalgo-y-costilla", "napoleon"],
+      readMore: ["/event/spanish-american-wars-of-independence", "/event/battle-of-ayacucho", "/event/mexican-war-of-independence", "/history-of/bogota", "/history-of/lima"],
     },
     {
       title: "1898: The End of an Empire",
@@ -168,6 +194,8 @@ export const TOUR: Tour = {
         { label: "Guam", at: [-215.2, 13.5] },
         { label: "Manila Bay, 1 May 1898", at: [-239.25, 14.5], kind: "battle" },
       ],
+      fact: "The Maine explosion killed 268 sailors, three-quarters of her crew. A 1974 investigation led by Admiral Hyman Rickover favoured an accidental fire in a coal bunker over a Spanish mine, but the cause is still debated.",
+      readMore: ["/event/spanish-american-war", "/history-of/havana", "/event/philippine-revolution", "/place/captaincy-general-of-cuba", "/event/philippine-american-war"],
     },
   ],
 };

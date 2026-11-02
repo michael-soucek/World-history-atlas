@@ -23,6 +23,9 @@ export const TOUR: Tour = {
         { label: "Soviet forces enter northern Korea, August 1945", kind: "conquest", path: [[130.6, 42.4], [129.8, 41.8], [128.6, 40.8], [127.5, 39.9], [126.3, 39.3], [125.75, 39.02], [126.3, 38.2]] },
         { label: "US forces arrive, September 1945", kind: "voyage", path: [[125.4, 35.6], [125.7, 36.6], [126.2, 37.2], [126.603, 37.476]] },
       ],
+      fact: "Rusk and Bonesteel picked the line from a National Geographic map, consulting no Korea experts. Rusk later said that had he known Japan and Russia once discussed the same division, he would almost surely have chosen another.",
+      people: ["kim-il-sung"],
+      readMore: ["/event/division-of-korea", "/event/japan-korea-treaty-1910", "/history-of/seoul", "/history-of/pyongyang"],
     },
     {
       title: "The Invasion: June 1950",
@@ -39,6 +42,9 @@ export const TOUR: Tour = {
         { label: "North Korean advance in the west, June–July 1950", kind: "conquest", path: [[126.6, 38.2], [126.977, 37.65], [127.053, 37.185], [127.273, 36.475], [127.9, 36.1], [128.3, 35.95]] },
         { label: "North Korean advance down the east coast", kind: "conquest", path: [[128.6, 38.2], [128.9, 37.6], [129.3, 36.8], [129.365, 36.1]] },
       ],
+      fact: "Task Force Smith, the first American unit to fight, had 540 men at Osan against about 5,000 North Korean infantry and 36 tanks. Apart from a few anti-tank shells for its howitzers, it had nothing able to stop the T-34s.",
+      people: ["kim-il-sung", "joseph-stalin", "harry-s-truman"],
+      readMore: ["/event/korean-war", "/history-of/seoul", "/country/south-korea"],
     },
     {
       title: "The Pusan Perimeter: August–September 1950",
@@ -52,6 +58,8 @@ export const TOUR: Tour = {
         { label: "Pohang", at: [129.365, 36.032], kind: "battle" },
       ],
       routes: [{ label: "Reinforcements and supplies by sea", kind: "voyage", path: [[130.6, 33.7], [130.1, 34.3], [129.6, 34.8], [129.075, 35.12]] }],
+      fact: "By mid-September, according to the historian Roy Appleman, no more than 30 per cent of the original North Korean troops on the perimeter remained; most of their recruits came from the South.",
+      readMore: ["/country/south-korea", "/event/korean-war", "/event/cold-war"],
     },
     {
       title: "Inchon: September 1950",
@@ -69,6 +77,9 @@ export const TOUR: Tour = {
         { label: "Breakout from the perimeter", kind: "conquest", path: [[128.43, 35.96], [128.0, 36.3], [127.273, 36.475], [127.1, 36.9], [127.053, 37.185]] },
         { label: "North Korean collapse and retreat", kind: "retreat", path: [[128.2, 36.3], [127.8, 37.0], [127.5, 37.7], [127.2, 38.3]] },
       ],
+      fact: "Inchon's tides rise and fall about 9 metres on average, one of the largest ranges in the world. An American officer who watched them for two weeks found US tide charts wrong but Japanese ones accurate.",
+      people: ["douglas-macarthur"],
+      readMore: ["/history-of/seoul", "/event/korean-war", "/country/south-korea"],
     },
     {
       title: "The Drive to the Yalu: October–November 1950",
@@ -86,6 +97,9 @@ export const TOUR: Tour = {
         { label: "Eighth Army advance in the west", kind: "conquest", path: [[126.977, 37.6], [126.55, 37.97], [125.748, 39.017], [125.6, 39.6], [125.4, 40.2], [125.306, 40.603]] },
         { label: "X Corps advance in the east", kind: "conquest", path: [[127.446, 39.148], [127.6, 39.83], [128.2, 40.4], [128.3, 40.9], [128.183, 41.4]] },
       ],
+      fact: "On 22 November 1950 X Corps intelligence reported no sign that many more Chinese units had crossed the border. Two days later the UN Command launched its 'Home by Christmas' offensive.",
+      people: ["douglas-macarthur", "harry-s-truman", "zhou-enlai"],
+      readMore: ["/history-of/pyongyang", "/country/north-korea", "/event/korean-war"],
     },
     {
       title: "China Intervenes: Chosin, November–December 1950",
@@ -107,6 +121,9 @@ export const TOUR: Tour = {
         { label: "X Corps fights out to Hungnam", kind: "retreat", path: [[127.26, 40.37], [127.3, 40.2], [127.424, 40.038], [127.6, 39.833]] },
         { label: "Evacuation by sea to Pusan", kind: "voyage", path: [[127.7, 39.8], [128.9, 38.5], [129.6, 37.0], [129.6, 35.7], [129.075, 35.1]] },
       ],
+      fact: "Among the Chinese dead was Mao Zedong's eldest son, Mao Anying, killed by an American napalm strike on 25 November 1950, the day the Second Phase Offensive opened.",
+      people: ["mao-zedong"],
+      readMore: ["/event/korean-war", "/place/china", "/country/north-korea"],
     },
     {
       title: "Seoul Lost and Retaken: January–March 1951",
@@ -118,6 +135,9 @@ export const TOUR: Tour = {
         { label: "Chinese Third Phase Offensive, January 1951", kind: "conquest", path: [[126.8, 38.2], [126.9, 37.85], [126.977, 37.569], [127.0, 37.27]] },
         { label: "UN counter-offensives, February–March 1951", kind: "conquest", path: [[127.0, 37.05], [127.1, 37.35], [127.0, 37.6], [127.1, 37.95], [127.2, 38.2]] },
       ],
+      fact: "Ridgway took over because the Eighth Army's commander, Walton Walker, was killed on 23 December 1950, when his jeep collided with a South Korean army weapons carrier near Seoul.",
+      people: ["douglas-macarthur", "harry-s-truman"],
+      readMore: ["/history-of/seoul", "/event/korean-war"],
     },
     {
       title: "Stalemate: 1951–1953",
@@ -129,6 +149,9 @@ export const TOUR: Tour = {
         { label: "Pyongyang: heavily bombed", at: [125.748, 39.017] },
         { label: "Wonsan: blockaded and bombed", at: [127.446, 39.148] },
       ],
+      fact: "In August 1951 the communists said the Kaesong conference site had been bombed. The evidence appeared to be faked; talks stopped until 25 October, and the UN Command would not return to Kaesong.",
+      image: false,
+      readMore: ["/event/cold-war", "/country/north-korea", "/history-of/pyongyang"],
     },
     {
       title: "The Armistice: 27 July 1953",
@@ -137,6 +160,9 @@ export const TOUR: Tour = {
       mapState: { year: 1953, mapYear: 1960, lat: 37.9, lng: 127.4, zoom: 5.6 },
       highlight: ["Korea, Republic of", "Korea, Democratic People's Republic of"],
       markers: [{ label: "Panmunjom: armistice signed, 27 July 1953", at: [126.665, 37.961] }],
+      fact: "Since November 1974 South Korea has found four tunnels dug under the DMZ from the North. North Korea claimed they were for coal mining.",
+      people: ["joseph-stalin"],
+      readMore: ["/event/korean-war", "/event/division-of-korea", "/country/south-korea", "/country/north-korea"],
     },
   ],
 };

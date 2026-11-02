@@ -21,6 +21,8 @@ export const TOUR: Tour = {
         { label: "Luanda (Portuguese)", at: [13.23, -8.84] },
         { label: "Cape Town (British)", at: [18.42, -33.93] },
       ],
+      fact: "At its peak the Sokoto Caliphate linked more than 30 emirates and 10 to 20 million people, making it the largest independent state in Africa of its time.",
+      readMore: ["/place/sokoto-caliphate", "/place/asante-empire", "/place/ethiopia", "/place/sultanate-of-zanzibar", "/country/liberia"],
     },
     {
       title: "The Race Begins: Berlin, 1884–1885",
@@ -33,6 +35,9 @@ export const TOUR: Tour = {
         { label: "Egypt occupied by Britain, 1882", at: [31.24, 30.04] },
         { label: "Brazzaville: French flag raised, 1881", at: [15.27, -4.27] },
       ],
+      fact: "Six of the fourteen states at Berlin, among them the United States, Russia and Austria-Hungary, went home without any zone of interest in Africa at all.",
+      people: ["otto-von-bismarck", "leopold-ii-of-belgium"],
+      readMore: ["/event/berlin-conference", "/event/scramble-for-africa", "/history-of/berlin"],
     },
     {
       title: "Leopold's Congo Free State",
@@ -48,6 +53,9 @@ export const TOUR: Tour = {
       routes: [
         { label: "Stanley works for Leopold up the Congo, 1878–1885", kind: "voyage", path: [[13.05, -5.85], [14.5, -5.3], [15.31, -4.32], [16.6, -2.5], [18.26, 0.05], [21.5, 2.15], [23.6, 1.24], [25.2, 0.52]] },
       ],
+      fact: "Just before giving up the colony in 1908, Leopold had evidence of his regime destroyed, including the archives of the Free State's finance and interior departments.",
+      people: ["leopold-ii-of-belgium"],
+      readMore: ["/place/belgian-congo", "/country/democratic-republic-of-the-congo", "/event/scramble-for-africa"],
     },
     {
       title: "Samori Ture and French West Africa",
@@ -67,6 +75,9 @@ export const TOUR: Tour = {
         { label: "The French advance from Senegal toward the Niger", kind: "conquest", path: [[-16.5, 16.03], [-14.5, 15.2], [-11.43, 14.45], [-10.4, 13.7], [-9.49, 13.04], [-9.17, 11.42]] },
         { label: "Samori moves his state east, 1893–1895", kind: "migration", path: [[-9.16, 9.93], [-8, 9.6], [-6.8, 9.4], [-5.6, 9.3], [-4.62, 9.15]] },
       ],
+      fact: "Samori's resistance left a political legacy: he was the great-grandfather of Ahmed Sékou Touré, who became the first president of independent Guinea.",
+      people: ["samori-ture"],
+      readMore: ["/place/samorian-state", "/place/french-west-africa", "/event/scramble-for-africa"],
     },
     {
       title: "Adwa: Ethiopia Defeats Italy",
@@ -83,6 +94,9 @@ export const TOUR: Tour = {
         { label: "The Italian advance into Tigray, 1895", kind: "conquest", path: [[39.45, 15.61], [39.15, 15.45], [38.94, 15.34], [38.9, 14.8], [38.95, 14.3]] },
         { label: "The Italian rout, 1 March 1896", kind: "retreat", path: [[38.97, 14.02], [38.9, 14.45], [38.82, 14.88]] },
       ],
+      fact: "News of Adwa set off protests in Italy, where police had to disperse stone-throwers outside Prime Minister Francesco Crispi's home; he resigned on 9 March 1896. Ethiopia still marks Adwa Victory Day as a public holiday.",
+      people: ["menelik-ii"],
+      readMore: ["/event/battle-of-adwa", "/place/ethiopia", "/history-of/addis-ababa", "/country/eritrea"],
     },
     {
       title: "Cape to Cairo: Omdurman and Fashoda",
@@ -100,6 +114,9 @@ export const TOUR: Tour = {
         { label: "Kitchener's advance up the Nile, 1896–1898", kind: "conquest", path: [[31.37, 21.78], [33.34, 19.54], [33.98, 17.7], [32.52, 15.75], [32.66, 13.17], [32.78, 11.75], [32.11, 9.89]] },
         { label: "Marchand's expedition from Brazzaville, 1897–1898", kind: "raid", path: [[15.27, -4.27], [16.6, -1], [18.56, 4.37], [22.5, 4.8], [26, 5.5], [29, 7.7], [32.11, 9.89]] },
       ],
+      fact: "Among Kitchener's men at Omdurman was Winston Churchill, then 23, a soldier and war reporter who led a troop of 25 men in the charge of the 21st Lancers.",
+      people: ["cecil-rhodes", "winston-churchill"],
+      readMore: ["/event/battle-of-omdurman", "/event/fashoda-incident", "/event/mahdist-war", "/place/anglo-egyptian-sudan"],
     },
     {
       title: "The Boer War",
@@ -118,6 +135,9 @@ export const TOUR: Tour = {
       routes: [
         { label: "The British advance on the Boer capitals, 1900", kind: "conquest", path: [[24.1, -29.6], [24.76, -28.74], [26.22, -29.12], [27.5, -27.6], [28.05, -26.2], [28.19, -25.75]] },
       ],
+      fact: "At Spion Kop, Mohandas Gandhi led an Indian ambulance corps serving the British side: some 300 free Indians and 800 indentured labourers.",
+      people: ["mahatma-gandhi"],
+      readMore: ["/event/second-boer-war", "/place/south-african-republic", "/history-of/johannesburg", "/place/cape-colony"],
     },
     {
       title: "The Herero and Nama Genocide",
@@ -134,6 +154,8 @@ export const TOUR: Tour = {
       routes: [
         { label: "Herero flight into the Omaheke desert, 1904", kind: "forced", path: [[17.23, -20.52], [18.2, -20.9], [19, -21.3], [19.8, -21.8], [20.8, -22.2]] },
       ],
+      fact: "Skulls and other remains of the dead were shipped to Germany and studied to supply pseudoscientific 'proof' of African racial inferiority. In 2021 Germany agreed a contested deal to pay 1.1 billion euros.",
+      readMore: ["/event/herero-and-nama-genocide", "/place/german-south-west-africa", "/country/namibia"],
     },
     {
       title: "Maji Maji",
@@ -150,6 +172,8 @@ export const TOUR: Tour = {
         { label: "The rising spreads from the Matumbi Hills, 1905", kind: "spread", path: [[38.9, -8.6], [37.8, -8.5], [36.72, -8.68]] },
         { label: "South to the Ngoni country", kind: "spread", path: [[38.9, -8.6], [37.6, -9.6], [36.6, -10.3], [35.65, -10.68]] },
       ],
+      fact: "Kinjikitile himself was arrested and hanged for treason. Before his execution, he declared that he had already spread the medicine of the rebellion throughout the region.",
+      readMore: ["/event/maji-maji-rebellion", "/place/german-east-africa", "/country/tanzania"],
     },
     {
       title: "Africa in 1914",
@@ -161,6 +185,8 @@ export const TOUR: Tour = {
         { label: "Ethiopia: independent", at: [38.75, 9.04] },
         { label: "Liberia: independent", at: [-10.8, 6.31] },
       ],
+      fact: "Britain's final campaign against the Dervishes in 1920 relied on air power, with twelve DH.9A aircraft. In the first bombing Mohammed Abdullah Hassan survived only because a camel shielded him from the blast.",
+      readMore: ["/event/scramble-for-africa", "/event/decolonisation-of-africa", "/event/second-italo-ethiopian-war", "/country/somalia"],
     },
   ],
 };

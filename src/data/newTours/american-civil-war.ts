@@ -309,6 +309,9 @@ export const TOUR: Tour = {
         { label: "Washington, D.C.", at: [-77.0164, 38.9047] },
         { label: "Richmond: Confederate capital", at: [-77.4367, 37.5408] },
       ],
+      fact: "The bombardment itself killed nobody, but during the surrender ceremonies on 14 April a gun exploded, killing two US Army soldiers.",
+      people: ["abraham-lincoln", "jefferson-davis"],
+      readMore: ["/event/battle-of-fort-sumter", "/place/confederate-states-of-america", "/event/american-civil-war"],
     },
     {
       title: "First Bull Run: the war will be long",
@@ -325,6 +328,8 @@ export const TOUR: Tour = {
         { label: "Johnston's troops arrive by rail", kind: "conquest", path: [[-78.16, 39.18], [-77.95, 39.0], [-77.75, 38.85], [-77.47, 38.75]] },
         { label: "The Union rout back to Washington", kind: "retreat", path: [[-77.5, 38.83], [-77.35, 38.86], [-77.2, 38.87], [-77.05, 38.89]] },
       ],
+      fact: "Expecting an easy Union win, members of Washington's elite, congressmen and their families among them, came out to picnic and watch. Their carriages then blocked the roads as the beaten army fled.",
+      readMore: ["/event/american-civil-war", "/history-of/washington-dc", "/place/confederate-states-of-america"],
     },
     {
       title: "The war in the West: Shiloh and New Orleans",
@@ -341,6 +346,9 @@ export const TOUR: Tour = {
         { label: "Grant's army moves up the Tennessee River", kind: "conquest", path: [[-87.86, 36.49], [-88.0, 36.45], [-88.05, 36.0], [-88.1, 35.6], [-88.25, 35.3], [-88.33, 35.15]] },
         { label: "Farragut's fleet runs past the forts", kind: "voyage", path: [[-88.9, 28.95], [-89.25, 29.2], [-89.45, 29.4], [-89.75, 29.65], [-90.06, 29.95]] },
       ],
+      fact: "The battle is named after Shiloh Church, a log meeting house about 3 miles inland from Pittsburg Landing. Shiloh is a Hebrew word meaning 'place of peace'.",
+      people: ["ulysses-s-grant"],
+      readMore: ["/history-of/new-orleans", "/event/american-civil-war", "/place/united-states"],
     },
     {
       title: "Antietam and the Emancipation Proclamation",
@@ -356,6 +364,9 @@ export const TOUR: Tour = {
         { label: "Lee invades Maryland, September 1862", kind: "conquest", path: [[-77.6, 38.75], [-77.52, 39.05], [-77.45, 39.25], [-77.41, 39.41], [-77.6, 39.45], [-77.74, 39.46]] },
         { label: "Lee withdraws across the Potomac", kind: "retreat", path: [[-77.76, 39.46], [-77.8, 39.43], [-77.88, 39.35], [-77.98, 39.25]] },
       ],
+      fact: "Four days before Antietam, a Union corporal at Frederick, Maryland, found a lost copy of Lee's campaign plans, Special Order 191, wrapped around three cigars. It revealed that Lee had divided his army.",
+      people: ["robert-e-lee", "abraham-lincoln"],
+      readMore: ["/event/battle-of-antietam", "/event/emancipation-proclamation", "/event/abolitionism-in-the-united-states"],
     },
     {
       title: "Gettysburg",
@@ -370,6 +381,9 @@ export const TOUR: Tour = {
         { label: "Lee's invasion of the North, June 1863", kind: "conquest", path: [[-77.46, 38.3], [-78.0, 38.47], [-78.16, 39.18], [-77.75, 39.6], [-77.66, 39.94], [-77.23, 39.81]] },
         { label: "Lee's retreat, July 1863", kind: "retreat", path: [[-77.25, 39.82], [-77.45, 39.85], [-77.72, 39.75], [-77.82, 39.6], [-77.95, 39.4]] },
       ],
+      fact: "Only one civilian was killed directly by the fighting: Jennie Wade, aged 20, struck by a stray bullet on 3 July while kneading dough for bread in her sister's house.",
+      people: ["robert-e-lee", "abraham-lincoln"],
+      readMore: ["/event/battle-of-gettysburg", "/event/american-civil-war"],
     },
     {
       title: "Vicksburg: the Mississippi cut",
@@ -383,6 +397,9 @@ export const TOUR: Tour = {
       routes: [
         { label: "Grant's Vicksburg campaign, April–May 1863", kind: "conquest", path: [[-91.07, 32.45], [-91.2, 32.15], [-91.13, 31.96], [-90.98, 31.96], [-90.42, 32.26], [-90.18, 32.3], [-90.53, 32.32], [-90.83, 32.35]] },
       ],
+      fact: "Union gunboats fired over 22,000 shells into Vicksburg during the siege. Residents dug more than 500 caves into the town's yellow clay hills and furnished them with rugs, furniture and pictures.",
+      people: ["ulysses-s-grant"],
+      readMore: ["/event/american-civil-war", "/place/confederate-states-of-america", "/place/united-states"],
     },
     {
       title: "Atlanta and the March to the Sea",
@@ -399,6 +416,9 @@ export const TOUR: Tour = {
         { label: "The Atlanta campaign, May–September 1864", kind: "conquest", path: [[-85.25, 35.05], [-84.97, 34.77], [-84.94, 34.58], [-84.75, 34.2], [-84.58, 33.98], [-84.39, 33.76]] },
         { label: "The March to the Sea, November–December 1864", kind: "conquest", path: [[-84.36, 33.73], [-83.7, 33.4], [-83.23, 33.08], [-82.5, 32.9], [-81.95, 32.8], [-81.4, 32.4], [-81.1, 32.09]] },
       ],
+      fact: "Sherman's troops heated railway rails over fires and twisted them around tree trunks so they could not be relaid. The ruined rails became known as 'Sherman's neckties'.",
+      people: ["ulysses-s-grant", "abraham-lincoln"],
+      readMore: ["/event/shermans-march-to-the-sea", "/event/american-civil-war"],
     },
     {
       title: "Appomattox",
@@ -415,6 +435,9 @@ export const TOUR: Tour = {
         { label: "Lee's retreat, April 1865", kind: "retreat", path: [[-77.42, 37.4], [-77.75, 37.36], [-77.98, 37.34], [-78.2, 37.3], [-78.39, 37.3], [-78.79, 37.38]] },
         { label: "Union pursuit and the cut-off", kind: "conquest", path: [[-77.4, 37.2], [-77.8, 37.2], [-78.2, 37.19], [-78.5, 37.28], [-78.83, 37.36]] },
       ],
+      fact: "Wilmer McLean had moved to Appomattox to get away from the war. The first clash of First Bull Run in 1861 had been fought on his farm near Manassas.",
+      people: ["robert-e-lee", "ulysses-s-grant"],
+      readMore: ["/event/american-civil-war", "/place/confederate-states-of-america", "/country/united-states"],
     },
     {
       title: "Lincoln's death and the start of Reconstruction",
@@ -423,6 +446,9 @@ export const TOUR: Tour = {
       mapState: { year: 1865, mapYear: 1880, lat: 35.5, lng: -84, zoom: 3.9 },
       zones: [held("union", CSA, USA, { occupied: true }), held("union", box(-180, 15, -60, 75), USA)],
       markers: [{ label: "Ford's Theatre: Lincoln shot, 14 April 1865", at: [-77.0258, 38.8967] }],
+      fact: "In late 1863 or early 1864, the assassin's brother Edwin Booth, a celebrated Shakespearean actor, saved Lincoln's son Robert from serious injury on a railway platform in Jersey City.",
+      people: ["abraham-lincoln"],
+      readMore: ["/event/assassination-of-abraham-lincoln", "/event/reconstruction-era", "/history-of/washington-dc"],
     },
   ],
 };

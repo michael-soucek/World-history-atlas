@@ -25,6 +25,9 @@ export const TOUR: Tour = {
         { label: "The Polos sail to Acre and Ayas, 1271", kind: "voyage", path: [[12.34, 45.4], [14.5, 43.2], [18.6, 39.9], [21.5, 36.5], [27, 35], [33, 33.6], [35.0, 33.1], [35.79, 36.7]] },
         { label: "Overland through Persia to Hormuz", kind: "migration", path: [[35.79, 36.77], [39.5, 38.4], [43.5, 38.6], [46.3, 38.07], [51, 33.5], [57.06, 30.26], [56.46, 27.07]] },
       ],
+      fact: "Christopher Columbus owned a copy of Marco Polo's book and annotated it by hand. Polo's description of the Far East made Columbus want to see those lands for himself.",
+      people: ["marco-polo", "kublai-khan", "christopher-columbus"],
+      readMore: ["/history-of/venice", "/place/republic-of-venice", "/place/ilkhanate", "/history-of/jerusalem"],
     },
     {
       title: "Along the Silk Road to Kublai Khan",
@@ -43,6 +46,9 @@ export const TOUR: Tour = {
         { label: "Hormuz to Kashgar, across the Pamirs", kind: "migration", path: [[56.46, 27.07], [57.06, 30.26], [62, 34], [66.9, 36.76], [70.5, 37], [73, 37], [75.99, 39.47]] },
         { label: "Kashgar to Shangdu", kind: "migration", path: [[75.99, 39.47], [79.92, 37.12], [86, 39], [90.58, 40.17], [94.66, 40.14], [100.45, 38.93], [108, 41], [116.19, 42.36]] },
       ],
+      fact: "Known in the West as Xanadu, Shangdu later inspired the English poet Samuel Taylor Coleridge. Its ruins in Inner Mongolia became a UNESCO World Heritage Site in 2012.",
+      people: ["marco-polo", "kublai-khan"],
+      readMore: ["/culture/silk-road", "/history-of/kashgar", "/place/yuan-dynasty", "/place/mongol-empire"],
     },
     {
       title: "In the Khan's Service, and the Doubters",
@@ -58,6 +64,9 @@ export const TOUR: Tour = {
       routes: [
         { label: "Marco's travels in the Khan's service, as he told them", kind: "migration", path: [[116.19, 42.36], [116.4, 39.91], [117.2, 36.5], [118.5, 34.2], [119.41, 32.39], [120.15, 30.27]] },
       ],
+      fact: "The book claims the Polos advised the Mongols on building siege engines at Xiangyang. That siege ended in 1273, before Marco reached China, and Chinese sources name the engineers as men from Baghdad.",
+      people: ["marco-polo", "kublai-khan"],
+      readMore: ["/history-of/beijing", "/place/yuan-dynasty", "/event/mongol-conquest-of-the-song-dynasty", "/history-of/hangzhou"],
     },
     {
       title: "Home by Sea, and a Book in Prison",
@@ -75,6 +84,9 @@ export const TOUR: Tour = {
         { label: "Overland to Trebizond", kind: "migration", path: [[56.46, 27.07], [54, 32], [47.5, 37], [43, 39.8], [39.72, 41.0]] },
         { label: "Home to Venice, 1295", kind: "voyage", path: [[39.72, 41.1], [33, 42.1], [28.96, 41.01], [24.5, 38.5], [20.5, 37.4], [18.6, 40.1], [14.3, 43.4], [12.34, 45.43]] },
       ],
+      fact: "No original manuscript of Polo's book survives. About 150 copies exist, in Old French, Tuscan, Venetian, Latin and other languages, and copyists' errors mean they differ considerably from one another.",
+      people: ["marco-polo"],
+      readMore: ["/history-of/venice", "/place/republic-of-venice", "/place/ilkhanate", "/place/yuan-dynasty"],
     },
     {
       title: "Ibn Battuta: Tangier to Mecca and Persia",
@@ -94,6 +106,9 @@ export const TOUR: Tour = {
         { label: "Through Syria to Mecca, 1326", kind: "migration", path: [[31.24, 30.04], [34.4, 31.3], [35.23, 31.78], [36.31, 33.51], [37.6, 29], [39.61, 24.47], [39.82, 21.42]] },
         { label: "To Iraq and Persia, 1326–1327", kind: "migration", path: [[39.82, 21.42], [39.61, 24.47], [44.33, 32.0], [47.81, 30.52], [51.67, 32.67], [52.54, 29.61], [44.37, 33.32], [46.3, 38.07]] },
       ],
+      fact: "By one estimate Ibn Battuta covered some 117,000 kilometres in his life, more than any other known traveller before modern times, against roughly 24,000 for Marco Polo.",
+      people: ["ibn-battuta"],
+      readMore: ["/history-of/mecca", "/history-of/cairo", "/history-of/baghdad", "/history-of/isfahan", "/country/morocco"],
     },
     {
       title: "Ibn Battuta on the Swahili Coast",
@@ -110,6 +125,9 @@ export const TOUR: Tour = {
         { label: "Down the Red Sea and the African coast", kind: "voyage", path: [[39.17, 21.54], [41.6, 16.2], [45.03, 12.6], [43.47, 11.45], [51.2, 11.6], [45.34, 2.04], [39.8, -4.0], [39.6, -8.96]] },
         { label: "North with the monsoon", kind: "voyage", path: [[39.7, -8.9], [45, -2], [52, 8], [57, 17.5], [59, 23], [56.46, 27.07]] },
       ],
+      fact: "At its medieval peak Kilwa had more than 10,000 inhabitants. Since 1981 the whole island of Kilwa Kisiwani, with the nearby ruins of Songo Mnara, has been a UNESCO World Heritage Site.",
+      people: ["ibn-battuta"],
+      readMore: ["/site/kilwa-kisiwani", "/history-of/mogadishu", "/culture/swahili-culture", "/country/somalia"],
     },
     {
       title: "Ibn Battuta: Delhi, the Maldives and China",
@@ -130,6 +148,9 @@ export const TOUR: Tour = {
         { label: "Delhi to the Maldives", kind: "voyage", path: [[77.23, 28.61], [72.62, 22.3], [73.5, 16], [75.78, 11.25], [73.51, 4.18]] },
         { label: "On to China, 1345", kind: "voyage", path: [[73.51, 4.18], [80.4, 6.8], [91.83, 22.34], [97.14, 5.19], [103.8, 1.3], [109.5, 11], [118.68, 24.87]] },
       ],
+      fact: "The Maldivians, wanting a judge who knew Arabic and the Qur'an, gave Ibn Battuta pearls, gold and slaves while making it impossible for him to leave by ship. He married into the royal family.",
+      people: ["ibn-battuta"],
+      readMore: ["/history-of/delhi", "/site/qutb-minar", "/place/delhi-sultanate", "/country/maldives", "/history-of/bukhara"],
     },
     {
       title: "Ibn Battuta: Home, and Across the Sahara",
@@ -150,6 +171,9 @@ export const TOUR: Tour = {
         { label: "Across the Sahara to Mali, 1351–1352", kind: "migration", path: [[-5.0, 34.04], [-4.28, 31.28], [-5, 23.6], [-7.03, 17.3], [-7.6, 13], [-3.01, 16.78], [-0.05, 16.27]] },
         { label: "Caravan north with 600 enslaved women, 1353–1354", kind: "forced", path: [[-0.05, 16.27], [6.78, 17.52], [3, 24], [-1, 28.5], [-4.28, 31.28]] },
       ],
+      fact: "At Taghaza, Ibn Battuta wrote, there were no trees, only sand and salt mines, and the houses were built of slabs of salt and roofed with camel skins.",
+      people: ["ibn-battuta"],
+      readMore: ["/place/mali-empire", "/history-of/timbuktu", "/event/black-death", "/history-of/gao", "/site/alhambra"],
     },
     {
       title: "Zheng He's Treasure Fleet",
@@ -166,6 +190,9 @@ export const TOUR: Tour = {
       routes: [
         { label: "The first voyage, 1405–1407", kind: "voyage", path: [[121.26, 31.51], [119.55, 25.92], [109.23, 13.77], [112.74, -7.25], [102.25, 2.19], [97.14, 5.19], [80, 6.6], [75.78, 11.25]] },
       ],
+      fact: "Zheng He's surname was a reward. At the Chinese New Year in 1404 the Yongle Emperor gave him the name Zheng, partly because he had defended a city reservoir with distinction in 1399.",
+      people: ["zheng-he", "yongle-emperor"],
+      readMore: ["/event/ming-treasure-voyages", "/history-of/nanjing", "/place/ming-dynasty", "/place/malacca-sultanate"],
     },
     {
       title: "Zheng He: Ceylon, Arabia and Africa",
@@ -185,6 +212,9 @@ export const TOUR: Tour = {
         { label: "To Arabia and East Africa, 1417–1419", kind: "voyage", path: [[56.46, 27.07], [58.5, 22.5], [52, 15.5], [45.03, 12.6], [51.3, 11.6], [45.34, 2.04], [44.03, 1.11], [40.13, -3.22]] },
         { label: "Calicut to Mecca, 1432–1433", kind: "voyage", path: [[75.78, 11.25], [62, 13], [51, 12.8], [44.5, 12.4], [42, 15.5], [39.17, 21.54], [39.82, 21.42]] },
       ],
+      fact: "A giraffe presented by envoys from Bengal in 1414 was hailed as a qilin, a creature of Chinese legend. The Yongle Emperor discouraged officials from sending congratulations on its arrival.",
+      people: ["zheng-he", "yongle-emperor"],
+      readMore: ["/country/sri-lanka", "/history-of/mogadishu", "/site/forbidden-city", "/history-of/mecca"],
     },
   ],
 };

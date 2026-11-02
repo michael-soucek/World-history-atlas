@@ -60,6 +60,7 @@ function Credit({ img: raw, className = "" }: { img: ArticleImageData; className
  * - "hero": wide banner at the top of the article
  * - "float": beside the text on wide screens (alternating sides), full-width on phones
  * - "strip": compact card in the end-of-article image strip
+ * - "panel": full width of a narrow column (a tour stop)
  * Every variant shows the image's credit (author, license, source).
  */
 export default function ArticleImage({
@@ -71,7 +72,7 @@ export default function ArticleImage({
 }: {
   img: ArticleImageData;
   alt: string;
-  variant: "hero" | "float" | "strip";
+  variant: "hero" | "float" | "strip" | "panel";
   side?: "left" | "right";
   priority?: boolean;
 }) {
@@ -81,7 +82,7 @@ export default function ArticleImage({
   const frame =
     variant === "hero"
       ? "w-full aspect-[4/3] sm:aspect-[2/1]"
-      : variant === "float"
+      : variant === "float" || variant === "panel"
         ? "w-full aspect-[4/3]"
         : "h-44 w-64";
   const figureClass =
@@ -89,7 +90,9 @@ export default function ArticleImage({
       ? ""
       : variant === "float"
         ? `mb-6 sm:mb-4 sm:w-[44%] ${side === "right" ? "sm:float-right sm:ml-8" : "sm:float-left sm:mr-8"} mt-1.5`
-        : "shrink-0 w-64 snap-start";
+        : variant === "panel"
+          ? ""
+          : "shrink-0 w-64 snap-start";
 
   return (
     <figure className={figureClass}>
@@ -109,7 +112,7 @@ export default function ArticleImage({
         <img
           src={img.thumb}
           srcSet={commonsSrcSet(img.thumb)}
-          sizes={variant === "hero" ? "(min-width: 1280px) 1216px, 100vw" : variant === "float" ? "(min-width: 640px) 330px, 100vw" : "256px"}
+          sizes={variant === "hero" ? "(min-width: 1280px) 1216px, 100vw" : variant === "float" ? "(min-width: 640px) 330px, 100vw" : variant === "panel" ? "(min-width: 1024px) 500px, 100vw" : "256px"}
           alt={alt}
           width={img.width}
           height={img.height}

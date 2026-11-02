@@ -18,6 +18,9 @@ export const TOUR: Tour = {
         { label: "Gdańsk Shipyard: Solidarity founded, August 1980", at: [18.649, 54.376] },
         { label: "Warsaw: martial law declared, December 1981", at: [21.011, 52.23] },
       ],
+      fact: "The Gdańsk strike began on 14 August 1980 in defence of Anna Walentynowicz, a welder turned crane operator, whom the shipyard had fired just five months before she was due to retire.",
+      people: ["lech-walesa"],
+      readMore: ["/event/solidarity-poland", "/history-of/gdansk", "/history-of/warsaw", "/country/poland"],
     },
     {
       title: "Gorbachev's Reforms",
@@ -33,6 +36,9 @@ export const TOUR: Tour = {
         { label: "Reform urged on Poland", kind: "spread", path: [[37.6, 55.75], [32, 54.5], [26, 53.3], [21.01, 52.23]] },
         { label: "Reform urged on Hungary", kind: "spread", path: [[37.6, 55.6], [31, 51.5], [24.5, 49], [19.04, 47.5]] },
       ],
+      fact: "Gorbachev's hands-off policy was nicknamed the 'Sinatra Doctrine' by his foreign ministry spokesman, Gennadi Gerasimov, on 25 October 1989: after the song 'My Way', the allies could now go their own way.",
+      people: ["mikhail-gorbachev"],
+      readMore: ["/event/chernobyl-disaster", "/place/soviet-union", "/history-of/moscow", "/event/soviet-afghan-war", "/event/cold-war"],
     },
     {
       title: "Poland Votes",
@@ -44,6 +50,9 @@ export const TOUR: Tour = {
         { label: "Warsaw: Round Table talks, February–April 1989", at: [21.011, 52.23] },
         { label: "Gdańsk: strikes, 1988", at: [18.646, 54.348] },
       ],
+      fact: "On 28 October 1989 the actress Joanna Szczepkowska told viewers of Poland's main state television news: 'Ladies and gentlemen, on the 4th of June, communism ended in Poland.'",
+      people: ["lech-walesa"],
+      readMore: ["/event/revolutions-of-1989", "/history-of/warsaw", "/event/tiananmen-square-1989", "/country/poland"],
     },
     {
       title: "Hungary Opens the Border",
@@ -58,6 +67,8 @@ export const TOUR: Tour = {
       routes: [
         { label: "East Germans flee west via Austria, 1989", kind: "migration", path: [[19.05, 47.49], [17.6, 47.68], [16.62, 47.76], [16.37, 48.21], [14.3, 48.3], [13.46, 48.57]] },
       ],
+      fact: "The idea for the Pan-European Picnic came from Ferenc Mészáros of the Hungarian Democratic Forum and Otto von Habsburg, president of the Paneuropean Union and once crown prince of Austria-Hungary.",
+      readMore: ["/history-of/budapest", "/event/hungarian-revolution-of-1956", "/country/hungary", "/event/revolutions-of-1989"],
     },
     {
       title: "The Baltic Way",
@@ -73,6 +84,8 @@ export const TOUR: Tour = {
       routes: [
         { label: "The Baltic Way human chain, 23 August 1989", kind: "spread", path: [[24.745, 59.437], [24.9, 58.4], [24.6, 57.6], [24.106, 56.949], [24.3, 56.0], [25.28, 54.687]] },
       ],
+      fact: "In 2009 UNESCO added the documents recording the Baltic Way to its Memory of the World Register, in recognition of their value as a record of history.",
+      readMore: ["/event/baltic-way", "/event/singing-revolution", "/history-of/tallinn", "/history-of/riga", "/history-of/vilnius"],
     },
     {
       title: "The Wall Falls",
@@ -85,6 +98,8 @@ export const TOUR: Tour = {
         { label: "Alexanderplatz: half a million rally, 4 November", at: [13.414, 52.522] },
         { label: "Bornholmer Straße: the first gate opens, 9 November", at: [13.398, 52.554] },
       ],
+      fact: "People who chipped souvenirs off the Wall were nicknamed Mauerspechte, 'wallpeckers'. As they broke through, East Germany opened ten new crossings, including Potsdamer Platz and the Glienicke Bridge.",
+      readMore: ["/event/fall-of-the-berlin-wall", "/site/brandenburg-gate", "/history-of/berlin", "/country/germany"],
     },
     {
       title: "The Velvet Revolution",
@@ -97,6 +112,9 @@ export const TOUR: Tour = {
         { label: "Bratislava: student demonstration, 16 November", at: [17.11, 48.144] },
         { label: "Sofia: Zhivkov ousted, 10 November", at: [23.33, 42.7] },
       ],
+      fact: "Crowds jingled their keys as a sign of support. The gesture had two meanings: unlocking doors, and telling the Communists that it was time to go home.",
+      people: ["vaclav-havel"],
+      readMore: ["/event/velvet-revolution", "/history-of/prague", "/event/prague-spring", "/country/czech-republic", "/country/bulgaria"],
     },
     {
       title: "Romania: The Violent Exception",
@@ -112,6 +130,8 @@ export const TOUR: Tour = {
       routes: [
         { label: "The revolt spreads to the capital", kind: "spread", path: [[21.23, 45.76], [22.9, 45.3], [24.4, 44.9], [26.1, 44.43]] },
       ],
+      fact: "Protesters in Timișoara waved Romanian flags with the communist coat of arms cut out of the middle, leaving a hole, as Hungarian rebels had done in 1956.",
+      readMore: ["/event/romanian-revolution-1989", "/history-of/bucharest", "/country/romania", "/event/hungarian-revolution-of-1956"],
     },
     {
       title: "The End of the Soviet Union",
@@ -124,6 +144,9 @@ export const TOUR: Tour = {
         { label: "Moscow: the August coup fails, 1991", at: [37.573, 55.755] },
         { label: "Viskuli, Belovezha: the Soviet Union declared dead, 8 December", at: [23.95, 52.617] },
       ],
+      fact: "On the evening of 25 December 1991, after Gorbachev's resignation, the Soviet flag over the Moscow Kremlin was lowered for the last time and the Russian tricolour raised in its place.",
+      people: ["mikhail-gorbachev"],
+      readMore: ["/event/dissolution-of-the-soviet-union", "/site/moscow-kremlin", "/history-of/vilnius", "/place/soviet-union", "/history-of/moscow"],
     },
     {
       title: "Yugoslavia Breaks Apart",
@@ -138,6 +161,9 @@ export const TOUR: Tour = {
         { label: "Srebrenica genocide, July 1995", at: [19.297, 44.104] },
         { label: "Belgrade", at: [20.457, 44.818] },
       ],
+      fact: "Lasting from April 1992 to February 1996, the siege of Sarajevo was about three times as long as the Battle of Stalingrad and more than a year longer than the siege of Leningrad.",
+      people: ["josip-broz-tito"],
+      readMore: ["/event/breakup-of-yugoslavia", "/event/yugoslav-wars", "/history-of/sarajevo", "/event/srebrenica-massacre", "/event/kosovo-war"],
     },
   ],
 };

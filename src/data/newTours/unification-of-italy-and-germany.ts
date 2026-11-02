@@ -18,6 +18,9 @@ export const TOUR: Tour = {
         { label: "Vienna: the Congress, 1814–1815", at: [16.372, 48.208] },
         { label: "Frankfurt: seat of the Federal Convention", at: [8.682, 50.111] },
       ],
+      fact: "Before founding Young Italy in Marseille in July 1831, Mazzini wrote to King Charles Albert of Sardinia urging him to unite Italy. Members of the society took code names from figures of medieval Italy.",
+      people: ["klemens-von-metternich", "giuseppe-mazzini"],
+      readMore: ["/event/congress-of-vienna", "/history-of/vienna", "/event/unification-of-italy", "/place/kingdom-of-sardinia"],
     },
     {
       title: "1848: Revolution and Defeat",
@@ -36,6 +39,9 @@ export const TOUR: Tour = {
       routes: [
         { label: "Charles Albert's advance, 1848", kind: "conquest", path: [[7.68, 45.08], [8.62, 45.45], [9.19, 45.47], [10.0, 45.4], [10.68, 45.43]] },
       ],
+      fact: "Johann Strauss the Elder's Radetzky March was first played in Vienna on 31 August 1848 to celebrate Radetzky's victory at Custoza. Today it is the Vienna Philharmonic's traditional encore at its New Year's Concert.",
+      people: ["giuseppe-mazzini"],
+      readMore: ["/event/revolutions-of-1848", "/history-of/milan", "/history-of/venice", "/history-of/berlin"],
     },
     {
       title: "Cavour, Napoleon III and the War of 1859",
@@ -52,6 +58,9 @@ export const TOUR: Tour = {
       routes: [
         { label: "The allied advance into Lombardy, 1859", kind: "conquest", path: [[7.68, 45.08], [8.62, 45.45], [8.8, 45.46], [9.19, 45.47], [10.0, 45.42], [10.56, 45.37]] },
       ],
+      fact: "The war gave a colour its name. A new aniline dye, first called fuchsine, was renamed magenta in honour of the French and Sardinian victory at Magenta on 4 June 1859.",
+      people: ["camillo-cavour", "napoleon-iii"],
+      readMore: ["/event/battle-of-solferino", "/history-of/milan", "/place/kingdom-of-sardinia", "/event/crimean-war"],
     },
     {
       title: "Garibaldi and the Thousand",
@@ -71,6 +80,9 @@ export const TOUR: Tour = {
         { label: "The conquest of Sicily, May–July", kind: "conquest", path: [[12.43, 37.8], [12.86, 37.91], [13.35, 38.11], [14.4, 38.03], [15.24, 38.22], [15.55, 38.19]] },
         { label: "Calabria to Naples, August–September", kind: "conquest", path: [[15.75, 37.93], [15.66, 38.11], [16.1, 39.0], [15.9, 40.0], [15.06, 40.62], [14.25, 40.84]] },
       ],
+      fact: "Garibaldi's red shirts date from his exile in South America. By the usual account, in 1843, during Uruguay's civil war, he clothed his Italian Legion from a stock of shirts meant for slaughterhouse workers in Buenos Aires.",
+      people: ["giuseppe-garibaldi", "camillo-cavour"],
+      readMore: ["/place/kingdom-of-the-two-sicilies", "/history-of/palermo", "/history-of/naples", "/event/unification-of-italy"],
     },
     {
       title: "The Kingdom of Italy",
@@ -87,6 +99,9 @@ export const TOUR: Tour = {
       routes: [
         { label: "The Piedmontese army marches south, 1860", kind: "conquest", path: [[12.91, 43.91], [13.55, 43.46], [13.9, 42.5], [14.1, 41.8], [14.07, 41.25]] },
       ],
+      fact: "Victor Emmanuel II became the first king of an independent, united Italy since the 6th century. Italians called him the 'Father of the Fatherland', borrowing the Roman emperors' title Pater Patriae.",
+      people: ["giuseppe-garibaldi", "camillo-cavour"],
+      readMore: ["/event/unification-of-italy", "/place/papal-states", "/place/italy", "/country/italy"],
     },
     {
       title: "Bismarck's First War: Denmark, 1864",
@@ -103,6 +118,9 @@ export const TOUR: Tour = {
       routes: [
         { label: "Prussian and Austrian invasion, 1864", kind: "conquest", path: [[9.98, 53.95], [9.67, 54.3], [9.45, 54.47], [9.6, 54.75], [9.76, 54.9]] },
       ],
+      fact: "This was the first war fought after the Red Cross movement was founded in 1863. Denmark and Prussia both had national Red Cross societies, and the International Committee sent observers to assess their work.",
+      people: ["otto-von-bismarck"],
+      readMore: ["/place/kingdom-of-prussia", "/country/denmark", "/history-of/copenhagen", "/history-of/berlin"],
     },
     {
       title: "The German War of 1866",
@@ -119,6 +137,9 @@ export const TOUR: Tour = {
         { label: "Prussian armies enter Bohemia", kind: "conquest", path: [[13.74, 51.05], [14.6, 50.75], [15.3, 50.45], [15.75, 50.27]] },
         { label: "Prussian advance from Silesia", kind: "conquest", path: [[17.03, 51.11], [16.3, 50.6], [15.95, 50.4], [15.75, 50.27]] },
       ],
+      fact: "On the eve of the battle the telegraph lines to the Prussian Second Army were down, so two officers rode about 32 kilometres through the night to summon it, arriving at 4 a.m.",
+      people: ["otto-von-bismarck"],
+      readMore: ["/event/battle-of-koniggratz", "/event/unification-of-germany", "/place/kingdom-of-prussia", "/place/habsburg-monarchy", "/history-of/venice"],
     },
     {
       title: "War with France: Sedan",
@@ -135,6 +156,9 @@ export const TOUR: Tour = {
         { label: "German invasion of Lorraine, August 1870", kind: "conquest", path: [[8.3, 49.4], [7.3, 49.25], [6.6, 49.12], [6.18, 49.12]] },
         { label: "German armies close on Sedan", kind: "conquest", path: [[7.6, 48.9], [6.2, 48.7], [5.2, 48.9], [4.9, 49.4], [4.95, 49.68]] },
       ],
+      fact: "Many Germans celebrated 2 September as Sedantag, Sedan Day, every year until 1918; the Weimar Republic ended it in 1919. The captured Napoleon III, meanwhile, was sent to a comfortable captivity at Schloss Wilhelmshöhe near Kassel.",
+      people: ["otto-von-bismarck", "napoleon-iii"],
+      readMore: ["/event/battle-of-sedan-1870", "/event/franco-prussian-war", "/country/france"],
     },
     {
       title: "Rome, Capital of Italy",
@@ -145,6 +169,9 @@ export const TOUR: Tour = {
       markers: [
         { label: "Porta Pia: the walls breached, 20 September 1870", at: [12.501, 41.909], kind: "battle" },
       ],
+      fact: "The Porta Pia, the gate beside the breach, was designed by Michelangelo and named after Pope Pius IV. Streets across Italy, especially in cathedral cities, are called Via XX Settembre after the date.",
+      people: ["napoleon-iii"],
+      readMore: ["/history-of/rome", "/place/papal-states", "/country/vatican-city", "/event/unification-of-italy"],
     },
     {
       title: "An Empire Proclaimed at Versailles",
@@ -161,6 +188,9 @@ export const TOUR: Tour = {
       routes: [
         { label: "German advance on Paris, September 1870", kind: "conquest", path: [[4.95, 49.7], [4.4, 49.4], [3.6, 49.1], [2.8, 48.95], [2.4, 48.87]] },
       ],
+      fact: "The date was chosen to match the coronation of Prussia's first king in 1701. The Hall of Mirrors itself has a ceiling celebrating Louis XIV as a conqueror of German cities and states.",
+      people: ["otto-von-bismarck"],
+      readMore: ["/site/palace-of-versailles", "/event/unification-of-germany", "/event/franco-prussian-war", "/history-of/paris", "/event/paris-commune"],
     },
   ],
 };

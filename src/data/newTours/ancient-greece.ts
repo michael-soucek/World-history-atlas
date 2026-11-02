@@ -20,6 +20,8 @@ export const TOUR: Tour = {
         { label: "Athens: acropolis spared", at: [23.73, 37.97] },
       ],
       routes: [{ label: "Refugees flee to Cyprus and the Levant", kind: "migration", path: [[22.9, 37.5], [24.8, 36.6], [27.8, 36.1], [30.5, 35.5], [33, 35]] }],
+      fact: "Linear B was deciphered only in 1952, by the British architect Michael Ventris. Many tablets survive because the fire that destroyed the palace at Pylos baked their clay hard.",
+      readMore: ["/history-of/mycenae", "/culture/mycenaean-greece", "/event/late-bronze-age-collapse"],
     },
     {
       title: "Colonies Across the Sea",
@@ -41,6 +43,8 @@ export const TOUR: Tour = {
         { label: "Thera to Cyrene", kind: "voyage", path: [[25.43, 36.4], [24, 35], [22.5, 33.5], [21.86, 32.82]] },
         { label: "Miletus to the Black Sea", kind: "voyage", path: [[27.28, 37.53], [26.3, 39.5], [26.4, 40.2], [29, 41.1], [30.5, 43.5], [31.9, 46.69]] },
       ],
+      fact: "Herodotus dated Byzantium's founding to 17 years after Chalcedon, across the strait. The emperor Constantine accepted his date and celebrated the city's thousandth anniversary in 333–334 CE.",
+      readMore: ["/history-of/syracuse", "/history-of/istanbul", "/history-of/marseille", "/culture/ancient-greece"],
     },
     {
       title: "Sparta and Athens",
@@ -51,6 +55,9 @@ export const TOUR: Tour = {
         { label: "Sparta", at: [22.42, 37.08] },
         { label: "Athens: democracy, 508 BCE", at: [23.73, 37.97] },
       ],
+      fact: "Ostracism, credited to Cleisthenes, let Athenians exile a citizen for ten years using pottery sherds as ballots. Yet nobody was actually banished until 487 BCE, nearly 20 years after it was introduced.",
+      people: ["solon"],
+      readMore: ["/history-of/sparta", "/history-of/athens", "/culture/ancient-greece"],
     },
     {
       title: "Marathon",
@@ -68,6 +75,9 @@ export const TOUR: Tour = {
         { label: "The Persian fleet: Naxos, Eretria, Marathon", kind: "conquest", path: [[27.3, 37.6], [25.9, 37.15], [25.27, 37.39], [24.6, 37.9], [23.85, 38.35], [24.05, 38.2], [23.98, 38.12]] },
         { label: "The Athenians march to Marathon", kind: "conquest", path: [[23.73, 37.97], [23.85, 38.05], [23.98, 38.12]] },
       ],
+      fact: "Herodotus tells only of a runner, Pheidippides, sent about 240 km from Athens to Sparta to ask for help before the battle. The story of a fatal dash from Marathon to Athens comes from a much later writer.",
+      people: ["darius-the-great", "herodotus"],
+      readMore: ["/event/battle-of-marathon", "/event/greco-persian-wars", "/place/achaemenid-empire"],
     },
     {
       title: "Thermopylae and Salamis",
@@ -86,6 +96,9 @@ export const TOUR: Tour = {
         { label: "On to Athens", kind: "conquest", path: [[22.54, 38.8], [23, 38.5], [23.4, 38.2], [23.73, 37.97]] },
         { label: "Xerxes withdraws to Asia", kind: "retreat", path: [[23.6, 38.1], [22.7, 39.3], [23.2, 40.6], [25, 40.95], [26.4, 40.25]] },
       ],
+      fact: "According to Herodotus, when a storm destroyed Xerxes' first bridges across the Hellespont, the king ordered the strait itself to be whipped 300 times and had fetters thrown into the water.",
+      people: ["xerxes-i", "leonidas-i", "themistocles"],
+      readMore: ["/event/battle-of-thermopylae", "/event/battle-of-salamis", "/event/battle-of-plataea"],
     },
     {
       title: "The Golden Age of Athens",
@@ -98,6 +111,9 @@ export const TOUR: Tour = {
         { label: "Delos: the league's first treasury", at: [25.27, 37.39] },
       ],
       routes: [{ label: "The treasury moves to Athens", kind: "voyage", path: [[25.27, 37.39], [24.7, 37.6], [24.1, 37.7], [23.73, 37.97]] }],
+      fact: "The Parthenon later served as a church and then a mosque. In 1687 a Venetian bomb hit it while the Ottomans were storing munitions inside, and the explosion severely damaged the building.",
+      people: ["pericles", "socrates", "herodotus"],
+      readMore: ["/site/parthenon", "/history-of/athens", "/site/delphi"],
     },
     {
       title: "The Peloponnesian War",
@@ -114,6 +130,9 @@ export const TOUR: Tour = {
         { label: "The Sicilian Expedition, 415 BCE", kind: "voyage", path: [[23.6, 37.94], [22, 37.2], [21.2, 37.8], [20.5, 38.5], [19.9, 39.6], [17.2, 39.9], [16, 38.5], [15.29, 37.07]] },
         { label: "Lysander's fleet to the Hellespont", kind: "voyage", path: [[27, 37.9], [26.2, 39], [26.3, 40], [26.55, 40.25]] },
       ],
+      fact: "Thucydides, the war's great historian, caught the plague himself and survived. After his command at Amphipolis he was exiled for 20 years, which let him watch events from both sides.",
+      people: ["pericles", "thucydides"],
+      readMore: ["/event/peloponnesian-war", "/history-of/syracuse", "/history-of/sparta"],
     },
     {
       title: "Macedon Rises: Chaeronea and Alexander",
@@ -130,6 +149,9 @@ export const TOUR: Tour = {
         { label: "Philip marches south, 339–338 BCE", kind: "conquest", path: [[22.52, 40.75], [22.4, 39.6], [22.5, 38.9], [22.85, 38.5]] },
         { label: "Alexander's campaigns, 334–323 BCE", kind: "conquest", path: [[22.52, 40.75], [26.4, 40.19], [36.19, 36.75], [29.89, 31.2], [43.44, 36.56], [52.89, 29.94], [73.64, 32.83], [44.42, 32.54]] },
       ],
+      fact: "Pausanias described a stone lion raised over the Theban dead at Chaeronea. It still stands, reassembled, and late 19th-century excavations beside it found the skeletons of 254 men laid out in seven rows.",
+      people: ["philip-ii-of-macedon", "alexander-the-great"],
+      readMore: ["/event/battle-of-chaeronea", "/event/wars-of-alexander-the-great", "/place/macedonian-empire", "/history-of/babylon"],
     },
     {
       title: "The Hellenistic Kingdoms",
@@ -145,6 +167,9 @@ export const TOUR: Tour = {
         { label: "Pergamon", at: [27.18, 39.13] },
         { label: "Pella: Antigonid Macedon", at: [22.52, 40.75] },
       ],
+      fact: "Cleopatra VII, the last Ptolemaic ruler, is the only member of her dynasty known to have learned the Egyptian language; her predecessors had governed Egypt in Greek for more than 250 years.",
+      people: ["ptolemy-i-soter", "seleucus-i-nicator", "euclid", "archimedes"],
+      readMore: ["/history-of/alexandria", "/culture/hellenistic-period", "/place/ptolemaic-kingdom", "/place/seleucid-empire", "/history-of/pergamon"],
     },
     {
       title: "Rome Takes Greece",
@@ -157,6 +182,8 @@ export const TOUR: Tour = {
         { label: "Corinth: sacked, 146 BCE", at: [22.88, 37.91], kind: "battle" },
       ],
       routes: [{ label: "The Roman advance from Macedonia, 146 BCE", kind: "conquest", path: [[22.6, 40.6], [22.4, 39.6], [22.6, 38.9], [23.3, 38.3], [22.88, 37.91]] }],
+      fact: "Mummius gave away much of the loot from Corinth: at least 17 Greek communities received statues and works of art taken from the city, and offerings went to Delphi and Olympia.",
+      readMore: ["/place/roman-republic", "/event/siege-of-carthage-146-bce", "/culture/ancient-rome", "/country/greece"],
     },
   ],
 };

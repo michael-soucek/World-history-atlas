@@ -24,6 +24,9 @@ export const TOUR: Tour = {
         { label: "Oleg moves south from Novgorod, c. 882", kind: "conquest", path: [[31.27, 58.55], [31.5, 56.5], [32.05, 54.78], [31, 52.5], [30.52, 50.45]] },
         { label: "The river road to Constantinople", kind: "voyage", path: [[30.52, 50.45], [32.5, 48.5], [33.5, 46.6], [31.5, 45.5], [30, 43], [28.98, 41.01]] },
       ],
+      fact: "Rus' is generally thought to be borrowed from Finnic Ruotsi, still the Finnish word for Sweden. That name most likely goes back to an Old Norse compound meaning 'rowing men'.",
+      people: ["rurik"],
+      readMore: ["/place/kievan-rus", "/history-of/kyiv", "/place/novgorod-republic", "/place/byzantine-empire"],
     },
     {
       title: "The Baptism of Rus'",
@@ -40,6 +43,9 @@ export const TOUR: Tour = {
         { label: "Vladimir's campaign to Chersonesus", kind: "conquest", path: [[30.52, 50.45], [32.5, 48.5], [33.6, 46.5], [33.8, 45.3], [33.49, 44.61]] },
         { label: "Christianity from Byzantium", kind: "spread", path: [[28.98, 41.01], [30.5, 43], [32, 45], [32.5, 47.5], [30.52, 50.45]] },
       ],
+      fact: "The Primary Chronicle says Vladimir first sent envoys to weigh up Islam, Judaism and Latin and Greek Christianity. Those who attended worship in Constantinople reported that they could not tell whether they were in heaven or on earth.",
+      people: ["vladimir-the-great", "olga-of-kiev", "basil-ii", "yaroslav-the-wise"],
+      readMore: ["/event/christianization-of-kievan-rus", "/history-of/kyiv", "/place/byzantine-empire"],
     },
     {
       title: "The Mongol Storm",
@@ -56,6 +62,9 @@ export const TOUR: Tour = {
         { label: "Batu's campaign in the north, 1237–1238", kind: "conquest", path: [[49, 55], [45, 54.8], [42, 54.6], [39.74, 54.63], [40.41, 56.13]] },
         { label: "South to Kyiv, 1239–1240", kind: "conquest", path: [[40.41, 56.13], [38, 53.5], [36, 51.5], [33, 51], [30.52, 50.45]] },
       ],
+      fact: "No one at the time called it the Golden Horde: contemporaries simply said the Great Horde. The Russian name Zolotaya Orda is first known from a chronicle, the History of Kazan, in 1565.",
+      people: ["batu-khan"],
+      readMore: ["/event/mongol-invasion-of-kievan-rus", "/place/golden-horde", "/history-of/kyiv", "/place/mongol-empire"],
     },
     {
       title: "Moscow Gathers the Lands",
@@ -73,6 +82,9 @@ export const TOUR: Tour = {
         { label: "Akhmat Khan advances, 1480", kind: "conquest", path: [[40, 49], [38.5, 51.5], [37, 53.3], [36.4, 54.3]] },
         { label: "The Horde withdraws", kind: "retreat", path: [[36.1, 54.3], [36.8, 52.5], [38.6, 50.5], [40.5, 48.8]] },
       ],
+      fact: "The Kremlin's walls and towers, rebuilt between 1485 and 1495 under Ivan III, were the work of a team of Italian architects, among them Pietro Antonio Solari and Marco Ruffo.",
+      people: ["ivan-iii", "alexander-nevsky"],
+      readMore: ["/site/moscow-kremlin", "/event/great-stand-on-the-ugra-river", "/event/battle-of-kulikovo", "/place/grand-principality-of-moscow"],
     },
     {
       title: "Ivan IV Takes the Volga",
@@ -89,6 +101,9 @@ export const TOUR: Tour = {
         { label: "The march on Kazan, 1552", kind: "conquest", path: [[37.62, 55.76], [40.41, 56.13], [44.01, 56.33], [46.5, 56], [48.65, 55.77], [49.11, 55.8]] },
         { label: "Down the Volga to Astrakhan, 1556", kind: "conquest", path: [[49.11, 55.8], [48.5, 53.5], [46, 51.5], [44.5, 48.7], [48.04, 46.35]] },
       ],
+      fact: "Saint Basil's Cathedral on Red Square was built in 1555–1561 on Ivan's orders to commemorate the capture of Kazan and Astrakhan. The tale that he blinded its architect is regarded by many historians as a myth.",
+      people: ["ivan-the-terrible"],
+      readMore: ["/history-of/kazan", "/place/khanate-of-kazan", "/place/astrakhan-khanate", "/place/tsardom-of-russia"],
     },
     {
       title: "Across Siberia",
@@ -106,6 +121,8 @@ export const TOUR: Tour = {
         { label: "Yermak crosses the Urals, 1581–1582", kind: "conquest", path: [[56.2, 58], [59.5, 58.3], [63, 57.8], [65.53, 57.15], [68.52, 58.15]] },
         { label: "From river to river to the Pacific, 1587–1647", kind: "conquest", path: [[68.27, 58.2], [82, 58.5], [92.9, 58.5], [105, 57.5], [118, 60.5], [129.73, 62.03], [137, 60.5], [143.26, 59.37]] },
       ],
+      fact: "Disease travelled with the newcomers. Smallpox reached western Siberia in 1630, and in the 1650s, east of the Yenisei, it killed up to 80 per cent of the Tungus and Yakut populations.",
+      readMore: ["/place/khanate-of-sibir", "/place/tsardom-of-russia", "/country/russia"],
     },
     {
       title: "The Time of Troubles and the Romanovs",
@@ -122,6 +139,8 @@ export const TOUR: Tour = {
       routes: [
         { label: "The national militia marches on Moscow, 1612", kind: "conquest", path: [[44.01, 56.33], [42, 57.2], [39.89, 57.63], [38.7, 56.8], [37.62, 55.76]] },
       ],
+      fact: "Russia's Unity Day on 4 November marks the liberation of Moscow in 1612. Kept until 1917, it was revived in 2005, taking the place of the holiday for the 1917 revolution.",
+      readMore: ["/event/time-of-troubles", "/site/moscow-kremlin", "/place/polish-lithuanian-commonwealth", "/place/tsardom-of-russia"],
     },
     {
       title: "Peter the Great: a Window on the West",
@@ -138,6 +157,9 @@ export const TOUR: Tour = {
         { label: "Charles XII invades, 1708–1709", kind: "conquest", path: [[21, 52.2], [25.3, 53.5], [28.5, 54], [31.5, 52.5], [33.5, 50.8], [34.55, 49.59]] },
         { label: "Charles and Mazepa flee to Ottoman lands", kind: "retreat", path: [[34.55, 49.59], [34.06, 48.86], [32.5, 47.8], [30.5, 46.9], [29.6, 46.8]] },
       ],
+      fact: "Peter toured western Europe in 1697–1698 with his Grand Embassy, travelling under the name Peter Mikhailov and working incognito as a shipbuilder in the Dutch Republic.",
+      people: ["peter-the-great", "charles-xii-of-sweden"],
+      readMore: ["/history-of/saint-petersburg", "/event/battle-of-poltava", "/event/great-northern-war", "/place/russian-empire"],
     },
     {
       title: "Catherine the Great: the Black Sea and Poland",
@@ -156,6 +178,9 @@ export const TOUR: Tour = {
         { label: "Russia advances to the Black Sea", kind: "conquest", path: [[35.04, 48.47], [33.5, 47], [33.9, 45.5], [33.52, 44.6]] },
         { label: "Partitions of Poland", kind: "conquest", path: [[30.5, 54.5], [27, 53.5], [24, 52.8], [21.01, 52.23]] },
       ],
+      fact: "Russia's most famous empress was not born Russian or named Catherine: she began life in 1729 as Princess Sophie of Anhalt-Zerbst, in the Prussian city of Stettin, today Szczecin in Poland.",
+      people: ["catherine-the-great"],
+      readMore: ["/event/partitions-of-poland", "/place/crimean-khanate", "/event/pugachevs-rebellion", "/place/polish-lithuanian-commonwealth"],
     },
     {
       title: "A Sixth of the World",
@@ -175,6 +200,9 @@ export const TOUR: Tour = {
         { label: "Into Central Asia, 1865–1873", kind: "conquest", path: [[61.5, 50.5], [65.5, 46.5], [68, 43.5], [69.28, 41.31], [66.98, 39.66]] },
         { label: "To the Amur and the Pacific, 1858–1860", kind: "conquest", path: [[104.3, 52.3], [113.5, 52], [124, 53], [127.5, 50.3], [134.5, 48.4], [131.89, 43.12]] },
       ],
+      fact: "The United States paid $7.2 million for Alaska, about two cents an acre, gaining about 586,000 square miles. Critics mocked the deal as 'Seward's Folly' and the new land as 'Walrussia'.",
+      people: ["alexander-ii-of-russia", "napoleon"],
+      readMore: ["/event/russian-conquest-of-central-asia", "/event/crimean-war", "/history-of/samarkand", "/event/french-invasion-of-russia", "/place/russian-empire"],
     },
   ],
 };

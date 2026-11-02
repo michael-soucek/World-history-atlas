@@ -20,6 +20,8 @@ export const TOUR: Tour = {
         { label: "Carthage", at: [10.323, 36.853] },
         { label: "Rome", at: [12.483, 41.893] },
       ],
+      fact: "Carthage's name comes from the Phoenician Qart-ḥadašt, meaning 'New City'. Massalia was itself a colony, founded around 600 BCE by Greek settlers from Phocaea on the western coast of Anatolia.",
+      readMore: ["/history-of/athens", "/history-of/carthage", "/history-of/marseille", "/place/celts", "/site/parthenon"],
     },
     {
       title: "Rome Rules the Mediterranean",
@@ -31,6 +33,9 @@ export const TOUR: Tour = {
         { label: "Teutoburg Forest, 9 CE", at: [8.13, 52.41], kind: "battle" },
         { label: "Hadrian's Wall, begun 122", at: [-2.33, 55.02] },
       ],
+      fact: "The Romans never reused the numbers of the three legions lost in the Teutoburg Forest, XVII, XVIII and XIX. The battle is thought to have been fought near Kalkriese in Lower Saxony.",
+      people: ["augustus", "julius-caesar", "trajan", "hadrian"],
+      readMore: ["/event/battle-of-the-teutoburg-forest", "/site/hadrians-wall", "/place/roman-empire", "/event/siege-of-carthage-146-bce", "/history-of/rome"],
     },
     {
       title: "The Huns and the Great Migrations",
@@ -46,6 +51,9 @@ export const TOUR: Tour = {
       routes: [
         { label: "The Visigoths, 376–418", kind: "migration", path: [[27.5, 44.5], [23, 43], [19, 44.5], [13.5, 45.8], [11.3, 44.5], [12.5, 41.9], [10, 44], [6.5, 43.7], [1.44, 43.6]] },
       ],
+      fact: "The sack of 410 was the first time in almost 800 years that Rome had fallen to a foreign enemy. In Constantinople, the eastern emperor Theodosius II declared three days of mourning.",
+      people: ["attila-the-hun"],
+      readMore: ["/event/sack-of-rome-410", "/event/battle-of-adrianople", "/place/hunnic-empire", "/place/visigoths", "/place/vandals"],
     },
     {
       title: "Kingdoms After Rome",
@@ -57,6 +65,9 @@ export const TOUR: Tour = {
         { label: "Constantinople", at: [28.979, 41.015] },
         { label: "Ravenna: Theodoric's capital", at: [12.2, 44.418] },
       ],
+      fact: "Theodoric's mausoleum in Ravenna is roofed with a single carved stone about 10 metres across and weighing around 230 tonnes.",
+      people: ["theodoric-the-great", "clovis-i", "justinian-i"],
+      readMore: ["/history-of/ravenna", "/event/fall-of-rome", "/place/ostrogoths", "/place/frankish-kingdom", "/site/hagia-sophia"],
     },
     {
       title: "Charlemagne's Empire",
@@ -69,6 +80,9 @@ export const TOUR: Tour = {
         { label: "Rome: the coronation, 800", at: [12.483, 41.893] },
         { label: "Córdoba", at: [-4.779, 37.888] },
       ],
+      fact: "The Abbasid caliph Harun al-Rashid sent Charlemagne an Asian elephant named Abul-Abbas. Brought by the envoy Isaac the Jew, it crossed the Alps and reached Aachen on 20 July 802.",
+      people: ["charlemagne"],
+      readMore: ["/history-of/aachen", "/place/carolingian-empire", "/event/treaty-of-verdun", "/site/mosque-cathedral-of-cordoba", "/place/umayyad-state-of-cordoba"],
     },
     {
       title: "Christian Kingdoms Take Shape",
@@ -81,6 +95,9 @@ export const TOUR: Tour = {
         { label: "Gniezno", at: [17.6, 52.535] },
         { label: "Esztergom", at: [18.74, 47.79] },
       ],
+      fact: "Cnut went on to become king of Denmark in 1018 and of Norway in 1028. Historians call the three kingdoms he ruled together the North Sea Empire.",
+      people: ["otto-i", "vladimir-the-great", "stephen-i-of-hungary", "cnut-the-great"],
+      readMore: ["/place/holy-roman-empire", "/event/christianization-of-kievan-rus", "/history-of/kyiv", "/place/kingdom-of-hungary", "/culture/viking-age"],
     },
     {
       title: "Crusades and the Sack of Constantinople",
@@ -91,6 +108,9 @@ export const TOUR: Tour = {
       markers: [
         { label: "Constantinople sacked, 1204", at: [28.979, 41.015], kind: "battle" },
       ],
+      fact: "The four bronze horses of St Mark's Basilica in Venice were carried off from Constantinople's Hippodrome after the 1204 sack. Napoleon looted them in turn in 1797, and they came back in 1815.",
+      people: ["philip-ii-of-france"],
+      readMore: ["/event/fourth-crusade", "/history-of/istanbul", "/event/crusades", "/place/angevin-empire", "/event/reconquista"],
     },
     {
       title: "The Mongols Arrive",
@@ -107,6 +127,9 @@ export const TOUR: Tour = {
       routes: [
         { label: "Mongol invasion, 1237–1241", kind: "conquest", path: [[49, 53], [42, 55], [36, 54], [30.5, 50.45], [25, 50], [16.2, 51.2]] },
       ],
+      fact: "Kyiv's St Sophia Cathedral survived the sack of 1240. Passing through six years later, the papal envoy Giovanni da Pian del Carpine wrote of countless skulls and bones lying on the ground.",
+      people: ["batu-khan", "ogedei-khan"],
+      readMore: ["/event/mongol-invasion-of-kievan-rus", "/event/battle-of-mohi", "/event/battle-of-legnica", "/place/golden-horde", "/history-of/moscow"],
     },
     {
       title: "The Ottomans Take Constantinople",
@@ -119,6 +142,9 @@ export const TOUR: Tour = {
         { label: "Constantinople falls, 1453", at: [28.979, 41.015], kind: "battle" },
         { label: "Edirne", at: [26.555, 41.677] },
       ],
+      fact: "To get round the chain across the Golden Horn, Mehmed had his ships hauled over the hill behind Galata on a road of greased logs, sliding them into the harbour on 22 April 1453.",
+      people: ["mehmed-ii", "constantine-xi-palaiologos"],
+      readMore: ["/event/fall-of-constantinople", "/site/hagia-sophia", "/history-of/istanbul", "/event/battle-of-kosovo", "/place/ottoman-empire"],
     },
     {
       title: "1492: Spain, Poland-Lithuania and Moscow",
@@ -130,6 +156,9 @@ export const TOUR: Tour = {
         { label: "Granada, January 1492", at: [-3.599, 37.177], kind: "battle" },
         { label: "Moscow", at: [37.618, 55.756] },
       ],
+      fact: "On 31 March 1492 Ferdinand and Isabella issued the Alhambra Decree, ordering all unconverted Jews to leave their kingdoms. Spain formally revoked it only on 16 December 1968.",
+      people: ["isabella-i-of-castile", "ferdinand-ii-of-aragon", "christopher-columbus", "ivan-iii"],
+      readMore: ["/event/granada-war", "/site/alhambra", "/event/voyages-of-christopher-columbus", "/place/grand-duchy-of-lithuania", "/place/grand-principality-of-moscow"],
     },
     {
       title: "The Peace of Westphalia",
@@ -140,6 +169,8 @@ export const TOUR: Tour = {
       markers: [
         { label: "Münster and Osnabrück: the peace talks", at: [7.626, 51.96] },
       ],
+      fact: "The talks were split between Münster and Osnabrück because each side wanted to negotiate on ground it controlled. In all, 109 delegations took part, though never all at the same time.",
+      readMore: ["/event/peace-of-westphalia", "/event/thirty-years-war", "/event/defenestrations-of-prague", "/place/holy-roman-empire"],
     },
     {
       title: "Napoleon and the Congress of Vienna",
@@ -151,6 +182,9 @@ export const TOUR: Tour = {
         { label: "Vienna: the Congress, 1814–1815", at: [16.372, 48.208] },
         { label: "Waterloo, 1815", at: [4.412, 50.68], kind: "battle" },
       ],
+      fact: "The diplomats in Vienna kept negotiating even after Napoleon came back from exile and retook power in March 1815. Their final agreement was signed nine days before his defeat at Waterloo.",
+      people: ["napoleon", "klemens-von-metternich"],
+      readMore: ["/event/congress-of-vienna", "/event/battle-of-waterloo", "/event/napoleonic-wars", "/event/hundred-days", "/history-of/vienna"],
     },
     {
       title: "New Nations: Italy, Germany and the Balkans",
@@ -162,6 +196,9 @@ export const TOUR: Tour = {
         { label: "Versailles: the German Empire proclaimed, 1871", at: [2.12, 48.805] },
         { label: "Berlin: the Congress, 1878", at: [13.405, 52.52] },
       ],
+      fact: "The German Empire was proclaimed on 18 January, a date chosen because the first king of Prussia, Frederick I, had been crowned on that day in 1701.",
+      people: ["otto-von-bismarck", "giuseppe-garibaldi", "camillo-cavour", "franz-joseph-i"],
+      readMore: ["/event/unification-of-germany", "/event/unification-of-italy", "/site/palace-of-versailles", "/event/congress-of-berlin", "/place/austria-hungary"],
     },
     {
       title: "The Eve of the First World War",
@@ -172,6 +209,9 @@ export const TOUR: Tour = {
       markers: [
         { label: "Sarajevo, 28 June 1914", at: [18.413, 43.856], kind: "battle" },
       ],
+      fact: "Gavrilo Princip, who fired the shots, escaped the death penalty because he was only 19. Sentenced to 20 years, he died of tuberculosis in prison on 28 April 1918, months before Austria-Hungary itself fell apart.",
+      people: ["archduke-franz-ferdinand", "franz-joseph-i", "wilhelm-ii"],
+      readMore: ["/event/assassination-of-archduke-franz-ferdinand", "/history-of/sarajevo", "/event/world-war-i", "/place/austria-hungary", "/place/german-empire"],
     },
     {
       title: "A New Map After 1918",
@@ -179,6 +219,9 @@ export const TOUR: Tour = {
       text: "The peace treaties after the First World War created the biggest change in Europe's borders since 1815. Poland returned as an independent state after more than a century. Czechoslovakia and the Kingdom of Serbs, Croats and Slovenes, later Yugoslavia, were formed from Austro-Hungarian lands. Finland, Estonia, Latvia and Lithuania broke away from Russia. Austria and Hungary became small separate states, and Hungary lost about two-thirds of its former territory at Trianon in 1920. Most of Ireland became independent as the Irish Free State in 1922.",
       mapState: { year: 1920, lat: 51, lng: 20, zoom: 3.6 },
       highlight: ["Poland", "Czechoslovakia", "Yugoslavia", "Austria", "Hungary", "Finland", "Estonia", "Latvia", "Lithuania"],
+      fact: "The Treaty of Versailles with Germany was signed in the Hall of Mirrors on 28 June 1919, five years to the day after the assassination in Sarajevo.",
+      people: ["woodrow-wilson"],
+      readMore: ["/event/treaty-of-versailles", "/event/treaty-of-trianon", "/event/partition-of-the-ottoman-empire", "/event/polish-soviet-war", "/event/anglo-irish-treaty"],
     },
     {
       title: "After the Second World War",
@@ -186,6 +229,9 @@ export const TOUR: Tour = {
       text: "In 1945 Germany was occupied by the four victorious powers, each with its own zone. Poland's borders were moved west: the Soviet Union kept the eastern lands it had taken in 1939, and Poland received German territory up to the Oder and Neisse rivers. Millions of Germans, Poles and others were expelled or fled. The Baltic states, annexed by the Soviet Union in 1940, stayed Soviet. In 1946 Winston Churchill described an iron curtain that had descended across the continent from the Baltic to the Adriatic.",
       mapState: { year: 1945, lat: 51, lng: 15, zoom: 4 },
       highlight: ["Germany (Soviet)", "Germany (UK)", "Germany (USA)", "Germany (France)", "Poland"],
+      fact: "Churchill's 'iron curtain' speech, which he titled 'The Sinews of Peace', was a 46-minute lecture given to about 1,500 listeners at Westminster College in Fulton, Missouri, on 5 March 1946.",
+      people: ["winston-churchill", "joseph-stalin", "harry-s-truman"],
+      readMore: ["/event/potsdam-conference", "/event/yalta-conference", "/event/world-war-ii", "/event/battle-of-berlin", "/event/cold-war"],
     },
     {
       title: "The Iron Curtain",
@@ -196,6 +242,8 @@ export const TOUR: Tour = {
       markers: [
         { label: "Berlin Wall, 1961–1989", at: [13.405, 52.52] },
       ],
+      fact: "More than 5,000 people managed to escape over the Berlin Wall. Estimates of those killed by the East German authorities in and around Berlin range from 136 to more than 200.",
+      readMore: ["/history-of/berlin", "/site/brandenburg-gate", "/event/treaty-of-rome", "/event/hungarian-revolution-of-1956", "/event/prague-spring"],
     },
     {
       title: "1989–1993: The Map Redrawn Again",
@@ -203,6 +251,9 @@ export const TOUR: Tour = {
       text: "The Berlin Wall fell on 9 November 1989, and communist governments across eastern Europe collapsed within months. Germany reunified on 3 October 1990. The Soviet Union broke up in December 1991, leaving Estonia, Latvia, Lithuania, Belarus, Ukraine and Moldova independent. Yugoslavia broke apart in war: Slovenia and Croatia declared independence in 1991 and Bosnia and Herzegovina in 1992. On 1 January 1993 Czechoslovakia split peacefully into the Czech Republic and Slovakia.",
       mapState: { year: 1994, lat: 50, lng: 20, zoom: 3.5 },
       highlight: ["Germany", "Estonia", "Latvia", "Lithuania", "Byelarus", "Ukraine", "Moldova", "Slovenia", "Croatia", "Bosnia and Herzegovina", "Czech Republic", "Slovakia"],
+      fact: "Czechoslovakia's split was never put to a vote. A survey in March 1993 suggested that about half the population would have voted against dissolution in a referendum, and only around 30% for it.",
+      people: ["mikhail-gorbachev", "vaclav-havel", "lech-walesa"],
+      readMore: ["/event/fall-of-the-berlin-wall", "/event/dissolution-of-the-soviet-union", "/event/breakup-of-yugoslavia", "/event/dissolution-of-czechoslovakia", "/event/revolutions-of-1989"],
     },
     {
       title: "Europe Today",
@@ -210,6 +261,8 @@ export const TOUR: Tour = {
       text: "In 2004 ten countries, most of them former communist states, joined the European Union. Montenegro became independent in 2006, and Kosovo declared independence from Serbia in 2008, which many countries recognise and others do not. In 2014 Russia annexed Crimea, and in 2022 it launched a full-scale invasion of Ukraine; most of the world does not recognise its claims to Ukrainian territory. The United Kingdom left the European Union in 2020. Europe's borders, settled and resettled for thousands of years, are still not finished.",
       mapState: { year: 2010, lat: 50, lng: 18, zoom: 3.3 },
       highlight: ["Montenegro", "Serbia", "Ukraine"],
+      fact: "Montenegro's independence referendum of 21 May 2006 was approved by 55.5% of voters, only narrowly clearing the threshold of 55% that had been set for it.",
+      readMore: ["/event/russian-invasion-of-ukraine", "/event/russian-annexation-of-crimea", "/event/kosovo-war", "/event/euromaidan", "/country/ukraine"],
     },
   ],
 };

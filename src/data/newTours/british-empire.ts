@@ -27,6 +27,8 @@ export const TOUR: Tour = {
         { label: "The Middle Passage to Jamaica", kind: "forced", path: [[-0.2, 5.55], [-12, 3], [-30, 6], [-55, 13], [-68, 16.5], [-76.8, 17.97]] },
         { label: "Sugar shipped to Britain", kind: "voyage", path: [[-76.8, 18.2], [-72, 26], [-58, 35], [-35, 44], [-12, 49.5], [-2.6, 51.45]] },
       ],
+      fact: "Jamestown almost failed. In the 'Starving Time' of winter 1609–1610, about 500 colonists began the season; by spring only around 60 were still alive.",
+      readMore: ["/event/atlantic-slave-trade", "/country/barbados", "/country/jamaica", "/place/british-empire"],
     },
     {
       title: "Plassey: The Company Takes Bengal",
@@ -40,6 +42,8 @@ export const TOUR: Tour = {
         { label: "Murshidabad, the Nawab's capital", at: [88.27, 24.18] },
       ],
       routes: [{ label: "Clive marches north from Calcutta, June 1757", kind: "conquest", path: [[88.35, 22.57], [88.37, 22.87], [88.4, 23.2], [88.3, 23.5], [88.25, 23.8]] }],
+      fact: "At its height the East India Company's three private 'presidency armies' totalled about 260,000 soldiers, at times twice the size of the British Army.",
+      readMore: ["/event/battle-of-plassey", "/place/east-india-company", "/history-of/kolkata", "/place/mughal-empire"],
     },
     {
       title: "America Lost",
@@ -50,6 +54,9 @@ export const TOUR: Tour = {
       markers: [
         { label: "Yorktown, 1781", at: [-76.5, 37.23], kind: "battle" },
       ],
+      fact: "Cornwallis skipped the surrender at Yorktown, pleading illness. His deputy, Charles O'Hara, offered his sword first to the French general Rochambeau, then to Washington, who passed him to his own second-in-command.",
+      people: ["george-washington"],
+      readMore: ["/event/siege-of-yorktown", "/event/american-revolution", "/site/independence-hall"],
     },
     {
       title: "The First Fleet: Australia",
@@ -64,6 +71,8 @@ export const TOUR: Tour = {
         { label: "Sydney Cove, 26 January 1788", at: [151.21, -33.86] },
       ],
       routes: [{ label: "The First Fleet, 1787–1788", kind: "voyage", path: [[-1.09, 50.81], [-16.2, 28.5], [-43.21, -22.91], [18.42, -33.93], [75, -40], [130, -42], [151.23, -33.99], [151.21, -33.86]] }],
+      fact: "The First Fleet covered more than 24,000 kilometres in about 250 days. Arthur Phillip then rejected Botany Bay as a site and moved the settlement north to Port Jackson, where Sydney Cove lies.",
+      readMore: ["/history-of/sydney", "/event/australian-frontier-wars", "/culture/aboriginal-australians", "/place/australia"],
     },
     {
       title: "Abolition",
@@ -76,6 +85,9 @@ export const TOUR: Tour = {
         { label: "Sierra Leone: colony for freed slaves, 1808", at: [-13.04, 8.57] },
       ],
       routes: [{ label: "West Africa Squadron patrols, from 1808", kind: "voyage", path: [[-17.5, 14.5], [-15, 10], [-11, 6], [-6, 4.4], [-1, 4.9], [3.4, 6.2]] }],
+      fact: "The £20 million paid to slave owners was about 40 per cent of the Treasury's yearly income. Most was borrowed, and the debt was only certainly paid off in 2015, when the old bonds were redeemed.",
+      people: ["william-wilberforce"],
+      readMore: ["/event/slavery-abolition-act-1833", "/event/abolitionism-in-the-united-kingdom", "/country/sierra-leone"],
     },
     {
       title: "1857 and the Raj",
@@ -94,6 +106,9 @@ export const TOUR: Tour = {
         { label: "The Meerut mutineers march on Delhi", kind: "spread", path: [[77.71, 28.98], [77.5, 28.8], [77.23, 28.61]] },
         { label: "Revolt spreads down the Ganges plain", kind: "spread", path: [[77.23, 28.61], [78.3, 27.6], [79.5, 27], [80.33, 26.46], [80.92, 26.86]] },
       ],
+      fact: "Bahadur Shah Zafar, also a noted Urdu poet, was exiled to Rangoon in Burma, where he died in 1862. His fall ended the dynasty founded by Timur nearly 500 years earlier.",
+      people: ["rani-lakshmibai"],
+      readMore: ["/event/indian-rebellion-of-1857", "/history-of/delhi", "/place/british-raj"],
     },
     {
       title: "Africa and the Empire at Its Peak",
@@ -124,6 +139,9 @@ export const TOUR: Tour = {
         { label: "Amritsar massacre, 13 April 1919", at: [74.88, 31.62] },
       ],
       routes: [{ label: "Rhodes' dream: Cape to Cairo", kind: "conquest", path: [[18.42, -33.93], [25, -25], [28.5, -17], [31.5, -8], [33, 1], [32.5, 15.6], [31.24, 30.04]] }],
+      fact: "Rhodes's Cape-to-Cairo railway was never completed. Only some stretches were built, and many have long been out of use because of wars and poor maintenance.",
+      people: ["cecil-rhodes"],
+      readMore: ["/event/scramble-for-africa", "/event/berlin-conference", "/event/second-boer-war", "/event/jallianwala-bagh-massacre"],
     },
     {
       title: "India: Independence and Partition",
@@ -142,6 +160,9 @@ export const TOUR: Tour = {
         { label: "Hindus and Sikhs flee to India", kind: "forced", path: [[73.2, 31.4], [74.35, 31.7], [74.86, 31.64], [76, 30.6], [77.1, 28.8]] },
         { label: "Muslims flee to Pakistan", kind: "forced", path: [[77.3, 28.5], [76.2, 30.2], [75, 31.3], [74.35, 31.45], [73.1, 31.2]] },
       ],
+      fact: "Cyril Radcliffe, who drew the new borders in Punjab and Bengal, had never been to India before. He was given five weeks, and his line was published on 17 August 1947, two days after independence.",
+      people: ["mahatma-gandhi", "muhammad-ali-jinnah"],
+      readMore: ["/event/partition-of-india", "/event/bengal-famine-of-1943", "/event/indian-independence-movement"],
     },
     {
       title: "The Wind of Change in Africa",
@@ -155,6 +176,9 @@ export const TOUR: Tour = {
         { label: "Cape Town: 'wind of change' speech, 1960", at: [18.42, -33.93] },
         { label: "Nairobi: Kenya independent, 12 December 1963", at: [36.82, -1.29] },
       ],
+      fact: "Ghana is named after Wagadu, a West African empire of the 3rd to 12th centuries that Arab traders crossing the Sahara called Ghana, probably from its rulers' title.",
+      people: ["kwame-nkrumah", "jomo-kenyatta"],
+      readMore: ["/country/ghana", "/event/mau-mau-rebellion", "/country/kenya", "/country/nigeria"],
     },
     {
       title: "Hong Kong: The Last Handover",
@@ -166,6 +190,9 @@ export const TOUR: Tour = {
         { label: "Handover ceremony, Wan Chai, 30 June 1997", at: [114.17, 22.28] },
         { label: "Canton: opium seized, 1839", at: [113.26, 23.13] },
       ],
+      fact: "Only the New Territories were leased. Hong Kong Island and Kowloon had been ceded to Britain 'in perpetuity', but China never recognised those treaties, and in 1997 the whole territory went back.",
+      people: ["margaret-thatcher"],
+      readMore: ["/history-of/hong-kong", "/event/first-opium-war", "/history-of/guangzhou"],
     },
   ],
 };

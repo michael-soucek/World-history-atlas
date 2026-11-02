@@ -6,7 +6,9 @@ import dynamic from "next/dynamic";
 import { ArrowLeft, ArrowRight, Pause, Play, Maximize2 } from "lucide-react";
 import { ReadAloudButton } from "@/components/ReadAloudButton";
 import SupportNudge from "@/components/SupportNudge";
+import ArticleImage from "@/components/ArticleImage";
 import type { Tour, TourRoute, TourSide, TourStep } from "@/data/tours";
+import type { StopExtras, StopLink } from "@/lib/tourExtras";
 
 /** The tours collected on /world-wars (other war tours, like the Civil War, shade territory too). */
 const WORLD_WAR_TOURS = new Set(["first-world-war", "second-world-war-europe", "second-world-war-pacific"]);
@@ -20,6 +22,8 @@ const TourMap = dynamic(() => import("./TourMap"), {
 
 interface TourPlayerProps {
   tour: Tour;
+  /** Each stop's people, further reading and picture, resolved on the server. */
+  extras?: StopExtras[];
 }
 
 const STEP_MS = 9000;
@@ -28,11 +32,12 @@ function fmt(y: number) {
   return y < 0 ? { n: String(Math.abs(y)), e: "BCE" } : { n: String(y), e: "CE" };
 }
 
-export default function TourPlayer({ tour }: TourPlayerProps) {
+export default function TourPlayer({ tour, extras }: TourPlayerProps) {
   const [step, setStep] = useState(0);
   const [playing, setPlaying] = useState(false);
 
   const current = tour.steps[step];
+  const extra = extras?.[step];
   const last = tour.steps.length - 1;
   const mapRef = useRef<HTMLDivElement>(null);
   const stopRef = useRef<HTMLElement>(null);
@@ -175,10 +180,22 @@ export default function TourPlayer({ tour }: TourPlayerProps) {
             </p>
             <h2 className="mt-2 font-display text-[26px] sm:text-[30px] leading-tight tracking-tight text-ink text-balance">{current.title}</h2>
             <p className="mt-4 font-text text-[17px] leading-[1.65] text-ink/85 max-w-[62ch]">{current.text}</p>
+            {extra?.image && (
+              <div className="mt-6">
+                <ArticleImage img={extra.image} alt={extra.image.caption ?? current.title} variant="panel" />
+              </div>
+            )}
+            {current.fact && <DidYouKnow fact={current.fact} />}
             {current.zones?.length && tour.sides ? <ZoneLegend sides={tour.sides} step={current} /> : null}
             {current.routes?.length || current.markers?.some(m => m.kind === "battle") ? (
               <RouteLegend routes={current.routes ?? []} battles={current.markers?.some(m => m.kind === "battle") ?? false} />
             ) : null}
+            {extra && (extra.people.length > 0 || extra.readMore.length > 0) && (
+              <div className="mt-7 space-y-2.5">
+                <StopLinks title="People" links={extra.people} />
+                <StopLinks title="Read more" links={extra.readMore} />
+              </div>
+            )}
           </article>
 
           {step === last && (
@@ -305,6 +322,32 @@ function ZoneLegend({ sides, step }: { sides: TourSide[]; step: TourStep }) {
 }
 
 /** What each arrow on the map means, for the current stop. */
+/** A surprising detail about the stop, set apart from the narration. */
+export function DidYouKnow({ fact }: { fact: string }) {
+  return (
+    <aside className="mt-6 border-l-2 border-accent pl-4 max-w-[62ch]">
+      <p className="label text-accent !text-[10px]">Did you know?</p>
+      <p className="mt-1.5 font-text text-[16px] leading-relaxed text-ink/80">{fact}</p>
+    </aside>
+  );
+}
+
+/** "People: Hannibal · Scipio Africanus", each linked to its page. */
+export function StopLinks({ title, links }: { title: string; links: StopLink[] }) {
+  if (!links.length) return null;
+  return (
+    <p className="text-[14px] leading-relaxed text-ink/72">
+      <span className="label text-ink/64 !text-[10px] mr-2">{title}</span>
+      {links.map((l, i) => (
+        <span key={l.href}>
+          {i > 0 && <span aria-hidden="true" className="text-ink/40"> · </span>}
+          <Link href={l.href} className="text-ink underline underline-offset-4 decoration-ink/25 hover:text-accent transition-colors">{l.label}</Link>
+        </span>
+      ))}
+    </p>
+  );
+}
+
 function RouteLegend({ routes, battles }: { routes: TourRoute[]; battles: boolean }) {
   return (
     <div className="mt-5 border-t border-ink/10 pt-3.5">

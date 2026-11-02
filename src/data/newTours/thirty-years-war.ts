@@ -16,6 +16,8 @@ export const TOUR: Tour = {
       mapState: { year: 1618, mapYear: 1600, lat: 50.1, lng: 14.4, zoom: 5.4 },
       highlight: ["Holy Roman Empire"],
       markers: [{ label: "Prague Castle: the Defenestration, 1618", at: [14.4, 50.09] }],
+      fact: "Catholics said angels or the Virgin Mary had saved the three men; the Protestant story of a dung heap came later. The secretary, Fabricius, was ennobled with the title 'Baron von Hohenfall', Baron of Highfall.",
+      readMore: ["/event/defenestrations-of-prague", "/history-of/prague", "/event/thirty-years-war", "/place/holy-roman-empire"],
     },
     {
       title: "White Mountain: the Revolt Crushed",
@@ -28,6 +30,8 @@ export const TOUR: Tour = {
         { label: "Imperial and Catholic League advance on Prague, 1620", kind: "conquest", path: [[16.37, 48.21], [15.2, 48.8], [14.2, 49.3], [13.9, 49.8], [14.32, 50.08]] },
         { label: "Frederick flees to Silesia", kind: "retreat", path: [[14.42, 50.09], [15.4, 50.4], [16.6, 50.8], [17.03, 51.11]] },
       ],
+      fact: "Frederick's reign in Bohemia lasted little more than a year, earning him the mocking name 'the Winter King'. The nickname was already in print in an Imperial pamphlet of 1619, before his defeat.",
+      readMore: ["/event/battle-of-white-mountain", "/history-of/prague", "/country/czech-republic", "/event/counter-reformation"],
     },
     {
       title: "Denmark Steps In",
@@ -44,6 +48,9 @@ export const TOUR: Tour = {
         { label: "Christian IV's march south, 1626", kind: "conquest", path: [[10, 53.6], [9.6, 53], [10.1, 52.5], [10.54, 52.16], [10.24, 51.97]] },
         { label: "Danish retreat after Lutter", kind: "retreat", path: [[10.24, 51.97], [10.54, 52.16], [10.2, 52.9], [10, 53.6]] },
       ],
+      fact: "In Denmark and Norway the campaign became known as 'the Emperor War'. Christian joined it partly out of fear that Gustavus Adolphus of Sweden would replace him as champion of the Protestant cause.",
+      people: ["albrecht-von-wallenstein", "gustavus-adolphus"],
+      readMore: ["/place/denmark-norway", "/history-of/copenhagen", "/event/thirty-years-war", "/country/denmark"],
     },
     {
       title: "Wallenstein's Army",
@@ -59,6 +66,9 @@ export const TOUR: Tour = {
         { label: "Wallenstein's army conquers the north, 1626–1627", kind: "conquest", path: [[12.24, 51.88], [11.64, 52.13], [11.4, 53.2], [11.42, 53.63], [13.08, 54.3]] },
         { label: "Into Jutland, 1627", kind: "conquest", path: [[11.42, 53.63], [10.3, 54], [9.6, 54.8], [9.5, 55.8]] },
       ],
+      fact: "Wallenstein put great faith in astrology. In 1608 he commissioned a horoscope, through intermediaries, from the imperial mathematician Johannes Kepler, but it seems not to have reached him until about 1614.",
+      people: ["albrecht-von-wallenstein", "johannes-kepler"],
+      readMore: ["/place/habsburg-monarchy", "/event/peace-of-augsburg", "/place/holy-roman-empire"],
     },
     {
       title: "Sweden Lands, Magdeburg Burns",
@@ -75,6 +85,9 @@ export const TOUR: Tour = {
         { label: "Gustavus advances up the Oder", kind: "conquest", path: [[13.77, 54.13], [14.2, 53.8], [14.55, 53.43], [14.6, 52.9], [14.55, 52.34]] },
         { label: "Tilly's army on Magdeburg", kind: "conquest", path: [[12.6, 52.5], [12.1, 52.3], [11.64, 52.13]] },
       ],
+      fact: "The sack was so notorious that 'magdeburgisieren', to magdeburgise, became a byword for utter destruction. For two weeks afterwards, charred bodies were thrown into the Elbe to stop disease spreading.",
+      people: ["gustavus-adolphus"],
+      readMore: ["/place/sweden", "/event/protestant-reformation", "/country/germany"],
     },
     {
       title: "Breitenfeld: the Swedish Triumph",
@@ -88,6 +101,9 @@ export const TOUR: Tour = {
       routes: [
         { label: "Swedish advance into southern Germany, 1631–1632", kind: "conquest", path: [[12.38, 51.42], [11.4, 50.9], [10, 50.1], [9.93, 49.79], [11, 49.47], [10.92, 48.68], [11.58, 48.14]] },
       ],
+      fact: "Tilly himself was hit by three musket balls in the chest and neck and struck twice on the head by an officer trying to capture him. He escaped only when that officer was shot down.",
+      people: ["gustavus-adolphus"],
+      readMore: ["/event/battle-of-breitenfeld", "/country/sweden", "/history-of/stockholm"],
     },
     {
       title: "Lützen: a King Falls",
@@ -102,6 +118,9 @@ export const TOUR: Tour = {
       routes: [
         { label: "Wallenstein moves north into Saxony, autumn 1632", kind: "conquest", path: [[10.97, 49.45], [11.6, 50], [12.1, 50.7], [12.16, 51.27]] },
       ],
+      fact: "Thick morning mist slowed the Swedish advance, and Swedes still call a particularly heavy fog 'Lützendimma', Lützen fog. Some argue it was partly smoke from the town, which Wallenstein had ordered set on fire.",
+      people: ["gustavus-adolphus", "albrecht-von-wallenstein"],
+      readMore: ["/event/battle-of-lutzen-1632", "/place/sweden", "/event/thirty-years-war"],
     },
     {
       title: "France Joins the Fight",
@@ -118,6 +137,9 @@ export const TOUR: Tour = {
         { label: "Spanish invasion of northern France, 1643", kind: "conquest", path: [[4.35, 50.85], [4.4, 50.4], [4.53, 49.92]] },
         { label: "French-funded campaign on the Upper Rhine, 1638", kind: "conquest", path: [[6.17, 48.7], [7, 48.2], [7.58, 48.03]] },
       ],
+      fact: "Rocroi was fought just five days after Louis XIV came to the French throne on his father's death. The young Duke of Enghien who won it later became known as the Great Condé.",
+      people: ["cardinal-richelieu", "louis-xiv"],
+      readMore: ["/event/battle-of-rocroi", "/place/kingdom-of-france", "/event/eighty-years-war"],
     },
     {
       title: "A Land Laid Waste",
@@ -130,6 +152,8 @@ export const TOUR: Tour = {
         { label: "Württemberg: losses near 50%", at: [9.18, 48.78] },
         { label: "Augsburg: about 48,000 people fall to 21,000", at: [10.9, 48.37] },
       ],
+      fact: "Many sought a supernatural cause for their suffering. Witch-hunts spread from Franconia in 1626: by 1631 over 900 people had been executed in the bishopric of Würzburg, and over 1,000 in nearby Bamberg.",
+      readMore: ["/event/thirty-years-war", "/country/germany", "/place/holy-roman-empire"],
     },
     {
       title: "The Peace of Westphalia",
@@ -142,6 +166,9 @@ export const TOUR: Tour = {
         { label: "Osnabrück", at: [8.05, 52.28] },
         { label: "Prague: Swedish siege, 1648", at: [14.42, 50.09], kind: "battle" },
       ],
+      fact: "The treaties also gave the Swiss Confederacy legal independence from the Empire, and ruled that the bishopric of Osnabrück would alternate between Catholic and Lutheran bishops.",
+      people: ["christina-of-sweden"],
+      readMore: ["/event/peace-of-westphalia", "/place/dutch-republic", "/event/eighty-years-war", "/place/sweden"],
     },
   ],
 };

@@ -18,6 +18,9 @@ export const TOUR: Tour = {
         { label: "Hanoi: independence declared, 2 September 1945", at: [105.85, 21.0] },
         { label: "Saigon: French troops take control, September 1945", at: [106.702, 10.776] },
       ],
+      fact: "Ho Chi Minh's declaration referred to both the American Declaration of Independence and France's Declaration of the Rights of Man. American OSS officers were present, and historian Pierre Asselin sees the references as a bid for Allied support.",
+      people: ["ho-chi-minh", "vo-nguyen-giap"],
+      readMore: ["/history-of/hanoi", "/place/french-indochina", "/history-of/ho-chi-minh-city", "/country/vietnam"],
     },
     {
       title: "Điện Biên Phủ: 1954",
@@ -30,6 +33,9 @@ export const TOUR: Tour = {
         { label: "Hanoi", at: [105.85, 21.0] },
       ],
       routes: [{ label: "Giáp's divisions close in", kind: "conquest", path: [[105.4, 21.9], [104.8, 21.75], [104.2, 21.6], [103.6, 21.45], [103.1, 21.4]] }],
+      fact: "A French flight nurse, Geneviève de Galard, was stranded in the valley when her plane was destroyed by shellfire on the airstrip. She worked in the garrison's field hospital until the surrender.",
+      people: ["vo-nguyen-giap"],
+      readMore: ["/event/battle-of-dien-bien-phu", "/place/french-indochina", "/country/laos"],
     },
     {
       title: "Geneva and Partition: 1954",
@@ -47,6 +53,8 @@ export const TOUR: Tour = {
         { label: "Northerners move south, 1954–1955", kind: "migration", path: [[106.9, 20.7], [107.7, 19.3], [108.7, 16.5], [109.5, 13.5], [109.2, 11.0], [106.75, 10.7]] },
         { label: "Viet Minh fighters regroup north", kind: "migration", path: [[106.6, 11.0], [108.2, 13.8], [107.6, 16.4], [106.6, 18.6], [105.85, 20.9]] },
       ],
+      fact: "The US Navy called its part in the exodus Operation Passage to Freedom and carried some 310,000 people south. CIA agents spread rumours to encourage flight, including that the Americans would drop atomic bombs on the North.",
+      readMore: ["/history-of/ho-chi-minh-city", "/country/vietnam", "/event/cold-war"],
     },
     {
       title: "The Gulf of Tonkin and American Escalation: 1964–1965",
@@ -59,6 +67,9 @@ export const TOUR: Tour = {
         { label: "Hanoi", at: [105.85, 21.0] },
       ],
       routes: [{ label: "Operation Rolling Thunder, 1965–1968", kind: "raid", path: [[108.21, 16.069], [107.5, 17.5], [106.8, 19.0], [106.2, 20.3], [105.85, 21.0]] }],
+      fact: "The resolution passed the House of Representatives by 416 votes to none. In the Senate only two members, Wayne Morse and Ernest Gruening, voted against it.",
+      people: ["john-f-kennedy"],
+      readMore: ["/event/vietnam-war", "/event/cold-war", "/event/assassination-of-john-f-kennedy"],
     },
     {
       title: "The Ho Chi Minh Trail",
@@ -71,6 +82,9 @@ export const TOUR: Tour = {
         { label: "Bến Hải River: the border", at: [107.1125, 17.015] },
       ],
       routes: [{ label: "Men and supplies down the trail", kind: "conquest", path: [[105.85, 21.0], [105.7, 19.2], [105.8, 17.8], [106.237, 16.682], [106.6, 15.6], [106.85, 14.8], [107.5, 14.0], [107.8, 13.0]] }],
+      fact: "By a CIA estimate, in 1968 the trail's builders had 20 bulldozers, 11 road graders, three rock crushers and two steamrollers at work, and as many as 43,000 North Vietnamese or Laotians ran the system.",
+      people: ["ho-chi-minh"],
+      readMore: ["/country/laos", "/country/cambodia", "/event/vietnam-war"],
     },
     {
       title: "The Tet Offensive: 1968",
@@ -83,6 +97,9 @@ export const TOUR: Tour = {
         { label: "Mỹ Lai massacre, 16 March 1968", at: [108.869, 15.178] },
         { label: "Saigon attacked", at: [106.702, 10.776], kind: "battle" },
       ],
+      fact: "In Saigon, attackers seized Radio Saigon with a taped message from Ho Chi Minh proclaiming the city's liberation. It never went out: the audio lines from the studio to the transmitter had been cut.",
+      people: ["ho-chi-minh"],
+      readMore: ["/event/tet-offensive", "/history-of/hue", "/history-of/ho-chi-minh-city"],
     },
     {
       title: "Cambodia and Laos: 1969–1971",
@@ -100,6 +117,8 @@ export const TOUR: Tour = {
         { label: "Lam Son 719: into Laos, February 1971", kind: "conquest", path: [[106.724, 16.654], [106.577, 16.688], [106.4, 16.72], [106.26, 16.69]] },
         { label: "The retreat from Laos, March 1971", kind: "retreat", path: [[106.26, 16.64], [106.42, 16.66], [106.58, 16.64], [106.72, 16.61]] },
       ],
+      fact: "The Kent State shootings swelled a nationwide student strike. In the end more than 4 million students took part in walk-outs at hundreds of universities, colleges and high schools.",
+      readMore: ["/country/cambodia", "/country/laos", "/event/cambodian-genocide", "/event/vietnam-war"],
     },
     {
       title: "The Paris Peace Accords: 1973",
@@ -111,6 +130,8 @@ export const TOUR: Tour = {
         { label: "Saigon", at: [106.702, 10.776] },
       ],
       routes: [{ label: "The last US forces leave, 1973", kind: "retreat", path: [[106.702, 10.776], [108.0, 10.6], [110.0, 11.4], [112.5, 13.0], [115.0, 14.6]] }],
+      fact: "Even the table caused a quarrel. North Vietnam wanted a round one so all parties looked equal; the South insisted on a rectangle. The compromise was a round table ringed by separate square ones.",
+      readMore: ["/event/vietnam-war", "/history-of/paris", "/event/cold-war"],
     },
     {
       title: "The Fall of Saigon: 1975",
@@ -128,6 +149,9 @@ export const TOUR: Tour = {
         { label: "Through the Central Highlands, March 1975", kind: "conquest", path: [[107.8, 14.4], [108.04, 12.67], [107.7, 11.9], [107.239, 10.923]] },
         { label: "Down the coast, March–April 1975", kind: "conquest", path: [[107.58, 16.4675], [108.21, 16.069], [108.9, 14.0], [109.19, 12.25], [108.4, 11.2], [107.239, 10.923], [106.75, 10.8]] },
       ],
+      fact: "Ship decks became so clogged that crews pushed South Vietnamese helicopters overboard to make room. In all, 1,373 Americans and 5,595 Vietnamese and others were flown out by helicopter.",
+      people: ["vo-nguyen-giap"],
+      readMore: ["/event/fall-of-saigon", "/history-of/ho-chi-minh-city", "/event/vietnam-war", "/country/vietnam"],
     },
   ],
 };

@@ -171,6 +171,9 @@ const FIRST_WORLD_WAR: Tour = {
         { label: "Germany invades Belgium", kind: "conquest", path: [[6.6, 50.8], [5.57, 50.63], [4.35, 50.85]] },
       ],
       zones: ww1Base(),
+      fact: "Gavrilo Princip escaped execution because he was 19, just 27 days short of the minimum age under Habsburg law. Sentenced to 20 years, he died of tuberculosis in prison at Theresienstadt in April 1918.",
+      people: ["archduke-franz-ferdinand", "franz-joseph-i", "wilhelm-ii", "nicholas-ii"],
+      readMore: ["/event/assassination-of-archduke-franz-ferdinand", "/history-of/sarajevo", "/event/world-war-i", "/place/austria-hungary"],
     },
     {
       title: "The Race for Paris: the Marne",
@@ -191,6 +194,8 @@ const FIRST_WORLD_WAR: Tour = {
         { label: "German retreat to the Aisne", kind: "retreat", path: [[3.3, 48.98], [3.35, 49.25], [3.45, 49.45]] },
       ],
       zones: [westFront(WEST_SEPT_1914), ...ww1Base()],
+      fact: "General Gallieni commandeered about 600 Paris taxis to rush soldiers to the Marne front. The cabs kept their meters running, and the French treasury paid fares of 70,012 francs. Historians judge them militarily minor but a great boost to morale.",
+      readMore: ["/history-of/paris", "/country/belgium", "/place/german-empire", "/event/world-war-i"],
     },
     {
       title: "Tannenberg and Galicia: the Eastern Front",
@@ -211,6 +216,9 @@ const FIRST_WORLD_WAR: Tour = {
         { label: "German drive on Warsaw and Łódź", kind: "conquest", path: [[18.4, 50.9], [19.2, 51.4], [19.8, 51.9]] },
       ],
       zones: [...eastFront(EAST_DEC_1914), westFront(WEST_TRENCHES), ...ww1Base({ ottoman: true })],
+      fact: "Hindenburg asked for the battle to be named after Tannenberg (now Stębark), a village nearby, to avenge a famous defeat: there, in 1410, Poles and Lithuanians had routed the Teutonic Knights.",
+      people: ["wilhelm-ii", "nicholas-ii"],
+      readMore: ["/event/battle-of-tannenberg-1914", "/event/battle-of-grunwald", "/history-of/lviv", "/place/russian-empire"],
     },
     {
       title: "The Trenches",
@@ -228,6 +236,8 @@ const FIRST_WORLD_WAR: Tour = {
         { label: "Allied moves north", kind: "conquest", path: [[2.4, 49.4], [2.5, 50.0], [2.55, 50.6], [2.65, 51.0]] },
       ],
       zones: [...eastFront(EAST_DEC_1914), westFront(WEST_TRENCHES), ...ww1Base({ ottoman: true })],
+      fact: "The chemist Fritz Haber suggested using chlorine, a gas heavier than air, in place of tear gas. When it drifted across the line at Ypres in April 1915, Canadian soldiers recognised it because it smelled like their drinking water.",
+      readMore: ["/country/belgium", "/event/world-war-i", "/place/belgium"],
     },
     {
       title: "The Great Retreat",
@@ -247,6 +257,9 @@ const FIRST_WORLD_WAR: Tour = {
         { label: "The Russian retreat", kind: "retreat", path: [[23.6, 52.3], [25.0, 52.8], [26.6, 53.3]] },
       ],
       zones: [...eastFront(EAST_SEPT_1915), westFront(WEST_TRENCHES), ...ww1Base({ ottoman: true, italy: true })],
+      fact: "Przemyśl had fallen to Russia only that March, after a siege of 133 days, the longest in Europe during the war. About 117,000 Austro-Hungarian soldiers, including nine generals, went into captivity.",
+      people: ["nicholas-ii"],
+      readMore: ["/history-of/warsaw", "/history-of/lviv", "/country/poland", "/place/russian-empire"],
     },
     {
       title: "Gallipoli and the Isonzo",
@@ -265,6 +278,9 @@ const FIRST_WORLD_WAR: Tour = {
         { label: "Italy attacks on the Isonzo", kind: "conquest", path: [[12.9, 46.05], [13.3, 45.95], [13.6, 45.9]] },
       ],
       zones: [...eastFront(EAST_SEPT_1915), westFront(WEST_TRENCHES), ...ww1Base({ ottoman: true, italy: true })],
+      fact: "To hide the evacuation of Anzac and Suvla in December 1915, troops left behind tricks such as William Scurry's self-firing rifle, triggered by water dripping into a pan. The Australians suffered no casualties on the final night.",
+      people: ["mustafa-kemal-ataturk", "winston-churchill"],
+      readMore: ["/event/gallipoli-campaign", "/place/ottoman-empire", "/country/australia", "/country/new-zealand"],
     },
     {
       title: "The Fall of Serbia",
@@ -289,6 +305,8 @@ const FIRST_WORLD_WAR: Tour = {
         SALONIKA,
         ...eastFront(EAST_SEPT_1915), westFront(WEST_TRENCHES), ...ww1Base({ ottoman: true, italy: true, bulgaria: true }),
       ],
+      fact: "Thousands of Serbian soldiers and refugees died after reaching safety. The small, rocky island of Vido, off Corfu, had no room for graves, so over 5,000 were buried at sea. Serbs call those waters the Blue Sea Tomb, after a poem.",
+      readMore: ["/country/serbia", "/history-of/belgrade", "/history-of/thessaloniki", "/country/montenegro"],
     },
     {
       title: "Verdun and the Somme",
@@ -313,6 +331,9 @@ const FIRST_WORLD_WAR: Tour = {
         SALONIKA,
         ...eastFront(EAST_SEPT_1915), westFront(WEST_TRENCHES), ...ww1Base({ ottoman: true, italy: true, bulgaria: true, portugal: true }),
       ],
+      fact: "Tanks went into battle for the first time on the Somme, at Flers–Courcelette on 15 September 1916. Even the name was a cover: the square machines were disguised under words like 'cistern', and 'tank' was adopted in December 1915.",
+      people: ["philippe-petain"],
+      readMore: ["/event/battle-of-verdun", "/event/battle-of-the-somme", "/event/battle-of-jutland", "/place/german-empire"],
     },
     {
       title: "The Brusilov Offensive and Romania",
@@ -340,6 +361,9 @@ const FIRST_WORLD_WAR: Tour = {
         ...eastFront(EAST_1916), westFront(WEST_TRENCHES),
         ...ww1Base({ ottoman: true, italy: true, bulgaria: true, portugal: true, romania: true }),
       ],
+      fact: "Aleksei Brusilov, a nobleman and tsarist general nicknamed 'the Iron General', later sided with the Bolsheviks in the Russian Civil War and helped organise the early Red Army before retiring in 1924.",
+      people: ["nicholas-ii"],
+      readMore: ["/event/brusilov-offensive", "/history-of/bucharest", "/country/romania", "/place/austria-hungary"],
     },
     {
       title: "A World War: Africa and Asia",
@@ -362,6 +386,8 @@ const FIRST_WORLD_WAR: Tour = {
         zone("central", ["German E. Africa (Tanganyika)"]),
         ...ww1Base({ ottoman: true, italy: true, bulgaria: true, portugal: true }),
       ],
+      fact: "At Tsingtao in September 1914, planes from the Japanese seaplane carrier Wakamiya carried out the world's first air raids launched from a ship, bombing German-held positions ashore and enemy warships in the bay.",
+      readMore: ["/place/german-east-africa", "/place/german-south-west-africa", "/place/empire-of-japan", "/place/british-empire"],
     },
     {
       title: "1917: Revolution, and America Joins",
@@ -390,6 +416,9 @@ const FIRST_WORLD_WAR: Tour = {
         ...eastFront(EAST_1917), westFront(WEST_1917),
         ...ww1Base({ ottoman: true, italy: true, bulgaria: true, portugal: true, romania: true }),
       ],
+      fact: "Russia's two revolutions of 1917 are called February and October because the country still used the old Julian calendar. By the Gregorian calendar used in western Europe, they took place in March and November.",
+      people: ["vladimir-lenin", "nicholas-ii", "woodrow-wilson", "leon-trotsky"],
+      readMore: ["/event/russian-revolution", "/event/october-revolution", "/history-of/saint-petersburg", "/place/russian-empire"],
     },
     {
       title: "Brest-Litovsk: Russia Leaves the War",
@@ -419,6 +448,9 @@ const FIRST_WORLD_WAR: Tour = {
         zone("central", [...CENTRAL, "Ottoman Empire", "Bulgaria"]),
         zone("entente", ["France", "United Kingdom of Great Britain and Ireland", "Belgium", ...ENTENTE_EMPIRES, ...ITALIAN_EMPIRE, ...PORTUGUESE_EMPIRE]),
       ],
+      fact: "Trotsky first stalled with the formula 'no war, no peace', refusing to sign while declaring the war over. Germany simply resumed its advance on 18 February. The treaty lasted barely eight months, annulled by the November 1918 armistice.",
+      people: ["vladimir-lenin", "leon-trotsky"],
+      readMore: ["/event/treaty-of-brest-litovsk", "/event/russian-civil-war", "/country/ukraine", "/country/finland"],
     },
     {
       title: "The Spring Offensive",
@@ -449,6 +481,9 @@ const FIRST_WORLD_WAR: Tour = {
         zone("central", [...CENTRAL, "Ottoman Empire", "Bulgaria"]),
         zone("entente", ["France", "United Kingdom of Great Britain and Ireland", "Belgium", ...ENTENTE_EMPIRES, ...ITALIAN_EMPIRE, ...PORTUGUESE_EMPIRE]),
       ],
+      fact: "The 'Paris Gun' fired on the capital from about 120 km away, so far that its gunners had to allow for the Earth's rotation. On Good Friday, 29 March 1918, one shell hit the church of St-Gervais, killing 91 people.",
+      people: ["wilhelm-ii"],
+      readMore: ["/history-of/paris", "/place/german-empire", "/country/france", "/event/world-war-i"],
     },
     {
       title: "The Middle East",
@@ -476,6 +511,9 @@ const FIRST_WORLD_WAR: Tour = {
         zone("central", [...CENTRAL, "Ottoman Empire", "Bulgaria"]),
         zone("entente", ["France", "United Kingdom of Great Britain and Ireland", "Belgium", "Greece", ...ENTENTE_EMPIRES, ...ITALIAN_EMPIRE]),
       ],
+      fact: "On 9 December 1917 the mayor of Jerusalem tried to hand the Ottoman surrender letter to two London Regiment sergeants who were scouting ahead of the army. They declined to take it, and a brigadier general finally accepted it.",
+      people: ["t-e-lawrence"],
+      readMore: ["/event/arab-revolt", "/history-of/jerusalem", "/event/armenian-genocide", "/history-of/baghdad", "/history-of/damascus"],
     },
     {
       title: "The Hundred Days and the Armistice",
@@ -504,6 +542,9 @@ const FIRST_WORLD_WAR: Tour = {
           ...ENTENTE_EMPIRES, ...ITALIAN_EMPIRE, ...PORTUGUESE_EMPIRE,
         ]),
       ],
+      fact: "The armistice was agreed in Marshal Foch's railway carriage at Compiègne at 5 a.m., but took effect only at 11. Fighting went on until the last minute: by one count 2,738 men died on the war's final day.",
+      people: ["wilhelm-ii", "woodrow-wilson"],
+      readMore: ["/event/armistice-of-1918", "/place/german-empire", "/place/austria-hungary", "/event/world-war-i"],
     },
     {
       title: "A New Map of Europe",
@@ -512,6 +553,9 @@ const FIRST_WORLD_WAR: Tour = {
       mapState: { year: 1920, lat: 50, lng: 20, zoom: 3.7 },
       highlight: ["Poland", "Czechoslovakia", "Yugoslavia", "Austria", "Hungary", "Finland", "Estonia", "Latvia", "Lithuania"],
       markers: [{ label: "Versailles: treaty signed, 28 June 1919", at: [2.12, 48.8] }],
+      fact: "Clemenceau chose the Hall of Mirrors at Versailles on purpose: the German Empire had been proclaimed there in 1871. The treaty was signed on 28 June 1919, five years to the day after the shots in Sarajevo.",
+      people: ["woodrow-wilson", "jozef-pilsudski"],
+      readMore: ["/event/treaty-of-versailles", "/site/palace-of-versailles", "/event/treaty-of-trianon", "/event/spanish-flu", "/event/partition-of-the-ottoman-empire"],
     },
   ],
 };
@@ -697,6 +741,9 @@ const SECOND_WORLD_WAR_EUROPE: Tour = {
         zone("allies", ["United Kingdom", "France"]),
         zone("soviet", ["USSR"]),
       ],
+      fact: "Czechoslovakia was not even invited to the Munich conference that gave away its border regions. Many Czechs and Slovaks still call the agreement the 'Munich Diktat' and remember it as a betrayal by Britain and France.",
+      people: ["adolf-hitler", "neville-chamberlain", "benito-mussolini"],
+      readMore: ["/event/munich-agreement", "/event/anschluss", "/history-of/prague", "/history-of/vienna", "/place/nazi-germany"],
     },
     {
       title: "The Invasion of Poland",
@@ -720,6 +767,9 @@ const SECOND_WORLD_WAR_EUROPE: Tour = {
         zone("allies", ["United Kingdom", "France", "Algeria (France)", "Morocco (France)", "Tunisia", "Syria (France)"]),
         zone("soviet", ["USSR"]),
       ],
+      fact: "On the night of 31 August 1939, SS men in Polish uniforms staged a fake raid on the German radio station at Gleiwitz. The Gestapo murdered a local man, Franciszek Honiok, and left his body there as 'proof'.",
+      people: ["adolf-hitler", "joseph-stalin"],
+      readMore: ["/event/invasion-of-poland", "/event/molotov-ribbentrop-pact", "/history-of/warsaw", "/event/katyn-massacre"],
     },
     {
       title: "The Winter War, Denmark and Norway",
@@ -743,6 +793,9 @@ const SECOND_WORLD_WAR_EUROPE: Tour = {
         zone("allies", ["United Kingdom", "France", "Algeria (France)", "Morocco (France)", "Tunisia", "Syria (France)"]),
         zone("soviet", ["USSR"]),
       ],
+      fact: "Finland's homemade anti-tank weapon, the Molotov cocktail, was eventually mass-produced by Alko, the state alcoholic-drinks company, and issued in bundles with matches for lighting it.",
+      people: ["joseph-stalin"],
+      readMore: ["/event/winter-war", "/history-of/helsinki", "/country/finland", "/history-of/oslo", "/country/norway"],
     },
     {
       title: "The Fall of France",
@@ -768,6 +821,9 @@ const SECOND_WORLD_WAR_EUROPE: Tour = {
         zone("allies", ["United Kingdom"]),
         zone("soviet", ["USSR"]),
       ],
+      fact: "Hitler took his revenge for 1918 by having the armistice signed in the same railway carriage at Compiègne, pulled out of its museum and placed where it had stood then. He even sat in Marshal Foch's chair.",
+      people: ["adolf-hitler", "philippe-petain", "charles-de-gaulle", "winston-churchill"],
+      readMore: ["/event/battle-of-france", "/event/dunkirk-evacuation", "/history-of/paris", "/country/france"],
     },
     {
       title: "The Battle of Britain",
@@ -791,6 +847,9 @@ const SECOND_WORLD_WAR_EUROPE: Tour = {
         zone("allies", ["United Kingdom"]),
         zone("soviet", ["USSR"]),
       ],
+      fact: "The top scorer of the Polish No. 303 Squadron was a Czech: Josef František, with 17 claims, the fourth-highest-scoring pilot of the whole battle. He was killed in a crash on 8 October 1940.",
+      people: ["winston-churchill", "adolf-hitler"],
+      readMore: ["/event/battle-of-britain", "/event/the-blitz", "/history-of/london", "/country/united-kingdom"],
     },
     {
       title: "The Desert and Greece",
@@ -820,6 +879,9 @@ const SECOND_WORLD_WAR_EUROPE: Tour = {
         zone("allies", ["United Kingdom", "Greece", ...BRITISH_MIDEAST]),
         zone("soviet", ["USSR"]),
       ],
+      fact: "Greece marks 28 October, when it rejected Italy's ultimatum in 1940, as 'Ochi Day', from the Greek for 'no'. The dictator Ioannis Metaxas actually answered in French, 'Alors, c'est la guerre' (Then it is war).",
+      people: ["benito-mussolini", "erwin-rommel"],
+      readMore: ["/country/greece", "/history-of/athens", "/history-of/tripoli", "/country/libya", "/place/egypt"],
     },
     {
       title: "The Balkans and Crete",
@@ -850,6 +912,9 @@ const SECOND_WORLD_WAR_EUROPE: Tour = {
         zone("allies", ["United Kingdom", "Libya", ...BRITISH_MIDEAST]),
         zone("soviet", ["USSR"]),
       ],
+      fact: "Yugoslavia signed the Axis pact in Vienna on 25 March 1941, and crowds in Belgrade chanted 'better war than the pact'. On 27 March officers overthrew the regency and put 17-year-old King Peter II on the throne.",
+      people: ["adolf-hitler", "josip-broz-tito"],
+      readMore: ["/history-of/belgrade", "/history-of/zagreb", "/country/greece", "/country/croatia"],
     },
     {
       title: "Operation Barbarossa",
@@ -881,6 +946,9 @@ const SECOND_WORLD_WAR_EUROPE: Tour = {
         zone("allies", ["United Kingdom", "Syria (France)", "Mesopotamia (GB)", ...BRITISH_MIDEAST]),
         zone("soviet", ["USSR"]),
       ],
+      fact: "The invasion was named after the medieval emperor Frederick Barbarossa. Germany captured some 5.7 million Soviet soldiers during the war, and an estimated 2.8 to 3.3 million of them died, mostly through deliberate starvation, shooting and neglect.",
+      people: ["adolf-hitler", "joseph-stalin", "georgy-zhukov", "frederick-barbarossa"],
+      readMore: ["/event/operation-barbarossa", "/event/siege-of-leningrad", "/history-of/moscow", "/history-of/kyiv", "/place/soviet-union"],
     },
     {
       title: "The Holocaust",
@@ -901,6 +969,9 @@ const SECOND_WORLD_WAR_EUROPE: Tour = {
         { label: "From the Warsaw Ghetto to Treblinka", kind: "forced", path: [[21.01, 52.23], [21.5, 52.45], [22.05, 52.63]] },
       ],
       zones: AXIS_PEAK_1942,
+      fact: "At the Wannsee Conference in January 1942, senior officials coordinated the deportation and murder of Europe's Jews. Thirty copies of the minutes were made; only one, copy 16, survived, found by a US prosecutor in 1947.",
+      people: ["adolf-hitler", "heinrich-himmler", "anne-frank"],
+      readMore: ["/event/holocaust", "/site/auschwitz", "/event/wannsee-conference", "/event/warsaw-ghetto-uprising", "/history-of/kyiv"],
     },
     {
       title: "Case Blue: the Drive to the Volga and the Nile",
@@ -920,6 +991,9 @@ const SECOND_WORLD_WAR_EUROPE: Tour = {
         { label: "Rommel's advance into Egypt", kind: "conquest", path: [[23.96, 32.08], [25.15, 31.6], [27.2, 31.35], [28.9, 30.85]] },
       ],
       zones: AXIS_PEAK_1942,
+      fact: "As his armies fell back, Stalin issued Order No. 227 on 28 July 1942, remembered for its slogan 'Not a step back!'. It set up penal battalions, to which some 422,700 Red Army personnel were sentenced by 1945.",
+      people: ["joseph-stalin", "erwin-rommel", "adolf-hitler"],
+      readMore: ["/event/battle-of-stalingrad", "/history-of/alexandria", "/place/soviet-union", "/country/egypt"],
     },
     {
       title: "Stalingrad and El Alamein: the Tide Turns",
@@ -941,6 +1015,9 @@ const SECOND_WORLD_WAR_EUROPE: Tour = {
         { label: "The race for Tunis", kind: "conquest", path: [[3.1, 36.75], [6.6, 36.4], [9.6, 36.75]] },
       ],
       zones: SPRING_1943,
+      fact: "Of the roughly 91,000 prisoners taken at Stalingrad, most died in Soviet captivity. Only about 5,000 to 6,000 ever came home, the last of them in 1955.",
+      people: ["erwin-rommel", "georgy-zhukov", "joseph-stalin"],
+      readMore: ["/event/battle-of-stalingrad", "/event/second-battle-of-el-alamein", "/history-of/tunis", "/history-of/casablanca"],
     },
     {
       title: "The Battle of the Atlantic",
@@ -961,6 +1038,9 @@ const SECOND_WORLD_WAR_EUROPE: Tour = {
         { label: "U-boats off the American coast, 1942", kind: "raid", path: [[-10.0, 45.0], [-40.0, 40.0], [-65.0, 36.0], [-74.5, 35.3]] },
       ],
       zones: SPRING_1943,
+      fact: "The war's longest continuous campaign cost Germany 783 U-boats and about 30,000 submariners. The Allies lost some 3,500 merchant ships. Churchill wrote that the U-boat danger was the only thing that really frightened him.",
+      people: ["winston-churchill", "alan-turing"],
+      readMore: ["/country/canada", "/place/united-kingdom", "/country/norway", "/place/united-states"],
     },
     {
       title: "Kursk, Sicily and Italy",
@@ -996,6 +1076,9 @@ const SECOND_WORLD_WAR_EUROPE: Tour = {
         zone("allies", ["United Kingdom", "Algeria (France)", "Morocco (France)", "Syria (France)", "Mesopotamia (GB)", ...BRITISH_MIDEAST]),
         zone("soviet", ["USSR"]),
       ],
+      fact: "On 12 September 1943 German paratroopers and SS commandos landed by glider at a mountain hotel on the Gran Sasso, where Mussolini was being held, and freed him. He was flown out in a tiny Fieseler Storch plane.",
+      people: ["benito-mussolini", "georgy-zhukov", "adolf-hitler"],
+      readMore: ["/event/battle-of-kursk", "/history-of/palermo", "/history-of/rome", "/history-of/naples", "/history-of/kyiv"],
     },
     {
       title: "D-Day and Operation Bagration",
@@ -1033,6 +1116,9 @@ const SECOND_WORLD_WAR_EUROPE: Tour = {
         zone("allies", ["United Kingdom", "France", "Algeria (France)", "Morocco (France)", "Syria (France)", "Mesopotamia (GB)", ...BRITISH_MIDEAST]),
         zone("soviet", ["USSR"]),
       ],
+      fact: "Operation Bagration was named after Pyotr Bagration, a prince of the Georgian royal house and a Russian general who was mortally wounded at Borodino in 1812, fighting Napoleon's invasion of Russia.",
+      people: ["dwight-d-eisenhower", "charles-de-gaulle", "georgy-zhukov", "joseph-stalin"],
+      readMore: ["/event/normandy-landings", "/history-of/minsk", "/history-of/paris", "/event/warsaw-uprising"],
     },
     {
       title: "Autumn 1944: Liberation in the West and the Balkans",
@@ -1067,6 +1153,9 @@ const SECOND_WORLD_WAR_EUROPE: Tour = {
         zone("allies", ["United Kingdom", "France", "Belgium", "Luxembourg", "Netherlands", "Algeria (France)", "Morocco (France)", "Syria (France)", "Mesopotamia (GB)", ...BRITISH_MIDEAST]),
         zone("soviet", ["USSR"]),
       ],
+      fact: "After the uprising was crushed, Himmler ordered Warsaw razed. By January 1945 some 85 to 90 per cent of its buildings were destroyed, about 40 per cent of them by systematic German demolition after the fighting had ended.",
+      people: ["josip-broz-tito", "heinrich-himmler"],
+      readMore: ["/event/operation-market-garden", "/history-of/warsaw", "/history-of/aachen", "/history-of/belgrade", "/history-of/budapest"],
     },
     {
       title: "The Bulge and the Vistula–Oder Offensive",
@@ -1100,6 +1189,9 @@ const SECOND_WORLD_WAR_EUROPE: Tour = {
         zone("allies", ["United Kingdom", "France", "Belgium", "Luxembourg", "Netherlands", "Algeria (France)", "Morocco (France)", "Syria (France)", "Mesopotamia (GB)", ...BRITISH_MIDEAST]),
         zone("soviet", ["USSR"]),
       ],
+      fact: "When the Germans demanded the surrender of encircled Bastogne on 22 December 1944, General Anthony McAuliffe replied with one word: 'NUTS!'. An American officer explained it to the German envoys as 'Go to hell!'.",
+      people: ["dwight-d-eisenhower", "adolf-hitler", "georgy-zhukov"],
+      readMore: ["/event/battle-of-the-bulge", "/site/auschwitz", "/history-of/budapest", "/event/yalta-conference"],
     },
     {
       title: "The Fall of Berlin",
@@ -1125,6 +1217,9 @@ const SECOND_WORLD_WAR_EUROPE: Tour = {
         zone("allies", ["United Kingdom", "France", "Belgium", "Luxembourg", "Netherlands", "Denmark", "Norway", "Yugoslavia", "Greece", "Albania"]),
         zone("soviet", ["USSR"]),
       ],
+      fact: "The famous handshake at Torgau was not the first meeting. Earlier on 25 April 1945, an American patrol under Lieutenant Albert Kotzebue had crossed the Elbe and met Soviet troops near Strehla.",
+      people: ["adolf-hitler", "georgy-zhukov", "joseph-stalin", "harry-s-truman"],
+      readMore: ["/history-of/berlin", "/site/brandenburg-gate", "/event/potsdam-conference", "/event/nuremberg-trials", "/event/bombing-of-dresden"],
     },
   ],
 };
@@ -1218,6 +1313,9 @@ const SECOND_WORLD_WAR_PACIFIC: Tour = {
         { label: "Up the Yangtze, 1937–1938", kind: "conquest", path: [[121.4, 31.3], [118.8, 32.06], [116.5, 30.5], [114.3, 30.6]] },
       ],
       zones: [occupiedChina(CHINA_1938), CANTON, zone("japan", JAPAN), CHINA],
+      fact: "In June 1938 Chinese Nationalist troops broke the Yellow River dikes at Huayuankou to slow the Japanese advance. The flood, with the famine and disease that followed, killed an estimated 400,000 to 500,000 civilians.",
+      people: ["chiang-kai-shek", "hirohito", "mao-zedong"],
+      readMore: ["/event/second-sino-japanese-war", "/event/nanjing-massacre", "/event/mukden-incident", "/event/marco-polo-bridge-incident", "/history-of/shanghai"],
     },
     {
       title: "Pearl Harbor",
@@ -1227,6 +1325,9 @@ const SECOND_WORLD_WAR_PACIFIC: Tour = {
       markers: [{ label: "Pearl Harbor, 7 December 1941", at: [202.05, 21.36], kind: "battle" }],
       routes: [{ label: "The carrier strike force", kind: "voyage", path: [[146.7, 44.6], [160, 43], [175, 42], [190, 35], [200, 25], [202, 21.6]] }],
       zones: [occupiedChina(CHINA_1941), CANTON, HAINAN, zone("japan", INDOCHINA, { occupied: true }), zone("japan", JAPAN), CHINA, zone("allies", ALLIED_PACIFIC)],
+      fact: "Bombs and the explosion of an ammunition magazine on the battleship USS Arizona killed 1,177 of the 1,512 men aboard, about half of all those killed in the attack. Its wreck still lies beneath a memorial in the harbour.",
+      people: ["franklin-d-roosevelt", "hideki-tojo", "hirohito"],
+      readMore: ["/event/attack-on-pearl-harbor", "/history-of/honolulu", "/place/empire-of-japan", "/place/united-states"],
     },
     {
       title: "Lightning Conquest",
@@ -1246,6 +1347,9 @@ const SECOND_WORLD_WAR_PACIFIC: Tour = {
         { label: "Into Burma", kind: "conquest", path: [[100.5, 13.7], [98.5, 16.5], [96.2, 16.85], [96.1, 21.9]] },
       ],
       zones: PEAK_1942,
+      fact: "After Bataan fell in April 1942, some 72,000 to 78,000 Filipino and American prisoners were forced to march about 100 km to camps. Estimates of the dead range from 5,000 to 18,000 Filipinos and 500 to 650 Americans.",
+      people: ["douglas-macarthur", "hideki-tojo"],
+      readMore: ["/history-of/singapore", "/event/bataan-death-march", "/history-of/manila", "/place/dutch-east-indies", "/history-of/hong-kong"],
     },
     {
       title: "Coral Sea and Midway",
@@ -1263,6 +1367,8 @@ const SECOND_WORLD_WAR_PACIFIC: Tour = {
         { label: "US carriers from Pearl Harbor", kind: "voyage", path: [[202, 21.4], [195, 25], [188, 29], [183, 28.4]] },
       ],
       zones: PEAK_1942,
+      fact: "US codebreakers knew Japan's target was 'AF' but not where that was. So Midway was told to report, uncoded, that its water plant had broken. Within a day a Japanese message said AF was short of water.",
+      readMore: ["/event/battle-of-midway", "/event/battle-of-the-coral-sea", "/place/empire-of-japan", "/place/united-states"],
     },
     {
       title: "Burma and India",
@@ -1282,6 +1388,9 @@ const SECOND_WORLD_WAR_PACIFIC: Tour = {
         { label: "Slim's advance to Rangoon", kind: "conquest", path: [[94.0, 24.9], [95.0, 23.2], [96.1, 22.0], [96.2, 19.7], [96.17, 16.9]] },
       ],
       zones: LATE_1944,
+      fact: "Indians fought on both sides. The Indian National Army, allied to Japan under Subhas Chandra Bose, took the border town of Moirang in Manipur in April 1944 and made it its first headquarters on Indian soil.",
+      people: ["subhas-chandra-bose", "mahatma-gandhi"],
+      readMore: ["/history-of/yangon", "/event/bengal-famine-of-1943", "/country/myanmar", "/place/british-raj", "/event/quit-india-movement"],
     },
     {
       title: "Island Hopping",
@@ -1300,6 +1409,9 @@ const SECOND_WORLD_WAR_PACIFIC: Tour = {
         { label: "Guadalcanal", kind: "conquest", path: [[166.5, -19], [163, -14], [160, -9.6]] },
       ],
       zones: LATE_1944,
+      fact: "Leyte Gulf saw both a first and a last: Japanese aircraft carried out organised kamikaze attacks for the first time, and battleships fought each other for the very last time in history.",
+      people: ["douglas-macarthur"],
+      readMore: ["/event/guadalcanal-campaign", "/history-of/manila", "/country/philippines", "/place/empire-of-japan"],
     },
     {
       title: "Iwo Jima and Okinawa",
@@ -1318,6 +1430,9 @@ const SECOND_WORLD_WAR_PACIFIC: Tour = {
         { label: "Bombers from the Marianas", kind: "raid", path: [[145.7, 15.2], [143, 25], [140.5, 32], [139.7, 35.6]] },
       ],
       zones: MID_1945,
+      fact: "Joe Rosenthal's famous photograph of Marines raising the flag on Mount Suribachi, on 23 February 1945, shows the day's second flag-raising, when a larger flag replaced a smaller one. It won the 1945 Pulitzer Prize.",
+      people: ["hirohito"],
+      readMore: ["/event/battle-of-iwo-jima", "/event/battle-of-okinawa", "/history-of/tokyo", "/place/empire-of-japan"],
     },
     {
       title: "Hiroshima, Nagasaki and Surrender",
@@ -1335,6 +1450,9 @@ const SECOND_WORLD_WAR_PACIFIC: Tour = {
         { label: "From the east", kind: "conquest", path: [[133.0, 44.5], [130.5, 44.6], [127.5, 45.0]] },
       ],
       zones: [MANCHURIA_1945, SAKHALIN_1945, ...MID_1945],
+      fact: "Nagasaki was only the back-up target. On 9 August the bomber first flew to Kokura, but cloud and smoke from a raid on nearby Yahata hid the aiming point. After three failed runs it turned for Nagasaki.",
+      people: ["harry-s-truman", "hirohito", "douglas-macarthur", "joseph-stalin"],
+      readMore: ["/event/hiroshima-and-nagasaki", "/event/manhattan-project", "/event/potsdam-conference", "/event/division-of-korea"],
     },
   ],
 };

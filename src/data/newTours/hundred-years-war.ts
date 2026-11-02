@@ -18,6 +18,9 @@ export const TOUR: Tour = {
         { label: "Paris: Philip's council confiscates Gascony, 1337", at: [2.32, 48.86] },
         { label: "Bordeaux, Gascony", at: [-0.58, 44.84] },
       ],
+      fact: "As far as is known, the 'Salic law' later cited against Edward's claim was never mentioned in 1328. A Saint-Denis monk first invoked it against a rival claimant in 1358, and later jurists took up the argument.",
+      people: ["edward-iii-of-england"],
+      readMore: ["/event/hundred-years-war", "/place/kingdom-of-france", "/place/kingdom-of-england", "/history-of/paris"],
     },
     {
       title: "Sluys: battle in the harbour",
@@ -28,6 +31,9 @@ export const TOUR: Tour = {
       routes: [
         { label: "Edward III's fleet, June 1340", kind: "voyage", path: [[1.3, 51.95], [1.7, 51.8], [2.3, 51.6], [2.9, 51.45], [3.3, 51.37]] },
       ],
+      fact: "Edward III fought at Sluys in person and did not come through unhurt: he was wounded in the thigh, struck by either an arrow or a crossbow bolt.",
+      people: ["edward-iii-of-england"],
+      readMore: ["/event/hundred-years-war", "/place/kingdom-of-england"],
     },
     {
       title: "Crécy",
@@ -41,6 +47,9 @@ export const TOUR: Tour = {
       routes: [
         { label: "Edward III's chevauchée, July–August 1346", kind: "raid", path: [[-1.27, 49.59], [-1.1, 49.3], [-0.37, 49.18], [0.23, 49.15], [1.0, 49.3], [2.04, 48.93], [2.08, 49.43], [1.78, 50.1], [1.89, 50.25]] },
       ],
+      fact: "King John of Bohemia, killed at Crécy, was blind. He had his horse's bridle tied to those of his attendants and rode into the fighting with them; every one of them was killed.",
+      people: ["edward-iii-of-england"],
+      readMore: ["/event/battle-of-crecy", "/place/kingdom-of-france", "/history-of/paris"],
     },
     {
       title: "The siege of Calais",
@@ -55,6 +64,9 @@ export const TOUR: Tour = {
       routes: [
         { label: "The English march on Calais, September 1346", kind: "conquest", path: [[1.89, 50.27], [1.75, 50.45], [1.62, 50.7], [1.75, 50.9], [1.85, 50.95]] },
       ],
+      fact: "According to the chronicler Froissart, the town's leaders surrendered expecting execution until Queen Philippa begged Edward to spare them. In 1884 Calais commissioned Auguste Rodin to sculpt them; The Burghers of Calais was completed in 1889.",
+      people: ["edward-iii-of-england"],
+      readMore: ["/event/hundred-years-war", "/event/battle-of-crecy", "/place/kingdom-of-england"],
     },
     {
       title: "The Black Death",
@@ -70,6 +82,8 @@ export const TOUR: Tour = {
         { label: "Plague from Sicily to Marseille and Paris, 1347–1348", kind: "plague", path: [[15.55, 38.19], [12.5, 40.2], [8.9, 42.3], [5.37, 43.3], [4.8, 43.95], [4.83, 45.76], [3.5, 47.4], [2.35, 48.85]] },
         { label: "Across the Channel to England, 1348", kind: "plague", path: [[-1.0, 49.6], [-1.8, 50.1], [-2.45, 50.62], [-1.3, 51.1], [-0.12, 51.5]] },
       ],
+      fact: "No one at the time called it the Black Death. In English the name is first recorded only in 1755, as a translation of the Danish den sorte død, 'the black death'.",
+      readMore: ["/event/black-death", "/history-of/marseille", "/history-of/strasbourg", "/history-of/paris"],
     },
     {
       title: "Poitiers: a king taken prisoner",
@@ -85,6 +99,9 @@ export const TOUR: Tour = {
         { label: "The Black Prince's raid, 1355", kind: "raid", path: [[-0.58, 44.84], [0.3, 44.2], [1.44, 43.6], [1.95, 43.31], [2.35, 43.21], [3.0, 43.18]] },
         { label: "The Black Prince's march, 1356", kind: "raid", path: [[0.48, 44.85], [0.72, 45.18], [1.26, 45.83], [1.9, 46.6], [2.3, 47.0], [1.5, 47.3], [0.69, 47.39], [0.41, 46.53]] },
       ],
+      fact: "Freed to raise his ransom, John II left his son Louis in Calais as a hostage. When Louis broke his parole and escaped in 1363, John went back to captivity in England of his own accord, dying there in 1364.",
+      people: ["edward-iii-of-england"],
+      readMore: ["/event/battle-of-poitiers-1356", "/place/kingdom-of-france", "/event/hundred-years-war"],
     },
     {
       title: "Agincourt",
@@ -102,6 +119,9 @@ export const TOUR: Tour = {
         { label: "The march towards Calais, October 1415", kind: "conquest", path: [[0.14, 49.5], [0.6, 49.75], [1.1, 49.92], [1.7, 50.0], [2.4, 49.85], [2.95, 49.8], [2.6, 50.2], [2.14, 50.46]] },
         { label: "On to Calais after the battle", kind: "conquest", path: [[2.14, 50.48], [1.98, 50.7], [1.85, 50.94]] },
       ],
+      fact: "The sharpened stakes Henry's archers drove into the ground to break the French cavalry may have been copied from the Ottomans, who used the same device against French knights at Nicopolis in 1396.",
+      people: ["henry-v-of-england"],
+      readMore: ["/event/battle-of-agincourt", "/place/kingdom-of-england", "/place/kingdom-of-france"],
     },
     {
       title: "The Treaty of Troyes",
@@ -116,6 +136,9 @@ export const TOUR: Tour = {
       routes: [
         { label: "Henry V conquers Normandy, 1417–1419", kind: "conquest", path: [[0.1, 49.35], [-0.37, 49.18], [0.1, 49.05], [0.6, 49.2], [1.09, 49.44]] },
       ],
+      fact: "Henry VI became king of England at nine months old. On 16 December 1431, aged ten, he was crowned king of France in Notre-Dame de Paris, the only English monarch ever crowned king of France.",
+      people: ["henry-v-of-england"],
+      readMore: ["/history-of/paris", "/site/notre-dame-de-paris", "/place/kingdom-of-france"],
     },
     {
       title: "Joan of Arc: Orléans and Reims",
@@ -135,6 +158,9 @@ export const TOUR: Tour = {
         { label: "Joan's relief army, April 1429", kind: "conquest", path: [[0.24, 47.17], [0.69, 47.4], [1.33, 47.59], [1.9, 47.89]] },
         { label: "The march to Reims, June–July 1429", kind: "conquest", path: [[2.63, 47.69], [3.57, 47.8], [4.08, 48.3], [4.25, 48.8], [4.03, 49.25]] },
       ],
+      fact: "In 1456 a church court that heard about 115 witnesses overturned Joan's conviction, finding the trial tainted by deceit and procedural errors. Pope Benedict XV declared her a saint in 1920.",
+      people: ["joan-of-arc"],
+      readMore: ["/place/kingdom-of-france", "/event/hundred-years-war", "/country/france"],
     },
     {
       title: "Castillon: the end in Gascony",
@@ -150,6 +176,8 @@ export const TOUR: Tour = {
       routes: [
         { label: "Talbot marches to Castillon, July 1453", kind: "conquest", path: [[-0.58, 44.84], [-0.4, 44.83], [-0.2, 44.86], [-0.03, 44.85]] },
       ],
+      fact: "England never formally dropped the claim. Every English and later British monarch from Edward III to George III styled themselves king or queen of France, until the title was abandoned in 1801.",
+      readMore: ["/event/hundred-years-war", "/event/wars-of-the-roses", "/country/france"],
     },
   ],
 };
