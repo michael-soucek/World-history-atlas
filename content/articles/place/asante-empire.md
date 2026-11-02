@@ -3,9 +3,11 @@ sources:
   - Wikipedia: Ashanti Empire | https://en.wikipedia.org/wiki/Asante_Empire
   - Wikidata: Ashanti Empire (Q722071) | https://www.wikidata.org/wiki/Q722071
   - Borders of Time maps, built on historical-basemaps | https://github.com/aourednik/historical-basemaps
+title: Asante Empire (Ashanti), 1670–1902: Map & Golden Stool
+description: The Asante (Ashanti) Empire ruled the gold forest of today's Ghana until 1902. See it on our map, with the Golden Stool, Kumasi and the British wars.
 written: 2026-10-22
 ---
-The Asante Empire was an Akan state in the forest of what is now Ghana, which dominated the region from around 1700 until British conquest at the end of the nineteenth century. It was rich in gold, highly organised and militarily formidable, and fought several wars against Britain. The Asante kingdom survives today within Ghana.
+The Asante Empire, also spelled Ashanti, was an Akan state in the forest of what is now Ghana, which dominated the region from around 1700 until British conquest at the end of the nineteenth century. It was rich in gold, highly organised and militarily formidable, and fought several wars against Britain. The Asante kingdom survives today within Ghana.
 
 ## The Akan forest
 

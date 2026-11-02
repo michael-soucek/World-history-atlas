@@ -223,7 +223,13 @@ export async function entityMetadata(
     metaDescription(content.summary) ??
     `${content.name} on the interactive history map: when and where it happened, with key facts and pictures.`;
   const description = padDescription(raw, ...DESCRIPTION_TAIL[kind]);
+  // Hand-written search snippet from the article's frontmatter ("title:" and
+  // "description:"), for pages where the generated one isn't getting clicks.
+  const custom = getOurArticle(kind, slug)?.meta;
   return {
-    ...buildPageMetadata({ title, description, path: `/${kind}/${slug}`, type: "article", imageUrl: content.imageUrl ?? (await leadImage(qid)) }),
+    ...buildPageMetadata({
+      title: custom?.title ? brandTitle(custom.title) : title,
+      description: custom?.description ?? description,
+      path: `/${kind}/${slug}`, type: "article", imageUrl: content.imageUrl ?? (await leadImage(qid)) }),
   };
 }

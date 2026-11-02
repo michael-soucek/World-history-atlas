@@ -3,9 +3,11 @@ sources:
   - Wikipedia: Pala Empire | https://en.wikipedia.org/wiki/Pala_Empire
   - Wikidata: Pala Empire (Q668412) | https://www.wikidata.org/wiki/Q668412
   - Borders of Time maps, built on historical-basemaps | https://github.com/aourednik/historical-basemaps
+title: Pala Empire Map (750–1174): Dynasty, Kings & Nalanda
+description: The Pala dynasty ruled Bengal and Bihar from 750 to 1174. See its borders on our map, how Gopala was elected king, the wars for Kannauj, and Nalanda.
 written: 2026-10-22
 ---
-For about four hundred years, from the middle of the eighth century to the twelfth, eastern India was ruled by a dynasty whose name means "protector". The Pala kings governed from Bengal and Bihar, along the lower Ganges, and at their height in the early ninth century they were the strongest power in northern India.
+For about four hundred years, from the middle of the eighth century to the twelfth, eastern India was ruled by the Pala dynasty, whose name means "protector". The Pala kings governed from Bengal and Bihar, along the lower Ganges, and at their height in the early ninth century they were the strongest power in northern India.
 
 ## An elected king
 
