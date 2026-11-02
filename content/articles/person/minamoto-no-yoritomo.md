@@ -11,7 +11,7 @@ sources:
   - Wikipedia: Minamoto no Yoshitsune | https://en.wikipedia.org/wiki/Minamoto_no_Yoshitsune
 written: 2026-10-30
 ---
-Minamoto no Yoritomo led his warrior clan to victory over the rival Taira in the civil war of 1180 to 1185 and then founded the [Kamakura shogunate](/place/kamakura-shogunate), the first military government in [Japan](/country/japan). Ruling from his base at Kamakura in the east while the emperor's court in Kyoto kept its ceremonial role, he opened a long era in which warrior governments held real power in Japan.
+Minamoto no Yoritomo led his warrior clan to victory over the rival Taira in the civil war of 1180 to 1185 and then founded the [Kamakura shogunate](/place/kamakura-shogunate), the first military government in [Japan](/country/japan). Ruling from his base at [Kamakura](/history-of/kamakura) in the east while the emperor's court in Kyoto kept its ceremonial role, he opened a long era in which warrior governments held real power in Japan.
 
 ## A Minamoto heir in exile
 

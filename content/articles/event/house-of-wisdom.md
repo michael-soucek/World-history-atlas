@@ -12,7 +12,7 @@ The exact nature of the House of Wisdom is debated. It probably began as a palac
 
 ## The translation movement
 
-From the late eighth to the tenth century, a huge translation movement in Baghdad turned many works of Greek philosophy, science and medicine, including Aristotle, Plato, Euclid, Ptolemy, Galen and Hippocrates, into Arabic, often through Syriac. Persian and Indian works on astronomy, mathematics and literature were also translated. The availability of paper, made in Baghdad from the late eighth century, helped spread books. Al-Ma'mun reportedly sent envoys to the Byzantine Empire to obtain Greek manuscripts.
+From the late eighth to the tenth century, a huge translation movement in Baghdad turned many works of Greek philosophy, science and medicine, including Aristotle, Plato, Euclid, Ptolemy, [Galen](/person/galen) and Hippocrates, into Arabic, often through Syriac. Persian and Indian works on astronomy, mathematics and literature were also translated. The availability of paper, made in Baghdad from the late eighth century, helped spread books. Al-Ma'mun reportedly sent envoys to the Byzantine Empire to obtain Greek manuscripts.
 
 ## Hunayn ibn Ishaq
 

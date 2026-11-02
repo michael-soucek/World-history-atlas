@@ -13,7 +13,11 @@ import { SpanRow, formatYear, mapHref } from "@/components/RulerTimeline";
 import { sitesNear } from "@/lib/siteHistory";
 import { CITY_LIST, distinctRulers, getCity, nearbyCities, rulersOf, type City, type RulerSpan } from "@/lib/cityHistory";
 import { buildPageMetadata, metaDescription, fitTitle } from "@/lib/seo";
-import { JsonLd, SITE_URL, breadcrumbLd } from "@/lib/jsonLd";
+import { JsonLd, SITE_URL, articleLd, breadcrumbLd } from "@/lib/jsonLd";
+import { articleIntro, articleWordCount, getOurArticle } from "@/lib/ourArticles";
+import ArticleImage from "@/components/ArticleImage";
+import { heroFirst, toArticleImage } from "@/components/ArticleBody";
+import { getEntityImages } from "@/lib/entityImages";
 import { connectedTo, fmtSpan, type TimedEntry } from "@/lib/entityContext";
 import { TOURS } from "@/data/tours";
 import { withArticle } from "@/lib/placeMaps";
@@ -35,6 +39,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: fitTitle(`Who Ruled ${city.name}? History of ${city.name} on the Map`, `History of ${city.name}: Who Ruled It, on the Map`, `History of ${city.name}: Who Ruled It`),
     description: cityDescription(city, spans),
     path: `/history-of/${slug}`,
+    type: "article",
+    imageUrl: heroFirst(await getEntityImages(`city:${slug}`))[0]?.thumb,
   });
 }
 
@@ -75,6 +81,8 @@ export default async function CityHistoryPage({ params }: Props) {
   const tours = toursThrough(names);
   const countryLink = countryHref(city.country, publishedCountries());
   const countryName = getCountry(countrySlugFor(city.country) ?? "")?.name ?? city.country;
+  const article = getOurArticle("city", city.slug);
+  const [hero, ...images] = heroFirst(await getEntityImages(`city:${city.slug}`)).map(toArticleImage);
 
   return (
     <>
@@ -89,7 +97,20 @@ export default async function CityHistoryPage({ params }: Props) {
               containedInPlace: { "@type": "Country", name: city.country },
               geo: { "@type": "GeoCoordinates", latitude: city.lat, longitude: city.lng },
               url: `${SITE_URL}/history-of/${city.slug}`,
+              ...(hero ? { image: hero.thumb } : {}),
             },
+            ...(article
+              ? [articleLd({
+                  headline: `Who ruled ${city.name}?`,
+                  path: `/history-of/${city.slug}`,
+                  description: articleIntro(article),
+                  image: hero?.thumb,
+                  written: article.written,
+                  wordCount: articleWordCount(article),
+                  citations: article.sources.map((s) => s.href),
+                  about: { "@type": "City", name: city.name, url: `${SITE_URL}/history-of/${city.slug}` },
+                })]
+              : []),
             breadcrumbLd([["Who ruled it?", "/history-of"], [city.name, `/history-of/${city.slug}`]]),
           ]}
         />
@@ -122,8 +143,14 @@ export default async function CityHistoryPage({ params }: Props) {
           }
         />
 
+        {hero && (
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <ArticleImage img={hero} alt={hero.caption || city.name} variant="hero" priority />
+          </div>
+        )}
+
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14 sm:py-20">
-          <PageHistory kind="city" slug={city.slug} name={city.name} heading={`The history of ${city.name}`} />
+          <PageHistory kind="city" slug={city.slug} name={city.name} heading={`The history of ${city.name}`} images={images} />
           <section>
             <SectionRule count={`${spans.length} periods`}>Timeline</SectionRule>
             <ol className="max-w-3xl">

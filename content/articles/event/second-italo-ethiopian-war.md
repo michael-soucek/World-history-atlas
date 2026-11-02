@@ -12,7 +12,7 @@ Italy had already tried to conquer Ethiopia once, and its army had been routed a
 
 ## The invasion
 
-On 3 October 1935, without a declaration of war, a large Italian army under Marshal Emilio De Bono advanced from Eritrea, while a smaller force under General Rodolfo Graziani attacked from Somaliland. Adwa fell on 6 October and Aksum on 15 October. Impatient with the slow pace, Mussolini replaced De Bono with Pietro Badoglio in November. Emperor [Haile Selassie](/person/haile-selassie) had mobilised a large but poorly equipped army; estimates range from 350,000 to 760,000 men, with only a handful of aircraft and tanks against Italy's hundreds.
+On 3 October 1935, without a declaration of war, a large Italian army under Marshal Emilio De Bono advanced from Eritrea, while a smaller force under General Rodolfo Graziani attacked from Somaliland. Adwa fell on 6 October and [Aksum](/history-of/aksum) on 15 October. Impatient with the slow pace, Mussolini replaced De Bono with Pietro Badoglio in November. Emperor [Haile Selassie](/person/haile-selassie) had mobilised a large but poorly equipped army; estimates range from 350,000 to 760,000 men, with only a handful of aircraft and tanks against Italy's hundreds.
 
 ## Gas and the collapse of resistance
 

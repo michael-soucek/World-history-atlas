@@ -13,7 +13,7 @@ The kingdom of Kerma, centred on the town of Kerma, near the third cataract, was
 
 ## Egyptian rule
 
-The New Kingdom pharaohs, starting with Ahmose and Thutmose I, conquered Kerma around 1500 BCE and ruled Nubia for about five centuries through a viceroy, the "King's Son of Kush". They built temples, such as Abu Simbel and Soleb, and towns, and Nubian gold made Egypt rich. Many Nubians adopted Egyptian religion, especially the worship of Amun, whose temple at Jebel Barkal became a sacred site.
+The New Kingdom pharaohs, starting with Ahmose and Thutmose I, conquered Kerma around 1500 BCE and ruled Nubia for about five centuries through a viceroy, the "King's Son of Kush". They built temples, such as [Abu Simbel](/site/abu-simbel) and Soleb, and towns, and Nubian gold made Egypt rich. Many Nubians adopted Egyptian religion, especially the worship of Amun, whose temple at Jebel Barkal became a sacred site.
 
 ## Napata
 

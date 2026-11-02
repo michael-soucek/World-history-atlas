@@ -21,7 +21,7 @@ At about twelve Ismail came out of hiding. A circle of seven advisers guided the
 
 ## A Shia state
 
-On taking power Ismail made Twelver Shia Islam the official and compulsory religion of a mainly Sunni population. Sunni brotherhoods were dissolved and those who refused to conform could be executed. In Baghdad the tombs of the Abbasid caliphs and of revered Sunni figures were destroyed on his orders. The [conversion of Iran](/event/safavid-conversion-of-iran) took generations to complete, but it set Iran apart from its Sunni neighbours. In 1510 he defeated the Uzbeks at Merv, where their ruler Muhammad Shaybani was killed.
+On taking power Ismail made Twelver Shia Islam the official and compulsory religion of a mainly Sunni population. Sunni brotherhoods were dissolved and those who refused to conform could be executed. In Baghdad the tombs of the Abbasid caliphs and of revered Sunni figures were destroyed on his orders. The [conversion of Iran](/event/safavid-conversion-of-iran) took generations to complete, but it set Iran apart from its Sunni neighbours. In 1510 he defeated the Uzbeks at [Merv](/history-of/merv), where their ruler Muhammad Shaybani was killed.
 
 ## Chaldiran
 
@@ -33,7 +33,7 @@ The defeat ended both Ismail's conquests and his aura of invincibility. He never
 
 ## Patron and poet
 
-Ismail brought together the painters of Tabriz and Herat, among them Behzad and Sultan Mohammed, creating the Safavid court style, and began the lavish illustrated Shahnameh later finished for Tahmasp. Under the pen name Khatai he wrote poetry, mostly in a Turkic dialect that is seen as an early form of Azerbaijani, as well as some in Persian. His grandson [Abbas the Great](/person/abbas-the-great) later took the dynasty to its height.
+Ismail brought together the painters of Tabriz and [Herat](/history-of/herat), among them Behzad and Sultan Mohammed, creating the Safavid court style, and began the lavish illustrated Shahnameh later finished for Tahmasp. Under the pen name Khatai he wrote poetry, mostly in a Turkic dialect that is seen as an early form of Azerbaijani, as well as some in Persian. His grandson [Abbas the Great](/person/abbas-the-great) later took the dynasty to its height.
 
 ## On our maps
 

@@ -22,7 +22,7 @@ After Charles died in 877 his successors reigned only briefly. In 888 the nobles
 
 ## The last Carolingians
 
-Louis IV, king from 936, struggled against powerful nobles such as Herbert II of Vermandois and Hugh the Great, whom he had made "duke of the Franks", and lost Lotharingia to Otto I in 942. His son Lothair, who came to the throne at thirteen, attacked Aachen in 978; Otto II struck back at Paris but was driven off, and peace followed in 980. By then the royal lands were so small that they were no longer divided among sons.
+Louis IV, king from 936, struggled against powerful nobles such as Herbert II of Vermandois and Hugh the Great, whom he had made "duke of the Franks", and lost Lotharingia to Otto I in 942. His son Lothair, who came to the throne at thirteen, attacked [Aachen](/history-of/aachen) in 978; Otto II struck back at Paris but was driven off, and peace followed in 980. By then the royal lands were so small that they were no longer divided among sons.
 
 ## End and legacy
 

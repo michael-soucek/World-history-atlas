@@ -21,7 +21,7 @@ Franz Joseph reigned from 1848 to 1916, 68 years. He was a conscientious, conser
 
 ## Culture and science
 
-Vienna and Budapest flourished around 1900. In Vienna, Sigmund Freud developed psychoanalysis, Gustav Klimt and the Secession artists created new styles, Gustav Mahler composed symphonies, and the architect Otto Wagner designed modern buildings. Budapest built the Hungarian Parliament and the first underground railway in continental Europe, opened in 1896. Prague was home to Franz Kafka. The monarchy's universities produced scientists such as the physicist Ludwig Boltzmann and the Czech-born geneticist Gregor Mendel.
+Vienna and Budapest flourished around 1900. In Vienna, Sigmund Freud developed psychoanalysis, Gustav Klimt and the Secession artists created new styles, Gustav Mahler composed symphonies, and the architect Otto Wagner designed modern buildings. Budapest built the Hungarian Parliament and the first underground railway in continental Europe, opened in 1896. Prague was home to Franz Kafka. The monarchy's universities produced scientists such as the physicist Ludwig Boltzmann and the Czech-born geneticist [Gregor Mendel](/person/gregor-mendel).
 
 ## The economy
 

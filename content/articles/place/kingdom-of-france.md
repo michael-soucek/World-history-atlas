@@ -5,7 +5,7 @@ sources:
   - Borders of Time maps, built on historical-basemaps | https://github.com/aourednik/historical-basemaps
 written: 2026-10-22
 ---
-The Kingdom of France grew out of West Francia, the western part of Charlemagne's empire. Its usual starting date is 987, when the nobles elected Hugh Capet as king. His family, the Capetians, and their branches, the Valois and the Bourbons, ruled France for the next eight hundred years.
+The Kingdom of France grew out of [West Francia](/place/west-francia), the western part of Charlemagne's empire. Its usual starting date is 987, when the nobles elected Hugh Capet as king. His family, the Capetians, and their branches, the Valois and the Bourbons, ruled France for the next eight hundred years.
 
 ## The Capetians
 

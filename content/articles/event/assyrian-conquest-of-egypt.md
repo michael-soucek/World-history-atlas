@@ -12,7 +12,7 @@ At the start of the 7th century BC Egypt was ruled by the Twenty-fifth Dynasty, 
 
 ## Esarhaddon's first attempts
 
-Sennacherib's son Esarhaddon, who came to the throne in 681 BC, set out to remove the Egyptian threat at its source. An early expedition took him as far as the Brook of Egypt. An invasion in the mid-670s went badly: Babylonian records describe an outright Egyptian victory, and the exhausted Assyrian army, having marched too fast, was apparently beaten near Ashkelon. Esarhaddon withdrew to Nineveh.
+Sennacherib's son Esarhaddon, who came to the throne in 681 BC, set out to remove the Egyptian threat at its source. An early expedition took him as far as the Brook of Egypt. An invasion in the mid-670s went badly: Babylonian records describe an outright Egyptian victory, and the exhausted Assyrian army, having marched too fast, was apparently beaten near Ashkelon. Esarhaddon withdrew to [Nineveh](/history-of/nineveh).
 
 ## The fall of Memphis
 

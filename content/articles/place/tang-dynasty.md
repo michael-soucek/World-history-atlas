@@ -21,7 +21,7 @@ Chang'an, the capital, was a planned city of about a million people, laid out on
 
 ## Wu Zetian and Xuanzong
 
-Empress Wu Zetian ruled from the 660s and declared her own Zhou dynasty in 690, promoting Buddhism and expanding the examinations. After the Tang restoration, the Xuanzong emperor's long reign, from 712 to 756, was a high point of culture and prosperity. He founded the Pear Garden academy for music and theatre, and his court was home to the poets Li Bai and Wang Wei and the painter Wu Daozi. In his later years, his infatuation with his consort Yang Guifei and reliance on ministers and frontier generals led to disaster.
+Empress Wu Zetian ruled from the 660s and declared her own Zhou dynasty in 690, promoting Buddhism and expanding the examinations. After the Tang restoration, the Xuanzong emperor's long reign, from 712 to 756, was a high point of culture and prosperity. He founded the Pear Garden academy for music and theatre, and his court was home to the poets [Li Bai](/person/li-bai) and Wang Wei and the painter Wu Daozi. In his later years, his infatuation with his consort Yang Guifei and reliance on ministers and frontier generals led to disaster.
 
 ## Buddhism and its persecution
 
@@ -29,7 +29,7 @@ Buddhism flourished under the Tang. The monk Xuanzang travelled to India from 62
 
 ## Poetry and printing
 
-The Tang is the golden age of Chinese poetry. The Complete Tang Poems, compiled later, contains about 48,000 poems by over 2,000 poets. Li Bai wrote of wine, moonlight and friendship; Du Fu wrote of war and suffering; Bai Juyi wrote in simple language that ordinary people could understand. Woodblock printing developed, and the oldest dated printed book, the Diamond Sutra of 868, was found in the caves of Dunhuang.
+The Tang is the golden age of Chinese poetry. The Complete Tang Poems, compiled later, contains about 48,000 poems by over 2,000 poets. Li Bai wrote of wine, moonlight and friendship; [Du Fu](/person/du-fu) wrote of war and suffering; Bai Juyi wrote in simple language that ordinary people could understand. Woodblock printing developed, and the oldest dated printed book, the Diamond Sutra of 868, was found in the caves of Dunhuang.
 
 ## The An Lushan rebellion
 
@@ -45,7 +45,7 @@ A great peasant revolt led by Huang Chao in the 870s and 880s shattered what was
 
 ## Influence
 
-Tang China was a model for its neighbours. Japan sent embassies to study Tang institutions, and built its capitals at Nara and Kyoto on the plan of Chang'an. Korea's Silla and Vietnam also borrowed Tang government, writing and Buddhism. Chinese communities abroad still sometimes call themselves "people of Tang".
+Tang China was a model for its neighbours. Japan sent embassies to study Tang institutions, and built its capitals at [Nara](/history-of/nara) and Kyoto on the plan of Chang'an. Korea's Silla and Vietnam also borrowed Tang government, writing and Buddhism. Chinese communities abroad still sometimes call themselves "people of Tang".
 
 ## On our maps
 

@@ -13,7 +13,7 @@ Herod ruled Judea as a king dependent on Rome for more than three decades in the
 
 ## Origins
 
-Herod was born around 72 BCE in Idumea, the region south of Judea. His father, Antipater, was a powerful official serving the Hasmonean ruler Hyrcanus II; his mother, Cypros, came from a noble Nabataean family of Petra. The Idumeans had been made to adopt Judaism by the Hasmoneans in the late second century BCE, and Herod was raised as a Jew, but his origins led some of his subjects to question his Jewishness throughout his life.
+Herod was born around 72 BCE in Idumea, the region south of Judea. His father, Antipater, was a powerful official serving the Hasmonean ruler Hyrcanus II; his mother, Cypros, came from a noble Nabataean family of [Petra](/site/petra). The Idumeans had been made to adopt Judaism by the Hasmoneans in the late second century BCE, and Herod was raised as a Jew, but his origins led some of his subjects to question his Jewishness throughout his life.
 
 ## Rise under Roman patrons
 
@@ -25,7 +25,7 @@ The Hasmonean family remained a threat. In 35 BCE Herod had Mariamne's teenage b
 
 ## The builder
 
-Herod's projects were among the most ambitious of the age. From around 20 BCE he rebuilt the Second Temple in Jerusalem and doubled the platform on which it stood; its retaining walls, including the Western Wall, still survive. He built the port city of Caesarea Maritima with an artificial harbour, rebuilt Samaria as Sebaste in honour of Augustus, and raised fortress-palaces such as Masada and Herodium. He also built temples to pagan gods for the non-Jewish population, and his placing of a golden eagle over the Temple gate offended many Jews.
+Herod's projects were among the most ambitious of the age. From around 20 BCE he rebuilt the Second Temple in Jerusalem and doubled the platform on which it stood; its retaining walls, including the Western Wall, still survive. He built the port city of Caesarea Maritima with an artificial harbour, rebuilt Samaria as Sebaste in honour of Augustus, and raised fortress-palaces such as [Masada](/site/masada) and Herodium. He also built temples to pagan gods for the non-Jewish population, and his placing of a golden eagle over the Temple gate offended many Jews.
 
 ## A family destroyed
 
@@ -33,7 +33,7 @@ Herod's later years were dominated by plots, real or imagined. He had Mariamne e
 
 ## Death and division
 
-Herod died at Jericho after a long and painful illness. Most scholars follow a nineteenth-century chronology that dates his death to 4 BCE, while some recent studies argue for 1 BCE. Augustus divided the kingdom among his sons Archelaus, Antipas and Philip, and in 6 CE Judea came under direct Roman rule. Josephus says he was buried at Herodium, where archaeologists announced the discovery of his tomb in 2007, an identification some still dispute.
+Herod died at [Jericho](/history-of/jericho) after a long and painful illness. Most scholars follow a nineteenth-century chronology that dates his death to 4 BCE, while some recent studies argue for 1 BCE. Augustus divided the kingdom among his sons Archelaus, Antipas and Philip, and in 6 CE Judea came under direct Roman rule. Josephus says he was buried at Herodium, where archaeologists announced the discovery of his tomb in 2007, an identification some still dispute.
 
 ## On our maps
 

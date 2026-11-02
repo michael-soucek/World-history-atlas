@@ -4,7 +4,7 @@ sources:
   - Wikidata: Discovery of penicillin (Q3042914) | https://www.wikidata.org/wiki/Q3042914
 written: 2026-10-31
 ---
-In September 1928, at St Mary's Hospital in London, the Scottish physician Alexander Fleming noticed that a mould growing on one of his bacterial culture plates had stopped the bacteria around it from growing. Turning that observation into a usable drug took more than a decade: a team at Oxford led by Howard Florey, with Ernst Chain, purified the substance and proved it could cure infections, and American scientists and companies worked out how to make it in bulk during the [Second World War](/event/world-war-ii). Fleming, Florey and Chain shared the 1945 Nobel Prize in Physiology or Medicine.
+In September 1928, at St Mary's Hospital in London, the Scottish physician [Alexander Fleming](/person/alexander-fleming) noticed that a mould growing on one of his bacterial culture plates had stopped the bacteria around it from growing. Turning that observation into a usable drug took more than a decade: a team at Oxford led by Howard Florey, with Ernst Chain, purified the substance and proved it could cure infections, and American scientists and companies worked out how to make it in bulk during the [Second World War](/event/world-war-ii). Fleming, Florey and Chain shared the 1945 Nobel Prize in Physiology or Medicine.
 
 ## Fleming's contaminated plate
 

@@ -6,7 +6,7 @@ sources:
   - Wikipedia: Polynesian navigation | https://en.wikipedia.org/wiki/Polynesian_navigation
   - Wikipedia: Columbian exchange | https://en.wikipedia.org/wiki/Columbian_exchange
 ---
-Long-distance voyaging did not begin with Europe. The Austronesian and Polynesian settlers of the Pacific crossed far wider stretches of open ocean than any fifteenth-century caravel, and the sweet potato, an American plant, was being grown in Polynesia before Europeans arrived, which suggests that [Polynesian navigation](/culture/polynesian-navigation) reached South America and returned. Around 1000, Norse sailors from Greenland built a short-lived settlement at L'Anse aux Meadows in Newfoundland. What changed after 1400 was that voyages became sustained, state-backed and linked to permanent trade and conquest.
+Long-distance voyaging did not begin with Europe. The Austronesian and Polynesian settlers of the Pacific crossed far wider stretches of open ocean than any fifteenth-century caravel, and the sweet potato, an American plant, was being grown in Polynesia before Europeans arrived, which suggests that [Polynesian navigation](/culture/polynesian-navigation) reached South America and returned. Around 1000, Norse sailors from Greenland built a short-lived settlement at [L'Anse aux Meadows](/site/lanse-aux-meadows) in Newfoundland. What changed after 1400 was that voyages became sustained, state-backed and linked to permanent trade and conquest.
 
 ## From coastal probing to ocean crossing
 

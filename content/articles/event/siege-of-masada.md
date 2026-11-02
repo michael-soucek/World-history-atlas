@@ -4,7 +4,7 @@ sources:
   - Wikidata: Siege of Masada (Q3555020) | https://www.wikidata.org/wiki/Q3555020
 written: 2026-10-30
 ---
-Masada, an isolated, flat-topped desert mountain in what is now [Israel](/country/israel), was the last stronghold of the Jewish revolt against Rome. In 72 to 73 AD, by the traditional dating (some scholars prefer 73 to 74), a Roman army under the governor Lucius Flavius Silva surrounded it, built an enormous ramp up its western side and broke in. According to the historian Josephus, nearly all the defenders, members of the Sicarii faction, and their families had killed themselves before the Romans entered. That account has been debated by modern scholars, while the story itself became a powerful symbol in modern Israel.
+[Masada](/site/masada), an isolated, flat-topped desert mountain in what is now [Israel](/country/israel), was the last stronghold of the Jewish revolt against Rome. In 72 to 73 AD, by the traditional dating (some scholars prefer 73 to 74), a Roman army under the governor Lucius Flavius Silva surrounded it, built an enormous ramp up its western side and broke in. According to the historian Josephus, nearly all the defenders, members of the Sicarii faction, and their families had killed themselves before the Romans entered. That account has been debated by modern scholars, while the story itself became a powerful symbol in modern Israel.
 
 ## A desert fortress
 

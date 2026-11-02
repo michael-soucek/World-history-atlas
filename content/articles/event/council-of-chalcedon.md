@@ -8,7 +8,7 @@ The Council of Chalcedon, held from 8 October to 1 November 451 at Chalcedon, ac
 
 ## The question of Christ's nature
 
-The [First Council of Nicaea](/event/first-council-of-nicaea) in 325 had declared Christ fully God, of one substance with the Father, and later councils at Constantinople in 381 and Ephesus in 431 confirmed this. The next dispute concerned how divinity and humanity were joined in him. Around 446 Eutyches, an elderly monk in Constantinople, began teaching that after the incarnation Christ's two natures had merged into one. Many understood this as a denial of Christ's full humanity.
+The [First Council of Nicaea](/event/first-council-of-nicaea) in 325 had declared Christ fully God, of one substance with the Father, and later councils at Constantinople in 381 and [Ephesus](/history-of/ephesus) in 431 confirmed this. The next dispute concerned how divinity and humanity were joined in him. Around 446 Eutyches, an elderly monk in Constantinople, began teaching that after the incarnation Christ's two natures had merged into one. Many understood this as a denial of Christ's full humanity.
 
 In November 448 a synod under Flavian, Bishop of Constantinople, condemned Eutyches. Flavian reported to Pope Leo I, who replied with a doctrinal letter, later known as the Tome of Leo, affirming that Christ had two natures. Eutyches appealed, and Dioscorus, Patriarch of Alexandria, took up his cause.
 

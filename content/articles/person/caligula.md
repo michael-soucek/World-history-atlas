@@ -33,7 +33,7 @@ Caligula spent heavily on games and building. He began two great aqueducts, the 
 
 ## Empire and religion
 
-In 40 CE Caligula annexed the client kingdom of Mauretania in north-west Africa and gathered an army for an invasion of Britain that never sailed. Clashes between Greeks and Jews in Alexandria worsened, and his order to set up his statue in the Temple at Jerusalem was delayed by the governor of Syria and eventually dropped. Ancient sources say he demanded worship as a living god; some modern historians read his behaviour as theatrical provocation rather than delusion.
+In 40 CE Caligula annexed the client kingdom of [Mauretania](/place/mauretania) in north-west Africa and gathered an army for an invasion of Britain that never sailed. Clashes between Greeks and Jews in Alexandria worsened, and his order to set up his statue in the Temple at Jerusalem was delayed by the governor of Syria and eventually dropped. Ancient sources say he demanded worship as a living god; some modern historians read his behaviour as theatrical provocation rather than delusion.
 
 ## Assassination
 

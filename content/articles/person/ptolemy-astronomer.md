@@ -29,7 +29,7 @@ The Geography was a handbook for drawing maps from coordinates. Drawing heavily 
 
 ## Astrology, music and optics
 
-Ptolemy treated astrology as the companion to astronomy. His Tetrabiblos tried to explain celestial influences in terms of the natural philosophy of the day and became a standard reference for astrologers; a collection of aphorisms long credited to him, the Centiloquium, is now thought to be a much later work. His Harmonics used experiments with a single-stringed instrument to test musical ratios, and later inspired [Johannes Kepler](/person/johannes-kepler). His Optics, surviving only in Latin, discussed vision, reflection and refraction and influenced the 11th-century optics of Ibn al-Haytham.
+Ptolemy treated astrology as the companion to astronomy. His Tetrabiblos tried to explain celestial influences in terms of the natural philosophy of the day and became a standard reference for astrologers; a collection of aphorisms long credited to him, the Centiloquium, is now thought to be a much later work. His Harmonics used experiments with a single-stringed instrument to test musical ratios, and later inspired [Johannes Kepler](/person/johannes-kepler). His Optics, surviving only in Latin, discussed vision, reflection and refraction and influenced the 11th-century optics of [Ibn al-Haytham](/person/ibn-al-haytham).
 
 ## On our maps
 

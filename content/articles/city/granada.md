@@ -6,7 +6,7 @@ sources:
   - Wikipedia: Granada | https://en.wikipedia.org/wiki/Granada
   - Wikipedia: Emirate of Granada | https://en.wikipedia.org/wiki/Emirate_of_Granada
 ---
-Granada lies in southern Spain at the foot of the Sierra Nevada, where the River Darro joins the Genil on the edge of a fertile plain, the Vega. Its hills offered defence and its mountain streams fed irrigation, but what defines its history is a single long chapter: for two and a half centuries it was the capital of the last Muslim state in western Europe, the Nasrid emirate, whose palace-fortress, the Alhambra, still stands above the city.
+Granada lies in southern Spain at the foot of the Sierra Nevada, where the River Darro joins the Genil on the edge of a fertile plain, the Vega. Its hills offered defence and its mountain streams fed irrigation, but what defines its history is a single long chapter: for two and a half centuries it was the capital of the last Muslim state in western Europe, the Nasrid emirate, whose palace-fortress, the [Alhambra](/site/alhambra), still stands above the city.
 
 ## Iliberri and the first Islamic city
 

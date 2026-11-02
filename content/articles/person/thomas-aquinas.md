@@ -14,7 +14,7 @@ Thomas Aquinas was an Italian Dominican friar, philosopher and theologian of the
 
 ## Family and education
 
-Thomas was born around 1225 at the castle of Roccasecca, between [Rome](/history-of/rome) and [Naples](/history-of/naples), in the Kingdom of Sicily. His father, Landulf, belonged to the noble Aquino family and served the emperor Frederick II. As a younger son Thomas was meant for a career in the church, and at about five he was placed as an oblate at the great Benedictine abbey of Monte Cassino, where his family hoped he would one day become abbot.
+Thomas was born around 1225 at the castle of Roccasecca, between [Rome](/history-of/rome) and [Naples](/history-of/naples), in the [Kingdom of Sicily](/place/kingdom-of-sicily). His father, Landulf, belonged to the noble Aquino family and served the emperor Frederick II. As a younger son Thomas was meant for a career in the church, and at about five he was placed as an oblate at the great Benedictine abbey of Monte Cassino, where his family hoped he would one day become abbot.
 
 When fighting between the emperor and the pope disrupted the abbey, he was sent around 1239 to the university of Naples. There he met the works of [Aristotle](/person/aristotle), then still regarded with suspicion in Paris, and the Dominicans, a new order of preaching friars who lived by begging. In 1244 he joined them. His family was horrified; his brothers seized him on the road and held him at home for about a year. He refused to give in, and was eventually allowed to rejoin the order.
 

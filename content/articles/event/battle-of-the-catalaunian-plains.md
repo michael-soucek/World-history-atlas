@@ -12,7 +12,7 @@ By 450 Roman authority in Gaul rested heavily on Germanic and other peoples sett
 
 ## The march into Gaul
 
-Attila crossed the Rhine early in 451 with a large and mixed army. Saints' lives credit various bishops with saving their towns, but archaeology has found little sign of widespread destruction, and the main column probably followed the Roman roads through cities such as Worms, Mainz, Trier, Metz and Reims. By June Attila was besieging Aurelianum, modern Orléans, defended by the Alans. His final assault began on 14 June but was abandoned when Aetius's relief army approached. Many modern historians see this successful defence as the decisive moment of the whole campaign.
+Attila crossed the Rhine early in 451 with a large and mixed army. Saints' lives credit various bishops with saving their towns, but archaeology has found little sign of widespread destruction, and the main column probably followed the Roman roads through cities such as Worms, Mainz, [Trier](/history-of/trier), Metz and Reims. By June Attila was besieging Aurelianum, modern Orléans, defended by the Alans. His final assault began on 14 June but was abandoned when Aetius's relief army approached. Many modern historians see this successful defence as the decisive moment of the whole campaign.
 
 ## The armies
 

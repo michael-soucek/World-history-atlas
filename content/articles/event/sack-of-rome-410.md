@@ -4,7 +4,7 @@ sources:
   - Wikidata: Sack of Rome (410) (Q1463845) | https://www.wikidata.org/wiki/Q1463845
 written: 2026-10-30
 ---
-In August 410 a Visigothic army led by its king, Alaric, broke into Rome and plundered the city for three days. Rome was no longer the seat of government of the [Western Roman Empire](/place/western-roman-empire), whose emperor lived at Ravenna, but it was the most famous city in the world, and no foreign enemy had captured it for roughly eight centuries. The shock was felt across the Roman world, and the sack is remembered as a landmark in the empire's decline in the west.
+In August 410 a Visigothic army led by its king, Alaric, broke into Rome and plundered the city for three days. Rome was no longer the seat of government of the [Western Roman Empire](/place/western-roman-empire), whose emperor lived at [Ravenna](/history-of/ravenna), but it was the most famous city in the world, and no foreign enemy had captured it for roughly eight centuries. The shock was felt across the Roman world, and the sack is remembered as a landmark in the empire's decline in the west.
 
 ## The Goths inside the empire
 

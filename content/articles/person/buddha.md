@@ -29,7 +29,7 @@ He accepted food, regained his strength and sat in meditation under a fig tree, 
 
 ## The teaching
 
-The Buddha gave his first sermon at the Deer Park in Sarnath, near Varanasi, to five former companions. He taught the Four Noble Truths: life involves suffering, dukkha; suffering arises from craving; suffering can end; and the way to end it is the Noble Eightfold Path, of right view, intention, speech, action, livelihood, effort, mindfulness and concentration. He described this as a Middle Way between indulgence and harsh self-denial. He also taught that all things are impermanent, that there is no permanent self, and that actions, karma, shape rebirth. The end of craving leads to nirvana, liberation from the cycle of rebirth.
+The Buddha gave his first sermon at the Deer Park in Sarnath, near [Varanasi](/history-of/varanasi), to five former companions. He taught the Four Noble Truths: life involves suffering, dukkha; suffering arises from craving; suffering can end; and the way to end it is the Noble Eightfold Path, of right view, intention, speech, action, livelihood, effort, mindfulness and concentration. He described this as a Middle Way between indulgence and harsh self-denial. He also taught that all things are impermanent, that there is no permanent self, and that actions, karma, shape rebirth. The end of craving leads to nirvana, liberation from the cycle of rebirth.
 
 ## The community
 

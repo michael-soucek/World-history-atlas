@@ -12,13 +12,13 @@ In AD 40 two sisters from an aristocratic Lạc Việt family, Trưng Trắc and
 
 ## Under Han rule
 
-The Red River lands had passed under Chinese control in 111 BC, when [Emperor Wu of Han](/person/emperor-wu-of-han) annexed the kingdom of Nanyue and divided it into commanderies, three of them in present-day northern Vietnam. Local Lạc lords kept much of their status under Han governors. The sisters' father was a Lạc lord in Mê Linh, near modern Hanoi, and Trưng Trắc married Thi Sách, the son of another lord, from Chu Diên.
+The Red River lands had passed under Chinese control in 111 BC, when [Emperor Wu of Han](/person/emperor-wu-of-han) annexed the kingdom of [Nanyue](/place/nanyue) and divided it into commanderies, three of them in present-day northern Vietnam. Local Lạc lords kept much of their status under Han governors. The sisters' father was a Lạc lord in Mê Linh, near modern Hanoi, and Trưng Trắc married Thi Sách, the son of another lord, from Chu Diên.
 
 ## What the Chinese record says
 
 Almost everything known comes from brief passages in the Book of the Later Han, compiled in the fifth century by Fan Ye, more than 350 years after the events. It states that in the sixteenth year of the Jianwu era, AD 40, Zheng Ce (Trưng Trắc) and her younger sister Zheng Er rebelled after the governor of Jiaozhi, Su Ding, tried to restrain her through the law. Peoples in the neighbouring commanderies of Jiuzhen, Rinan and Hepu joined them, about sixty-five strongholds fell, and Trưng Trắc made herself queen while Han officials could only hold out in their forts.
 
-In 42 the emperor Guangwu sent the general Ma Yuan south. The text gives his force as more than 10,000 men in one chapter and about 20,000 in another, with some 2,000 ships. He defeated the rebels at Lãng Bạc, pursued them into a gorge and, in 43, had both sisters beheaded and their heads sent to the capital, Luoyang. He then subdued remaining resistance in Jiuzhen and reorganised the local administration under Han law. An older, now-lost account quoted in a sixth-century geography differs in detail, describing Thi Sách as alive and rebelling alongside his wife.
+In 42 the emperor Guangwu sent the general Ma Yuan south. The text gives his force as more than 10,000 men in one chapter and about 20,000 in another, with some 2,000 ships. He defeated the rebels at Lãng Bạc, pursued them into a gorge and, in 43, had both sisters beheaded and their heads sent to the capital, [Luoyang](/history-of/luoyang). He then subdued remaining resistance in Jiuzhen and reorganised the local administration under Han law. An older, now-lost account quoted in a sixth-century geography differs in detail, describing Thi Sách as alive and rebelling alongside his wife.
 
 ## What Vietnamese tradition adds
 

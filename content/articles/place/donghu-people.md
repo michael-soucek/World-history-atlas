@@ -34,4 +34,4 @@ The Donghu's language is unknown. Paul Pelliot and Pulleyblank described them as
 
 ## On our maps
 
-Our 400 BCE map labels them "Donghu tribes" and places them in northern Manchuria, between the Xiongnu to the west and Gojoseon to the south. The outline is approximate, and it sits further north-east than the frontier lands where Chinese sources place them.
+Our 400 BCE map labels them "Donghu tribes" and places them in northern Manchuria, between the Xiongnu to the west and [Gojoseon](/place/gojoseon) to the south. The outline is approximate, and it sits further north-east than the frontier lands where Chinese sources place them.

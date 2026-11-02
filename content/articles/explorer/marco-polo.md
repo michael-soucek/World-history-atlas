@@ -16,7 +16,7 @@ In 1271 Niccolò and Maffeo set out again, taking the seventeen-year-old Marco. 
 
 ## In Kublai's service
 
-According to his account, Marco became a favourite of Kublai, who sent him on missions across China and to Southeast Asia, perhaps including Yunnan and Burma, and he claimed to have governed the city of Yangzhou for three years, a claim historians doubt. He described the splendour of Kublai's court, his palaces in Dadu, today's Beijing, the use of paper money, the postal relay system, the burning of "black stones", coal, as fuel, the great Grand Canal and the city of Hangzhou, which he called Kinsay, the finest and richest city in the world. He described the Mongol customs and Kublai's hunting parties.
+According to his account, Marco became a favourite of Kublai, who sent him on missions across China and to Southeast Asia, perhaps including Yunnan and Burma, and he claimed to have governed the city of Yangzhou for three years, a claim historians doubt. He described the splendour of Kublai's court, his palaces in Dadu, today's Beijing, the use of paper money, the postal relay system, the burning of "black stones", coal, as fuel, the great Grand Canal and the city of [Hangzhou](/history-of/hangzhou), which he called Kinsay, the finest and richest city in the world. He described the Mongol customs and Kublai's hunting parties.
 
 ## The return
 

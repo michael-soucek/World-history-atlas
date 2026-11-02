@@ -17,7 +17,7 @@ Frederick was born at Jesi, near Ancona, on 26 December 1194, the son of the emp
 
 ## Winning the empire
 
-Germany was then torn between rival kings. When the emperor Otto IV invaded southern Italy, the pope backed Frederick, who was elected German king by a rebel faction in 1211 and crowned at Mainz in December 1212. Otto's defeat by the French at the [Battle of Bouvines](/event/battle-of-bouvines) in 1214 sealed Frederick's success, and he was crowned again at Aachen in 1215. He won over the German princes, especially the bishops, with generous privileges, and on 20 November 1220 Pope Honorius III crowned him emperor in Rome.
+Germany was then torn between rival kings. When the emperor Otto IV invaded southern Italy, the pope backed Frederick, who was elected German king by a rebel faction in 1211 and crowned at Mainz in December 1212. Otto's defeat by the French at the [Battle of Bouvines](/event/battle-of-bouvines) in 1214 sealed Frederick's success, and he was crowned again at [Aachen](/history-of/aachen) in 1215. He won over the German princes, especially the bishops, with generous privileges, and on 20 November 1220 Pope Honorius III crowned him emperor in Rome.
 
 ## Rebuilding Sicily
 

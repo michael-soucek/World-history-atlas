@@ -14,7 +14,7 @@ By the 740s the Umayyad state was badly weakened. A disputed succession in 744 s
 
 ## The rising in Khurasan
 
-Meanwhile a clandestine movement, the Hashimiyya, had for years been seeking support in Khurasan, in the north-east, for a ruler from the family of the Prophet. The Abbasids, descendants of Muhammad's uncle al-Abbas, used memories of the [Battle of Karbala](/event/battle-of-karbala) to rally opposition. In June 747 their agent Abu Muslim raised the black banners near Merv. Abbasid armies under Qahtaba ibn Shabib swept westward across Iran, defeating several Umayyad forces, and by August 749 reached the Euphrates near Kufa. Ibrahim al-Imam, head of the Abbasid family, was seized on Marwan's orders and died in captivity, but his brother Abu al-Abbas, later known as al-Saffah, was recognised as caliph in the mosque at Kufa on 28 November 749.
+Meanwhile a clandestine movement, the Hashimiyya, had for years been seeking support in Khurasan, in the north-east, for a ruler from the family of the Prophet. The Abbasids, descendants of Muhammad's uncle al-Abbas, used memories of the [Battle of Karbala](/event/battle-of-karbala) to rally opposition. In June 747 their agent Abu Muslim raised the black banners near [Merv](/history-of/merv). Abbasid armies under Qahtaba ibn Shabib swept westward across Iran, defeating several Umayyad forces, and by August 749 reached the Euphrates near Kufa. Ibrahim al-Imam, head of the Abbasid family, was seized on Marwan's orders and died in captivity, but his brother Abu al-Abbas, later known as al-Saffah, was recognised as caliph in the mosque at Kufa on 28 November 749.
 
 ## The armies meet
 

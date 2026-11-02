@@ -33,7 +33,7 @@ Sindhi writers credit the Soomra period with the growth of Sindhi as a language 
 
 ## Fall and the Umarkot line
 
-In 1333 Ibn Battuta found the Samma tribe in revolt. Soon after 1335 the Sammas drove out the Soomras, whose last ruler took refuge in Gujarat under the protection of the Delhi sultan Muhammad bin Tughluq. Muhammad marched on Sindh in 1351, perhaps to restore him, but died at Sondha, and the Samma dynasty took power. A branch of the Soomras is said to have ruled on at Umarkot, in the Thar desert, until about 1440.
+In 1333 Ibn Battuta found the Samma tribe in revolt. Soon after 1335 the Sammas drove out the Soomras, whose last ruler took refuge in Gujarat under the protection of the Delhi sultan Muhammad bin Tughluq. Muhammad marched on Sindh in 1351, perhaps to restore him, but died at Sondha, and the [Samma dynasty](/place/samma-dynasty) took power. A branch of the Soomras is said to have ruled on at Umarkot, in the Thar desert, until about 1440.
 
 ## On our maps
 

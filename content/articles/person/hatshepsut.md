@@ -20,7 +20,7 @@ Within a few years, by about 1473 BCE, Hatshepsut had herself crowned as pharaoh
 
 ## Deir el-Bahari
 
-Hatshepsut's greatest monument is her mortuary temple at Deir el-Bahari, on the west bank of the Nile at Thebes, called Djeser-Djeseru, "holy of holies". Built against the cliffs, it rises in three colonnaded terraces connected by ramps, once with gardens of trees. Its reliefs record her divine birth and the Punt expedition. She also built at the temple of Karnak, setting up two great obelisks of red granite, one of which still stands, nearly thirty metres tall, and the Red Chapel. She restored temples damaged in the Hyksos period.
+Hatshepsut's greatest monument is her mortuary temple at Deir el-Bahari, on the west bank of the Nile at Thebes, called Djeser-Djeseru, "holy of holies". Built against the cliffs, it rises in three colonnaded terraces connected by ramps, once with gardens of trees. Its reliefs record her divine birth and the Punt expedition. She also built at the temple of [Karnak](/site/karnak), setting up two great obelisks of red granite, one of which still stands, nearly thirty metres tall, and the Red Chapel. She restored temples damaged in the Hyksos period.
 
 ## The expedition to Punt
 
@@ -36,7 +36,7 @@ Hatshepsut died around 1458 BCE, and Thutmose III ruled alone for over thirty ye
 
 ## Rediscovery
 
-Hatshepsut was rediscovered by Egyptologists in the nineteenth century. In 2007 a mummy found in a minor tomb, KV60, in the Valley of the Kings, was identified as hers, based on a tooth found in a box bearing her name, though some scholars question the identification.
+Hatshepsut was rediscovered by Egyptologists in the nineteenth century. In 2007 a mummy found in a minor tomb, KV60, in the [Valley of the Kings](/site/valley-of-the-kings), was identified as hers, based on a tooth found in a box bearing her name, though some scholars question the identification.
 
 ## On our maps
 

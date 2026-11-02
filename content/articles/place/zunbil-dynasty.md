@@ -29,7 +29,7 @@ The cult of Zun remains poorly understood; scholars have linked it variously to 
 
 ## Abbasid pressure and the end
 
-After the [Abbasid Caliphate](/place/abbasid-caliphate) came to power in 750, its commanders renewed the pressure. In 769 Ma'n ibn Za'ida defeated the Zunbil near Ghazni and restored the tribute, and later caliphs received submissions that were largely nominal and payments that came irregularly. The Zunbils outlasted the Kabul branch of the Turk Shahis, which the caliph al-Ma'mun defeated in 815. Their end came from a new local power: around 870 Ya'qub ibn al-Layth, founder of the Saffarid dynasty of Sistan, marched on Ghazni and conquered their lands. In the view of the historian C. E. Bosworth, this was the first real Muslim expansion into eastern Afghanistan after two centuries of raids and resistance.
+After the [Abbasid Caliphate](/place/abbasid-caliphate) came to power in 750, its commanders renewed the pressure. In 769 Ma'n ibn Za'ida defeated the Zunbil near Ghazni and restored the tribute, and later caliphs received submissions that were largely nominal and payments that came irregularly. The Zunbils outlasted the Kabul branch of the Turk Shahis, which the caliph al-Ma'mun defeated in 815. Their end came from a new local power: around 870 Ya'qub ibn al-Layth, founder of the [Saffarid dynasty](/place/saffarid-dynasty) of Sistan, marched on Ghazni and conquered their lands. In the view of the historian C. E. Bosworth, this was the first real Muslim expansion into eastern Afghanistan after two centuries of raids and resistance.
 
 ## On our maps
 

@@ -12,7 +12,7 @@ There are faint traces of people on the hill from the Early Neolithic, around 50
 
 ## The palace age
 
-Mycenae became a major power between about 1550 and 1450 BC. After Minoan dominance in the Aegean ended around 1450, Mycenaeans occupied Knossos on Crete, and in the fourteenth and thirteenth centuries Mycenae is believed to have been the leading centre of Aegean civilisation. Its influence probably reached Crete, Pylos, Athens and Thebes. Egyptian inscriptions of Amenhotep III appear to name the city, and a scarab of his queen Tiye was found in a shrine in the citadel.
+Mycenae became a major power between about 1550 and 1450 BC. After Minoan dominance in the Aegean ended around 1450, Mycenaeans occupied [Knossos](/site/knossos) on Crete, and in the fourteenth and thirteenth centuries Mycenae is believed to have been the leading centre of Aegean civilisation. Its influence probably reached Crete, Pylos, Athens and Thebes. Egyptian inscriptions of Amenhotep III appear to name the city, and a scarab of his queen Tiye was found in a shrine in the citadel.
 
 Around 1350 BC the fortifications were rebuilt in the style later called Cyclopean, because the blocks seemed too large for anyone but the mythical one-eyed giants to have moved; some weighed well over 20 tonnes. Within them stood a palace built around a megaron, a throne room with a central hearth. Around 1250 BC the walls were extended to take in Grave Circle A, and the main entrance was rebuilt as the Lion Gate. The great tholos tomb known as the Treasury of Atreus belongs to the same century. At its height the citadel and lower town covered about 32 hectares and, by one estimate, held some 30,000 people.
 

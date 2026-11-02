@@ -9,7 +9,7 @@ For more than three hundred years, from 1206 to 1526, a succession of Muslim dyn
 
 ## Five dynasties
 
-The sultanate grew out of the conquests of Muhammad of Ghor, a ruler from Afghanistan who defeated the Rajput king Prithviraj Chauhan at Tarain in 1192. After his death, his Turkic slave general Qutb ud-Din Aibak became an independent ruler in India. Aibak's successors are known as the Mamluk or Slave dynasty; they were followed by the Khaljis, the Tughlaqs, the Sayyids and the Lodis. The Qutb Minar, the tall minaret begun by Aibak in Delhi, is the best-known monument of the early sultanate.
+The sultanate grew out of the conquests of Muhammad of Ghor, a ruler from Afghanistan who defeated the Rajput king Prithviraj Chauhan at Tarain in 1192. After his death, his Turkic slave general Qutb ud-Din Aibak became an independent ruler in India. Aibak's successors are known as the Mamluk or Slave dynasty; they were followed by the Khaljis, the Tughlaqs, the Sayyids and the Lodis. The [Qutb Minar](/site/qutb-minar), the tall minaret begun by Aibak in Delhi, is the best-known monument of the early sultanate.
 
 ## The Mamluk dynasty
 

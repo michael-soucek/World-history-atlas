@@ -31,7 +31,7 @@ Antigua and Barbuda is a two-island nation in the Leeward Islands of the eastern
 
 ## The first islanders
 
-The earliest people on Antigua were Archaic hunter-gatherers, often called the Ciboney, who reached the island by canoe and lived on shellfish, fish and wild plants. Dates for their arrival vary between studies, but the site at Twenty Hill and other camps show that people were there at least four thousand years ago and perhaps as early as the fourth millennium BCE. They worked stone and shell into tools, and Antigua's flint was traded to neighbouring islands.
+The earliest people on Antigua were Archaic hunter-gatherers, often called the [Ciboney](/place/ciboney), who reached the island by canoe and lived on shellfish, fish and wild plants. Dates for their arrival vary between studies, but the site at Twenty Hill and other camps show that people were there at least four thousand years ago and perhaps as early as the fourth millennium BCE. They worked stone and shell into tools, and Antigua's flint was traded to neighbouring islands.
 
 Around two thousand years ago a new people arrived: Arawak-speaking farmers of the Saladoid culture, who had moved up the island chain from the lower Orinoco in what is now Venezuela. They brought pottery, settled villages and crops including cassava, maize, sweet potatoes, cotton, tobacco and the small, sweet Antigua black pineapple. Their name for the island, remembered as Waladli and in modern form Wadadli, is still used locally. Over later centuries the pottery style changed, which some archaeologists link to the arrival of the Kalinago, or Island Caribs. The Kalinago appear to have used Antigua more as a base for raids and provisions than as a place of large settlement.
 

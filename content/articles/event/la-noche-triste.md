@@ -28,7 +28,7 @@ The sources disagree sharply. Cortés claimed 154 Spaniards and more than 2,000 
 
 ## Aftermath
 
-The survivors retreated around the northern lakes, and about a week later defeated a pursuing Aztec army at Otumba, near Teotihuacan. They then reached Tlaxcala, where Cortés planned the campaign that ended in the [fall of Tenochtitlan](/event/fall-of-tenochtitlan) the following year.
+The survivors retreated around the northern lakes, and about a week later defeated a pursuing Aztec army at Otumba, near [Teotihuacan](/site/teotihuacan). They then reached Tlaxcala, where Cortés planned the campaign that ended in the [fall of Tenochtitlan](/event/fall-of-tenochtitlan) the following year.
 
 ## On our maps
 

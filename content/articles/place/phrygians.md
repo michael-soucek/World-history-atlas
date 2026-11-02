@@ -9,7 +9,7 @@ In the centuries after the Hittite collapse, the uplands of central-western Anat
 
 ## Who were the Phrygians?
 
-Greek writers used the name loosely, for a broad cultural world in central Anatolia rather than one tribe, so how unified the Phrygians were is debated. Herodotus said they had once lived in the southern Balkans as the Bryges and changed their name after crossing into Asia. Many historians accept a migration from Europe around 1200 BCE, and a conventional date of about 1180 BCE is often given, coinciding with the end of the [Hittites](/place/hittites)' empire. Most Anatolian archaeologists, however, have dropped the idea, pointing to the lack of European pottery and to continuity in local styles; some suggest any movement was earlier and came in several stages. Whether the Phrygians helped bring down Hattusa or simply filled the gap it left is unknown.
+Greek writers used the name loosely, for a broad cultural world in central Anatolia rather than one tribe, so how unified the Phrygians were is debated. Herodotus said they had once lived in the southern Balkans as the Bryges and changed their name after crossing into Asia. Many historians accept a migration from Europe around 1200 BCE, and a conventional date of about 1180 BCE is often given, coinciding with the end of the [Hittites](/place/hittites)' empire. Most Anatolian archaeologists, however, have dropped the idea, pointing to the lack of European pottery and to continuity in local styles; some suggest any movement was earlier and came in several stages. Whether the Phrygians helped bring down [Hattusa](/history-of/hattusa) or simply filled the gap it left is unknown.
 
 ## The kingdom of Gordium
 
@@ -21,11 +21,11 @@ Raids by the [Cimmerians](/place/cimmerians) in the late eighth and early sevent
 
 ## Gods, music and myth
 
-The Phrygians worshipped a Mother Goddess called Matar, or Matar Kubileya, the source of the Greek and Latin name Cybele, as well as a horseman sky god, Sabazios. Greek music owed them the Phrygian mode, regarded as warlike, and the double-piped aulos. Greek myth gave Phrygia the Gordian knot, King Midas's golden touch and the satyr Marsyas, while the Iliad makes the Phrygians allies of Troy. The soft cap that Greek art used to mark the Trojan Paris as foreign later became the liberty cap of the American and French revolutions.
+The Phrygians worshipped a Mother Goddess called Matar, or Matar Kubileya, the source of the Greek and Latin name Cybele, as well as a horseman sky god, Sabazios. Greek music owed them the Phrygian mode, regarded as warlike, and the double-piped aulos. Greek myth gave Phrygia the Gordian knot, King Midas's golden touch and the satyr Marsyas, while the Iliad makes the Phrygians allies of [Troy](/site/troy). The soft cap that Greek art used to mark the Trojan Paris as foreign later became the liberty cap of the American and French revolutions.
 
 ## Language and fade-out
 
-Phrygian survives in fragmentary inscriptions. Once grouped with Armenian and Thracian, it is now usually regarded as closest to Greek, and some scholars propose a shared Graeco-Phrygian ancestor. After Alexander's conquests the region passed to his successors, then to the Attalids of Pergamon and finally the [Roman Empire](/place/roman-empire). The language is last mentioned in literature in the fifth century CE and had probably died out by the seventh.
+Phrygian survives in fragmentary inscriptions. Once grouped with Armenian and Thracian, it is now usually regarded as closest to Greek, and some scholars propose a shared Graeco-Phrygian ancestor. After Alexander's conquests the region passed to his successors, then to the Attalids of [Pergamon](/history-of/pergamon) and finally the [Roman Empire](/place/roman-empire). The language is last mentioned in literature in the fifth century CE and had probably died out by the seventh.
 
 ## On our maps
 

@@ -9,7 +9,7 @@ The Battle of Tondibi, fought on 13 March 1591 near Gao on the Niger river, in w
 
 ## Two powers
 
-For more than a century the [Songhai Empire](/place/songhai-empire) had dominated the western Sahel, with an empire stretching along the Niger from the upper Senegal river to what is now Niger. It had been built up by rulers such as [Askia Muhammad I](/person/askia-muhammad-i), and its cities of Gao, Timbuktu and Djenné grew rich on trans-Saharan trade. By the late 1580s, however, disputes over the succession had left it divided and weakened.
+For more than a century the [Songhai Empire](/place/songhai-empire) had dominated the western Sahel, with an empire stretching along the Niger from the upper Senegal river to what is now Niger. It had been built up by rulers such as [Askia Muhammad I](/person/askia-muhammad-i), and its cities of Gao, Timbuktu and [Djenné](/history-of/djenne) grew rich on trans-Saharan trade. By the late 1580s, however, disputes over the succession had left it divided and weakened.
 
 North of the desert, the Saadi dynasty of [Morocco](/place/morocco) was at the peak of its power after crushing a Portuguese invasion at the [Battle of Alcácer Quibir](/event/battle-of-alcacer-quibir) in 1578. The new sultan, Ahmad al-Mansur, was nonetheless short of money, and he looked south to the Songhai, whose wealth he wrongly believed came from gold mines they controlled. Some of his advisers objected that war against a fellow Muslim state was unlawful, but he overruled them.
 

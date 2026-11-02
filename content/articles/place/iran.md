@@ -9,7 +9,7 @@ Iran, known in the West as Persia until 1935, is one of the world's oldest conti
 
 ## Ancient and medieval Iran
 
-Iran has been home to some of history's great empires: the Elamites, the Medes, the Achaemenid Persians of Cyrus and Darius, the Parthians and the Sasanians. After the Arab conquest in the seventh century, Iran gradually became Muslim, but kept its language and culture. New Persian literature flourished from the tenth century, with Ferdowsi's Shahnameh, and later the poets Omar Khayyam, Rumi, Saadi and Hafez. Iran was ruled by many dynasties, including the Seljuks, the Mongol Ilkhans and the Timurids, before the Safavids made it a Shia state in 1501.
+Iran has been home to some of history's great empires: the Elamites, the Medes, the Achaemenid Persians of Cyrus and Darius, the Parthians and the Sasanians. After the Arab conquest in the seventh century, Iran gradually became Muslim, but kept its language and culture. New Persian literature flourished from the tenth century, with Ferdowsi's Shahnameh, and later the poets Omar Khayyam, Rumi, Saadi and [Hafez](/person/hafez). Iran was ruled by many dynasties, including the Seljuks, the Mongol Ilkhans and the Timurids, before the Safavids made it a Shia state in 1501.
 
 ## After the Safavids
 
@@ -17,7 +17,7 @@ After the Safavid collapse, Nader Shah drove out the Afghans and conquered as fa
 
 ## The Qajar era
 
-The Qajars lost the Caucasus to Russia in the treaties of Golestan in 1813 and Turkmenchay in 1828, and Herat to Afghanistan with British pressure. They granted foreign concessions; a tobacco monopoly given to a British company in 1890 led to a nationwide boycott, supported by Shia clerics, that forced its cancellation. The Constitutional Revolution of 1905–1911 produced a constitution and parliament, the Majlis, but Russia and Britain intervened. Oil was discovered in 1908, and the Anglo-Persian Oil Company, later BP, controlled it.
+The Qajars lost the Caucasus to Russia in the treaties of Golestan in 1813 and Turkmenchay in 1828, and [Herat](/history-of/herat) to Afghanistan with British pressure. They granted foreign concessions; a tobacco monopoly given to a British company in 1890 led to a nationwide boycott, supported by Shia clerics, that forced its cancellation. The Constitutional Revolution of 1905–1911 produced a constitution and parliament, the Majlis, but Russia and Britain intervened. Oil was discovered in 1908, and the Anglo-Persian Oil Company, later BP, controlled it.
 
 ## Reza Shah
 

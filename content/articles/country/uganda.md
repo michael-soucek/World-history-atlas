@@ -30,7 +30,7 @@ sources:
   - BBC News: Uganda country profile | https://www.bbc.com/news/world-africa-14107906
 written: 2026-10-25
 ---
-Uganda lies on the high plateau around the northern shores of Lake Victoria, where the Nile begins. Its fertile, well-watered south was home for many centuries to some of the largest kingdoms of eastern Africa, above all Bunyoro, the leading power of the region for generations, and Buganda, which rose to overtake it in the 18th and 19th centuries. Britain made the territory a protectorate in 1894, ruling largely through Buganda, and Uganda became independent in 1962. Within a decade it had fallen under the military dictatorship of Idi Amin, whose regime killed perhaps 100,000 to 500,000 people, and the civil wars that followed were nearly as deadly. Yoweri Museveni, who took power at the head of a rebel army in 1986, still rules the country forty years later.
+Uganda lies on the high plateau around the northern shores of Lake Victoria, where the Nile begins. Its fertile, well-watered south was home for many centuries to some of the largest kingdoms of eastern Africa, above all [Bunyoro](/place/bunyoro), the leading power of the region for generations, and Buganda, which rose to overtake it in the 18th and 19th centuries. Britain made the territory a protectorate in 1894, ruling largely through Buganda, and Uganda became independent in 1962. Within a decade it had fallen under the military dictatorship of Idi Amin, whose regime killed perhaps 100,000 to 500,000 people, and the civil wars that followed were nearly as deadly. Yoweri Museveni, who took power at the head of a rebel army in 1986, still rules the country forty years later.
 
 ## Early peoples
 

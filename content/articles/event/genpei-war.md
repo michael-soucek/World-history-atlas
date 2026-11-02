@@ -4,7 +4,7 @@ sources:
   - Wikidata: Genpei War (Q737542) | https://www.wikidata.org/wiki/Q737542
 written: 2026-10-30
 ---
-Between 1180 and 1185, at the close of Japan's Heian period, the warrior clans of Taira and Minamoto fought a civil war for control of the imperial court and the country. The war ended with the destruction of the Taira at sea and the rise of Minamoto no Yoritomo, whose military government at Kamakura shifted real power from the court to the warrior class for centuries. Its name comes from the alternative readings of the two clan names, Gen for Minamoto and Hei for Taira.
+Between 1180 and 1185, at the close of Japan's Heian period, the warrior clans of Taira and Minamoto fought a civil war for control of the imperial court and the country. The war ended with the destruction of the Taira at sea and the rise of Minamoto no Yoritomo, whose military government at [Kamakura](/history-of/kamakura) shifted real power from the court to the warrior class for centuries. Its name comes from the alternative readings of the two clan names, Gen for Minamoto and Hei for Taira.
 
 ## Background
 
@@ -12,7 +12,7 @@ The Taira and Minamoto had long competed for influence over the court. In the H�
 
 ## The outbreak
 
-The plot was discovered. Mochihito fled to the temple of Mii-dera and then towards the Byōdō-in at Uji, outside Kyoto, where Taira forces caught up with him. In the battle at the Uji bridge in 1180 Yorimasa took his own life and Mochihito was soon captured and killed. Yoritomo now took up the Minamoto cause. Beaten at Ishibashiyama, he escaped and found allies in the east. Kiyomori retaliated against the monasteries that had backed the rising by besieging Nara and burning much of the city.
+The plot was discovered. Mochihito fled to the temple of Mii-dera and then towards the Byōdō-in at Uji, outside Kyoto, where Taira forces caught up with him. In the battle at the Uji bridge in 1180 Yorimasa took his own life and Mochihito was soon captured and killed. Yoritomo now took up the Minamoto cause. Beaten at Ishibashiyama, he escaped and found allies in the east. Kiyomori retaliated against the monasteries that had backed the rising by besieging [Nara](/history-of/nara) and burning much of the city.
 
 Kiyomori died of illness in the spring of 1181. Japan was then struck by a famine that lasted into the following year, and the war largely paused for nearly two years.
 

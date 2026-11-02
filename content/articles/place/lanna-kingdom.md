@@ -5,7 +5,7 @@ sources:
   - Borders of Time maps, built on historical-basemaps | https://github.com/aourednik/historical-basemaps
 written: 2026-11-01
 ---
-Lanna, also written Lan Na, was a Tai kingdom in what is now northern [Thailand](/country/thailand), founded by King Mangrai in the late thirteenth century with its capital at Chiang Mai. Its name is usually rendered "a million rice fields". At its height in the fifteenth century it fought Ayutthaya on equal terms; from 1558 it spent most of two centuries under Burmese overlordship, and from 1775–1776 it passed to Siam, which absorbed it entirely by the early twentieth century.
+Lanna, also written Lan Na, was a Tai kingdom in what is now northern [Thailand](/country/thailand), founded by King Mangrai in the late thirteenth century with its capital at Chiang Mai. Its name is usually rendered "a million rice fields". At its height in the fifteenth century it fought [Ayutthaya](/history-of/ayutthaya) on equal terms; from 1558 it spent most of two centuries under Burmese overlordship, and from 1775–1776 it passed to Siam, which absorbed it entirely by the early twentieth century.
 
 ## Mangrai and the founding
 
@@ -21,7 +21,7 @@ Lanna was strongest under Tilokaraj, who seized the throne from his father in 14
 
 ## Decline and Burmese rule
 
-After Tilokaraj, disputes among princes weakened the kingdom. King Kaew attacked Ayutthaya in 1507 and was invaded in return, and a defeat in Kengtung in 1523 ended Lanna's dominance in the Shan lands. A series of murders and depositions followed; Queen Chiraprapha was forced to accept Ayutthayan overlordship, and the throne passed briefly to a Lao prince, Setthathirath of [Lan Xang](/place/lan-xang), who took the Emerald Buddha with him to Luang Prabang. In 1558 the Shan-born king Mekuti surrendered to Bayinnaung of [Toungoo](/place/toungoo-dynasty) Burma. Burma allowed considerable local autonomy but controlled taxes and labour service. After a short-lived Siamese overlordship around 1600, Burmese rule returned by 1614 and vassal kings of Burmese descent governed for over a century. A revolt in 1727 won Chiang Mai a spell of independence, ended by the new Burmese dynasty in 1757.
+After Tilokaraj, disputes among princes weakened the kingdom. King Kaew attacked Ayutthaya in 1507 and was invaded in return, and a defeat in Kengtung in 1523 ended Lanna's dominance in the Shan lands. A series of murders and depositions followed; Queen Chiraprapha was forced to accept Ayutthayan overlordship, and the throne passed briefly to a Lao prince, Setthathirath of [Lan Xang](/place/lan-xang), who took the Emerald Buddha with him to [Luang Prabang](/history-of/luang-prabang). In 1558 the Shan-born king Mekuti surrendered to Bayinnaung of [Toungoo](/place/toungoo-dynasty) Burma. Burma allowed considerable local autonomy but controlled taxes and labour service. After a short-lived Siamese overlordship around 1600, Burmese rule returned by 1614 and vassal kings of Burmese descent governed for over a century. A revolt in 1727 won Chiang Mai a spell of independence, ended by the new Burmese dynasty in 1757.
 
 ## Trade
 

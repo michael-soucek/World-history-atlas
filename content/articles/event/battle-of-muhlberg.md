@@ -20,7 +20,7 @@ At dawn, under cover of thick fog, Spanish and Italian veterans swam across and 
 
 ## The rout
 
-The elector, thinking he faced only an advance guard, formed up along the edge of a forest. Charles was carried to the field in a litter; Titian's famous equestrian portrait of 1548 shows him instead in armour on horseback. The imperial army, perhaps 16,000 to 20,000 strong, outnumbered the Saxons, whose ranks were filled largely with peasants. The Saxons repulsed the opening charges by Hungarian horsemen, but once Alba and Maurice had broken the flanks, the Spanish and Italian tercios shattered the centre. The fleeing army was hunted down in the forest. John Frederick was wounded in the face and taken prisoner.
+The elector, thinking he faced only an advance guard, formed up along the edge of a forest. Charles was carried to the field in a litter; [Titian](/person/titian)'s famous equestrian portrait of 1548 shows him instead in armour on horseback. The imperial army, perhaps 16,000 to 20,000 strong, outnumbered the Saxons, whose ranks were filled largely with peasants. The Saxons repulsed the opening charges by Hungarian horsemen, but once Alba and Maurice had broken the flanks, the Spanish and Italian tercios shattered the centre. The fleeing army was hunted down in the forest. John Frederick was wounded in the face and taken prisoner.
 
 Saxon losses are estimated at 2,000 to 3,000 men in some accounts and as high as 8,000 in others, with almost all their artillery taken; the imperial side lost about fifty. Charles is said to have adapted Caesar's famous words: "I came, I saw, and God conquered."
 

@@ -17,7 +17,7 @@ The East India Company, founded in 1600, began as a trading company with posts a
 
 ## Slavery and abolition
 
-Britain was the leading slave-trading nation of the eighteenth century, carrying about three million Africans across the Atlantic. Ports such as Liverpool and Bristol grew rich on the trade. Campaigners such as Thomas Clarkson, William Wilberforce and formerly enslaved writers such as Olaudah Equiano pressed for abolition, and resistance by enslaved people, including revolts in Jamaica, put pressure on the system. Britain abolished the slave trade in 1807 and slavery in most of its colonies in 1833, paying compensation to slave owners, not to the formerly enslaved.
+Britain was the leading slave-trading nation of the eighteenth century, carrying about three million Africans across the Atlantic. Ports such as Liverpool and Bristol grew rich on the trade. Campaigners such as Thomas Clarkson, [William Wilberforce](/person/william-wilberforce) and formerly enslaved writers such as Olaudah Equiano pressed for abolition, and resistance by enslaved people, including revolts in Jamaica, put pressure on the system. Britain abolished the slave trade in 1807 and slavery in most of its colonies in 1833, paying compensation to slave owners, not to the formerly enslaved.
 
 ## Settler colonies
 

@@ -25,7 +25,7 @@ After Alp Arslan was killed in 1072, his son Malik-Shah I succeeded and Nizam al
 
 ## Colleges and a book of government
 
-His most lasting work was a chain of madrasas, called Nizamiyyas after him, in Baghdad, Isfahan, Nishapur, Mosul, Basra, Herat and other cities. They trained Sunni scholars and officials for the state. He is also traditionally credited with the Siyasatnama, or Book of Government, a treatise written at the sultan's request that uses historical anecdotes to advise rulers on justice, administration and the use of spies; it is often compared with Machiavelli's The Prince.
+His most lasting work was a chain of madrasas, called Nizamiyyas after him, in Baghdad, Isfahan, Nishapur, Mosul, Basra, [Herat](/history-of/herat) and other cities. They trained Sunni scholars and officials for the state. He is also traditionally credited with the Siyasatnama, or Book of Government, a treatise written at the sultan's request that uses historical anecdotes to advise rulers on justice, administration and the use of spies; it is often compared with Machiavelli's The Prince.
 
 ## Rivals and murder
 

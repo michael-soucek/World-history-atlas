@@ -17,7 +17,7 @@ Srivijaya was a major centre of Mahayana and Vajrayana Buddhism. The Chinese mon
 
 ## Connections with Java
 
-Srivijaya had close dynastic and religious ties with the Sailendra dynasty of central Java, the builders of Borobudur, the largest Buddhist monument in the world, completed around 825. A Sailendra prince, Balaputra, became king of Srivijaya in the ninth century. Srivijaya and the Javanese kingdom of Mataram, and later others, were often rivals.
+Srivijaya had close dynastic and religious ties with the Sailendra dynasty of central Java, the builders of [Borobudur](/site/borobudur), the largest Buddhist monument in the world, completed around 825. A Sailendra prince, Balaputra, became king of Srivijaya in the ninth century. Srivijaya and the Javanese kingdom of Mataram, and later others, were often rivals.
 
 ## A sea kingdom
 

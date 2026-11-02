@@ -13,7 +13,7 @@ Antiochus III spent the first half of a 36-year reign rebuilding the Seleucid Em
 
 ## A shaky inheritance
 
-Antiochus was born around 241 BCE, near Susa in Persia, a son of King Seleucus II and Laodice II. He came to the throne at about eighteen, in 223 BCE, after his elder brother Seleucus III was murdered in Anatolia. The empire he received was crumbling: Bactria and Parthia had broken away in the east, much of Asia Minor was lost, and in 222 BCE the governors of Media and Persis, the brothers Molon and Alexander, rose in revolt. That same year he married Laodice, a princess of Pontus.
+Antiochus was born around 241 BCE, near [Susa](/history-of/susa) in Persia, a son of King Seleucus II and Laodice II. He came to the throne at about eighteen, in 223 BCE, after his elder brother Seleucus III was murdered in Anatolia. The empire he received was crumbling: Bactria and Parthia had broken away in the east, much of Asia Minor was lost, and in 222 BCE the governors of Media and Persis, the brothers Molon and Alexander, rose in revolt. That same year he married Laodice, a princess of Pontus.
 
 ## Early setbacks and recovery
 
@@ -29,7 +29,7 @@ When the child Ptolemy V came to the Egyptian throne around 204 BCE, Antiochus r
 
 ## War with Rome
 
-Antiochus next moved to secure the coasts of Asia Minor and, in 196 BCE, gained a foothold in Thrace, alarming Greek cities that appealed to Rome. The fugitive Carthaginian general [Hannibal](/person/hannibal) joined his court. In 192 BCE Antiochus landed in Greece with about 10,000 men, as an ally of the Aetolian League and posing as a defender of Greek freedom. The [Roman Republic](/place/roman-republic) routed him at Thermopylae in 191 BCE, followed him into Asia and crushed him at Magnesia in 190 BCE. By the Treaty of Apamea in 188 BCE he gave up all his lands north and west of the Taurus Mountains, most of which Rome handed to its allies Rhodes and Pergamon.
+Antiochus next moved to secure the coasts of Asia Minor and, in 196 BCE, gained a foothold in Thrace, alarming Greek cities that appealed to Rome. The fugitive Carthaginian general [Hannibal](/person/hannibal) joined his court. In 192 BCE Antiochus landed in Greece with about 10,000 men, as an ally of the Aetolian League and posing as a defender of Greek freedom. The [Roman Republic](/place/roman-republic) routed him at Thermopylae in 191 BCE, followed him into Asia and crushed him at Magnesia in 190 BCE. By the Treaty of Apamea in 188 BCE he gave up all his lands north and west of the Taurus Mountains, most of which Rome handed to its allies Rhodes and [Pergamon](/history-of/pergamon).
 
 ## Death and succession
 

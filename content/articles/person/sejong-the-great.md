@@ -16,7 +16,7 @@ Sejong was the fourth king of the [Joseon dynasty](/place/joseon-dynasty) of Kor
 
 Sejong was born Yi To in 1397 in Hanyang, the new Joseon capital that is now [Seoul](/history-of/seoul), five years after his grandfather Yi Seong-gye had overthrown the [Goryeo](/place/goryeo) kingdom and founded the dynasty. His father, who seized power in a struggle among the princes and reigned as King Taejong from 1400, was a ruthless consolidator of royal authority. Yi To, known as Prince Chungnyeong, was the third son and was not expected to rule; court records describe him as unusually studious, and a well-known story tells that his father once had his books taken away to protect his health.
 
-The eldest son, Yangnyeong, was crown prince, but his conduct repeatedly embarrassed the king. In 1418 Taejong deposed him and named Chungnyeong heir, passing over the gentle second son, and two months later abdicated in his favour. The twenty-one-year-old Sejong took the throne at Gyeongbokgung Palace, though Taejong kept control of the army and remained the real power until his death in 1422.
+The eldest son, Yangnyeong, was crown prince, but his conduct repeatedly embarrassed the king. In 1418 Taejong deposed him and named Chungnyeong heir, passing over the gentle second son, and two months later abdicated in his favour. The twenty-one-year-old Sejong took the throne at [Gyeongbokgung](/site/gyeongbokgung) Palace, though Taejong kept control of the army and remained the real power until his death in 1422.
 
 ## Government by scholarship
 

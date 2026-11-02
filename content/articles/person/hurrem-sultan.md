@@ -21,7 +21,7 @@ She became Suleiman's favourite concubine around the time he came to the throne 
 
 ## Power at court
 
-After her marriage she took charge of the harem and moved into the Topkapı Palace, the seat of government, instead of remaining in the Old Palace. Unlike earlier mothers of princes, she did not leave the capital when her sons went to govern provinces. Her surviving letters to Suleiman on campaign mix passionate devotion with news and political warnings. She also corresponded with foreign rulers, writing to Sigismund II Augustus of Poland after his accession in 1548 and sending embroidered gifts to the Safavid shah Tahmasp I in 1547.
+After her marriage she took charge of the harem and moved into the [Topkapı Palace](/site/topkapi-palace), the seat of government, instead of remaining in the Old Palace. Unlike earlier mothers of princes, she did not leave the capital when her sons went to govern provinces. Her surviving letters to Suleiman on campaign mix passionate devotion with news and political warnings. She also corresponded with foreign rulers, writing to Sigismund II Augustus of Poland after his accession in 1548 and sending embroidered gifts to the Safavid shah Tahmasp I in 1547.
 
 ## Rivals and succession
 
@@ -29,7 +29,7 @@ Hürrem has long been blamed for the falls of Suleiman's grand vizier Ibrahim Pa
 
 ## Foundations
 
-Hürrem endowed charitable works across the empire. Her complex in Constantinople, the first commission of the architect Mimar Sinan as chief imperial architect, included a mosque, schools, a soup kitchen and a women's hospital. She built a bathhouse near Hagia Sophia, mosques in Edirne and Ankara, repaired the water channels serving Mecca, and in 1552 founded a soup kitchen in Jerusalem said to feed hundreds of people twice a day.
+Hürrem endowed charitable works across the empire. Her complex in Constantinople, the first commission of the architect Mimar Sinan as chief imperial architect, included a mosque, schools, a soup kitchen and a women's hospital. She built a bathhouse near [Hagia Sophia](/site/hagia-sophia), mosques in Edirne and Ankara, repaired the water channels serving Mecca, and in 1552 founded a soup kitchen in Jerusalem said to feed hundreds of people twice a day.
 
 ## Death and legacy
 

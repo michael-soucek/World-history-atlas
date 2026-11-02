@@ -17,7 +17,7 @@ By the 720s BCE Cimmerians were active south of the Caucasus, settling near mode
 
 ## Masters of Anatolia
 
-Around 675 BCE the western Cimmerians under Dugdammî, the Lygdamis of Greek writers, overran [Phrygia](/place/phrygians) and sacked Gordion; the Phrygian king Midas killed himself. Cappadocia and central Anatolia became their base, and they began to settle in towns of their own. They attacked Lydia, whose king Gyges sought Assyrian help and then defeated them in the 660s. Recovering, they pushed into Assyrian lands in Cilicia, and in 657 BCE an astrologer at [Ashurbanipal](/person/ashurbanipal)'s court called Dugdammî "King of the Universe", a title otherwise reserved for the Assyrian king. Allied with the Thracian Treres, they took Sardis except its citadel in 644 BCE, killing Gyges, and raided the Greek cities of Ionia and Aeolia, burning the temple of Artemis at Ephesus.
+Around 675 BCE the western Cimmerians under Dugdammî, the Lygdamis of Greek writers, overran [Phrygia](/place/phrygians) and sacked Gordion; the Phrygian king Midas killed himself. Cappadocia and central Anatolia became their base, and they began to settle in towns of their own. They attacked Lydia, whose king Gyges sought Assyrian help and then defeated them in the 660s. Recovering, they pushed into Assyrian lands in Cilicia, and in 657 BCE an astrologer at [Ashurbanipal](/person/ashurbanipal)'s court called Dugdammî "King of the Universe", a title otherwise reserved for the Assyrian king. Allied with the Thracian Treres, they took Sardis except its citadel in 644 BCE, killing Gyges, and raided the Greek cities of Ionia and Aeolia, burning the temple of Artemis at [Ephesus](/history-of/ephesus).
 
 ## Defeat and disappearance
 

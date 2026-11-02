@@ -18,7 +18,7 @@ Tradition holds that the Duke of Zhou built a settlement called Chengzhou here i
 
 In 25 CE Emperor Guangwu made Luoyang the capital of the Eastern [Han dynasty](/place/han-dynasty). The walled city held two great palaces linked by a covered way, an imperial university and an observatory, and in 166 a party claiming to come from the Roman emperor Marcus Aurelius arrived there. According to tradition, the White Horse Temple, founded just outside the walls in 68 CE, was China's first Buddhist temple. The Han collapse brought ruin: the capital burned in 189, and in 190 the warlord Dong Zhuo had it sacked and razed as he withdrew to Chang'an.
 
-Cao Pi, the first Wei emperor, rebuilt it as his capital in 220, and the succeeding Jin dynasty ruled from it too; at its Jin height it may have had some 600,000 people. In 311 Xiongnu-led forces of the Han-Zhao state sacked and burned the city in the Disaster of Yongjia, and for nearly two centuries northern and southern regimes fought over the ruins.
+Cao Pi, the first Wei emperor, rebuilt it as his capital in 220, and the succeeding Jin dynasty ruled from it too; at its Jin height it may have had some 600,000 people. In 311 Xiongnu-led forces of the [Han-Zhao](/place/han-zhao) state sacked and burned the city in the Disaster of Yongjia, and for nearly two centuries northern and southern regimes fought over the ruins.
 
 ## Northern Wei, Sui and Tang
 

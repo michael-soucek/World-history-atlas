@@ -9,7 +9,7 @@ The Khmer Empire ruled much of mainland Southeast Asia from the early ninth cent
 
 ## Before Angkor
 
-The Khmer people's earlier states, known from Chinese sources as Funan and Chenla, flourished in the Mekong delta and valley from the first centuries CE. They adopted Indian religion, Sanskrit and ideas of kingship. Angkor Borei and the port of Oc Eo, in today's Vietnam, traded with India and China. When Jayavarman II proclaimed himself universal monarch in 802, he united several of these Khmer territories.
+The Khmer people's earlier states, known from Chinese sources as [Funan](/place/funan) and [Chenla](/place/chenla), flourished in the Mekong delta and valley from the first centuries CE. They adopted Indian religion, Sanskrit and ideas of kingship. Angkor Borei and the port of Oc Eo, in today's Vietnam, traded with India and China. When Jayavarman II proclaimed himself universal monarch in 802, he united several of these Khmer territories.
 
 ## The god-king
 
@@ -37,7 +37,7 @@ The Chinese envoy Zhou Daguan visited Angkor in 1296–1297 and wrote the only s
 
 ## Decline and rediscovery
 
-In the thirteenth and fourteenth centuries, Theravada Buddhism spread among the population, temple building declined, and the Thai kingdoms grew stronger. After Ayutthaya's capture of Angkor in 1431, the Khmer court moved south. Angkor Wat was never fully abandoned, remaining a Buddhist monastery, and in the 1860s the French explorer Henri Mouhot made it famous in Europe. Today it appears on Cambodia's flag.
+In the thirteenth and fourteenth centuries, Theravada Buddhism spread among the population, temple building declined, and the Thai kingdoms grew stronger. After [Ayutthaya](/history-of/ayutthaya)'s capture of Angkor in 1431, the Khmer court moved south. Angkor Wat was never fully abandoned, remaining a Buddhist monastery, and in the 1860s the French explorer Henri Mouhot made it famous in Europe. Today it appears on Cambodia's flag.
 
 ## On our maps
 

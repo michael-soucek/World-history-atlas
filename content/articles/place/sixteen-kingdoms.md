@@ -25,7 +25,7 @@ In 383 Fu Jiān invaded the south, but his huge army was routed at the Fei River
 
 ## Government and religion
 
-The northern states adopted Chinese imperial titles, ministries and era names, and many introduced a dual system that governed tribal peoples separately from Chinese subjects. Much of the countryside was controlled by fortified manors of Chinese landowners, which sheltered refugees and limited state power. Buddhism, present in China since the first century, gained mass following in this era. Rulers employed monks as advisers, and Yao Xing sponsored the monk Kumārajīva, who arrived in Chang'an in 401 and translated many sutras. The first cave temples at Dunhuang's Mogao Caves were carved under the Former Liang.
+The northern states adopted Chinese imperial titles, ministries and era names, and many introduced a dual system that governed tribal peoples separately from Chinese subjects. Much of the countryside was controlled by fortified manors of Chinese landowners, which sheltered refugees and limited state power. Buddhism, present in China since the first century, gained mass following in this era. Rulers employed monks as advisers, and Yao Xing sponsored the monk Kumārajīva, who arrived in Chang'an in 401 and translated many sutras. The first cave temples at Dunhuang's [Mogao Caves](/site/mogao-caves) were carved under the Former Liang.
 
 ## Reunification
 

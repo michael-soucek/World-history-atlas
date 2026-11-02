@@ -36,7 +36,7 @@ In late 1404, Timur set out to invade Ming China, but died at Otrar on 17 Februa
 
 ## The Timurids
 
-Timur's empire was divided among his descendants. Under his son Shah Rukh and grandson Ulugh Beg, an astronomer who built an observatory in Samarkand, the Timurids presided over a cultural renaissance in Herat and Samarkand. His descendant Babur founded the Mughal Empire in India.
+Timur's empire was divided among his descendants. Under his son Shah Rukh and grandson Ulugh Beg, an astronomer who built an observatory in Samarkand, the Timurids presided over a cultural renaissance in [Herat](/history-of/herat) and Samarkand. His descendant Babur founded the Mughal Empire in India.
 
 ## On our maps
 

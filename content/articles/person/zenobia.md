@@ -9,7 +9,7 @@ sources:
   - Wikidata: Zenobia (Q189705) | https://www.wikidata.org/wiki/Q189705
 written: 2026-10-30
 ---
-In the early 270s CE the desert city of Palmyra, in Syria, briefly controlled most of the Roman East under Zenobia, widow of its king Odaenathus. Ruling for her young son, she took Egypt and much of Asia Minor, then declared herself empress in open defiance of Rome before the emperor Aurelian defeated and captured her in 272. Her story has been heavily embroidered: the main Latin source, the Historia Augusta, is known to invent letters and episodes, so much of what is told about her remains uncertain.
+In the early 270s CE the desert city of [Palmyra](/history-of/palmyra), in Syria, briefly controlled most of the Roman East under Zenobia, widow of its king Odaenathus. Ruling for her young son, she took Egypt and much of Asia Minor, then declared herself empress in open defiance of Rome before the emperor Aurelian defeated and captured her in 272. Her story has been heavily embroidered: the main Latin source, the Historia Augusta, is known to invent letters and episodes, so much of what is told about her remains uncertain.
 
 ## Origins
 

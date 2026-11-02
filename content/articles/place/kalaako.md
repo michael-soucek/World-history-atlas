@@ -15,7 +15,7 @@ Tindale gave the Kalaako an area of about 24,000 square miles, roughly 62,400 sq
 
 ## Neighbours and names
 
-The groups recorded around the Kalaako include the Maduwongga to the north, the Tjeraridjal to the north-east, the Ngadjunmaia, the Njunga to the south, the [Wudjari](/place/wudjari), the Njakinjaki and the [Kalamaia](/place/kalamaia). The Wudjari applied the name Malba to them and to other groups immediately to the Wudjari's north; according to Tindale it meant the circumcised and subincised ones.
+The groups recorded around the Kalaako include the Maduwongga to the north, the Tjeraridjal to the north-east, the Ngadjunmaia, the Njunga to the south, the [Wudjari](/place/wudjari), the [Njakinjaki](/place/njakinjaki) and the [Kalamaia](/place/kalamaia). The Wudjari applied the name Malba to them and to other groups immediately to the Wudjari's north; according to Tindale it meant the circumcised and subincised ones.
 
 ## Language
 

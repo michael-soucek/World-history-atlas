@@ -19,7 +19,7 @@ Maria Antonia Josepha Johanna was born on 2 November 1755 at the Hofburg Palace 
 
 ## Dauphine and queen
 
-She was married by proxy in Vienna in April 1770 and in person at the Palace of Versailles on 16 May 1770, aged fourteen. She had to learn the elaborate etiquette of the French court, and her mother, through letters and the Austrian ambassador Count Mercy-Argenteau, watched and criticised her constantly. Louis XV died in May 1774, and she became queen at eighteen.
+She was married by proxy in Vienna in April 1770 and in person at the [Palace of Versailles](/site/palace-of-versailles) on 16 May 1770, aged fourteen. She had to learn the elaborate etiquette of the French court, and her mother, through letters and the Austrian ambassador Count Mercy-Argenteau, watched and criticised her constantly. Louis XV died in May 1774, and she became queen at eighteen.
 
 For seven years the marriage was not consummated, a source of humiliation for the couple and of mocking speculation at court and abroad. Their first child, Marie-Thérèse, was born only in December 1778. A son, Louis-Joseph, followed in 1781, a second son, Louis-Charles, in 1785, and a daughter, Sophie, who died in infancy, in 1786.
 

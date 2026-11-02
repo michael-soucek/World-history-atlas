@@ -13,7 +13,7 @@ The meaning of the name is uncertain; one theory links it to the old Tamil word 
 
 ## The first revival
 
-King Kadungon restored Pandya power towards the end of the sixth century. For the next three centuries the Pandyas competed with the Chalukyas of Badami and the [Pallavas](/place/pallava-dynasty) of Kanchi for dominance in the south. Rulers such as Maravarman Rajasimha I and Varagunavarman I pushed against the Pallavas and took the Kongu country and southern Kerala, and Srimara Srivallabha, in the ninth century, sacked the Sri Lankan capital of Anuradhapura.
+King Kadungon restored Pandya power towards the end of the sixth century. For the next three centuries the Pandyas competed with the Chalukyas of Badami and the [Pallavas](/place/pallava-dynasty) of Kanchi for dominance in the south. Rulers such as Maravarman Rajasimha I and Varagunavarman I pushed against the Pallavas and took the Kongu country and southern Kerala, and Srimara Srivallabha, in the ninth century, sacked the Sri Lankan capital of [Anuradhapura](/history-of/anuradhapura).
 
 ## Under Chola power
 

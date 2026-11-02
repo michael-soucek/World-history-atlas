@@ -29,7 +29,7 @@ The Republic was a centre of science and learning. Antonie van Leeuwenhoek disco
 
 ## The Golden Age of painting
 
-Dutch painters produced works for a broad market of merchants and middle-class buyers. Rembrandt van Rijn painted portraits, biblical scenes and The Night Watch; Johannes Vermeer painted quiet interiors, such as Girl with a Pearl Earring; and Frans Hals, Jan Steen and Jacob van Ruisdael painted portraits, scenes of everyday life and landscapes.
+Dutch painters produced works for a broad market of merchants and middle-class buyers. Rembrandt van Rijn painted portraits, biblical scenes and The Night Watch; [Johannes Vermeer](/person/johannes-vermeer) painted quiet interiors, such as Girl with a Pearl Earring; and Frans Hals, Jan Steen and Jacob van Ruisdael painted portraits, scenes of everyday life and landscapes.
 
 ## Wars and decline
 

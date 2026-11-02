@@ -25,7 +25,7 @@ Genghis died in 1227, but his sons and grandsons kept expanding. They took north
 
 ## Ögedei and Möngke
 
-Genghis's third son, Ögedei, became Great Khan in 1229. He completed the conquest of the Jin dynasty in 1234, built a capital at Karakorum in Mongolia and sent the great western campaign under Batu. His death in 1241 led to a succession crisis; his son Güyük reigned briefly. In 1251 Möngke, son of Tolui, became Great Khan after a purge of rivals. He sent his brother Hülegü to conquer the Middle East and his brother Kublai to fight the Song, and died in 1259 while campaigning in China.
+Genghis's third son, Ögedei, became Great Khan in 1229. He completed the conquest of the Jin dynasty in 1234, built a capital at [Karakorum](/history-of/karakorum) in Mongolia and sent the great western campaign under Batu. His death in 1241 led to a succession crisis; his son Güyük reigned briefly. In 1251 Möngke, son of Tolui, became Great Khan after a purge of rivals. He sent his brother Hülegü to conquer the Middle East and his brother Kublai to fight the Song, and died in 1259 while campaigning in China.
 
 ## Ruling the empire
 

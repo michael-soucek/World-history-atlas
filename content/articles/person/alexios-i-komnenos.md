@@ -9,7 +9,7 @@ sources:
   - Wikidata: Alexios I Komnenos (Q41600) | https://www.wikidata.org/wiki/Q41600
 written: 2026-10-30
 ---
-Alexios I Komnenos seized the Byzantine throne in 1081, when the empire was losing ground on every side, and held it until his death in 1118. Fighting Normans, Pechenegs and Seljuk Turks in turn, he stopped the decline and began the recovery known as the Komnenian restoration. His request for western soldiers helped set off the First Crusade, and his daughter Anna Komnene made him the hero of her history, the Alexiad.
+Alexios I Komnenos seized the Byzantine throne in 1081, when the empire was losing ground on every side, and held it until his death in 1118. Fighting Normans, [Pechenegs](/place/pechenegs) and Seljuk Turks in turn, he stopped the decline and began the recovery known as the Komnenian restoration. His request for western soldiers helped set off the First Crusade, and his daughter Anna Komnene made him the hero of her history, the Alexiad.
 
 ## A soldier of the aristocracy
 
@@ -17,7 +17,7 @@ Alexios was born around 1057, the son of John Komnenos and the formidable Anna D
 
 ## The coup of 1081
 
-With the Normans of southern Italy preparing to invade, Alexios and his brother Isaac joined a plot backed by the powerful Doukas family and the empress Maria of Alania. They slipped out of Constantinople in February 1081 while their mother kept the emperor distracted from sanctuary in Hagia Sophia, gathered an army, bribed the western troops guarding the walls and entered the city on 1 April. To keep Doukas support, Alexios married Irene Doukaina and accepted the young Constantine Doukas as co-emperor, an arrangement he dropped after his own son John was born in 1087. For years his mother effectively ran the government while he campaigned.
+With the Normans of southern Italy preparing to invade, Alexios and his brother Isaac joined a plot backed by the powerful Doukas family and the empress Maria of Alania. They slipped out of Constantinople in February 1081 while their mother kept the emperor distracted from sanctuary in [Hagia Sophia](/site/hagia-sophia), gathered an army, bribed the western troops guarding the walls and entered the city on 1 April. To keep Doukas support, Alexios married Irene Doukaina and accepted the young Constantine Doukas as co-emperor, an arrangement he dropped after his own son John was born in 1087. For years his mother effectively ran the government while he campaigned.
 
 ## Normans, Pechenegs and Cumans
 

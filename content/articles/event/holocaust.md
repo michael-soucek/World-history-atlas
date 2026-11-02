@@ -28,7 +28,7 @@ Jews resisted in many ways: by escaping, hiding, smuggling food, keeping records
 
 ## Liberation
 
-As Allied armies advanced, the Nazis forced prisoners on death marches. Soviet troops liberated Auschwitz on 27 January 1945, now International Holocaust Remembrance Day. British and American troops found thousands of dead and dying prisoners at camps such as Bergen-Belsen and Dachau.
+As Allied armies advanced, the Nazis forced prisoners on death marches. Soviet troops liberated [Auschwitz](/site/auschwitz) on 27 January 1945, now International Holocaust Remembrance Day. British and American troops found thousands of dead and dying prisoners at camps such as Bergen-Belsen and Dachau.
 
 ## Aftermath
 

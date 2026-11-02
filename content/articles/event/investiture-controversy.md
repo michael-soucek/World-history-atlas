@@ -20,7 +20,7 @@ Henry IV, now an adult, kept appointing bishops. When Gregory protested, Henry a
 
 ## War and exile
 
-The reconciliation did not last. The rebel princes elected a rival king, Rudolf of Rheinfelden, and in 1080 Gregory excommunicated Henry again. Henry's bishops declared Gregory deposed and chose Guibert of Ravenna as pope, Clement III, who is regarded by the Catholic Church as an antipope. Henry besieged Rome, entered it in 1084 and was crowned emperor by Clement. Gregory's Norman ally Robert Guiscard drove Henry out, but his troops plundered Rome, and Gregory, blamed by the citizens, left with the Normans and died in exile at Salerno in May 1085. His successor's successor, Urban II, preached the [First Crusade](/event/first-crusade).
+The reconciliation did not last. The rebel princes elected a rival king, Rudolf of Rheinfelden, and in 1080 Gregory excommunicated Henry again. Henry's bishops declared Gregory deposed and chose Guibert of [Ravenna](/history-of/ravenna) as pope, Clement III, who is regarded by the Catholic Church as an antipope. Henry besieged Rome, entered it in 1084 and was crowned emperor by Clement. Gregory's Norman ally Robert Guiscard drove Henry out, but his troops plundered Rome, and Gregory, blamed by the citizens, left with the Normans and died in exile at Salerno in May 1085. His successor's successor, Urban II, preached the [First Crusade](/event/first-crusade).
 
 ## Henry V and the Concordat of Worms
 

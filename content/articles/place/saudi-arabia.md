@@ -33,4 +33,4 @@ Since 2017, Crown Prince Mohammed bin Salman has led Vision 2030, a programme to
 
 ## On our maps
 
-Our maps show Saudi Arabia from 1938 to 2010, with an outline of about 2 million square kilometres; the basemap's 1938 border extends slightly into today's Yemen. Mecca and Riyadh are inside it throughout. On the 1930 map, the region appears as the Kingdom of Hejaz and Nejd, the name Abdulaziz used before 1932.
+Our maps show Saudi Arabia from 1938 to 2010, with an outline of about 2 million square kilometres; the basemap's 1938 border extends slightly into today's Yemen. Mecca and Riyadh are inside it throughout. On the 1930 map, the region appears as the [Kingdom of Hejaz](/place/kingdom-of-hejaz) and Nejd, the name Abdulaziz used before 1932.

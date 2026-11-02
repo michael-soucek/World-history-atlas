@@ -17,7 +17,7 @@ Harun was born in Rey, near today's Tehran, around 763 or 766, the son of the ca
 
 ## The Barmakids
 
-For the first seventeen years of his reign, government was largely run by the Barmakid family, of Persian Buddhist origin from Balkh: Yahya ibn Khalid, Harun's former tutor, as vizier, and his sons, al-Fadl and Ja'far, Harun's close friend. They were patrons of scholars and poets. In 803 Harun suddenly destroyed the family: Ja'far was executed, and Yahya and al-Fadl imprisoned, where they died. The reasons are unclear; the family's wealth and power may have alarmed him.
+For the first seventeen years of his reign, government was largely run by the Barmakid family, of Persian Buddhist origin from [Balkh](/history-of/balkh): Yahya ibn Khalid, Harun's former tutor, as vizier, and his sons, al-Fadl and Ja'far, Harun's close friend. They were patrons of scholars and poets. In 803 Harun suddenly destroyed the family: Ja'far was executed, and Yahya and al-Fadl imprisoned, where they died. The reasons are unclear; the family's wealth and power may have alarmed him.
 
 ## Baghdad
 

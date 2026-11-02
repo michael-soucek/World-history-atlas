@@ -9,7 +9,7 @@ sources:
   - Wikidata: Pachacuti (Q213758) | https://www.wikidata.org/wiki/Q213758
 written: 2026-10-22
 ---
-Pachacuti was the ninth Sapa Inca, ruler of the Inca state, from 1438 to about 1471. He transformed the small kingdom of Cusco into the Inca Empire, Tawantinsuyu, which would become the largest state in the pre-Columbian Americas, rebuilt Cusco and is traditionally credited with building Machu Picchu.
+Pachacuti was the ninth Sapa Inca, ruler of the Inca state, from 1438 to about 1471. He transformed the small kingdom of Cusco into the Inca Empire, Tawantinsuyu, which would become the largest state in the pre-Columbian Americas, rebuilt Cusco and is traditionally credited with building [Machu Picchu](/site/machu-picchu).
 
 ## Cusco and the Chanka
 

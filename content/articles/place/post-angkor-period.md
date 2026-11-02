@@ -17,7 +17,7 @@ The elite resettled at Chaktomuk, the site of modern Phnom Penh, where the Mekon
 
 ## War with Siam
 
-In the sixteenth century Cambodia was a strong rival of Ayutthaya. After the Burmese subdued Ayutthaya in 1569, Cambodian forces besieged it in 1570 and sacked Phetchaburi in 1581, and they turned back two invasions from [Lan Xang](/place/lan-xang) in the 1570s. Siam struck back: in 1594 its forces captured and sacked Longvek and carried Cambodian royals off to Ayutthaya. The court then moved repeatedly, to Srei Santhor, then Pursat and Lvea Aem, and finally Oudong. In 1618 King Chey Chettha II stopped paying tribute to Ayutthaya, and a Siamese attempt to reconquer the country in 1621–22 failed.
+In the sixteenth century Cambodia was a strong rival of [Ayutthaya](/history-of/ayutthaya). After the Burmese subdued Ayutthaya in 1569, Cambodian forces besieged it in 1570 and sacked Phetchaburi in 1581, and they turned back two invasions from [Lan Xang](/place/lan-xang) in the 1570s. Siam struck back: in 1594 its forces captured and sacked Longvek and carried Cambodian royals off to Ayutthaya. The court then moved repeatedly, to Srei Santhor, then Pursat and Lvea Aem, and finally Oudong. In 1618 King Chey Chettha II stopped paying tribute to Ayutthaya, and a Siamese attempt to reconquer the country in 1621–22 failed.
 
 ## Between Siam and Vietnam
 

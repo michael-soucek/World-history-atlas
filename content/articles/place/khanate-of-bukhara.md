@@ -9,7 +9,7 @@ Uzbek nomads from the steppe founded the Khanate of Bukhara at the start of the 
 
 ## Shaybani's conquests
 
-Shaybani was a grandson of Abu'l Khayr Khan, whose steppe empire along the Syr Darya broke up after his death in 1469. Unlike his grandfather, Shaybani wanted the rich oasis cities to the south. Between 1500 and 1503 he took Samarkand, Bukhara, Tashkent and Andijan, and in spring 1501 he beat the Timurid prince [Babur](/person/babur) at Sar-i Pul. Driven to Kabul, Babur later turned to India and founded the Mughal Empire. Shaybani went on to capture Urgench in Khwarazm in 1505 after a ten-month siege, Balkh in 1506 and Herat in 1507, sweeping away what remained of the [Timurid Empire](/place/timurid-empire).
+Shaybani was a grandson of Abu'l Khayr Khan, whose steppe empire along the Syr Darya broke up after his death in 1469. Unlike his grandfather, Shaybani wanted the rich oasis cities to the south. Between 1500 and 1503 he took Samarkand, Bukhara, Tashkent and Andijan, and in spring 1501 he beat the Timurid prince [Babur](/person/babur) at Sar-i Pul. Driven to Kabul, Babur later turned to India and founded the Mughal Empire. Shaybani went on to capture Urgench in Khwarazm in 1505 after a ten-month siege, [Balkh](/history-of/balkh) in 1506 and Herat in 1507, sweeping away what remained of the [Timurid Empire](/place/timurid-empire).
 
 ## Clash with Persia
 

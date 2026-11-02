@@ -4,7 +4,7 @@ sources:
   - Wikidata: Mongol invasion of the Khwarazmian Empire (Q431177) | https://www.wikidata.org/wiki/Q431177
 written: 2026-10-30
 ---
-From 1219 to 1221 [Genghis Khan](/person/genghis-khan) led the armies of the [Mongol Empire](/place/mongol-empire) against the Khwarazmian Empire, the dominant Muslim power of Central Asia and eastern Iran. In three years the Mongols destroyed the Shah's realm and laid waste to some of the largest cities of the age, including Bukhara, Samarkand, Gurganj, Merv and Nishapur. The war completed the Mongol conquest of Central Asia and opened the way into Persia.
+From 1219 to 1221 [Genghis Khan](/person/genghis-khan) led the armies of the [Mongol Empire](/place/mongol-empire) against the Khwarazmian Empire, the dominant Muslim power of Central Asia and eastern Iran. In three years the Mongols destroyed the Shah's realm and laid waste to some of the largest cities of the age, including Bukhara, Samarkand, Gurganj, [Merv](/history-of/merv) and Nishapur. The war completed the Mongol conquest of Central Asia and opened the way into Persia.
 
 ## Two new empires
 

@@ -12,7 +12,7 @@ In February 2020 the [United States](/country/united-states) and the Taliban sig
 
 ## The offensive
 
-The Taliban began a nationwide offensive on 1 May 2021. They first took rural districts, then, from 6 August, a cascade of provincial capitals. Herat fell on 13 August and Mazar-i-Sharif on 14 August, and on the morning of 15 August Jalalabad fell, closing the last route to Pakistan through the Khyber Pass. American intelligence had estimated in July that the government might survive six to twelve months after the withdrawal; five days before the end, one assessment still gave Kabul 30 to 90 days.
+The Taliban began a nationwide offensive on 1 May 2021. They first took rural districts, then, from 6 August, a cascade of provincial capitals. [Herat](/history-of/herat) fell on 13 August and Mazar-i-Sharif on 14 August, and on the morning of 15 August Jalalabad fell, closing the last route to Pakistan through the Khyber Pass. American intelligence had estimated in July that the government might survive six to twelve months after the withdrawal; five days before the end, one assessment still gave Kabul 30 to 90 days.
 
 ## The capital falls
 

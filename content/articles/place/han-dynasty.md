@@ -29,7 +29,7 @@ Han China had a population of about 57 million in the census of 2 CE, one of the
 
 ## Science and invention
 
-The Han invented paper; the court eunuch Cai Lun is traditionally credited with improving it in 105 CE. Zhang Heng, in the second century CE, built a seismoscope to detect distant earthquakes and an armillary sphere. Han craftsmen made cast-iron tools, wheelbarrows and the first rudders. Han physicians compiled medical texts, and Han mathematicians wrote the Nine Chapters on the Mathematical Art.
+The Han invented paper; the court eunuch Cai Lun is traditionally credited with improving it in 105 CE. [Zhang Heng](/person/zhang-heng), in the second century CE, built a seismoscope to detect distant earthquakes and an armillary sphere. Han craftsmen made cast-iron tools, wheelbarrows and the first rudders. Han physicians compiled medical texts, and Han mathematicians wrote the Nine Chapters on the Mathematical Art.
 
 ## History and thought
 

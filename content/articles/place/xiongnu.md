@@ -3,8 +3,6 @@ sources:
   - Wikipedia: Xiongnu | https://en.wikipedia.org/wiki/Xiongnu
   - Wikidata: Xiongnu (Q188836) | https://www.wikidata.org/wiki/Q188836
   - Borders of Time maps, built on historical-basemaps | https://github.com/aourednik/historical-basemaps
-title: Xiongnu Empire Map: The First Steppe Empire vs Han China
-description: The Xiongnu were the first steppe empire to face a unified China, from the late 3rd century BCE. See their lands on our map, Modu Chanyu and the Han wars.
 written: 2026-10-22
 ---
 The Xiongnu were a confederation of nomadic peoples who dominated the steppes north of China, centred on what is now Mongolia, from the late third century BCE to the first century CE. They were the first steppe empire to confront a unified China, and their long struggle with the Han dynasty shaped the history of both.

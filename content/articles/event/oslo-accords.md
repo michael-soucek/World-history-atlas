@@ -16,7 +16,7 @@ The discussions began unofficially in Norway, facilitated by Terje Rød-Larsen, 
 
 ## What the agreements provided
 
-Oslo I set out a five-year interim period. Israel would first withdraw from Gaza and Jericho, and permanent-status talks on the hardest questions, namely Jerusalem, refugees, settlements, security arrangements and borders, were to start no later than the third year. The Gaza–Jericho Agreement of May 1994 established the Palestinian Authority. Oslo II in 1995 divided the West Bank into Areas A, B and C with differing degrees of Palestinian and Israeli control, provided for an elected Palestinian council and planned further Israeli redeployments. Israel kept control of external borders, airspace and settlements. The agreements did not create a Palestinian state or define the borders of one.
+Oslo I set out a five-year interim period. Israel would first withdraw from Gaza and [Jericho](/history-of/jericho), and permanent-status talks on the hardest questions, namely Jerusalem, refugees, settlements, security arrangements and borders, were to start no later than the third year. The Gaza–Jericho Agreement of May 1994 established the Palestinian Authority. Oslo II in 1995 divided the West Bank into Areas A, B and C with differing degrees of Palestinian and Israeli control, provided for an elected Palestinian council and planned further Israeli redeployments. Israel kept control of external borders, airspace and settlements. The agreements did not create a Palestinian state or define the borders of one.
 
 ## Violence and opposition
 

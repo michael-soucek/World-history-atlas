@@ -25,7 +25,7 @@ Taiwan was held by the Zheng family, Ming loyalists, since Zheng Chenggong, know
 
 ## Russia and the steppe
 
-Russian Cossacks had built forts on the Amur river. After Qing forces besieged Albazin, the Treaty of Nerchinsk was signed in 1689, with Jesuit interpreters, setting the border between the two empires; it was China's first treaty with a European power. Kangxi then campaigned personally against Galdan, the ruler of the Dzungar Mongols, defeating him in 1696; the Khalkha Mongols submitted to the Qing. In 1720 Qing forces entered Tibet.
+Russian Cossacks had built forts on the Amur river. After Qing forces besieged Albazin, the Treaty of Nerchinsk was signed in 1689, with Jesuit interpreters, setting the border between the two empires; it was China's first treaty with a European power. Kangxi then campaigned personally against Galdan, the ruler of the Dzungar Mongols, defeating him in 1696; the [Khalkha Mongols](/place/khalkha-mongols) submitted to the Qing. In 1720 Qing forces entered Tibet.
 
 ## Government
 

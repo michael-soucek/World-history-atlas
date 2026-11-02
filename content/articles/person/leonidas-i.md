@@ -19,7 +19,7 @@ Cleomenes became king, and Dorieus, bitter at being passed over, left Sparta and
 
 ## Leading the Greek alliance
 
-When the Persian king Xerxes prepared to invade Greece, the Greek states that chose to resist met in 481 BCE and placed Leonidas in command of their land forces. Herodotus reports that the oracle at Delphi warned Sparta it would lose either its city or a king descended from Heracles.
+When the Persian king Xerxes prepared to invade Greece, the Greek states that chose to resist met in 481 BCE and placed Leonidas in command of their land forces. Herodotus reports that the oracle at [Delphi](/site/delphi) warned Sparta it would lose either its city or a king descended from Heracles.
 
 In August 480 BCE Leonidas marched north to the narrow pass of Thermopylae with only 300 Spartan citizens, plus helots and other troops, while Sparta celebrated a religious festival. Herodotus says the main army was to follow; modern historians have also pointed to the Olympic Games then under way and to quarrels at home. With contingents from other cities, the Greeks numbered somewhere between four and seven thousand. Herodotus put the Persian host at over two million, a figure no scholar accepts; modern estimates range from about 70,000 to 300,000.
 

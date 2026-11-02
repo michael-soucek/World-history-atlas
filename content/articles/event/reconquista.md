@@ -16,7 +16,7 @@ In the mountains of the north, Christian resistance survived. According to tradi
 
 ## Advance
 
-In the early eleventh century, the Caliphate of Córdoba collapsed into small states, the taifas, which paid tribute to the Christian kings. In 1085 Alfonso VI of Castile took Toledo, the old Visigothic capital. The taifas called for help from the Almoravids, a Berber dynasty from North Africa, who defeated Alfonso at Sagrajas in 1086. The Castilian knight Rodrigo Díaz, El Cid, who served both Christian and Muslim rulers, conquered Valencia in 1094. Portugal became a kingdom and took Lisbon in 1147, with help from crusaders.
+In the early eleventh century, the Caliphate of Córdoba collapsed into small states, the taifas, which paid tribute to the Christian kings. In 1085 Alfonso VI of Castile took [Toledo](/history-of/toledo), the old Visigothic capital. The taifas called for help from the Almoravids, a Berber dynasty from North Africa, who defeated Alfonso at Sagrajas in 1086. The Castilian knight Rodrigo Díaz, El Cid, who served both Christian and Muslim rulers, conquered Valencia in 1094. Portugal became a kingdom and took Lisbon in 1147, with help from crusaders.
 
 ## Las Navas de Tolosa
 
@@ -24,7 +24,7 @@ In the twelfth century, another North African dynasty, the Almohads, took over a
 
 ## Granada
 
-Only the Nasrid emirate of Granada remained, paying tribute to Castile, for over two centuries. Granada's rulers built the Alhambra palace. After the union of Castile and Aragon through the marriage of Isabella and Ferdinand, the Catholic Monarchs, they waged a ten-year war, and Granada surrendered on 2 January 1492.
+Only the Nasrid emirate of Granada remained, paying tribute to Castile, for over two centuries. Granada's rulers built the [Alhambra](/site/alhambra) palace. After the union of Castile and Aragon through the marriage of Isabella and Ferdinand, the Catholic Monarchs, they waged a ten-year war, and Granada surrendered on 2 January 1492.
 
 ## Aftermath
 

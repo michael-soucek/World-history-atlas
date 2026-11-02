@@ -9,7 +9,7 @@ The Republic of Turkey was proclaimed on 29 October 1923, from the remains of th
 
 ## Anatolia before Turkey
 
-Anatolia, the Asian part of modern Turkey, has been home to many civilisations: the Neolithic settlement of Çatalhöyük, the Hittites, the Phrygians of King Midas, the Lydians of Croesus, Greek cities such as Troy, Ephesus and Miletus, the Romans and the Byzantines. Turkish peoples arrived after the Seljuk victory at Manzikert in 1071. The Seljuk Sultanate of Rum and then the Ottoman Empire ruled Anatolia for centuries.
+Anatolia, the Asian part of modern Turkey, has been home to many civilisations: the Neolithic settlement of [Çatalhöyük](/site/catalhoyuk), the Hittites, the Phrygians of King Midas, the Lydians of Croesus, Greek cities such as [Troy](/site/troy), Ephesus and Miletus, the Romans and the Byzantines. Turkish peoples arrived after the Seljuk victory at Manzikert in 1071. The Seljuk Sultanate of Rum and then the Ottoman Empire ruled Anatolia for centuries.
 
 ## The end of the empire
 

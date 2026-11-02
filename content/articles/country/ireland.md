@@ -31,7 +31,7 @@ Ireland's history begins with hunter-gatherers who arrived after the last Ice Ag
 
 The earliest firm evidence for people in Ireland comes from after the last glaciation. A bear bone with cut marks from County Clare suggests a human presence around 10,500 BCE, and by about 8000 BCE Mesolithic hunter-gatherers were living at sites such as Mount Sandel in County Derry, fishing, gathering hazelnuts and hunting wild boar. Farming arrived around 4000 BCE, probably brought by settlers from Britain and the Continent as part of the [Neolithic Revolution](/event/neolithic-revolution). At the Céide Fields in County Mayo, stone walls of an extensive field system survive beneath the bog.
 
-Neolithic communities built more than a thousand megalithic tombs. The greatest is Newgrange in the Boyne valley, built around 3200 BCE, whose passage is lit by the rising sun at the winter solstice. Metalworking began around 2500 BCE, and Bronze Age Ireland became known for its copper mines and its fine goldwork, including crescent-shaped collars called lunulae.
+Neolithic communities built more than a thousand megalithic tombs. The greatest is [Newgrange](/site/newgrange) in the Boyne valley, built around 3200 BCE, whose passage is lit by the rising sun at the winter solstice. Metalworking began around 2500 BCE, and Bronze Age Ireland became known for its copper mines and its fine goldwork, including crescent-shaped collars called lunulae.
 
 ## Iron Age and Gaelic Ireland
 

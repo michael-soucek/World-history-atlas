@@ -18,7 +18,7 @@ Li Shimin was born in 598 at Wugong, near modern Xianyang in Shaanxi, the second
 
 By the 610s the Sui was falling apart. Emperor Yang's costly wars against the Korean kingdom of Goguryeo and his vast building projects provoked rebellions across the country. In 617 Li Yuan, then based at Taiyuan, rose in revolt; later official histories gave Li Shimin the leading role in persuading his father, an account historians treat with caution, since it was written under Taizong's own supervision. The rebels took the Sui capital, Chang'an, today's [Xi'an](/history-of/xian), late in 617, and in 618 Li Yuan proclaimed himself emperor of the new Tang dynasty, later known as Emperor Gaozu.
 
-Over the next four years Li Shimin, now Prince of Qin, led the campaigns that destroyed the Tang's main rivals. He defeated Xue Rengao in the north-west in 618, and in 621 won his greatest victory at Hulao, defeating the warlord Dou Jiande and forcing the surrender of Wang Shichong at Luoyang in a single campaign. By 624 China was largely reunited under the Tang.
+Over the next four years Li Shimin, now Prince of Qin, led the campaigns that destroyed the Tang's main rivals. He defeated Xue Rengao in the north-west in 618, and in 621 won his greatest victory at Hulao, defeating the warlord Dou Jiande and forcing the surrender of Wang Shichong at [Luoyang](/history-of/luoyang) in a single campaign. By 624 China was largely reunited under the Tang.
 
 ## The Xuanwu Gate
 

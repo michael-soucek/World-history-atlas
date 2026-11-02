@@ -18,7 +18,7 @@ Most Hopewell communities were small, often one to three households beside a riv
 
 ## The exchange network
 
-Rivers carried an exchange system that brought exotic raw materials from across much of what is now the [United States](/country/united-states): obsidian traced to Yellowstone, copper from the upper Great Lakes, mica, shells and sharks' teeth from the coasts, and grizzly bear teeth. Craftworkers in centres such as the Scioto valley turned these into finished goods, and Hopewell items such as stone platform pipes have been found in burials far beyond the Midwest. The network's reach ran from Lake Ontario to the Crystal River mounds in Florida and west to the Kansas City area, and local variants include the Havana Hopewell of Illinois, the Marksville culture of the lower Mississippi and the Goodall focus of Michigan.
+Rivers carried an exchange system that brought exotic raw materials from across much of what is now the [United States](/country/united-states): obsidian traced to Yellowstone, copper from the upper Great Lakes, mica, shells and sharks' teeth from the coasts, and grizzly bear teeth. Craftworkers in centres such as the Scioto valley turned these into finished goods, and Hopewell items such as stone platform pipes have been found in burials far beyond the Midwest. The network's reach ran from Lake Ontario to the Crystal River mounds in Florida and west to the Kansas City area, and local variants include the Havana Hopewell of Illinois, the [Marksville culture](/place/marksville-culture) of the lower Mississippi and the [Goodall focus](/place/goodall-focus) of Michigan.
 
 ## Earthworks and art
 

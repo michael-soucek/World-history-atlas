@@ -8,7 +8,7 @@ The Hellenistic period is the era of Mediterranean and Near Eastern history betw
 
 ## The successors
 
-Alexander the Great conquered the Persian Empire and died in Babylon in 323 BCE without an adult heir. His generals, the Diadochi, "successors", fought each other for over forty years. Three main dynasties emerged: the Ptolemies in Egypt, founded by Ptolemy I; the Seleucids in Syria, Mesopotamia and Iran, founded by Seleucus I; and the Antigonids in Macedon. Other kingdoms included Pergamon, in Asia Minor, and the Greco-Bactrian kingdom, in today's Afghanistan, whose rulers later expanded into India as the Indo-Greek kings.
+Alexander the Great conquered the Persian Empire and died in Babylon in 323 BCE without an adult heir. His generals, the Diadochi, "successors", fought each other for over forty years. Three main dynasties emerged: the Ptolemies in Egypt, founded by Ptolemy I; the Seleucids in Syria, Mesopotamia and Iran, founded by Seleucus I; and the Antigonids in Macedon. Other kingdoms included [Pergamon](/history-of/pergamon), in Asia Minor, and the Greco-Bactrian kingdom, in today's Afghanistan, whose rulers later expanded into India as the Indo-Greek kings.
 
 ## Alexandria
 
@@ -16,7 +16,7 @@ Alexandria, founded by Alexander in Egypt, became the greatest city of the Helle
 
 ## Science
 
-The Hellenistic period was a golden age of science. Euclid, in Alexandria, wrote the Elements, a textbook of geometry used for over two thousand years. Archimedes, in Syracuse, calculated the value of pi, discovered the principle of buoyancy and designed machines. Eratosthenes calculated the circumference of the earth with remarkable accuracy. Aristarchus of Samos proposed that the earth moves around the sun. Hipparchus founded trigonometry and catalogued stars. Physicians such as Herophilus dissected human bodies. The Antikythera mechanism, found in a shipwreck, is a complex geared device that modelled the movements of the sun, moon and planets.
+The Hellenistic period was a golden age of science. Euclid, in Alexandria, wrote the Elements, a textbook of geometry used for over two thousand years. Archimedes, in [Syracuse](/history-of/syracuse), calculated the value of pi, discovered the principle of buoyancy and designed machines. Eratosthenes calculated the circumference of the earth with remarkable accuracy. Aristarchus of Samos proposed that the earth moves around the sun. Hipparchus founded trigonometry and catalogued stars. Physicians such as Herophilus dissected human bodies. The Antikythera mechanism, found in a shipwreck, is a complex geared device that modelled the movements of the sun, moon and planets.
 
 ## Philosophy
 

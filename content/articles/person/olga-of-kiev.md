@@ -35,7 +35,7 @@ She failed to convert Sviatoslav, who feared his warriors would mock him, though
 
 ## Death and sainthood
 
-Olga died in Kiev in July 969, shortly after a siege of the city by the Pechenegs, and at her request was buried by a priest without a pagan funeral feast. Her grandson [Vladimir the Great](/person/vladimir-the-great) adopted Christianity in 988, completing the [Christianisation of Kievan Rus'](/event/christianization-of-kievan-rus) that she had begun. She was formally recognised as a saint by the Russian Church in 1547 and is honoured in both Russia and [Ukraine](/country/ukraine).
+Olga died in Kiev in July 969, shortly after a siege of the city by the [Pechenegs](/place/pechenegs), and at her request was buried by a priest without a pagan funeral feast. Her grandson [Vladimir the Great](/person/vladimir-the-great) adopted Christianity in 988, completing the [Christianisation of Kievan Rus'](/event/christianization-of-kievan-rus) that she had begun. She was formally recognised as a saint by the Russian Church in 1547 and is honoured in both Russia and [Ukraine](/country/ukraine).
 
 ## On our maps
 

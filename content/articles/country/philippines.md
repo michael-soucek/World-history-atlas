@@ -52,7 +52,7 @@ Spain ruled through a thin layer of officials and, above all, the Catholic relig
 
 ## Reform and revolution
 
-The opening of Manila to foreign trade and of the Suez Canal in 1869 brought sugar, tobacco and abaca exports, a wealthier mestizo and native elite, and young Filipinos studying in Europe. The execution of three Filipino priests, known as Gomburza, after a mutiny at Cavite in 1872 became a turning point. The ilustrados of the Propaganda Movement, above all José Rizal, whose novel Noli Me Tángere appeared in 1887, called for reform and equal rights. In 1892 Andrés Bonifacio founded the Katipunan, a secret society seeking independence, and in August 1896 it launched the Philippine Revolution. Spain executed Rizal in Manila on 30 December 1896. Leadership passed to Emilio Aguinaldo, who had Bonifacio executed in 1897 and accepted exile in Hong Kong under the truce of Biak-na-Bato.
+The opening of Manila to foreign trade and of the [Suez Canal](/site/suez-canal) in 1869 brought sugar, tobacco and abaca exports, a wealthier mestizo and native elite, and young Filipinos studying in Europe. The execution of three Filipino priests, known as Gomburza, after a mutiny at Cavite in 1872 became a turning point. The ilustrados of the Propaganda Movement, above all José Rizal, whose novel Noli Me Tángere appeared in 1887, called for reform and equal rights. In 1892 Andrés Bonifacio founded the Katipunan, a secret society seeking independence, and in August 1896 it launched the Philippine Revolution. Spain executed Rizal in Manila on 30 December 1896. Leadership passed to Emilio Aguinaldo, who had Bonifacio executed in 1897 and accepted exile in Hong Kong under the truce of Biak-na-Bato.
 
 ## American rule and the Philippine–American War
 

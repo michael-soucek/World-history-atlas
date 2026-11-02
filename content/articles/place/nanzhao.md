@@ -25,7 +25,7 @@ Under King Yimouxun, Nanzhao grew tired of Tibetan demands and, in 794, broke wi
 
 ## A regional power
 
-In the ninth century, Nanzhao expanded and raided its neighbours. In 829 it attacked Chengdu, in Sichuan, carrying off thousands of craftsmen and artisans. In 832 it sacked the Pyu city-states, in today's Myanmar, and deported thousands of people. In 858–866 it attacked the Tang protectorate of Annam, in today's northern Vietnam, taking Hanoi in 863 before Tang forces under Gao Pian drove them out. These wars drained the Tang.
+In the ninth century, Nanzhao expanded and raided its neighbours. In 829 it attacked Chengdu, in Sichuan, carrying off thousands of craftsmen and artisans. In 832 it sacked the [Pyu city-states](/place/pyu-city-states), in today's Myanmar, and deported thousands of people. In 858–866 it attacked the Tang protectorate of Annam, in today's northern Vietnam, taking Hanoi in 863 before Tang forces under Gao Pian drove them out. These wars drained the Tang.
 
 ## Culture
 

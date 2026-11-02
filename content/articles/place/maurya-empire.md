@@ -5,7 +5,7 @@ sources:
   - Borders of Time maps, built on historical-basemaps | https://github.com/aourednik/historical-basemaps
 written: 2026-10-22
 ---
-The Maurya Empire was the first state to rule most of the Indian subcontinent. Its founder, Chandragupta Maurya, overthrew the Nanda kings of Magadha around 320 BCE, shortly after Alexander the Great's army had turned back from the Indus. Within a generation the Mauryas governed from Afghanistan to Bengal, from their capital at Pataliputra, near modern Patna.
+The Maurya Empire was the first state to rule most of the Indian subcontinent. Its founder, Chandragupta Maurya, overthrew the Nanda kings of Magadha around 320 BCE, shortly after Alexander the Great's army had turned back from the Indus. Within a generation the Mauryas governed from Afghanistan to Bengal, from their capital at Pataliputra, near modern [Patna](/history-of/patna).
 
 ## Chandragupta and the Greeks
 
@@ -17,7 +17,7 @@ Between Chandragupta and Ashoka came Chandragupta's son Bindusara, who ruled fro
 
 ## Government
 
-The Mauryas ran one of the largest administrations of the ancient world. The empire was divided into provinces governed by princes or senior officials, from capitals such as Taxila, Ujjain and Tosali. Officials supervised agriculture, irrigation, mines, forests, trade and markets. The Arthashastra, a treatise on statecraft traditionally attributed to Chandragupta's adviser Kautilya, describes a state that controlled the economy closely and used spies extensively; how far it describes the actual Mauryan state is debated, since the text was revised over later centuries. Megasthenes described officials who measured land and supervised the city of Pataliputra in committees.
+The Mauryas ran one of the largest administrations of the ancient world. The empire was divided into provinces governed by princes or senior officials, from capitals such as [Taxila](/history-of/taxila), Ujjain and Tosali. Officials supervised agriculture, irrigation, mines, forests, trade and markets. The Arthashastra, a treatise on statecraft traditionally attributed to Chandragupta's adviser Kautilya, describes a state that controlled the economy closely and used spies extensively; how far it describes the actual Mauryan state is debated, since the text was revised over later centuries. Megasthenes described officials who measured land and supervised the city of Pataliputra in committees.
 
 ## Pataliputra
 
@@ -33,7 +33,7 @@ Chandragupta's grandson Ashoka extended the empire south and east. His conquest 
 
 ## Ashoka's dhamma in practice
 
-Ashoka's edicts describe concrete measures: wells and rest houses along roads, shade trees, medical treatment for people and animals, officials called dhamma-mahamattas who toured the empire to promote moral behaviour and settle disputes, and restrictions on the killing of animals, including at the royal kitchens. He also warned forest tribes that his remorse did not mean weakness. His rock edicts in the north-west, written in Greek and Aramaic at Kandahar, show the empire's reach into Afghanistan.
+Ashoka's edicts describe concrete measures: wells and rest houses along roads, shade trees, medical treatment for people and animals, officials called dhamma-mahamattas who toured the empire to promote moral behaviour and settle disputes, and restrictions on the killing of animals, including at the royal kitchens. He also warned forest tribes that his remorse did not mean weakness. His rock edicts in the north-west, written in Greek and Aramaic at [Kandahar](/history-of/kandahar), show the empire's reach into Afghanistan.
 
 ## Art
 

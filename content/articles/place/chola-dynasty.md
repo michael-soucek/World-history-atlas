@@ -3,8 +3,6 @@ sources:
   - Wikipedia: Chola dynasty | https://en.wikipedia.org/wiki/Chola_dynasty
   - Wikidata: Chola dynasty (Q151148) | https://www.wikidata.org/wiki/Q151148
   - Borders of Time maps, built on historical-basemaps | https://github.com/aourednik/historical-basemaps
-title: Chola Dynasty Map: Empire of Rajaraja I & Rajendra I
-description: The Cholas ruled the Tamil south of India and from the 9th to 13th centuries built a sea power reaching Southeast Asia. See their borders on our map.
 written: 2026-10-22
 ---
 The Cholas were one of the three ancient royal houses of the Tamil country in southern India, alongside the Cheras and Pandyas. They are mentioned in an inscription of the Maurya emperor Ashoka in the third century BCE. Their greatest age came between the ninth and thirteenth centuries CE, when the Chola Empire dominated southern India and became a sea power whose fleets reached Southeast Asia.
@@ -19,7 +17,7 @@ Around 850, Vijayalaya Chola, a vassal of the Pallavas, captured Thanjavur from 
 
 ## Rajaraja I
 
-Rajaraja I, who ruled from 985 to 1014, built the Chola Empire. He conquered the Chera kingdom in Kerala, the Pandyas, the northern half of Sri Lanka, where he sacked the old capital Anuradhapura and made Polonnaruwa his base, and the Maldives. He fought the Western Chalukyas in the Deccan. He organised a detailed land survey, reorganised the administration and promoted local self-government through village assemblies. He built the Brihadisvara temple at Thanjavur, completed around 1010, with its tower about 66 metres high, topped by a huge capstone, and decorated with inscriptions listing donations and temple staff, including hundreds of dancers.
+Rajaraja I, who ruled from 985 to 1014, built the Chola Empire. He conquered the Chera kingdom in Kerala, the Pandyas, the northern half of Sri Lanka, where he sacked the old capital [Anuradhapura](/history-of/anuradhapura) and made [Polonnaruwa](/history-of/polonnaruwa) his base, and the Maldives. He fought the Western Chalukyas in the Deccan. He organised a detailed land survey, reorganised the administration and promoted local self-government through village assemblies. He built the Brihadisvara temple at Thanjavur, completed around 1010, with its tower about 66 metres high, topped by a huge capstone, and decorated with inscriptions listing donations and temple staff, including hundreds of dancers.
 
 ## Rajendra I
 

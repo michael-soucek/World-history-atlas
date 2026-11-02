@@ -11,7 +11,7 @@ Wangkatha is both a language and a shared identity for Aboriginal peoples of the
 
 ## Eight peoples, one language
 
-The Wangkatha identity draws together eight peoples, among them the Koara (Kuwarra), Waljen, Maduwongga, Tjalkatjarra, Pindiini and [Ngaanyatjarra](/place/ngaanyatjarra), each said to have its own dialect. Their speech belongs to the Western Desert language, a large dialect chain of the Pama–Nyungan family that stretches across the deserts of the Northern Territory, South Australia and Western Australia, and whose speakers can understand one another across its whole range. Linguists find the Pindiini, Wangkatha and Wangkatja varieties hard to tell apart. Wangkatha has roughly 200 to 300 fluent speakers, most of them living in towns and communities such as Kalgoorlie, Leonora, Laverton, Cosmo Newberry and Mulga Queen.
+The Wangkatha identity draws together eight peoples, among them the [Koara](/place/koara) (Kuwarra), Waljen, Maduwongga, Tjalkatjarra, Pindiini and [Ngaanyatjarra](/place/ngaanyatjarra), each said to have its own dialect. Their speech belongs to the Western Desert language, a large dialect chain of the Pama–Nyungan family that stretches across the deserts of the Northern Territory, South Australia and Western Australia, and whose speakers can understand one another across its whole range. Linguists find the Pindiini, Wangkatha and Wangkatja varieties hard to tell apart. Wangkatha has roughly 200 to 300 fluent speakers, most of them living in towns and communities such as Kalgoorlie, Leonora, Laverton, Cosmo Newberry and Mulga Queen.
 
 ## Gold and the towns
 

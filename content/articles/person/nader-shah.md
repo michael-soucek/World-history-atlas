@@ -17,7 +17,7 @@ Nader, born Nadr Qoli, came from the Qirqlu clan of the Afshars, a Turkmen tribe
 
 ## Restoring Iran
 
-In 1722 Afghan rebels under Mahmud Hotaki captured Isfahan and forced Shah Soltan Hoseyn to abdicate. Russia under [Peter the Great](/person/peter-the-great) seized the Caspian provinces, and the [Ottoman Empire](/place/ottoman-empire) took much of the west. Nader, by now leading his own small force in Khorasan, joined the late shah's son, Tahmasp II, and became his commander. He retook Mashhad in 1726, beat the Abdali Afghans near Herat in May 1729 and crushed the Afghan ruler Ashraf at Damghan and Murche-Khort later that year, restoring Tahmasp to Isfahan in December.
+In 1722 Afghan rebels under Mahmud Hotaki captured Isfahan and forced Shah Soltan Hoseyn to abdicate. Russia under [Peter the Great](/person/peter-the-great) seized the Caspian provinces, and the [Ottoman Empire](/place/ottoman-empire) took much of the west. Nader, by now leading his own small force in Khorasan, joined the late shah's son, Tahmasp II, and became his commander. He retook Mashhad in 1726, beat the Abdali Afghans near [Herat](/history-of/herat) in May 1729 and crushed the Afghan ruler Ashraf at Damghan and Murche-Khort later that year, restoring Tahmasp to Isfahan in December.
 
 ## From general to shah
 
@@ -25,7 +25,7 @@ Nader then turned on the Ottomans. When Tahmasp, acting on his own, lost Nader's
 
 ## The invasion of India
 
-After taking Kandahar in 1738, Nader invaded the weakened [Mughal Empire](/place/mughal-empire). He forced the Khyber Pass and, on 13 February 1739, routed a far larger Mughal army at Karnal. In Delhi, after a rumour of his death led to attacks that killed some 900 of his soldiers, he ordered the city sacked. On 22 March between 20,000 and 30,000 inhabitants were killed and many women and children enslaved. He left in May with an immense treasure, including the Peacock Throne and the Koh-i-Noor diamond, so large that Iran was spared taxes for three years.
+After taking [Kandahar](/history-of/kandahar) in 1738, Nader invaded the weakened [Mughal Empire](/place/mughal-empire). He forced the Khyber Pass and, on 13 February 1739, routed a far larger Mughal army at Karnal. In Delhi, after a rumour of his death led to attacks that killed some 900 of his soldiers, he ordered the city sacked. On 22 March between 20,000 and 30,000 inhabitants were killed and many women and children enslaved. He left in May with an immense treasure, including the Peacock Throne and the Koh-i-Noor diamond, so large that Iran was spared taxes for three years.
 
 ## Later campaigns and cruelty
 

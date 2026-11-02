@@ -31,4 +31,4 @@ Guarani is an official language in Paraguay and Bolivia, and around 2012 an esti
 
 ## On our maps
 
-Our 1492 map draws approximate Guaraní territories under Guarani-language labels: "Tekohá (Guarani)" for the main area, with separate outlines for the Ñandeva (Avá Guaraní) and the Mbya, and the outlines are rough indications. Neighbours include the [Charrúa](/place/charrua) to the south and the Kaingang to the east.
+Our 1492 map draws approximate Guaraní territories under Guarani-language labels: "Tekohá (Guarani)" for the main area, with separate outlines for the Ñandeva (Avá Guaraní) and the Mbya, and the outlines are rough indications. Neighbours include the [Charrúa](/place/charrua) to the south and the [Kaingang](/place/kaingang) to the east.

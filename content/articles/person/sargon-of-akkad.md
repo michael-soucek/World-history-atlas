@@ -16,7 +16,7 @@ Sargon's name in Akkadian, Sharru-ukin, means "the true king" or "the king is le
 
 ## Conquest of Sumer
 
-Southern Mesopotamia was divided among Sumerian city-states, such as Ur, Uruk, Lagash and Umma. The most powerful ruler was Lugalzagesi of Uruk, who had united much of Sumer. Sargon defeated him, according to inscriptions, in battle, and brought him in a neck-stock to the gate of the temple of Enlil at Nippur. He then conquered Ur, Lagash and Umma, and "washed his weapons in the sea", the Persian Gulf, a sign of total victory. His inscriptions claim thirty-four battles.
+Southern Mesopotamia was divided among Sumerian city-states, such as Ur, [Uruk](/history-of/uruk), Lagash and Umma. The most powerful ruler was Lugalzagesi of Uruk, who had united much of Sumer. Sargon defeated him, according to inscriptions, in battle, and brought him in a neck-stock to the gate of the temple of Enlil at Nippur. He then conquered Ur, Lagash and Umma, and "washed his weapons in the sea", the Persian Gulf, a sign of total victory. His inscriptions claim thirty-four battles.
 
 ## Akkad
 

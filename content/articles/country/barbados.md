@@ -66,7 +66,7 @@ Parliament abolished slavery across the [British Empire](/place/british-empire) 
 
 Freedom brought little land. With almost every acre in cane, most freed people had to stay on the estates as tenants whose right to a house plot depended on working for the planter at low wages. Barbados kept its own assembly when other islands were turned into Crown colonies, but the vote was restricted by property qualifications, and a small white elite of planters and merchants, together with a few prosperous people of colour, continued to rule. A cholera epidemic in 1854 killed more than 20,000 people, and riots broke out in 1876 when Governor John Pope Hennessy pressed for union with the Windward Islands.
 
-Emigration became a lifeline. Barbadians went to Trinidad, British Guiana and the United States, and between 1904 and 1914 tens of thousands of men worked on the building of the Panama Canal, sending home remittances known as "Panama money". Returning soldiers from the [First World War](/event/world-war-i), the journalist Clennell Wickham and the doctor Charles Duncan O'Neal's Democratic League began to challenge the old order in the 1920s.
+Emigration became a lifeline. Barbadians went to Trinidad, British Guiana and the United States, and between 1904 and 1914 tens of thousands of men worked on the building of the [Panama Canal](/site/panama-canal), sending home remittances known as "Panama money". Returning soldiers from the [First World War](/event/world-war-i), the journalist Clennell Wickham and the doctor Charles Duncan O'Neal's Democratic League began to challenge the old order in the 1920s.
 
 ## Labour, reform and independence
 

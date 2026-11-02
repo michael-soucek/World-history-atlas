@@ -12,7 +12,7 @@ Lachish, a fortified hilltop city in the lowlands south-west of Jerusalem, was s
 
 ## A rebellion against Assyria
 
-When the Assyrian king Sargon II died in 705 BCE, several small states in the Levant stopped sending tribute to his successor. Among them was the kingdom of Judah under Hezekiah, who had been encouraged by [Egypt](/culture/ancient-egypt). In 701 BCE Sennacherib marched west to restore control. Sidon and Ashkelon were stormed, other states quickly submitted, and an Egyptian force sent to help the city of Ekron was beaten. The army then turned on Judah, capturing walled towns such as Azekah.
+When the Assyrian king Sargon II died in 705 BCE, several small states in the Levant stopped sending tribute to his successor. Among them was the kingdom of Judah under Hezekiah, who had been encouraged by [Egypt](/culture/ancient-egypt). In 701 BCE Sennacherib marched west to restore control. [Sidon](/history-of/sidon) and Ashkelon were stormed, other states quickly submitted, and an Egyptian force sent to help the city of Ekron was beaten. The army then turned on Judah, capturing walled towns such as Azekah.
 
 ## The city and the siege
 
@@ -24,7 +24,7 @@ According to the palace reliefs, the city was plundered, its people led away in 
 
 ## The Lachish reliefs
 
-Sennacherib gave an entire room of his South-West Palace at Nineveh, in modern [Iraq](/country/iraq), to carved alabaster panels showing the siege. They depict ramps, rams, archers sheltering behind wicker screens, captives and the king enthroned as the spoils are paraded before him. The panels were uncovered by the excavator Austen Henry Layard between 1845 and 1847 and are now in the British Museum. The size and central placement of the series, the only battle scene Sennacherib is known to have commissioned, suggest how much the victory mattered to him.
+Sennacherib gave an entire room of his South-West Palace at [Nineveh](/history-of/nineveh), in modern [Iraq](/country/iraq), to carved alabaster panels showing the siege. They depict ramps, rams, archers sheltering behind wicker screens, captives and the king enthroned as the spoils are paraded before him. The panels were uncovered by the excavator Austen Henry Layard between 1845 and 1847 and are now in the British Museum. The size and central placement of the series, the only battle scene Sennacherib is known to have commissioned, suggest how much the victory mattered to him.
 
 ## Jerusalem spared
 

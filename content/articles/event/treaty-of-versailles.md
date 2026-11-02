@@ -4,7 +4,7 @@ sources:
   - Wikidata: Treaty of Versailles (Q8736) | https://www.wikidata.org/wiki/Q8736
 written: 2026-10-30
 ---
-The Treaty of Versailles was the peace settlement between Germany and the Allied powers that formally ended [World War I](/event/world-war-i). It was signed on 28 June 1919 in the Hall of Mirrors at the Palace of Versailles, five years to the day after the assassination in Sarajevo, and came into force on 10 January 1920. Its territorial losses, disarmament terms and reparations shaped European politics for the next two decades, and its fairness has been argued over ever since.
+The Treaty of Versailles was the peace settlement between Germany and the Allied powers that formally ended [World War I](/event/world-war-i). It was signed on 28 June 1919 in the Hall of Mirrors at the [Palace of Versailles](/site/palace-of-versailles), five years to the day after the assassination in Sarajevo, and came into force on 10 January 1920. Its territorial losses, disarmament terms and reparations shaped European politics for the next two decades, and its fairness has been argued over ever since.
 
 ## The peace conference
 

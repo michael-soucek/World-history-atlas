@@ -16,7 +16,7 @@ The label is an outsider's word. "Tungus" was the Russian name for the Evenki, p
 
 ## Forest peoples of the Amur
 
-Chinese sources record a succession of peoples in the forests and river valleys of Manchuria, among them the Sushen, the Yilou and the Mohe, though how directly these connect to later Tungusic groups is uncertain. The Mohe, who were part of the kingdom of Balhae, are described as settled farmers who raised pigs and grew soybeans, millet and rice alongside hunting. Their likely descendants, the Jurchens, first appear by name in Chinese records in 748.
+Chinese sources record a succession of peoples in the forests and river valleys of Manchuria, among them the Sushen, the Yilou and the Mohe, though how directly these connect to later Tungusic groups is uncertain. The Mohe, who were part of the kingdom of [Balhae](/place/balhae), are described as settled farmers who raised pigs and grew soybeans, millet and rice alongside hunting. Their likely descendants, the Jurchens, first appear by name in Chinese records in 748.
 
 ## Jurchen and Manchu empires
 

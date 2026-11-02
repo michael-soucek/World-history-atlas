@@ -15,7 +15,7 @@ William Shakespeare was an English playwright, poet and actor, widely regarded a
 
 ## Stratford beginnings
 
-Shakespeare was baptised in Holy Trinity Church, Stratford-upon-Avon, on 26 April 1564; his birthday is traditionally kept on 23 April, though the exact date is unknown. His father, John Shakespeare, was a glover and wool dealer who rose to become bailiff, the town's mayor, before falling into debt in the late 1570s. His mother, Mary Arden, came from a farming family of some standing. William almost certainly attended the town's grammar school, where boys learned Latin grammar and read authors such as Ovid, whose stories he later used again and again, but he did not go to university.
+Shakespeare was baptised in Holy Trinity Church, Stratford-upon-Avon, on 26 April 1564; his birthday is traditionally kept on 23 April, though the exact date is unknown. His father, John Shakespeare, was a glover and wool dealer who rose to become bailiff, the town's mayor, before falling into debt in the late 1570s. His mother, Mary Arden, came from a farming family of some standing. William almost certainly attended the town's grammar school, where boys learned Latin grammar and read authors such as [Ovid](/person/ovid), whose stories he later used again and again, but he did not go to university.
 
 In November 1582, at eighteen, he married Anne Hathaway, who was 26 and already pregnant. Their daughter Susanna was born in 1583, followed in 1585 by twins, Hamnet and Judith. Hamnet died in 1596, aged eleven. Almost nothing is recorded of Shakespeare between 1585 and 1592, the so-called lost years, and stories that he was a schoolmaster or fled Stratford after poaching deer are later legends.
 

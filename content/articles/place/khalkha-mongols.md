@@ -17,7 +17,7 @@ After the fall of the [Yuan dynasty](/place/yuan-dynasty) in China, the Mongols 
 
 ## Khans of the north
 
-Geresenje's descendants founded the great princely houses of the Tüsheet Khan, the Zasagt Khan and the Setsen Khan, and in 1725 the Qing created a fourth, the Sain Noyon Khan. The northern Khalkha fought regular wars with the [Oirats](/place/oirat-confederation) to the west. One of the most famous princes, Abtai Sain Khan (1554 to 1588), campaigned against the Oirats, adopted the Gelug school of Tibetan Buddhism, and in 1585 founded the monastery of Erdene Zuu, built partly with stones from the ruins of the old imperial capital of Karakorum. After meeting the third Dalai Lama in 1587 he banned shamanism among his people. Meanwhile the southern Five Khalkha were conquered by the rising Manchus and absorbed into their banner system.
+Geresenje's descendants founded the great princely houses of the Tüsheet Khan, the Zasagt Khan and the Setsen Khan, and in 1725 the Qing created a fourth, the Sain Noyon Khan. The northern Khalkha fought regular wars with the [Oirats](/place/oirat-confederation) to the west. One of the most famous princes, Abtai Sain Khan (1554 to 1588), campaigned against the Oirats, adopted the Gelug school of Tibetan Buddhism, and in 1585 founded the monastery of Erdene Zuu, built partly with stones from the ruins of the old imperial capital of [Karakorum](/history-of/karakorum). After meeting the third Dalai Lama in 1587 he banned shamanism among his people. Meanwhile the southern Five Khalkha were conquered by the rising Manchus and absorbed into their banner system.
 
 ## Zanabazar and the Qing
 

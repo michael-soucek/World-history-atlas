@@ -15,7 +15,7 @@ Rising from the stage of Constantinople's Hippodrome to the imperial throne, The
 
 Almost everything known about her youth comes from the historian Procopius, and above all from his Secret History, a hostile pamphlet written after her death and only published in 1623. Most modern scholars think she was born around 495, probably in Constantinople, although later writers placed her birth in Syria, Cyprus, Paphlagonia or Alexandria. Her father, Acacius, kept bears for the Green chariot-racing faction; her mother was a dancer and actress. After her father died, the Blue faction gave the family a livelihood.
 
-She went on stage with her elder sister Comito. Procopius describes a career of prostitution in lurid detail, and John of Ephesus also says she came "from the brothel", though historians such as David Potter treat Procopius's account as exaggerated invective containing a core of fact. She later lived in North Africa as the companion of Hecebolus, governor of the Libyan Pentapolis, then passed through Alexandria and Antioch before returning to the capital, where she met Justinian.
+She went on stage with her elder sister Comito. Procopius describes a career of prostitution in lurid detail, and John of [Ephesus](/history-of/ephesus) also says she came "from the brothel", though historians such as David Potter treat Procopius's account as exaggerated invective containing a core of fact. She later lived in North Africa as the companion of Hecebolus, governor of the Libyan Pentapolis, then passed through Alexandria and Antioch before returning to the capital, where she met Justinian.
 
 ## Marriage and empire
 

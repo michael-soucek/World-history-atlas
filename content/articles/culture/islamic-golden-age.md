@@ -4,7 +4,7 @@ sources:
   - Wikidata: Islamic Golden Age (Q745799) | https://www.wikidata.org/wiki/Q745799
 written: 2026-10-22
 ---
-The Islamic Golden Age was a period of cultural, economic and scientific flourishing in the Islamic world, traditionally dated from the eighth to the thirteenth century, centred on Baghdad under the Abbasid caliphs but extending to Córdoba, Cairo, Bukhara and other cities. Scholars working in Arabic and Persian preserved, translated and built upon the knowledge of the Greeks, Persians and Indians, making major contributions to mathematics, astronomy, medicine, philosophy and other fields.
+The Islamic Golden Age was a period of cultural, economic and scientific flourishing in the Islamic world, traditionally dated from the eighth to the thirteenth century, centred on Baghdad under the Abbasid caliphs but extending to Córdoba, Cairo, [Bukhara](/history-of/bukhara) and other cities. Scholars working in Arabic and Persian preserved, translated and built upon the knowledge of the Greeks, Persians and Indians, making major contributions to mathematics, astronomy, medicine, philosophy and other fields.
 
 ## Foundations
 
@@ -12,7 +12,7 @@ The Abbasid caliphs, who came to power in 750, founded Baghdad in 762 as their c
 
 ## Translation
 
-In the translation movement, many Greek works of philosophy, mathematics, astronomy and medicine, by Aristotle, Plato, Euclid, Ptolemy and Galen, were translated into Arabic, often through Syriac, by scholars such as Hunayn ibn Ishaq. The House of Wisdom in Baghdad, associated with the caliph al-Ma'mun in the ninth century, was a centre of this activity. Persian and Indian works were also translated.
+In the translation movement, many Greek works of philosophy, mathematics, astronomy and medicine, by Aristotle, Plato, Euclid, Ptolemy and [Galen](/person/galen), were translated into Arabic, often through Syriac, by scholars such as Hunayn ibn Ishaq. The House of Wisdom in Baghdad, associated with the caliph al-Ma'mun in the ninth century, was a centre of this activity. Persian and Indian works were also translated.
 
 ## Mathematics
 
@@ -28,7 +28,7 @@ Al-Razi, Rhazes, in the ninth and tenth centuries, distinguished smallpox from m
 
 ## Science and philosophy
 
-Ibn al-Haytham, Alhazen, in Cairo in the eleventh century, wrote the Book of Optics, explaining vision as light entering the eye and using experiments, an important step towards the scientific method. Al-Biruni studied astronomy, geography and the cultures of India. Philosophers such as al-Kindi, al-Farabi, Ibn Sina and Ibn Rushd, Averroes, in Córdoba, discussed and commented on Aristotle, and debated the relationship between reason and faith with theologians such as al-Ghazali.
+[Ibn al-Haytham](/person/ibn-al-haytham), Alhazen, in Cairo in the eleventh century, wrote the Book of Optics, explaining vision as light entering the eye and using experiments, an important step towards the scientific method. Al-Biruni studied astronomy, geography and the cultures of India. Philosophers such as al-Kindi, al-Farabi, Ibn Sina and Ibn Rushd, Averroes, in Córdoba, discussed and commented on Aristotle, and debated the relationship between reason and faith with theologians such as al-Ghazali.
 
 ## Arts and society
 

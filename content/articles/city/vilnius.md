@@ -5,7 +5,7 @@ sources:
   - Wikipedia: History of Vilnius | https://en.wikipedia.org/wiki/History_of_Vilnius
   - Wikipedia: Vilnius Old Town | https://en.wikipedia.org/wiki/Vilnius_Old_Town
 ---
-Vilnius lies in south-eastern Lithuania where the small Vilnia River flows into the Neris, among wooded hills that gave its first rulers a natural fortress. It grew up as the capital of the Grand Duchy of Lithuania, the last pagan state in Europe and later one of its largest. Over the following centuries it was a Polish-speaking city, a Russian provincial capital and one of the great centres of Jewish life, known as the "Jerusalem of Lithuania", before becoming the capital of independent Lithuania.
+Vilnius lies in south-eastern Lithuania where the small Vilnia River flows into the Neris, among wooded hills that gave its first rulers a natural fortress. It grew up as the capital of the [Grand Duchy of Lithuania](/place/grand-duchy-of-lithuania), the last pagan state in Europe and later one of its largest. Over the following centuries it was a Polish-speaking city, a Russian provincial capital and one of the great centres of Jewish life, known as the "Jerusalem of Lithuania", before becoming the capital of independent Lithuania.
 
 ## Capital of the Grand Duchy
 

@@ -25,7 +25,7 @@ sources:
   - Wikipedia: Muslim Brotherhood | https://en.wikipedia.org/wiki/Muslim_Brotherhood
 written: 2026-10-25
 ---
-The land east of the Jordan River has been inhabited for hundreds of thousands of years and saw some of the world's first farming villages. In antiquity it was home to the kingdoms of Ammon, Moab and Edom and later to the Nabataeans of Petra, before passing under Roman, Byzantine and, from the seventh century, Islamic rule. Under the Ottomans it was a thinly governed frontier of tribes and pilgrim routes. The modern state was created after the First World War as the British-backed Emirate of Transjordan under the Hashemite family, became independent in 1946, and has since been shaped by its wars and peace with Israel, by successive waves of refugees, and by the long reigns of King Hussein and King Abdullah II.
+The land east of the Jordan River has been inhabited for hundreds of thousands of years and saw some of the world's first farming villages. In antiquity it was home to the kingdoms of Ammon, Moab and Edom and later to the Nabataeans of [Petra](/site/petra), before passing under Roman, Byzantine and, from the seventh century, Islamic rule. Under the Ottomans it was a thinly governed frontier of tribes and pilgrim routes. The modern state was created after the First World War as the British-backed Emirate of Transjordan under the Hashemite family, became independent in 1946, and has since been shaped by its wars and peace with Israel, by successive waves of refugees, and by the long reigns of King Hussein and King Abdullah II.
 
 ## Early peoples and the first villages
 

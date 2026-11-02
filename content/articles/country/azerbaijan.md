@@ -38,7 +38,7 @@ The Azykh cave, in the south of the Karabakh mountains, holds traces of human ha
 
 ## Medes, Persians and Greeks
 
-In the first millennium BCE the lands south of the Aras river came under the Medes and then the [Achaemenid Empire](/place/achaemenid-empire) of [Cyrus the Great](/person/cyrus-the-great). After [Alexander the Great](/person/alexander-the-great)'s conquest, a Persian general named Atropates founded a kingdom south of the Aras, Atropatene, from which the name Azerbaijan derives. The name was used for centuries for the region now in north-western Iran; it was applied to the lands north of the Aras only in 1918. [Zoroastrianism](/culture/zoroastrianism) took deep root, encouraged by the natural gas fires that burn on the Absheron peninsula, and the region later became famous for its fire temples.
+In the first millennium BCE the lands south of the Aras river came under the Medes and then the [Achaemenid Empire](/place/achaemenid-empire) of [Cyrus the Great](/person/cyrus-the-great). After [Alexander the Great](/person/alexander-the-great)'s conquest, a Persian general named Atropates founded a kingdom south of the Aras, [Atropatene](/place/atropatene), from which the name Azerbaijan derives. The name was used for centuries for the region now in north-western Iran; it was applied to the lands north of the Aras only in 1918. [Zoroastrianism](/culture/zoroastrianism) took deep root, encouraged by the natural gas fires that burn on the Absheron peninsula, and the region later became famous for its fire temples.
 
 ## Caucasian Albania
 

@@ -27,7 +27,7 @@ By about 37 BC Virgil had joined the circle of Maecenas, Octavian's political ad
 
 ## The Aeneid
 
-Virgil spent his last eleven years, from 29 to 19 BC, on the Aeneid, an epic in twelve books modelled on Homer. It follows the Trojan refugee Aeneas from the fall of Troy, through his doomed love affair with Dido, queen of Carthage, and a visit to the underworld, to his wars in Italy, where his descendants would found Rome. Prophecies of Roman greatness and of Augustus run through it, and scholars still argue whether it celebrates the new regime or quietly questions its cost.
+Virgil spent his last eleven years, from 29 to 19 BC, on the Aeneid, an epic in twelve books modelled on Homer. It follows the Trojan refugee Aeneas from the fall of [Troy](/site/troy), through his doomed love affair with Dido, queen of Carthage, and a visit to the underworld, to his wars in Italy, where his descendants would found Rome. Prophecies of Roman greatness and of Augustus run through it, and scholars still argue whether it celebrates the new regime or quietly questions its cost.
 
 In 19 BC he travelled to Greece, met Augustus in Athens, fell ill with fever and died soon after landing in Italy, at Brundisium according to the main tradition, on 21 September. He had asked that the unfinished poem be burned, but Augustus had his friends Varius and Tucca publish it with minimal changes. He was buried at Naples, where a structure called Virgil's tomb still draws visitors.
 

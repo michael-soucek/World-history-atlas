@@ -4,7 +4,7 @@ sources:
   - Wikidata: Ancestral Puebloans (Q478805) | https://www.wikidata.org/wiki/Q478805
 written: 2026-10-22
 ---
-The Ancestral Puebloans were a Native American culture of the Four Corners region of the south-western United States, where Utah, Colorado, Arizona and New Mexico meet. Between about 100 and 1600 CE, they built multi-storey stone and adobe villages, great houses and cliff dwellings, such as those at Chaco Canyon and Mesa Verde. They are the ancestors of the modern Pueblo peoples, such as the Hopi, Zuni and the Rio Grande Pueblos.
+The Ancestral Puebloans were a Native American culture of the Four Corners region of the south-western United States, where Utah, Colorado, Arizona and New Mexico meet. Between about 100 and 1600 CE, they built multi-storey stone and adobe villages, great houses and cliff dwellings, such as those at [Chaco Canyon](/site/chaco-canyon) and [Mesa Verde](/site/mesa-verde). They are the ancestors of the modern Pueblo peoples, such as the Hopi, Zuni and the Rio Grande Pueblos.
 
 ## The name
 

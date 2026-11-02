@@ -29,7 +29,7 @@ Genghis first attacked the Tangut kingdom of Western Xia, which submitted in 121
 
 ## Khwarazm
 
-In 1218, Mongol forces conquered the Qara Khitai in Central Asia. That year, a Mongol trade caravan was massacred at Otrar, in the Khwarazmian Empire, and the shah, Muhammad II, executed a Mongol envoy. Genghis invaded in 1219 with a large army. Over the next three years, the Mongols destroyed the cities of Bukhara, Samarkand, Urgench, Merv, Nishapur and Herat, killing large numbers of inhabitants; contemporary chronicles give figures in the hundreds of thousands, probably exaggerated, but the destruction was enormous. The shah fled and died on an island in the Caspian. His generals Jebe and Subutai rode around the Caspian, defeating Georgians, Kipchaks and Rus' princes at the Kalka river in 1223.
+In 1218, Mongol forces conquered the Qara Khitai in Central Asia. That year, a Mongol trade caravan was massacred at Otrar, in the Khwarazmian Empire, and the shah, Muhammad II, executed a Mongol envoy. Genghis invaded in 1219 with a large army. Over the next three years, the Mongols destroyed the cities of Bukhara, Samarkand, Urgench, [Merv](/history-of/merv), Nishapur and [Herat](/history-of/herat), killing large numbers of inhabitants; contemporary chronicles give figures in the hundreds of thousands, probably exaggerated, but the destruction was enormous. The shah fled and died on an island in the Caspian. His generals Jebe and Subutai rode around the Caspian, defeating Georgians, Kipchaks and Rus' princes at the Kalka river in 1223.
 
 ## Death
 

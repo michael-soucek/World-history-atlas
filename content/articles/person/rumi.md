@@ -14,7 +14,7 @@ Jalal al-Din Muhammad, known in the West as Rumi and in the Muslim world as Mawl
 
 ## Flight from the east
 
-Rumi was born on 30 September 1207 at Wakhsh, in today's [Tajikistan](/country/tajikistan), in the cultural orbit of Balkh, where his father, Baha al-Din Walad, was a preacher and jurist. His name Balkhi refers to that region; Rumi means "from Rum", the name Muslims still gave to formerly Byzantine Anatolia. When the [Mongols](/place/mongol-empire) invaded Central Asia, sometime between 1215 and 1220, the family moved west through Iran to Baghdad, made the pilgrimage to Mecca and passed through Damascus before settling for some years at Karaman. Rumi married at Karaman in 1225, and in 1228 the family settled in Konya at the invitation, it seems, of the Seljuk sultan of Rum.
+Rumi was born on 30 September 1207 at Wakhsh, in today's [Tajikistan](/country/tajikistan), in the cultural orbit of [Balkh](/history-of/balkh), where his father, Baha al-Din Walad, was a preacher and jurist. His name Balkhi refers to that region; Rumi means "from Rum", the name Muslims still gave to formerly Byzantine Anatolia. When the [Mongols](/place/mongol-empire) invaded Central Asia, sometime between 1215 and 1220, the family moved west through Iran to Baghdad, made the pilgrimage to Mecca and passed through Damascus before settling for some years at Karaman. Rumi married at Karaman in 1225, and in 1228 the family settled in Konya at the invitation, it seems, of the Seljuk sultan of Rum.
 
 ## Scholar and preacher
 

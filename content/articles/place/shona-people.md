@@ -7,7 +7,7 @@ sources:
   - Borders of Time maps, built on historical-basemaps | https://github.com/aourednik/historical-basemaps
 written: 2026-11-01
 ---
-The Shona are a Bantu-speaking people of southern Africa. They make up the majority of the population of [Zimbabwe](/country/zimbabwe), at least 70 per cent by common estimates, and also live in [Mozambique](/country/mozambique), South Africa and a worldwide diaspora. Their ancestors built Great Zimbabwe and a series of powerful states on the Zimbabwe plateau, and in the past outsiders sometimes called them the Karanga.
+The Shona are a Bantu-speaking people of southern Africa. They make up the majority of the population of [Zimbabwe](/country/zimbabwe), at least 70 per cent by common estimates, and also live in [Mozambique](/country/mozambique), South Africa and a worldwide diaspora. Their ancestors built [Great Zimbabwe](/site/great-zimbabwe) and a series of powerful states on the Zimbabwe plateau, and in the past outsiders sometimes called them the Karanga.
 
 ## Peoples and language
 

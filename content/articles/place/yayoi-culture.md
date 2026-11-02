@@ -30,7 +30,7 @@ The first written descriptions of people in Japan come from China, which called 
 
 ## Himiko and Yamatai
 
-The Records of the Three Kingdoms describe Yamatai and its queen Himiko, a ritual leader chosen after a period of war, whose brother managed government and who exchanged envoys with the Chinese state of Wei. Where Yamatai lay is a long-running debate between sites in northern Kyushu, such as Yoshinogari, and Makimuku in Nara; recent research has strengthened the case for Makimuku, and some identify the Hashihaka mound there as Himiko's tomb. By the Kofun period, skeletons from most of Japan, though not those of the [Ainu](/place/ainu-people), resemble the Yayoi type.
+The Records of the Three Kingdoms describe Yamatai and its queen Himiko, a ritual leader chosen after a period of war, whose brother managed government and who exchanged envoys with the Chinese state of Wei. Where Yamatai lay is a long-running debate between sites in northern Kyushu, such as Yoshinogari, and Makimuku in [Nara](/history-of/nara); recent research has strengthened the case for Makimuku, and some identify the Hashihaka mound there as Himiko's tomb. By the Kofun period, skeletons from most of Japan, though not those of the [Ainu](/place/ainu-people), resemble the Yayoi type.
 
 ## On our maps
 

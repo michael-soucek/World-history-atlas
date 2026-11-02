@@ -8,7 +8,7 @@ The Greco-Persian Wars were a series of conflicts between the Achaemenid Persian
 
 ## The Ionian Revolt
 
-In the mid-sixth century BCE, Cyrus the Great of Persia conquered Lydia and the Greek cities of Ionia, on the coast of Asia Minor. In 499 BCE the Ionian cities rebelled, led by Aristagoras of Miletus. Athens and Eretria sent ships, and the rebels burned Sardis. The Persians crushed the revolt, destroying Miletus in 494 BCE. King Darius I decided to punish Athens and Eretria.
+In the mid-sixth century BCE, Cyrus the Great of Persia conquered Lydia and the Greek cities of Ionia, on the coast of Asia Minor. In 499 BCE the Ionian cities rebelled, led by Aristagoras of [Miletus](/history-of/miletus). Athens and Eretria sent ships, and the rebels burned Sardis. The Persians crushed the revolt, destroying Miletus in 494 BCE. King Darius I decided to punish Athens and Eretria.
 
 ## Marathon
 
@@ -16,7 +16,7 @@ A first Persian expedition in 492 BCE, under Mardonius, was wrecked by a storm o
 
 ## Xerxes's invasion
 
-Darius died in 486 BCE, and his son Xerxes prepared a huge invasion. He built a bridge of boats across the Hellespont and a canal through the Athos peninsula. Herodotus claimed his army numbered over a million; modern historians estimate perhaps 100,000 to 300,000. In 480 BCE the army marched through Thrace and Macedon. Many Greek states submitted, but about thirty, led by Sparta and Athens, formed an alliance. The Athenian Themistocles had persuaded Athens to use the profits of a new silver mine to build a fleet of triremes.
+Darius died in 486 BCE, and his son Xerxes prepared a huge invasion. He built a bridge of boats across the Hellespont and a canal through the Athos peninsula. Herodotus claimed his army numbered over a million; modern historians estimate perhaps 100,000 to 300,000. In 480 BCE the army marched through Thrace and Macedon. Many Greek states submitted, but about thirty, led by [Sparta](/history-of/sparta) and Athens, formed an alliance. The Athenian Themistocles had persuaded Athens to use the profits of a new silver mine to build a fleet of triremes.
 
 ## Thermopylae and Artemisium
 

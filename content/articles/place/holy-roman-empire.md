@@ -17,7 +17,7 @@ For centuries, emperors claimed authority over the papacy, and popes claimed the
 
 ## A federation
 
-After the fall of the Hohenstaufen in the mid-thirteenth century, the empire became a loose federation. Its members included great princes such as the electors and dukes, counts and knights, archbishops and bishops, abbeys, and free imperial cities such as Frankfurt, Nuremberg and Augsburg. The Golden Bull of 1356, issued by Charles IV, fixed seven prince-electors: the archbishops of Mainz, Cologne and Trier, the king of Bohemia, the count palatine of the Rhine, the duke of Saxony and the margrave of Brandenburg. Charles IV made Prague a great capital, founding its university in 1348.
+After the fall of the Hohenstaufen in the mid-thirteenth century, the empire became a loose federation. Its members included great princes such as the electors and dukes, counts and knights, archbishops and bishops, abbeys, and free imperial cities such as Frankfurt, Nuremberg and Augsburg. The Golden Bull of 1356, issued by Charles IV, fixed seven prince-electors: the archbishops of Mainz, Cologne and [Trier](/history-of/trier), the king of Bohemia, the count palatine of the Rhine, the duke of Saxony and the margrave of Brandenburg. Charles IV made Prague a great capital, founding its university in 1348.
 
 ## The Habsburgs
 

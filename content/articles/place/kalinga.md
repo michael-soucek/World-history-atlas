@@ -32,7 +32,7 @@ From the 11th century the [Eastern Ganga dynasty](/place/eastern-ganga-dynasty) 
 
 ## Legacy overseas
 
-Kalinga's ports looked east. Tradition links Kalinga to Kaundinya, co-founder of Funan in Cambodia, and to early merchant settlements in lower Burma; the historian R. C. Majumdar argued that the Shailendra dynasty of Java may have come from Kalinga. The words Keling or Kling, derived from the name, are still used in parts of South-East Asia for people of Indian origin, now often with a pejorative sense.
+Kalinga's ports looked east. Tradition links Kalinga to Kaundinya, co-founder of [Funan](/place/funan) in Cambodia, and to early merchant settlements in lower Burma; the historian R. C. Majumdar argued that the Shailendra dynasty of Java may have come from Kalinga. The words Keling or Kling, derived from the name, are still used in parts of South-East Asia for people of Indian origin, now often with a pejorative sense.
 
 ## On our maps
 

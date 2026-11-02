@@ -8,7 +8,7 @@ The Punic Wars were three wars fought between Rome and Carthage from 264 to 146 
 
 ## Carthage
 
-Carthage, in today's Tunisia, was founded by Phoenicians from Tyre, according to tradition in 814 BCE. It became the centre of a trading empire with territories in North Africa, Sicily, Sardinia and Spain, with a powerful navy. Rome, by the 260s BCE, controlled most of the Italian peninsula.
+Carthage, in today's Tunisia, was founded by Phoenicians from [Tyre](/history-of/tyre), according to tradition in 814 BCE. It became the centre of a trading empire with territories in North Africa, Sicily, Sardinia and Spain, with a powerful navy. Rome, by the 260s BCE, controlled most of the Italian peninsula.
 
 ## The First Punic War
 
@@ -20,7 +20,7 @@ Carthage, led by the Barca family, built a new empire in Spain. In 218 BCE Hamil
 
 ## The Third Punic War
 
-Carthage recovered economically, which alarmed some Romans. The senator Cato the Elder ended his speeches with the words "Carthage must be destroyed". When Carthage fought Numidia, Rome's ally, in self-defence in 150 BCE, Rome declared war. Rome demanded that the Carthaginians abandon their city and move inland; they refused. After a three-year siege, Scipio Aemilianus took Carthage in 146 BCE. The city was destroyed, and its surviving inhabitants, about 50,000, were enslaved. The territory became the Roman province of Africa. The story that the Romans sowed the land with salt is a later invention.
+Carthage recovered economically, which alarmed some Romans. The senator Cato the Elder ended his speeches with the words "Carthage must be destroyed". When Carthage fought [Numidia](/place/numidia), Rome's ally, in self-defence in 150 BCE, Rome declared war. Rome demanded that the Carthaginians abandon their city and move inland; they refused. After a three-year siege, Scipio Aemilianus took Carthage in 146 BCE. The city was destroyed, and its surviving inhabitants, about 50,000, were enslaved. The territory became the Roman province of Africa. The story that the Romans sowed the land with salt is a later invention.
 
 ## Consequences
 

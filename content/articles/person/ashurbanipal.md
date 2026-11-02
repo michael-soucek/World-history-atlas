@@ -9,7 +9,7 @@ sources:
   - Wikidata: Ashurbanipal (Q171191) | https://www.wikidata.org/wiki/Q171191
 written: 2026-10-30
 ---
-Ashurbanipal ruled the Neo-Assyrian Empire from 669 BCE until his death, probably in 631 BCE, and is often called the last great king of Assyria. His armies fought from Egypt to Iran, and his great library at Nineveh preserved much of what survives of Mesopotamian literature. Yet within two decades of his death the empire had collapsed, and historians still argue over how much of the blame is his.
+Ashurbanipal ruled the Neo-Assyrian Empire from 669 BCE until his death, probably in 631 BCE, and is often called the last great king of Assyria. His armies fought from Egypt to Iran, and his great library at [Nineveh](/history-of/nineveh) preserved much of what survives of Mesopotamian literature. Yet within two decades of his death the empire had collapsed, and historians still argue over how much of the blame is his.
 
 ## A disputed succession
 
@@ -21,7 +21,7 @@ Esarhaddon had conquered Egypt in 671 from its Kushite pharaoh Taharqa, but the 
 
 ## Elam and the war between brothers
 
-Assyria's old enemy Elam, in what is now south-western Iran, attacked Babylonia in 665 and again in 653. In the second war Ashurbanipal's army defeated and killed the Elamite king Teumman near Susa. In 652 Shamash-shum-ukin, resentful of his brother's interference, rebelled and drew in Babylonians, Chaldeans, Arameans, Elamites and others. After years of fighting, Babylon fell in 648 following a two-year siege marked by famine. Shamash-shum-ukin died as the city burned; later tradition said he killed himself, but contemporary texts are vague. Ashurbanipal's inscriptions boast of the slaughter that followed.
+Assyria's old enemy Elam, in what is now south-western Iran, attacked Babylonia in 665 and again in 653. In the second war Ashurbanipal's army defeated and killed the Elamite king Teumman near [Susa](/history-of/susa). In 652 Shamash-shum-ukin, resentful of his brother's interference, rebelled and drew in Babylonians, Chaldeans, Arameans, Elamites and others. After years of fighting, Babylon fell in 648 following a two-year siege marked by famine. Shamash-shum-ukin died as the city burned; later tradition said he killed himself, but contemporary texts are vague. Ashurbanipal's inscriptions boast of the slaughter that followed.
 
 Elam had backed the rebels, and in 647 and 646 Assyrian armies devastated it. Susa was plundered, its temples and royal tombs desecrated, and many thousands of people were deported. Some scholars describe the campaign as genocide; Elam never recovered. Two wars against Arab tribes followed, which brought rich plunder but no lasting control.
 

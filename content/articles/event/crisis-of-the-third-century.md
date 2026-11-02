@@ -16,7 +16,7 @@ In the east, the Parthian dynasty had been overthrown in the 220s by the Sasania
 
 ## The empire divided
 
-Unable to rely on a distant emperor, regions began to defend themselves. In 260 the general Postumus was proclaimed emperor in the west and created a breakaway state, the Gallic Empire, covering Gaul, Britain and for a time Spain. In the east, the city of Palmyra, under its ruler Odaenathus and then his widow Zenobia, took control of much of the eastern provinces and, from around 270, Egypt as well. The emperor Gallienus, who ruled from 253 to 268, held only the central part of the empire.
+Unable to rely on a distant emperor, regions began to defend themselves. In 260 the general Postumus was proclaimed emperor in the west and created a breakaway state, the Gallic Empire, covering Gaul, Britain and for a time Spain. In the east, the city of [Palmyra](/history-of/palmyra), under its ruler Odaenathus and then his widow Zenobia, took control of much of the eastern provinces and, from around 270, Egypt as well. The emperor Gallienus, who ruled from 253 to 268, held only the central part of the empire.
 
 ## Plague and money
 

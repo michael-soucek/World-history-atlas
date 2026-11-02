@@ -9,7 +9,7 @@ Lima lies on the central coast of Peru, in the valley of the Rímac River, a nar
 
 ## Before the Spanish
 
-The central coast was one of the earliest centres of civilisation in the Americas. Monumental temple complexes were being built in the valleys around Lima from the third millennium BCE, and the great city of Caral lies about 200 kilometres to the north. Between about 200 and 700 CE people of the Lima culture raised large adobe platforms such as Huaca Pucllana, which still stands among the apartment blocks of Miraflores. The region later came under the influence of the [Wari culture](/place/wari-culture) of the highlands. By the 1400s the Rímac and Lurín valleys formed the Ichma polity, centred on Pachacamac, a temple and oracle visited by pilgrims from across the Andes. In the late 15th century the area was absorbed into the [Inca Empire](/place/inca-empire).
+The central coast was one of the earliest centres of civilisation in the Americas. Monumental temple complexes were being built in the valleys around Lima from the third millennium BCE, and the great city of [Caral](/site/caral) lies about 200 kilometres to the north. Between about 200 and 700 CE people of the Lima culture raised large adobe platforms such as Huaca Pucllana, which still stands among the apartment blocks of Miraflores. The region later came under the influence of the [Wari culture](/place/wari-culture) of the highlands. By the 1400s the Rímac and Lurín valleys formed the Ichma polity, centred on Pachacamac, a temple and oracle visited by pilgrims from across the Andes. In the late 15th century the area was absorbed into the [Inca Empire](/place/inca-empire).
 
 ## City of Kings
 

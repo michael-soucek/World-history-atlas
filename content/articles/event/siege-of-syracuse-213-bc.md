@@ -4,7 +4,7 @@ sources:
   - Wikidata: Siege of Syracuse (213–212 BCE) (Q533090) | https://www.wikidata.org/wiki/Q533090
 written: 2026-10-30
 ---
-From the spring of 213 BC to the autumn of 212 BC, a Roman army and fleet besieged the Greek city of Syracuse on the east coast of Sicily, which had broken with Rome and sided with Carthage during the Second Punic War. The defenders held out for many months, helped by the machines of the mathematician [Archimedes](/person/archimedes), but the city finally fell, was sacked, and Rome gained control of all of Sicily. Archimedes was killed in the capture.
+From the spring of 213 BC to the autumn of 212 BC, a Roman army and fleet besieged the Greek city of [Syracuse](/history-of/syracuse) on the east coast of Sicily, which had broken with Rome and sided with Carthage during the Second Punic War. The defenders held out for many months, helped by the machines of the mathematician [Archimedes](/person/archimedes), but the city finally fell, was sacked, and Rome gained control of all of Sicily. Archimedes was killed in the capture.
 
 ## A loyal ally changes sides
 

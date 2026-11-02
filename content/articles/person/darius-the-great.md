@@ -21,15 +21,15 @@ Revolts broke out across the empire, in Persia, Media, Babylon, Elam and elsewhe
 
 ## Organising the empire
 
-Darius organised the empire into about twenty satrapies, each paying a fixed annual tribute in silver or goods. He introduced a gold coin, the daric, and standardised weights and measures. He built the Royal Road, about 2,700 kilometres long, from Sardis to Susa, with stations where messengers could change horses, so that royal messages could cross the empire in about a week. Herodotus wrote that nothing mortal travels faster than these messengers. Aramaic was used as a common administrative language. Darius completed a canal from the Nile to the Red Sea.
+Darius organised the empire into about twenty satrapies, each paying a fixed annual tribute in silver or goods. He introduced a gold coin, the daric, and standardised weights and measures. He built the Royal Road, about 2,700 kilometres long, from Sardis to [Susa](/history-of/susa), with stations where messengers could change horses, so that royal messages could cross the empire in about a week. Herodotus wrote that nothing mortal travels faster than these messengers. Aramaic was used as a common administrative language. Darius completed a canal from the Nile to the Red Sea.
 
 ## Persepolis
 
-Darius moved the capital to Susa, where he built a palace, and began the great ceremonial city of Persepolis, in Fars, with its vast Apadana audience hall. Reliefs on its staircases show delegations from the subject peoples, Medes, Babylonians, Ethiopians, Indians and others, bringing gifts to the king. Thousands of clay tablets found there, the Persepolis Fortification Tablets, record payments of food rations to workers, including women, showing a sophisticated administration.
+Darius moved the capital to Susa, where he built a palace, and began the great ceremonial city of [Persepolis](/site/persepolis), in Fars, with its vast Apadana audience hall. Reliefs on its staircases show delegations from the subject peoples, Medes, Babylonians, Ethiopians, Indians and others, bringing gifts to the king. Thousands of clay tablets found there, the Persepolis Fortification Tablets, record payments of food rations to workers, including women, showing a sophisticated administration.
 
 ## Campaigns
 
-Darius conquered parts of the Indus valley around 515 BCE, and campaigned against the Scythians across the Danube around 513 BCE, without success, though he took Thrace. The Ionian Greek cities of Asia Minor revolted in 499 BCE, with help from Athens and Eretria; Darius crushed the revolt by 494 BCE, sacking Miletus.
+Darius conquered parts of the Indus valley around 515 BCE, and campaigned against the Scythians across the Danube around 513 BCE, without success, though he took Thrace. The Ionian Greek cities of Asia Minor revolted in 499 BCE, with help from Athens and Eretria; Darius crushed the revolt by 494 BCE, sacking [Miletus](/history-of/miletus).
 
 ## Marathon
 

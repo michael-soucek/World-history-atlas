@@ -23,7 +23,7 @@ In April 1336 he climbed Mont Ventoux simply for the pleasure of it, and his let
 
 ## The scholar
 
-Petrarch travelled widely, served as a diplomat and collected old Latin manuscripts wherever he went. In 1345, in the cathedral library of Verona, he found a collection of Cicero's letters to his friend Atticus that had been unknown. He encouraged a translation of Homer, though he could not read Greek himself. He wrote letters to long-dead writers such as Cicero and Virgil, essays on the solitary life and on fortune, and an imaginary dialogue with a figure modelled on Saint Augustine. Scorning what he saw as the ignorance of the centuries after Rome, he created the idea of the Dark Ages, which modern historians generally reject.
+Petrarch travelled widely, served as a diplomat and collected old Latin manuscripts wherever he went. In 1345, in the cathedral library of Verona, he found a collection of Cicero's letters to his friend Atticus that had been unknown. He encouraged a translation of Homer, though he could not read Greek himself. He wrote letters to long-dead writers such as Cicero and [Virgil](/person/virgil), essays on the solitary life and on fortune, and an imaginary dialogue with a figure modelled on Saint Augustine. Scorning what he saw as the ignorance of the centuries after Rome, he created the idea of the Dark Ages, which modern historians generally reject.
 
 ## Later years in Italy
 

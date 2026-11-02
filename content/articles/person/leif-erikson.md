@@ -27,7 +27,7 @@ The Greenlanders' saga describes three landfalls: a barren, rocky country Leif c
 
 ## The evidence at L'Anse aux Meadows
 
-The sagas are literature, not record, and the only strictly historical mentions of Vinland are brief ones by the German chronicler Adam of Bremen, around 1075, and the Icelandic historian Ari the Wise. Hard evidence came in the early 1960s, when the Norwegian explorer Helge Ingstad and his wife, the archaeologist Anne Stine Ingstad, located the remains of a Norse settlement at L'Anse aux Meadows on the northern tip of Newfoundland, in [Canada](/country/canada). Radiocarbon dating places it between about 990 and 1050, and tree-ring analysis of cut wood points to the year 1021. It may have been a ship-repair station on the way to richer lands around the Gulf of St Lawrence; whether it is the camp of the sagas cannot be proved.
+The sagas are literature, not record, and the only strictly historical mentions of Vinland are brief ones by the German chronicler Adam of Bremen, around 1075, and the Icelandic historian Ari the Wise. Hard evidence came in the early 1960s, when the Norwegian explorer Helge Ingstad and his wife, the archaeologist Anne Stine Ingstad, located the remains of a Norse settlement at [L'Anse aux Meadows](/site/lanse-aux-meadows) on the northern tip of Newfoundland, in [Canada](/country/canada). Radiocarbon dating places it between about 990 and 1050, and tree-ring analysis of cut wood points to the year 1021. It may have been a ship-repair station on the way to richer lands around the Gulf of St Lawrence; whether it is the camp of the sagas cannot be proved.
 
 ## Chief of Greenland
 

@@ -14,7 +14,7 @@ The loss alarmed Christian Europe. Pope Innocent III called for a crusade, and A
 
 ## The march south
 
-The allied armies gathered at Toledo in May 1212. There were tensions from the start: some crusaders from beyond the Pyrenees attacked the Jewish quarter of Toledo, and later objected to the mild treatment Alfonso gave to defeated Jews and Muslims. Moving south in mid-June, the army took several castles, including Malagón and Calatrava. Modern estimates put the Christian force at roughly 12,000 to 14,000 men, facing perhaps 22,000 to 30,000 Almohad troops, although contemporary claims ran far higher.
+The allied armies gathered at [Toledo](/history-of/toledo) in May 1212. There were tensions from the start: some crusaders from beyond the Pyrenees attacked the Jewish quarter of Toledo, and later objected to the mild treatment Alfonso gave to defeated Jews and Muslims. Moving south in mid-June, the army took several castles, including Malagón and Calatrava. Modern estimates put the Christian force at roughly 12,000 to 14,000 men, facing perhaps 22,000 to 30,000 Almohad troops, although contemporary claims ran far higher.
 
 ## The battle
 

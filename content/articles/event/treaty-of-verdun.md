@@ -16,7 +16,7 @@ Louis the Pious died in 840. Lothair then claimed authority over the entire empi
 
 ## The three kingdoms
 
-Each brother already held a base: Lothair in Italy, Louis in Bavaria and Charles in Aquitaine. Under the treaty, Lothair kept the imperial title, though it gave him only nominal authority over his brothers' lands. He received Middle Francia, a long strip covering the Low Countries, the Rhineland west of the Rhine, Lorraine, Alsace, Burgundy, Provence and northern Italy, including both imperial cities, Aachen and Rome. Louis received East Francia, the lands east of the Rhine and north and east of Italy. Charles received West Francia, broadly the lands west of the Rhône, with Pepin II allowed to rule Aquitaine under him.
+Each brother already held a base: Lothair in Italy, Louis in Bavaria and Charles in Aquitaine. Under the treaty, Lothair kept the imperial title, though it gave him only nominal authority over his brothers' lands. He received Middle Francia, a long strip covering the Low Countries, the Rhineland west of the Rhine, Lorraine, Alsace, Burgundy, Provence and northern Italy, including both imperial cities, [Aachen](/history-of/aachen) and Rome. Louis received [East Francia](/place/east-francia), the lands east of the Rhine and north and east of Italy. Charles received [West Francia](/place/west-francia), broadly the lands west of the Rhône, with Pepin II allowed to rule Aquitaine under him.
 
 ## A fragile middle
 

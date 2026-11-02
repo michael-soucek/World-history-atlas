@@ -14,7 +14,7 @@ Spain itself was nominally France's ally, but early in 1808 French troops occupi
 
 ## Revolt
 
-On 2 May 1808 the people of Madrid rose against the occupiers; the rising was crushed, and the next day French troops shot hundreds of citizens, a scene later painted by Francisco Goya. Revolts spread across Spain, and local juntas took power in the name of Ferdinand. That summer a Spanish army at Bailén forced an entire French corps to surrender, the first open-field defeat of Napoleon's army in Europe, and Joseph fled Madrid. In August a British force under Arthur Wellesley, the future [Duke of Wellington](/person/duke-of-wellington), landed in Portugal and beat Junot at Vimeiro, though the Convention of Cintra then allowed the French to leave by sea.
+On 2 May 1808 the people of Madrid rose against the occupiers; the rising was crushed, and the next day French troops shot hundreds of citizens, a scene later painted by [Francisco Goya](/person/francisco-goya). Revolts spread across Spain, and local juntas took power in the name of Ferdinand. That summer a Spanish army at Bailén forced an entire French corps to surrender, the first open-field defeat of Napoleon's army in Europe, and Joseph fled Madrid. In August a British force under Arthur Wellesley, the future [Duke of Wellington](/person/duke-of-wellington), landed in Portugal and beat Junot at Vimeiro, though the Convention of Cintra then allowed the French to leave by sea.
 
 ## Napoleon intervenes
 

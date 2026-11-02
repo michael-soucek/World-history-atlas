@@ -13,7 +13,7 @@ A Khmer-style town stood at Sukhothai by around 1200, when the region answered t
 
 ## Ram Khamhaeng
 
-After a short reign by his elder son Ban Mueang, the throne passed to a younger son, Ram Khamhaeng, who ruled from 1279 to 1298. Later tradition credits him with bringing much of the south under tribute, including Suphan Buri and Nakhon Si Thammarat, along with Phrae and Luang Prabang in the north, and with backing the Mon leader Wareru against the [Pagan Kingdom](/place/pagan-kingdom). How far this power truly reached is debated. Missions went to the [Yuan dynasty](/place/yuan-dynasty) in China, and Sukhothai potters learned to make the glazed sangkhalok stoneware it exported.
+After a short reign by his elder son Ban Mueang, the throne passed to a younger son, Ram Khamhaeng, who ruled from 1279 to 1298. Later tradition credits him with bringing much of the south under tribute, including Suphan Buri and Nakhon Si Thammarat, along with Phrae and [Luang Prabang](/history-of/luang-prabang) in the north, and with backing the Mon leader Wareru against the [Pagan Kingdom](/place/pagan-kingdom). How far this power truly reached is debated. Missions went to the [Yuan dynasty](/place/yuan-dynasty) in China, and Sukhothai potters learned to make the glazed sangkhalok stoneware it exported.
 
 ## Faith, script and inscriptions
 

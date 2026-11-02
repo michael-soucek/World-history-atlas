@@ -8,7 +8,7 @@ In May 326 BCE, on the Hydaspes river, today's Jhelum in the Punjab province of 
 
 ## The road to India
 
-By 328 BCE Alexander had destroyed the last forces loyal to the [Achaemenid Empire](/place/achaemenid-empire) in Central Asia. In 327 he left 10,000 men to hold Bactria and turned towards India, part of the army entering through the Khyber Pass while he took a northern route and stormed the rock fortress of Aornos. In the following spring he allied with Taxiles, also called Ambhi, king of Taxila. Taxiles' neighbour Porus refused to submit and prepared to fight. Leaving such a strong ruler untouched on his flank would have threatened Alexander's further advance and his hold on the princes who had already yielded.
+By 328 BCE Alexander had destroyed the last forces loyal to the [Achaemenid Empire](/place/achaemenid-empire) in Central Asia. In 327 he left 10,000 men to hold Bactria and turned towards India, part of the army entering through the Khyber Pass while he took a northern route and stormed the rock fortress of Aornos. In the following spring he allied with Taxiles, also called Ambhi, king of [Taxila](/history-of/taxila). Taxiles' neighbour Porus refused to submit and prepared to fight. Leaving such a strong ruler untouched on his flank would have threatened Alexander's further advance and his hold on the princes who had already yielded.
 
 ## The crossing
 

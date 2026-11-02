@@ -21,7 +21,7 @@ Emperor Wen reorganised the central government into Three Departments and Six Mi
 
 ## Emperor Yang
 
-Emperor Yang, who came to the throne in 604, possibly after murdering his father, has been portrayed by later historians as a tyrant. He built a lavish eastern capital at Luoyang, rebuilt the Great Wall and completed the Grand Canal, linking Hangzhou in the south with the Yellow River and Zhuojun, near Beijing, in the north, more than 2,000 kilometres. Millions of labourers worked on these projects, many dying. He travelled the canal in a fleet of luxurious barges.
+Emperor Yang, who came to the throne in 604, possibly after murdering his father, has been portrayed by later historians as a tyrant. He built a lavish eastern capital at Luoyang, rebuilt the Great Wall and completed the Grand Canal, linking [Hangzhou](/history-of/hangzhou) in the south with the Yellow River and Zhuojun, near Beijing, in the north, more than 2,000 kilometres. Millions of labourers worked on these projects, many dying. He travelled the canal in a fleet of luxurious barges.
 
 ## The Korean campaigns
 

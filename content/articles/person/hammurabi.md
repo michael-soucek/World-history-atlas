@@ -25,7 +25,7 @@ Hammurabi's letters show him closely involved in administration, dealing with ca
 
 ## The code
 
-Towards the end of his reign, Hammurabi had his laws inscribed on stone stelae set up in temples. The best-known stele, made of black basalt, over two metres tall, was found in 1901 at Susa, in Iran, where the Elamites had carried it as plunder in the twelfth century BCE; it is now in the Louvre. At the top, a relief shows Hammurabi standing before Shamash, the god of the sun and justice. Below, in Akkadian cuneiform, a prologue, 282 laws and an epilogue are inscribed.
+Towards the end of his reign, Hammurabi had his laws inscribed on stone stelae set up in temples. The best-known stele, made of black basalt, over two metres tall, was found in 1901 at [Susa](/history-of/susa), in Iran, where the Elamites had carried it as plunder in the twelfth century BCE; it is now in the Louvre. At the top, a relief shows Hammurabi standing before Shamash, the god of the sun and justice. Below, in Akkadian cuneiform, a prologue, 282 laws and an epilogue are inscribed.
 
 ## The laws
 

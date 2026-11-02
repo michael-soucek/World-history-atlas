@@ -4,7 +4,7 @@ sources:
   - Wikidata: Classic Maya collapse (Q2736642) | https://www.wikidata.org/wiki/Q2736642
 written: 2026-10-30
 ---
-The Classic Maya collapse is the name archaeologists give to the decline and abandonment of many Maya city-states in the southern lowlands of Mesoamerica during the eighth and ninth centuries CE. Great cities such as Tikal, Calakmul, Palenque and Copán stopped raising inscribed monuments, ceased major building and were eventually deserted. Its causes remain one of archaeology's most debated questions, and many scholars now prefer to speak of a rupture or transformation rather than a collapse.
+The Classic Maya collapse is the name archaeologists give to the decline and abandonment of many Maya city-states in the southern lowlands of Mesoamerica during the eighth and ninth centuries CE. Great cities such as [Tikal](/site/tikal), Calakmul, Palenque and Copán stopped raising inscribed monuments, ceased major building and were eventually deserted. Its causes remain one of archaeology's most debated questions, and many scholars now prefer to speak of a rupture or transformation rather than a collapse.
 
 ## The Classic Maya world
 

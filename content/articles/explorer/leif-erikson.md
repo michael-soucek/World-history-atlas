@@ -28,7 +28,7 @@ According to the sagas, Leif's brother Thorvald led an expedition to Vinland and
 
 ## L'Anse aux Meadows
 
-In 1960 the Norwegian explorer Helge Ingstad and his wife, the archaeologist Anne Stine Ingstad, found the remains of a Norse settlement at L'Anse aux Meadows, at the northern tip of Newfoundland, in Canada. Excavations revealed eight buildings, iron working and Norse objects, such as a bronze cloak pin. In 2021, analysis of wood cut with metal tools, using evidence of a solar storm in 993, dated activity at the site precisely to 1021. It is a World Heritage Site. Whether it was Leif's camp or a base from which Vinland was explored is uncertain; the butternuts found there suggest voyages further south. In the United States, 9 October is Leif Erikson Day.
+In 1960 the Norwegian explorer Helge Ingstad and his wife, the archaeologist Anne Stine Ingstad, found the remains of a Norse settlement at [L'Anse aux Meadows](/site/lanse-aux-meadows), at the northern tip of Newfoundland, in Canada. Excavations revealed eight buildings, iron working and Norse objects, such as a bronze cloak pin. In 2021, analysis of wood cut with metal tools, using evidence of a solar storm in 993, dated activity at the site precisely to 1021. It is a World Heritage Site. Whether it was Leif's camp or a base from which Vinland was explored is uncertain; the butternuts found there suggest voyages further south. In the United States, 9 October is Leif Erikson Day.
 
 ## On our maps
 

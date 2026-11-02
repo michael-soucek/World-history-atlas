@@ -10,7 +10,7 @@ sources:
   - Miller Center, University of Virginia: Theodore Roosevelt, Life in Brief | https://millercenter.org/president/roosevelt/life-in-brief
 written: 2026-10-25
 ---
-Theodore Roosevelt was the 26th president of the [United States](/place/united-states), from 1901 to 1909, and at 42 the youngest person ever to hold the office. A New York reformer, rancher, soldier and prolific author, he expanded the power of the presidency to regulate big business, protected vast areas of land as national forests, parks and monuments, built the Panama Canal and made the United States an active great power. He won the Nobel Peace Prize in 1906.
+Theodore Roosevelt was the 26th president of the [United States](/place/united-states), from 1901 to 1909, and at 42 the youngest person ever to hold the office. A New York reformer, rancher, soldier and prolific author, he expanded the power of the presidency to regulate big business, protected vast areas of land as national forests, parks and monuments, built the [Panama Canal](/site/panama-canal) and made the United States an active great power. He won the Nobel Peace Prize in 1906.
 
 ## A sickly boy from New York
 

@@ -18,7 +18,7 @@ From around 719, missionaries of a movement called the Hashimiyya worked quietly
 
 ## The rising in Khorasan
 
-In June 747 Abu Muslim raised the black banners in the villages around Merv, and in February 748 he took the city itself, driving out the Umayyad governor Nasr ibn Sayyar. His general Qahtaba ibn Shabib led an army westwards, defeating Umayyad forces at Gorgan and Isfahan and besieging Nahavand, which surrendered after more than two months. By 749 Umayyad rule in Iran was at an end.
+In June 747 Abu Muslim raised the black banners in the villages around [Merv](/history-of/merv), and in February 748 he took the city itself, driving out the Umayyad governor Nasr ibn Sayyar. His general Qahtaba ibn Shabib led an army westwards, defeating Umayyad forces at Gorgan and Isfahan and besieging Nahavand, which surrendered after more than two months. By 749 Umayyad rule in Iran was at an end.
 
 ## Iraq and the new caliph
 

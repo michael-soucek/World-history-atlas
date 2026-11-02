@@ -16,7 +16,7 @@ The movement grew out of popular Buddhist sects that awaited the coming of Maitr
 
 ## Rival states
 
-The rebels never formed a single movement. In the north, the Song regime briefly took Kaifeng in 1358 before Yuan forces under Chaghan Temur pushed it out the next year, while other Red Turban bands raided [Goryeo](/place/goryeo) in 1359 and 1360, occupying Pyongyang and Kaesong for a time. In the south, Xu Shouhui was proclaimed emperor of Tianwan in 1351; his general Chen Youliang murdered him in 1360 and renamed the state Han. Independent of the Red Turbans, the salt smuggler Zhang Shicheng carved out a realm around Suzhou and the pirate Fang Guozhen controlled much of the Zhejiang coast, both at times accepting Yuan titles. The Yuan court itself was crippled by feuds among its own generals after it dismissed Toqto'a in 1355.
+The rebels never formed a single movement. In the north, the Song regime briefly took [Kaifeng](/history-of/kaifeng) in 1358 before Yuan forces under Chaghan Temur pushed it out the next year, while other Red Turban bands raided [Goryeo](/place/goryeo) in 1359 and 1360, occupying Pyongyang and Kaesong for a time. In the south, Xu Shouhui was proclaimed emperor of Tianwan in 1351; his general Chen Youliang murdered him in 1360 and renamed the state Han. Independent of the Red Turbans, the salt smuggler Zhang Shicheng carved out a realm around Suzhou and the pirate Fang Guozhen controlled much of the Zhejiang coast, both at times accepting Yuan titles. The Yuan court itself was crippled by feuds among its own generals after it dismissed Toqto'a in 1355.
 
 ## The rise of Zhu Yuanzhang
 

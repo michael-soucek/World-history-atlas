@@ -10,7 +10,7 @@ sources:
   - World History Encyclopedia: Akhenaten | https://www.worldhistory.org/Akhenaten/
 written: 2026-10-25
 ---
-Akhenaten was a pharaoh of Egypt's Eighteenth Dynasty who reigned for about seventeen years, around 1353 to 1336 BCE (some chronologies place it two years later). Born Amenhotep, he abandoned the worship of Egypt's many gods in favour of a single deity, the Aten or sun disc, built a new capital at Amarna, and encouraged a strikingly new style of art. His reforms were reversed soon after his death and his name was erased by later kings, but modern archaeology has made him one of the most discussed rulers of the ancient world.
+Akhenaten was a pharaoh of Egypt's Eighteenth Dynasty who reigned for about seventeen years, around 1353 to 1336 BCE (some chronologies place it two years later). Born Amenhotep, he abandoned the worship of Egypt's many gods in favour of a single deity, the Aten or sun disc, built a new capital at [Amarna](/history-of/amarna), and encouraged a strikingly new style of art. His reforms were reversed soon after his death and his name was erased by later kings, but modern archaeology has made him one of the most discussed rulers of the ancient world.
 
 ## Prince Amenhotep
 
@@ -18,7 +18,7 @@ He was a younger son of Amenhotep III, one of the wealthiest and most powerful k
 
 ## Early reign at Thebes
 
-He came to the throne as Amenhotep IV, with [Nefertiti](/person/nefertiti) as his great royal wife. From the start he favoured the Aten, a form of the sun god previously of modest importance. At Karnak, the great temple complex of Amun at Thebes, he built several temples to the Aten, decorated in a new style and open to the sky so that the sun's rays could reach the altars. In about his fifth year he took the name Akhenaten, "effective for the Aten", and announced the founding of a new city.
+He came to the throne as Amenhotep IV, with [Nefertiti](/person/nefertiti) as his great royal wife. From the start he favoured the Aten, a form of the sun god previously of modest importance. At [Karnak](/site/karnak), the great temple complex of Amun at Thebes, he built several temples to the Aten, decorated in a new style and open to the sky so that the sun's rays could reach the altars. In about his fifth year he took the name Akhenaten, "effective for the Aten", and announced the founding of a new city.
 
 ## Amarna and the Aten
 
@@ -36,7 +36,7 @@ The Amarna letters, a cache of over 380 clay tablets found at the site from 1887
 
 Akhenaten had at least six daughters with Nefertiti, and another child with a secondary wife, Kiya. One daughter, Meketaten, died around year 13 or 14 and is shown being mourned in the royal tomb. Nefertiti was once thought to have vanished or fallen from favour around year 12, but an inscription found in 2012 in a quarry at Dayr Abu Hinnis shows she was still queen in year 16. Near the end of the reign a co-ruler appears, known as Smenkhkare and also under the name Neferneferuaten; whether these were one or two people, and whether one of them was Nefertiti, is unresolved.
 
-Akhenaten died in his seventeenth regnal year and was buried in the royal tomb at Amarna. His remains were probably moved to Thebes when the city was abandoned. A male mummy from tomb KV55 in the Valley of the Kings, found in 1907, has been identified by DNA work as the father of [Tutankhamun](/person/tutankhamun), and many scholars believe it is Akhenaten, but others argue it is Smenkhkare, and the question remains open.
+Akhenaten died in his seventeenth regnal year and was buried in the royal tomb at Amarna. His remains were probably moved to Thebes when the city was abandoned. A male mummy from tomb KV55 in the [Valley of the Kings](/site/valley-of-the-kings), found in 1907, has been identified by DNA work as the father of [Tutankhamun](/person/tutankhamun), and many scholars believe it is Akhenaten, but others argue it is Smenkhkare, and the question remains open.
 
 ## Erasure and rediscovery
 

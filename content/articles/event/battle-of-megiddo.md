@@ -4,7 +4,7 @@ sources:
   - Wikidata: Battle of Megiddo (15th century BCE) (Q733364) | https://www.wikidata.org/wiki/Q733364
 written: 2026-10-30
 ---
-In the 15th century BC the Egyptian pharaoh Thutmose III marched into Canaan to crush a revolt of local rulers headed by the king of Kadesh, and routed their combined army outside the fortified city of Megiddo. It is the earliest battle known in reasonably trustworthy detail, thanks to an Egyptian record carved at Karnak. The victory, and the long siege that followed, reasserted Egyptian control of the Levant and opened the period in which the [New Kingdom of Egypt](/place/new-kingdom-of-egypt) reached its widest extent.
+In the 15th century BC the Egyptian pharaoh Thutmose III marched into Canaan to crush a revolt of local rulers headed by the king of Kadesh, and routed their combined army outside the fortified city of Megiddo. It is the earliest battle known in reasonably trustworthy detail, thanks to an Egyptian record carved at [Karnak](/site/karnak). The victory, and the long siege that followed, reasserted Egyptian control of the Levant and opened the period in which the [New Kingdom of Egypt](/place/new-kingdom-of-egypt) reached its widest extent.
 
 ## A revolt in Canaan
 

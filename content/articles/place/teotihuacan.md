@@ -5,7 +5,7 @@ sources:
   - Borders of Time maps, built on historical-basemaps | https://github.com/aourednik/historical-basemaps
 written: 2026-10-22
 ---
-Teotihuacan was the largest city in the Americas in the first half of the first millennium CE, and one of the largest in the world. At its height, around 450 CE, perhaps 100,000 people or more lived there, in a valley north-east of today's Mexico City. Its ruins, dominated by the Pyramids of the Sun and the Moon, are among the most visited archaeological sites in the world.
+[Teotihuacan](/site/teotihuacan) was the largest city in the Americas in the first half of the first millennium CE, and one of the largest in the world. At its height, around 450 CE, perhaps 100,000 people or more lived there, in a valley north-east of today's Mexico City. Its ruins, dominated by the Pyramids of the Sun and the Moon, are among the most visited archaeological sites in the world.
 
 ## Origins
 
@@ -29,7 +29,7 @@ Important gods included the Storm God, related to the later Tlaloc, the Feathere
 
 ## Teotihuacan and the Maya
 
-Teotihuacan's influence reached the Maya region. Maya inscriptions at Tikal record that in 378 CE a man named Siyaj K'ak', "Fire Is Born", arrived from the west, and the same day the Tikal king died. A new dynasty, possibly linked to Teotihuacan, took power. Teotihuacan-style art and architecture appear at Kaminaljuyu, in Guatemala, and Copán, in Honduras.
+Teotihuacan's influence reached the Maya region. Maya inscriptions at [Tikal](/site/tikal) record that in 378 CE a man named Siyaj K'ak', "Fire Is Born", arrived from the west, and the same day the Tikal king died. A new dynasty, possibly linked to Teotihuacan, took power. Teotihuacan-style art and architecture appear at Kaminaljuyu, in Guatemala, and Copán, in Honduras.
 
 ## Government and decline
 

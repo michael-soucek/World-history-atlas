@@ -9,7 +9,7 @@ On Christmas Day 800, in St Peter's Basilica in Rome, Pope Leo III crowned the F
 
 ## Charlemagne's empire
 
-Charlemagne inherited the Frankish kingdom in 768 and spent most of his reign at war. He conquered the Lombard kingdom of Italy, fought the pagan Saxons for three decades and forced their conversion, destroyed the Avar state in the Danube basin and created a march south of the Pyrenees around Barcelona. He governed through counts, checked by royal envoys, and held court above all at Aachen. His court scholars, led by Alcuin of York, revived Latin learning and copied ancient texts in a clear new handwriting, Carolingian minuscule, the ancestor of modern lower-case letters.
+Charlemagne inherited the Frankish kingdom in 768 and spent most of his reign at war. He conquered the Lombard kingdom of Italy, fought the pagan Saxons for three decades and forced their conversion, destroyed the Avar state in the Danube basin and created a march south of the Pyrenees around Barcelona. He governed through counts, checked by royal envoys, and held court above all at [Aachen](/history-of/aachen). His court scholars, led by Alcuin of York, revived Latin learning and copied ancient texts in a clear new handwriting, Carolingian minuscule, the ancestor of modern lower-case letters.
 
 ## Governing a vast realm
 
@@ -41,7 +41,7 @@ The Treaty of Verdun in 843 divided the empire: Charles took the west, Louis the
 
 ## Legacy
 
-West Francia grew into France, East Francia into Germany. The imperial title passed to the East Frankish kings when Otto I was crowned in 962, the usual starting date of the Holy Roman Empire.
+[West Francia](/place/west-francia) grew into France, [East Francia](/place/east-francia) into Germany. The imperial title passed to the East Frankish kings when Otto I was crowned in 962, the usual starting date of the Holy Roman Empire.
 
 ## On our maps
 

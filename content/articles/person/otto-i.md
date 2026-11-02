@@ -14,9 +14,9 @@ Otto I, called Otto the Great, was king of the East Franks, the realm that becam
 
 ## A Saxon heir
 
-Otto was born on 23 November 912, probably at Wallhausen in Saxony, the eldest son of Henry, duke of Saxony, and his second wife, Matilda. In 919 his father was elected king of East Francia, the eastern part of the old [Carolingian Empire](/place/carolingian-empire), the first king of a Saxon rather than a Frankish line. In 929 or 930 Otto married Eadgyth, half-sister of King Æthelstan of England and a granddaughter of [Alfred the Great](/person/alfred-the-great), a match that brought prestige to the new dynasty.
+Otto was born on 23 November 912, probably at Wallhausen in Saxony, the eldest son of Henry, duke of Saxony, and his second wife, Matilda. In 919 his father was elected king of [East Francia](/place/east-francia), the eastern part of the old [Carolingian Empire](/place/carolingian-empire), the first king of a Saxon rather than a Frankish line. In 929 or 930 Otto married Eadgyth, half-sister of King Æthelstan of England and a granddaughter of [Alfred the Great](/person/alfred-the-great), a match that brought prestige to the new dynasty.
 
-Henry broke with Frankish custom by leaving the kingdom undivided to a single heir. When he died in July 936, Otto was crowned and anointed at Aachen, Charlemagne's old capital, on 7 August. He wore Frankish dress for the ceremony and was served at the coronation banquet by the dukes, a deliberate display of royal authority over them.
+Henry broke with Frankish custom by leaving the kingdom undivided to a single heir. When he died in July 936, Otto was crowned and anointed at [Aachen](/history-of/aachen), Charlemagne's old capital, on 7 August. He wore Frankish dress for the ceremony and was served at the coronation banquet by the dukes, a deliberate display of royal authority over them.
 
 ## Rebellions in the family
 

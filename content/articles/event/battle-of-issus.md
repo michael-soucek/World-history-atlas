@@ -8,7 +8,7 @@ On a narrow coastal plain at the north-eastern corner of the Mediterranean, in N
 
 ## The road to Issus
 
-Alexander crossed into Asia in 334 BCE and defeated the Persian provincial governors at the Granicus River. He then worked his way along the coast of Asia Minor, taking ports such as Miletus and Halicarnassus to deny the powerful Persian fleet its bases. While he was at Tarsus he learned that Darius had assembled a great army at Babylon and taken personal command. Alexander sent his general Parmenion ahead to hold the coast near Issus, and in November heard that the Persians had reached Sochoi in Syria.
+Alexander crossed into Asia in 334 BCE and defeated the Persian provincial governors at the Granicus River. He then worked his way along the coast of Asia Minor, taking ports such as [Miletus](/history-of/miletus) and Halicarnassus to deny the powerful Persian fleet its bases. While he was at Tarsus he learned that Darius had assembled a great army at Babylon and taken personal command. Alexander sent his general Parmenion ahead to hold the coast near Issus, and in November heard that the Persians had reached Sochoi in Syria.
 
 ## A march behind the lines
 

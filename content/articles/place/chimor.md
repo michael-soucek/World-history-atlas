@@ -5,7 +5,7 @@ sources:
   - Borders of Time maps, built on historical-basemaps | https://github.com/aourednik/historical-basemaps
 written: 2026-10-22
 ---
-Chimor, the kingdom of the Chimú people, was the largest state on the coast of Peru before the Incas. From its capital, Chan Chan, it controlled about 1,000 kilometres of desert coastline in the fourteenth and fifteenth centuries, until the Incas conquered it around 1470.
+Chimor, the kingdom of the Chimú people, was the largest state on the coast of Peru before the Incas. From its capital, [Chan Chan](/site/chan-chan), it controlled about 1,000 kilometres of desert coastline in the fourteenth and fifteenth centuries, until the Incas conquered it around 1470.
 
 ## Heirs of the Moche
 

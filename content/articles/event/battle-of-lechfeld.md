@@ -32,4 +32,4 @@ The Hungarians never again raided the west. Their ruler Fajsz was replaced by Ta
 
 ## On our maps
 
-Our 900 map shows East Francia, the future German kingdom, with the Magyars to the east, and the 1000 map shows the Holy Roman Empire that Otto founded beside the Hungarian lands.
+Our 900 map shows [East Francia](/place/east-francia), the future German kingdom, with the Magyars to the east, and the 1000 map shows the Holy Roman Empire that Otto founded beside the Hungarian lands.

@@ -12,7 +12,7 @@ Maya settlements developed from around 2000 BCE, as people grew maize, beans and
 
 ## The Classic period
 
-From around 250 CE, the Maya lowlands were home to dozens of city-states, ruled by divine kings, k'uhul ajaw. Great cities included Tikal, Calakmul, Palenque, Copán, Yaxchilán and Caracol, some with tens of thousands of people. Tikal and Calakmul were great rivals, building networks of allies and vassals. Cities had temple-pyramids, palaces, plazas and ballcourts, where a ritual ballgame was played with a rubber ball. Kings recorded their deeds on carved stone monuments, stelae. At Palenque, the tomb of King K'inich Janaab' Pakal, who ruled from 615 to 683, was discovered inside the Temple of the Inscriptions in 1952, with a jade mask.
+From around 250 CE, the Maya lowlands were home to dozens of city-states, ruled by divine kings, k'uhul ajaw. Great cities included [Tikal](/site/tikal), Calakmul, Palenque, Copán, Yaxchilán and Caracol, some with tens of thousands of people. Tikal and Calakmul were great rivals, building networks of allies and vassals. Cities had temple-pyramids, palaces, plazas and ballcourts, where a ritual ballgame was played with a rubber ball. Kings recorded their deeds on carved stone monuments, stelae. At Palenque, the tomb of King K'inich Janaab' Pakal, who ruled from 615 to 683, was discovered inside the Temple of the Inscriptions in 1952, with a jade mask.
 
 ## Writing
 

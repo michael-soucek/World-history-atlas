@@ -25,7 +25,7 @@ Akbar built a system of ranks, the mansabdari, in which every official held a nu
 
 ## Religion
 
-Akbar abolished the pilgrim tax on Hindus in 1563 and the jizya, the tax on non-Muslims, in 1564. At Fatehpur Sikri, the red sandstone city he built near Agra in the 1570s, he held debates in his House of Worship, the Ibadat Khana, at first among Muslim scholars, then among Sunni and Shia Muslims, Hindus, Jains, Zoroastrians and Jesuit priests from Goa. In 1579 he claimed the authority to decide religious disputes. He developed a personal religious doctrine, later called Din-i Ilahi, "divine faith", followed by a small circle of courtiers, and a policy of tolerance known as sulh-i kul, "universal peace". Orthodox Muslim scholars opposed him, and some rebelled.
+Akbar abolished the pilgrim tax on Hindus in 1563 and the jizya, the tax on non-Muslims, in 1564. At [Fatehpur Sikri](/site/fatehpur-sikri), the red sandstone city he built near Agra in the 1570s, he held debates in his House of Worship, the Ibadat Khana, at first among Muslim scholars, then among Sunni and Shia Muslims, Hindus, Jains, Zoroastrians and Jesuit priests from Goa. In 1579 he claimed the authority to decide religious disputes. He developed a personal religious doctrine, later called Din-i Ilahi, "divine faith", followed by a small circle of courtiers, and a policy of tolerance known as sulh-i kul, "universal peace". Orthodox Muslim scholars opposed him, and some rebelled.
 
 ## Culture
 

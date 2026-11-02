@@ -36,7 +36,7 @@ Douglass saw the war that began in 1861 as a chance to end slavery and argued fr
 
 ## Reconstruction and public office
 
-After the war Douglass campaigned for the Fourteenth and Fifteenth Amendments, which guaranteed citizenship and banned racial discrimination in voting. The question of whether Black men should get the vote before women strained his friendship with suffragists such as Elizabeth Cady Stanton and Susan B. Anthony, though he remained a supporter of women's suffrage all his life.
+After the war Douglass campaigned for the Fourteenth and Fifteenth Amendments, which guaranteed citizenship and banned racial discrimination in voting. The question of whether Black men should get the vote before women strained his friendship with suffragists such as [Elizabeth Cady Stanton](/person/elizabeth-cady-stanton) and [Susan B. Anthony](/person/susan-b-anthony), though he remained a supporter of women's suffrage all his life.
 
 He moved to [Washington, D.C.](/history-of/washington-dc), edited the New National Era and was briefly president of the Freedman's Savings Bank shortly before it collapsed in 1874. A loyal Republican, he backed [Ulysses S. Grant](/person/ulysses-s-grant), and was appointed United States marshal for the District of Columbia in 1877 and recorder of deeds in 1881. He published a third autobiography, Life and Times of Frederick Douglass, in 1881. From 1889 to 1891 he served as minister resident and consul general to [Haiti](/country/haiti), where he became caught up in an unsuccessful American attempt to lease a naval base.
 

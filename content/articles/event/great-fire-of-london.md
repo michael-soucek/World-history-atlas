@@ -12,7 +12,7 @@ London in the 1660s had perhaps 300,000 to 400,000 inhabitants, making it much t
 
 ## Sunday: Pudding Lane
 
-Shortly after midnight on 2 September a fire broke out in Thomas Farriner's bakery in Pudding Lane. The baker's family escaped through an upstairs window into the house next door, but their maidservant stayed behind and died, the first recorded victim. The Lord Mayor, Sir Thomas Bloodworth, refused to order neighbouring houses pulled down, partly because their owners could not be found, and famously dismissed the blaze as trivial. By morning the wind had carried the flames to the riverside warehouses. The diarist Samuel Pepys watched from the Tower of London, then took a boat to Whitehall and told King Charles II that only demolition could stop the fire. The king ordered houses pulled down, but by the evening the fire had become a firestorm that jumped any gaps the demolition crews could make.
+Shortly after midnight on 2 September a fire broke out in Thomas Farriner's bakery in Pudding Lane. The baker's family escaped through an upstairs window into the house next door, but their maidservant stayed behind and died, the first recorded victim. The Lord Mayor, Sir Thomas Bloodworth, refused to order neighbouring houses pulled down, partly because their owners could not be found, and famously dismissed the blaze as trivial. By morning the wind had carried the flames to the riverside warehouses. The diarist Samuel Pepys watched from the [Tower of London](/site/tower-of-london), then took a boat to Whitehall and told King Charles II that only demolition could stop the fire. The king ordered houses pulled down, but by the evening the fire had become a firestorm that jumped any gaps the demolition crews could make.
 
 ## Monday and Tuesday
 

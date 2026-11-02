@@ -16,7 +16,7 @@ In 334 BCE Alexander crossed the Hellespont into Asia with a Macedonian and alli
 
 ## Egypt and Mesopotamia
 
-Egypt, under Persian rule, surrendered without a fight. Alexander founded Alexandria on the Mediterranean coast and visited the oracle of Ammon at Siwa, in the western desert. In 331 BCE he marched into Mesopotamia and won his decisive victory over Darius at [Gaugamela](/event/battle-of-gaugamela). The Persian capitals of Babylon, Susa and Persepolis fell to him, and in 330 BCE Darius was killed by his own officers while in flight.
+Egypt, under Persian rule, surrendered without a fight. Alexander founded Alexandria on the Mediterranean coast and visited the oracle of Ammon at Siwa, in the western desert. In 331 BCE he marched into Mesopotamia and won his decisive victory over Darius at [Gaugamela](/event/battle-of-gaugamela). The Persian capitals of Babylon, [Susa](/history-of/susa) and [Persepolis](/site/persepolis) fell to him, and in 330 BCE Darius was killed by his own officers while in flight.
 
 ## The eastern campaigns
 

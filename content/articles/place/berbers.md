@@ -13,7 +13,7 @@ People have lived in the Maghreb since prehistoric times, and rock paintings at 
 
 ## Kingdoms of antiquity
 
-Amazigh peoples lived beside Phoenician colonies, above all [Carthage](/place/carthage). Numidia rose in what is now Algeria and Tunisia: its king Masinissa sided with Rome in 206 BC during the Second Punic War, and by his death in 148 BC his realm almost encircled Carthage. His grandson Jugurtha later fought a long war against Rome. To the west lay Mauretania, which became a Roman client state in 33 BC and a province in AD 40. Later, the Christian Mauro-Roman kingdom of Altava ruled much of the interior.
+Amazigh peoples lived beside Phoenician colonies, above all [Carthage](/place/carthage). [Numidia](/place/numidia) rose in what is now Algeria and Tunisia: its king Masinissa sided with Rome in 206 BC during the Second Punic War, and by his death in 148 BC his realm almost encircled Carthage. His grandson Jugurtha later fought a long war against Rome. To the west lay [Mauretania](/place/mauretania), which became a Roman client state in 33 BC and a province in AD 40. Later, the Christian Mauro-Roman kingdom of Altava ruled much of the interior.
 
 ## Islam and the Amazigh dynasties
 

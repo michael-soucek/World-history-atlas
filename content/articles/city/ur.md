@@ -10,7 +10,7 @@ Ur was one of the great city-states of [Sumer](/culture/sumer), the civilisation
 
 When the first settlers arrived during the Ubaid period, Ur stood close to the shore of the Persian Gulf, among marshes rich in fish, birds and reeds. The gulf has since retreated, so the ruins now stand well away from the sea, on the Euphrates' southern bank. The city's patron was the moon god Nanna, known in Akkadian as Sin.
 
-By the middle of the third millennium BCE Ur was rich and powerful. The Sumerian King List names Mesannepada, who probably lived in the twenty-sixth century BCE, as the first king of its First Dynasty. The royal cemetery of this era held objects of precious metal and semi-precious stone brought from as far away as Afghanistan and India, as well as the famous Standard of Ur. Dozens of attendants were buried with some of the royal dead; modern scans of their skulls point to death by a blow to the head. In the following centuries Ur fell under the influence of rival cities, first Lagash and then Uruk and Umma.
+By the middle of the third millennium BCE Ur was rich and powerful. The Sumerian King List names Mesannepada, who probably lived in the twenty-sixth century BCE, as the first king of its First Dynasty. The royal cemetery of this era held objects of precious metal and semi-precious stone brought from as far away as Afghanistan and India, as well as the famous Standard of Ur. Dozens of attendants were buried with some of the royal dead; modern scans of their skulls point to death by a blow to the head. In the following centuries Ur fell under the influence of rival cities, first Lagash and then [Uruk](/history-of/uruk) and Umma.
 
 ## Akkad and the Third Dynasty
 
@@ -20,7 +20,7 @@ The king of Uruk, Utu-hengal, drove the Gutians out, and after his death his gov
 
 ## Later masters and abandonment
 
-After the fall of the Third Dynasty, Ur came under the kings of Isin and then Larsa, who rebuilt parts of it. Hammurabi of Babylon took the city from Rim-Sin I of Larsa, and under his successor Samsu-iluna it was abandoned for a time. It later belonged to the Sealand Dynasty and from the sixteenth century BCE to the Kassite kings of Babylon, under whom it was a minor town. The Middle Assyrian kings held it at intervals, and from the tenth century BCE it lay within the Neo-Assyrian Empire.
+After the fall of the Third Dynasty, Ur came under the kings of Isin and then Larsa, who rebuilt parts of it. Hammurabi of [Babylon](/history-of/babylon) took the city from Rim-Sin I of Larsa, and under his successor Samsu-iluna it was abandoned for a time. It later belonged to the Sealand Dynasty and from the sixteenth century BCE to the Kassite kings of Babylon, under whom it was a minor town. The Middle Assyrian kings held it at intervals, and from the tenth century BCE it lay within the Neo-Assyrian Empire.
 
 At the end of the seventh century BCE Ur passed to the Chaldean dynasty of Babylon. [Nebuchadnezzar II](/person/nebuchadnezzar-ii) built there, and the last Babylonian king, Nabonidus, restored the ziggurat. After Babylonia fell to the [Achaemenid Empire](/place/achaemenid-empire), Ur declined from around 530 BCE and was empty by the early fifth century BCE, probably because of drought, shifts in the river and the silting of its outlet to the sea.
 

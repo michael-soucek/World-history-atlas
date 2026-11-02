@@ -4,7 +4,7 @@ sources:
   - Wikidata: Battle of Nineveh (627) (Q755966) | https://www.wikidata.org/wiki/Q755966
 written: 2026-10-31
 ---
-On 12 December 627, near the ruins of ancient Nineveh in northern Mesopotamia, the Byzantine emperor Heraclius defeated a Persian army led by the general Rhahzadh, who was killed in the fighting. The battle decided the long war that had begun in 602 between the [Byzantine Empire](/place/byzantine-empire) and the [Sasanian Empire](/place/sasanian-empire). Within months the Persian king Khosrow II had been overthrown, and the peace that followed restored the old Roman frontier in the east.
+On 12 December 627, near the ruins of ancient [Nineveh](/history-of/nineveh) in northern Mesopotamia, the Byzantine emperor Heraclius defeated a Persian army led by the general Rhahzadh, who was killed in the fighting. The battle decided the long war that had begun in 602 between the [Byzantine Empire](/place/byzantine-empire) and the [Sasanian Empire](/place/sasanian-empire). Within months the Persian king Khosrow II had been overthrown, and the peace that followed restored the old Roman frontier in the east.
 
 ## A war that nearly destroyed Byzantium
 
@@ -24,7 +24,7 @@ Rhahzadh formed his army in three bodies and attacked. Fog limited the effect of
 
 ## The fall of Khosrow
 
-The Byzantines could not take the Persian camp, but no Persian army was left in their way. Heraclius plundered Khosrow's palace at Dastagird and, according to the sources, recovered some 300 Roman standards taken in earlier wars. A collapsed bridge on the Nahrawan Canal stopped him from advancing on Ctesiphon. Khosrow fled. The Persian army then rose against him and raised his son Kavad II to the throne; Khosrow was imprisoned and put to death.
+The Byzantines could not take the Persian camp, but no Persian army was left in their way. Heraclius plundered Khosrow's palace at Dastagird and, according to the sources, recovered some 300 Roman standards taken in earlier wars. A collapsed bridge on the Nahrawan Canal stopped him from advancing on [Ctesiphon](/history-of/ctesiphon). Khosrow fled. The Persian army then rose against him and raised his son Kavad II to the throne; Khosrow was imprisoned and put to death.
 
 Kavad quickly sought peace. Heraclius, aware that his own empire was exhausted, did not demand harsh terms. The Byzantines recovered all their lost lands, their prisoners and the True Cross. It was the last war between Rome and Persia. Both empires were left drained, and Persia slid into civil war, a weakness that contributed to its fall during the [early Muslim conquests](/event/early-muslim-conquests).
 

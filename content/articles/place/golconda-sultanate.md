@@ -19,7 +19,7 @@ In 1543 Sultan Quli was assassinated while at prayer by his second son, Jamsheed
 
 ## Wealth and government
 
-The state drew its main revenue from a land tax, but it held a monopoly on the diamond mines of its southern districts, especially Kollur, and the stones were cut and sold in Hyderabad. The weaving villages of the river deltas produced muslins and printed calicoes, shipped from the port of Masulipatnam to Persia, Europe and Southeast Asia, and the kingdom traded with Ayutthaya in Siam. Prosperity peaked in the 1620s and 1630s. The sultan held absolute power, aided by a chief minister and officials for finance, police and the treasury. Revenue was long farmed out to the highest bidder; in 1670 the realm was divided into 21 provinces and 355 districts.
+The state drew its main revenue from a land tax, but it held a monopoly on the diamond mines of its southern districts, especially Kollur, and the stones were cut and sold in Hyderabad. The weaving villages of the river deltas produced muslins and printed calicoes, shipped from the port of Masulipatnam to Persia, Europe and Southeast Asia, and the kingdom traded with [Ayutthaya](/history-of/ayutthaya) in Siam. Prosperity peaked in the 1620s and 1630s. The sultan held absolute power, aided by a chief minister and officials for finance, police and the treasury. Revenue was long farmed out to the highest bidder; in 1670 the realm was divided into 21 provinces and 355 districts.
 
 ## Culture and religion
 

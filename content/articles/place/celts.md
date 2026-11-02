@@ -21,7 +21,7 @@ The La Tène culture, from about 450 BCE, spread across much of Europe. Its art 
 
 ## Expansion and contact
 
-In the fourth and third centuries BCE, Celtic groups moved into Italy, sacking Rome around 390 BCE, into the Balkans, attacking Delphi in 279 BCE, and into Anatolia, where the Galatians settled; Paul wrote his Letter to the Galatians to their descendants. Celtic warriors served as mercenaries for Greek and Carthaginian armies. Greek and Roman writers described the Celts as brave, quarrelsome and fond of feasting, and noted their tradition of taking heads as trophies.
+In the fourth and third centuries BCE, Celtic groups moved into Italy, sacking Rome around 390 BCE, into the Balkans, attacking [Delphi](/site/delphi) in 279 BCE, and into Anatolia, where the Galatians settled; Paul wrote his Letter to the Galatians to their descendants. Celtic warriors served as mercenaries for Greek and Carthaginian armies. Greek and Roman writers described the Celts as brave, quarrelsome and fond of feasting, and noted their tradition of taking heads as trophies.
 
 ## Society and religion
 

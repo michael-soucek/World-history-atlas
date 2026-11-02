@@ -20,7 +20,7 @@ In the Old Kingdom, from about 2686 to 2181 BCE, the pharaohs, considered divine
 
 ## The Middle and New Kingdoms
 
-After a period of division, the Middle Kingdom, from about 2055 to 1650 BCE, reunified Egypt, and literature flourished. The Hyksos, from western Asia, ruled the north until expelled. In the New Kingdom, from about 1550 to 1070 BCE, Egypt became an empire, extending into the Levant and Nubia. Pharaohs were buried in the Valley of the Kings. Notable rulers include Hatshepsut, Thutmose III, Akhenaten, who promoted worship of a single god, the sun disc Aten, Tutankhamun, whose tomb was found nearly intact in 1922, and Ramesses II.
+After a period of division, the Middle Kingdom, from about 2055 to 1650 BCE, reunified Egypt, and literature flourished. The Hyksos, from western Asia, ruled the north until expelled. In the New Kingdom, from about 1550 to 1070 BCE, Egypt became an empire, extending into the Levant and Nubia. Pharaohs were buried in the [Valley of the Kings](/site/valley-of-the-kings). Notable rulers include Hatshepsut, Thutmose III, Akhenaten, who promoted worship of a single god, the sun disc Aten, Tutankhamun, whose tomb was found nearly intact in 1922, and Ramesses II.
 
 ## Religion
 

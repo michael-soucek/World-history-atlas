@@ -25,7 +25,7 @@ In 1833 he invited French Protestant missionaries of the Paris Evangelical Missi
 
 ## Holding off the British
 
-Boundaries drawn by the British resident, Henry Warden, ignored many of Moshoeshoe's claims, and in 1851 a Basotho and Taung army defeated Warden's mixed force at Viervoet. In December 1852 a British punitive expedition under Sir George Cathcart was checked at the Battle of Berea. Fearing a second attack, Moshoeshoe promptly sued for peace and obtained favourable terms. The next year he crushed his old rival Sekonyela of the Batlokoa. The British withdrew from the region in 1854, leaving the Boer Orange Free State as his neighbour.
+Boundaries drawn by the British resident, Henry Warden, ignored many of Moshoeshoe's claims, and in 1851 a Basotho and Taung army defeated Warden's mixed force at Viervoet. In December 1852 a British punitive expedition under Sir George Cathcart was checked at the Battle of Berea. Fearing a second attack, Moshoeshoe promptly sued for peace and obtained favourable terms. The next year he crushed his old rival Sekonyela of the Batlokoa. The British withdrew from the region in 1854, leaving the Boer [Orange Free State](/place/orange-free-state) as his neighbour.
 
 ## Wars with the Free State
 

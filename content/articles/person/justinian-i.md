@@ -9,7 +9,7 @@ sources:
   - Wikidata: Justinian I (Q41866) | https://www.wikidata.org/wiki/Q41866
 written: 2026-10-22
 ---
-Justinian I was emperor of the Eastern Roman, or Byzantine, Empire from 527 to 565. He reconquered much of the western Mediterranean, codified Roman law in a work that shaped European legal systems, and built the Hagia Sophia in Constantinople, one of the greatest buildings of the ancient world.
+Justinian I was emperor of the Eastern Roman, or Byzantine, Empire from 527 to 565. He reconquered much of the western Mediterranean, codified Roman law in a work that shaped European legal systems, and built the [Hagia Sophia](/site/hagia-sophia) in Constantinople, one of the greatest buildings of the ancient world.
 
 ## From peasant to emperor
 
@@ -33,7 +33,7 @@ In 528 Justinian appointed a commission, led by the jurist Tribonian, to collect
 
 ## Hagia Sophia
 
-After the riots, Justinian rebuilt the Church of Hagia Sophia, "holy wisdom", designed by Anthemius of Tralles and Isidore of Miletus and completed in 537 in under six years. Its huge dome, over 30 metres wide, seems to float above a ring of windows. Justinian reportedly said, "Solomon, I have surpassed you." He also built churches, fortresses and the basilica of San Vitale in Ravenna, with its famous mosaics of Justinian and Theodora.
+After the riots, Justinian rebuilt the Church of Hagia Sophia, "holy wisdom", designed by Anthemius of Tralles and Isidore of [Miletus](/history-of/miletus) and completed in 537 in under six years. Its huge dome, over 30 metres wide, seems to float above a ring of windows. Justinian reportedly said, "Solomon, I have surpassed you." He also built churches, fortresses and the basilica of San Vitale in Ravenna, with its famous mosaics of Justinian and Theodora.
 
 ## Plague and later years
 

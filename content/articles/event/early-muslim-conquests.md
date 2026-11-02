@@ -12,7 +12,7 @@ The movement began with the Prophet [Muhammad](/person/muhammad), who in 622 mov
 
 ## Defeat of two empires
 
-The two great powers of the region, the [Byzantine Empire](/place/byzantine-empire) and the [Sasanian Empire](/place/sasanian-empire), had just exhausted each other in a long war that ended in 628, and both had been weakened by plague and internal strife. Under the caliphs Abu Bakr and Umar of the [Rashidun Caliphate](/place/rashidun-caliphate), Arab armies won decisive victories. The Byzantines were routed at the [Battle of the Yarmuk](/event/battle-of-the-yarmuk) in 636, and Syria and Palestine were lost; Jerusalem surrendered around 637 or 638. In Iraq the Persians were defeated at al-Qadisiyya around 636, and the capital Ctesiphon fell soon after. Egypt was taken between 639 and 642. The Sasanian state collapsed, and its last king, Yazdegerd III, was killed in 651.
+The two great powers of the region, the [Byzantine Empire](/place/byzantine-empire) and the [Sasanian Empire](/place/sasanian-empire), had just exhausted each other in a long war that ended in 628, and both had been weakened by plague and internal strife. Under the caliphs Abu Bakr and Umar of the [Rashidun Caliphate](/place/rashidun-caliphate), Arab armies won decisive victories. The Byzantines were routed at the [Battle of the Yarmuk](/event/battle-of-the-yarmuk) in 636, and Syria and Palestine were lost; Jerusalem surrendered around 637 or 638. In Iraq the Persians were defeated at al-Qadisiyya around 636, and the capital [Ctesiphon](/history-of/ctesiphon) fell soon after. Egypt was taken between 639 and 642. The Sasanian state collapsed, and its last king, Yazdegerd III, was killed in 651.
 
 ## The Umayyad expansion
 

@@ -36,7 +36,7 @@ When the war began in 1861, Tubman went to the Union-held coast of South Carolin
 
 After the war Tubman returned to Auburn. On a train journey in 1865 a conductor forced her into the baggage car, injuring her. In 1869 she married Nelson Davis, a younger Union veteran, and the couple later adopted a daughter, Gertie. That year Sarah Bradford published a biography, Scenes in the Life of Harriet Tubman, whose proceeds helped support her, though it embroidered some details. She was poor for most of her life, but took in relatives, formerly enslaved people and the sick.
 
-Tubman became active in the women's suffrage movement, speaking at meetings in New York, [Boston](/history-of/boston) and [Washington](/history-of/washington-dc) with figures such as Susan B. Anthony. In the 1890s she finally received a widow's pension through Davis, and later a small pension for her own service as a nurse. In 1908 she opened the Harriet Tubman Home for the Aged on land next to her house, and moved into it herself as her health declined. She died of pneumonia in Auburn on 10 March 1913 and was buried with military honours.
+Tubman became active in the women's suffrage movement, speaking at meetings in New York, [Boston](/history-of/boston) and [Washington](/history-of/washington-dc) with figures such as [Susan B. Anthony](/person/susan-b-anthony). In the 1890s she finally received a widow's pension through Davis, and later a small pension for her own service as a nurse. In 1908 she opened the Harriet Tubman Home for the Aged on land next to her house, and moved into it herself as her health declined. She died of pneumonia in Auburn on 10 March 1913 and was buried with military honours.
 
 ## Legacy
 

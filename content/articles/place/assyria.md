@@ -5,11 +5,11 @@ sources:
   - Borders of Time maps, built on historical-basemaps | https://github.com/aourednik/historical-basemaps
 written: 2026-10-22
 ---
-Assyria was a Mesopotamian kingdom centred on the city of Assur on the Tigris, in what is now northern Iraq. Over more than a thousand years it grew from a city-state into the largest empire the world had yet seen, ruling at its height in the seventh century BCE from Egypt to Iran.
+Assyria was a Mesopotamian kingdom centred on the city of [Assur](/history-of/assur) on the Tigris, in what is now northern Iraq. Over more than a thousand years it grew from a city-state into the largest empire the world had yet seen, ruling at its height in the seventh century BCE from Egypt to Iran.
 
 ## Assur and its god
 
-Assyria took its name from the city of Assur, on the Tigris, and its god, also called Ashur. The king was Ashur's chief priest and representative, and Assyrian wars were presented as campaigns to extend the god's rule. The Assyrian heartland lay in the fertile plains of northern Mesopotamia, between the cities of Assur, Nineveh, Arbela and Nimrud.
+Assyria took its name from the city of Assur, on the Tigris, and its god, also called Ashur. The king was Ashur's chief priest and representative, and Assyrian wars were presented as campaigns to extend the god's rule. The Assyrian heartland lay in the fertile plains of northern Mesopotamia, between the cities of Assur, [Nineveh](/history-of/nineveh), Arbela and [Nimrud](/history-of/nimrud).
 
 ## The Old Assyrian merchants
 

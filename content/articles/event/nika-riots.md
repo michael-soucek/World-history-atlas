@@ -4,7 +4,7 @@ sources:
   - Wikidata: Nika riots (Q162665) | https://www.wikidata.org/wiki/Q162665
 written: 2026-10-30
 ---
-For about a week in January 532, rival fans of the chariot races in Constantinople joined forces against the emperor [Justinian I](/person/justinian-i), burned much of the city, including its great church of Hagia Sophia, and proclaimed a rival emperor. Justinian, reportedly stiffened by his wife [Theodora](/person/theodora), held on, and his troops ended the uprising with a massacre in the Hippodrome. The revolt takes its name from the rioters' rallying cry, Nika, meaning "Win!" or "Conquer!".
+For about a week in January 532, rival fans of the chariot races in Constantinople joined forces against the emperor [Justinian I](/person/justinian-i), burned much of the city, including its great church of [Hagia Sophia](/site/hagia-sophia), and proclaimed a rival emperor. Justinian, reportedly stiffened by his wife [Theodora](/person/theodora), held on, and his troops ended the uprising with a massacre in the Hippodrome. The revolt takes its name from the rioters' rallying cry, Nika, meaning "Win!" or "Conquer!".
 
 ## Blues and Greens
 

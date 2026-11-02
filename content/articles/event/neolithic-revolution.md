@@ -16,7 +16,7 @@ The earliest known farming developed in the Fertile Crescent, an arc of land fro
 
 ## Early villages
 
-Early farming villages included Jericho, with its stone wall and tower built around 8000 BCE, and Çatalhöyük, in Anatolia, from about 7100 BCE, where thousands of people lived in mud-brick houses entered through the roof, decorated with wall paintings and bulls' horns. Göbekli Tepe, in south-eastern Turkey, built from about 9500 BCE, has large carved stone pillars arranged in circles, built by people who were still largely hunter-gatherers, suggesting that religion and communal gatherings may have helped drive settlement.
+Early farming villages included [Jericho](/history-of/jericho), with its stone wall and tower built around 8000 BCE, and [Çatalhöyük](/site/catalhoyuk), in Anatolia, from about 7100 BCE, where thousands of people lived in mud-brick houses entered through the roof, decorated with wall paintings and bulls' horns. [Göbekli Tepe](/site/gobekli-tepe), in south-eastern Turkey, built from about 9500 BCE, has large carved stone pillars arranged in circles, built by people who were still largely hunter-gatherers, suggesting that religion and communal gatherings may have helped drive settlement.
 
 ## Independent centres
 

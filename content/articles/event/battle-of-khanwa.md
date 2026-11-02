@@ -4,7 +4,7 @@ sources:
   - Wikidata: Battle of Khanwa (Q4166578) | https://www.wikidata.org/wiki/Q4166578
 written: 2026-10-30
 ---
-A year after taking Delhi, the Timurid prince [Babur](/person/babur) faced a far more dangerous opponent than the sultan he had overthrown: a coalition of Rajput rulers led by Rana Sanga of Mewar. Their armies met at Khanwa, near Fatehpur Sikri in present-day Rajasthan, on 16 March 1527. Babur's guns and fortified lines won the day, and the victory secured the new [Mughal Empire](/place/mughal-empire) in northern India, with Agra as its centre.
+A year after taking Delhi, the Timurid prince [Babur](/person/babur) faced a far more dangerous opponent than the sultan he had overthrown: a coalition of Rajput rulers led by Rana Sanga of Mewar. Their armies met at Khanwa, near [Fatehpur Sikri](/site/fatehpur-sikri) in present-day Rajasthan, on 16 March 1527. Babur's guns and fortified lines won the day, and the victory secured the new [Mughal Empire](/place/mughal-empire) in northern India, with Agra as its centre.
 
 ## Babur in India
 

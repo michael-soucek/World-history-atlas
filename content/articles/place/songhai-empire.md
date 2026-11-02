@@ -5,7 +5,7 @@ sources:
   - Borders of Time maps, built on historical-basemaps | https://github.com/aourednik/historical-basemaps
 written: 2026-10-22
 ---
-The Songhai Empire was the last and largest of the great Sahel empires of West Africa. In the late fifteenth and sixteenth centuries it controlled the middle Niger river and the trade cities of Timbuktu, Djenné and its capital, Gao. A Songhai kingdom had existed around Gao for centuries, and was for a time subject to Mali, before it built an empire of its own.
+The Songhai Empire was the last and largest of the great Sahel empires of West Africa. In the late fifteenth and sixteenth centuries it controlled the middle Niger river and the trade cities of Timbuktu, [Djenné](/history-of/djenne) and its capital, Gao. A Songhai kingdom had existed around Gao for centuries, and was for a time subject to Mali, before it built an empire of its own.
 
 ## Gao before the empire
 

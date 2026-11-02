@@ -17,7 +17,7 @@ Sulla came from an old patrician family that had sunk into poverty; no member ha
 
 ## Rise under Marius
 
-Serving under [Gaius Marius](/person/gaius-marius) in the campaign against Jugurtha, king of Numidia, Sulla negotiated with King Bocchus of Mauretania, who in 106 BC betrayed Jugurtha into Roman hands. Sulla's role in the capture fed a lasting quarrel with Marius over the credit. He fought again in the wars against the Cimbri and Teutones, then became praetor in 97 BC. As governor of Cilicia he restored a Roman ally to the throne of Cappadocia and became the first Roman official to deal with an embassy from the [Parthian Empire](/place/parthian-empire). In the Social War against Rome's Italian allies he commanded in the south in 89 BC, took Pompeii and other towns, and won the grass crown, Rome's highest military honour.
+Serving under [Gaius Marius](/person/gaius-marius) in the campaign against Jugurtha, king of [Numidia](/place/numidia), Sulla negotiated with King Bocchus of [Mauretania](/place/mauretania), who in 106 BC betrayed Jugurtha into Roman hands. Sulla's role in the capture fed a lasting quarrel with Marius over the credit. He fought again in the wars against the Cimbri and Teutones, then became praetor in 97 BC. As governor of Cilicia he restored a Roman ally to the throne of Cappadocia and became the first Roman official to deal with an embassy from the [Parthian Empire](/place/parthian-empire). In the Social War against Rome's Italian allies he commanded in the south in 89 BC, took [Pompeii](/site/pompeii) and other towns, and won the grass crown, Rome's highest military honour.
 
 ## The march on Rome
 

@@ -13,11 +13,11 @@ The Khitans, a people speaking a language related to Mongolian, lived along the 
 
 ## Abaoji
 
-In 907, as the Tang dynasty collapsed, Yelü Abaoji became leader of the Khitans and refused to give up power after his term. In 916 he proclaimed himself emperor, Taizu, in the Chinese style, founding a hereditary dynasty. He created a Khitan script, conquered neighbouring peoples and, in 926, destroyed the kingdom of Balhae, in Manchuria and northern Korea, dying on the way back. His widow, Empress Shulü Ping, a powerful figure, reportedly cut off her own hand to place in his tomb rather than follow him in death.
+In 907, as the Tang dynasty collapsed, Yelü Abaoji became leader of the Khitans and refused to give up power after his term. In 916 he proclaimed himself emperor, Taizu, in the Chinese style, founding a hereditary dynasty. He created a Khitan script, conquered neighbouring peoples and, in 926, destroyed the kingdom of [Balhae](/place/balhae), in Manchuria and northern Korea, dying on the way back. His widow, Empress Shulü Ping, a powerful figure, reportedly cut off her own hand to place in his tomb rather than follow him in death.
 
 ## The Sixteen Prefectures
 
-In 938 the Khitans helped Shi Jingtang found the Later Jin dynasty in northern China, receiving in return the Sixteen Prefectures, the region around Beijing and Datong, south of the Great Wall. In 947 the Khitans invaded northern China and took Kaifeng, and the dynasty took the Chinese name Liao. The Sixteen Prefectures, with their Chinese population, gave the Liao a strategic position and wealth.
+In 938 the Khitans helped Shi Jingtang found the Later Jin dynasty in northern China, receiving in return the Sixteen Prefectures, the region around Beijing and Datong, south of the Great Wall. In 947 the Khitans invaded northern China and took [Kaifeng](/history-of/kaifeng), and the dynasty took the Chinese name Liao. The Sixteen Prefectures, with their Chinese population, gave the Liao a strategic position and wealth.
 
 ## A dual state
 

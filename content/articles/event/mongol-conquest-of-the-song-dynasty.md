@@ -8,7 +8,7 @@ The Mongol conquest of the Song dynasty was a war of more than four decades, fro
 
 ## From allies to enemies
 
-By the early thirteenth century China was divided. The [Song dynasty](/place/song-dynasty) ruled the south from its capital at Lin'an, today's Hangzhou, having lost the north a century earlier to the Jurchen Jin dynasty. After [Genghis Khan](/person/genghis-khan) began attacking the Jin in 1211, the Song saw a chance for revenge, and in 1233 Song troops joined the Mongols in the final siege of the last Jin emperor at Caizhou. The Jin fell in 1234. The Song then tried to seize the former northern capital, Kaifeng, but were driven back by Mongol forces, and in 1235 open war began.
+By the early thirteenth century China was divided. The [Song dynasty](/place/song-dynasty) ruled the south from its capital at Lin'an, today's [Hangzhou](/history-of/hangzhou), having lost the north a century earlier to the Jurchen Jin dynasty. After [Genghis Khan](/person/genghis-khan) began attacking the Jin in 1211, the Song saw a chance for revenge, and in 1233 Song troops joined the Mongols in the final siege of the last Jin emperor at Caizhou. The Jin fell in 1234. The Song then tried to seize the former northern capital, [Kaifeng](/history-of/kaifeng), but were driven back by Mongol forces, and in 1235 open war began.
 
 ## A long war of sieges
 

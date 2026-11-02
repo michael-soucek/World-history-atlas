@@ -28,7 +28,7 @@ From the ninth century Balkh changed hands many times. The Saffarids took it, th
 
 [Genghis Khan](/person/genghis-khan) plundered Balkh in 1220, amid the [Mongol invasion of the Khwarazmian Empire](/event/mongol-invasion-of-the-khwarazmian-empire), slaughtering its inhabitants and levelling its defences. Ibn Battuta, visiting around 1333, found it ruined and empty, though its mosques and colleges still looked intact from outside. Rebuilding began in 1338. Timur captured the city in 1389 and destroyed its citadel, which his son Shah Rukh rebuilt in 1407.
 
-The Uzbeks under Muhammad Shaybani took Balkh in 1506. Babur held it briefly as a vassal of the Safavids in 1511 and 1512, after which it was ruled mostly from Bukhara. The Mughal emperor Shah Jahan made it a province of the [Mughal Empire](/place/mughal-empire) in 1646 but lost it the next year, and Nader Shah conquered it in 1736. After his death local Uzbek rulers held the area, until the Afghan emir Dost Mohammad Khan conquered it in 1850.
+The Uzbeks under Muhammad Shaybani took Balkh in 1506. Babur held it briefly as a vassal of the Safavids in 1511 and 1512, after which it was ruled mostly from [Bukhara](/history-of/bukhara). The Mughal emperor Shah Jahan made it a province of the [Mughal Empire](/place/mughal-empire) in 1646 but lost it the next year, and Nader Shah conquered it in 1736. After his death local Uzbek rulers held the area, until the Afghan emir Dost Mohammad Khan conquered it in 1850.
 
 ## Decline and today
 

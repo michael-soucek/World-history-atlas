@@ -9,7 +9,7 @@ The Wari state was one of the first empires of the Andes. From its capital, near
 
 ## Origins
 
-The Ayacucho valley had been home to farming communities for centuries, including the Huarpa culture. Around 600 CE, Wari grew rapidly into a large city, influenced by contacts with the coast, especially the Nasca culture, famous for its lines in the desert, and with Tiwanaku, near Lake Titicaca, from which Wari adopted religious imagery.
+The Ayacucho valley had been home to farming communities for centuries, including the Huarpa culture. Around 600 CE, Wari grew rapidly into a large city, influenced by contacts with the coast, especially the Nasca culture, famous for its lines in the desert, and with [Tiwanaku](/history-of/tiwanaku), near Lake Titicaca, from which Wari adopted religious imagery.
 
 ## The capital
 

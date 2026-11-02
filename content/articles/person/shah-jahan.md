@@ -9,7 +9,7 @@ sources:
   - Wikidata: Shah Jahan (Q83672) | https://www.wikidata.org/wiki/Q83672
 written: 2026-10-22
 ---
-Shah Jahan was the fifth Mughal emperor, ruling from 1628 to 1658. His reign marked the height of Mughal architecture and splendour, with the building of the Taj Mahal, the Red Fort and the city of Shahjahanabad in Delhi. He ended his life imprisoned by his son Aurangzeb.
+Shah Jahan was the fifth Mughal emperor, ruling from 1628 to 1658. His reign marked the height of Mughal architecture and splendour, with the building of the Taj Mahal, the [Red Fort](/site/red-fort) and the city of Shahjahanabad in Delhi. He ended his life imprisoned by his son Aurangzeb.
 
 ## Prince Khurram
 
@@ -21,7 +21,7 @@ In the last years of Jahangir's reign, Nur Jahan, who held great power, favoured
 
 ## Wars
 
-Shah Jahan expanded the empire in the Deccan, annexing Ahmadnagar in 1636 and forcing the sultanates of Bijapur and Golconda to pay tribute. His attempts to recover the Mughal homeland in Central Asia, Balkh and Badakhshan, in 1646–1647, failed at great cost. He lost Kandahar to the Safavids in 1649 and failed to retake it in three sieges.
+Shah Jahan expanded the empire in the Deccan, annexing Ahmadnagar in 1636 and forcing the sultanates of Bijapur and Golconda to pay tribute. His attempts to recover the Mughal homeland in Central Asia, [Balkh](/history-of/balkh) and Badakhshan, in 1646–1647, failed at great cost. He lost [Kandahar](/history-of/kandahar) to the Safavids in 1649 and failed to retake it in three sieges.
 
 ## The Taj Mahal
 

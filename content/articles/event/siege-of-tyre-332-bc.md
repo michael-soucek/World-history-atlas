@@ -9,7 +9,7 @@ For roughly seven months in 332 BCE, from about January to July, [Alexander the 
 
 ## An island fortress
 
-After his victory at [Issus](/event/battle-of-issus) in 333 BCE, Alexander marched south along the coast to deny the Persian fleet its harbours. Byblos, Arwad and Sidon, fellow [Phoenician](/culture/phoenicia) cities, came under his control, but Tyre held out. The city had moved onto an island about a kilometre offshore, with two harbours and walls said to rise more than 45 metres on the side facing the mainland. Its population may have been about 40,000, though many women and children were sent to safety in [Carthage](/place/carthage), a Tyrian colony, which also promised help by sea.
+After his victory at [Issus](/event/battle-of-issus) in 333 BCE, Alexander marched south along the coast to deny the Persian fleet its harbours. [Byblos](/history-of/byblos), Arwad and [Sidon](/history-of/sidon), fellow [Phoenician](/culture/phoenicia) cities, came under his control, but Tyre held out. The city had moved onto an island about a kilometre offshore, with two harbours and walls said to rise more than 45 metres on the side facing the mainland. Its population may have been about 40,000, though many women and children were sent to safety in [Carthage](/place/carthage), a Tyrian colony, which also promised help by sea.
 
 Alexander asked to offer sacrifice in the island temple of Melqart, a god the Greeks identified with Heracles. The Tyrians told him to use the temple on the mainland and declared they would admit neither Persians nor Macedonians. When a later embassy was, according to the ancient sources, killed and thrown from the walls, the siege began.
 

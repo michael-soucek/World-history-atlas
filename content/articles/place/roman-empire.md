@@ -21,7 +21,7 @@ The Mediterranean became, in Roman eyes, "our sea", mare nostrum. Grain from Egy
 
 ## Cities and daily life
 
-Life in the empire centred on its cities, with forums, temples, public baths, aqueducts, theatres and amphitheatres. Gladiator fights and chariot races in the Circus Maximus were enormously popular. The eruption of Vesuvius in 79 CE buried Pompeii and Herculaneum, preserving houses, paintings and graffiti that give a vivid picture of everyday life. Latin literature flourished with Virgil, Horace, Ovid, Livy, Seneca and Tacitus.
+Life in the empire centred on its cities, with forums, temples, public baths, aqueducts, theatres and amphitheatres. Gladiator fights and chariot races in the Circus Maximus were enormously popular. The eruption of Vesuvius in 79 CE buried Pompeii and Herculaneum, preserving houses, paintings and graffiti that give a vivid picture of everyday life. Latin literature flourished with [Virgil](/person/virgil), Horace, [Ovid](/person/ovid), Livy, Seneca and Tacitus.
 
 ## Religion and Christianity
 
@@ -29,7 +29,7 @@ The empire tolerated many religions, but expected subjects to honour the emperor
 
 ## The crisis of the third century
 
-From 235 to 284 CE, the empire faced civil wars, invasions by Goths and other Germanic peoples, a powerful new enemy in Sasanian Persia, plague and inflation. Over twenty emperors ruled in fifty years, most dying violently. The emperor Valerian was captured by the Persians in 260, and for a time breakaway states formed in Gaul and in Palmyra under Queen Zenobia, before Aurelian reunited the empire.
+From 235 to 284 CE, the empire faced civil wars, invasions by Goths and other Germanic peoples, a powerful new enemy in Sasanian Persia, plague and inflation. Over twenty emperors ruled in fifty years, most dying violently. The emperor Valerian was captured by the Persians in 260, and for a time breakaway states formed in Gaul and in [Palmyra](/history-of/palmyra) under Queen Zenobia, before Aurelian reunited the empire.
 
 ## Diocletian and Constantine
 

@@ -5,7 +5,7 @@ sources:
   - Wikipedia: Julian's Persian expedition | https://en.wikipedia.org/wiki/Julian%27s_Persian_expedition
 written: 2026-10-31
 ---
-At the end of May 363, the Roman emperor Julian brought his invading army to the walls of Ctesiphon, the Sasanian capital on the Tigris in what is now Iraq, and on 29 May defeated a Persian force drawn up in front of the city. The victory won him nothing lasting. Unable to take the fortified capital and far from his supplies, Julian turned away, and within a month he was dead and his army was forced into a humiliating peace.
+At the end of May 363, the Roman emperor Julian brought his invading army to the walls of [Ctesiphon](/history-of/ctesiphon), the Sasanian capital on the Tigris in what is now Iraq, and on 29 May defeated a Persian force drawn up in front of the city. The victory won him nothing lasting. Unable to take the fortified capital and far from his supplies, Julian turned away, and within a month he was dead and his army was forced into a humiliating peace.
 
 ## A campaign against Shapur
 

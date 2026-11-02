@@ -24,11 +24,11 @@ Ramesses returned to Egypt without taking Kadesh, and the Hittites kept control 
 
 ## The treaty
 
-Fighting between the two powers continued for some years. Around 1258 BCE, Ramesses II and the Hittite king Hattusili III concluded a formal peace treaty, versions of which survive in both Egyptian hieroglyphs and Akkadian cuneiform on clay tablets from the Hittite capital, Hattusa. The treaty set out mutual non-aggression and support, and was later sealed by a marriage between Ramesses and a Hittite princess. A copy of the agreement hangs at the United Nations headquarters in New York.
+Fighting between the two powers continued for some years. Around 1258 BCE, Ramesses II and the Hittite king Hattusili III concluded a formal peace treaty, versions of which survive in both Egyptian hieroglyphs and Akkadian cuneiform on clay tablets from the Hittite capital, [Hattusa](/history-of/hattusa). The treaty set out mutual non-aggression and support, and was later sealed by a marriage between Ramesses and a Hittite princess. A copy of the agreement hangs at the United Nations headquarters in New York.
 
 ## How we know
 
-The battle is unusually well documented from the Egyptian side. Ramesses had his version carved on the walls of several temples, including Abu Simbel, Karnak, Luxor and the Ramesseum, as a long poem and a shorter prose bulletin, with reliefs showing the camp and the chariot fighting. Hittite sources mention the campaign only briefly. Because the Egyptian accounts were royal propaganda, historians treat their details with caution.
+The battle is unusually well documented from the Egyptian side. Ramesses had his version carved on the walls of several temples, including [Abu Simbel](/site/abu-simbel), [Karnak](/site/karnak), Luxor and the Ramesseum, as a long poem and a shorter prose bulletin, with reliefs showing the camp and the chariot fighting. Hittite sources mention the campaign only briefly. Because the Egyptian accounts were royal propaganda, historians treat their details with caution.
 
 ## On our maps
 

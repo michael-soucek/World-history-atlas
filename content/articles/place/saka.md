@@ -17,7 +17,7 @@ Archaeology now suggests that the shared steppe culture of kurgans (burial mound
 
 ## Persia and the Saka
 
-Greek accounts of Saka dealings with Persia need careful reading. Herodotus says that [Cyrus the Great](/person/cyrus-the-great) died in 530 BC fighting the Massagetae, whose queen Tomyris defeated him; Ctesias describes another Saka king, Amorges, as an ally of Cyrus. On firmer ground, the Behistun inscription records that [Darius the Great](/person/darius-the-great), in a campaign of 520–518 BC, captured a Saka king named Skunxa and replaced him with a loyal ruler. Saka lands were then counted within the [Achaemenid Empire](/place/achaemenid-empire), and Saka mounted archers served in its armies; on the reliefs at Persepolis they wear long trousers and tall pointed caps.
+Greek accounts of Saka dealings with Persia need careful reading. Herodotus says that [Cyrus the Great](/person/cyrus-the-great) died in 530 BC fighting the Massagetae, whose queen Tomyris defeated him; Ctesias describes another Saka king, Amorges, as an ally of Cyrus. On firmer ground, the Behistun inscription records that [Darius the Great](/person/darius-the-great), in a campaign of 520–518 BC, captured a Saka king named Skunxa and replaced him with a loyal ruler. Saka lands were then counted within the [Achaemenid Empire](/place/achaemenid-empire), and Saka mounted archers served in its armies; on the reliefs at [Persepolis](/site/persepolis) they wear long trousers and tall pointed caps.
 
 ## Life on the steppe
 

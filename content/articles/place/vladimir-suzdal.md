@@ -26,7 +26,7 @@ Andrey invited architects from abroad, and the churches of Vladimir-Suzdal combi
 
 ## Under the Mongols
 
-The [Mongol invasion of Kievan Rus'](/event/mongol-invasion-of-kievan-rus) in 1237–1238 devastated the principality, and Yury II was killed. The surviving princes submitted, and grand princes were thereafter confirmed by the khans, later those of the [Golden Horde](/place/golden-horde); [Alexander Nevsky](/person/alexander-nevsky) travelled as far as Karakorum to be installed and was the last to reign directly in Vladimir. The principality split into about a dozen appanages whose rulers competed for the grand-princely title.
+The [Mongol invasion of Kievan Rus'](/event/mongol-invasion-of-kievan-rus) in 1237–1238 devastated the principality, and Yury II was killed. The surviving princes submitted, and grand princes were thereafter confirmed by the khans, later those of the [Golden Horde](/place/golden-horde); [Alexander Nevsky](/person/alexander-nevsky) travelled as far as [Karakorum](/history-of/karakorum) to be installed and was the last to reign directly in Vladimir. The principality split into about a dozen appanages whose rulers competed for the grand-princely title.
 
 ## Absorbed by Moscow
 

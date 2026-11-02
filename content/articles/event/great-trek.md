@@ -25,7 +25,7 @@ In Natal the trekkers met the [Zulu Kingdom](/place/zulu-kingdom) of Dingane. Re
 
 ## The republics
 
-The trekkers proclaimed the Natalia Republic, but Britain annexed Natal in 1843. Many Boers moved on again, and the migrations led to the founding of the Orange Free State and the South African Republic, or Transvaal. Their later conflicts with Britain culminated in the [Second Boer War](/event/second-boer-war).
+The trekkers proclaimed the Natalia Republic, but Britain annexed Natal in 1843. Many Boers moved on again, and the migrations led to the founding of the [Orange Free State](/place/orange-free-state) and the South African Republic, or Transvaal. Their later conflicts with Britain culminated in the [Second Boer War](/event/second-boer-war).
 
 ## Memory and politics
 

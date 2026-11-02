@@ -4,7 +4,7 @@ sources:
   - Wikidata: Granada War (Q1552718) | https://www.wikidata.org/wiki/Q1552718
 written: 2026-10-30
 ---
-Between 1482 and 1492 the Catholic Monarchs, [Isabella I of Castile](/person/isabella-i-of-castile) and [Ferdinand II of Aragon](/person/ferdinand-ii-of-aragon), waged a decade of campaigns against the Nasrid [Emirate of Granada](/place/emirate-of-granada), the last Muslim state on the Iberian peninsula. It ended on 2 January 1492, when the emir Muhammad XI, known to Christians as Boabdil, handed over the city and the Alhambra palace. Spanish tradition treats the conquest as the closing act of the [Reconquista](/event/reconquista).
+Between 1482 and 1492 the Catholic Monarchs, [Isabella I of Castile](/person/isabella-i-of-castile) and [Ferdinand II of Aragon](/person/ferdinand-ii-of-aragon), waged a decade of campaigns against the Nasrid [Emirate of Granada](/place/emirate-of-granada), the last Muslim state on the Iberian peninsula. It ended on 2 January 1492, when the emir Muhammad XI, known to Christians as Boabdil, handed over the city and the [Alhambra](/site/alhambra) palace. Spanish tradition treats the conquest as the closing act of the [Reconquista](/event/reconquista).
 
 ## A divided emirate
 

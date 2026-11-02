@@ -14,7 +14,7 @@ In the early 1500s Adal had raided Ethiopian territory repeatedly. After its lea
 
 Clashes began before 1529, but Ethiopian chronicles date the war from Ahmad's victory at Shimbra Kure in March of that year, where his cavalry outmanoeuvred a larger Ethiopian army. In 1531 he won decisive battles at Antukyah, where cannon fire panicked the imperial troops, and at Ayfars, and entered the imperial capital. Ethiopia had very few firearms at the time, and Muslim communities living inside the empire sometimes aided his advance.
 
-Over the following years Adal forces pushed deep into the highlands, burning many churches and monasteries. In Tigray they defeated the local levies who gathered to defend Aksum, and destroyed the Church of Our Lady Mary of Zion there; Ahmad's chronicler claimed more than 10,000 Christians were killed. Lebna Dengel spent his last years as a fugitive in his own country and died at the mountain monastery of Debre Damo on 2 September 1540, leaving the throne to his son Gelawdewos.
+Over the following years Adal forces pushed deep into the highlands, burning many churches and monasteries. In Tigray they defeated the local levies who gathered to defend [Aksum](/history-of/aksum), and destroyed the Church of Our Lady Mary of Zion there; Ahmad's chronicler claimed more than 10,000 Christians were killed. Lebna Dengel spent his last years as a fugitive in his own country and died at the mountain monastery of Debre Damo on 2 September 1540, leaving the throne to his son Gelawdewos.
 
 ## Portuguese intervention
 

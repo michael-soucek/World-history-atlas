@@ -19,7 +19,7 @@ When his grandfather, Emir Abdallah, died in October 912, the throne passed over
 
 ## Restoring order
 
-The new emir faced rebellion on every side. Muslim families of Iberian descent, the muwallads, held much of the south, the most formidable being Umar ibn Hafsun in his mountain fortress of Bobastro. Abd al-Rahman campaigned almost every year, taking Écija and Seville in 913 and a string of castles across Andalusia. Ibn Hafsun died in 917, but his sons held out until 928. Toledo, which had long defied Córdoba, surrendered in 932 after a two-year siege. To balance the rival Arab and Berber factions of his realm, he built up a corps of saqaliba, slaves of Eastern European origin, in his army and household.
+The new emir faced rebellion on every side. Muslim families of Iberian descent, the muwallads, held much of the south, the most formidable being Umar ibn Hafsun in his mountain fortress of Bobastro. Abd al-Rahman campaigned almost every year, taking Écija and Seville in 913 and a string of castles across Andalusia. Ibn Hafsun died in 917, but his sons held out until 928. [Toledo](/history-of/toledo), which had long defied Córdoba, surrendered in 932 after a two-year siege. To balance the rival Arab and Berber factions of his realm, he built up a corps of saqaliba, slaves of Eastern European origin, in his army and household.
 
 ## Caliph of Córdoba
 

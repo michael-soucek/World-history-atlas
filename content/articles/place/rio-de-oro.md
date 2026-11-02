@@ -6,7 +6,7 @@ sources:
   - Borders of Time maps, built on historical-basemaps | https://github.com/aourednik/historical-basemaps
 written: 2026-10-30
 ---
-Río de Oro was the southern and larger part of Spain's Saharan territory on the Atlantic coast of north-west Africa, covering roughly two-thirds of what is now Western Sahara. Spain claimed it in 1884, but for half a century its presence amounted to little more than a fortified post at Villa Cisneros, today Dakhla, while the Sahrawi nomads of the interior lived largely beyond its reach. In 1958 it was merged with Saguia el-Hamra to the north to form the province of Spanish Sahara.
+Río de Oro was the southern and larger part of Spain's Saharan territory on the Atlantic coast of north-west Africa, covering roughly two-thirds of what is now Western Sahara. Spain claimed it in 1884, but for half a century its presence amounted to little more than a fortified post at Villa Cisneros, today Dakhla, while the Sahrawi nomads of the interior lived largely beyond its reach. In 1958 it was merged with Saguia el-Hamra to the north to form the province of [Spanish Sahara](/place/spanish-sahara).
 
 ## A river that was not there
 

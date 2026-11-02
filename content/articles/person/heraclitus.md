@@ -10,7 +10,7 @@ sources:
   - Stanford Encyclopedia of Philosophy: Heraclitus | https://plato.stanford.edu/entries/heraclitus/
 written: 2026-10-25
 ---
-Heraclitus of Ephesus was a Greek philosopher active around 500 BCE, known for his teaching that the world is in constant change, that opposites are bound together in a hidden unity, and that all things are governed by a rational order he called the logos. He wrote a single book in a compressed, riddling style that earned him the nickname "the Obscure", and only around 130 short fragments of it survive, quoted by later writers. Through Plato, the Stoics and modern thinkers such as Hegel and Nietzsche, he became one of the most influential of the early Greek philosophers.
+Heraclitus of [Ephesus](/history-of/ephesus) was a Greek philosopher active around 500 BCE, known for his teaching that the world is in constant change, that opposites are bound together in a hidden unity, and that all things are governed by a rational order he called the logos. He wrote a single book in a compressed, riddling style that earned him the nickname "the Obscure", and only around 130 short fragments of it survive, quoted by later writers. Through Plato, the Stoics and modern thinkers such as Hegel and Nietzsche, he became one of the most influential of the early Greek philosophers.
 
 ## Life in Ephesus
 

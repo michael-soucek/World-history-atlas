@@ -33,7 +33,7 @@ Monaco is a city-state of about two square kilometres on the Mediterranean coast
 
 Caves on the slopes above the harbour, among them the Observatoire cave beneath today's Exotic Garden, preserve traces of Palaeolithic hunters. The first settled inhabitants known to ancient writers were the Ligurians, a people who held much of the coast between the Rhône and the Arno. Sailors from [Phoenicia](/culture/phoenicia) are said to have used the harbour, and in the sixth century BCE Greeks from Massalia, today's [Marseille](/history-of/marseille), founded a small colony there. They called it Monoikos, a name connected with Heracles, who was worshipped on the headland, and the harbour became known as the Port of Hercules.
 
-Rome brought the coast under control in the first century BCE, and the area became part of the province of the Maritime Alps. On the heights at La Turbie, just above Monaco, [Augustus](/person/augustus) raised a great trophy celebrating his conquest of the Alpine tribes. Roman writers, including Virgil and Pliny the Elder, mention the port as a stopping place for ships along the coast.
+Rome brought the coast under control in the first century BCE, and the area became part of the province of the Maritime Alps. On the heights at La Turbie, just above Monaco, [Augustus](/person/augustus) raised a great trophy celebrating his conquest of the Alpine tribes. Roman writers, including [Virgil](/person/virgil) and Pliny the Elder, mention the port as a stopping place for ships along the coast.
 
 ## Genoa and the coming of the Grimaldis
 

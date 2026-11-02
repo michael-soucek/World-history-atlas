@@ -11,13 +11,13 @@ The classical age, from about 500 BCE to 500 CE, is the era of the great Eurasia
 
 ## Empires from the Mediterranean to China
 
-The age opened with the Persian Empire at its greatest extent. Its attempt to subdue the Greek cities failed in the [Greco-Persian Wars](/event/greco-persian-wars), decisively at Salamis in 480 BCE and Plataea in 479 BCE and left Athens at the peak of its power until its long war with Sparta. In the 330s and 320s BCE [Alexander the Great](/person/alexander-the-great) of Macedon conquered Persia, Egypt and lands as far as the Indus. His generals divided his empire, and in the kingdoms of the [Hellenistic period](/culture/hellenistic-period) Greek became the language of government and learning from Egypt to Afghanistan.
+The age opened with the Persian Empire at its greatest extent. Its attempt to subdue the Greek cities failed in the [Greco-Persian Wars](/event/greco-persian-wars), decisively at Salamis in 480 BCE and Plataea in 479 BCE and left Athens at the peak of its power until its long war with [Sparta](/history-of/sparta). In the 330s and 320s BCE [Alexander the Great](/person/alexander-the-great) of Macedon conquered Persia, Egypt and lands as far as the Indus. His generals divided his empire, and in the kingdoms of the [Hellenistic period](/culture/hellenistic-period) Greek became the language of government and learning from Egypt to Afghanistan.
 
 Rome, meanwhile, rose from a city-state to master of Italy, defeated Carthage in three Punic Wars and absorbed the Hellenistic kingdoms one by one. After a century of civil wars the Republic gave way in 27 BCE to rule by emperors, and the [Roman Empire](/place/roman-empire) reached its widest extent under Trajan in 117 CE. To the east, the Parthians and, from 224 CE, the Sasanians ruled Iran and Mesopotamia and fought Rome for centuries over Armenia and the upper Euphrates.
 
 In India, the [Maurya Empire](/place/maurya-empire), founded around 321 BCE, briefly united most of the subcontinent, and later the Kushans in the north-west and the Guptas, from about 320 CE, presided over flourishing trade and Sanskrit culture. In China, the Warring States ended in 221 BCE when Qin unified the country; the [Han dynasty](/place/han-dynasty) that followed in 206 BCE lasted four centuries, adopted Confucian learning as the basis for training officials and fought the Xiongnu nomads of the northern steppe.
 
-Beyond Eurasia's great empires, Meroë in Nubia and the kingdom of Aksum in Ethiopia traded with Rome and India. In the Americas, Teotihuacan grew into one of the largest cities in the world, the Maya built cities and refined their writing and calendar, and in Peru the Moche and Nazca cultures flourished.
+Beyond Eurasia's great empires, Meroë in Nubia and the kingdom of [Aksum](/history-of/aksum) in Ethiopia traded with Rome and India. In the Americas, [Teotihuacan](/site/teotihuacan) grew into one of the largest cities in the world, the Maya built cities and refined their writing and calendar, and in Peru the Moche and Nazca cultures flourished.
 
 ## Ideas, faiths and trade
 

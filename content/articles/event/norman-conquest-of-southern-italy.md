@@ -4,7 +4,7 @@ sources:
   - Wikidata: Norman conquest of southern Italy (Q74011) | https://www.wikidata.org/wiki/Q74011
 written: 2026-10-30
 ---
-Between about 999 and the 1130s, adventurers from Normandy turned themselves from hired swords into the rulers of southern Italy and Sicily. Arriving as mercenaries for Lombard princes and Byzantine governors, they carved out counties of their own, drove out the [Byzantine Empire](/place/byzantine-empire), conquered Muslim Sicily and finally united their lands as the Kingdom of Sicily in 1130. Unlike the swift [Norman conquest of England](/event/battle-of-hastings), it was a piecemeal process spread over generations, with many battles and few decisive ones.
+Between about 999 and the 1130s, adventurers from Normandy turned themselves from hired swords into the rulers of southern Italy and Sicily. Arriving as mercenaries for Lombard princes and Byzantine governors, they carved out counties of their own, drove out the [Byzantine Empire](/place/byzantine-empire), conquered Muslim Sicily and finally united their lands as the [Kingdom of Sicily](/place/kingdom-of-sicily) in 1130. Unlike the swift [Norman conquest of England](/event/battle-of-hastings), it was a piecemeal process spread over generations, with many battles and few decisive ones.
 
 ## Mercenaries from the north
 
@@ -20,7 +20,7 @@ Norman rule was harsh, and Lombard hatred of the newcomers grew. Pope Leo IX rai
 
 ## Sicily and the end of Byzantine Italy
 
-Robert Guiscard and his younger brother Roger crossed to Sicily in 1061, taking advantage of quarrels among its Muslim rulers. The conquest was slow: Roger won at Cerami in 1063, Palermo fell in January 1072, Syracuse in 1086, and the last Muslim stronghold, Noto, in 1091. On the mainland, Guiscard took Bari, the Byzantine capital in Italy, in April 1071, ending centuries of Byzantine rule there. He went on to take Amalfi and, in 1076–1077, Salerno, the most important city of the south. In 1097, during a Norman siege of Amalfi, his son Bohemond and many other Normans were drawn away by the [First Crusade](/event/first-crusade).
+Robert Guiscard and his younger brother Roger crossed to Sicily in 1061, taking advantage of quarrels among its Muslim rulers. The conquest was slow: Roger won at Cerami in 1063, Palermo fell in January 1072, [Syracuse](/history-of/syracuse) in 1086, and the last Muslim stronghold, Noto, in 1091. On the mainland, Guiscard took Bari, the Byzantine capital in Italy, in April 1071, ending centuries of Byzantine rule there. He went on to take Amalfi and, in 1076–1077, Salerno, the most important city of the south. In 1097, during a Norman siege of Amalfi, his son Bohemond and many other Normans were drawn away by the [First Crusade](/event/first-crusade).
 
 ## A Norman kingdom
 

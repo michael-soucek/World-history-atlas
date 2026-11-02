@@ -9,7 +9,7 @@ Mexico became independent from Spain in 1821, after an eleven-year war that bega
 
 ## Ancient Mexico
 
-Mexico was home to some of the great civilisations of the Americas: the Olmecs on the Gulf Coast, Teotihuacan in the central highlands, the Maya in the south-east, the Zapotecs of Monte Albán in Oaxaca, the Toltecs and the Aztecs. Maize, beans, squash, chillies, tomatoes and chocolate were domesticated in Mexico. The Spanish conquest of 1519–1521 began three centuries of colonial rule as New Spain.
+Mexico was home to some of the great civilisations of the Americas: the Olmecs on the Gulf Coast, [Teotihuacan](/site/teotihuacan) in the central highlands, the Maya in the south-east, the Zapotecs of [Monte Albán](/site/monte-alban) in Oaxaca, the Toltecs and the Aztecs. Maize, beans, squash, chillies, tomatoes and chocolate were domesticated in Mexico. The Spanish conquest of 1519–1521 began three centuries of colonial rule as New Spain.
 
 ## Independence and early troubles
 
@@ -33,7 +33,7 @@ The Institutional Revolutionary Party, PRI, ruled from 1929 to 2000. Lázaro Cá
 
 ## Culture
 
-Mexican culture blends Indigenous and Spanish traditions, seen in the Day of the Dead, cuisine recognised by UNESCO, and the murals of Diego Rivera, José Clemente Orozco and David Alfaro Siqueiros. Frida Kahlo's paintings, the writings of Octavio Paz and Carlos Fuentes, and Mexican cinema are internationally famous.
+Mexican culture blends Indigenous and Spanish traditions, seen in the Day of the Dead, cuisine recognised by UNESCO, and the murals of Diego Rivera, José Clemente Orozco and David Alfaro Siqueiros. [Frida Kahlo](/person/frida-kahlo)'s paintings, the writings of Octavio Paz and Carlos Fuentes, and Mexican cinema are internationally famous.
 
 ## On our maps
 

@@ -37,7 +37,7 @@ The plan collapsed when Octavian joined Antony and Lepidus in the Second Triumvi
 
 ## Legacy
 
-Cicero's speeches, treatises and letters shaped Latin prose for centuries. He coined much of the Latin vocabulary of philosophy. Petrarch's rediscovery of his letters helped inspire the Renaissance, and Enlightenment thinkers and the American founders admired him, though critics have charged him with vanity, inconsistency and hostility to popular reform.
+Cicero's speeches, treatises and letters shaped Latin prose for centuries. He coined much of the Latin vocabulary of philosophy. [Petrarch](/person/petrarch)'s rediscovery of his letters helped inspire the Renaissance, and Enlightenment thinkers and the American founders admired him, though critics have charged him with vanity, inconsistency and hostility to popular reform.
 
 ## On our maps
 

@@ -26,7 +26,7 @@ The scale of the slaughter is not in doubt, but the numbers are. Polybius put th
 
 ## Aftermath
 
-After Cannae several regions of southern Italy, including the important city of Capua, went over to Hannibal, and Philip V of Macedon and Syracuse soon allied with Carthage. Yet Hannibal did not march on Rome, which he probably lacked the siege equipment to take, and the [Roman Republic](/place/roman-republic) refused to negotiate. Most of central Italy stayed loyal. Rome returned to a strategy of attrition, rebuilt its armies and carried the war to Spain and later Africa. Hannibal remained in Italy for more than a decade but was finally recalled and defeated by Scipio Africanus at Zama in 202 BCE.
+After Cannae several regions of southern Italy, including the important city of Capua, went over to Hannibal, and Philip V of Macedon and [Syracuse](/history-of/syracuse) soon allied with Carthage. Yet Hannibal did not march on Rome, which he probably lacked the siege equipment to take, and the [Roman Republic](/place/roman-republic) refused to negotiate. Most of central Italy stayed loyal. Rome returned to a strategy of attrition, rebuilt its armies and carried the war to Spain and later Africa. Hannibal remained in Italy for more than a decade but was finally recalled and defeated by Scipio Africanus at Zama in 202 BCE.
 
 ## Legacy
 

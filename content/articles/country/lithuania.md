@@ -46,7 +46,7 @@ Facing the crusaders, the Lithuanian chiefs drew together under Mindaugas, who b
 
 From the 1290s a new dynasty took power, named after its greatest member, Gediminas (ruled about 1315 to 1341). In 1323 he wrote to German towns and religious orders inviting merchants and craftsmen to settle in his lands, letters that contain the first mention of [Vilnius](/history-of/vilnius) as his capital. While holding off the Teutonic Knights in the west, Gediminas and his sons expanded east into the Rus' lands left weak by Mongol rule, taking much of what is now [Belarus](/country/belarus) and parts of [Ukraine](/country/ukraine).
 
-His sons Algirdas and Kęstutis divided the work of ruling: Algirdas pushed east and south, defeating the Tatars at the Battle of Blue Waters around 1362 and taking Kyiv, while Kęstutis defended the west against the Order's yearly campaigns. By the late fourteenth century the Grand Duchy of Lithuania was the largest state in Europe. Most of its people were Orthodox Christian Ruthenians, and the language of its chancery was a form of Old Ruthenian, but its rulers and core lands remained pagan.
+His sons Algirdas and Kęstutis divided the work of ruling: Algirdas pushed east and south, defeating the Tatars at the Battle of Blue Waters around 1362 and taking Kyiv, while Kęstutis defended the west against the Order's yearly campaigns. By the late fourteenth century the [Grand Duchy of Lithuania](/place/grand-duchy-of-lithuania) was the largest state in Europe. Most of its people were Orthodox Christian Ruthenians, and the language of its chancery was a form of Old Ruthenian, but its rulers and core lands remained pagan.
 
 ## Union with Poland and the conversion
 

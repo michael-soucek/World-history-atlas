@@ -8,7 +8,7 @@ Nineveh lies on the east bank of the Tigris in northern [Iraq](/country/iraq), f
 
 ## From farming village to Assyrian town
 
-Soundings deep beneath the mound of Kuyunjiq show that people farmed here from around 6000 BCE. By the later fifth millennium the settlement covered some 40 hectares, and in the fourth millennium it became a trading outpost of the southern city of Uruk, placed at the highest point on the Tigris that boats could reach. In the early third millennium its distinctive "Ninevite 5" pottery spread across northern Mesopotamia.
+Soundings deep beneath the mound of Kuyunjiq show that people farmed here from around 6000 BCE. By the later fifth millennium the settlement covered some 40 hectares, and in the fourth millennium it became a trading outpost of the southern city of [Uruk](/history-of/uruk), placed at the highest point on the Tigris that boats could reach. In the early third millennium its distinctive "Ninevite 5" pottery spread across northern Mesopotamia.
 
 In the late third millennium Nineveh belonged to the Akkadian Empire, though with little official presence. Around the eighteenth century BCE it fell within the kingdom of Shamshi-Adad I and became known for its worship of the goddess Ishtar; in the fourteenth century the Mitanni king Tushratta even sent her statue to Egypt. Nineveh was a vassal of Mitanni until the Assyrian king Ashur-uballit I took it, and Middle Assyrian kings such as Shalmaneser I and Tiglath-Pileser I built there, although the capital remained at [Assur](/history-of/assur).
 

@@ -13,7 +13,7 @@ When the Qing dynasty fell in 1912, the general Yuan Shikai became president of 
 
 ## The cliques
 
-The main cliques fought for control of Beijing and the central government. The Anhui clique, led by Duan Qirui, dominated from 1916 to 1920, borrowing heavily from Japan. In 1917 the general Zhang Xun briefly restored the last emperor, Puyi, for twelve days. In 1920 the Zhili clique, led by Cao Kun and Wu Peifu, defeated the Anhui clique. The Fengtian clique, led by Zhang Zuolin, the "Old Marshal", controlled Manchuria with Japanese support. The Zhili-Fengtian wars of 1922 and 1924 involved hundreds of thousands of soldiers. In 1923 Cao Kun bribed members of parliament to elect him president. In 1924 the general Feng Yuxiang betrayed Wu Peifu, seized Beijing and expelled Puyi from the Forbidden City.
+The main cliques fought for control of Beijing and the central government. The Anhui clique, led by Duan Qirui, dominated from 1916 to 1920, borrowing heavily from Japan. In 1917 the general Zhang Xun briefly restored the last emperor, Puyi, for twelve days. In 1920 the Zhili clique, led by Cao Kun and Wu Peifu, defeated the Anhui clique. The Fengtian clique, led by Zhang Zuolin, the "Old Marshal", controlled Manchuria with Japanese support. The Zhili-Fengtian wars of 1922 and 1924 involved hundreds of thousands of soldiers. In 1923 Cao Kun bribed members of parliament to elect him president. In 1924 the general Feng Yuxiang betrayed Wu Peifu, seized Beijing and expelled Puyi from the [Forbidden City](/site/forbidden-city).
 
 ## Warlord rule
 

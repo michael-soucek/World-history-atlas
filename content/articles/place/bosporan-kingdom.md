@@ -9,7 +9,7 @@ On both shores of the Kerch Strait, which the Greeks called the Cimmerian Bospor
 
 ## Greek cities on the strait
 
-Settlers from Miletus founded towns around the strait in the seventh and sixth centuries BC, among them Panticapaeum, Nymphaeum and Myrmekion on the Crimean side and Phanagoria, a colony of Teos founded around 540 BC, on the Taman Peninsula. Pressure from the expanding [Scythians](/place/scythians) may have pushed these cities together: according to the historian Diodorus, a ruling family called the Archaeanactids governed the region from 480 to 438 BC.
+Settlers from [Miletus](/history-of/miletus) founded towns around the strait in the seventh and sixth centuries BC, among them Panticapaeum, Nymphaeum and Myrmekion on the Crimean side and Phanagoria, a colony of Teos founded around 540 BC, on the Taman Peninsula. Pressure from the expanding [Scythians](/place/scythians) may have pushed these cities together: according to the historian Diodorus, a ruling family called the Archaeanactids governed the region from 480 to 438 BC.
 
 ## The Spartocids
 

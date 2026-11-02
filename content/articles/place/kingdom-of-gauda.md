@@ -34,4 +34,4 @@ Later rulers of Bengal, including the kings of the [Pala Empire](/place/pala-emp
 
 ## On our maps
 
-Our 600 map draws this kingdom under the label "Shaskanka", a variant spelling of the king's name, covering West Bengal and Bangladesh and reaching west towards Patna, with Kamarupa to the north-east.
+Our 600 map draws this kingdom under the label "Shaskanka", a variant spelling of the king's name, covering West Bengal and Bangladesh and reaching west towards [Patna](/history-of/patna), with Kamarupa to the north-east.

@@ -14,7 +14,7 @@ Peter Abelard was a French philosopher, logician and theologian of the twelfth c
 
 ## Early life and the schools
 
-Abelard was born around 1079 at Le Pallet, a village in Brittany near Nantes, into a family of minor nobility. As the eldest son he was expected to become a knight, but he gave up his inheritance to study, and his writings show a good knowledge of Latin authors such as Cicero, Ovid and Seneca. He travelled to learn from the leading masters of logic, among them Roscelin of Compiègne and, in [Paris](/history-of/paris), William of Champeaux.
+Abelard was born around 1079 at Le Pallet, a village in Brittany near Nantes, into a family of minor nobility. As the eldest son he was expected to become a knight, but he gave up his inheritance to study, and his writings show a good knowledge of Latin authors such as Cicero, [Ovid](/person/ovid) and Seneca. He travelled to learn from the leading masters of logic, among them Roscelin of Compiègne and, in [Paris](/history-of/paris), William of Champeaux.
 
 Ambitious and combative, he soon set up his own schools at Melun and Corbeil, in rivalry with William, before ill health sent him back to Brittany for some years. Returning to Paris, he challenged William in public over the problem of universals and, by his own account, forced his old teacher to change his position. Around 1113 he turned to theology under Anselm of Laon (not to be confused with [Anselm of Canterbury](/person/anselm-of-canterbury)), whose traditional teaching he found thin, and he was soon lecturing on scripture himself. By the mid-1110s he was teaching at the cathedral school of Notre-Dame and drawing students from across Europe.
 

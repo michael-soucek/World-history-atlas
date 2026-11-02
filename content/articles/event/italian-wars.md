@@ -8,7 +8,7 @@ For sixty-five years, from 1494 to 1559, the rich but divided states of Italy we
 
 ## The French invasion of 1494
 
-Since the Peace of Lodi in 1454, a balance between Milan, Venice, Florence, the papacy and Naples had kept outside powers largely at bay. The death of the Florentine leader Lorenzo de' Medici in 1492 weakened that system. Encouraged by Ludovico Sforza, the ruler of Milan, Charles VIII of France pressed an inherited claim to the Kingdom of Naples and invaded in September 1494. His army, with a fast-moving siege train that could batter down walls in hours, marched through Italy almost unopposed and entered Rome on the last day of the year. Alarmed, Venice, Milan, Spain and the Emperor formed the League of Venice in March 1495. Charles fought his way home at Fornovo in July, and his conquest of Naples soon collapsed.
+Since the Peace of Lodi in 1454, a balance between Milan, Venice, Florence, the papacy and Naples had kept outside powers largely at bay. The death of the Florentine leader Lorenzo de' Medici in 1492 weakened that system. Encouraged by Ludovico Sforza, the ruler of Milan, Charles VIII of France pressed an inherited claim to the [Kingdom of Naples](/place/kingdom-of-naples) and invaded in September 1494. His army, with a fast-moving siege train that could batter down walls in hours, marched through Italy almost unopposed and entered Rome on the last day of the year. Alarmed, Venice, Milan, Spain and the Emperor formed the League of Venice in March 1495. Charles fought his way home at Fornovo in July, and his conquest of Naples soon collapsed.
 
 ## Milan, Naples and Venice
 

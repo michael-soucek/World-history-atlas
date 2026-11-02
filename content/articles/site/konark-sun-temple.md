@@ -4,7 +4,7 @@ written: 2026-11-01
 sources:
   - Wikipedia: Konark Sun Temple | https://en.wikipedia.org/wiki/Konark_Sun_Temple
 ---
-The Konark Sun Temple is a thirteenth-century Hindu temple to the sun god Surya, standing near the Bay of Bengal about 35 kilometres north-east of Puri in Odisha, eastern [India](/country/india). It is ascribed to Narasimhadeva I, a ruler of the Eastern Ganga dynasty, and is usually dated to around 1250. Conceived as Surya's colossal stone chariot, with carved wheels and horses, it is regarded as the high point of the Kalinga style of temple architecture, though its great tower has long since fallen.
+The Konark Sun Temple is a thirteenth-century Hindu temple to the sun god Surya, standing near the Bay of Bengal about 35 kilometres north-east of Puri in Odisha, eastern [India](/country/india). It is ascribed to Narasimhadeva I, a ruler of the [Eastern Ganga dynasty](/place/eastern-ganga-dynasty), and is usually dated to around 1250. Conceived as Surya's colossal stone chariot, with carved wheels and horses, it is regarded as the high point of the Kalinga style of temple architecture, though its great tower has long since fallen.
 
 ## An older sacred site
 

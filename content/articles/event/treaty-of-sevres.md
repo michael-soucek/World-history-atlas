@@ -14,7 +14,7 @@ The draft was presented to the sultan's government in Istanbul, which objected t
 
 ## Territorial terms
 
-The Arab provinces were removed. Palestine and Mesopotamia went to Britain as mandates, and Syria and Lebanon to France, while the Kingdom of Hejaz was recognised as independent. The treaty wrote the [Balfour Declaration](/event/balfour-declaration) into the terms for Palestine.
+The Arab provinces were removed. Palestine and Mesopotamia went to Britain as mandates, and Syria and Lebanon to France, while the [Kingdom of Hejaz](/place/kingdom-of-hejaz) was recognised as independent. The treaty wrote the [Balfour Declaration](/event/balfour-declaration) into the terms for Palestine.
 
 In Anatolia itself the losses were heavy. Eastern Thrace and several Aegean islands were ceded to Greece, and Smyrna and its region were placed under Greek administration, with a plebiscite on union with Greece to follow after five years. Italy kept the Dodecanese and gained a zone of influence in the south-west, and France one in the south-east. [Armenia](/country/armenia) was recognised as "free and independent", its border with Turkey to be settled by arbitration of the American president. A Kurdish region was to be offered a referendum on its future. The Straits were to be internationalised under a commission.
 

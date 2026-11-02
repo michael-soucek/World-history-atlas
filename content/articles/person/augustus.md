@@ -29,7 +29,7 @@ In 27 BCE Octavian announced that he was restoring the Republic, returning power
 
 ## Rebuilding Rome
 
-Augustus claimed that he found Rome a city of brick and left it a city of marble. He and Agrippa built temples, the Forum of Augustus, aqueducts and the first Pantheon, and he organised the city into districts with fire brigades and police. He promoted traditional religion and morality, passing laws to encourage marriage and children and punish adultery; he exiled his own daughter Julia for adultery. The poets Virgil, who wrote the Aeneid, Horace and Ovid, whom Augustus exiled, flourished, supported by his friend Maecenas.
+Augustus claimed that he found Rome a city of brick and left it a city of marble. He and Agrippa built temples, the Forum of Augustus, aqueducts and the first Pantheon, and he organised the city into districts with fire brigades and police. He promoted traditional religion and morality, passing laws to encourage marriage and children and punish adultery; he exiled his own daughter Julia for adultery. The poets [Virgil](/person/virgil), who wrote the Aeneid, Horace and [Ovid](/person/ovid), whom Augustus exiled, flourished, supported by his friend Maecenas.
 
 ## The empire
 

@@ -18,7 +18,7 @@ Shapur was a son of Ardashir I, the prince of Pars (Persis) who overthrew the [P
 
 Even before his accession Shapur had taken the Mesopotamian fortresses of Nisibis and Carrhae. A Roman counter-offensive under the young emperor Gordian III beat him at Resaena in 243, but the following year the Persians won at Misiche, and Gordian died, whether in battle or at the hands of his own men. His successor, Philip the Arab, bought peace in 244, accepting that Armenia lay in the Persian sphere and paying, according to the sources, 500,000 gold denarii.
 
-In a second war, beginning in 252 or 253, Shapur destroyed a Roman army at Barbalissos, overran Syria and sacked Antioch and Dura-Europos. In his third campaign, in 260, he defeated the emperor Valerian near Edessa and took him prisoner with the remains of his army. Later Christian writers claimed Shapur used Valerian as a mounting block; Persian reliefs show a kneeling Roman, but the footstool story belongs to hostile tradition. Shapur's forces went on to take Caesarea in Cappadocia, before Odaenathus of Palmyra drove them back and recovered Roman Mesopotamia during the 260s.
+In a second war, beginning in 252 or 253, Shapur destroyed a Roman army at Barbalissos, overran Syria and sacked Antioch and Dura-Europos. In his third campaign, in 260, he defeated the emperor Valerian near Edessa and took him prisoner with the remains of his army. Later Christian writers claimed Shapur used Valerian as a mounting block; Persian reliefs show a kneeling Roman, but the footstool story belongs to hostile tradition. Shapur's forces went on to take Caesarea in Cappadocia, before Odaenathus of [Palmyra](/history-of/palmyra) drove them back and recovered Roman Mesopotamia during the 260s.
 
 ## The eastern conquests
 

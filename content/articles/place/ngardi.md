@@ -23,7 +23,7 @@ The Ngardi language belongs to the large Pama–Nyungan family, but its closer r
 
 ## Balgo and the mission years
 
-In 1939 German Pallottine Catholic missionaries arrived in the region, and the present site of Balgo was chosen in 1942. The community brought together speakers of several desert languages. Today its residents include Ngardi, Kukatja, Djaru, Warlpiri, Walmajarri, Wangkajunga, Pintupi and Ngaatjatjarra people, and the Kukatja dialect of the Western Desert language serves as the common tongue. Balgo's art centre, Warlayirti Artists, founded in 1987, represents more than 300 artists from Balgo and nearby communities.
+In 1939 German Pallottine Catholic missionaries arrived in the region, and the present site of Balgo was chosen in 1942. The community brought together speakers of several desert languages. Today its residents include Ngardi, Kukatja, Djaru, Warlpiri, Walmajarri, Wangkajunga, Pintupi and [Ngaatjatjarra people](/place/ngaatjatjarra-people), and the Kukatja dialect of the Western Desert language serves as the common tongue. Balgo's art centre, Warlayirti Artists, founded in 1987, represents more than 300 artists from Balgo and nearby communities.
 
 ## Land rights
 

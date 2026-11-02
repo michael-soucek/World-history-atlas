@@ -21,7 +21,7 @@ In 336 BCE Philip was assassinated, and Alexander, aged twenty, became king. He 
 
 ## Conquest of Persia
 
-In 334 BCE Alexander crossed into Asia with about 40,000 men. He defeated a Persian army at the Granicus river and freed the Greek cities of Asia Minor. According to legend, at Gordium he cut the Gordian knot. In 333 BCE, at Issus, he defeated the Persian king Darius III himself, capturing his family. He besieged Tyre for seven months, building a causeway to the island city, and took Egypt, where he was welcomed as a liberator and crowned pharaoh, founding Alexandria in 331 BCE. At the oracle of Siwa he was greeted as the son of Zeus-Ammon. In 331 BCE he defeated Darius decisively at Gaugamela, near today's Mosul, and took Babylon, Susa and Persepolis, which he burned. Darius was killed by his own officials in 330 BCE.
+In 334 BCE Alexander crossed into Asia with about 40,000 men. He defeated a Persian army at the Granicus river and freed the Greek cities of Asia Minor. According to legend, at Gordium he cut the Gordian knot. In 333 BCE, at Issus, he defeated the Persian king Darius III himself, capturing his family. He besieged Tyre for seven months, building a causeway to the island city, and took Egypt, where he was welcomed as a liberator and crowned pharaoh, founding Alexandria in 331 BCE. At the oracle of Siwa he was greeted as the son of Zeus-Ammon. In 331 BCE he defeated Darius decisively at Gaugamela, near today's Mosul, and took Babylon, [Susa](/history-of/susa) and [Persepolis](/site/persepolis), which he burned. Darius was killed by his own officials in 330 BCE.
 
 ## To the edge of the world
 

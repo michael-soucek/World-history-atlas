@@ -32,7 +32,7 @@ His most famous monument was the great stupa outside Peshawar. Excavators who fo
 
 ## Succession and legacy
 
-Kanishka was probably followed by Huvishka, though how and when remains unclear. In the decades after his reign, Kushan monks such as Lokaksema, active around 178 in Luoyang, translated Mahayana scriptures into Chinese, part of the movement his patronage had encouraged.
+Kanishka was probably followed by Huvishka, though how and when remains unclear. In the decades after his reign, Kushan monks such as Lokaksema, active around 178 in [Luoyang](/history-of/luoyang), translated Mahayana scriptures into Chinese, part of the movement his patronage had encouraged.
 
 ## On our maps
 

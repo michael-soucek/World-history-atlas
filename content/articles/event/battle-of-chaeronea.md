@@ -12,7 +12,7 @@ After coming to the throne in 359 BC, Philip rapidly strengthened Macedon and ex
 
 ## The road to Chaeronea
 
-A dispute over sacred land near Delphi gave Philip a pretext to bring his army south in 339 BC. Thebes had blocked the main route by seizing Nicaea, near Thermopylae, but Philip used a side road and slipped into central Greece, where he restored the Phocians and gained a base at Elatea. The news caused panic in Athens. Demosthenes persuaded the Athenians to seek an alliance with Thebes, their old rival, and the Thebans agreed despite Philip's own embassy. Several months of manoeuvre and skirmishing followed, of which little is known. In August 338 BC Philip finally marched down the main road into Boeotia, where the allied army was waiting.
+A dispute over sacred land near [Delphi](/site/delphi) gave Philip a pretext to bring his army south in 339 BC. Thebes had blocked the main route by seizing Nicaea, near Thermopylae, but Philip used a side road and slipped into central Greece, where he restored the Phocians and gained a base at Elatea. The news caused panic in Athens. Demosthenes persuaded the Athenians to seek an alliance with Thebes, their old rival, and the Thebans agreed despite Philip's own embassy. Several months of manoeuvre and skirmishing followed, of which little is known. In August 338 BC Philip finally marched down the main road into Boeotia, where the allied army was waiting.
 
 ## The armies
 
@@ -24,7 +24,7 @@ The only formal account, by Diodorus, says the fight was long and evenly balance
 
 ## The settlement
 
-Philip did not set out to conquer the cities. He wanted Greece stable and allied behind him for a planned war against the [Achaemenid Empire](/place/achaemenid-empire). Thebes was punished with a garrison and the exile of its leaders, while Athens was treated leniently, perhaps because Philip hoped to use its fleet. In 337 BC he organised the League of Corinth, which every major state except Sparta joined. Its members became allies of Macedon and of each other, and the league voted Philip commander of a war against Persia.
+Philip did not set out to conquer the cities. He wanted Greece stable and allied behind him for a planned war against the [Achaemenid Empire](/place/achaemenid-empire). Thebes was punished with a garrison and the exile of its leaders, while Athens was treated leniently, perhaps because Philip hoped to use its fleet. In 337 BC he organised the League of Corinth, which every major state except [Sparta](/history-of/sparta) joined. Its members became allies of Macedon and of each other, and the league voted Philip commander of a war against Persia.
 
 Philip was assassinated in 336 BC before he could lead the campaign. Alexander inherited both the kingdom and the war, and between 334 and 323 BC conquered the whole Persian Empire.
 

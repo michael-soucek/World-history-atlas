@@ -29,7 +29,7 @@ After Gaozong died in 683, Wu became empress dowager. Her son Zhongzong became e
 
 ## Emperor
 
-In 690 Wu took the title of emperor, huangdi, and proclaimed the Zhou dynasty, interrupting the Tang. She used Buddhism to legitimise her rule; a text, the Great Cloud Sutra, was interpreted to prophesy a female ruler who was an incarnation of the future Buddha Maitreya. She sponsored Buddhist temples and the great Buddha carvings of the Longmen Grottoes. She moved the capital to Luoyang. She expanded the civil-service examinations, recruiting talented officials from outside the aristocracy, and promoted agriculture. She created new characters for writing, including one for her own name.
+In 690 Wu took the title of emperor, huangdi, and proclaimed the Zhou dynasty, interrupting the Tang. She used Buddhism to legitimise her rule; a text, the Great Cloud Sutra, was interpreted to prophesy a female ruler who was an incarnation of the future Buddha Maitreya. She sponsored Buddhist temples and the great Buddha carvings of the Longmen Grottoes. She moved the capital to [Luoyang](/history-of/luoyang). She expanded the civil-service examinations, recruiting talented officials from outside the aristocracy, and promoted agriculture. She created new characters for writing, including one for her own name.
 
 ## Fall
 

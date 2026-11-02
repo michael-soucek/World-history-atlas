@@ -16,7 +16,7 @@ The most famous theological disagreement concerned the Filioque, a phrase added 
 
 ## The events of 1054
 
-In 1053 Patriarch Michael Cerularius closed the Latin churches in Constantinople, partly in response to Norman and papal pressure on Greek churches in southern Italy. Pope Leo IX sent a delegation led by Cardinal Humbert of Silva Candida to the capital. The talks went badly, and on 16 July 1054 Humbert laid a bull of excommunication against Cerularius on the altar of Hagia Sophia. The patriarch and his synod replied by excommunicating the legates. Leo IX had in fact died in April, so the legates' authority was doubtful, and the excommunications were personal rather than directed at whole churches. At the time few people saw the episode as final.
+In 1053 Patriarch Michael Cerularius closed the Latin churches in Constantinople, partly in response to Norman and papal pressure on Greek churches in southern Italy. Pope Leo IX sent a delegation led by Cardinal Humbert of Silva Candida to the capital. The talks went badly, and on 16 July 1054 Humbert laid a bull of excommunication against Cerularius on the altar of [Hagia Sophia](/site/hagia-sophia). The patriarch and his synod replied by excommunicating the legates. Leo IX had in fact died in April, so the legates' authority was doubtful, and the excommunications were personal rather than directed at whole churches. At the time few people saw the episode as final.
 
 ## From quarrel to division
 

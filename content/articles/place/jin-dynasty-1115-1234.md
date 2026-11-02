@@ -13,7 +13,7 @@ The Jurchens had long been subjects of the Liao. According to a well-known story
 
 ## Conquest of the north
 
-Turning on their former Song allies, the Jin invaded in 1125 and twice besieged Kaifeng. The city fell in January 1127, and the retired emperor Huizong and the reigning emperor Qinzong were carried off into captivity with much of their court. A Song prince fled south and refounded the dynasty, eventually settling at Hangzhou. After years of fighting, including the campaigns of the Song general Yue Fei, the Treaty of Shaoxing in 1141–42 fixed the border along the Huai River and obliged the Song to pay a large annual tribute.
+Turning on their former Song allies, the Jin invaded in 1125 and twice besieged [Kaifeng](/history-of/kaifeng). The city fell in January 1127, and the retired emperor Huizong and the reigning emperor Qinzong were carried off into captivity with much of their court. A Song prince fled south and refounded the dynasty, eventually settling at [Hangzhou](/history-of/hangzhou). After years of fighting, including the campaigns of the Song general Yue Fei, the Treaty of Shaoxing in 1141–42 fixed the border along the Huai River and obliged the Song to pay a large annual tribute.
 
 ## Emperors and capitals
 
@@ -21,7 +21,7 @@ The usurper Wanyan Liang, who seized the throne in 1150, moved the main capital 
 
 ## Government and culture
 
-The Jin combined Jurchen tribal traditions with institutions borrowed from the Liao and Song. Jurchen settlers in northern China were organised into hereditary military units of households, while Chinese subjects were governed by a civil bureaucracy recruited partly through examinations. The state kept five capitals, a practice taken from the Liao and Balhae. Religion flourished: the Quanzhen school of Daoism was founded under the Jin by Wang Zhe, the state printed a Daoist canon in 1192, and a privately funded Buddhist canon of some 7,000 fascicles was completed in 1173.
+The Jin combined Jurchen tribal traditions with institutions borrowed from the Liao and Song. Jurchen settlers in northern China were organised into hereditary military units of households, while Chinese subjects were governed by a civil bureaucracy recruited partly through examinations. The state kept five capitals, a practice taken from the Liao and [Balhae](/place/balhae). Religion flourished: the Quanzhen school of Daoism was founded under the Jin by Wang Zhe, the state printed a Daoist canon in 1192, and a privately funded Buddhist canon of some 7,000 fascicles was completed in 1173.
 
 ## Floods and the Mongols
 

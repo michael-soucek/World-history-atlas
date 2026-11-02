@@ -13,7 +13,7 @@ Ashoka was the third emperor of the Maurya dynasty, ruling most of the Indian su
 
 ## The Maurya Empire
 
-Ashoka was the grandson of Chandragupta Maurya, who founded the empire around 321 BCE, and the son of Bindusara, who expanded it into southern India. Born around 304 BCE, he served as a governor, at Ujjain and possibly Taxila, under his father. According to Buddhist tradition, after Bindusara's death he fought his brothers for the throne, and his coronation took place around 268 BCE, about four years after his accession. Later legends portray the young Ashoka as cruel, but these stories, told by Buddhists to emphasise his conversion, may be exaggerated.
+Ashoka was the grandson of Chandragupta Maurya, who founded the empire around 321 BCE, and the son of Bindusara, who expanded it into southern India. Born around 304 BCE, he served as a governor, at Ujjain and possibly [Taxila](/history-of/taxila), under his father. According to Buddhist tradition, after Bindusara's death he fought his brothers for the throne, and his coronation took place around 268 BCE, about four years after his accession. Later legends portray the young Ashoka as cruel, but these stories, told by Buddhists to emphasise his conversion, may be exaggerated.
 
 ## The Kalinga war
 
@@ -29,7 +29,7 @@ Ashoka's edicts record that he had wells dug, trees planted along roads for shad
 
 ## The edicts
 
-Ashoka's edicts are the earliest substantial written records in Indian history. They were carved on rocks and on polished sandstone pillars, many crowned with animal capitals, at over thirty sites, from Afghanistan to Karnataka. Most are written in Prakrit, in the Brahmi script, but in the north-west some use Kharosthi, and near Kandahar, Greek and Aramaic. Brahmi was deciphered by James Prinsep in 1837, allowing them to be read again. The Lion Capital from the pillar at Sarnath, with four lions, is now the national emblem of India, and the wheel, chakra, on its base appears on India's flag.
+Ashoka's edicts are the earliest substantial written records in Indian history. They were carved on rocks and on polished sandstone pillars, many crowned with animal capitals, at over thirty sites, from Afghanistan to Karnataka. Most are written in Prakrit, in the Brahmi script, but in the north-west some use Kharosthi, and near [Kandahar](/history-of/kandahar), Greek and Aramaic. Brahmi was deciphered by James Prinsep in 1837, allowing them to be read again. The Lion Capital from the pillar at Sarnath, with four lions, is now the national emblem of India, and the wheel, chakra, on its base appears on India's flag.
 
 ## Spreading Buddhism
 

@@ -29,7 +29,7 @@ Britain occupied the Cape in 1795, returned it to the Dutch in 1803, and took it
 
 ## The Great Trek
 
-From 1835, thousands of Boers, or Afrikaners, left the Cape in the Great Trek, seeking independence from British rule. They founded the republics of Natalia, later annexed by Britain, the Orange Free State and the South African Republic, the Transvaal.
+From 1835, thousands of Boers, or Afrikaners, left the Cape in the Great Trek, seeking independence from British rule. They founded the republics of Natalia, later annexed by Britain, the [Orange Free State](/place/orange-free-state) and the South African Republic, the Transvaal.
 
 ## The Xhosa cattle killing
 

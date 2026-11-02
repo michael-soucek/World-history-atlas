@@ -10,7 +10,7 @@ The Heian period, from 794 to 1185, was the last era of classical Japanese histo
 
 ## A new capital
 
-Emperor Kammu first moved the court from Nara to Nagaoka-kyō and then, after a run of disasters there, to Heian-kyō in 794. One aim was to escape the growing political weight of the Buddhist temples of Nara. The new city was laid out on the grid of the Tang capital Chang'an, larger than Nara, with good river and road links, and it remained the imperial capital for about a thousand years. Kammu also fought the Emishi of the north and east; his general Sakanoue no Tamuramaro, given the title Seii Taishōgun, had defeated them by 801 and carried imperial rule to the eastern end of Honshū.
+Emperor Kammu first moved the court from [Nara](/history-of/nara) to Nagaoka-kyō and then, after a run of disasters there, to Heian-kyō in 794. One aim was to escape the growing political weight of the Buddhist temples of Nara. The new city was laid out on the grid of the Tang capital Chang'an, larger than Nara, with good river and road links, and it remained the imperial capital for about a thousand years. Kammu also fought the Emishi of the north and east; his general Sakanoue no Tamuramaro, given the title Seii Taishōgun, had defeated them by 801 and carried imperial rule to the eastern end of Honshū.
 
 ## The Fujiwara regency
 

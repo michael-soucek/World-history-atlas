@@ -20,7 +20,7 @@ The siege began on 6 April 1453. Constantinople was protected by the sea and by 
 
 ## The final assault
 
-In the early hours of 29 May, Mehmed launched a final assault, in three waves. The defenders held at first, but Giustiniani was badly wounded and was carried away, which demoralised his men. Ottoman troops entered through a small gate, the Kerkoporta, which, according to some accounts, had been left open, and raised their flag. Constantine XI died fighting; his body was never identified. The Ottoman soldiers sacked the city for a day. Thousands were killed, and many people, including those who had sought refuge in the Hagia Sophia, were enslaved.
+In the early hours of 29 May, Mehmed launched a final assault, in three waves. The defenders held at first, but Giustiniani was badly wounded and was carried away, which demoralised his men. Ottoman troops entered through a small gate, the Kerkoporta, which, according to some accounts, had been left open, and raised their flag. Constantine XI died fighting; his body was never identified. The Ottoman soldiers sacked the city for a day. Thousands were killed, and many people, including those who had sought refuge in the [Hagia Sophia](/site/hagia-sophia), were enslaved.
 
 ## Aftermath
 

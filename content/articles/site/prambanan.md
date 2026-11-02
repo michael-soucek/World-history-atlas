@@ -4,7 +4,7 @@ written: 2026-11-01
 sources:
   - Wikipedia: Prambanan | https://en.wikipedia.org/wiki/Prambanan
 ---
-Prambanan is a ninth-century [Hindu](/culture/hinduism) temple compound on the plain north-east of Yogyakarta in central Java, straddling the border between the Special Region of Yogyakarta and Central Java province. Built for the kings of Mataram and dedicated to the Trimurti of Brahma, Vishnu and Shiva, it is Indonesia's largest Hindu temple site and, after Angkor Wat, the second largest in South-East Asia. Its central Shiva temple, 47 metres high, rises over a complex that once held 240 shrines.
+Prambanan is a ninth-century [Hindu](/culture/hinduism) temple compound on the plain north-east of Yogyakarta in central Java, straddling the border between the Special Region of Yogyakarta and Central Java province. Built for the kings of Mataram and dedicated to the Trimurti of Brahma, Vishnu and Shiva, it is Indonesia's largest Hindu temple site and, after [Angkor Wat](/site/angkor-wat), the second largest in South-East Asia. Its central Shiva temple, 47 metres high, rises over a complex that once held 240 shrines.
 
 ## A royal temple to Shiva
 

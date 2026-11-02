@@ -9,7 +9,7 @@ The Crimean Khanate was a state of the Crimean Tatars that ruled the Crimean pen
 
 ## Founding
 
-Crimea had been part of the Golden Horde since the thirteenth century, with Genoese trading colonies, such as Kaffa, on its southern coast. As the Horde broke apart, Hacı I Giray, a descendant of Genghis Khan through Jochi, established an independent khanate in Crimea around 1441, with support from the Grand Duchy of Lithuania. His dynasty, the Girays, ruled until 1783.
+Crimea had been part of the Golden Horde since the thirteenth century, with Genoese trading colonies, such as Kaffa, on its southern coast. As the Horde broke apart, Hacı I Giray, a descendant of Genghis Khan through Jochi, established an independent khanate in Crimea around 1441, with support from the [Grand Duchy of Lithuania](/place/grand-duchy-of-lithuania). His dynasty, the Girays, ruled until 1783.
 
 ## Ottoman alliance
 

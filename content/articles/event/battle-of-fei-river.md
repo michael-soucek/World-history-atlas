@@ -24,7 +24,7 @@ In November the armies faced each other across the Fei. Xie Xuan asked Fu Rong t
 
 ## The collapse of Former Qin
 
-Fu Jian fell back to Luoyang, shielded by Murong Chui, whose army of 30,000 was one of the few still intact. Revolts broke out as news of the defeat spread. Murong Chui himself rebelled early in 384, setting off a wave of Xianbei and Qiang uprisings. Chang'an fell to the Western Yan in 385, and in the same year Fu Jian was killed by his former general Yao Chang, founder of the Later Qin. A weakened Former Qin lingered until 394. The Jin, meanwhile, advanced to the Yellow River, regaining much of the old heartland.
+Fu Jian fell back to [Luoyang](/history-of/luoyang), shielded by Murong Chui, whose army of 30,000 was one of the few still intact. Revolts broke out as news of the defeat spread. Murong Chui himself rebelled early in 384, setting off a wave of Xianbei and Qiang uprisings. Chang'an fell to the Western Yan in 385, and in the same year Fu Jian was killed by his former general Yao Chang, founder of the Later Qin. A weakened Former Qin lingered until 394. The Jin, meanwhile, advanced to the Yellow River, regaining much of the old heartland.
 
 ## Significance
 

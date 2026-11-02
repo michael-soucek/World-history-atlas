@@ -4,7 +4,7 @@ sources:
   - Wikidata: Jingkang incident (Q1326831) | https://www.wikidata.org/wiki/Q1326831
 written: 2026-10-30
 ---
-The Jingkang incident was the capture and sack of Bianjing, today's Kaifeng, capital of the [Song dynasty](/place/song-dynasty), by the Jurchen-led Jin dynasty in 1127. The Jin carried off the reigning emperor Qinzong, his father the retired emperor Huizong, much of the imperial clan and many officials. The disaster, remembered in China as the Humiliation of Jingkang after the era name of Qinzong's short reign, ended the Northern Song; a surviving prince refounded the dynasty in the south.
+The Jingkang incident was the capture and sack of Bianjing, today's [Kaifeng](/history-of/kaifeng), capital of the [Song dynasty](/place/song-dynasty), by the Jurchen-led Jin dynasty in 1127. The Jin carried off the reigning emperor Qinzong, his father the retired emperor Huizong, much of the imperial clan and many officials. The disaster, remembered in China as the Humiliation of Jingkang after the era name of Qinzong's short reign, ended the Northern Song; a surviving prince refounded the dynasty in the south.
 
 ## From allies to enemies
 
@@ -18,7 +18,7 @@ The Jin northern army under Wanyan Zongwang advanced quickly as many Song comman
 
 ## The second siege
 
-With the danger apparently past, the court relaxed, experienced generals were posted away from the capital and many units were disbanded. Qinzong then tried to win over two former Liao nobles serving as Jin envoys with a secret letter, which they passed straight to the Jin emperor. In September 1126 the Jin invaded again. This time Datong fell within a month, Luoyang and Zhengzhou surrendered, and by mid-December both Jin armies had joined before Bianjing. The defence was poorly organised, relief armies could not get through, and the emperor reportedly put his faith in a man who said he could call down divine soldiers. Bianjing fell on 9 January 1127.
+With the danger apparently past, the court relaxed, experienced generals were posted away from the capital and many units were disbanded. Qinzong then tried to win over two former Liao nobles serving as Jin envoys with a secret letter, which they passed straight to the Jin emperor. In September 1126 the Jin invaded again. This time Datong fell within a month, [Luoyang](/history-of/luoyang) and Zhengzhou surrendered, and by mid-December both Jin armies had joined before Bianjing. The defence was poorly organised, relief armies could not get through, and the emperor reportedly put his faith in a man who said he could call down divine soldiers. Bianjing fell on 9 January 1127.
 
 ## Plunder and captivity
 
@@ -26,7 +26,7 @@ The city's ordinary people were largely spared in return for enormous payments i
 
 ## Aftermath
 
-Zhao Gou escaped to the south and became Emperor Gaozong of what historians call the Southern Song, with its capital at Lin'an, today's Hangzhou. Weakened by the loss of men, wealth and talent, the Southern Song never recovered the north, and the lands lost in these wars were regained only under the [Ming dynasty](/place/ming-dynasty). The destruction of imperial collections and archives was on a scale China had not known before. The episode left a long mark on Chinese memory; the patriotic poem Man Jiang Hong, traditionally attributed to the general Yue Fei, refers to the lingering shame of Jingkang.
+Zhao Gou escaped to the south and became Emperor Gaozong of what historians call the Southern Song, with its capital at Lin'an, today's [Hangzhou](/history-of/hangzhou). Weakened by the loss of men, wealth and talent, the Southern Song never recovered the north, and the lands lost in these wars were regained only under the [Ming dynasty](/place/ming-dynasty). The destruction of imperial collections and archives was on a scale China had not known before. The episode left a long mark on Chinese memory; the patriotic poem Man Jiang Hong, traditionally attributed to the general Yue Fei, refers to the lingering shame of Jingkang.
 
 ## On our maps
 

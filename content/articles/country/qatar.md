@@ -37,7 +37,7 @@ In the Bronze Age the peninsula lay within the trading orbit of Dilmun, centred 
 
 [Assyria](/place/assyria) claimed a victory over the land of Bazu, which may have included the peninsula, around 680 BCE. After [Alexander the Great](/person/alexander-the-great) sent his admiral Androsthenes to survey the Gulf, the [Seleucid Empire](/place/seleucid-empire) briefly extended its influence over eastern Arabia, and burial mounds and pottery of the period have been found near Dukhan. The [Parthian Empire](/place/parthian-empire) and then the [Sasanian Empire](/place/sasanian-empire) dominated the Gulf trade routes, and Qatar supplied them with pearls and purple dye. The Roman writer Pliny called the inhabitants the Catharrei, nomads always in search of water, and Ptolemy's map marked the peninsula as Catara.
 
-Under the Sasanians, [Christianity](/culture/christianity) of the Church of the East spread along the Gulf coast. In Syriac the region was known as Beth Qatraye, and it produced a remarkable group of seventh-century monks and writers, the best known being Isaac of Nineveh, a mystic still read in Eastern churches today.
+Under the Sasanians, [Christianity](/culture/christianity) of the Church of the East spread along the Gulf coast. In Syriac the region was known as Beth Qatraye, and it produced a remarkable group of seventh-century monks and writers, the best known being Isaac of [Nineveh](/history-of/nineveh), a mystic still read in Eastern churches today.
 
 ## Islam and the medieval Gulf
 
@@ -67,7 +67,7 @@ Oil revenues built the first schools, hospitals, power stations and a modern bur
 
 ## Independence and the Al Thani state
 
-When Britain announced in 1968 that it would withdraw from the Gulf, Qatar joined talks on a federation of nine emirates with Bahrain and the Trucial States. The talks failed, and Qatar declared independence on 3 September 1971, while the remaining Trucial States formed the [United Arab Emirates](/country/united-arab-emirates). In February 1972 Khalifa bin Hamad deposed his cousin Ahmad and ruled for more than two decades, expanding social spending on housing, health and education. The oil price rises of the 1970s brought great wealth, and in 1971 the vast North Field gas reservoir, shared with [Iran](/country/iran), had been discovered offshore. Qatar became a founder of the Gulf Cooperation Council in 1981 and sent troops to fight in the 1991 Gulf War, including at the Battle of Khafji.
+When Britain announced in 1968 that it would withdraw from the Gulf, Qatar joined talks on a federation of nine emirates with Bahrain and the [Trucial States](/place/trucial-states). The talks failed, and Qatar declared independence on 3 September 1971, while the remaining Trucial States formed the [United Arab Emirates](/country/united-arab-emirates). In February 1972 Khalifa bin Hamad deposed his cousin Ahmad and ruled for more than two decades, expanding social spending on housing, health and education. The oil price rises of the 1970s brought great wealth, and in 1971 the vast North Field gas reservoir, shared with [Iran](/country/iran), had been discovered offshore. Qatar became a founder of the Gulf Cooperation Council in 1981 and sent troops to fight in the 1991 Gulf War, including at the Battle of Khafji.
 
 ## The modern emirate
 

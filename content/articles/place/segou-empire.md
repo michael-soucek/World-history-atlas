@@ -13,7 +13,7 @@ The empire grew out of an earlier Bambara kingdom at Ségou. Around the middle o
 
 ## Biton Coulibaly
 
-In 1712 Kaladian's great-grandson Mamari Coulibaly was chosen to lead a ton, an association of young men of the same age. He turned it into a personal army, strengthened by runaway slaves, took the title bitòn and swept aside the old order, becoming the first faama, or king, of Ségou. He fortified the capital, raised an army of conscripts known as the ton djon and a fleet of war canoes on the Niger, and introduced taxes paid in cowrie shells. After repelling an invasion from the [Kong Empire](/place/kong-empire) in 1725, he campaigned against Fulani, Soninke and Mossi neighbours, taking Macina, Djenné and Bamako and briefly Timbuktu. In 1751 he made the ruler of the remaining [Mali Empire](/place/mali-empire) at Niani his vassal.
+In 1712 Kaladian's great-grandson Mamari Coulibaly was chosen to lead a ton, an association of young men of the same age. He turned it into a personal army, strengthened by runaway slaves, took the title bitòn and swept aside the old order, becoming the first faama, or king, of Ségou. He fortified the capital, raised an army of conscripts known as the ton djon and a fleet of war canoes on the Niger, and introduced taxes paid in cowrie shells. After repelling an invasion from the [Kong Empire](/place/kong-empire) in 1725, he campaigned against Fulani, Soninke and Mossi neighbours, taking Macina, [Djenné](/history-of/djenne) and Bamako and briefly Timbuktu. In 1751 he made the ruler of the remaining [Mali Empire](/place/mali-empire) at Niani his vassal.
 
 ## The Diarra kings
 

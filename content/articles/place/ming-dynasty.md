@@ -13,7 +13,7 @@ Zhu Yuanzhang, the Hongwu emperor, set out to rebuild a country devastated by fa
 
 ## Yongle and the move to Beijing
 
-When Hongwu died in 1398, his grandson the Jianwen emperor tried to reduce the power of his uncles. One of them, Zhu Di, the Prince of Yan, rebelled and in 1402 took Nanjing, where the palace burned and Jianwen disappeared. As the Yongle emperor, Zhu Di moved the capital to his old base in the north, Beijing, which was rebuilt around the Forbidden City between 1406 and 1420. The Grand Canal was restored to supply the capital with grain from the south. Yongle also sponsored the Yongle Encyclopedia, a vast compilation of about 11,000 volumes, and led five campaigns into Mongolia, dying on the last of them in 1424.
+When Hongwu died in 1398, his grandson the Jianwen emperor tried to reduce the power of his uncles. One of them, Zhu Di, the Prince of Yan, rebelled and in 1402 took Nanjing, where the palace burned and Jianwen disappeared. As the Yongle emperor, Zhu Di moved the capital to his old base in the north, Beijing, which was rebuilt around the [Forbidden City](/site/forbidden-city) between 1406 and 1420. The Grand Canal was restored to supply the capital with grain from the south. Yongle also sponsored the Yongle Encyclopedia, a vast compilation of about 11,000 volumes, and led five campaigns into Mongolia, dying on the last of them in 1424.
 
 ## The voyages of Zheng He
 

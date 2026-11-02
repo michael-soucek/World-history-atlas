@@ -19,7 +19,7 @@ Arab armies of the Umayyad Caliphate under Qutayba ibn Muslim captured Samarkand
 
 In 1370 [Tamerlane](/person/tamerlane) (Timur) made Samarkand the capital of the [Timurid Empire](/place/timurid-empire). He filled it with craftsmen and artists carried off from conquered cities from Delhi to Damascus, and built the vast Bibi-Khanym mosque and his own tomb, the Gur-e-Amir. A Castilian envoy, Ruy González de Clavijo, described the endless construction he saw in 1404. Timur's grandson Ulugh Beg, who governed the city from 1409 to 1449, built a madrasa on the Registan square and an observatory where his astronomers compiled a star catalogue of remarkable accuracy.
 
-The Uzbek leader Muhammad Shaybani seized Samarkand at the start of the sixteenth century, and despite brief recaptures by the Timurid prince Babur, it became part of the Uzbek Khanate of Bukhara. In the seventeenth century the governor Yalangtush Bahadur added two more grand madrasas to the Registan, but as overland trade declined and Bukhara became the political centre, Samarkand shrank; by the eighteenth century it was nearly deserted for a time.
+The Uzbek leader Muhammad Shaybani seized Samarkand at the start of the sixteenth century, and despite brief recaptures by the Timurid prince Babur, it became part of the Uzbek Khanate of Bukhara. In the seventeenth century the governor Yalangtush Bahadur added two more grand madrasas to the Registan, but as overland trade declined and [Bukhara](/history-of/bukhara) became the political centre, Samarkand shrank; by the eighteenth century it was nearly deserted for a time.
 
 ## Russian and Soviet Samarkand
 

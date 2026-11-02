@@ -36,4 +36,4 @@ The Transvaal joined the Union of South Africa in 1910. During [World War I](/ev
 
 ## On our maps
 
-Our 1878, 1880 and 1900 maps show the republic as Transvaal. In 1878 and 1880 the territory was in fact under British annexation, and by late 1900 it was largely under British occupation. It borders the Orange Free State, Swaziland, the [Zulu Kingdom](/place/zulu-kingdom) and Portuguese East Africa, with the [Cape Colony](/place/cape-colony) further south.
+Our 1878, 1880 and 1900 maps show the republic as Transvaal. In 1878 and 1880 the territory was in fact under British annexation, and by late 1900 it was largely under British occupation. It borders the [Orange Free State](/place/orange-free-state), Swaziland, the [Zulu Kingdom](/place/zulu-kingdom) and Portuguese East Africa, with the [Cape Colony](/place/cape-colony) further south.

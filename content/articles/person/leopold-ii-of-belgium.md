@@ -25,7 +25,7 @@ After failed attempts to buy or lease territory, including the Philippines from 
 
 ## The rubber regime
 
-Leopold declared "vacant" land and its produce state property, giving his administration and concession companies a monopoly. When world demand for rubber soared in the 1890s, villages were given collection quotas. Failure was punished with beatings, killings and the taking of hostages; soldiers had to account for bullets with severed hands, and the hands of living people were also cut off. The British consul Roger Casement documented the abuses, and the Congo Reform Association, led by E. D. Morel and supported by writers such as Mark Twain and Arthur Conan Doyle, made them an international scandal.
+Leopold declared "vacant" land and its produce state property, giving his administration and concession companies a monopoly. When world demand for rubber soared in the 1890s, villages were given collection quotas. Failure was punished with beatings, killings and the taking of hostages; soldiers had to account for bullets with severed hands, and the hands of living people were also cut off. The British consul Roger Casement documented the abuses, and the Congo Reform Association, led by E. D. Morel and supported by writers such as [Mark Twain](/person/mark-twain) and Arthur Conan Doyle, made them an international scandal.
 
 ## The death toll
 

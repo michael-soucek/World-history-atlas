@@ -9,7 +9,7 @@ The Timurid Empire was founded by Timur, known in Europe as Tamerlane, a Turkic-
 
 ## Rise to power
 
-Timur rose in Transoxiana during the chaotic decline of the Chagatai Khanate, initially as a follower of the Moghul khan, then in alliance with Emir Husayn of Balkh, whose sister he married. In 1370 he turned on Husayn, took Balkh and was proclaimed ruler at a kurultai, an assembly. He made Samarkand his capital and spent the next decade securing Central Asia.
+Timur rose in Transoxiana during the chaotic decline of the Chagatai Khanate, initially as a follower of the Moghul khan, then in alliance with Emir Husayn of [Balkh](/history-of/balkh), whose sister he married. In 1370 he turned on Husayn, took Balkh and was proclaimed ruler at a kurultai, an assembly. He made Samarkand his capital and spent the next decade securing Central Asia.
 
 ## Campaigns
 

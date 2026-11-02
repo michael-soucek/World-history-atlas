@@ -14,7 +14,7 @@ Kings ruled from Memphis from the First Dynasty onwards, and it remained the cap
 
 ## Second city of the pharaohs
 
-In the Middle Kingdom the court moved south to Thebes, but Memphis remained a leading centre of trade and craftsmanship. Around 1650 BCE the Hyksos captured it and carried many of its monuments to their capital at Avaris. Under the [New Kingdom](/place/new-kingdom-of-egypt) the city prospered again as a port trading with Byblos and the Levant and as a place where princes were educated. After Akhenaten's experiment with the worship of the Aten, the young king Tutankhamun moved the court to Memphis and began restoring the old temples. [Ramesses II](/person/ramesses-ii) filled the city with colossal statues of himself, and many of the ruins visible today belong to his dynasty.
+In the Middle Kingdom the court moved south to Thebes, but Memphis remained a leading centre of trade and craftsmanship. Around 1650 BCE the Hyksos captured it and carried many of its monuments to their capital at Avaris. Under the [New Kingdom](/place/new-kingdom-of-egypt) the city prospered again as a port trading with [Byblos](/history-of/byblos) and the Levant and as a place where princes were educated. After Akhenaten's experiment with the worship of the Aten, the young king Tutankhamun moved the court to Memphis and began restoring the old temples. [Ramesses II](/person/ramesses-ii) filled the city with colossal statues of himself, and many of the ruins visible today belong to his dynasty.
 
 ## Kushites, Assyrians and Persians
 

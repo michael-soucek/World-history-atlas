@@ -33,7 +33,7 @@ In 1466 Mehmed himself besieged Krujë a second time. When he failed, he built t
 
 ## Legacy
 
-Without him, resistance faltered. Krujë fell in 1478 and Shkodër in 1479, and many Albanians fled to the Kingdom of Naples, where their descendants form the Arbëreshë communities of southern Italy. Skanderbeg's fame in western Europe as a defender of Christendom was immediate and lasting. In the nineteenth century he became the central symbol of the Albanian national movement.
+Without him, resistance faltered. Krujë fell in 1478 and Shkodër in 1479, and many Albanians fled to the [Kingdom of Naples](/place/kingdom-of-naples), where their descendants form the Arbëreshë communities of southern Italy. Skanderbeg's fame in western Europe as a defender of Christendom was immediate and lasting. In the nineteenth century he became the central symbol of the Albanian national movement.
 
 ## On our maps
 

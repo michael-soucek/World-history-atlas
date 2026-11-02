@@ -10,7 +10,7 @@ sources:
   - World History Encyclopedia: Yongle Emperor | https://www.worldhistory.org/Yongle_Emperor/
 written: 2026-10-25
 ---
-The Yongle Emperor, born Zhu Di, was the third emperor of the [Ming dynasty](/place/ming-dynasty), ruling China from 1402 to 1424. A son of the dynasty's founder, he seized the throne from his nephew in a civil war, then moved the capital to Beijing, built the Forbidden City, sent Zheng He's great fleets across the Indian Ocean and led armies into Mongolia and Vietnam. Historians often call his reign the second founding of the Ming.
+The Yongle Emperor, born Zhu Di, was the third emperor of the [Ming dynasty](/place/ming-dynasty), ruling China from 1402 to 1424. A son of the dynasty's founder, he seized the throne from his nephew in a civil war, then moved the capital to Beijing, built the [Forbidden City](/site/forbidden-city), sent Zheng He's great fleets across the Indian Ocean and led armies into Mongolia and Vietnam. Historians often call his reign the second founding of the Ming.
 
 ## Prince of Yan
 

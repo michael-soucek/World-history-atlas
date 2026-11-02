@@ -10,7 +10,7 @@ The Yupik peoples are a family of closely related Indigenous nations of western 
 
 ## Peoples and names
 
-Three main branches are usually distinguished: the Alutiiq or Sugpiaq of the Alaska Peninsula, Kodiak and the south-central coast; the Central Alaskan Yup'ik; and the Siberian Yupik of St. Lawrence Island and Chukotka, including the Naukan. The name comes from yuk, "person", with an ending meaning "real", so it means "the real people". In the Hooper Bay–Chevak and Nunivak dialects the same word is Cup'ik or Cup'ig, which is why our maps label the territory "Yup'ik & Cup'ik". The apostrophe in Yup'ik marks a lengthened p sound.
+Three main branches are usually distinguished: the [Alutiiq](/place/alutiiq) or Sugpiaq of the Alaska Peninsula, Kodiak and the south-central coast; the Central Alaskan Yup'ik; and the Siberian Yupik of St. Lawrence Island and Chukotka, including the Naukan. The name comes from yuk, "person", with an ending meaning "real", so it means "the real people". In the Hooper Bay–Chevak and Nunivak dialects the same word is Cup'ik or Cup'ig, which is why our maps label the territory "Yup'ik & Cup'ik". The apostrophe in Yup'ik marks a lengthened p sound.
 
 ## Origins
 

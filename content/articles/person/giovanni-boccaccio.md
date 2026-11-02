@@ -20,7 +20,7 @@ In 1326 his father was sent to run a bank in [Naples](/history-of/naples), and t
 
 ## Return to Florence and the plague
 
-Political tension between the Angevin kingdom of Naples and Florence, and his father's bankruptcy, drew him back to Florence in early 1341. Florence was then a troubled city, and in 1348 the [Black Death](/event/black-death) killed a very large share of its people. Boccaccio's stepmother died in the epidemic and his father the following year, leaving him in charge of the family. Whether he himself was in the city during the worst months is uncertain; from 1347 he spent long periods in Ravenna looking for patrons.
+Political tension between the Angevin kingdom of Naples and Florence, and his father's bankruptcy, drew him back to Florence in early 1341. Florence was then a troubled city, and in 1348 the [Black Death](/event/black-death) killed a very large share of its people. Boccaccio's stepmother died in the epidemic and his father the following year, leaving him in charge of the family. Whether he himself was in the city during the worst months is uncertain; from 1347 he spent long periods in [Ravenna](/history-of/ravenna) looking for patrons.
 
 ## The Decameron
 

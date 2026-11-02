@@ -28,7 +28,7 @@ Turkmen nomads pillaged the city in 1153. The Ghurids took it in 1192 and the Kh
 
 During the [Mongol invasion of the Khwarazmian Empire](/event/mongol-invasion-of-the-khwarazmian-empire), Merv opened its gates in 1221 to Tolui, a son of [Genghis Khan](/person/genghis-khan). Most of the inhabitants, along with refugees, are said to have been massacred; Ibn al-Athir gave a toll of around 700,000 and Juvayni more than 1.3 million. The walls were later rebuilt, but the city never recovered. It passed to the Ilkhanate and by 1380 to Timur, whose successors built a smaller town to the south.
 
-In the sixteenth and seventeenth centuries Uzbeks, Safavid Persians and the khans of Khiva and Bukhara contested the oasis, and from 1608 a line of Qajar governors ruled it, later as an independent principality. In 1785 the Manghit emir of Bukhara, Shah Murad, attacked and killed its ruler, and in 1788 and 1789 he razed the city, broke its dams and deported the population of about 100,000 to the Bukhara and Samarkand regions.
+In the sixteenth and seventeenth centuries Uzbeks, Safavid Persians and the khans of Khiva and [Bukhara](/history-of/bukhara) contested the oasis, and from 1608 a line of Qajar governors ruled it, later as an independent principality. In 1785 the Manghit emir of Bukhara, Shah Murad, attacked and killed its ruler, and in 1788 and 1789 he razed the city, broke its dams and deported the population of about 100,000 to the Bukhara and Samarkand regions.
 
 ## Ruins and excavation
 

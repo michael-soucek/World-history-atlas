@@ -8,7 +8,7 @@ In the autumn of 1187 the Ayyubid sultan [Saladin](/person/saladin) besieged Jer
 
 ## After Hattin
 
-The Kingdom of Jerusalem, divided by internal quarrels, lost most of its army at the [Battle of Hattin](/event/battle-of-hattin) on 4 July 1187. King Guy and most of the nobility were captured. Over the following weeks Saladin took Acre, Nablus, Jaffa, Sidon, Beirut, Ascalon and other towns. Survivors gathered at Tyre, which held out thanks to the timely arrival of Conrad of Montferrat.
+The Kingdom of Jerusalem, divided by internal quarrels, lost most of its army at the [Battle of Hattin](/event/battle-of-hattin) on 4 July 1187. King Guy and most of the nobility were captured. Over the following weeks Saladin took Acre, Nablus, Jaffa, [Sidon](/history-of/sidon), Beirut, Ascalon and other towns. Survivors gathered at Tyre, which held out thanks to the timely arrival of Conrad of Montferrat.
 
 ## Balian takes command
 
@@ -26,7 +26,7 @@ Saladin freed nearly 3,000 Muslim prisoners and allowed noblewomen, including th
 
 ## Saladin's Jerusalem
 
-The cross placed by the crusaders on the Dome of the Rock was taken down, and the al-Aqsa shrine was purified and restored to Muslim worship. Saladin closed the Church of the Holy Sepulchre for three days but, rejecting advice to destroy it, reopened it, charging Frankish pilgrims a fee. Native Eastern Christians could stay and worship freely, Jews were allowed to resettle, and Copts, previously barred by the crusaders, were admitted.
+The cross placed by the crusaders on the [Dome of the Rock](/site/dome-of-the-rock) was taken down, and the al-Aqsa shrine was purified and restored to Muslim worship. Saladin closed the Church of the Holy Sepulchre for three days but, rejecting advice to destroy it, reopened it, charging Frankish pilgrims a fee. Native Eastern Christians could stay and worship freely, Jews were allowed to resettle, and Copts, previously barred by the crusaders, were admitted.
 
 ## The Christian response
 

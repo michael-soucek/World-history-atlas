@@ -29,7 +29,7 @@ John VIII died childless in October 1448, and with his mother's backing Constant
 
 ## The siege of 1453
 
-The young sultan [Mehmed II](/person/mehmed-ii) was determined to take the city. When Constantine threatened in 1451 to release Orhan, an Ottoman pretender held hostage in Constantinople, Mehmed answered by building the fortress of Rumelihisarı on the Bosporus in 1452. Constantine repaired the walls and pleaded with Venice, the pope and Naples, but received only small contingents. On 12 December 1452 the union was celebrated in Hagia Sophia. The siege began in April 1453: Mehmed's army may have numbered up to 80,000, against probably fewer than 10,000 defenders. A boom closed the Golden Horn until the Ottomans dragged ships overland behind Galata. Constantine refused advice to escape.
+The young sultan [Mehmed II](/person/mehmed-ii) was determined to take the city. When Constantine threatened in 1451 to release Orhan, an Ottoman pretender held hostage in Constantinople, Mehmed answered by building the fortress of Rumelihisarı on the Bosporus in 1452. Constantine repaired the walls and pleaded with Venice, the pope and Naples, but received only small contingents. On 12 December 1452 the union was celebrated in [Hagia Sophia](/site/hagia-sophia). The siege began in April 1453: Mehmed's army may have numbered up to 80,000, against probably fewer than 10,000 defenders. A boom closed the Golden Horn until the Ottomans dragged ships overland behind Galata. Constantine refused advice to escape.
 
 ## The last assault
 

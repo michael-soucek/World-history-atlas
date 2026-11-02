@@ -9,7 +9,7 @@ South Africa was formed in 1910 as the Union of South Africa, a self-governing B
 
 ## Before the Union
 
-Khoisan peoples have lived in southern Africa for tens of thousands of years, and their ancestors left rock art and some of the earliest evidence of modern human behaviour, such as at Blombos Cave. Bantu-speaking farmers settled much of the east from the first millennium CE, and states such as Mapungubwe flourished. The Dutch founded Cape Town in 1652, and Dutch-speaking settlers, later called Afrikaners, spread inland. Britain took the Cape in 1806. In the Great Trek of the 1830s, Afrikaners moved inland and founded the Orange Free State and the South African Republic, the Transvaal. The Zulu, Xhosa, Basotho, Pedi and others resisted European expansion.
+Khoisan peoples have lived in southern Africa for tens of thousands of years, and their ancestors left rock art and some of the earliest evidence of modern human behaviour, such as at Blombos Cave. Bantu-speaking farmers settled much of the east from the first millennium CE, and states such as Mapungubwe flourished. The Dutch founded Cape Town in 1652, and Dutch-speaking settlers, later called Afrikaners, spread inland. Britain took the Cape in 1806. In the Great Trek of the 1830s, Afrikaners moved inland and founded the [Orange Free State](/place/orange-free-state) and the South African Republic, the Transvaal. The Zulu, Xhosa, Basotho, Pedi and others resisted European expansion.
 
 ## Diamonds, gold and war
 

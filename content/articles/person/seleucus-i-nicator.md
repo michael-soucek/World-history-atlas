@@ -13,7 +13,7 @@ Seleucus began the scramble for Alexander the Great's empire as a middle-ranking
 
 ## A Macedonian officer
 
-Seleucus was born at Europus in Macedon, the son of a nobleman named Antiochus. His birth year is uncertain because ancient writers give different ages for him at his death: Justin's figure points to about 358 BCE, Appian's to 354 and Eusebius's to 356, the last perhaps a later attempt to make him the same age as Alexander. He crossed into Asia with [Alexander](/person/alexander-the-great) in 334 BCE and by the Indian campaign commanded the elite infantry known as the shield-bearers, leading them against the elephants of King Porus at the [Battle of the Hydaspes](/event/battle-of-the-hydaspes) in 326 BCE. At the mass weddings at Susa in 324 BCE he married Apama, daughter of Spitamenes, and unlike most of his fellow officers he kept his Asian wife for the rest of her life.
+Seleucus was born at Europus in Macedon, the son of a nobleman named Antiochus. His birth year is uncertain because ancient writers give different ages for him at his death: Justin's figure points to about 358 BCE, Appian's to 354 and Eusebius's to 356, the last perhaps a later attempt to make him the same age as Alexander. He crossed into Asia with [Alexander](/person/alexander-the-great) in 334 BCE and by the Indian campaign commanded the elite infantry known as the shield-bearers, leading them against the elephants of King Porus at the [Battle of the Hydaspes](/event/battle-of-the-hydaspes) in 326 BCE. At the mass weddings at [Susa](/history-of/susa) in 324 BCE he married Apama, daughter of Spitamenes, and unlike most of his fellow officers he kept his Asian wife for the rest of her life.
 
 ## Satrap of Babylon
 

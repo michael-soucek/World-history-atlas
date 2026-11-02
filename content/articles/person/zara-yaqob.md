@@ -9,7 +9,7 @@ sources:
   - Wikidata: Zara Yaqob (Q147677) | https://www.wikidata.org/wiki/Q147677
 written: 2026-10-30
 ---
-Zara Yaqob, who reigned as Emperor of Ethiopia from 1434 to 1468 under the throne name Constantine, was one of the most powerful rulers of the medieval Solomonic dynasty. He enforced religious uniformity on the Ethiopian Orthodox Church with great severity, defeated the Muslim sultanate of Adal, founded a new capital at Debre Birhan and wrote theological works in Ge'ez. The historian Edward Ullendorff judged him the greatest Ethiopian ruler since [Ezana](/person/ezana-of-axum) of Aksum.
+Zara Yaqob, who reigned as Emperor of Ethiopia from 1434 to 1468 under the throne name Constantine, was one of the most powerful rulers of the medieval Solomonic dynasty. He enforced religious uniformity on the Ethiopian Orthodox Church with great severity, defeated the Muslim sultanate of Adal, founded a new capital at Debre Birhan and wrote theological works in Ge'ez. The historian Edward Ullendorff judged him the greatest Ethiopian ruler since [Ezana](/person/ezana-of-axum) of [Aksum](/history-of/aksum).
 
 ## A prince in the mountain prison
 

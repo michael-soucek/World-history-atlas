@@ -21,7 +21,7 @@ Around 553 BCE Cyrus rebelled against Astyages. In 550 BCE Astyages's army mutin
 
 ## Lydia and Croesus
 
-Croesus, the wealthy king of Lydia in western Anatolia, attacked Cyrus around 547 BCE. According to Herodotus, the oracle of Delphi told Croesus that if he attacked Persia he would destroy a great empire; he did, his own. Cyrus defeated Croesus and took his capital, Sardis. His generals then conquered the Greek cities of Ionia, on the Aegean coast.
+Croesus, the wealthy king of Lydia in western Anatolia, attacked Cyrus around 547 BCE. According to Herodotus, the oracle of [Delphi](/site/delphi) told Croesus that if he attacked Persia he would destroy a great empire; he did, his own. Cyrus defeated Croesus and took his capital, Sardis. His generals then conquered the Greek cities of Ionia, on the Aegean coast.
 
 ## Babylon
 
@@ -37,7 +37,7 @@ According to the Hebrew Bible, in the books of Ezra and Isaiah, Cyrus allowed th
 
 ## Ruling the empire
 
-Cyrus divided the empire into provinces, satrapies, governed by satraps, and kept local officials and customs. He built a new capital at Pasargadae, with palaces and gardens, the earliest known Persian gardens, or paradises.
+Cyrus divided the empire into provinces, satrapies, governed by satraps, and kept local officials and customs. He built a new capital at [Pasargadae](/site/pasargadae), with palaces and gardens, the earliest known Persian gardens, or paradises.
 
 ## Death
 

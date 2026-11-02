@@ -37,7 +37,7 @@ Around 1704, a young noblewoman, Kimpa Vita, claimed to be possessed by Saint An
 
 ## Later history
 
-Kongo survived as a smaller, decentralised kingdom. In the late nineteenth century, it became part of Portuguese Angola, with parts in the Belgian Congo and French Congo after the Berlin Conference. After a revolt in 1913–1914, the Portuguese abolished the kingdom's independence.
+Kongo survived as a smaller, decentralised kingdom. In the late nineteenth century, it became part of Portuguese Angola, with parts in the Belgian Congo and [French Congo](/place/french-congo) after the Berlin Conference. After a revolt in 1913–1914, the Portuguese abolished the kingdom's independence.
 
 ## On our maps
 

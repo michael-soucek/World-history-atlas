@@ -5,7 +5,7 @@ sources:
   - Borders of Time maps, built on historical-basemaps | https://github.com/aourednik/historical-basemaps
 written: 2026-10-22
 ---
-Japan's history as a unified state begins with the Yamato court in the fifth to seventh centuries, centred on the plains around Nara and Osaka. Its rulers claimed descent from the sun goddess Amaterasu, and the imperial line they founded is the oldest continuous hereditary monarchy in the world.
+Japan's history as a unified state begins with the Yamato court in the fifth to seventh centuries, centred on the plains around [Nara](/history-of/nara) and Osaka. Its rulers claimed descent from the sun goddess Amaterasu, and the imperial line they founded is the oldest continuous hereditary monarchy in the world.
 
 ## Early Japan
 
@@ -13,7 +13,7 @@ People have lived in Japan for over 30,000 years. The Jōmon culture, from aroun
 
 ## Nara and Heian
 
-In 710 Japan built its first permanent capital at Nara, modelled on Tang Chang'an, and the great Buddha of Tōdai-ji was dedicated in 752. The earliest Japanese histories, the Kojiki and Nihon Shoki, were compiled in 712 and 720. In 794 the capital moved to Heian-kyō, Kyoto, which remained the imperial capital until 1868. Heian court culture produced the kana scripts, The Tale of Genji and The Pillow Book.
+In 710 Japan built its first permanent capital at Nara, modelled on Tang Chang'an, and the great Buddha of [Tōdai-ji](/site/todai-ji) was dedicated in 752. The earliest Japanese histories, the Kojiki and Nihon Shoki, were compiled in 712 and 720. In 794 the capital moved to Heian-kyō, Kyoto, which remained the imperial capital until 1868. Heian court culture produced the kana scripts, The Tale of Genji and The Pillow Book.
 
 ## Samurai and shoguns
 

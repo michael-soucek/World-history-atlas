@@ -28,7 +28,7 @@ sources:
   - BBC News: Libya profile, timeline | https://www.bbc.com/news/world-africa-13755445
 written: 2026-10-25
 ---
-Libya is mostly desert, and its history has been made along a thin coastal strip and a chain of Saharan oases. The Amazigh (Berber) peoples who lived there in antiquity were joined by Phoenician traders in the west and Greek colonists in the east, and for centuries the land was split between Tripolitania, looking towards Carthage and Tunisia, Cyrenaica, looking towards Egypt and Greece, and the Fezzan, tied to the trade routes of the Sahara. Rome, Byzantium, the Arab caliphates, the Ottomans and Italy each ruled some or all of it. Independent from 1951, Libya was a kingdom until 1969, then lived under Muammar Gaddafi for 42 years, and since his fall in 2011 has been divided between rival governments and armed groups.
+Libya is mostly desert, and its history has been made along a thin coastal strip and a chain of Saharan oases. The Amazigh (Berber) peoples who lived there in antiquity were joined by Phoenician traders in the west and Greek colonists in the east, and for centuries the land was split between Tripolitania, looking towards [Carthage](/history-of/carthage) and Tunisia, Cyrenaica, looking towards Egypt and Greece, and the Fezzan, tied to the trade routes of the Sahara. Rome, Byzantium, the Arab caliphates, the Ottomans and Italy each ruled some or all of it. Independent from 1951, Libya was a kingdom until 1969, then lived under Muammar Gaddafi for 42 years, and since his fall in 2011 has been divided between rival governments and armed groups.
 
 ## The green Sahara and the first Libyans
 
@@ -42,7 +42,7 @@ In the Fezzan a Saharan people, the Garamantes, built one of the most sophistica
 
 ## Phoenicians, Greeks and Persians
 
-On the western coast, traders from Tyre and other cities of [Phoenicia](/culture/phoenicia) set up harbours that grew into the towns of Oea (later [Tripoli](/history-of/tripoli)), Lepcis (Leptis Magna) and Sabratha. These "three cities" gave the region its name, Tripolitania. By the fifth century BCE they lay within the sphere of [Carthage](/place/carthage), and their culture, language and religion were Punic.
+On the western coast, traders from [Tyre](/history-of/tyre) and other cities of [Phoenicia](/culture/phoenicia) set up harbours that grew into the towns of Oea (later [Tripoli](/history-of/tripoli)), Lepcis ([Leptis Magna](/site/leptis-magna)) and Sabratha. These "three cities" gave the region its name, Tripolitania. By the fifth century BCE they lay within the sphere of [Carthage](/place/carthage), and their culture, language and religion were Punic.
 
 The east took a different path. Around 631 BCE colonists from the Aegean island of Thera, led by Battus, founded Cyrene on a fertile plateau near the sea. Cyrene grew rich on grain, horses and silphium, a plant used in medicine and cooking that became its emblem, and four more cities followed to form the Pentapolis, among them Euhesperides, later Berenice and today Benghazi. Cyrene became a respected centre of [ancient Greek](/culture/ancient-greece) learning, known for its physicians and philosophers. The Persian king Cambyses II brought Cyrenaica under the [Achaemenid Empire](/place/achaemenid-empire) after conquering Egypt in 525 BCE, and in 331 BCE the cities submitted to [Alexander the Great](/person/alexander-the-great). After his death Cyrenaica passed to the [Ptolemaic Kingdom](/place/ptolemaic-kingdom) of Egypt.
 

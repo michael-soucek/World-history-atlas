@@ -17,7 +17,7 @@ Mahmud was born at Ghazni on 2 October 971. His father, Sabuktigin, was a Turkic
 
 ## An independent sovereign
 
-Mahmud quickly turned on his weakening Samanid overlords, defeating their army near Merv in May 999, after which their state collapsed under pressure from the Kara-Khanids to the north. Mahmud now ruled in his own right while acknowledging the spiritual authority of the [Abbasid caliph](/place/abbasid-caliphate), who granted him the title Yamin al-Dawla. He is often described as the first ruler to be widely styled sultan. Over the next decades he took Sistan, beat back a Kara-Khanid invasion in 1008, annexed Khwarazm in 1017 and campaigned in Transoxiana in 1024 and 1025.
+Mahmud quickly turned on his weakening Samanid overlords, defeating their army near [Merv](/history-of/merv) in May 999, after which their state collapsed under pressure from the Kara-Khanids to the north. Mahmud now ruled in his own right while acknowledging the spiritual authority of the [Abbasid caliph](/place/abbasid-caliphate), who granted him the title Yamin al-Dawla. He is often described as the first ruler to be widely styled sultan. Over the next decades he took Sistan, beat back a Kara-Khanid invasion in 1008, annexed Khwarazm in 1017 and campaigned in Transoxiana in 1024 and 1025.
 
 ## The Indian campaigns
 

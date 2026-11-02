@@ -10,7 +10,7 @@ From 1336 to 1573 Japan's military government was in the hands of the Ashikaga f
 
 ## From Kamakura to Kyoto
 
-In 1333 Emperor Go-Daigo called on warriors to overthrow the Hōjō rulers of the [Kamakura shogunate](/place/kamakura-shogunate). Takauji, sent to crush the rising, changed sides, and Kamakura fell. Go-Daigo's attempt to restore direct imperial rule, the Kenmu Restoration, soon disappointed the warriors who had backed it, and in 1336 Takauji set up his own military government in Kyoto. He was formally appointed shogun in 1338.
+In 1333 Emperor Go-Daigo called on warriors to overthrow the Hōjō rulers of the [Kamakura shogunate](/place/kamakura-shogunate). Takauji, sent to crush the rising, changed sides, and [Kamakura](/history-of/kamakura) fell. Go-Daigo's attempt to restore direct imperial rule, the Kenmu Restoration, soon disappointed the warriors who had backed it, and in 1336 Takauji set up his own military government in Kyoto. He was formally appointed shogun in 1338.
 
 ## Two courts
 

@@ -16,7 +16,7 @@ The site was then abandoned for several centuries. A new settlement of rectangul
 
 In the Early Bronze Age Jericho became a walled town, reaching its greatest extent of that era around 2600 BCE. It flourished again as a Canaanite city in the Middle Bronze Age, with strong defences and rich tombs that may reflect the rise of local kings, and was largest between about 1700 and 1550 BCE. Radiocarbon dates place its destruction in the sixteenth century BCE. A smaller town, governed by vassals of Egypt, revived during the Late Bronze Age.
 
-The Hebrew Bible makes Jericho the first Canaanite city taken by the Israelites under Joshua. Scholars do not generally accept the story as history; the archaeologist Lorenzo Nigro has suggested that it drew on local memories of the city's earlier destructions. Settlement resumed in the eleventh century BCE, the town was fortified again in the tenth and had grown large by the seventh, and it was laid waste when Babylon conquered Judah.
+The Hebrew Bible makes Jericho the first Canaanite city taken by the Israelites under Joshua. Scholars do not generally accept the story as history; the archaeologist Lorenzo Nigro has suggested that it drew on local memories of the city's earlier destructions. Settlement resumed in the eleventh century BCE, the town was fortified again in the tenth and had grown large by the seventh, and it was laid waste when [Babylon](/history-of/babylon) conquered Judah.
 
 ## Palaces, monasteries and sugar
 

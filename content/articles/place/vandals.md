@@ -18,7 +18,7 @@ Pushed by the Goths, Alans and Huns, Vandal groups moved west in the early fifth
 
 ## Genseric's kingdom
 
-In 429 Genseric, king from 428, led his people into North Africa. Procopius put their numbers at 80,000; Peter Heather estimates an army of perhaps 15,000 to 20,000. Augustine died in besieged Hippo Regius in 430, and a treaty in 435 gave the Vandals part of Numidia and Mauretania. In 439 Genseric broke it and took Carthage on 19 October, reportedly while its people were at the races. His fleet seized Sardinia, Corsica and the Balearics and raided widely. In 455, after the murder of Valentinian III, the Vandals sacked Rome for two weeks and carried off the empress and her daughters. A huge joint Roman expedition was defeated off Cape Bon in 468, and in 476 Genseric secured a lasting peace with Constantinople.
+In 429 Genseric, king from 428, led his people into North Africa. Procopius put their numbers at 80,000; Peter Heather estimates an army of perhaps 15,000 to 20,000. Augustine died in besieged Hippo Regius in 430, and a treaty in 435 gave the Vandals part of [Numidia](/place/numidia) and [Mauretania](/place/mauretania). In 439 Genseric broke it and took Carthage on 19 October, reportedly while its people were at the races. His fleet seized Sardinia, Corsica and the Balearics and raided widely. In 455, after the murder of Valentinian III, the Vandals sacked Rome for two weeks and carried off the empress and her daughters. A huge joint Roman expedition was defeated off Cape Bon in 468, and in 476 Genseric secured a lasting peace with Constantinople.
 
 ## Rule in Africa
 

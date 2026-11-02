@@ -16,7 +16,7 @@ The cotton industry led the way. A series of inventions mechanised spinning and 
 
 ## Steam
 
-Thomas Newcomen's steam engine, from 1712, pumped water from mines. James Watt, from 1769, greatly improved its efficiency by adding a separate condenser, and with Matthew Boulton produced engines that could drive machinery, freeing factories from the need to be near rivers. Coal production soared.
+Thomas Newcomen's steam engine, from 1712, pumped water from mines. [James Watt](/person/james-watt), from 1769, greatly improved its efficiency by adding a separate condenser, and with Matthew Boulton produced engines that could drive machinery, freeing factories from the need to be near rivers. Coal production soared.
 
 ## Iron
 

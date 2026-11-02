@@ -9,7 +9,7 @@ Carthage stood on a promontory on the eastern shore of the Lake of Tunis, in pre
 
 ## A colony of Tyre
 
-The city's Punic name, Qart-hadasht, means "new city". It was founded by colonists from [Tyre](/history-of/tyre), the leading city of [Phoenicia](/culture/phoenicia), on land that had not been settled before. Ancient writers offered very different foundation dates: Philistos of Syracuse placed it around 1215 BC, while the Sicilian Greek historian Timaeus put it 38 years before the first Olympiad, giving 814 BC, the date most modern historians accept. Legend credits the foundation to a Tyrian queen, Elissa or Dido, who was promised only the ground a single oxhide could cover and cut the hide into strips to mark out a whole city; her historicity is doubted.
+The city's Punic name, Qart-hadasht, means "new city". It was founded by colonists from [Tyre](/history-of/tyre), the leading city of [Phoenicia](/culture/phoenicia), on land that had not been settled before. Ancient writers offered very different foundation dates: Philistos of [Syracuse](/history-of/syracuse) placed it around 1215 BC, while the Sicilian Greek historian Timaeus put it 38 years before the first Olympiad, giving 814 BC, the date most modern historians accept. Legend credits the foundation to a Tyrian queen, Elissa or Dido, who was promised only the ground a single oxhide could cover and cut the hide into strips to mark out a whole city; her historicity is doubted.
 
 ## The Punic republic
 

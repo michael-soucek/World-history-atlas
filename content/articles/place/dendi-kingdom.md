@@ -20,7 +20,7 @@ In 1590 the Saadi sultan of [Morocco](/place/morocco), Ahmad al-Mansur, sent an 
 
 ## Resistance
 
-Nuh fought a costly two-year guerrilla war against the pasha Mahmud ibn Zarqun, who gave up in 1594 and was killed that year by the Dogon, probably Nuh's allies. His successor kept up the pressure, and in 1599 Nuh's exhausted followers replaced him with his brother Harun. The Songhai backed a revolt of Djenné in 1609; the Moroccans retook the city, but with little support from home they gradually lost their grip on the region to Tuareg and Fulbe nomads. Dendi's own politics were turbulent. Askia Ismail took power in 1639 with Moroccan help, but when he tried to send the foreign troops away he was deposed, and that year the pasha Mesaoud sacked Lulami.
+Nuh fought a costly two-year guerrilla war against the pasha Mahmud ibn Zarqun, who gave up in 1594 and was killed that year by the Dogon, probably Nuh's allies. His successor kept up the pressure, and in 1599 Nuh's exhausted followers replaced him with his brother Harun. The Songhai backed a revolt of [Djenné](/history-of/djenne) in 1609; the Moroccans retook the city, but with little support from home they gradually lost their grip on the region to Tuareg and Fulbe nomads. Dendi's own politics were turbulent. Askia Ismail took power in 1639 with Moroccan help, but when he tried to send the foreign troops away he was deposed, and that year the pasha Mesaoud sacked Lulami.
 
 ## Askias and their realm
 

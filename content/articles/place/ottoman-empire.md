@@ -17,7 +17,7 @@ Under Suleiman the Magnificent (1520–1566) the empire reached the height of it
 
 ## The sultan and his household
 
-The Ottoman sultans ruled with absolute authority in theory, drawing their legitimacy from their dynasty, from Islam, and from their role as protectors of the holy cities. In practice they governed through a vast household. The devshirme system collected Christian boys from the Balkans, converted them to Islam and trained them as janissaries, the elite infantry, or as palace servants and administrators; many rose to become grand viziers. The Topkapı Palace in Istanbul was the centre of government, and the harem, home to the sultan's mother, wives and concubines, was also a centre of political power, especially in the seventeenth century, the "Sultanate of Women".
+The Ottoman sultans ruled with absolute authority in theory, drawing their legitimacy from their dynasty, from Islam, and from their role as protectors of the holy cities. In practice they governed through a vast household. The devshirme system collected Christian boys from the Balkans, converted them to Islam and trained them as janissaries, the elite infantry, or as palace servants and administrators; many rose to become grand viziers. The [Topkapı Palace](/site/topkapi-palace) in Istanbul was the centre of government, and the harem, home to the sultan's mother, wives and concubines, was also a centre of political power, especially in the seventeenth century, the "Sultanate of Women".
 
 ## The millet system
 

@@ -13,7 +13,7 @@ After the crusaders captured Constantinople and carved up the [Byzantine Empire]
 
 ## The Burgundian dukes
 
-Under Otto's successors, Guy I, John I, William I and Guy II, the duchy held Attica and Boeotia and reached partly into Thessaly. The islands of the Aegean belonged to Venice, though Athens had influence over the lords of Euboea. The dukes used the buildings of the Acropolis as their palace, and Thebes later became the capital. A Latin archbishop was installed in Athens with the pope's backing, and the Parthenon, long an Orthodox church dedicated to the Virgin, was taken over for Catholic worship. Orthodox clergy carried on, but without official standing.
+Under Otto's successors, Guy I, John I, William I and Guy II, the duchy held Attica and Boeotia and reached partly into Thessaly. The islands of the Aegean belonged to Venice, though Athens had influence over the lords of Euboea. The dukes used the buildings of the Acropolis as their palace, and Thebes later became the capital. A Latin archbishop was installed in Athens with the pope's backing, and the [Parthenon](/site/parthenon), long an Orthodox church dedicated to the Virgin, was taken over for Catholic worship. Orthodox clergy carried on, but without official standing.
 
 ## The Catalan Company
 

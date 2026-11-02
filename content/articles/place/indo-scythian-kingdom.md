@@ -13,7 +13,7 @@ The movement began far to the east. Chinese chronicles record that the Xiongnu d
 
 ## Maues and Azes
 
-The first Saka king known in the subcontinent was Maues, who reigned around 85–60 BCE. Rock inscriptions left by Saka soldiers along the upper Indus suggest he crossed the Karakoram to seize Taxila from the Indo-Greek ruler Apollodotus II. His realm broke up after his death and Greek kings briefly recovered, but around 55 BCE Azes I defeated Hippostratos and secured Saka control of the north-west. Saka governors also took the Mathura region in the Ganges plain, perhaps around 60 BCE, and another branch ruled Surastrene, today's Gujarat.
+The first Saka king known in the subcontinent was Maues, who reigned around 85–60 BCE. Rock inscriptions left by Saka soldiers along the upper Indus suggest he crossed the Karakoram to seize [Taxila](/history-of/taxila) from the Indo-Greek ruler Apollodotus II. His realm broke up after his death and Greek kings briefly recovered, but around 55 BCE Azes I defeated Hippostratos and secured Saka control of the north-west. Saka governors also took the Mathura region in the Ganges plain, perhaps around 60 BCE, and another branch ruled Surastrene, today's Gujarat.
 
 ## Satraps and coins
 

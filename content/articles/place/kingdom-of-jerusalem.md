@@ -14,7 +14,7 @@ The [First Crusade](/event/first-crusade), preached by Pope Urban II in 1095, re
 
 ## Building a kingdom
 
-Godfrey died in 1100, and his brother Baldwin took the crown. With help from Italian fleets he captured the coastal cities of Acre in 1104, Beirut in 1110 and Sidon in 1111, while asserting overlordship over the crusader states further north. Under Baldwin II the first military orders, the Hospitallers and Templars, appeared, the Council of Nablus issued the earliest surviving laws in 1120, and Venetian naval help won Tyre in 1124. The fall of Edessa to Zengi in 1144 provoked the Second Crusade, whose siege of Damascus collapsed within days. Baldwin III took Ascalon in 1153, and his brother Amalric repeatedly invaded Egypt in alliance with Byzantium, without lasting success.
+Godfrey died in 1100, and his brother Baldwin took the crown. With help from Italian fleets he captured the coastal cities of Acre in 1104, Beirut in 1110 and [Sidon](/history-of/sidon) in 1111, while asserting overlordship over the crusader states further north. Under Baldwin II the first military orders, the Hospitallers and Templars, appeared, the Council of Nablus issued the earliest surviving laws in 1120, and Venetian naval help won Tyre in 1124. The fall of Edessa to Zengi in 1144 provoked the Second Crusade, whose siege of Damascus collapsed within days. Baldwin III took Ascalon in 1153, and his brother Amalric repeatedly invaded Egypt in alliance with Byzantium, without lasting success.
 
 ## Government and society
 

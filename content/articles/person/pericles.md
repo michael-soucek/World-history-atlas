@@ -9,7 +9,7 @@ sources:
   - Wikidata: Pericles (Q80398) | https://www.wikidata.org/wiki/Q80398
 written: 2026-10-22
 ---
-Pericles was the leading statesman of Athens during its golden age in the mid-fifth century BCE. A general and orator, he guided Athenian democracy, built the Parthenon and other monuments on the Acropolis, and led Athens at the start of the Peloponnesian War against Sparta, dying of plague in 429 BCE.
+Pericles was the leading statesman of Athens during its golden age in the mid-fifth century BCE. A general and orator, he guided Athenian democracy, built the [Parthenon](/site/parthenon) and other monuments on the Acropolis, and led Athens at the start of the Peloponnesian War against Sparta, dying of plague in 429 BCE.
 
 ## A noble family
 
@@ -29,7 +29,7 @@ Pericles sponsored a great building programme. The Parthenon, a temple of Athena
 
 ## Aspasia
 
-Pericles divorced his wife and lived with Aspasia, a woman from Miletus, known for her intelligence; Socrates is said to have discussed rhetoric with her. As a foreigner, she could not marry an Athenian. Comic poets attacked her, and their son was later granted citizenship by special decree.
+Pericles divorced his wife and lived with Aspasia, a woman from [Miletus](/history-of/miletus), known for her intelligence; Socrates is said to have discussed rhetoric with her. As a foreigner, she could not marry an Athenian. Comic poets attacked her, and their son was later granted citizenship by special decree.
 
 ## The Peloponnesian War
 

@@ -24,7 +24,7 @@ Both sides committed war crimes. American forces burned villages, used torture s
 
 ## Debate in America
 
-Annexation and the war divided American opinion. The Anti-Imperialist League, whose supporters included Mark Twain and Andrew Carnegie, argued that ruling a people against their will contradicted American founding principles, and reports of atrocities eroded support for the war.
+Annexation and the war divided American opinion. The Anti-Imperialist League, whose supporters included [Mark Twain](/person/mark-twain) and Andrew Carnegie, argued that ruling a people against their will contradicted American founding principles, and reports of atrocities eroded support for the war.
 
 ## Aftermath
 

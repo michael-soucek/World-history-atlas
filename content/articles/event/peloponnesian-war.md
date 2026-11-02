@@ -20,7 +20,7 @@ In 416 BCE Athens demanded that the neutral island of Melos submit. Thucydides p
 
 ## The Sicilian Expedition
 
-In 415 BCE, persuaded by the ambitious Alcibiades, Athens sent a huge expedition to conquer Syracuse, in Sicily. Alcibiades was recalled to face charges of sacrilege and defected to Sparta. The expedition ended in disaster in 413 BCE: the Athenian fleet and army were destroyed, and thousands of prisoners died in the stone quarries of Syracuse.
+In 415 BCE, persuaded by the ambitious Alcibiades, Athens sent a huge expedition to conquer [Syracuse](/history-of/syracuse), in Sicily. Alcibiades was recalled to face charges of sacrilege and defected to Sparta. The expedition ended in disaster in 413 BCE: the Athenian fleet and army were destroyed, and thousands of prisoners died in the stone quarries of Syracuse.
 
 ## The Ionian War
 

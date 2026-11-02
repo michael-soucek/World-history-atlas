@@ -20,7 +20,7 @@ The Attalids were among Rome's most dependable allies. They sided with Rome agai
 
 When Attalus III died with no heir in 133 BC, he bequeathed his kingdom to Rome. A claimant named Aristonicus rose in revolt and defeated a Roman consular army before being crushed in 129 BC; most of the kingdom then became the province of Asia, with Pergamon briefly its capital before the role passed to [Ephesus](/history-of/ephesus). Pergamon served as the headquarters of Mithridates VI of Pontus in his first war against Rome, and after his defeat the Romans stripped it of its privileges.
 
-The city recovered under the empire. Augustus granted it the first temple of the imperial cult in the province, and under Trajan and Hadrian a new Roman city with massive temples, a stadium, a theatre, a forum and an amphitheatre rose at the foot of the acropolis. The healing sanctuary of Asclepius became one of the most famous in the Roman world, and the physician Galen was born and trained there. Some estimates put the population at about 200,000 in the mid-second century. An earthquake in 262 and a Gothic sack soon afterwards ended this prosperity.
+The city recovered under the empire. Augustus granted it the first temple of the imperial cult in the province, and under Trajan and Hadrian a new Roman city with massive temples, a stadium, a theatre, a forum and an amphitheatre rose at the foot of the acropolis. The healing sanctuary of Asclepius became one of the most famous in the Roman world, and the physician [Galen](/person/galen) was born and trained there. Some estimates put the population at about 200,000 in the mid-second century. An earthquake in 262 and a Gothic sack soon afterwards ended this prosperity.
 
 ## Byzantine fortress and Ottoman town
 

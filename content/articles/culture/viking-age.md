@@ -24,7 +24,7 @@ The Vikings also settled. In England, the "Great Heathen Army" arrived in 865, a
 
 ## Greenland and America
 
-Erik the Red founded settlements in Greenland around 985. Around 1000, his son Leif Erikson reached North America, which the sagas call Vinland. Excavations at L'Anse aux Meadows, in Newfoundland, confirmed a Norse site, and tree-ring evidence dates it to 1021.
+Erik the Red founded settlements in Greenland around 985. Around 1000, his son Leif Erikson reached North America, which the sagas call Vinland. Excavations at [L'Anse aux Meadows](/site/lanse-aux-meadows), in Newfoundland, confirmed a Norse site, and tree-ring evidence dates it to 1021.
 
 ## The East
 

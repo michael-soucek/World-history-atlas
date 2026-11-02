@@ -29,7 +29,7 @@ In 1478 the pope authorised the monarchs to establish the Spanish Inquisition, c
 
 ## Granada
 
-From 1482 the monarchs waged a ten-year war against the Nasrid emirate of Granada, the last Muslim state in Iberia. Isabella organised supplies and field hospitals. On 2 January 1492, Granada surrendered, and the last emir, Muhammad XII, Boabdil, handed over the Alhambra. The treaty promised Muslims freedom of religion, but from 1499 they were pressured to convert, and in 1502 Muslims in Castile were ordered to convert or leave.
+From 1482 the monarchs waged a ten-year war against the Nasrid emirate of Granada, the last Muslim state in Iberia. Isabella organised supplies and field hospitals. On 2 January 1492, Granada surrendered, and the last emir, Muhammad XII, Boabdil, handed over the [Alhambra](/site/alhambra). The treaty promised Muslims freedom of religion, but from 1499 they were pressured to convert, and in 1502 Muslims in Castile were ordered to convert or leave.
 
 ## 1492
 

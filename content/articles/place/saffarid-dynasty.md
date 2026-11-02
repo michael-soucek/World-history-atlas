@@ -15,7 +15,7 @@ Ya'qub was born in 840 in Karnin, a small town between Zaranj and Bost. His byna
 
 ## Conquest east and west
 
-Ya'qub first turned east. In 864 he marched on Bost and on the lands of the Zunbils, whose ruler he killed, and he went on to take Kabul from the Hindu Shahis. In 865 he crushed the Kharijites of northern Sistan, and further campaigns reached Bamiyan, Balkh and Ghor. The silver mines of the Panjshir valley let him strike his own coins. Herat fell in 870, and in 873 he drove the Tahirids from their capital Nishapur, taking Khorasan. He then pushed west into Kerman, Fars and Khuzestan.
+Ya'qub first turned east. In 864 he marched on Bost and on the lands of the Zunbils, whose ruler he killed, and he went on to take Kabul from the Hindu Shahis. In 865 he crushed the Kharijites of northern Sistan, and further campaigns reached Bamiyan, [Balkh](/history-of/balkh) and Ghor. The silver mines of the Panjshir valley let him strike his own coins. Herat fell in 870, and in 873 he drove the Tahirids from their capital Nishapur, taking Khorasan. He then pushed west into Kerman, Fars and Khuzestan.
 
 In 876 he advanced into Iraq towards Baghdad itself. The caliph's brother al-Muwaffaq met him at Dayr al-Aqul, about fifty miles from the capital, on 8 April 876. After a hard day's fighting the Saffarid army broke; the Abbasids had flooded the ground behind it, and many men drowned in the retreat. Ya'qub withdrew, still holding most of his gains, and died of colic at Gundeshapur on 5 June 879.
 

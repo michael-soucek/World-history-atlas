@@ -25,7 +25,7 @@ Philip was murdered in 336 BCE, and his twenty-year-old son Alexander took the a
 
 ## Alexander's army and methods
 
-Alexander inherited his father's army and generals. He combined the phalanx, which held the enemy in front, with decisive cavalry charges, often led by himself, against the weakest point in the enemy line. He was also a master of siege warfare, taking Tyre in 332 BCE by building a causeway to the island city. He integrated Persian nobles and troops into his army and administration, adopted elements of Persian court dress and ceremony, and in 324 BCE held a mass wedding at Susa where he and his officers married Persian noblewomen. Many Macedonians resented this, and he faced plots and a mutiny.
+Alexander inherited his father's army and generals. He combined the phalanx, which held the enemy in front, with decisive cavalry charges, often led by himself, against the weakest point in the enemy line. He was also a master of siege warfare, taking Tyre in 332 BCE by building a causeway to the island city. He integrated Persian nobles and troops into his army and administration, adopted elements of Persian court dress and ceremony, and in 324 BCE held a mass wedding at [Susa](/history-of/susa) where he and his officers married Persian noblewomen. Many Macedonians resented this, and he faced plots and a mutiny.
 
 ## Cities and culture
 
@@ -41,7 +41,7 @@ The Antigonid kings dominated Greece for a century. Philip V allied with Hanniba
 
 ## Legacy
 
-The idea of Alexander as a world conqueror inspired rulers from Julius Caesar to Napoleon. In Persian tradition he appears both as a destroyer, who burned Persepolis, and, in later literature, as a legendary hero, Iskandar.
+The idea of Alexander as a world conqueror inspired rulers from Julius Caesar to Napoleon. In Persian tradition he appears both as a destroyer, who burned [Persepolis](/site/persepolis), and, in later literature, as a legendary hero, Iskandar.
 
 ## On our maps
 

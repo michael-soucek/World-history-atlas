@@ -6,7 +6,7 @@ sources:
   - Borders of Time maps, built on historical-basemaps | https://github.com/aourednik/historical-basemaps
 written: 2026-10-30
 ---
-The third Saudi state is the name historians give to the realm built by Abdulaziz ibn Abdul Rahman Al Saud, known as Ibn Saud, from his seizure of Riyadh in January 1902 to the proclamation of the Kingdom of Saudi Arabia in 1932, and to the kingdom that continues it today. It followed two earlier Saudi states of the eighteenth and nineteenth centuries and passed through several stages and names, from a small emirate around Riyadh to a dual Kingdom of Hejaz and Nejd.
+The third Saudi state is the name historians give to the realm built by Abdulaziz ibn Abdul Rahman Al Saud, known as Ibn Saud, from his seizure of Riyadh in January 1902 to the proclamation of the Kingdom of Saudi Arabia in 1932, and to the kingdom that continues it today. It followed two earlier Saudi states of the eighteenth and nineteenth centuries and passed through several stages and names, from a small emirate around Riyadh to a dual [Kingdom of Hejaz](/place/kingdom-of-hejaz) and Nejd.
 
 ## Exile and return
 

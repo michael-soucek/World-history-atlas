@@ -13,7 +13,7 @@ The Marathas were Marathi-speaking people of the western Deccan, including farme
 
 ## Shivaji's rise
 
-Shivaji Bhonsle, born in 1630 at the fort of Shivneri, was the son of Shahaji, a commander in the service of the Bijapur Sultanate. From the 1640s he captured forts from Bijapur. In 1659 he killed the Bijapur general Afzal Khan at a meeting at Pratapgad, wearing tiger claws hidden in his hand; he claimed Afzal Khan attacked first. He raided the Mughal port of Surat in 1664. In 1666, invited to Aurangzeb's court at Agra, he was placed under house arrest but escaped, according to legend hidden in a fruit basket.
+Shivaji Bhonsle, born in 1630 at the fort of Shivneri, was the son of Shahaji, a commander in the service of the [Bijapur Sultanate](/place/bijapur-sultanate). From the 1640s he captured forts from Bijapur. In 1659 he killed the Bijapur general Afzal Khan at a meeting at Pratapgad, wearing tiger claws hidden in his hand; he claimed Afzal Khan attacked first. He raided the Mughal port of Surat in 1664. In 1666, invited to Aurangzeb's court at Agra, he was placed under house arrest but escaped, according to legend hidden in a fruit basket.
 
 ## The Chhatrapati
 

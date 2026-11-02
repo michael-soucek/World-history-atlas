@@ -4,7 +4,7 @@ sources:
   - Wikidata: Battle of Thermopylae (Q131969) | https://www.wikidata.org/wiki/Q131969
 written: 2026-10-30
 ---
-The Battle of Thermopylae was fought in the summer of 480 BC at a narrow coastal pass in central Greece, between the army of the Persian king [Xerxes I](/person/xerxes-i) and an alliance of Greek city-states led by King Leonidas I of Sparta. Over three days of fighting the outnumbered Greeks held the pass, until the Persians found a mountain path around it and destroyed the Greek rearguard. Although a Persian victory, it became one of the most celebrated last stands in history.
+The Battle of Thermopylae was fought in the summer of 480 BC at a narrow coastal pass in central Greece, between the army of the Persian king [Xerxes I](/person/xerxes-i) and an alliance of Greek city-states led by King Leonidas I of [Sparta](/history-of/sparta). Over three days of fighting the outnumbered Greeks held the pass, until the Persians found a mountain path around it and destroyed the Greek rearguard. Although a Persian victory, it became one of the most celebrated last stands in history.
 
 ## Background
 

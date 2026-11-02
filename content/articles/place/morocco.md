@@ -9,7 +9,7 @@ Morocco is one of the oldest states in the Islamic world. A series of dynasties 
 
 ## Berbers, Phoenicians and Romans
 
-The Amazigh, or Berber, peoples have lived in Morocco since prehistoric times. Phoenician and Carthaginian traders founded ports on the coast, and the Berber kingdom of Mauretania became a Roman client. Rome annexed it in 40 CE as Mauretania Tingitana, with cities such as Volubilis, whose ruins survive. After the Arab conquest at the end of the seventh century, many Berbers converted to Islam, but rebelled against Arab rule in the Great Berber Revolt of 740.
+The Amazigh, or Berber, peoples have lived in Morocco since prehistoric times. Phoenician and Carthaginian traders founded ports on the coast, and the Berber kingdom of [Mauretania](/place/mauretania) became a Roman client. Rome annexed it in 40 CE as Mauretania Tingitana, with cities such as Volubilis, whose ruins survive. After the Arab conquest at the end of the seventh century, many Berbers converted to Islam, but rebelled against Arab rule in the Great Berber Revolt of 740.
 
 ## The Idrisids
 
@@ -33,7 +33,7 @@ In the nineteenth century, France, Spain and Britain competed for influence. Aft
 
 ## Independence
 
-The nationalist movement, led by the Istiqlal party, grew around Sultan Mohammed V. In 1953 France exiled him to Madagascar, causing widespread protests and violence. He returned in 1955, and Morocco became independent in 1956. Mohammed V took the title of king. His son Hassan II, from 1961 to 1999, survived two coup attempts, in 1971 and 1972, and repressed opposition in the "years of lead". In 1975 he organised the Green March of 350,000 Moroccans into Spanish Sahara; Morocco has since controlled most of Western Sahara, whose status remains disputed with the Polisario Front. King Mohammed VI, from 1999, introduced a new constitution in 2011 and reforms of family law in 2004.
+The nationalist movement, led by the Istiqlal party, grew around Sultan Mohammed V. In 1953 France exiled him to Madagascar, causing widespread protests and violence. He returned in 1955, and Morocco became independent in 1956. Mohammed V took the title of king. His son Hassan II, from 1961 to 1999, survived two coup attempts, in 1971 and 1972, and repressed opposition in the "years of lead". In 1975 he organised the Green March of 350,000 Moroccans into [Spanish Sahara](/place/spanish-sahara); Morocco has since controlled most of Western Sahara, whose status remains disputed with the Polisario Front. King Mohammed VI, from 1999, introduced a new constitution in 2011 and reforms of family law in 2004.
 
 ## On our maps
 

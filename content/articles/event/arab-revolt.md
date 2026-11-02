@@ -28,7 +28,7 @@ In 1918 the Arab Northern Army operated east of the Jordan in support of the Bri
 
 ## Betrayal and legacy
 
-Britain and France had already agreed in the secret Sykes–Picot Agreement of 1916 to divide the region between them, and the 1917 Balfour Declaration supported a Jewish national home in Palestine. In the [partition of the Ottoman Empire](/event/partition-of-the-ottoman-empire) that followed, the Arab lands became British and French mandates, and many Arabs saw this as a betrayal. Hussein's Kingdom of Hejaz was conquered by Ibn Saud in 1925. His sons Faisal and Abdullah became rulers of Iraq and of Transjordan, the forerunner of [Jordan](/country/jordan), where the Hashemites remain closely identified with the revolt.
+Britain and France had already agreed in the secret Sykes–Picot Agreement of 1916 to divide the region between them, and the 1917 Balfour Declaration supported a Jewish national home in Palestine. In the [partition of the Ottoman Empire](/event/partition-of-the-ottoman-empire) that followed, the Arab lands became British and French mandates, and many Arabs saw this as a betrayal. Hussein's [Kingdom of Hejaz](/place/kingdom-of-hejaz) was conquered by Ibn Saud in 1925. His sons Faisal and Abdullah became rulers of Iraq and of Transjordan, the forerunner of [Jordan](/country/jordan), where the Hashemites remain closely identified with the revolt.
 
 ## On our maps
 

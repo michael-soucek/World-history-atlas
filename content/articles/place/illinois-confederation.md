@@ -5,7 +5,7 @@ sources:
   - Borders of Time maps, built on historical-basemaps | https://github.com/aourednik/historical-basemaps
 written: 2026-10-30
 ---
-The Illinois Confederation, or Illiniwek, was a union of twelve or thirteen closely related Algonquian-speaking peoples of the middle Mississippi valley, whose lands at their height reached from Lake Michigan to Iowa, Missouri and Arkansas. The leading groups were the Kaskaskia, Cahokia, Peoria, Tamaroa and Michigamea. Their descendants today make up the federally recognised Peoria Tribe of Indians of Oklahoma, based in Ottawa County.
+The Illinois Confederation, or Illiniwek, was a union of twelve or thirteen closely related Algonquian-speaking peoples of the middle Mississippi valley, whose lands at their height reached from Lake Michigan to Iowa, Missouri and Arkansas. The leading groups were the Kaskaskia, [Cahokia](/site/cahokia), Peoria, Tamaroa and Michigamea. Their descendants today make up the federally recognised Peoria Tribe of Indians of Oklahoma, based in Ottawa County.
 
 ## One people, many villages
 

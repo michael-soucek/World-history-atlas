@@ -5,7 +5,7 @@ sources:
   - Borders of Time maps, built on historical-basemaps | https://github.com/aourednik/historical-basemaps
 written: 2026-11-01
 ---
-The Mataram kingdom, also called Medang, was a Hindu-Buddhist kingdom on the island of Java that flourished from the eighth to the early eleventh century. Founded by King Sanjaya in Central Java, it later moved its centre to East Java. Built on rich rice farming and later on maritime trade, it is best remembered for the great temples of Borobudur and Prambanan, raised near today's Yogyakarta.
+The Mataram kingdom, also called Medang, was a Hindu-Buddhist kingdom on the island of Java that flourished from the eighth to the early eleventh century. Founded by King Sanjaya in Central Java, it later moved its centre to East Java. Built on rich rice farming and later on maritime trade, it is best remembered for the great temples of [Borobudur](/site/borobudur) and [Prambanan](/site/prambanan), raised near today's Yogyakarta.
 
 ## Sanjaya and the founding
 

@@ -9,7 +9,7 @@ The Northern Yuan was the Mongol state on the steppes of Mongolia after the Mong
 
 ## Retreat to the steppe
 
-In 1368 Ming armies took Dadu, today's Beijing, and the last Yuan emperor, Toghon Temür, fled north to Shangdu, Xanadu, and then to Yingchang, where he died in 1370. His son Ayushiridara continued to rule from Karakorum, and Mongol forces fought the Ming, defeating a Ming invasion in 1372. In 1388, at Lake Buir, a Ming army defeated the khan Tögüs Temür and captured tens of thousands of people. Tögüs Temür was killed soon after by a rival, Yesüder, a descendant of Ariq Böke, and the line of Kublai was interrupted.
+In 1368 Ming armies took Dadu, today's Beijing, and the last Yuan emperor, Toghon Temür, fled north to Shangdu, Xanadu, and then to Yingchang, where he died in 1370. His son Ayushiridara continued to rule from [Karakorum](/history-of/karakorum), and Mongol forces fought the Ming, defeating a Ming invasion in 1372. In 1388, at Lake Buir, a Ming army defeated the khan Tögüs Temür and captured tens of thousands of people. Tögüs Temür was killed soon after by a rival, Yesüder, a descendant of Ariq Böke, and the line of Kublai was interrupted.
 
 ## Oirats and eastern Mongols
 
@@ -25,7 +25,7 @@ Dayan Khan's grandson Altan Khan, ruler of the Tümed in today's Inner Mongolia,
 
 ## Ligdan Khan and the Manchus
 
-In the early seventeenth century, the Manchus rose in the east. The last Great Khan, Ligdan Khan of the Chahar, tried to reunite the Mongols by force, which drove many Mongol leaders to ally with the Manchus. Ligdan, also a patron of Buddhism who had the Kanjur translated into Mongolian, was defeated and died of smallpox in 1634 near Kokonor. In 1635 his son Ejei surrendered to the Manchu ruler Hong Taiji, giving him the imperial seal of the Yuan, which Hong Taiji used to support his claim to found the Qing dynasty in 1636. The Khalkha Mongols of Outer Mongolia submitted to the Qing in 1691 at Dolon Nor, after being attacked by the Dzungars.
+In the early seventeenth century, the Manchus rose in the east. The last Great Khan, Ligdan Khan of the Chahar, tried to reunite the Mongols by force, which drove many Mongol leaders to ally with the Manchus. Ligdan, also a patron of Buddhism who had the Kanjur translated into Mongolian, was defeated and died of smallpox in 1634 near Kokonor. In 1635 his son Ejei surrendered to the Manchu ruler Hong Taiji, giving him the imperial seal of the Yuan, which Hong Taiji used to support his claim to found the Qing dynasty in 1636. The [Khalkha Mongols](/place/khalkha-mongols) of Outer Mongolia submitted to the Qing in 1691 at Dolon Nor, after being attacked by the Dzungars.
 
 ## On our maps
 

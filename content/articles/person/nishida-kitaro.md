@@ -34,7 +34,7 @@ From the 1930s, partly in response to criticism from his colleague Tanabe Hajime
 
 ## Kyoto School and wartime controversy
 
-Nishida's fame grew in the 1920s, and he helped bring thinkers such as Tanabe Hajime, Watsuji Tetsurō and Kuki Shūzō to [Kyoto](/history-of/kyoto), and taught students including Nishitani Keiji, Miki Kiyoshi and Tosaka Jun. This loose circle, with very different politics, became known as the Kyoto School. He retired at the end of the 1920s and moved to Kamakura, near Tokyo, but continued to write.
+Nishida's fame grew in the 1920s, and he helped bring thinkers such as Tanabe Hajime, Watsuji Tetsurō and Kuki Shūzō to [Kyoto](/history-of/kyoto), and taught students including Nishitani Keiji, Miki Kiyoshi and Tosaka Jun. This loose circle, with very different politics, became known as the Kyoto School. He retired at the end of the 1920s and moved to [Kamakura](/history-of/kamakura), near Tokyo, but continued to write.
 
 As the [Empire of Japan](/place/empire-of-japan) went to war in China and then in the Pacific, Nishida was sought out by officials, among them his former student, Prime Minister Konoe Fumimaro. He lectured on "The Problem of Japanese Culture" in 1938, addressed the emperor in 1941, and in 1943 drafted a text on the principles of a new world order. These writings spoke of the imperial household and a world in which each nation found its own place, language that could be read as supporting Japanese expansion. Scholars still disagree about them. Some see an attempt to steer militarist ideas in a more pluralist direction; others see an endorsement of imperialism. During the war right-wing nationalists attacked him as too Western and too abstract, while after it the left condemned him as nationalist.
 

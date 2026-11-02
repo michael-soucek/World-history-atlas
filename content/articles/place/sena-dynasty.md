@@ -18,7 +18,7 @@ Samanta Sena's son Hemanta Sena seems to have been a local chief under the Palas
 
 ## Ballala Sena and Lakshmana Sena
 
-Vijaya Sena's son Ballala Sena (Vallalasena) is credited with the final defeat of the Palas and, according to tradition, conquered Mithila. His wife Ramadevi was a princess of the [Western Chalukya Empire](/place/western-chalukya-empire), a sign of ties with the south. He was a scholar and wrote the Danasagara in 1168. Later tradition credits him with introducing Kulinism, a ranking system among Bengali Brahmins, although Chowdhury notes that no Sena inscription mentions it and that the texts making the claim were written centuries later. His son Lakshmana Sena came to the throne around 1179. A later Sena copper plate says he set up victory pillars at Varanasi and Allahabad, and he was the first Sena king to call himself lord of Gauda.
+Vijaya Sena's son Ballala Sena (Vallalasena) is credited with the final defeat of the Palas and, according to tradition, conquered Mithila. His wife Ramadevi was a princess of the [Western Chalukya Empire](/place/western-chalukya-empire), a sign of ties with the south. He was a scholar and wrote the Danasagara in 1168. Later tradition credits him with introducing Kulinism, a ranking system among Bengali Brahmins, although Chowdhury notes that no Sena inscription mentions it and that the texts making the claim were written centuries later. His son Lakshmana Sena came to the throne around 1179. A later Sena copper plate says he set up victory pillars at [Varanasi](/history-of/varanasi) and Allahabad, and he was the first Sena king to call himself lord of Gauda.
 
 ## Court and culture
 

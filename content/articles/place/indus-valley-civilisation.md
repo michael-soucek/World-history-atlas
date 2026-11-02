@@ -9,7 +9,7 @@ The Indus Valley Civilisation was the largest of the world's first urban civilis
 
 ## Rediscovery
 
-The civilisation was forgotten for nearly four thousand years. In the 1920s, excavations at Harappa in Punjab and Mohenjo-daro in Sindh revealed cities of a culture no one had suspected, and it is often called the Harappan civilisation after the first site. Since then more than a thousand settlements have been found, over an area larger than Egypt and Mesopotamia combined, from the Makran coast of Balochistan to the edges of Delhi and from Afghanistan to Gujarat.
+The civilisation was forgotten for nearly four thousand years. In the 1920s, excavations at [Harappa](/history-of/harappa) in Punjab and [Mohenjo-daro](/site/mohenjo-daro) in Sindh revealed cities of a culture no one had suspected, and it is often called the Harappan civilisation after the first site. Since then more than a thousand settlements have been found, over an area larger than Egypt and Mesopotamia combined, from the Makran coast of Balochistan to the edges of Delhi and from Afghanistan to Gujarat.
 
 ## Early Harappan roots
 

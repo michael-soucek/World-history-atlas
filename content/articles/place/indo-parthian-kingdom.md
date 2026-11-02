@@ -13,7 +13,7 @@ The kingdom grew out of Drangiana, the region also known as Sakastan or Seistan,
 
 ## Gondophares and his conquests
 
-Gondophares pushed east into lands held by the Indo-Scythians and the last Indo-Greeks. At his height he ruled Arachosia, Seistan, Sindh, Punjab and the Kabul valley, though apparently not much beyond eastern Punjab. He took the Parthian style of King of Kings, appropriate for a realm in which many lesser rulers, among them Saka satraps and the Apracaraja princes, kept their thrones by accepting his supremacy. Taxila is thought to have been one of the Indo-Parthian capitals.
+Gondophares pushed east into lands held by the Indo-Scythians and the last Indo-Greeks. At his height he ruled Arachosia, Seistan, Sindh, Punjab and the Kabul valley, though apparently not much beyond eastern Punjab. He took the Parthian style of King of Kings, appropriate for a realm in which many lesser rulers, among them Saka satraps and the Apracaraja princes, kept their thrones by accepting his supremacy. [Taxila](/history-of/taxila) is thought to have been one of the Indo-Parthian capitals.
 
 ## Fragmentation
 

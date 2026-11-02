@@ -5,7 +5,7 @@ sources:
   - Borders of Time maps, built on historical-basemaps | https://github.com/aourednik/historical-basemaps
 written: 2026-10-22
 ---
-Tiwanaku was one of the great cities of the ancient Andes, built near the southern shore of Lake Titicaca, in what is now Bolivia, nearly 3,850 metres above sea level. Between about 500 and 1000 CE it was the centre of a state or cultural sphere whose influence reached across the southern Andes, into what are now Peru, Chile and Argentina.
+[Tiwanaku](/history-of/tiwanaku) was one of the great cities of the ancient Andes, built near the southern shore of Lake Titicaca, in what is now Bolivia, nearly 3,850 metres above sea level. Between about 500 and 1000 CE it was the centre of a state or cultural sphere whose influence reached across the southern Andes, into what are now Peru, Chile and Argentina.
 
 ## The Titicaca basin
 

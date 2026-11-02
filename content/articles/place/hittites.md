@@ -5,7 +5,7 @@ sources:
   - Borders of Time maps, built on historical-basemaps | https://github.com/aourednik/historical-basemaps
 written: 2026-10-22
 ---
-The Hittites built one of the great empires of the Bronze Age in central Anatolia, in what is now Turkey. From their capital at Hattusa, they ruled much of Anatolia and northern Syria in the fourteenth and thirteenth centuries BCE, rivalling Egypt for power in the Near East.
+The Hittites built one of the great empires of the Bronze Age in central Anatolia, in what is now Turkey. From their capital at [Hattusa](/history-of/hattusa), they ruled much of Anatolia and northern Syria in the fourteenth and thirteenth centuries BCE, rivalling Egypt for power in the Near East.
 
 ## Language and writing
 
@@ -33,7 +33,7 @@ Hittite laws were less harsh than those of Mesopotamia, often requiring compensa
 
 ## Collapse and the Neo-Hittites
 
-Around 1180 BCE, the empire collapsed amid drought, famine, attacks by neighbouring peoples, such as the Kaska, and internal conflict. Hattusa was abandoned and burned. In south-eastern Anatolia and northern Syria, Neo-Hittite states, such as Carchemish, Malatya and Tabal, continued Hittite traditions, using Luwian hieroglyphs, until the Assyrians conquered them. The "Hittites" of the Bible probably refers to these later peoples.
+Around 1180 BCE, the empire collapsed amid drought, famine, attacks by neighbouring peoples, such as the Kaska, and internal conflict. Hattusa was abandoned and burned. In south-eastern Anatolia and northern Syria, [Neo-Hittite states](/place/neo-hittite-states), such as Carchemish, Malatya and Tabal, continued Hittite traditions, using Luwian hieroglyphs, until the Assyrians conquered them. The "Hittites" of the Bible probably refers to these later peoples.
 
 ## On our maps
 

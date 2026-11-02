@@ -19,7 +19,7 @@ Very little is known for certain about Gutenberg's life, and most of it comes fr
 
 ## Strasbourg
 
-Conflicts between the patricians and the craft guilds drove the family out of Mainz for periods, and by 1434 Gutenberg was living in [Strasbourg](/history-of/strasbourg). A lawsuit of 1439, brought by the heirs of one of his partners, reveals that he had a business making polished metal mirrors for pilgrims to the relic exhibition at Aachen, and that he was also teaching his partners a secret technique that involved a press, metal forms and lead. Most historians believe this was early work on printing, but the documents do not say so plainly.
+Conflicts between the patricians and the craft guilds drove the family out of Mainz for periods, and by 1434 Gutenberg was living in [Strasbourg](/history-of/strasbourg). A lawsuit of 1439, brought by the heirs of one of his partners, reveals that he had a business making polished metal mirrors for pilgrims to the relic exhibition at [Aachen](/history-of/aachen), and that he was also teaching his partners a secret technique that involved a press, metal forms and lead. Most historians believe this was early work on printing, but the documents do not say so plainly.
 
 ## The invention
 

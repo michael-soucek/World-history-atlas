@@ -26,7 +26,7 @@ His brother Mstislav of Chernigov defeated him in 1024, and the two divided the 
 
 ## Wars and frontiers
 
-In 1019 Yaroslav married Ingegerd, daughter of the Swedish king Olof Skötkonung, and his foreign policy leaned on Scandinavia. In 1030 he took Tartu, in present-day [Estonia](/country/estonia), renaming it Yuryev, and in 1031 he recovered the Cherven towns from Poland. He protected the south with a line of forts against the nomadic Pechenegs, whom he defeated decisively near Kiev in 1036. In 1043 a Rus' fleet under one of his sons attacked Constantinople, beating the Byzantine fleet but losing most of its ships in a storm.
+In 1019 Yaroslav married Ingegerd, daughter of the Swedish king Olof Skötkonung, and his foreign policy leaned on Scandinavia. In 1030 he took Tartu, in present-day [Estonia](/country/estonia), renaming it Yuryev, and in 1031 he recovered the Cherven towns from Poland. He protected the south with a line of forts against the nomadic [Pechenegs](/place/pechenegs), whom he defeated decisively near Kiev in 1036. In 1043 a Rus' fleet under one of his sons attacked Constantinople, beating the Byzantine fleet but losing most of its ships in a storm.
 
 ## Culture and the church
 

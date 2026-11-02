@@ -14,7 +14,7 @@ Frederick I, known as Barbarossa, "red beard", was king of Germany from 1152 and
 
 ## Family and election
 
-Frederick was born in December 1122, the son of Frederick II, duke of Swabia, of the Staufen or Hohenstaufen family, and Judith, a daughter of the Welf duke of Bavaria. The Staufen and the Welfs were the two most powerful rival families in Germany, and his mixed descent made him a natural candidate to reconcile them. He became duke of Swabia in 1147 and that year went on the Second Crusade with his uncle, King Conrad III. When Conrad died in February 1152, the princes passed over the king's young son and on 4 March elected Frederick at Frankfurt. He was crowned at Aachen five days later.
+Frederick was born in December 1122, the son of Frederick II, duke of Swabia, of the Staufen or Hohenstaufen family, and Judith, a daughter of the Welf duke of Bavaria. The Staufen and the Welfs were the two most powerful rival families in Germany, and his mixed descent made him a natural candidate to reconcile them. He became duke of Swabia in 1147 and that year went on the Second Crusade with his uncle, King Conrad III. When Conrad died in February 1152, the princes passed over the king's young son and on 4 March elected Frederick at Frankfurt. He was crowned at [Aachen](/history-of/aachen) five days later.
 
 The nickname Barbarossa comes from Italy. Contemporaries described his beard as reddish, but the name was not used in medieval Germany, where he was simply Emperor Frederick.
 

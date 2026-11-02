@@ -12,6 +12,15 @@ export function toArticleImage(img: EntityImage): ArticleImageData {
   return { ...img, caption: clean(img.caption) || titleFromFile(img.file) };
 }
 
+/** Files that make a poor banner: maps, charts, documents and small finds. */
+const NOT_A_HERO = /map|chart|plan[ _]of|territor|letter|inscription|pottery|tablet/i;
+
+/** Images reordered so the first is a fit lead picture (a view, not a map or document). */
+export function heroFirst<T extends { file: string }>(images: T[]): T[] {
+  const i = images.findIndex((img) => !NOT_A_HERO.test(img.file));
+  return i <= 0 ? images : [images[i], ...images.slice(0, i), ...images.slice(i + 1)];
+}
+
 /**
  * The page's lead picture — the entity's own Wikidata image if it has one,
  * else the article's first image — and the images left for the body.

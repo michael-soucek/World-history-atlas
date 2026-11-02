@@ -9,7 +9,7 @@ sources:
   - Wikidata: Ramesses II (Q1523) | https://www.wikidata.org/wiki/Q1523
 written: 2026-10-22
 ---
-Ramesses II, known as Ramesses the Great, was a pharaoh of Egypt's Nineteenth Dynasty, ruling for sixty-six years, from 1279 to 1213 BCE. He led military campaigns in the Levant and Nubia, signed the earliest known peace treaty, with the Hittites, and built more monuments than any other pharaoh, including the temples of Abu Simbel.
+Ramesses II, known as Ramesses the Great, was a pharaoh of Egypt's Nineteenth Dynasty, ruling for sixty-six years, from 1279 to 1213 BCE. He led military campaigns in the Levant and Nubia, signed the earliest known peace treaty, with the Hittites, and built more monuments than any other pharaoh, including the temples of [Abu Simbel](/site/abu-simbel).
 
 ## Prince
 
@@ -21,7 +21,7 @@ Ramesses sought to recover Egyptian territory in Syria from the Hittite Empire. 
 
 ## The peace treaty
 
-After years of further conflict, around 1259 BCE Ramesses and the Hittite king Hattusili III signed a peace treaty, the earliest known peace treaty in history. Copies survive in Egyptian hieroglyphics at Karnak and in Akkadian cuneiform on clay tablets found at Hattusa, the Hittite capital. It agreed mutual non-aggression, an alliance and the return of fugitives. A copy hangs at the United Nations. Ramesses later married a Hittite princess.
+After years of further conflict, around 1259 BCE Ramesses and the Hittite king Hattusili III signed a peace treaty, the earliest known peace treaty in history. Copies survive in Egyptian hieroglyphics at [Karnak](/site/karnak) and in Akkadian cuneiform on clay tablets found at [Hattusa](/history-of/hattusa), the Hittite capital. It agreed mutual non-aggression, an alliance and the return of fugitives. A copy hangs at the United Nations. Ramesses later married a Hittite princess.
 
 ## Builder
 

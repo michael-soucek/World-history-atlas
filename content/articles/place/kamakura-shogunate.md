@@ -5,7 +5,7 @@ sources:
   - Borders of Time maps, built on historical-basemaps | https://github.com/aourednik/historical-basemaps
 written: 2026-10-22
 ---
-The Kamakura shogunate was the first military government of Japan. From 1185 to 1333, warrior rulers based in the eastern town of Kamakura held real power, while the emperor and his court in Kyoto kept their prestige but little authority. It began nearly seven centuries during which Japan was largely governed by shoguns.
+The Kamakura shogunate was the first military government of Japan. From 1185 to 1333, warrior rulers based in the eastern town of [Kamakura](/history-of/kamakura) held real power, while the emperor and his court in Kyoto kept their prestige but little authority. It began nearly seven centuries during which Japan was largely governed by shoguns.
 
 ## The rise of the warriors
 
@@ -29,7 +29,7 @@ In 1274 and 1281, Kublai Khan sent fleets of Mongol, Chinese and Korean troops t
 
 ## New Buddhism
 
-The Kamakura period saw new forms of Buddhism that reached ordinary people. Hōnen and Shinran taught Pure Land Buddhism, saying that repeating the name of Amida Buddha brought rebirth in the Pure Land. Nichiren taught devotion to the Lotus Sutra. Zen, brought from China by Eisai and Dōgen, appealed to warriors. The great bronze Buddha of Kamakura was cast in 1252. Realistic sculptures by artists such as Unkei and Kaikei, such as the guardian figures at Tōdai-ji, are masterpieces.
+The Kamakura period saw new forms of Buddhism that reached ordinary people. Hōnen and Shinran taught Pure Land Buddhism, saying that repeating the name of Amida Buddha brought rebirth in the Pure Land. Nichiren taught devotion to the Lotus Sutra. Zen, brought from China by Eisai and Dōgen, appealed to warriors. The great bronze Buddha of Kamakura was cast in 1252. Realistic sculptures by artists such as Unkei and Kaikei, such as the guardian figures at [Tōdai-ji](/site/todai-ji), are masterpieces.
 
 ## The fall
 

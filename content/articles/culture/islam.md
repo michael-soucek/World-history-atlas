@@ -28,7 +28,7 @@ Under the early caliphs and the Umayyad dynasty, Arab armies conquered a vast em
 
 ## Civilisation
 
-Under the Abbasid caliphate and other states, Islamic civilisation flourished in science, mathematics, medicine, philosophy, art and architecture, in the Islamic Golden Age. Great mosques, such as the Dome of the Rock, the Great Mosque of Córdoba and later the Taj Mahal and Süleymaniye Mosque, were built. Great empires, such as the Ottoman, Safavid and Mughal, ruled much of the Muslim world in the early modern period.
+Under the Abbasid caliphate and other states, Islamic civilisation flourished in science, mathematics, medicine, philosophy, art and architecture, in the Islamic Golden Age. Great mosques, such as the [Dome of the Rock](/site/dome-of-the-rock), the Great Mosque of Córdoba and later the [Taj Mahal](/site/taj-mahal) and Süleymaniye Mosque, were built. Great empires, such as the Ottoman, Safavid and Mughal, ruled much of the Muslim world in the early modern period.
 
 ## Today
 

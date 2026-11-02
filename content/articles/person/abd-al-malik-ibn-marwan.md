@@ -9,7 +9,7 @@ sources:
   - Wikidata: Abd al-Malik ibn Marwan (Q36788) | https://www.wikidata.org/wiki/Q36788
 written: 2026-10-30
 ---
-Abd al-Malik ibn Marwan, the fifth caliph of the [Umayyad Caliphate](/place/umayyad-caliphate), took power in 685 when the dynasty's control had shrunk to Syria and Egypt, and by his death in 705 had rebuilt it into a centralised empire. He won a long civil war, introduced the first purely Islamic coinage, made Arabic the language of government and built the Dome of the Rock in Jerusalem. Later Muslim writers called him the "father of kings", since most later Umayyad rulers descended from him.
+Abd al-Malik ibn Marwan, the fifth caliph of the [Umayyad Caliphate](/place/umayyad-caliphate), took power in 685 when the dynasty's control had shrunk to Syria and Egypt, and by his death in 705 had rebuilt it into a centralised empire. He won a long civil war, introduced the first purely Islamic coinage, made Arabic the language of government and built the [Dome of the Rock](/site/dome-of-the-rock) in Jerusalem. Later Muslim writers called him the "father of kings", since most later Umayyad rulers descended from him.
 
 ## Upbringing and rise
 

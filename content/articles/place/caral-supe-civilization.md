@@ -6,7 +6,7 @@ sources:
   - Borders of Time maps, built on historical-basemaps | https://github.com/aourednik/historical-basemaps
 written: 2026-10-30
 ---
-On a narrow strip of desert coast north of Lima, in the valleys of the Supe, Pativilca and Fortaleza rivers, people built monumental platform mounds and sunken plazas about five thousand years ago. This society, now called Caral–Supe after its best-studied city and also known as Norte Chico, flourished from the late fourth millennium BCE to about 1800 BCE. It is regarded as the oldest known civilisation in the Americas, older than the [Olmecs](/place/olmecs) by nearly two thousand years, and it achieved this without pottery.
+On a narrow strip of desert coast north of Lima, in the valleys of the Supe, Pativilca and Fortaleza rivers, people built monumental platform mounds and sunken plazas about five thousand years ago. This society, now called [Caral](/site/caral)–Supe after its best-studied city and also known as Norte Chico, flourished from the late fourth millennium BCE to about 1800 BCE. It is regarded as the oldest known civilisation in the Americas, older than the [Olmecs](/place/olmecs) by nearly two thousand years, and it achieved this without pottery.
 
 ## Discovery
 
@@ -30,4 +30,4 @@ Archaeologists have found no fortifications, weapons or signs of violent death f
 
 ## On our maps
 
-Our maps for 3000 and 2000 BCE draw Caral–Supe under the label "Norte Chico", as an approximate area on the north-central coast of Peru. On the 2000 BCE map the Chinchorro culture lies to the south and the Valdivia culture to the north.
+Our maps for 3000 and 2000 BCE draw Caral–Supe under the label "Norte Chico", as an approximate area on the north-central coast of Peru. On the 2000 BCE map the Chinchorro culture lies to the south and the [Valdivia culture](/place/valdivia-culture) to the north.

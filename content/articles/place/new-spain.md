@@ -25,7 +25,7 @@ Silver was found at Zacatecas in 1546 and Guanajuato in the 1550s, and New Spain
 
 ## A layered society
 
-Colonial society was divided by origin and ancestry, in a system later called the sistema de castas. Spanish-born peninsulares held the highest offices, while American-born Spaniards, criollos, resented their exclusion. Mestizos, of mixed Spanish and Indigenous ancestry, mulattos, Indigenous people and Africans made up the majority. Paintings, casta paintings, depicted mixed families. The nun Sor Juana Inés de la Cruz, in the seventeenth century, wrote poetry and defended women's right to learning.
+Colonial society was divided by origin and ancestry, in a system later called the sistema de castas. Spanish-born peninsulares held the highest offices, while American-born Spaniards, criollos, resented their exclusion. Mestizos, of mixed Spanish and Indigenous ancestry, mulattos, Indigenous people and Africans made up the majority. Paintings, casta paintings, depicted mixed families. The nun [Sor Juana Inés de la Cruz](/person/sor-juana-ines-de-la-cruz), in the seventeenth century, wrote poetry and defended women's right to learning.
 
 ## The northern frontier
 

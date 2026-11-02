@@ -52,7 +52,7 @@ Adal's greatest leader, Imam Ahmad ibn Ibrahim al-Ghazi, known in Ethiopia as Gr
 
 After Adal's collapse, the Afar formed several small sultanates. The Sultanate of Tadjoura became the leading power on the coast, controlling the caravans that carried salt from Lake Assal, the lowest point in Africa, into the Ethiopian highlands, as well as slaves and other goods. Further north the sultans of Rahaita held the coast near the strait, and inland the Afar of Gobaad were linked to the sultanate of Aussa. The Issa, a clan of the Dir branch of the Somali, grazed their herds across the south and traded through Zeila, governed by elders and the customary law known as xeer.
 
-During the 19th century, Zeila passed from Ottoman and Yemeni influence to Egyptian control, and Egypt briefly garrisoned Tadjoura in the 1870s and 1880s. The opening of the Suez Canal in 1869 transformed the strategic value of the Bab-el-Mandeb, and the British at Aden in [Yemen](/country/yemen) and the Italians in Eritrea both sought footholds in the region.
+During the 19th century, Zeila passed from Ottoman and Yemeni influence to Egyptian control, and Egypt briefly garrisoned Tadjoura in the 1870s and 1880s. The opening of the [Suez Canal](/site/suez-canal) in 1869 transformed the strategic value of the Bab-el-Mandeb, and the British at Aden in [Yemen](/country/yemen) and the Italians in Eritrea both sought footholds in the region.
 
 ## French Somaliland
 

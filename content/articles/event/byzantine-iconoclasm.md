@@ -24,7 +24,7 @@ After the brief reign of Leo IV, his widow Irene ruled for their young son Const
 
 ## The second iconoclasm
 
-Heavy defeats by the Bulgarian ruler Krum, in which Emperor Nikephoros I was killed, revived the old idea that icons had angered God. Leo V reinstated iconoclasm in 815 through a synod held in Hagia Sophia, and his successors Michael II and Theophilos maintained it. When Theophilos died, his widow Theodora, regent for the child Michael III, restored the icons at a council in Constantinople in 843, on condition that her late husband was not condemned. The Orthodox Church still marks the first Sunday of Lent as the Triumph of Orthodoxy.
+Heavy defeats by the Bulgarian ruler Krum, in which Emperor Nikephoros I was killed, revived the old idea that icons had angered God. Leo V reinstated iconoclasm in 815 through a synod held in [Hagia Sophia](/site/hagia-sophia), and his successors Michael II and Theophilos maintained it. When Theophilos died, his widow Theodora, regent for the child Michael III, restored the icons at a council in Constantinople in 843, on condition that her late husband was not condemned. The Orthodox Church still marks the first Sunday of Lent as the Triumph of Orthodoxy.
 
 ## Legacy
 

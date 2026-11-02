@@ -5,7 +5,7 @@ sources:
   - Borders of Time maps, built on historical-basemaps | https://github.com/aourednik/historical-basemaps
 written: 2026-10-22
 ---
-Great Zimbabwe is the largest ancient stone structure in Africa south of the Sahara. Built by the ancestors of the Shona people between the eleventh and fifteenth centuries, it was the capital of a kingdom that grew rich on cattle and on the gold trade with the Indian Ocean. The modern country of Zimbabwe takes its name from it; dzimba dza mabwe means "houses of stone" in Shona.
+[Great Zimbabwe](/site/great-zimbabwe) is the largest ancient stone structure in Africa south of the Sahara. Built by the ancestors of the Shona people between the eleventh and fifteenth centuries, it was the capital of a kingdom that grew rich on cattle and on the gold trade with the Indian Ocean. The modern country of Zimbabwe takes its name from it; dzimba dza mabwe means "houses of stone" in Shona.
 
 ## Before Great Zimbabwe
 

@@ -25,7 +25,7 @@ Louis turned his father's hunting lodge at Versailles, near Paris, into a vast p
 
 ## Culture
 
-Louis was a great patron of the arts. Under his reign, the playwrights Molière, Racine and Corneille, the composer Jean-Baptiste Lully and the painter Charles Le Brun flourished. He founded academies of science, painting and music, and the Comédie-Française. French became the language of European diplomacy and elite culture.
+Louis was a great patron of the arts. Under his reign, the playwrights [Molière](/person/moliere), Racine and Corneille, the composer Jean-Baptiste Lully and the painter Charles Le Brun flourished. He founded academies of science, painting and music, and the Comédie-Française. French became the language of European diplomacy and elite culture.
 
 ## Wars
 

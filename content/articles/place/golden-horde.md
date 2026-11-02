@@ -17,7 +17,7 @@ The Golden Horde was ruled by descendants of Jochi. Its capital, Sarai on the lo
 
 ## The "Tatar yoke"
 
-For Russia, the period of Horde rule is known as the "Tatar yoke". The Rus' princes had to travel to Sarai, and sometimes to Karakorum, to receive patents, yarlyks, to rule. Some who displeased the khans were executed there, such as Mikhail of Chernigov in 1246 and Mikhail of Tver in 1318. The Horde conducted censuses for tax and conscription, and Rus' cities that revolted, such as Tver in 1327, were crushed. The Orthodox Church, however, was exempted from taxes and flourished.
+For Russia, the period of Horde rule is known as the "Tatar yoke". The Rus' princes had to travel to Sarai, and sometimes to [Karakorum](/history-of/karakorum), to receive patents, yarlyks, to rule. Some who displeased the khans were executed there, such as Mikhail of Chernigov in 1246 and Mikhail of Tver in 1318. The Horde conducted censuses for tax and conscription, and Rus' cities that revolted, such as Tver in 1327, were crushed. The Orthodox Church, however, was exempted from taxes and flourished.
 
 ## Islam and trade
 

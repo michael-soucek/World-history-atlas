@@ -24,7 +24,7 @@ The decisive years came next. In June 1865 General Mikhail Chernyayev stormed Ta
 
 ## Turkmen resistance
 
-The Turkmen of the Karakum desert, who had no single state, put up the most determined fight. A first Russian assault on the fortress of Geok Tepe in 1879 failed. In the winter of 1880–81 General Mikhail Skobelev took it after a siege of about a month; according to one account at least 14,000 Teke Turkmen were killed. Merv submitted in 1884, and Russia's seizure of the Afghan post of Panjdeh in 1885 brought Britain close to war.
+The Turkmen of the Karakum desert, who had no single state, put up the most determined fight. A first Russian assault on the fortress of Geok Tepe in 1879 failed. In the winter of 1880–81 General Mikhail Skobelev took it after a siege of about a month; according to one account at least 14,000 Teke Turkmen were killed. [Merv](/history-of/merv) submitted in 1884, and Russia's seizure of the Afghan post of Panjdeh in 1885 brought Britain close to war.
 
 ## The Great Game
 

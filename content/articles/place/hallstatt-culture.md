@@ -5,7 +5,7 @@ sources:
   - Borders of Time maps, built on historical-basemaps | https://github.com/aourednik/historical-basemaps
 written: 2026-10-30
 ---
-A salt-mining village above an Alpine lake gave its name to the Hallstatt culture, the leading archaeological culture of central and western Europe at the turn from the Bronze Age to the Iron Age. In its narrow sense it covers the early Iron Age, from about 800 to 450 BCE, when chieftains in fortified hilltop centres traded with the Greek and Etruscan world. It grew out of the Urnfield culture, gave way to the La Tène culture, and is commonly linked with early Celtic-speaking peoples.
+A salt-mining village above an Alpine lake gave its name to the Hallstatt culture, the leading archaeological culture of central and western Europe at the turn from the Bronze Age to the Iron Age. In its narrow sense it covers the early Iron Age, from about 800 to 450 BCE, when chieftains in fortified hilltop centres traded with the Greek and Etruscan world. It grew out of the [Urnfield culture](/place/urnfield-culture), gave way to the La Tène culture, and is commonly linked with early Celtic-speaking peoples.
 
 ## The type site
 

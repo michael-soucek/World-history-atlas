@@ -4,7 +4,7 @@ sources:
   - Wikidata: Second Boer War (Q215112) | https://www.wikidata.org/wiki/Q215112
 written: 2026-10-30
 ---
-The Second Boer War, fought from 11 October 1899 to 31 May 1902, pitted the [British Empire](/place/british-empire) against the two Boer republics of southern Africa, the South African Republic (Transvaal) and the Orange Free State. Britain won, annexing both republics, but only after a long guerrilla war in which its scorched-earth tactics and concentration camps caused tens of thousands of civilian deaths. In 1910 the former republics became part of the Union of South Africa.
+The Second Boer War, fought from 11 October 1899 to 31 May 1902, pitted the [British Empire](/place/british-empire) against the two Boer republics of southern Africa, the South African Republic (Transvaal) and the [Orange Free State](/place/orange-free-state). Britain won, annexing both republics, but only after a long guerrilla war in which its scorched-earth tactics and concentration camps caused tens of thousands of civilian deaths. In 1910 the former republics became part of the Union of South Africa.
 
 ## Gold and the Uitlanders
 

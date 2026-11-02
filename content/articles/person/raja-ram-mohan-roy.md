@@ -13,7 +13,7 @@ Often called the father of the Indian Renaissance, Ram Mohan Roy was a Bengali s
 
 ## A Brahmin education
 
-He was born, probably on 22 May 1772, at Radhanagar in the Hooghly district of Bengal, into a Kulin Brahmin family; his father was a devotee of Vishnu and his mother came from a family of Shiva worshippers. Details of his schooling are uncertain, but he is said to have studied Persian and Arabic at Patna and Sanskrit scripture at Benares, and he later learned English, Latin and Greek. According to a traditional account, as a boy he saw his young sister-in-law forced onto her husband's funeral pyre, an experience linked to his later campaign against sati. He married three times.
+He was born, probably on 22 May 1772, at Radhanagar in the Hooghly district of Bengal, into a Kulin Brahmin family; his father was a devotee of Vishnu and his mother came from a family of Shiva worshippers. Details of his schooling are uncertain, but he is said to have studied Persian and Arabic at [Patna](/history-of/patna) and Sanskrit scripture at Benares, and he later learned English, Latin and Greek. According to a traditional account, as a boy he saw his young sister-in-law forced onto her husband's funeral pyre, an experience linked to his later campaign against sati. He married three times.
 
 ## Moneylender, clerk and writer
 

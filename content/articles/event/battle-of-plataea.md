@@ -8,7 +8,7 @@ Plataea, in Boeotia in central Greece, gave its name to the last great land batt
 
 ## After Salamis
 
-[Xerxes I](/person/xerxes-i) invaded Greece in 480 BC. His army forced the pass at [Thermopylae](/event/battle-of-thermopylae), burned Plataea and Thespiae, and occupied Athens, which had been evacuated. But the defeat of the Persian fleet at [Salamis](/event/battle-of-salamis) later that year led the king to return to Asia with part of his forces, leaving Mardonius to finish the conquest. Mardonius wintered in Thessaly and tried to win Athens over with offers of peace. When these failed he reoccupied the city in 479 BC, and the Athenians threatened to come to terms unless Sparta sent help. Sparta at last marched, with 5,000 full citizens among a much larger force.
+[Xerxes I](/person/xerxes-i) invaded Greece in 480 BC. His army forced the pass at [Thermopylae](/event/battle-of-thermopylae), burned Plataea and Thespiae, and occupied Athens, which had been evacuated. But the defeat of the Persian fleet at [Salamis](/event/battle-of-salamis) later that year led the king to return to Asia with part of his forces, leaving Mardonius to finish the conquest. Mardonius wintered in Thessaly and tried to win Athens over with offers of peace. When these failed he reoccupied the city in 479 BC, and the Athenians threatened to come to terms unless [Sparta](/history-of/sparta) sent help. Sparta at last marched, with 5,000 full citizens among a much larger force.
 
 ## The armies
 
@@ -26,7 +26,7 @@ Casualty figures are equally uncertain. Herodotus claims 257,000 Persian dead, w
 
 ## Aftermath
 
-According to Herodotus, the Greek fleet won at Mycale, in Asia Minor, on the same day. The Greeks then besieged Thebes and executed leaders who had sided with Persia, and Athens went on to take Sestos on the Hellespont. Sparta withdrew from the war, leaving Athens to lead the fight against Persia in the Aegean. The spoils funded monuments at Delphi and elsewhere. Plutarch reports that [Alexander the Great](/person/alexander-the-great) later saw Plataea as a step on the road to his own conquest of Persia.
+According to Herodotus, the Greek fleet won at Mycale, in Asia Minor, on the same day. The Greeks then besieged Thebes and executed leaders who had sided with Persia, and Athens went on to take Sestos on the Hellespont. Sparta withdrew from the war, leaving Athens to lead the fight against Persia in the Aegean. The spoils funded monuments at [Delphi](/site/delphi) and elsewhere. Plutarch reports that [Alexander the Great](/person/alexander-the-great) later saw Plataea as a step on the road to his own conquest of Persia.
 
 ## On our maps
 

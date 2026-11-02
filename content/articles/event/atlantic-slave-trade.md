@@ -32,7 +32,7 @@ Portugal and Brazil carried the largest number, nearly half, followed by Britain
 
 ## Abolition
 
-From the late eighteenth century, abolitionists, including formerly enslaved people such as Olaudah Equiano, Quakers and campaigners such as Thomas Clarkson and William Wilberforce, campaigned against the trade. Denmark banned it in 1803, and Britain and the United States in 1807–1808. Britain's navy patrolled the African coast to intercept slave ships. Illegal trade continued, especially to Brazil and Cuba, until the 1860s. Slavery itself was abolished in the British Empire in 1833, the United States in 1865 and Brazil, the last in the Americas, in 1888.
+From the late eighteenth century, abolitionists, including formerly enslaved people such as Olaudah Equiano, Quakers and campaigners such as Thomas Clarkson and [William Wilberforce](/person/william-wilberforce), campaigned against the trade. Denmark banned it in 1803, and Britain and the United States in 1807–1808. Britain's navy patrolled the African coast to intercept slave ships. Illegal trade continued, especially to Brazil and Cuba, until the 1860s. Slavery itself was abolished in the British Empire in 1833, the United States in 1865 and Brazil, the last in the Americas, in 1888.
 
 ## On our maps
 

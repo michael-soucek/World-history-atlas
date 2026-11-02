@@ -25,7 +25,7 @@ William gathered an army and fleet, with the pope's blessing. Meanwhile, the Nor
 
 ## Conquest
 
-The conquest was not complete. William faced rebellions in the following years. In the winter of 1069–1070, he crushed a rebellion in the north with the "Harrying of the North", in which villages, crops and livestock were destroyed, causing a famine in which many thousands died. The English aristocracy was almost entirely replaced by Norman and French nobles, who received lands in return for military service. The Normans built castles across England, such as the Tower of London, and rebuilt cathedrals and churches in the Romanesque style. Normans also took over the leadership of the church.
+The conquest was not complete. William faced rebellions in the following years. In the winter of 1069–1070, he crushed a rebellion in the north with the "Harrying of the North", in which villages, crops and livestock were destroyed, causing a famine in which many thousands died. The English aristocracy was almost entirely replaced by Norman and French nobles, who received lands in return for military service. The Normans built castles across England, such as the [Tower of London](/site/tower-of-london), and rebuilt cathedrals and churches in the Romanesque style. Normans also took over the leadership of the church.
 
 ## The Domesday Book
 

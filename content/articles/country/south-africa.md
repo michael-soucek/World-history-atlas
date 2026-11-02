@@ -70,7 +70,7 @@ The wars and migrations of this period are called the mfecane, "the crushing", i
 
 From 1835 several thousand Dutch-speaking farmers, resentful of British rule, the end of slavery and the frontier settlement, left the Cape with their wagons in what came to be called the Great Trek. In Natal the Zulu king Dingane had the leader Piet Retief and his party killed in February 1838, and on 16 December 1838 a Voortrekker force defeated a large Zulu army at the Ncome River, which they named Blood River. Their republic of Natalia was annexed by Britain in 1843, and Natal became a British colony that later imported indentured labourers from [India](/country/india) to work its sugar plantations from 1860.
 
-On the highveld the trekkers fought Mzilikazi's Ndebele and other African states and founded two republics that Britain recognised: the South African Republic, or Transvaal, in 1852 and the Orange Free State in 1854. Both restricted citizenship to whites. The Free State fought a series of wars with Moshoeshoe between 1858 and 1868 and took much of the fertile Caledon valley before Britain made Basutoland a protectorate in 1868.
+On the highveld the trekkers fought Mzilikazi's Ndebele and other African states and founded two republics that Britain recognised: the South African Republic, or Transvaal, in 1852 and the [Orange Free State](/place/orange-free-state) in 1854. Both restricted citizenship to whites. The Free State fought a series of wars with Moshoeshoe between 1858 and 1868 and took much of the fertile Caledon valley before Britain made Basutoland a protectorate in 1868.
 
 ## Diamonds, gold and conquest
 

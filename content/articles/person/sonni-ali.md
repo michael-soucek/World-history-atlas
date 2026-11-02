@@ -9,7 +9,7 @@ sources:
   - Wikidata: Sonni Ali (Q945436) | https://www.wikidata.org/wiki/Q945436
 written: 2026-10-30
 ---
-Sonni Ali, also called Sonni Ali Ber ("the Great"), ruled the Songhai kingdom on the middle Niger from about 1464 to 1492. A tireless soldier, he turned a regional state centred on Gao into the largest power in West Africa, taking Timbuktu and Djenné from the declining Mali Empire. Muslim chroniclers remembered him as a tyrant, and historians still debate how far that picture is fair.
+Sonni Ali, also called Sonni Ali Ber ("the Great"), ruled the Songhai kingdom on the middle Niger from about 1464 to 1492. A tireless soldier, he turned a regional state centred on Gao into the largest power in West Africa, taking Timbuktu and [Djenné](/history-of/djenne) from the declining Mali Empire. Muslim chroniclers remembered him as a tyrant, and historians still debate how far that picture is fair.
 
 ## Background
 

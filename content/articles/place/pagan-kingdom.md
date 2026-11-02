@@ -5,11 +5,11 @@ sources:
   - Borders of Time maps, built on historical-basemaps | https://github.com/aourednik/historical-basemaps
 written: 2026-10-22
 ---
-The Pagan Kingdom was the first state to unify the Irrawaddy valley, the heartland of what is now Myanmar. From the mid-ninth century to the late thirteenth, its kings ruled from Pagan, today usually spelled Bagan, on the banks of the Irrawaddy, where they and their subjects built more than ten thousand Buddhist temples, pagodas and monasteries, over two thousand of which survive.
+The Pagan Kingdom was the first state to unify the Irrawaddy valley, the heartland of what is now Myanmar. From the mid-ninth century to the late thirteenth, its kings ruled from Pagan, today usually spelled [Bagan](/site/bagan), on the banks of the Irrawaddy, where they and their subjects built more than ten thousand Buddhist temples, pagodas and monasteries, over two thousand of which survive.
 
 ## The Pyu and the Mon
 
-Before Pagan, the Irrawaddy valley was home to the Pyu city-states, such as Sri Ksetra and Halin, which flourished from the first centuries CE and adopted Buddhism, and the Mon kingdoms of the south, such as Thaton. In 832 the Nanzhao kingdom of Yunnan sacked the Pyu cities. Burmese-speaking people, the Bamar, who had migrated from the north, settled in the central dry zone, and founded Pagan, traditionally in 849.
+Before Pagan, the Irrawaddy valley was home to the [Pyu city-states](/place/pyu-city-states), such as Sri Ksetra and Halin, which flourished from the first centuries CE and adopted Buddhism, and the Mon kingdoms of the south, such as Thaton. In 832 the Nanzhao kingdom of Yunnan sacked the Pyu cities. Burmese-speaking people, the Bamar, who had migrated from the north, settled in the central dry zone, and founded Pagan, traditionally in 849.
 
 ## Anawrahta
 

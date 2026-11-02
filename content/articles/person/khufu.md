@@ -24,7 +24,7 @@ Who ordered the nearby Great Sphinx is still disputed; Khufu and his sons Djedef
 
 ## Evidence from his reign
 
-Papyri found in 2013 at Wadi al-Jarf, a Red Sea harbour, include the logbook of an official named Merer, which records boats carrying limestone from the Tura quarries to the pyramid site. They are the oldest inscribed papyri yet found in Egypt. Inscriptions show expeditions to the Sinai for copper and turquoise, and Khufu probably traded with Byblos for cedar. Strikingly, the only nearly complete statue of him is a small ivory figurine, found at Abydos in 1903; some scholars think even this is a much later copy.
+Papyri found in 2013 at Wadi al-Jarf, a Red Sea harbour, include the logbook of an official named Merer, which records boats carrying limestone from the Tura quarries to the pyramid site. They are the oldest inscribed papyri yet found in Egypt. Inscriptions show expeditions to the Sinai for copper and turquoise, and Khufu probably traded with [Byblos](/history-of/byblos) for cedar. Strikingly, the only nearly complete statue of him is a small ivory figurine, found at Abydos in 1903; some scholars think even this is a much later copy.
 
 ## A divided reputation
 

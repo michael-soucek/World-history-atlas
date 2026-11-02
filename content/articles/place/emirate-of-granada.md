@@ -5,7 +5,7 @@ sources:
   - Borders of Time maps, built on historical-basemaps | https://github.com/aourednik/historical-basemaps
 written: 2026-10-22
 ---
-The Emirate of Granada was the last Muslim state in western Europe. For about two and a half centuries, from 1238 to 1492, the Nasrid dynasty ruled a small mountainous kingdom in southern Spain, while the Christian kingdoms took the rest of the Iberian peninsula. Its greatest legacy is the Alhambra.
+The Emirate of Granada was the last Muslim state in western Europe. For about two and a half centuries, from 1238 to 1492, the Nasrid dynasty ruled a small mountainous kingdom in southern Spain, while the Christian kingdoms took the rest of the Iberian peninsula. Its greatest legacy is the [Alhambra](/site/alhambra).
 
 ## Founding
 

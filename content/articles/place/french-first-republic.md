@@ -3,8 +3,6 @@ sources:
   - Wikipedia: French First Republic | https://en.wikipedia.org/wiki/French_First_Republic
   - Wikidata: French First Republic (Q58296) | https://www.wikidata.org/wiki/Q58296
   - Borders of Time maps, built on historical-basemaps | https://github.com/aourednik/historical-basemaps
-title: French First Republic Map (1792–1804): Terror to Napoleon
-description: France from the end of the monarchy in 1792 to Napoleon's empire in 1804: the Terror, the levée en masse, the Directory and its borders on our map.
 written: 2026-10-22
 ---
 The French First Republic was declared in September 1792, three years into the French Revolution, when the new National Convention abolished the monarchy. It lasted until Napoleon proclaimed himself emperor in 1804, and in those twelve years France went through revolutionary terror, a series of different constitutions, and wars against most of Europe.

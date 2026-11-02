@@ -16,7 +16,7 @@ Islam spread along the coast from the eighth century, through trade and intermar
 
 ## City-states
 
-Swahili towns, such as Kilwa, Mombasa, Malindi, Mogadishu, Lamu, Pate and Zanzibar, were independent city-states, ruled by sultans and merchant elites. They built houses, palaces and mosques of coral stone and lime. Kilwa Kisiwani, on an island in today's Tanzania, became the richest, controlling the gold trade from Great Zimbabwe through the port of Sofala; its Great Mosque and the palace of Husuni Kubwa, from the fourteenth century, are impressive ruins. Kilwa minted its own copper coins. The traveller Ibn Battuta, who visited in 1331, called Kilwa one of the most beautiful and well-built towns in the world.
+Swahili towns, such as Kilwa, Mombasa, Malindi, Mogadishu, Lamu, Pate and Zanzibar, were independent city-states, ruled by sultans and merchant elites. They built houses, palaces and mosques of coral stone and lime. [Kilwa Kisiwani](/site/kilwa-kisiwani), on an island in today's Tanzania, became the richest, controlling the gold trade from [Great Zimbabwe](/site/great-zimbabwe) through the port of Sofala; its Great Mosque and the palace of Husuni Kubwa, from the fourteenth century, are impressive ruins. Kilwa minted its own copper coins. The traveller Ibn Battuta, who visited in 1331, called Kilwa one of the most beautiful and well-built towns in the world.
 
 ## Trade
 

@@ -5,7 +5,7 @@ sources:
   - Borders of Time maps, built on historical-basemaps | https://github.com/aourednik/historical-basemaps
 written: 2026-10-22
 ---
-Silla was one of the Three Kingdoms of Korea and the one that eventually unified most of the peninsula. Traditionally founded in 57 BCE in the south-east, around its capital at Gyeongju, it lasted almost a thousand years, until 935 CE, one of the longest-lived dynasties in world history.
+Silla was one of the Three Kingdoms of Korea and the one that eventually unified most of the peninsula. Traditionally founded in 57 BCE in the south-east, around its capital at [Gyeongju](/history-of/gyeongju), it lasted almost a thousand years, until 935 CE, one of the longest-lived dynasties in world history.
 
 ## Origins
 

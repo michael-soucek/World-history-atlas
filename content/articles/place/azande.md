@@ -29,4 +29,4 @@ Ethnologue estimates about 730,000 Zande speakers in the DR Congo, 350,000 in So
 
 ## On our maps
 
-Our 900 map draws a band labelled "Azandes" across central Africa, beside the [Beja](/place/beja-people), Aksum and the Nubian kingdoms. The Azande did not form as a people until the eighteenth century, so the outline is anachronistic and approximate; it marks a broad region rather than a people of that era.
+Our 900 map draws a band labelled "Azandes" across central Africa, beside the [Beja](/place/beja-people), [Aksum](/history-of/aksum) and the Nubian kingdoms. The Azande did not form as a people until the eighteenth century, so the outline is anachronistic and approximate; it marks a broad region rather than a people of that era.

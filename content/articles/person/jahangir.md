@@ -13,7 +13,7 @@ Jahangir, born Prince Salim, was the fourth Mughal emperor, ruling northern Indi
 
 ## The awaited heir
 
-Salim was born at Fatehpur Sikri on 31 August 1569, the son of [Akbar](/person/akbar) and his Rajput wife Mariam-uz-Zamani. Two earlier sons had died as infants, and he was named after the Sufi saint Salim Chishti, whose prayers his father credited for the birth. He was taught Persian, Hindustani and the ancestral Chagatai Turkic, along with history, the sciences and warfare. In 1594 he led an army against the Bundela chief Vir Singh Deo of Orchha, who submitted and became his ally.
+Salim was born at [Fatehpur Sikri](/site/fatehpur-sikri) on 31 August 1569, the son of [Akbar](/person/akbar) and his Rajput wife Mariam-uz-Zamani. Two earlier sons had died as infants, and he was named after the Sufi saint Salim Chishti, whose prayers his father credited for the birth. He was taught Persian, Hindustani and the ancestral Chagatai Turkic, along with history, the sciences and warfare. In 1594 he led an army against the Bundela chief Vir Singh Deo of Orchha, who submitted and became his ally.
 
 ## Rebel prince
 
@@ -21,7 +21,7 @@ Impatient for power, Salim proclaimed himself emperor at Allahabad in 1599 while
 
 ## A troubled reign
 
-Within months his own eldest son, Khusrau, rebelled. Jahangir defeated him, had his followers tortured and impaled before his eyes, and later had him blinded. The Sikh Guru Arjan, accused of aiding Khusrau, was executed on Jahangir's orders in 1606. In 1611 Jahangir married Mehr-un-Nissa, the widow of a Persian officer, who as Nur Jahan became the real power at court, placing her relatives in high office. The [Mughal Empire](/place/mughal-empire) brought the Rajput house of Mewar to submission, took the fortress of Kangra in 1620 and extended its control in Bengal, but it lost Kandahar to Shah [Abbas the Great](/person/abbas-the-great) of Iran in 1622.
+Within months his own eldest son, Khusrau, rebelled. Jahangir defeated him, had his followers tortured and impaled before his eyes, and later had him blinded. The Sikh Guru Arjan, accused of aiding Khusrau, was executed on Jahangir's orders in 1606. In 1611 Jahangir married Mehr-un-Nissa, the widow of a Persian officer, who as Nur Jahan became the real power at court, placing her relatives in high office. The [Mughal Empire](/place/mughal-empire) brought the Rajput house of Mewar to submission, took the fortress of Kangra in 1620 and extended its control in Bengal, but it lost [Kandahar](/history-of/kandahar) to Shah [Abbas the Great](/person/abbas-the-great) of Iran in 1622.
 
 ## Europeans at court
 

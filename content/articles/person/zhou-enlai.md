@@ -31,7 +31,7 @@ On the founding of the People's Republic, Zhou became both premier and foreign m
 
 ## The Cultural Revolution
 
-When Mao launched the Cultural Revolution in 1966, Zhou kept the government and economy running. He shielded some officials, intellectuals and cultural sites, including the Forbidden City, from the Red Guards, but he also publicly endorsed the attacks on Liu Shaoqi and others and could not save many of those close to him.
+When Mao launched the Cultural Revolution in 1966, Zhou kept the government and economy running. He shielded some officials, intellectuals and cultural sites, including the [Forbidden City](/site/forbidden-city), from the Red Guards, but he also publicly endorsed the attacks on Liu Shaoqi and others and could not save many of those close to him.
 
 ## Death and memory
 

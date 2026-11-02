@@ -35,7 +35,7 @@ Alp Arslan was above all a soldier. The running of the empire lay largely with N
 
 ## Death
 
-In 1072 Alp Arslan led a great army against the Kara-Khanids beyond the Oxus. According to the chronicles, the commander of a captured fortress, Yusuf al-Khwarazmi, was brought before him and, condemned to death, lunged at the sultan with a dagger. Alp Arslan died of his wound on 24 November 1072, aged 43, and was buried at Merv. His son Malik-Shah, then 18, succeeded him and took the Seljuk empire to its peak.
+In 1072 Alp Arslan led a great army against the Kara-Khanids beyond the Oxus. According to the chronicles, the commander of a captured fortress, Yusuf al-Khwarazmi, was brought before him and, condemned to death, lunged at the sultan with a dagger. Alp Arslan died of his wound on 24 November 1072, aged 43, and was buried at [Merv](/history-of/merv). His son Malik-Shah, then 18, succeeded him and took the Seljuk empire to its peak.
 
 ## On our maps
 

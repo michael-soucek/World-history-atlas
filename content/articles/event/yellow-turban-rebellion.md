@@ -16,7 +16,7 @@ The rebellion grew out of a Taoist sect called the Way of Supreme Peace, led by 
 
 ## The rising of 184
 
-Zhang Jue planned a coordinated uprising across the empire, but shortly before it was due one of his followers betrayed the plot. His agent Ma Yuanyi was executed in the capital, Luoyang, and hundreds of suspected sympathisers were arrested and killed. Forced to act early, Zhang Jue proclaimed the revolt in March 184. Perhaps 360,000 rebels attacked government offices and seized whole commanderies. The main centres were in the north around Zhang Jue's home region, in the area of present-day Beijing, and in what is now Henan.
+Zhang Jue planned a coordinated uprising across the empire, but shortly before it was due one of his followers betrayed the plot. His agent Ma Yuanyi was executed in the capital, [Luoyang](/history-of/luoyang), and hundreds of suspected sympathisers were arrested and killed. Forced to act early, Zhang Jue proclaimed the revolt in March 184. Perhaps 360,000 rebels attacked government offices and seized whole commanderies. The main centres were in the north around Zhang Jue's home region, in the area of present-day Beijing, and in what is now Henan.
 
 ## Suppression
 

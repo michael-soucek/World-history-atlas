@@ -21,7 +21,7 @@ Socrates was born around 470 BCE in Athens, the son of Sophroniscus, a stonemaso
 
 ## The wisest man
 
-According to Plato's Apology, Socrates's friend Chaerephon asked the oracle of Delphi whether anyone was wiser than Socrates, and the oracle answered no. Socrates, who believed he knew nothing, set out to find someone wiser. He questioned politicians, poets and craftsmen, and found that they thought they knew things they did not. He concluded that he was wiser only because he knew that he did not know.
+According to Plato's Apology, Socrates's friend Chaerephon asked the oracle of [Delphi](/site/delphi) whether anyone was wiser than Socrates, and the oracle answered no. Socrates, who believed he knew nothing, set out to find someone wiser. He questioned politicians, poets and craftsmen, and found that they thought they knew things they did not. He concluded that he was wiser only because he knew that he did not know.
 
 ## The Socratic method
 

@@ -28,7 +28,7 @@ As Bantu speakers spread, they met other peoples, such as Pygmy hunter-gatherers
 
 ## Legacy
 
-The Bantu expansion shaped the linguistic and cultural map of sub-Saharan Africa. Later Bantu-speaking societies built states such as Kongo, Great Zimbabwe, Mapungubwe, Buganda and Mutapa, and the Swahili city-states of the East African coast, whose language became a lingua franca. Historians debate the details, timing and routes of the expansion, and the old idea of a single mass migration has been replaced by a more complex picture.
+The Bantu expansion shaped the linguistic and cultural map of sub-Saharan Africa. Later Bantu-speaking societies built states such as Kongo, [Great Zimbabwe](/site/great-zimbabwe), Mapungubwe, Buganda and Mutapa, and the Swahili city-states of the East African coast, whose language became a lingua franca. Historians debate the details, timing and routes of the expansion, and the old idea of a single mass migration has been replaced by a more complex picture.
 
 ## On our maps
 

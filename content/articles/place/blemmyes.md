@@ -16,7 +16,7 @@ A possible first mention comes in the late seventh century BCE, on an enthroneme
 
 ## Raiders on Rome's frontier
 
-Their strength grew in the Roman period. In 193 CE Pescennius Niger, contesting the throne with [Septimius Severus](/person/septimius-severus), reportedly asked a Blemmye king for help. Roman forces fought Blemmye invasions of the Thebaid, Upper Egypt, under Decius around 250 and again in 253 and 265, and the Blemmyes are said to have sided with Palmyra in 273. Probus broke a Blemmye occupation of the Thebaid in 279–280. In 298 [Diocletian](/person/diocletian) pulled the frontier back to Philae and agreed to pay the Blemmyes and the Nobatae an annual subsidy in gold.
+Their strength grew in the Roman period. In 193 CE Pescennius Niger, contesting the throne with [Septimius Severus](/person/septimius-severus), reportedly asked a Blemmye king for help. Roman forces fought Blemmye invasions of the Thebaid, Upper Egypt, under Decius around 250 and again in 253 and 265, and the Blemmyes are said to have sided with [Palmyra](/history-of/palmyra) in 273. Probus broke a Blemmye occupation of the Thebaid in 279–280. In 298 [Diocletian](/person/diocletian) pulled the frontier back to Philae and agreed to pay the Blemmyes and the Nobatae an annual subsidy in gold.
 
 ## A kingdom in Lower Nubia
 

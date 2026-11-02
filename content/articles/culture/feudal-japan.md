@@ -12,7 +12,7 @@ In the Heian period, from 794 to 1185, the imperial court in Kyoto, dominated by
 
 ## The Kamakura shogunate
 
-In 1192 Minamoto no Yoritomo was appointed shogun, "barbarian-subduing generalissimo", by the emperor, and established a military government at Kamakura, in eastern Japan. He appointed military governors and stewards in the provinces. After his death, the Hōjō family ruled as regents. In 1274 and 1281, the Mongols under Kublai Khan invaded Japan, but were repelled with the help of typhoons, called kamikaze, "divine wind". New schools of Buddhism, such as Pure Land, Nichiren and Zen, spread.
+In 1192 Minamoto no Yoritomo was appointed shogun, "barbarian-subduing generalissimo", by the emperor, and established a military government at [Kamakura](/history-of/kamakura), in eastern Japan. He appointed military governors and stewards in the provinces. After his death, the Hōjō family ruled as regents. In 1274 and 1281, the Mongols under Kublai Khan invaded Japan, but were repelled with the help of typhoons, called kamikaze, "divine wind". New schools of Buddhism, such as Pure Land, Nichiren and Zen, spread.
 
 ## The Ashikaga shogunate
 

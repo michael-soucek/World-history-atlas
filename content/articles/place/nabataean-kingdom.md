@@ -5,7 +5,7 @@ sources:
   - Borders of Time maps, built on historical-basemaps | https://github.com/aourednik/historical-basemaps
 written: 2026-10-30
 ---
-Built on the profits of the incense caravans, the Nabataean Kingdom was an Arab state whose rock-cut capital, Petra, lay in the deserts of what is now southern Jordan. From around the middle of the third century BCE until Rome absorbed it in 106 CE, its kings held the routes linking southern Arabia with the Mediterranean, and at their height they ruled from the Hejaz to the Hauran.
+Built on the profits of the incense caravans, the Nabataean Kingdom was an Arab state whose rock-cut capital, [Petra](/site/petra), lay in the deserts of what is now southern Jordan. From around the middle of the third century BCE until Rome absorbed it in 106 CE, its kings held the routes linking southern Arabia with the Mediterranean, and at their height they ruled from the Hejaz to the Hauran.
 
 ## Desert origins
 
@@ -25,7 +25,7 @@ Friendly at first with the Maccabees of Judaea, the Nabataeans later clashed wit
 
 ## Client of Rome and annexation
 
-Nabataean quarrels with the Hasmoneans were among the troubles that drew [Pompey](/person/pompey) into Judaea, and in 62 BCE a Roman army under Marcus Aemilius Scaurus besieged Petra, and Aretas III agreed to pay tribute. Nabataea kept its kings but became a client of Rome. When the last king, Rabbel II, died in 106 CE, the emperor [Trajan](/person/trajan) annexed the kingdom, apparently with troops from Syria and Egypt, and made it the province of Arabia Petraea. Trade carried on for a time, but Palmyra later drew the Arabian caravans away from Petra.
+Nabataean quarrels with the Hasmoneans were among the troubles that drew [Pompey](/person/pompey) into Judaea, and in 62 BCE a Roman army under Marcus Aemilius Scaurus besieged Petra, and Aretas III agreed to pay tribute. Nabataea kept its kings but became a client of Rome. When the last king, Rabbel II, died in 106 CE, the emperor [Trajan](/person/trajan) annexed the kingdom, apparently with troops from Syria and Egypt, and made it the province of Arabia Petraea. Trade carried on for a time, but [Palmyra](/history-of/palmyra) later drew the Arabian caravans away from Petra.
 
 ## On our maps
 

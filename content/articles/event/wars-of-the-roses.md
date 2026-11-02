@@ -17,7 +17,7 @@ Fighting began at the First Battle of St Albans in May 1455, where York's forces
 
 ## Warwick and the restoration of Henry VI
 
-Edward's secret marriage to Elizabeth Woodville in 1464 and his foreign policy alienated Warwick, who rebelled in 1469. Allied with Margaret of Anjou, Warwick forced Edward into exile in 1470 and briefly restored Henry VI. Edward returned the following spring with Burgundian help. He defeated and killed Warwick at Barnet in April 1471 and destroyed the Lancastrian army at Tewkesbury in May, where Henry's only son was killed. Henry VI died in the Tower of London shortly afterwards, probably murdered.
+Edward's secret marriage to Elizabeth Woodville in 1464 and his foreign policy alienated Warwick, who rebelled in 1469. Allied with Margaret of Anjou, Warwick forced Edward into exile in 1470 and briefly restored Henry VI. Edward returned the following spring with Burgundian help. He defeated and killed Warwick at Barnet in April 1471 and destroyed the Lancastrian army at Tewkesbury in May, where Henry's only son was killed. Henry VI died in the [Tower of London](/site/tower-of-london) shortly afterwards, probably murdered.
 
 ## Richard III
 

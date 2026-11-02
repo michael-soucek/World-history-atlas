@@ -27,7 +27,7 @@ After clashing with Rome in 282 BCE, the Greek city of Tarentum appealed to him 
 
 ## Sicily
 
-In 278 BCE the Greek cities of Sicily invited him to expel Carthage. He relieved Syracuse, was hailed as king of Sicily and took the Carthaginian stronghold of Eryx, but failed to capture Lilybaeum. His heavy demands for ships and money turned the Sicilians against him. As he left, he is reported to have called the island a wrestling ground he was leaving for Rome and Carthage, as indeed it became. A Carthaginian fleet wrecked most of his ships on the crossing.
+In 278 BCE the Greek cities of Sicily invited him to expel Carthage. He relieved [Syracuse](/history-of/syracuse), was hailed as king of Sicily and took the Carthaginian stronghold of Eryx, but failed to capture Lilybaeum. His heavy demands for ships and money turned the Sicilians against him. As he left, he is reported to have called the island a wrestling ground he was leaving for Rome and Carthage, as indeed it became. A Carthaginian fleet wrecked most of his ships on the crossing.
 
 ## Defeat and death
 

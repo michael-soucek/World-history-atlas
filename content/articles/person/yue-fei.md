@@ -15,7 +15,7 @@ Few figures in Chinese memory stand for loyalty as completely as Yue Fei, a gene
 
 ## A farmer's son
 
-Yue Fei was born on 24 March 1103 in Tangyin, in present-day Henan, into a poor farming family. His given name, Fei, means "to fly"; the official biography says a large bird landed on the roof when he was born. He is said to have learned archery from a teacher called Zhou Tong and to have loved the military classics of Sun Tzu. He joined the army in 1122, left to mourn his father, and returned in 1126, the year the Jin invaded the north. In the [Jingkang incident](/event/jingkang-incident) that followed, the Song capital, Kaifeng, fell in 1127 and the emperor Qinzong was carried into captivity. A new emperor, Gaozong, re-established the dynasty in the south, the start of the Southern Song.
+Yue Fei was born on 24 March 1103 in Tangyin, in present-day Henan, into a poor farming family. His given name, Fei, means "to fly"; the official biography says a large bird landed on the roof when he was born. He is said to have learned archery from a teacher called Zhou Tong and to have loved the military classics of Sun Tzu. He joined the army in 1122, left to mourn his father, and returned in 1126, the year the Jin invaded the north. In the [Jingkang incident](/event/jingkang-incident) that followed, the Song capital, [Kaifeng](/history-of/kaifeng), fell in 1127 and the emperor Qinzong was carried into captivity. A new emperor, Gaozong, re-established the dynasty in the south, the start of the Southern Song.
 
 ## Rise of a commander
 
@@ -23,7 +23,7 @@ Yue Fei fought in the defence of Kaifeng and then in the armies holding the line
 
 ## The campaign of 1140
 
-In 1140 the Jin prince Wuzhu invaded again. Yue Fei marched north from Ezhou and defeated him at Yancheng, near modern Luohe, and again at Yingchang. Accounts of the numbers vary widely: old records speak of 100,000 Jin infantry and 15,000 horsemen, while modern estimates are far smaller. Zhengzhou and Luoyang were retaken, and his army came within about twenty kilometres of Kaifeng. But Gaozong and his chief minister, Qin Hui, wanted peace. Tradition says twelve orders, written on gold plaques, called the general back. He obeyed.
+In 1140 the Jin prince Wuzhu invaded again. Yue Fei marched north from Ezhou and defeated him at Yancheng, near modern Luohe, and again at Yingchang. Accounts of the numbers vary widely: old records speak of 100,000 Jin infantry and 15,000 horsemen, while modern estimates are far smaller. Zhengzhou and [Luoyang](/history-of/luoyang) were retaken, and his army came within about twenty kilometres of Kaifeng. But Gaozong and his chief minister, Qin Hui, wanted peace. Tradition says twelve orders, written on gold plaques, called the general back. He obeyed.
 
 ## Arrest and death
 
@@ -31,7 +31,7 @@ In 1141 Yue Fei was arrested and charged with treason. Asked what crime he had c
 
 ## A national hero
 
-In 1162 the new emperor, Xiaozong, cleared his name, and his remains were reburied beside West Lake in Hangzhou. He later received the posthumous name Wumu and, in 1211, the title King of E. Kneeling iron statues of Qin Hui and his wife were placed before the tomb, and for centuries visitors spat at them. Popular tradition credits Yue Fei with the slogan "serve the country with utmost loyalty" tattooed on his back, with the poem Man Jiang Hong and with several martial arts; historians doubt much of this, and some date the poem to the sixteenth century. He remains a symbol of patriotic sacrifice in [China](/country/china).
+In 1162 the new emperor, Xiaozong, cleared his name, and his remains were reburied beside West Lake in [Hangzhou](/history-of/hangzhou). He later received the posthumous name Wumu and, in 1211, the title King of E. Kneeling iron statues of Qin Hui and his wife were placed before the tomb, and for centuries visitors spat at them. Popular tradition credits Yue Fei with the slogan "serve the country with utmost loyalty" tattooed on his back, with the poem Man Jiang Hong and with several martial arts; historians doubt much of this, and some date the poem to the sixteenth century. He remains a symbol of patriotic sacrifice in [China](/country/china).
 
 ## On our maps
 

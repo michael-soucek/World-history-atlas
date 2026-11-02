@@ -5,7 +5,7 @@ sources:
   - Livius: Fall of Nineveh Chronicle (ABC 3) | https://www.livius.org/sources/content/mesopotamian-chronicles-content/abc-3-fall-of-nineveh-chronicle/
 written: 2026-10-30
 ---
-In the summer of 612 BC a coalition of Babylonians and Medes besieged and sacked Nineveh, the capital of the Neo-Assyrian Empire, on the Tigris opposite modern Mosul. The Assyrian king Sinsharishkun died in the fighting. Within a few years the empire that had dominated the Near East for centuries was gone, and Babylon, rather than an Assyrian city, became the centre of Mesopotamian power.
+In the summer of 612 BC a coalition of Babylonians and Medes besieged and sacked [Nineveh](/history-of/nineveh), the capital of the Neo-Assyrian Empire, on the Tigris opposite modern Mosul. The Assyrian king Sinsharishkun died in the fighting. Within a few years the empire that had dominated the Near East for centuries was gone, and Babylon, rather than an Assyrian city, became the centre of Mesopotamian power.
 
 ## An empire in trouble
 
@@ -13,7 +13,7 @@ At its height under Ashurbanipal, [Assyria](/place/assyria) ruled or took tribut
 
 ## The war with Babylon
 
-In southern Mesopotamia, Nabopolassar built a new Babylonian kingdom whose aim was to overthrow Assyria and move the seat of power to Babylon. A Babylonian tablet now known as the Fall of Nineveh Chronicle describes years of fighting. In 616 BC, Nabopolassar's tenth year, his army marched along the Euphrates and defeated the Assyrians. The next year an attack on Assur failed, and the Assyrians chased the Babylonians back to the fortress of Takritain on the Tigris, but after ten days of fighting they were beaten and went home.
+In southern Mesopotamia, Nabopolassar built a new Babylonian kingdom whose aim was to overthrow Assyria and move the seat of power to Babylon. A Babylonian tablet now known as the Fall of Nineveh Chronicle describes years of fighting. In 616 BC, Nabopolassar's tenth year, his army marched along the Euphrates and defeated the Assyrians. The next year an attack on [Assur](/history-of/assur) failed, and the Assyrians chased the Babylonians back to the fortress of Takritain on the Tigris, but after ten days of fighting they were beaten and went home.
 
 The Babylonians then found allies in the Medes, ruled by Cyaxares, and in the [Scythians](/place/scythians). In 614 BC the Medes captured and sacked the ancient city of Assur before the Babylonian army could arrive, and Nabopolassar and Cyaxares sealed their alliance beside its ruins.
 

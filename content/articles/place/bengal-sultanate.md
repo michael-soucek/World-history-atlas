@@ -16,7 +16,7 @@ Delhi tried to reclaim Bengal. Sultan Firuz Shah Tughluq besieged Ilyas Shah at 
 
 ## The Ilyas Shahi and Ganesha dynasties
 
-Under Sikandar Shah the huge Adina Mosque was built at Pandua. His successor Ghiyasuddin Azam Shah sent embassies to Ming China and corresponded with the Persian poet Hafez. In the early fifteenth century a powerful Hindu landholder, Raja Ganesha, gained control, and his son, a convert to Islam, reigned as Jalaluddin Muhammad Shah. He gave Bengali traditions a larger place in court architecture and government. The Ilyas Shahi line returned to the throne in the 1430s, and in 1450 the capital moved to Gaur. In the late 1480s a series of Abyssinian commanders from the palace guard seized power.
+Under Sikandar Shah the huge Adina Mosque was built at Pandua. His successor Ghiyasuddin Azam Shah sent embassies to Ming China and corresponded with the Persian poet [Hafez](/person/hafez). In the early fifteenth century a powerful Hindu landholder, Raja Ganesha, gained control, and his son, a convert to Islam, reigned as Jalaluddin Muhammad Shah. He gave Bengali traditions a larger place in court architecture and government. The Ilyas Shahi line returned to the throne in the 1430s, and in 1450 the capital moved to Gaur. In the late 1480s a series of Abyssinian commanders from the palace guard seized power.
 
 ## The Hussain Shahi era
 

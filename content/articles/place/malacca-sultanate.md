@@ -17,7 +17,7 @@ Malacca's rise owed much to the [Ming dynasty](/place/ming-dynasty). A Chinese e
 
 ## The golden age
 
-Ayutthaya attacked by land in 1446 and by sea in 1456, and both times Malacca prevailed, largely thanks to the Bendahara, or chief minister, Tun Perak. Muzaffar Shah's reign brought land from the Dindings to Johor under Malaccan rule, and Mansur Shah, from 1459 to 1477, conquered Pahang and won Siak, Kampar and other Sumatran territories. By about 1500 the sultanate was at its height: Mahmud Shah rejected the overlordship of both Ayutthaya and Majapahit, and as late as 1506 his forces took Kelantan.
+[Ayutthaya](/history-of/ayutthaya) attacked by land in 1446 and by sea in 1456, and both times Malacca prevailed, largely thanks to the Bendahara, or chief minister, Tun Perak. Muzaffar Shah's reign brought land from the Dindings to Johor under Malaccan rule, and Mansur Shah, from 1459 to 1477, conquered Pahang and won Siak, Kampar and other Sumatran territories. By about 1500 the sultanate was at its height: Mahmud Shah rejected the overlordship of both Ayutthaya and Majapahit, and as late as 1506 his forces took Kelantan.
 
 ## Government and trade
 

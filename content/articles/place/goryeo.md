@@ -9,7 +9,7 @@ Goryeo ruled Korea for almost five centuries, from 918 to 1392, and gave the cou
 
 ## Unification
 
-As the kingdom of Silla declined in the late ninth century, rebels founded rival states: Later Baekje in the south-west, led by Gyeon Hwon, and Taebong, or Later Goguryeo, in the north, led by Gung Ye. In 918 Gung Ye's generals overthrew him and made Wang Geon king. Wang Geon, from a merchant family of Songak, now Kaesong, named his state Goryeo, after the ancient kingdom of Goguryeo, and made Kaesong his capital. Silla surrendered peacefully in 935, and Wang Geon defeated Later Baekje in 936. He welcomed refugees from Balhae, the northern kingdom destroyed by the Khitans, and married women from many powerful families to bind them to him.
+As the kingdom of Silla declined in the late ninth century, rebels founded rival states: Later Baekje in the south-west, led by Gyeon Hwon, and Taebong, or Later Goguryeo, in the north, led by Gung Ye. In 918 Gung Ye's generals overthrew him and made Wang Geon king. Wang Geon, from a merchant family of Songak, now Kaesong, named his state Goryeo, after the ancient kingdom of Goguryeo, and made Kaesong his capital. Silla surrendered peacefully in 935, and Wang Geon defeated Later Baekje in 936. He welcomed refugees from [Balhae](/place/balhae), the northern kingdom destroyed by the Khitans, and married women from many powerful families to bind them to him.
 
 ## Government
 

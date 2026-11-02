@@ -25,7 +25,7 @@ Hadhramaut was a monarchy. Among its officials was the kabir, an elder who could
 
 ## Decline and end
 
-When Mediterranean merchants began sailing straight to South Asia by way of the Red Sea late in the Hellenistic period, power shifted towards the highland tribes and away from the desert-edge kingdoms. Hadhramaut adapted by founding its ports at Qani and Sumhuram. In the late first or second century CE it and [Himyar](/place/himyarite-kingdom) divided Qataban between them. Around 220 CE King Ilʿazz Yalit II received envoys from Palmyra, Chaldaea and South Asia at a royal hunt. Around 290 CE the Himyarite king Shammar Yuharʿish annexed Hadhramaut; an inscription of 299 calls him king of Saba, Dhu-Raydan, Hadhramaut and Yamanat.
+When Mediterranean merchants began sailing straight to South Asia by way of the Red Sea late in the Hellenistic period, power shifted towards the highland tribes and away from the desert-edge kingdoms. Hadhramaut adapted by founding its ports at Qani and Sumhuram. In the late first or second century CE it and [Himyar](/place/himyarite-kingdom) divided Qataban between them. Around 220 CE King Ilʿazz Yalit II received envoys from [Palmyra](/history-of/palmyra), Chaldaea and South Asia at a royal hunt. Around 290 CE the Himyarite king Shammar Yuharʿish annexed Hadhramaut; an inscription of 299 calls him king of Saba, Dhu-Raydan, Hadhramaut and Yamanat.
 
 ## Legacy
 

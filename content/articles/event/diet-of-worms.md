@@ -12,7 +12,7 @@ Luther had come to the notice of church authorities after his [Ninety-five These
 
 ## Before the Emperor
 
-Luther reached Worms on 16 April 1521. The next afternoon he was brought before the assembly in the bishop's palace, where Johann von Eck, an official of the Archbishop of Trier, spoke for the Emperor. A pile of about 25 books was laid out, and Luther was asked two questions: were they his, and would he retract what they contained? His lawyer, the Wittenberg canon lawyer Jerome Schurff, asked for the titles to be read aloud. Luther asked for time to consider a proper reply and was given until the following afternoon.
+Luther reached Worms on 16 April 1521. The next afternoon he was brought before the assembly in the bishop's palace, where Johann von Eck, an official of the Archbishop of [Trier](/history-of/trier), spoke for the Emperor. A pile of about 25 books was laid out, and Luther was asked two questions: were they his, and would he retract what they contained? His lawyer, the Wittenberg canon lawyer Jerome Schurff, asked for the titles to be read aloud. Luther asked for time to consider a proper reply and was given until the following afternoon.
 
 ## Here I stand
 

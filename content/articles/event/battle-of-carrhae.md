@@ -24,7 +24,7 @@ Crassus sent Publius with about 1,300 Gallic horsemen, 500 archers and eight coh
 
 ## The death of Crassus
 
-Surena offered a truce. Crassus was reluctant to meet him but went when his soldiers threatened mutiny, and he and his officers were killed in a scuffle at the meeting. Plutarch puts Roman losses at about 20,000 killed and 10,000 captured; Parthian losses were small. Gaius Cassius Longinus led roughly 10,000 survivors back to Syria. The Parthians captured several legionary eagles, and the prisoners are said to have been deported to Merv, on the empire's north-eastern frontier.
+Surena offered a truce. Crassus was reluctant to meet him but went when his soldiers threatened mutiny, and he and his officers were killed in a scuffle at the meeting. Plutarch puts Roman losses at about 20,000 killed and 10,000 captured; Parthian losses were small. Gaius Cassius Longinus led roughly 10,000 survivors back to Syria. The Parthians captured several legionary eagles, and the prisoners are said to have been deported to [Merv](/history-of/merv), on the empire's north-eastern frontier.
 
 ## Consequences
 

@@ -30,7 +30,7 @@ Josephus gives a figure of 1.1 million deaths during the siege and 97,000 captiv
 
 ## Aftermath
 
-Titus and Vespasian celebrated a triumph in Rome in 71 CE, and the Arch of Titus, completed later, still shows Roman soldiers carrying the Temple's menorah. Treasure from Jerusalem helped fund building in Rome, including, it is thought, the Colosseum. Resistance continued at a few strongholds, ending with the fall of Masada in 73 or 74 CE. Jews across the [Roman Empire](/place/roman-empire) were required to pay a special tax in place of the former Temple tax.
+Titus and Vespasian celebrated a triumph in Rome in 71 CE, and the Arch of Titus, completed later, still shows Roman soldiers carrying the Temple's menorah. Treasure from Jerusalem helped fund building in Rome, including, it is thought, the [Colosseum](/site/colosseum). Resistance continued at a few strongholds, ending with the fall of [Masada](/site/masada) in 73 or 74 CE. Jews across the [Roman Empire](/place/roman-empire) were required to pay a special tax in place of the former Temple tax.
 
 Without the Temple and its sacrifices, Jewish religious life came to centre on prayer, study and the synagogue, led by rabbis. The destruction is still mourned on the fast of Tisha B'Av. Titus himself became emperor in 79 CE, the year of the [eruption of Vesuvius](/event/eruption-of-vesuvius).
 

@@ -22,7 +22,7 @@ Excavated burial mounds suggest that they were raised for people of high status.
 
 ## Pottery and daily life
 
-Marksville potters used local clay but decorated their best vessels in styles very close to Hopewell pottery from Illinois and Ohio, which suggests that contacts were wider than once supposed. Typical decorated pots were small, often incised with geometric patterns or stylised birds, and were probably made for ceremonies, while plainer wares served daily needs. Marksville styles influenced Santa Rosa pottery, a hallmark of the Santa Rosa–Swift Creek culture, which flourished at the same time further east along the Gulf Coast. Food was gained much as in earlier times, through fishing, hunting and gathering.
+Marksville potters used local clay but decorated their best vessels in styles very close to Hopewell pottery from Illinois and Ohio, which suggests that contacts were wider than once supposed. Typical decorated pots were small, often incised with geometric patterns or stylised birds, and were probably made for ceremonies, while plainer wares served daily needs. Marksville styles influenced Santa Rosa pottery, a hallmark of the Santa Rosa–[Swift Creek culture](/place/swift-creek-culture), which flourished at the same time further east along the Gulf Coast. Food was gained much as in earlier times, through fishing, hunting and gathering.
 
 ## Before and after
 

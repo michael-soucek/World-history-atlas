@@ -33,7 +33,7 @@ When war resumed in 1803, Nelson took command in the Mediterranean aboard the Vi
 
 ## Legacy
 
-His body, preserved in spirits, was brought home, and after a state funeral on 9 January 1806 he was buried in St Paul's Cathedral. His reputation has been questioned: he privately defended West Indian slavery and opposed William Wilberforce's abolition campaign, and in former colonies his monuments have been contested: Irish republicans blew up Nelson's Pillar in Dublin in 1966, and his statue in Bridgetown, Barbados, was removed in 2020.
+His body, preserved in spirits, was brought home, and after a state funeral on 9 January 1806 he was buried in St Paul's Cathedral. His reputation has been questioned: he privately defended West Indian slavery and opposed [William Wilberforce](/person/william-wilberforce)'s abolition campaign, and in former colonies his monuments have been contested: Irish republicans blew up Nelson's Pillar in Dublin in 1966, and his statue in Bridgetown, Barbados, was removed in 2020.
 
 ## On our maps
 

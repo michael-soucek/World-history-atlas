@@ -10,7 +10,7 @@ sources:
   - World History Encyclopedia: Tutankhamun | https://www.worldhistory.org/Tutankhamun/
 written: 2026-10-25
 ---
-Tutankhamun was a pharaoh of Egypt's Eighteenth Dynasty who came to the throne as a child around 1332 BCE and died about nine years later, aged roughly nineteen. In his own time he was a minor king whose main achievement was undoing the religious revolution of [Akhenaten](/person/akhenaten). He is famous today almost entirely because his tomb in the Valley of the Kings, found in 1922, was the only royal burial of the period to survive largely intact.
+Tutankhamun was a pharaoh of Egypt's Eighteenth Dynasty who came to the throne as a child around 1332 BCE and died about nine years later, aged roughly nineteen. In his own time he was a minor king whose main achievement was undoing the religious revolution of [Akhenaten](/person/akhenaten). He is famous today almost entirely because his tomb in the [Valley of the Kings](/site/valley-of-the-kings), found in 1922, was the only royal burial of the period to survive largely intact.
 
 ## Birth and family
 
@@ -22,7 +22,7 @@ DNA studies published in 2010 identified his father as the man buried in tomb KV
 
 Tutankhaten became king at about eight or nine years old, after the brief and confused reigns that followed Akhenaten's death. He married Ankhesenpaaten, a daughter of Akhenaten and Nefertiti and probably his half-sister. Within a few years both changed their names, he to Tutankhamun, "living image of Amun", and she to Ankhesenamun, a clear signal that the old god of Thebes was back in favour.
 
-A young child could not govern, and real power lay with senior officials, above all Ay, an elderly courtier with the title God's Father, and Horemheb, commander of the army. Under their direction the court left Akhenaten's new capital at Amarna and returned to Memphis, and the traditional cults were revived. The Restoration Stela, set up at Karnak, describes temples that had fallen into ruin and gods who had turned away from Egypt, and records the king's gifts of new statues, priests and income. Whether the young king had any personal say in this policy is unknown.
+A young child could not govern, and real power lay with senior officials, above all Ay, an elderly courtier with the title God's Father, and Horemheb, commander of the army. Under their direction the court left Akhenaten's new capital at Amarna and returned to Memphis, and the traditional cults were revived. The Restoration Stela, set up at [Karnak](/site/karnak), describes temples that had fallen into ruin and gods who had turned away from Egypt, and records the king's gifts of new statues, priests and income. Whether the young king had any personal say in this policy is unknown.
 
 Egypt's foreign affairs continued under his name. Scenes from the period show campaigns in Nubia, the region of the later [Kingdom of Kush](/place/kingdom-of-kush), and in the Near East, though it is unclear whether the king took part himself. Building work resumed at Thebes and elsewhere, and he began a royal tomb and a mortuary temple, neither of which was finished.
 

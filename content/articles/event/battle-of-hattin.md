@@ -20,7 +20,7 @@ On 2 July Saladin attacked Tiberias, a town belonging to Raymond, whose wife hel
 
 ## The battle
 
-During the night the Muslim troops set the dry grass alight. On 4 July the exhausted and thirsty crusaders tried to push through to water under clouds of smoke and showers of arrows. Raymond charged and broke out to the lake, escaping to Tyre. Much of the infantry fled up the twin hill known as the Horns of Hattin and took no further part. The knights fought on around the king's tent but were finally overwhelmed. The True Cross was captured.
+During the night the Muslim troops set the dry grass alight. On 4 July the exhausted and thirsty crusaders tried to push through to water under clouds of smoke and showers of arrows. Raymond charged and broke out to the lake, escaping to [Tyre](/history-of/tyre). Much of the infantry fled up the twin hill known as the Horns of Hattin and took no further part. The knights fought on around the king's tent but were finally overwhelmed. The True Cross was captured.
 
 ## The prisoners
 
@@ -28,7 +28,7 @@ Guy, Raynald, Gerard and many barons were taken. In Saladin's tent, Raynald was 
 
 ## The fall of the kingdom
 
-With its garrisons stripped to raise the army, the kingdom had almost no defence left. Tiberias surrendered the next day, and by mid-September Saladin held Acre, Nablus, Jaffa, Sidon, Beirut and Ascalon, among over fifty places. Tyre held out under Conrad of Montferrat. Jerusalem, defended by Queen Sibylla, the patriarch Heraclius and the nobleman Balian, surrendered on 2 October 1187. Pope Gregory VIII called for a new expedition, and the Third Crusade, which got under way in 1189, restored many Christian holdings. Even so, the crusader states stayed vulnerable for decades, and the defeat at La Forbie in 1244 is often seen as the final collapse of their military power in the age of the [crusades](/event/crusades).
+With its garrisons stripped to raise the army, the kingdom had almost no defence left. Tiberias surrendered the next day, and by mid-September Saladin held Acre, Nablus, Jaffa, [Sidon](/history-of/sidon), Beirut and Ascalon, among over fifty places. Tyre held out under Conrad of Montferrat. Jerusalem, defended by Queen Sibylla, the patriarch Heraclius and the nobleman Balian, surrendered on 2 October 1187. Pope Gregory VIII called for a new expedition, and the Third Crusade, which got under way in 1189, restored many Christian holdings. Even so, the crusader states stayed vulnerable for decades, and the defeat at La Forbie in 1244 is often seen as the final collapse of their military power in the age of the [crusades](/event/crusades).
 
 ## On our maps
 

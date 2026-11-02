@@ -4,11 +4,11 @@ sources:
   - Wikidata: Battle of Gaugamela (Q179670) | https://www.wikidata.org/wiki/Q179670
 written: 2026-10-30
 ---
-The Battle of Gaugamela, also called the Battle of Arbela, was fought on 1 October 331 BCE on the plains of northern Mesopotamia, near modern Erbil in [Iraq](/country/iraq). [Alexander the Great](/person/alexander-the-great) defeated the Persian king Darius III for the second and last time. The battle broke the military power of the Achaemenid Empire and opened its heartland, with the great royal cities of Babylon, Susa and Persepolis, to Macedonian conquest.
+The Battle of Gaugamela, also called the Battle of Arbela, was fought on 1 October 331 BCE on the plains of northern Mesopotamia, near modern Erbil in [Iraq](/country/iraq). [Alexander the Great](/person/alexander-the-great) defeated the Persian king Darius III for the second and last time. The battle broke the military power of the Achaemenid Empire and opened its heartland, with the great royal cities of Babylon, [Susa](/history-of/susa) and [Persepolis](/site/persepolis), to Macedonian conquest.
 
 ## The road to Gaugamela
 
-Alexander had begun his [campaign against Persia](/event/wars-of-alexander-the-great) by crossing into Asia in 334 BCE and beating Persian forces at the Granicus River. In 333 BCE he defeated Darius himself at Issus, capturing the king's family. He then spent nearly two years taking the coast of the Levant, including a long siege of Tyre, and entering Egypt. Darius used the time to raise a new army from the eastern provinces of his empire. He reportedly offered Alexander large concessions of territory in exchange for peace, which Alexander refused. In 331 BCE Alexander marched east, crossed the Euphrates and the Tigris, and found the Persian army waiting for him.
+Alexander had begun his [campaign against Persia](/event/wars-of-alexander-the-great) by crossing into Asia in 334 BCE and beating Persian forces at the Granicus River. In 333 BCE he defeated Darius himself at Issus, capturing the king's family. He then spent nearly two years taking the coast of the Levant, including a long siege of [Tyre](/history-of/tyre), and entering Egypt. Darius used the time to raise a new army from the eastern provinces of his empire. He reportedly offered Alexander large concessions of territory in exchange for peace, which Alexander refused. In 331 BCE Alexander marched east, crossed the Euphrates and the Tigris, and found the Persian army waiting for him.
 
 ## The armies
 

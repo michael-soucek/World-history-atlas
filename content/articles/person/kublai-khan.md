@@ -21,7 +21,7 @@ When Möngke died in 1259 while campaigning in China, Kublai and his younger bro
 
 ## The Yuan dynasty
 
-In 1271 Kublai proclaimed the Yuan dynasty, taking a Chinese dynastic name, and began building a new capital, Dadu, called Khanbaliq, on the site of today's Beijing. He conquered the Southern Song dynasty after a long war, taking the great city of Xiangyang in 1273, after a five-year siege, using counterweight trebuchets built by Persian engineers, and the capital Hangzhou in 1276. In 1279 the last Song loyalists were defeated at sea, and all of China was united under Mongol rule.
+In 1271 Kublai proclaimed the Yuan dynasty, taking a Chinese dynastic name, and began building a new capital, Dadu, called Khanbaliq, on the site of today's Beijing. He conquered the Southern Song dynasty after a long war, taking the great city of Xiangyang in 1273, after a five-year siege, using counterweight trebuchets built by Persian engineers, and the capital [Hangzhou](/history-of/hangzhou) in 1276. In 1279 the last Song loyalists were defeated at sea, and all of China was united under Mongol rule.
 
 ## Ruling China
 

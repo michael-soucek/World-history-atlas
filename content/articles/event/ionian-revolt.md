@@ -8,13 +8,13 @@ Between 499 and 493 BC, the Greek cities along the western coast of Asia Minor, 
 
 ## Greek cities under Persian rule
 
-The twelve Ionian cities, among them Miletus, Ephesus, Samos and Chios, had fallen first to Lydia and then, around 540 BC, to Cyrus the Great. Persia governed them through local tyrants backed by the satrap at Sardis. These rulers depended on Persian support rather than on their fellow citizens, and resentment of them ran deep.
+The twelve Ionian cities, among them [Miletus](/history-of/miletus), [Ephesus](/history-of/ephesus), Samos and Chios, had fallen first to Lydia and then, around 540 BC, to Cyrus the Great. Persia governed them through local tyrants backed by the satrap at Sardis. These rulers depended on Persian support rather than on their fellow citizens, and resentment of them ran deep.
 
 At Miletus, power was held by Aristagoras, deputising for his uncle Histiaeus, whom [Darius the Great](/person/darius-the-great) kept at his court in Susa. In 499 BC Aristagoras persuaded the satrap Artaphernes to back an attack on the island of Naxos. The expedition quarrelled internally, besieged Naxos for four months and went home empty-handed. Facing ruin and likely dismissal, Aristagoras gave up his tyranny, proclaimed a democracy in Miletus and called on Ionia to revolt. Tyrants were expelled across the region.
 
 ## The march on Sardis
 
-Sparta refused to help, but Athens sent twenty triremes and Eretria five. In 498 BC the Greeks marched inland and took the lower town of Sardis, which caught fire and burned, although the Persian garrison held the citadel. On the way back the Greeks were overtaken and badly beaten near Ephesus, and the Athenians went home. Herodotus tells the story that Darius ordered a servant to remind him of the Athenians three times a day.
+[Sparta](/history-of/sparta) refused to help, but Athens sent twenty triremes and Eretria five. In 498 BC the Greeks marched inland and took the lower town of Sardis, which caught fire and burned, although the Persian garrison held the citadel. On the way back the Greeks were overtaken and badly beaten near Ephesus, and the Athenians went home. Herodotus tells the story that Darius ordered a servant to remind him of the Athenians three times a day.
 
 The revolt nonetheless spread to Byzantium and the Hellespont, to Caria and to most of Cyprus.
 

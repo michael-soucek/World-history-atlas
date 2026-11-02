@@ -4,7 +4,7 @@ sources:
   - Wikidata: Battle of al-Qadisiyyah (Q836844) | https://www.wikidata.org/wiki/Q836844
 written: 2026-10-30
 ---
-The Battle of al-Qadisiyyah was fought over several days, probably in November 636, near the Euphrates in what is now southern Iraq, between the armies of the [Rashidun Caliphate](/place/rashidun-caliphate) and the [Sasanian Empire](/place/sasanian-empire) of Persia. The Arab Muslim army under Sa'd ibn Abi Waqqas defeated the Persians, whose commander, Rustam Farrokhzad, was killed. The victory opened the way to the Persian capital, Ctesiphon, and was one of the turning points of the [early Muslim conquests](/event/early-muslim-conquests).
+The Battle of al-Qadisiyyah was fought over several days, probably in November 636, near the Euphrates in what is now southern Iraq, between the armies of the [Rashidun Caliphate](/place/rashidun-caliphate) and the [Sasanian Empire](/place/sasanian-empire) of Persia. The Arab Muslim army under Sa'd ibn Abi Waqqas defeated the Persians, whose commander, Rustam Farrokhzad, was killed. The victory opened the way to the Persian capital, [Ctesiphon](/history-of/ctesiphon), and was one of the turning points of the [early Muslim conquests](/event/early-muslim-conquests).
 
 ## An exhausted empire
 

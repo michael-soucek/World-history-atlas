@@ -21,7 +21,7 @@ Zedekiah in turn withheld tribute and allied himself with the pharaoh Apries, ag
 
 ## The fall of the city
 
-In the summer month of Tammuz the walls were breached. Zedekiah fled but, according to the Bible, was caught near Jericho and taken to Riblah, where he watched his sons executed before being blinded and carried off to Babylon. The biblical account says a Babylonian commander, Nebuzaradan, then burned the city and the temple and pulled down the walls. Scholars disagree whether this happened in 587 or 586 BCE, depending on how the reigns of the kings of Judah are counted; a 2004 study argued for 587.
+In the summer month of Tammuz the walls were breached. Zedekiah fled but, according to the Bible, was caught near [Jericho](/history-of/jericho) and taken to Riblah, where he watched his sons executed before being blinded and carried off to Babylon. The biblical account says a Babylonian commander, Nebuzaradan, then burned the city and the temple and pulled down the walls. Scholars disagree whether this happened in 587 or 586 BCE, depending on how the reigns of the kings of Judah are counted; a 2004 study argued for 587.
 
 Archaeology bears out the destruction. Excavations in the City of David have uncovered houses with charred beams, burnt layers and a type of bronze arrowhead also found where the Babylonians and Medes sacked Assyrian cities. Most towns around Jerusalem and along Judah's western frontier were also destroyed, while the area of Benjamin to the north largely escaped.
 

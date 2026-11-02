@@ -17,11 +17,11 @@ The Song expanded the examination system enormously, with tens of thousands of c
 
 ## Economy
 
-The Song economy grew rapidly. New strains of fast-ripening rice from Champa allowed two harvests a year in the south. The population rose to over 100 million. Cities such as Kaifeng and Hangzhou had hundreds of thousands of people, with markets open at night, restaurants and entertainment quarters. The famous scroll painting Along the River During the Qingming Festival shows the bustle of Kaifeng. Coal and iron production increased greatly. The state issued paper money, the jiaozi, from the early eleventh century.
+The Song economy grew rapidly. New strains of fast-ripening rice from Champa allowed two harvests a year in the south. The population rose to over 100 million. Cities such as [Kaifeng](/history-of/kaifeng) and [Hangzhou](/history-of/hangzhou) had hundreds of thousands of people, with markets open at night, restaurants and entertainment quarters. The famous scroll painting Along the River During the Qingming Festival shows the bustle of Kaifeng. Coal and iron production increased greatly. The state issued paper money, the jiaozi, from the early eleventh century.
 
 ## Technology
 
-The Song saw important inventions or developments: movable type, invented by Bi Sheng in the 1040s, using clay characters; the magnetic compass for navigation; gunpowder weapons, such as fire lances and bombs; and the astronomical clock tower built by Su Song in Kaifeng in 1088. The scholar Shen Kuo wrote about magnetism, geology and astronomy.
+The Song saw important inventions or developments: movable type, invented by Bi Sheng in the 1040s, using clay characters; the magnetic compass for navigation; gunpowder weapons, such as fire lances and bombs; and the astronomical clock tower built by Su Song in Kaifeng in 1088. The scholar [Shen Kuo](/person/shen-kuo) wrote about magnetism, geology and astronomy.
 
 ## Arts and thought
 

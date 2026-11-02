@@ -5,7 +5,7 @@ sources:
   - Borders of Time maps, built on historical-basemaps | https://github.com/aourednik/historical-basemaps
 written: 2026-10-22
 ---
-Elam was an ancient civilisation in what is now south-western Iran, centred on the lowlands of Khuzestan and the highlands around Anshan, near modern Shiraz. For more than two thousand years it was the eastern neighbour, rival and sometimes conqueror of the Mesopotamian states, and its capital, Susa, was one of the great cities of the ancient Near East.
+Elam was an ancient civilisation in what is now south-western Iran, centred on the lowlands of Khuzestan and the highlands around Anshan, near modern Shiraz. For more than two thousand years it was the eastern neighbour, rival and sometimes conqueror of the Mesopotamian states, and its capital, [Susa](/history-of/susa), was one of the great cities of the ancient Near East.
 
 ## Susa and the Iranian highlands
 
@@ -29,7 +29,7 @@ Elamite gods included Inshushinak, protector of Susa; Humban, a great god; and t
 
 ## Destruction and survival
 
-In the Neo-Elamite period, Elam allied with Babylonian rebels against Assyria. Ashurbanipal's armies invaded, defeated the Elamite king Teumman at the Ulai river around 653 BCE, depicted in Assyrian palace reliefs, and sacked Susa around 647 BCE, desecrating royal tombs and sowing salt. Elam survived in weakened form until the rise of Persia. Under the Achaemenids, Susa was a royal capital, Darius built a palace there, and Elamite was used in administration, as the Persepolis tablets show.
+In the Neo-Elamite period, Elam allied with Babylonian rebels against Assyria. Ashurbanipal's armies invaded, defeated the Elamite king Teumman at the Ulai river around 653 BCE, depicted in Assyrian palace reliefs, and sacked Susa around 647 BCE, desecrating royal tombs and sowing salt. Elam survived in weakened form until the rise of Persia. Under the Achaemenids, Susa was a royal capital, Darius built a palace there, and Elamite was used in administration, as the [Persepolis](/site/persepolis) tablets show.
 
 ## On our maps
 

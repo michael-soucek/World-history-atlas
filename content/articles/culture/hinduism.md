@@ -24,7 +24,7 @@ Besides the Vedas and Upanishads, important texts include the epics: the Mahabha
 
 ## Practice
 
-Hindu practice includes worship, puja, at home and in temples, offerings, prayers and devotional singing, pilgrimages to sacred places, such as Varanasi on the Ganges, festivals, such as Diwali, the festival of lights, and Holi, the festival of colours, and life-cycle rituals. Yoga and meditation have their roots in Hindu traditions.
+Hindu practice includes worship, puja, at home and in temples, offerings, prayers and devotional singing, pilgrimages to sacred places, such as [Varanasi](/history-of/varanasi) on the Ganges, festivals, such as Diwali, the festival of lights, and Holi, the festival of colours, and life-cycle rituals. Yoga and meditation have their roots in Hindu traditions.
 
 ## Society
 
@@ -32,7 +32,7 @@ Traditional Hindu society was organised into varnas, four classes: Brahmins, pri
 
 ## Spread
 
-Hinduism spread to South-East Asia, where Hindu kingdoms built temples such as Angkor Wat, in Cambodia, and Prambanan, in Java; Bali remains largely Hindu. Through the Indian diaspora, Hinduism is practised worldwide, and teachers such as Swami Vivekananda, who spoke in Chicago in 1893, introduced it to the West.
+Hinduism spread to South-East Asia, where Hindu kingdoms built temples such as [Angkor Wat](/site/angkor-wat), in Cambodia, and [Prambanan](/site/prambanan), in Java; Bali remains largely Hindu. Through the Indian diaspora, Hinduism is practised worldwide, and teachers such as Swami Vivekananda, who spoke in Chicago in 1893, introduced it to the West.
 
 ## On our maps
 

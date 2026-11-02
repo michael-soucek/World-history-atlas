@@ -6,11 +6,11 @@ sources:
   - Wikipedia: Beirut | https://en.wikipedia.org/wiki/Beirut
   - Wikipedia: 2020 Beirut explosion | https://en.wikipedia.org/wiki/2020_Beirut_explosion
 ---
-Beirut occupies a headland on the eastern Mediterranean coast, midway along the shore of [Lebanon](/country/lebanon), with the mountains of Mount Lebanon rising close behind. A natural harbour and fresh water gave it a long life as a port, but for most of antiquity and the Middle Ages it was overshadowed by neighbours such as Tyre, Sidon and Damascus. Its rise to the first rank came only in the nineteenth century, and its modern history has swung between prosperity as a commercial and cultural capital of the Arab world and repeated destruction by war.
+Beirut occupies a headland on the eastern Mediterranean coast, midway along the shore of [Lebanon](/country/lebanon), with the mountains of Mount Lebanon rising close behind. A natural harbour and fresh water gave it a long life as a port, but for most of antiquity and the Middle Ages it was overshadowed by neighbours such as [Tyre](/history-of/tyre), [Sidon](/history-of/sidon) and Damascus. Its rise to the first rank came only in the nineteenth century, and its modern history has swung between prosperity as a commercial and cultural capital of the Arab world and repeated destruction by war.
 
 ## Phoenician port and Roman law school
 
-The site has been inhabited for thousands of years, and the town appears as Biruta in the Amarna letters of the fourteenth century BCE, as one of the coastal city-states of the region later known as [Phoenicia](/culture/phoenicia). Under the [Seleucid Empire](/place/seleucid-empire) it was renamed Laodicea in Phoenicia, and in 140 BCE it was destroyed in a war between rival claimants to the Seleucid throne.
+The site has been inhabited for thousands of years, and the town appears as Biruta in the [Amarna](/history-of/amarna) letters of the fourteenth century BCE, as one of the coastal city-states of the region later known as [Phoenicia](/culture/phoenicia). Under the [Seleucid Empire](/place/seleucid-empire) it was renamed Laodicea in Phoenicia, and in 140 BCE it was destroyed in a war between rival claimants to the Seleucid throne.
 
 Rome rebuilt it. In 14 BCE Berytus became a colony settled by veterans of two legions, with privileged Italian legal status, and it grew into a handsome Roman city with baths, a forum and a hippodrome. From the third century CE it was home to the most famous law school in the eastern empire, whose teachers helped shape the legal codification ordered by Justinian. That age ended in 551, when an earthquake and tsunami devastated the coast and killed many thousands in the city; the law school moved to Sidon and never returned.
 

@@ -25,7 +25,7 @@ After Nur ad-Din's death in 1174, Saladin took Damascus and, over the next decad
 
 ## Hattin and Jerusalem
 
-In 1187, after the Crusader lord Raynald of Châtillon attacked Muslim caravans, Saladin invaded the Kingdom of Jerusalem. On 4 July 1187, at the Horns of Hattin, near Lake Tiberias, he defeated the Crusader army, which had marched through dry country without water. King Guy of Jerusalem was captured and treated well; Raynald was executed, by Saladin's own hand according to some sources. Saladin then took most of the kingdom's cities, and on 2 October 1187 Jerusalem surrendered after a siege. Unlike the Crusaders, who had massacred the inhabitants in 1099, Saladin allowed the Christians to leave on payment of a ransom, and freed many who could not pay. He restored the Dome of the Rock and the Al-Aqsa Mosque to Muslim worship.
+In 1187, after the Crusader lord Raynald of Châtillon attacked Muslim caravans, Saladin invaded the Kingdom of Jerusalem. On 4 July 1187, at the Horns of Hattin, near Lake Tiberias, he defeated the Crusader army, which had marched through dry country without water. King Guy of Jerusalem was captured and treated well; Raynald was executed, by Saladin's own hand according to some sources. Saladin then took most of the kingdom's cities, and on 2 October 1187 Jerusalem surrendered after a siege. Unlike the Crusaders, who had massacred the inhabitants in 1099, Saladin allowed the Christians to leave on payment of a ransom, and freed many who could not pay. He restored the [Dome of the Rock](/site/dome-of-the-rock) and the Al-Aqsa Mosque to Muslim worship.
 
 ## The Third Crusade
 

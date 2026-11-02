@@ -26,4 +26,4 @@ In 1855 an edited account appeared of a shipwrecked sailor, William Jackman, who
 
 ## On our maps
 
-Our maps draw approximate Wudjari territory in 1600, 1650, 1700, 1715, 1783, 1800 and 1815, with the Ngadjunmaia (labelled Ngatjumay) to the east, the Kalaako inland to the north, the [Wangkatha](/place/wangkatha) beyond them, and the [Mirning](/place/mirning) further east along the Bight. See also [Australia](/country/australia).
+Our maps draw approximate Wudjari territory in 1600, 1650, 1700, 1715, 1783, 1800 and 1815, with the Ngadjunmaia (labelled Ngatjumay) to the east, the [Kalaako](/place/kalaako) inland to the north, the [Wangkatha](/place/wangkatha) beyond them, and the [Mirning](/place/mirning) further east along the Bight. See also [Australia](/country/australia).

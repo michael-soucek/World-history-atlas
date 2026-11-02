@@ -4,7 +4,7 @@ sources:
   - Wikidata: Mississippian culture (Q1052095) | https://www.wikidata.org/wiki/Q1052095
 written: 2026-10-22
 ---
-The Mississippian culture was a Native American civilisation that flourished in the Mississippi valley and the south-eastern United States from about 800 to 1600 CE. Its people built large earthen mounds, farmed maize and lived in towns ruled by chiefs. Its largest centre, Cahokia, near today's St Louis, was the largest city in North America north of Mexico before European colonisation.
+The Mississippian culture was a Native American civilisation that flourished in the Mississippi valley and the south-eastern United States from about 800 to 1600 CE. Its people built large earthen mounds, farmed maize and lived in towns ruled by chiefs. Its largest centre, [Cahokia](/site/cahokia), near today's St Louis, was the largest city in North America north of Mexico before European colonisation.
 
 ## Origins
 

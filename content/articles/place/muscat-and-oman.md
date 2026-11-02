@@ -13,7 +13,7 @@ The double name reflects an old division. Muscat was the seafaring coast on the 
 
 ## From maritime empire to division
 
-In the seventeenth century the Yaruba imams drove the Portuguese from Muscat, a turning point usually dated to 1650, and built a sea empire reaching to the Persian Gulf and the Swahili coast. The Al Busaid dynasty took power in 1749 after Imam Ahmad bin Said ended Persian domination. Britain, wanting to keep rival European powers out, backed the Muscat sultans through a series of treaties, and the sultanate came to depend on British loans and advice. In the early 1820s most Gulf possessions were lost to what became the British-protected Trucial States, and pressure to end the slave trade further reduced Muscat's wealth.
+In the seventeenth century the Yaruba imams drove the Portuguese from Muscat, a turning point usually dated to 1650, and built a sea empire reaching to the Persian Gulf and the Swahili coast. The Al Busaid dynasty took power in 1749 after Imam Ahmad bin Said ended Persian domination. Britain, wanting to keep rival European powers out, backed the Muscat sultans through a series of treaties, and the sultanate came to depend on British loans and advice. In the early 1820s most Gulf possessions were lost to what became the British-protected [Trucial States](/place/trucial-states), and pressure to end the slave trade further reduced Muscat's wealth.
 
 When Sultan Said bin Sultan died on 4 June 1856 without naming an heir, British mediation split his realm. His son Thuwaini took the Arabian mainland, while another son, Majid, became ruler of the separate [Sultanate of Zanzibar](/place/sultanate-of-zanzibar).
 

@@ -17,7 +17,7 @@ In the 1870s and 1880s, French expeditions entered Tonkin, fighting Vietnamese f
 
 ## Colonial rule
 
-Indochina was governed by a governor-general, based in Saigon and from 1902 in Hanoi. The Nguyễn emperors at Huế, the kings of Cambodia and Luang Prabang remained as figureheads. Governor-General Paul Doumer, from 1897 to 1902, built the administration, imposed state monopolies on opium, alcohol and salt, which caused great hardship, and began the railway from Hanoi to Saigon and to Yunnan. Hanoi was rebuilt with French boulevards, an opera house and the Long Biên bridge.
+Indochina was governed by a governor-general, based in Saigon and from 1902 in Hanoi. The Nguyễn emperors at Huế, the kings of Cambodia and [Luang Prabang](/history-of/luang-prabang) remained as figureheads. Governor-General Paul Doumer, from 1897 to 1902, built the administration, imposed state monopolies on opium, alcohol and salt, which caused great hardship, and began the railway from Hanoi to Saigon and to Yunnan. Hanoi was rebuilt with French boulevards, an opera house and the Long Biên bridge.
 
 ## The economy
 

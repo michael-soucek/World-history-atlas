@@ -17,11 +17,11 @@ Akbar organised the Mughal elite in a system of ranks, mansabs. Each mansabdar h
 
 ## Religion
 
-Akbar abolished the jizya and the pilgrim tax on Hindus, and held debates among scholars of many faiths at his Ibadat Khana in Fatehpur Sikri. His son Jahangir and grandson Shah Jahan continued a broadly tolerant policy, though with more emphasis on Islam. Dara Shikoh, Shah Jahan's eldest son, translated the Upanishads into Persian and wrote on the common ground between Islam and Hinduism. Aurangzeb, who defeated and executed Dara, followed a stricter religious policy, reimposing the jizya in 1679 and destroying some temples, though he also employed many Hindu officials.
+Akbar abolished the jizya and the pilgrim tax on Hindus, and held debates among scholars of many faiths at his Ibadat Khana in [Fatehpur Sikri](/site/fatehpur-sikri). His son Jahangir and grandson Shah Jahan continued a broadly tolerant policy, though with more emphasis on Islam. Dara Shikoh, Shah Jahan's eldest son, translated the Upanishads into Persian and wrote on the common ground between Islam and Hinduism. Aurangzeb, who defeated and executed Dara, followed a stricter religious policy, reimposing the jizya in 1679 and destroying some temples, though he also employed many Hindu officials.
 
 ## Art and architecture
 
-Mughal painting combined Persian, Indian and, later, European influences, producing illustrated histories, portraits and nature studies. Jahangir was a connoisseur of painting and nature, and his memoirs, the Tuzuk-i Jahangiri, describe animals and plants in detail. Mughal architecture includes Humayun's Tomb in Delhi, Akbar's Fatehpur Sikri, Jahangir's gardens in Kashmir, and Shah Jahan's Taj Mahal, Red Fort and Jama Masjid. Mughal gardens were designed as images of paradise, divided into four parts by water channels.
+Mughal painting combined Persian, Indian and, later, European influences, producing illustrated histories, portraits and nature studies. Jahangir was a connoisseur of painting and nature, and his memoirs, the Tuzuk-i Jahangiri, describe animals and plants in detail. Mughal architecture includes Humayun's Tomb in Delhi, Akbar's Fatehpur Sikri, Jahangir's gardens in Kashmir, and Shah Jahan's [Taj Mahal](/site/taj-mahal), [Red Fort](/site/red-fort) and Jama Masjid. Mughal gardens were designed as images of paradise, divided into four parts by water channels.
 
 ## Women at court
 

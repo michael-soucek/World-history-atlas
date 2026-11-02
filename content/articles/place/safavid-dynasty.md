@@ -29,7 +29,7 @@ After a period of civil war among the Qizilbash, Abbas I took the throne in 1588
 
 ## The later shahs
 
-Abbas's successors were raised in the harem rather than trained in government. The Safavid state remained prosperous under Abbas II, but under Sultan Husayn (1694–1722) the government grew weak and religiously intolerant. In 1722 Afghan forces from Kandahar took Isfahan after a long siege, and Husayn surrendered. His son Tahmasp II continued as a nominal shah under the general Nader, who deposed the last Safavid, Abbas III, and crowned himself in 1736.
+Abbas's successors were raised in the harem rather than trained in government. The Safavid state remained prosperous under Abbas II, but under Sultan Husayn (1694–1722) the government grew weak and religiously intolerant. In 1722 Afghan forces from [Kandahar](/history-of/kandahar) took Isfahan after a long siege, and Husayn surrendered. His son Tahmasp II continued as a nominal shah under the general Nader, who deposed the last Safavid, Abbas III, and crowned himself in 1736.
 
 ## The Safavid state
 

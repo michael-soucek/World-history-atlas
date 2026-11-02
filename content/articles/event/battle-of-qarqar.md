@@ -8,7 +8,7 @@ In 853 BCE the Assyrian king Shalmaneser III marched into Syria and met a coalit
 
 ## Assyria moves west
 
-In the ninth century BCE the kings of [Assyria](/place/assyria) led an army out almost every year, demanding tribute and punishing rebels. According to an inscription Shalmaneser later set up, he left Nineveh in the month of Iyar of his campaigning year, crossed the Tigris and Euphrates, and received the submission of several cities, including Aleppo. Beyond Aleppo he fought troops of Irhuleni, king of Hamath, plundered his towns and sacked Qarqar itself before meeting the allied army. Some scholars, using a different version of the Assyrian list of year-names, place the battle in 854 BCE instead.
+In the ninth century BCE the kings of [Assyria](/place/assyria) led an army out almost every year, demanding tribute and punishing rebels. According to an inscription Shalmaneser later set up, he left [Nineveh](/history-of/nineveh) in the month of Iyar of his campaigning year, crossed the Tigris and Euphrates, and received the submission of several cities, including Aleppo. Beyond Aleppo he fought troops of Irhuleni, king of Hamath, plundered his towns and sacked Qarqar itself before meeting the allied army. Some scholars, using a different version of the Assyrian list of year-names, place the battle in 854 BCE instead.
 
 ## The coalition
 

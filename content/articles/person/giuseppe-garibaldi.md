@@ -27,7 +27,7 @@ The couple then moved to Montevideo, where Garibaldi took the side of the govern
 
 When revolutions swept the Italian states in 1848, Garibaldi returned home. King Charles Albert of Sardinia, then at war with the [Habsburg Monarchy](/place/habsburg-monarchy), received him coolly, and he fought a brief campaign of his own against the Austrians in Lombardy. After the pope fled [Rome](/history-of/rome), a Roman Republic was proclaimed in February 1849 in the former [Papal States](/place/papal-states), led by Mazzini and others. Garibaldi took charge of much of its defence. On 30 April his troops threw back a French expeditionary force sent by Louis Napoleon, but French reinforcements laid siege to the city, which fell at the end of June.
 
-Garibaldi refused to surrender and led several thousand men out of Rome, hoping to reach Venice, which was still holding out. Pursued by French, Austrian, Spanish and Neapolitan troops, the column dwindled until he disbanded it in San Marino. Anita, pregnant and ill, died near Ravenna on 4 August 1849. The retreat became one of the founding legends of Italian nationalism.
+Garibaldi refused to surrender and led several thousand men out of Rome, hoping to reach Venice, which was still holding out. Pursued by French, Austrian, Spanish and Neapolitan troops, the column dwindled until he disbanded it in San Marino. Anita, pregnant and ill, died near [Ravenna](/history-of/ravenna) on 4 August 1849. The retreat became one of the founding legends of Italian nationalism.
 
 ## Exile and the war of 1859
 

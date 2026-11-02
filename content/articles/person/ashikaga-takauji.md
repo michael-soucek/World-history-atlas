@@ -15,7 +15,7 @@ Ashikaga Takauji was the warrior who brought down one military government in Jap
 
 ## A Minamoto warrior
 
-Takauji was born in 1305, his birthplace variously given as Kamakura, the Ashikaga lands in Shimotsuke province or a family estate near Kyoto. His clan descended in the male line from the Seiwa Genji branch of the Minamoto and took its name from the Ashikaga district, in modern Tochigi. The [Kamakura shogunate](/place/kamakura-shogunate) he served was weakened: the long defence against the [Mongol invasions of Japan](/event/mongol-invasions-of-japan) in 1274 and 1281 had drained its finances and left warriors unrewarded and discontented, while real power lay with the Hōjō regents rather than the shoguns.
+Takauji was born in 1305, his birthplace variously given as [Kamakura](/history-of/kamakura), the Ashikaga lands in Shimotsuke province or a family estate near Kyoto. His clan descended in the male line from the Seiwa Genji branch of the Minamoto and took its name from the Ashikaga district, in modern Tochigi. The [Kamakura shogunate](/place/kamakura-shogunate) he served was weakened: the long defence against the [Mongol invasions of Japan](/event/mongol-invasions-of-japan) in 1274 and 1281 had drained its finances and left warriors unrewarded and discontented, while real power lay with the Hōjō regents rather than the shoguns.
 
 ## Bringing down Kamakura
 

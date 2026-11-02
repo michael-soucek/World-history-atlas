@@ -17,7 +17,7 @@ The Theban king Mentuhotep II, of the Eleventh Dynasty, defeated Herakleopolis a
 
 ## The Twelfth Dynasty
 
-Amenemhat I, probably Mentuhotep IV's vizier, founded the Twelfth Dynasty around 1985 BCE. He moved the capital to Itjtawy, near the Faiyum, and introduced co-regencies, in which the king's son ruled alongside him. He was assassinated in a palace conspiracy, described in the Instruction of Amenemhat. His son Senusret I built widely, including the White Chapel at Karnak. Senusret III campaigned in Nubia, built the fortresses at the second cataract and reduced the power of the nomarchs. Amenemhat III undertook large irrigation works in the Faiyum and built a pyramid at Hawara with a huge temple later called the Labyrinth.
+Amenemhat I, probably Mentuhotep IV's vizier, founded the Twelfth Dynasty around 1985 BCE. He moved the capital to Itjtawy, near the Faiyum, and introduced co-regencies, in which the king's son ruled alongside him. He was assassinated in a palace conspiracy, described in the Instruction of Amenemhat. His son Senusret I built widely, including the White Chapel at [Karnak](/site/karnak). Senusret III campaigned in Nubia, built the fortresses at the second cataract and reduced the power of the nomarchs. Amenemhat III undertook large irrigation works in the Faiyum and built a pyramid at Hawara with a huge temple later called the Labyrinth.
 
 ## Nubia
 

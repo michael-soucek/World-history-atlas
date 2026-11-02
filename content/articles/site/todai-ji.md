@@ -17,7 +17,7 @@ The monk Gyōki toured the provinces raising support. The temple's own records c
 
 ## Centre of Nara Buddhism
 
-Under the Nara state, Buddhism was closely regulated, and Tōdai-ji served as the administrative hub of the provincial temples and of the six officially recognised schools, each of which kept offices there. Monks had to be ordained at the temple; in 754 the Chinese master Ganjin, who had reached Japan after twelve years and six attempts to cross the sea, ordained the retired Shōmu, Empress Kōken and others. Later figures such as Kūkai and Saichō were also ordained here. As religious authority shifted to Mount Hiei and political power moved to the warrior government at Kamakura, the temple's influence waned, and its ordination lineage eventually died out.
+Under the Nara state, Buddhism was closely regulated, and Tōdai-ji served as the administrative hub of the provincial temples and of the six officially recognised schools, each of which kept offices there. Monks had to be ordained at the temple; in 754 the Chinese master Ganjin, who had reached Japan after twelve years and six attempts to cross the sea, ordained the retired Shōmu, Empress Kōken and others. Later figures such as Kūkai and Saichō were also ordained here. As religious authority shifted to Mount Hiei and political power moved to the warrior government at [Kamakura](/history-of/kamakura), the temple's influence waned, and its ordination lineage eventually died out.
 
 ## Fire and rebuilding
 

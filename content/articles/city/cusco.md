@@ -21,4 +21,4 @@ Under the [Viceroyalty of Peru](/place/viceroyalty-of-peru), Lima on the coast b
 
 ## The modern city
 
-After independence in the 1820s Cusco was a remote regional capital of [Peru](/country/peru). Interest in its past grew after the American explorer Hiram Bingham publicised the nearby ruins of Machu Picchu in 1911. Another earthquake in 1950 damaged much of the colonial city and exposed further Inca masonry. Cusco was declared a World Heritage Site in 1983, and its population of several hundred thousand now depends heavily on tourism, while many residents speak Quechua, the language of the Incas.
+After independence in the 1820s Cusco was a remote regional capital of [Peru](/country/peru). Interest in its past grew after the American explorer Hiram Bingham publicised the nearby ruins of [Machu Picchu](/site/machu-picchu) in 1911. Another earthquake in 1950 damaged much of the colonial city and exposed further Inca masonry. Cusco was declared a World Heritage Site in 1983, and its population of several hundred thousand now depends heavily on tourism, while many residents speak Quechua, the language of the Incas.

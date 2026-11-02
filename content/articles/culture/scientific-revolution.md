@@ -8,7 +8,7 @@ The Scientific Revolution was the period, roughly from the mid-sixteenth to the 
 
 ## The old view
 
-Medieval European scholars largely followed Aristotle's physics and Ptolemy's astronomy, which placed the earth at the centre of the universe, surrounded by crystalline spheres carrying the moon, sun, planets and stars. Medicine followed Galen. These ideas had been preserved and developed by Islamic scholars and transmitted to Europe.
+Medieval European scholars largely followed Aristotle's physics and Ptolemy's astronomy, which placed the earth at the centre of the universe, surrounded by crystalline spheres carrying the moon, sun, planets and stars. Medicine followed [Galen](/person/galen). These ideas had been preserved and developed by Islamic scholars and transmitted to Europe.
 
 ## Copernicus
 
@@ -16,7 +16,7 @@ In 1543 the Polish astronomer Nicolaus Copernicus published On the Revolutions o
 
 ## Tycho and Kepler
 
-The Danish astronomer Tycho Brahe made the most accurate observations of the planets before the telescope. His assistant, Johannes Kepler, used Tycho's data to discover, in 1609 and 1619, three laws of planetary motion, showing that planets move in ellipses, not circles, and faster when closer to the sun.
+The Danish astronomer [Tycho Brahe](/person/tycho-brahe) made the most accurate observations of the planets before the telescope. His assistant, Johannes Kepler, used Tycho's data to discover, in 1609 and 1619, three laws of planetary motion, showing that planets move in ellipses, not circles, and faster when closer to the sun.
 
 ## Galileo
 

@@ -9,7 +9,7 @@ sources:
   - Wikidata: Septimius Severus (Q1442) | https://www.wikidata.org/wiki/Q1442
 written: 2026-10-30
 ---
-Septimius Severus, a senator from the North African city of Leptis Magna, won the Roman throne in the civil wars of 193 and held it until his death in 211. He fought on the Euphrates, the edge of the Sahara and in Scotland, made the army the foundation of imperial power, and founded the Severan dynasty, the last to rule before the turmoil of the third century.
+Septimius Severus, a senator from the North African city of [Leptis Magna](/site/leptis-magna), won the Roman throne in the civil wars of 193 and held it until his death in 211. He fought on the Euphrates, the edge of the Sahara and in Scotland, made the army the foundation of imperial power, and founded the Severan dynasty, the last to rule before the turmoil of the third century.
 
 ## An African senator
 
@@ -25,11 +25,11 @@ In 191 Severus became governor of Pannonia Superior on the Danube. When the empe
 
 ## Wars on the frontiers
 
-Severus next turned on the [Parthian Empire](/place/parthian-empire), sacking its capital Ctesiphon and annexing northern Mesopotamia, though two sieges of Hatra failed. In Africa his commanders pushed the frontier deep into the desert, taking Garama, the capital of the Garamantes. He raised three new legions, stationed one of them near Rome, and increased soldiers' pay, financing the costs partly by debasing the silver coinage. At court his prefect Plautianus wielded enormous power until his execution in 205.
+Severus next turned on the [Parthian Empire](/place/parthian-empire), sacking its capital [Ctesiphon](/history-of/ctesiphon) and annexing northern Mesopotamia, though two sieges of Hatra failed. In Africa his commanders pushed the frontier deep into the desert, taking Garama, the capital of the Garamantes. He raised three new legions, stationed one of them near Rome, and increased soldiers' pay, financing the costs partly by debasing the silver coinage. At court his prefect Plautianus wielded enormous power until his execution in 205.
 
 ## Britain and death
 
-In 208 he travelled to Britain, strengthened Hadrian's Wall and invaded Caledonia, in modern Scotland. Cassius Dio claims the Romans lost as many as 50,000 men there to ambushes and hardship. The Caledonians made peace and then revolted again, but Severus fell ill and died at Eboracum, modern York, on 4 February 211. He is said to have told his sons to live in harmony, enrich the soldiers and scorn everyone else. His ashes were taken to Rome.
+In 208 he travelled to Britain, strengthened [Hadrian's Wall](/site/hadrians-wall) and invaded Caledonia, in modern Scotland. Cassius Dio claims the Romans lost as many as 50,000 men there to ambushes and hardship. The Caledonians made peace and then revolted again, but Severus fell ill and died at Eboracum, modern York, on 4 February 211. He is said to have told his sons to live in harmony, enrich the soldiers and scorn everyone else. His ashes were taken to Rome.
 
 ## Legacy
 

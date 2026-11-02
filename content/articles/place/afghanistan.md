@@ -9,11 +9,11 @@ Afghanistan lies at a crossroads between Central Asia, Iran and the Indian subco
 
 ## Crossroads of empires
 
-The region's valleys and passes, such as the Khyber, have carried armies, traders and ideas for millennia. Bactria, in the north, was a rich province of the Achaemenid Empire and later a Greek kingdom founded by Alexander's successors; the ruins of the Greek city of Ai-Khanoum lie on the Oxus. Under the Kushans, Buddhism flourished, and the colossal Buddhas carved into the cliffs at Bamiyan in the sixth century stood until the Taliban destroyed them in 2001. Islam arrived with the Arab conquests and spread over the following centuries. Ghazni was the capital of Mahmud's empire, and Herat, under the Timurids, one of the great cultural centres of the Islamic world.
+The region's valleys and passes, such as the Khyber, have carried armies, traders and ideas for millennia. Bactria, in the north, was a rich province of the Achaemenid Empire and later a Greek kingdom founded by Alexander's successors; the ruins of the Greek city of Ai-Khanoum lie on the Oxus. Under the Kushans, Buddhism flourished, and the colossal Buddhas carved into the cliffs at Bamiyan in the sixth century stood until the Taliban destroyed them in 2001. Islam arrived with the Arab conquests and spread over the following centuries. Ghazni was the capital of Mahmud's empire, and [Herat](/history-of/herat), under the Timurids, one of the great cultural centres of the Islamic world.
 
 ## The Hotaks and the Durrani Empire
 
-In 1709 Mirwais Hotak, a Pashtun leader in Kandahar, rebelled against the Safavids, and his son Mahmud conquered Isfahan in 1722. Nader Shah crushed the Hotaks, but after his assassination in 1747, an assembly of Pashtun chiefs, a loya jirga, chose Ahmad Shah Durrani, a commander of Nader's army, as king. Ahmad Shah built an empire from Khorasan to Kashmir and Punjab, defeated the Marathas at Panipat in 1761 and is remembered as "Father of the Nation". His successors lost much of the empire to the Sikhs and to internal rivalries.
+In 1709 Mirwais Hotak, a Pashtun leader in [Kandahar](/history-of/kandahar), rebelled against the Safavids, and his son Mahmud conquered Isfahan in 1722. Nader Shah crushed the Hotaks, but after his assassination in 1747, an assembly of Pashtun chiefs, a loya jirga, chose Ahmad Shah Durrani, a commander of Nader's army, as king. Ahmad Shah built an empire from Khorasan to Kashmir and Punjab, defeated the Marathas at Panipat in 1761 and is remembered as "Father of the Nation". His successors lost much of the empire to the Sikhs and to internal rivalries.
 
 ## The Great Game
 

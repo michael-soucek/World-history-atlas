@@ -8,7 +8,7 @@ The Battle of Marathon, fought in 490 BCE, was a victory of the Athenians and th
 
 ## The Ionian Revolt
 
-In 499 BCE the Greek cities of Ionia, on the coast of Asia Minor, rebelled against Persian rule. Athens and Eretria sent ships to help, and the rebels burned Sardis, a Persian provincial capital. The Persians crushed the revolt by 494 BCE, sacking Miletus. According to Herodotus, our main source, Darius ordered a servant to remind him three times at dinner, "Master, remember the Athenians."
+In 499 BCE the Greek cities of Ionia, on the coast of Asia Minor, rebelled against Persian rule. Athens and Eretria sent ships to help, and the rebels burned Sardis, a Persian provincial capital. The Persians crushed the revolt by 494 BCE, sacking [Miletus](/history-of/miletus). According to Herodotus, our main source, Darius ordered a servant to remind him three times at dinner, "Master, remember the Athenians."
 
 ## The Persian expedition
 
@@ -16,7 +16,7 @@ In 490 BCE Darius sent a fleet across the Aegean under the commanders Datis and 
 
 ## The Athenian response
 
-The Athenians sent an army of about 10,000 hoplites, heavily armed citizen infantry, joined by about 1,000 from Plataea. They also sent a runner, Pheidippides, to Sparta, covering about 240 kilometres in two days, to ask for help. The Spartans agreed but said they could not march until the full moon, because of a religious festival. The Athenian army was led by ten generals, including Miltiades, who had experience fighting the Persians, and the polemarch Callimachus. For several days the two armies faced each other.
+The Athenians sent an army of about 10,000 hoplites, heavily armed citizen infantry, joined by about 1,000 from Plataea. They also sent a runner, Pheidippides, to [Sparta](/history-of/sparta), covering about 240 kilometres in two days, to ask for help. The Spartans agreed but said they could not march until the full moon, because of a religious festival. The Athenian army was led by ten generals, including Miltiades, who had experience fighting the Persians, and the polemarch Callimachus. For several days the two armies faced each other.
 
 ## The battle
 

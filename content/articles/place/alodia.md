@@ -13,7 +13,7 @@ When the kingdom of Kush declined in the fourth century CE, three new kingdoms t
 
 ## Conversion
 
-The Byzantine historian John of Ephesus recorded that in 580 a missionary bishop named Longinus, who had already converted Nobadia, travelled south to Alodia, avoiding Makurian territory, since Makuria followed a rival Christian doctrine at the time. The Alodian king and his court were baptised. Alodia followed the Miaphysite doctrine of the Coptic Church of Egypt, and its bishops were later appointed by the patriarch of Alexandria.
+The Byzantine historian John of [Ephesus](/history-of/ephesus) recorded that in 580 a missionary bishop named Longinus, who had already converted Nobadia, travelled south to Alodia, avoiding Makurian territory, since Makuria followed a rival Christian doctrine at the time. The Alodian king and his court were baptised. Alodia followed the Miaphysite doctrine of the Coptic Church of Egypt, and its bishops were later appointed by the patriarch of Alexandria.
 
 ## Soba
 

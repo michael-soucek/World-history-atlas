@@ -13,7 +13,7 @@ At the start of the period, the Twenty-first Dynasty kings ruled from Tanis, in 
 
 ## The Libyan dynasties
 
-Libyans had settled in Egypt as soldiers, and their leaders, chiefs of the Meshwesh and Libu, became powerful. Shoshenq I founded the Twenty-second Dynasty around 945 BCE and reunited the country for a time, appointing his son as high priest of Amun. He campaigned in Palestine, recording the conquered towns on a wall at Karnak, the Bubastite Portal. Under his successors, Egypt fragmented: by the eighth century BCE, several dynasties ruled at once, from cities such as Tanis, Leontopolis, Herakleopolis and Sais, along with Libyan chiefs.
+Libyans had settled in Egypt as soldiers, and their leaders, chiefs of the Meshwesh and Libu, became powerful. Shoshenq I founded the Twenty-second Dynasty around 945 BCE and reunited the country for a time, appointing his son as high priest of Amun. He campaigned in Palestine, recording the conquered towns on a wall at [Karnak](/site/karnak), the Bubastite Portal. Under his successors, Egypt fragmented: by the eighth century BCE, several dynasties ruled at once, from cities such as Tanis, Leontopolis, Herakleopolis and Sais, along with Libyan chiefs.
 
 ## The Kushite conquest
 

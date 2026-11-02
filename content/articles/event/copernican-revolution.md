@@ -17,7 +17,7 @@ Copernicus, a Catholic canon who had studied at Bologna in 1496–1501, publishe
 
 ## Slow acceptance
 
-Most astronomers read the book with interest but did not accept a moving Earth. A few, such as Thomas Digges and Giordano Bruno, used it to argue for a far larger or even infinite universe. Protestant leaders, including [Martin Luther](/person/martin-luther) and Philip Melanchthon, attacked the theory as contrary to Scripture, while the Catholic Church used Copernican calculations in its 1582 calendar reform and otherwise stayed silent until 1610. Tycho Brahe admired the model's mathematics but rejected a moving Earth.
+Most astronomers read the book with interest but did not accept a moving Earth. A few, such as Thomas Digges and Giordano Bruno, used it to argue for a far larger or even infinite universe. Protestant leaders, including [Martin Luther](/person/martin-luther) and Philip Melanchthon, attacked the theory as contrary to Scripture, while the Catholic Church used Copernican calculations in its 1582 calendar reform and otherwise stayed silent until 1610. [Tycho Brahe](/person/tycho-brahe) admired the model's mathematics but rejected a moving Earth.
 
 ## Telescope and ellipses
 

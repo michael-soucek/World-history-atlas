@@ -10,7 +10,7 @@ For roughly seven centuries, a warlike kingdom of the north held the mountains a
 
 ## Origins
 
-The name first appears in Chinese records as a county of the Han dynasty's Xuantu Commandery, set up after the fall of Gojoseon in the late 2nd century BCE. Local Yemaek tribes are credited with driving out that commandery in 75 BCE. Later Korean histories, the 12th-century Samguk sagi and the 13th-century Samguk yusa, tell of Jumong, a prince from Buyeo who fled his rivals and founded the kingdom in 37 BCE. Some historians doubt this date, since the stele of King Gwanggaeto and a Tang source describe Goguryeo as far older.
+The name first appears in Chinese records as a county of the Han dynasty's Xuantu Commandery, set up after the fall of [Gojoseon](/place/gojoseon) in the late 2nd century BCE. Local Yemaek tribes are credited with driving out that commandery in 75 BCE. Later Korean histories, the 12th-century Samguk sagi and the 13th-century Samguk yusa, tell of Jumong, a prince from Buyeo who fled his rivals and founded the kingdom in 37 BCE. Some historians doubt this date, since the stele of King Gwanggaeto and a Tang source describe Goguryeo as far older.
 
 ## From tribal league to kingdom
 

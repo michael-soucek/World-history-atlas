@@ -25,7 +25,7 @@ On Christmas Day 800, in St Peter's Basilica in Rome, Pope Leo III crowned Charl
 
 ## Government
 
-Charlemagne's empire was governed through about 300 counties, run by counts, and checked by royal envoys, missi dominici, who travelled in pairs, a churchman and a layman, inspecting and reporting. He issued laws, capitularies, on government, religion and the economy, reformed the currency, introducing the silver penny, and standardised weights and measures. He travelled constantly but from the 790s settled in Aachen, where he built a palace and a chapel that survives in Aachen Cathedral.
+Charlemagne's empire was governed through about 300 counties, run by counts, and checked by royal envoys, missi dominici, who travelled in pairs, a churchman and a layman, inspecting and reporting. He issued laws, capitularies, on government, religion and the economy, reformed the currency, introducing the silver penny, and standardised weights and measures. He travelled constantly but from the 790s settled in [Aachen](/history-of/aachen), where he built a palace and a chapel that survives in Aachen Cathedral.
 
 ## The Carolingian Renaissance
 

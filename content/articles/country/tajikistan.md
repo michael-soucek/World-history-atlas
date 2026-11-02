@@ -27,7 +27,7 @@ sources:
   - BBC News: Tajikistan country profile | https://www.bbc.com/news/world-asia-16201032
 written: 2026-10-25
 ---
-Tajikistan covers the mountainous eastern edge of the old Iranian world, including parts of the ancient lands of Sogdiana and Bactria. Its Persian-speaking people trace their heritage to the Sogdian merchants of the Silk Road and to the Samanid dynasty, under which the Persian language and literature were reborn in the ninth and tenth centuries. Over the following centuries the region was ruled by Turkic, Mongol, Timurid and Uzbek dynasties, then conquered by the Russian Empire in the nineteenth century. The Soviet Union created a Tajik republic in 1924 and 1929, but left the great Tajik cities of Bukhara and Samarkand in Uzbekistan. Independent since 1991, Tajikistan was devastated by a civil war from 1992 to 1997 and has been ruled since then by Emomali Rahmon.
+Tajikistan covers the mountainous eastern edge of the old Iranian world, including parts of the ancient lands of Sogdiana and Bactria. Its Persian-speaking people trace their heritage to the Sogdian merchants of the Silk Road and to the Samanid dynasty, under which the Persian language and literature were reborn in the ninth and tenth centuries. Over the following centuries the region was ruled by Turkic, Mongol, Timurid and Uzbek dynasties, then conquered by the Russian Empire in the nineteenth century. The Soviet Union created a Tajik republic in 1924 and 1929, but left the great Tajik cities of [Bukhara](/history-of/bukhara) and Samarkand in Uzbekistan. Independent since 1991, Tajikistan was devastated by a civil war from 1992 to 1997 and has been ruled since then by Emomali Rahmon.
 
 ## Early peoples and Sarazm
 

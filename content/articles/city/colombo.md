@@ -9,7 +9,7 @@ Colombo lies on the low, wet west coast of [Sri Lanka](/country/sri-lanka), just
 
 ## A harbour for traders
 
-For most of Sri Lanka's early history the great royal capitals lay inland, at Anuradhapura and later Polonnaruwa, and the kingdoms were centres of Theravada [Buddhism](/culture/buddhism). The name Colombo is usually traced to a Sinhala phrase meaning "port on the Kelani river". Arab and other Muslim traders were settling along this coast by about the 8th century, and their descendants form part of the island's Muslim community. The map's long [Chola](/place/chola-dynasty) period needs correcting: the south Indian Chola kings occupied the north and centre of the island from 993 to about 1070, after which Sinhalese rule returned. In the 15th and 16th centuries the port belonged to the Kingdom of Kotte, whose capital lay only a few kilometres inland.
+For most of Sri Lanka's early history the great royal capitals lay inland, at [Anuradhapura](/history-of/anuradhapura) and later [Polonnaruwa](/history-of/polonnaruwa), and the kingdoms were centres of Theravada [Buddhism](/culture/buddhism). The name Colombo is usually traced to a Sinhala phrase meaning "port on the Kelani river". Arab and other Muslim traders were settling along this coast by about the 8th century, and their descendants form part of the island's Muslim community. The map's long [Chola](/place/chola-dynasty) period needs correcting: the south Indian Chola kings occupied the north and centre of the island from 993 to about 1070, after which Sinhalese rule returned. In the 15th and 16th centuries the port belonged to the Kingdom of Kotte, whose capital lay only a few kilometres inland.
 
 ## Portuguese and Dutch forts
 

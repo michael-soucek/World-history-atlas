@@ -11,7 +11,7 @@ sources:
   - Stanford Encyclopedia of Philosophy: Johannes Kepler | https://plato.stanford.edu/entries/kepler/
 written: 2026-10-25
 ---
-Johannes Kepler was a German astronomer and mathematician who discovered that the planets move around the Sun in ellipses, not circles, and formulated the three laws of planetary motion that bear his name. Working from the observations of Tycho Brahe, he turned the Sun-centred system of [Nicolaus Copernicus](/person/nicolaus-copernicus) into an accurate physical description of the heavens, also made founding contributions to optics, and prepared the ground for [Isaac Newton](/person/isaac-newton)'s theory of gravity.
+Johannes Kepler was a German astronomer and mathematician who discovered that the planets move around the Sun in ellipses, not circles, and formulated the three laws of planetary motion that bear his name. Working from the observations of [Tycho Brahe](/person/tycho-brahe), he turned the Sun-centred system of [Nicolaus Copernicus](/person/nicolaus-copernicus) into an accurate physical description of the heavens, also made founding contributions to optics, and prepared the ground for [Isaac Newton](/person/isaac-newton)'s theory of gravity.
 
 ## Early life
 

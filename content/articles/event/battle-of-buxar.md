@@ -5,7 +5,7 @@ sources:
   - Wikipedia: Bengal War | https://en.wikipedia.org/wiki/Bengal_War
 written: 2026-10-30
 ---
-On 22 and 23 October 1764, at Buxar on the Ganges in Bihar, about 130 kilometres west of Patna, a British East India Company army under Major Hector Munro defeated the combined forces of the [Mughal](/place/mughal-empire) emperor Shah Alam II, Mir Qasim of Bengal, Shuja-ud-Daula of Awadh and Balwant Singh of Benares. The victory led to the Treaty of Allahabad in 1765, which gave the Company the right to collect the revenues of Bengal, Bihar and Orissa, a decisive step towards British rule in India.
+On 22 and 23 October 1764, at Buxar on the Ganges in Bihar, about 130 kilometres west of [Patna](/history-of/patna), a British East India Company army under Major Hector Munro defeated the combined forces of the [Mughal](/place/mughal-empire) emperor Shah Alam II, Mir Qasim of Bengal, Shuja-ud-Daula of Awadh and Balwant Singh of Benares. The victory led to the Treaty of Allahabad in 1765, which gave the Company the right to collect the revenues of Bengal, Bihar and Orissa, a decisive step towards British rule in India.
 
 ## The road to war
 

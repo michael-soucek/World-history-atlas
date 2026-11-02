@@ -13,7 +13,7 @@ Mahmud II ruled the Ottoman Empire from 1808 to 1839, a reign of lost provinces 
 
 ## Escape to the throne
 
-He was born at Topkapı Palace on 20 July 1785, though some sources give 1784, the youngest son of Sultan Abdul Hamid I and his consort Nakşidil. In 1808 his half-brother, Sultan Mustafa IV, faced a revolt by supporters of the reforming ex-sultan Selim III and ordered both Selim and Mahmud killed to remove rival claimants. Selim died, but Mahmud survived; a traditional story says a slave girl held off the killers by throwing ashes in their faces while he escaped across the palace roofs. The rebel leader Alemdar Mustafa Pasha proclaimed him sultan and became his vizier, but was killed in another uprising that same year, and Mahmud put reform aside for the time being.
+He was born at [Topkapı Palace](/site/topkapi-palace) on 20 July 1785, though some sources give 1784, the youngest son of Sultan Abdul Hamid I and his consort Nakşidil. In 1808 his half-brother, Sultan Mustafa IV, faced a revolt by supporters of the reforming ex-sultan Selim III and ordered both Selim and Mahmud killed to remove rival claimants. Selim died, but Mahmud survived; a traditional story says a slave girl held off the killers by throwing ashes in their faces while he escaped across the palace roofs. The rebel leader Alemdar Mustafa Pasha proclaimed him sultan and became his vizier, but was killed in another uprising that same year, and Mahmud put reform aside for the time being.
 
 ## Wars and losses
 

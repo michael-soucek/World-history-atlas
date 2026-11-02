@@ -16,7 +16,7 @@ In the second century BCE, the Han dynasty of China sent the envoy Zhang Qian to
 
 ## Routes
 
-From Chang'an, today's Xi'an, the routes went west through the Hexi corridor to Dunhuang, then divided around the Taklamakan desert, through oasis cities such as Turpan, Kucha, Khotan and Kashgar, and crossed the Pamir mountains to Central Asian cities, such as Samarkand and Bukhara, then to Iran, Mesopotamia and the Mediterranean, or south to India. Caravans of Bactrian camels crossed deserts and mountains, stopping at caravanserais.
+From Chang'an, today's Xi'an, the routes went west through the Hexi corridor to Dunhuang, then divided around the Taklamakan desert, through oasis cities such as Turpan, Kucha, Khotan and Kashgar, and crossed the Pamir mountains to Central Asian cities, such as Samarkand and [Bukhara](/history-of/bukhara), then to Iran, Mesopotamia and the Mediterranean, or south to India. Caravans of Bactrian camels crossed deserts and mountains, stopping at caravanserais.
 
 ## Goods
 
@@ -24,7 +24,7 @@ China exported silk, porcelain, tea, lacquer and paper. From the west came horse
 
 ## Religions and ideas
 
-Buddhism spread from India along the Silk Road to Central Asia and China from the first century CE, and monks, such as Xuanzang, in the seventh century, travelled to India to collect scriptures. Buddhist cave temples, such as the Mogao Caves at Dunhuang, contain thousands of paintings and sculptures; a sealed library found there in 1900 contained tens of thousands of manuscripts, including the Diamond Sutra of 868, the oldest dated printed book. Manichaeism, Nestorian Christianity, Zoroastrianism and later Islam also spread along the routes. Technologies such as paper making, printing and gunpowder travelled west.
+Buddhism spread from India along the Silk Road to Central Asia and China from the first century CE, and monks, such as Xuanzang, in the seventh century, travelled to India to collect scriptures. Buddhist cave temples, such as the [Mogao Caves](/site/mogao-caves) at Dunhuang, contain thousands of paintings and sculptures; a sealed library found there in 1900 contained tens of thousands of manuscripts, including the Diamond Sutra of 868, the oldest dated printed book. Manichaeism, Nestorian Christianity, Zoroastrianism and later Islam also spread along the routes. Technologies such as paper making, printing and gunpowder travelled west.
 
 ## The Mongol peace
 

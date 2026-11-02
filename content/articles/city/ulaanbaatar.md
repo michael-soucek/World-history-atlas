@@ -10,11 +10,11 @@ Ulaanbaatar lies in the valley of the Tuul River in north-central Mongolia, at a
 
 ## A city of tents
 
-The steppe around the Tuul had been the heartland of nomad empires long before any town stood here, from the [Xiongnu](/place/xiongnu) and the Göktürks to the [Uyghur Khaganate](/place/uyghur-khaganate). In the 12th century the Kerait khans pastured their herds along the river, and the [Mongol Empire](/place/mongol-empire) of [Genghis Khan](/person/genghis-khan) and his heirs was ruled from Karakorum, some 350 kilometres to the west. None of these powers built a lasting city on this site.
+The steppe around the Tuul had been the heartland of nomad empires long before any town stood here, from the [Xiongnu](/place/xiongnu) and the Göktürks to the [Uyghur Khaganate](/place/uyghur-khaganate). In the 12th century the Kerait khans pastured their herds along the river, and the [Mongol Empire](/place/mongol-empire) of [Genghis Khan](/person/genghis-khan) and his heirs was ruled from [Karakorum](/history-of/karakorum), some 350 kilometres to the west. None of these powers built a lasting city on this site.
 
 The city's own history begins in 1639, when Khalkha nobles proclaimed the young Zanabazar the first Jebtsundamba Khutuktu, the leading lama of the Mongols, and gave him a camp of tents known as Örgöö, the "palace-yurt". Europeans later called it Urga. The monastery-camp moved more than twenty times along the Orkhon, Selenge and Tuul rivers before settling at its present site in 1778. It was also called Ikh Khüree, the "great camp".
 
-After the Khalkha Mongols submitted to the [Qing dynasty](/place/qing-dynasty) in 1691, Urga became both a religious capital and an administrative post of the Manchu empire, with a Qing governor from the mid-18th century. A separate Chinese merchant town grew up a few kilometres east of the monasteries, and Urga became a stop on the tea caravan route between China and Russia through Kyakhta. By the early 20th century it held tens of thousands of people, a large share of them monks.
+After the [Khalkha Mongols](/place/khalkha-mongols) submitted to the [Qing dynasty](/place/qing-dynasty) in 1691, Urga became both a religious capital and an administrative post of the Manchu empire, with a Qing governor from the mid-18th century. A separate Chinese merchant town grew up a few kilometres east of the monasteries, and Urga became a stop on the tea caravan route between China and Russia through Kyakhta. By the early 20th century it held tens of thousands of people, a large share of them monks.
 
 ## Revolution and the socialist capital
 

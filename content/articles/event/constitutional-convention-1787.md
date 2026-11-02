@@ -4,7 +4,7 @@ sources:
   - Wikidata: Constitutional Convention (Q405475) | https://www.wikidata.org/wiki/Q405475
 written: 2026-10-31
 ---
-Between 25 May and 17 September 1787, delegates from twelve of the thirteen American states met behind closed doors in the Pennsylvania State House in Philadelphia, now Independence Hall. Summoned to improve the Articles of Confederation, they instead wrote an entirely new framework of government, the Constitution of the [United States](/country/united-states). Contemporaries called the gathering the Federal Convention or the Philadelphia Convention.
+Between 25 May and 17 September 1787, delegates from twelve of the thirteen American states met behind closed doors in the Pennsylvania State House in Philadelphia, now [Independence Hall](/site/independence-hall). Summoned to improve the Articles of Confederation, they instead wrote an entirely new framework of government, the Constitution of the [United States](/country/united-states). Contemporaries called the gathering the Federal Convention or the Philadelphia Convention.
 
 ## A failing confederation
 

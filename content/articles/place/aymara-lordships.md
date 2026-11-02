@@ -11,7 +11,7 @@ The Aymara lordships, also known as the Aymara kingdoms or lake kingdoms, were r
 
 ## After Tiwanaku
 
-Around 1000 CE the Tiwanaku state broke down, perhaps because of environmental change, and between about 1050 and 1150 people spread from the Titicaca basin across the altiplano and towards the Pacific coast. The centuries that followed, which archaeologists call the Late Intermediate Period, were politically unsettled. Where people came from, and how the Aymara language spread, is debated: some scholars link the period to Aymara-speaking migrants, others argue that Aymara speakers were already present in Tiwanaku times, or that the Incas spread the language later. Before the Spanish arrived, these societies did not call themselves Aymara; that collective label came from European chroniclers.
+Around 1000 CE the [Tiwanaku](/history-of/tiwanaku) state broke down, perhaps because of environmental change, and between about 1050 and 1150 people spread from the Titicaca basin across the altiplano and towards the Pacific coast. The centuries that followed, which archaeologists call the Late Intermediate Period, were politically unsettled. Where people came from, and how the Aymara language spread, is debated: some scholars link the period to Aymara-speaking migrants, others argue that Aymara speakers were already present in Tiwanaku times, or that the Incas spread the language later. Before the Spanish arrived, these societies did not call themselves Aymara; that collective label came from European chroniclers.
 
 ## The kingdoms
 

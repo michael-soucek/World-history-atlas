@@ -12,7 +12,7 @@ In the third century, the empire suffered a crisis: civil wars, with over twenty
 
 ## Division
 
-After Theodosius I died in 395, the empire was permanently divided between his sons: Arcadius in the East, ruling from Constantinople, and Honorius in the West, whose capital moved from Milan to Ravenna in 402. The East was wealthier and more populous.
+After Theodosius I died in 395, the empire was permanently divided between his sons: Arcadius in the East, ruling from Constantinople, and Honorius in the West, whose capital moved from Milan to [Ravenna](/history-of/ravenna) in 402. The East was wealthier and more populous.
 
 ## The Goths
 

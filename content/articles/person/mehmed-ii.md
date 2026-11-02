@@ -17,11 +17,11 @@ Mehmed was born on 30 March 1432 in Edirne, the Ottoman capital, the son of Sult
 
 ## The conquest of Constantinople
 
-Mehmed was determined to take Constantinople, the Byzantine capital, protected by its great land walls. In 1452 he built the fortress of Rumeli Hisarı on the Bosporus, to cut off help from the Black Sea. He hired the Hungarian engineer Orban to cast huge bronze cannons. In April 1453 he besieged the city with a large army, perhaps 80,000 men, against about 7,000 defenders under Emperor Constantine XI. When a chain blocked his fleet from the Golden Horn, he had ships dragged overland on greased logs. On 29 May 1453, after a fifty-three-day siege, Ottoman troops broke into the city. Constantine XI died fighting. Mehmed entered the Hagia Sophia and converted it into a mosque.
+Mehmed was determined to take Constantinople, the Byzantine capital, protected by its great land walls. In 1452 he built the fortress of Rumeli Hisarı on the Bosporus, to cut off help from the Black Sea. He hired the Hungarian engineer Orban to cast huge bronze cannons. In April 1453 he besieged the city with a large army, perhaps 80,000 men, against about 7,000 defenders under Emperor Constantine XI. When a chain blocked his fleet from the Golden Horn, he had ships dragged overland on greased logs. On 29 May 1453, after a fifty-three-day siege, Ottoman troops broke into the city. Constantine XI died fighting. Mehmed entered the [Hagia Sophia](/site/hagia-sophia) and converted it into a mosque.
 
 ## A new capital
 
-Mehmed made Constantinople, which the Ottomans also called Istanbul, his capital. He repopulated it, bringing Muslims, Christians and Jews from across the empire, and appointed Gennadios Scholarios as Greek Orthodox patriarch, giving him authority over the Orthodox community. He built the Topkapı Palace, the Fatih Mosque complex, and the Grand Bazaar. He took the title Kayser-i Rum, "Caesar of Rome".
+Mehmed made Constantinople, which the Ottomans also called Istanbul, his capital. He repopulated it, bringing Muslims, Christians and Jews from across the empire, and appointed Gennadios Scholarios as Greek Orthodox patriarch, giving him authority over the Orthodox community. He built the [Topkapı Palace](/site/topkapi-palace), the Fatih Mosque complex, and the Grand Bazaar. He took the title Kayser-i Rum, "Caesar of Rome".
 
 ## Further conquests
 

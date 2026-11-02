@@ -10,7 +10,7 @@ At Nahavand, near the city of Hamadan in Iran, an Arab Muslim army of the Rashid
 
 When the Prophet Muhammad died in 632, Islam dominated western Arabia. In the reigns of Abu Bakr and Umar, the first two caliphs, Muslim armies pushed into Palestine and Mesopotamia, confronting both the East Roman and the Persian empires, both of them exhausted by war and internal strife. After defeating the Romans at Yarmouk in 636, the Arabs turned east. In November 636 they beat a Sasanian army at the [Battle of al-Qadisiyyah](/event/battle-of-al-qadisiyyah), and the loss of Iraq followed.
 
-The Sasanian king, Yazdegerd III, was forced after a further defeat in 639 to abandon his capital at Ctesiphon and fall back on the Iranian plateau. By 642 he had raised a fresh army in place of the one destroyed at Qadisiyyah.
+The Sasanian king, Yazdegerd III, was forced after a further defeat in 639 to abandon his capital at [Ctesiphon](/history-of/ctesiphon) and fall back on the Iranian plateau. By 642 he had raised a fresh army in place of the one destroyed at Qadisiyyah.
 
 ## The armies
 
@@ -22,7 +22,7 @@ The sources tell the story in different ways. In one account, the Persians, unde
 
 ## Collapse of the Sasanian state
 
-Nahavand marked the near disintegration of the imperial army and the rise of local warlords in Persia. The Sasanians soon lost the surrounding cities, including Isfahan. Yazdegerd fled east and sought help from rulers in Tukharistan and Sogdia, and sent his son Peroz to the Tang court in China, all without success. Several provincial governors received him coldly, and according to some sources the dynasty was unpopular in the east, where Khorasan had rebelled against it. In 651 he was murdered by a miller near Merv. Peroz later tried to restore the dynasty but died in China.
+Nahavand marked the near disintegration of the imperial army and the rise of local warlords in Persia. The Sasanians soon lost the surrounding cities, including Isfahan. Yazdegerd fled east and sought help from rulers in Tukharistan and Sogdia, and sent his son Peroz to the Tang court in China, all without success. Several provincial governors received him coldly, and according to some sources the dynasty was unpopular in the east, where Khorasan had rebelled against it. In 651 he was murdered by a miller near [Merv](/history-of/merv). Peroz later tried to restore the dynasty but died in China.
 
 ## Legacy
 

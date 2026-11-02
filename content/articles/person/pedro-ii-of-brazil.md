@@ -25,7 +25,7 @@ When Paraguay's president Francisco Solano López invaded Brazilian territory in
 
 ## Scholar and traveller
 
-Pedro described himself as born for culture and science. He studied many languages, took up photography in 1840, collected tens of thousands of books and corresponded with figures such as Louis Pasteur, Richard Wagner and Louis Agassiz. He founded schools and funded scholarships for Brazilians to study in Europe, and in 1875 the French Academy of Sciences elected him a member. He toured Europe and North Africa in 1871–72 and visited the United States for its centennial in 1876, travelling informally as "Pedro de Alcântara".
+Pedro described himself as born for culture and science. He studied many languages, took up photography in 1840, collected tens of thousands of books and corresponded with figures such as Louis Pasteur, [Richard Wagner](/person/richard-wagner) and Louis Agassiz. He founded schools and funded scholarships for Brazilians to study in Europe, and in 1875 the French Academy of Sciences elected him a member. He toured Europe and North Africa in 1871–72 and visited the United States for its centennial in 1876, travelling informally as "Pedro de Alcântara".
 
 ## Slavery and the fall of the monarchy
 

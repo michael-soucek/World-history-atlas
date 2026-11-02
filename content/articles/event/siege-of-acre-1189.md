@@ -8,7 +8,7 @@ The struggle for the port of Acre, on the Gulf of Haifa, lasted nearly two years
 
 ## After Hattin
 
-In 1187 Saladin, ruler of Egypt and Syria, destroyed the army of the Kingdom of Jerusalem at the [Battle of Hattin](/event/battle-of-hattin), capturing King Guy, and then took much of Palestine, including Jerusalem itself after a short siege. The papacy called a new crusade. Tyre held out under Conrad of Montferrat, but when Saladin released Guy in 1188, Conrad refused to admit him. Reinforced by fleets from Sicily and Pisa, Guy marched south in August 1189 and camped outside Acre, an important harbour and one of Saladin's main garrisons and arsenals.
+In 1187 Saladin, ruler of Egypt and Syria, destroyed the army of the Kingdom of Jerusalem at the [Battle of Hattin](/event/battle-of-hattin), capturing King Guy, and then took much of Palestine, including Jerusalem itself after a short siege. The papacy called a new crusade. [Tyre](/history-of/tyre) held out under Conrad of Montferrat, but when Saladin released Guy in 1188, Conrad refused to admit him. Reinforced by fleets from Sicily and Pisa, Guy marched south in August 1189 and camped outside Acre, an important harbour and one of Saladin's main garrisons and arsenals.
 
 ## A double siege
 

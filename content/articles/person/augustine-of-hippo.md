@@ -14,7 +14,7 @@ Augustine of Hippo was a Roman North African bishop, theologian and philosopher 
 
 ## Youth in Roman Africa
 
-Aurelius Augustinus was born on 13 November 354 in Thagaste, a small town in the Roman province of Numidia, today Souk Ahras in [Algeria](/country/algeria). His father, Patricius, was a minor landowner who was baptised only late in life; his mother, Monica, was a devout Christian whose prayers for her son are a recurring theme of the Confessions. Augustine studied in Madaura and then in Carthage, the great city of Roman Africa. In his late teens he took a concubine, whose name he never recorded, and with whom he lived for about fifteen years; their son, Adeodatus, was born around 372.
+Aurelius Augustinus was born on 13 November 354 in Thagaste, a small town in the Roman province of [Numidia](/place/numidia), today Souk Ahras in [Algeria](/country/algeria). His father, Patricius, was a minor landowner who was baptised only late in life; his mother, Monica, was a devout Christian whose prayers for her son are a recurring theme of the Confessions. Augustine studied in Madaura and then in Carthage, the great city of Roman Africa. In his late teens he took a concubine, whose name he never recorded, and with whom he lived for about fifteen years; their son, Adeodatus, was born around 372.
 
 At about nineteen, reading Cicero's lost dialogue Hortensius, he was fired with a love of wisdom. The Bible, by comparison, struck him as crude, and he joined the Manichees, a religion that taught that the world was a battleground between two equal powers of good and evil. He remained a follower for about nine years while teaching rhetoric, but grew disillusioned when their leading teacher failed to answer his questions.
 

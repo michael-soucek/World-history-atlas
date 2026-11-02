@@ -17,7 +17,7 @@ The general Chao Phraya Chakri took the throne as King Phutthayotfa Chulalok, kn
 
 ## Expansion
 
-The early Chakri kings extended Siamese power over Lan Na in the north, the Lao kingdoms of Vientiane and Luang Prabang, parts of Cambodia and the northern Malay sultanates, such as Kedah, Kelantan and Terengganu, which sent tribute. In 1827–1828 Rama III crushed a revolt by King Anouvong of Vientiane, destroying the city. Siam fought Vietnam for influence over Cambodia. Rama III also built Wat Pho, with its giant reclining Buddha, and traded with China.
+The early Chakri kings extended Siamese power over Lan Na in the north, the Lao kingdoms of Vientiane and [Luang Prabang](/history-of/luang-prabang), parts of Cambodia and the northern Malay sultanates, such as Kedah, Kelantan and Terengganu, which sent tribute. In 1827–1828 Rama III crushed a revolt by King Anouvong of Vientiane, destroying the city. Siam fought Vietnam for influence over Cambodia. Rama III also built Wat Pho, with its giant reclining Buddha, and traded with China.
 
 ## Mongkut
 

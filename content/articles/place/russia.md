@@ -17,7 +17,7 @@ The East Slavic state of Kievan Rus' broke apart in the twelfth century and was 
 
 ## Culture
 
-Russian literature, from Pushkin, Gogol, Tolstoy, Dostoevsky and Chekhov in the nineteenth century to Pasternak, Akhmatova, Bulgakov and Solzhenitsyn in the twentieth, is among the world's greatest. Russian composers such as Tchaikovsky, Mussorgsky, Rimsky-Korsakov, Rachmaninov, Stravinsky, Prokofiev and Shostakovich, and the ballet of the Bolshoi and Mariinsky theatres, are world-famous. Russian scientists include Dmitri Mendeleev, who created the periodic table, and Ivan Pavlov.
+Russian literature, from Pushkin, Gogol, Tolstoy, Dostoevsky and Chekhov in the nineteenth century to Pasternak, Akhmatova, Bulgakov and Solzhenitsyn in the twentieth, is among the world's greatest. Russian composers such as Tchaikovsky, Mussorgsky, Rimsky-Korsakov, Rachmaninov, Stravinsky, Prokofiev and Shostakovich, and the ballet of the Bolshoi and Mariinsky theatres, are world-famous. Russian scientists include [Dmitri Mendeleev](/person/dmitri-mendeleev), who created the periodic table, and Ivan Pavlov.
 
 ## The Soviet experience
 

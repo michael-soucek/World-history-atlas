@@ -26,7 +26,7 @@ His career took off under James I, who succeeded in 1603 and knighted him that y
 
 ## Fall from office
 
-In 1621 a parliamentary committee charged Bacon with accepting gifts from people whose cases were before him. He admitted the charges while insisting that the gifts had never changed his judgments. The House of Lords fined him £40,000, barred him from office and sent him to the Tower of London, though he was released after a few days and the fine was not enforced. Historians still debate how far he was a corrupt judge and how far a scapegoat in a system where such gifts were common and where his enemies, including Coke, wanted him gone. He spent his last five years writing.
+In 1621 a parliamentary committee charged Bacon with accepting gifts from people whose cases were before him. He admitted the charges while insisting that the gifts had never changed his judgments. The House of Lords fined him £40,000, barred him from office and sent him to the [Tower of London](/site/tower-of-london), though he was released after a few days and the fine was not enforced. Historians still debate how far he was a corrupt judge and how far a scapegoat in a system where such gifts were common and where his enemies, including Coke, wanted him gone. He spent his last five years writing.
 
 ## The reform of knowledge
 

@@ -6,7 +6,7 @@ sources:
   - Wikipedia: Baghdad | https://en.wikipedia.org/wiki/Baghdad
   - Wikipedia: Round City of Baghdad | https://en.wikipedia.org/wiki/Round_City_of_Baghdad
 ---
-Baghdad lies on both banks of the Tigris in central [Iraq](/country/iraq), at the point where the Tigris and Euphrates run closest together and canals could link the two. The region had been the heartland of Babylon, Seleucia and the Persian capital Ctesiphon, all within a short distance of the site. Baghdad itself was a planned imperial foundation of the eighth century, and for five hundred years it was the seat of the caliphs and one of the largest and most learned cities on earth. Its later history is marked by sackings, foreign rule and, in recent decades, war.
+Baghdad lies on both banks of the Tigris in central [Iraq](/country/iraq), at the point where the Tigris and Euphrates run closest together and canals could link the two. The region had been the heartland of [Babylon](/history-of/babylon), Seleucia and the Persian capital [Ctesiphon](/history-of/ctesiphon), all within a short distance of the site. Baghdad itself was a planned imperial foundation of the eighth century, and for five hundred years it was the seat of the caliphs and one of the largest and most learned cities on earth. Its later history is marked by sackings, foreign rule and, in recent decades, war.
 
 ## The caliphs' city
 

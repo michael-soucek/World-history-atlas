@@ -6,7 +6,7 @@ sources:
   - Borders of Time maps, built on historical-basemaps | https://github.com/aourednik/historical-basemaps
 written: 2026-11-01
 ---
-The Zapotec civilisation grew up in the Valley of Oaxaca in southern Mexico and is known above all from the hilltop city of Monte Albán, one of the earliest cities in Mesoamerica. From around 500 BCE until the later first millennium CE, Monte Albán was the capital of a Zapotec state that came to dominate much of the Oaxacan highlands. Zapotec communities lasted through later centuries of rival kingdoms and the Spanish conquest, and Zapotec peoples and languages remain part of Oaxaca today.
+The Zapotec civilisation grew up in the Valley of Oaxaca in southern Mexico and is known above all from the hilltop city of [Monte Albán](/site/monte-alban), one of the earliest cities in Mesoamerica. From around 500 BCE until the later first millennium CE, Monte Albán was the capital of a Zapotec state that came to dominate much of the Oaxacan highlands. Zapotec communities lasted through later centuries of rival kingdoms and the Spanish conquest, and Zapotec peoples and languages remain part of Oaxaca today.
 
 ## The valley and its first chiefdoms
 
@@ -18,7 +18,7 @@ Around 500 BCE a new settlement appeared on a ridge in that buffer zone, about 4
 
 ## A regional state
 
-During Monte Albán II the state expanded beyond the valley through conquest, alliance and colonisation, reaching areas such as the Cañada de Cuicatlán to the north. Local pottery styles in several regions were suddenly replaced by Zapotec ones. Alfonso Caso, who excavated the site from 1931, argued that Building J on the Main Plaza, an arrow-shaped structure with more than 40 carved stones naming places, recorded conquered provinces. Monte Albán also had close ties with Teotihuacan, where archaeologists have identified a neighbourhood of people from Oaxaca.
+During Monte Albán II the state expanded beyond the valley through conquest, alliance and colonisation, reaching areas such as the Cañada de Cuicatlán to the north. Local pottery styles in several regions were suddenly replaced by Zapotec ones. Alfonso Caso, who excavated the site from 1931, argued that Building J on the Main Plaza, an arrow-shaped structure with more than 40 carved stones naming places, recorded conquered provinces. Monte Albán also had close ties with [Teotihuacan](/site/teotihuacan), where archaeologists have identified a neighbourhood of people from Oaxaca.
 
 ## Writing, belief and dating
 

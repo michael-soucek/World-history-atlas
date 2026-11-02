@@ -18,6 +18,10 @@
  *
  *   node scripts/build-entity-images.mjs           # only pages not yet done
  *   node scripts/build-entity-images.mjs --full    # redo everything
+ *
+ * Historic sites (src/data/sites.json, keyed by QID) and cities
+ * (src/data/cities.json, keyed "city:{slug}") are done too. Their Wikipedia
+ * article is only used when its coordinates lie near the place's own.
  */
 
 import fs from "node:fs";
@@ -116,16 +120,77 @@ function vet(info) {
   };
 }
 
+const MAX_KM = 40;
+
+function km(a, b) {
+  const r = Math.PI / 180;
+  const h = Math.sin(((b.lat - a.lat) * r) / 2) ** 2 + Math.cos(a.lat * r) * Math.cos(b.lat * r) * Math.sin(((b.lon - a.lon) * r) / 2) ** 2;
+  return 12742 * Math.asin(Math.sqrt(h));
+}
+
+/**
+ * The first candidate title whose article sits within MAX_KM of the point. An
+ * article with no coordinates counts only under the place's exact name, and
+ * never a disambiguation page.
+ */
+async function titleNear(candidates, point) {
+  const url =
+    "https://en.wikipedia.org/w/api.php?action=query&format=json&redirects=1&prop=coordinates|pageprops&ppprop=disambiguation&colimit=max" +
+    `&titles=${candidates.map(encodeURIComponent).join("|")}`;
+  const data = await fetchJson(url);
+  const pages = Object.values(data?.query?.pages ?? {});
+  const resolved = new Map(candidates.map((c) => [c, c]));
+  for (const n of [...(data?.query?.normalized ?? []), ...(data?.query?.redirects ?? [])])
+    for (const [c, t] of resolved) if (t === n.from) resolved.set(c, n.to);
+  for (const c of candidates) {
+    const page = pages.find((p) => p.title === resolved.get(c));
+    const co = page?.coordinates?.[0];
+    if (!page || page.missing !== undefined || page.pageprops?.disambiguation !== undefined) continue;
+    if (co ? km({ lat: co.lat, lon: co.lon }, { lat: point.lat, lon: point.lng }) <= MAX_KM : c === candidates[0]) return page.title;
+  }
+  return null;
+}
+
+/** Sites and cities as image targets. */
+async function placeTargets(done) {
+  const read = (f) => JSON.parse(fs.readFileSync(path.join(ROOT, f), "utf8"));
+  const targets = [];
+  const sites = read("src/data/sites.json").filter((s) => FULL || !done[s.wikidataId]);
+  for (let i = 0; i < sites.length; i += 50) {
+    const batch = sites.slice(i, i + 50);
+    const data = await fetchJson(
+      `https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&props=sitelinks&sitefilter=enwiki&ids=${batch.map((s) => s.wikidataId).join("|")}`,
+    );
+    for (const s of batch) {
+      const title = data?.entities?.[s.wikidataId]?.sitelinks?.enwiki?.title;
+      if (title) targets.push({ key: s.wikidataId, title, label: `site:${s.name}` });
+    }
+  }
+  for (const c of read("src/data/cities.json")) {
+    const key = `city:${c.slug}`;
+    if (!FULL && done[key]) continue;
+    const title = await titleNear([c.name, `${c.name}, ${c.country}`, `${c.name} City`, `${c.name} (city)`, `${c.name} (ancient city)`], c);
+    if (title) targets.push({ key, title, label: key });
+    else console.log(`  ${key} — no Wikipedia article near its coordinates`);
+  }
+  return targets;
+}
+
 async function main() {
   const cache = JSON.parse(fs.readFileSync(CACHE_PATH, "utf8")).entries ?? {};
   let out = {};
   if (!FULL && fs.existsSync(OUT_PATH)) out = JSON.parse(fs.readFileSync(OUT_PATH, "utf8")).entries ?? {};
-  const todo = Object.values(cache).filter((e) => e.wikipediaUrl && (FULL || !out[e.qid]));
+  const todo = [
+    ...Object.values(cache)
+      .filter((e) => e.wikipediaUrl && (FULL || !out[e.qid]))
+      .map((e) => ({ key: e.qid, title: decodeURIComponent(e.wikipediaUrl.split("/wiki/")[1]).replace(/_/g, " "), label: `${e.entityType}:${e.name}` })),
+    ...(await placeTargets(out)),
+  ];
   console.log(`${todo.length} pages to process (${Object.keys(out).length} already done)`);
   const rejected = {};
   let n = 0;
   for (const e of todo) {
-    const title = decodeURIComponent(e.wikipediaUrl.split("/wiki/")[1]).replace(/_/g, " ");
+    const { title } = e;
     const media = (await mediaList(title)).slice(0, 40);
     const infos = media.length ? await commonsInfo(media.map((m) => m.file)) : new Map();
     const kept = [];
@@ -137,9 +202,9 @@ async function main() {
       kept.push({ file: m.file.replace(/^File:/, ""), caption: truncate(m.caption, 220) || undefined, ...v.image });
       if (kept.length >= MAX_IMAGES) break;
     }
-    out[e.qid] = kept;
+    out[e.key] = kept;
     n++;
-    console.log(`  ${e.entityType}:${e.name} — ${kept.length}/${media.length} kept`);
+    console.log(`  ${e.label} — ${kept.length}/${media.length} kept`);
     if (n % 20 === 0) fs.writeFileSync(OUT_PATH, JSON.stringify({ generatedAt: new Date().toISOString(), entries: out }));
     await sleep(400);
   }

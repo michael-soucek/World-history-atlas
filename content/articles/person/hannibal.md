@@ -25,7 +25,7 @@ Hannibal defeated the Romans at the Ticinus and the Trebia in 218 BCE. In 217 BC
 
 ## Stalemate
 
-After Cannae, Capua and many southern Italian cities and Syracuse joined Hannibal, and he allied with Philip V of Macedon. But Hannibal did not march on Rome, which kept fighting, and most of Rome's allies remained loyal. He lacked siege equipment and reinforcements. For over a decade, he stayed in southern Italy, while Rome retook Capua and Syracuse. In 207 BCE his brother Hasdrubal, bringing reinforcements, was defeated and killed at the Metaurus; his head was thrown into Hannibal's camp.
+After Cannae, Capua and many southern Italian cities and [Syracuse](/history-of/syracuse) joined Hannibal, and he allied with Philip V of Macedon. But Hannibal did not march on Rome, which kept fighting, and most of Rome's allies remained loyal. He lacked siege equipment and reinforcements. For over a decade, he stayed in southern Italy, while Rome retook Capua and Syracuse. In 207 BCE his brother Hasdrubal, bringing reinforcements, was defeated and killed at the Metaurus; his head was thrown into Hannibal's camp.
 
 ## Zama
 

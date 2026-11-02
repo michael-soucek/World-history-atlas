@@ -9,7 +9,7 @@ Vladivostok occupies a hilly peninsula on the Sea of Japan in the far south-east
 
 ## Before Russia
 
-For most of its history the southern coast of the Primorye region was a frontier of states based further inland. The kingdom of Balhae (also written Parhae), founded in 698, and later the Jurchen Jin dynasty held the area, and remains of their towns and fortresses have been found nearby. The [Mongol Empire](/place/mongol-empire) and its successors claimed the region, and from the 17th century it formed part of the outer lands of the [Qing dynasty](/place/qing-dynasty), thinly populated by Udege, Nanai and other peoples, with Chinese fishermen and trappers who called the bay Haishenwai. The maps' "Russian Empire" colouring from 1815 is too early: the coast was still nominally Qing territory until 1860.
+For most of its history the southern coast of the Primorye region was a frontier of states based further inland. The kingdom of [Balhae](/place/balhae) (also written Parhae), founded in 698, and later the Jurchen Jin dynasty held the area, and remains of their towns and fortresses have been found nearby. The [Mongol Empire](/place/mongol-empire) and its successors claimed the region, and from the 17th century it formed part of the outer lands of the [Qing dynasty](/place/qing-dynasty), thinly populated by Udege, Nanai and other peoples, with Chinese fishermen and trappers who called the bay Haishenwai. The maps' "Russian Empire" colouring from 1815 is too early: the coast was still nominally Qing territory until 1860.
 
 ## A Russian outpost on the Pacific
 

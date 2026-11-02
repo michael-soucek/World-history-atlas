@@ -13,7 +13,7 @@ Elizabeth I was queen of England and Ireland from 1558 to 1603, the last monarch
 
 ## A dangerous childhood
 
-Elizabeth was born on 7 September 1533 at Greenwich, the daughter of Henry VIII and his second wife, Anne Boleyn. When she was two, her mother was executed on charges of adultery and treason, and Elizabeth was declared illegitimate. She was later restored to the line of succession. She received an excellent education, learning Latin, Greek, French and Italian. Under her half-brother Edward VI and her Catholic half-sister Mary I, her position was dangerous: after Wyatt's Rebellion in 1554, a Protestant uprising, Mary imprisoned her in the Tower of London.
+Elizabeth was born on 7 September 1533 at Greenwich, the daughter of Henry VIII and his second wife, Anne Boleyn. When she was two, her mother was executed on charges of adultery and treason, and Elizabeth was declared illegitimate. She was later restored to the line of succession. She received an excellent education, learning Latin, Greek, French and Italian. Under her half-brother Edward VI and her Catholic half-sister Mary I, her position was dangerous: after Wyatt's Rebellion in 1554, a Protestant uprising, Mary imprisoned her in the [Tower of London](/site/tower-of-london).
 
 ## Queen
 

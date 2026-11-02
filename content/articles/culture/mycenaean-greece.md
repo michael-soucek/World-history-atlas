@@ -4,11 +4,11 @@ sources:
   - Wikidata: Mycenaean Greece (Q181264) | https://www.wikidata.org/wiki/Q181264
 written: 2026-10-22
 ---
-Mycenaean Greece was the last phase of the Bronze Age in mainland Greece, from about 1600 to 1100 BCE. Named after Mycenae, its most famous site, it was the first advanced civilisation on the Greek mainland, with palace states, writing in an early form of Greek and a warrior aristocracy. It is the world described, in legendary form, by Homer's epics.
+Mycenaean Greece was the last phase of the Bronze Age in mainland Greece, from about 1600 to 1100 BCE. Named after [Mycenae](/history-of/mycenae), its most famous site, it was the first advanced civilisation on the Greek mainland, with palace states, writing in an early form of Greek and a warrior aristocracy. It is the world described, in legendary form, by Homer's epics.
 
 ## Rise
 
-The Mycenaeans were Greek-speakers who emerged as a wealthy elite around 1600 BCE, as shown by the rich shaft graves at Mycenae, excavated by Heinrich Schliemann in 1876. They contained gold masks, one of which he called the "Mask of Agamemnon", weapons and jewellery. The Mycenaeans were influenced by the Minoan civilisation of Crete, and around 1450 BCE they took control of Crete and its palace at Knossos.
+The Mycenaeans were Greek-speakers who emerged as a wealthy elite around 1600 BCE, as shown by the rich shaft graves at Mycenae, excavated by Heinrich Schliemann in 1876. They contained gold masks, one of which he called the "Mask of Agamemnon", weapons and jewellery. The Mycenaeans were influenced by the Minoan civilisation of Crete, and around 1450 BCE they took control of Crete and its palace at [Knossos](/site/knossos).
 
 ## Palaces
 
@@ -24,7 +24,7 @@ The Mycenaeans traded across the Mediterranean, with Egypt, Cyprus, the Levant, 
 
 ## Troy
 
-Homer's Iliad and Odyssey, composed around the eighth century BCE, tell of the Trojan War, in which a Greek army led by Agamemnon, king of Mycenae, besieged Troy, in Anatolia. Schliemann excavated Troy at Hisarlik, in Turkey, from 1870. Archaeologists debate whether a real war lies behind the legend; Troy was destroyed several times, including around 1180 BCE.
+Homer's Iliad and Odyssey, composed around the eighth century BCE, tell of the Trojan War, in which a Greek army led by Agamemnon, king of Mycenae, besieged [Troy](/site/troy), in Anatolia. Schliemann excavated Troy at Hisarlik, in Turkey, from 1870. Archaeologists debate whether a real war lies behind the legend; Troy was destroyed several times, including around 1180 BCE.
 
 ## Collapse
 

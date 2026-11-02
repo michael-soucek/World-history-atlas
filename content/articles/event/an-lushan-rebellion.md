@@ -8,7 +8,7 @@ The An Lushan Rebellion was a devastating revolt against the Tang dynasty of Chi
 
 ## The Tang at its height
 
-In the first half of the eighth century, under the Xuanzong emperor, the Tang dynasty was at the height of its power and cultural brilliance, the age of the poets Li Bai and Du Fu. Its capital, Chang'an, was perhaps the largest city in the world. To defend its long frontiers, the Tang relied on large professional armies under military governors, jiedushi, who controlled frontier regions.
+In the first half of the eighth century, under the Xuanzong emperor, the Tang dynasty was at the height of its power and cultural brilliance, the age of the poets [Li Bai](/person/li-bai) and [Du Fu](/person/du-fu). Its capital, Chang'an, was perhaps the largest city in the world. To defend its long frontiers, the Tang relied on large professional armies under military governors, jiedushi, who controlled frontier regions.
 
 ## An Lushan
 
@@ -16,7 +16,7 @@ An Lushan was a general of Sogdian and Turkic origin, born around 703, who rose 
 
 ## The revolt
 
-In December 755 An Lushan rebelled, marching south from his base near today's Beijing with a large army. He took Luoyang, the eastern capital, and in 756 proclaimed himself emperor of a new Yan dynasty. In July 756 his forces broke through the pass of Tongguan and threatened Chang'an. The emperor fled west to Sichuan. At Mawei, the imperial guards mutinied, killed Yang Guozhong and demanded the death of Yang Guifei, whom they blamed for the disaster; the emperor allowed her to be strangled. The story of their love became a famous theme in Chinese literature, as in Bai Juyi's poem "Song of Everlasting Sorrow". Xuanzong abdicated in favour of his son, Suzong.
+In December 755 An Lushan rebelled, marching south from his base near today's Beijing with a large army. He took [Luoyang](/history-of/luoyang), the eastern capital, and in 756 proclaimed himself emperor of a new Yan dynasty. In July 756 his forces broke through the pass of Tongguan and threatened Chang'an. The emperor fled west to Sichuan. At Mawei, the imperial guards mutinied, killed Yang Guozhong and demanded the death of Yang Guifei, whom they blamed for the disaster; the emperor allowed her to be strangled. The story of their love became a famous theme in Chinese literature, as in Bai Juyi's poem "Song of Everlasting Sorrow". Xuanzong abdicated in favour of his son, Suzong.
 
 ## The war
 

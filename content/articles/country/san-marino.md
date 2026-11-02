@@ -47,7 +47,7 @@ During [the Renaissance](/culture/renaissance) the independence of San Marino wa
 
 On 1 September 1600 the republic adopted new Statutes, the Leges Statutae, which named the Grand and General Council as the supreme authority of the state. They remain at the core of its constitution and are often described as the oldest written governing documents still in force. When the Duchy of Urbino passed to [the Papal States](/place/papal-states) in 1631, San Marino became an enclave entirely surrounded by papal territory, and it placed itself under the protection of the pope, while keeping its own government.
 
-The protector proved a threat in 1739, when Cardinal Giulio Alberoni, the papal legate in Ravenna, occupied the republic with troops on 17 October and imposed a new constitution. The citizens appealed to Pope Clement XII, who restored their independence on 5 February 1740, the feast of Saint Agatha, who became a patron saint of the republic.
+The protector proved a threat in 1739, when Cardinal Giulio Alberoni, the papal legate in [Ravenna](/history-of/ravenna), occupied the republic with troops on 17 October and imposed a new constitution. The citizens appealed to Pope Clement XII, who restored their independence on 5 February 1740, the feast of Saint Agatha, who became a patron saint of the republic.
 
 ## Napoleon, Garibaldi and Italian unification
 

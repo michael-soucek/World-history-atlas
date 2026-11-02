@@ -12,7 +12,7 @@ Southern Mesopotamia was a flat, dry, hot land, but the rivers provided water fo
 
 ## The first cities
 
-During the Uruk period, from about 4000 to 3100 BCE, the city of Uruk grew into perhaps the world's first true city, with tens of thousands of people, and monumental temples. By the third millennium BCE, Sumer was divided into independent city-states, such as Uruk, Ur, Lagash, Umma, Kish, Eridu and Nippur, each with its patron god and temple, often on a stepped platform, the ziggurat, ruled by a king, lugal, or governor, ensi. City-states often fought each other over land and water; the Stele of the Vultures records a victory of Lagash over Umma.
+During the Uruk period, from about 4000 to 3100 BCE, the city of [Uruk](/history-of/uruk) grew into perhaps the world's first true city, with tens of thousands of people, and monumental temples. By the third millennium BCE, Sumer was divided into independent city-states, such as Uruk, Ur, Lagash, Umma, Kish, Eridu and Nippur, each with its patron god and temple, often on a stepped platform, the ziggurat, ruled by a king, lugal, or governor, ensi. City-states often fought each other over land and water; the Stele of the Vultures records a victory of Lagash over Umma.
 
 ## Writing
 

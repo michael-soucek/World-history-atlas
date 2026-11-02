@@ -8,11 +8,11 @@ The Late Bronze Age collapse was a period of widespread societal collapse in the
 
 ## An interconnected world
 
-In the Late Bronze Age, the eastern Mediterranean and Near East were connected by trade and diplomacy. Great kingdoms, Egypt, the Hittites in Anatolia, Assyria, Babylon and Mitanni, exchanged letters, gifts and royal brides, as recorded in the Amarna letters of the fourteenth century BCE. Palaces in Mycenaean Greece kept records in Linear B. The Uluburun shipwreck, from around 1300 BCE, found off southern Turkey, carried copper ingots from Cyprus, tin, glass, ivory, gold and other goods from across the region. Tin, needed to make bronze from copper, came from far away, perhaps Central Asia.
+In the Late Bronze Age, the eastern Mediterranean and Near East were connected by trade and diplomacy. Great kingdoms, Egypt, the Hittites in Anatolia, Assyria, Babylon and Mitanni, exchanged letters, gifts and royal brides, as recorded in the [Amarna](/history-of/amarna) letters of the fourteenth century BCE. Palaces in Mycenaean Greece kept records in Linear B. The Uluburun shipwreck, from around 1300 BCE, found off southern Turkey, carried copper ingots from Cyprus, tin, glass, ivory, gold and other goods from across the region. Tin, needed to make bronze from copper, came from far away, perhaps Central Asia.
 
 ## Destruction
 
-Around 1200 BCE, many cities were destroyed. The Hittite capital, Hattusa, was abandoned and burned, and the Hittite Empire disappeared. Ugarit, a rich trading city on the Syrian coast, was destroyed around 1185 BCE; its last tablets include letters asking for help against enemy ships. In Greece, the Mycenaean palaces, such as Pylos and Mycenae, were destroyed, and writing disappeared; Greece entered a "Dark Age" until about 800 BCE. Cyprus and many cities in the Levant were also destroyed.
+Around 1200 BCE, many cities were destroyed. The Hittite capital, [Hattusa](/history-of/hattusa), was abandoned and burned, and the Hittite Empire disappeared. Ugarit, a rich trading city on the Syrian coast, was destroyed around 1185 BCE; its last tablets include letters asking for help against enemy ships. In Greece, the Mycenaean palaces, such as Pylos and [Mycenae](/history-of/mycenae), were destroyed, and writing disappeared; Greece entered a "Dark Age" until about 800 BCE. Cyprus and many cities in the Levant were also destroyed.
 
 ## The Sea Peoples
 

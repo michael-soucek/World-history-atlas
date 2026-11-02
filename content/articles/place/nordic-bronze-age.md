@@ -17,7 +17,7 @@ Most people lived on single farmsteads, each with a longhouse; a few halls reach
 
 ## Metal, amber and long-distance contacts
 
-All bronze and gold had to be imported, from Central Europe and as far as Sardinia, Iberia and Cyprus, but objects were usually made locally, using the lost-wax method. In the fifteenth and fourteenth centuries BCE southern Scandinavia placed more elaborate bronzes in its graves and hoards than any other part of Europe. In return the north exported amber along the Amber Road; Baltic amber reached the shaft graves of Mycenae. The archaeologists Kristiansen and Larsson argue that the culture after 1500 BCE drew consciously on a [Mycenaean](/culture/mycenaean-greece) model, and southern Scandinavia shared with Greece similar swords, campstools, razors and other elements of an elite lifestyle.
+All bronze and gold had to be imported, from Central Europe and as far as Sardinia, Iberia and Cyprus, but objects were usually made locally, using the lost-wax method. In the fifteenth and fourteenth centuries BCE southern Scandinavia placed more elaborate bronzes in its graves and hoards than any other part of Europe. In return the north exported amber along the Amber Road; Baltic amber reached the shaft graves of [Mycenae](/history-of/mycenae). The archaeologists Kristiansen and Larsson argue that the culture after 1500 BCE drew consciously on a [Mycenaean](/culture/mycenaean-greece) model, and southern Scandinavia shared with Greece similar swords, campstools, razors and other elements of an elite lifestyle.
 
 ## Warriors and battle
 

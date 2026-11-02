@@ -10,7 +10,7 @@ sources:
   - MacTutor History of Mathematics, University of St Andrews: Archimedes of Syracuse | https://mathshistory.st-andrews.ac.uk/Biographies/Archimedes/
 written: 2026-10-25
 ---
-Archimedes of Syracuse was a Greek mathematician, physicist and engineer of the third century BCE, generally regarded as the greatest mathematician of the ancient world. He calculated areas and volumes of curved figures with methods that anticipated integral calculus, gave a close estimate of the value of pi, founded the sciences of statics and hydrostatics with the law of the lever and the principle of buoyancy, and became famous for the war machines with which he defended his city against Rome.
+Archimedes of [Syracuse](/history-of/syracuse) was a Greek mathematician, physicist and engineer of the third century BCE, generally regarded as the greatest mathematician of the ancient world. He calculated areas and volumes of curved figures with methods that anticipated integral calculus, gave a close estimate of the value of pi, founded the sciences of statics and hydrostatics with the law of the lever and the principle of buoyancy, and became famous for the war machines with which he defended his city against Rome.
 
 ## Life and sources
 

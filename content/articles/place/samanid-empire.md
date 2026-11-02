@@ -3,15 +3,13 @@ sources:
   - Wikipedia: Samanid Empire | https://en.wikipedia.org/wiki/Samanid_Empire
   - Wikidata: Samanid Empire (Q12150341) | https://www.wikidata.org/wiki/Q12150341
   - Borders of Time maps, built on historical-basemaps | https://github.com/aourednik/historical-basemaps
-title: Samanid Empire Map: Bukhara, Ismail Samani & Persian Revival
-description: The Samanids ruled Iran and Central Asia from Bukhara in the 9th and 10th centuries. See their borders on our map, Ismail Samani and the Persian revival.
 written: 2026-10-22
 ---
 The Samanid Empire ruled north-eastern Iran and Central Asia from its capital at Bukhara in the ninth and tenth centuries. A Sunni Muslim dynasty of Persian origin, the Samanids presided over a revival of the Persian language and literature that shaped Persian culture for the next thousand years.
 
 ## The dehqans
 
-The Samanids came from the dehqans, the Persian landowning gentry of Central Asia, who preserved Iranian traditions after the Arab conquest. Saman Khuda, the family founder, was from Balkh or nearby and converted to Islam, according to tradition, under the Umayyad governor Asad ibn Abdallah. His grandsons served the Abbasid caliph al-Mamun, who appointed them governors of Samarkand, Ferghana, Shash and Herat in 819.
+The Samanids came from the dehqans, the Persian landowning gentry of Central Asia, who preserved Iranian traditions after the Arab conquest. Saman Khuda, the family founder, was from [Balkh](/history-of/balkh) or nearby and converted to Islam, according to tradition, under the Umayyad governor Asad ibn Abdallah. His grandsons served the Abbasid caliph al-Mamun, who appointed them governors of Samarkand, Ferghana, Shash and Herat in 819.
 
 ## Ismail Samani
 

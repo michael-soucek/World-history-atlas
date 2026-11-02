@@ -4,7 +4,7 @@ sources:
   - Wikidata: Eruption of Vesuvius (Q2411998) | https://www.wikidata.org/wiki/Q2411998
 written: 2026-10-30
 ---
-In 79 CE Mount Vesuvius, a volcano overlooking the Bay of Naples in southern [Italy](/country/italy), erupted violently, burying the Roman towns of Pompeii, Herculaneum and Stabiae and many villas and farms around them. Thousands of people died. The ash and volcanic debris preserved the towns so well that their excavation, from the eighteenth century onwards, has given an unrivalled picture of everyday life in the [Roman Empire](/place/roman-empire).
+In 79 CE Mount Vesuvius, a volcano overlooking the Bay of Naples in southern [Italy](/country/italy), erupted violently, burying the Roman towns of [Pompeii](/site/pompeii), Herculaneum and Stabiae and many villas and farms around them. Thousands of people died. The ash and volcanic debris preserved the towns so well that their excavation, from the eighteenth century onwards, has given an unrivalled picture of everyday life in the [Roman Empire](/place/roman-empire).
 
 ## Before the eruption
 

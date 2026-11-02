@@ -17,7 +17,7 @@ Marius was born around 157 BC near Arpinum, a town south-east of Rome. Plutarch 
 
 ## The war against Jugurtha
 
-In 109 BC Marius went to Numidia as a senior officer under the consul Quintus Caecilius Metellus, who was fighting the Numidian king Jugurtha. He fell out with his commander, returned to Rome, and won the consulship for 107 BC on a promise to end the war quickly. Through a vote of the people's assembly he took the command away from Metellus. He enlisted volunteers, including men without property, and fought a hard campaign, taking and razing the town of Capsa. The war ended in 105 BC when King Bocchus of Mauretania handed Jugurtha to Marius's quaestor, [Sulla](/person/sulla). The question of who deserved the credit began a lifelong rivalry between the two men.
+In 109 BC Marius went to [Numidia](/place/numidia) as a senior officer under the consul Quintus Caecilius Metellus, who was fighting the Numidian king Jugurtha. He fell out with his commander, returned to Rome, and won the consulship for 107 BC on a promise to end the war quickly. Through a vote of the people's assembly he took the command away from Metellus. He enlisted volunteers, including men without property, and fought a hard campaign, taking and razing the town of Capsa. The war ended in 105 BC when King Bocchus of [Mauretania](/place/mauretania) handed Jugurtha to Marius's quaestor, [Sulla](/person/sulla). The question of who deserved the credit began a lifelong rivalry between the two men.
 
 ## Saving Italy from the Cimbri and Teutones
 

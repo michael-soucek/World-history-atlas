@@ -23,7 +23,7 @@ Soon after Hatshepsut's death, a coalition led by the king of Kadesh gathered at
 
 ## Campaigns in Syria and Nubia
 
-Over the next twenty years Thutmose campaigned almost annually; his annals, carved at the temple of Amun at Karnak, record at least sixteen expeditions, and counts run to seventeen or more. He garrisoned the Syrian coast, shipped troops by sea and took hostages from the families of local princes to keep their cities loyal. His main rival was Mitanni, a Hurrian kingdom that lay beyond the Euphrates. In his 33rd year he had boats carried overland from the coast, crossed the Euphrates and raided Mitannian territory, setting up a victory stela beside one left by his grandfather Thutmose I. Later fighting around Aleppo and Kadesh was less decisive than the official records claim. In his 50th year he campaigned in Nubia as far as the Fourth Cataract of the Nile.
+Over the next twenty years Thutmose campaigned almost annually; his annals, carved at the temple of Amun at [Karnak](/site/karnak), record at least sixteen expeditions, and counts run to seventeen or more. He garrisoned the Syrian coast, shipped troops by sea and took hostages from the families of local princes to keep their cities loyal. His main rival was Mitanni, a Hurrian kingdom that lay beyond the Euphrates. In his 33rd year he had boats carried overland from the coast, crossed the Euphrates and raided Mitannian territory, setting up a victory stela beside one left by his grandfather Thutmose I. Later fighting around Aleppo and Kadesh was less decisive than the official records claim. In his 50th year he campaigned in Nubia as far as the Fourth Cataract of the Nile.
 
 ## Builder
 
@@ -35,7 +35,7 @@ Many of Hatshepsut's images were later hacked out, and earlier scholars blamed a
 
 ## Death and burial
 
-Thutmose died in March 1425 BCE and was buried in tomb KV34 in the Valley of the Kings, which contains the earliest complete copy of the Amduat, a guide to the underworld. His mummy, damaged by ancient robbers, was found in 1881 in the royal cache at Deir el-Bahari.
+Thutmose died in March 1425 BCE and was buried in tomb KV34 in the [Valley of the Kings](/site/valley-of-the-kings), which contains the earliest complete copy of the Amduat, a guide to the underworld. His mummy, damaged by ancient robbers, was found in 1881 in the royal cache at Deir el-Bahari.
 
 ## On our maps
 

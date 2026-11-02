@@ -13,7 +13,7 @@ Nebuchadnezzar II was king of the Neo-Babylonian Empire from 605 to 562 BCE, its
 
 ## The Chaldean dynasty
 
-Nebuchadnezzar, in Akkadian Nabû-kudurri-uṣur, "O Nabu, protect my heir", was the son of Nabopolassar, who founded the Neo-Babylonian, or Chaldean, dynasty in 626 BCE by freeing Babylon from Assyrian rule. With the Medes, Nabopolassar destroyed the Assyrian Empire, taking Nineveh in 612 BCE. Nebuchadnezzar commanded the army as crown prince.
+Nebuchadnezzar, in Akkadian Nabû-kudurri-uṣur, "O Nabu, protect my heir", was the son of Nabopolassar, who founded the Neo-Babylonian, or Chaldean, dynasty in 626 BCE by freeing Babylon from Assyrian rule. With the Medes, Nabopolassar destroyed the Assyrian Empire, taking [Nineveh](/history-of/nineveh) in 612 BCE. Nebuchadnezzar commanded the army as crown prince.
 
 ## Carchemish
 

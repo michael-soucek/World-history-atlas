@@ -10,13 +10,13 @@ sources:
   - Encyclopedia.com: Ivan III | https://www.encyclopedia.com/people/history/russian-soviet-and-cis-history-biographies/ivan-iii
 written: 2026-10-25
 ---
-In a reign of forty-three years as Grand Prince of Moscow, from 1462 to 1505, Ivan III, known as Ivan the Great, absorbed Novgorod, Tver and most of the other independent Russian principalities, threw off the last overlordship of the Tatar khans, rebuilt the Moscow Kremlin and began to style himself tsar and sovereign of all Russia. Historians regard him as the real founder of the unified Russian state, which roughly tripled in size during his rule.
+In a reign of forty-three years as Grand Prince of Moscow, from 1462 to 1505, Ivan III, known as Ivan the Great, absorbed Novgorod, Tver and most of the other independent Russian principalities, threw off the last overlordship of the Tatar khans, rebuilt the [Moscow Kremlin](/site/moscow-kremlin) and began to style himself tsar and sovereign of all Russia. Historians regard him as the real founder of the unified Russian state, which roughly tripled in size during his rule.
 
 ## Heir in a civil war
 
 Ivan was born on 22 January 1440 to Maria of Borovsk and her husband Vasily II, Grand Prince of Moscow. His childhood fell in the middle of a long dynastic war between his father and Vasily's cousins, who in 1446 seized and blinded the grand prince. Vasily recovered his throne, and to secure the succession he made Ivan co-ruler while still a boy; the young prince is called grand prince in treaties from around 1448 or 1449 and took part in campaigns in his teens. He was married in 1452, at about twelve, to Maria, daughter of the prince of Tver. When Vasily II died in March 1462, Ivan succeeded without dispute.
 
-The [Grand Principality of Moscow](/place/grand-principality-of-moscow) he inherited was the strongest of the Russian states but only one of several. Novgorod, Tver, Ryazan, Pskov and Yaroslavl were still separate, the Grand Duchy of Lithuania ruled the old lands of Kyiv and much of western Rus, and Moscow still paid tribute to the khans of the Great Horde, successor to the [Golden Horde](/place/golden-horde).
+The [Grand Principality of Moscow](/place/grand-principality-of-moscow) he inherited was the strongest of the Russian states but only one of several. Novgorod, Tver, Ryazan, Pskov and Yaroslavl were still separate, the [Grand Duchy of Lithuania](/place/grand-duchy-of-lithuania) ruled the old lands of Kyiv and much of western Rus, and Moscow still paid tribute to the khans of the Great Horde, successor to the [Golden Horde](/place/golden-horde).
 
 ## The fall of Novgorod
 

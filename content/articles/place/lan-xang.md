@@ -5,7 +5,7 @@ sources:
   - Borders of Time maps, built on historical-basemaps | https://github.com/aourednik/historical-basemaps
 written: 2026-11-01
 ---
-Lan Xang, "the Million Elephants", was a Lao kingdom on the middle Mekong that ruled most of what is now [Laos](/country/laos), with lands beyond, from its conventional founding by Fa Ngum in 1353 until it split into three kingdoms in 1707. For much of that time it was one of the largest states in mainland Southeast Asia. Its capital was Luang Prabang and, from 1560, Vientiane, and it remains the foundation of Lao national history and culture.
+Lan Xang, "the Million Elephants", was a Lao kingdom on the middle Mekong that ruled most of what is now [Laos](/country/laos), with lands beyond, from its conventional founding by Fa Ngum in 1353 until it split into three kingdoms in 1707. For much of that time it was one of the largest states in mainland Southeast Asia. Its capital was [Luang Prabang](/history-of/luang-prabang) and, from 1560, Vientiane, and it remains the foundation of Lao national history and culture.
 
 ## Founding
 

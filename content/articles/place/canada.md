@@ -9,7 +9,7 @@ Canada became a self-governing country in 1867, when three British colonies in N
 
 ## First Nations, Inuit and Métis
 
-Indigenous peoples have lived in what is now Canada for at least 12,000 years, in many nations with diverse ways of life: the Haudenosaunee farmers of the Great Lakes, the Cree and Anishinaabe of the forests, the Blackfoot and others of the plains, the fishing and woodworking peoples of the Pacific coast, famous for their totem poles, and the Inuit of the Arctic. Norse explorers briefly settled at L'Anse aux Meadows, Newfoundland, around 1000.
+Indigenous peoples have lived in what is now Canada for at least 12,000 years, in many nations with diverse ways of life: the Haudenosaunee farmers of the Great Lakes, the Cree and Anishinaabe of the forests, the Blackfoot and others of the plains, the fishing and woodworking peoples of the Pacific coast, famous for their totem poles, and the Inuit of the Arctic. Norse explorers briefly settled at [L'Anse aux Meadows](/site/lanse-aux-meadows), Newfoundland, around 1000.
 
 ## New France
 

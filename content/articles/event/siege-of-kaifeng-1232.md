@@ -4,7 +4,7 @@ sources:
   - Wikidata: Siege of Kaifeng (Q15473934) | https://www.wikidata.org/wiki/Q15473934
 written: 2026-10-30
 ---
-From April 1232 to May 1233, Mongol forces under the general Subutai besieged Kaifeng, capital of the Jin dynasty, which the Jurchen people had established across northern China. Famine, plague and the flight of the Jin emperor broke the defence, and the city opened its gates on 29 May 1233. The siege is also one of the best-recorded early uses of gunpowder weapons in war, and it brought the end of the Jin dynasty within a year.
+From April 1232 to May 1233, Mongol forces under the general Subutai besieged [Kaifeng](/history-of/kaifeng), capital of the Jin dynasty, which the Jurchen people had established across northern China. Famine, plague and the flight of the Jin emperor broke the defence, and the city opened its gates on 29 May 1233. The siege is also one of the best-recorded early uses of gunpowder weapons in war, and it brought the end of the Jin dynasty within a year.
 
 ## Two decades of war
 

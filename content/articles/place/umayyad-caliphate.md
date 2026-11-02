@@ -17,7 +17,7 @@ When Yazid became caliph in 680, Husayn, the grandson of the Prophet and son of 
 
 ## The Dome of the Rock
 
-Abd al-Malik completed the Dome of the Rock in Jerusalem in 691–692, on the Temple Mount, the oldest surviving major Islamic monument. Its mosaics and inscriptions, which proclaim the unity of God and address Christians directly about the nature of Jesus, announced the new faith's place in the holy city. His son al-Walid I built the Great Mosque of Damascus on the site of a church, with spectacular mosaics of landscapes and buildings, and rebuilt the Prophet's Mosque in Medina.
+Abd al-Malik completed the [Dome of the Rock](/site/dome-of-the-rock) in Jerusalem in 691–692, on the Temple Mount, the oldest surviving major Islamic monument. Its mosaics and inscriptions, which proclaim the unity of God and address Christians directly about the nature of Jesus, announced the new faith's place in the holy city. His son al-Walid I built the Great Mosque of Damascus on the site of a church, with spectacular mosaics of landscapes and buildings, and rebuilt the Prophet's Mosque in Medina.
 
 ## A state of Arabs
 
@@ -25,7 +25,7 @@ Under the Umayyads, the ruling class was Arab. Arab soldiers lived in garrison c
 
 ## Desert palaces
 
-The Umayyad elite built palaces and bathhouses in the deserts of Syria and Jordan, such as Qusayr Amra, whose walls are painted with hunting scenes, bathing women, and rulers of the world, and Khirbat al-Mafjar near Jericho, with its famous mosaic of a lion attacking a gazelle. These show a court culture drawing on Byzantine and Persian traditions.
+The Umayyad elite built palaces and bathhouses in the deserts of Syria and Jordan, such as Qusayr Amra, whose walls are painted with hunting scenes, bathing women, and rulers of the world, and Khirbat al-Mafjar near [Jericho](/history-of/jericho), with its famous mosaic of a lion attacking a gazelle. These show a court culture drawing on Byzantine and Persian traditions.
 
 ## Expansion and its limits
 

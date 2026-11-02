@@ -4,7 +4,7 @@ sources:
   - Wikidata: Panama Canal (Q3137799) | https://www.wikidata.org/wiki/Q3137799
 written: 2026-10-30
 ---
-The Panama Canal, cut across the narrow isthmus joining North and South America, opened to shipping on 15 August 1914 after more than three decades of effort. A French company under Ferdinand de Lesseps began the work in 1881 but collapsed in ruin; the [United States](/place/united-states), after backing Panama's breakaway from Colombia, finished it. The canal transformed world shipping, and its control shaped relations between Washington and [Panama](/country/panama) for most of the twentieth century.
+The [Panama Canal](/site/panama-canal), cut across the narrow isthmus joining North and South America, opened to shipping on 15 August 1914 after more than three decades of effort. A French company under Ferdinand de Lesseps began the work in 1881 but collapsed in ruin; the [United States](/place/united-states), after backing Panama's breakaway from Colombia, finished it. The canal transformed world shipping, and its control shaped relations between Washington and [Panama](/country/panama) for most of the twentieth century.
 
 ## An old idea
 

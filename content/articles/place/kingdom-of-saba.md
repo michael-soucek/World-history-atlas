@@ -23,7 +23,7 @@ Saba was strongest between the 8th and 6th centuries BCE. Two long inscriptions 
 
 ## Marib, gods and trade
 
-Marib was the largest city of ancient South Arabia, walled and watered by a great dam that irrigated about 10,000 hectares. Nearby stood the Awwam Temple, the main sanctuary of Almaqah, the national god. Kings led armies and built public works but were not worshipped as gods. Wealth came from caravans carrying frankincense and myrrh north to Gaza and later Petra.
+Marib was the largest city of ancient South Arabia, walled and watered by a great dam that irrigated about 10,000 hectares. Nearby stood the Awwam Temple, the main sanctuary of Almaqah, the national god. Kings led armies and built public works but were not worshipped as gods. Wealth came from caravans carrying frankincense and myrrh north to Gaza and later [Petra](/site/petra).
 
 ## Decline and the second kingdom
 

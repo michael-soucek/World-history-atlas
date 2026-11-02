@@ -17,7 +17,7 @@ Magadha had many advantages: fertile soils in the Ganges valley for rice farming
 
 ## Bimbisara and Ajatashatru
 
-King Bimbisara, of the Haryanka dynasty, who ruled in the sixth or early fifth century BCE, expanded Magadha through marriage alliances and conquest, annexing Anga, to the east. According to tradition, he was killed by his son Ajatashatru, who conquered Kashi and Kosala and, after a long war, the Vajji confederacy. He built a fort at Pataligrama, on the Ganges, which became Pataliputra, the later capital, near modern Patna.
+King Bimbisara, of the Haryanka dynasty, who ruled in the sixth or early fifth century BCE, expanded Magadha through marriage alliances and conquest, annexing Anga, to the east. According to tradition, he was killed by his son Ajatashatru, who conquered Kashi and Kosala and, after a long war, the Vajji confederacy. He built a fort at Pataligrama, on the Ganges, which became Pataliputra, the later capital, near modern [Patna](/history-of/patna).
 
 ## Buddha and Mahavira
 

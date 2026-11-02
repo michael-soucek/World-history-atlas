@@ -16,7 +16,7 @@ Roman civil life broke down around 375, as the migration period began, when the 
 
 Pepin the Short had a residence built at Aachen, and his son [Charlemagne](/person/charlemagne) first spent Christmas there in 768, the year he became king. From 792 until his death in 814 he passed most winters at Aachen, which became the centre of his court and of the [Carolingian Empire](/place/carolingian-empire). He built the palace and the Palatine Chapel, and the court produced important manuscripts. In 802 a Jewish merchant named Isaac, returning from an embassy to the caliph Harun al-Rashid, brought the emperor an elephant called Abul-Abbas. Charlemagne was buried in his chapel; the original tomb is lost, and the remains said to be his rest in a shrine, the Karlsschrein.
 
-When his grandsons divided the empire under the [Treaty of Verdun](/event/treaty-of-verdun), Aachen fell to Lothair's Middle Francia, and the Treaty of Meerssen in 870 assigned it to East Francia. [Otto I](/person/otto-i) was crowned king in Charlemagne's church in 936, and until Ferdinand I in 1531, around thirty German kings were crowned at Aachen. West Frankish forces raided the town in 978.
+When his grandsons divided the empire under the [Treaty of Verdun](/event/treaty-of-verdun), Aachen fell to Lothair's Middle Francia, and the Treaty of Meerssen in 870 assigned it to [East Francia](/place/east-francia). [Otto I](/person/otto-i) was crowned king in Charlemagne's church in 936, and until Ferdinand I in 1531, around thirty German kings were crowned at Aachen. West Frankish forces raided the town in 978.
 
 ## Free imperial city
 

@@ -9,7 +9,7 @@ sources:
   - Wikidata: Vespasian (Q1419) | https://www.wikidata.org/wiki/Q1419
 written: 2026-10-30
 ---
-Vespasian, born Titus Flavius Vespasianus, emerged as the final victor of the Roman civil wars of 69 CE, the Year of the Four Emperors, and ruled until his death ten years later. A soldier from a modest family of tax collectors, he restored order and the treasury after Nero's fall, began the Colosseum and founded the Flavian dynasty. The historians who described him, notably Josephus, Tacitus and Suetonius, all wrote under his family's rule or owed it favours, so their warm portrait should be read with some caution.
+Vespasian, born Titus Flavius Vespasianus, emerged as the final victor of the Roman civil wars of 69 CE, the Year of the Four Emperors, and ruled until his death ten years later. A soldier from a modest family of tax collectors, he restored order and the treasury after Nero's fall, began the [Colosseum](/site/colosseum) and founded the Flavian dynasty. The historians who described him, notably Josephus, Tacitus and Suetonius, all wrote under his family's rule or owed it favours, so their warm portrait should be read with some caution.
 
 ## An unpromising start
 

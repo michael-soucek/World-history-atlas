@@ -9,7 +9,7 @@ sources:
   - Wikidata: Qin Shi Huang (Q7192) | https://www.wikidata.org/wiki/Q7192
 written: 2026-10-22
 ---
-Qin Shi Huang was the founder of the Qin dynasty and the first emperor of a unified China, ruling as king of Qin from 246 BCE and as emperor from 221 BCE until his death in 210 BCE. He conquered the rival states, standardised writing, coins and measures, began the Great Wall and was buried with the Terracotta Army.
+Qin Shi Huang was the founder of the Qin dynasty and the first emperor of a unified China, ruling as king of Qin from 246 BCE and as emperor from 221 BCE until his death in 210 BCE. He conquered the rival states, standardised writing, coins and measures, began the Great Wall and was buried with the [Terracotta Army](/site/terracotta-army).
 
 ## King of Qin
 

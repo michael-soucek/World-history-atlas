@@ -14,7 +14,7 @@ Zhu Xi was a Chinese philosopher, teacher and official of the Southern [Song dyn
 
 ## Early life
 
-Zhu Xi was born on 18 October 1130 in Youxi, in Fujian province, where his father, a minor official from Wuyuan in Huizhou, was serving. These were troubled years. The Jurchen Jin dynasty had conquered northern China in 1127, and the Song court had retreated south, eventually settling at Hangzhou. Zhu's father lost his post in 1140 for opposing the court's policy of making peace with the Jin, and taught the boy at home. Anecdotes describe a precocious child who at five asked what lay beyond Heaven.
+Zhu Xi was born on 18 October 1130 in Youxi, in Fujian province, where his father, a minor official from Wuyuan in Huizhou, was serving. These were troubled years. The Jurchen Jin dynasty had conquered northern China in 1127, and the Song court had retreated south, eventually settling at [Hangzhou](/history-of/hangzhou). Zhu's father lost his post in 1140 for opposing the court's policy of making peace with the Jin, and taught the boy at home. Anecdotes describe a precocious child who at five asked what lay beyond Heaven.
 
 His father died in 1143, and Zhu Xi was taught by his father's friends, who introduced him to Buddhist and Daoist ideas as well as Confucian learning. In 1148, while still a teenager, he passed the highest level of the civil service examinations, earning the jinshi degree.
 

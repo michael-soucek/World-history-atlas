@@ -23,7 +23,7 @@ Karim Khan took the title Vakil, "deputy", first of the state and later of the p
 
 ## Art and building
 
-Karim Khan rebuilt the walls of Shiraz and gave the city a citadel, the Arg of Karim Khan, along with the Vakil Mosque, bazaar and baths. Zand buildings are known for carved marble and tiles painted with flowers, animals and people, and some motifs were deliberately borrowed from the ancient ruins of Persepolis nearby. He restored the tombs of the poets Hafez and Saadi. Zand painting, whose leading figure was Mohammad Sadeq, became the basis of later Qajar art.
+Karim Khan rebuilt the walls of Shiraz and gave the city a citadel, the Arg of Karim Khan, along with the Vakil Mosque, bazaar and baths. Zand buildings are known for carved marble and tiles painted with flowers, animals and people, and some motifs were deliberately borrowed from the ancient ruins of [Persepolis](/site/persepolis) nearby. He restored the tombs of the poets [Hafez](/person/hafez) and Saadi. Zand painting, whose leading figure was Mohammad Sadeq, became the basis of later Qajar art.
 
 ## Decline and fall
 

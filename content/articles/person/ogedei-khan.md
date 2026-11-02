@@ -9,7 +9,7 @@ sources:
   - Wikidata: Ögedei Khan (Q7519) | https://www.wikidata.org/wiki/Q7519
 written: 2026-10-30
 ---
-Ögedei, third son of [Genghis Khan](/person/genghis-khan), was the second Great Khan of the [Mongol Empire](/place/mongol-empire), ruling from 1229 until his death in 1241. Under him the empire destroyed the Jin dynasty of northern China, completed the conquest of Persia, subdued the Caucasus and sent armies across the Russian principalities into Poland and Hungary. He also began to give the conquests a settled administration and built the Mongol capital at Karakorum.
+Ögedei, third son of [Genghis Khan](/person/genghis-khan), was the second Great Khan of the [Mongol Empire](/place/mongol-empire), ruling from 1229 until his death in 1241. Under him the empire destroyed the Jin dynasty of northern China, completed the conquest of Persia, subdued the Caucasus and sent armies across the Russian principalities into Poland and Hungary. He also began to give the conquests a settled administration and built the Mongol capital at [Karakorum](/history-of/karakorum).
 
 ## Son of a conqueror
 

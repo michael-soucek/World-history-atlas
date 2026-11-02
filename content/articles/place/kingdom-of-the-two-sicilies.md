@@ -10,7 +10,7 @@ The Kingdom of the Two Sicilies joined Sicily and the southern Italian mainland 
 
 ## Why "two Sicilies"
 
-The name looks back to the medieval Kingdom of Sicily created by Norman rulers, who had taken the island and the mainland south in the wake of the [Norman conquest of southern Italy](/event/norman-conquest-of-southern-italy); Roger II took the royal title in 1130. After the Sicilian Vespers revolt of 1282, the island passed to the Crown of Aragon while the mainland remained under the Angevin kings in Naples. Both rulers kept calling their realm the Kingdom of Sicily, so when the two were finally merged the result was a kingdom of two Sicilies.
+The name looks back to the medieval [Kingdom of Sicily](/place/kingdom-of-sicily) created by Norman rulers, who had taken the island and the mainland south in the wake of the [Norman conquest of southern Italy](/event/norman-conquest-of-southern-italy); Roger II took the royal title in 1130. After the Sicilian Vespers revolt of 1282, the island passed to the Crown of Aragon while the mainland remained under the Angevin kings in Naples. Both rulers kept calling their realm the Kingdom of Sicily, so when the two were finally merged the result was a kingdom of two Sicilies.
 
 ## Naples and Sicily under foreign crowns
 

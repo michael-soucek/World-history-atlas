@@ -13,7 +13,7 @@ Mingyi Nyo, who is listed as ruler from 1485, founded the dynasty's first empire
 
 ## Tabinshwehti and Bayinnaung
 
-Mingyi Nyo's son Tabinshwehti, who reigned from 1530 to 1550, pushed south, overran the Irrawaddy delta and took Bago, the capital of the Mon [Hanthawaddy kingdom](/place/hanthawaddy-kingdom). In 1544 he was crowned king of all Burma at the old capital of Bagan, and he moved his seat to Bago to profit from the growing sea trade with European merchants. His campaigns against Arakan in the west and against the [Ayutthaya Kingdom](/place/ayutthaya-kingdom) in 1547–49 both failed, and he was assassinated in 1550 amid revolts.
+Mingyi Nyo's son Tabinshwehti, who reigned from 1530 to 1550, pushed south, overran the Irrawaddy delta and took Bago, the capital of the Mon [Hanthawaddy kingdom](/place/hanthawaddy-kingdom). In 1544 he was crowned king of all Burma at the old capital of [Bagan](/site/bagan), and he moved his seat to Bago to profit from the growing sea trade with European merchants. His campaigns against Arakan in the west and against the [Ayutthaya Kingdom](/place/ayutthaya-kingdom) in 1547–49 both failed, and he was assassinated in 1550 amid revolts.
 
 His brother-in-law Bayinnaung, king from 1550 to 1581, restored and greatly widened the realm. He invaded Manipur in 1560 and Ayutthaya in 1564, and for the first time brought the [Shan States](/place/shan-states) under Burmese rule, along with Siam, [Lan Xang](/place/lan-xang) and Chinese Shan territories. At its height Toungoo claimed overlordship from Assam and Manipur to the borders of Cambodia, and from Arakan to Yunnan. Bayinnaung died in 1581 while preparing to attack the [Kingdom of Mrauk U](/place/kingdom-of-mrauk-u) in Arakan.
 

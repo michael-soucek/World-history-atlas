@@ -12,7 +12,7 @@ Under [Basil II](/person/basil-ii), who died in 1025, Byzantium had been the str
 
 ## Romanos's campaign
 
-Romanos IV Diogenes, a soldier, became emperor in 1068 by marrying the widowed empress, and he set out to restore the eastern defences. In spring 1071 he led a large army east, perhaps around 40,000 men according to modern estimates, though figures vary. It included Byzantine regulars, Armenian and Anatolian levies and foreign mercenaries such as Normans, Franks, Pechenegs and Oghuz Turks. Alp Arslan, who had been campaigning against the Fatimids in Syria, hurried north to meet him. Romanos divided his forces, sending a large detachment under Joseph Tarchaneiotes towards the fortress of Khliat; its fate is unclear, but it took no part in the battle. Romanos retook Manzikert on 23 August.
+Romanos IV Diogenes, a soldier, became emperor in 1068 by marrying the widowed empress, and he set out to restore the eastern defences. In spring 1071 he led a large army east, perhaps around 40,000 men according to modern estimates, though figures vary. It included Byzantine regulars, Armenian and Anatolian levies and foreign mercenaries such as Normans, Franks, [Pechenegs](/place/pechenegs) and Oghuz Turks. Alp Arslan, who had been campaigning against the Fatimids in Syria, hurried north to meet him. Romanos divided his forces, sending a large detachment under Joseph Tarchaneiotes towards the fortress of Khliat; its fate is unclear, but it took no part in the battle. Romanos retook Manzikert on 23 August.
 
 ## The battle
 

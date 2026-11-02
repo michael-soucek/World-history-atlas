@@ -4,7 +4,7 @@ sources:
   - Wikidata: Seneca Falls Convention (Q2736155) | https://www.wikidata.org/wiki/Q2736155
 written: 2026-10-30
 ---
-Over two summer days, 19 and 20 July 1848, around 300 people gathered in a Methodist chapel in the small town of Seneca Falls, in upstate New York, for the first convention called specifically to discuss the rights of women. Organised by Elizabeth Cady Stanton, Lucretia Mott and a circle of local Quaker women, it adopted the Declaration of Sentiments, which demanded legal, social and religious equality and, after heated debate, the right to vote. It is widely remembered as the starting point of the organised women's rights movement in the United States.
+Over two summer days, 19 and 20 July 1848, around 300 people gathered in a Methodist chapel in the small town of Seneca Falls, in upstate New York, for the first convention called specifically to discuss the rights of women. Organised by [Elizabeth Cady Stanton](/person/elizabeth-cady-stanton), Lucretia Mott and a circle of local Quaker women, it adopted the Declaration of Sentiments, which demanded legal, social and religious equality and, after heated debate, the right to vote. It is widely remembered as the starting point of the organised women's rights movement in the United States.
 
 ## Roots in reform
 

@@ -18,7 +18,7 @@ By the eleventh century the Jurchens were vassals of the Khitan [Liao dynasty](/
 
 ## The Jin dynasty
 
-In 1115 Wuyashu's brother Aguda declared himself emperor, founding the [Jin dynasty](/place/jin-dynasty-1115-1234), whose name means "gold". The Jin overthrew the Liao in 1125 and took the Song capital, Kaifeng, in 1127, driving the Song south until the border settled on the Huai River. A Jurchen script, based on the Khitan one, was created in 1120. From the late twelfth century the Jin fought the rising Mongols, moved their capital south to Kaifeng in 1215, and fell in 1234.
+In 1115 Wuyashu's brother Aguda declared himself emperor, founding the [Jin dynasty](/place/jin-dynasty-1115-1234), whose name means "gold". The Jin overthrew the Liao in 1125 and took the Song capital, [Kaifeng](/history-of/kaifeng), in 1127, driving the Song south until the border settled on the Huai River. A Jurchen script, based on the Khitan one, was created in 1120. From the late twelfth century the Jin fought the rising Mongols, moved their capital south to Kaifeng in 1215, and fell in 1234.
 
 ## Under the Ming
 

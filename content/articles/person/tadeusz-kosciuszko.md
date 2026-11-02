@@ -13,7 +13,7 @@ Tadeusz Kościuszko was a soldier of two revolutions: a military engineer for th
 
 ## A minor noble from Lithuania
 
-Kościuszko was born in February 1746 (the exact day is unknown) on a small family estate in the Grand Duchy of Lithuania, in what is now Belarus. His family were Polonised gentry of Ruthenian origin with modest lands. In 1765 he entered the new Corps of Cadets in Warsaw. When civil war broke out in 1768, he left for France on a royal scholarship in 1769 and spent five years in Paris, studying art and absorbing military engineering and Enlightenment ideas. He returned in 1774 to a country already cut down by the first partition of 1772 and, unable to afford a commission, worked as a tutor.
+Kościuszko was born in February 1746 (the exact day is unknown) on a small family estate in the [Grand Duchy of Lithuania](/place/grand-duchy-of-lithuania), in what is now Belarus. His family were Polonised gentry of Ruthenian origin with modest lands. In 1765 he entered the new Corps of Cadets in Warsaw. When civil war broke out in 1768, he left for France on a royal scholarship in 1769 and spent five years in Paris, studying art and absorbing military engineering and Enlightenment ideas. He returned in 1774 to a country already cut down by the first partition of 1772 and, unable to afford a commission, worked as a tutor.
 
 ## Engineer of the American Revolution
 

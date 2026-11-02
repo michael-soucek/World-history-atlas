@@ -7,7 +7,7 @@ sources:
   - Borders of Time maps, built on historical-basemaps | https://github.com/aourednik/historical-basemaps
 written: 2026-10-30
 ---
-The Masaesyli were a Berber people of western Numidia whose kingdom, at its height in the late 3rd century BCE, stretched across much of what is now [Algeria](/country/algeria) and into eastern Morocco. Under their best-known king, Syphax, they became a power courted by both Rome and Carthage during the Second Punic War, before defeat in 203 BCE brought their realm under the rule of their eastern rivals, the Massylii.
+The Masaesyli were a Berber people of western [Numidia](/place/numidia) whose kingdom, at its height in the late 3rd century BCE, stretched across much of what is now [Algeria](/country/algeria) and into eastern Morocco. Under their best-known king, Syphax, they became a power courted by both Rome and Carthage during the Second Punic War, before defeat in 203 BCE brought their realm under the rule of their eastern rivals, the Massylii.
 
 ## Land and people
 

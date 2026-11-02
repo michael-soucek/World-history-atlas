@@ -18,7 +18,7 @@ Linguists trace the languages back to Proto-Bantu, thought to have been spoken i
 
 ## Kingdoms and trading towns
 
-Between the ninth and fifteenth centuries states began to form in the Great Lakes region and on the savannas south of the rainforest, and state-building quickened from the twelfth century as populations grew denser and kingship gained ritual and spiritual authority. Among the best known are Mapungubwe; [Great Zimbabwe](/place/kingdom-of-great-zimbabwe), a civilisation ancestral to the Shona; the [Kingdom of Kongo](/place/kingdom-of-kongo); the [Luba](/place/luba-empire) and Lunda states; Buganda, Bunyoro, Rwanda and Burundi; the Mutapa Empire; and, much later, the [Zulu Kingdom](/place/zulu-kingdom). On the East African coast, contact with Arab and Persian Muslim traders produced [Swahili culture](/culture/swahili-culture) and city-states, and the Swahili language absorbed many Arabic loanwords. Bantu migration, and later the Indian Ocean slave trade, also carried Bantu ancestry and words to Madagascar.
+Between the ninth and fifteenth centuries states began to form in the Great Lakes region and on the savannas south of the rainforest, and state-building quickened from the twelfth century as populations grew denser and kingship gained ritual and spiritual authority. Among the best known are Mapungubwe; [Great Zimbabwe](/place/kingdom-of-great-zimbabwe), a civilisation ancestral to the Shona; the [Kingdom of Kongo](/place/kingdom-of-kongo); the [Luba](/place/luba-empire) and Lunda states; Buganda, [Bunyoro](/place/bunyoro), Rwanda and Burundi; the Mutapa Empire; and, much later, the [Zulu Kingdom](/place/zulu-kingdom). On the East African coast, contact with Arab and Persian Muslim traders produced [Swahili culture](/culture/swahili-culture) and city-states, and the Swahili language absorbed many Arabic loanwords. Bantu migration, and later the Indian Ocean slave trade, also carried Bantu ancestry and words to Madagascar.
 
 ## The word in South Africa
 
@@ -30,4 +30,4 @@ Estimates suggest there are between 440 and 680 Bantu languages, depending on ho
 
 ## On our maps
 
-Our maps use the label "Bantu peoples" for a broad zone of Central, East and Southern Africa on the 800, 900, 1000, 1100, 1200, 1279, 1300, 1400, 1492 and 1500 maps. The outline is approximate, and it sits beside named kingdoms such as Great Zimbabwe and Kongo where those are drawn.
+Our maps use the label "Bantu peoples" for a broad zone of Central, East and Southern Africa on the 800, 900, 1000, 1100, 1200, 1279, 1300, 1400, 1492 and 1500 maps. The outline is approximate, and it sits beside named kingdoms such as [Great Zimbabwe](/site/great-zimbabwe) and Kongo where those are drawn.

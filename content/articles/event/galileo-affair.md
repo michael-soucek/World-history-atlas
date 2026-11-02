@@ -8,7 +8,7 @@ Between 1610 and 1633 the Italian astronomer [Galileo Galilei](/person/galileo-g
 
 ## The telescope and its discoveries
 
-Galileo turned a telescope on the sky in late 1609 and in March 1610 published The Starry Messenger. He described mountains on the Moon, smaller bodies orbiting Jupiter, and faint stars hidden within what had looked like cloudy patches. He went on to observe sunspots and the phases of Venus. These findings fitted poorly with the Earth-centred system of Ptolemy and Aristotle and lent support to the heliocentric model that [Nicolaus Copernicus](/person/nicolaus-copernicus) had published in 1543. Jesuit astronomers in Rome soon confirmed many of the observations, although the hybrid, still Earth-centred system of Tycho Brahe, in which Venus for example circled the Sun, offered a way to accept them without a moving Earth.
+Galileo turned a telescope on the sky in late 1609 and in March 1610 published The Starry Messenger. He described mountains on the Moon, smaller bodies orbiting Jupiter, and faint stars hidden within what had looked like cloudy patches. He went on to observe sunspots and the phases of Venus. These findings fitted poorly with the Earth-centred system of Ptolemy and Aristotle and lent support to the heliocentric model that [Nicolaus Copernicus](/person/nicolaus-copernicus) had published in 1543. Jesuit astronomers in Rome soon confirmed many of the observations, although the hybrid, still Earth-centred system of [Tycho Brahe](/person/tycho-brahe), in which Venus for example circled the Sun, offered a way to accept them without a moving Earth.
 
 ## Scripture and the first accusations
 

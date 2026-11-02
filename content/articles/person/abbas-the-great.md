@@ -13,7 +13,7 @@ Abbas I, the fifth Safavid shah, took the throne of Iran in 1587 at a moment of 
 
 ## A dangerous childhood
 
-Abbas was born in Herat on 27 January 1571, the third son of Mohammad Khodabanda, a nearly blind prince, and Khayr al-Nisa Begum. While still a baby he was left in Herat as its nominal governor, raised by guardians from the Qizilbash, the Turkmen tribal warriors who formed the backbone of the [Safavid Empire](/place/safavid-empire). Their feuds nearly killed him: his uncle Ismail II sent a man to execute him in 1577, but the shah died before the order was carried out. In 1579 Qizilbash leaders strangled his mother, an experience that probably convinced him their power had to be broken.
+Abbas was born in [Herat](/history-of/herat) on 27 January 1571, the third son of Mohammad Khodabanda, a nearly blind prince, and Khayr al-Nisa Begum. While still a baby he was left in Herat as its nominal governor, raised by guardians from the Qizilbash, the Turkmen tribal warriors who formed the backbone of the [Safavid Empire](/place/safavid-empire). Their feuds nearly killed him: his uncle Ismail II sent a man to execute him in 1577, but the shah died before the order was carried out. In 1579 Qizilbash leaders strangled his mother, an experience that probably convinced him their power had to be broken.
 
 ## Seizing the throne
 
@@ -25,7 +25,7 @@ To buy time, Abbas made a costly peace with the Ottomans in 1590, giving up Tabr
 
 ## Wars of reconquest
 
-Abbas defeated the Uzbeks near Herat in August 1598 and recovered most of Khorasan. In 1603 he turned west, retaking Tabriz and then Yerevan in 1604, and won a decisive victory over the Ottomans at Sufiyan in November 1605. A peace in 1612 confirmed his control of most of the Caucasus, and an Ottoman counter-attack in 1618 was ambushed and defeated. He took Bahrain from the Portuguese in 1602, captured Kandahar from the [Mughal Empire](/place/mughal-empire) of [Jahangir](/person/jahangir) in 1622 and, the same year, seized Hormuz with the help of English East India Company ships. In 1624 he took Baghdad, which the Ottomans recovered only after his death.
+Abbas defeated the Uzbeks near Herat in August 1598 and recovered most of Khorasan. In 1603 he turned west, retaking Tabriz and then Yerevan in 1604, and won a decisive victory over the Ottomans at Sufiyan in November 1605. A peace in 1612 confirmed his control of most of the Caucasus, and an Ottoman counter-attack in 1618 was ambushed and defeated. He took Bahrain from the Portuguese in 1602, captured [Kandahar](/history-of/kandahar) from the [Mughal Empire](/place/mughal-empire) of [Jahangir](/person/jahangir) in 1622 and, the same year, seized Hormuz with the help of English East India Company ships. In 1624 he took Baghdad, which the Ottomans recovered only after his death.
 
 ## Deportations and massacres
 

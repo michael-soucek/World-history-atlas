@@ -15,7 +15,7 @@ Louis XVI was the last king of France before the [French Revolution](/event/fren
 
 ## Early life
 
-Louis-Auguste was born on 23 August 1754 at the Palace of Versailles, the grandson of King Louis XV, the great-grandson of [Louis XIV](/person/louis-xiv). He became heir, the dauphin, in 1765 after the deaths of his father and an elder brother. Shy and studious, he had a serious interest in geography, history, languages and locksmithing, and enjoyed hunting. On 16 May 1770, aged fifteen, he married the Austrian archduchess [Marie Antoinette](/person/marie-antoinette), daughter of the empress [Maria Theresa](/person/maria-theresa), to seal an alliance between France and the [Habsburg Monarchy](/place/habsburg-monarchy). The marriage was not consummated for seven years, a subject of gossip at court, and their first child was born in 1778.
+Louis-Auguste was born on 23 August 1754 at the [Palace of Versailles](/site/palace-of-versailles), the grandson of King Louis XV, the great-grandson of [Louis XIV](/person/louis-xiv). He became heir, the dauphin, in 1765 after the deaths of his father and an elder brother. Shy and studious, he had a serious interest in geography, history, languages and locksmithing, and enjoyed hunting. On 16 May 1770, aged fifteen, he married the Austrian archduchess [Marie Antoinette](/person/marie-antoinette), daughter of the empress [Maria Theresa](/person/maria-theresa), to seal an alliance between France and the [Habsburg Monarchy](/place/habsburg-monarchy). The marriage was not consummated for seven years, a subject of gossip at court, and their first child was born in 1778.
 
 ## King of France
 

@@ -14,7 +14,7 @@ Karl Marx was a German philosopher, economist, journalist and revolutionary whos
 
 ## Early life and education
 
-Marx was born on 5 May 1818 in Trier, in the Rhineland, then part of the [Kingdom of Prussia](/place/kingdom-of-prussia). Both his parents came from Jewish families with long lines of rabbis; his father Heinrich, a lawyer, converted to Lutheranism shortly before Karl's birth, apparently so that he could continue to practise law under Prussian restrictions on Jews. Marx studied law at the University of Bonn and then, from 1836, at Berlin, where he fell under the spell of the philosophy of [Hegel](/person/georg-wilhelm-friedrich-hegel) and joined the Young Hegelians, a circle of radical thinkers who turned Hegel's ideas against religion and the Prussian state. In 1841 he received a doctorate from the University of Jena for a thesis on the atomic theories of Democritus and Epicurus.
+Marx was born on 5 May 1818 in [Trier](/history-of/trier), in the Rhineland, then part of the [Kingdom of Prussia](/place/kingdom-of-prussia). Both his parents came from Jewish families with long lines of rabbis; his father Heinrich, a lawyer, converted to Lutheranism shortly before Karl's birth, apparently so that he could continue to practise law under Prussian restrictions on Jews. Marx studied law at the University of Bonn and then, from 1836, at Berlin, where he fell under the spell of the philosophy of [Hegel](/person/georg-wilhelm-friedrich-hegel) and joined the Young Hegelians, a circle of radical thinkers who turned Hegel's ideas against religion and the Prussian state. In 1841 he received a doctorate from the University of Jena for a thesis on the atomic theories of Democritus and Epicurus.
 
 ## Journalism and exile
 

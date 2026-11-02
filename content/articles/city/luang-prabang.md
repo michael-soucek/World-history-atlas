@@ -8,7 +8,7 @@ sources:
   - Wikipedia: Kingdom of Laos | https://en.wikipedia.org/wiki/Kingdom_of_Laos
   - Wikipedia: List of World Heritage Sites in Laos | https://en.wikipedia.org/wiki/List_of_World_Heritage_Sites_in_Laos
 ---
-Luang Prabang is a small city on the Mekong River in north-central Laos. Known in earlier times as Muang Sua and Xieng Thong, it was the first capital of the Lao kingdom of Lan Xang, founded in the fourteenth century, and later the seat of the kings of Luang Prabang, whose line became the monarchy of modern Laos. With more than thirty Buddhist monasteries set among wooden Lao houses and French colonial buildings, its old town is a World Heritage Site.
+Luang Prabang is a small city on the Mekong River in north-central Laos. Known in earlier times as Muang Sua and Xieng Thong, it was the first capital of the Lao kingdom of [Lan Xang](/place/lan-xang), founded in the fourteenth century, and later the seat of the kings of Luang Prabang, whose line became the monarchy of modern Laos. With more than thirty Buddhist monasteries set among wooden Lao houses and French colonial buildings, its old town is a World Heritage Site.
 
 ## Muang Sua before Lan Xang
 

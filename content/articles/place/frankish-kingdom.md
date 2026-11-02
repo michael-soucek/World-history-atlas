@@ -33,7 +33,7 @@ In 751 Charles Martel's son Pippin the Short, with the approval of Pope Zacharia
 
 ## Legacy
 
-Under Pippin's son Charlemagne the kingdom grew into an empire. When that empire was divided in 843, the western part, West Francia, became the kingdom of France, and the eastern part the core of the later German kingdom.
+Under Pippin's son Charlemagne the kingdom grew into an empire. When that empire was divided in 843, the western part, [West Francia](/place/west-francia), became the kingdom of France, and the eastern part the core of the later German kingdom.
 
 ## On our maps
 

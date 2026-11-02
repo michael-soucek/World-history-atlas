@@ -8,7 +8,7 @@ Phoenicia was a civilisation of city-states on the coast of the eastern Mediterr
 
 ## The cities
 
-The Phoenicians called themselves Canaanites, or by the names of their cities. The name Phoenician comes from the Greek phoinix, possibly referring to the purple dye they produced. Their main cities, Tyre, Sidon, Byblos and Arwad, were independent, each with a king, though often under the control of larger empires, such as Egypt, Assyria, Babylon and Persia. The cities were built on the coast or on islands, with harbours, backed by the mountains of Lebanon, which provided cedar wood, prized for building ships and temples.
+The Phoenicians called themselves Canaanites, or by the names of their cities. The name Phoenician comes from the Greek phoinix, possibly referring to the purple dye they produced. Their main cities, [Tyre](/history-of/tyre), [Sidon](/history-of/sidon), [Byblos](/history-of/byblos) and Arwad, were independent, each with a king, though often under the control of larger empires, such as Egypt, Assyria, Babylon and Persia. The cities were built on the coast or on islands, with harbours, backed by the mountains of Lebanon, which provided cedar wood, prized for building ships and temples.
 
 ## Trade
 

@@ -10,7 +10,7 @@ sources:
   - Internet Encyclopedia of Philosophy: Thales of Miletus | https://iep.utm.edu/thales/
 written: 2026-10-25
 ---
-Thales of Miletus was a Greek thinker of the early sixth century BCE whom Aristotle and most later Greek writers regarded as the first philosopher. He is credited with explaining the natural world through natural causes rather than the actions of the gods, proposing that everything comes from water, and with early achievements in geometry and astronomy. Nothing he may have written survives, so everything known about him comes from later authors, some writing centuries after his death.
+Thales of [Miletus](/history-of/miletus) was a Greek thinker of the early sixth century BCE whom Aristotle and most later Greek writers regarded as the first philosopher. He is credited with explaining the natural world through natural causes rather than the actions of the gods, proposing that everything comes from water, and with early achievements in geometry and astronomy. Nothing he may have written survives, so everything known about him comes from later authors, some writing centuries after his death.
 
 ## Miletus and the evidence
 

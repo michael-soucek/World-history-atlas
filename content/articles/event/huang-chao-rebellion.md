@@ -14,7 +14,7 @@ In 876 the court tried to buy Wang off with an army commission. Huang, left out 
 
 ## The long march south
 
-Huang avoided the forces gathered to protect Luoyang and struck south across the Yangtze, through Jiangxi, Zhejiang and Fujian. He repeatedly offered to submit if he were made a regional governor, but the court refused. In autumn 879 he took Guangzhou after a siege of a single day. Arab sources claim that tens of thousands of foreign merchants and residents were killed there, though Chinese sources do not mention a massacre. Disease then struck his army in the south, killing many of his men, and he turned back north.
+Huang avoided the forces gathered to protect [Luoyang](/history-of/luoyang) and struck south across the Yangtze, through Jiangxi, Zhejiang and Fujian. He repeatedly offered to submit if he were made a regional governor, but the court refused. In autumn 879 he took Guangzhou after a siege of a single day. Arab sources claim that tens of thousands of foreign merchants and residents were killed there, though Chinese sources do not mention a massacre. Disease then struck his army in the south, killing many of his men, and he turned back north.
 
 ## The fall of Chang'an
 

@@ -21,7 +21,7 @@ Jackson qualified as a lawyer in 1787 and moved to Nashville, where he prospered
 
 ## The general
 
-In the [War of 1812](/event/war-of-1812), Jackson led Tennessee militia against the Red Stick Creeks, who were allied with [Tecumseh](/person/tecumseh). At Horseshoe Bend in 1814 his army overwhelmed a fortified Red Stick town, killing almost all its warriors. The Treaty of Fort Jackson that he then imposed forced all Creeks, including those who had fought on his side, to cede some 23 million acres. On 8 January 1815 he crushed a British assault on New Orleans, which cost the British over 2,000 casualties against 71 American. In 1818 he invaded Spanish Florida in the First Seminole War, an action that helped push Spain to cede Florida.
+In the [War of 1812](/event/war-of-1812), Jackson led Tennessee militia against the Red Stick Creeks, who were allied with [Tecumseh](/person/tecumseh). At Horseshoe Bend in 1814 his army overwhelmed a fortified Red Stick town, killing almost all its warriors. The Treaty of Fort Jackson that he then imposed forced all Creeks, including those who had fought on his side, to cede some 23 million acres. On 8 January 1815 he crushed a British assault on New Orleans, which cost the British over 2,000 casualties against 71 American. In 1818 he invaded [Spanish Florida](/place/spanish-florida) in the First Seminole War, an action that helped push Spain to cede Florida.
 
 ## The road to the White House
 

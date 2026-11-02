@@ -12,7 +12,7 @@ sources:
   - Wikipedia: Lalibela | https://en.wikipedia.org/wiki/Lalibela
 written: 2026-10-30
 ---
-Lalibela, whose throne name was Gebre Meskel, was the most famous king of the Zagwe dynasty, which ruled the northern highlands of [Ethiopia](/country/ethiopia) between the decline of Aksum and the rise of the Solomonic kings. Traditionally dated to about 1181–1221, his reign is linked above all with the eleven churches carved out of solid rock at his capital, Roha, which now bears his name. The Ethiopian Orthodox Church venerates him as a saint.
+Lalibela, whose throne name was Gebre Meskel, was the most famous king of the Zagwe dynasty, which ruled the northern highlands of [Ethiopia](/country/ethiopia) between the decline of [Aksum](/history-of/aksum) and the rise of the Solomonic kings. Traditionally dated to about 1181–1221, his reign is linked above all with the eleven churches carved out of solid rock at his capital, Roha, which now bears his name. The Ethiopian Orthodox Church venerates him as a saint.
 
 ## Birth and legend
 

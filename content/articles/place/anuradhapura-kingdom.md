@@ -5,7 +5,7 @@ sources:
   - Borders of Time maps, built on historical-basemaps | https://github.com/aourednik/historical-basemaps
 written: 2026-10-30
 ---
-For well over a thousand years, the city of Anuradhapura in the dry north-central plains of [Sri Lanka](/country/sri-lanka) was the seat of Sinhalese kings. The kingdom that took its name became the cradle of Theravada Buddhism on the island, raised some of the largest stupas in the Buddhist world and built a vast network of reservoirs and canals. It ended in 1017 when Chola armies from southern India captured its last king. Shown on our maps as Simhala, it is known for its early centuries mainly through the Pali chronicle tradition of the Mahavamsa.
+For well over a thousand years, the city of [Anuradhapura](/history-of/anuradhapura) in the dry north-central plains of [Sri Lanka](/country/sri-lanka) was the seat of Sinhalese kings. The kingdom that took its name became the cradle of Theravada Buddhism on the island, raised some of the largest stupas in the Buddhist world and built a vast network of reservoirs and canals. It ended in 1017 when Chola armies from southern India captured its last king. Shown on our maps as Simhala, it is known for its early centuries mainly through the Pali chronicle tradition of the Mahavamsa.
 
 ## Chronicle and chronology
 
@@ -17,7 +17,7 @@ The chronicles credit Pandukabhaya with fixing village boundaries, appointing he
 
 ## Invasions and recoveries
 
-Rulers from South India repeatedly seized the capital. The [Chola dynasty](/place/chola-dynasty) prince Elara ruled the north for 44 years until Dutthagamani, who reigned from 161 to 137 BCE, defeated him and, according to the chronicle, united the whole island for the first time. Five South Indian chiefs held power in the first century BCE until King Valagamba drove them out, and another group of South Indian rulers, beginning with Pandu, held the throne in the fifth century CE until Dhatusena restored Sinhalese rule. Some kings struck back: Sena II's forces sacked Madurai in 862. Dhatusena's son Kashyapa moved the court for a time to the rock fortress of Sigiriya.
+Rulers from South India repeatedly seized the capital. The [Chola dynasty](/place/chola-dynasty) prince Elara ruled the north for 44 years until Dutthagamani, who reigned from 161 to 137 BCE, defeated him and, according to the chronicle, united the whole island for the first time. Five South Indian chiefs held power in the first century BCE until King Valagamba drove them out, and another group of South Indian rulers, beginning with Pandu, held the throne in the fifth century CE until Dhatusena restored Sinhalese rule. Some kings struck back: Sena II's forces sacked Madurai in 862. Dhatusena's son Kashyapa moved the court for a time to the rock fortress of [Sigiriya](/site/sigiriya).
 
 ## Water and monuments
 
@@ -25,7 +25,7 @@ Agriculture in the dry zone depended on stored rainwater. Vasabha in the first c
 
 ## The Chola conquest
 
-By the reign of Mahinda V, from 982, royal authority had weakened so far that unpaid troops rebelled. The Chola emperor Rajaraja I invaded in 993 and annexed the north, and in 1017 his son [Rajendra I](/person/rajendra-i) captured Mahinda, who died a prisoner in India in 1029. The Cholas destroyed Anuradhapura and governed from Polonnaruwa. When Sinhalese rule was restored under Vijayabahu I, he was crowned at the old capital but kept Polonnaruwa as his seat, so the Anuradhapura period came to an end.
+By the reign of Mahinda V, from 982, royal authority had weakened so far that unpaid troops rebelled. The Chola emperor Rajaraja I invaded in 993 and annexed the north, and in 1017 his son [Rajendra I](/person/rajendra-i) captured Mahinda, who died a prisoner in India in 1029. The Cholas destroyed Anuradhapura and governed from [Polonnaruwa](/history-of/polonnaruwa). When Sinhalese rule was restored under Vijayabahu I, he was crowned at the old capital but kept Polonnaruwa as his seat, so the Anuradhapura period came to an end.
 
 ## On our maps
 

@@ -9,7 +9,7 @@ The Minoans built Europe's first civilisation with palaces, writing and long-dis
 
 ## Knossos and Arthur Evans
 
-The palace of Knossos, near Heraklion, was excavated from 1900 by the British archaeologist Arthur Evans, who named the civilisation after the legendary King Minos. Evans also reconstructed parts of the palace in concrete, with painted columns, a practice now criticised. Knossos covered about 20,000 square metres, with hundreds of rooms around a central courtyard, several storeys high, with grand staircases, light wells, storerooms and a sophisticated drainage system. The complexity of the plan may lie behind the Greek myth of the Labyrinth and the Minotaur.
+The palace of [Knossos](/site/knossos), near Heraklion, was excavated from 1900 by the British archaeologist Arthur Evans, who named the civilisation after the legendary King Minos. Evans also reconstructed parts of the palace in concrete, with painted columns, a practice now criticised. Knossos covered about 20,000 square metres, with hundreds of rooms around a central courtyard, several storeys high, with grand staircases, light wells, storerooms and a sophisticated drainage system. The complexity of the plan may lie behind the Greek myth of the Labyrinth and the Minotaur.
 
 ## The palaces
 

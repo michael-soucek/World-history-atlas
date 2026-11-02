@@ -34,4 +34,4 @@ Grunwald became a powerful symbol of national pride in [Poland](/country/poland)
 
 ## On our maps
 
-Our 1400 map shows the [State of the Teutonic Order](/place/state-of-the-teutonic-order) on the Baltic, between Poland and the vast Grand Duchy of Lithuania, ten years before the battle.
+Our 1400 map shows the [State of the Teutonic Order](/place/state-of-the-teutonic-order) on the Baltic, between Poland and the vast [Grand Duchy of Lithuania](/place/grand-duchy-of-lithuania), ten years before the battle.

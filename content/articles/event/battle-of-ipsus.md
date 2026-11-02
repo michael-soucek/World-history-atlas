@@ -27,7 +27,7 @@ With its right flank now bare, the Antigonid infantry was threatened by allied c
 
 ## Aftermath
 
-Demetrius escaped to Ephesus with some 5,000 infantry and 4,000 cavalry, but found Athens closed to him and his Greek allies falling away; he left [Pyrrhus of Epirus](/person/pyrrhus-of-epirus) to look after his interests in Greece. The victors shared out Antigonus's lands. Lysimachus took western Asia Minor, Seleucus most of the remaining Asian territory, strengthening what became the [Seleucid Empire](/place/seleucid-empire), and Ptolemy kept Egypt. The Hellenistic world would now be one of rival kingdoms rather than a single empire.
+Demetrius escaped to [Ephesus](/history-of/ephesus) with some 5,000 infantry and 4,000 cavalry, but found Athens closed to him and his Greek allies falling away; he left [Pyrrhus of Epirus](/person/pyrrhus-of-epirus) to look after his interests in Greece. The victors shared out Antigonus's lands. Lysimachus took western Asia Minor, Seleucus most of the remaining Asian territory, strengthening what became the [Seleucid Empire](/place/seleucid-empire), and Ptolemy kept Egypt. The Hellenistic world would now be one of rival kingdoms rather than a single empire.
 
 ## On our maps
 

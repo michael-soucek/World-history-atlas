@@ -13,7 +13,7 @@ Vladimir Sviatoslavich, called Volodymyr in Ukrainian and remembered as Vladimir
 
 ## A prince's son
 
-Vladimir was born around 958, the youngest son of Sviatoslav I, of the Rurik dynasty, by Malusha, a woman of the household; his mother's brother Dobrynya became his tutor and closest adviser. In 970 Sviatoslav set him over Novgorod while giving Kiev to his legitimate son Yaropolk. After Sviatoslav was killed by the Pechenegs in 972, his sons fell out. In 977 Yaropolk's war with their brother Oleg ended in Oleg's death, and Vladimir fled overseas.
+Vladimir was born around 958, the youngest son of Sviatoslav I, of the Rurik dynasty, by Malusha, a woman of the household; his mother's brother Dobrynya became his tutor and closest adviser. In 970 Sviatoslav set him over Novgorod while giving Kiev to his legitimate son Yaropolk. After Sviatoslav was killed by the [Pechenegs](/place/pechenegs) in 972, his sons fell out. In 977 Yaropolk's war with their brother Oleg ended in Oleg's death, and Vladimir fled overseas.
 
 ## Winning Kiev
 

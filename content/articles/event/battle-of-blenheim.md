@@ -24,7 +24,7 @@ In the late afternoon Marlborough massed his cavalry, with infantry in support, 
 
 ## Aftermath
 
-Franco-Bavarian losses exceeded 27,000 killed, wounded and captured; the allies lost about 4,500 killed and nearly 8,000 wounded. Bavaria was overrun and, under the Treaty of Ilbersheim of 7 November, placed under Austrian military rule. Before the year's end the allies had also taken Landau, Trier and Trarbach. Tallard was held in England until 1711.
+Franco-Bavarian losses exceeded 27,000 killed, wounded and captured; the allies lost about 4,500 killed and nearly 8,000 wounded. Bavaria was overrun and, under the Treaty of Ilbersheim of 7 November, placed under Austrian military rule. Before the year's end the allies had also taken Landau, [Trier](/history-of/trier) and Trarbach. Tallard was held in England until 1711.
 
 The battle did not end the war, which went on for another decade until 1714, but it destroyed the reputation of French invincibility and ended the threat to Vienna. In gratitude, Queen Anne granted Marlborough the royal park at Woodstock and promised £240,000 towards a house, which became Blenheim Palace.
 

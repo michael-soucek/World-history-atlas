@@ -9,7 +9,7 @@ Swabia was the great south-western duchy of medieval Germany, one of the five so
 
 ## Alamannia under the Franks
 
-The Alemanni were defeated by the Frankish king Clovis I in 496 and brought into the Frankish realm under dukes of their own. In the seventh century they became Christian, with bishops' seats founded at Augsburg and Constance; great abbeys followed in the eighth century at Reichenau and Saint Gall. Frankish control tightened after 709, and the Blood Court of Cannstatt in 746 ended the old tribal duchy; the region was afterwards run by royal officials. Under the Treaty of Verdun in 843 Alamannia passed to East Francia. For centuries the names Alamannia and Swabia were used side by side, until the second prevailed around the eleventh century.
+The Alemanni were defeated by the Frankish king Clovis I in 496 and brought into the Frankish realm under dukes of their own. In the seventh century they became Christian, with bishops' seats founded at Augsburg and Constance; great abbeys followed in the eighth century at Reichenau and Saint Gall. Frankish control tightened after 709, and the Blood Court of Cannstatt in 746 ended the old tribal duchy; the region was afterwards run by royal officials. Under the Treaty of Verdun in 843 Alamannia passed to [East Francia](/place/east-francia). For centuries the names Alamannia and Swabia were used side by side, until the second prevailed around the eleventh century.
 
 ## A new duchy
 

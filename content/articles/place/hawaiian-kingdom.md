@@ -3,8 +3,6 @@ sources:
   - Wikipedia: Hawaiian Kingdom | https://en.wikipedia.org/wiki/Hawaiian_Kingdom
   - Wikidata: Hawaiian Kingdom (Q156418) | https://www.wikidata.org/wiki/Q156418
   - Borders of Time maps, built on historical-basemaps | https://github.com/aourednik/historical-basemaps
-title: Hawaiian Kingdom (1795–1893): Map, Monarchs & Overthrow
-description: Hawaii was an independent kingdom from 1795 to 1893: Kamehameha I's unification, its kings and queens, the Bayonet Constitution and the overthrow, on our map.
 written: 2026-10-22
 ---
 The Hawaiian Kingdom was an independent island nation in the Pacific from 1795 to 1893. Founded by Kamehameha I, who united the islands by conquest, it was recognised by the United States, Britain, France and other nations, before American businessmen overthrew its last queen.

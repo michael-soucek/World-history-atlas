@@ -21,7 +21,7 @@ In the early fifteenth century, the reformer Tsongkhapa founded the Gelug school
 
 ## The Great Fifth
 
-With the help of the Khoshut Mongol leader Güshi Khan, the fifth Dalai Lama, Ngawang Lobsang Gyatso, defeated rival rulers and became ruler of Tibet in 1642, establishing the Ganden Phodrang government. He built the Potala Palace in Lhasa, from 1645, and expanded the Gelug school. The Panchen Lama, a high lama based at Tashilhunpo, became the second most important figure.
+With the help of the Khoshut Mongol leader Güshi Khan, the fifth Dalai Lama, Ngawang Lobsang Gyatso, defeated rival rulers and became ruler of Tibet in 1642, establishing the Ganden Phodrang government. He built the [Potala Palace](/site/potala-palace) in Lhasa, from 1645, and expanded the Gelug school. The Panchen Lama, a high lama based at Tashilhunpo, became the second most important figure.
 
 ## Qing overlordship
 

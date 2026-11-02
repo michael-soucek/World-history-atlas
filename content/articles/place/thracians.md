@@ -9,7 +9,7 @@ Across most of the eastern Balkans, in lands now divided between Bulgaria, Roman
 
 ## A name given by outsiders
 
-The word Thracian is Greek, not native, and it covered a patchwork of peoples rather than one nation; modern scholars count around 200 named Thracian tribes, among them the Odrysae, Getae, Triballi and Bessi. The earliest mention is in Homer's Iliad, which places Thracians among the allies of Troy. Their deeper origins are uncertain because they left almost no writing. Most researchers see them as a blend of earlier Balkan farming peoples with Indo-European newcomers, and a 2019 genetic study of 25 individuals from Bronze Age Bulgaria, dating to the third and second millennia BCE, found exactly such a mixture of steppe-herder and early farmer ancestry.
+The word Thracian is Greek, not native, and it covered a patchwork of peoples rather than one nation; modern scholars count around 200 named Thracian tribes, among them the Odrysae, Getae, Triballi and Bessi. The earliest mention is in Homer's Iliad, which places Thracians among the allies of [Troy](/site/troy). Their deeper origins are uncertain because they left almost no writing. Most researchers see them as a blend of earlier Balkan farming peoples with Indo-European newcomers, and a 2019 genetic study of 25 individuals from Bronze Age Bulgaria, dating to the third and second millennia BCE, found exactly such a mixture of steppe-herder and early farmer ancestry.
 
 ## Persians, Greeks and the Odrysian state
 

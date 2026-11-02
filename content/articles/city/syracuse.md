@@ -4,13 +4,13 @@ written: 2026-11-01
 sources:
   - Wikipedia: Syracuse, Sicily | https://en.wikipedia.org/wiki/Syracuse,_Sicily
 ---
-Syracuse stands on the south-eastern coast of Sicily, its old core on the small island of Ortygia beside a great natural harbour. Founded by Greek colonists in the eighth century BCE, it became the most powerful city of the Greek west, a rival of both Carthage and Athens, and later served as the capital of Roman Sicily and, for a few years, as the seat of a Byzantine emperor.
+Syracuse stands on the south-eastern coast of Sicily, its old core on the small island of Ortygia beside a great natural harbour. Founded by Greek colonists in the eighth century BCE, it became the most powerful city of the Greek west, a rival of both [Carthage](/history-of/carthage) and Athens, and later served as the capital of Roman Sicily and, for a few years, as the seat of a Byzantine emperor.
 
 ## The Greek city
 
 People lived here long before the Greeks: finds at Stentinello, a coastal site just to the north, go back to around 6000 BCE. Following the date given by Thucydides, settlers from Corinth led by Archias landed on Ortygia in 733 BCE, drove out the native Sicels and founded Syrakousai. The colony soon dominated the land around it. Its government swung between tyrants, oligarchies and brief spells of popular rule, and forceful rulers such as Gelon, Hiero I, Dionysius I, Agathocles and Hiero II made it the leading power on the island.
 
-For centuries Syracuse fought [Carthage](/place/carthage), which held western Sicily. During the [Peloponnesian War](/event/peloponnesian-war) Athens sent a vast expedition to conquer the city, which failed; the Syracusan general Hermocrates later took troops to Asia Minor to fight beside Sparta. The court drew writers and thinkers including Aeschylus, Pindar and Plato, and the city's most celebrated native, the mathematician [Archimedes](/person/archimedes), directed its defence when Rome besieged it.
+For centuries Syracuse fought [Carthage](/place/carthage), which held western Sicily. During the [Peloponnesian War](/event/peloponnesian-war) Athens sent a vast expedition to conquer the city, which failed; the Syracusan general Hermocrates later took troops to Asia Minor to fight beside [Sparta](/history-of/sparta). The court drew writers and thinkers including Aeschylus, Pindar and Plato, and the city's most celebrated native, the mathematician [Archimedes](/person/archimedes), directed its defence when Rome besieged it.
 
 ## Roman and Byzantine rule
 

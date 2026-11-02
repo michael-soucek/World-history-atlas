@@ -9,7 +9,7 @@ The Pueblo peoples are Native American nations of the south-western [United Stat
 
 ## Ancestors
 
-Pueblo societies draw on three major cultures of the ancient Southwest: the [Ancestral Puebloans](/place/ancestral-puebloans) of the Four Corners region, including Chaco Canyon and Mesa Verde; the [Mogollon culture](/place/mogollon-culture) of the Gila region; and the Hohokam of the southern Arizona deserts. Maize reached the Southwest from Mesoamerica, with the earliest evidence dating to about 2100 BCE. From about 700 to 900 CE people moved from pit houses into joined rectangular rooms, and by about 1050 they were building planned, terraced villages. The largest, Pueblo Bonito in Chaco Canyon, had around 700 rooms over five storeys. The name Anasazi, once common in archaeology, is a Navajo word usually understood as "enemy ancestors", and Pueblo people today reject it as offensive.
+Pueblo societies draw on three major cultures of the ancient Southwest: the [Ancestral Puebloans](/place/ancestral-puebloans) of the Four Corners region, including [Chaco Canyon](/site/chaco-canyon) and [Mesa Verde](/site/mesa-verde); the [Mogollon culture](/place/mogollon-culture) of the Gila region; and the Hohokam of the southern Arizona deserts. Maize reached the Southwest from Mesoamerica, with the earliest evidence dating to about 2100 BCE. From about 700 to 900 CE people moved from pit houses into joined rectangular rooms, and by about 1050 they were building planned, terraced villages. The largest, Pueblo Bonito in Chaco Canyon, had around 700 rooms over five storeys. The name Anasazi, once common in archaeology, is a Navajo word usually understood as "enemy ancestors", and Pueblo people today reject it as offensive.
 
 ## Languages and societies
 

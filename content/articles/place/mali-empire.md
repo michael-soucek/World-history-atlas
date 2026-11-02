@@ -21,7 +21,7 @@ Mali was a federation of provinces and tributary kingdoms. The mansa ruled direc
 
 ## Gold, salt and copper
 
-Mali controlled the goldfields of Bambuk and Bure and later the gold of the Akan forest, and the trading cities of Timbuktu, Djenné and Gao. Caravans brought salt from Taghaza, copper and horses from the north. The fourteenth-century writer al-Umari, who gathered information in Cairo, described Mali as one of the four great kingdoms of the world.
+Mali controlled the goldfields of Bambuk and Bure and later the gold of the Akan forest, and the trading cities of Timbuktu, [Djenné](/history-of/djenne) and Gao. Caravans brought salt from Taghaza, copper and horses from the north. The fourteenth-century writer al-Umari, who gathered information in Cairo, described Mali as one of the four great kingdoms of the world.
 
 ## Mansa Musa
 

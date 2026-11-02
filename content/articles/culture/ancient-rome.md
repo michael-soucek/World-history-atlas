@@ -12,7 +12,7 @@ According to legend, Rome was founded by Romulus, who, with his twin Remus, had 
 
 ## The Republic
 
-The Roman Republic was governed by two consuls, elected annually, the Senate, made up of aristocrats, and popular assemblies. The plebeians, ordinary citizens, struggled for rights against the patrician aristocracy, gaining their own officials, the tribunes, and written laws, the Twelve Tables, around 450 BCE. Rome conquered Italy by 264 BCE, then defeated Carthage in the Punic Wars, overcoming Hannibal, and conquered Greece, Spain and other lands. Its army of citizen legionaries was highly disciplined.
+The Roman Republic was governed by two consuls, elected annually, the Senate, made up of aristocrats, and popular assemblies. The plebeians, ordinary citizens, struggled for rights against the patrician aristocracy, gaining their own officials, the tribunes, and written laws, the Twelve Tables, around 450 BCE. Rome conquered Italy by 264 BCE, then defeated [Carthage](/history-of/carthage) in the Punic Wars, overcoming Hannibal, and conquered Greece, Spain and other lands. Its army of citizen legionaries was highly disciplined.
 
 ## Crisis and civil war
 
@@ -24,7 +24,7 @@ Caesar's adopted heir, Octavian, defeated Mark Antony and Cleopatra and in 27 BC
 
 ## Life and culture
 
-Rome itself grew to about a million people. The Romans built roads, aqueducts, bridges, baths, amphitheatres, such as the Colosseum, completed in 80 CE, and temples, such as the Pantheon, using concrete. Latin literature flourished with Cicero, Virgil, Horace, Ovid, Livy and Tacitus. Roman law, developed over centuries, became the basis of many legal systems. Slavery was widespread.
+Rome itself grew to about a million people. The Romans built roads, aqueducts, bridges, baths, amphitheatres, such as the Colosseum, completed in 80 CE, and temples, such as the Pantheon, using concrete. Latin literature flourished with Cicero, [Virgil](/person/virgil), Horace, [Ovid](/person/ovid), Livy and Tacitus. Roman law, developed over centuries, became the basis of many legal systems. Slavery was widespread.
 
 ## Christianity
 

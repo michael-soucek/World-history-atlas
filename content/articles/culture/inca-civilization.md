@@ -8,7 +8,7 @@ The Inca civilisation was the largest empire in the pre-Columbian Americas. From
 
 ## Origins
 
-According to Inca legend, the first Inca, Manco Capac, and his sister-wife, Mama Ocllo, children of the sun god Inti, emerged from Lake Titicaca, or from a cave at Pacaritambo, and founded Cusco. The Incas were one of many small groups in the Cusco valley from around the thirteenth century, building on the achievements of earlier Andean cultures, such as the Wari and Tiwanaku.
+According to Inca legend, the first Inca, Manco Capac, and his sister-wife, Mama Ocllo, children of the sun god Inti, emerged from Lake Titicaca, or from a cave at Pacaritambo, and founded Cusco. The Incas were one of many small groups in the Cusco valley from around the thirteenth century, building on the achievements of earlier Andean cultures, such as the Wari and [Tiwanaku](/history-of/tiwanaku).
 
 ## Expansion
 
@@ -20,7 +20,7 @@ The Sapa Inca, the emperor, was considered a descendant of the sun and ruled abs
 
 ## Roads and architecture
 
-The Incas built a road network, the Qhapaq Ñan, of about 30,000 to 40,000 kilometres, with suspension bridges, such as the grass-rope bridge at Q'eswachaka, still rebuilt every year. Relay runners, chasquis, carried messages. Inca stonemasons fitted large blocks of stone without mortar so precisely that buildings withstood earthquakes, as at Sacsayhuamán and the Coricancha, the temple of the sun in Cusco. Machu Picchu, a royal estate built around 1450 for Pachacuti, is the most famous Inca site.
+The Incas built a road network, the Qhapaq Ñan, of about 30,000 to 40,000 kilometres, with suspension bridges, such as the grass-rope bridge at Q'eswachaka, still rebuilt every year. Relay runners, chasquis, carried messages. Inca stonemasons fitted large blocks of stone without mortar so precisely that buildings withstood earthquakes, as at Sacsayhuamán and the Coricancha, the temple of the sun in Cusco. [Machu Picchu](/site/machu-picchu), a royal estate built around 1450 for Pachacuti, is the most famous Inca site.
 
 ## Agriculture
 

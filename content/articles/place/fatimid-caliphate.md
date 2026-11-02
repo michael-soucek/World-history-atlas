@@ -25,7 +25,7 @@ The Fatimid caliph was also the Ismaili imam, considered infallible by his follo
 
 ## Prosperity and learning
 
-Fatimid Egypt prospered from trade between the Mediterranean and the Indian Ocean, through the Red Sea, and controlled Mecca and Medina. The Fatimids built mosques, such as al-Hakim and al-Aqmar, palaces and city gates, such as Bab al-Futuh and Bab Zuwayla. The caliph al-Hakim founded the Dar al-Ilm, "House of Knowledge", in 1005. The scientist Ibn al-Haytham worked in Cairo under al-Hakim. Fatimid crafts, rock crystal, lustreware and textiles, were famous.
+Fatimid Egypt prospered from trade between the Mediterranean and the Indian Ocean, through the Red Sea, and controlled Mecca and Medina. The Fatimids built mosques, such as al-Hakim and al-Aqmar, palaces and city gates, such as Bab al-Futuh and Bab Zuwayla. The caliph al-Hakim founded the Dar al-Ilm, "House of Knowledge", in 1005. The scientist [Ibn al-Haytham](/person/ibn-al-haytham) worked in Cairo under al-Hakim. Fatimid crafts, rock crystal, lustreware and textiles, were famous.
 
 ## Al-Hakim
 

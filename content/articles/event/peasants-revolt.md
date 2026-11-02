@@ -20,7 +20,7 @@ Trouble began at Brentwood in Essex on 30 May 1381, when the villagers of Fobbin
 
 ## London
 
-With only a small force available, the king sheltered in the Tower of London. On 13 June the rebels entered the city, joined by many Londoners. They wrecked prisons, burned the lawyers' buildings at the Temple and destroyed the Savoy Palace of the king's uncle, John of Gaunt. Flemish immigrants were hunted down and killed. On 14 June Richard met rebels at Mile End and granted charters abolishing serfdom, but meanwhile a crowd broke into the Tower and beheaded Archbishop Simon Sudbury, the chancellor, and Robert Hales, the treasurer.
+With only a small force available, the king sheltered in the [Tower of London](/site/tower-of-london). On 13 June the rebels entered the city, joined by many Londoners. They wrecked prisons, burned the lawyers' buildings at the Temple and destroyed the Savoy Palace of the king's uncle, John of Gaunt. Flemish immigrants were hunted down and killed. On 14 June Richard met rebels at Mile End and granted charters abolishing serfdom, but meanwhile a crowd broke into the Tower and beheaded Archbishop Simon Sudbury, the chancellor, and Robert Hales, the treasurer.
 
 On 15 June the king met Tyler at Smithfield. Accounts differ, but after a quarrel the mayor of London, William Walworth, stabbed Tyler, and a royal squire wounded him fatally. Richard rode towards the rebels and led them away, while Walworth raised the city militia, and the rising in London fell apart.
 

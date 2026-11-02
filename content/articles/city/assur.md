@@ -14,7 +14,7 @@ In the early second millennium Assur flourished as the hub of a long-distance tr
 
 ## Conquerors and the Middle Assyrian Empire
 
-The Amorite king Shamshi-Adad I conquered Assur in the eighteenth century BCE and made it the religious capital of his kingdom of Upper Mesopotamia, enlarging the temple of Ashur with a ziggurat. After his line weakened, [Hammurabi](/person/hammurabi) of Babylon absorbed the city into his empire, and later Assyrian rulers were his vassals. In the late fifteenth century BCE the Mitanni king Shaushtatar subdued Assur and carried off the gold and silver doors of its temple.
+The Amorite king Shamshi-Adad I conquered Assur in the eighteenth century BCE and made it the religious capital of his kingdom of Upper Mesopotamia, enlarging the temple of Ashur with a ziggurat. After his line weakened, [Hammurabi](/person/hammurabi) of [Babylon](/history-of/babylon) absorbed the city into his empire, and later Assyrian rulers were his vassals. In the late fifteenth century BCE the Mitanni king Shaushtatar subdued Assur and carried off the gold and silver doors of its temple.
 
 When the Hittites broke the power of Mitanni, Ashur-uballit I took over its eastern lands and created the Middle Assyrian Empire, and Assur once again became an imperial capital. Kings such as Tukulti-Ninurta I and Tiglath-Pileser I rebuilt its temples and palaces, and the walled city covered about 1.2 square kilometres.
 

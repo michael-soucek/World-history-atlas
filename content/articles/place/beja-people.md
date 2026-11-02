@@ -31,4 +31,4 @@ The Beja are organised in clan groups, among them the Bishareen, Hadendoa, Amara
 
 ## On our maps
 
-Our 900 map draws the Beja across the Eastern Desert and the Red Sea hills, between [Makuria](/place/makuria) and Alodia on the Nile and Aksum to the south-east. The outline is approximate and reaches further south than the core Beja lands.
+Our 900 map draws the Beja across the Eastern Desert and the Red Sea hills, between [Makuria](/place/makuria) and Alodia on the Nile and [Aksum](/history-of/aksum) to the south-east. The outline is approximate and reaches further south than the core Beja lands.

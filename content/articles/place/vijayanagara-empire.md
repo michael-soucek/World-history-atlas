@@ -5,7 +5,7 @@ sources:
   - Borders of Time maps, built on historical-basemaps | https://github.com/aourednik/historical-basemaps
 written: 2026-10-22
 ---
-The Vijayanagara Empire dominated southern India for over two centuries, from its founding in 1336 to its defeat in 1565. Its capital, Vijayanagara, "city of victory", on the Tungabhadra river in today's Karnataka, was one of the largest cities in the world in the early sixteenth century. Its ruins, at Hampi, are now a World Heritage Site.
+The Vijayanagara Empire dominated southern India for over two centuries, from its founding in 1336 to its defeat in 1565. Its capital, Vijayanagara, "city of victory", on the Tungabhadra river in today's Karnataka, was one of the largest cities in the world in the early sixteenth century. Its ruins, at [Hampi](/history-of/hampi), are now a World Heritage Site.
 
 ## The four dynasties
 
@@ -25,7 +25,7 @@ The empire was divided into provinces governed by princes or nobles, called naya
 
 ## Krishnadevaraya
 
-Krishnadevaraya, who ruled from 1509 to 1529, is remembered as the greatest Vijayanagara king. He defeated the Bijapur Sultanate at Raichur in 1520 and the Gajapatis of Odisha. A great patron of Telugu literature, he wrote the poem Amuktamalyada, and his court was home to eight poets, the Ashtadiggajas. He maintained good relations with the Portuguese at Goa.
+Krishnadevaraya, who ruled from 1509 to 1529, is remembered as the greatest Vijayanagara king. He defeated the [Bijapur Sultanate](/place/bijapur-sultanate) at Raichur in 1520 and the Gajapatis of Odisha. A great patron of Telugu literature, he wrote the poem Amuktamalyada, and his court was home to eight poets, the Ashtadiggajas. He maintained good relations with the Portuguese at Goa.
 
 ## Talikota and after
 

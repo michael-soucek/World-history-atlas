@@ -12,7 +12,7 @@ Across the boreal forests, tundra and great lakes of north-western Canada live t
 
 ## Peoples and languages
 
-The core Dene groups are the Dënesųłinë́ (Chipewyan) east of Great Slave Lake, the Tłı̨chǫ (Dogrib) between Great Slave and Great Bear lakes, the Yellowknives (T'atsaot'ine) north of Great Slave Lake, the Slavey (Deh Cho) to the south-west, the Sahtu around Great Bear Lake and the Mackenzie River, and the [Gwich'in](/place/gwichin) of the far north-west. Other peoples who see themselves as Dene include the Tsuut'ina near Calgary, the Dane-zaa, Tahltan, Kaska and Sekani of northern British Columbia, and the Dakelh (Carrier). Northern Athabaskan comprises some 31 languages, spoken from interior Alaska to Hudson Bay; the Dënesųłinë́ language itself has dialects whose speakers understand one another.
+The core Dene groups are the Dënesųłinë́ (Chipewyan) east of Great Slave Lake, the Tłı̨chǫ (Dogrib) between Great Slave and Great Bear lakes, the [Yellowknives](/place/yellowknives) (T'atsaot'ine) north of Great Slave Lake, the Slavey (Deh Cho) to the south-west, the [Sahtu](/place/sahtu) around Great Bear Lake and the Mackenzie River, and the [Gwich'in](/place/gwichin) of the far north-west. Other peoples who see themselves as Dene include the Tsuut'ina near Calgary, the [Dane-zaa](/place/dane-zaa), Tahltan, Kaska and Sekani of northern British Columbia, and the Dakelh (Carrier). Northern Athabaskan comprises some 31 languages, spoken from interior Alaska to Hudson Bay; the Dënesųłinë́ language itself has dialects whose speakers understand one another.
 
 ## Life in the subarctic
 

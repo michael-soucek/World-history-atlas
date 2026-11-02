@@ -9,7 +9,7 @@ Córdoba lies on the Guadalquivir in southern Spain, at the foot of the Sierra M
 
 ## Roman Corduba
 
-An Iberian town stood here before the Romans, who took control of the Guadalquivir valley after defeating Carthage in 206 BCE. In the 2nd century BCE the Roman general Marcus Claudius Marcellus founded Corduba beside the native settlement, and it became the chief city of the province of Further Spain under [the Roman Republic](/place/roman-republic). During the civil war it took Pompey's side, and Julius Caesar sacked it in 45 BCE. Rebuilt with settlers from the army, Colonia Patricia became the capital of the province of Baetica. The philosopher [Seneca](/person/seneca) and his nephew, the poet Lucan, were born here. In late antiquity the city passed to the Visigoths, whose king Leovigild took it in 572 after years of local resistance.
+An Iberian town stood here before the Romans, who took control of the Guadalquivir valley after defeating [Carthage](/history-of/carthage) in 206 BCE. In the 2nd century BCE the Roman general Marcus Claudius Marcellus founded Corduba beside the native settlement, and it became the chief city of the province of Further Spain under [the Roman Republic](/place/roman-republic). During the civil war it took Pompey's side, and Julius Caesar sacked it in 45 BCE. Rebuilt with settlers from the army, Colonia Patricia became the capital of the province of Baetica. The philosopher [Seneca](/person/seneca) and his nephew, the poet Lucan, were born here. In late antiquity the city passed to the Visigoths, whose king Leovigild took it in 572 after years of local resistance.
 
 ## Capital of al-Andalus
 

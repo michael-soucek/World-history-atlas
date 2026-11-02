@@ -20,7 +20,7 @@ Ariarathes' nephew, Ariarathes II, the son of his brother Orophernes, turned to 
 
 ## Kings between Rome and Pontus
 
-In the second century BCE the kingdom drew closer to Rome. Ariarathes V, who ruled from 163 to 130 BCE and is often counted the greatest of the line, was briefly driven out by a rival claimant backed by the Seleucid king, fled to Rome and was restored. A keen admirer of Greek learning, he held Athenian citizenship and corresponded with the philosopher Carneades. He died in 130 BCE fighting for Rome against Aristonicus of Pergamon, and Rome rewarded his family with Lycaonia and Cilicia. Early in the first century BCE Mithridates VI of Pontus brought the Ariarathid line to an end. Rome then backed the election of another Iranian noble, Ariobarzanes I, whose house ruled from 96 to 36 BCE.
+In the second century BCE the kingdom drew closer to Rome. Ariarathes V, who ruled from 163 to 130 BCE and is often counted the greatest of the line, was briefly driven out by a rival claimant backed by the Seleucid king, fled to Rome and was restored. A keen admirer of Greek learning, he held Athenian citizenship and corresponded with the philosopher Carneades. He died in 130 BCE fighting for Rome against Aristonicus of [Pergamon](/history-of/pergamon), and Rome rewarded his family with Lycaonia and Cilicia. Early in the first century BCE Mithridates VI of Pontus brought the Ariarathid line to an end. Rome then backed the election of another Iranian noble, Ariobarzanes I, whose house ruled from 96 to 36 BCE.
 
 ## Government and religion
 

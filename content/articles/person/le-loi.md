@@ -21,7 +21,7 @@ Lê Lợi was born in 1385 at Lam Sơn, in Thanh Hóa province, the youngest of 
 
 ## The Lam Sơn uprising
 
-Early in 1418 he raised a revolt at Lam Sơn and proclaimed himself Bình Định vương, the "Prince of Pacification". Leading families of Thanh Hóa, among them the Trịnh and the Nguyễn, backed him. His bands relied on ambush and constant movement, and copied Ming firearms in their own workshops. The early years went badly: in 1421 and 1422 a Ming army, joined by troops from the Lao kingdom of Lan Xang, trapped him, and in 1423 he agreed a short-lived truce.
+Early in 1418 he raised a revolt at Lam Sơn and proclaimed himself Bình Định vương, the "Prince of Pacification". Leading families of Thanh Hóa, among them the Trịnh and the Nguyễn, backed him. His bands relied on ambush and constant movement, and copied Ming firearms in their own workshops. The early years went badly: in 1421 and 1422 a Ming army, joined by troops from the Lao kingdom of [Lan Xang](/place/lan-xang), trapped him, and in 1423 he agreed a short-lived truce.
 
 When the Ming court eased its policy after the death of the [Yongle Emperor](/person/yongle-emperor), Lê Lợi struck south into Nghệ An in 1424, recruiting highland peoples and winning over the lowlands. By the end of 1425 his forces held the land from Thanh Hóa southwards. In 1426 his generals advanced into the Red River delta, and late that year a small rebel force routed a much larger Ming army at Tốt Động, south of modern Hanoi. The scholar Nguyễn Trãi became his chief adviser and propagandist.
 

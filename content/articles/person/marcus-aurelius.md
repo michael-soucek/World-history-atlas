@@ -27,7 +27,7 @@ Marcus was taught by the best teachers of the day. The rhetorician Marcus Cornel
 
 Antoninus Pius died on 7 March 161. Marcus succeeded him and immediately insisted that his adoptive brother Lucius Verus be made co-emperor with equal titles, the first time [the Roman Empire](/place/roman-empire) was formally ruled by two emperors at once. Marcus, however, remained the senior partner.
 
-Trouble came almost at once. Vologases IV of the [Parthian Empire](/place/parthian-empire) invaded Armenia and defeated a Roman army. Lucius was sent east, and Roman forces under the general Avidius Cassius pushed deep into Mesopotamia, sacking the Parthian capital Ctesiphon and the city of Seleucia in 165. The war ended in Roman victory, but the returning army brought with it an epidemic, the Antonine Plague, probably smallpox, which spread across the empire from 165 or 166 and returned in waves for years. Modern estimates of the death toll vary widely, from a few million to perhaps a tenth of the population or more.
+Trouble came almost at once. Vologases IV of the [Parthian Empire](/place/parthian-empire) invaded Armenia and defeated a Roman army. Lucius was sent east, and Roman forces under the general Avidius Cassius pushed deep into Mesopotamia, sacking the Parthian capital [Ctesiphon](/history-of/ctesiphon) and the city of Seleucia in 165. The war ended in Roman victory, but the returning army brought with it an epidemic, the Antonine Plague, probably smallpox, which spread across the empire from 165 or 166 and returned in waves for years. Modern estimates of the death toll vary widely, from a few million to perhaps a tenth of the population or more.
 
 ## War on the Danube
 

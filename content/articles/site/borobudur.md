@@ -14,7 +14,7 @@ The monument has six square platforms topped by three circular ones and a centra
 
 ## Abandonment
 
-Why and when worship ended is unknown. Between 928 and 1006, after volcanic eruptions, King Mpu Sindok shifted the Mataram kingdom's capital to East Java, and many sources treat that period as the most likely time of abandonment. A court poem of 1365, written in the age of [Majapahit](/place/majapahit), still refers to a Buddhist sanctuary at Budur. After most Javanese converted to Islam in the fifteenth century the monument was overgrown and covered by volcanic ash, though it was never wholly forgotten: Javanese chronicles connected it with misfortune, including the death of a crown prince of Yogyakarta in 1757.
+Why and when worship ended is unknown. Between 928 and 1006, after volcanic eruptions, King Mpu Sindok shifted the [Mataram kingdom](/place/mataram-kingdom)'s capital to East Java, and many sources treat that period as the most likely time of abandonment. A court poem of 1365, written in the age of [Majapahit](/place/majapahit), still refers to a Buddhist sanctuary at Budur. After most Javanese converted to Islam in the fifteenth century the monument was overgrown and covered by volcanic ash, though it was never wholly forgotten: Javanese chronicles connected it with misfortune, including the death of a crown prince of Yogyakarta in 1757.
 
 ## Rediscovery and restoration
 

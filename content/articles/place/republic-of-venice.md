@@ -41,7 +41,7 @@ The Ottoman advance cost Venice its eastern possessions one by one: Cyprus in 15
 
 ## Culture
 
-Venice was a centre of printing, with the Aldine Press of Aldus Manutius, and of painting, with Bellini, Giorgione, Titian, Tintoretto and Veronese, and later Canaletto. Its music included Monteverdi and Vivaldi, and its carnival was famous throughout Europe.
+Venice was a centre of printing, with the Aldine Press of Aldus Manutius, and of painting, with Bellini, Giorgione, [Titian](/person/titian), Tintoretto and Veronese, and later Canaletto. Its music included Monteverdi and Vivaldi, and its carnival was famous throughout Europe.
 
 ## On our maps
 

@@ -21,7 +21,7 @@ In 399 BCE the restored Athenian democracy tried Socrates for impiety and corrup
 
 ## Syracuse
 
-Plato visited Syracuse, in Sicily, three times. On his first visit, around 388 BCE, he befriended Dion, the brother-in-law of the tyrant Dionysius I. Later, around 367 BCE, Dion invited Plato to educate the young Dionysius II as a philosopher-king, but the attempt failed, and Plato was held as a virtual prisoner. Plato's letters, whose authenticity is debated, describe these events.
+Plato visited [Syracuse](/history-of/syracuse), in Sicily, three times. On his first visit, around 388 BCE, he befriended Dion, the brother-in-law of the tyrant Dionysius I. Later, around 367 BCE, Dion invited Plato to educate the young Dionysius II as a philosopher-king, but the attempt failed, and Plato was held as a virtual prisoner. Plato's letters, whose authenticity is debated, describe these events.
 
 ## The Academy
 

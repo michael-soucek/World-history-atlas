@@ -4,7 +4,7 @@ sources:
   - Wikidata: Antonine Plague (Q599141) | https://www.wikidata.org/wiki/Q599141
 written: 2026-10-30
 ---
-From about AD 165 to 180 a long and deadly epidemic swept across the [Roman Empire](/place/roman-empire), the first pandemic known in its history. It is named after the ruling Antonine dynasty of [Marcus Aurelius](/person/marcus-aurelius) and his co-emperor Lucius Verus, and is sometimes called the Plague of Galen after the physician who described it. Its cause is still uncertain, and estimates of the dead vary enormously, with many historians settling on about a tenth of the empire's population.
+From about AD 165 to 180 a long and deadly epidemic swept across the [Roman Empire](/place/roman-empire), the first pandemic known in its history. It is named after the ruling Antonine dynasty of [Marcus Aurelius](/person/marcus-aurelius) and his co-emperor Lucius Verus, and is sometimes called the Plague of [Galen](/person/galen) after the physician who described it. Its cause is still uncertain, and estimates of the dead vary enormously, with many historians settling on about a tenth of the empire's population.
 
 ## A crowded, unhealthy empire
 

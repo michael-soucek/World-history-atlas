@@ -16,7 +16,7 @@ The plague probably originated in Central Asia; a 2022 study of graves in Kyrgyz
 
 ## Death
 
-Cities were devastated. Florence may have lost over half its population; the writer Giovanni Boccaccio described the horrors in the Decameron. Mass graves were dug. In Cairo, thousands died daily at the height of the epidemic. Some places, such as Milan, which sealed houses of the sick, may have been less affected. Doctors, who explained the disease through bad air, miasma, or the position of the planets, could do little. People fled, isolated the sick, carried flowers and herbs and prayed.
+Cities were devastated. Florence may have lost over half its population; the writer [Giovanni Boccaccio](/person/giovanni-boccaccio) described the horrors in the Decameron. Mass graves were dug. In Cairo, thousands died daily at the height of the epidemic. Some places, such as Milan, which sealed houses of the sick, may have been less affected. Doctors, who explained the disease through bad air, miasma, or the position of the planets, could do little. People fled, isolated the sick, carried flowers and herbs and prayed.
 
 ## Reactions
 

@@ -13,7 +13,7 @@ Cyrus's son Cambyses II added Egypt to the empire in 525 BCE, defeating the phar
 
 ## Ruling a world empire
 
-Darius I, who took the throne in 522 BCE, gave the empire its lasting shape. He divided it into provinces called satrapies, each with a governor, fixed tribute, and royal inspectors who reported back to the king. A road network with relay stations, the most famous stretch being the Royal Road from Sardis to Susa, let messages cross the empire in days. Darius built a ceremonial capital at Persepolis, while the court moved between Susa, Babylon, Ecbatana and Pasargadae with the seasons.
+Darius I, who took the throne in 522 BCE, gave the empire its lasting shape. He divided it into provinces called satrapies, each with a governor, fixed tribute, and royal inspectors who reported back to the king. A road network with relay stations, the most famous stretch being the Royal Road from Sardis to [Susa](/history-of/susa), let messages cross the empire in days. Darius built a ceremonial capital at [Persepolis](/site/persepolis), while the court moved between Susa, Babylon, Ecbatana and [Pasargadae](/site/pasargadae) with the seasons.
 
 The Persians were unusually willing to rule through local customs. Cyrus let the Jewish exiles in Babylon return to Jerusalem and rebuild their temple, and Persian kings were crowned as pharaohs in Egypt. Aramaic served as a common administrative language from Egypt to Afghanistan.
 

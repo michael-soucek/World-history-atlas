@@ -18,7 +18,7 @@ The Armistice of Mudros, signed on 30 October 1918, ended the fighting in the Mi
 
 ## The mandates
 
-The Arab provinces were placed under League of Nations mandates, confirmed at the San Remo conference in 1920. France received Syria and Lebanon, where it carved out Greater Lebanon as a haven for the Maronite Christians. Britain took Mesopotamia, which became [Iraq](/country/iraq) with Faisal, a son of Sharif Hussein, as king, and Palestine, from which Transjordan was separated under his brother Abdullah. An Arab government proclaimed in Damascus could not hold out against the French. In the Arabian Peninsula, Hussein's Kingdom of Hejaz was later absorbed by Ibn Saud, who founded [Saudi Arabia](/country/saudi-arabia) in 1932, while Yemen became independent and the Gulf sheikhdoms stayed under British protection.
+The Arab provinces were placed under League of Nations mandates, confirmed at the San Remo conference in 1920. France received Syria and Lebanon, where it carved out Greater Lebanon as a haven for the Maronite Christians. Britain took Mesopotamia, which became [Iraq](/country/iraq) with Faisal, a son of Sharif Hussein, as king, and Palestine, from which Transjordan was separated under his brother Abdullah. An Arab government proclaimed in Damascus could not hold out against the French. In the Arabian Peninsula, Hussein's [Kingdom of Hejaz](/place/kingdom-of-hejaz) was later absorbed by Ibn Saud, who founded [Saudi Arabia](/country/saudi-arabia) in 1932, while Yemen became independent and the Gulf sheikhdoms stayed under British protection.
 
 ## Sèvres and the Turkish response
 

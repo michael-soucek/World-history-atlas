@@ -12,9 +12,12 @@ import { canVisitCity } from "@/data/visit";
 import { getCanonicalNameByQid, lookupBySlug } from "@/data/crosswalk";
 import { SITE_LIST, builtLabel, citiesNear, getSite, nearbySites, siteRulersOf, type Site } from "@/lib/siteHistory";
 import type { RulerSpan } from "@/lib/cityHistory";
-import { getOurArticle } from "@/lib/ourArticles";
+import { articleIntro, articleWordCount, getOurArticle } from "@/lib/ourArticles";
+import ArticleImage from "@/components/ArticleImage";
+import { heroFirst, toArticleImage } from "@/components/ArticleBody";
+import { getEntityImages } from "@/lib/entityImages";
 import { buildPageMetadata, metaDescription, fitTitle } from "@/lib/seo";
-import { JsonLd, SITE_URL, breadcrumbLd } from "@/lib/jsonLd";
+import { JsonLd, SITE_URL, articleLd, breadcrumbLd } from "@/lib/jsonLd";
 import { SNAPSHOT_YEARS } from "@/data/snapshotYears";
 import { countryHref, countrySlugFor, getCountry } from "@/lib/countries";
 import { publishedCountries } from "@/lib/countryPages";
@@ -36,6 +39,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: fitTitle(`${site.name}: History, Map and Who Ruled It`, `${site.name}: History and Map`, `${site.name}: History`),
     description: siteDescription(site, siteRulersOf(site)),
     path: `/site/${slug}`,
+    type: "article",
+    imageUrl: heroFirst(await getEntityImages(site.wikidataId))[0]?.thumb,
   });
 }
 
@@ -52,11 +57,17 @@ function rulerNames(spans: RulerSpan[]): string[] {
 
 function siteDescription(site: Site, spans: RulerSpan[]): string {
   const opening = getOurArticle("site", site.slug)?.blocks.find((b) => b.kind === "p")?.text.replace(/\[([^\]]+)\]\([^)]*\)/g, "$1");
-  const names = rulerNames(spans).slice(-4);
-  const list = names.length > 1 ? `${names.slice(0, -1).join(", ")} and ${names.at(-1)}` : names[0];
-  const held = list ? ` Held by ${list}: see each on historical maps.` : " See it on historical maps.";
+  const all = rulerNames(spans);
   const first = opening?.split(/(?<=\.)\s/)[0] ?? `${site.name}, in ${site.country}, dates from ${builtLabel(site.built)}.`;
-  return metaDescription(`${first}${held}`)!;
+  // The longest ruler list (most recent kept) that still fits a full description.
+  for (const n of [4, 3, 2, 1]) {
+    const names = all.slice(-n);
+    if (!names.length) break;
+    const list = names.length > 1 ? `${names.slice(0, -1).join(", ")} and ${names.at(-1)}` : names[0];
+    const text = `${first} Held by ${list}: see ${names.length > 1 ? "each" : "it"} on historical maps.`;
+    if (text.length <= 158) return text;
+  }
+  return metaDescription(`${first} See it on historical maps across ${all.length > 1 ? `${all.length} eras of rule` : "five thousand years"}.`)!;
 }
 
 /** The map snapshot in force when the site was made: the latest one at or before its build year. */
@@ -71,6 +82,8 @@ export default async function SitePage({ params }: Props) {
 
   const spans = siteRulersOf(site);
   const names = rulerNames(spans);
+  const article = getOurArticle("site", site.slug);
+  const [hero, ...images] = heroFirst(await getEntityImages(site.wikidataId)).map(toArticleImage);
   const builtYear = snapshotAt(site.built);
   const countryLink = countryHref(site.country, publishedCountries());
   const countryName = getCountry(countrySlugFor(site.country) ?? "")?.name ?? site.country;
@@ -89,7 +102,20 @@ export default async function SitePage({ params }: Props) {
               geo: { "@type": "GeoCoordinates", latitude: site.lat, longitude: site.lng },
               sameAs: `https://www.wikidata.org/wiki/${site.wikidataId}`,
               url: `${SITE_URL}/site/${site.slug}`,
+              ...(hero ? { image: hero.thumb } : {}),
             },
+            ...(article
+              ? [articleLd({
+                  headline: `${site.name}: history and who ruled it`,
+                  path: `/site/${site.slug}`,
+                  description: articleIntro(article),
+                  image: hero?.thumb,
+                  written: article.written,
+                  wordCount: articleWordCount(article),
+                  citations: article.sources.map((s) => s.href),
+                  about: { "@type": "LandmarksOrHistoricalBuildings", name: site.name, url: `${SITE_URL}/site/${site.slug}` },
+                })]
+              : []),
             breadcrumbLd([["Historic sites", "/sites"], [site.name, `/site/${site.slug}`]]),
           ]}
         />
@@ -117,8 +143,14 @@ export default async function SitePage({ params }: Props) {
           }
         />
 
+        {hero && (
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <ArticleImage img={hero} alt={hero.caption || site.name} variant="hero" priority />
+          </div>
+        )}
+
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14 sm:py-20">
-          <PageHistory kind="site" slug={site.slug} name={site.name} heading={`The history of ${site.name}`} />
+          <PageHistory kind="site" slug={site.slug} name={site.name} heading={`The history of ${site.name}`} images={images} />
           {spans.length > 0 && (
             <section>
               <SectionRule count={`${spans.length} periods`}>Who held it</SectionRule>

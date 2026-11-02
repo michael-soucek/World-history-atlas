@@ -8,7 +8,7 @@ The Underground Railroad was a loose network of secret routes, hiding places and
 
 ## Origins
 
-People had fled slavery in North America since the sixteenth century, often without help. Before about 1790 many went south to Spanish Florida, where the Spanish crown offered refuge and founded Fort Mose near St Augustine for free Black people in 1738. As Northern states abolished slavery after the American Revolution, the direction of escape turned north. The federal Fugitive Slave Act of 1793 let slaveholders pursue escapees into free states, which in turn spurred abolitionists to organise. The earliest known use of the phrase "underground rail-road" in print dates from 10 August 1842, when the Black abolitionist Thomas Smallwood used it, mockingly, in an Albany newspaper.
+People had fled slavery in North America since the sixteenth century, often without help. Before about 1790 many went south to [Spanish Florida](/place/spanish-florida), where the Spanish crown offered refuge and founded Fort Mose near St Augustine for free Black people in 1738. As Northern states abolished slavery after the American Revolution, the direction of escape turned north. The federal Fugitive Slave Act of 1793 let slaveholders pursue escapees into free states, which in turn spurred abolitionists to organise. The earliest known use of the phrase "underground rail-road" in print dates from 10 August 1842, when the Black abolitionist Thomas Smallwood used it, mockingly, in an Albany newspaper.
 
 ## How it worked
 

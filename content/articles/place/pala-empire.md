@@ -43,7 +43,7 @@ In the early eleventh century, the Chola king Rajendra I of southern India sent 
 
 ## Decline
 
-Pala power faded slowly. The kings came to depend on local lords, and a revolt in northern Bengal in the eleventh century exposed how little control they had left. In the twelfth century the Hindu Sena dynasty took Bengal, and the last Pala rulers held on only in Bihar before disappearing from the record around 1174.
+Pala power faded slowly. The kings came to depend on local lords, and a revolt in northern Bengal in the eleventh century exposed how little control they had left. In the twelfth century the Hindu [Sena dynasty](/place/sena-dynasty) took Bengal, and the last Pala rulers held on only in Bihar before disappearing from the record around 1174.
 
 ## Legacy
 

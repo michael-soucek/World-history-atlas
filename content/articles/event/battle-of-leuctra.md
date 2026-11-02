@@ -4,7 +4,7 @@ sources:
   - Wikidata: Battle of Leuctra (Q461599) | https://www.wikidata.org/wiki/Q461599
 written: 2026-10-30
 ---
-In the summer of 371 BC, usually dated to 6 July, a Boeotian army under the Theban general Epaminondas defeated a larger Spartan-led force near the village of Leuctra in Boeotia, central Greece. The Spartan king Cleombrotus I was killed, and the defeat broke the dominance Sparta had enjoyed since winning the [Peloponnesian War](/event/peloponnesian-war). For about a decade afterwards Thebes was the leading power in Greece.
+In the summer of 371 BC, usually dated to 6 July, a Boeotian army under the Theban general Epaminondas defeated a larger Spartan-led force near the village of Leuctra in Boeotia, central Greece. The Spartan king Cleombrotus I was killed, and the defeat broke the dominance [Sparta](/history-of/sparta) had enjoyed since winning the [Peloponnesian War](/event/peloponnesian-war). For about a decade afterwards Thebes was the leading power in Greece.
 
 ## Sparta against Thebes
 

@@ -21,7 +21,7 @@ Hurrian groups moved west into northern Syria, appearing at Alalakh by 1725 BCE 
 
 ## Craft, horses and music
 
-Much of what is known comes from tablets found at Nuzi, Alalakh and the Hittite capital Hattusa, many written in Akkadian. Hurrian potters made the wheel-thrown Khabur and Nuzi wares, which archaeologists use to date layers in city mounds, and they also worked glass and metal. They are credited, alongside the Hittites, with bringing the horse-drawn war chariot into wide use in the Near East, and Egyptians valued them as horsemen. Hurrian texts from Ugarit, from around 1400 BCE, include the oldest known written music.
+Much of what is known comes from tablets found at Nuzi, Alalakh and the Hittite capital [Hattusa](/history-of/hattusa), many written in Akkadian. Hurrian potters made the wheel-thrown Khabur and Nuzi wares, which archaeologists use to date layers in city mounds, and they also worked glass and metal. They are credited, alongside the Hittites, with bringing the horse-drawn war chariot into wide use in the Near East, and Egyptians valued them as horsemen. Hurrian texts from [Ugarit](/history-of/ugarit), from around 1400 BCE, include the oldest known written music.
 
 ## Gods and language
 

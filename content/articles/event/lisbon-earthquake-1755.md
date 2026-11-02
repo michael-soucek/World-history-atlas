@@ -16,7 +16,7 @@ The Algarve coast in southern Portugal suffered severe damage, as did Madeira, t
 
 ## Counting the cost
 
-Of Lisbon's roughly 200,000 inhabitants, an estimated 30,000 to 40,000 died; one estimate for Portugal, Spain and Morocco together is 40,000 to 50,000. Around 85 per cent of the city's buildings were destroyed. The riverside royal palace was lost along with its library of some 70,000 volumes, paintings by Titian and Rubens, and archives recording the voyages of Vasco da Gama and other navigators. The new opera house, the main churches and the great All Saints hospital, where hundreds of patients died, were wrecked or burned. One study puts the economic damage at a third to a half of Portugal's annual output.
+Of Lisbon's roughly 200,000 inhabitants, an estimated 30,000 to 40,000 died; one estimate for Portugal, Spain and Morocco together is 40,000 to 50,000. Around 85 per cent of the city's buildings were destroyed. The riverside royal palace was lost along with its library of some 70,000 volumes, paintings by [Titian](/person/titian) and Rubens, and archives recording the voyages of Vasco da Gama and other navigators. The new opera house, the main churches and the great All Saints hospital, where hundreds of patients died, were wrecked or burned. One study puts the economic damage at a third to a half of Portugal's annual output.
 
 ## Pombal rebuilds
 

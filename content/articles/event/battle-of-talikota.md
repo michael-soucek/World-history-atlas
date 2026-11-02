@@ -22,7 +22,7 @@ Rama Raya was beheaded, either by Hussain Nizam Shah himself or on his orders, r
 
 ## The sack of Vijayanagara
 
-The sultanate armies then plundered the capital without resistance. Older accounts describe the city's near-total destruction and a six-month occupation; its ruins are still called "Halu Hampi", ruined Hampi, in Kannada. More recent historians and archaeologists urge caution, noting that clear evidence of damage is largely confined to the Royal Centre and that the destruction seems to have targeted sites linked to royal authority. Even so, royal patronage of temples and monuments ended and the Royal Centre was never rebuilt.
+The sultanate armies then plundered the capital without resistance. Older accounts describe the city's near-total destruction and a six-month occupation; its ruins are still called "Halu [Hampi](/history-of/hampi)", ruined Hampi, in Kannada. More recent historians and archaeologists urge caution, noting that clear evidence of damage is largely confined to the Royal Centre and that the destruction seems to have targeted sites linked to royal authority. Even so, royal patronage of temples and monuments ended and the Royal Centre was never rebuilt.
 
 Tirumala founded the Aravidu dynasty, which ruled what remained of the empire, briefly from Vijayanagara itself before moving its seat. Weakened by succession disputes, revolts by local Nayaka lords and wars with Bijapur, the state drifted south and broke up in the late 1640s. The victors' alliance also soon dissolved, with Bijapur gaining the most.
 

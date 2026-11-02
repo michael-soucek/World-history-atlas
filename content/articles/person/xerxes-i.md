@@ -14,7 +14,7 @@ Xerxes I was King of Kings of the [Achaemenid Empire](/place/achaemenid-empire),
 
 ## Sources
 
-Most of what is known about Xerxes comes from Greek writers, above all [Herodotus](/person/herodotus), whose Histories, written a generation later, tell the story of the war from the side of the victors. Herodotus is a careful and often fair-minded writer, but his Xerxes is also a literary figure, a proud king punished by the gods. Persian evidence is thinner: royal inscriptions, Babylonian documents and the administrative tablets of Persepolis. Modern historians try to balance the two, and many details of the Greek accounts, including the size of Xerxes' army, are treated with caution.
+Most of what is known about Xerxes comes from Greek writers, above all [Herodotus](/person/herodotus), whose Histories, written a generation later, tell the story of the war from the side of the victors. Herodotus is a careful and often fair-minded writer, but his Xerxes is also a literary figure, a proud king punished by the gods. Persian evidence is thinner: royal inscriptions, Babylonian documents and the administrative tablets of [Persepolis](/site/persepolis). Modern historians try to balance the two, and many details of the Greek accounts, including the size of Xerxes' army, are treated with caution.
 
 ## Heir to Darius
 
@@ -34,7 +34,7 @@ The war turned at sea. In September 480 BCE, in the narrow straits between Salam
 
 ## King and builder
 
-The defeat was a serious blow to prestige but cost Persia little territory, and the empire remained the largest power of its day. Xerxes spent much of his remaining reign at the royal centres of Persepolis and Susa. At Persepolis he completed buildings begun by his father, including the great audience hall known as the Apadana, and added his own, among them the Gate of All Nations, a palace of his own, and the start of the Hall of a Hundred Columns. His inscriptions present him, like Darius, as the chosen king of the god Ahuramazda, central to the religion later called [Zoroastrianism](/culture/zoroastrianism). One, known as the daiva inscription, records the destruction of a sanctuary of false gods somewhere in the empire, but where and when is unknown, and it is not evidence of general religious persecution.
+The defeat was a serious blow to prestige but cost Persia little territory, and the empire remained the largest power of its day. Xerxes spent much of his remaining reign at the royal centres of Persepolis and [Susa](/history-of/susa). At Persepolis he completed buildings begun by his father, including the great audience hall known as the Apadana, and added his own, among them the Gate of All Nations, a palace of his own, and the start of the Hall of a Hundred Columns. His inscriptions present him, like Darius, as the chosen king of the god Ahuramazda, central to the religion later called [Zoroastrianism](/culture/zoroastrianism). One, known as the daiva inscription, records the destruction of a sanctuary of false gods somewhere in the empire, but where and when is unknown, and it is not evidence of general religious persecution.
 
 ## Death and reputation
 

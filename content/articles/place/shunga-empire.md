@@ -3,8 +3,6 @@ sources:
   - Wikipedia: Shunga Empire | https://en.wikipedia.org/wiki/Shunga_Empire
   - Wikidata: Shunga Empire (Q651377) | https://www.wikidata.org/wiki/Q651377
   - Borders of Time maps, built on historical-basemaps | https://github.com/aourednik/historical-basemaps
-title: Shunga Empire Map (185–75 BCE): Kings, Wars & Art
-description: The Shunga Empire ruled northern India after the Mauryas, about 185 to 75 BCE. See its borders on our map, Pushyamitra, the wars with the Greeks and Shunga art.
 written: 2026-10-22
 ---
 The Shunga Empire ruled much of northern and central India from about 185 to 75 BCE, after the Maurya Empire. It was founded by Pushyamitra Shunga, the commander-in-chief of the last Maurya king.
@@ -31,7 +29,7 @@ The Shunga period was important for Indian art. The stupa at Bharhut, in Madhya 
 
 ## The Heliodorus pillar
 
-At Besnagar, near Vidisha, a stone pillar records that Heliodorus, son of Dion, a Greek from Taxila and an ambassador of the Indo-Greek king Antialcidas to the court of King Bhagabhadra, probably a Shunga ruler, set up the pillar as a Garuda standard in honour of Vasudeva, a form of Vishnu, calling himself a Bhagavata, a devotee. It is an early evidence of devotional Hinduism and of Greek converts.
+At Besnagar, near Vidisha, a stone pillar records that Heliodorus, son of Dion, a Greek from [Taxila](/history-of/taxila) and an ambassador of the Indo-Greek king Antialcidas to the court of King Bhagabhadra, probably a Shunga ruler, set up the pillar as a Garuda standard in honour of Vasudeva, a form of Vishnu, calling himself a Bhagavata, a devotee. It is an early evidence of devotional Hinduism and of Greek converts.
 
 ## The end
 

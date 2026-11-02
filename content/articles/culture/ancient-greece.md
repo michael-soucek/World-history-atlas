@@ -12,7 +12,7 @@ After the collapse of the Mycenaean civilisation around 1200 BCE, Greece entered
 
 ## The polis
 
-Greece was divided into hundreds of independent city-states, poleis, each with its own government, laws and gods, such as Athens, Sparta, Corinth and Thebes. Citizens were adult free men; women, slaves and foreigners were excluded from political life. Many cities were ruled at times by tyrants, oligarchies or democracies.
+Greece was divided into hundreds of independent city-states, poleis, each with its own government, laws and gods, such as Athens, [Sparta](/history-of/sparta), Corinth and Thebes. Citizens were adult free men; women, slaves and foreigners were excluded from political life. Many cities were ruled at times by tyrants, oligarchies or democracies.
 
 ## Athens and Sparta
 
@@ -20,7 +20,7 @@ In Athens, the reforms of Solon, around 594 BCE, and Cleisthenes, in 508 BCE, cr
 
 ## The Classical period
 
-In the Persian Wars, from 499 to 479 BCE, the Greeks defeated two Persian invasions, at Marathon, Salamis and Plataea. Athens then built an empire and enjoyed a golden age under Pericles, building the Parthenon. The playwrights Aeschylus, Sophocles, Euripides and Aristophanes wrote tragedies and comedies, the historians Herodotus and Thucydides founded history-writing, and the sculptor Phidias created great works. The Peloponnesian War, from 431 to 404 BCE, ended in Athens's defeat by Sparta.
+In the Persian Wars, from 499 to 479 BCE, the Greeks defeated two Persian invasions, at Marathon, Salamis and Plataea. Athens then built an empire and enjoyed a golden age under Pericles, building the [Parthenon](/site/parthenon). The playwrights Aeschylus, Sophocles, Euripides and Aristophanes wrote tragedies and comedies, the historians Herodotus and Thucydides founded history-writing, and the sculptor Phidias created great works. The Peloponnesian War, from 431 to 404 BCE, ended in Athens's defeat by Sparta.
 
 ## Philosophy and science
 
@@ -28,7 +28,7 @@ Greek thinkers sought rational explanations of the world. Thales, Pythagoras and
 
 ## Religion
 
-The Greeks worshipped gods such as Zeus, Hera, Athena, Apollo and Poseidon, who were believed to live on Mount Olympus and were honoured with temples, sacrifices and festivals. Oracles, such as Delphi, were consulted.
+The Greeks worshipped gods such as Zeus, Hera, Athena, Apollo and Poseidon, who were believed to live on Mount Olympus and were honoured with temples, sacrifices and festivals. Oracles, such as [Delphi](/site/delphi), were consulted.
 
 ## Macedon and the Hellenistic age
 

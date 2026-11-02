@@ -12,7 +12,7 @@ By the later Middle Ages northern and central Italy was among the richest parts 
 
 ## The first generation
 
-The poets Dante, Petrarch and Boccaccio in the fourteenth century, and the painter Giotto with his new realism, are usually counted as forerunners. Humanist scholars hunted for lost Latin texts in monastic libraries, and Greek learning returned with Byzantine scholars, especially after a church council in Florence in 1439 and the [fall of Constantinople](/event/fall-of-constantinople) in 1453. In Florence, Brunelleschi's church of San Lorenzo and Pazzi Chapel, Donatello's sculpture and Masaccio's frescoes, such as the Holy Trinity in Santa Maria Novella, applied mathematical perspective and classical forms. Hans Baron argued that Florence's long struggle against Milan, which ended when Giangaleazzo Visconti died during his 1402 siege, helped forge a proud republican ideology.
+The poets Dante, [Petrarch](/person/petrarch) and Boccaccio in the fourteenth century, and the painter Giotto with his new realism, are usually counted as forerunners. Humanist scholars hunted for lost Latin texts in monastic libraries, and Greek learning returned with Byzantine scholars, especially after a church council in Florence in 1439 and the [fall of Constantinople](/event/fall-of-constantinople) in 1453. In Florence, Brunelleschi's church of San Lorenzo and Pazzi Chapel, Donatello's sculpture and Masaccio's frescoes, such as the Holy Trinity in Santa Maria Novella, applied mathematical perspective and classical forms. Hans Baron argued that Florence's long struggle against Milan, which ended when Giangaleazzo Visconti died during his 1402 siege, helped forge a proud republican ideology.
 
 ## The Medici and the spread of the style
 

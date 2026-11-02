@@ -17,7 +17,7 @@ The New Kingdom pharaohs built an empire. Thutmose I campaigned to the Euphrates
 
 ## Thebes and Amun
 
-Thebes, the dynasty's home, became the religious capital, and its god Amun, combined with the sun god as Amun-Ra, became the king of the gods. The temples of Karnak and Luxor were greatly enlarged, with obelisks, pylons and the hypostyle hall. Kings were buried in the Valley of the Kings, in rock-cut tombs decorated with texts guiding the king through the underworld, such as the Amduat, while their memorial temples stood on the west bank. Workers who built the tombs lived at the village of Deir el-Medina, whose records reveal their daily lives.
+Thebes, the dynasty's home, became the religious capital, and its god Amun, combined with the sun god as Amun-Ra, became the king of the gods. The temples of [Karnak](/site/karnak) and Luxor were greatly enlarged, with obelisks, pylons and the hypostyle hall. Kings were buried in the [Valley of the Kings](/site/valley-of-the-kings), in rock-cut tombs decorated with texts guiding the king through the underworld, such as the Amduat, while their memorial temples stood on the west bank. Workers who built the tombs lived at the village of Deir el-Medina, whose records reveal their daily lives.
 
 ## Amarna
 
@@ -29,7 +29,7 @@ Tutankhamun became king as a boy and died around nineteen. His tomb, found almos
 
 ## The Ramesside period
 
-The Nineteenth and Twentieth Dynasties, the Ramesside period, were founded by the general Ramesses I. Seti I and Ramesses II fought the Hittites, and Ramesses II built Abu Simbel and Pi-Ramesses. Merneptah's stele of around 1208 BCE contains the earliest known mention of Israel. Ramesses III defeated the Sea Peoples.
+The Nineteenth and Twentieth Dynasties, the Ramesside period, were founded by the general Ramesses I. Seti I and Ramesses II fought the Hittites, and Ramesses II built [Abu Simbel](/site/abu-simbel) and Pi-Ramesses. Merneptah's stele of around 1208 BCE contains the earliest known mention of Israel. Ramesses III defeated the Sea Peoples.
 
 ## Ramesses II
 

@@ -8,7 +8,7 @@ Passed by the Parliament of the [United Kingdom](/country/united-kingdom) under 
 
 ## The road to abolition
 
-Lord Mansfield's ruling in the Somerset case of 1772 found that slavery had no basis in English law, encouraging a wider movement. A society to end the slave trade was founded in 1787, and William Wilberforce took up the cause in Parliament. The Slave Trade Act 1807 banned British participation in the [Atlantic slave trade](/event/atlantic-slave-trade), and from 1811 trading became a felony, but slavery itself continued in the colonies. The Royal Navy's West Africa Squadron, which according to one estimate captured 1,600 slave ships and freed 150,000 Africans between 1808 and 1860, enforced the ban at sea. In 1823 campaigners including Thomas Clarkson, Thomas Fowell Buxton and Elizabeth Heyrick founded the Anti-Slavery Society to press for emancipation itself.
+Lord Mansfield's ruling in the Somerset case of 1772 found that slavery had no basis in English law, encouraging a wider movement. A society to end the slave trade was founded in 1787, and [William Wilberforce](/person/william-wilberforce) took up the cause in Parliament. The Slave Trade Act 1807 banned British participation in the [Atlantic slave trade](/event/atlantic-slave-trade), and from 1811 trading became a felony, but slavery itself continued in the colonies. The Royal Navy's West Africa Squadron, which according to one estimate captured 1,600 slave ships and freed 150,000 Africans between 1808 and 1860, enforced the ban at sea. In 1823 campaigners including Thomas Clarkson, Thomas Fowell Buxton and Elizabeth Heyrick founded the Anti-Slavery Society to press for emancipation itself.
 
 ## Pressure from the colonies and from reform
 

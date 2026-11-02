@@ -13,7 +13,7 @@ Before the ninth century the coast from the Oslofjord region in the south to Hå
 
 ## Across the sea
 
-From the seventh century Norwegians had settled the islands to the west, first Orkney and Shetland, later the Hebrides, the Isle of Man, the Faroes, Iceland and Greenland. These settlers kept close ties with the homeland, and as the monarchy grew stronger it brought them under its authority, often governing through local earls. Leif Erikson, an Icelander of Norwegian descent, reached North America some five centuries before Columbus. In the early twelfth century King Sigurd I led a crusade to the Holy Land between 1107 and 1110, helping to capture Sidon.
+From the seventh century Norwegians had settled the islands to the west, first Orkney and Shetland, later the Hebrides, the Isle of Man, the Faroes, Iceland and Greenland. These settlers kept close ties with the homeland, and as the monarchy grew stronger it brought them under its authority, often governing through local earls. Leif Erikson, an Icelander of Norwegian descent, reached North America some five centuries before Columbus. In the early twelfth century King Sigurd I led a crusade to the Holy Land between 1107 and 1110, helping to capture [Sidon](/history-of/sidon).
 
 ## Civil wars
 

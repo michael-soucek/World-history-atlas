@@ -17,7 +17,7 @@ In the nineteenth century, Britain was the world's leading industrial power. Rai
 
 ## Reform and democracy
 
-The Reform Act of 1832 extended the vote to more middle-class men, and acts of 1867 and 1884 extended it to many working men. The Chartists campaigned for universal male suffrage. The Labour Party was founded in 1900. The suffragettes, led by Emmeline Pankhurst, fought for votes for women, which were granted to some women in 1918 and to all women on equal terms in 1928. The Parliament Act of 1911 limited the power of the House of Lords.
+The Reform Act of 1832 extended the vote to more middle-class men, and acts of 1867 and 1884 extended it to many working men. The Chartists campaigned for universal male suffrage. The Labour Party was founded in 1900. The suffragettes, led by [Emmeline Pankhurst](/person/emmeline-pankhurst), fought for votes for women, which were granted to some women in 1918 and to all women on equal terms in 1928. The Parliament Act of 1911 limited the power of the House of Lords.
 
 ## Ireland
 

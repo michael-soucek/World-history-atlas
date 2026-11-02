@@ -10,7 +10,7 @@ Where the Copper River meets the Gulf of Alaska, around today's town of Cordova,
 
 ## Name and homeland
 
-The Eyak name for themselves is ’i:ya:GdAlahGAyu:. Its root, ’i:ya:G, was first the name of a single village near Mile 6 on today's Copper River Highway and came from the Alutiiq language of their Chugach neighbours; its meaning is uncertain, perhaps "hiding place" or "river mouth". Under English influence it spread to cover the whole people. Their historic lands reached from the Cordova area eastward as far as the Martin River and inland to Miles Glacier. There were four main villages, including Alaganik and Orca, plus summer fishing camps at places such as Point Whitshed.
+The Eyak name for themselves is ’i:ya:GdAlahGAyu:. Its root, ’i:ya:G, was first the name of a single village near Mile 6 on today's Copper River Highway and came from the [Alutiiq](/place/alutiiq) language of their Chugach neighbours; its meaning is uncertain, perhaps "hiding place" or "river mouth". Under English influence it spread to cover the whole people. Their historic lands reached from the Cordova area eastward as far as the Martin River and inland to Miles Glacier. There were four main villages, including Alaganik and Orca, plus summer fishing camps at places such as Point Whitshed.
 
 ## A coastal salmon people
 

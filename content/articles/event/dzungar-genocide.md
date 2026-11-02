@@ -16,7 +16,7 @@ The Qianlong Emperor's armies defeated the Dzungars in 1755 with the support of 
 
 ## Orders of extermination
 
-Angered by the revolt, the emperor ordered that the Dzungars be wiped out. In orders translated by the historian Peter Perdue, he told his commanders to show no mercy and to spare only the old and weak. Women and children were to be handed to Manchu and Mongol bannermen as slaves. Commanders who let Dzungars escape or showed too little zeal were punished, and others were rewarded. Khalkha Mongols were told to kill the young and strong men. Allied forces took part: Kazakh raiders enslaved many Oirats, and Turkic Muslims of the Turfan and Hami oases, who had sought Qing help against Dzungar rule, supplied the Qing armies and received captives as slaves.
+Angered by the revolt, the emperor ordered that the Dzungars be wiped out. In orders translated by the historian Peter Perdue, he told his commanders to show no mercy and to spare only the old and weak. Women and children were to be handed to Manchu and Mongol bannermen as slaves. Commanders who let Dzungars escape or showed too little zeal were punished, and others were rewarded. [Khalkha Mongols](/place/khalkha-mongols) were told to kill the young and strong men. Allied forces took part: Kazakh raiders enslaved many Oirats, and Turkic Muslims of the Turfan and Hami oases, who had sought Qing help against Dzungar rule, supplied the Qing armies and received captives as slaves.
 
 ## The death toll
 

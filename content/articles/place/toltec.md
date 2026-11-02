@@ -9,7 +9,7 @@ The Toltecs were the dominant people of central Mexico between roughly 950 and 1
 
 ## After Teotihuacan
 
-After Teotihuacan declined in the sixth and seventh centuries, central Mexico broke into several regional centres, such as Xochicalco and Cholula, in a period archaeologists call the Epiclassic. Migrants from the north, Nahua-speaking peoples, moved into the region. According to later traditions, the Toltecs were led by a chief named Mixcoatl and settled at Tula, called Tollan, "place of reeds".
+After [Teotihuacan](/site/teotihuacan) declined in the sixth and seventh centuries, central Mexico broke into several regional centres, such as Xochicalco and Cholula, in a period archaeologists call the Epiclassic. Migrants from the north, Nahua-speaking peoples, moved into the region. According to later traditions, the Toltecs were led by a chief named Mixcoatl and settled at Tula, called Tollan, "place of reeds".
 
 ## Tula
 

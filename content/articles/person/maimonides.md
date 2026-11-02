@@ -20,7 +20,7 @@ Around 1165 the family left Morocco, stopped briefly in the Holy Land, and settl
 
 ## Physician and community leader
 
-Maimonides became one of the best-known doctors in Egypt. He served at the Ayyubid court, in the circle of Saladin's chief minister al-Qadi al-Fadil and later of Saladin's son al-Afdal. In a famous letter he described a working day spent attending the court and then seeing crowds of patients at home until late at night. He wrote about ten medical works in Arabic, on subjects such as diet, asthma, poisons and the aphorisms of Galen, stressing prevention and moderation.
+Maimonides became one of the best-known doctors in Egypt. He served at the Ayyubid court, in the circle of Saladin's chief minister al-Qadi al-Fadil and later of Saladin's son al-Afdal. In a famous letter he described a working day spent attending the court and then seeing crowds of patients at home until late at night. He wrote about ten medical works in Arabic, on subjects such as diet, asthma, poisons and the aphorisms of [Galen](/person/galen), stressing prevention and moderation.
 
 He was also recognised as head of the Jewish community of Egypt and answered legal questions sent from across the Jewish world. His Epistle to Yemen, written in 1172 to a community suffering forced conversions and stirred by a false messiah, offered comfort and warned against messianic speculation. He died in Fustat in December 1204. According to tradition he was buried in Tiberias, in today's [Israel](/country/israel), where his tomb is still visited.
 

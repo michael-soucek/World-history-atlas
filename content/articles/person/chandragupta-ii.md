@@ -20,7 +20,7 @@ His best-attested campaign was against the Western Kshatrapas, Shaka rulers of w
 
 ## The iron pillar
 
-Most scholars identify him with a King Chandra praised in the inscription on the famous iron pillar now at Delhi, which credits Chandra with victories over enemies in Bengal and with crossing the seven mouths or tributaries of the Indus to defeat the Vahlikas, who may have lived around Balkh in present-day Afghanistan. If the identification is right, Chandragupta campaigned through the Punjab, although there is no evidence that he annexed it.
+Most scholars identify him with a King Chandra praised in the inscription on the famous iron pillar now at Delhi, which credits Chandra with victories over enemies in Bengal and with crossing the seven mouths or tributaries of the Indus to defeat the Vahlikas, who may have lived around [Balkh](/history-of/balkh) in present-day Afghanistan. If the identification is right, Chandragupta campaigned through the Punjab, although there is no evidence that he annexed it.
 
 ## Alliances
 

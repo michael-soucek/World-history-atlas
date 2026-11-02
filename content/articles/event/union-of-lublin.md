@@ -4,7 +4,7 @@ sources:
   - Wikidata: Union of Lublin (Q963303) | https://www.wikidata.org/wiki/Q963303
 written: 2026-10-30
 ---
-In the summer of 1569, at a parliament held in Lublin, the Kingdom of Poland and the Grand Duchy of Lithuania bound themselves together as one state, the [Polish–Lithuanian Commonwealth](/place/polish-lithuanian-commonwealth). The act, dated 1 July 1569, turned a loose dynastic link into a permanent union under a single elected monarch and a shared parliament. The resulting state was among the largest in Europe and lasted for more than two centuries.
+In the summer of 1569, at a parliament held in Lublin, the Kingdom of Poland and the [Grand Duchy of Lithuania](/place/grand-duchy-of-lithuania) bound themselves together as one state, the [Polish–Lithuanian Commonwealth](/place/polish-lithuanian-commonwealth). The act, dated 1 July 1569, turned a loose dynastic link into a permanent union under a single elected monarch and a shared parliament. The resulting state was among the largest in Europe and lasted for more than two centuries.
 
 ## Two realms, one dynasty
 

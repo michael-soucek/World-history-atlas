@@ -13,7 +13,7 @@ Alp Tigin, a Turkish slave who became a general of the Samanid Empire, seized Gh
 
 ## Ghazni
 
-Ghazni, in eastern Afghanistan, on the route between Kabul and Kandahar, became the capital of the Ghaznavids. Under Mahmud it grew into a magnificent city, filled with palaces, mosques and gardens built with the wealth of the Indian campaigns. The minarets of Masud III and Bahram Shah, built in the twelfth century, still stand. The city was later sacked by the Ghurids in 1150 and by the Mongols.
+Ghazni, in eastern Afghanistan, on the route between Kabul and [Kandahar](/history-of/kandahar), became the capital of the Ghaznavids. Under Mahmud it grew into a magnificent city, filled with palaces, mosques and gardens built with the wealth of the Indian campaigns. The minarets of Masud III and Bahram Shah, built in the twelfth century, still stand. The city was later sacked by the Ghurids in 1150 and by the Mongols.
 
 ## Mahmud's Indian campaigns
 

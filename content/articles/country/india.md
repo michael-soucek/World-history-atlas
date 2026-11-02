@@ -37,7 +37,7 @@ Stone tools show that early humans lived in the subcontinent for hundreds of tho
 
 Farming came early. At Mehrgarh, at the foot of the Bolan Pass in what is now [Pakistan](/country/pakistan), people were growing wheat and barley and herding cattle, sheep and goats by about 7000 BCE, part of the wider Neolithic Revolution.
 
-From about 3300 BCE these villages grew into the [Indus Valley Civilisation](/place/indus-valley-civilisation), one of the three earliest urban civilisations alongside Mesopotamia and Egypt and the largest in extent. In its mature phase, from about 2600 to 1900 BCE, it covered most of modern Pakistan and much of northwestern India. Its cities, among them Harappa and Mohenjo-daro in Pakistan and Dholavira, Kalibangan, Rakhigarhi and Lothal in India, were laid out on grid plans with baked-brick houses, covered drains, granaries and great public baths. Standardised weights and seals carved with animals and short inscriptions were used across the whole region, and Indus goods reached Mesopotamia by sea. The population may have reached five million.
+From about 3300 BCE these villages grew into the [Indus Valley Civilisation](/place/indus-valley-civilisation), one of the three earliest urban civilisations alongside Mesopotamia and Egypt and the largest in extent. In its mature phase, from about 2600 to 1900 BCE, it covered most of modern Pakistan and much of northwestern India. Its cities, among them [Harappa](/history-of/harappa) and Mohenjo-daro in Pakistan and Dholavira, Kalibangan, Rakhigarhi and Lothal in India, were laid out on grid plans with baked-brick houses, covered drains, granaries and great public baths. Standardised weights and seals carved with animals and short inscriptions were used across the whole region, and Indus goods reached Mesopotamia by sea. The population may have reached five million.
 
 The Indus script has never been deciphered, so the civilisation's language, rulers and beliefs remain unknown. After about 1900 BCE the great cities were gradually abandoned, probably because of a drier climate and shifting rivers, and people moved east and into smaller villages.
 
@@ -49,7 +49,7 @@ By about 600 BCE towns had reappeared along the Ganges and sixteen great states,
 
 ## Magadha and the Maurya Empire
 
-The kingdom of Magadha, in modern Bihar, gradually absorbed its neighbours from its capital at Pataliputra (modern Patna). Meanwhile the northwest was drawn into the affairs of Iran: Darius the Great made Gandhara and the Indus region provinces of the [Achaemenid Empire](/place/achaemenid-empire) in the late sixth century BCE, and in 326 BCE [Alexander the Great](/person/alexander-the-great) crossed the Indus and defeated King Porus at the Hydaspes before his exhausted army forced him to turn back.
+The kingdom of Magadha, in modern Bihar, gradually absorbed its neighbours from its capital at Pataliputra (modern [Patna](/history-of/patna)). Meanwhile the northwest was drawn into the affairs of Iran: Darius the Great made Gandhara and the Indus region provinces of the [Achaemenid Empire](/place/achaemenid-empire) in the late sixth century BCE, and in 326 BCE [Alexander the Great](/person/alexander-the-great) crossed the Indus and defeated King Porus at the Hydaspes before his exhausted army forced him to turn back.
 
 Soon afterwards [Chandragupta Maurya](/person/chandragupta-maurya) overthrew the Nanda kings of Magadha and built the [Maurya Empire](/place/maurya-empire), the first state to rule most of the subcontinent. He fought Alexander's successor Seleucus, whose Seleucid Empire ceded the lands west of the Indus in exchange for 500 war elephants. The Greek envoy Megasthenes described the splendour of Pataliputra.
 
@@ -81,7 +81,7 @@ The Sultanate brought [Islam](/culture/islam) to political power across the nort
 
 ## Vijayanagara and the Deccan sultanates
 
-As the Sultanate's grip on the south weakened, two new powers emerged there. The Bahmani Sultanate broke away in 1347 and later split into five Deccan sultanates, including Bijapur, Golconda and Ahmadnagar. To their south, the brothers Harihara and Bukka founded the [Vijayanagara Empire](/place/vijayanagara-empire) in 1336. Its capital at Hampi, on the Tungabhadra river, became one of the largest cities in the world. The two blocs fought for two centuries over the fertile Raichur doab, until a coalition of the sultanates crushed Vijayanagara at Talikota in 1565 and sacked its capital.
+As the Sultanate's grip on the south weakened, two new powers emerged there. The Bahmani Sultanate broke away in 1347 and later split into five Deccan sultanates, including Bijapur, Golconda and Ahmadnagar. To their south, the brothers Harihara and Bukka founded the [Vijayanagara Empire](/place/vijayanagara-empire) in 1336. Its capital at [Hampi](/history-of/hampi), on the Tungabhadra river, became one of the largest cities in the world. The two blocs fought for two centuries over the fertile Raichur doab, until a coalition of the sultanates crushed Vijayanagara at Talikota in 1565 and sacked its capital.
 
 Meanwhile Europeans arrived by sea. In 1498 the Portuguese navigator [Vasco da Gama](/explorer/vasco-da-gama) reached Calicut on the Malabar coast, and in 1510 the Portuguese Empire seized Goa, which became the centre of its Asian trade and remained Portuguese for four and a half centuries.
 

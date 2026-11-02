@@ -9,7 +9,7 @@ The Inca Empire was the largest state in the Americas before the arrival of Euro
 
 ## Origins
 
-Inca legends say that the founder, Manco Capac, and his sister-wife emerged from Lake Titicaca or from a cave at Pacaritambo and founded Cusco. Archaeologists date the beginnings of the Inca kingdom around Cusco to the thirteenth century, after the decline of the Wari and Tiwanaku states. For two centuries, the Incas were one of many small groups competing in the southern highlands.
+Inca legends say that the founder, Manco Capac, and his sister-wife emerged from Lake Titicaca or from a cave at Pacaritambo and founded Cusco. Archaeologists date the beginnings of the Inca kingdom around Cusco to the thirteenth century, after the decline of the Wari and [Tiwanaku](/history-of/tiwanaku) states. For two centuries, the Incas were one of many small groups competing in the southern highlands.
 
 ## Rulers
 

@@ -17,7 +17,7 @@ Simeon was born in 864 or 865, the third son of Knyaz Boris I, who converted Bul
 
 ## Magyars and Byzantium
 
-Simeon soon quarrelled with the emperor Leo VI, who had moved the market for Bulgarian goods to Thessaloniki and taxed it heavily. In 895 the Byzantines ferried Magyar raiders across the Danube, and Simeon lost two battles to them. He answered by allying with the Pechenegs, and in 896 their combined attack drove the Magyars out of their homeland north of the Black Sea towards the Pannonian plain. The same year he crushed a Byzantine army at Bulgarophygon in Thrace. The resulting peace obliged Byzantium to pay an annual tribute, and a further treaty in 904 gave Bulgaria most of the Slav-inhabited lands of today's Macedonia and Albania.
+Simeon soon quarrelled with the emperor Leo VI, who had moved the market for Bulgarian goods to Thessaloniki and taxed it heavily. In 895 the Byzantines ferried Magyar raiders across the Danube, and Simeon lost two battles to them. He answered by allying with the [Pechenegs](/place/pechenegs), and in 896 their combined attack drove the Magyars out of their homeland north of the Black Sea towards the Pannonian plain. The same year he crushed a Byzantine army at Bulgarophygon in Thrace. The resulting peace obliged Byzantium to pay an annual tribute, and a further treaty in 904 gave Bulgaria most of the Slav-inhabited lands of today's Macedonia and Albania.
 
 ## Claiming an emperor's crown
 

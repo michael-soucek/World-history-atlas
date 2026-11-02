@@ -22,7 +22,7 @@ Alexios IV could not raise the promised money, and the population resented both 
 
 ## The sack
 
-After a failed assault on 9 April, the crusaders broke through the sea walls on 12 April 1204. For three days they looted the city, killing many inhabitants, despoiling churches including Hagia Sophia and carrying off relics and treasures, many of which went to Venice; the bronze horses of Saint Mark's Basilica are the best-known example.
+After a failed assault on 9 April, the crusaders broke through the sea walls on 12 April 1204. For three days they looted the city, killing many inhabitants, despoiling churches including [Hagia Sophia](/site/hagia-sophia) and carrying off relics and treasures, many of which went to Venice; the bronze horses of Saint Mark's Basilica are the best-known example.
 
 ## The Latin Empire
 

@@ -26,7 +26,7 @@ In 1504 Babur crossed the Hindu Kush and seized [Kabul](/history-of/kabul), whic
 
 ## Turning to India
 
-From Kabul, Babur extended his power over the Afghan tribes, took Kandahar in 1522 and raided across the Khyber Pass. He regarded the Punjab as his by inheritance, since Timur had once sacked Delhi, and northern India was ruled by the weakened [Delhi Sultanate](/place/delhi-sultanate) of Ibrahim Lodi, whose own nobles were in revolt. Some of them, including Daulat Khan Lodi, governor of the Punjab, invited Babur in.
+From Kabul, Babur extended his power over the Afghan tribes, took [Kandahar](/history-of/kandahar) in 1522 and raided across the Khyber Pass. He regarded the Punjab as his by inheritance, since Timur had once sacked Delhi, and northern India was ruled by the weakened [Delhi Sultanate](/place/delhi-sultanate) of Ibrahim Lodi, whose own nobles were in revolt. Some of them, including Daulat Khan Lodi, governor of the Punjab, invited Babur in.
 
 After several campaigns, Babur met Ibrahim's army at Panipat, north of [Delhi](/history-of/delhi), on 21 April 1526. His force was far smaller, but he had matchlock muskets and field guns, which he placed behind a line of carts chained together in what he called the Ottoman fashion, with gaps for his cavalry to charge through. Two gunners trained in the [Ottoman Empire](/place/ottoman-empire) directed his artillery. Flanking cavalry wheeled round Ibrahim's army and drove it in on itself while the guns fired and frightened the war elephants. Ibrahim was killed, the Lodi dynasty ended, and Babur occupied Delhi and Agra.
 
