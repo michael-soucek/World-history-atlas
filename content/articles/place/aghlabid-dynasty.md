@@ -3,6 +3,42 @@ sources:
   - Wikipedia: Aghlabid dynasty | https://en.wikipedia.org/wiki/Aghlabid_dynasty
   - Wikidata: Aghlabid dynasty (Q207600) | https://www.wikidata.org/wiki/Q207600
   - Borders of Time maps, built on historical-basemaps | https://github.com/aourednik/historical-basemaps
+glance:
+  - Capital: Kairouan; courts at al-Abbasiyya, Raqqada
+  - Founded: 800, by Ibrahim ibn al-Aghlab
+  - Ended: 909, overthrown by the Fatimids
+  - Religion: Sunni Islam (Hanafi, Mu'tazilite)
+  - Language: Arabic
+  - Government: Hereditary emirate under the Abbasids
+rulers:
+  - 800–812: Ibrahim I ibn al-Aghlab
+  - 812–817: Abdallah I
+  - 817–838: Ziyadat Allah I
+  - 838–841: al-Aghlab Abu Iqal
+  - 841–856: Muhammad I
+  - 856–863: Ahmad
+  - 863–864: Ziyadat Allah II
+  - 864–875: Muhammad II
+  - 875–902: Ibrahim II
+  - 902–903: Abdallah II
+  - 903–909: Ziyadat Allah III
+timeline:
+  - 800: [Harun al-Rashid](/person/harun-al-rashid) names Ibrahim ibn al-Aghlab hereditary emir of Ifriqiya.
+  - 824: The Arab jund rebels and briefly occupies Tunis and Kairouan.
+  - 827: The Kairouan judge Asad ibn al-Furat leads the invasion of Sicily.
+  - 831: Palermo falls and becomes the Muslim capital of [Sicily](/place/muslim-sicily).
+  - 836: Ziyadat Allah I rebuilds the Great Mosque of Kairouan.
+  - 870: Aghlabid forces conquer Malta.
+  - 876: Ibrahim II moves the court to his new palace-city of Raqqada.
+  - 878: Syracuse is captured after a long campaign.
+  - 893: Abu Abdallah al-Shi'i begins rallying the Kutama Berbers for the Fatimid cause.
+  - 902: Taormina falls, and Ibrahim II dies besieging Cosenza in Italy.
+  - 909: Defeat at al-Aribus sends Ziyadat Allah III fleeing, and the [Fatimids](/place/fatimid-caliphate) take Raqqada.
+faq:
+  - Q: Who founded the Aghlabid dynasty? A: Ibrahim ibn al-Aghlab, son of an Arab commander of the Banu Tamim from Khurasan. In 800 the caliph Harun al-Rashid made him hereditary emir of Ifriqiya to end years of disorder there, and his descendants ruled until 909 as nominal vassals of the Abbasids.
+  - Q: What religion were the Aghlabids? A: They were Sunni Muslims who followed the rationalist Mu'tazilite doctrine within the Hanafi school, then the official creed of the Abbasid court, and made it the state doctrine. This set them against Ifriqiya's Maliki scholars, whom they courted with posts, charity and mosque building.
+  - Q: What did the Aghlabids build? A: Their best-known work is the Great Mosque of Kairouan, rebuilt by Ziyadat Allah I in 836, whose minaret is the oldest surviving in North Africa. They also built the ribats of Sousse and Monastir, the great mosques of Sousse and Sfax, and Kairouan's large water reservoirs.
+  - Q: How did the Aghlabid dynasty end? A: From 893 the Ismaili missionary Abu Abdallah al-Shi'i built a Kutama Berber army that took Aghlabid towns one by one. After his forces won at al-Aribus in March 909, Ziyadat Allah III fled to Egypt, Abu Abdallah entered Raqqada on 25 March, and the Fatimid Caliphate was proclaimed.
 written: 2026-10-30
 ---
 The Aghlabids were an Arab family who governed Ifriqiya, roughly today's Tunisia with eastern Algeria and western Libya, from 800 to 909. Though they ruled as hereditary emirs and were independent in practice, they always acknowledged the Abbasid caliphs in Baghdad. From their base around Kairouan they launched the Muslim conquest of Sicily and raids into southern Italy, and their mosques and fortresses are among the oldest Islamic monuments in North Africa.

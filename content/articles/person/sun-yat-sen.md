@@ -7,6 +7,32 @@ roles: revolutionary, president, physician
 sources:
   - Wikipedia: Sun Yat-sen | https://en.wikipedia.org/wiki/Sun_Yat-sen
   - Wikidata: Sun Yat-sen (Q8573) | https://www.wikidata.org/wiki/Q8573
+glance:
+  - Born: 12 November 1866, Cuiheng, Guangdong
+  - Died: 12 March 1925, Beijing
+  - Role: Provisional president of China, 1912
+  - Party: Kuomintang (Nationalist Party)
+  - Known for: Three Principles of the People
+  - Profession: Physician
+timeline:
+  - 1866: Sun is born in the village of Cuiheng in Guangdong.
+  - 1892: He qualifies at the Hong Kong College of Medicine for Chinese.
+  - 1894: He founds the Revive China Society to oppose the Qing.
+  - 1895: A planned uprising in Guangzhou fails and Sun goes into exile.
+  - 1896: Qing diplomats detain him at their London legation for twelve days.
+  - 1905: He forms the Tongmenghui, the Revolutionary Alliance, in Tokyo.
+  - 1911: The Wuchang uprising launches the [1911 Revolution](/event/1911-revolution).
+  - 1912: Sun takes office as provisional president, then yields to [Yuan Shikai](/person/yuan-shikai).
+  - 1912: The Kuomintang is founded in Beijing in August.
+  - 1917: He sets up a rival military government in Guangzhou.
+  - 1923: He agrees to Soviet aid in a joint manifesto with Adolph Joffe.
+  - 1925: Sun dies of cancer in Beijing on 12 March.
+faq:
+  - Q: Why is Sun Yat-sen called the Father of the Nation? A: He led the long campaign against the Qing dynasty, became the first provisional president of the Republic of China in 1912 and founded the Kuomintang. Taiwan's Republic of China honours him as Father of the Nation, and the People's Republic calls him the forerunner of the revolution.
+  - Q: What are the Three Principles of the People? A: They were Sun's political programme: nationalism, meaning an end to Manchu rule and foreign domination; democracy, meaning constitutional government; and the people's livelihood, a welfare goal that included more equal ownership of land.
+  - Q: Why did Sun Yat-sen give up the presidency? A: The young republic needed the backing of Yuan Shikai, the strongest general in the north, to force the Qing emperor to abdicate without a long civil war. Sun therefore stepped aside in Yuan's favour within weeks of taking office in 1912.
+  - Q: How did Sun Yat-sen die? A: He fell gravely ill while in Beijing for talks with the northern government and died on 12 March 1925, aged 58. Reports at the time named liver cancer, but the autopsy found cancer of the gallbladder that had spread to the liver.
+  - Q: Why did Sun Yat-sen ally with the Soviet Union? A: Frustrated that Western powers would not help him unite China, he accepted Soviet advisers and aid from 1923. He reorganised the Kuomintang along Leninist lines, admitted communists into it and founded the Whampoa Military Academy.
 written: 2026-10-22
 ---
 Sun Yat-sen was a Chinese revolutionary and political leader who played a key role in the overthrow of the Qing dynasty in 1911 and served as the first provisional president of the Republic of China. Founder of the Nationalist Party, the Kuomintang, he is honoured as the "Father of the Nation" in Taiwan and the "forerunner of the revolution" in the People's Republic of China.
@@ -37,7 +63,7 @@ Disappointed by Western powers, Sun accepted help from the Soviet Union in 1923.
 
 ## Death
 
-Sun travelled to Beijing for talks with the northern government and died of liver cancer on 12 March 1925. His mausoleum is in Nanjing. Both the Nationalists and Communists claim his legacy.
+Sun travelled to Beijing for talks with the northern government and died of cancer on 12 March 1925. It was long called liver cancer, but the autopsy found it had begun in the gallbladder and spread to the liver. His mausoleum is in Nanjing. Both the Nationalists and Communists claim his legacy.
 
 ## On our maps
 

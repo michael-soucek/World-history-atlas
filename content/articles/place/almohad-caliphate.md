@@ -5,6 +5,45 @@ sources:
   - Borders of Time maps, built on historical-basemaps | https://github.com/aourednik/historical-basemaps
 title: Almohad Caliphate Map: Berber Empire of Morocco & Spain
 description: The Almohads united Morocco, Tunisia and al-Andalus in the 12th and 13th centuries. See their empire on our map, Ibn Tumart and Las Navas de Tolosa.
+glance:
+  - Capital: [Marrakesh](/history-of/marrakesh) (Tinmel before 1147)
+  - Founded: 1121, by Ibn Tumart
+  - Ended: 1269
+  - Religion: Sunni Islam (Almohad doctrine)
+  - Language: Arabic; Berber languages
+  - Succeeded by: Marinids, Hafsids, Nasrids
+rulers:
+  - 1121–1130: Ibn Tumart (Mahdi)
+  - 1130–1163: Abd al-Mu'min
+  - 1163–1184: Abu Ya'qub Yusuf I
+  - 1184–1199: Abu Yusuf Ya'qub al-Mansur
+  - 1199–1213: Muhammad al-Nasir
+  - 1213–1224: Yusuf II al-Mustansir
+  - 1224: Abd al-Wahid I
+  - 1224–1227: Abdallah al-Adil
+  - 1227–1229: Yahya al-Mu'tasim
+  - 1229–1232: Idris I al-Ma'mun
+  - 1232–1242: Abd al-Wahid II al-Rashid
+  - 1242–1248: Ali al-Sa'id
+  - 1248–1266: Umar al-Murtada
+  - 1266–1269: Idris II al-Wathiq
+timeline:
+  - 1121: Ibn Tumart proclaims himself the Mahdi, in effect declaring war on the Almoravids.
+  - ~1124: The movement makes Tinmel, in the High Atlas, its religious and military base.
+  - 1130: Ibn Tumart dies months after a heavy defeat outside Marrakesh; Abd al-Mu'min succeeds him.
+  - 1147: After an eleven-month siege the Almohads take Marrakesh, ending the [Almoravid dynasty](/place/almoravid-dynasty).
+  - 1160: Mahdia surrenders and the Normans of Sicily leave, completing the conquest of Ifriqiya.
+  - 1195: Ya'qub al-Mansur defeats Alfonso VIII of Castile at the Battle of Alarcos.
+  - 1212: Castile, Aragon and Navarre crush the caliph's army at [Las Navas de Tolosa](/event/battle-of-las-navas-de-tolosa).
+  - 1228: Al-Ma'mun abandons Seville and takes the army to Morocco, ending Almohad rule in Spain.
+  - 1248: Ferdinand III of Castile captures [Seville](/history-of/seville), the former Almohad capital in al-Andalus.
+  - 1269: The last caliph, Idris al-Wathiq, is killed in Marrakesh, his only remaining possession.
+faq:
+  - Q: Who founded the Almohad movement? A: Ibn Tumart, a religious scholar from the Masmuda Berbers of Morocco's Atlas Mountains. After studying in Spain and Baghdad he preached against the Almoravids, declared himself the Mahdi in 1121 and organised the mountain tribes; his disciple Abd al-Mu'min turned the movement into an empire.
+  - Q: What does "Almohad" mean? A: It comes from the Arabic al-Muwahhidun, "those who affirm the unity of God". The name reflects Ibn Tumart's strict doctrine of tawhid, which rejected any idea of God with human attributes and attacked the Maliki legal scholars favoured by the Almoravids.
+  - Q: How did the Almohads treat Jews and Christians? A: They rejected the usual protected (dhimmi) status for non-Muslims. Abd al-Mu'min forced most urban Jews and Christians in Morocco to convert, and many fled to Christian Spain or to more tolerant Muslim lands; the family of Maimonides went east.
+  - Q: Why did the Almohad Caliphate fall? A: Defeat at Las Navas de Tolosa in 1212 was followed by a disputed succession and coups from 1224, which let Christian kingdoms seize al-Andalus. In North Africa provinces and tribes broke away, and the Marinids gradually took over Morocco until the last caliph died in 1269.
+  - Q: Which famous thinkers lived under the Almohads? A: The philosophers Ibn Tufayl and Ibn Rushd (Averroes) both served the Almohad court, and the mystic Ibn Arabi lived in this period. Ibn Rushd's commentaries on Aristotle later influenced Jewish thinkers such as Maimonides and Christian scholars like Thomas Aquinas.
 written: 2026-10-22
 ---
 The Almohads were a Berber religious movement that founded an empire in North Africa and Spain in the twelfth and thirteenth centuries. At its height it united the Maghreb from Morocco to Tunisia with al-Andalus, the only time all of North Africa west of Egypt was ruled by a Berber dynasty.

@@ -8,6 +8,31 @@ sources:
   - Wikipedia: John Stuart Mill | https://en.wikipedia.org/wiki/John_Stuart_Mill
   - Wikidata: John Stuart Mill (Q50020) | https://www.wikidata.org/wiki/Q50020
   - Stanford Encyclopedia of Philosophy: John Stuart Mill | https://plato.stanford.edu/entries/mill/
+glance:
+  - Born: 20 May 1806, Pentonville, London
+  - Died: 7 May 1873, Avignon, France
+  - Role: Philosopher, economist and Liberal MP
+  - In office: MP for Westminster, 1865–1868
+  - Known for: On Liberty and the harm principle
+  - Spouse: Harriet Taylor (married 1851)
+timeline:
+  - 1806: He is born in Pentonville to the Scottish writer James Mill.
+  - 1823: He joins the [East India Company](/place/east-india-company) at seventeen, beginning a 35-year career there.
+  - 1826: At twenty he passes through a deep depression, eased by Wordsworth's poetry.
+  - 1843: He publishes A System of Logic.
+  - 1848: Principles of Political Economy appears and becomes widely read.
+  - 1851: He marries Harriet Taylor after a friendship of some two decades.
+  - 1858: He retires as the Crown takes over India; Harriet dies the same year.
+  - 1859: He publishes On Liberty, setting out the harm principle.
+  - 1863: Utilitarianism is published as a book.
+  - 1865: He is elected Liberal MP for the City of Westminster.
+  - 1869: He publishes The Subjection of Women.
+  - 1873: He dies of erysipelas at Avignon and is buried beside his wife.
+faq:
+  - Q: Which books made John Stuart Mill famous? A: Above all On Liberty (1859), which sets out the harm principle, and Utilitarianism, his refinement of Bentham's ethics. He also wrote influential works on logic, political economy, representative government and the equality of women.
+  - Q: What did Mill mean by the harm principle? A: It holds that society or the state may justly use power over an individual against their will only to prevent harm to others. A person's own good, whether physical or moral, is not on Mill's view a sufficient reason for interfering.
+  - Q: What did John Stuart Mill do for women's rights? A: As MP for Westminster he became, in 1866, only the second member after Henry Hunt to call for votes for women, and he proposed changing "man" to "person" in the Reform Bill. His book The Subjection of Women (1869) attacked women's legal subordination.
+  - Q: How did John Stuart Mill die? A: He died of erysipelas, a bacterial skin infection, at Avignon in southern France on 7 May 1873, aged 66. He was buried there beside his wife, Harriet Taylor, who had died in the town in 1858.
 written: 2026-10-25
 ---
 John Stuart Mill was an English philosopher, economist and politician, the most influential British thinker of the nineteenth century. He refined the utilitarian ethics of Jeremy Bentham, wrote the classic defence of individual freedom in On Liberty, and was one of the first members of Parliament to call for votes for women. His books on logic and political economy were standard texts for generations, and his ideas remain central to modern liberalism.

@@ -3,6 +3,53 @@ sources:
   - Wikipedia: Holy Roman Empire | https://en.wikipedia.org/wiki/Holy_Roman_Empire
   - Wikidata: Holy Roman Empire (Q12548) | https://www.wikidata.org/wiki/Q12548
   - Borders of Time maps, built on historical-basemaps | https://github.com/aourednik/historical-basemaps
+glance:
+  - Founded: 962, coronation of [Otto I](/person/otto-i)
+  - Dissolved: 6 August 1806
+  - Government: Elective monarchy
+  - Capital: None fixed; Vienna from the 1550s
+  - Languages: German, Latin and many others
+  - Religion: Catholic; Lutheran and Calvinist too
+rulers:
+  - 962–973: [Otto I](/person/otto-i)
+  - 996–1002: Otto III
+  - 1027–1039: Conrad II
+  - 1046–1056: Henry III
+  - 1084–1106: Henry IV
+  - 1155–1190: [Frederick I Barbarossa](/person/frederick-barbarossa)
+  - 1191–1197: Henry VI
+  - 1220–1250: [Frederick II](/person/frederick-ii-holy-roman-emperor)
+  - 1328–1347: Louis IV
+  - 1355–1378: Charles IV
+  - 1433–1437: Sigismund
+  - 1452–1493: Frederick III
+  - 1508–1519: Maximilian I
+  - 1519–1556: Charles V
+  - 1556–1564: Ferdinand I
+  - 1576–1612: Rudolf II
+  - 1619–1637: Ferdinand II
+  - 1658–1705: Leopold I
+  - 1765–1790: Joseph II
+  - 1792–1806: Francis II
+timeline:
+  - 955: Otto I crushes the Magyars at the [Battle of Lechfeld](/event/battle-of-lechfeld).
+  - 962: Pope John XII crowns Otto I emperor in Rome.
+  - 1077: Henry IV seeks the pope's pardon at Canossa during the [Investiture Controversy](/event/investiture-controversy).
+  - 1122: The Concordat of Worms settles the quarrel over appointing bishops.
+  - 1356: Charles IV's Golden Bull fixes the college of seven electors.
+  - 1452: Frederick III becomes the first Habsburg crowned emperor.
+  - 1495: The Diet of Worms creates the Imperial Chamber Court.
+  - 1517: Martin Luther's protest begins the Reformation.
+  - 1555: The Peace of Augsburg lets rulers choose Catholicism or Lutheranism.
+  - 1618: A Bohemian revolt starts the Thirty Years' War.
+  - 1648: The [Peace of Westphalia](/event/peace-of-westphalia) ends the war and recognises Calvinism.
+  - 1806: Francis II abdicates and the empire is dissolved.
+faq:
+  - Q: Why was it called the Holy Roman Empire? A: Emperors claimed to inherit the power of ancient Rome's rulers through Charlemagne. "Holy", meaning consecrated, was attached under Frederick Barbarossa from 1157, and the full form "Holy Roman Empire" appears from 1254. From about 1500 "of the German Nation" was often added.
+  - Q: How was the Holy Roman Emperor chosen? A: The emperor was elected. A group of leading princes gradually became a college of prince-electors, and the Golden Bull of 1356 fixed seven of them and allowed a majority vote. Elections were usually held in Frankfurt, and from 1438 the Habsburgs almost always won.
+  - Q: Was Charlemagne the first Holy Roman Emperor? A: Historians disagree. Some date the empire from Charlemagne's coronation as emperor on 25 December 800; others start it with Otto I's coronation in 962, which made German kings heirs to Charlemagne's imperial title. Contemporaries at first simply called the realm the Roman Empire.
+  - Q: Why did the Holy Roman Empire end? A: After Napoleon defeated Austria at Austerlitz in 1805, he organised much of western Germany into the Confederation of the Rhine under French protection. Francis II, already Emperor of Austria since 1804, then laid down the imperial crown on 6 August 1806, ending the empire.
+  - Q: What religion was the Holy Roman Empire? A: It was a Latin Christian realm closely tied to the papacy. After Luther's protest in 1517 it split along religious lines: the Peace of Augsburg (1555) let rulers choose Catholicism or Lutheranism, and the Peace of Westphalia (1648) recognised Calvinism as well.
 written: 2026-10-22
 ---
 The Holy Roman Empire lasted for over eight hundred years, from 962 to 1806, and for most of that time it was not much like an empire at all. It was a patchwork of kingdoms, duchies, church lands and free cities in central Europe, held together by an elected emperor whose real power varied from considerable to almost none.

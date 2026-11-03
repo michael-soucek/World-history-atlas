@@ -2,9 +2,33 @@
 sources:
   - Wikipedia: Spanish American wars of independence | https://en.wikipedia.org/wiki/Spanish_American_wars_of_independence
   - Wikidata: Spanish American wars of independence (Q1123201) | https://www.wikidata.org/wiki/Q1123201
+glance:
+  - Date: 1808–1826 (some sources to 1833)
+  - Location: Spanish America, Mexico to Argentina
+  - Result: Patriot victory; new independent states
+  - Leaders: Bolívar, San Martín, Sucre, Hidalgo, Iturbide
+  - Belligerents: Patriots against Royalists
+timeline:
+  - 1808: Napoleon forces the Spanish royals to abdicate and makes Joseph Bonaparte king.
+  - 1810: A junta takes power in Caracas; in September [Hidalgo](/person/miguel-hidalgo-y-costilla) calls Mexicans to arms.
+  - 1811: Venezuela, New Granada and Paraguay declare independence; Hidalgo is executed.
+  - 1816: The United Provinces of the Río de la Plata declare independence.
+  - 1817: [San Martín](/person/jose-de-san-martin) and O'Higgins lead the Army of the Andes into Chile.
+  - 1818: Chile declares independence after the victory at [Maipú](/event/battle-of-maipu).
+  - 1819: [Bolívar](/person/simon-bolivar) crosses the Andes and wins at [Boyacá](/event/battle-of-boyaca), taking Bogotá.
+  - 1821: Victory at Carabobo secures Venezuela; Iturbide signs the Treaty of Córdoba in Mexico.
+  - 1822: Sucre wins at Pichincha; Bolívar and San Martín meet at Guayaquil.
+  - 1824: Bolívar and Sucre's army destroys the royalist army at [Ayacucho](/event/battle-of-ayacucho).
+  - 1825: Sucre proclaims the independence of Upper Peru, later Bolivia.
+  - 1836: Spain renounces sovereignty over continental America.
+faq:
+  - Q: What caused the Spanish American wars of independence? A: Napoleon's invasion of Spain in 1808 left the throne vacant and led local juntas to govern in the colonies. Criollo resentment of Spanish-born officials, Bourbon tax reforms, and the examples of the American and French revolutions turned these self-governing movements into wars for independence.
+  - Q: Who were the main leaders of Spanish American independence? A: In South America, Simón Bolívar led the northern campaigns and José de San Martín the southern ones, with Antonio José de Sucre and Bernardo O'Higgins prominent beside them. In Mexico, the priests Miguel Hidalgo and José María Morelos began the revolt, which Agustín de Iturbide finally brought to success.
+  - Q: Which battle ended Spanish rule in South America? A: The Battle of Ayacucho in Peru, on 9 December 1824, in which a mainly Colombian patriot army under Bolívar's lieutenant Sucre destroyed the royalist army of Viceroy La Serna. Only a few coastal fortresses such as Callao and Chiloé held out into 1826.
+  - Q: Which colonies did Spain keep after the wars? A: In the Americas only Cuba, Puerto Rico and the Spanish Virgin Islands stayed under Spanish rule, with Santo Domingo returning briefly. Spain lost the last of them in the Spanish–American War of 1898, and had formally given up claims to the mainland in 1836.
 written: 2026-10-22
 ---
-The Spanish American wars of independence were a series of wars from 1808 to 1826 in which Spain's colonies in the Americas, from Mexico to Argentina, won their independence. They created most of the countries of Latin America.
+The Spanish American wars of independence were a series of wars, usually dated from 1808 to 1826, though some sources run them to 1833, in which Spain's colonies in the Americas, from Mexico to Argentina, won their independence. They created most of the countries of Latin America.
 
 ## Causes
 
@@ -28,7 +52,7 @@ In the south, Buenos Aires had been independent in practice since 1810, and the 
 
 ## Peru
 
-After San Martín met Bolívar at Guayaquil in 1822, he withdrew, and Bolívar completed the liberation of Peru, the royalist stronghold. Sucre's victory at Ayacucho on 9 December 1824 effectively ended Spanish rule in South America. Upper Peru became Bolivia in 1825. The last Spanish garrisons surrendered in 1826.
+After San Martín met Bolívar at Guayaquil in 1822, he withdrew, and Bolívar completed the liberation of Peru, the royalist stronghold. Sucre's victory at Ayacucho on 9 December 1824 effectively ended Spanish rule in South America. Upper Peru became Bolivia in 1825. The last Spanish garrisons in South America surrendered in 1826, although Spain made a final attempt to reconquer Mexico in 1829 and only gave up plans of reconquest after Ferdinand VII's death in 1833.
 
 ## Aftermath
 

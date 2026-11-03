@@ -8,6 +8,32 @@ sources:
   - Wikipedia: Wilhelm II | https://en.wikipedia.org/wiki/Wilhelm_II
   - Wikidata: Wilhelm II (Q2677) | https://www.wikidata.org/wiki/Q2677
   - Deutsches Historisches Museum, LeMO: Wilhelm II. | https://www.dhm.de/lemo/biografie/wilhelm-ii
+glance:
+  - Born: 27 January 1859, Berlin
+  - Died: 4 June 1941, Doorn, Netherlands
+  - Role: German Emperor and King of Prussia
+  - Reign: 1888–1918
+  - Dynasty: Hohenzollern
+  - Known for: Naval race, blank cheque of 1914
+timeline:
+  - 1859: Wilhelm is born in Berlin, a grandson of [Queen Victoria](/person/queen-victoria).
+  - 1881: He marries Princess Auguste Viktoria of Schleswig-Holstein.
+  - 1888: He becomes emperor in the "year of three emperors".
+  - 1890: He forces [Otto von Bismarck](/person/otto-von-bismarck) to resign as chancellor.
+  - 1896: His telegram to President Kruger of the Transvaal angers Britain.
+  - 1898: The first Navy Law launches a battle fleet to rival Britain's.
+  - 1905: His landing at Tangier sets off the first Moroccan crisis.
+  - 1908: A Daily Telegraph interview causes uproar in Germany.
+  - 1914: He promises Austria-Hungary unconditional support, and the [First World War](/event/world-war-i) begins.
+  - 1918: He is forced from the throne in November and flees to the Netherlands.
+  - 1922: In exile, he marries his second wife, Hermine Reuss.
+  - 1941: He dies at Doorn, in German-occupied Netherlands.
+faq:
+  - Q: Why did Wilhelm II abdicate? A: By November 1918 Germany had lost the war, sailors had mutinied and revolution was spreading. The army leadership told him it would no longer stand behind him, the chancellor announced his abdication on 9 November, and he signed a formal renunciation in the Netherlands on 28 November.
+  - Q: Was Wilhelm II related to Queen Victoria? A: Yes. His mother was Victoria's eldest daughter, so he was the queen's eldest grandchild. This made him a first cousin of King George V of Britain and of Empress Alexandra of Russia, wife of Nicholas II.
+  - Q: Did Wilhelm II cause the First World War? A: Historians still disagree. In July 1914 he and his chancellor pledged unconditional backing to Austria-Hungary against Serbia, and his naval and colonial ambitions had alarmed Britain. Others place more weight on the generals, the alliance system and the decisions of other powers.
+  - Q: Why was Wilhelm II never tried after the war? A: The Treaty of Versailles demanded that he stand trial, but he had taken refuge in the neutral Netherlands, whose government refused to extradite him. He lived on at Doorn until his death in 1941.
+  - Q: What was wrong with Wilhelm II's arm? A: Complications at his breech birth left his left arm withered and noticeably shorter than the right. He spent his life concealing the disability in photographs and portraits.
 written: 2026-10-25
 ---
 Wilhelm II was the last German emperor and king of Prussia, reigning from 1888 until his abdication in November 1918. A grandson of Queen Victoria, he dismissed Bismarck, set out to make Germany a world power with a great navy and colonies, and through erratic diplomacy helped to isolate his country. His support for Austria-Hungary in July 1914 was a crucial step towards the First World War, which ended with the fall of the [German Empire](/place/german-empire) and his flight into exile.

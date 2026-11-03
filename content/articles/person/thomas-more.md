@@ -8,6 +8,31 @@ sources:
   - Wikipedia: Thomas More | https://en.wikipedia.org/wiki/Thomas_More
   - Wikidata: Thomas More (Q42544) | https://www.wikidata.org/wiki/Q42544
   - Stanford Encyclopedia of Philosophy: Saint Thomas More | https://plato.stanford.edu/entries/thomas-more/
+glance:
+  - Born: 7 February 1478, London
+  - Died: 6 July 1535, Tower Hill, London
+  - Role: Lord Chancellor of England
+  - In office: 1529–1532
+  - Known for: Utopia (1516)
+  - Served: [Henry VIII](/person/henry-viii)
+timeline:
+  - 1478: Thomas More is born in the City of London, son of the lawyer John More.
+  - 1505: He marries Jane Colt.
+  - 1510: He becomes one of the two undersheriffs of the City of London.
+  - 1516: Utopia is published.
+  - 1523: The House of Commons elects him its Speaker.
+  - 1529: More succeeds Cardinal Wolsey as Lord Chancellor.
+  - 1532: He resigns the chancellorship as Henry breaks with Rome.
+  - 1534: He refuses the oath tied to the Act of Succession and is sent to the Tower.
+  - 1535: Convicted of treason, More is beheaded on Tower Hill.
+  - 1886: Pope Leo XIII beatifies him.
+  - 1935: Pope Pius XI canonises him as a martyr.
+  - 2000: He is named patron saint of statesmen and politicians.
+faq:
+  - Q: What does Thomas More's Utopia describe? A: Written in Latin and published in 1516, it is a dialogue in which a traveller, Raphael Hythloday, criticises English society and describes an island republic with common property, communal meals and religious tolerance. Whether More meant it as an ideal, a satire or an open question is still debated.
+  - Q: Why was Thomas More executed? A: He would not swear the oath attached to the Act of Succession, which rejected papal authority, and would not accept Henry VIII as head of the Church in England. Tried for treason in July 1535, largely on Richard Rich's disputed testimony, he was beheaded.
+  - Q: Did Thomas More persecute Protestants? A: Yes. As Lord Chancellor he pursued heresy vigorously, and six people were burned for heresy during his chancellorship. He defended such punishment in print, though historians dispute Protestant claims that he had suspects tortured in his own house.
+  - Q: Is Thomas More a saint? A: Yes. The Catholic Church beatified him in 1886 and canonised him with John Fisher in 1935 as a martyr. In 2000 Pope John Paul II named him patron saint of statesmen and politicians.
 written: 2026-10-25
 ---
 Sir Thomas More was an English lawyer, humanist scholar and statesman who served as Lord Chancellor under Henry VIII. He is best known as the author of Utopia, a witty and puzzling account of an imaginary island republic that gave its name to a whole genre of writing. A fierce opponent of the Protestant Reformation, he refused to accept the king as head of the Church in England and was executed for treason in 1535. The Catholic Church venerates him as a saint and martyr.

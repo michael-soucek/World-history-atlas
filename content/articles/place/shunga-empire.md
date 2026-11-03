@@ -5,9 +5,41 @@ sources:
   - Borders of Time maps, built on historical-basemaps | https://github.com/aourednik/historical-basemaps
 title: Shunga Empire Map (185–75 BCE): Kings, Wars & Art
 description: The Shunga Empire ruled northern India after the Mauryas, about 185 to 75 BCE. See its borders on our map, Pushyamitra, the wars with the Greeks and Shunga art.
+glance:
+  - Capital: Pataliputra; later also Vidisha
+  - Founded: c. 185 BCE, by Pushyamitra
+  - Ended: c. 75–73 BCE
+  - Religion: Brahmanism (Vedic religion)
+  - Language: Sanskrit, in Brahmi script
+  - Succeeded by: Kanva dynasty
+rulers:
+  - c. 185–149 BCE: Pushyamitra
+  - c. 149–141 BCE: Agnimitra
+  - c. 141–131 BCE: Vasujyeshtha
+  - c. 131–124 BCE: Vasumitra
+  - c. 124–122 BCE: Bhadraka
+  - c. 122–119 BCE: Pulindaka
+  - c. 119–114 BCE: Ghosha (or Vajramitra)
+  - c. 114–83 BCE: Bhagabhadra
+  - c. 83–73 BCE: Devabhuti
+timeline:
+  - ~-185: The general Pushyamitra kills Brihadratha, last ruler of the [Maurya Empire](/place/maurya-empire), and seizes the throne.
+  - ~-180: The [Greco-Bactrian](/place/greco-bactrian-kingdom) king Demetrius takes the Kabul valley, opening decades of war with Indo-Greeks.
+  - ~-149: Pushyamitra dies and his son Agnimitra, once viceroy at Vidisha, becomes king.
+  - ~-131: Vasumitra, remembered for beating Greek cavalry on the "Sindhu" river, takes the throne.
+  - ~-114: Bhagabhadra begins a long reign, holding court at Besnagar near Vidisha.
+  - ~-110: Heliodorus, envoy of the Indo-Greek king Antialcidas, raises his pillar at Vidisha.
+  - ~-83: Devabhuti, the last Shunga king, comes to the throne.
+  - ~-73: Devabhuti's minister Vasudeva Kanva has him killed and founds the Kanva dynasty.
+faq:
+  - Q: Who founded the Shunga Empire? A: Pushyamitra Shunga, commander-in-chief of the last Maurya emperor, Brihadratha. Around 185 BCE he assassinated Brihadratha while the king was reviewing his troops, took the throne of Magadha and reportedly ruled for about 36 years.
+  - Q: Did the Shungas persecute Buddhists? A: Buddhist texts such as the Ashokavadana claim Pushyamitra destroyed monasteries and put a price on monks' heads. Many historians treat these stories as exaggerated, since the Buddhist stupas at Sanchi and Bharhut were enlarged and decorated in the Shunga period, though largely with private donations.
+  - Q: Who did the Shungas fight? A: They waged war on several fronts, against Kalinga, the Satavahanas of the Deccan and above all the Indo-Greek kingdoms of the north-west, whose armies, led by Demetrius or Menander, may have reached Pataliputra. Relations later calmed, and the two sides exchanged envoys.
+  - Q: How did the Shunga Empire end? A: After Agnimitra, Shunga power broke up into many small independent kingdoms and city-states. Around 73 BCE the last king, Devabhuti, was killed on the orders of his minister Vasudeva Kanva, who founded the Kanva dynasty; a Shunga rump may have survived near Vidisha.
+  - Q: Why is the Shunga period important for Indian art? A: Its art and learning. The carved railings and gateways of the Bharhut stupa, the stone casing of the [Great Stupa at Sanchi](/site/sanchi-stupa) and numerous terracotta figurines date from this era, and the grammarian Patanjali's Mahabhashya is thought to have been composed during it.
 written: 2026-10-22
 ---
-The Shunga Empire ruled much of northern and central India from about 185 to 75 BCE, after the Maurya Empire. It was founded by Pushyamitra Shunga, the commander-in-chief of the last Maurya king.
+The Shunga Empire ruled much of northern and central India from about 185 to around 73 BCE, after the Maurya Empire. It was founded by Pushyamitra Shunga, the commander-in-chief of the last Maurya king.
 
 ## The end of the Mauryas
 
@@ -15,7 +47,7 @@ After Ashoka's death around 232 BCE, the Maurya Empire weakened, losing territor
 
 ## Wars with the Greeks
 
-The Shunga period saw invasions from the north-west by the Indo-Greek kings, descendants of the Greek rulers of Bactria who had crossed the Hindu Kush. The grammarian Patanjali mentions a Greek siege of Saketa, near Ayodhya, and the Gargi Samhita, an astrological text, describes Greeks reaching Pataliputra. The Indo-Greek king Menander, known in Buddhist texts as Milinda, whose dialogues with the monk Nagasena are recorded in the Milindapanha, ruled much of the north-west. The Shungas fought them, and a play by Kalidasa, written centuries later, describes Pushyamitra's grandson Vasumitra defeating Greek cavalry on the Indus river during the horse sacrifice.
+The Shunga period saw invasions from the north-west by the Indo-Greek kings, descendants of the Greek rulers of Bactria who had crossed the Hindu Kush. The grammarian Patanjali mentions a Greek siege of Saketa, near Ayodhya, and the Gargi Samhita, an astrological text, describes Greeks reaching Pataliputra. The Indo-Greek king Menander, known in Buddhist texts as Milinda, whose dialogues with the monk Nagasena are recorded in the Milindapanha, ruled much of the north-west. The Shungas fought them, and a play by Kalidasa, written centuries later, describes Pushyamitra's grandson Vasumitra defeating Greek cavalry on the "Sindhu" river during the horse sacrifice. This may mean the Indus, but historians think the Sindh or Kali Sindh rivers of central India more likely.
 
 ## The horse sacrifice
 
@@ -35,7 +67,7 @@ At Besnagar, near Vidisha, a stone pillar records that Heliodorus, son of Dion, 
 
 ## The end
 
-The later Shunga kings were weak. Around 75 BCE, the last Shunga ruler, Devabhuti, was killed, according to the Puranas, by his minister Vasudeva Kanva, who founded the short-lived Kanva dynasty. Shunga rulers may have continued in some regions, such as Vidisha, for a time.
+The later Shunga kings were weak. Around 73 BCE (some sources say 75 BCE), the last Shunga ruler, Devabhuti, was killed, according to the Puranas, by his minister Vasudeva Kanva, who founded the short-lived Kanva dynasty. Shunga rulers may have continued in some regions, such as Vidisha, for a time.
 
 ## On our maps
 

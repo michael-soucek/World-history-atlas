@@ -4,7 +4,9 @@
  * map sidebar.
  */
 import Link from "next/link";
-import { JsonLd, articleLd, breadcrumbLd } from "@/lib/jsonLd";
+import { JsonLd, articleLd, breadcrumbLd, faqLd } from "@/lib/jsonLd";
+import KeyDates from "@/components/KeyDates";
+import { AtAGlance, Rulers } from "@/components/ArticleFacts";
 import { citiesHeldBy, toursFeaturing, toursOfEvent } from "@/lib/relatedLinks";
 import { sitesHeldBy } from "@/lib/siteHistory";
 import { ArrowRight, ArrowUpRight, MapPin } from "lucide-react";
@@ -19,7 +21,7 @@ import { contextDescription, entityContext, fmtSpan, storedFacts } from "@/lib/e
 import QuickAnswers from "@/components/QuickAnswers";
 import OurArticle from "@/components/OurArticle";
 import { articleIntro, articleWordCount, getOurArticle } from "@/lib/ourArticles";
-import { placeDescription, placeMaps } from "@/lib/placeMaps";
+import { placeDescription, placeMaps, withArticle } from "@/lib/placeMaps";
 import { titleDates } from "@/lib/seo";
 import { getEntityImages } from "@/lib/entityImages";
 import type { PlaceContent, EntityType } from "@/types";
@@ -159,6 +161,7 @@ export default async function EntityPage({ content, entry, entityType, baseRoute
             })]
           : []),
         breadcrumbLd([["Browse", "/browse"], [TYPE_PLURAL[entityType], browsePath], [content.name, `/${baseRoute}/${entry.slug}`]]),
+        ...(ownArticle?.faq.length ? [faqLd(ownArticle.faq)] : []),
       ]}
     />
     <div className="page-bg min-h-full">
@@ -196,7 +199,11 @@ export default async function EntityPage({ content, entry, entityType, baseRoute
       )}
 
       {/* ── Key facts strip ── */}
-      {facts.length > 0 && (
+      {ownArticle && ownArticle.glance.length > 0 ? (
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-10">
+          <AtAGlance items={ownArticle.glance} />
+        </div>
+      ) : facts.length > 0 && (
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-10">
           <dl className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 border-t border-ink/80">
             {facts.slice(0, 6).map((fact) => (
@@ -217,12 +224,14 @@ export default async function EntityPage({ content, entry, entityType, baseRoute
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14 sm:py-20 grid grid-cols-1 lg:grid-cols-12 gap-14 lg:gap-8">
         <article className="lg:col-span-7 xl:col-start-2 xl:col-span-7 min-w-0">
           {ownArticle && <OurArticle article={ownArticle} images={rest} name={content.name} />}
+          {ownArticle && ownArticle.rulers.length > 0 && <Rulers items={ownArticle.rulers} name={withArticle(content.name)} />}
+          {ownArticle && ownArticle.timeline.length > 0 && <KeyDates items={ownArticle.timeline} className="mb-14" />}
           {entityType === "place" && (
             <PlaceOnOurMaps slug={entry.slug} name={content.name} regionId={mapRegionId} />
           )}
-          {entityType === "place" && <QuickAnswers kind="place" name={content.name} facts={stored} maps={placeMaps(entry.slug)} />}
+          {entityType === "place" && <QuickAnswers kind="place" name={content.name} facts={stored} maps={placeMaps(entry.slug)} extra={ownArticle?.faq} />}
           {ctx && <EntityInTime ctx={ctx} />}
-          {ctx && entityType !== "place" && <QuickAnswers kind={entityType} ctx={ctx} facts={stored} />}
+          {ctx && entityType !== "place" && <QuickAnswers kind={entityType} ctx={ctx} facts={stored} extra={ownArticle?.faq} />}
         </article>
 
         <aside className="lg:col-span-4 lg:col-start-9 xl:col-start-10 xl:col-span-3">

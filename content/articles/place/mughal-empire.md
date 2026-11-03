@@ -3,6 +3,48 @@ sources:
   - Wikipedia: Mughal Empire | https://en.wikipedia.org/wiki/Mughal_Empire
   - Wikidata: Mughal Empire (Q33296) | https://www.wikidata.org/wiki/Q33296
   - Borders of Time maps, built on historical-basemaps | https://github.com/aourednik/historical-basemaps
+glance:
+  - Capital: Agra, Fatehpur Sikri, Lahore, then Delhi
+  - Founded: 1526, by [Babur](/person/babur)
+  - Ended: 1857, last emperor deposed by the British
+  - Religion: Sunni Islam (state); Hindu majority
+  - Language: Persian (official)
+  - Government: Monarchy under an emperor
+rulers:
+  - 1526–1530: [Babur](/person/babur)
+  - 1530–1540, 1555–1556: Humayun
+  - 1556–1605: [Akbar](/person/akbar)
+  - 1605–1627: [Jahangir](/person/jahangir)
+  - 1628–1658: [Shah Jahan](/person/shah-jahan)
+  - 1658–1707: [Aurangzeb](/person/aurangzeb)
+  - 1707–1712: Bahadur Shah I
+  - 1712–1713: Jahandar Shah
+  - 1713–1719: Farrukhsiyar
+  - 1719–1748: Muhammad Shah
+  - 1748–1754: Ahmad Shah Bahadur
+  - 1754–1759: Alamgir II
+  - 1760–1806: Shah Alam II
+  - 1806–1837: Akbar II
+  - 1837–1857: Bahadur Shah II (Zafar)
+timeline:
+  - 1526: Babur defeats Sultan Ibrahim Lodi at the [First Battle of Panipat](/event/first-battle-of-panipat).
+  - 1540: [Sher Shah Suri](/person/sher-shah-suri) drives Humayun out, opening a fifteen-year Sur interregnum.
+  - 1555: Humayun regains Delhi, dying early the following year.
+  - 1556: Akbar's forces win the [Second Battle of Panipat](/event/second-battle-of-panipat).
+  - 1571: Akbar moves his capital to the new city of [Fatehpur Sikri](/site/fatehpur-sikri).
+  - 1631: Work begins on the [Taj Mahal](/site/taj-mahal) at Agra for Mumtaz Mahal.
+  - 1658: Aurangzeb takes the throne from his father Shah Jahan.
+  - 1682: Aurangzeb begins his long campaigns in the Deccan, later annexing Bijapur and Golconda.
+  - 1707: Aurangzeb dies, and wars of succession weaken the empire.
+  - 1739: [Nader Shah](/person/nader-shah) of Iran sacks Delhi and carries off the imperial treasury.
+  - 1757: The East India Company wins the [Battle of Plassey](/event/battle-of-plassey) in Bengal.
+  - 1857: The British take Delhi and depose Bahadur Shah Zafar after the Indian Rebellion.
+faq:
+  - Q: Who founded the Mughal Empire? A: Babur, a Central Asian prince descended from Timur, founded it in 1526 when his army, using firearms and cannon, defeated the Delhi Sultan Ibrahim Lodi at Panipat. He ruled until his death in 1530.
+  - Q: What does the word Mughal mean? A: Mughal is the Indo-Persian form of the word Mongol. The dynasty's early followers were in fact Chagatai Turks rather than Mongols, but the name was applied to them in India.
+  - Q: What religion was the Mughal Empire? A: Sunni Islam of the Hanafi school was the state religion, while most subjects were Hindus, with Sikhs and others. Akbar allowed religious freedom at court and promoted his own creed, Din-i Ilahi, whereas Aurangzeb reimposed the jizya tax on non-Muslims.
+  - Q: What language did the Mughals speak? A: The dynasty had Turkic roots, and Babur wrote his memoirs in Chagatai Turkic, but Persian became the official and court language. By the late sixteenth century few courtiers still understood Turki.
+  - Q: Why did the Mughal Empire decline? A: After Aurangzeb's death in 1707, succession wars, costly Deccan campaigns and rising Maratha, Sikh and regional powers broke up imperial authority. Nader Shah's sack of Delhi in 1739 emptied the treasury, and the British East India Company steadily took control.
 written: 2026-10-22
 ---
 The Mughal Empire ruled most of the Indian subcontinent in the sixteenth and seventeenth centuries and was one of the richest states in the world. Its founder, Babur, was a Timurid prince from Central Asia, descended from Timur on his father's side and from Genghis Khan on his mother's. The name "Mughal" comes from the Persian word for Mongol.

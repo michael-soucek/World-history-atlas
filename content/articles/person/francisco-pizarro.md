@@ -8,6 +8,29 @@ sources:
   - Wikipedia: Francisco Pizarro | https://en.wikipedia.org/wiki/Francisco_Pizarro
   - Wikidata: Francisco Pizarro (Q44741) | https://www.wikidata.org/wiki/Q44741
   - World History Encyclopedia: Francisco Pizarro | https://www.worldhistory.org/Francisco_Pizarro/
+glance:
+  - Born: c. 1478, Trujillo, Extremadura
+  - Died: 26 June 1541, Lima
+  - Role: Conquistador; Governor of New Castile
+  - Known for: Conquest of the Inca Empire
+  - Founded: [Lima](/history-of/lima), 1535
+timeline:
+  - ~1502: Pizarro sails to the Americas, probably to Hispaniola.
+  - 1513: He crosses the isthmus of Panama with Balboa's party to the Pacific.
+  - 1524: Pizarro, Almagro and Luque form a partnership to explore the coast southwards.
+  - 1528: After the stand on the Isla del Gallo, the expedition reaches Tumbes.
+  - 1529: The Capitulation of Toledo makes him governor of New Castile.
+  - 1532: At [Cajamarca](/event/battle-of-cajamarca) his men seize [Atahualpa](/person/atahualpa) and kill thousands of his followers.
+  - 1533: Atahualpa is executed and the Spaniards enter [Cusco](/history-of/cusco).
+  - 1535: Pizarro founds Lima, the City of the Kings, near the coast.
+  - 1536: Manco Inca's rising begins the [siege of Cusco](/event/siege-of-cusco).
+  - 1538: Almagro is defeated at Las Salinas and executed.
+  - 1541: Supporters of Almagro's son kill Pizarro in his Lima palace.
+faq:
+  - Q: How did Pizarro conquer the Inca Empire with so few men? A: He arrived just after a smallpox epidemic and a civil war between Atahualpa and Huáscar had weakened the empire. Steel weapons, horses and guns gave his small force an edge, the capture of Atahualpa paralysed the state, and many Indigenous groups who resented Inca rule fought alongside the Spaniards.
+  - Q: What happened at Cajamarca? A: On 16 November 1532 Atahualpa entered the town square with several thousand mostly unarmed attendants. After a friar called on him to accept Christianity and Spanish rule, Pizarro's hidden cavalry and gunmen attacked, killing thousands and taking Atahualpa prisoner without a single Spanish death.
+  - Q: Why did Pizarro execute Atahualpa? A: Although Atahualpa paid an enormous ransom in gold and silver, Pizarro feared an Inca rescue attempt and was pressed by Almagro's newly arrived men. Atahualpa was tried on charges including treason and the killing of Huáscar, and was garrotted in 1533.
+  - Q: How did Francisco Pizarro die? A: His quarrel with Diego de Almagro over Cusco led to civil war and Almagro's execution in 1538. On 26 June 1541 about twenty followers of Almagro's son broke into Pizarro's palace in Lima and killed him.
 written: 2026-10-25
 ---
 Francisco Pizarro was a Spanish conquistador who led the invasion of the Inca Empire, the largest state in the Americas. In 1532, with fewer than 200 men, he ambushed and captured the Inca ruler Atahualpa at Cajamarca, killing thousands of his unarmed attendants, extracted a vast ransom in gold and silver, and then had him executed. The conquest that followed, fought with Indigenous allies and against long Inca resistance, made Peru the centre of Spain's South American empire, and Pizarro founded its capital, Lima, before being murdered by rival Spaniards in 1541.

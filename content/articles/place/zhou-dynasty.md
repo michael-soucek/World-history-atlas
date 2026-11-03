@@ -3,6 +3,51 @@ sources:
   - Wikipedia: Zhou dynasty | https://en.wikipedia.org/wiki/Zhou_dynasty
   - Wikidata: Zhou dynasty (Q35216) | https://www.wikidata.org/wiki/Q35216
   - Borders of Time maps, built on historical-basemaps | https://github.com/aourednik/historical-basemaps
+glance:
+  - Founded: c. 1046 BCE, by King Wu
+  - Ended: 256 BCE, taken by Qin
+  - Capitals: Fenghao; Wangcheng from 771 BCE
+  - Language: Old Chinese
+  - Religion: Heaven worship, ancestor veneration
+  - Government: Monarchy; fengjian feudal system
+rulers:
+  - c. 1046–1043 BCE: King Wu
+  - c. 1042–1021 BCE: King Cheng
+  - c. 1020–996 BCE: King Kang
+  - c. 995–977 BCE: King Zhao
+  - c. 976–922 BCE: King Mu
+  - c. 922–900 BCE: King Gong
+  - c. 877–841 BCE: King Li
+  - 827–782 BCE: King Xuan
+  - 781–771 BCE: King You
+  - 770–720 BCE: King Ping
+  - 719–697 BCE: King Huan
+  - 676–652 BCE: King Hui
+  - 651–619 BCE: King Xiang
+  - 606–586 BCE: King Ding
+  - 571–545 BCE: King Ling
+  - 544–521 BCE: King Jing (Gui)
+  - 519–476 BCE: King Jing (Gai)
+  - 425–402 BCE: King Weilie
+  - 368–321 BCE: King Xian
+  - 314–256 BCE: King Nan
+timeline:
+  - ~-1046: King Wu defeats the last Shang king at the [Battle of Muye](/event/battle-of-muye).
+  - ~-1042: The Duke of Zhou, regent for King Cheng, crushes the Rebellion of the Three Guards.
+  - -841: The Gonghe Regency begins; Chinese dates are secure from here on.
+  - -771: The Quanrong sack Haojing and kill King You, ending the Western Zhou.
+  - -770: King Ping rules from Wangcheng in the east, beginning the Eastern Zhou.
+  - -403: The Zhou court recognises Han, Zhao and Wei as independent states.
+  - -344: Duke Hui of Wei becomes the first lord to call himself king.
+  - -256: Qin captures Wangcheng and King Nan's reign ends.
+  - -249: Qin dismantles the last Zhou splinter state.
+  - -221: [Qin's wars of unification](/event/qins-wars-of-unification) end with the conquest of Qi.
+faq:
+  - Q: Who founded the Zhou dynasty? A: King Wu, son of King Wen. Around 1046 BCE he and his ally Jiang Ziya crossed the Yellow River with some 45,000 soldiers and 300 chariots and defeated Di Xin, the last Shang king, at Muye. After Wu's early death his brother, the Duke of Zhou, secured the new kingdom.
+  - Q: What was the Mandate of Heaven? A: A Zhou doctrine holding that Heaven grants the right to rule to a virtuous king and withdraws it from one who lets his people suffer. The Zhou used it to justify overthrowing the Shang, and it became one of East Asia's most enduring political ideas, invoked by later dynasties.
+  - Q: Which schools of thought arose under the Zhou? A: The Eastern Zhou was the age of the Hundred Schools of Thought, when rival lords sponsored wandering scholars, as at Qi's Jixia Academy. Confucianism, Daoism, Legalism and Mohism all took shape then, along with the military thought associated with Sunzi; the first three later won imperial support.
+  - Q: Why did the Zhou dynasty decline? A: The Zhou ruled through relatives and allies granted their own lands, and as family ties thinned these regional lords grew as strong as the king. After 771 BCE royal authority steadily collapsed; by 344 BCE rival rulers were calling themselves kings, and Qin finally took the last Zhou capital in 256 BCE.
+  - Q: What religion did the Zhou practise? A: Zhou religion centred on the worship of Heaven, the veneration of ancestors and Chinese folk beliefs. Kings and nobles honoured their forebears with rituals using cast bronze vessels, and the king kept a royal calendar setting the times of rituals and farm work, so eclipses or disasters could cast doubt on his mandate.
 written: 2026-10-22
 ---
 The Zhou was the longest-lasting dynasty in Chinese history, ruling, at least in name, for about eight centuries, from around 1046 to 256 BCE. In that time China's classical culture took shape: Confucius, Laozi and Sunzi all lived under the Zhou, and its ideas of kingship shaped Chinese politics for three thousand years.
@@ -33,7 +78,7 @@ The Book of Songs, a collection of poems from the Western Zhou and Spring and Au
 
 ## The end
 
-In 256 BCE Qin deposed the last Zhou king, King Nan, and in 221 BCE Qin unified China.
+In 256 BCE Qin captured Wangcheng; the last Zhou king, King Nan, submitted, was demoted and died soon afterwards. In 221 BCE Qin unified China.
 
 ## On our maps
 

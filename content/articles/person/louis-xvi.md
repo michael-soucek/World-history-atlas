@@ -9,6 +9,30 @@ sources:
   - Wikidata: Louis XVI of France (Q7732) | https://www.wikidata.org/wiki/Q7732
   - Palace of Versailles: Louis XVI | https://en.chateauversailles.fr/discover/history/great-characters/louis-xvi
   - World History Encyclopedia: Louis XVI of France | https://www.worldhistory.org/Louis_XVI_of_France/
+glance:
+  - Born: 23 August 1754, Versailles
+  - Died: 21 January 1793, Paris
+  - Role: King of France
+  - Reign: 1774–1792
+  - Dynasty: Bourbon
+  - Spouse: [Marie Antoinette](/person/marie-antoinette)
+timeline:
+  - 1754: Louis-Auguste is born at the [Palace of Versailles](/site/palace-of-versailles).
+  - 1770: He marries the Austrian archduchess Marie Antoinette.
+  - 1774: He succeeds his grandfather Louis XV as king.
+  - 1775: He is crowned in Reims Cathedral.
+  - 1776: The reforming finance minister Turgot is dismissed.
+  - 1787: An Assembly of Notables rejects new taxes; an edict grants Protestants civil status.
+  - 1789: The Estates-General meets and the Bastille falls, starting the [French Revolution](/event/french-revolution).
+  - 1791: The royal family's flight is halted at Varennes.
+  - 1792: The Tuileries is stormed in August and the monarchy abolished in September.
+  - 1793: Louis is guillotined in Paris on 21 January.
+faq:
+  - Q: Why was Louis XVI executed? A: After the monarchy fell in 1792, the National Convention tried him for treason, citing his secret dealings with counter-revolutionaries and foreign powers. He was found guilty, and a bare majority of deputies voted for death without conditions; he was guillotined on 21 January 1793.
+  - Q: What was the flight to Varennes? A: In June 1791 Louis and his family slipped out of Paris in disguise, hoping to reach loyal troops near the eastern frontier. They were recognised and halted at Varennes, then escorted back, and the episode badly damaged public trust in the king.
+  - Q: Whom did Louis XVI marry? A: He married Marie Antoinette, an Austrian archduchess and daughter of the empress Maria Theresa, in 1770 to cement the alliance between France and the Habsburgs. She was executed in October 1793, nine months after her husband.
+  - Q: Why did France go bankrupt under Louis XVI? A: Heavy borrowing, especially to fund French support for the American War of Independence, pushed up the debt, while nobles, clergy and the parlements blocked new taxes on the privileged. The resulting crisis forced the king to summon the Estates-General in 1789.
+  - Q: Was Louis XVI the last king of France? A: He was the last king before the Revolution, but not the last French monarch. After Napoleon's fall the Bourbons were restored, and two of Louis's younger brothers later reigned as Louis XVIII and Charles X.
 written: 2026-10-25
 ---
 Louis XVI was the last king of France before the [French Revolution](/event/french-revolution), reigning from 1774 until the monarchy was abolished in 1792. Well-meaning but indecisive, he inherited a state burdened by debt and a tax system that his ministers could not reform against the resistance of the privileged. His attempts to manage the Revolution failed, and he was tried by the National Convention and guillotined in Paris in January 1793.

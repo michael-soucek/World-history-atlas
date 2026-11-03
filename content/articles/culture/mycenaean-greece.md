@@ -2,13 +2,37 @@
 sources:
   - Wikipedia: Mycenaean Greece | https://en.wikipedia.org/wiki/Mycenaean_Greece
   - Wikidata: Mycenaean Greece (Q181264) | https://www.wikidata.org/wiki/Q181264
+glance:
+  - Region: Mainland Greece, the Aegean, western Anatolia
+  - Period: Late Bronze Age, c. 1750–1050 BCE
+  - Language: Mycenaean Greek, written in Linear B
+  - Known for: Palaces, Cyclopean walls, Linear B tablets
+  - Major sites: [Mycenae](/history-of/mycenae), Pylos, Tiryns, Thebes
+  - Ruler's title: Wanax (king)
+timeline:
+  - ~-1750: Mycenaean culture begins to take shape in southern mainland Greece.
+  - ~-1450: The earliest known Linear B texts, the Minoan script adapted to write Greek, appear.
+  - ~-1450: A Mycenaean elite takes control of the palace of [Knossos](/site/knossos) on Crete.
+  - ~-1400: The first true palaces and Cyclopean walls rise at Mycenae and Tiryns.
+  - ~-1250: A first wave of destruction strikes mainland centres, and Thebes is burned.
+  - ~-1190: A second destruction ends Mycenae's role as a major power.
+  - ~-1180: The palace of Pylos burns, baking and preserving its Linear B archive.
+  - ~-1050: The Mycenaean age ends, and the Greek Dark Ages follow.
+  - 1876: Heinrich Schliemann excavates the royal shaft graves at Mycenae.
+  - 1952: Michael Ventris deciphers Linear B and shows it records an early form of Greek.
+faq:
+  - Q: What language did the Mycenaeans speak? A: They spoke Mycenaean Greek, the oldest recorded form of the Greek language. It was written on clay tablets in Linear B, a syllabic script adapted from the Minoans' Linear A, which Michael Ventris deciphered in 1952.
+  - Q: Why did Mycenaean civilisation collapse? A: No single explanation is accepted. Suggested causes include invasion, such as the Dorian migration of Greek tradition or the Sea Peoples, warfare between or within the palace states, and natural causes such as drought, climate change and earthquakes, all within the wider [Late Bronze Age collapse](/event/late-bronze-age-collapse).
+  - Q: Who ruled Mycenaean Greece? A: Each palace state was headed by a king called the wanax, who was chief landowner, military leader and religious leader, backed by officials and scribes. Hittite letters address a "Great King" of Ahhiyawa, which suggests that at times one centre, probably Mycenae, held wider authority.
+  - Q: Was the Trojan War real? A: It is uncertain. Hittite records show that Ahhiyawa, generally taken to be the Mycenaean Greeks, backed revolts and fought in western Anatolia in the 14th and 13th centuries BCE, and some scholars see this turmoil behind the legend.
+  - Q: How were the Mycenaeans different from the Minoans? A: The Mycenaeans were Greek-speakers of the mainland who borrowed much from Minoan Crete in art, writing and symbols. Their buildings were simpler in design but more monumental, they built massive fortifications, and their society was dominated by a warrior elite.
 written: 2026-10-22
 ---
-Mycenaean Greece was the last phase of the Bronze Age in mainland Greece, from about 1600 to 1100 BCE. Named after [Mycenae](/history-of/mycenae), its most famous site, it was the first advanced civilisation on the Greek mainland, with palace states, writing in an early form of Greek and a warrior aristocracy. It is the world described, in legendary form, by Homer's epics.
+Mycenaean Greece was the last phase of the Bronze Age in mainland Greece, from about 1750 to 1050 BCE. Named after [Mycenae](/history-of/mycenae), its most famous site, it was the first advanced civilisation on the Greek mainland, with palace states, writing in an early form of Greek and a warrior aristocracy. It is the world described, in legendary form, by Homer's epics.
 
 ## Rise
 
-The Mycenaeans were Greek-speakers who emerged as a wealthy elite around 1600 BCE, as shown by the rich shaft graves at Mycenae, excavated by Heinrich Schliemann in 1876. They contained gold masks, one of which he called the "Mask of Agamemnon", weapons and jewellery. The Mycenaeans were influenced by the Minoan civilisation of Crete, and around 1450 BCE they took control of Crete and its palace at [Knossos](/site/knossos).
+The Mycenaeans were Greek-speakers whose culture took shape from about 1750 BCE. By around 1600 BCE a wealthy elite had emerged, as shown by the rich shaft graves at Mycenae, excavated by Heinrich Schliemann in 1876. They contained gold masks, one of which he called the "Mask of Agamemnon", weapons and jewellery. The Mycenaeans were influenced by the Minoan civilisation of Crete, and around 1450 BCE they took control of Crete and its palace at [Knossos](/site/knossos).
 
 ## Palaces
 

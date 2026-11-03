@@ -5,6 +5,51 @@ sources:
   - Borders of Time maps, built on historical-basemaps | https://github.com/aourednik/historical-basemaps
 title: Chola Dynasty Map: Empire of Rajaraja I & Rajendra I
 description: The Cholas ruled the Tamil south of India and from the 9th to 13th centuries built a sea power reaching Southeast Asia. See their borders on our map.
+glance:
+  - Capital: Thanjavur, later Gangaikonda Cholapuram
+  - Revived: c. 850, by Vijayalaya
+  - Ended: 1279, defeated by the [Pandyas](/place/pandya-dynasty)
+  - Religion: Hinduism, chiefly devotion to Shiva
+  - Languages: Tamil; Sanskrit for ritual
+  - Height: c. 1030, under [Rajendra I](/person/rajendra-i)
+rulers:
+  - 848–870: Vijayalaya
+  - c. 870–907: Aditya I
+  - 907–955: Parantaka I
+  - 955–957: Gandaraditya
+  - 957–970: Parantaka II
+  - 970–985: Uttama
+  - 985–1014: Rajaraja I
+  - 1014–1044: [Rajendra I](/person/rajendra-i)
+  - 1044–1052: Rajadhiraja I
+  - 1052–1063: Rajendra II
+  - 1063–1070: Virarajendra
+  - 1070–1122: Kulottunga I
+  - 1122–1135: Vikrama
+  - 1135–1150: Kulottunga II
+  - 1150–1173: Rajaraja II
+  - 1173–1178: Rajadhiraja II
+  - 1178–1216: Kulottunga III
+  - 1216–1256: Rajaraja III
+  - 1256–1279: Rajendra III
+timeline:
+  - ~-250: Edicts of the Maurya emperor Ashoka name the Cholas among his southern neighbours.
+  - ~850: Vijayalaya seizes Thanjavur and re-establishes Chola power.
+  - 885: Aditya I and the Pallavas defeat the Pandyas of Madurai.
+  - 985: Rajaraja I is crowned and begins a long series of conquests.
+  - ~1010: Rajaraja's great Brihadisvara temple at Thanjavur is completed.
+  - 1014: [Rajendra I](/person/rajendra-i) succeeds his father Rajaraja.
+  - 1022: Rajendra's northern expedition returns from the Ganges, and he takes the title Gangaikonda.
+  - 1025: Chola fleets raid the ports of [Srivijaya](/place/srivijaya) in Southeast Asia.
+  - 1070: Kulottunga I, of Eastern Chalukya descent, takes the Chola throne.
+  - ~1118: The Cholas lose Vengi to the [Western Chalukyas](/place/western-chalukya-empire) and Gangavadi to the Hoysalas.
+  - 1279: The [Pandyas](/place/pandya-dynasty) defeat Rajendra III, the last Chola king.
+faq:
+  - Q: Who founded the Chola Empire? A: The imperial Chola line was established around 850 by Vijayalaya, a descendant of the early Chola kings, who took Thanjavur while the Pallavas and Pandyas were at war. The Chola name itself is far older, appearing in the edicts of the Maurya emperor Ashoka in the third century BCE.
+  - Q: Who were the most powerful Chola kings? A: Rajaraja I (985–1014) and his son Rajendra I (1014–1044). Rajaraja took Sri Lanka's north, the Maldives and the Malabar coast and built the Brihadisvara temple; Rajendra sent armies to the Ganges and fleets against Srivijaya, bringing the empire to its widest extent around 1030.
+  - Q: What religion did the Cholas follow? A: The Chola kings were devoted above all to Shiva and built their largest temples for him; Rajaraja I took the title Sivapadasekharan. Yet their inscriptions never declared Shaivism a state religion, and kings such as Aditya I also built temples to Vishnu.
+  - Q: What language did the Cholas speak? A: Tamil, in its medieval form, was the language of the court, administration and the thousands of temple inscriptions. Classical Sanskrit was used for religious ritual. The Shaivite devotional canon in Tamil was arranged into books near the end of the tenth century.
+  - Q: Why did the Chola Empire decline? A: From around 1070 the Cholas lost Sri Lanka and their other overseas holdings, and around 1118 they lost Vengi and Gangavadi. In the thirteenth century the Hoysalas and a revived Pandya dynasty pressed in, and in 1279 the Pandyas defeated Rajendra III, reducing the royal family to local chieftains.
 written: 2026-10-22
 ---
 The Cholas were one of the three ancient royal houses of the Tamil country in southern India, alongside the Cheras and Pandyas. They are mentioned in an inscription of the Maurya emperor Ashoka in the third century BCE. Their greatest age came between the ninth and thirteenth centuries CE, when the Chola Empire dominated southern India and became a sea power whose fleets reached Southeast Asia.

@@ -8,6 +8,29 @@ sources:
   - Wikipedia: John Locke | https://en.wikipedia.org/wiki/John_Locke
   - Wikidata: John Locke (Q9353) | https://www.wikidata.org/wiki/Q9353
   - Stanford Encyclopedia of Philosophy: John Locke | https://plato.stanford.edu/entries/locke/
+glance:
+  - Born: 29 August 1632, Wrington, Somerset
+  - Died: 28 October 1704, Oates, Essex
+  - Role: Philosopher, physician, political theorist
+  - Known for: Empiricism; natural rights
+  - Major works: Essay; Two Treatises of Government
+timeline:
+  - 1632: Locke is born at Wrington in Somerset to a Puritan family.
+  - 1652: He enters Christ Church, Oxford, after studying at Westminster School.
+  - 1666: He meets Anthony Ashley Cooper, later Earl of Shaftesbury, and joins his household.
+  - 1668: Locke is elected a Fellow of the Royal Society.
+  - 1669: He helps draft the Fundamental Constitutions of Carolina.
+  - 1675: He leaves England for several years in [France](/country/france).
+  - 1683: After the Rye House Plot he goes into exile in the [Dutch Republic](/place/dutch-republic).
+  - 1689: He returns to England after the [Glorious Revolution](/event/glorious-revolution), sailing with Queen Mary.
+  - 1689: The Two Treatises, the Essay and A Letter Concerning Toleration are published.
+  - 1704: Locke dies at Oates in Essex on 28 October.
+faq:
+  - Q: What are John Locke's most important ideas? A: He is known for An Essay Concerning Human Understanding, which argued that all ideas come from experience, and for the Two Treatises of Government, which defended natural rights, government by consent and resistance to tyranny. He is often called a founder of empiricism and of liberalism.
+  - Q: What did Locke mean by tabula rasa? A: Locke denied that people are born with innate ideas. He compared the newborn mind to a blank sheet of paper, on which all knowledge is written by experience, either through the senses or through reflection on the mind's own workings.
+  - Q: What are Locke's natural rights? A: In the Second Treatise, Locke held that people in the state of nature are free and equal under a natural law forbidding harm to others' life, health, liberty or possessions. Governments exist by consent to protect these rights, and may be resisted when they violate them.
+  - Q: How did John Locke influence the American Revolution? A: His arguments for natural rights, government by consent and the right to replace a government that breaks its trust were widely read in the American colonies. They are echoed in the language of the 1776 Declaration of Independence drafted by Thomas Jefferson.
+  - Q: Why did John Locke go into exile? A: He was a close associate of the Earl of Shaftesbury, who led the campaign to exclude the Catholic Duke of York from the throne. After Shaftesbury fled and the Rye House Plot was uncovered in 1683, Locke left for the Netherlands and stayed until 1689.
 written: 2026-10-25
 ---
 John Locke was an English philosopher and physician, often regarded as the founder of British empiricism and one of the main sources of liberal political thought. In An Essay Concerning Human Understanding he argued that all our ideas come from experience, and in the Two Treatises of Government he defended natural rights, government by consent and the right to resist tyranny. His ideas on toleration, property and the limits of power were taken up by the Enlightenment and the American revolutionaries.

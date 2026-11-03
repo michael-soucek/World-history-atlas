@@ -5,6 +5,51 @@ sources:
   - Borders of Time maps, built on historical-basemaps | https://github.com/aourednik/historical-basemaps
 title: Mamluk Sultanate Map (1250–1517): Egypt and Syria
 description: Former slave soldiers ruled Egypt and Syria from Cairo for 267 years from 1250. See the Mamluk Sultanate on our map, Baybars, Qalawun and the Ottoman conquest.
+glance:
+  - Capital: [Cairo](/history-of/cairo)
+  - Founded: 1250, after Turanshah's murder
+  - Ended: 1517, Ottoman conquest of Cairo
+  - Religion: Sunni Islam; Christian, Jewish minorities
+  - Language: Arabic; Kipchak and Circassian (elite)
+  - Government: Military sultanate with a caliph
+rulers:
+  - 1250: Shajar al-Durr
+  - 1250–1257: Aybak
+  - 1259–1260: Qutuz
+  - 1260–1277: [Baybars](/person/baybars)
+  - 1279–1290: Qalawun
+  - 1290–1293: al-Ashraf Khalil
+  - 1293–1341: al-Nasir Muhammad (three reigns)
+  - 1347–1361: al-Nasir Hasan (two reigns)
+  - 1363–1377: al-Ashraf Sha'ban
+  - 1382–1399: Barquq (two reigns)
+  - 1399–1412: al-Nasir Faraj
+  - 1412–1421: al-Mu'ayyad Shaykh
+  - 1422–1438: Barsbay
+  - 1438–1453: Jaqmaq
+  - 1453–1461: Inal
+  - 1461–1467: Khushqadam
+  - 1468–1496: Qaitbay
+  - 1501–1516: Qansuh al-Ghawri
+  - 1516–1517: Tuman Bay II
+timeline:
+  - 1250: Mamluk officers kill the Ayyubid heir Turanshah and take power in Egypt.
+  - 1260: Qutuz and Baybars defeat the Mongols at [Ain Jalut](/event/battle-of-ain-jalut).
+  - 1268: Baybars captures the Crusader city of Antioch.
+  - 1271: The fortress of Krak des Chevaliers falls to Baybars.
+  - 1291: Al-Ashraf Khalil [takes Acre](/event/siege-of-acre-1291), the last major Crusader stronghold in Palestine.
+  - 1347: The Black Death reaches Egypt during al-Nasir Hasan's first reign.
+  - 1382: Barquq seizes the throne, opening the era of Circassian (Burji) sultans.
+  - 1426: Barsbay forces the Kingdom of Cyprus to submit.
+  - 1509: A Mamluk fleet is defeated by the Portuguese at Diu.
+  - 1516: Sultan al-Ghawri is killed fighting the Ottomans at Marj Dabiq.
+  - 1517: The Ottomans take Cairo, and the last sultan, Tuman Bay II, is hanged.
+faq:
+  - Q: Who were the Mamluks? A: Mamluks were slave soldiers, mostly Kipchak Turks and later Circassians, bought as boys, converted to Islam and trained as cavalry before being freed. Officers from this caste ruled Egypt and Syria as sultans from 1250 to 1517.
+  - Q: Who founded the Mamluk Sultanate? A: It grew out of the mamluk regiments of the Ayyubid sultan al-Salih Ayyub, which killed his heir Turanshah in 1250. Shajar al-Durr and then Aybak ruled first, but Baybars, sultan from 1260, is usually seen as the state's real architect.
+  - Q: Why is the Battle of Ain Jalut important? A: In 1260 the Mamluk army under Qutuz and Baybars defeated a Mongol force in Palestine. The victory stopped the Mongol advance towards Egypt and let the Mamluks take over Syria.
+  - Q: What religion was the Mamluk Sultanate? A: Its rulers were Sunni Muslims, and they kept a line of Abbasid caliphs in Cairo to give their rule religious legitimacy. Large Christian communities, including Copts, lived alongside Jews and Shia minorities.
+  - Q: How did the Mamluk Sultanate end? A: Weakened by plague, factional strife and lost spice revenue, the Mamluks fell to the Ottoman sultan Selim I. His artillery and janissaries won at Marj Dabiq in 1516 and outside Cairo in January 1517, and Tuman Bay II was executed.
 written: 2026-10-22
 ---
 The Mamluk Sultanate was ruled by former slave soldiers. Mamluks were boys bought on the steppes and in the Caucasus, converted to Islam and trained as an elite cavalry. In 1250 the mamluk regiments of Egypt's last strong Ayyubid sultan seized power for themselves, and for the next 267 years Egypt and Syria were governed from Cairo by sultans who had begun life in the barracks.

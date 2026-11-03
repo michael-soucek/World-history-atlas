@@ -8,6 +8,31 @@ sources:
   - Wikipedia: Hongwu Emperor | https://en.wikipedia.org/wiki/Hongwu_Emperor
   - Wikidata: Hongwu Emperor (Q9957) | https://www.wikidata.org/wiki/Q9957
   - World History Encyclopedia: Hongwu Emperor | https://www.worldhistory.org/Hongwu_Emperor/
+glance:
+  - Born: 21 October 1328, Haozhou
+  - Died: 24 June 1398, Nanjing
+  - Role: Founding emperor of the Ming
+  - Reign: 1368–1398
+  - Birth name: Zhu Yuanzhang (born Zhu Chongba)
+  - Succeeded by: Jianwen Emperor, his grandson
+timeline:
+  - 1344: Plague kills his parents and a brother; he becomes a novice monk.
+  - 1352: He joins the [Red Turban](/event/red-turban-rebellions) rebels under Guo Zixing at Haozhou.
+  - 1356: His forces take Jiqing, renamed Yingtian, today's Nanjing.
+  - 1363: His fleet defeats Chen Youliang at Lake Poyang, and Chen is killed.
+  - 1364: He proclaims himself King of Wu.
+  - 1367: His troops storm Suzhou and capture his rival Zhang Shicheng.
+  - 1368: He proclaims the Great Ming on 23 January; his armies take Dadu that autumn.
+  - 1380: Chancellor Hu Weiyong is executed and the chancellorship abolished.
+  - 1381: The lijia system and Yellow Registers are extended across the country.
+  - 1384: Civil service examinations resume, based on the Four Books and Five Classics.
+  - 1393: A new purge begins with the execution of the general Lan Yu.
+  - 1398: He dies on 24 June and is buried in the Xiao Mausoleum.
+faq:
+  - Q: How did the Hongwu Emperor come to power? A: An orphaned peasant and former novice monk, he joined the Red Turban rebels in 1352, built a base at Nanjing, defeated rival warlords such as Chen Youliang and Zhang Shicheng, and in 1368 declared the Ming dynasty before driving the Yuan court out of northern China.
+  - Q: Why is the Hongwu Emperor remembered as brutal? A: He launched repeated purges of officials, generals and their families, notably after Hu Weiyong's execution in 1380 and Lan Yu's in 1393. Roughly 100,000 people are estimated to have died in political purges during his thirty-year reign.
+  - Q: What reforms did the Hongwu Emperor introduce? A: He abolished the post of chancellor to rule the ministries directly, organised households into lijia units, compiled the Yellow Registers of population and Fish-Scale Registers of land, kept taxes low, and restored the civil service examinations in 1384.
+  - Q: Who succeeded the Hongwu Emperor? A: His heir Zhu Biao died in 1392, so the throne passed to Zhu Biao's son, the Jianwen Emperor. In 1402 the Hongwu Emperor's fourth son, Zhu Di, overthrew his nephew after a civil war and reigned as the Yongle Emperor.
 written: 2026-10-25
 ---
 The Hongwu Emperor, born Zhu Yuanzhang, was the founder of the [Ming dynasty](/place/ming-dynasty), ruling China from 1368 to 1398. Born into a desperately poor peasant family, he rose through the rebellions against Mongol rule to drive the [Yuan dynasty](/place/yuan-dynasty) out of China. As emperor he rebuilt the country after decades of war, concentrated power in his own hands to a degree few Chinese rulers matched, and killed tens of thousands of officials and their families in repeated purges.
@@ -26,7 +51,7 @@ In 1356 he captured the city of Jiqing, which he renamed Yingtian, today's [Nanj
 
 On 23 January 1368 Zhu proclaimed himself emperor of the Great Ming, taking Hongwu, "vast military power", as the name of his reign. That autumn his general Xu Da captured the Yuan capital, Dadu, later [Beijing](/history-of/beijing), and the last Yuan emperor fled to the steppe, where his successors continued to rule as the [Northern Yuan](/place/northern-yuan). Over the following years Ming armies conquered the rest of China: Sichuan in 1371, Yunnan in 1381 to 1382 and Liaodong in the 1380s. Campaigns into Mongolia had mixed results. A large expedition was defeated in 1372, but in 1388 the general Lan Yu won a crushing victory near Lake Buir.
 
-Hongwu was the first commoner to found a major Chinese dynasty since the first emperor of the Han, more than fifteen centuries earlier, and he governed with the outlook of a peasant. He wanted a stable, self-sufficient rural society. His government resettled abandoned land, repaired irrigation works, planted trees on a vast scale and kept land taxes low. In 1381 he introduced the lijia system, which grouped households into units responsible for taxes and labour service, and compiled the Yellow Registers, a national census used for taxation. Surveys of land were recorded in the so-called fish-scale registers. Soldiers belonged to hereditary military households expected to farm their own land to feed themselves.
+Hongwu was the first commoner to found a major Chinese dynasty since the first emperor of the Han, more than fifteen centuries earlier, and he governed with the outlook of a peasant. He wanted a stable, self-sufficient rural society. His government resettled abandoned land, repaired irrigation works, planted trees on a vast scale and kept land taxes low. He introduced the lijia system, which grouped households into units responsible for taxes and labour service, first in the Yangtze basin in 1371 and across the country in 1381, when he also compiled the Yellow Registers, a national census used for taxation. Surveys of land were recorded in the so-called fish-scale registers. Soldiers belonged to hereditary military households expected to farm their own land to feed themselves.
 
 ## Absolute power and the purges
 

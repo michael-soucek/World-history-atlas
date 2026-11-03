@@ -62,6 +62,18 @@ export function articleLd(a: {
   };
 }
 
+/** Questions an article answers, from its `faq:` front matter (links reduced to their text). */
+export function faqLd(items: { q: string; a: string }[]): Ld {
+  return {
+    "@type": "FAQPage",
+    mainEntity: items.map(({ q, a }) => ({
+      "@type": "Question",
+      name: q,
+      acceptedAnswer: { "@type": "Answer", text: a.replace(/\[([^\]]+)\]\([^)]+\)/g, "$1") },
+    })),
+  };
+}
+
 /** An index page and the pages it lists, e.g. all tours or every city. */
 export function collectionLd(name: string, description: string, path: string, items: { name: string; path: string }[]): Ld {
   return {

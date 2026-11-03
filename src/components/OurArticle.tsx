@@ -7,7 +7,7 @@ import type { ArticleBlock, OurArticle as Article } from "@/lib/ourArticles";
 const LINK_CLASS = "text-accent underline decoration-accent/30 underline-offset-4 hover:decoration-accent";
 
 /** "[text](href)" links inside a paragraph; internal paths use next/link. */
-function Inline({ text }: { text: string }) {
+export function Inline({ text }: { text: string }) {
   const parts: React.ReactNode[] = [];
   const re = /\[([^\]]+)\]\(([^)\s]+)\)/g;
   let last = 0;

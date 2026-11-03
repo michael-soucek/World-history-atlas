@@ -7,7 +7,7 @@ import { CROSSWALK, getCanonicalNameByQid, lookupByQid, lookupBySlug, mapLinkFor
 import { buildPlaceContent } from "@/lib/wikidata";
 import { lookupCultureByQid } from "@/data/entityCrosswalk";
 import { permanentRedirect } from "next/navigation";
-import { readableNameFromSlug, resolveEntityBySlugOrQid } from "@/lib/entityResolver";
+import { readableNameFromSlug, resolveEntityBySlugOrQid, curatedSlugForQidPath } from "@/lib/entityResolver";
 import { fetchWikipediaSearchSummary } from "@/lib/wikipedia";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
@@ -82,6 +82,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function PlacePage({ params }: Props) {
   const { slug } = await params;
+  // "/place/Q123" duplicates the curated page: send readers and crawlers there.
+  const curated = curatedSlugForQidPath(slug, "place");
+  if (curated) permanentRedirect(`/place/${curated}`);
   const result = await resolvePage(slug);
 
   const { entry, content } = result;

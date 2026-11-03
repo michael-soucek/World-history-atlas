@@ -3,6 +3,46 @@ sources:
   - Wikipedia: Kushan Empire | https://en.wikipedia.org/wiki/Kushan_Empire
   - Wikidata: Kushan Empire (Q25979) | https://www.wikidata.org/wiki/Q25979
   - Borders of Time maps, built on historical-basemaps | https://github.com/aourednik/historical-basemaps
+glance:
+  - Capitals: Purushapura (Peshawar), Mathura
+  - Founded: c. 30 CE, by Kujula Kadphises
+  - Ended: c. 375 CE
+  - Languages: Greek, then Bactrian; Gandhari
+  - Religion: Buddhism, Hinduism, Zoroastrianism
+  - Greatest ruler: [Kanishka](/person/kanishka), from 127
+rulers:
+  - c. 1–30: Heraios
+  - c. 50–90: Kujula Kadphises
+  - c. 90–113: Vima Takto
+  - c. 113–127: Vima Kadphises
+  - 127–c. 151: [Kanishka I](/person/kanishka)
+  - c. 151–190: Huvishka
+  - c. 190–230: Vasudeva I
+  - c. 230–247: Kanishka II
+  - c. 247–267: Vashishka
+  - c. 267–270: Kanishka III
+  - c. 270–300: Vasudeva II
+  - c. 300–305: Mahi
+  - c. 305–335: Shaka
+  - c. 335–350: Kipunada
+timeline:
+  - ~-176: Defeat by the [Xiongnu](/place/xiongnu) forces the Yuezhi to start migrating west.
+  - ~-135: The Yuezhi reach the Greek kingdom of Bactria.
+  - ~30: Kujula Kadphises unites the Yuezhi tribes under Kushan rule.
+  - 90: A Kushan army of 70,000 is beaten by the Chinese general Ban Chao.
+  - 127: [Kanishka](/person/kanishka) begins his reign and makes Bactrian the language of government.
+  - ~151: Huvishka succeeds Kanishka and tightens control over Mathura.
+  - ~225: Vasudeva I, the last great Kushan emperor, dies and the empire splits.
+  - ~240: The [Sasanians](/place/sasanian-empire) take the western Kushan lands as far as Peshawar.
+  - ~270: The "Little Kushans" rule the Punjab from Taxila.
+  - 360: The Kidarite chief Kidara overthrows the last remnants of Kushan rule.
+  - 1993: The Bactrian-language Rabatak inscription is found in Afghanistan.
+faq:
+  - Q: Who founded the Kushan Empire? A: Kujula Kadphises, chief of the Guishuang, one of the five tribes of the Yuezhi. According to the Chinese Book of the Later Han, he made the other Yuezhi clans submit and founded the empire in the first century CE. An earlier ruler, Heraios, was the first to call himself Kushan on coins.
+  - Q: Where did the Kushans come from? A: They descended from the Yuezhi, nomads who lived in what is now Gansu and eastern Xinjiang until the Xiongnu drove them west from about 176 BCE. Scholars have proposed Indo-European, Tocharian or Iranian Saka origins for the Yuezhi, but the question is unresolved.
+  - Q: What language did the Kushans speak? A: Their rulers at first used Greek, inherited from the Greek kingdoms of Bactria, for coins and administration. The Rabatak inscription records that Kanishka replaced it with Bactrian, an Iranian language written in Greek letters, around 127 CE. In India, Gandhari Prakrit and Sanskrit were also used.
+  - Q: What religion did the Kushans follow? A: Many. Their coins honour Greek, Iranian and Indian deities as well as the Buddha, and their subjects included Hindus, Buddhists and Zoroastrians. Kanishka is remembered in Buddhist tradition for a council in Kashmir, and Kushan patronage helped Buddhism travel along the Silk Road to China.
+  - Q: Why did the Kushan Empire decline? A: After Vasudeva I died around 225 the empire split. The Sasanian Persians took the western half and installed vassal rulers, while the Guptas took Mathura. Smaller Kushan kings in the Punjab survived, probably as Gupta vassals, until the Kidarites ended their rule in the later fourth century.
 written: 2026-10-22
 ---
 The Kushan Empire ruled a vast territory from Central Asia to northern India in the first to the third centuries CE. At the crossroads of the Silk Road, it brought together Greek, Iranian, Indian and Chinese influences, and played a key role in spreading Buddhism to Central Asia and China.

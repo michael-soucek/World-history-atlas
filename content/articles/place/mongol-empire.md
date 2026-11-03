@@ -3,6 +3,37 @@ sources:
   - Wikipedia: Mongol Empire | https://en.wikipedia.org/wiki/Mongol_Empire
   - Wikidata: Mongol Empire (Q12557) | https://www.wikidata.org/wiki/Q12557
   - Borders of Time maps, built on historical-basemaps | https://github.com/aourednik/historical-basemaps
+glance:
+  - Capital: Avarga, then [Karakorum](/history-of/karakorum) from 1235
+  - Founded: 1206, by [Genghis Khan](/person/genghis-khan)
+  - Ended: Split from 1260; Yuan fell in 1368
+  - Religion: Tengrism and Buddhism; many faiths tolerated
+  - Language: Middle Mongol; Turkic languages
+  - Government: Elective monarchy under a khagan
+rulers:
+  - 1206–1227: [Genghis Khan](/person/genghis-khan)
+  - 1229–1241: [Ögedei](/person/ogedei-khan)
+  - 1246–1248: Güyük
+  - 1251–1259: [Möngke](/person/mongke-khan)
+  - 1260–1294: [Kublai](/person/kublai-khan) (nominal)
+timeline:
+  - 1206: A council of the steppe tribes proclaims Temüjin as Genghis Khan.
+  - 1219: The [Mongol invasion of the Khwarazmian Empire](/event/mongol-invasion-of-the-khwarazmian-empire) begins in Central Asia.
+  - 1227: Genghis Khan dies; Ögedei is chosen as his successor two years later.
+  - 1234: The Jin dynasty of northern China falls to the Mongols.
+  - 1240: Almost all of Kievan Rus' is under Mongol control.
+  - 1241: Mongol armies defeat the Hungarians at [Mohi](/event/battle-of-mohi) before Ögedei's death halts the campaign.
+  - 1258: Hülegü's army captures and [sacks Baghdad](/event/siege-of-baghdad), ending the Abbasid caliphate there.
+  - 1260: A Mamluk army defeats the Mongols at [Ain Jalut](/event/battle-of-ain-jalut), halting their advance on Egypt.
+  - 1260: Kublai and Ariq Böke begin a four-year war for the throne.
+  - 1271: Kublai proclaims the [Yuan dynasty](/place/yuan-dynasty) in China.
+  - 1279: The conquest of Song China is completed.
+  - 1368: Ming forces take Dadu, and the Yuan dynasty collapses in China.
+faq:
+  - Q: Who founded the Mongol Empire? A: Temüjin, a Mongol chief who united the nomadic tribes of the Mongolian steppe, was proclaimed Genghis Khan by a council in 1206. His sons and grandsons carried the conquests across Eurasia after his death in 1227.
+  - Q: Why did the Mongol Empire break up? A: After Möngke died in 1259, rival councils elected his brothers Kublai and Ariq Böke, who fought a civil war from 1260 to 1264. The Golden Horde, Chagatai Khanate, Ilkhanate and Yuan dynasty then went their own ways, accepting Yuan supremacy only in name from 1304.
+  - Q: What religion did the Mongols follow? A: Tengrism, the traditional steppe religion, and Buddhism were dominant in Ögedei's time, but the khans tolerated many religions and exempted clergy from taxes. Over time each successor khanate adopted its region's dominant religion.
+  - Q: Why did the Mongols stop advancing into Europe? A: In 1241 Mongol armies fought in Poland at Legnica and crushed the Hungarians at Mohi, but news of the Great Khan Ögedei's death in December 1241 led Batu's forces to withdraw rather than press on towards Vienna.
 written: 2026-10-22
 ---
 The Mongol Empire was the largest land empire in history. It began in 1206, when an assembly of the steppe peoples of Mongolia proclaimed a leader named Temüjin as Genghis Khan. Within seventy years his family ruled from Korea to Hungary, and from Siberia to the Persian Gulf.

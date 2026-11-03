@@ -8,6 +8,31 @@ sources:
   - Wikipedia: Matthias Corvinus | https://en.wikipedia.org/wiki/Matthias_Corvinus
   - Wikidata: Matthias Corvinus (Q188634) | https://www.wikidata.org/wiki/Q188634
   - Catholic Encyclopedia (1913), via New Advent: Matthias Corvinus | https://www.newadvent.org/cathen/10066b.htm
+glance:
+  - Born: 23 February 1443, Kolozsvár
+  - Died: 6 April 1490, Vienna
+  - Role: King of Hungary and Croatia
+  - Reign: 1458–1490
+  - Dynasty: Hunyadi
+  - Known for: Black Army; Renaissance court at Buda
+timeline:
+  - 1443: Matthias is born in Kolozsvár, younger son of [John Hunyadi](/person/john-hunyadi).
+  - 1456: His father dies weeks after the [relief of Belgrade](/event/siege-of-belgrade-1456).
+  - 1458: Nobles on the frozen Danube proclaim the 14-year-old Matthias king on 24 January.
+  - 1463: He recovers the Holy Crown from Frederick III by treaty and takes Jajce in Bosnia.
+  - 1464: He is crowned at Székesfehérvár with the Holy Crown on 29 March.
+  - 1469: Catholic estates elect him King of Bohemia at Olomouc, though he is never crowned.
+  - 1476: He marries Beatrice of Naples at Buda in December.
+  - 1479: His commanders crush an Ottoman raiding army at Breadfield in Transylvania.
+  - 1485: After a five-month siege he enters Vienna on 1 June.
+  - 1487: Wiener Neustadt, the last holdout in Lower Austria, falls to his army.
+  - 1490: Matthias dies suddenly in Vienna on 6 April, leaving no legitimate heir.
+faq:
+  - Q: Why is Matthias Corvinus called "the Just"? A: Folk tradition remembers him as a king who wandered among his subjects in disguise and punished unjust lords. Such stories seem to have circulated in his own lifetime, and the saying that justice died with him became proverbial after his death.
+  - Q: What was the Black Army of Hungary? A: It was the professional mercenary force Matthias built up from the 1460s, paid directly by the crown rather than raised by the barons. Drawing soldiers from several nations, it was one of Europe's earliest standing armies and carried his conquests in Bohemia's provinces and Austria.
+  - Q: How did Matthias Corvinus die? A: He fell ill during the Palm Sunday ceremonies in Vienna in 1490 and died two days later, on 6 April. He had long suffered from gout, and a stroke is the most commonly suggested cause of death.
+  - Q: What was the Bibliotheca Corviniana? A: It was Matthias's royal library at Buda, filled with richly decorated manuscripts, many commissioned in Florence, and one of the largest book collections in Europe at his death. It was dispersed after the Ottoman conquest; around 216 volumes are known to survive today.
+  - Q: Who succeeded Matthias Corvinus? A: The Hungarian barons passed over his illegitimate son, John Corvinus, and elected Vladislaus II Jagiellon, already king of Bohemia. They preferred a weaker ruler who promised lighter taxes, and the Black Army was soon disbanded.
 written: 2026-10-25
 ---
 Matthias Corvinus was King of Hungary and Croatia from 1458 to 1490, and in his later years also ruled much of the lands of the Bohemian crown and eastern Austria, including Vienna. The son of a famous general rather than of a royal house, he built one of the first professional standing armies in Europe, strengthened royal power at the expense of the great barons and made his court at Buda the first centre of the Italian Renaissance north of the Alps. In Hungarian memory he is "Matthias the Just", though his wars were paid for by some of the heaviest taxes his subjects had ever known.

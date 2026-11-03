@@ -8,13 +8,36 @@ sources:
   - Wikipedia: Selim I | https://en.wikipedia.org/wiki/Selim_I
   - Wikidata: Selim I (Q494660) | https://www.wikidata.org/wiki/Q494660
   - TDV İslâm Ansiklopedisi: Selim I (Feridun Emecen) | https://islamansiklopedisi.org.tr/selim-i
+glance:
+  - Born: 1470, Amasya
+  - Died: 22 September 1520, near Çorlu
+  - Role: Ottoman sultan
+  - Reign: 1512–1520
+  - Dynasty: Ottoman
+  - Known for: Conquest of the Mamluk Sultanate
+timeline:
+  - 1470: Selim is born in Amasya, son of the future Bayezid II.
+  - 1487: He becomes governor of Trabzon on the Safavid frontier.
+  - 1511: He rebels, loses to his father's army in Thrace and flees to Crimea.
+  - 1512: Backed by the janissaries, he forces Bayezid II to abdicate.
+  - 1513: He defeats his brother Ahmed at Yenişehir and has his rivals executed.
+  - 1514: Selim defeats [Ismail I](/person/ismail-i) at the [Battle of Chaldiran](/event/battle-of-chaldiran) and briefly takes Tabriz.
+  - 1516: The Ottomans crush the [Mamluks](/place/mamluk-sultanate) at Marj Dabiq near Aleppo.
+  - 1517: Victory at Ridaniya opens Cairo; the sharif of Mecca submits.
+  - 1520: Selim dies near Çorlu while preparing a new campaign.
+faq:
+  - Q: Why is Selim I called "the Grim"? A: The Turkish epithet Yavuz is rendered "the Grim" or "the Resolute". It reflects his severity: he executed his brothers and nephews, several grand viziers and many suspected Safavid sympathisers, as well as his rapid, hard-fought conquests.
+  - Q: What did Selim I conquer? A: He took much of eastern Anatolia from Safavid Iran after Chaldiran in 1514, then destroyed the Mamluk Sultanate in 1516–1517, adding Syria, Egypt, Jerusalem and the Hejaz with Mecca and Medina. The empire grew by roughly 70 per cent.
+  - Q: Did Selim I become caliph? A: He took the title "Servant of the Two Holy Sanctuaries" and brought the last Abbasid caliph to Istanbul. The story that the caliph formally handed over his office appeared only in the eighteenth century, and historians regard it as a later invention.
+  - Q: How did Selim I die? A: He fell ill and died near Çorlu in Thrace in September 1520 while preparing a new campaign. The official cause was an infected skin abscess or carbuncle; some historians have suggested plague, cancer or poison.
+  - Q: Who succeeded Selim I? A: His son [Suleiman the Magnificent](/person/suleiman-the-magnificent), born in Trabzon in 1494, inherited a full treasury and a greatly enlarged empire, and built the Yavuz Selim Mosque in Istanbul in his father's memory.
 written: 2026-10-25
 ---
 Selim I, called Yavuz, "the Grim" or "the Resolute", was sultan of the [Ottoman Empire](/place/ottoman-empire) from 1512 to 1520. In a reign of only eight years he defeated the Safavid shah of Iran and destroyed the Mamluk Sultanate, adding Syria, Egypt and the holy cities of Arabia to his realm. The empire grew by roughly 70 per cent, and its centre of gravity shifted from the Balkans towards the Arab Middle East.
 
 ## Prince in Trabzon
 
-Selim was born in Amasya in northern Anatolia, most probably in 1470, while his father, the future Bayezid II, was governor there; his grandfather was [Mehmed II](/person/mehmed-ii), the conqueror of Constantinople. The identity of his mother is debated: older works name a woman called Gülbahar, while the Turkish historian Feridun Emecen, following a sixteenth-century chronicler, identifies her as Ayşe Hatun, a princess of the Dulkadir dynasty. In 1487 Selim was made governor of Trabzon on the Black Sea, a post he held for more than twenty years. His son, the future [Suleiman the Magnificent](/person/suleiman-the-magnificent), was born there in 1494.
+Selim was born in Amasya in northern Anatolia, most probably in 1470, while his father, the future Bayezid II, was governor there; his grandfather was [Mehmed II](/person/mehmed-ii), the conqueror of Constantinople. His mother is usually identified as Gülbahar, a concubine probably of Pontic Greek origin. The Turkish historian Feridun Emecen, following a sixteenth-century chronicler, has instead named Ayşe Hatun, a Dulkadir princess and another of Bayezid's consorts, but most recent accounts treat this as a confusion of the two women. In 1487 Selim was made governor of Trabzon on the Black Sea, a post he held for more than twenty years. His son, the future [Suleiman the Magnificent](/person/suleiman-the-magnificent), was born there in 1494.
 
 Trabzon lay on the frontier with the new [Safavid Empire](/place/safavid-empire) of Shah Ismail I, who had made Twelver Shia Islam the state religion of Iran and was winning followers, known as Qizilbash, among the Turkmen tribes of Anatolia. Selim watched this threat closely, raided Safavid territory around Erzincan and Bayburt, and campaigned against the Georgian princes in 1508, carrying off large numbers of captives. His aggressive frontier policy contrasted with his father's caution.
 

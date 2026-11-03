@@ -2,6 +2,29 @@
 sources:
   - Wikipedia: Satsuma Rebellion | https://en.wikipedia.org/wiki/Satsuma_Rebellion
   - Wikidata: Satsuma Rebellion (Q714820) | https://www.wikidata.org/wiki/Q714820
+glance:
+  - Date: 29 January – 24 September 1877
+  - Location: Kyushu, Japan
+  - Result: Imperial government victory
+  - Leaders: Saigō Takamori vs Yamagata Aritomo
+  - Belligerents: Satsuma ex-samurai vs Empire of Japan
+timeline:
+  - 1873: Saigō resigns over the rejected plan for war with Korea and returns to Kagoshima.
+  - 1874: He founds a private academy in Kagoshima that soon has 132 branches.
+  - 1876: Government agents sent to investigate are seized and confess under torture to a plot.
+  - 1877: On 30 January a government ship arrives to remove arms; students raid the arsenals.
+  - 1877: In February Saigō marches north, and his army besieges Kumamoto Castle.
+  - 1877: A bloody eight-day battle at Tabaruzaka begins on 4 March.
+  - 1877: Imperial relief forces reach Kumamoto on 12 April, and the rebels retreat south.
+  - 1877: Surrounded at Mount Enodake in August, most rebels surrender, but Saigō escapes.
+  - 1877: Saigō and about 500 men reach Kagoshima on 1 September and occupy Shiroyama.
+  - 1877: The final assault on Shiroyama on 24 September kills Saigō and ends the war.
+  - 1889: [Emperor Meiji](/person/emperor-meiji) posthumously pardons Saigō on 22 February.
+faq:
+  - Q: What caused the Satsuma Rebellion? A: Meiji reforms abolished the samurai's privileged status and stipends, and many resented rapid Westernisation. After Saigō Takamori left the government in 1873, his Kagoshima academies grew into a quasi-military movement, and a government attempt to remove weapons from the Kagoshima arsenal in January 1877 provoked open revolt.
+  - Q: How did Saigō Takamori die? A: During the final assault on Shiroyama on 24 September 1877 he was badly wounded by a bullet and was beheaded by his companion Beppu Shinsuke. Tradition says he first performed seppuku, but his autopsy found no abdominal wound consistent with it.
+  - Q: Why is the Satsuma Rebellion important? A: It was the last and most serious samurai revolt against the Meiji government. Victory by a conscript army with modern rifles and artillery ended the samurai as a military class, and its heavy cost pushed the government to print money and sell state industries cheaply.
+  - Q: Is The Last Samurai about the Satsuma Rebellion? A: Only loosely. The 2003 American film directed by Edward Zwick blends situations from the Boshin War, the Satsuma Rebellion and other early Meiji samurai uprisings into one fictional story, so it should not be read as an accurate account of Saigō's revolt.
 written: 2026-10-30
 ---
 The Satsuma Rebellion, known in Japan as the Seinan War or Southwestern War, was an uprising of former samurai against the new imperial government, fought on the island of Kyushu from 29 January to 24 September 1877. Led by Saigō Takamori, one of the heroes of the [Meiji Restoration](/event/meiji-restoration), it was the last and largest of several samurai revolts. Its defeat by a conscript army marked the end of the samurai as a fighting class, and it remains the most recent civil war fought in Japan.

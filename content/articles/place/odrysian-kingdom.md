@@ -3,6 +3,46 @@ sources:
   - Wikipedia: Odrysian kingdom | https://en.wikipedia.org/wiki/Odrysian_kingdom
   - Wikidata: Odrysian Kingdom (Q870517) | https://www.wikidata.org/wiki/Q870517
   - Borders of Time maps, built on historical-basemaps | https://github.com/aourednik/historical-basemaps
+glance:
+  - Capital: None fixed; later Seuthopolis (c. 330–250 BC)
+  - Founded: c. 480 BC, by Teres I
+  - Ended: 340 BC, conquered by Macedon; revived c. 330 BC
+  - Religion: Thracian polytheism
+  - Language: Thracian; Greek for writing and trade
+  - Government: Monarchy
+rulers:
+  - c. 480–by 431 BC: Teres I
+  - by 431–424 BC: Sitalces
+  - 424–c. 410/405 BC: Seuthes I
+  - c. 410/405–c. 389 BC: Amadocus I
+  - c. 405–383 BC: Seuthes II (in the east, as a rival king)
+  - c. 389–c. 384 BC: Hebryzelmis
+  - 383–360/359 BC: Cotys I
+  - 359–341 BC: Cersebleptes (east)
+  - 359–352 BC: Berisades (west)
+  - 359–351 BC: Amadocus II (centre)
+  - 358–c. 347 BC: Cetriporis (west)
+  - 351–c. 341 BC: Teres II (centre)
+  - c. 330–after 312 BC: Seuthes III
+  - early 3rd century BC: Roigos
+timeline:
+  - ~-480: Teres I begins building an Odrysian realm as Persian power withdraws from Thrace.
+  - -431: Sitalces allies with Athens at the start of the [Peloponnesian War](/event/peloponnesian-war).
+  - -428: Sitalces invades Macedon with a vast army but withdraws after about thirty days.
+  - -424: Sitalces is killed fighting the Triballi, and his nephew Seuthes I succeeds him.
+  - -400: Seuthes II hires Xenophon's Greek mercenaries to extend his rule in eastern Thrace.
+  - -383: Cotys I comes to the throne and soon reunites the Odrysian realm.
+  - ~-360: Cotys I is murdered, and three rival kings divide the kingdom.
+  - -340: [Philip II of Macedon](/person/philip-ii-of-macedon) completes his conquest of the Odrysian interior.
+  - ~-330: Seuthes III leads a Thracian rebellion against Macedonian rule.
+  - ~-250: Seuthopolis, Seuthes' capital, is destroyed, by Celts or perhaps a Seleucid army.
+  - ~46: Rome turns its Sapaean client kingdom in Thrace into the province of Thracia.
+faq:
+  - Q: Who founded the Odrysian kingdom? A: Teres I, named by Thucydides as the first powerful Odrysian king. Soon after 480 BC he built a large realm over much of Thrace from the Odrysian heartland on the Hebros (Maritsa), and his son Sitalces expanded it further.
+  - Q: Who conquered the Odrysian kingdom? A: Philip II of Macedon. After Cotys I was murdered in 360 or 359 BC, the kingdom split between three kings, whom Philip weakened one by one before a hard campaign from 342 to 340 BC brought the Thracian interior under Macedonian control.
+  - Q: What language did the Odrysians speak? A: They spoke Thracian, which has left almost no written texts of its own. Greek was used for writing, trade and administration, which is why most of what is known about the kingdom comes from Greek historians, inscriptions and coins.
+  - Q: Was the Odrysian kingdom an ally of Athens? A: For much of the fifth century, yes. Sitalces allied with Athens in 431 BC against Macedon and married the sister of an Athenian envoy. Later relations soured: Cotys I fought Athens for the Thracian Chersonese and the Hellespont in the 360s BC.
+  - Q: What happened to the Odrysians after Philip II? A: Around 330 BC Seuthes III led a revolt, fought Lysimachus to a standstill and ruled a smaller kingdom from Seuthopolis, near Kazanlak. After Seuthopolis was destroyed in the third century BC, an Odrysian state is barely attested, and Rome later ruled Thrace through the Sapaean kings.
 written: 2026-10-30
 ---
 The Odrysian kingdom was the first large state of the eastern Balkans, a union of Thracian tribes led by the Odrysians that rose in the fifth century BC across what is now [Bulgaria](/country/bulgaria), northern Greece, European Turkey and northern Dobruja. Founded by Teres I, it was for a time one of the strongest powers in Europe, an ally of Athens and a rival of Macedon. It split apart after 360 BC, was conquered by Philip II of Macedon in 340 BC, revived on a smaller scale under Seuthes III, and then fades from the record in the third century BC.

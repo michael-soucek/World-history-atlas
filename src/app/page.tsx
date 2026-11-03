@@ -22,9 +22,10 @@ import { commonsSrcSet } from "@/lib/commonsImage";
 const HOME_OG_DESCRIPTION = "An interactive world history atlas. Watch the world's empires rise and fall — year by year.";
 
 export const metadata: Metadata = {
-  title: "Borders of Time: Interactive World History Map & Atlas",
+  // "historic(al) borders" is what people who click through search for.
+  title: "Borders of Time: Interactive Map of Historical Borders",
   description:
-    "An interactive world history map: watch empires rise and fall across 5,000 years, take guided tours of history's biggest events, and explore every era.",
+    "An interactive map of historical borders: watch empires rise and fall across 5,000 years, take guided tours of history's biggest events, and explore every era.",
   alternates: { canonical: "/" },
   openGraph: {
     title: "Borders of Time",

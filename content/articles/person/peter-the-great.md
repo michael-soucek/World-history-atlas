@@ -7,6 +7,32 @@ roles: tsar, emperor, reformer
 sources:
   - Wikipedia: Peter the Great | https://en.wikipedia.org/wiki/Peter_the_Great
   - Wikidata: Peter the Great (Q8479) | https://www.wikidata.org/wiki/Q8479
+glance:
+  - Born: 9 June 1672, Moscow
+  - Died: 8 February 1725, Saint Petersburg
+  - Role: Tsar, then Emperor of Russia
+  - Reign: 1682–1725
+  - Dynasty: Romanov
+  - Known for: Westernising reforms, Saint Petersburg
+timeline:
+  - 1682: Ten-year-old Peter is proclaimed joint tsar with his half-brother Ivan V.
+  - 1689: Peter takes power from his half-sister and regent, Sophia.
+  - 1696: His new fleet helps capture the Ottoman fortress of Azov.
+  - 1697: Peter sets out on the Grand Embassy through western Europe.
+  - 1700: The [Great Northern War](/event/great-northern-war) begins; Sweden routs the Russians at Narva.
+  - 1703: Peter founds [Saint Petersburg](/history-of/saint-petersburg) at the mouth of the Neva.
+  - 1709: Russia defeats [Charles XII](/person/charles-xii-of-sweden) at the [Battle of Poltava](/event/battle-of-poltava).
+  - 1711: A Governing Senate is created; the Pruth campaign against the Ottomans ends in defeat.
+  - 1712: The capital moves from Moscow to Saint Petersburg.
+  - 1721: The Treaty of Nystad ends the war, and Peter is proclaimed emperor.
+  - 1722: The Table of Ranks ties noble status to state service.
+  - 1725: Peter dies in Saint Petersburg without naming an heir.
+faq:
+  - Q: What were Peter the Great's main reforms? A: He rebuilt the army and created a navy, replaced the boyar council with a Senate and government colleges, put the Orthodox Church under a state-run Holy Synod, and introduced the Table of Ranks. He also forced nobles to shave and wear Western dress, and founded schools and the Academy of Sciences.
+  - Q: Why did Peter the Great build Saint Petersburg? A: He wanted a port and capital on the Baltic, facing western Europe. Founded in 1703 on land seized from Sweden, the city was built by tens of thousands of forced labourers and replaced Moscow as the capital in 1712.
+  - Q: What did Russia gain from the Great Northern War? A: Under the Treaty of Nystad of 1721, Sweden ceded Livonia, Estonia, Ingria and much of Karelia. The gains turned Russia into the leading power on the Baltic, and Peter took the title of emperor that same year.
+  - Q: How did Peter the Great die? A: He suffered from urinary and bladder problems from 1723 and underwent surgery in 1724. After a relapse in January 1725 he died on 8 February; an autopsy found gangrene of the bladder.
+  - Q: What happened to Peter the Great's son Alexei? A: Alexei opposed his father's reforms and fled abroad. Brought back and accused of plotting against Peter, he was tried in 1718, confessed under torture and was sentenced to death, but died in prison, most likely from his injuries.
 written: 2026-10-22
 ---
 Peter I, known as Peter the Great, ruled Russia from 1682 to 1725. Determined to modernise his country on the European model, he reformed the army, government, church and society, built a navy, founded Saint Petersburg as his new capital and, after defeating Sweden, proclaimed Russia an empire.

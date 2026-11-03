@@ -5,6 +5,43 @@ sources:
   - Borders of Time maps, built on historical-basemaps | https://github.com/aourednik/historical-basemaps
 title: Tsardom of Russia Map (1547–1721): Ivan IV to Peter
 description: Russia from Ivan IV's crowning in 1547 to Peter the Great's empire in 1721: the Time of Troubles, the first Romanovs and the push to the Pacific, on our map.
+glance:
+  - Capital: Moscow; Saint Petersburg from 1712
+  - Founded: 1547, Ivan IV crowned tsar
+  - Ended: 1721, became the [Russian Empire](/place/russian-empire)
+  - Religion: Russian Orthodox Christianity
+  - Language: Russian
+  - Government: Autocratic monarchy
+rulers:
+  - 1547–1584: [Ivan IV](/person/ivan-the-terrible)
+  - 1584–1598: Feodor I
+  - 1598–1605: Boris Godunov
+  - 1605: Feodor II
+  - 1605–1606: False Dmitry I
+  - 1606–1610: Vasily IV Shuysky
+  - 1613–1645: Michael
+  - 1645–1676: Alexis
+  - 1676–1682: Feodor III
+  - 1682–1696: Ivan V (jointly with Peter)
+  - 1682–1721: [Peter I](/person/peter-the-great)
+timeline:
+  - 1547: Ivan IV is crowned the first tsar of all Russia in Moscow.
+  - 1552: Ivan conquers the [Khanate of Kazan](/place/khanate-of-kazan) on the middle Volga.
+  - 1556: The Astrakhan Khanate falls, giving Russia the whole Volga.
+  - 1581: The Stroganovs hire the Cossack Yermak to lead an expedition into western Siberia.
+  - 1598: Feodor I dies childless, ending the Rurik line and opening the [Time of Troubles](/event/time-of-troubles).
+  - 1612: A militia under Minin and Pozharsky drives Polish-Lithuanian forces out of the Kremlin.
+  - 1613: An assembly elects Michael Romanov tsar, founding the Romanov dynasty.
+  - 1649: The Sobornoye Ulozheniye law code binds peasants to the land.
+  - 1654: Alexis accepts Cossack Ukraine's allegiance, starting a war with Poland that lasts until 1667.
+  - 1689: The [Treaty of Nerchinsk](/event/treaty-of-nerchinsk) settles the border with Qing China.
+  - 1703: Peter the Great founds Saint Petersburg on captured Swedish land.
+  - 1709: Peter defeats the Swedish army at [Poltava](/event/battle-of-poltava).
+faq:
+  - Q: Which ruler was crowned the first tsar of Russia? A: Ivan IV, known as Ivan the Terrible, was the first Russian ruler crowned with the title of tsar, in January 1547. He had been grand prince of Moscow since childhood, and his coronation marks the start of the Tsardom.
+  - Q: What was the Time of Troubles? A: It was a crisis from 1598 to 1613 that followed the end of the Rurik dynasty. Famine, rival pretenders, civil war and Polish and Swedish intervention tore the state apart until Michael Romanov was elected tsar in 1613.
+  - Q: How did the Tsardom of Russia become the Russian Empire? A: After victory over Sweden in the Great Northern War, confirmed by the Treaty of Nystad in 1721, Peter I took the title of emperor. That proclamation in November 1721 formally ended the Tsardom and began the Russian Empire.
+  - Q: What religion was the Tsardom of Russia? A: Russian Orthodox Christianity was the official religion. In the 1650s Patriarch Nikon's reforms to bring rituals in line with Greek practice split the Church, and the Old Believers who rejected them were persecuted.
 written: 2026-10-22
 ---
 The Tsardom of Russia was the Russian state from 1547, when Ivan IV was crowned tsar, until 1721, when Peter the Great proclaimed the Russian Empire. In those 174 years, Russia expanded from the forests around Moscow to the Pacific, becoming the largest country in the world.

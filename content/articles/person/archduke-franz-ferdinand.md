@@ -9,6 +9,29 @@ sources:
   - Wikidata: Archduke Franz Ferdinand of Austria (Q43063) | https://www.wikidata.org/wiki/Q43063
   - The World of the Habsburgs (Schönbrunn Group): Archduke Franz Ferdinand | https://www.habsburger.net/en/persons/habsburg/franz-ferdinand
   - Deutsches Historisches Museum, LeMO: Franz Ferdinand | https://www.dhm.de/lemo/biografie/franz-ferdinand
+glance:
+  - Born: 18 December 1863, Graz
+  - Died: 28 June 1914, Sarajevo
+  - Role: Heir to the Austro-Hungarian throne
+  - Heir: 1896–1914
+  - Dynasty: Habsburg-Lorraine
+  - Known for: His assassination, which led to WWI
+timeline:
+  - 1863: Franz Ferdinand is born in Graz, a nephew of [Franz Joseph I](/person/franz-joseph-i).
+  - 1875: He inherits the Modena fortune and adds "Este" to his name.
+  - 1889: Crown Prince Rudolf dies at Mayerling, moving Franz Ferdinand's father up the succession.
+  - 1892: He sets out on a voyage around the world, returning in 1893.
+  - 1896: His father's death from typhoid makes him heir presumptive.
+  - 1900: He marries Countess Sophie Chotek in a morganatic union.
+  - 1913: He becomes inspector general of all Austro-Hungarian armed forces.
+  - 1914: He and Sophie are [shot dead in Sarajevo](/event/assassination-of-archduke-franz-ferdinand) on 28 June.
+  - 1914: Austria-Hungary declares war on Serbia a month later, starting the [First World War](/event/world-war-i).
+faq:
+  - Q: Who killed Archduke Franz Ferdinand? A: Gavrilo Princip, a 19-year-old Bosnian Serb and member of the Young Bosnia movement, shot him and his wife Sophie in Sarajevo on 28 June 1914. Princip was one of several conspirators armed through the Black Hand, a secret Serbian nationalist society.
+  - Q: Why was Franz Ferdinand assassinated? A: The conspirators wanted to end Austro-Hungarian rule over Bosnia, annexed in 1908, and create a shared state for the South Slavs. As heir to the throne, the archduke was the most prominent symbol of Habsburg power on his visit to the province.
+  - Q: How did Franz Ferdinand's death start the First World War? A: Vienna blamed Serbia and, with German backing, issued an ultimatum and declared war on 28 July 1914. Russia mobilised to support Serbia, Germany declared war on Russia and France, and Britain joined after Belgium was invaded.
+  - Q: Why was Franz Ferdinand's marriage controversial? A: His wife, Countess Sophie Chotek, came from an aristocratic but non-royal family and was not considered his equal under Habsburg house rules. The emperor allowed the match only as a morganatic marriage, with their children excluded from the throne.
+  - Q: How did Franz Ferdinand become heir to the throne? A: He was not born to rule. The emperor's only son, Rudolf, died in 1889, leaving Franz Ferdinand's father, Karl Ludwig, next in line; when Karl Ludwig died in 1896, the succession passed to Franz Ferdinand.
 written: 2026-10-25
 ---
 Archduke Franz Ferdinand of Austria-Este was the heir to the throne of [Austria-Hungary](/place/austria-hungary) from 1896 until 1914. A nephew of Emperor Franz Joseph, he was a conservative, short-tempered and ambitious figure who planned to reshape the monarchy once he became emperor. Instead, his assassination with his wife Sophie in Sarajevo on 28 June 1914 set off the crisis that led to the First World War.

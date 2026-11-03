@@ -5,6 +5,46 @@ sources:
   - Borders of Time maps, built on historical-basemaps | https://github.com/aourednik/historical-basemaps
 title: Asante Empire (Ashanti), 1670–1902: Map & Golden Stool
 description: The Asante (Ashanti) Empire ruled the gold forest of today's Ghana until 1902. See it on our map, with the Golden Stool, Kumasi and the British wars.
+glance:
+  - Capital: Kumasi
+  - Founded: 1701, by [Osei Tutu I](/person/osei-kofi-tutu-i)
+  - Ended: 1901–1902, annexed by Britain
+  - Government: Elective monarchy under the Asantehene
+  - Religion: Akan religion
+  - Language: Asante Twi
+rulers:
+  - 1701–c. 1717: [Osei Tutu I](/person/osei-kofi-tutu-i)
+  - 1720–1750: Opoku Ware I
+  - 1750–1764: Kusi Obodom
+  - 1764–1777: Osei Kwadwo
+  - 1777–1803: Osei Kwame Panyin
+  - 1803–1804: Opoku Fofie
+  - 1804–1824: Osei Bonsu
+  - 1824–1834: Osei Yaw Akoto
+  - 1834–1867: Kwaku Dua I
+  - 1867–1874: Kofi Karikari
+  - 1874–1883: Mensa Bonsu
+  - 1884: Kwaku Dua II
+  - 1888–1896: Prempeh I
+timeline:
+  - 1701: Asante and its allies defeat Denkyira at Feyiase; Osei Tutu becomes the first Asantehene.
+  - 1717: Osei Tutu is killed during a losing war against Akyem.
+  - 1742: Asante defeats Akyem and gains the ground rents for European forts at Accra.
+  - 1816: Asante absorbs the Fante Confederacy, extending its power to the coast.
+  - 1824: Asante forces kill Governor Sir Charles MacCarthy in the first Anglo-Asante war.
+  - 1831: A treaty fixes the Pra River as the border, bringing about thirty years of peace.
+  - 1874: British troops under Garnet Wolseley occupy and burn Kumasi.
+  - 1896: Britain occupies Kumasi unopposed; Prempeh I is deposed and later exiled to the Seychelles.
+  - 1900: [Yaa Asantewaa](/person/yaa-asantewaa) leads the War of the Golden Stool against the British.
+  - 1901: Britain declares the Ashanti Crown Colony, dissolving the Asante Union.
+  - 1935: The British restore the Asante Confederacy, with the Asantehene running internal affairs.
+  - 1957: The Asante kingdom becomes part of newly independent [Ghana](/country/ghana).
+faq:
+  - Q: Who founded the Asante Empire? A: Osei Tutu, ruler of Kumasi, with his priest and adviser Okomfo Anokye. In the late seventeenth century they united the Asante states under the Golden Stool, and after defeating their overlord Denkyira in 1701 the allied rulers accepted Kumasi as the centre and Osei Tutu as Asantehene.
+  - Q: Why is the Golden Stool so important to the Asante? A: Sika Dwa Kofi is the sacred royal throne of the Asante and the supreme symbol of their unity. Legend says Okomfo Anokye called it down from the sky onto Osei Tutu's lap; it is believed to hold the spirit of the nation and must never touch the ground.
+  - Q: How did Britain conquer the Asante Empire? A: After a century of rivalry over the coast, five Anglo-Asante wars were fought from the 1820s to 1900. Britain burned Kumasi in 1874, occupied it in 1896 and exiled Prempeh I, crushed the 1900 War of the Golden Stool, and created the Ashanti Crown Colony in 1901.
+  - Q: Was the Asante Empire involved in the slave trade? A: Yes. Asante was the largest slave-holding and slave-trading state in what is now Ghana during the Atlantic slave trade, selling mostly war captives. Some historians argue that slaves mattered more to its economy as domestic labour than as exports.
+  - Q: Does the Asante kingdom still exist? A: Yes. The British restored the Asante Confederacy in 1935, and since 1957 the kingdom has existed within Ghana as a traditional monarchy. Its king, the Asantehene, still holds ceremonial authority; Otumfuo Osei Tutu II has reigned since 1999.
 written: 2026-10-22
 ---
 The Asante Empire, also spelled Ashanti, was an Akan state in the forest of what is now Ghana, which dominated the region from around 1700 until British conquest at the end of the nineteenth century. It was rich in gold, highly organised and militarily formidable, and fought several wars against Britain. The Asante kingdom survives today within Ghana.
@@ -15,7 +55,7 @@ The Akan peoples of the forest zone of today's Ghana and Ivory Coast grew yams, 
 
 ## Osei Tutu and the Golden Stool
 
-Around 1680–1701, Osei Tutu, ruler of Kumasi, united the Asante clans into a confederacy. With his priest and adviser Okomfo Anokye, he created a powerful symbol: according to tradition, Anokye called down from the sky a stool covered in gold, which landed on Osei Tutu's knees. The Golden Stool, Sika Dwa Kofi, was said to hold the sunsum, the soul, of the Asante nation. It has never been sat on and is kept in secret. The Asante defeated Denkyira at Feyiase in 1701. Osei Tutu became the first Asantehene, king of Asante. He died in battle against the Akyem around 1717.
+In the late seventeenth century, from about the 1670s by some reckonings, Osei Tutu, ruler of Kumasi, began uniting the Asante clans into a confederacy. With his priest and adviser Okomfo Anokye, he created a powerful symbol: according to tradition, Anokye called down from the sky a stool covered in gold, which landed on Osei Tutu's knees. The Golden Stool, Sika Dwa Kofi, was said to hold the sunsum, the soul, of the Asante nation. It has never been sat on and is kept in secret. The Asante defeated Denkyira at Feyiase in 1701. Osei Tutu became the first Asantehene, king of Asante, and the empire is usually dated from this victory. He died in battle against the Akyem around 1717.
 
 ## Building an empire
 

@@ -8,6 +8,31 @@ sources:
   - Wikipedia: Montesquieu | https://en.wikipedia.org/wiki/Montesquieu
   - Wikidata: Montesquieu (Q15975) | https://www.wikidata.org/wiki/Q15975
   - Stanford Encyclopedia of Philosophy: Baron de Montesquieu, Charles-Louis de Secondat | https://plato.stanford.edu/entries/montesquieu/
+glance:
+  - Born: January 1689, La Brède, near Bordeaux
+  - Died: 10 February 1755, Paris
+  - Role: Magistrate and political philosopher
+  - Known for: Separation of powers
+  - Major work: The Spirit of the Laws (1748)
+  - Movement: [Enlightenment](/culture/age-of-enlightenment)
+timeline:
+  - 1689: Charles-Louis de Secondat is born at the Château de La Brède.
+  - 1715: He marries Jeanne de Lartigue, a Protestant.
+  - 1716: An uncle leaves him the barony and a senior judgeship in Bordeaux.
+  - 1721: The Persian Letters, an anonymous satire of French society, makes him famous.
+  - 1726: He sells his judicial office to concentrate on writing.
+  - 1728: He joins the Académie Française and sets out on a European tour.
+  - 1729: He arrives in England, staying until 1731 and becoming a Freemason.
+  - 1734: He publishes his study of the rise and decline of the Romans.
+  - 1748: The Spirit of the Laws is published anonymously.
+  - 1751: The Catholic Church places The Spirit of the Laws on its Index.
+  - 1755: Montesquieu dies of a fever in Paris on 10 February.
+faq:
+  - Q: What did Montesquieu mean by the separation of powers? A: Set out in The Spirit of the Laws (1748), it holds that liberty survives only when making, enforcing and judging the law are held by separate bodies that check one another. The idea shaped many later constitutions.
+  - Q: How did Montesquieu influence the US Constitution? A: The American founders cited him more than almost any other modern writer. James Madison called him the oracle always consulted, and the constitution's division of power between Congress, the president and the courts, with checks and balances, reflects his arguments.
+  - Q: What are Montesquieu's three types of government? A: He distinguished republics, ruled by the people or part of it and resting on civic virtue; monarchies, where one person governs by fixed laws and is restrained by honour and intermediate bodies; and despotisms, where one person rules by personal will and fear.
+  - Q: What are the Persian Letters about? A: Published anonymously in 1721, the novel consists of letters by two Persian visitors to France, Usbek and Rica. Their bemused comments satirise the court, the church and French customs, while the story of Usbek's harem offers a portrait of despotism.
+  - Q: Why did Montesquieu admire England? A: During his stay from 1729 to 1731 he watched Parliament and read the political press. He concluded that England's post-1688 constitution, which divided power between king, Parliament and the courts, was designed above all to protect political liberty.
 written: 2026-10-25
 ---
 Charles-Louis de Secondat, Baron de La Brède et de Montesquieu, known simply as Montesquieu, was a French magistrate, satirist and political philosopher of the early Enlightenment. His Persian Letters mocked French society through the eyes of foreign visitors, and his masterpiece, The Spirit of the Laws, studied how laws and governments are shaped by climate, customs, religion and commerce. Its argument that liberty requires the separation of legislative, executive and judicial power became one of the founding principles of modern constitutional government, above all in the [United States](/country/united-states).

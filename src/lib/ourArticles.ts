@@ -13,6 +13,12 @@ import { PEOPLE_CROSSWALK } from "@/data/entityCrosswalk";
  *   written: 2026-10-22
  *   ---
  *   Paragraphs separated by blank lines. "## Heading" starts a section.
+ *
+ * Optional front-matter lists, each an indented "  - " line per item:
+ *   glance:    "  - Capital: Pataliputra"            (the "At a glance" strip)
+ *   rulers:    "  - c. 770–810: [Dharmapala](/person/dharmapala)"
+ *   timeline:  "  - 750: Gopala is chosen king."     ("~750" for c. 750)
+ *   faq:       "  - Q: Why did it decline? A: …"     (added to Quick answers)
  *   Links: [text](/place/slug) or [text](https://…).
  *
  * Read at build time; pages without a file simply don't show one.
@@ -24,8 +30,14 @@ export interface OurArticle {
   written?: string;
   /** Simple "key: value" frontmatter fields (name, wikidata, born, died, roles…). */
   meta: Record<string, string>;
-  /** Country articles: key dates, "  - 1291: Text." lines under `timeline:`. */
+  /** Key dates, "  - 1291: Text." lines under `timeline:`. */
   timeline: { year: string; text: string }[];
+  /** "At a glance" facts, "  - Capital: Text" lines under `glance:`. */
+  glance: { label: string; value: string }[];
+  /** Rulers in order, "  - c. 770–810: Name" lines under `rulers:`. */
+  rulers: { reign: string; name: string }[];
+  /** Extra quick answers, "  - Q: Question? A: Answer." lines under `faq:`. */
+  faq: { q: string; a: string }[];
 }
 
 export type ArticleKind = "place" | "person" | "event" | "culture" | "explorer" | "country" | "philosophy" | "city" | "site" | "region" | "era" | "theme" | "timeline";
@@ -57,14 +69,17 @@ export function getOurArticle(kind: ArticleKind, slug: string): OurArticle | nul
   const sources = [...head.matchAll(/^\s*-\s*(.+?)\s*\|\s*(\S+)\s*$/gm)].map((m) => ({ label: m[1], href: m[2] }));
   const written = head.match(/^written:\s*(\S+)/m)?.[1];
   const meta = Object.fromEntries([...head.matchAll(/^([a-z]+):[ \t]*(\S.*?)\s*$/gm)].map((m) => [m[1], m[2]]));
-  const tl = head.match(/^timeline:\n((?:[ \t]+-.*\n?)+)/m)?.[1] ?? "";
-  const timeline = [...tl.matchAll(/^[ \t]+-\s*(~?-?\d+)\s*:\s*(.+?)\s*$/gm)].map((m) => ({ year: m[1], text: m[2] }));
+  const list = (name: string) => head.match(new RegExp(`^${name}:\\n((?:[ \\t]+-.*\\n?)+)`, "m"))?.[1] ?? "";
+  const timeline = [...list("timeline").matchAll(/^[ \t]+-\s*(~?-?\d+)\s*:\s*(.+?)\s*$/gm)].map((m) => ({ year: m[1], text: m[2] }));
+  const glance = [...list("glance").matchAll(/^[ \t]+-\s*([^:]+?):\s+(.+?)\s*$/gm)].map((m) => ({ label: m[1], value: dropDeadLinks(m[2]) }));
+  const rulers = [...list("rulers").matchAll(/^[ \t]+-\s*([^:]+?):\s+(.+?)\s*$/gm)].map((m) => ({ reign: m[1], name: dropDeadLinks(m[2]) }));
+  const faq = [...list("faq").matchAll(/^[ \t]+-\s*Q:\s*(.+?)\s+A:\s*(.+?)\s*$/gm)].map((m) => ({ q: m[1], a: dropDeadLinks(m[2]) }));
   const blocks: ArticleBlock[] = body
     .split(/\n{2,}/)
     .map((b) => dropDeadLinks(b.trim().replace(/\s*\n\s*/g, " ")))
     .filter(Boolean)
     .map((b) => (b.startsWith("## ") ? { kind: "h2" as const, text: b.slice(3).trim() } : { kind: "p" as const, text: b }));
-  return blocks.length ? { blocks, sources, written, meta, timeline } : null;
+  return blocks.length ? { blocks, sources, written, meta, timeline, glance, rulers, faq } : null;
 }
 
 /** Markdown links reduced to their text: "[Rome](/place/rome)" → "Rome". */

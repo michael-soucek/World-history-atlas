@@ -8,6 +8,32 @@ sources:
   - Wikipedia: Philip II of Spain | https://en.wikipedia.org/wiki/Philip_II_of_Spain
   - Wikidata: Philip II of Spain (Q34417) | https://www.wikidata.org/wiki/Q34417
   - Store norske leksikon: Filip 2. av Spania | https://snl.no/Filip_2._-_av_Spania
+glance:
+  - Born: 21 May 1527, Valladolid
+  - Died: 13 September 1598, El Escorial
+  - Role: King of Spain; King of Portugal from 1580
+  - Reign: 1556–1598
+  - Dynasty: Habsburg
+  - Known for: El Escorial, Lepanto, the Armada
+timeline:
+  - 1527: Philip is born in Valladolid, son of [Charles V](/person/charles-v-holy-roman-emperor) and Isabella of Portugal.
+  - 1554: He marries [Mary I of England](/person/mary-i-of-england) at Winchester and becomes king jure uxoris.
+  - 1556: Charles V's abdication leaves Philip ruler of Spain and its empire.
+  - 1557: Spanish forces defeat the French at St Quentin; the crown defaults on its debts.
+  - 1559: The Treaty of Cateau-Cambrésis ends the Italian Wars in Spain's favour.
+  - 1568: The Dutch revolt begins, opening the [Eighty Years' War](/event/eighty-years-war).
+  - 1571: A Holy League fleet destroys the Ottoman navy at [Lepanto](/event/battle-of-lepanto).
+  - 1580: Philip's army wins at Alcântara and he takes the Portuguese crown.
+  - 1581: The northern Dutch provinces renounce Philip in the Act of Abjuration.
+  - 1584: Building of El Escorial is completed.
+  - 1588: The [Spanish Armada](/event/spanish-armada) fails to carry an invasion army to England.
+  - 1598: Philip dies at El Escorial on 13 September after a long illness.
+faq:
+  - Q: Why was Philip II called "the Prudent"? A: Spaniards called him Felipe el Prudente for his cautious, deliberate style of rule. He governed through councils and personally read and annotated vast quantities of reports, which won him a reputation for diligence but also for slowness in making decisions.
+  - Q: Why did the Spanish Armada fail? A: English fireships and gunnery broke up its formation off Gravelines in 1588, so it never linked up with the invasion army waiting in the Netherlands. Forced to sail home around Scotland and Ireland, it lost most of its ships to storms.
+  - Q: How did Philip II become King of Portugal? A: When King Sebastian died childless in Morocco in 1578 and his elderly successor Henry died in 1580, Philip claimed the throne through his Portuguese mother. His army defeated the rival claimant António at Alcântara, and the Cortes accepted him in 1581.
+  - Q: Why did the Netherlands revolt against Philip II? A: The provinces resented his heavy taxation, his persecution of Protestants and his reliance on Spanish officials. The harsh rule of the Duke of Alba after the riots of 1566 turned unrest into open war, and in 1581 the northern provinces formally renounced him.
+  - Q: How did Philip II die? A: He died at El Escorial on 13 September 1598, aged 71, after a long and painful illness, which modern sources suggest was probably cancer. He was buried in the monastery-palace he had built.
 written: 2026-10-25
 ---
 Philip II was king of Spain from 1556 to 1598 and, from 1580, of Portugal as well, ruling the largest empire the world had yet seen, with lands in Europe, the Americas, Africa and Asia. A tireless, secretive bureaucrat who governed by paperwork from his palace of El Escorial, he saw himself as the defender of Catholic Christendom. His reign brought a great victory over the Ottomans at Lepanto, but also the revolt of the Netherlands, the failure of the Armada against England, and repeated state bankruptcies.

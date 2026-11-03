@@ -184,6 +184,15 @@ function crosswalkForQid(qid: string, entityType: EntityType): CrosswalkEntry | 
   return undefined;
 }
 
+/**
+ * The curated slug for a page requested by its Wikidata ID ("/place/Q12548"),
+ * so the route can redirect to the one address search engines should index.
+ * Undefined for slugs, and for IDs with no curated page.
+ */
+export function curatedSlugForQidPath(slug: string, entityType: EntityType): string | undefined {
+  return /^Q\d+$/i.test(slug) ? crosswalkForQid(slug.toUpperCase(), entityType)?.slug : undefined;
+}
+
 async function sleep(ms: number): Promise<void> {
   await new Promise((resolve) => setTimeout(resolve, ms));
 }

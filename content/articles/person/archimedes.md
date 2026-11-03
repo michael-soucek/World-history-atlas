@@ -8,6 +8,25 @@ sources:
   - Wikipedia: Archimedes | https://en.wikipedia.org/wiki/Archimedes
   - Wikidata: Archimedes (Q8739) | https://www.wikidata.org/wiki/Q8739
   - MacTutor History of Mathematics, University of St Andrews: Archimedes of Syracuse | https://mathshistory.st-andrews.ac.uk/Biographies/Archimedes/
+glance:
+  - Born: c. 287 BCE, Syracuse
+  - Died: 212 BCE, Syracuse
+  - Role: Mathematician, physicist, engineer
+  - Known for: Archimedes' principle; law of the lever
+  - Period: Hellenistic, 3rd century BCE
+timeline:
+  - ~-287: Archimedes is born in Syracuse, according to a late Byzantine source.
+  - -214: A Roman army and fleet under Marcellus begin the [siege of Syracuse](/event/siege-of-syracuse-213-bc).
+  - -212: Syracuse falls and a Roman soldier kills Archimedes, against Marcellus's orders.
+  - -75: Cicero, serving in Sicily, finds Archimedes' neglected tomb marked by a sphere and cylinder.
+  - 1906: Johan Ludvig Heiberg identifies lost Archimedes texts in a palimpsest in Constantinople.
+  - 1998: The Archimedes Palimpsest is sold at auction, leading to modern imaging of its hidden text.
+faq:
+  - Q: What does Archimedes' principle say? A: Set out in his treatise On Floating Bodies, it states that a body immersed in a fluid is pushed upwards by a force equal to the weight of fluid it displaces. An object therefore floats when it displaces a quantity of fluid equal to its own weight.
+  - Q: Did Archimedes really shout "Eureka" in the bath? A: The story comes from the Roman architect Vitruvius, writing some two centuries later, who says Archimedes solved the puzzle of a possibly adulterated gold crown while bathing. Most historians treat the tale as a legend, though the problem of testing the crown may be genuine.
+  - Q: How did Archimedes die? A: He was killed by a Roman soldier when Syracuse fell in 212 BCE during the Second Punic War, despite the Roman commander Marcellus having ordered that he be spared. In Plutarch's best-known version, he refused to leave his geometrical diagram.
+  - Q: How did Archimedes calculate pi? A: In Measurement of a Circle he drew regular polygons inside and outside a circle and doubled their sides until each had 96. This let him show that pi lies between 3 10/71 and 3 1/7, roughly 3.1408 and 3.1429.
+  - Q: What did Archimedes invent? A: Ancient writers credit him with compound pulleys, a bronze sphere modelling the heavens and war machines such as the claw used against Roman ships at Syracuse. The water screw named after him probably predates him, and the tale of burning mirrors is widely doubted.
 written: 2026-10-25
 ---
 Archimedes of [Syracuse](/history-of/syracuse) was a Greek mathematician, physicist and engineer of the third century BCE, generally regarded as the greatest mathematician of the ancient world. He calculated areas and volumes of curved figures with methods that anticipated integral calculus, gave a close estimate of the value of pi, founded the sciences of statics and hydrostatics with the law of the lever and the principle of buoyancy, and became famous for the war machines with which he defended his city against Rome.

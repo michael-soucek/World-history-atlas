@@ -4,6 +4,30 @@ sources:
   - Wikidata: Nganasan people (Q1163044) | https://www.wikidata.org/wiki/Q1163044
   - Wikipedia: Nganasan language | https://en.wikipedia.org/wiki/Nganasan_language
   - Borders of Time maps, built on historical-basemaps | https://github.com/aourednik/historical-basemaps
+glance:
+  - Region: Taymyr Peninsula, Arctic Siberia
+  - Language: Nganasan (Samoyedic); Russian
+  - Population: 687 (2021 Russian census)
+  - Religion: Animism and shamanism
+  - Known for: Hunting wild reindeer; shamanism
+  - Related peoples: Enets, [Nenets](/place/nenets), Selkups
+timeline:
+  - 1618: The Nganasan begin paying sable tribute to the tsar at the Avam winter quarters.
+  - ~1650: Pressure from Tungusic peoples pushes Samoyedic groups north, where they merge as the Avam Nganasan.
+  - 1666: Nganasan ambush Russian tribute parties three times, killing 35 men in all.
+  - ~1830: A major smallpox outbreak follows contact with Russians.
+  - 1907: Another smallpox epidemic begins and lasts into 1908.
+  - ~1930: [Soviet](/place/soviet-union) collectivisation places Nganasan reindeer in collective farms.
+  - ~1970: The state settles the Nganasan in Ust-Avam, Volochanka and Novaya.
+  - 1978: The last domestic reindeer herding among the Nganasan comes to an end.
+  - 2002: The Russian census counts 862 Nganasan.
+  - 2021: The census records 687 Nganasan in Russia.
+faq:
+  - Q: What language do the Nganasan speak? A: Their own language, Nganasan, belongs to the Samoyedic branch of the Uralic family, but it is seriously endangered. Estimates of speakers range from about 125 to at most 500, and Russian is now the first language of many Nganasan; few young people speak Nganasan well.
+  - Q: How many Nganasan are there? A: Russia's 2002 census counted 862 Nganasan and the 2021 census 687, most of them in the Taymyr district of Krasnoyarsk Krai. Researchers who have lived with them often put the figure at about 1,000.
+  - Q: What religion do the Nganasan follow? A: Their traditional religion is animist and shamanic, and it is often described as an unusually well-preserved form of Siberian shamanism, because their isolation kept outside influence away. Missionaries never reached them, and shamans were still filmed performing séances in the 1970s.
+  - Q: How did the Nganasan traditionally live? A: They were semi-nomadic hunters of wild reindeer, unlike the neighbouring Nenets, who herded them. They wintered at the northern edge of the forest and followed the herds north across the tundra in summer, keeping domestic reindeer mainly for transport.
+  - Q: Where did the Nganasan come from? A: Most ethnographers think they formed when Samoyedic groups moving north onto the Taymyr absorbed older Paleo-Siberian inhabitants and some Tungusic groups. Early fur tribute paid in sable, a forest animal, suggests their ancestors once lived further south.
 written: 2026-10-30
 ---
 No people in Eurasia lives further north than the Nganasan, a small Samoyedic-speaking nation of the Taymyr Peninsula in Arctic Siberia. For centuries they hunted wild reindeer across the tundra, kept their shamanic religion largely free of outside influence, and stayed semi-nomadic until the 1970s. Today they number somewhere between about 700 and 1,000, and their language is seriously endangered.

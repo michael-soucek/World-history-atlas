@@ -5,6 +5,48 @@ sources:
   - Borders of Time maps, built on historical-basemaps | https://github.com/aourednik/historical-basemaps
 title: Pala Empire Map (750–1174): Dynasty, Kings & Nalanda
 description: The Pala dynasty ruled Bengal and Bihar from 750 to 1174. See its borders on our map, how Gopala was elected king, the wars for Kannauj, and Nalanda.
+glance:
+  - Capitals: Pataliputra, Monghyr, Gauda, Ramavati
+  - Founded: c. 750, by Gopala
+  - Ended: c. 1161–1174 (sources differ)
+  - Religion: Mahayana Buddhism; Shaivism
+  - Language: Sanskrit; Apabhramsha vernacular
+  - Succeeded by: [Sena dynasty](/place/sena-dynasty)
+rulers:
+  - c. 750–770: Gopala I
+  - c. 770–810: Dharmapala
+  - c. 810–850: Devapala
+  - c. 850–853: Vigrahapala I
+  - c. 854–908: Narayanapala
+  - c. 908–940: Rajyapala
+  - c. 940–957: Gopala III
+  - c. 960–986: Vigrahapala II
+  - c. 988–1036: Mahipala I
+  - c. 1038–1053: Nayapala
+  - c. 1054–1072: Vigrahapala III
+  - c. 1072–1075: Mahipala II
+  - c. 1075–1077: Shurapala II
+  - c. 1077–1130: Ramapala
+  - c. 1130–1140: Kumarapala
+  - c. 1140–1144: Gopala IV
+  - c. 1144–1162: Madanapala
+  - c. 1158–1162: Govindapala
+timeline:
+  - ~750: Bengal's feuding chieftains accept Gopala as king, ending a period of anarchy.
+  - ~770: Dharmapala succeeds his father and pushes west towards Kannauj.
+  - ~810: Devapala, regarded as the strongest Pala ruler, takes the throne.
+  - ~988: Mahipala I begins recovering northern and eastern Bengal for the dynasty.
+  - 1021: [Rajendra I](/person/rajendra-i) of the [Chola dynasty](/place/chola-dynasty) starts raids into Bengal that defeat Mahipala.
+  - ~1075: A revolt of vassals led by the Kaivarta chief Divya kills Mahipala II and seizes Varendra.
+  - ~1077: Ramapala becomes king, later retaking Varendra and ruling from a new capital, Ramavati.
+  - ~1160: The Sena ruler Vijayasena, having beaten Madanapala, controls most of Bengal.
+  - ~1200: Troops of Bakhtiyar Khalji raid Nalanda, the great monastery the Palas had patronised.
+faq:
+  - Q: Who founded the Pala Empire? A: Gopala, who became king around 750 after Bengal had suffered a long spell of anarchy. A Pala copper plate says the people made him king; historians think he was most likely chosen by a group of leading chieftains rather than by popular vote.
+  - Q: What religion were the Pala kings? A: The Palas were best known as patrons of Mahayana Buddhism, founding Vikramashila and supporting Nalanda and Somapura. They also backed Hinduism: several later kings were initiated as devotees of Shiva and built temples to Hindu gods.
+  - Q: Which Pala king was the most powerful? A: Devapala, Dharmapala's son, who reigned for several decades in the ninth century, is usually regarded as the most powerful. His armies campaigned in Assam and Odisha, though later inscriptions probably exaggerate the full list of his conquests.
+  - Q: Why did the Pala Empire decline? A: Repeated invasions, breakaway provinces and powerful vassals weakened the state from the tenth century. The Kaivarta revolt of the late eleventh century shattered royal control, and although Ramapala recovered for a time, the Sena dynasty overtook the Palas in Bengal during the twelfth century.
+  - Q: Why is the Pala Empire famous? A: Its patronage of Buddhist learning, above all the monastic universities of Nalanda and Vikramashila, which produced teachers such as Atisha. The distinctive Pala school of bronze and stone sculpture also shaped the art of Nepal, Burma, Sri Lanka and Java.
 written: 2026-10-22
 ---
 For about four hundred years, from the middle of the eighth century to the twelfth, eastern India was ruled by the Pala dynasty, whose name means "protector". The Pala kings governed from Bengal and Bihar, along the lower Ganges, and at their height in the early ninth century they were the strongest power in northern India.
@@ -43,7 +85,7 @@ In the early eleventh century, the Chola king Rajendra I of southern India sent 
 
 ## Decline
 
-Pala power faded slowly. The kings came to depend on local lords, and a revolt in northern Bengal in the eleventh century exposed how little control they had left. In the twelfth century the Hindu [Sena dynasty](/place/sena-dynasty) took Bengal, and the last Pala rulers held on only in Bihar before disappearing from the record around 1174.
+Pala power faded slowly. The kings came to depend on local lords, and a revolt in northern Bengal in the eleventh century exposed how little control they had left. In the twelfth century the Hindu [Sena dynasty](/place/sena-dynasty) took Bengal, and the last Pala rulers held on only in Bihar before disappearing from the record between about 1161 and 1174; sources differ on the date.
 
 ## Legacy
 

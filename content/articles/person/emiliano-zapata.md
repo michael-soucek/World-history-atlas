@@ -8,6 +8,29 @@ sources:
   - Wikipedia: Emiliano Zapata | https://en.wikipedia.org/wiki/Emiliano_Zapata
   - Wikidata: Emiliano Zapata (Q41718) | https://www.wikidata.org/wiki/Q41718
   - International Encyclopedia of the Social Sciences and Encyclopedia of World Biography (Encyclopedia.com): Emiliano Zapata | https://www.encyclopedia.com/people/history/mexican-history-biographies/emiliano-zapata
+glance:
+  - Born: 8 August 1879, Anenecuilco, Morelos
+  - Died: 10 April 1919, Chinameca, Morelos
+  - Role: Leader, Liberation Army of the South
+  - Known for: Plan of Ayala and land reform
+  - Conflict: [Mexican Revolution](/event/mexican-revolution)
+timeline:
+  - 1879: Zapata is born in the village of Anenecuilco, Morelos.
+  - 1909: Anenecuilco's elders choose him to lead the defence of the village's land claims.
+  - 1911: His forces take Cuautla after six days of fighting, helping to topple Díaz.
+  - 1911: He issues the Plan of Ayala, disowning Madero and demanding land for villages.
+  - 1913: After Huerta's coup against Madero, Zapata fights the new regime.
+  - 1914: Zapatista and Villista armies occupy Mexico City after the Convention of Aguascalientes.
+  - 1915: Zapatistas return haciendas' land to villages across Morelos.
+  - 1917: The Zapatistas retake much of Morelos from Carranza's troops.
+  - 1919: Zapata is killed in an ambush at the hacienda of Chinameca.
+  - 1920: Zapatista generals back Obregón's revolt that brings down Carranza.
+  - 1994: The Zapatista Army of National Liberation rises in Chiapas under his name.
+faq:
+  - Q: What did Emiliano Zapata fight for? A: He fought for the return of village lands taken by the sugar haciendas of Morelos and for peasants' right to farm them. His Plan of Ayala of 1911 demanded the restitution of stolen lands and the expropriation of part of the great estates.
+  - Q: What was the Plan of Ayala? A: Issued by Zapata and Otilio Montaño in November 1911, it declared President Madero a traitor to the revolution. It called for villages to recover land seized from them and for a third of large estates to be expropriated, with compensation, and the rest confiscated if owners resisted.
+  - Q: How did Emiliano Zapata die? A: Colonel Jesús Guajardo, acting for General Pablo González, pretended he wanted to defect and staged an attack on federal troops to win Zapata's trust. When Zapata arrived at the hacienda of Chinameca on 10 April 1919, Guajardo's soldiers shot him dead.
+  - Q: Why is Zapata still important in Mexico? A: He became the revolution's great symbol of rural justice. Article 27 of the 1917 constitution reflected his agrarian demands, the ruling party honoured him as a national hero, and in 1994 Indigenous rebels in Chiapas took the name Zapatistas.
 written: 2026-10-25
 ---
 Emiliano Zapata was a peasant leader from the state of Morelos, south of Mexico City, and one of the principal figures of the Mexican Revolution of 1910 to 1920. Under the slogan "Land and Liberty", he led an army of villagers demanding the return of land taken by sugar plantations, and he kept fighting successive governments until he was killed in an ambush in 1919. Denounced in his lifetime by the press of the capital as a bandit, he became after his death the revolution's most enduring symbol of rural justice.

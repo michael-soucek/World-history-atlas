@@ -8,6 +8,31 @@ sources:
   - Wikipedia: René Descartes | https://en.wikipedia.org/wiki/Ren%C3%A9_Descartes
   - Wikidata: René Descartes (Q9191) | https://www.wikidata.org/wiki/Q9191
   - Stanford Encyclopedia of Philosophy: René Descartes | https://plato.stanford.edu/entries/descartes/
+glance:
+  - Born: 31 March 1596, La Haye en Touraine
+  - Died: 11 February 1650, Stockholm
+  - Role: Philosopher, mathematician, scientist
+  - Known for: "I think, therefore I am"
+  - Major works: Discourse on Method; Meditations
+timeline:
+  - 1596: Descartes is born at La Haye en Touraine, a town now named after him.
+  - 1607: He enters the Jesuit college of La Flèche.
+  - 1616: He earns a law licence at the University of Poitiers.
+  - 1618: He joins the army of Maurice of Nassau at Breda and meets Isaac Beeckman.
+  - 1619: Three dreams near the Danube convince him to pursue a unified mathematical science.
+  - 1628: He settles in the [Dutch Republic](/place/dutch-republic), his home for some twenty years.
+  - 1633: Hearing of Galileo's condemnation, he shelves his treatise The World.
+  - 1637: The Discourse on Method appears with essays on optics, meteorology and geometry.
+  - 1641: The Meditations on First Philosophy are published in Latin.
+  - 1644: The Principles of Philosophy sets out his system as a textbook.
+  - 1649: He publishes The Passions of the Soul and moves to Stockholm at [Christina](/person/christina-of-sweden)'s invitation.
+  - 1650: He dies of pneumonia in Stockholm on 11 February.
+faq:
+  - Q: What does "I think, therefore I am" mean? A: Descartes argued that he could doubt almost everything, even the existence of the outside world, but not the fact that he was doubting. Since doubting is a form of thinking, his own existence as a thinking being was certain, and he made this the foundation of his philosophy.
+  - Q: What did Descartes mean by dualism? A: It is Descartes's view that reality contains two distinct kinds of substance: mind, whose nature is to think, and matter, whose nature is to occupy space. It raised the lasting puzzle of how a non-physical mind can act on a physical body.
+  - Q: What did Descartes contribute to mathematics? A: In his Geometry of 1637 he showed how curves can be described by algebraic equations using coordinates, joining algebra and geometry into what is now called analytic geometry. The Cartesian coordinate system is named after him, and the method prepared the ground for calculus.
+  - Q: How did Descartes die? A: He went to Stockholm in 1649 to teach Queen Christina, who asked for lessons early in the morning. In the cold Swedish winter he fell ill and died of pneumonia on 11 February 1650; a later theory that he was poisoned remains unproven.
+  - Q: Why is Descartes called the father of modern philosophy? A: He tried to rebuild knowledge from a foundation that could survive radical doubt, putting the thinking subject at the centre of philosophy. His method, his dualism and his mechanical view of nature set the questions that later thinkers such as Spinoza, Leibniz and Locke had to answer.
 written: 2026-10-25
 ---
 René Descartes was a French philosopher, mathematician and scientist, often called the father of modern philosophy. Seeking a foundation for knowledge that no doubt could shake, he found it in the certainty of his own thinking, summed up in the phrase "I think, therefore I am". He also invented the coordinate geometry that joins algebra and geometry, and proposed a mechanical picture of the physical world that dominated European science until [Isaac Newton](/person/isaac-newton).

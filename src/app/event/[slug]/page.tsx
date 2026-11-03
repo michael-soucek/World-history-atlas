@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { permanentRedirect } from "next/navigation";
 import Link from "next/link";
 import { cache } from "react";
 import SiteHeader from "@/components/SiteHeader";
@@ -7,7 +8,7 @@ import EntityPage from "@/components/EntityPage";
 import type { CrosswalkEntry, EntityType } from "@/types";
 import { EVENTS_CROSSWALK } from "@/data/entityCrosswalk";
 import { buildEntityContent } from "@/lib/wikidata";
-import { resolveEntityBySlugOrQid } from "@/lib/entityResolver";
+import { resolveEntityBySlugOrQid, curatedSlugForQidPath } from "@/lib/entityResolver";
 import { fetchWikipediaSearchSummary } from "@/lib/wikipedia";
 import { entityMetadata } from "@/lib/seo";
 import { getOurArticle } from "@/lib/ourArticles";
@@ -64,6 +65,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function EventPage({ params }: Props) {
   const { slug } = await params;
+  // "/event/Q123" duplicates the curated page: send readers and crawlers there.
+  const curated = curatedSlugForQidPath(slug, "event");
+  if (curated) permanentRedirect(`/event/${curated}`);
   const r = await resolve(slug);
   if (!r.content || !r.entry) {
     const displayName = r.fallbackName ?? slug;

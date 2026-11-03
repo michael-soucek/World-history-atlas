@@ -5,6 +5,53 @@ sources:
   - Borders of Time maps, built on historical-basemaps | https://github.com/aourednik/historical-basemaps
 title: Xiongnu Empire Map: The First Steppe Empire vs Han China
 description: The Xiongnu were the first steppe empire to face a unified China, from the late 3rd century BCE. See their lands on our map, Modu Chanyu and the Han wars.
+glance:
+  - Capital: Longcheng, the chanyu's seat
+  - Founder: Modu Chanyu, 209 BCE
+  - Ruler's title: Chanyu
+  - Government: Tribal confederation
+  - Split: 48 CE, into north and south
+  - Religion: Worship of Heaven (Tengri); shamanism
+rulers:
+  - 220–209 BCE: Touman
+  - 209–174 BCE: Modu
+  - 174–161 BCE: Laoshang
+  - 161–126 BCE: Junchen
+  - 126–114 BCE: Yizhixie
+  - 114–105 BCE: Wuwei
+  - 105–102/101 BCE: Er Chanyu
+  - 101/100–96 BCE: Qiedihou
+  - 96–85 BCE: Hulugu
+  - 85–68 BCE: Huyandi
+  - 68–60 BCE: Xulüquanqu
+  - 60–58 BCE: Woyanqudi
+  - 58–31 BCE: Huhanye
+  - 31–20 BCE: Fuzhulei Ruodi
+  - 20–12 BCE: Souxie
+  - 12–8 BCE: Juya
+  - 8 BCE–13 CE: Wuzhuliu
+  - 13–18 CE: Wulei
+  - 18–46 CE: Huduershi
+  - 46 CE–?: Punu (Northern Xiongnu)
+timeline:
+  - -215: The Qin general Meng Tian expels the Xiongnu from the Ordos Loop.
+  - -209: Modu kills his father Touman, becomes chanyu and unites the tribes.
+  - -200: Modu traps the first Han emperor, Gaozu, at Baideng.
+  - -198: A peace treaty begins the heqin system of brides and gifts.
+  - -176: The Xiongnu drive the Yuezhi out of the Hexi Corridor.
+  - -133: An ambush at Mayi fails and [Emperor Wu's Han](/place/han-dynasty) breaks the peace.
+  - -119: Han cavalry under Wei Qing and Huo Qubing push the chanyu north of the Gobi.
+  - -60: A disputed succession sets off a Xiongnu civil war.
+  - -51: Huhanye pays homage to the Han emperor at Chang'an.
+  - -36: A Han expedition kills the rival chanyu Zhizhi near Lake Balkhash.
+  - 48: Eight southern tribes break away, splitting the Xiongnu into north and south.
+  - 89: Dou Xian crushes the Northern Xiongnu at the Altai Mountains.
+faq:
+  - Q: Who founded the Xiongnu Empire? A: Modu, son of Touman, the first Xiongnu leader known by name. According to the historian Sima Qian, Modu trained warriors to shoot wherever his whistling arrow flew, then had them kill his father in 209 BCE. As chanyu he united the tribes and defeated the Donghu and Yuezhi.
+  - Q: What language did the Xiongnu speak? A: Nobody knows for certain. Scholars have argued for Iranian, Turkic, Mongolic and Yeniseian origins, and some treat it as an isolate. The confederation probably included several peoples, and the evidence consists mainly of names and words written down in Chinese characters.
+  - Q: What religion did the Xiongnu follow? A: According to the Book of Han, they called Heaven "Chengli", a Chinese rendering of Tengri, the sky god of later steppe peoples, and they practised shamanism. Buddhist prayer beads found in a grave in Buryatia suggest that some Xiongnu knew of Buddhism.
+  - Q: Why did the Xiongnu Empire decline? A: Han campaigns from 133 BCE cost them land and allies, and succession passing between brothers led to civil war after 60 BCE. In 48 CE the confederation split; the north was broken by the Xianbei and the Han by 91, while the south became Han vassals.
+  - Q: Were the Xiongnu the same people as the Huns? A: Possibly. The idea dates to the 18th-century French scholar Joseph de Guignes, and Sogdian letters use the same name for both peoples. Many scholars now accept some connection, but there is no consensus, and the link may be an oversimplification.
 written: 2026-10-22
 ---
 The Xiongnu were a confederation of nomadic peoples who dominated the steppes north of China, centred on what is now Mongolia, from the late third century BCE to the first century CE. They were the first steppe empire to confront a unified China, and their long struggle with the Han dynasty shaped the history of both.

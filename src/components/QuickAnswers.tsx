@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Inline } from "@/components/OurArticle";
 import { fmtYear, listOf, type EntityContext, type StoredFacts } from "@/lib/entityContext";
 import { formatArea, modernName, withArticle, type PlaceMaps } from "@/lib/placeMaps";
 import { countryHref } from "@/lib/countries";
@@ -196,11 +197,12 @@ function cultureAnswers(ctx: EntityContext, facts: StoredFacts): QA[] {
  * least two answers.
  */
 export default function QuickAnswers(
-  props:
+  props: (
     | { kind: "place"; name: string; facts: StoredFacts; maps: PlaceMaps | undefined }
-    | { kind: "person" | "event" | "culture"; ctx: EntityContext; facts: StoredFacts },
+    | { kind: "person" | "event" | "culture"; ctx: EntityContext; facts: StoredFacts }
+  ) & { extra?: { q: string; a: string }[] },
 ) {
-  const items =
+  const computed =
     props.kind === "place"
       ? placeAnswers(props.name, props.facts, props.maps)
       : props.kind === "person"
@@ -208,6 +210,9 @@ export default function QuickAnswers(
         : props.kind === "event"
           ? eventAnswers(props.ctx, props.facts)
           : cultureAnswers(props.ctx, props.facts);
+  // The article's own answers follow the computed ones, skipping any question already answered.
+  const asked = new Set(computed.map((c) => c.q.toLowerCase()));
+  const items = [...computed, ...(props.extra ?? []).filter((e) => !asked.has(e.q.toLowerCase())).map((e) => ({ q: e.q, a: <Inline text={e.a} /> }))];
   if (items.length < 2) return null;
   return (
     <section className="mb-14" aria-labelledby="quick-answers">
