@@ -4,12 +4,8 @@
  * turn a piece on — no code changes needed later, just env vars.
  */
 
-/**
- * Ko-fi / Buy Me a Coffee (or any other tip-jar) page URL. Set
- * NEXT_PUBLIC_SUPPORT_URL once you've created one; until then, SupportButton
- * falls back to the on-site /support page.
- */
-export const SUPPORT_URL = process.env.NEXT_PUBLIC_SUPPORT_URL || null;
+/** The tip-jar page. Set here, not in an env var, so a rename only needs this line changed. */
+export const SUPPORT_URL = "https://ko-fi.com/independentguides";
 
 /**
  * Whether ad/sponsorship slots should render anything at all. Leave unset in
