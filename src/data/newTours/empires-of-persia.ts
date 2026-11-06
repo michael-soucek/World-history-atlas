@@ -11,7 +11,7 @@ export const TOUR: Tour = {
     {
       title: "The Stone at Susa",
       date: "c. 3200–1100 BCE",
-      text: "In 1901–02 French diggers at Susa, in south-western Iran, unearthed a basalt pillar over two metres tall. It was the law code of Hammurabi of Babylon, and it lay far from home. An Elamite king, Shutruk-Nakhunte, had carried it off as a trophy in the 12th century BCE. That theft shows who mattered in this corner of the world long before any Persian. From about 3200 BCE Elam grew around two centres, lowland Susa and highland Anshan, and its kings claimed both in their titles. Their language is traditionally thought to have no known relatives. In the 13th century BCE Untash-Napirisha raised a holy city at Chogha Zanbil, crowned by a ziggurat. Later empires would lean on Elam's scribes.",
+      text: "In 1901–02 French diggers at Susa, in south-western Iran, unearthed a basalt pillar over two metres tall. It was the law code of Hammurabi of Babylon, and it lay far from home. An Elamite king, Shutruk-Nakhunte, had carried it off as a trophy in the 12th century BCE. That theft shows Elam's power long before any Persian empire. From about 3200 BCE Elam grew around two centres, lowland Susa and highland Anshan, and its kings claimed both in their titles. Their language is traditionally thought to have no known relatives. In the 13th century BCE Untash-Napirisha raised a holy city at Chogha Zanbil, crowned by a ziggurat. Later empires would lean on Elam's scribes.",
       mapState: { year: -1150, mapYear: -1000, lat: 32.5, lng: 49, zoom: 5 },
       highlight: ["Elam"],
       markers: [
@@ -23,7 +23,7 @@ export const TOUR: Tour = {
       routes: [
         { label: "Trophies from Babylonia, 12th century BCE", kind: "raid", path: [[44.3, 33], [45.8, 32.9], [47.2, 32.5], [48.2, 32.2]] },
       ],
-      fact: "Oil prospectors flying over Khuzestan in 1935 noticed an odd hill. It was the ziggurat of Chogha Zanbil, which by some estimates once stood more than 50 metres tall. Digging began the next year.",
+      fact: "An oil geologist found the site in the 1930s. It was the ziggurat of Chogha Zanbil, which by some estimates once stood more than 50 metres tall.",
       people: ["hammurabi"],
       readMore: ["/place/elam", "/history-of/susa", "/place/babylonia"],
     },
@@ -43,7 +43,7 @@ export const TOUR: Tour = {
         { label: "Ashurbanipal against Elam", kind: "conquest", path: [[43.15, 36.3], [44.6, 34.6], [46.6, 33], [48.1, 32.3]] },
         { label: "Medes against Assyria", kind: "conquest", path: [[48.4, 34.8], [46.4, 35.2], [44.6, 35.6], [43.4, 36.2]] },
       ],
-      fact: "Ashurbanipal boasted of destroying Elam completely. Yet Persian clerks were writing Elamite nearly a century and a half later, and a small state called Elymais kept Elamite culture alive until 224 CE.",
+      fact: "Ashurbanipal boasted of destroying Elam completely. Yet Persian clerks were writing Elamite nearly a century and a half later, and a small state called Elymais, on old Elamite land, lasted into the 220s CE.",
       people: ["ashurbanipal"],
       readMore: ["/event/fall-of-nineveh", "/place/elam", "/place/babylonia"],
     },
@@ -108,7 +108,7 @@ export const TOUR: Tour = {
     {
       title: "Persepolis",
       date: "c. 518–460 BCE",
-      text: "Darius began a ceremonial capital on a stone terrace in Fars around 518 BCE, and his son Xerxes finished much of it. Visitors passed through the Gate of All Nations, guarded by giant bulls, on the way to the Apadana, an audience hall with 72 columns about 25 metres high. Its stairways are the empire's self-portrait. Peoples from across the realm climb them in their own dress, carrying gifts, Lydians and Armenians among them with wine. Clay records reveal who did the real work. Thousands of dependent labourers drew rations here, and about half of those from Anatolia were women and children. At the treasury alone, 1,348 people were employed in 467 BCE.",
+      text: "Darius began a ceremonial capital on a stone terrace in Fars around 518 BCE, and his son Xerxes finished much of it. Visitors passed through the Gate of All Nations, guarded by giant bulls, on the way to the Apadana, an audience hall with 72 columns over 20 metres high. Its stairways are the empire's self-portrait. Peoples from across the realm climb them in their own dress, carrying gifts, Lydians and Armenians among them with wine. Clay records show who did the labour. Thousands of dependent labourers drew rations here, and about half of those from Anatolia were women and children. One modern count puts the treasury staff at 1,348 in 467 BCE.",
       mapState: { year: -480, mapYear: -500, lat: 34, lng: 42, zoom: 3.8 },
       highlight: ["Achaemenid Empire"],
       markers: [
@@ -120,7 +120,7 @@ export const TOUR: Tour = {
       routes: [
         { label: "Workers from Anatolia", kind: "migration", path: [[28.04, 38.49], [34, 39.6], [38.3, 38.3], [43.1, 36.4], [46.6, 33.2], [48.3, 32.2], [50.6, 30.8], [52.8, 29.95]] },
       ],
-      fact: "Persepolis ration records show women working in many trades, sometimes as supervisors over men. Few ancient archives let us see working women so directly.",
+      fact: "Persepolis ration records show women working in many trades, sometimes as supervisors. Few ancient archives let us see working women so directly.",
       people: ["xerxes-i"],
       readMore: ["/site/persepolis", "/place/achaemenid-empire", "/event/greco-persian-wars"],
     },
@@ -156,7 +156,7 @@ export const TOUR: Tour = {
       routes: [
         { label: "Alexander to Persepolis", kind: "conquest", path: [[44.42, 32.54], [46.6, 32.8], [48.26, 32.19], [50.5, 30.9], [52.89, 29.93]] },
       ],
-      fact: "A stone at Ai Khanoum, in today's Afghanistan, carried the closing lines of the Delphic maxims. Its epigram says a man named Klearchos copied them at Delphi and set them up beside the Oxus.",
+      fact: "A stone at Ai Khanoum, in today's Afghanistan, carried the closing lines of the Delphic maxims. Its epigram says a man named Klearchos copied them at Delphi and set them up in the sanctuary of Kineas.",
       people: ["alexander-the-great", "seleucus-i-nicator"],
       readMore: ["/site/persepolis", "/place/seleucid-empire", "/place/greco-bactrian-kingdom", "/event/wars-of-alexander-the-great"],
     },
@@ -202,7 +202,7 @@ export const TOUR: Tour = {
     {
       title: "Khosrow's Court of Books",
       date: "531–579",
-      text: "Persian memory made Khosrow I the model of a just king, Anushirvan, the Immortal Soul. He ruled from 531 to 579, set a tax by wealth, paid his cavalry from the centre and leaned on village lords called dehqans. He could be ruthless: in 532 Justinian paid him 11,000 pounds of gold for peace, and in 540 he broke it and sacked Antioch. Ideas moved too. After Justinian's edict of 529 stopped them teaching, seven Greek philosophers came to his court. Agathias says they were disappointed and soon left, under a clause of the treaty. More lasting was a trip east. The physician Borzuya turned the Indian Panchatantra into Persian, and its fables later passed into Arabic as Kalila wa Dimna.",
+      text: "Persian memory made Khosrow I the model of a just king, Anushirvan, the Immortal Soul. He ruled from 531 to 579, set a tax by wealth, paid his cavalry from the centre and leaned on village lords called dehqans. He drove hard bargains: in 532 Justinian paid him 11,000 pounds of gold for peace, and in 540 he broke it and sacked Antioch. Ideas moved too. After Justinian's edict of 529 stopped them teaching, seven Greek philosophers came to his court. Agathias says they were disappointed and soon left, under a clause of the treaty. More lasting was a trip east. The physician Borzuya turned the Indian Panchatantra into Persian, and its fables later passed into Arabic as Kalila wa Dimna.",
       mapState: { year: 550, mapYear: 500, lat: 34, lng: 50, zoom: 3.4 },
       highlight: ["Sasanian Empire"],
       markers: [
@@ -221,7 +221,7 @@ export const TOUR: Tour = {
     {
       title: "The Last Great War",
       date: "602–628",
-      text: "The rivalry ended in exhaustion. In 602 the emperor Maurice, who had helped Khosrow II regain his throne, was murdered, and Khosrow marched in the name of revenge. His armies took Jerusalem in 614 and carried the True Cross to Ctesiphon. From 618 they invaded Egypt, cutting off Constantinople's grain. In 626 Persians and Avars closed on the capital from both sides, but could not join across the Bosporus. Heraclius struck back into the Persian heartland with Turkic allies and broke its army near Nineveh in December 627. Khosrow's own son deposed him and had him killed. After 26 years the frontier was back where it began, and both empires had spent their men and money.",
+      text: "The rivalry ended in exhaustion. In 602 the emperor Maurice, who had helped Khosrow II regain his throne, was murdered, and Khosrow marched in the name of revenge. His armies took Jerusalem in 614 and carried the True Cross to Ctesiphon. From 618 they invaded Egypt, cutting off Constantinople's grain. In 626 Persians and Avars closed on the capital from both sides, but could not join across the Bosporus. Heraclius struck back into the Persian heartland at first with Turkic allies, and broke its army near Nineveh in December 627. Khosrow's own son deposed him and had him killed. After 26 years the frontier was back where it began, and both empires had spent their men and money.",
       mapState: { year: 620, mapYear: 600, lat: 36, lng: 40, zoom: 3.5 },
       highlight: ["Sasanian Empire", "Eastern Roman Empire"],
       markers: [
@@ -241,7 +241,7 @@ export const TOUR: Tour = {
     {
       title: "The Last King of Kings",
       date: "636–c. 900",
-      text: "Arab armies met that worn-out state within a decade. The conquest has its own tour here, so this is the view from Iran. Defeat at al-Qadisiyya around 636 cost Mesopotamia, Ctesiphon fell the next year, and Nahavand in 642 was the last major battle. Yazdegerd III, crowned as a boy, fled from province to province, losing friends with his demands. Near Merv in 651 he was killed by a miller, some say for his jewels. His son Peroz turned to Tang China for help that never restored him. Faith changed slowly. Islam spread over centuries, and in 696 Arabic became the court language while Persian stayed in people's mouths. Some Zoroastrians sailed for India.",
+      text: "Arab armies met that worn-out state within a decade. The conquest has its own tour here, so this is the view from Iran. Defeat at al-Qadisiyya around 636 cost Mesopotamia, Ctesiphon fell the next year, and Nahavand in 642 was the last major battle. Yazdegerd III, crowned as a boy, fled from province to province, losing friends with his demands. Near Merv in 651 he was killed by a miller, some say for his jewels. His son Peroz turned to Tang China for help that never restored him. Faith changed slowly. Islam spread over centuries, and from about 697 Arabic replaced Persian in Iraq's central tax office, while Persian stayed in people's mouths. Some Zoroastrians sailed for India.",
       mapState: { year: 651, lat: 32, lng: 56, zoom: 3.5 },
       highlight: ["Sasanian Empire"],
       markers: [
@@ -278,7 +278,7 @@ export const TOUR: Tour = {
     {
       title: "Omar Khayyam Counts the Year",
       date: "1048–1131",
-      text: "Turkic warlords now ruled Iran, and they hired its scholars. The Seljuk leader Tughril Beg made Isfahan his capital, and in 1055 the caliph named him King of the East. Under Malik-Shah and his vizier Nizam al-Mulk, an invitation went out to a mathematician from Nishapur. Omar Khayyam built an observatory at Isfahan and led it for 18 years. In 1079 he helped reform the calendar. He put the year at about 365.2422 days, remarkably close to today's figure. He also solved cubic equations using curves. The good times ended in 1092, when the vizier was murdered and the sultan died a month later. In 1859 Edward FitzGerald's English Rubaiyat made him famous as a poet.",
+      text: "Turkic warlords now ruled Iran, and they hired its scholars. The Seljuk leader Tughril Beg made Isfahan his capital, and in 1058 the caliph named him King of the East and West. Under Malik-Shah and his vizier Nizam al-Mulk, an invitation went out to a mathematician from Nishapur. Omar Khayyam built an observatory at Isfahan and led it for 18 years. In 1079 he helped reform the calendar. He put the year at about 365.2422 days, remarkably close to today's figure. He also solved cubic equations using curves. The good times ended in 1092, when the vizier was murdered and the sultan died a month later. In 1859 Edward FitzGerald's English Rubaiyat made him famous as a poet.",
       mapState: { year: 1079, mapYear: 1100, lat: 35, lng: 53, zoom: 4.2 },
       highlight: ["Seljuk Empire"],
       markers: [
@@ -289,14 +289,14 @@ export const TOUR: Tour = {
       routes: [
         { label: "Khayyam called to Isfahan", kind: "migration", path: [[58.8, 36.21], [55.5, 35.3], [53, 34], [51.7, 32.75]] },
       ],
-      fact: "Only about 120 of the verses in the Rubaiyat can be pinned on Khayyam with certainty. His own mathematics was sturdier: his claim that cubics need conic sections went unproved for some 750 years.",
+      fact: "Perhaps 120 of the verses in the Rubaiyat are Khayyam's, and scholars dispute even those. His own mathematics was sturdier: his claim that cubics need conic sections went unproved for some 750 years.",
       people: ["omar-khayyam", "nizam-al-mulk"],
       readMore: ["/person/omar-khayyam", "/place/seljuk-empire", "/history-of/isfahan"],
     },
     {
       title: "The Mongols Learn Persian Ways",
       date: "1219–1335",
-      text: "From 1219 Mongol armies wrecked the great cities of the east, among them Bukhara, Merv and Neyshabur, and Iran's population fell steeply. How they got there is told in the Mongol tour. What came next is stranger. Hulegu, Genghis's grandson, founded the Ilkhanate, ruling first from Maragheh, where an observatory brought Nasir al-Din al-Tusi together with Chinese methods. In 1295 Ghazan converted to Islam. His vizier Rashid al-Din, a physician born to a Jewish family in Hamadan, wrote a history of the Mongols, later stretched to the whole known world. Chinese motifs entered Iranian pottery, and Öljaitü raised his domed tomb at Soltaniyeh. Rashid al-Din was executed in 1318, and the state broke apart after 1335.",
+      text: "From 1219 Mongol armies wrecked the great cities of the east, among them Bukhara, Merv and Nishapur, and Iran's population fell steeply. How they got there is told in the Mongol tour. What came next is stranger. Hulegu, Genghis's grandson, founded the Ilkhanate, ruling first from Maragheh, where an observatory brought Nasir al-Din al-Tusi together with Chinese methods. In 1295 Ghazan converted to Islam. His vizier Rashid al-Din, a physician born to a Jewish family in Hamadan, wrote a history of the Mongols, later stretched to the whole known world. Chinese motifs entered Iranian pottery, and Öljaitü raised his domed tomb at Soltaniyeh. Rashid al-Din was executed in 1318, and the state broke apart after 1335.",
       mapState: { year: 1300, lat: 36, lng: 52, zoom: 3.8 },
       highlight: ["Ilkhanate"],
       markers: [
@@ -316,7 +316,7 @@ export const TOUR: Tour = {
     {
       title: "Hafez and the House of Timur",
       date: "c. 1315–1507",
-      text: "In Shiraz a boy learned the Quran by heart and took the name Hafez, memoriser. He grew up to write short lyric poems of love, wine and taverns, which can be read as romance, as praise, or as longing for God, and which mock religious hypocrites. In 1387 Timur's armies swept through. A popular tale has the conqueror scolding the poet over a verse and being charmed by his reply, though Hafez deplored the slaughter. Timur's campaigns killed vast numbers. His heirs built. Shah Rukh ruled from Herat, and his wife Gawhar Shad founded a great mosque at Mashhad in 1418. Ulugh Beg charted 992 stars at Samarkand, and Bihzad led Herat's painters from 1486. Uzbeks ended the line in 1507.",
+      text: "In Shiraz a boy learned the Quran by heart and took the name Hafez, memoriser. He grew up to write short lyric poems of love, wine and taverns, which can be read as romance, as praise, or as longing for God, and which mock religious hypocrites. In 1387 Timur's armies swept through. A popular tale has the conqueror scolding the poet over a verse and being charmed by his reply, though Hafez deplored the slaughter. Timur's campaigns killed vast numbers. His heirs built. Shah Rukh ruled from Herat, and his wife Gawhar Shad founded a great mosque at Mashhad in 1418. Ulugh Beg charted 992 stars at Samarkand, and Bihzad led Herat's painters from 1486. Uzbeks took Herat in 1507.",
       mapState: { year: 1400, lat: 34, lng: 60, zoom: 3.8 },
       highlight: ["Timurid Empire"],
       markers: [
@@ -410,7 +410,7 @@ export const TOUR: Tour = {
     {
       title: "1906: The Shah Signs",
       date: "December 1905–January 1907",
-      text: "By 1905 the treasury leaned on Russian loans, spent partly on royal trips to Europe. That December two Tehran merchants were beaten for price-gouging, and the bazaar shut. In January clerics and merchants took sanctuary in mosques. In summer about 10,000 people camped in the grounds of the British legation. The shah promised a constitution in August, and an elected assembly, the Majlis, met that autumn. On 30 December 1906 a dying Mozaffar ad-Din Shah signed, and five days later he was dead. Years of struggle over it followed. Kings had ruled this land for thousands of years, and now it had a parliament. Persian, heir to Darius's inscriptions, remains an official language, in its local forms, of Iran, Afghanistan and Tajikistan.",
+      text: "By 1905 the treasury leaned on Russian loans, spent partly on royal trips to Europe. That December two Tehran merchants were beaten for price-gouging, and the bazaar shut. Clerics and merchants took sanctuary at a shrine near Tehran, and in January the shah made promises. In summer about 10,000 people camped in the grounds of the British legation. The shah promised a constitution in August, and an elected assembly, the Majlis, met that autumn. On 30 December 1906 a dying Mozaffar ad-Din Shah signed, and within days he was dead. Years of struggle over it followed. Kings had ruled this land for thousands of years, and now it had a parliament. Persian, heir to Darius's inscriptions, remains an official language, in its local forms, of Iran, Afghanistan and Tajikistan.",
       mapState: { year: 1906, mapYear: 1900, lat: 34, lng: 53, zoom: 4.4 },
       highlight: ["Persia"],
       markers: [

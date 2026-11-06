@@ -52,7 +52,7 @@ export const TOUR: Tour = {
     {
       title: "Steppe DNA and the Vedas",
       date: "c. 2000–1000 BCE",
-      text: "How the ancestors of Sanskrit reached South Asia is hotly argued, so the evidence comes first. A woman buried at Rakhigarhi in Indus times shows no steppe ancestry, though she alone of 61 people sampled there gave enough DNA. A 2019 study found steppe ancestry arriving in the first half of the second millennium BCE, and it forms up to 30 per cent of the ancestry of some modern South Asian groups. Its authors read this as evidence for a steppe origin of Indo-Aryan languages, while one grants that bones cannot show what anyone spoke. Most scholars accept a migration, and the old picture of violent invasion has been dropped. A minority, mainly some Indian scholars, hold that the languages began in India.",
+      text: "How the ancestors of Sanskrit reached South Asia is a sensitive question, so the evidence comes first. A woman buried at Rakhigarhi in Indus times shows no steppe ancestry, though she alone of 61 people sampled there gave enough DNA. A 2019 study found steppe ancestry arriving in the first half of the second millennium BCE, and it forms up to 30 per cent of the ancestry of some modern South Asian groups. Its authors read this as evidence for a steppe origin of Indo-Aryan languages, while one grants that bones cannot show what anyone spoke. Most scholars accept a migration, and the old picture of violent invasion has been dropped. A minority, mainly some Indian scholars, hold that the languages began in India.",
       mapState: { year: -1500, lat: 34, lng: 71, zoom: 3.6 },
       highlight: ["Vedic Aryans"],
       markers: [
@@ -138,7 +138,7 @@ export const TOUR: Tour = {
     {
       title: "West Out of India",
       date: "c. 500–1100",
-      text: "One people left Asia heading west and kept India in their speech. The Roma's ancestors came from northern India, and their language still shows it. The hard part is the date. A 2012 genetic study of 13 Romani groups across Europe pointed to north or north-western India, and it was widely reported as showing a departure about 1,500 years ago. One linguist, reading the same paper, says it gives no departure date at all, and that the language evidence fits about 1000 CE. The Middle East and the Caucasus left their mark on the language, though little in the genes. By about 900 years ago Roma were spreading out from the Balkans. What happened next belongs to our tour of Europe.",
+      text: "One people left Asia heading west and kept India in their speech. The Roma's ancestors came from northern India, and their language still shows it. The hard part is the date. A 2012 genetic study of 13 Romani groups across Europe pointed to north or north-western India, and its abstract dates the founding group there to about 1,500 years ago. One linguist says that is no departure date, and that the language evidence fits about 1000 CE. The Middle East and the Caucasus left their mark on the language, though little in the genes. By about 900 years ago Roma were spreading out from the Balkans. What happened next belongs to our tour of Europe.",
       mapState: { year: 1000, lat: 37, lng: 50, zoom: 3 },
       markers: [
         { label: "North-western India", at: [73, 31] },
@@ -154,7 +154,7 @@ export const TOUR: Tour = {
     {
       title: "From Mongolia to Anatolia",
       date: "552–1071 and after",
-      text: "Turkish is spoken today more than 5,000 kilometres from where its story began. In 552 a clan who had lived north of the Altai, working metal for the Rouran, overthrew their masters and founded the first Turkic khaganate. Their rule reached across Central Asia, and Turkic writing of about 730 survives in Mongolia's Orkhon valley. Over the following centuries Turkic speakers drifted west. The Oghuz took up Islam in the 10th century and settled around Bukhara. Their Seljuk leaders took Baghdad in 1055, and in 1071 Alp Arslan beat the Byzantines at Manzikert. Anatolia lay open. Yet DNA suggests the language travelled further than the people: most Turkic peoples still resemble their neighbours, with a smaller trace of Inner Asia.",
+      text: "Turkish is spoken today more than 5,000 kilometres from where its story began. In 552 a clan who had lived in the Altai, working metal for the Rouran, overthrew their masters and founded the first Turkic khaganate. Their rule reached across Central Asia, and Turkic writing of about 730 survives in Mongolia's Orkhon valley. Over the following centuries Turkic speakers drifted west. The Oghuz took up Islam in the 10th century and settled around Bukhara. Their Seljuk leaders took Baghdad in 1055, and in 1071 Alp Arslan beat the Byzantines at Manzikert. Byzantine civil war then opened Anatolia. Yet DNA suggests the language travelled further than the people: most Turkic peoples still resemble their neighbours, with a smaller trace of Inner Asia.",
       mapState: { year: 1071, mapYear: 1100, lat: 43, lng: 68, zoom: 2.6 },
       highlight: ["Seljuk Empire"],
       markers: [
@@ -357,7 +357,7 @@ export const TOUR: Tour = {
     {
       title: "Boats and Camps",
       date: "1975–1990s",
-      text: "The late 20th century made refugees on a vast scale. After 1975 people left Vietnam by sea in small boats. UNHCR records 839,228 Vietnamese arrivals in camps across South-East Asia and Hong Kong by 1997, and many others died at sea. By mid-1979 the camps were overflowing, and 65 governments met at Geneva. Resettlement pledges doubled to 260,000, and in the next 18 months more than 450,000 people from Indochina found new homes. The United States took the most, then France, Australia and Canada. Further west, Afghans began crossing the borders in the late 1970s. By the end of the Soviet war in 1988 some four to five million were in Pakistan and about three million in Iran.",
+      text: "The late 20th century made refugees on a vast scale. After 1975 people left Vietnam by sea in small boats. UNHCR records 839,228 Vietnamese arrivals in camps across South-East Asia and Hong Kong by 1997, and many others died at sea. By mid-1979 the camps were overflowing, and 65 governments met at Geneva. Resettlement pledges doubled to 260,000, and in the next 18 months more than 450,000 people from Indochina found new homes. The United States took the most, then France, Australia and Canada. Further west, Afghans began crossing the borders in the late 1970s. By the Soviet withdrawal in 1989 more than three million were in Pakistan and about three million in Iran.",
       mapState: { year: 1979, mapYear: 1994, lat: 22, lng: 88, zoom: 2.7 },
       highlight: ["Vietnam", "Afghanistan"],
       markers: [
@@ -372,13 +372,13 @@ export const TOUR: Tour = {
         { label: "Afghans into Pakistan", kind: "forced", path: [[69.2, 34.5], [70.5, 34.2], [71.6, 34]] },
         { label: "Afghans into Iran", kind: "forced", path: [[68, 34.5], [64, 34.3], [61, 35], [59.6, 36.2]] },
       ],
-      fact: "With a pre-war population of 13 million, the numbers meant that by the late 1980s more than half of all Afghans were living in exile. Between 2002 and 2018, 4.3 million registered refugees went home.",
+      fact: "With a pre-war population of 13 million, the numbers meant that by the late 1980s close to half of all Afghans were living in exile. Between 2002 and 2018, 4.3 million registered refugees went home from Pakistan.",
       readMore: ["/event/fall-of-saigon", "/event/soviet-afghan-war", "/country/vietnam", "/country/afghanistan"],
     },
     {
       title: "To the Gulf",
       date: "1950s–today",
-      text: "Oil changed who lived on the Gulf. From the 1950s its states began hiring abroad, at first mostly Arabs from Yemen, Egypt, Jordan and beyond, along with Palestinian refugees. Over time governments turned towards Asia, and by 1995 Asian workers far outnumbered Arab migrants. The Gulf states held over seven million migrants just before the 1991 war and almost sixteen million by 2008. Foreigners have come to make up nearly half the region's people, and close to three-quarters in Qatar, Kuwait and the UAE. Most come on short contracts under kafala, a sponsorship system that lets states control who arrives. Kerala alone had about 2.2 million emigrants in 2023, some 80 per cent of them in the Gulf states.",
+      text: "Oil changed who lived on the Gulf. From the 1950s its states began hiring abroad, at first mostly Arabs from Yemen, Egypt, Jordan and beyond, along with Palestinian refugees. Over time governments turned towards Asia, and by 1995 Asian workers far outnumbered Arab migrants. The Gulf states held over seven million migrants just before the 1991 war and almost sixteen million by 2008. Foreigners now make up about half the region's people, some 70 per cent in Kuwait and nearly 90 in Qatar and the UAE. Most come on short contracts under kafala, a sponsorship system that ties each worker to a local sponsor. Kerala alone had about 2.2 million emigrants in 2023, some 80 per cent of them in the Gulf states.",
       mapState: { year: 2000, lat: 22, lng: 62, zoom: 3.4 },
       highlight: ["Saudi Arabia", "Kuwait", "Qatar", "United Arab Emirates", "Oman"],
       markers: [
@@ -392,13 +392,13 @@ export const TOUR: Tour = {
         { label: "From South Asia", kind: "migration", path: [[80, 25], [72, 25], [64, 24.8], [58, 25], [56.2, 25.4]] },
         { label: "From Egypt", kind: "migration", path: [[31.3, 30], [37, 28.5], [46.7, 24.7]] },
       ],
-      fact: "Staying is hard by design. Gulf states began phasing out naturalisation of Arab migrants by the mid-1970s, and two-year contracts keep the workforce turning over.",
+      fact: "Staying is hard. Gulf states began phasing out naturalisation of Arab migrants by the mid-1970s, and two-year contracts keep the workforce turning over.",
       readMore: ["/country/qatar", "/country/united-arab-emirates", "/country/saudi-arabia", "/country/kuwait"],
     },
     {
       title: "The Move to the City",
       date: "Today",
-      text: "Much of today's movement runs inside countries, from villages to cities. China's 2020 census counted 376 million people living away from their registered home, up from 155 million ten years before, and many of them moved from inland provinces to the coast. Under the hukou system, in place since the 1950s, they can still be shut out of services such as local schools. The UN's 2025 figures name Jakarta the world's most populous city, at nearly 42 million, followed by Dhaka at almost 40 million and Tokyo at 33 million. Of the top ten only Cairo lies outside Asia. Tens of thousands of years after those first walkers came along the shore, Asia's people are still packing up and moving on.",
+      text: "Much of today's movement runs inside countries, from villages to cities. China's 2020 census counted 376 million people living away from their registered home, up from 221 million ten years before, and many of them moved from inland provinces to the coast. Under the hukou system, in place since the 1950s, they can still be shut out of services such as local schools. The UN's 2025 figures name Jakarta the world's most populous city, at nearly 42 million, followed by Dhaka at almost 40 million and Tokyo at 33 million. Of the top ten only Cairo lies outside Asia. Tens of thousands of years after those first walkers came east, Asia's people are still packing up and moving on.",
       mapState: { year: 2020, mapYear: 2000, lat: 18, lng: 110, zoom: 2.6 },
       markers: [
         { label: "Jakarta, nearly 42 million", at: [106.85, -6.2] },

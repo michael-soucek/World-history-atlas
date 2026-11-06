@@ -91,7 +91,7 @@ export default async function TourListPage() {
         <PageIntro
           label="Guided tours"
           title={<>Let the map <span className="italic">tell the story</span></>}
-          lede="Each tour moves the atlas for you — the year, the place, the zoom — while a short narration explains what changed and why. Each step is data-authored, not generated."
+          lede="Each tour moves the atlas for you — the year, the place, the zoom — while a short narration explains what changed and why."
           aside={
             <p className="font-mono text-[12px] tracking-wide text-ink/68 leading-relaxed">
               {TOURS.length} tours<br />about {totalMinutes} minutes in all
@@ -144,7 +144,7 @@ export default async function TourListPage() {
           <TourBrowser shelves={shelves} />
 
           <p className="mt-14 text-xs text-ink/64 leading-relaxed">
-            Tours are built from the atlas&apos;s map data and cited sources.
+            Tours are built from the atlas&apos;s map data and published sources.
           </p>
           <details className="mt-3 text-xs text-ink/64 leading-relaxed">
             <summary className="cursor-pointer hover:text-ink">Picture credits</summary>

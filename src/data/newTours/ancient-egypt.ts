@@ -29,7 +29,7 @@ export const TOUR: Tour = {
     {
       title: "Signs That Spoke",
       date: "c. 3300–3000 BCE",
-      text: "Some of Egypt's earliest writing comes from a tomb. Around 3300 BCE a ruler was buried at Abydos in a chamber now called U-j, with dozens of imported jars that seem to have held wine. Small ivory labels, pierced for tying, carried scratched signs naming towns. Tokens from Abydos are carbon-dated to about 3400 to 3200 BCE, close to the age of Sumer's script. Many scholars think Egypt's system grew up at home, though some see a link. Hieroglyphs mixed signs for sounds, signs for whole words and silent signs that made the meaning clear. Scribes soon had a faster hand, hieratic, and from the First Dynasty a new surface: papyrus. The oldest surviving roll, from the tomb of an official called Hemaka, is blank.",
+      text: "Some of Egypt's earliest writing comes from a tomb. Around 3300 BCE a ruler was buried at Abydos in a chamber now called U-j, with hundreds of imported jars that seem to have held wine. Small ivory labels, pierced for tying, carried scratched signs naming towns. Tokens from Abydos are carbon-dated to about 3400 to 3200 BCE, close to the age of Sumer's script. Many scholars think Egypt's system grew up at home, though some see a link. Hieroglyphs mixed signs for sounds, signs for whole words and silent signs that made the meaning clear. Scribes soon had a faster hand, hieratic, and from the First Dynasty a new surface: papyrus. The oldest surviving roll, from the tomb of an official called Hemaka, is blank.",
       mapState: { year: -3300, mapYear: -3000, lat: 28.5, lng: 33, zoom: 4.6 },
       markers: [
         { label: "Abydos: tomb U-j", at: [31.91, 26.18] },
@@ -77,7 +77,7 @@ export const TOUR: Tour = {
     {
       title: "The Inspector's Logbook",
       date: "c. 2560 BCE",
-      text: "Who did the work? In 2013 a French team led by Pierre Tallet found papyri at Wadi al-Jarf on the Red Sea, written late in Khufu's reign by an inspector named Merer. With about forty boatmen, he carried white limestone from the Tura quarries over the water to Giza, some 200 blocks a month. His log never says what the stone was for, though Tallet thinks it clad the Great Pyramid. South of the Sphinx, archaeologists have uncovered the town that served the builders: over seven hectares of bakeries, kitchens, workshops and royal grain silos, for bread and beer. Greek writers imagined slaves. The camps point instead to conscripted Egyptians, fed by the state. Once Menkaure's pyramid was finished, the town was dismantled.",
+      text: "Who did the work? In 2013 a French team led by Pierre Tallet found papyri at Wadi al-Jarf on the Red Sea, written late in Khufu's reign by an inspector named Merer. With about forty boatmen, he carried white limestone from the Tura quarries over the water to Giza, perhaps 200 blocks a month. His log never says what the stone was for, though Tallet thinks it clad the Great Pyramid. South of the Sphinx, archaeologists have uncovered the town that served the builders: over seven hectares of bakeries, kitchens, workshops and royal grain silos, for bread and beer. Herodotus told of a tyrant's forced labour. The camps point to conscripted Egyptians, fed by the state. Once Menkaure's pyramid was finished, the town was dismantled.",
       mapState: { year: -2560, mapYear: -3000, lat: 29.6, lng: 32, zoom: 6.6 },
       markers: [
         { label: "Giza: the builders' town", at: [31.14, 29.97] },
@@ -93,7 +93,7 @@ export const TOUR: Tour = {
     {
       title: "Order Lost and Found",
       date: "c. 2181–1780 BCE",
-      text: "No kingdom lasts unchanged. Pepi II is said to have reigned for nearly a century and to have outlived his heirs, while provincial governors grew stronger. A severe drought brought famine the court could not answer, and after about 2181 BCE Egypt broke into rival regions. Thebes put it back together. Mentuhotep II defeated Herakleopolis, and by about 2040 BCE the country was whole again. Senusret III then drove south into Nubia, building river forts at Buhen and Semna. His border stela warns that a successor who fails to hold the line \"is not my son\". Writers flourished too. The Story of Sinuhe, about an exile who longs for home, survives in more copies than any other Egyptian narrative.",
+      text: "No kingdom lasts unchanged. Pepi II is said to have reigned for nearly a century and to have outlived his heirs, while provincial governors grew stronger. Drought and famine may have played a part, and after about 2181 BCE Egypt broke into rival regions. Thebes put it back together. Mentuhotep II defeated Herakleopolis, and by about 2040 BCE the country was whole again. Senusret III then drove south into Nubia, strengthening river forts at Buhen and Semna. His border stela warns that a successor who fails to hold the line \"is not my son\". Writers flourished too. The Story of Sinuhe, about an exile who longs for home, survives in more copies than any other Egyptian narrative.",
       mapState: { year: -2040, mapYear: -2000, lat: 26, lng: 31.5, zoom: 4.8 },
       highlight: ["Egypt"],
       markers: [
@@ -157,7 +157,7 @@ export const TOUR: Tour = {
         { label: "Hyksos messenger's desert road to Kush", kind: "spread", path: [[31.82, 30.79], [30.3, 29.5], [28.86, 28.35], [29, 26.8], [30.5, 25.4], [30.6, 23.4], [30.41, 19.6]] },
         { label: "Thebes marches north", kind: "conquest", path: [[32.65, 25.7], [32.72, 26.1], [31.7, 26.55], [31.18, 27.2], [30.75, 28.1], [31.2, 29.8], [31.82, 30.79]] },
       ],
-      fact: "The Hyksos are often credited with bringing the chariot to Egypt, but nothing shows they owned any. Chariots first turn up in accounts of Egyptians fighting them, and probably played little part in either their rise or fall.",
+      fact: "The Hyksos are often credited with bringing the chariot to Egypt, but the evidence that they owned any is thin and disputed. Chariots first turn up in accounts of Egyptians fighting them, and probably played little part in either their rise or fall.",
       readMore: ["/culture/ancient-egypt", "/history-of/thebes", "/place/new-kingdom-of-egypt"],
     },
     {
@@ -201,7 +201,7 @@ export const TOUR: Tour = {
     {
       title: "The Boy King",
       date: "c. 1332–1323 BCE",
-      text: "The throne soon passed to a child called Tutankhaten, \"living image of the Aten\". Aged eight or nine, he changed his name to Tutankhamun, and a stela at Karnak announced the return of the old temples and cults. He died at about 19. A 2012 study suggested malaria and a broken leg, but the cause is still debated. Thieves broke into his tomb twice within a few years, and officials sealed it again. Then the desert hid it. On 4 November 1922, workers for Howard Carter and Lord Carnarvon uncovered a step. Inside lay 5,398 objects and a coffin of solid gold weighing 110.4 kilograms. Since November 2025, over 4,500 of the objects have been shown together at the Grand Egyptian Museum.",
+      text: "The throne soon passed to a child called Tutankhaten, \"living image of the Aten\". In the third year of his reign he changed his name to Tutankhamun, and a stela at Karnak announced the return of the old temples and cults. He died at about 19. A 2010 study suggested malaria and a broken leg, but the cause is still debated. Thieves broke into his tomb twice within a few years, and officials sealed it again. Then the desert hid it. On 4 November 1922, workers for Howard Carter and Lord Carnarvon uncovered a step. Inside lay 5,398 objects and a coffin of solid gold weighing 110.4 kilograms. Since November 2025 the collection has been shown together at the Grand Egyptian Museum.",
       mapState: { year: -1323, mapYear: -1500, lat: 27.8, lng: 31.8, zoom: 5.4 },
       highlight: ["Egypt"],
       markers: [
@@ -267,7 +267,7 @@ export const TOUR: Tour = {
     {
       title: "Pharaohs from the South",
       date: "c. 750–656 BCE",
-      text: "The old colony now took over. Kush had risen again around Napata, where Amun had a great temple below Jebel Barkal. Its king Kashta gained Upper Egypt by installing his daughter as God's Wife of Amun. His son Piye marched north, and his victory stela says Memphis fell \"like a cloudburst\". For nearly a century Kushite kings ruled Egypt as the 25th Dynasty. They brought back the pyramid, at el-Kurru and Nuri, and about 255 Nubian pyramids are known today. Taharqa was crowned at Memphis in 690 BCE. Assyria ended it. Esarhaddon took Memphis in 671, and in 663 Ashurbanipal's army sacked Thebes, by its own account. Kushite kings went home, and went on ruling there for centuries.",
+      text: "Now Kush took over. Kush had risen again around Napata, where Amun had a great temple below Jebel Barkal. Its king Kashta gained Upper Egypt by installing his daughter as God's Wife of Amun. His son Piye marched north, and his victory stela says Memphis fell \"like a cloudburst\". For nearly a century Kushite kings ruled Egypt as the 25th Dynasty. They brought back the pyramid, at el-Kurru and Nuri, and about 255 Nubian pyramids are known today. Taharqa was crowned at Memphis in 690 BCE. Assyria ended it. Esarhaddon took Memphis in 671, and in 663 Ashurbanipal's army sacked Thebes, by its own account. Kushite kings went home, and went on ruling there for centuries.",
       mapState: { year: -700, lat: 26, lng: 34, zoom: 3.9 },
       highlight: ["Kush", "Egypt", "Assyria"],
       markers: [
@@ -287,7 +287,7 @@ export const TOUR: Tour = {
     {
       title: "Mercenaries and Persians",
       date: "664–342 BCE",
-      text: "Psamtik I had been schooled at Nineveh and placed in power by the Assyrians. By about 656 BCE he held all of Egypt, with soldiers from Caria and Greece behind him. About 593 BCE Psamtik II sent an army into Nubia. Napata was sacked around 590, and in time Kush's royal centre shifted south to Meroë. In 525 the Persian king Cambyses captured Psamtik III, and Egypt became a Persian province. At Elephantine, on the southern border, Persia's garrison included a Jewish community with its own temple to Yahweh beside that of the Egyptian god Khnum. Their Aramaic papyri survive. Native kings later returned, until Artaxerxes III invaded in 343 BCE. Nectanebo II fled to Nubia, the last native ruler of the whole country.",
+      text: "Psamtik I had been schooled at Nineveh and placed in power by the Assyrians. By about 656 BCE he held all of Egypt, with soldiers from Caria and Greece behind him. About 593 BCE Psamtik II sent an army into Nubia that sacked Napata, and in time Kush's royal centre shifted south to Meroë. In 525 the Persian king Cambyses captured Psamtik III, and Egypt became a Persian province. At Elephantine, on the southern border, Persia's garrison included a Jewish community with its own temple to Yahweh beside that of the Egyptian god Khnum. Their Aramaic papyri survive. Native kings later returned, until Artaxerxes III invaded in 343 BCE. Nectanebo II fled to Nubia, the last native ruler of the whole country.",
       mapState: { year: -525, mapYear: -500, lat: 26, lng: 34, zoom: 3.9 },
       highlight: ["Achaemenid Empire"],
       markers: [
@@ -395,7 +395,7 @@ export const TOUR: Tour = {
       routes: [
         { label: "The Rosetta Stone goes to England, 1802", kind: "voyage", path: [[29.9, 31.25], [22, 34.5], [11.5, 37.4], [5, 37.8], [-5.6, 35.95], [-9.5, 37], [-9.8, 43], [-5.5, 48.7], [-1, 50.5]] },
       ],
-      fact: "Champollion once wrote that he dreamed in Coptic. When he finally saw Egypt, in 1829, he read inscriptions no one had studied. The journey ruined his health, and he died in Paris in 1832, aged 41.",
+      fact: "Champollion once wrote that he dreamed in Coptic. When he finally saw Egypt, in 1828, he read inscriptions no one had studied. The journey ruined his health, and he died in Paris in 1832, aged 41.",
       readMore: ["/site/abu-simbel", "/country/egypt", "/culture/ancient-egypt"],
     },
   ],

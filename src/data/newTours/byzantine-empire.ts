@@ -13,7 +13,7 @@ export const TOUR: Tour = {
     {
       title: "A New Rome on the Bosphorus",
       date: "324–330",
-      text: "Picture a narrow strait where Europe almost touches Asia. In 324 Constantine won sole rule of the Roman world, and he chose this spot for a new capital. The old town of Byzantion stood here, with a fine harbour in the Golden Horn and access to both the Danube and the Euphrates. He declared the place a New Rome, enlarged the Hippodrome for chariot racing, and on 11 May 330 consecrated the city that would carry his name. Historians often start the Byzantine story on that day. Its people never used the word. They were Romans living in a Roman state, and they went on saying so for more than eleven centuries.",
+      text: "Picture a narrow strait where Europe almost touches Asia. In 324 Constantine won sole rule of the Roman world, and he chose this spot for a new capital. The old town of Byzantion stood here, with a fine harbour in the Golden Horn and access to both the Danube and the Euphrates. He declared the place a New Rome, enlarged the Hippodrome for chariot racing, and on 11 May 330 consecrated the city that would carry his name. Historians often start the Byzantine story on that day. Its people used the word only for the city's residents. They were Romans living in a Roman state, and they went on saying so for more than eleven centuries.",
       mapState: { year: 330, mapYear: 400, lat: 40, lng: 22, zoom: 3.4 },
       highlight: ["Eastern Roman Empire", "Western Roman Empire"],
       markers: [
@@ -31,7 +31,7 @@ export const TOUR: Tour = {
     {
       title: "The Walls of Theodosius",
       date: "c. 413–447",
-      text: "When the Goths took Rome in 410, the shock travelled east. Anthemius, who ran the government for the boy emperor Theodosius II, gave Constantinople a new land wall, raised around 413 with 96 towers. Then in 447 earthquakes wrecked much of it, just as the Huns were raiding. The prefect Constantine took charge, and the Blues and the Greens, the rival racing factions, supplied 16,000 labourers between them. A lower second wall went up in front of the first, doubling the towers to 192, and a wide ditch lay beyond that. The whole barrier ran for about six kilometres, and it spared the city an attack by Attila. No foreign army would force the city's defences until the Fourth Crusade.",
+      text: "Even before the Goths took Rome in 410, the east was building. Anthemius, who ran the government for the boy emperor Theodosius II, gave Constantinople a new land wall, finished around 413 with 96 towers. Then in 447 earthquakes wrecked much of it, just as the Huns were raiding. The prefect Constantine took charge, and the Blues and the Greens, the rival racing factions, are said to have supplied 16,000 labourers between them. A lower second wall went up in front of the first, doubling the towers to 192, and a wide ditch lay beyond that. The whole barrier ran for about six kilometres, and it spared the city an attack by Attila. No foreign army would force the city's defences until the Fourth Crusade.",
       mapState: { year: 447, mapYear: 400, lat: 42, lng: 26, zoom: 5 },
       highlight: ["Eastern Roman Empire"],
       markers: [
@@ -60,7 +60,7 @@ export const TOUR: Tour = {
     {
       title: "Fifty Books of Law",
       date: "529–534",
-      text: "Roman law had become a mountain of statutes and old opinions, and Justinian set the official Tribonian to clear it. A new Code was finished on 7 April 529, then revised in 534. Next a commission of sixteen, made up of an official, four professors and eleven advocates, took on the writings of the great jurists. Over 1,500 books were boiled down to the fifty of the Digest, finished in 533. A student textbook, the Institutes, gained the force of law that December. All this was done in Latin. Around 1070 the work surfaced again in northern Italy, though nobody agrees exactly how. Taught at Bologna, it became the groundwork of Europe's civil law tradition.",
+      text: "Roman law had become a mountain of statutes and old opinions, and Justinian set the official Tribonian to clear it. A new Code was finished on 7 April 529, then revised in 534. Next a commission of sixteen, made up of an official, four professors and eleven advocates, took on the writings of the great jurists. Some 2,000 books were boiled down to the fifty of the Digest, finished in 533. A student textbook, the Institutes, gained the force of law that December. All this was done in Latin. Around 1070 the work surfaced again in northern Italy, though nobody agrees exactly how. Taught at Bologna, it became the groundwork of Europe's civil law tradition.",
       mapState: { year: 533, mapYear: 500, lat: 42.5, lng: 20, zoom: 4 },
       highlight: ["Eastern Roman Empire"],
       markers: [
@@ -107,7 +107,7 @@ export const TOUR: Tour = {
     {
       title: "The Silk Smugglers",
       date: "c. 552",
-      text: "Silk was the luxury everyone wanted, and it reached the empire through Persia, which controlled the trade and cut it off in wartime. Around 552 two monks who had travelled as far as China came to Justinian. Hidden in their bamboo canes, the story says, they brought silkworm eggs or tiny larvae. Accounts differ on the details, but silk factories soon worked in Constantinople, Beirut, Antioch, Tyre and Thebes. Silk became a business of state, paid out as money and sent as diplomatic gifts. The capital's rulebook, the Book of the Eparch, set out separate trades for silk merchants, importers, dressers and dyers, and it fixed their profits and their quarters. Silk dyed in Tyrian purple could not be sold abroad.",
+      text: "Silk was the luxury everyone wanted, and it reached the empire through Persia, which controlled the trade and cut it off in wartime. Around 552 two monks who had travelled as far as China came to Justinian. Hidden in their bamboo canes, the story says, they brought silkworm eggs or tiny larvae. Accounts differ on the details, but the empire could now raise its own silk for weavers in cities such as Constantinople, Beirut and Tyre. Silk became a business of state, paid out as money and sent as diplomatic gifts. The capital's rulebook, the Book of the Eparch, set out separate trades for silk merchants, importers, dressers and dyers, and it fixed their profits and their quarters. Silk dyed in Tyrian purple could not be sold abroad.",
       mapState: { year: 552, mapYear: 600, lat: 38, lng: 40, zoom: 3.2 },
       highlight: ["Eastern Roman Empire", "Sasanian Empire"],
       markers: [
@@ -120,7 +120,7 @@ export const TOUR: Tour = {
       routes: [
         { label: "The monks' probable route, north of the Black Sea (uncertain)", kind: "spread", path: [[62, 40], [55, 44], [50, 46.5], [44, 45.5], [40, 44], [36, 44.8], [32, 44], [29.3, 41.4]] },
       ],
-      fact: "In 1147 the Norman king Roger II of Sicily raided Greece, seized silk weavers and their equipment, and set up his own silkworks at Palermo. Six centuries after the monks, the secret of silk had been carried off once more.",
+      fact: "In 1147 the Norman king Roger II of Sicily raided Greece, seized silk weavers and their equipment, and took them to Sicily, where Palermo already had a royal workshop. Six centuries after the monks, silk skill was still worth stealing.",
       readMore: ["/culture/silk-road", "/place/sasanian-empire", "/place/byzantine-empire"],
     },
     {
@@ -147,7 +147,7 @@ export const TOUR: Tour = {
     {
       title: "Sea Fire",
       date: "c. 670s–718",
-      text: "The chronicler Theophanes tells of Kallinikos, a craftsman from Heliopolis in Syria, who fled to the Romans with a new weapon. Pumped through bronze tubes, it spat flames that water could not put out. The recipe was a state secret, passed from emperor to emperor, and it is lost. It seems first to have been used during an Arab siege in the 670s, though that siege is itself disputed: one scholar moves it to 667–669, another calls the long blockade a myth. The next attack is beyond doubt. From summer 717 Maslama's army and fleet ringed the city. Fire, a brutal winter and famine broke them, and they left on 15 August 718.",
+      text: "The chronicler Theophanes tells of Kallinikos, a craftsman from Heliopolis in Syria, who fled to the Romans with a new weapon. Pumped through bronze tubes, it spat flames that water could not put out. The recipe was a state secret, passed from emperor to emperor, and it is lost. It seems first to have been used during an Arab siege in the 670s, though that siege is itself disputed: one scholar moves it to 667–669, another calls the long blockade a myth. The next attack is beyond doubt. From summer 717 Maslama's army and fleet ringed the city. Fire, a brutal winter, famine and Bulgar attacks broke them, and they left on 15 August 718.",
       mapState: { year: 717, mapYear: 700, lat: 39, lng: 31, zoom: 4.6 },
       highlight: ["Eastern Roman Empire"],
       markers: [
@@ -164,7 +164,7 @@ export const TOUR: Tour = {
     {
       title: "The War Over Images",
       date: "726–843",
-      text: "Christians had venerated painted images of holy figures since about the 3rd century. In the 720s that practice became a fight over God's anger. A volcano erupted in the Aegean in 726, and Leo III became the first emperor to take the iconoclast side. Tradition has him removing Christ's image from the palace gate, a story now doubted, and the quarrel may have begun in the provinces. A council at Hieria backed the iconoclasts in 754. The empress Irene reversed that at Nicaea in 787. The ban came back in 814, while the empress Theodora quietly kept her icons inside the palace. Widowed and regent, she ended the matter in 843. Orthodox churches still mark that victory every Lent.",
+      text: "Christians had painted holy figures since about the 3rd century, and by the 6th they venerated the images. In the 720s that practice became a fight over God's anger. A volcano erupted in the Aegean in 726, and Leo III has traditionally been called the first emperor to take the iconoclast side. Tradition has him removing Christ's image from the palace gate, a story now doubted, and the quarrel may have begun in the provinces. A council at Hieria backed the iconoclasts in 754. The empress Irene reversed that at Nicaea in 787. The ban came back in 815, while the empress Theodora quietly kept her icons inside the palace. Widowed and regent, she ended the matter in 843. Orthodox churches still mark that victory every Lent.",
       mapState: { year: 787, mapYear: 800, lat: 36, lng: 30, zoom: 4 },
       highlight: ["Byzantine Empire"],
       markers: [
@@ -201,7 +201,7 @@ export const TOUR: Tour = {
     {
       title: "The Singing Throne",
       date: "949–968",
-      text: "In 949 a young Italian envoy, Liudprand of Cremona, was shown into the palace of Constantine VII. He remembered a tree of gilded bronze filled with bronze birds, each singing in the voice of its kind. Accounts of the palace's Throne of Solomon add roaring mechanical lions. Theatre was how this court governed. The emperor himself stood behind a Book of Ceremonies, setting down the festivals and processions, the coronations, weddings, births, funerals and Hippodrome triumphs. Outside, the capital was one of the world's great markets, drawing goods from Russia to Ethiopia, weighed with official standard measures. When Liudprand came back in 968 the wonder had gone. He was treated badly, and officials confiscated his silks on the way out.",
+      text: "In 949 a young Italian envoy, Liudprand of Cremona, was shown into the palace of Constantine VII. He remembered a tree of gilded bronze filled with bronze birds, each singing in the voice of its kind. He also describes gilded lions guarding the throne, which roared and lashed their tails. Theatre was how this court governed. The emperor himself stood behind a Book of Ceremonies, setting down the festivals and processions, the coronations, weddings, births, funerals and Hippodrome triumphs. Outside, the capital was one of the world's great markets, drawing goods from Russia to Ethiopia, weighed with official standard measures. When Liudprand came back in 968 the wonder had gone. He was treated badly, and officials confiscated his silks on the way out.",
       mapState: { year: 949, mapYear: 1000, lat: 41, lng: 20, zoom: 4.2 },
       highlight: ["Byzantine Empire"],
       markers: [
@@ -271,7 +271,7 @@ export const TOUR: Tour = {
     {
       title: "Manzikert",
       date: "1071",
-      text: "Romanos IV marched east to deal with the Seljuk Turks. Some sources give him 300,000 men, and modern historians prefer 60,000 to 70,000. In August 1071 he met Sultan Alp Arslan near Manzikert in Armenia. A rumour of the emperor's death caused panic, and Romanos, his horse killed under him, was taken prisoner. The sultan treated him well, and terms were agreed: 1.5 million gold coins and 360,000 a year. Many historians now argue this was no military catastrophe, since much of the army got away. The catastrophe came afterwards. A rival took the throne as Michael VII, Romanos was blinded, and civil war left Asia Minor open. By about 1078 the Sultanate of Rum had formed there.",
+      text: "Romanos IV marched east to deal with the Seljuk Turks. Some sources give him 300,000 men, and modern estimates run from about 40,000 to 70,000. In August 1071 he met Sultan Alp Arslan near Manzikert in Armenia. A rumour of the emperor's death caused panic, and Romanos, his horse killed under him, was taken prisoner. The sultan treated him well, and terms were agreed: 1.5 million gold coins and 360,000 a year. Many historians now argue this was no military catastrophe, since much of the army got away. The catastrophe came afterwards. A rival took the throne as Michael VII, Romanos was blinded, and civil war left Asia Minor open. By about 1078 the Sultanate of Rum had formed there.",
       mapState: { year: 1071, mapYear: 1100, lat: 39.5, lng: 35, zoom: 4.2 },
       highlight: ["Byzantine Empire", "Seljuk Empire"],
       markers: [
@@ -320,7 +320,7 @@ export const TOUR: Tour = {
         { label: "Loot carried to Venice", kind: "raid", path: [[28.9, 40.97], [27.5, 40.7], [26.1, 39.9], [25.5, 39], [24.5, 37.2], [23, 36.2], [21, 37.5], [19.2, 39.8], [18.8, 41.5], [15.5, 43.2], [13.6, 44.6], [12.4, 45.35]] },
         { label: "The Byzantines in exile", kind: "retreat", path: [[29, 40.95], [29.3, 40.7], [29.7, 40.45]] },
       ],
-      fact: "Relics scattered across Europe. A gold reliquary holding a fragment of the True Cross, taken in the sack, ended up in the cathedral of Limburg in Germany, far from the city that had guarded it.",
+      fact: "Relics scattered across Europe. A gilded reliquary holding fragments of the True Cross, probably taken in the sack, ended up at Limburg in Germany, far from the city that had guarded it.",
       readMore: ["/event/fourth-crusade", "/place/republic-of-venice", "/history-of/venice"],
     },
     {
@@ -372,11 +372,11 @@ export const TOUR: Tour = {
         { label: "Scholars and manuscripts move west", kind: "spread", path: [[28.9, 40.97], [26.1, 39.9], [25.5, 39], [24.5, 37.2], [23, 36.2], [21, 37.5], [19.2, 39.8], [18.8, 41.5], [15.5, 43.2], [13.6, 44.6], [12.4, 45.35]] },
         { label: "Plethon's remains go to Rimini, 1466", kind: "voyage", path: [[22.37, 36.9], [21, 37.2], [19.2, 39.8], [18.8, 41.5], [15.5, 43.2], [12.7, 44.1]] },
       ],
-      fact: "In 1466 Italian admirers led by Sigismondo Malatesta took the bones of Plethon from Mistra, by then in Ottoman hands, and reburied them in the Tempio Malatestiano at Rimini.",
+      fact: "In the mid-1460s Sigismondo Malatesta, fighting the Ottomans for Venice around Mistra, took Plethon's bones and reburied them in the Tempio Malatestiano at Rimini.",
       readMore: ["/event/italian-renaissance", "/place/republic-of-venice", "/history-of/florence", "/culture/renaissance"],
     },
     {
-      title: "The Name They Never Used",
+      title: "The Name That Came Later",
       date: "1472–today",
       text: "The empire had many heirs. In 1472 Ivan III of Moscow married Sophia Palaiologina of the imperial family, and in the 1520s the monk Philotheus wrote that two Romes had fallen, a third stood, and there would be no fourth. The patriarch stayed in Constantinople, and he is still first among equals in a faith that Pew counted at nearly 260 million in 2017. Hagia Sophia became a museum in 1935 and a mosque again in 2020. The label came last. In 1557 the German scholar Hieronymus Wolf published a collection of sources under a Byzantine title, and the word slowly caught on. Greeks under the Ottomans were still called Romans. Byzantines is what we say. Romans is what they said.",
       mapState: { year: 2000, mapYear: 1985, lat: 45, lng: 30, zoom: 3.2 },

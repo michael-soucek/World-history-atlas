@@ -85,7 +85,7 @@ export const TOUR: Tour = {
     {
       title: "Nara and the Great Buddha",
       date: "710–784",
-      text: "In 710 the court settled at Heijō-kyō, today's Nara, on a grid modelled on Chang'an, the capital of Tang China. Here Japan began writing down its own past: the Kojiki in 712, the Nihon Shoki in 720, and later the Man'yōshū, about 4,500 poems. Then smallpox struck in 735 and 737, killing by one estimate 25 to 35 per cent of the people. Emperor Shōmu turned to the Buddha. He ordered a seated bronze figure about 15 metres high, weighing some 500 tons and covered in gold newly found in Mutsu. When the temple of Tōdai-ji opened in 752, about 10,000 people attended, among them monks from China and India. In 784 the court left Nara, and ten years later it found a new home.",
+      text: "In 710 the court settled at Heijō-kyō, today's Nara, on a grid modelled on Chang'an, the capital of Tang China. Here Japan began writing down its own past: the Kojiki in 712, the Nihon Shoki in 720, and later the Man'yōshū, about 4,500 poems. Then smallpox struck in 735 and 737, killing by one estimate 25 to 35 per cent of the people. Emperor Shōmu turned to the Buddha. He ordered a seated bronze figure about 15 metres high, weighing some 500 tons and covered in gold newly found in Mutsu. When the temple of Tōdai-ji opened in 752, about 10,000 monks attended, among them visitors from China and India. In 784 the court left Nara, and ten years later it found a new home.",
       mapState: { year: 752, mapYear: 800, lat: 35, lng: 125, zoom: 3.8 },
       highlight: ["Japan"],
       markers: [
@@ -152,7 +152,7 @@ export const TOUR: Tour = {
         { label: "Invasion fleet from Korea, 1274 and 1281", kind: "conquest", path: [[128.57, 35.15], [129, 34.8], [129.4, 34.1], [129.8, 33.85], [130.35, 33.7]] },
         { label: "Southern fleet, 1281 (route approximate)", kind: "conquest", path: [[122, 29.9], [125, 30.8], [128, 32.4], [129.6, 33.3]] },
       ],
-      fact: "In 2011 stoneware bombs were excavated from a wreck at Takashima, and X-rays showed gunpowder and scrap iron inside. Rough two-stone anchors there suggest how fast the fleet was thrown together.",
+      fact: "Stoneware bombs have been raised from wrecks at Takashima, and X-rays showed gunpowder and iron shrapnel inside. Rough two-stone anchors there suggest how fast the fleet was thrown together.",
       people: ["kublai-khan"],
       readMore: ["/event/mongol-invasions-of-japan", "/place/kamakura-shogunate", "/place/mongol-empire"],
     },
@@ -176,7 +176,7 @@ export const TOUR: Tour = {
     {
       title: "A Bridge Between Nations",
       date: "1429–1500s",
-      text: "South of Kyushu lay a separate kingdom. Okinawa was split among three rival realms until Shō Hashi conquered the last of them in 1429, uniting the island and building his capital at Shuri. Ties to China ran deep. The Ming had accepted the island as a tributary in 1372, and in 1392 they sent 36 families from Fujian to manage its sea affairs. For nearly two centuries Ryukyu's ships linked China, Japan and Korea with Siam, Java, Malacca, Sumatra and Luzon. In 1458 a great bell was hung in the main hall of Shuri Castle. Its inscription calls the kingdom a splendid place in the South Seas, a bridge between all nations. The original survives in the Okinawa Prefectural Museum.",
+      text: "South of Kyushu lay a separate kingdom. Okinawa was split among three rival realms until Shō Hashi conquered the last of them in 1429, uniting the island and building his capital at Shuri. Ties to China ran deep. The Ming had accepted the island as a tributary in 1372, and by tradition in 1392 they sent 36 families from Fujian to manage its sea affairs. For nearly two centuries Ryukyu's ships linked China, Japan and Korea with Siam, Java, Malacca, Sumatra and Luzon. In 1458 a great bell was hung in the main hall of Shuri Castle. Its inscription calls the kingdom a splendid place in the South Seas, a bridge between all nations. The original survives in the Okinawa Prefectural Museum.",
       mapState: { year: 1450, mapYear: 1492, lat: 20, lng: 118, zoom: 3.2 },
       markers: [
         { label: "Shuri, capital from 1429", at: [127.72, 26.22] },
@@ -214,7 +214,7 @@ export const TOUR: Tour = {
     {
       title: "Three Men End the Wars",
       date: "1568–1615",
-      text: "Three men ended the fighting. Oda Nobunaga seized Kyoto in 1568, burned the monasteries of Mount Hiei in 1571, and at Nagashino in 1575 used about 3,000 gunners to defeat the Takeda. A vassal turned on him at Honnō-ji temple in 1582, and he died there. Toyotomi Hideyoshi, born to peasants, took Odawara in 1590, removing the last great obstacle. He then sent armies into Korea in 1592 and 1597. Both campaigns failed as supplies ran short and Yi Sun-sin's fleet won key battles. After Hideyoshi's death in 1598, Tokugawa Ieyasu won the great battle of Sekigahara in October 1600 and became shogun in 1603. At Osaka in 1615 he finished Hideyoshi's heir.",
+      text: "Three men ended the fighting. Oda Nobunaga seized Kyoto in 1568, burned the monasteries of Mount Hiei in 1571, and at Nagashino in 1575 used massed gunners, perhaps 1,000 to 3,000, to defeat the Takeda. A vassal turned on him at Honnō-ji temple in 1582, and he died there. Toyotomi Hideyoshi, born to peasants, took Odawara in 1590, removing the last great obstacle. He then sent armies into Korea in 1592 and 1597. Both campaigns failed against Ming armies, Korean militias and Yi Sun-sin's fleet, as supplies ran short. After Hideyoshi's death in 1598, Tokugawa Ieyasu won the great battle of Sekigahara in October 1600 and became shogun in 1603. At Osaka in 1615 he finished Hideyoshi's heir.",
       mapState: { year: 1600, lat: 35, lng: 132.5, zoom: 4.6 },
       highlight: ["Japan (Warring States)"],
       markers: [
@@ -234,7 +234,7 @@ export const TOUR: Tour = {
     {
       title: "The Tokugawa Peace",
       date: "1603–1639",
-      text: "Ieyasu kept his headquarters at Edo, and his family's rule brought about 250 years of peace. From 1635 great lords had to spend alternate years in the city, with their vassals and goods behind them. The shogun Iemitsu banned Christianity and crushed a large rebellion in Kyushu. Edicts from 1633 to 1639 then shut out most of the world, and the only Europeans left were Dutch traders on Dejima, an artificial island at Nagasaki. Yet Japan was never sealed. Chinese ships still called at Nagasaki. Tsushima dealt with Korea, Matsumae with the Ainu, and Satsuma with Ryukyu, which it had invaded in 1609, capturing the king. From then on Ryukyu answered to both Japan and China.",
+      text: "Ieyasu kept his headquarters at Edo, and his family's rule brought about 250 years of peace. From 1635 great lords had to spend alternate years in the city, with their vassals and goods behind them. Christianity, banned in 1614, was crushed under Iemitsu, along with a large rebellion in Kyushu. Edicts from 1633 to 1639 shut out most of the world, and the only Europeans left were Dutch traders on Dejima, an artificial island at Nagasaki. Yet Japan was never sealed. Chinese ships still called at Nagasaki. Tsushima dealt with Korea, Matsumae with the Ainu, and Satsuma with Ryukyu, which it had invaded in 1609, capturing the king. From then on Ryukyu answered to both Japan and China.",
       mapState: { year: 1639, mapYear: 1650, lat: 34, lng: 134, zoom: 4.2 },
       highlight: ["Tokugawa shogunate"],
       markers: [
@@ -311,7 +311,7 @@ export const TOUR: Tour = {
     {
       title: "Revolution in the Emperor's Name",
       date: "1868–1889",
-      text: "In January 1868 Satsuma and Chōshū took the palace in Kyoto and declared imperial rule restored. The Boshin War ended at Hakodate in June 1869, and Edo became Tokyo. What followed remade the country. The 302 domains became 72 prefectures. Conscription from 1873 called up every man. Samurai lost their stipends and the right to show their rank with a sword, and Saigō Takamori's Satsuma Rebellion of 1877 was put down by the new army. An embassy led by Iwakura Tomomi spent nearly two years studying America and Europe. Trains ran from Tokyo to Yokohama from 14 October 1872, with the emperor aboard on opening day. A constitution followed in 1889. All this came within about twenty years.",
+      text: "In January 1868 Satsuma and Chōshū took the palace in Kyoto and declared imperial rule restored. The Boshin War ended at Hakodate in June 1869, and Edo became Tokyo. What followed remade the country. The 261 domains became prefectures, soon merged into 72 plus three cities. Conscription from 1873 made men of all classes liable, with many exemptions. Samurai lost their stipends and the right to show their rank with a sword, and Saigō Takamori's Satsuma Rebellion of 1877 was put down by the new army. An embassy led by Iwakura Tomomi spent nearly two years studying America and Europe. Trains ran from Tokyo to Yokohama from 14 October 1872, with the emperor aboard on opening day. A constitution followed in 1889. All this came within about twenty years.",
       mapState: { year: 1870, mapYear: 1880, lat: 37.5, lng: 142, zoom: 4.2 },
       highlight: ["Imperial Japan"],
       markers: [
@@ -331,7 +331,7 @@ export const TOUR: Tour = {
     {
       title: "The New Borders",
       date: "1869–1899",
-      text: "The new state drew its lines hard. In 1869 it renamed Ezochi as Hokkaido, making it part of Japan by its own decision, and banned the Ainu language and way of life. Land and resources were taken and sold. Salmon fishing and deer hunting were forbidden, and some Ainu did not have enough to eat. A treaty with Russia in 1875 traded Sakhalin for the Kurils, and Ainu from both were forcibly relocated. Many died. In the far south, Japan abolished the Ryukyu domain in 1879 and created Okinawa Prefecture. The last king, Shō Tai, was forced to abdicate and relocate to Tokyo. An act of 1899 offered Ainu farmland and pushed assimilation, and schools forbade the Ainu language.",
+      text: "The new state drew its lines hard. In 1869 it renamed Ezochi as Hokkaido, making it part of Japan by its own decision, and began banning the Ainu language and way of life. Land and resources were taken and sold. Salmon fishing and deer hunting were forbidden, and some Ainu did not have enough to eat. A treaty with Russia in 1875 traded Sakhalin for the Kurils, and Ainu from both were forcibly relocated. Many died. In the far south, Japan abolished the Ryukyu domain in 1879 and created Okinawa Prefecture. The last king, Shō Tai, was forced to abdicate and relocate to Tokyo. An act of 1899 offered Ainu farmland and pushed assimilation, and schools forbade the Ainu language.",
       mapState: { year: 1879, mapYear: 1880, lat: 37, lng: 136, zoom: 3.8 },
       highlight: ["Imperial Japan"],
       markers: [
@@ -350,7 +350,7 @@ export const TOUR: Tour = {
     {
       title: "Empire",
       date: "1894–1937",
-      text: "Japan now looked outward. War with China in 1894 and 1895 left Taiwan and the Penghu Islands in Japanese hands. In 1904 Japan attacked Russia's fleet at Port Arthur, and the 1905 peace gave it control of Korea, much of South Manchuria and southern Sakhalin. Korea was annexed in 1910. Later, Koreans were pressed to give up their names, many were moved for war work in very poor conditions, and women and girls were forced into sexual slavery. In 1931 Japan used a railway blast near Mukden to justify invading Manchuria. Full-scale war with China began in 1937. At Nanjing that December, Japanese troops massacred civilians and prisoners.",
+      text: "Japan now looked outward. War with China in 1894 and 1895 left Taiwan and the Penghu Islands in Japanese hands. In 1904 Japan attacked Russia's fleet at Port Arthur, and the 1905 peace gave it control of Korea, much of South Manchuria and southern Sakhalin. Korea was annexed in 1910. Later, Koreans were pressed to give up their names, many were moved for war work in very poor conditions, and women and girls were forced into sexual slavery. In 1931 Japanese officers staged a railway blast near Mukden to justify invading Manchuria. Full-scale war with China began in 1937. At Nanjing that December, Japanese troops massacred civilians and prisoners.",
       mapState: { year: 1937, mapYear: 1938, lat: 35, lng: 125, zoom: 3.4 },
       highlight: ["Empire of Japan"],
       markers: [

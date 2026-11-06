@@ -94,13 +94,13 @@ export const TOUR: Tour = {
         { label: "Maize moves north", kind: "spread", path: [[-101, 21], [-105, 27], [-110, 33]] },
         { label: "To the eastern woodlands", kind: "spread", path: [[-108, 34], [-100, 36], [-90.5, 38.5]] },
       ],
-      fact: "Stone milling tools from a cave near Iguala in Guerrero still hold maize residue. They date to about 8,700 years ago, close to the very beginning of the crop.",
+      fact: "Stone milling tools from a rock shelter near Iguala in Guerrero still hold maize residue. They date to about 8,700 years ago, close to the very beginning of the crop.",
       readMore: ["/site/cahokia", "/culture/mississippian-culture", "/country/mexico"],
     },
     {
       title: "Island by Island",
       date: "c. 4000 BCE–1400 CE",
-      text: "The Caribbean was settled twice, and from different directions. The first people boated to Cuba about 6,000 years ago, carrying stone tools, and slowly spread east. Where they started is unclear, though artefacts from Belize hint at Central America. Then, some 2,500 to 3,000 years ago, farmers and potters related to Arawak speakers arrived. Ancient DNA traces them from the interior of north-east South America down the Orinoco to the Venezuelan coast. From there they went north, settled Puerto Rico and spread west. The Taíno descended from these farmers. They grew cassava and paddled dugouts that could hold over a hundred people. Pottery styles kept changing, but the DNA shows no new migration behind them. Only the fashions moved.",
+      text: "The Caribbean was settled twice, and from different directions. The first people boated to Cuba about 6,000 years ago, carrying stone tools, and slowly spread east. Where they started is unclear, though artefacts from Belize hint at Central America. Then, some 2,500 to 3,000 years ago, farmers and potters related to Arawak speakers arrived. They seem to have come from the interior of north-east South America, down the Orinoco to the Venezuelan coast. From there they went north, settled Puerto Rico and spread west. The Taíno descended from these farmers. They grew cassava and paddled dugouts that could hold over a hundred people. Pottery styles kept changing, but the DNA shows no new migration behind them. Only the fashions moved.",
       mapState: { year: 1000, lat: 17, lng: -72, zoom: 3.8 },
       highlight: ["Taino", "Arawaks", "Caribbean hunter-gatherers"],
       markers: [
@@ -173,10 +173,10 @@ export const TOUR: Tour = {
     {
       title: "The Great Dying",
       date: "1493–c. 1600",
-      text: "Disease crossed with the ships. Influenza struck La Isabela in 1493, and smallpox broke out on Hispaniola in 1518. People in the Americas had never met these infections, and epidemics came in wave after wave. War, enslavement and hunger followed them. Nobody counted the dead, so all figures are estimates. A 2019 University College London study pooled 119 regional estimates and reached about 60 million people in 1492, with a middle range of 45 to 78 million. Its authors concluded that about 90 per cent were gone within a century. Local numbers can be far smaller: DNA suggests 10,000 to 50,000 people lived on Hispaniola and Puerto Rico before Columbus. As one geneticist said, that makes the loss no less terrible.",
+      text: "Disease crossed with the ships. An epidemic, perhaps influenza, struck La Isabela in 1493, and smallpox broke out on Hispaniola in 1518. People in the Americas had never met these infections, and epidemics came in wave after wave. War, enslavement and hunger followed them. Nobody counted the dead, so all figures are estimates. A 2019 University College London study pooled 119 regional estimates and reached about 60 million people in 1492, with a middle range of 45 to 78 million. Its authors concluded that about 90 per cent were gone within a century. Local numbers can be far smaller: DNA suggests 10,000 to 50,000 people lived on Hispaniola and Puerto Rico before Columbus. As one geneticist said, that does not make the erasure less significant.",
       mapState: { year: 1530, lat: 8, lng: -80, zoom: 2 },
       markers: [
-        { label: "Hispaniola: influenza 1493, smallpox 1518", at: [-70.5, 19] },
+        { label: "Hispaniola: epidemic, 1493, smallpox 1518", at: [-70.5, 19] },
       ],
       routes: [
         { label: "Epidemics spread", kind: "plague", path: [[-70.5, 19], [-79, 20], [-87, 20], [-96, 19.5], [-99.1, 19.4]] },
@@ -246,7 +246,7 @@ export const TOUR: Tour = {
     {
       title: "The Trail of Tears",
       date: "1830–1850",
-      text: "In 1830 the United States passed the Indian Removal Act, for moving nations of the South-East west of the Mississippi. The Choctaw went first, from late 1831. Most Muscogee Creeks had been taken by 1836, many in chains, and the Chickasaw by the end of 1837. Some 4,000 Seminoles were deported by 1842 after years of war. The Cherokee had a constitution, courts and a newspaper, and in 1832 the Supreme Court upheld their land rights. It did not save them. In 1838, 7,000 soldiers drove families into camps, and about 15,000 were forced out. The park service says many hundreds died; other estimates reach 4,000 or more. Some 60,000 people were removed in all.",
+      text: "In 1830 the United States passed the Indian Removal Act, for moving nations of the South-East west of the Mississippi. The Choctaw went first, from late 1831. Most Muscogee Creeks had been taken by 1836, many in chains, and the Chickasaw from 1837 into the 1840s. Some 4,000 Seminoles were deported by 1842 after years of war. The Cherokee had a constitution, courts and a newspaper, and in 1832 the Supreme Court upheld their land rights. It did not save them. In 1838, 7,000 soldiers drove families into camps, and about 15,000 were forced out. The park service says many hundreds died; other estimates reach 4,000 or more. Some 60,000 people were removed in all.",
       mapState: { year: 1830, mapYear: 1815, lat: 34.5, lng: -89, zoom: 4.3 },
       markers: [
         { label: "Ross's Landing", at: [-85.31, 35.05] },
@@ -279,7 +279,7 @@ export const TOUR: Tour = {
         { label: "Indentured labourers, about three months at sea", kind: "voyage", path: [[88.2, 21], [86, 12], [80, 2], [62, -18], [50, -30], [35, -36], [20, -36.5], [8, -28], [-8, -12], [-28, 2], [-48, 9], [-58, 8]] },
         { label: "On to Trinidad", kind: "voyage", path: [[-58, 8], [-60.5, 10], [-61.2, 11]] },
       ],
-      fact: "Indians were 42 per cent of Guyana's people in 1917 and about 43 per cent in the 2001 census. In Trinidad and Tobago's 2011 census they were the largest group, at about 35 per cent.",
+      fact: "Indians were 42 per cent of Guyana's people in 1917 and about 43 per cent in the 2002 census. In Trinidad and Tobago's 2011 census they were the largest group, at about 35 per cent.",
       readMore: ["/country/guyana", "/country/trinidad-and-tobago", "/event/slavery-abolition-act-1833"],
       image: false,
     },
@@ -327,7 +327,7 @@ export const TOUR: Tour = {
     {
       title: "South Across the Atlantic",
       date: "1857–1930",
-      text: "Many Europeans chose the southern half of the Americas. Between 1857 and 1920 Argentina took in about 5.2 million arrivals, some 45 per cent Italian and 31 per cent Spanish, though nearly half of all its immigrants later left. By 1914 almost 30 per cent of Argentines were foreign-born, twice the share in the United States. In Buenos Aires it was over 52 per cent. The city's Hotel de Inmigrantes, built in 1906, could house 4,000 at a time. In Brazil the coffee planters of São Paulo, short of workers as the internal slave trade dried up, pressed for migrants. More than a million Italians arrived between 1884 and 1903, until Italy banned subsidised emigration to Brazil in 1902.",
+      text: "Many Europeans chose the southern half of the Americas. Between 1857 and 1920 Argentina took in about 5.2 million immigrants, some 45 per cent Italian and 31 per cent Spanish, though nearly half of all its immigrants later left. By 1914 almost 30 per cent of Argentines were foreign-born, twice the share in the United States. In Buenos Aires it was about half. The city's Hotel de Inmigrantes, opened in 1911, could house about 3,000 at a time. In Brazil the coffee planters of São Paulo, short of workers as the internal slave trade dried up, pressed for migrants. More than a million Italians arrived in the two decades before Italy banned subsidised emigration to Brazil in 1902.",
       mapState: { year: 1900, lat: 5, lng: -25, zoom: 1.8 },
       highlight: ["Argentina", "Brazil"],
       markers: [
@@ -341,14 +341,14 @@ export const TOUR: Tour = {
         { label: "Italians to Santos", kind: "voyage", path: [[-37, -18], [-41, -23.5], [-46, -24.5]] },
         { label: "From northern Spain", kind: "voyage", path: [[-9, 42], [-11, 37], [-13, 30]] },
       ],
-      fact: "In 1914 Buenos Aires was more foreign-born than almost any city in the Americas. Economic historians say the only place that topped its 52 per cent was Winnipeg, on the Canadian prairie.",
+      fact: "In 1914 Buenos Aires was more foreign-born than almost any city in the Americas. Economic historians say only Winnipeg, on the Canadian prairie, topped it.",
       readMore: ["/place/argentina", "/history-of/buenos-aires", "/place/empire-of-brazil"],
       image: false,
     },
     {
       title: "Through the Golden Door",
       date: "1892–1924",
-      text: "The greatest stream still ran to the United States. Famine had already sent the Irish, and after 1880 more than 23 million people immigrated within 50 years. Italians numbered 5.3 million between 1880 and 1920, and about half went home. Over two million Jews left the Russian Empire, fleeing pogroms, and about nine in ten stayed. On 1 January 1892 Ellis Island opened in New York harbour. A teenager from County Cork was first through. More than 12 million people would pass through, and more than half of all arrivals from 1892 to 1924 used it. Canada had its own record year in 1913, with 400,810 newcomers. Then the door swung shut, as the 1924 Immigration Act imposed quotas by nationality.",
+      text: "The greatest stream still ran to the United States. Famine had already sent the Irish, and after 1880 more than 23 million people immigrated within 50 years. Italians numbered about four million between 1880 and 1920, and about half went home. Over two million Jews left the Russian Empire, driven by poverty, family networks and pogroms, and about nine in ten stayed. On 1 January 1892 Ellis Island opened in New York harbour. A teenager from County Cork was first through. More than 12 million people would pass through, and more than half of all arrivals from 1892 to 1924 used it. Canada had its own record year in 1913, with 400,810 newcomers. Then the door swung shut, as laws of 1921 and 1924 imposed quotas by nationality.",
       mapState: { year: 1900, lat: 44, lng: -32, zoom: 2.3 },
       highlight: ["United States of America"],
       markers: [
@@ -389,7 +389,7 @@ export const TOUR: Tour = {
     {
       title: "North, South and In Between",
       date: "1942–2020s",
-      text: "After 1942 much of the movement ran within the Americas. The Bracero Program gave contracts to about 4.6 million Mexican workers up to 1964. Puerto Ricans, already US citizens, took six-hour flights, and New York's Puerto Rican population grew to nearly 900,000 by the mid-1960s. About 250,000 Cubans left between 1959 and 1962. A 1965 US law ended national origin quotas and set the first limit on the Western Hemisphere. Mexicans in the United States numbered under a million in 1970 and peaked at 12.8 million in 2007. South America had its own currents: Argentina's 2022 census counted over 522,000 Paraguayans. In 2026 governments in Latin America and the Caribbean reported nearly seven million Venezuelan refugees and migrants.",
+      text: "After 1942 much of the movement ran within the Americas. The Bracero Program issued about 4.6 million contracts to some 2.2 million Mexican workers up to 1964. Puerto Ricans, already US citizens, took six-hour flights, and New York's Puerto Rican population grew to nearly 900,000 by the mid-1960s. About 250,000 Cubans left between 1959 and 1962. A 1965 US law ended national origin quotas and set the first limit on the Western Hemisphere. Mexicans in the United States numbered under a million in 1970 and peaked at 12.8 million in 2007. South America had its own currents: Argentina's 2022 census counted over 522,000 Paraguayans. In 2026 governments in Latin America and the Caribbean reported nearly seven million Venezuelan refugees and migrants.",
       mapState: { year: 1985, lat: 10, lng: -82, zoom: 2.1 },
       markers: [
         { label: "New York", at: [-74, 40.71] },
@@ -412,7 +412,7 @@ export const TOUR: Tour = {
     {
       title: "Still Here",
       date: "1950–today",
-      text: "The people who came first are on the move as well. Between 1950 and 1968 the United States relocated over 200,000 Native people to cities such as Chicago, Denver, Los Angeles and Minneapolis. In 1940 only 8 per cent of American Indians and Alaska Natives lived in metropolitan areas. Now more than seven in ten do. In 2020 the census counted 9.7 million people who named that heritage, alone or in combination, and Cherokee was the largest group among them. The removed nations endure in Oklahoma and their old homelands. Inuit, direct descendants of the Thule, live across the Arctic those travellers crossed. Their descendants live across both continents, and the first families' road runs back to Beringia.",
+      text: "The people who came first are on the move as well. Between 1950 and 1968 almost 200,000 Native people moved, many under federal relocation, to cities such as Chicago, Denver, Los Angeles and Minneapolis. In 1940 only 8 per cent of American Indians and Alaska Natives lived in metropolitan areas. Now more than seven in ten do. In 2020 the census counted 9.7 million people who named that heritage, alone or in combination, and Cherokee was the largest group among them. The removed nations endure in Oklahoma and their old homelands. Inuit, direct descendants of the Thule, live across the Arctic those travellers crossed. Descendants of the first peoples live across both continents, and the first families' road runs back to Beringia.",
       mapState: { year: 2000, lat: 45, lng: -100, zoom: 2.6 },
       markers: [
         { label: "Tahlequah, Cherokee Nation", at: [-94.97, 35.91] },
