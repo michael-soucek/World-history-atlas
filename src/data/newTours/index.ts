@@ -1,4 +1,10 @@
 import type { Tour } from "@/data/tours";
+import { TOUR as ancientEgypt } from "./ancient-egypt";
+import { TOUR as empiresOfPersia } from "./empires-of-persia";
+import { TOUR as historyOfJapan } from "./history-of-japan";
+import { TOUR as byzantineEmpire } from "./byzantine-empire";
+import { TOUR as peoplingOfTheAmericas } from "./peopling-of-the-americas";
+import { TOUR as migrationsOfAsia } from "./migrations-of-asia";
 import { TOUR as riseAndFallOfRome } from "./rise-and-fall-of-rome";
 import { TOUR as silkRoad } from "./silk-road";
 import { TOUR as ageOfDiscovery } from "./age-of-discovery";
@@ -51,7 +57,7 @@ import { TOUR as unificationOfItalyAndGermany } from "./unification-of-italy-and
 import { TOUR as vietnamWars } from "./vietnam-wars";
 
 /** Tours added 2026-10-31: wars, empires, eras and journeys, each in its own file. */
-export const NEW_TOURS: Tour[] = [migrationsOfEurope, americanCivilWar, ancientGreece, britishEmpire, europeThroughHistory, fallOfCommunism, greatTravellers, hundredYearsWar, koreanWar, riseOfRussia, scrambleForAfrica, spanishEmpire, thirtyYearsWar, unificationOfItalyAndGermany, vietnamWars];
+export const NEW_TOURS: Tour[] = [ancientEgypt, empiresOfPersia, historyOfJapan, byzantineEmpire, peoplingOfTheAmericas, migrationsOfAsia, migrationsOfEurope, americanCivilWar, ancientGreece, britishEmpire, europeThroughHistory, fallOfCommunism, greatTravellers, hundredYearsWar, koreanWar, riseOfRussia, scrambleForAfrica, spanishEmpire, thirtyYearsWar, unificationOfItalyAndGermany, vietnamWars];
 
 /** The first tours, once inline in tours.ts. */
 export const CLASSIC_TOURS: Tour[] = [riseAndFallOfRome, silkRoad, ageOfDiscovery, riseOfTheCaliphates, silkRoadAndTrade, chineseDynasties, empiresOfTheAmericas, worldAtWar, endOfEmpires, kingdomsOfAfrica, empiresOfIndia, cradleOfCivilization, coldWar, worldReligions, ageOfRevolutions];

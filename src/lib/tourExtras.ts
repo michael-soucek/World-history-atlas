@@ -18,7 +18,7 @@ const PICTURE_ORDER = ["event", "site", "person", "culture", "place"];
  * tour is already a map; most PNGs on Commons are drawings), and photos that suit their own page but mislead beside a
  * stop (corn for the silver trade, a Czech fence for Korea's front line).
  */
-const NOT_FOR_A_STOP = /\.png$|map|territor|extent|timeline|Kalandozasok|Unsplash|VegCorn|Čížov|2017-03-25_and_views_of_Rome|Shona_witch_doctor|Hut_Eastern_Arrernte|Fleckvieh|Mouwahidoune|Willem_Vrelant|Carlo_Buonaparte|Brazilwood|Leopard_africa|^thumbnail\.|Strategic_Situation|Graecia_tempore|Asia_minor_1140|К_ВОПРОСУ|Theodoric_I_by|Battle_of_Franklin|Confederate_Ram|Fortepan/i;
+const NOT_FOR_A_STOP = /\.png$|map|territor|extent|timeline|Kalandozasok|Unsplash|VegCorn|Čížov|2017-03-25_and_views_of_Rome|Shona_witch_doctor|Hut_Eastern_Arrernte|Fleckvieh|Mouwahidoune|Willem_Vrelant|Carlo_Buonaparte|Brazilwood|Leopard_africa|^thumbnail\.|Strategic_Situation|Graecia_tempore|Asia_minor_1140|К_ВОПРОСУ|Theodoric_I_by|Battle_of_Franklin|Confederate_Ram|Fortepan|Mongol_invasions_of_Japan_1274|Yamnaya_Steppe_Pastoralists|Brit_IndianEmpireReligions|British_Indian_Empire_1909|British_Raj_and_surrounding|India-or-British-Raj|South_Vietnam_-_The_final_days/i;
 const fitForStop = (img: { file: string; caption?: string }) => !NOT_FOR_A_STOP.test(img.file) && !/\bmap\b|territory|extent/i.test(img.caption ?? "");
 
 /** Stops in order, so a picture one stop has used isn't shown again further on. */
