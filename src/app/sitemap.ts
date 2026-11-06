@@ -20,6 +20,11 @@ const writtenOn = (kind: ArticleKind, slug: string, fallback: Date) => {
 const BASE = "https://www.bordersoftime.com";
 // Every entity page got its own article (content/articles) on this date.
 const ARTICLES_WRITTEN = new Date("2026-10-22");
+// Every tour was rewritten by 2026-11-02; these came later or changed since.
+const TOURS_ADDED_LATELY = new Set([
+  "ancient-egypt", "empires-of-persia", "history-of-japan", "byzantine-empire",
+  "peopling-of-the-americas", "migrations-of-asia", "migrations-of-europe", "polynesian-voyagers",
+]);
 
 const REGION_SLUGS = [
   "europe", "east-asia", "south-asia", "middle-east",
@@ -44,7 +49,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...(["place", "person", "event", "culture"] as const).map((t) => ({
       url: `${BASE}/browse?type=${t}`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.6,
     })),
-    { url: `${BASE}/tour`,     lastModified: now, changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE}/tour`,     lastModified: new Date("2026-11-06"), changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE}/world-wars`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${BASE}/borders-over-time`, lastModified: new Date("2026-10-21"), changeFrequency: "monthly", priority: 0.8 },
     ...TIMELAPSES.map((t) => ({
@@ -125,7 +130,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const tourRoutes: MetadataRoute.Sitemap = TOURS.map(t => ({
     url: `${BASE}/tour/${t.slug}`,
-    lastModified: now,
+    lastModified: TOURS_ADDED_LATELY.has(t.slug) ? new Date("2026-11-06") : new Date("2026-11-02"),
     changeFrequency: "yearly",
     priority: 0.7,
   }));

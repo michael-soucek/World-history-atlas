@@ -157,7 +157,8 @@ export default async function EntityPage({ content, entry, entityType, baseRoute
               written: ownArticle.written,
               wordCount: articleWordCount(ownArticle),
               citations: ownArticle.sources.map((s) => s.href),
-              about: { "@type": schemaType, name: content.name, url: `https://www.bordersoftime.com/${baseRoute}/${entry.slug}` },
+              // Thing, not Event: Google validates even a nested Event like a concert listing.
+              about: { "@type": schemaType === "Event" ? "Thing" : schemaType, name: content.name, url: `https://www.bordersoftime.com/${baseRoute}/${entry.slug}` },
             })]
           : []),
         breadcrumbLd([["Browse", "/browse"], [TYPE_PLURAL[entityType], browsePath], [content.name, `/${baseRoute}/${entry.slug}`]]),

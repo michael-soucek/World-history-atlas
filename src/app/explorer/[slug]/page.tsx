@@ -74,7 +74,7 @@ export default async function ExplorerPage({ params }: Props) {
         <JsonLd
           data={[
             {
-              "@type": explorer.lifespan.startsWith("Expedition") ? "Event" : "Person",
+              "@type": explorer.lifespan.startsWith("Expedition") ? "Thing" : "Person",
               name: explorer.name,
               description: explorer.tagline,
               url: `${SITE_URL}/explorer/${explorer.slug}`,
@@ -90,7 +90,7 @@ export default async function ExplorerPage({ params }: Props) {
                   written: ownArticle.written,
                   wordCount: articleWordCount(ownArticle),
                   citations: ownArticle.sources.map((s) => s.href),
-                  about: { "@type": explorer.lifespan.startsWith("Expedition") ? "Event" : "Person", name: explorer.name, url: `${SITE_URL}/explorer/${explorer.slug}` },
+                  about: { "@type": explorer.lifespan.startsWith("Expedition") ? "Thing" : "Person", name: explorer.name, url: `${SITE_URL}/explorer/${explorer.slug}` },
                 })]
               : []),
             breadcrumbLd([["Age of Exploration", "/theme/age-of-exploration"], [explorer.name, `/explorer/${explorer.slug}`]]),
