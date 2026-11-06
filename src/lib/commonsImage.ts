@@ -29,3 +29,11 @@ export function commonsThumb(file: string, width = 1280): string {
   const ext = /\.svg$/i.test(name) ? ".png" : /\.tiff?$/i.test(name) ? ".jpg" : "";
   return `https://upload.wikimedia.org/wikipedia/commons/thumb/${md5[0]}/${md5.slice(0, 2)}/${enc}/${width}px-${enc}${ext}`;
 }
+
+/** Commons author strings often repeat the name or carry a "(talk)" link: tidy them for a credit line. */
+export function cleanAuthor(a?: string): string | undefined {
+  if (!a) return undefined;
+  const t = a.replace(/\(\s*talk[^)]*\)/gi, "").replace(/\s+/g, " ").trim();
+  const half = t.slice(0, t.length / 2).trim();
+  return t === `${half} ${half}` ? half : t;
+}

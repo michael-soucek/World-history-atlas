@@ -2,7 +2,7 @@
 
 import { useRef } from "react";
 import { Expand, X } from "lucide-react";
-import { commonsSrcSet } from "@/lib/commonsImage";
+import { cleanAuthor, commonsSrcSet } from "@/lib/commonsImage";
 
 /** One image as shown in an article — from the vetted gallery or the page's hero. */
 export interface ArticleImageData {
@@ -22,13 +22,6 @@ function largeUrl(thumb: string): string {
 }
 
 /** Commons author strings can carry wiki chrome ("talk · contribs") and doubled names. */
-function cleanAuthor(a?: string): string | undefined {
-  if (!a) return undefined;
-  const t = a.replace(/\(\s*talk[^)]*\)/gi, "").replace(/\s+/g, " ").trim();
-  const half = t.slice(0, t.length / 2).trim();
-  return t === `${half} ${half}` ? half : t;
-}
-
 function Credit({ img: raw, className = "" }: { img: ArticleImageData; className?: string }) {
   const img = { ...raw, author: cleanAuthor(raw.author) };
   if (!img.license && !img.author) return null;
