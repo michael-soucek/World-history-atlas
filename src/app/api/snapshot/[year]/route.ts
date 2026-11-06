@@ -3,10 +3,10 @@ import { applyBorderFixes, type FeatureCollection } from "@/lib/borderFixes";
 import { buildManifest, stateIndexForYear } from "@/app/api/manifest/route";
 import { enrichBorderProps, type RawProperties } from "@/lib/geoEnrich";
 
-import { packJson, roundGeometry, sendJson, type PackedJson } from "@/lib/geoResponse";
+import { roundGeometry, sendJson } from "@/lib/geoResponse";
 
-// Server-side in-memory cache: stateTileKey (+ "lite") → packed JSON
-const borderCache = new Map<string, PackedJson>();
+// Server-side in-memory cache: stateTileKey (+ "lite") → JSON string
+const borderCache = new Map<string, string>();
 
 /** Coordinate precision: ~100 m for the atlas, ~1 km for the homepage preview. */
 const DIGITS = 3;
@@ -38,7 +38,7 @@ export async function GET(
     const lite = req.nextUrl.searchParams.get("lite") === "1";
     const cacheKey = `${state.validFrom}:${state.validTo}:${snapshot.snapshotYear}${lite ? ":lite" : ""}`;
     const hit = borderCache.get(cacheKey);
-    if (hit) return sendJson(req, hit);
+    if (hit) return sendJson(hit);
 
     const upstream = await fetch(new URL(snapshot.rawUrl, req.url), {
       headers: { "User-Agent": "WorldHistoryAtlas/1.0" },
@@ -91,9 +91,9 @@ export async function GET(
       }),
     };
 
-    const packed = packJson(enriched);
+    const packed = JSON.stringify(enriched);
     borderCache.set(cacheKey, packed);
-    return sendJson(req, packed);
+    return sendJson(packed);
   } catch (err) {
     console.error(`[snapshot] year=${year}`, err);
     return NextResponse.json({ error: "Failed to fetch snapshot" }, { status: 500 });

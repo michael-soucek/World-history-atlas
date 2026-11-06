@@ -4,10 +4,10 @@ import { buildManifest, stateIndexForYear } from "@/app/api/manifest/route";
 import { geometryArea, normaliseSovereign, type RawProperties } from "@/lib/geoEnrich";
 import polylabel from "polylabel";
 
-import { packJson, sendJson, type PackedJson } from "@/lib/geoResponse";
+import { sendJson } from "@/lib/geoResponse";
 
 // Server-side in-memory cache: stateTileKey → packed labels JSON
-const labelCache = new Map<string, PackedJson>();
+const labelCache = new Map<string, string>();
 
 // ── Geometry helpers ───────────────────────────────────────────────────────
 
@@ -90,7 +90,7 @@ export async function GET(
 
     const cacheKey = `${state.validFrom}:${state.validTo}:${snapshot.snapshotYear}`;
     const hit = labelCache.get(cacheKey);
-    if (hit) return sendJson(req, hit);
+    if (hit) return sendJson(hit);
 
     const upstream = await fetch(new URL(snapshot.rawUrl, req.url), {
       headers: { "User-Agent": "WorldHistoryAtlas/1.0" },
@@ -149,9 +149,9 @@ export async function GET(
       sources: state.sources,
       features: labelFeatures,
     };
-    const packed = packJson(geojson);
+    const packed = JSON.stringify(geojson);
     labelCache.set(cacheKey, packed);
-    return sendJson(req, packed);
+    return sendJson(packed);
   } catch (err) {
     console.error(`[labels] year=${year}`, err);
     return NextResponse.json(
