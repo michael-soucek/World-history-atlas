@@ -1,6 +1,7 @@
 "use client";
 
 import "maplibre-gl/dist/maplibre-gl.css";
+import { loadMaplibre } from "@/lib/loadMaplibre";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import type { GeoJSONSource, Map as MapLibreMap } from "maplibre-gl";
@@ -95,7 +96,7 @@ export default function TimelapsePlayer({ slug, label, bbox, tallBbox, from, to,
     const el = box.current!;
     const frame = () => (el.clientWidth < el.clientHeight && tallBbox ? tallBbox : bbox);
     Promise.all([
-      import("maplibre-gl"),
+      loadMaplibre(),
       fetch(`/timelapse-data/${slug}.json`).then((r) => {
         if (!r.ok) throw new Error(`HTTP ${r.status}`);
         return r.json() as Promise<TimelapseData>;

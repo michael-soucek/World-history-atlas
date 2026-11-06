@@ -1,6 +1,7 @@
 "use client";
 
 import "maplibre-gl/dist/maplibre-gl.css";
+import { loadMaplibre } from "@/lib/loadMaplibre";
 import { useEffect, useRef, useState } from "react";
 import type { Map as MapLibreMap, GeoJSONSource } from "maplibre-gl";
 import type { FeatureCollection } from "geojson";
@@ -25,7 +26,7 @@ export default function EmpireMap({ borders, labels, target, reveal }: {
 
   useEffect(() => {
     let disposed = false;
-    import("maplibre-gl").then(({ Map, NavigationControl }) => {
+    loadMaplibre().then(({ Map, NavigationControl }) => {
       if (disposed || !ref.current) return;
       const map = new Map({
         container: ref.current,

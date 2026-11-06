@@ -1,6 +1,7 @@
 "use client";
 
 import "maplibre-gl/dist/maplibre-gl.css";
+import { loadMaplibre } from "@/lib/loadMaplibre";
 import { useEffect, useRef, useState } from "react";
 import type { Map as MapLibreMap, GeoJSONSource } from "maplibre-gl";
 import { BASE_STYLE, EMPTY_FC, FILL_OPACITY } from "@/lib/mapBaseStyle";
@@ -66,7 +67,7 @@ export default function CompareMap({ left, right, view }: { left: number; right:
   // Create both maps once.
   useEffect(() => {
     let disposed = false;
-    import("maplibre-gl").then(({ Map, NavigationControl }) => {
+    loadMaplibre().then(({ Map, NavigationControl }) => {
       if (disposed || !lowerRef.current || !upperRef.current) return;
       const w = lowerRef.current.clientWidth;
       zoomShift.current = w < 640 ? -1.2 : w < 900 ? -0.5 : 0;

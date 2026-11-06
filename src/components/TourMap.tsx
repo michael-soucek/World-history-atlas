@@ -1,6 +1,7 @@
 "use client";
 
 import "maplibre-gl/dist/maplibre-gl.css";
+import { loadMaplibre } from "@/lib/loadMaplibre";
 import { useEffect, useRef, useState } from "react";
 import type { Map as MapLibreMap, GeoJSONSource } from "maplibre-gl";
 import { BASE_STYLE, FILL_OPACITY, TRANSITION_MS, EMPTY_FC } from "@/lib/mapBaseStyle";
@@ -130,7 +131,7 @@ export default function TourMap({
   useEffect(() => {
     if (!containerRef.current || mapRef.current) return;
     let disposed = false;
-    import("maplibre-gl").then(({ Map, NavigationControl }) => {
+    loadMaplibre().then(({ Map, NavigationControl }) => {
       if (disposed || !containerRef.current) return;
       const w = containerRef.current.clientWidth;
       zoomShift.current = w < 640 ? -1.4 : w < 900 ? -0.6 : 0;

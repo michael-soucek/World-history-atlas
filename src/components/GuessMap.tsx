@@ -1,6 +1,7 @@
 "use client";
 
 import "maplibre-gl/dist/maplibre-gl.css";
+import { loadMaplibre } from "@/lib/loadMaplibre";
 import { useEffect, useRef, useState } from "react";
 import type { Map as MapLibreMap } from "maplibre-gl";
 import { BASE_STYLE } from "@/lib/mapBaseStyle";
@@ -41,7 +42,7 @@ export default function GuessMap({ year, view, reveal, hint, onLoaded, onTerrito
 
   useEffect(() => {
     let disposed = false;
-    import("maplibre-gl").then(({ Map, NavigationControl }) => {
+    loadMaplibre().then(({ Map, NavigationControl }) => {
       if (disposed || !ref.current) return;
       const w = ref.current.clientWidth;
       zoomShift.current = w < 640 ? -1 : 0;

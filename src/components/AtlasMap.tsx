@@ -1,6 +1,7 @@
 "use client";
 
 import "maplibre-gl/dist/maplibre-gl.css";
+import { loadMaplibre } from "@/lib/loadMaplibre";
 import { useEffect, useRef, useCallback, useState } from "react";
 import type { Map as MapLibreMap, GeoJSONSource } from "maplibre-gl";
 import { useAtlasStore } from "@/store/atlasStore";
@@ -165,7 +166,7 @@ export default function AtlasMap() {
     // create a MapLibre map in the same container, corrupting mapRef.
     let disposed = false;
 
-    import("maplibre-gl").then(({ Map, NavigationControl }) => {
+    loadMaplibre().then(({ Map, NavigationControl }) => {
       if (disposed || !mapContainerRef.current) return;
       // A link with a view in it (?lat=&lng=&z=, e.g. "Europe in 1914") opens there;
       // otherwise the whole world.

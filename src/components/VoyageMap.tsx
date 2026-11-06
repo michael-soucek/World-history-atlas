@@ -1,6 +1,7 @@
 "use client";
 
 import "maplibre-gl/dist/maplibre-gl.css";
+import { loadMaplibre } from "@/lib/loadMaplibre";
 import { useEffect, useRef, useState } from "react";
 import type {
   Map as MapLibreMap,
@@ -216,7 +217,7 @@ export default function VoyageMap({ voyages, initialVisibleIds, className }: Voy
     if (!containerRef.current || mapRef.current) return;
     let disposed = false;
 
-    import("maplibre-gl").then(({ Map, NavigationControl, Popup }) => {
+    loadMaplibre().then(({ Map, NavigationControl, Popup }) => {
       if (disposed || !containerRef.current) return;
       const map = new Map({
         container: containerRef.current,
