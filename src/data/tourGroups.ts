@@ -52,6 +52,7 @@ export const TOUR_GROUPS: TourGroup[] = [
       "huns-and-the-great-migrations",
       "magyar-journey",
       "viking-voyages",
+      "migrations-of-europe",
     ],
   },
   {
